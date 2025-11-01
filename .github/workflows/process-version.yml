@@ -12,10 +12,6 @@ on:
       device_identifier:
         description: 'Device Identifier (e.g., iPhone16,1)'
         required: true
-      folder_to_extract:
-        description: 'Folder path inside DMG (e.g., System/Library)'
-        required: true
-        default: 'System/Library'
 
 jobs:
   process-ipsw:
@@ -39,7 +35,6 @@ jobs:
       - name: 4. Download IPSW
         run: |
           echo "Downloading full IPSW for iOS ${{ inputs.beta_version }} (${{ inputs.beta_build }}) for device ${{ inputs.device_identifier }}"
-          # Use the appledb command as requested
           ipsw dl appledb --os iOS --version "${{ inputs.beta_version }}" --build "${{ inputs.beta_build }}" --device "${{ inputs.device_identifier }}" --output ./ipsw_files
           
           DOWNLOADED_FILE=$(find ./ipsw_files -name "*.ipsw" | head -n 1)
@@ -55,7 +50,6 @@ jobs:
           echo "Processing file: ${{ env.IPSW_FILE }}"
           
           echo "Extracting filesystem DMG..."
-          # This command extracts the encrypted filesystem DMG from the IPSW
           ipsw extract "${{ env.IPSW_FILE }}" --dmg filesystem --output ./ipsw_files
           FS_DMG_AEA=$(find ./ipsw_files -name "*dmg.aea" | head -n 1)
           if [[ -z "$FS_DMG_AEA" ]]; then
@@ -66,7 +60,6 @@ jobs:
           echo "Found encrypted DMG: $FS_DMG_AEA"
 
           echo "Extracting decryption key..."
-          # This command extracts the AEA key from the IPSW bundle
           ipsw ota aea key "${{ env.IPSW_FILE }}" --output ./ipsw_files
           AEA_KEY=$(find ./ipsw_files -name "*aea.pem" | head -n 1)
           if [[ -z "$AEA_KEY" ]]; then
@@ -97,15 +90,20 @@ jobs:
 
       - name: 8. Run Python Analyzer Script
         run: |
-          # This is the full path to the folder inside the mounted DMG
-          TARGET_FOLDER_ON_RUNNER="${{ env.MOUNT_PATH }}/${{ inputs.folder_to_extract }}"
-          
           # This is the hardcoded path in your repo where files will be saved
           REPO_SAVE_PATH="beta"
 
-          echo "Running Python script..."
-          # Assumes your Python script is named 'py.py' in the root
-          python py.py "$TARGET_FOLDER_ON_RUNNER" "$REPO_SAVE_PATH"
+          echo "Running Python script for Applications..."
+          python py.py "${{ env.MOUNT_PATH }}/Applications" "$REPO_SAVE_PATH"
+          
+          echo "Running Python script for Library..."
+          python py.py "${{ env.MOUNT_PATH }}/Library" "$REPO_SAVE_PATH"
+          
+          echo "Running Python script for private..."
+          python py.py "${{ env.MOUNT_PATH }}/private" "$REPO_SAVE_PATH"
+          
+          echo "Running Python script for System..."
+          python py.py "${{ env.MOUNT_PATH }}/System" "$REPO_SAVE_PATH"
 
       - name: 9. Unmount DMG
         if: always() # Always run this step, even if the script fails
@@ -145,7 +143,7 @@ jobs:
           COMMIT_MSG="Analyze: iOS ${{ inputs.beta_version }} (${{ inputs.beta_build }})
           
           Device: ${{ inputs.device_identifier }}
-          Processed folder: ${{ inputs.folder_to_extract }}"
+          Processed folders: Applications, Library, private, System"
           
           git commit -m "$COMMIT_MSG"
           
@@ -157,7 +155,7 @@ jobs:
           PR_BODY="Automated analysis of iOS \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
           
           **Device:** \`${{ inputs.device_identifier }}\`
-          **Processed DMG Folder:** \`${{ inputs.folder_to_extract }}\`
+          **Processed DMG Folders:** \`Applications\`, \`Library\`, \`private\`, \`System\`
           **Output Repo Path:** \`/beta\`"
           
           gh pr create \
