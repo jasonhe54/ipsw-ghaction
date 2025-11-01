@@ -5869,7 +5869,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7660,7 +7660,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>GPUExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.2.11.10.4</string>
+				<string>8622.2.11.10.8</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>EXAppExtensionAttributes</key>
@@ -9161,7 +9161,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>NetworkingExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.2.11.10.4</string>
+				<string>8622.2.11.10.8</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9832,7 +9832,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -9865,7 +9865,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosAppIntentsExtension</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9890,7 +9890,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -9913,7 +9913,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosEngagementExtension</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -9938,7 +9938,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionFileProviderDocumentGroup</key>
@@ -10002,7 +10002,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosPFLPlugin</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10029,7 +10029,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -10064,7 +10064,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10189,7 +10189,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosTCCNotificationExtension</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -11558,7 +11558,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>WebContentCaptivePortalExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.2.11.10.4</string>
+				<string>8622.2.11.10.8</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11581,7 +11581,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>WebContentExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.2.11.10.4</string>
+				<string>8622.2.11.10.8</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -23714,38 +23714,6 @@ SUBQUERY(extensionItems, $extensionItem,
 				</dict>
 			</dict>
 		</dict>
-		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex/AirPlayDiagnosticExtension</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>AirPlayDiagnosticExtension</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.DiagnosticExtensions.AirPlay</string>
-				<key>CFBundleName</key>
-				<string>AirPlayDiagnosticExtension</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>920.10.1</string>
-				<key>NSExtension</key>
-				<dict>
-					<key>NSExtensionAttributes</key>
-					<dict>
-						<key>DEAttachmentsLoggingEnabled</key>
-						<true/>
-						<key>DEAttachmentsName</key>
-						<string>AirPlay Logs</string>
-					</dict>
-					<key>NSExtensionPointIdentifier</key>
-					<string>com.apple.diagnosticextensions-service</string>
-					<key>NSExtensionPrincipalClass</key>
-					<string>AirPlayDiagnosticExtension</string>
-				</dict>
-			</dict>
-		</dict>
 		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AudioDiagnosticExtension.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -27685,7 +27653,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>812.40.116</string>
+				<string>812.40.117</string>
 				<key>MLRuntimeTaskPrincipalClass</key>
 				<string>PhotoAnalysisLighthousePlugin</string>
 				<key>NSExtension</key>
@@ -50457,13 +50425,13 @@ SUBQUERY(extensionItems, $extensionItem,
 					<key>com.apple.ecosystem_analytics.runtime_analysis</key>
 					<dict>
 						<key>AllowBattery</key>
-						<true/>
+						<false/>
 						<key>Delay</key>
 						<integer>82800</integer>
 						<key>GracePeriod</key>
-						<integer>28800</integer>
+						<integer>604800</integer>
 						<key>Interval</key>
-						<integer>86400</integer>
+						<integer>604800</integer>
 						<key>Priority</key>
 						<string>Maintenance</string>
 						<key>Repeating</key>
@@ -50472,13 +50440,13 @@ SUBQUERY(extensionItems, $extensionItem,
 					<key>com.apple.ecosystem_analytics.static_analysis</key>
 					<dict>
 						<key>AllowBattery</key>
-						<true/>
+						<false/>
 						<key>Delay</key>
 						<integer>82800</integer>
 						<key>GracePeriod</key>
-						<integer>28800</integer>
+						<integer>604800</integer>
 						<key>Interval</key>
-						<integer>86400</integer>
+						<integer>604800</integer>
 						<key>Priority</key>
 						<string>Maintenance</string>
 						<key>Repeating</key>
@@ -59071,47 +59039,6 @@ SUBQUERY(extensionItems, $extensionItem,
 			<string>mobile</string>
 			<key>com.apple.private.memoryinfo</key>
 			<true/>
-		</dict>
-		<key>/System/Library/LaunchDaemons/com.apple.memoryanalyticsd.plist</key>
-		<dict>
-			<key>EnablePressuredExit</key>
-			<true/>
-			<key>Label</key>
-			<string>com.apple.memoryanalyticsd</string>
-			<key>LaunchEvents</key>
-			<dict>
-				<key>com.apple.notifyd.matching</key>
-				<dict>
-					<key>com.apple.da.tasking_changed</key>
-					<dict>
-						<key>Notification</key>
-						<string>com.apple.da.tasking_changed</string>
-					</dict>
-				</dict>
-				<key>com.apple.xpc.activity</key>
-				<dict>
-					<key>com.apple.memoryanalyticsd.MTRandomMemgraphActivity</key>
-					<dict>
-						<key>AllowBattery</key>
-						<true/>
-						<key>ExpectedDuration</key>
-						<integer>600</integer>
-						<key>Interval</key>
-						<integer>3600</integer>
-						<key>Priority</key>
-						<string>Utility</string>
-						<key>Repeating</key>
-						<true/>
-					</dict>
-				</dict>
-			</dict>
-			<key>ProcessType</key>
-			<string>Background</string>
-			<key>ProgramArguments</key>
-			<array>
-				<string>/usr/libexec/memoryanalyticsd</string>
-				<string>-xlatSf</string>
-			</array>
 		</dict>
 		<key>/System/Library/LaunchDaemons/com.apple.merchantd.plist</key>
 		<dict>
@@ -73852,7 +73779,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1300.10.1.4</string>
+						<string>1300.10.1.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -75763,7 +75690,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.10.4</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -79780,7 +79707,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>812.40.116</string>
+						<string>812.40.117</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81341,7 +81268,7 @@ SUBQUERY(extensionItems, $extensionItem,
 							<string>Application</string>
 							<key>_AllowedClients</key>
 							<array>
-								<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckBSeed"</string>
+								<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
 							</array>
 						</dict>
 					</dict>
@@ -81393,10 +81320,10 @@ SUBQUERY(extensionItems, $extensionItem,
 							<string>Application</string>
 							<key>_AllowedClients</key>
 							<array>
-								<string> identifier = com.apple.dt.Instruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckBSeed"</string>
-								<string> identifier = com.apple.dt.InstrumentsCLI and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckBSeed"</string>
-								<string> identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckBSeed"</string>
-								<string> identifier = com.apple.dt.instruments.backgroundinstruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckBSeed"</string>
+								<string> identifier = com.apple.dt.Instruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
+								<string> identifier = com.apple.dt.InstrumentsCLI and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
+								<string> identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
+								<string> identifier = com.apple.dt.instruments.backgroundinstruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
 							</array>
 							<key>_RoleAccount</key>
 							<string>root</string>
@@ -87527,7 +87454,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.10.4</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -91261,7 +91188,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.10.4</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -91283,7 +91210,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.10.4</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
