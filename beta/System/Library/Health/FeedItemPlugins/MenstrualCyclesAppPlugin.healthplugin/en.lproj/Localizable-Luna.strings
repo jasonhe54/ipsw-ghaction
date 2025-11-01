@@ -1,0 +1,86 @@
+"GET_WRIST_TEMPERATURE_TIP_BODY" = "Health can establish your wrist temperature baseline if you wear your Apple Watch to sleep. Data will be available after about 5 nights.";
+"OVULATION_CONFIRMATION_LEARN_MORE_HEADER" = "About Ovulation Estimates";
+"FERTILE_WINDOW_ESTIMATE_FOOTER_TEXT" = "Fertile window estimates may change and should not be used as a form of birth control.";
+"CYCLE_CHART_SLEEPING_WRIST_TEMPERATURE_ROW_TITLE" = "Wrist Temperature";
+"OVULATION_ESTIMATE_FAILURE_GENERIC_BODY_%@" = "Health couldnʼt estimate the ovulation date for your cycle that started on %@.";
+"OVULATION_CONFIRMATION_TITLE_PAST_%@" = "It’s likely you ovulated on %@.";
+"CYCLE_FACTORS_ALERT_FERTILITY_ESTIMATE_REMOVING_FACTOR" = "Removing this cycle factor has turned on fertile window estimates. You can make changes in Options.";
+"SETTINGS_WRIST_TEMPERATURE_PREDICTION_FOOTER" = "This allows Health to use wrist temperature data to improve period predictions and estimate the date of ovulation after it occurs.";
+"SHARED_FERTILE_WINDOW_ESTIMATE_OVULATION_CONFIRMATION_FOOTER_TEXT" = "Fertile window estimates may change and should not be used as a form of birth control. %@";
+"SET_UP_SLEEP_TRACKING" = "Set Up Sleep On Watch";
+"OVULATION_ESTIMATE_FAILURE_AVAILABILITY_BODY" = "Wear your Apple Watch each night to receive ovulation estimates.";
+"OVULATION_ESTIMATE" = "Ovulation Estimates";
+"OVULATION_CONFIRMATION_HELP_TILE_BODY" = "If you wear Apple Watch to sleep each night, Health can improve period predictions and estimate ovulation after it occurs.";
+"OVULATION_CONFIRMATION_WRIST_TEMPERATURE_TITLE_PAST" = "Apple Watch indicates you likely ovulated %@.";
+"ONBOARDING_1_ITEM_4_BODY" = "Health can use data from Apple Watch to improve predictions and estimate ovulation. Plus, you can log your cycles and see predictions on your wrist.";
+"PREGNANCY_DESCRIPTION" = "You don’t ovulate during and for a time after pregnancy. Period predictions and fertile window estimates are paused when you log pregnancy as a cycle factor.";
+"CONTRACEPTIVE_DESCRIPTION" = "If you log a specific contraceptive method as a cycle factor, fertile window estimates are paused because they become unreliable. If you log an unspecified method, fertile window estimates stay on.";
+"GET_WRIST_TEMPERATURE_TIP_TITLE_%lld_MORE_NIGHTS" = "{'more_nights': {'one': '%lld More Night', 'other': '%lld More Nights', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': 'Available After %#@more_nights@'}";
+"FERTILE_WINDOW_PREDICTIONS_OFF_FOOTER" = "Fertile window estimates have been turned off because of an ongoing cycle factor. %@";
+"SHARED_FERTILE_WINDOW_PREDICTION_OVULATION_CONFIRMATION_UPDATE_BODY_%@" = "%@ has a Cycle Tracking estimate.";
+"SETTINGS_WRIST_TEMPERATURE_PREDICTION_REMOTE_DISABLED_FOOTER_LINK" = "https://support.apple.com/kb/HT208720";
+"PERIOD_PREDICTIONS_OVULATION_CONFIRMATION_DESCRIPTION" = "Period predictions can be improved if Health is able to estimate the date of a recent ovulation.
+
+When you ovulate, a shift in body temperature typically happens that’s referred to as the biphasic shift. If you wear your Apple Watch to sleep each night with Sleep Focus turned on, your wrist temperature can be measured and ovulation can be estimated. After about two cycles, this allows for improved period predictions.";
+"CYCLE_FACTORS_ALERT_PERIOD_FERTILITY_ESTIMATE_IMPACT" = "Adding this cycle factor has turned off period predictions and fertile window estimates. You can make changes in Options.";
+"OVULATION_DAY" = "Estimated Ovulation";
+"FERTILITY_ESTIMATES_OVULATION_CONFIRMATION_DESCRIPTION" = "Ovulation estimates provide an estimation of the day a recent ovulation occurred. They can provide insight into your menstrual health and improve period predictions.
+
+When you ovulate, there is often a shift in body temperature called a biphasic shift. If you wear your Apple Watch to sleep each night with Sleep Focus turned on, your wrist temperature can be measured and ovulation estimates should be available after about two cycles.
+
+In some cases, you may not receive an ovulation estimate. There may not be enough wrist temperature measurements available, environmental factors may interfere with accurate measurements, or you may have ovulated without a biphasic shift.
+
+Also, ovulation does not occur during every cycle, particularly if you’re pregnant, lactating, or taking hormonal birth control. A non-ovulatory cycle can also occur without the presence of any of these cycle factors.
+
+A progesterone test can detect whether or not ovulation has occurred. Ovulation estimates are just that—estimates—and do not guarantee ovulation has happened.";
+"SET_UP_SLEEP_COACHING" = "Set Up Sleep";
+"OVULATION_CONFIRMATION_HELP_TILE_BODY_PERIOD_ONLY" = "Health can improve period predictions if you wear Apple Watch to sleep.";
+"SHARED_FERTILE_WINDOW_PROJECTION_ABOUT_TEXT" = "Fertile Window Estimates are an estimate of when you are most likely to get pregnant and are based on your Health data.
+
+Fertility estimates can help with understanding which days of your cycle are likely the most fertile. Estimated fertile windows should not be used as a form of birth control.
+
+These estimates appear in Cycle Tracking if you enable Fertility Estimates in Options.";
+"SETTINGS_WRIST_TEMPERATURE_SENSOR_PREDICTION" = "Use Wrist Temperature";
+"SETTINGS_WRIST_TEMPERATURE_PREDICTION_SETTINGS_DISABLED_FOOTER" = "Wrist temperature data can only be used to improve predictions if predictions are turned on.";
+"CYCLE_FACTORS_ALERT_PERIOD_FERTILITY_ESTIMATE_REMOVING_FACTOR" = "Removing this cycle factor has turned on period predictions and fertile window estimates. You can make changes in Options.";
+"SLEEP_ONBOARDING_TILE_BODY_PERIOD_ONLY" = "If you wear Apple Watch to sleep each night, Health can improve predictions.";
+"SETTINGS_HEART_RATE_SENSOR_PREDICTION" = "Use Heart Rate";
+"OVULATION_CONFIRMATION_TITLE_TODAY" = "It’s likely you will ovulate today.";
+"OVULATION_ESTIMATE_FAILURE_AVAILABILITY_HEADER" = "Not Enough Data";
+"ONBOARDING_5_INFO_5_SUBTITLE" = "Purple shading shows your estimated date of ovulation after it occurs.";
+"OVULATION_ESTIMATE_FAILURE_GENERIC_HEADER" = "Ovulation Estimate Unavailable";
+"ONBOARDING_4_TITLE" = "Fertile Window Estimates and Log Options";
+"SHARED_OVULATION_CONFIRMATION_TITLE_PAST_%@_%@" = "It’s likely %1$@ ovulated on %2$@.";
+"ONBOARDING_4_OPTION_1_TITLE" = "Fertile Window Estimates";
+"SLEEP_ONBOARDING_TILE_BODY" = "If you wear Apple Watch to sleep each night, Health can improve predictions and identify ovulation after it occurs.";
+"FERTILE_WINDOW_ESTIMATE_CONFIRMED_OVULATION_FOOTER_TEXT_%@" = "Fertile window estimates may change and should not be used as a form of birth control. %@";
+"OVULATION_CONFIRMATION_TITLE_FUTURE_%@" = "It’s likely you will ovulate %@.";
+"SETTINGS_SENSOR_HEADER" = "Watch Data";
+"OVULATION_CONFIRMATION_TITLE" = "Ovulation Estimation";
+"OVULATION_CONFIRMATION_HELP_TILE_INFO_ACTION" = "Learn More";
+"CYCLE_FACTORS_ALERT_FERTILITY_ESTIMATES_IMPACT" = "Adding this cycle factor has turned off fertile window estimates. You can make changes in Options.";
+"SHARED_OVULATION_CONFIRMATION_TITLE_TODAY_%@" = "It’s likely %1$@ is ovulating today.";
+"OVULATION_CONFIRMATION_HIGHLIGHT_TITLE" = "Ovulation Estimate";
+"FERTILITY_PREDICTION_OVULATION_CONFIRMATION_FOOTER_TEXT" = "This allows Health to use your data to predict your fertile window and estimate an ovulation date after it occurs.";
+"LACTATION_DESCRIPTION" = "Lactation can affect your hormones which influence your cycle. Period predictions and fertile window estimates stay on and take lactation into account.";
+"GET_WRIST_TEMPERATURE_TIP_LEARN_MORE" = "Learn More…";
+"ONBOARDING_5_INFO_4_TITLE" = "Estimated Fertile Window";
+"SHARED_OVULATION_CONFIRMATION_TITLE_FUTURE_%@_%@" = "It’s likely %1$@ will ovulate on %2$@.";
+"GET_WRIST_TEMPERATURE_TIP_TITLE" = "Get Wrist Temperature Data";
+"ESTIMATED_FERTILE_WINDOW" = "Estimated Fertile Window";
+"CYCLE_CHART_PDF_FOOTER_OVULATION_DAY" = "Ovulation Estimate";
+"SETTINGS_WRIST_TEMPERATURE_PREDICTION_FACTOR_DISABLED_FOOTER" = "Wrist temperature data can only be used to improve predictions if predictions are turned on. Predictions are currently off due to an ongoing cycle factor.";
+"PERIOD_PREDICTIONS_OVULATION_CONFIRMATION_LEARN_MORE_HEADER" = "Improving Period Predictions";
+"ONBOARDING_5_INFO_4_FOOTER" = "Fertile window estimates should not be used as a form of birth control.";
+"SHARED_FERTILE_WINDOW_ESTIMATE_ABOUT_TEXT_HEADER" = "About Fertile Window Estimates";
+"FERTILITY_PREDICTION_OVULATION_CONFIRMATION_FOOTER_TEXT_%@" = "This allows Health to use your data to predict your fertile window and estimate an ovulation date after it occurs. %@";
+"SHARED_FERTILE_WINDOW_ESTIMATE_FOOTER_TEXT" = "Fertile window estimates may change and should not be used as a form of birth control.";
+"OVULATION_CONFIRMATION_HELP_TILE_TITLE_PERIOD_ONLY" = "Improve Predictions";
+"SHARED_FERTILE_WINDOW_PREDICTION_OVULATION_CONFIRMATION_BODY_%@" = "%@ has confirmed ovulation.";
+"ONBOARDING_5_INFO_5_TITLE" = "Estimated Ovulation";
+"SETTINGS_WRIST_TEMPERATURE_PREDICTION_REMOTE_DISABLED_FOOTER_%@" = "This allows Health to use wrist temperature data to improve period predictions and estimate the date of ovulation after it occurs. This is not currently available. %@";
+"FERTILE_WINDOW_ESTIMATE" = "Fertile Window Estimate";
+"OVULATION_CONFIRMATION_HELP_TILE_TITLE" = "Ovulation Estimates";
+"SET_UP_SLEEP_FOCUS" = "Set Up Sleep Focus";
+"SETTINGS_FERTILITY_PREDICTION" = "Fertile Window Estimates";
+"SLEEP_ONBOARDING_TILE_TITLE" = "Improve Cycle Tracking Predictions";

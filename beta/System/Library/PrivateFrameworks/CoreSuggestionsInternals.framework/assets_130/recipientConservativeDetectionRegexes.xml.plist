@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>body</key>
+		<string>(?&lt;=^|\n) ?(cc['\-]?(e?d|ing)?)\s(?!(I|admin|all|another|anyone|are|assistant|boss|can|ceo|chief|clan|controller|could|crew|cto|did|director|even|everyone|extended|families|family|few|friends?|group|had|has|have|he|her|him|his|how|husband|larger?|leader|management|manager|many|might|more|most|my|nb|num(ber)?|org(anization)?|other|our|ours?|partner|shall|she|should|so|some|someone|spouse|squad|staff|step|supervisor|svp|team|the|their|them|they|this|tribe|unit|was|what|when|where|which|who|whole|whom|whose|why|wider?|wife|would|you|your|yours?|.{0,7}(friend|mate))s?\b)(?&lt;core&gt;[^\d\W\u4E00-\uFFFF]{3,12})($|\n|(?!(\s?('s?|group|friends?|team|group|manager|management|svp|ceo|cto|leader|admin|assistant|boss|chief|controller|director|supervisor|org(anization)?|unit|squad|staff|crew|spouse|partner|husband|wife|step|family|families)\s?).{0,12})\b)</string>
+		<key>subject</key>
+		<string>\b\B</string>
+	</dict>
+	<key>fr</key>
+	<dict>
+		<key>body</key>
+		<string>(?&lt;=^|\n) ?(cc['\-]?(e?d|ing)?)\s(?!(cet(te)?|combien|comment|pourquoi|depuis|quand|est|être|êtes|s?(av|aur|pourr)i?(ez|ons|as?)|(l[ea]s?)?quell?e?s?|qu[ei]|[nv](ous|otre)|elles?|ils?|[stm]on|quelqu(e|'un)|une?|l['ae]|[dlmtcs]es?)s?\b)(?&lt;coreAlternative&gt;[^\d\W\u4E00-\uFFFF]{3,12})\b</string>
+		<key>subject</key>
+		<string>\b\B</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+"ElementGridRetentionNeverNoNameText" = "This information cannot be stored.";
+"TransactionDetailsSharedRetentionNever" = "Info Shared and Not Stored";
+"ElementGridRetentionNoneNoNameText" = "This information will not be stored.";
+"TransactionDetailsSharedRetentionWithDuration" = "{'value': {'one': 'Info Shared and Stored for Up To %ld Day', 'other': 'Info Shared and Stored for Up To %ld Days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"ElementGridRetentionNeverText" = "%@ cannot store this information.";
+"ElementGridRetentionTitleText" = "The following information will be shared:";
+"TransactionDetailsPresentedRetentionIndefinite" = "Info Presented and Stored";
+"TransactionDetailsSharedRetentionIndefinite" = "Info Shared and Stored";
+"TransactionDetailsPresentedTitle" = "Presented: %@";
+"ElementGridRetentionIndefiniteText" = "%@ will store this information.";
+"ElementGridRetentionNoneText" = "%@ will not store this information.";
+"ElementGridRetentionIndefiniteNoNameText" = "This information will be stored.";
+"ElementGridPhysicalPresentmentTitleText" = "The following information will be presented:";
+"TransactionDetailsPresentedRetentionNever" = "Info Presented and Not Stored";
+"ElementGridRetentionWithDurationText" = "{'value': {'one': '%2$@ will store this information for up to %1$ld day.', 'other': '%2$@ will store this information for up to %1$ld days.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"TransactionDetailsSharedTitle" = "Shared: %@";

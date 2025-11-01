@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IMSConfig</key>
+	<dict>
+		<key>SMS</key>
+		<dict>
+			<key>allowCSFBInVolteMode</key>
+			<true/>
+		</dict>
+		<key>Signaling</key>
+		<dict>
+			<key>Preconditions</key>
+			<string>Supported</string>
+			<key>UseIPSec</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>SMSSettings</key>
+	<dict>
+		<key>TransportFallback</key>
+		<true/>
+	</dict>
+	<key>Show3GSwitchWith5G</key>
+	<true/>
+	<key>Show3GSwitchWithVolte</key>
+	<true/>
+</dict>
+</plist>

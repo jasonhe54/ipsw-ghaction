@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>debuging_overlay_enabled</key>
+	<dict>
+		<key>Description</key>
+		<string>Show Elton Debug Overlay for Internal Build</string>
+		<key>Display Name</key>
+		<string>Show Debugging Overlay</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>elton_enabled</key>
+	<dict>
+		<key>Attributes</key>
+		<dict>
+			<key>TargetRelease</key>
+			<string>Fall2023</string>
+		</dict>
+		<key>Description</key>
+		<string>Enable Elton</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>Display Name</key>
+		<string>Elton</string>
+	</dict>
+	<key>elton_f</key>
+	<dict>
+		<key>Attributes</key>
+		<dict>
+			<key>TargetRelease</key>
+			<string>WWDC2025</string>
+		</dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>elton_st</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>UnderDevelopment</string>
+	</dict>
+	<key>enable_in_workouts</key>
+	<dict>
+		<key>Attributes</key>
+		<dict>
+			<key>TargetRelease</key>
+			<string>Fall2023</string>
+		</dict>
+		<key>DevelopmentPhase</key>
+		<string>UnderDevelopment</string>
+		<key>Display Name</key>
+		<string>Enable During Workouts</string>
+	</dict>
+	<key>enable_portal_masking_warning</key>
+	<dict>
+		<key>Description</key>
+		<string>Display Red Border when Masking Layer is using Portal</string>
+		<key>Display Name</key>
+		<string>Display Red Border when Masking Layer is using Portal</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>scroll_everywhere</key>
+	<dict>
+		<key>Attributes</key>
+		<dict>
+			<key>TargetRelease</key>
+			<string>Fall2024</string>
+		</dict>
+		<key>Description</key>
+		<string>Allow double tap to scroll or paginate on all scroll views</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>Display Name</key>
+		<string>Enable Double Tap to Scroll Everwhere</string>
+	</dict>
+</dict>
+</plist>

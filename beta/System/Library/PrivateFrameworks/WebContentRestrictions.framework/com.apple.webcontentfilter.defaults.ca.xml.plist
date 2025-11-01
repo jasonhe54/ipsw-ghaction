@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.super3.cat/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Super3</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.lestresbessones.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Les tres bessones</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.edu365.cat/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>edu365</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.cavallfort.cat/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Cavall fort</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://llapis.quellegeixes.cat/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Què llegeixes?</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.teo.es/ca</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Teo</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.tv3.cat/mon3xl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>3XL</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.fcbarcelona.cat/fcb-junior/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>FCB junior</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.rtvv.es/va/infantil/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Babaclub</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://obrasocial.lacaixa.es/nuestroscentros/cosmocaixabarcelona/cosmocaixabarcelona_ca.html</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>CosmoCaixa Barcelona</string>
+		</dict>
+	</array>
+</dict>
+</plist>

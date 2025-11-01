@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>buttonAction</key>
+			<string>resetMediaServices:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>RESET_ALL_MEDIA_SERVICES</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>resetAudioServices:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>RESET_AUDIO_SERVICES</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>resetPlaybackAndExportServices:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>RESET_PLAYBACK_AND_EXPORT_SERVICES</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>resetCaptureServices:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>RESET_CAPTURE_SERVICES</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>resetCodecServices:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>RESET_CODEC_SERVICES</string>
+		</dict>
+	</array>
+</dict>
+</plist>

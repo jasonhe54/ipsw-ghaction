@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Available To Root User</key>
+	<true/>
+	<key>Enable Fetch During Setup Assistant</key>
+	<true/>
+	<key>Expensive Networking Allowed</key>
+	<true/>
+	<key>Factor Path</key>
+	<string>/System/Library/PrivateFrameworks/SiriTTSService.framework/TrialDefaults/default_factors_406.pb</string>
+	<key>Namespace Compatibility Version</key>
+	<integer>3600</integer>
+	<key>Namespace Id</key>
+	<integer>406</integer>
+	<key>Namespace Upgrade Compatibility Versions</key>
+	<array>
+		<integer>1002</integer>
+		<integer>1100</integer>
+		<integer>1200</integer>
+		<integer>1300</integer>
+		<integer>1400</integer>
+		<integer>1500</integer>
+		<integer>1600</integer>
+		<integer>2000</integer>
+		<integer>2001</integer>
+		<integer>2100</integer>
+		<integer>2200</integer>
+		<integer>2300</integer>
+		<integer>2400</integer>
+		<integer>2500</integer>
+		<integer>2600</integer>
+		<integer>3000</integer>
+		<integer>3001</integer>
+		<integer>3100</integer>
+		<integer>3200</integer>
+		<integer>3400</integer>
+		<integer>3500</integer>
+	</array>
+	<key>Purgeability Level</key>
+	<integer>2</integer>
+	<key>ResourceAttributionBundleIdentifier</key>
+	<dict>
+		<key>default</key>
+		<string>com.apple.siri</string>
+	</dict>
+</dict>
+</plist>

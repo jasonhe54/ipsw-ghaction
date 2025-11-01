@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAddKeyboardUsesPicker</key>
+	<true/>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>sjw</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Shawnee</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocapitalization</string>
+				<string>KeyboardCapsLock</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY-Shawnee</string>
+				<string>Shawnee</string>
+			</array>
+			<key>SWLayouts-iPad</key>
+			<array>
+				<string>QWERTY-Shawnee</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

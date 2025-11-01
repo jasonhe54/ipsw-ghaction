@@ -1,0 +1,135 @@
+"LOAD_REMOTE_IMAGES" = "Load Remote Images";
+"2_LINES" = "%@ Lines";
+"ITOOLS_ACCOUNT_HELP_TITLE" = "Learn more about MobileMe";
+"INCLUDE_ATTACHMENT_REPLIES" = "Include Attachments with Replies";
+"MORE_EXTENSIONS" = "More Extensions";
+"ADD_OTHER_MAIL_ACCOUNT" = "Add Mail Account";
+"MUTE_ACTION_MARK_AS_READ" = "Mark as Read";
+"INSTALLED_EXTENSIONS_FOOTER" = "Extensions customize the way Mail works. Extensions can act on or modify Mail Messages, encrypt or decrypt messages, and add buttons and icons when composing messages.";
+"SWIPE_ACTIONS_NONE" = "None";
+"SECTION_MESSAGE_LIST" = "Message List";
+"SWIPE_ACTIONS_READ" = "Mark as Read";
+"TRACKING_PROTECTION_LEARN_MORE" = "Learn more…";
+"SINGLE_SIGNATURE_SELECTOR" = "All Accounts";
+"CONFIRM_MESSAGE_DELETE_LONG" = "Ask Before Deleting";
+"BLOCKED_SENDER_OPTIONS_MARK_AS_BLOCKED" = "Leave in Inbox";
+"EXTENSIONS_PERMISSIONS_CONTENT_ACCESS_LOCATION_OUTGOING" = "This applies to **all outgoing messages**.";
+"SWIPE_LEFT" = "Swipe Left";
+"EXTENSIONS_PERMISSIONS_CONTENT_ACCESS_WITH_BODY" = "Can read sensitive information from emails including the message subject, recipients, and all contents of the message body.";
+"BLOCKED_LIST" = "Blocked";
+"COMPLETE_THREADS_DESC" = "Show all the messages in a thread, even if some have been moved to other mailboxes. Moved messages will remain in the mailboxes you moved them to.";
+"HIGHLIGHT_ADDRESSES_OFF" = "Off";
+"4_LINES" = "%@ Lines";
+"WELCOME_TO_MAIL" = "Welcome to Mail";
+"MAIL_DROP_CELLULAR_LIMIT" = "Limit Mail Drop Over Cellular Data";
+"COMPLETE_THREADS" = "Complete Threads";
+"HIGHLIGHT_ADDRESSES_EDIT_TITLE" = "Mark Addresses";
+"ALWAYS" = "Always";
+"WHEN_ADDING" = "When Adding Recipients";
+"TRACKING_PROTECTION_EXPLANATION" = "Mail Privacy Protection works by hiding your IP address and loading remote content privately in the background, even when you don’t open the message. This makes it harder for senders to follow your Mail activity. %@";
+"EXTENSIONS_DISABLED" = "Disabled";
+"EXTENSIONS_DETAILS_PERMISSIONS_TITLE" = "Permissions";
+"EXTENSIONS_PREFERENCES" = "Extensions";
+"MUTED_THREAD_ACTION" = "Muted Thread Action";
+"MUTE_ACTION_ARCHIVE_OR_DELETE" = "Archive or Delete";
+"SHOW_NEWEST_MESSAGE_AT_TOP" = "Most Recent Message on Top";
+"EXTENSIONS_PERMISSIONS_RENDERING_HEADER" = "Email Rendering";
+"TRACKING_PROTECTION" = "Privacy Protection";
+"EXTENSIONS_DETAILS_APP" = "App";
+"EXTENSIONS_PERMISSIONS_MODIFICATION_ENCODING" = "Can modify the full message contents for all outgoing messages.";
+"SWIPE_DIRECTION_LEFT" = "left";
+"SWIPE_OPTIONS_INFO %@" = "Quickly access features like Trash, Flag, and Archive, where supported, by swiping list items to the %@.";
+"SECTION_MESSAGES" = "Messages";
+"HIGHLIGHT_ADDRESSES_PLACEHOLDER" = "@example.com, @example.org";
+"MULTIPLE_SIGNATURES_SELECTOR" = "Per Account";
+"DEFAULT_DESC_IPHONE" = "Messages created outside of Mail will be sent from this account by default.";
+"SWIPE_DIRECTION_RIGHT" = "right";
+"SWIPE_RIGHT" = "Swipe Right";
+"MOBILE_MAIL_SETTINGS_SUBTITLE" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Add or remove accounts, manage Siri & Search, and customize how your mail appears and works. [Learn\xa0more…](helpkit://open?topic=iph80dabb18b)', 'ipad': 'Add or remove accounts, manage Siri & Search, and customize how your mail appears and works. [Learn\xa0more…](helpkit://open?topic=ipad63538f0f)'}}";
+"1_LINES" = "%@ Line";
+"ON" = "On";
+"HIDE_IP_ADDRESS" = "Hide IP Address";
+"EXTENSION_OFF" = "Off";
+"COLLAPSE_READ_MESSAGES" = "Collapse Read Messages";
+"SWIPE_ACTIONS_MOVE" = "Move Message";
+"EXTENSIONS_DETAILS_PERMISSIONS_SECTION_HEADER" = "PERMISSIONS FOR “%@”";
+"SWIPE_OPTIONS_ARCHIVE_INFO" = "Accounts that include Archive as a default action for swiping left will offer Trash for swiping right.";
+"EXTENSIONS_PERMISSIONS_CONTENT_ACCESS_LOCATION_ALL_MESSAGES" = "This applies to **all messages**.";
+"PROTECT_FROM_TRACKING" = "Protect Mail Activity";
+"SWIPE_ACTIONS_TRASH" = "Trash";
+"MAIL" = "Mail";
+"MUTE_ACTION" = "Mute Action";
+"BLOCKED_SENDER_OPTIONS_HEADER" = "Actions";
+"3_LINES" = "%@ Lines";
+"SEARCH_RESULTS_IN_TRASH_MAILBOX" = "Trash";
+"EXTENSIONS_PERMISSIONS_MODIFICATION_HEADER" = "Email Modifications";
+"DEFAULT_SENDING_ACCOUNT" = "Default Account";
+"EXTENSIONS_PERMISSIONS_CONTENT_ACCESS_STANDARD" = "Can read sensitive information from emails including the message subject and recipients.";
+"MUTED_THREAD_MARK_AS_READ" = "Mark as Read";
+"AUTOMATICALLY_CC_SELF" = "Always Bcc Myself";
+"SEARCH_RESULTS_IN_JUNK_MAILBOX" = "Junk";
+"SECTION_EXTENSIONS" = "Extensions";
+"SEARCH_PREFERENCE" = "Search";
+"MUTED_THREAD_DELETE" = "Archive / Delete";
+"ADD_LINK_PREVIEWS" = "Add Link Previews";
+"EXTENSIONS_PERMISSIONS_CONTENT_ACCESS_LOCATION_INCOMING" = "This applies to **all received messages**.";
+"SWIPE_ACTIONS_ARCHIVE" = "Archive";
+"SIGNATURE" = "Signature";
+"ASK" = "Ask";
+"SWIPE_ACTIONS_FLAG" = "Flag";
+"LINES_OF_PREVIEW" = "Preview";
+"INSTALLED_EXTENSIONS_HEADER" = "Installed Extensions Header";
+"ITOOLS_ACCOUNT_DESCRIPTION_PLACEHOLDER" = "My MobileMe Account";
+"SECTION_THREADING" = "Threading";
+"NO_EXTENSIONS_INSTALLED" = "NO EXTENSIONS INSTALLED";
+"SWIPE_ACTIONS_JUNK" = "Move to Junk";
+"EXTENSIONS_PERMISSIONS_CONTENT_ACCESS_HEADER" = "Email Contents";
+"5_LINES" = "%@ Lines";
+"INCREASE_QUOTE_LEVEL" = "Increase Quote Level";
+"INCLUDE_RESULTS_FROM" = "INCLUDE RESULTS FROM";
+"EXTENSION_ON" = "On";
+"NEVER" = "Never";
+"OFF" = "Off";
+"BLOCKED_SENDER_OPTIONS" = "Blocked Sender Options";
+"BLOCKED_SENDER_OPTIONS_DESCRIPTION" = "Messages from blocked senders are marked as blocked, and can either remain in your Inbox or automatically be moved to the Trash.";
+"EXTENSIONS_PERMISSIONS_MODIFICATION_ACTIONS" = "Can modify incoming messages. This includes the ability to move messages to other folders, mark messages as read, or flag messages.";
+"EXTENSIONS_PERMISSIONS_RENDERING_DETAILS" = "Can modify the message rendering when viewing messages.";
+"MAIL_ACCOUNTS" = "Mail Accounts";
+"BLOCK_REMOTE_CONTENT" = "Block All Remote Content";
+"0_LINES" = "None";
+"SHOW_TOCC_INDICATOR" = "Show To/Cc Labels";
+"HIGHLIGHT_ADDRESSES_EDIT_HEADER" = "Mark addresses not ending with";
+"CONFIRM_MESSAGE_DELETE" = "Ask Before Deleting";
+"BLOCKED_SENDER_MARK_BLOCKED_SENDER" = "Mark Blocked Sender";
+"SECTION_COMPOSING" = "Composing";
+"SWIPE_OPTIONS" = "Swipe Options";
+"OTHER" = "Other";
+"ORGANIZE_BY_THREAD" = "Organize by Thread";
+"APPS" = "Apps";
+"MUTED_THREAD_NO_NOTIFICATION" = "Don’t Notify";
+"DEFAULT_DESC_IPAD" = "Messages created outside of Mail will be sent from this account by default.";
+"EXTENSIONS_DETAILS_DESCRIPTION" = "Description";
+"HIGHLIGHT_ADDRESSES_ON" = "On";
+"TRACKING_PROTECTION_PRIVACY_TEXT" = "
+Emails you receive may include remote content that allows the email’s sender to learn information about you. When you open an email, information about your Mail activity can be collected by the sender without transparency and an ability to control what information is shared. Email senders may learn when and how many times you opened their email, whether you forwarded the email, your Internet Protocol (IP) address, and other data that can be used to build a profile of your behavior and learn your location.
+
+Protect Mail Activity helps protect your privacy by preventing email senders, including Apple, from learning information about your Mail activity. When you receive an email in the Mail app, rather than downloading remote content when you open an email, Protect Mail Activity downloads remote content in the background by default — regardless of whether you engage with the email. Apple does not learn any information about the content.
+
+In addition, Protect Mail Activity routes all remote content downloaded by Mail through two separate relays operated by different entities. The first knows your IP address, but not the remote Mail content you receive. The second knows the remote Mail content you receive, but not your IP address, instead providing a generalized identity to the destination. This way, no single entity has the information to identify both you and the remote Mail content you receive. Senders can’t use your IP address as a unique identifier to connect your activity across websites or apps to build a profile about you.
+
+You can disable Protect Mail Activity at any time in iOS and iPadOS by going to Settings > Apps > Mail > Privacy Protection, then tapping to turn off Protect Mail Activity. On Mac, go to Mail > Settings > Privacy, then deselect Protect Mail Activity.
+
+If you choose to disable Protect Mail Activity, the Hide IP Address feature will still mask your IP address using the same two-separate-internet-relays design. You can disable Hide IP Address at any time in iOS and iPadOS by going to Settings > Apps > Mail > Privacy Protection, then tapping to turn off Hide IP Address. On Mac, go to Mail > Settings > Privacy, then deselect Hide IP Address.
+
+By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.
+";
+"BLOCKED_SENDER_OPTIONS_MOVE_TO_TRASH" = "Move to Trash";
+"QUOTE_SETTING_EXPLANATION" = "Adds a level of indentation when you forward or reply to a message.";
+"BLOCKED_SENDER_OPTIONS_NONE" = "None";
+"HIGHLIGHT_ADDRESSES" = "Mark Addresses";
+"EXTENSIONS_ENABLED" = "Enabled";
+"USE_RICH_LINKS" = "Use Link Previews";
+"SWIPE_ACTIONS_NOTIFY" = "Notify Me";
+"TRACKING_PROTECTION_PRIVACY_TITLE" = "Mail Privacy Protection";

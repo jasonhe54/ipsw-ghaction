@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>DEPTH_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>DEPTH_KEYWORDS</string>
+			<key>label</key>
+			<string>DEPTH</string>
+			<key>requiredWatchCapabilities</key>
+			<array>
+				<string>sting</string>
+			</array>
+			<key>searchSectionID</key>
+			<string>com.apple.DepthCompanionSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.DepthCompanionSettings</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>ACTION_BUTTON_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>ACTION_BUTTON_KEYWORDS</string>
+			<key>label</key>
+			<string>ACTION_BUTTON</string>
+			<key>requiredWatchCapabilities</key>
+			<array>
+				<string>sting</string>
+			</array>
+			<key>searchSectionID</key>
+			<string>STING_TITLE</string>
+			<key>searchURL</key>
+			<string>bridge:root=STING_TITLE</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>AUTO_LAUNCH_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>AUTO_LAUNCH_KEYWORDS</string>
+			<key>label</key>
+			<string>AUTO_LAUNCH</string>
+			<key>requiredWatchCapabilities</key>
+			<array>
+				<string>sting</string>
+			</array>
+			<key>searchSectionID</key>
+			<string>GENERAL_LINK</string>
+			<key>searchURL</key>
+			<string>bridge:root=GENERAL_LINK&amp;path=AUTO_LAUNCH</string>
+		</dict>
+	</array>
+</dict>
+</plist>

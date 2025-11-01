@@ -1,0 +1,17 @@
+"LOCKED_SINGLE_INTERFACE_MESSAGE" = "If you did not attach the following network adapter, choose Ignore.
+";
+"KEYCHAIN_DESCRIPTION_EAPOL" = "Network Connection";
+"LOCKED_SINGLE_INTERFACE_HEADER" = "A new network adapter was attached while the console was locked.";
+"KEYCHAIN_KIND_EAPOL" = "802.1X Password";
+"LOCKED_SINGLE_INTERFACE_ADD" = "Use this adapter";
+"LOCKED_MULTIPLE_INTERFACES_HEADER" = "New network adapters were attached while the console was locked.";
+"LOCKED_MULTIPLE_INTERFACES_MESSAGE" = "If you did not attach the following network adapters, choose Ignore.
+";
+"KEYCHAIN_KIND_VPN_PASSWORD" = "VPN Password";
+"KEYCHAIN_KIND_PPP_PASSWORD" = "PPP Password";
+"KEYCHAIN_DESCRIPTION_EAPOL_INTERFACE" = "Network Connection (%@)";
+"LOCKED_INTERFACES_IGNORE" = "Ignore";
+"DEFAULT_SET_NAME" = "Automatic";
+"KEYCHAIN_KIND_IPSEC_XAUTH_PASSWORD" = "IPSec XAuth Password";
+"LOCKED_MULTIPLE_INTERFACES_ADD" = "Use these adapters";
+"KEYCHAIN_KIND_IPSEC_SHARED_SECRET" = "IPSec Shared Secret";

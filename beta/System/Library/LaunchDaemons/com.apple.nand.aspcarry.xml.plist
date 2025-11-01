@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.nand.aspcarry</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.nand.aspcarry_boot</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Delay</key>
+				<integer>300</integer>
+				<key>GracePeriod</key>
+				<integer>60</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<false/>
+			</dict>
+			<key>com.apple.nand.nandtelemetry_cadaily</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Delay</key>
+				<integer>1200</integer>
+				<key>GracePeriod</key>
+				<real>1200</real>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/ASPCarryLog</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/ASPCarryLog</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Sierra Leone</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>117</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>300</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>sl</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>619</string>
+		<string>com.apple.SierraLeone</string>
+	</array>
+</dict>
+</plist>

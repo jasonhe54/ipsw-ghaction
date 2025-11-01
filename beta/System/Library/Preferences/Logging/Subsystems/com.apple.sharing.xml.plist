@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoUnlock</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>7</integer>
+			<key>Info</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Default-Privacy-Setting</key>
+		<string>Private</string>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Inherit</string>
+			<key>Persist</key>
+			<string>Inherit</string>
+		</dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>Persistent</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>30</integer>
+		</dict>
+	</dict>
+	<key>TimeToDiscoverPerson</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>TransferTime</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>TransferTimeBytes</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+</dict>
+</plist>

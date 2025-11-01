@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>crosswind</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>special</key>
+				<array>
+					<string>hero-alu-pink</string>
+					<string>hero-alu-silver</string>
+					<string>hero-alu-midnight</string>
+					<string>hero-alu-red</string>
+					<string>hero-alu-starlight</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default-clhs1</key>
+				<string>hero-alu-silver</string>
+				<key>default-clhs14</key>
+				<string>hero-alu-red</string>
+				<key>default-clhs18</key>
+				<string>hero-alu-pink</string>
+				<key>default-clhs19</key>
+				<string>hero-alu-silver</string>
+				<key>default-clhs2</key>
+				<string>hero-alu-midnight</string>
+				<key>default-family10-clhs1</key>
+				<string>hero-alu-starlight</string>
+				<key>default-family12-clhs1</key>
+				<string>hero-alu-starlight</string>
+				<key>default-family8-clhs1</key>
+				<string>hero-alu-starlight</string>
+				<key>default-family9-clhs19</key>
+				<string>hero-alu-starlight</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>sensitivity</key>
+	<integer>25</integer>
+</dict>
+</plist>

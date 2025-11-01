@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthService</key>
+	<string>kTCCServiceSensorKitSpeechMetrics</string>
+	<key>AuthorizationStoreCohort</key>
+	<string>corespeechd</string>
+	<key>AuthorizationVersion</key>
+	<real>160000</real>
+	<key>Name</key>
+	<string>com.apple.SensorKit.soundDetection.siri</string>
+	<key>RoundingIntervalSecs</key>
+	<integer>900</integer>
+	<key>SRInfoPlistAuthCategory</key>
+	<string>SRSensorUsageSpeechMetrics</string>
+	<key>SampleClass</key>
+	<string>SNDetectionResult</string>
+	<key>SupportedPlatforms</key>
+	<dict>
+		<key>Phone</key>
+		<dict>
+			<key>Enabled</key>
+			<false/>
+		</dict>
+		<key>Watch</key>
+		<dict>
+			<key>Enabled</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

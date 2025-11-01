@@ -1,0 +1,80 @@
+"WRIST_DETECTION_DISABLE_WARNING_MSG" = "If you turn off wrist detection:";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_UNLOCKPHONE" = "
+• You will not be able to unlock iPhone with your Apple Watch.";
+"BUSY_TEXT" = "Apple Watch is busy at the moment, but you can try again when it’s done with its current task.";
+"BUSY_TITLE_PASSCODE_DISABLE_UNLOCK_ONLY" = "Couldn’t Turn Locking Off";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_RR" = "
+• Respiratory rate background measurements will be turned off.";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_PAIREDUNLOCK" = "
+• Your Apple Watch will not lock or unlock automatically.";
+"AUTO_UNLOCK_CONFIRMATION_CANCEL" = "Cancel";
+"PASSCODE_DISABLE_WARNING_CANCEL" = "Cancel";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_HEART" = "
+• Heart rate tracking and notifications will be turned off.";
+"REMOTE_PASSCODE_CHANGE_TITLE" = "Change Passcode";
+"SHOW_COMPLICATION_DATA_WHEN_LOCKED_HEADER" = "Complications";
+"BUSY_TITLE_PASSCODE_CHANGE" = "Couldn’t Change Passcode";
+"REMOTE_PASSCODE_ENABLE_WRIST_DETECT_TEXT" = "Enter the passcode on your Apple Watch to enable wrist detection.";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_AUTOLOCK" = "
+• Your Apple Watch will not lock automatically.";
+"PASSCODE_DISABLE_WARNING_BODY_CARDS_AND_KEYS_UNLOCK_ONLY" = "If you turn off locking, Apple Pay cards and car keys will be removed from Wallet and will need to be manually re-added to use them again.";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_SCANDIUM" = "
+• Blood Oxygen background measurements will be turned off.";
+"ALERT_NEED_UNLOCK_TITLE" = "Unlock Apple Watch";
+"SHOW_COMPLICATION_DATA_WHEN_LOCKED_FOOTER" = "Complications can show data when your Apple Watch is locked. Health data will never appear if your device is locked.";
+"REMOTE_PASSCODE_DISABLE_WRIST_DETECT_TITLE" = "Disable Wrist Detection";
+"WRIST_DETECTION_DISABLE_WARNING_CONFIRM" = "Turn Off";
+"REMOTE_PASSCODE_CREATE_TITLE" = "Create Passcode";
+"BUSY_TITLE_UNLOCK_ENABLE" = "Couldn’t Turn On
+Unlock with iPhone";
+"PASSCODE_DISABLE_WARNING_TITLE_UNLOCK_ONLY" = "Turn Off Locking";
+"PASSCODE_DISABLE" = "Turn Passcode Off";
+"REMOTE_PASSCODE_CREATE_TEXT" = "Enter a new passcode on your Apple Watch.";
+"PASSCODE_DISABLE_WARNING_BODY_CARDS_UNLOCK_ONLY" = "Your cards used for Apple Pay will be removed from your Apple Watch if you turn off locking.";
+"WRIST_DETECTION_DISABLE_WARNING_TITLE" = "Turn Off Wrist Detection?";
+"PASSCODE_DISABLE_WARNING_TITLE" = "Turn Off Passcode Lock";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_NOISE" = "
+• Noise measurements and notifications will be turned off.";
+"PASSCODE_DISABLE_WARNING_CONFIRM" = "Turn Off";
+"PASSCODE_ENABLE" = "Turn Passcode On";
+"BUSY_OK_BUTTON" = "OK";
+"ERASE_DATA_LABEL" = "Erase Data";
+"SIMPLE_PASSCODE_DESCRIPTION" = "When this is on, Apple Watch unlocks with a simple, %d-digit passcode.";
+"PASSCODE_DISABLE_UNLOCK_ONLY" = "Turn Locking Off";
+"REMOTE_PASSCODE_ENABLE_UNLOCK_TEXT" = "Enter the passcode on your Apple Watch to allow this iPhone to unlock it.";
+"BUSY_TITLE_PASSCODE_ENABLE" = "Couldn’t Turn Passcode On";
+"REMOTE_PASSCODE_REMOVE_TITLE" = "Remove Passcode";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_PAY" = "
+• Your Apple Pay cards will be removed.";
+"END_LOCKOUT_BUTTON_LABEL" = "Re-enable Passcode Entry";
+"ALERT_NEED_UNLOCK_TEXT" = "Your Apple Watch is currently locked. Please unlock it to continue.";
+"PASSCODE_DISABLE_WARNING_BODY_CARDS" = "Your cards used for Apple Pay will be removed from your Apple Watch if you turn off passcode lock.";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_EUCALYPTUS" = "
+• Sleep tracking will be unavailable.";
+"PASSCODE_CHANGE" = "Change Passcode";
+"AUTO_UNLOCK_CONFIRMATION_BODY" = "If you choose to unlock Apple Watch with iPhone, Wrist Detection will be automatically enabled.";
+"REMOTE_PASSCODE_ENABLE_WRIST_DETECT_TITLE" = "Enable Wrist Detection";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_NEWTON" = "
+• Fall Detection will not automatically start Emergency SOS.";
+"WRIST_DETECTION_FOOTER" = "If you’re using a passcode, wrist detection locks your watch when you’re not wearing it, so your information stays secure.";
+"WRIST_DETECTION" = "Wrist Detection";
+"PASSCODE_DISABLE_WARNING_BODY_CARDS_AND_KEYS" = "If you turn passcode off, Apple Pay cards and car keys will be removed from Wallet and will need to be manually re-added to use them again.";
+"AUTO_UNLOCK_COMPANION_NO_PASSCODE_DESCRIPTION" = "To unlock Apple Watch using your iPhone, you’ll need to set a passcode on your iPhone. You can do this in Settings.";
+"SIMPLE_PASSCODE_LABEL" = "Simple Passcode";
+"REMOTE_PASSCODE_REMOVE_TEXT" = "Enter the passcode on your Apple Watch to turn it off.";
+"WRIST_DETECTION_DISABLE_WARNING_MSG_ACTIVITY" = "
+• Some Activity measurements will be unavailable.";
+"AUTO_UNLOCK_DESCRIPTION" = "When this is on, unlocking your iPhone will automatically unlock Apple Watch — as long as you’re wearing it.";
+"ERASE_DATA_DESCRIPTION" = "{'erase_data': {'one': '1 failed passcode attempt.', 'other': '%d failed passcode attempts.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': 'When this is on, Apple Watch will erase all data after %#@erase_data@'}";
+"REMOTE_PASSCODE_ENABLE_UNLOCK_TITLE" = "Unlock with iPhone";
+"REMOTE_PASSCODE_DISABLE_WRIST_DETECT_TEXT" = "Enter the passcode on your Apple Watch to disable wrist detection.";
+"ALERT_NEED_UNLOCK_CANCEL" = "Cancel";
+"WRIST_DETECTION_DISABLE_WARNING_CANCEL" = "Cancel";
+"AUTO_UNLOCK_CONFIRMATION_OK" = "Turn On";
+"SHOW_COMPLICATION_DATA_WHEN_LOCKED_TITLE" = "Show Data When Locked";
+"BUSY_TITLE_PASSCODE_DISABLE" = "Couldn’t Turn Passcode Off";
+"WRIST_DETECTION_OFF_FOOTER" = "With Wrist Detection off, you can still lock your Apple Watch manually. Press the side button to open Control Center and turn passcode lock on.";
+"PASSCODE_TITLE" = "Passcode";
+"PASSCODE_CHANGE_UNLOCK_ONLY" = "Use Passcode";
+"AUTO_UNLOCK_SWITCH_LABEL" = "Unlock with iPhone";
+"REMOTE_PASSCODE_CHANGE_TEXT" = "Enter the passcode on your Apple Watch to change it.";

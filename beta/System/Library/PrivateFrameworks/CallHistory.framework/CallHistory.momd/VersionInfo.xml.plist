@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>CallHistory 42</string>
+	<key>NSManagedObjectModel_VersionChecksums</key>
+	<dict>
+		<key>CallHistory 10</key>
+		<string>XjnfztNpb5ZamNbJfnfSS5CTJ/O8SwLXlgj4CPjH6lo=</string>
+		<key>CallHistory 11</key>
+		<string>exYMTau/d3H0rie7aigJRQAIZ+0N16AGDqX2dz9imTI=</string>
+		<key>CallHistory 12</key>
+		<string>LwUz6zCnTTdihpMlbiRmXSQ3cpiMLiNp05YxWo24/LA=</string>
+		<key>CallHistory 13</key>
+		<string>D7yMneanDTp3spPnGalSVVGKIRJOQvOMEsFiePh0V5c=</string>
+		<key>CallHistory 14</key>
+		<string>OtV74DwAvQ9uHmHNlk7NDUChPRer651INAWWv2lTWVU=</string>
+		<key>CallHistory 15</key>
+		<string>6N42zLMNg2XIGkQdxNZW9oluHG/wwLTqrOl4Grs46Ng=</string>
+		<key>CallHistory 16</key>
+		<string>FPrO0nkzy6LsLcCLBRK42kJI3+WprKRU+z8R8XcdMaM=</string>
+		<key>CallHistory 17</key>
+		<string>iEd3ws4p5MyzRP+b+LJ8jpu1F/OttbEpt6BLwVzxoIc=</string>
+		<key>CallHistory 18</key>
+		<string>sy5ld/oAeCsSe5AtErUQ7+Oo61+eQsni6f2MT8yNwCU=</string>
+		<key>CallHistory 19</key>
+		<string>AmQaOcWL4NfFjDbUbfUjOsx+NdZJSsNDa2so96QVZ08=</string>
+		<key>CallHistory 20</key>
+		<string>psH9rBF0BfjCArNfFw/+awk1DxUFhdCdiF21TCDQxK0=</string>
+		<key>CallHistory 21</key>
+		<string>XGk1cQU2NyDmHKMgzrBCSGOHvekt8nQiHobPqbiwbew=</string>
+		<key>CallHistory 22</key>
+		<string>s9f1zo5nNEj2oUtlwAvX0cTDFLpk5EjH13GoYSRHTBY=</string>
+		<key>CallHistory 23</key>
+		<string>MIY6FSTo6mgIGxQ4jX9g0lQtZLQsc0QKXGcZ4Mtz1Lg=</string>
+		<key>CallHistory 24</key>
+		<string>Wn+xxDDe5dCrPQiwhI/1PHx+i7Rrm8vMr1psoFzwDyE=</string>
+		<key>CallHistory 25</key>
+		<string>p0TlifzBpDMilXumB7J3a2g+OAUzyR2yEV8Ko049FUs=</string>
+		<key>CallHistory 26</key>
+		<string>ff6Lk77d3CunPvAC64b7cRkNALpls1iwiAtdFhOHag0=</string>
+		<key>CallHistory 27</key>
+		<string>oUJCULLxdGrDV4V1XJnpducdhFX1XsBwTv4Tf6jgZ+w=</string>
+		<key>CallHistory 28</key>
+		<string>xrUxPjupKcjolraITafLIp+sF3PBKXQyLHiRd5Ac6U4=</string>
+		<key>CallHistory 29</key>
+		<string>wNqSfLc+WIJooZtu9Ca1nSaxLSAhAGVHr/AJpoJnu7U=</string>
+		<key>CallHistory 30</key>
+		<string>OattDV+YlvBhHrXGiOwvMBUnfLxqlVArac4lfn63Cgo=</string>
+		<key>CallHistory 31</key>
+		<string>1cG2yFqWm1vt/qUBLKJpDEap0l3MO+hK3bNKQWbqWfk=</string>
+		<key>CallHistory 32</key>
+		<string>p1iQ/o+cdUlh6mTx8Dip94MWjk+7AyC269jzHqAOez4=</string>
+		<key>CallHistory 33</key>
+		<string>4GY5TO7dXfGZ6QX7OysyJiLWgMzzX8C7TmjIWxb18i8=</string>
+		<key>CallHistory 34</key>
+		<string>V8bOD1L/9dKPU9ZBN2QLRX5FoDXUEbQ4mNKQZ7l6iEk=</string>
+		<key>CallHistory 35</key>
+		<string>c+nS+xtqcrWRL+YKbFQRdTMEQkdFu7tmEizJrPaiSMM=</string>
+		<key>CallHistory 36</key>
+		<string>K/zpUY3B0hNq28vLxbpKg9vbeiL854jr1Wuo7ObWDyI=</string>
+		<key>CallHistory 37</key>
+		<string>enSZWQBIP00Vf1kJzTZpu7l08l41oMTI6SnMZTgIAAk=</string>
+		<key>CallHistory 38</key>
+		<string>enSZWQBIP00Vf1kJzTZpu7l08l41oMTI6SnMZTgIAAk=</string>
+		<key>CallHistory 39</key>
+		<string>enSZWQBIP00Vf1kJzTZpu7l08l41oMTI6SnMZTgIAAk=</string>
+		<key>CallHistory 40</key>
+		<string>t+85sTWQMAbZyFzv2+0/rGzdo/E3z9pWr15nElj6awg=</string>
+		<key>CallHistory 41</key>
+		<string>78PU2PU9lYI8C/b87gfk1ArPVw0UDG0IDZDBFEiPQCY=</string>
+		<key>CallHistory 42</key>
+		<string>jYDGFFf3rNmWNwo7WdMIfNLOENm2XSVaLhcjUD8J57g=</string>
+		<key>CallHistory 5</key>
+		<string>AqeJrzLF+q2A2ww0EI6CIxswu4MA1XmUsB/j9ugZUa8=</string>
+		<key>CallHistory 6</key>
+		<string>StSgmqG35z9nwv8yF1JWigsBVlS/3q5WWUVO9Y++Gio=</string>
+		<key>CallHistory 7</key>
+		<string>rABV43zgQcJB0YtiWon7Q2vbzqETjauxBIcyI7yWiwk=</string>
+		<key>CallHistory 8</key>
+		<string>XOgA3Wip+03hRAx6JOAeyx6ozlD0ksT4rKv/SObXx9c=</string>
+		<key>CallHistory 9</key>
+		<string>ABByXYjmk09+6xqlKzx/pPeUlYizLSTVxU0oJUCxy14=</string>
+	</dict>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>CallHistory 10</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			IW7Qc5zZuWWCiAQXEsfnvC/xCuJqvulv3SB58xtmNmI=
+			</data>
+		</dict>
+		<key>CallHistory 11</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			jv3+LXu20O8A0NXdpeR8f0TYiLSCZohkvs6Q1LCQV3o=
+			</data>
+		</dict>
+		<key>CallHistory 12</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			yDdYxeTqXTrStitnysb8J1nENgI77/dDrvCwzt7QUlI=
+			</data>
+		</dict>
+		<key>CallHistory 13</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			w4FhAXDyvyw3LME/afszixv/XyxnaoLTgF9CvHr1hhs=
+			</data>
+		</dict>
+		<key>CallHistory 14</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			8zcC31tYxOjNPuVXMtzq/GVUDV4TG2vMyqMU78H27IE=
+			</data>
+		</dict>
+		<key>CallHistory 15</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			KeESDIiHn4nuc75u3nysowXQ6IosiisVwlils5D0AQc=
+			</data>
+			<key>Handle</key>
+			<data>
+			mBo46FHhJIQhiWQ+0jYlmJ1Ot2K6rwLt2OjR/m1k0uI=
+			</data>
+		</dict>
+		<key>CallHistory 16</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			T8jPZY/eWuzGo1HR5TBpz0jJj7MJkjqIlk168JWf4yQ=
+			</data>
+			<key>Handle</key>
+			<data>
+			vokv2G+uea7PFV1SHOEtBZxl4w+VFASwF6OgGamHx3Y=
+			</data>
+		</dict>
+		<key>CallHistory 17</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			fRmjqA+ugYesIHAs/AyOD3fBorNqtCYHIbqmOeCNPWE=
+			</data>
+			<key>Handle</key>
+			<data>
+			vokv2G+uea7PFV1SHOEtBZxl4w+VFASwF6OgGamHx3Y=
+			</data>
+		</dict>
+		<key>CallHistory 18</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			Rw7WPfq/FNyj9GohxzyFCjZK4e+mrNQz+uYHiwbHvfE=
+			</data>
+			<key>Handle</key>
+			<data>
+			vokv2G+uea7PFV1SHOEtBZxl4w+VFASwF6OgGamHx3Y=
+			</data>
+		</dict>
+		<key>CallHistory 19</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			Rw7WPfq/FNyj9GohxzyFCjZK4e+mrNQz+uYHiwbHvfE=
+			</data>
+			<key>Handle</key>
+			<data>
+			0CUQO0V+pceABzeQ80TrHdbnthib9WZ6/MsstOAoakc=
+			</data>
+		</dict>
+		<key>CallHistory 20</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			hF3eF6pt08yrChy2Y6cwBBgSp3Z9g9LepKHp0TeGyW8=
+			</data>
+			<key>Handle</key>
+			<data>
+			0CUQO0V+pceABzeQ80TrHdbnthib9WZ6/MsstOAoakc=
+			</data>
+		</dict>
+		<key>CallHistory 21</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			51+K7UMCk8BQZwn7tSSsTqGT6oj+b4gexb3bObSeMdw=
+			</data>
+			<key>Handle</key>
+			<data>
+			0CUQO0V+pceABzeQ80TrHdbnthib9WZ6/MsstOAoakc=
+			</data>
+		</dict>
+		<key>CallHistory 22</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			/gJvjziUmXTQnr5rqzafmRnKbP0cB3O9lSh08bHl2Ws=
+			</data>
+			<key>Handle</key>
+			<data>
+			0CUQO0V+pceABzeQ80TrHdbnthib9WZ6/MsstOAoakc=
+			</data>
+		</dict>
+		<key>CallHistory 23</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			4JBjtSPCtOUQ5OmKFUOXsKtS9ugtJXVaKvpfgzNYj2Q=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 24</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			Dd4K1HUqZ7Ygsl/RssIPkcWJl8X32TfIgG2s5xA9u7A=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 25</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			/eCj9xxpumBnhhaWCqugrxG9tolUGOSAlFe/Fz/f4lY=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 26</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			K6D7YI5FX++a8AkVwzV9dvyZdXNv7EQ3UJpWPj26NXA=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 27</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			Kb4IEzLN4Hpj8CWOwp07gBj5BfwpiXyQkGwl+mF2mEM=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 28</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			8OGfx/v+WEJbIeXnbeDhSbEpBh9ur3CSgC3fgHxY5eg=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 29</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			IJrQylHcCCM7QhD7GttrMS3hMjKULwBQKdVThoYTgJs=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			NrjYW44QPbo7gM31z7Z3iDiGa5Bwovz1+ElfrsRDnKI=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 30</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			IJrQylHcCCM7QhD7GttrMS3hMjKULwBQKdVThoYTgJs=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			UBQV7dPn4Hjf69AEWANVNBqjf8Z01nAIChWLdeqrkTQ=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 31</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			D0Trze9awf54V8DuFC5b38QnagAx0YjqVcnqGVEH8es=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			UBQV7dPn4Hjf69AEWANVNBqjf8Z01nAIChWLdeqrkTQ=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 32</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			GVbgk31gQ3xrAAEmKR4+MFTZ7O+9Pi4YYXlIRQe2flo=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			UBQV7dPn4Hjf69AEWANVNBqjf8Z01nAIChWLdeqrkTQ=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 33</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			GVbgk31gQ3xrAAEmKR4+MFTZ7O+9Pi4YYXlIRQe2flo=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 34</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			iHKz6gE6+vXEj/KBkE72wnJzf3vxCL0eWn4Qe7sHEkY=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 35</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			5wztN5QAVYg+jXWUK6WLZCFgBsdqkbHQAbLxZQhoVv4=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			gDtkdZgd/KnVtL4er4BDrSVWAFuYCqDbVuHsjzzyl7E=
+			</data>
+		</dict>
+		<key>CallHistory 36</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			cvms5LQKNpdGBXJFurM0+a6BAV2OUuAjamW2eEw1tDg=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 37</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			mYRY9kmn+GZI9xsYYZmJcM3mkbH0+DD71Qew7UAaW7w=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 38</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			mYRY9kmn+GZI9xsYYZmJcM3mkbH0+DD71Qew7UAaW7w=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 39</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			mYRY9kmn+GZI9xsYYZmJcM3mkbH0+DD71Qew7UAaW7w=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 40</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			NhsyzybLmn3T/ymCgwVi7UuC49oMvEKLkrTMRL6QE/A=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 41</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			gg9mJPIkcOAQHzSwJjZWNU3Iy5gpJaO7l1d9I76JPhE=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 42</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			hAEJ5QS41qT2NbrZbVQ84MBaUFGyhrnbL6dypO+nRsY=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			xbWFvT6Ac3pfz7GfjiNBNswb9sY3K69yoiKRNH+kZjY=
+			</data>
+			<key>EmergencyMediaItem</key>
+			<data>
+			u7pBle99WagKGZxUZvUn8IGLb5UHC5ujsbNGkqxzBzY=
+			</data>
+			<key>Handle</key>
+			<data>
+			fvF4IAX4WNlO9n8fMF7tMPT7YMkcgkbSoTED5z4stL0=
+			</data>
+		</dict>
+		<key>CallHistory 5</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			C4aoSi2412ESl8kIewl8SVQhCLuucdUDsvK8vdj90X4=
+			</data>
+		</dict>
+		<key>CallHistory 6</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			J6J8R5no1Pls0uRLsME8cuZ7EmYCVef4HutIxQqHWBQ=
+			</data>
+		</dict>
+		<key>CallHistory 7</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			NDakQsmqiItHL7N3GPNmrlWpv1xVnSzDfkaKMi68Sw0=
+			</data>
+		</dict>
+		<key>CallHistory 8</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			JHFhYJudYaUSczUF8P+vzU+MggWTgliZmI0j6LYfPxE=
+			</data>
+		</dict>
+		<key>CallHistory 9</key>
+		<dict>
+			<key>CallDBProperties</key>
+			<data>
+			17ZAiizJtZXQ/bYqB4+u9pT9gnF72V/GbEDt7BEeUYE=
+			</data>
+			<key>CallRecord</key>
+			<data>
+			m4AtshQzFaEbenu91MSxxoKSBjCTnIt3W4Ogkz3imMs=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

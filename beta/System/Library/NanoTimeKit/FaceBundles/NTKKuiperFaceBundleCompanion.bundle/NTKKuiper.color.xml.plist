@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>kuiper</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>special</key>
+				<array>
+					<string>special.rainbow</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>seasons.spring2022.blue2</string>
+				<key>gallery-default</key>
+				<array>
+					<string>seasons.spring2022.green5</string>
+					<string>seasons.spring2022.blue2</string>
+					<string>standard.lightPurple</string>
+					<string>seasons.spring2022.pink6t</string>
+					<string>seasons.spring2022.orange2</string>
+				</array>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>kuiper.special</string>
+				<string>standard</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

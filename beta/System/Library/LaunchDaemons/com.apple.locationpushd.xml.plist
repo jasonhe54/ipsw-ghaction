@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>NSRunningFromLaunchd</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.locationpushd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.locationpushd.app-uninstalled</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.LaunchServices.applicationUnregistered</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.locationpushd.development</key>
+		<true/>
+		<key>com.apple.aps.locationpushd.production</key>
+		<true/>
+		<key>com.apple.locationpushd.pushregistration</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/locationpushd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

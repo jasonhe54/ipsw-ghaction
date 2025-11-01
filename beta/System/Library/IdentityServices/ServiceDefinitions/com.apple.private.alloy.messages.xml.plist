@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AllowPendingMessagesForInactiveDevice</key>
+	<true/>
+	<key>AllowSendingMessagesToInactiveDevice</key>
+	<true/>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>Messages</string>
+	<key>DuetIdentifiers</key>
+	<array>
+		<string>com.apple.MobileSMS</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.messages</string>
+	<key>LaunchDarwinNotification</key>
+	<string>com.apple.messages.idslaunchnotification</string>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.messages</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.messages</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

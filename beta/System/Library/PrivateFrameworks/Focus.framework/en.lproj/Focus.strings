@@ -1,0 +1,14 @@
+"ACTIVITY_PERMANENT_DETAIL_TEXT_DEFAULT" = "Silence all notifications";
+"DRIVING_ACTIVATE_BLUETOOTH_ONLY" = "Driving Focus will be activated while connected to Car Bluetooth devices.";
+"ACTIVITY_DETAIL_TEXT_SLEEP" = "Relax and get some rest";
+"DRIVING_ACTIVATE_MANUALLY" = "Driving Focus can be activated manually.";
+"FOCUS_STATUS_DND_ON_UNTIL_LOCATION" = "On Until You Leave This Location";
+"ACTIVITY_PERMANENT_DETAIL_TEXT_REDUCEINTERRUPTIONS" = "Limit interruptions to only important notifications";
+"FOCUS_STATUS_DND_ON_UNTIL_TOMORROW_TIME" = "{'time': {'one': 'On Until Tomorrow, %@', 'other': 'On Until Tomorrow, %@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@time@'}";
+"FOCUS_STATUS_DND_ON_UNTIL_DATE_TIME" = "{'time': {'one': 'On Until %@', 'other': 'On Until %@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@time@'}";
+"FOCUS_STATUS_DND_ON" = "On";
+"FOCUS_STATUS_DND_ON_UNTIL_TODAY_TIME" = "{'time': {'one': 'On Until %@', 'other': 'On Until %@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@time@'}";
+"ACTIVITY_DETAIL_TEXT_WORK" = "Get things done";
+"DRIVING_ACTIVATE_AUTOMATICALLY" = "Driving Focus will be activated automatically based on detected motion.";
+"ACTIVITY_DETAIL_TEXT_PERSONAL" = "Turn off work, focus on you";
+"SLEEP_ACTIVATE_ON_SCHEDULE" = "Sleep Focus will be activated automatically based on the sleep schedule set in Health.";

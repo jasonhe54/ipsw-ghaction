@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.centaurid</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.centaurid.edt-node</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IONameMatch</key>
+				<string>centauri</string>
+			</dict>
+			<key>com.apple.centaurid.manager</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>AppleCentauriManager</string>
+			</dict>
+			<key>com.apple.centaurid.require-client</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>RequireClient</key>
+					<true/>
+				</dict>
+				<key>IOProviderClass</key>
+				<string>AppleCentauriManager</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.centaurid.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/centaurid</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

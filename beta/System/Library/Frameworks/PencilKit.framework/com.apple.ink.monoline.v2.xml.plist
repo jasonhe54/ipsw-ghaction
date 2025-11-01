@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behavior</key>
+	<dict>
+		<key>functions</key>
+		<dict/>
+		<key>inkTransform</key>
+		<array>
+			<real>1</real>
+			<real>0.0</real>
+			<real>0.0</real>
+			<integer>1</integer>
+			<real>0.0</real>
+			<real>0.0</real>
+		</array>
+		<key>smoothing</key>
+		<dict>
+			<key>direction</key>
+			<integer>0</integer>
+			<key>radius</key>
+			<integer>0</integer>
+			<key>stylus</key>
+			<real>0.12</real>
+			<key>touch</key>
+			<real>0.16</real>
+			<key>velocity</key>
+			<real>0.050000000000000003</real>
+		</dict>
+		<key>supportsCombiningStrokes</key>
+		<false/>
+	</dict>
+	<key>defaultWidth</key>
+	<real>0.5</real>
+	<key>id</key>
+	<string>com.apple.ink.monoline</string>
+	<key>name</key>
+	<string>Monoline</string>
+	<key>rendering</key>
+	<dict>
+		<key>blendMode</key>
+		<string>sourceOver</string>
+	</dict>
+	<key>uiWidths</key>
+	<array>
+		<real>0.5</real>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>4</integer>
+	</array>
+</dict>
+</plist>

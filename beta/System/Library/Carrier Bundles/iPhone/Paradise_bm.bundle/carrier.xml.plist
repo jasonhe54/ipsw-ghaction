@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>internet</string>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>Paradise</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>Enable4GByDefault</key>
+	<true/>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>anonymous</string>
+		<key>Certificate</key>
+		<string>MIIG/jCCBeagAwIBAgIQD8XtiAY7Uwuch1CRxPCz9TANBgkqhkiG9w0BAQsFADBZ
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypE
+aWdpQ2VydCBHbG9iYWwgRzIgVExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjQx
+MjA2MDAwMDAwWhcNMjYwMTA2MjM1OTU5WjB0MQswCQYDVQQGEwJCTTERMA8GA1UE
+BxMISGFtaWx0b24xHTAbBgNVBAoTFFBhcmFkaXNlIE1vYmlsZSBMdGQuMTMwMQYD
+VQQDEyplcGRnLmVwYy5tbmMwMDcubWNjMzUwLnB1Yi4zZ3BwbmV0d29yay5vcmcw
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDRv1kaImlOhpAo+fW/07Ee
+gYt0CJ4wRuX278wp/yAiDigrONGrOeVYN5nUPnsw0/wbFSgWD2QJNyxVyY9XVEsV
+XqkGKMG99+PcJuGX801XD2Rqoz6aYwlAezbT6hKIOcUMO0fS/Zhdq5PUdE6D5FRr
+3+JXYRl5pAr+ShHLuANWGQWc0nrF0Ew0ZYEYlvTlvg+QPX7oH0/QbolgJd7vg5h4
+MYniXk4/jQEjRdFdkf00piAIV3B0uT2mwSJwPL3stNzEs9v9nNvGMrlZj5qp88xd
+edXuCkyT2vRuhdClft2rQbnOgoRd4j5u8xpT0qfsaKC/OZ5gjYJi2aOxQkY9XWdV
+AgMBAAGjggOlMIIDoTAfBgNVHSMEGDAWgBR0hYDAZsffN97PvSk3qgMdvu3NFzAd
+BgNVHQ4EFgQUz9SZ62ZFb624OE/XVQiJedYtomgwNQYDVR0RBC4wLIIqZXBkZy5l
+cGMubW5jMDA3Lm1jYzM1MC5wdWIuM2dwcG5ldHdvcmsub3JnMD4GA1UdIAQ3MDUw
+MwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29t
+L0NQUzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUF
+BwMCMIGfBgNVHR8EgZcwgZQwSKBGoESGQmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNv
+bS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0xLmNybDBIoEag
+RIZCaHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsRzJUTFNS
+U0FTSEEyNTYyMDIwQ0ExLTEuY3JsMIGHBggrBgEFBQcBAQR7MHkwJAYIKwYBBQUH
+MAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBRBggrBgEFBQcwAoZFaHR0cDov
+L2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsRzJUTFNSU0FTSEEy
+NTYyMDIwQ0ExLTEuY3J0MAwGA1UdEwEB/wQCMAAwggF9BgorBgEEAdZ5AgQCBIIB
+bQSCAWkBZwB2AJaXZL9VWJet90OHaDcIQnfp8DrV9qTzNm5GpD8PyqnGAAABk5yO
+vgQAAAQDAEcwRQIhAKCswupQ00ekr4qO4WLA7UT3DgF1YkwUsF4MOPSVkKI1AiAY
+9AcYfJ7fswOiH2aTkr8rrSncnU/Adv9A88SwE5qY+QB2AO08S9boBsKkogBX28sk
+4jgB31Ev7cSGxXAPIN23Pj/gAAABk5yOveEAAAQDAEcwRQIgFcp9c52A1Nf+etj9
+4GK0IS+MbcWC+D8/RSTm4P3kCuYCIQCPTzK3x6MwRHzKWOV1XBOW15MIopGByvig
+ih1Sdr8F4QB1AGQRxGykEuyniRyiAi4AvKtPKAfUHjUnq+r+1QPJfc3wAAABk5yO
+veQAAAQDAEYwRAIgaNSq2nyt/wGn6lgz9m4dDirVOf0QI41FjPtbB+EgQNwCIH/1
+cym+YK3Tnr3Y84tuudL2KIy5HiSwg/xhJf/4G8YhMA0GCSqGSIb3DQEBCwUAA4IB
+AQBYahF9iuMrC18NBOH7qcWUjSjrL+6qAitQi2fkUZjQyO7IrCJ+0NxhU+JUXLgz
+ETPPwiOwuRZLYnbfIRGMvG2Dm3vndG3wjSCRU6nae8GmOvBo23OmzGXyo0HZgjrI
+plzgynAnaW5WbWqJiei2ePMa/pHXbkjy+KQ/1EEbadWmRIStI/nMmSk+yCaDrVm5
+/ZRjH/PEwWLN0bZZUu8y+Brts2qblTNML9g7O9wXw+0HWj2wXTb/54zLXYe5WV+4
+NH4ZLoyF3jdS+c5J8mlhCdpDwEIEfzFiHt9kY19rgzpmuk9F4SZEO1dUhMqjlISU
+Ko6GZAqOZebyNr2iz7Db5uUJ</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=0fc5ed88063b530b9c875091c4f0b3f5</string>
+		<key>UpdateURL</key>
+		<string>https://vwpp.paradisemobile.bm</string>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Bermuda</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>ConferenceCalling</key>
+		<dict>
+			<key>AlwaysSubscribeToConferenceEvents</key>
+			<true/>
+			<key>SendConferenceSubscribeInNewDialog</key>
+			<true/>
+			<key>SendReferToPeer</key>
+			<false/>
+			<key>conferenceServer</key>
+			<string>sip:mmtel@conf-factory.ims.mnc007.mcc350.3gppnetwork.org</string>
+		</dict>
+		<key>EnableWiFiCallingByDefault</key>
+		<true/>
+		<key>EnableWiFiCallingWithoutEntitlement</key>
+		<true/>
+		<key>Media</key>
+		<dict>
+			<key>EnableBandwidthSpecifiers</key>
+			<true/>
+			<key>InactivityTimerRTPSeconds</key>
+			<integer>20</integer>
+		</dict>
+		<key>ShowVolteWarningUnsupportedCarrier</key>
+		<false/>
+		<key>Signaling</key>
+		<dict>
+			<key>AlwaysAddSipInstance</key>
+			<true/>
+			<key>AlwaysSendSessionProgress</key>
+			<true/>
+			<key>CountryOfOriginationFormat</key>
+			<string>PANI</string>
+			<key>EarlyMediaNeedsHeader</key>
+			<true/>
+			<key>Preconditions</key>
+			<string>Supported</string>
+			<key>RingbackTimerSeconds</key>
+			<integer>40</integer>
+			<key>RingingTimerSeconds</key>
+			<integer>40</integer>
+			<key>SupportPEarlyMediaHeader</key>
+			<true/>
+			<key>TriggerCSFBOnLocalQoSTimeoutMO</key>
+			<false/>
+			<key>TriggerCSFBOnLocalQoSTimeoutMT</key>
+			<false/>
+			<key>TriggerCSFBOnWaitForRingingTimeout</key>
+			<false/>
+			<key>UseIPSec</key>
+			<true/>
+			<key>WaitForRingingTimerMTSeconds</key>
+			<integer>25</integer>
+			<key>ussdEnabled</key>
+			<true/>
+		</dict>
+		<key>Voice</key>
+		<dict>
+			<key>BlockCallsOverCS</key>
+			<true/>
+			<key>BlockSilentRedialOverCS</key>
+			<true/>
+			<key>EnableVolteByDefault</key>
+			<true/>
+		</dict>
+		<key>XCAP</key>
+		<dict>
+			<key>BsfHost</key>
+			<string>bsf.ims.mnc007.mcc350.pub.3gppnetwork.org</string>
+			<key>BsfPort</key>
+			<integer>80</integer>
+			<key>ContentType</key>
+			<string>application/xcap-el+xml</string>
+			<key>DisableOnNetworkError</key>
+			<false/>
+			<key>ForbiddenHttpErrorCodes</key>
+			<string>403</string>
+			<key>NafHost</key>
+			<string>xcap.ims.mnc007.mcc350.pub.3gppnetwork.org</string>
+			<key>NafPort</key>
+			<integer>80</integer>
+			<key>SupportsCLIR</key>
+			<false/>
+			<key>SupportsCW</key>
+			<true/>
+			<key>imsRegistrationDependency</key>
+			<false/>
+			<key>supported</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MMS</key>
+	<dict>
+		<key>GroupModeEnabled</key>
+		<false/>
+		<key>MMSC</key>
+		<string>http://mmsc.paradisemobile.com</string>
+		<key>MaxMessageSize</key>
+		<integer>307200</integer>
+		<key>OnWhileRoaming</key>
+		<true/>
+		<key>Proxy</key>
+		<string>10.10.83.66:10021</string>
+		<key>Version</key>
+		<string>1.2</string>
+	</dict>
+	<key>MyAccountURL</key>
+	<string>https://www.paradisemobile.bm</string>
+	<key>MyAccountURLTitle</key>
+	<string>Paradise</string>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>OverrideOperatorWiFiName</key>
+	<string>Paradise Wi-Fi</string>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<array>
+		<string>+447786205094</string>
+	</array>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>Show3GSwitch</key>
+	<false/>
+	<key>Show4GSwitch</key>
+	<false/>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>ShowTTY</key>
+	<false/>
+	<key>ShowVolteSwitch</key>
+	<false/>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>350007</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>TechSettings</key>
+	<dict>
+		<key>5wiServiceMask</key>
+		<integer>3</integer>
+		<key>ChildSAs</key>
+		<dict>
+			<key>FirstChild</key>
+			<dict>
+				<key>ChildProposals</key>
+				<array>
+					<dict>
+						<key>DHGroup</key>
+						<integer>14</integer>
+						<key>EncryptionAlgorithm</key>
+						<array>
+							<string>AES-256</string>
+						</array>
+						<key>IntegrityAlgorithm</key>
+						<array>
+							<string>SHA2-256</string>
+						</array>
+						<key>Lifetime</key>
+						<integer>86400</integer>
+					</dict>
+				</array>
+				<key>InstallPolicies</key>
+				<true/>
+				<key>ReplayWindowSize</key>
+				<integer>12</integer>
+			</dict>
+		</dict>
+		<key>EPDGResolutionFallbackEnabled</key>
+		<false/>
+		<key>ExtraConfigurationAttributeRequestv4</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<integer>16384</integer>
+				<key>Name</key>
+				<string>AssignedPCSCFIPv4</string>
+				<key>Type</key>
+				<string>IPv4Address</string>
+			</dict>
+		</array>
+		<key>ExtraConfigurationAttributeRequestv6</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<integer>16386</integer>
+				<key>Name</key>
+				<string>AssignedPCSCFIPv6</string>
+				<key>Type</key>
+				<string>IPv6Address</string>
+			</dict>
+		</array>
+		<key>IKE</key>
+		<dict>
+			<key>DeadPeerDetectionEnabled</key>
+			<false/>
+			<key>DeadPeerDetectionInterval</key>
+			<integer>600</integer>
+			<key>DeadPeerDetectionMaxRetries</key>
+			<integer>4</integer>
+			<key>DeadPeerDetectionRetryInterval</key>
+			<integer>10</integer>
+			<key>LocalIdentifier</key>
+			<string>0$imsi@nai.epc.mnc$mnc.mcc$mcc.3gppnetwork.org</string>
+			<key>NATTKeepAliveOffload</key>
+			<true/>
+			<key>Proposals</key>
+			<array>
+				<dict>
+					<key>AuthenticationMethod</key>
+					<string>None</string>
+					<key>DHGroup</key>
+					<integer>14</integer>
+					<key>EAPMethod</key>
+					<string>EAP-AKA</string>
+					<key>EncryptionAlgorithm</key>
+					<string>AES-256</string>
+					<key>IntegrityAlgorithm</key>
+					<string>SHA2-256</string>
+					<key>Lifetime</key>
+					<integer>86400</integer>
+					<key>PRFAlgorithm</key>
+					<string>SHA2-256</string>
+				</dict>
+			</array>
+			<key>RemoteAddress</key>
+			<string>epdg.epc.mnc007.mcc350.pub.3gppnetwork.org</string>
+		</dict>
+		<key>SupportCallHandover</key>
+		<true/>
+		<key>TechPolicies</key>
+		<array>
+			<dict>
+				<key>policy</key>
+				<string>TRUE</string>
+				<key>serviceMask</key>
+				<integer>1048576</integer>
+			</dict>
+			<dict>
+				<key>policy</key>
+				<string>TRUE</string>
+				<key>serviceMask</key>
+				<integer>131072</integer>
+			</dict>
+		</array>
+		<key>WiFiCallingControlsAlliWLanServices</key>
+		<false/>
+		<key>WiFiCallingIdentityProtectionMethod</key>
+		<string>EncryptedIdentity</string>
+		<key>WifiCallingAllowedInRoaming</key>
+		<true/>
+		<key>iRatPolicies</key>
+		<dict>
+			<key>PreferredTechnology</key>
+			<string>ims</string>
+			<key>PreferredTechnologyRoaming</key>
+			<string>wifi</string>
+		</dict>
+	</dict>
+	<key>VisualVoicemailServiceName</key>
+	<string>none</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>tech-type-mask</key>
+			<integer>1048576</integer>
+			<key>type-mask</key>
+			<integer>1048625</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>mms</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>4</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>SupportSwitchOver</key>
+			<true/>
+			<key>apn</key>
+			<string>ims</string>
+			<key>password</key>
+			<string></string>
+			<key>tech-type-mask</key>
+			<integer>131072</integer>
+			<key>type-mask</key>
+			<integer>131072</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CellBroadcast</key>
+	<dict>
+		<key>AlertConfigurations</key>
+		<dict>
+			<key>Configuration_pe</key>
+			<dict>
+				<key>Sound</key>
+				<string>cbs_alert_cl.caf</string>
+				<key>Vibration</key>
+				<string>cbs_vibe_cl.plist</string>
+			</dict>
+		</dict>
+		<key>AlertTypes</key>
+		<dict>
+			<key>Alerta Local</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>Alerta de Emergencia</string>
+				<key>ShowTimestamp</key>
+				<true/>
+				<key>SoundAlertPeriod</key>
+				<integer>180000</integer>
+				<key>SwitchName</key>
+				<string>Alertas de Emergencia</string>
+				<key>UserConfigurable</key>
+				<false/>
+			</dict>
+			<key>Ejercicio/Simulacro</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>Alerta de Emergencia – mensaje de Ejercicio / Simulacro</string>
+				<key>ShowTimestamp</key>
+				<true/>
+				<key>SoundAlertPeriod</key>
+				<integer>180000</integer>
+				<key>SwitchName</key>
+				<string>Mensajes de Ejercicio y Simulacro</string>
+				<key>UserConfigurable</key>
+				<true/>
+			</dict>
+			<key>Informacion</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>Mensaje Informativo</string>
+				<key>ShowTimestamp</key>
+				<true/>
+				<key>SoundAlertPeriod</key>
+				<integer>180000</integer>
+				<key>SwitchName</key>
+				<string>Mensajes Informativos</string>
+				<key>UserConfigurable</key>
+				<true/>
+			</dict>
+			<key>Prueba</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<false/>
+				<key>NotificationTitle</key>
+				<string>Alerta de Emergencia – mensaje de Prueba</string>
+				<key>ShowTimestamp</key>
+				<true/>
+				<key>SoundAlertPeriod</key>
+				<integer>180000</integer>
+				<key>SwitchName</key>
+				<string>Mensajes de Prueba</string>
+				<key>UserConfigurable</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>IgnoreInvalidLengthPage</key>
+		<true/>
+		<key>MessageIDParameters3GPP</key>
+		<array>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_pe</string>
+				<key>AlertType</key>
+				<string>Alerta Local</string>
+				<key>EmergencyAlert</key>
+				<true/>
+				<key>FromServiceID</key>
+				<integer>4370</integer>
+				<key>ToServiceID</key>
+				<integer>4370</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_pe</string>
+				<key>AlertType</key>
+				<string>Informacion</string>
+				<key>FromServiceID</key>
+				<integer>4382</integer>
+				<key>ToServiceID</key>
+				<integer>4382</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_pe</string>
+				<key>AlertType</key>
+				<string>Prueba</string>
+				<key>EmergencyAlert</key>
+				<true/>
+				<key>FromServiceID</key>
+				<integer>4380</integer>
+				<key>ToServiceID</key>
+				<integer>4380</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_pe</string>
+				<key>AlertType</key>
+				<string>Ejercicio/Simulacro</string>
+				<key>EmergencyAlert</key>
+				<true/>
+				<key>FromServiceID</key>
+				<integer>4381</integer>
+				<key>ToServiceID</key>
+				<integer>4381</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_pe</string>
+				<key>AlertType</key>
+				<string>Alerta Local</string>
+				<key>EmergencyAlert</key>
+				<true/>
+				<key>FromServiceID</key>
+				<integer>4383</integer>
+				<key>ToServiceID</key>
+				<integer>4383</integer>
+			</dict>
+		</array>
+		<key>MessageValidityPeriod</key>
+		<dict>
+			<key>AirplaneMode</key>
+			<false/>
+		</dict>
+		<key>MinimumDeviceCategorySupported</key>
+		<integer>10</integer>
+		<key>PrimaryBroadcastLanguages</key>
+		<array>
+			<string>es</string>
+		</array>
+		<key>SwitchGroupTitle</key>
+		<string>Government Alerts</string>
+	</dict>
+	<key>CountryName</key>
+	<string>Peru</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>105</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>pe</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>716</string>
+		<string>com.apple.Peru</string>
+	</array>
+</dict>
+</plist>

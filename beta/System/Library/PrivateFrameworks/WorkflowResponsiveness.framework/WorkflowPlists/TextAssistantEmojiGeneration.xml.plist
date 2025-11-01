@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contextual_telemetry</key>
+	<string>YES</string>
+	<key>maximum_duration</key>
+	<real>30</real>
+	<key>name</key>
+	<string>TextAssistantEmojiGeneration</string>
+	<key>signposts</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>TextAssistant</string>
+			<key>end</key>
+			<true/>
+			<key>environment_field_names</key>
+			<array>
+				<string>Result</string>
+			</array>
+			<key>name</key>
+			<string>EmojiGeneration</string>
+			<key>start</key>
+			<true/>
+			<key>subsystem</key>
+			<string>com.apple.InputAnalytics</string>
+		</dict>
+	</array>
+</dict>
+</plist>

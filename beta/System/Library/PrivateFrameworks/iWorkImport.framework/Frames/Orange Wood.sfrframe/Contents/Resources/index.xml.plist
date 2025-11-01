@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>orangewood_08.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>0</integer>
+	<key>Bottom Left</key>
+	<string>orangewood_07.png</string>
+	<key>Bottom Right</key>
+	<string>orangewood_09.png</string>
+	<key>Left</key>
+	<string>orangewood_04.png</string>
+	<key>Left Frame Inset</key>
+	<integer>0</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.5</real>
+	<key>Right</key>
+	<string>orangewood_06.png</string>
+	<key>Right Frame Inset</key>
+	<integer>0</integer>
+	<key>Stretch Tiles</key>
+	<integer>2</integer>
+	<key>Top</key>
+	<string>orangewood_02.png</string>
+	<key>Top Frame Inset</key>
+	<integer>0</integer>
+	<key>Top Left</key>
+	<string>orangewood_01.png</string>
+	<key>Top Right</key>
+	<string>orangewood_03.png</string>
+	<key>name</key>
+	<string>orangewood</string>
+	<key>preview-image</key>
+	<string>Orangewood.png</string>
+</dict>
+</plist>

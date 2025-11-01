@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.wirelessinsightsd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.wirelessinsightsd.AnonymityChangedCommandLine</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.wirelessinsightsd.anonymity</string>
+			</dict>
+			<key>com.apple.wirelessinsightsd.ProfileChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ManagedConfiguration.profileListChanged</string>
+			</dict>
+			<key>com.apple.wirelessinsightsd.ResetPrivacyWarningsNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.Preferences.ResetPrivacyWarningsNotification</string>
+			</dict>
+			<key>com.apple.wirelessinsightsd.SubmissionPreferenceChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>logging tasks have changed</string>
+			</dict>
+			<key>com.apple.wirelessinsightsd.UISubmissionPreferenceChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.OTACrashCopier.SubmissionPreferenceChanged</string>
+			</dict>
+			<key>com.apple.wirelessinsightsd.locationdprefs</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.locationd/Prefs</string>
+			</dict>
+			<key>com.apple.wirelessinsightsd.locationdwis</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.locationd.authorization</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.wirelessinsightsd</key>
+		<true/>
+		<key>com.apple.wirelessinsightsd.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/WirelessInsights.framework/Support/wirelessinsightsd</string>
+	</array>
+	<key>PublishesEvents</key>
+	<dict>
+		<key>com.apple.wirelessinsightsd.prediction.launch</key>
+		<dict>
+			<key>RequireTrusted</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>UserName</key>
+	<string>_wireless</string>
+</dict>
+</plist>

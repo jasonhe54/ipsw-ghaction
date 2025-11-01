@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>wlan.6GHz.supported</key>
+	<true/>
+	<key>wlan.adaptiveroaming.enabled</key>
+	<true/>
+	<key>wlan.bss.6GHz-preference</key>
+	<data>
+	uv83AA==
+	</data>
+	<key>wlan.chip.power.dutycycle</key>
+	<data>
+	YArKCdsI1Qe/BvAFFQUnBBkDGAIAAAAAZABaAFAARgA8ADIAKAAeABQACgAAAAAA
+	</data>
+	<key>wlan.continuous.cpms.power</key>
+	<true/>
+	<key>wlan.dsa.power.boost</key>
+	<data>
+	AQADAw==
+	</data>
+	<key>wlan.llw.tx.ring.size</key>
+	<integer>384</integer>
+	<key>wlan.psbw.enabled</key>
+	<integer>1</integer>
+	<key>wlan.rx.ring.size</key>
+	<integer>768</integer>
+	<key>wlan.skywalk.packetpoolsize</key>
+	<integer>9472</integer>
+	<key>wlan.tx-power-cap-ctrl</key>
+	<data>
+	AQI=
+	</data>
+	<key>wlan.tx.ring.size</key>
+	<integer>1024</integer>
+	<key>wlan.tx.submission-queue.size</key>
+	<integer>1024</integer>
+</dict>
+</plist>

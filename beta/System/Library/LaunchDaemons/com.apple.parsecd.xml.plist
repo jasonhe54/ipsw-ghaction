@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.parsecd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.parsecd.queries.clearData</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.parsecd.queries.clearData</string>
+			</dict>
+			<key>com.apple.proactive.queries.clearData</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.proactive.queries.clearData</string>
+			</dict>
+			<key>com.apple.purplebuddy.setupexited</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.purplebuddy.setupexited</string>
+			</dict>
+		</dict>
+		<key>com.apple.nsurlsessiond-events</key>
+		<dict>
+			<key>LaunchOnDemand</key>
+			<dict>
+				<key>ClientIdentifier</key>
+				<string>com.apple.parsecd</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.parsecd</key>
+		<true/>
+		<key>com.apple.parsecd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd</string>
+	<key>PublishesEvents</key>
+	<string>com.apple.parsecd.pushevents</string>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>aps-connection-initiate</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.apsd</string>
+	</array>
+</dict>
+</plist>

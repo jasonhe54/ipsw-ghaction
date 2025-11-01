@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>MailListSingleMessageLoad</string>
+	<key>signposts</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>EMDaemonInterfaceRequest</string>
+			<key>name</key>
+			<string>EDMessageRepositoryMessageListItems</string>
+			<key>subsystem</key>
+			<string>com.apple.email.signposts</string>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>EMDaemonInterfaceRequest</string>
+			<key>name</key>
+			<string>EMMessageRepositoryMessageListItems</string>
+			<key>subsystem</key>
+			<string>com.apple.email.signposts</string>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>MessageListRecentSectionDataSource</string>
+			<key>end</key>
+			<true/>
+			<key>name</key>
+			<string>MessageListViewControllerItemFetch</string>
+			<key>start</key>
+			<true/>
+			<key>subsystem</key>
+			<string>com.apple.email.signposts</string>
+		</dict>
+	</array>
+</dict>
+</plist>
