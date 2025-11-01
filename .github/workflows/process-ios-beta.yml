@@ -42,10 +42,12 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 4. Create output directory
+      - name: 4. Create output directories
         run: |
           # Create the directory for the download
           mkdir -p ./ipsw_files
+          # Create the directory for the extracted files
+          mkdir -p ./ipsw_files/out
 
       - name: 5. Download IPSW
         run: |
@@ -65,34 +67,41 @@ jobs:
           echo "IPSW_FILE=${DOWNLOADED_FILE}" >> $GITHUB_ENV
           echo "Downloaded: $DOWNLOADED_FILE"
 
-      - name: 6. Extract Filesystem DMG and Decrypt
+      - name: 6. Extract and Decrypt Filesystem DMG
         run: |
-          echo "Processing file: ${{ env.IPSW_FILE }}"
+          echo "Extracting filesystem DMG (encrypted)..."
+          # Step A: Extract the .dmg.aea file using 'fs'
+          ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
           
-          echo "Extracting filesystem DMG..."
-          ipsw extract "${{ env.IPSW_FILE }}" --dmg filesystem --output ./ipsw_files
-          FS_DMG_AEA=$(find ./ipsw_files -name "*dmg.aea" | head -n 1)
+          FS_DMG_AEA=$(find ./ipsw_files/out -name "*dmg.aea" | head -n 1)
           if [[ -z "$FS_DMG_AEA" ]]; then
             echo "::error::Failed to find extracted *dmg.aea file."
             exit 1
           fi
-          echo "FS_DMG_AEA=${FS_DMG_AEA}" >> $GITHUB_ENV
           echo "Found encrypted DMG: $FS_DMG_AEA"
 
-          echo "Extracting decryption key..."
-          ipsw ota aea key "${{ env.IPSW_FILE }}" --output ./ipsw_files
-          AEA_KEY=$(find ./ipsw_files -name "*aea.pem" | head -n 1)
+          echo "Extracting decryption key (.pem)..."
+          # Step B: Extract the .pem file
+          ipsw ex --fcs-key "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
+          
+          AEA_KEY=$(find ./ipsw_files/out -name "*aea.pem" | head -n 1)
           if [[ -z "$AEA_KEY" ]]; then
             echo "::error::Failed to find extracted *aea.pem key."
             exit 1
           fi
-          echo "AEA_KEY=${AEA_KEY}" >> $GITHUB_ENV
           echo "Found key: $AEA_KEY"
 
           echo "Decrypting DMG..."
-          ipsw ota aea decrypt --key "${{ env.AEA_KEY }}" "${{ env.FS_DMG_AEA }}" ./ipsw_files/filesystem.dmg
-          echo "DECRYPTED_DMG=./ipsw_files/filesystem.dmg" >> $GITHUB_ENV
-          echo "Decrypted DMG at: ${{ env.DECRYPTED_DMG }}"
+          # Step C: Decrypt using the key with 'ipsw fw aea'
+          ipsw fw aea --pem "${AEA_KEY}" "${FS_DMG_AEA}" -o ./ipsw_files/out
+          
+          DECRYPTED_DMG=$(find ./ipsw_files/out -name "*.dmg" | head -n 1)
+          if [[ -z "$DECRYPTED_DMG" ]]; then
+            echo "::error::Failed to find decrypted .dmg file."
+            exit 1
+          fi
+          echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
+          echo "Decrypted DMG at: $DECRYPTED_DMG"
 
       - name: 7. Mount Decrypted DMG
         run: |
