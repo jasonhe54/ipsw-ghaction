@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppClipSessionLogNegativeSamplesPerDay</key>
+	<integer>3</integer>
+	<key>AppClipSessionLogPositiveSamplesPerDay</key>
+	<integer>3</integer>
+	<key>AppClipShadowLogSamplesPerDay</key>
+	<integer>3</integer>
+	<key>AppClipsFeedbackHistogramHalfLifeInDays</key>
+	<real>14</real>
+	<key>AppClipsHighConfidenceScoreThreshold</key>
+	<real>0.5</real>
+	<key>AppClipsMediumConfidenceScoreThreshold</key>
+	<real>0.10000000000000001</real>
+	<key>AppClipsModelVersion</key>
+	<string>1.0</string>
+	<key>AppClipsOverallEngagementThreshold</key>
+	<real>0.10000000000000001</real>
+	<key>AppClipsOverallMinRejects</key>
+	<real>9.9000000000000004</real>
+	<key>AppClipsPerAppClipEngagementThreshold</key>
+	<real>0.29999999999999999</real>
+	<key>AppClipsPerAppClipEngagementThresholdNoDecay</key>
+	<real>0.01</real>
+	<key>AppClipsPerAppClipMinRejects</key>
+	<real>0.90000000000000002</real>
+	<key>AppClipsPerAppClipMinRejectsNoDecay</key>
+	<real>4.9000000000000004</real>
+	<key>AppShadowLogSamplesPerDay</key>
+	<integer>10</integer>
+	<key>HeroAppEngagementThreshold</key>
+	<real>0.20000000000000001</real>
+	<key>HeroAppMinRefreshInterval</key>
+	<real>5</real>
+	<key>HeroAppMinimumRejects</key>
+	<real>1.6000000000000001</real>
+	<key>HeroAppPredictionExpirationInterval</key>
+	<integer>1500</integer>
+	<key>HeroAppSessionLogNegativeSamplesPerDay</key>
+	<integer>3</integer>
+	<key>HeroAppSessionLogPositiveSamplesPerDay</key>
+	<integer>3</integer>
+	<key>HeroAppTileMaxErrorDistance</key>
+	<real>25</real>
+	<key>HeroAppWorstCaseLocationAccuracy</key>
+	<real>45</real>
+</dict>
+</plist>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CarrierName</key>
+	<string>Orange BF</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.BurkinaFaso</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>MyAccountURL</key>
+	<string>http://www.orange.bf</string>
+	<key>MyAccountURLTitle</key>
+	<string>Orange</string>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<array>
+		<string>+447537410207</string>
+		<string>+447537410217</string>
+		<string>+447537410227</string>
+		<string>+447537410237</string>
+		<string>+447537410247</string>
+		<string>+447537410257</string>
+		<string>+447537410267</string>
+		<string>+447537410277</string>
+		<string>+447537410287</string>
+		<string>+447537410297</string>
+	</array>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>RoamingVoicemailPilotNumber</key>
+	<string>+22676600120</string>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*160#</string>
+			<key>ServiceName</key>
+			<string>Consultation de solde</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*130#</string>
+			<key>ServiceName</key>
+			<string>Recharge de compte</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*144#</string>
+			<key>ServiceName</key>
+			<string>Orange Money</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*103#</string>
+			<key>ServiceName</key>
+			<string>Achat de forfaits internet</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*444#</string>
+			<key>ServiceName</key>
+			<string>Connaitre son numero</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*456#</string>
+			<key>ServiceName</key>
+			<string>Menu STK</string>
+		</dict>
+	</array>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>ShowTTY</key>
+	<false/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>Airtel</string>
+			<key>StatusBarCarrierName</key>
+			<string>Orange BF</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>61302</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>VVMIgnoresIntlDataRoaming</key>
+	<false/>
+	<key>VisualVoicemailServiceName</key>
+	<string>none</string>
+	<key>VoicemailPilotNumber</key>
+	<string>120</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>48</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>esterbrook</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>sunday</string>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>items</key>
+			<array>
+				<string>sunday</string>
+				<string>color-01</string>
+				<string>color-02</string>
+				<string>color-03</string>
+				<string>color-04</string>
+				<string>color-05</string>
+				<string>color-06</string>
+				<string>color-07</string>
+				<string>color-08</string>
+				<string>color-09</string>
+				<string>color-10</string>
+				<string>color-11</string>
+				<string>color-12</string>
+				<string>color-13</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

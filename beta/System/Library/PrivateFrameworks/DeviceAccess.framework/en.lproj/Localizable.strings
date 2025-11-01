@@ -1,0 +1,9 @@
+"DeviceRemoveAlertMessageKey" = "“%@” is attempting to remove “%@”.";
+"DeviceRemoveAlertSecondaryKey" = "Cancel";
+"DeviceUnpairAlertPrimaryKey" = "Unpair";
+"DeviceRemoveAlertTitleKey" = "Remove paired accessory?";
+"DeviceUnpairAlertSecondaryKey" = "Cancel";
+"DeviceUnpairAlertMessageKeyWiFi" = "{'NSStringDeviceSpecificRuleType': {'other': '“%@” is attempting to unpair an accessory. This accessory will no longer connect automatically using Wi-Fi, but will still be able to determine when this device is nearby.', 'iphone': '“%@” is attempting to unpair an accessory. This accessory will no longer connect automatically using Wi-Fi, but will still be able to determine when this iPhone is nearby.', 'ipad': '“%@” is attempting to unpair an accessory. This accessory will no longer connect automatically using Wi-Fi, but will still be able to determine when this iPad is nearby.'}}";
+"DeviceUnpairAlertMessageKeyWLAN" = "{'NSStringDeviceSpecificRuleType': {'other': '“%@” is attempting to unpair an accessory. This accessory will no longer connect automatically using WLAN, but will still be able to determine when this device is nearby.', 'iphone': '“%@” is attempting to unpair an accessory. This accessory will no longer connect automatically using WLAN, but will still be able to determine when this iPhone is nearby.', 'ipad': '“%@” is attempting to unpair an accessory. This accessory will no longer connect automatically using WLAN, but will still be able to determine when this iPad is nearby.'}}";
+"DeviceUnpairAlertTitleKey" = "Unpair “%@”?";
+"DeviceRemoveAlertPrimaryKey" = "Remove";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>sjd</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Kildin Sami</string>
+				<string>Russian</string>
+				<string>RussianWin</string>
+				<string>Russian - Phonetic</string>
+				<string>Group-Cyrillic</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocapitalization</string>
+				<string>KeyboardCapsLock</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Sami-Kildin</string>
+				<string>Russian</string>
+				<string>Russian-Phonetic</string>
+			</array>
+			<key>UIKeyboardFeatureSpecializationClass</key>
+			<string>TIKeyboardFeatureSpecialization</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

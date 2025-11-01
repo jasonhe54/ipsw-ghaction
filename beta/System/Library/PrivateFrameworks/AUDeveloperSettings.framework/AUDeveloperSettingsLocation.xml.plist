@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>SELECT_LOCATION</string>
+			<key>isRadioGroup</key>
+			<true/>
+			<key>label</key>
+			<string>Select Location</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/assets</string>
+			<key>description</key>
+			<string>Most recent firmware build for accessory; similar to an untested nightly</string>
+			<key>id</key>
+			<string>BASEJUMPER</string>
+			<key>label</key>
+			<string>Basejumper</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/assets/&lt;Train&gt;/&lt;Train&gt;&lt;Build&gt;</string>
+			<key>description</key>
+			<string>Specific build i.e. Marimba5A300; use only if you know which build you need</string>
+			<key>id</key>
+			<string>CUSTOM_BASEJUMPER_BUILD</string>
+			<key>label</key>
+			<string>Custom Build</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://mesu.apple.com/assets</string>
+			<key>customerOnly</key>
+			<true/>
+			<key>description</key>
+			<string>Public firmware releases; i.e. Mesu, Pallas</string>
+			<key>id</key>
+			<string>CUSTOMER</string>
+			<key>label</key>
+			<string>Customer</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/mesu_staging</string>
+			<key>customerOnly</key>
+			<true/>
+			<key>description</key>
+			<string>Staging location for public firmware releases; i.e. Mesu, Pallas</string>
+			<key>id</key>
+			<string>CUSTOMER_STAGING</string>
+			<key>label</key>
+			<string>Customer Staging</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://mesu.apple.com/assets/AirPodsDeveloperSeed</string>
+			<key>customerOnly</key>
+			<true/>
+			<key>description</key>
+			<string>AirPods customer facing seed; not every accessory will have a developer seed</string>
+			<key>id</key>
+			<string>DEVELOPER_SEED</string>
+			<key>label</key>
+			<string>Developer Seed</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/AirPodsDeveloperSeed</string>
+			<key>description</key>
+			<string>Internal facing AirPods seed; not every accessory will have an Internal seed</string>
+			<key>id</key>
+			<string>INTERNAL_SEED</string>
+			<key>label</key>
+			<string>Internal Seed</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/AirPodsPublicSeed</string>
+			<key>description</key>
+			<string>AirPods internal staging location for customer facing seed; not every accessory will have a public seed</string>
+			<key>id</key>
+			<string>INTERNAL_STAGING</string>
+			<key>label</key>
+			<string>Internal Staging</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/livability</string>
+			<key>description</key>
+			<string>Latest internal firmware release, with build train matching the device's running OS or as specified by the user</string>
+			<key>id</key>
+			<string>LIVABILITY</string>
+			<key>label</key>
+			<string>Livability</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://mesu.apple.com/assets/AirPodsPublicSeed</string>
+			<key>customerOnly</key>
+			<true/>
+			<key>description</key>
+			<string>AirPods customer facing seed; not every accessory will have a public seed</string>
+			<key>id</key>
+			<string>PUBLIC_SEED</string>
+			<key>label</key>
+			<string>Public Seed</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Location</string>
+</dict>
+</plist>

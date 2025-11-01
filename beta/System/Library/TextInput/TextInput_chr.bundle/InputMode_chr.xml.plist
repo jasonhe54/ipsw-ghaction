@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>chr</key>
+		<array>
+			<string>chr</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>chr</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Cherokee-QWERTY</string>
+				<string>Cherokee-Nation</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocorrection</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Cherokee</string>
+			</array>
+			<key>SWLayouts-Monolith</key>
+			<array>
+				<string>Cherokee</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardDefaultLayoutIsSecure</key>
+			<false/>
+			<key>UIKeyboardInputManagerClass</key>
+			<string>TIKeyboardInputManager_chr</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

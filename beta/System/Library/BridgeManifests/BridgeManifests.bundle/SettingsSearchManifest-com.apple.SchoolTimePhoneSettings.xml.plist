@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>SCHOOLTIME_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>SCHOOLTIME_KEYWORDS</string>
+			<key>label</key>
+			<string>SCHOOLTIME</string>
+			<key>searchSectionID</key>
+			<string>SCHOOLTIME</string>
+			<key>searchURL</key>
+			<string>bridge:root=SCHOOLTIME</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>SCHOOLTIME_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>SCHOOLTIME_KEYWORDS</string>
+			<key>label</key>
+			<string>SCHOOLTIME</string>
+			<key>searchSectionID</key>
+			<string>SCHOOLTIME</string>
+			<key>searchURL</key>
+			<string>bridge:root=SCHOOLTIME#SCHEDULE_FEATURE_ACTIVE_TITLE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

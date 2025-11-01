@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIdentifier</key>
+	<string>com.apple.parsec.SafariAssistantWorker</string>
+	<key>name</key>
+	<string>com.apple.parsec.SafariBrowsingAssistant</string>
+	<key>taskRequest</key>
+	<dict>
+		<key>repeatingTask</key>
+		<dict>
+			<key>interval</key>
+			<integer>86400</integer>
+		</dict>
+		<key>requireNetworkConnectivity</key>
+		<false/>
+		<key>requiresExternalPower</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

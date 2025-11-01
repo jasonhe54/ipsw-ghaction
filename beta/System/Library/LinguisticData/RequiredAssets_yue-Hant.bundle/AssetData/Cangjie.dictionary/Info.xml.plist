@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.keyboard.dictionary.single_char.yue_Hant-Cangjie</string>
+	<key>CFBundleName</key>
+	<string>Cangjie Dictionary</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>IDXDictionaryIndexes</key>
+	<array>
+		<dict>
+			<key>IDXIndexAccessMethod</key>
+			<string>com.apple.TrieAccessMethod</string>
+			<key>IDXIndexBigEndian</key>
+			<false/>
+			<key>IDXIndexDataFields</key>
+			<dict>
+				<key>IDXFixedDataFields</key>
+				<array>
+					<dict>
+						<key>IDXDataFieldName</key>
+						<string>rank</string>
+						<key>IDXDataSize</key>
+						<integer>4</integer>
+					</dict>
+					<dict>
+						<key>IDXDataFieldName</key>
+						<string>extension</string>
+						<key>IDXDataSize</key>
+						<integer>4</integer>
+					</dict>
+				</array>
+				<key>IDXVariableDataFields</key>
+				<array>
+					<dict>
+						<key>IDXDataFieldName</key>
+						<string>han</string>
+						<key>IDXDataSizeLength</key>
+						<integer>2</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>IDXIndexDataSizeLength</key>
+			<integer>2</integer>
+			<key>IDXIndexKeyMatchingMethods</key>
+			<array>
+				<string>IDXExactMatch</string>
+				<string>IDXPrefixMatch</string>
+				<string>IDXCommonPrefixMatch</string>
+				<string>IDXWildcardMatch</string>
+			</array>
+			<key>IDXIndexKeyMaxLength</key>
+			<integer>1024</integer>
+			<key>IDXIndexPath</key>
+			<string>index-0</string>
+			<key>IDXIndexSupportDataID</key>
+			<false/>
+			<key>IDXIndexWritable</key>
+			<true/>
+			<key>TrieSubIndexPath</key>
+			<string>index-0_subdata</string>
+		</dict>
+	</array>
+	<key>IDXDictionaryVersion</key>
+	<integer>1</integer>
+	<key>IDXDictionaryWritable</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+"FOOTER_TEXT" = "If your School or Institution (“Institution”) enables the Student Progress feature, progress-reporting apps report data about your progress on assigned activities, such as reading a chapter in a book, completing a set of math equations, or taking a quiz. Reported progress data can include time spent based on start and end times on assigned activities; percentage of completion; a binary value such as yes/no, true/false, and complete/incomplete; a numeric value such as word count and points earned; and a score such as a quiz score. At a minimum, every activity that supports progress reporting sends time spent data. This data is sent to Apple by progress-reporting apps and shared with your Institution so that your teachers can better understand your learning progress on assigned activities.
+
+Progress data is reported only as instructed by your Institution, for activities your teacher explicitly assigns in progress-reporting apps, and when you are signed in to your Managed Apple Account, which is created and assigned by your Institution. The first time you access a progress-reporting app while signed in to your Managed Apple Account on an iPad, including a Shared iPad or an iPad you have at home, you will receive an onscreen notification on student progress reporting. When you subsequently begin working on assigned activities in progress-reporting apps, an onscreen notification banner on student progress reporting will be temporarily displayed.
+
+Improving Schoolwork
+
+Your Institution may allow Apple to process your Schoolwork usage data, including your progress data, using techniques such as machine learning, for the purpose of improving Schoolwork. Before data is processed, it is subject to privacy preserving techniques such as differential privacy so that it cannot be linked to you. For example, Apple may process your de-identified or aggregated Schoolwork data to understand trends in usage, customize user experience, and develop new education features for Schoolwork. The first time you access Schoolwork while signed in to your Managed Apple Account after your Institution enables this feature, you will receive an onscreen notification. Your Institution has the ability to opt out individual students and teachers from this feature. To opt out, contact your Institution.
+
+Transparency and Control
+
+You can see what progress data is sent to Apple by progress-reporting apps and shared with your Institution by going to Settings > Class Progress. You can also see a complete view of your progress data in Schoolwork if it is installed on your device.
+
+Your Institution is responsible for your progress data under the Apple School Manager Agreement. Your Institution controls whether to enable the Student Progress feature and has the ability to opt out students from sharing their progress upon their request. If you want to stop sharing your progress with your Institution, or to delete your progress data, contact your Institution.
+
+While your progress data is stored by Apple, it is encrypted at rest and while in transit. For more information on how your data is stored, see our iCloud security overview at support.apple.com/102651.
+
+Retention
+
+Apple retains any progress data as instructed by your Institution. If you ask your Institution to delete your data or to delete your Managed Apple Account, and your Institution instructs Apple to do so, Apple will delete the data on its servers within 30 days.
+
+If your Institution removes you from a class in Apple School Manager, your student progress data for that class will be deleted. Removal of a class in Apple School Manager by your Institution will also delete all associated data.
+
+Developers
+
+We have placed additional obligations on all developers adopting ClassKit. In addition to meeting our standard requirements for publishing an app on the App Store, developers adopting ClassKit must ensure that their use of ClassKit is designed to provide educational services. They must also provide a suitable and comprehensive privacy policy for all of their data use.
+
+Information collected by Apple in connection with its provision of services requiring a Managed Apple Account under the Apple School Manager Agreement will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy, and Section 3 and Exhibit A of the Apple School Manager Agreement, which can be found at school.apple.com. If there is a conflict between Apple’s Privacy Policy and Section 3 and Exhibit A of the Apple School Manager Agreement, Section 3 and Exhibit A of the Apple School Manager Agreement will take precedence.";
+"BUTTON_TITLE" = "About ClassKit & Privacy…";
+"SPLASH_SUMMARY" = "ClassKit is designed with student privacy in mind.";
+"SPLASH_TITLE" = "ClassKit & Privacy";
+"SPLASH_SHORT_TITLE" = "ClassKit";

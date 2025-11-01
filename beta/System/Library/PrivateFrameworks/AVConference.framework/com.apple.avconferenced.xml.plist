@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.videoconference.camera</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.videoconference.avconference</key>
+		<true/>
+		<key>com.apple.videoconference.camera</key>
+		<true/>
+		<key>com.apple.videoconference.speechtranslation</key>
+		<dict>
+			<key>#Else</key>
+			<dict>
+				<key>#IfFeatureFlagEnabled</key>
+				<string>TelephonyUtilities/VideoCallTranslation</string>
+				<key>#Then</key>
+				<true/>
+			</dict>
+			<key>#IfFeatureFlagEnabled</key>
+			<string>TelephonyUtilities/AudioCallTranslation</string>
+			<key>#Then</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/avconferenced</string>
+	</array>
+	<key>_ExponentialThrottling</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.SpringBoard</key>
+	<dict>
+		<key>kSTYLatencyThresholdInMs</key>
+		<real>1000</real>
+	</dict>
+	<key>com.apple.UIKit</key>
+	<dict/>
+	<key>com.apple.app_launch_measurement</key>
+	<dict>
+		<key>kSTYLatencyThresholdInMs</key>
+		<integer>2000</integer>
+	</dict>
+	<key>com.apple.camera.signposts</key>
+	<dict>
+		<key>kSTYLatencyThresholdInMs</key>
+		<integer>1000</integer>
+	</dict>
+	<key>com.apple.mobileactivationd</key>
+	<dict/>
+	<key>com.apple.signpost_emitter</key>
+	<dict>
+		<key>kSTYLatencyThresholdInMs</key>
+		<integer>3000</integer>
+	</dict>
+</dict>
+</plist>

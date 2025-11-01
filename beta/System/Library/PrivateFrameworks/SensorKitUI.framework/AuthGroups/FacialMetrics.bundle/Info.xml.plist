@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>FacialMetrics</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.SensorKit.faceMetrics</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>FacialMetrics</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>23B78</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B78</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>SRAuthService</key>
+	<string>kTCCServiceSensorKitFacialMetrics</string>
+	<key>SRCollectedData</key>
+	<array>
+		<string>COLLECTED_DATA_0</string>
+		<string>COLLECTED_DATA_1</string>
+		<string>COLLECTED_DATA_2</string>
+	</array>
+	<key>SRDisplayName</key>
+	<string>Face Shape and Expression</string>
+	<key>SRNotCollectedData</key>
+	<array>
+		<string>NOT_COLLECTED_DATA_0</string>
+		<string>NOT_COLLECTED_DATA_1</string>
+	</array>
+	<key>SRPlatforms</key>
+	<array>
+		<string>Phone</string>
+	</array>
+	<key>SRRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_ALERT_DETAIL</string>
+	<key>SRRevokeRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_REVOKE_ALERT_DETAIL</string>
+	<key>SRSampleData</key>
+	<array>
+		<dict>
+			<key>Face Anchor</key>
+			<dict>
+				<key>Blendshapes</key>
+				<dict>
+					<key>Cheek Puff</key>
+					<real>0.038246344774961472</real>
+					<key>Frown on Left Side of Mouth</key>
+					<real>0.11786994338035579</real>
+					<key>Frown on Right Side of Mouth</key>
+					<real>0.1413233280181885</real>
+					<key>Inner Brow Up</key>
+					<real>0.28869029879570007</real>
+					<key>Jaw Forward</key>
+					<real>0.12680675089359281</real>
+					<key>Jaw Left</key>
+					<real>0.0012931143864989281</real>
+					<key>Jaw Open</key>
+					<real>0.1886650025844574</real>
+					<key>Jaw Right</key>
+					<real>0.0</real>
+					<key>Left Brow Down</key>
+					<integer>0</integer>
+					<key>Left Cheek Squint</key>
+					<real>0.049688979983329773</real>
+					<key>Left Eye Blink</key>
+					<real>0.0</real>
+					<key>Left Eye Look Down</key>
+					<real>0.0</real>
+					<key>Left Eye Look In</key>
+					<real>0.13168551027774811</real>
+					<key>Left Eye Look Out</key>
+					<real>0.0</real>
+					<key>Left Eye Look Up</key>
+					<real>0.45440676808357239</real>
+					<key>Left Eye Squint</key>
+					<real>0.18749946355819699</real>
+					<key>Left Eye Wide</key>
+					<real>0.44235533475875849</real>
+					<key>Left Mouth Stretch</key>
+					<real>0.191976323723793</real>
+					<key>Left Outer Brow Up</key>
+					<real>0.27918574213981628</real>
+					<key>Left Side of Mouth</key>
+					<real>0.028286801651120189</real>
+					<key>Left Side of Mouth Dimple</key>
+					<real>0.046109519898891449</real>
+					<key>Left Side of Mouth Press</key>
+					<real>0.038657341152429581</real>
+					<key>Left Side of Mouth Smile</key>
+					<real>0.0</real>
+					<key>Left Side of Nose Sneer</key>
+					<real>0.039866603910922997</real>
+					<key>Lower Left Mouth Down</key>
+					<real>0.13580524921417239</real>
+					<key>Lower Mouth Roll</key>
+					<real>0.086004450917243958</real>
+					<key>Lower Mouth Shrug</key>
+					<real>0.080504849553108215</real>
+					<key>Lower Right Mouth Down</key>
+					<real>0.12766602635383609</real>
+					<key>Mouth Close</key>
+					<real>0.23212906718254089</real>
+					<key>Mouth Funnel</key>
+					<real>0.1109102889895439</real>
+					<key>Mouth Pucker</key>
+					<real>0.1570300608873367</real>
+					<key>Right Brow Down</key>
+					<integer>0</integer>
+					<key>Right Cheek Squint</key>
+					<real>0.054603610187768943</real>
+					<key>Right Eye Blink</key>
+					<real>0.0</real>
+					<key>Right Eye Look Down</key>
+					<real>0.0</real>
+					<key>Right Eye Look In</key>
+					<real>0.0</real>
+					<key>Right Eye Look Out</key>
+					<real>0.028566861525177959</real>
+					<key>Right Eye Look Up</key>
+					<real>0.45572197437286383</real>
+					<key>Right Eye Squint</key>
+					<real>0.1877307593822479</real>
+					<key>Right Eye Wide</key>
+					<real>0.44267308712005621</real>
+					<key>Right Mouth Stretch</key>
+					<real>0.19661703705787659</real>
+					<key>Right Outer Brow Up</key>
+					<real>0.27971884608268738</real>
+					<key>Right Side of Mouth</key>
+					<real>0.0</real>
+					<key>Right Side of Mouth Dimple</key>
+					<real>0.049829822033643723</real>
+					<key>Right Side of Mouth Press</key>
+					<real>0.036568880081176758</real>
+					<key>Right Side of Mouth Smile</key>
+					<real>0.0</real>
+					<key>Right Side of Nose Sneer</key>
+					<real>0.045583534985780723</real>
+					<key>Upper Left Mouth Up</key>
+					<real>0.02156509272754192</real>
+					<key>Upper Mouth Roll</key>
+					<real>0.061911150813102722</real>
+					<key>Upper Mouth Shrug</key>
+					<real>0.1747320890426636</real>
+					<key>Upper Right Mouth Up</key>
+					<real>0.02238566055893898</real>
+				</dict>
+				<key>Geometry</key>
+				<dict>
+					<key>Texture Coordinate Count</key>
+					<integer>3</integer>
+					<key>Texture Coordinates</key>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<key>Triangle Count</key>
+					<integer>3</integer>
+					<key>Triangle Indices</key>
+					<array>
+						<integer>1</integer>
+						<integer>2</integer>
+						<integer>3</integer>
+					</array>
+					<key>Vertex Count</key>
+					<integer>3</integer>
+					<key>Vertices</key>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+				</dict>
+				<key>Identifier</key>
+				<string>BDA85E47-19AA-450F-80DD-9D951FD95524&lt;no loc&gt;</string>
+				<key>Left Eye Transform</key>
+				<array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+				</array>
+				<key>Look At Point</key>
+				<array>
+					<real>-48.931915283203118</real>
+					<real>231.3776550292969</real>
+					<real>1024.8671875</real>
+				</array>
+				<key>Right Eye Transform</key>
+				<array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+				</array>
+				<key>Transform</key>
+				<array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+					<array>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+						<real>0.123456</real>
+					</array>
+				</array>
+			</dict>
+			<key>Partial Face Expressions</key>
+			<array>
+				<dict>
+					<key>Identifier</key>
+					<string>85475E47-19AA-450F-75DD-9D951FD95524&lt;no loc&gt;</string>
+					<key>Value</key>
+					<real>0.123456</real>
+				</dict>
+				<dict>
+					<key>Identifier</key>
+					<string>981ABE47-19AA-450F-80AD-9D951FD95524&lt;no loc&gt;</string>
+					<key>Value</key>
+					<real>0.123456</real>
+				</dict>
+			</array>
+			<key>Sample Timestamp</key>
+			<real>12345.678</real>
+			<key>Session Flags</key>
+			<integer>1</integer>
+			<key>Session Identifier</key>
+			<string>9223372036854775807&lt;no loc&gt;</string>
+			<key>Version</key>
+			<string>1.0</string>
+			<key>Whole Face Expressions</key>
+			<array>
+				<dict>
+					<key>Identifier</key>
+					<string>95475E47-19AA-450F-80DD-9D951FD95524&lt;no loc&gt;</string>
+					<key>Value</key>
+					<real>0.123456</real>
+				</dict>
+				<dict>
+					<key>Identifier</key>
+					<string>758ABE47-19AA-450F-80DD-9D951FD95524&lt;no loc&gt;</string>
+					<key>Value</key>
+					<real>0.123456</real>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>SRWhenShared</key>
+	<array>
+		<string>WHEN_SHARED_0</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

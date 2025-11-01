@@ -1,0 +1,14 @@
+"ACHIEVEMENT_YESTERDAY_DESC_MILESTONE" = "{'goal_value': {'one': '%ld day', 'other': '%ld days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'Your Move streak just hit %#@goal_value@! Rock your Move ring again today.'}";
+"ACHIEVEMENT_YESTERDAY_DESC_2" = "{'NSStringLocalizedFormatKey': 'Bet you can keep your move streak going today.'}";
+"ACHIEVEMENT_UNACHIEVED_PROGRESS_THREE_AWAY_DESC_2" = "{'NSStringLocalizedFormatKey': 'You’re three days away from a new Move streak. Don’t let up. 🏅'}";
+"ACHIEVEMENT_YESTERDAY_DESC_1" = "{'NSStringLocalizedFormatKey': 'Add today to your Move streak.'}";
+"ACHIEVEMENT_UNACHIEVED_PROGRESS_THREE_AWAY_DESC_1" = "{'NSStringLocalizedFormatKey': 'You’re three days away from a new Move streak. Stay in the groove. 🔥'}";
+"ACHIEVEMENT_YESTERDAY_DESC_MILESTONE_NAME" = "{'goal_value': {'one': '%ld day', 'other': '%ld days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'Your Move streak just hit %#@goal_value@! Rock your Move ring again today, {{user_first_name}}.'}";
+"ACHIEVEMENT_UNACHIEVED_PROGRESS_ONE_AWAY_DESC_NAME" = "{'NSStringLocalizedFormatKey': 'Earn your Longest Move Streak award today, {{user_first_name}}. You can do it! 🚀'}";
+"ACHIEVEMENT_UNACHIEVED_PROGRESS_ONE_AWAY_DESC" = "{'NSStringLocalizedFormatKey': 'Earn your Longest Move Streak award today. You can do it! 🚀'}";
+"ACHIEVEMENT_YESTERDAY_DESC_NAME_1" = "{'NSStringLocalizedFormatKey': 'Add today to your Move streak, {{user_first_name}}.'}";
+"ACHIEVEMENT_YESTERDAY_DESC_NAME_2" = "{'NSStringLocalizedFormatKey': 'Bet you can keep your move streak going today, {{user_first_name}}.'}";
+"ACHIEVEMENT_YESTERDAY_DESC_NAME_3" = "{'NSStringLocalizedFormatKey': 'Today’s a good day to add to your Move streak, {{user_first_name}}.'}";
+"ACHIEVEMENT_UNACHIEVED_PROGRESS_THREE_AWAY_DESC_NAME_1" = "{'NSStringLocalizedFormatKey': '{{user_first_name}}, you’re three days away from a new Move streak. Stay in the groove. 🔥'}";
+"ACHIEVEMENT_UNACHIEVED_PROGRESS_THREE_AWAY_DESC_NAME_2" = "{'NSStringLocalizedFormatKey': 'You’re three days away from a new Move streak. Don’t let up, {{user_first_name}}. 🏅'}";
+"ACHIEVEMENT_YESTERDAY_DESC_3" = "{'NSStringLocalizedFormatKey': 'Today’s a good day to add to your Move streak.'}";

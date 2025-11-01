@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GoogleMapURLFormat</key>
+	<string>http://maps.google.com/maps?client=safari&amp;q=%@&amp;ie=UTF-8&amp;oe=UTF-8&amp;sa=N&amp;tab=wl</string>
+	<key>MapURLFormat</key>
+	<string>maps:address=%@&amp;abPersonID=%d&amp;abAddressID=%d</string>
+</dict>
+</plist>

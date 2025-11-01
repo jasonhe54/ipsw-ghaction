@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<dict>
+		<key>#IfFeatureFlagDisabled</key>
+		<string>Security/EnableSecureObjectSync</string>
+		<key>#Then</key>
+		<true/>
+	</dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>DEBUGSCOPE</key>
+		<string>all</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.security.cloudkeychainproxy3</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.mobile.keybagd.lock_status</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobile.keybagd.lock_status</string>
+			</dict>
+			<key>com.apple.security.cloudkeychain.forceupdate</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.security.cloudkeychain.forceupdate</string>
+			</dict>
+			<key>com.apple.security.cloudkeychainproxy.kvstorechange3</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.security.cloudkeychainproxy.kvstorechange3</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.security.cloudkeychainproxy3</key>
+		<true/>
+	</dict>
+	<key>Program</key>
+	<string>/System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/Security.framework/CloudKeychainProxy.bundle/CloudKeychainProxy</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

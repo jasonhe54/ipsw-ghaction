@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>AccountNotificationStore-2</string>
+	<key>NSManagedObjectModel_VersionChecksums</key>
+	<dict>
+		<key>AccountNotificationStore</key>
+		<string>KSIuFagqyzmHF3PwyhqmM0p1DFjXsuunBQVeV8RzFZQ=</string>
+		<key>AccountNotificationStore-2</key>
+		<string>rnyeAKsY1TqNOvmxkO38WrcdO3RCuMKboDjF8OqrBB4=</string>
+	</dict>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>AccountNotificationStore</key>
+		<dict>
+			<key>AccountNotification</key>
+			<data>
+			QVP6Bb1RpprCIHE7ykK9waZKPj06BrLmTMduo0YqDW0=
+			</data>
+			<key>NotificationAction</key>
+			<data>
+			P6dAh7xE9rQjfNWEnQ2NwxISxolcu4OluXe9q8KxNBg=
+			</data>
+		</dict>
+		<key>AccountNotificationStore-2</key>
+		<dict>
+			<key>AccountNotification</key>
+			<data>
+			HLK0TNEDcok4hj6eySdZY9Q8CTdS7tSnGuE77fnPxcI=
+			</data>
+			<key>NotificationAction</key>
+			<data>
+			P6dAh7xE9rQjfNWEnQ2NwxISxolcu4OluXe9q8KxNBg=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

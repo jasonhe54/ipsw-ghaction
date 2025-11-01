@@ -1,0 +1,3 @@
+"BREATHE_MINUTES_FORMAT" = "{'minutes': {'one': '%i MINUTE', 'other': '%i MINUTES', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'i'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"ACTION_ADD_DISABLED_FACE_LIMIT" = "{'watchfaces': {'other': 'You can have up to %lu watch faces on Apple Watch. To add new ones, you’ll have to delete some from My Faces.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@watchfaces@'}";
+"BREATHE_MINUTES_TODAY_FORMAT" = "{'minutes': {'one': '%i MINUTE TODAY', 'other': '%i MINUTES TODAY', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'i'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";

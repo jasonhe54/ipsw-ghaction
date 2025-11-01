@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>PeopleMessagesAskToBuy</string>
+	<key>CFBundleExecutable</key>
+	<string>PeopleMessagesAskToBuy</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>Messages Icon60x45</string>
+				<string>Messages Icon67x50</string>
+				<string>Messages Icon74x55</string>
+				<string>Messages Icon27x20</string>
+				<string>Messages Icon32x24</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.PeopleMessageService.AskToBuy</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>PeopleMessagesAskToBuy</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B68</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MSHideInAppDrawer</key>
+	<true/>
+	<key>MSMessagesExtensionStoreIconName</key>
+	<string>Messages Icon</string>
+	<key>MSShouldBalloonHideAppIcon</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.message-payload-provider</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>PeopleMessagesAskToBuy.AskToBuyMessageViewController</string>
+		<key>NSExtensionPrincipalClassProhibited</key>
+		<false/>
+		<key>com.apple.showsInExtensionsManager</key>
+		<false/>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2022 Apple Inc. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>UIApplication</string>
+	<key>SBAppTags</key>
+	<array>
+		<string>hidden</string>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UIForceModernPointsPerMeter</key>
+	<true/>
+	<key>UIGlobalUserInterfaceIdiomMac</key>
+	<string>YES</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+	<key>UIUserInterfaceIdiomMac</key>
+	<string>YES</string>
+</dict>
+</plist>

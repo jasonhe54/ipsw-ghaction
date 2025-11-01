@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classic</key>
+	<array>
+		<string>system:Alarm</string>
+		<string>system:Ascending</string>
+		<string>system:Bark</string>
+		<string>system:Bell Tower</string>
+		<string>system:Blues</string>
+		<string>system:Boing</string>
+		<string>system:Crickets</string>
+		<string>system:Digital</string>
+		<string>system:Doorbell</string>
+		<string>system:Duck</string>
+		<string>system:Harp</string>
+		<string>system:Marimba</string>
+		<string>system:Motorcycle</string>
+		<string>system:Old Car Horn</string>
+		<string>system:Old Phone</string>
+		<string>system:Piano Riff</string>
+		<string>system:Pinball</string>
+		<string>system:Robot</string>
+		<string>system:Sci-Fi</string>
+		<string>system:Sonar</string>
+		<string>system:Strum</string>
+		<string>system:Timba</string>
+		<string>system:Time Passing</string>
+		<string>system:Trill</string>
+		<string>system:Xylophone</string>
+	</array>
+	<key>modern</key>
+	<array>
+		<string>&lt;default&gt;</string>
+		<string>system:Apex</string>
+		<string>system:Beacon</string>
+		<string>system:Bulletin</string>
+		<string>system:By The Seaside</string>
+		<string>system:Chimes</string>
+		<string>system:Circuit</string>
+		<string>system:Constellation</string>
+		<string>system:Cosmic</string>
+		<string>system:Crystals</string>
+		<string>system:Hillside</string>
+		<string>system:Illuminate</string>
+		<string>system:Night Owl</string>
+		<string>system:Playtime</string>
+		<string>system:Presto</string>
+		<string>system:Radar</string>
+		<string>system:Radiate</string>
+		<string>system:Ripples</string>
+		<string>system:Sencha</string>
+		<string>system:Signal</string>
+		<string>system:Silk</string>
+		<string>system:Slow Rise</string>
+		<string>system:Stargaze</string>
+		<string>system:Summit</string>
+		<string>system:Twinkle</string>
+		<string>system:Uplift</string>
+		<string>system:Waves</string>
+	</array>
+	<key>sort</key>
+	<true/>
+</dict>
+</plist>

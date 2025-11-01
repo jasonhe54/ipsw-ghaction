@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Brunei</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>991</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_AMBULANCE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>993</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_POLICE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>995</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_FIRE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>998</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>bn</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>528</string>
+		<string>com.apple.Brunei</string>
+	</array>
+</dict>
+</plist>

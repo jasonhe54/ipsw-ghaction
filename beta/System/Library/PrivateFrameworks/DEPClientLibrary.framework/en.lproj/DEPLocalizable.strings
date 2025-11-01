@@ -1,0 +1,15 @@
+"CLOUD_CONFIG_DEVICE_UPLOAD_RETRIEVE_ORGANIZATION_REQUEST_FAILED" = "Retrieving organizations failed.";
+"CLOUD_CONFIG_DEVICE_UPLOAD_RETRIEVE_ORGANIZATION_SOLD_TO_IDS_FAILED" = "Retrieving organization’s soldToIds failed.";
+"KEYCHAIN_ERROR_EMPTY_DATA" = "Cannot store empty data into the keychain.";
+"CLOUD_CONFIG_XPC_FAILURE" = "Unable to communicate with the local cloud configuration service.";
+"CLOUD_CONFIG_DEVICE_UPLOAD_RETRIEVE_REQUEST_TYPES_FAILED" = "Retrieving request types failed.";
+"CLOUD_CONFIG_NOT_AVAILABLE" = "The configuration is not available.";
+"CLOUD_CONFIG_PROVISIONAL_ENROLLMENT_FAILED" = "Provisional Enrollment failed.";
+"CLOUD_CONFIG_DEVICE_UPLOAD_SUBMIT_REQUEST_FAILED" = "Submitting device request failed.";
+"CLOUD_CONFIG_UNENROLLMENT_FAILED" = "Failed to unenroll.";
+"KEYCHAIN_ERROR_CODE_P_CODE_%@" = "Keychain reported error code %@.";
+"CLOUD_CONFIG_START_MDM_MIGRATION_FAILED" = "Start MDM migration request failed.";
+"CLOUD_CONFIG_END_MDM_MIGRATION_FAILED" = "End MDM migration request failed.";
+"KEYCHAIN_ERROR_CANNOT_CREATE_QUERY" = "Cannot create a Keychain query.";
+"UNKNOWN_ERROR" = "An unknown error occurred.";
+"CLOUD_CONFIG_DEVICE_REGISTRATION_FAILED" = "Device registration with DEP failed.";

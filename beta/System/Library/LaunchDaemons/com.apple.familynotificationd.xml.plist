@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentalVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.familynotification</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.familynotification.agent</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.familynotifications</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/FamilyNotification.framework/familynotificationd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

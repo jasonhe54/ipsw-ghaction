@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>ExitTimeOut</key>
+	<integer>40</integer>
+	<key>Label</key>
+	<string>com.apple.seld</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.nfcd.se.restricted</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.nfcd.se.restricted</string>
+			</dict>
+			<key>com.apple.nfcd.se.restricted.exit</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.nfcd.se.restricted.exit</string>
+			</dict>
+			<key>com.apple.nfcd.se.restrictedperformance</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.nfcd.se.restrictedperformance</string>
+			</dict>
+			<key>com.apple.system.powermanagement.poweradapter</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.system.powermanagement.poweradapter</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.seld.aps</key>
+		<true/>
+		<key>com.apple.seld.tsmmanager</key>
+		<true/>
+	</dict>
+	<key>Program</key>
+	<string>/usr/libexec/seld</string>
+	<key>PublishesEvents</key>
+	<array>
+		<string>com.apple.seld.xpc.events</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

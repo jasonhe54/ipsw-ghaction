@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Cancel</key>
+	<string>Anulo</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>I kryer</string>
+	<key>UI-EmergencyCall</key>
+	<string>Thirrja e
+urgjencës</string>
+	<key>UI-Go</key>
+	<string>Shkoj</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>SQ</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>Bashkohu</string>
+	<key>UI-LanguageIndicator</key>
+	<string>shqip</string>
+	<key>UI-Next</key>
+	<string>Tjetër</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>pezulloj</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>ribëj</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>Udhëzimet</string>
+	<key>UI-Search</key>
+	<string>Kërkimi</string>
+	<key>UI-Send</key>
+	<string>Dërgo</string>
+	<key>UI-Space</key>
+	<string>hapësirë</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.al .com .org .net</string>
+		<key>Strings</key>
+		<string>.al .com .org .net</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>zhbëj</string>
+	<key>UI-Wait</key>
+	<string>prit</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

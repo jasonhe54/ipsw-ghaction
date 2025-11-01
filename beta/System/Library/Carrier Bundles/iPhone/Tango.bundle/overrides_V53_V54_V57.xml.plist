@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DerPriFileName</key>
+	<string>overrides_V53_V54_V57.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.1.161</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Voice</key>
+		<dict>
+			<key>EnableVolteByDefault</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>MVNOOverrides</key>
+	<dict>
+		<key>Configuration_UK</key>
+		<dict>
+			<key>OverrideConfiguration</key>
+			<dict>
+				<key>DataIndicatorOverrideForLTE</key>
+				<string>4G</string>
+			</dict>
+			<key>SupportedSIMs</key>
+			<array>
+				<string>23453</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Show4GSwitchWith5G</key>
+	<true/>
+	<key>SuppressSimToolkitSendShortMessageNotifications</key>
+	<true/>
+</dict>
+</plist>

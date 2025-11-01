@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>BACKUP_SWITCH_GROUP</string>
+			<key>label</key>
+			<string>BACKUPS_SECTION_HEADER</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>confirmation</key>
+			<dict/>
+			<key>enabled</key>
+			<false/>
+			<key>get</key>
+			<string>cachedIsBackupEnabledNumber</string>
+			<key>id</key>
+			<string>BACKUP_ENABLED_SWITCH</string>
+			<key>set</key>
+			<string>setBackupEnabled:specifier:</string>
+		</dict>
+	</array>
+</dict>
+</plist>

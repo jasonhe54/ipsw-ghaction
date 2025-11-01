@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>defaults</key>
+			<string>com.apple.MobileSMS</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>id</key>
+			<string>PLAY_ALERT_TONE</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>IncomingMessageAlertCount</string>
+			<key>label</key>
+			<string>REPEAT_ALERT</string>
+			<key>notifyNano</key>
+			<true/>
+			<key>validTitles</key>
+			<array>
+				<string>ALERT_0_TIMES</string>
+				<string>ALERT_1_TIME</string>
+				<string>ALERT_2_TIMES</string>
+				<string>ALERT_3_TIMES</string>
+				<string>ALERT_5_TIMES</string>
+				<string>ALERT_10_TIMES</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>6</integer>
+				<integer>11</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

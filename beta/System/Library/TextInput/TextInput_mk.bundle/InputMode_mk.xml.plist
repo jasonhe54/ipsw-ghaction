@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>mk</key>
+		<array>
+			<string>mk_MK</string>
+			<string>en_GB</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>mk_MK</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Macedonian</string>
+				<string>Group-Cyrillic</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Macedonian</string>
+			</array>
+			<key>SWLayouts-Monolith</key>
+			<array>
+				<string>Cyrillic</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardSupportsASCIIToggleKey</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,7066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>$archiver</key>
+	<string>VFXKeyedArchiver</string>
+	<key>$objects</key>
+	<array>
+		<string>$null</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>493</integer>
+			</dict>
+			<key>assetRegistry</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>2</integer>
+			</dict>
+			<key>background</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>482</integer>
+			</dict>
+			<key>endTime</key>
+			<real>0.0</real>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>492</integer>
+			</dict>
+			<key>environment</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>483</integer>
+			</dict>
+			<key>fogColor</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>488</integer>
+			</dict>
+			<key>fogDensityExponent</key>
+			<real>1</real>
+			<key>fogEndDistance</key>
+			<real>0.0</real>
+			<key>fogStartDistance</key>
+			<real>0.0</real>
+			<key>frameRate</key>
+			<real>60</real>
+			<key>preferredConfiguration</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>269</integer>
+			</dict>
+			<key>rootNode</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>271</integer>
+			</dict>
+			<key>screenSpaceAmbientOcclusionEnableBentNormal</key>
+			<false/>
+			<key>screenSpaceAmbientOcclusionIntensity</key>
+			<real>1</real>
+			<key>screenSpaceAmbientOcclusionQuality</key>
+			<integer>1</integer>
+			<key>screenSpaceAmbientOcclusionRadius</key>
+			<real>1</real>
+			<key>screenSpaceReflectionObjectThickness</key>
+			<real>0.25</real>
+			<key>screenSpaceReflectionQuality</key>
+			<integer>0</integer>
+			<key>screenSpaceReflectionThicknessMode</key>
+			<integer>0</integer>
+			<key>shaderCacheConfigurations</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>startTime</key>
+			<real>0.0</real>
+			<key>stateManager</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>484</integer>
+			</dict>
+			<key>triggerManager</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>490</integer>
+			</dict>
+			<key>version</key>
+			<integer>1</integer>
+			<key>wantsScreenSpaceAmbientOcclusion</key>
+			<false/>
+			<key>wantsScreenSpaceReflection</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>268</integer>
+			</dict>
+			<key>root</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>3</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>5</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>4</integer>
+			</dict>
+			<key>isGroup</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<string>871A0502-D5E4-42BF-855F-F0ADB3D1BC6C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>6</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>19</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>130</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>177</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>208</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>216</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>224</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>232</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>242</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>244</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>252</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>260</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>8</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>7</integer>
+			</dict>
+		</dict>
+		<string>A3DE0F9F-D1C9-4C1A-806C-22FFBA38502A</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>9</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>16</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>10</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>12</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>11</integer>
+			</dict>
+		</dict>
+		<string>3F07088B-BC37-4FD6-B3EA-3B0D308CF9A3</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSMutableArray</string>
+				<string>NSArray</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSMutableArray</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXCoreEntityHandle</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXCoreEntityHandle</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXBehaviorGraph</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXBehaviorGraph</string>
+		</dict>
+		<string>Curve</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXCoreAsset</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXCoreAsset</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXAssetNode</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXAssetNode</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>20</integer>
+			</dict>
+		</dict>
+		<string>E4E63366-256E-4AC1-9307-DB3576049E2C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>129</integer>
+			</dict>
+			<key>avoidsOverLighting</key>
+			<false/>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>124</integer>
+			</dict>
+			<key>blendMode</key>
+			<integer>1</integer>
+			<key>colorBufferWriteMask</key>
+			<integer>15</integer>
+			<key>cullMode</key>
+			<integer>0</integer>
+			<key>diffuse</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>110</integer>
+			</dict>
+			<key>doubleSided</key>
+			<true/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>128</integer>
+			</dict>
+			<key>fillMode</key>
+			<integer>2</integer>
+			<key>fresnelExponent</key>
+			<real>0.0</real>
+			<key>indexOfRefraction</key>
+			<real>1</real>
+			<key>litPerPixel</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>117</integer>
+			</dict>
+			<key>readsFromDepthBuffer</key>
+			<false/>
+			<key>selfIlluminationOcclusion</key>
+			<real>0.0</real>
+			<key>shadableHelper</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>118</integer>
+			</dict>
+			<key>shadingModel</key>
+			<integer>2</integer>
+			<key>shininess</key>
+			<real>1</real>
+			<key>transparencyMode</key>
+			<integer>0</integer>
+			<key>transparent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>116</integer>
+			</dict>
+			<key>valuesForUndefinedKeys</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>22</integer>
+			</dict>
+			<key>writesToDepthBuffer</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>109</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>23</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>24</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>25</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>26</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>27</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>28</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>29</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>30</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>31</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>32</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>33</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>34</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>35</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>36</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>37</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>38</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>39</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>40</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>41</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>42</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>43</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>44</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>46</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>47</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>48</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>49</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>50</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>51</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>52</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>53</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>54</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>55</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>56</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>57</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>58</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>61</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>62</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>65</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>66</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>70</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>72</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>73</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>83</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>85</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>87</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>94</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>101</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>102</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>65</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>103</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>105</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>107</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>108</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>transitionToRoundedRectangle</string>
+		<string>imageRatio</string>
+		<string>attractor1</string>
+		<string>transitionToPicture</string>
+		<string>transitionToRectangleProcessing</string>
+		<string>transitionToShape</string>
+		<string>opacity</string>
+		<string>latencyIntro</string>
+		<string>transitionToFinalPicture</string>
+		<string>attractor6</string>
+		<string>transitionToBlob</string>
+		<string>imageScale</string>
+		<string>rectangleSize</string>
+		<string>attractor4</string>
+		<string>showSpiral</string>
+		<string>wandMode</string>
+		<string>latencyTime</string>
+		<string>intertiaRotation</string>
+		<string>image</string>
+		<string>position</string>
+		<string>attractor2</string>
+		<string>genmojiMode</string>
+		<string>colorLUT</string>
+		<string>colorLUTBottom</string>
+		<string>rectangleRadius</string>
+		<string>genmojiRampSize</string>
+		<string>latencyIntensity</string>
+		<string>blobAnimationSpeed</string>
+		<string>showImage</string>
+		<string>lightMode</string>
+		<string>attractor5</string>
+		<string>HDRMode</string>
+		<string>transitionToRectangle</string>
+		<string>transitionToError</string>
+		<string>attractor3</string>
+		<string>scale</string>
+		<string>processing_image</string>
+		<real>0.0</real>
+		<real>2</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.rectval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>63</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>3</integer>
+		</dict>
+		<string>{{-0.45927339792251587, 0.65502721071243286}, {1, 0}}</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSValue</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSValue</string>
+		</dict>
+		<real>1</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.rectval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>67</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>3</integer>
+		</dict>
+		<string>{{-0.020314587280154228, -0.79973745346069336}, {1, 0}}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.pointval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>69</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>1</integer>
+		</dict>
+		<string>{0.23505085706710815, 0.41818180680274963}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.rectval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>71</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>3</integer>
+		</dict>
+		<string>{{-0.30958405137062073, 0.73766547441482544}, {1, 0}}</string>
+		<real>0.23100000619888306</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>74</integer>
+			</dict>
+			<key>customMaterialPropertyName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>41</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>2</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>16</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>81</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>76</integer>
+			</dict>
+			<key>filename</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>75</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>80</integer>
+			</dict>
+		</dict>
+		<string>uv_mapper.jpeg</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>77</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>79</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>78</integer>
+			</dict>
+		</dict>
+		<string>9D78516E-0CC9-4062-A052-28180066DB39</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>uv_mapper</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXTextureAsset</string>
+				<string>VFXFileAsset</string>
+				<string>VFXCoreAsset</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXTextureAsset</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXMaterialProperty</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXMaterialProperty</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.pointval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>84</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>1</integer>
+		</dict>
+		<string>{-0, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.rectval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>86</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>3</integer>
+		</dict>
+		<string>{{-0.77634787559509277, -0.19307152926921844}, {1, 0}}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>88</integer>
+			</dict>
+			<key>customMaterialPropertyName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>45</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>0</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>16</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>89</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>93</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>90</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>91</integer>
+			</dict>
+		</dict>
+		<string>C1FBBDE5-5AA2-4EBB-A487-49115AD398A7</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>Color RampTop</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>95</integer>
+			</dict>
+			<key>customMaterialPropertyName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>0</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>16</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>96</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>100</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>97</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>99</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>98</integer>
+			</dict>
+		</dict>
+		<string>CC8BD9B7-F031-4AC4-A622-1736C87BFC4E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>Color RampBottom</string>
+		<real>0.06319744884967804</real>
+		<real>0.20000000298023224</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.rectval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>104</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>3</integer>
+		</dict>
+		<string>{{-0.03704172745347023, 0.7991374135017395}, {1, 0}}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.rectval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>106</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>3</integer>
+		</dict>
+		<string>{{0.7983165979385376, 0.051799964159727097}, {1, 0}}</string>
+		<real>11</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>customMaterialPropertyName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>59</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>0</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>16</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSMutableDictionary</string>
+				<string>NSDictionary</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSMutableDictionary</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>color</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>111</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>1</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>2</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>2</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>115</integer>
+			</dict>
+			<key>NSColorSpace</key>
+			<integer>1</integer>
+			<key>NSComponents</key>
+			<data>
+			MC43MzUzNTY5ODY1IDAuNzM1MzU2OTg2NSAwLjczNTM1Njk4NjUg
+			MQ==
+			</data>
+			<key>NSCustomColorSpace</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>112</integer>
+			</dict>
+			<key>NSLinearExposure</key>
+			<data>
+			MQ==
+			</data>
+			<key>NSRGB</key>
+			<data>
+			MC42ODAzOTQ5NDc1IDAuNjgwMzk0OTQ3NSAwLjY4MDM5NDk0NzUA
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>114</integer>
+			</dict>
+			<key>NSICC</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>113</integer>
+			</dict>
+			<key>NSSpaceID</key>
+			<integer>14</integer>
+		</dict>
+		<data>
+		AAAMSExpbm8CEAAAbW50clJHQiBYWVogB84AAgAJAAYAMQAAYWNzcE1TRlQA
+		AAAASUVDIHNSR0IAAAAAAAAAAAAAAAAAAPbWAAEAAAAA0y1IUCAgAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARY3By
+		dAAAAVAAAAAzZGVzYwAAAYQAAABsd3RwdAAAAfAAAAAUYmtwdAAAAgQAAAAU
+		clhZWgAAAhgAAAAUZ1hZWgAAAiwAAAAUYlhZWgAAAkAAAAAUZG1uZAAAAlQA
+		AABwZG1kZAAAAsQAAACIdnVlZAAAA0wAAACGdmlldwAAA9QAAAAkbHVtaQAA
+		A/gAAAAUbWVhcwAABAwAAAAkdGVjaAAABDAAAAAMclRSQwAABDwAAAgMZ1RS
+		QwAABDwAAAgMYlRSQwAABDwAAAgMdGV4dAAAAABDb3B5cmlnaHQgKGMpIDE5
+		OTggSGV3bGV0dC1QYWNrYXJkIENvbXBhbnkAAGRlc2MAAAAAAAAAEnNSR0Ig
+		SUVDNjE5NjYtMi4xAAAAAAAAAAAAAAASc1JHQiBJRUM2MTk2Ni0yLjEAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AFhZWiAAAAAAAADzUQABAAAAARbMWFlaIAAAAAAAAAAAAAAAAAAAAABYWVog
+		AAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAA
+		ACSgAAAPhAAAts9kZXNjAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gA
+		AAAAAAAAAAAAABZJRUMgaHR0cDovL3d3dy5pZWMuY2gAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAu
+		SUVDIDYxOTY2LTIuMSBEZWZhdWx0IFJHQiBjb2xvdXIgc3BhY2UgLSBzUkdC
+		AAAAAAAAAAAAAAAuSUVDIDYxOTY2LTIuMSBEZWZhdWx0IFJHQiBjb2xvdXIg
+		c3BhY2UgLSBzUkdCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAA
+		LFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBpbiBJRUM2MTk2Ni0yLjEA
+		AAAAAAAAAAAAACxSZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVD
+		NjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2aWV3AAAAAAAT
+		pP4AFF8uABDPFAAD7cwABBMLAANcngAAAAFYWVogAAAAAABMCVYAUAAAAFcf
+		521lYXMAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAKPAAAAAnNpZyAAAAAA
+		Q1JUIGN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAtADIANwA7AEAA
+		RQBKAE8AVABZAF4AYwBoAG0AcgB3AHwAgQCGAIsAkACVAJoAnwCkAKkArgCy
+		ALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA+wEBAQcBDQETARkBHwElASsB
+		MgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5AcEByQHR
+		AdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgC
+		ogKsArYCwQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOW
+		A6IDrgO6A8cD0wPgA+wD+QQGBBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYE
+		xATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYFpgW1BcUF1QXlBfYGBgYW
+		BicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeGB5kH
+		rAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlk
+		CXkJjwmkCboJzwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1EL
+		aQuAC5gLsAvIC+EL+QwSDCoMQwxcDHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2O
+		DakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EPXg96D5YPsw/PD+wQ
+		CRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKj
+		EsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgV
+		mxW9FeAWAxYmFkkWbBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihiv
+		GNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3Gp4axRrsGxQbOxtjG4obshvaHAIc
+		KhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+HukfEx8+H2kflB+/
+		H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5Qj
+		wiPwJB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfc
+		KA0oPyhxKKIo1CkGKTgpaymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDks
+		biyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8kL1ovkS/HL/4wNTBsMKQw2zES
+		MUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01hzXCNf02
+		NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtr
+		O6o76DwnPGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdB
+		KUFqQaxB7kIwQnJCtUL3QzpDfUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bw
+		RzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsMS1NLmkviTCpMcky6TQJN
+		Sk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNTX1Oq
+		U/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZa
+		plr1W0VblVvlXDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2Gi
+		YfViSWKcYvBjQ2OXY+tkQGSUZOllPWWSZedmPWaSZuhnPWeTZ+loP2iWaOxp
+		Q2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27Ebx5veG/RcCtwhnDg
+		cTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5
+		KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFr
+		gc2CMIKSgvSDV4O6hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6K
+		ZIrKizCLlov8jGOMyo0xjZiN/45mjs6PNo+ekAaQbpDWkT+RqJIRknqS45NN
+		k7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrVm0Kbr5wcnImc
+		951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaL
+		pv2nbqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw
+		6rFgsdayS7LCszizrrQltJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsu
+		u6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB48JfwtvDWMPUxFHEzsVLxcjG
+		RsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+40DnQutE8
+		0b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3Ird
+		EN2W3hzeot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui8
+		6Ubp0Opb6uXrcOv77IbtEe2c7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1
+		UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9uv5L/tz/bf//
+		</data>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSColorSpace</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSColorSpace</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSColor</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSColor</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>float</key>
+			<real>1</real>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<false/>
+			<key>isCommonProfileProperty</key>
+			<integer>1</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>2</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>5</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<string>material Blob</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>123</integer>
+			</dict>
+			<key>owner</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>21</integer>
+			</dict>
+			<key>shaderModifiers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>119</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>122</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>120</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>121</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>VFXShaderModifierEntryPointFragment</string>
+		<string>
+//------------------------------------------------------
+// Blob
+//------------------------------------------------------
+#pragma declaration
+
+inline float2x2 rotate(float v) {
+    float a = cos(v);
+    float b = sin(v);
+    return float2x2(a,-b,b,a);
+}
+
+float smin(float a, float b, float k)
+{
+    float h = max(k-abs(a-b), 0.0)/k;
+    return min(a, b) - h*h*k*(1.0/4.0);
+}
+half smin(half a, half b, half k)
+{
+    half h = max(k-abs(a-b), 0.h)/k;
+    return min(a, b) - h*h*k*(1.h/4.h);
+}
+float smax(float a, float b, float k)
+{
+    return -smin(-a, -b, k);
+}
+half smax(half a, half b, half k)
+{
+    return -smin(-a, -b, k);
+}
+
+float box(float3 p, float3 b, float r)
+{
+    float3 q = abs(p) - b + r;
+    return length(max(q,0.0)) + min(max(q.x,max(q.y,q.z)),0.0) - r;
+}
+half box(half3 p, half3 b, half r)
+{
+    half3 q = abs(p) - b + r;
+    return length(max(q, 0.h)) + min(max3(q.x,q.y,q.z), 0.h) - r;
+}
+
+float box2d(float2 p, float2 b, float r)
+{
+    float2 q = abs(p) - b + r;
+    return length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - r;
+}
+
+half box2d(half2 p, half2 b, half r)
+{
+    half2 q = abs(p) - b + r;
+    return length(max(q, 0.h)) + min(max(q.x, q.y), 0.h) - r;
+}
+
+half squircle(half2 p, half2 b, half r)
+{
+    const float continuous_factor = 1.3;
+    r *= continuous_factor;
+    half2 hs = b - r;
+    
+    p = abs(p); 
+    
+    if(p.x &lt; hs.x || p.y &lt; hs.y ){
+        return box2d(p, b, 0.);
+    }
+    
+    p-= hs;
+    p /= r;
+    
+    if( p.y&gt;p.x ) {
+        p=p.yx;
+    };
+        
+    half n = 2.75;
+    half w = pow(p.x,n) + pow(p.y,n);
+
+    return (pow(w,1.0h/n) - 1.) * (r);
+
+}
+
+
+
+struct Blob {
+    const float metaSmooth = 0.12;
+    const float metaSize = 0.37;
+    const float metaOffset = 0.18;
+    const float offsetSpeed = 1.3;
+    float3 attractorPos1;
+    float3 attractorPos2;
+    float3 attractorPos3;
+    float3 attractorPos4;
+    float3 attractorPos5;
+    float3 attractorPos6;
+    float4 rectangleData;
+    float2 shapeData;
+    
+
+    // Precomputed value before raymarch loop
+    float time10;
+    float2x2 rot;
+    float4 metaPosSize[4];
+    float attractorsFade;
+    
+    void init(float time, float inertiaRotation, float showAttractors, float4 rectangle, float2 shape) {
+        time10 = time*10.;
+        rot = rotate(time*0.4*M_PI_2_F + inertiaRotation);
+        
+        // precalc metaball pos &amp; size
+        float ct = cos(time * offsetSpeed) * metaSize * metaOffset;
+        float st = sin(time * offsetSpeed) * metaSize * metaOffset;
+        metaPosSize[0] = float4( st*1.1, st,  0.0, metaSize * 1.);
+        metaPosSize[1] = float4(-st*1.2, st,  0.21, metaSize * 1.0);
+        metaPosSize[2] = float4( st * 1.4, ct * 1.3, -0.2,        metaSize * 1.0);
+        metaPosSize[3] = float4( st * 1.2, -ct * 1.2,  0.1,        metaSize  );
+        
+        attractorsFade = 0.15 * showAttractors;
+        rectangleData = rectangle;
+        shapeData = shape;
+    }
+    
+    
+    half map(half3 p) {
+        half d = 0.0, r = 0.0;
+        half4 rect = half4(rectangleData);
+        half2 shp = half2(shapeData.xy);
+        
+        if (rect.w &lt; 1.0) {
+            // Metaballs
+            half3 pp = half3(half2x2(rot) * p.xy, p.z);
+            half d0 = length(pp - half3(metaPosSize[0].xyz)) - half(metaPosSize[0].w);
+            half d1 = length(pp - half3(metaPosSize[1].xyz)) - half(metaPosSize[1].w);
+            half d2 = length(pp - half3(metaPosSize[2].xyz)) - half(metaPosSize[2].w);
+            half d3 = length(pp - half3(metaPosSize[3].xyz)) - half(metaPosSize[3].w);
+            
+            half ms = metaSmooth;
+            d = smin(d0, d1, ms);
+            d = smin(d,d2, ms);
+            d = smin(d,d3, ms);
+        }
+        if (rect.w &gt; 0.0) {
+            r = box(p, half3(rect.xy, 0.4h), rect.z);
+        }
+        d = mix(d, r, rect.w);
+        //d = mix(d, shp.x, shp.y);
+        return d;
+    }
+    
+    float map(float3 p) {
+        float d = 0.0, r = 0.0;
+        float4 rect = float4(rectangleData);
+        float2 shp = float2(shapeData.xy);
+        
+        if (rect.w &lt; 1.0) {
+            // Metaballs
+            float3 pp = float3(float2x2(rot) * p.xy, p.z);
+            float d0 = length(pp - float3(metaPosSize[0].xyz)) - float(metaPosSize[0].w);
+            float d1 = length(pp - float3(metaPosSize[1].xyz)) - float(metaPosSize[1].w);
+            float d2 = length(pp - float3(metaPosSize[2].xyz)) - float(metaPosSize[2].w);
+            float d3 = length(pp - float3(metaPosSize[3].xyz)) - float(metaPosSize[3].w);
+            
+            float ms = metaSmooth;
+            d = smin(d0, d1, ms);
+            d = smin(d,d2, ms);
+            d = smin(d,d3, ms);
+        }
+        if (rect.w &gt; 0.0) {
+            r = box(p, float3(rect.xy, 0.4), rect.z);
+        }
+        d = mix(d, r, rect.w);
+        return d;
+    }
+    
+    half map2d(half2 p) {
+        half d = 0.0, r = 0.0;
+        half4 rect = half4(rectangleData);
+        half2 shp = half2(shapeData.xy);
+
+        if (rect.w &lt; 1.0) {
+            half2 pp = half2x2(rot) * p;
+            half d0 = length(pp - half2(metaPosSize[0].xy)) - half(metaPosSize[0].w);
+            half d1 = length(pp - half2(metaPosSize[1].xy)) - half(metaPosSize[1].w);
+            half d2 = length(pp - half2(metaPosSize[2].xy)) - half(metaPosSize[2].w);
+            half d3 = length(pp - half2(metaPosSize[3].xy)) - half(metaPosSize[3].w);
+            
+            half ms = metaSmooth;
+            d = smin(d0, d1, ms);
+            d = smin(d,d2, ms);
+            d = smin(d,d3, ms);
+        }
+        if (rect.w &gt; 0.0)
+        {
+            //r = box2d(p.xy, rect.xy, rect.z);
+            r = squircle(p.xy, rect.xy, rect.z);
+        }
+        d = mix(d, r, rect.w);
+        //d = mix(d, shp.x, shp.y);
+        return d;
+    }
+    
+    half mapAttractors2d(half2 p) {
+        half rad = 0.06h;
+        half a1 = length(p-half2(attractorPos1.xy)) - rad;
+        half a2 = length(p-half2(attractorPos2.xy)) - rad;
+        half a3 = length(p-half2(attractorPos3.xy)) - rad;
+        half a4 = length(p-half2(attractorPos4.xy)) - rad;
+        half a5 = length(p-half2(attractorPos5.xy)) - rad;
+        half a6 = length(p-half2(attractorPos6.xy)) - rad;
+        a1 += attractorPos1.z;
+        a2 += attractorPos2.z;
+        a3 += attractorPos3.z;
+        a4 += attractorPos4.z;
+        a5 += attractorPos5.z;
+        a6 += attractorPos6.z;
+        half d = min(a1, a2);
+        d = min(d, a3);
+        d = min(d, a4);
+        d = min(d, a5);
+        d = min(d, a6);
+        return d;
+    }
+    
+    float trace(float3 ro_i, float3 rd_i) {
+        half pd = HALF_MAX;
+        
+        half3 ro = half3(ro_i);
+        half3 rd = half3(rd_i);
+        float t = 0.;
+        for(int i=0; i&lt;15; i++) {
+            half d = map(rd*t + ro);
+            
+            pd = d;
+            t += d;
+            
+            if (d &lt; 0.005)
+                return t;
+//            if (t &gt; 5)
+//                return t;
+        }
+        return t;
+    }
+    
+    float3 normal(float3 p_i, float d) {
+        half2 eps = half2(.01h, 0.h);
+        half3 n;
+        half3 p = half3(p_i);
+        n.x = d - map(p-eps.xyy);
+        n.y = d - map(p-eps.yxy);
+        n.z = d - map(p-eps.yyx);
+        return float3(normalize(n));
+    }
+};
+
+//------------------------------------------------------
+// Bindings
+//------------------------------------------------------
+#pragma arguments
+texture2d image;
+//texture2d shapeSDF;
+texture1d colorLUT;
+texture1d colorLUTBottom;
+float3 attractor1;
+float3 attractor2;
+float3 attractor3;
+float3 attractor4;
+float3 attractor5;
+float3 attractor6;
+float2 position;
+float intertiaRotation;
+float scale;
+float opacity;
+float transitionToBlob;
+float transitionToPicture;
+float transitionToFinalPicture;
+float transitionToRectangle;
+float transitionToRectangleProcessing;
+float transitionToError;
+float transitionToShape;
+float showImage;
+float3 imageRatio_screenRatio;
+float lightMode; //no bool or int in custom properties
+float genmojiMode; //no bool or int in custom properties
+//float wandMode;
+float2 rectangleSize;
+float rectangleRadius;
+float imageScale;
+float2 latencyTimeIntensity;
+//float latencyIntensity;
+float latencyIntro;
+float blobAnimationSpeed;
+float2 progress_intensity;
+float2 image_size;
+
+//------------------------------------------------------
+// Entry point
+//------------------------------------------------------
+#pragma body
+
+constexpr sampler smp_lin = sampler(filter::linear, address::repeat);
+//constexpr sampler smp_img = sampler(filter::linear, address::clamp_to_edge, mip_filter::linear, filter::linear ,mag_filter::linear, min_filter::linear);
+constexpr sampler smp_img = sampler(filter::linear, address::mirrored_repeat, mip_filter::linear, filter::linear ,mag_filter::linear, min_filter::linear);
+
+float time = vfx_frame.time;
+float progress = progress_intensity.x;
+float progressIntensity = progress_intensity.y;
+
+float imageRatio = imageRatio_screenRatio.x;
+float2 screenRation = imageRatio_screenRatio.yz;
+
+// Camera origin &amp; direction
+float2 uv = in.fragmentPosition.xy * vfx_frame.inverseResolution;
+float3 ro = vfx_frame.inverseViewTransform.columns[3].xyz;
+
+float2 texture_size = {(float)image.get_width(), (float)image.get_height()};
+float2 image_scale = image_size / texture_size;
+
+float2 effectPosition = position;
+uv = (uv + effectPosition);
+
+//for the wand
+float2 shapeUV = uv;
+uv += position;
+half c = 0;
+//half c = shapeSDF.sample(smp_lin, shapeUV).x;
+
+float2 ndc = float2(uv.x*2.-1., (1.-uv.y)*2.-1.) / scale;
+float aspect = vfx_frame.projectionTransform.columns[1].y / vfx_frame.projectionTransform.columns[0].x;
+float tanHalfFovY = 1.0f / vfx_frame.projectionTransform[1][1];
+float3 rd = normalize( (ndc.x * vfx_frame.inverseViewTransform.columns[0].xyz * tanHalfFovY * aspect) + (ndc.y * vfx_frame.inverseViewTransform.columns[1].xyz * tanHalfFovY) - vfx_frame.inverseViewTransform.columns[2].xyz);
+
+// Scene setup
+Blob blob;
+float rectangleCorner = mix(min(rectangleSize.x, rectangleSize.y),rectangleRadius, transitionToRectangle);
+blob.init(vfx_frame.time * blobAnimationSpeed, intertiaRotation, 1. - transitionToPicture, float4(rectangleSize.xy,rectangleCorner, transitionToRectangle), float2(c,transitionToShape));
+
+// Intersection with plane z = 0
+half planeT = -half(ro.z)/half(rd.z);
+
+half3 planeP = half3(ro) + half3(rd) * planeT;
+planeP = select(planeP, half3(0.00001, 0.0, 0.0), dot(planeP, planeP) == 0.0); // avoid 0 to avoid NaN
+
+half planeD = blob.map2d(planeP.xy);
+
+float genMult = 1;
+if (genmojiMode &gt; 0.5)
+    genMult = 1.5;
+float bgRadius = mix(1.1 * genMult, 7. - (latencyIntro * 2),transitionToRectangle);
+
+if (planeD * bgRadius &gt; 1.h) discard_fragment();
+
+half2 dir = normalize(planeP.xy);
+float angle  = atan2(dir.y, dir.x)  / (M_PI_F * 2);
+
+float move_attr = 0.55 + 0.0253 * sin(time * 3. + abs(angle));
+
+blob.attractorPos1 = float3(attractor1.xy*move_attr, attractor1.z); //z is intensity
+blob.attractorPos2 = float3(attractor2.xy*move_attr, attractor2.z);
+blob.attractorPos3 = float3(attractor3.xy*move_attr, attractor3.z);
+blob.attractorPos4 = float3(attractor4.xy*move_attr, attractor4.z);
+blob.attractorPos5 = float3(attractor5.xy*move_attr, attractor5.z);
+blob.attractorPos6 = float3(attractor6.xy*move_attr, attractor6.z);
+
+
+half attractors2d = smax(planeD, -blob.mapAttractors2d(planeP.xy), 0.2h);
+attractors2d = smin(attractors2d, -planeD, 0.03h);
+
+float4 col = float4(0.);
+
+angle -= time * 0.2;
+float4 angle_color = mix(colorLUT.sample(smp_lin, angle * 1), float4(1.), 0.1);
+
+
+// Lights direction
+float lightZ = mix(0.4, 3.5, pow(transitionToShape, 2));
+
+float3 dirl1 = normalize(float3( 0.4, 0.7, lightZ * 0.2));
+float3 dirl2 = normalize(float3( 0.4,-0.7, lightZ));
+float3 dirl3 = normalize(float3(  -0.7, 0.4, lightZ));
+
+float2 uvImg = float2(planeP.xy);
+
+// Shade
+float planeDThreshold = mix(0.005, 0.0025, transitionToRectangle);
+if (planeD &lt; planeDThreshold) {
+    // Trace
+    float t = blob.trace(ro,rd);
+
+    float3 p = ro + rd * t;
+    float d = blob.map(half3(p));
+    float3 n = blob.normal(p, d);
+    
+    // Fake fresnel
+    float fre = saturate(1.+dot(rd,n));
+    
+    float l1 = pow(max(0., dot(n, dirl1)), 2.);
+    float l2 = pow(max(0., dot(n, dirl2)), 2.);
+    float l3 = pow(max(0., dot(n, dirl3)), 2.);
+    
+    // Lightmasks
+    float3 lightmask;
+    lightmask.r = smoothstep(0.02,1.,pow(fre,0.5)*l1);
+    lightmask.g = smoothstep(0.02,1.,fre*l3);
+    lightmask.b = smoothstep(0.02,1.,fre*l2);
+    lightmask -= pow(max(0., -n.z), 2.)*.25;
+    lightmask = saturate(lightmask);
+    
+    // Lightmasks to color LUT
+    //attractors light dots
+    float attractorIntensity = 1;
+    float la = (1. - transitionToPicture) * smoothstep(-0.03, 0.05, float(attractors2d)) * attractorIntensity;
+    la *= mix(1, 0.7, lightMode);
+    
+    float4 lightcol = 0;
+    
+    float tile = 0.4;
+    lightcol = lightmask.r * colorLUT.sample(smp_lin, -fre * tile + (time*0.3) * 0.5 + 0.5);
+    col = (1.0-lightcol.a) * col + lightcol;
+    
+    lightcol = lightmask.g * colorLUT.sample(smp_lin, -fre * tile + (time*0.8) * 0.5);
+    col = (1.0-lightcol.a) * col + lightcol;
+    
+    lightcol = lightmask.b * colorLUTBottom.sample(smp_lin, -fre * tile + (time*1.1*0.5));
+    col = (1.0-lightcol.a) * col + lightcol;
+
+    lightcol = la * mix(angle_color, float4(1.), 0.2 * lightMode) * (1. - genmojiMode);
+    col = (1.0-lightcol.a) * col + lightcol;
+    col = pow(col, mix(0.55, 0.45, transitionToPicture)); //wrong gamma from color ramps
+    
+    //rectangle ramp
+    float borderRectangle = smoothstep(-(0.07 + (1.-transitionToRectangle)*.5), 0., float(planeD)); // smooth interior fade
+    borderRectangle = pow(borderRectangle, 2);
+    
+    float rampUV = atan2(uvImg.y, uvImg.x) - atan2(rectangleSize.y, rectangleSize.x);
+    
+    rampUV = fract(rampUV / (M_PI_F * 2.)) - 0.5;
+    
+    //latency effect
+    float offsetLatency = latencyTimeIntensity.x * M_PI_F * 2. - 1.;
+    float2 latencyUV = 0.09 * float2(cos(offsetLatency), sin(-offsetLatency));
+    float4 latencyCol = colorLUT.sample(smp_lin, rampUV + 0.45  + latencyTimeIntensity.x) * (1 + latencyIntro);
+    latencyCol = pow(latencyCol,0.5);
+    float latencyBoxDist = squircle(half2(latencyUV - uvImg), half2(0.75 * rectangleSize.xy), 0.75h * rectangleCorner) * transitionToFinalPicture;
+    float latencyInt = 0.5 * pow(smoothstep(-0.25, 0.2, latencyBoxDist), 3.) + 0.75 * borderRectangle * pow(smoothstep(-0.03, 0.05, latencyBoxDist), 2.);
+    latencyCol *= saturate(latencyInt * (latencyTimeIntensity.y - 0.5 * latencyIntro));
+    latencyCol.a *= 0.75;
+    //end latency effect
+    
+    rampUV = abs(rampUV);
+    rampUV += borderRectangle * 0.3;
+    rampUV += fmod(time * -0.35, 1.0);
+    
+    lightcol = colorLUTBottom.sample(smp_lin, rampUV);
+    lightcol *= borderRectangle*.7;
+    if (lightMode &gt; .5)
+    {
+        latencyCol.a *= 0.65;
+        
+        lightcol = pow(lightcol, 0.8);
+    }
+    else
+    {
+        latencyCol.a *= 0.8;
+    }
+    col *= borderRectangle;
+    col = mix(col, lightcol, pow(transitionToRectangle, 4));
+    
+
+        
+    col = (1. - latencyCol.a) * col + latencyCol;
+    
+    col *= transitionToFinalPicture * (pow(transitionToShape, 5) * 3 + 1);
+
+    
+    //Processing effect
+    //put back the color only for rectangle for empty rectangle state
+    //waiting for HI specs for the real thing
+    float4 process_img = 0;
+    float fre2 = saturate(1.+dot(normalize(rd + float3(-0.2,0.6,0)),n));
+    process_img += float4(0.2,0.1,0.4, 0.3) * 0.7;
+    process_img.a = 1;
+    process_img.rgb = lightMode? 0.98:process_img.rgb* ((1 - transitionToRectangle) * 0.2);
+    
+    process_img = pow(mix(process_img, pow((colorLUTBottom.sample(smp_lin, -fre2 * 0.6 + (time * 0.3)) * 0.65), 0.9), 0.5 * transitionToRectangle) * 0.25, 0.6);
+    process_img.a = lightMode &gt; 0.5 ? 0.55 : 1;
+
+    
+    process_img = mix(process_img, 0.5,transitionToError );
+    
+    // Final image
+    float4 img = 0.;
+    if (genmojiMode &lt; 0.5)
+    {
+        const float ratio = vfx_frame.inverseResolution.x / vfx_frame.inverseResolution.y;
+        //dezoom slightly when in blob state
+        float imageScaleUnzoom = imageScale * mix(0.9 ,1,pow(transitionToRectangle, 1));
+        //pictures can have different ratio. By default pictures are fit to height
+        //but we can zoom them to other ratio with imageRatio to fit them to width
+        imageScaleUnzoom *= mix(imageRatio, 1, pow(transitionToRectangle, 1.89));
+        
+        
+        float w = vfx_frame.inverseResolution.y / imageRatio;
+        float r = w / vfx_frame.inverseResolution.x;
+        float off = 0.5 * (1.0 - r);
+        
+        float2 imageUV = float2(uv.x * r, uv.y);
+        imageUV.x += off;
+        
+        imageUV = imageUV * imageScaleUnzoom + 0.5 * (1-imageScaleUnzoom);
+        
+        if (imageRatio&lt;1)
+            imageUV.y -= 0.15 * mix(imageRatio, 0, pow(transitionToRectangle, 1.5)); //for 1:2 ratio, offset a little bit the picture in y  
+        float2 imageUVcentered = imageUV * 2. - 1.;
+            
+
+        const float offsetMult = 1.0;
+        float2 uvOffset =  float2(cos(time * 2.2 + 0.3) * 0.007, sin(time * 1.6) * 0.008) * (1-transitionToRectangle) * offsetMult;
+        
+        if(transitionToRectangle &lt; 0.999){
+            imageUV.xy -= blob.normal(p, d).xy * float2(-1, 1) * pow(fre, 1) * 0.1 * (1-transitionToRectangle);
+            
+            //offset for chromatic abherations on the picture borders
+            float2 uvColorOffset = -0.06 * imageUVcentered * smoothstep(-0.3, 0.3, float(planeD)) * smoothstep(1., 0.75, transitionToRectangle);
+            //offset to smear and expand the outside of the texture 
+            uvOffset += -0.1 * imageUVcentered * max(0., length(imageUVcentered - uvOffset) - 0.75) * (1-transitionToRectangle);
+            
+            
+            imageUV.x *= image_scale.x;
+            uvOffset.x *= image_scale.x;
+    
+            
+            float4 sample1 = image.sample(smp_img, imageUV + uvOffset + uvColorOffset);
+            float4 sample2 = image.sample(smp_img, imageUV + uvOffset + 0.5 * uvColorOffset);
+            float4 sample3 = image.sample(smp_img, imageUV + uvOffset);
+            float4 sample4 = image.sample(smp_img, imageUV + uvOffset - 0.5 * uvColorOffset);
+            float4 sample5 = image.sample(smp_img, imageUV + uvOffset - uvColorOffset);
+            img.r = sample1.r * 0.3333 + sample2.r * 0.6666;
+            img.g = sample3.g * 0.5 + sample2.g * 0.25 + sample4.g * 0.25;
+            img.b = sample4.b * 0.6666 + sample5.b * 0.3333;
+            img.a = 1.;
+        } else {
+            
+            imageUV.x *= image_scale.x;
+            uvOffset.x *= image_scale.x;
+            
+            img = image.sample(smp_img, imageUV + uvOffset);
+        }
+        img *= mix(0.1 + 0.9 * smoothstep(1.8, 0.55, length(imageUVcentered)), 1.0, transitionToRectangle);//vignette
+        img *= mix(smoothstep(1.05, 0.9, length(imageUVcentered)), 1.0, transitionToRectangle);//outside vignette
+        
+        img = mix(process_img, img, transitionToPicture * (1-transitionToRectangleProcessing));
+        img *= showImage;
+    }
+
+    col = (1.-col.a) * img + col;
+    
+    // Sharp exterior fade
+    col *=  smoothstep(0.0, planeDThreshold, float(-planeD));
+}
+
+// Background: outside ramp
+float4 background = float4(0);
+
+if (genmojiMode &lt; 0.5 &amp;&amp; (lightMode &lt; .5))
+{
+    float bgRadius = 4;
+    background.a = 0.75 * saturate(pow(planeD &lt;= -0.01 ? 0. : 1. - planeD * bgRadius, 5.));
+    background.a *= (1-transitionToRectangle) * 0.5;
+
+}
+
+float3 glow_color = 0.;
+//outside ramp
+{
+    float2 ve = normalize(uv * 0.5 - 0.5);
+    float angle  = atan2(ve.y, ve.x)  / (M_PI_F * 2);
+    angle += time*0.2;
+    
+    float s = mix(-0.005, -0.004, transitionToRectangle);
+
+    background.a += 0.8 * saturate(pow(planeD &lt;= s ? 0. : 1. - planeD * bgRadius, 5.)) * smoothstep(0.0, 1.0, transitionToBlob);
+    
+    //compute masks for glow colors, similar to blob lighting to get matching colors
+    half3 glowMask;
+    glowMask.r = dot(dir, half2(dirl1.xy));
+    glowMask.g = dot(dir, half2(dirl2.xy)) + 0.3h;
+    glowMask.b = dot(dir, half2(dirl3.xy));
+    glowMask = smoothstep(0.02, 1., pow(max(glowMask + 0.3, 0.), 2.));
+    background.rgb = colorLUT.sample(smp_lin, .75 + (time*0.3) * 0.5 + 0.5).rgb * glowMask.r; //top right
+    background.rgb += colorLUT.sample(smp_lin, .75 + (time*0.8) * 0.5 ).rgb * glowMask.b; //top left
+    background.rgb += colorLUTBottom.sample(smp_lin, .75 + (time*1.1*0.5)).rgb * glowMask.g; //bottom right   
+    background.rgb /= max(0.000001h, glowMask.r + glowMask.g + glowMask.b);
+    background.rgb = pow(background.rgb, 0.8);
+    glow_color = background.rgb;
+
+    if (lightMode &lt; 0.5)
+    {
+        background.a *= mix(mix(0.5, 0.4, transitionToPicture), 0.45, transitionToRectangle);
+        background *= 1.15 + 0.5 * latencyIntro;
+    }
+    else
+    {
+        background.a *= mix(0.45, 0.35, transitionToRectangle);
+        background *= 1 + latencyIntro;
+    }
+    
+    background *= 1-transitionToShape;
+    background.rgb *= background.a;
+    
+}
+
+//progress + pulse masks
+float progress_mask = 1;
+float pulse_mask = 0;
+float edge_blur_mask = 1;
+float3 outline_col = 0;
+if (progressIntensity&gt;0)
+{
+    float fade = mix(0.03, 0.09, saturate(progress * 5)) / length(uvImg);
+        
+    float pulse_speed = 0.29;
+    progress_mask = fract(-(atan2(uvImg.y, uvImg.x) - (M_PI_F*0.5)) / (M_PI_F * 2.));
+
+    float pulse_ti = fract(time * pulse_speed);
+    float pulse_t = smoothstep(0., 0.55, pulse_ti);
+    float pulse_t2 = pulse_ti * 2. - 1.;
+    pulse_mask = max(0., smoothstep(pulse_t + fade * 0.5, pulse_t - fade * 0.5, progress_mask) * (1. - (smoothstep(fade * 0.5, 0., progress_mask) + smoothstep(1. - fade * 0.5, 1., progress_mask))));
+        
+    pulse_mask *= smoothstep(pulse_t2, pulse_t2 + 1., progress_mask);
+    pulse_mask = min(1., pulse_mask);
+
+    
+    {
+        float t = fract(pulse_ti) * 2 - 1;
+        float x = progress_mask+.1;//atan2(uvImg.y, uvImg.x) / 3.1415 * .5 + .5;
+        x = fract(x-t*.15);
+        float d = (x)+1. - t*2.0;
+        float s1 = smoothstep(1.,.85, d);
+        float s2 = smoothstep(1.,.85, abs(x*2.-1.));
+        float s3 = pow(smoothstep(0.,0.4,length(uvImg)), 2);
+        if (d &lt; 0. || d &gt; 1. ) d = 0.;
+            pulse_mask = d * s1 * s2 * s3;
+        //pulse_mask = pow(pulse_mask, 1.5);  
+    }
+    
+    progress_mask = fract(progress_mask - 0.25*fade);
+        
+    progress_mask = max(smoothstep(progress + fade * 0.5, progress, progress_mask), smoothstep(fade * 0.5, 0., progress_mask)) + smoothstep(1. - fade * 0.5, 1., progress_mask);
+    progress_mask = min(progress_mask, 1.);
+    
+    progress_mask *= progress &lt; fade ? smoothstep(0., 1., progress / fade) : 1.;
+    pulse_mask *= progress_mask;
+
+    half blur_width = 0.04;
+    blur_width *= 1. - progress_mask;
+    edge_blur_mask = max(progress_mask, float(smoothstep(half(planeDThreshold), -blur_width, planeD)));
+
+    float center_fade = planeD &lt; 0. ? pow(max(0., -pow(-(5.h * planeD), 2.h) + 1.), 5.) : 1.;
+    progress_mask *= center_fade; //always fade out center
+    center_fade = planeD &lt; 0. ? pow(max(0., -pow(-(1.5h * planeD), 2.h) + 1.), 5.) : 1.;
+    pulse_mask *= center_fade;
+
+    float hard_outline = smoothstep(0.003h - 0.5h * blur_width, -0.005h - 0.5h * blur_width * 2, planeD) * smoothstep(-0.012h - 0.5h * blur_width, 0.0h - 0.5h * blur_width, planeD);
+    outline_col = col.rgb * hard_outline * 3. * progress_mask;
+
+    background *= mix(1, pow(saturate(pow(progress_mask, 0.4) * 0.6 + (pulse_mask * 0.1) ) ,1.2), progressIntensity); //NEW
+    background.rgb = pow( background.rgb, mix(1, 1.2, progressIntensity));
+    progress_mask = mix(1, progress_mask * 1, progressIntensity);
+    pulse_mask = mix(0, pulse_mask, progressIntensity);
+    edge_blur_mask = mix(1, edge_blur_mask, progressIntensity);
+    outline_col= mix(0, outline_col, progressIntensity);
+    //    col = pulse_mask;
+}
+//end progress + pulse masks
+
+#if 1
+// Attractors orbs
+col = background * (1.0-col.a) * transitionToFinalPicture + col;
+col = float4(col) * opacity;
+
+//error mode
+float3 errorCol = mix(float3(0.13,0.07,0.01), float3(0.85,0.34,0.0), lightMode); 
+col.rgb = mix(col.rgb, errorCol * col.a, transitionToError); 
+
+
+col *= mix(0.15, 1., progress_mask) + pulse_mask * 0.7;
+col *= edge_blur_mask;
+col.rgb += outline_col;
+#endif
+//col = float4(progress_mask, pulse_mask, 0 , 1);
+//col.rgb = outline_col.rgb;
+
+_output.color = col;</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSDictionary</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSDictionary</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXShadableHelper</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXShadableHelper</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>125</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>127</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>126</integer>
+			</dict>
+		</dict>
+		<string>198335DA-763E-4837-993E-FA060543BF3C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>B088EFD2-6050-4272-A09E-1573EAF360DC</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXMaterial</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXMaterial</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>132</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>131</integer>
+			</dict>
+		</dict>
+		<string>160748CA-9AD7-454B-99DE-AC97401CA263</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>129</integer>
+			</dict>
+			<key>avoidsOverLighting</key>
+			<false/>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>172</integer>
+			</dict>
+			<key>blendMode</key>
+			<integer>0</integer>
+			<key>colorBufferWriteMask</key>
+			<integer>15</integer>
+			<key>cullMode</key>
+			<integer>0</integer>
+			<key>diffuse</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>doubleSided</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>176</integer>
+			</dict>
+			<key>fillMode</key>
+			<integer>2</integer>
+			<key>fresnelExponent</key>
+			<real>0.0</real>
+			<key>indexOfRefraction</key>
+			<real>1</real>
+			<key>litPerPixel</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>167</integer>
+			</dict>
+			<key>readsFromDepthBuffer</key>
+			<true/>
+			<key>selfIlluminationOcclusion</key>
+			<real>0.0</real>
+			<key>shadableHelper</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>168</integer>
+			</dict>
+			<key>shadingModel</key>
+			<integer>2</integer>
+			<key>shininess</key>
+			<real>1</real>
+			<key>transparencyMode</key>
+			<integer>0</integer>
+			<key>valuesForUndefinedKeys</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>133</integer>
+			</dict>
+			<key>writesToDepthBuffer</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>109</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>134</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>33</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>135</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>136</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>137</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>138</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>139</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>140</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>141</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>52</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>142</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>143</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>150</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>151</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>158</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>160</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>162</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>163</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>164</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>inRamp</string>
+		<string>radius</string>
+		<string>inSDF</string>
+		<string>isHDR</string>
+		<string>blobPosition</string>
+		<string>screenRatio</string>
+		<string>applePosition</string>
+		<string>appleScale</string>
+		<string>blobDimensions</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>144</integer>
+			</dict>
+			<key>customMaterialPropertyName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>134</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>0</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>132</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>16</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>145</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>149</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>146</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>148</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>147</integer>
+			</dict>
+		</dict>
+		<string>872DF7D2-8ADF-4763-8020-EE73F70E5532</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>Color Ramp Apple dark</string>
+		<real>0.0060000000521540642</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>152</integer>
+			</dict>
+			<key>customMaterialPropertyName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>136</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>0</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>132</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>16</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>153</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>157</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>154</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>156</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>155</integer>
+			</dict>
+		</dict>
+		<string>3883EFA3-1726-4C26-9685-E9211024289B</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>SDF Texture circle</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.pointval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>159</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>1</integer>
+		</dict>
+		<string>{0, 0}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.pointval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>1</integer>
+		</dict>
+		<string>{1, 2}</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>64</integer>
+			</dict>
+			<key>NS.pointval</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>159</integer>
+			</dict>
+			<key>NS.special</key>
+			<integer>1</integer>
+		</dict>
+		<real>0.40000000596046448</real>
+		<real>0.40000000596046448</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>color</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>166</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isColorManaged</key>
+			<true/>
+			<key>isCommonProfileProperty</key>
+			<integer>1</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>2</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>132</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>2</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>115</integer>
+			</dict>
+			<key>NSColorSpace</key>
+			<integer>1</integer>
+			<key>NSComponents</key>
+			<data>
+			MC43MzUzNTY5ODY1IDAuNzM1MzU2OTg2NSAwLjczNTM1Njk4NjUg
+			MQ==
+			</data>
+			<key>NSCustomColorSpace</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>112</integer>
+			</dict>
+			<key>NSLinearExposure</key>
+			<data>
+			MQ==
+			</data>
+			<key>NSRGB</key>
+			<data>
+			MC42ODAzOTQ5NDc1IDAuNjgwMzk0OTQ3NSAwLjY4MDM5NDk0NzUA
+			</data>
+		</dict>
+		<string>Material Circle</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>123</integer>
+			</dict>
+			<key>owner</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>132</integer>
+			</dict>
+			<key>shaderModifiers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>169</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>122</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>170</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>171</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>VFXShaderModifierEntryPointFragment</string>
+		<string>#pragma declaration
+
+inline float2x2 rotate(float v) {
+    float a = cos(v);
+    float b = sin(v);
+    return float2x2(a,-b,b,a);
+}
+
+//------------------------------------------------------
+// Blob
+//------------------------------------------------------
+struct Blob {
+    const float metaSmooth = 0.12;
+    const float metaSize = 0.37;
+    const float metaOffset = 0.18;
+    const float offsetSpeed = 1.3;
+    
+    float smin(float a, float b, float k)
+    {
+        float h = max(k-abs(a-b), 0.0)/k;
+        return min(a, b) - h*h*k*(1.0/4.0);
+    }
+
+    // Precomputed value before raymarch loop
+    float2x2 rot;
+    float4 metaPosSize[4];
+    
+    void init(float time) {
+        rot = rotate(time*0.4*M_PI_2_F);
+        
+        // precalc metaball pos &amp; size
+        float ct = cos(time * offsetSpeed) * metaSize * metaOffset;
+        float st = sin(time * offsetSpeed) * metaSize * metaOffset;
+        metaPosSize[0] = float4( st*1.1, st,  0.0, metaSize * 1.15);
+        metaPosSize[1] = float4(-st*1.1, st,  0.2, metaSize * 1.15);
+        metaPosSize[2] = float4(     st, ct,-0.24,        metaSize);
+        metaPosSize[3] = float4(     st,-ct,  0.1,        metaSize);
+    }
+    
+    
+    float map(float2 p) {
+        float2 pp = rot * p;
+        float d0 = length(pp - metaPosSize[0].xy) - metaPosSize[0].w;
+        float d1 = length(pp - metaPosSize[1].xy) - metaPosSize[1].w;
+        float d2 = length(pp - metaPosSize[2].xy) - metaPosSize[2].w;
+        float d3 = length(pp - metaPosSize[3].xy) - metaPosSize[3].w;
+
+        float d = smin(d0, d1, metaSmooth);
+        d = smin(d,d2, metaSmooth);
+        d = smin(d,d3, metaSmooth);
+        
+        return d;
+    }
+    
+    float3 normal(float2 p, float d) {
+        float2 eps = float2(.01, 0.);
+        float3 n;
+        n.x = d - map(p-eps.xy);
+        n.y = d - map(p-eps.yx);
+        return n /= eps.x*2.;
+    }
+};
+
+
+
+#pragma arguments
+float lightMode,
+float radius,
+float2 screenRatio,
+float2 applePosition,
+float transitionToBlob,
+float2 blobPosition,
+float blobDimensions,
+float blobAnimationSpeed,
+float appleScale,
+float isHDR,
+texture2d inSDF,
+texture1d inRamp
+
+#pragma body
+constexpr sampler smp_repeat(filter::linear, address::repeat);
+constexpr sampler smp_border_white(filter::linear, address::clamp_to_edge, border_color::opaque_white);
+float time = vfx_frame.time;
+
+float2 uv = _surface.diffuseTexcoord;
+float2 effectPosition = mix(applePosition, blobPosition, transitionToBlob);
+effectPosition.x *= -1.;
+float2 appleScale2 = mix(appleScale, blobDimensions, transitionToBlob);
+float2 UVapple = (uv - 0.5) + effectPosition ;
+UVapple *= screenRatio;
+UVapple /= appleScale2;
+UVapple += 0.5;
+
+half c = inSDF.sample(smp_border_white, float2(UVapple.x, UVapple.y)).x;
+
+//gradient
+const float texWidth = inSDF.get_width();
+const float kStep = 8./texWidth;
+const float2 eps = float2(kStep, 0.);
+float2 grad =  float2(inSDF.sample(smp_border_white, UVapple + eps.xy).x - inSDF.sample(smp_border_white, UVapple - eps.xy).x,
+                      inSDF.sample(smp_border_white, UVapple + eps.yx).x - inSDF.sample(smp_border_white, UVapple - eps.yx).x);
+grad /= (2.*kStep); // normalize
+
+// blob
+if (transitionToBlob &gt; 0.0001)
+{
+    float2 uvBlob = (float2(uv.x, uv.y) - 0.5) + float2(effectPosition.x, effectPosition.y);
+    uvBlob.y = -uvBlob.y;
+    uvBlob *= screenRatio;
+    uvBlob /= blobDimensions;
+ 
+    Blob blob;
+    blob.init(time * blobAnimationSpeed);
+    float blobD = blob.map(uvBlob);
+    
+    c = mix(c, half(blobD), half(transitionToBlob));
+    grad = mix(grad, blob.normal(uvBlob, blob.map(uvBlob)).xy, transitionToBlob);
+}
+
+// ramp
+float rampUV = atan2(grad.x, grad.y);
+rampUV = (rampUV + M_PI_F) / (M_PI_F * 2);
+rampUV += fract(time * 0.13);
+float4 rampColor = inRamp.sample(smp_repeat, rampUV);
+float colorMult = mix(1.1,1.1,lightMode);
+//if (isHDR&gt;0.5)
+//    colorMult = mix(1.1,1.1,lightMode); //HDR
+rampColor.rgb = pow(rampColor.rgb * colorMult, mix(0.6,0.7,lightMode));
+
+
+// outline
+half outlineWidth = radius;
+half smooth = 20 / texWidth;
+float outline = smoothstep(outlineWidth+0.h, outlineWidth-smooth, abs(c));
+
+//trying to add the lighter border colors
+outlineWidth *= 0.95;
+float outline2 = 0.0 * smoothstep(outlineWidth + 0.001h, outlineWidth - 0.001h, abs(c)) * pow(smoothstep(outlineWidth - 0.05h, outlineWidth + 0.000h, abs(c)), 5.h);
+
+float outline3 = 1 * smoothstep(outlineWidth + 0.001h, outlineWidth - 0.004h, abs(c)) * pow(smoothstep(outlineWidth - 0.14h, outlineWidth + 0.000h, abs(c)), 5.h);
+outline3 = pow(outline3, 1.3);
+
+outline2 += outline3;
+float insideMult = mix(0.1, 0.3,lightMode);
+
+//
+outlineWidth *= 0.5;
+if (lightMode &lt; 0.5)
+{
+    rampColor.rgb *=  1 + 0.5 * outline2; 
+    
+    //outside ramp
+    outline += pow(smoothstep(outlineWidth + 0.26h, outlineWidth - 0.01h, abs(c)), 3.9h) * 0.7; 
+}
+else
+{
+    rampColor.rgb *=  1 + 0.4 * outline2; 
+    
+    //outside ramp
+    outline += pow(smoothstep(outlineWidth + 0.18h, outlineWidth - 0.01h, abs(c)), 3.5h) * 0.7; 
+}
+
+
+float4 out_color = float4(rampColor) *  saturate(outline);
+_output.color = float4(out_color * pow(1-transitionToBlob, 2));</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>173</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>175</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>174</integer>
+			</dict>
+		</dict>
+		<string>86303DF5-68D6-4678-9D0A-8FC4E8B8A09B</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>7A85C2DF-1711-4F82-8124-4254A12FDCD9</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>180</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>178</integer>
+			</dict>
+			<key>isGroup</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>179</integer>
+			</dict>
+		</dict>
+		<string>40B8840E-39B9-437A-AA39-9DFB703BFCC4</string>
+		<string>textures</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>181</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>190</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>199</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>183</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>182</integer>
+			</dict>
+		</dict>
+		<string>4B8F448C-4359-49BB-AFB6-50993A60552E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>81</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>185</integer>
+			</dict>
+			<key>filename</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>184</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>189</integer>
+			</dict>
+		</dict>
+		<string>attractorFlare.png</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>186</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>188</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>187</integer>
+			</dict>
+		</dict>
+		<string>7FAC8C5F-B1E5-49B8-A5E8-33618F23D91F</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>attractorFlare</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>192</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>191</integer>
+			</dict>
+		</dict>
+		<string>DACFEE44-79E9-4846-B9BF-5CC8F0EE55A0</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>81</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>194</integer>
+			</dict>
+			<key>filename</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>193</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>198</integer>
+			</dict>
+		</dict>
+		<string>circle.png</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>195</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>197</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>196</integer>
+			</dict>
+		</dict>
+		<string>1999DF17-3C2B-4B15-B3F9-F1165899DA99</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>circle</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>201</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>200</integer>
+			</dict>
+		</dict>
+		<string>EC564612-443E-4AA9-BF7C-A96EB1E0BF21</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>81</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>203</integer>
+			</dict>
+			<key>filename</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>202</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>207</integer>
+			</dict>
+		</dict>
+		<string>perlinNoise.png</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>204</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>206</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>205</integer>
+			</dict>
+		</dict>
+		<string>517C4E78-B657-4788-9DA5-C38CAF847B7F</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>perlinNoise</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>210</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>209</integer>
+			</dict>
+		</dict>
+		<string>DE4416B5-31AF-4E5C-913B-CFA348BA368C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>211</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>215</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>212</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>214</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>213</integer>
+			</dict>
+		</dict>
+		<string>C8691A4A-C337-4BE7-BEA8-FEED254FB543</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>CurvePulses</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>218</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>217</integer>
+			</dict>
+		</dict>
+		<string>4E863D74-106F-491E-8F87-9159B7B4275F</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>219</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>223</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>220</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>222</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>221</integer>
+			</dict>
+		</dict>
+		<string>54F0D359-18A5-4423-B1F5-8607B6440CB5</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>CurveLensBlurLight</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>226</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>225</integer>
+			</dict>
+		</dict>
+		<string>57C42758-49E3-498C-B86C-5763FD77CF17</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>227</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>231</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>228</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>230</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>229</integer>
+			</dict>
+		</dict>
+		<string>CDE272C5-F602-4985-80C5-110A7A7D0701</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>CurveBloomToBlob</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>235</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>233</integer>
+			</dict>
+			<key>isGroup</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>234</integer>
+			</dict>
+		</dict>
+		<string>D644A196-3003-499C-92D3-B7800837A1F8</string>
+		<string>ramps</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>236</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>238</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>240</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>144</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>237</integer>
+			</dict>
+		</dict>
+		<string>37199FD9-FCC3-429E-91AD-DF83019CE154</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>88</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>239</integer>
+			</dict>
+		</dict>
+		<string>53625F36-3A2A-4C24-A39B-8C08C9031A87</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>95</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>241</integer>
+			</dict>
+		</dict>
+		<string>73D7A77B-78DD-416F-9B35-470ACC471270</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>152</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>243</integer>
+			</dict>
+		</dict>
+		<string>32B269A6-2262-4CB2-9AFF-C67EFAD6C279</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>246</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>245</integer>
+			</dict>
+		</dict>
+		<string>6966C8CC-6B5E-4B44-87C7-96FEF35C2C67</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>247</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<true/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>251</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>248</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>250</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>249</integer>
+			</dict>
+		</dict>
+		<string>F88CEA3E-0C30-40C5-94B5-F8C98B08650C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>Procedural Texture</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>254</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>253</integer>
+			</dict>
+		</dict>
+		<string>02C494E3-C239-4312-88DC-A2036409871E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>255</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>259</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>256</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>258</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>257</integer>
+			</dict>
+		</dict>
+		<string>0A70CBC4-0CDC-4569-881F-5DBAF00F7994</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>Ptcl Mtl flare</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>18</integer>
+			</dict>
+			<key>asset</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>262</integer>
+			</dict>
+			<key>identifier</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>261</integer>
+			</dict>
+		</dict>
+		<string>AB66BE75-C64B-4E7E-BB4D-512DBF0D130D</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>17</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>263</integer>
+			</dict>
+			<key>isTextureSource</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>267</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>264</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>266</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>265</integer>
+			</dict>
+		</dict>
+		<string>BFD85BC1-E923-4FE0-A71E-BB44DAE4578E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>shader flare</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXAssetRegistry</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXAssetRegistry</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>270</integer>
+			</dict>
+			<key>additiveAlpha</key>
+			<false/>
+			<key>colorSpaceName</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>hdr</key>
+			<false/>
+			<key>pixelFormat</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXViewConfiguration</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXViewConfiguration</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>274</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>481</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>273</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSArray</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSArray</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>275</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>290</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>302</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>380</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>391</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>403</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>413</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>423</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>433</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>443</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>453</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>463</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>473</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>283</integer>
+			</dict>
+			<key>camera</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>276</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>287</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>288</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>277</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			kJG0wYEPHL8AAKBA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>282</integer>
+			</dict>
+			<key>HDR</key>
+			<false/>
+			<key>automaticallyAdjustsZRange</key>
+			<integer>0</integer>
+			<key>bloom</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>278</integer>
+			</dict>
+			<key>categoryBitMask</key>
+			<integer>0</integer>
+			<key>chromaticTransform</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>280</integer>
+			</dict>
+			<key>fill</key>
+			<integer>2</integer>
+			<key>focusDistance</key>
+			<real>2.5</real>
+			<key>fov</key>
+			<real>26.991466522216797</real>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>277</integer>
+			</dict>
+			<key>orthographicScale</key>
+			<real>1</real>
+			<key>sensorSize</key>
+			<real>24</real>
+			<key>usesOrthographicProjection</key>
+			<integer>1</integer>
+			<key>zFar</key>
+			<real>10000</real>
+			<key>zNear</key>
+			<real>0.10000000149011612</real>
+		</dict>
+		<string>Camera</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>279</integer>
+			</dict>
+			<key>colorFilter</key>
+			<data>
+			i/+AP0PCdj/qXj4/
+			</data>
+			<key>contrast</key>
+			<real>1</real>
+			<key>enabled</key>
+			<true/>
+			<key>intensity</key>
+			<real>0.80039995908737183</real>
+			<key>iterationCount</key>
+			<integer>5</integer>
+			<key>saturation</key>
+			<real>1</real>
+			<key>threshold</key>
+			<real>1</real>
+			<key>thresholdSmoothness</key>
+			<real>5</real>
+			<key>useHighQuality</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXCameraEffectBloom</string>
+				<string>VFXCameraEffect</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXCameraEffectBloom</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>281</integer>
+			</dict>
+			<key>center</key>
+			<data>
+			AAAAAAAAAAA=
+			</data>
+			<key>color1</key>
+			<data>
+			AACAPwAAAAAAAAAA
+			</data>
+			<key>color2</key>
+			<data>
+			AAAAAAAAgD8AAAAA
+			</data>
+			<key>color3</key>
+			<data>
+			AAAAAAAAAAAAAIA/
+			</data>
+			<key>enabled</key>
+			<true/>
+			<key>fromAngle</key>
+			<real>30</real>
+			<key>fromShift</key>
+			<data>
+			AAAAAAAAAAA=
+			</data>
+			<key>fromZ</key>
+			<real>1</real>
+			<key>intensity</key>
+			<real>0.0</real>
+			<key>maskCenter</key>
+			<data>
+			AAAAAAAAAAA=
+			</data>
+			<key>maskEnabled</key>
+			<true/>
+			<key>maskRadius</key>
+			<real>0.61600005626678467</real>
+			<key>sampleCount</key>
+			<real>12</real>
+			<key>toAngle</key>
+			<real>-30</real>
+			<key>toShift</key>
+			<data>
+			AAAAAAAAAAA=
+			</data>
+			<key>toZ</key>
+			<real>0.83333331346511841</real>
+			<key>unMultBlending</key>
+			<real>0.0</real>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXCameraEffectChromaticTransform</string>
+				<string>VFXCameraEffect</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXCameraEffectChromaticTransform</string>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXCamera</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXCamera</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>284</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>286</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>285</integer>
+			</dict>
+		</dict>
+		<string>079C51EE-6869-4ADD-A090-29251C530952</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>9E0FD5B8-16AC-48B5-84F8-0D5A2EAEA2D3</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXNode</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXNode</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>295</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>299</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>301</integer>
+			</dict>
+			<key>hidden</key>
+			<true/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>model</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>291</integer>
+			</dict>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>300</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AAAAQAAAgEAAAAAA
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>294</integer>
+			</dict>
+			<key>capSegmentCount</key>
+			<integer>0</integer>
+			<key>chamferRadius</key>
+			<real>0.0</real>
+			<key>chamferSegmentCount</key>
+			<integer>10</integer>
+			<key>cornerSegmentCount</key>
+			<integer>10</integer>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>293</integer>
+			</dict>
+			<key>geodesic</key>
+			<false/>
+			<key>height</key>
+			<real>1</real>
+			<key>heightSegmentCount</key>
+			<integer>1</integer>
+			<key>hemispheric</key>
+			<false/>
+			<key>innerRadius</key>
+			<real>0.25</real>
+			<key>length</key>
+			<real>1</real>
+			<key>lengthSegmentCount</key>
+			<integer>1</integer>
+			<key>materials</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>292</integer>
+			</dict>
+			<key>parametricType</key>
+			<integer>2</integer>
+			<key>pipeRadius</key>
+			<real>0.10000000149011612</real>
+			<key>pipeSegmentCount</key>
+			<integer>48</integer>
+			<key>primitiveType</key>
+			<integer>0</integer>
+			<key>radialSegmentCount</key>
+			<integer>48</integer>
+			<key>radialSpan</key>
+			<real>1</real>
+			<key>radius</key>
+			<real>1</real>
+			<key>segmentCount</key>
+			<integer>48</integer>
+			<key>subdivisionLevel</key>
+			<integer>0</integer>
+			<key>subdivisionSettings</key>
+			<data>
+			AQEFAQ==
+			</data>
+			<key>tessellator</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>topRadius</key>
+			<real>0.0</real>
+			<key>wantsAdaptiveSubdivision</key>
+			<true/>
+			<key>width</key>
+			<real>1</real>
+			<key>widthSegmentCount</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>21</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>13BE4538-3F0D-47AD-8ADC-D8889C6703D4</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXParametricModel</string>
+				<string>VFXModel</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXParametricModel</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>296</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>298</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>297</integer>
+			</dict>
+		</dict>
+		<string>3C60E6F3-DC23-4165-903E-3BF84593558B</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>PlaneBlob</string>
+		<string>4639C744-C293-4E15-8B7F-2E3CE19CB4C4</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>303</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>377</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>379</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>378</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>304</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>306</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>305</integer>
+			</dict>
+		</dict>
+		<string>20AEF259-5288-4E5C-8997-ACC8AC5B6440</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>307</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>309</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>310</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>311</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>313</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>51</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>314</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>315</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>316</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>317</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>318</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>319</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>320</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>321</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>52</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>322</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>323</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>324</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>325</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>326</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>327</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>328</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>329</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>330</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>331</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>332</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>333</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>334</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>335</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>336</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>337</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>338</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>339</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>340</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>341</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>342</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>343</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>344</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>345</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>322</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>346</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>322</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>347</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>348</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>349</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>350</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>322</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>351</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>352</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>353</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>354</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>355</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>356</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>357</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>358</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>359</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>360</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>24</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>137</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>322</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>361</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>362</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>363</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>364</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>365</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>366</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>367</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>368</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>369</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>370</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>371</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>372</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>373</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>374</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>375</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>376</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>312</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractor8_angle</string>
+		<integer>12</integer>
+		<string>bloom_blob_preview_intensity</string>
+		<string>blob_animationSpeed</string>
+		<string>attractors_size</string>
+		<integer>13</integer>
+		<string>transition_to_error</string>
+		<string>attractors_intensity</string>
+		<string>chroma_angle</string>
+		<string>latency_intro</string>
+		<string>transition_finalPicture</string>
+		<string>blob_rectangle_radius</string>
+		<string>blob_position</string>
+		<string>transition_blobToRectangle_processing</string>
+		<string>blob_scale</string>
+		<integer>1</integer>
+		<string>attractor3_angle</string>
+		<string>apple_scale</string>
+		<string>attractor3_position</string>
+		<string>attractor2_angle</string>
+		<string>chroma_multiplier</string>
+		<string>transition_appleToBlob</string>
+		<string>bloom_intensity</string>
+		<string>attractor5_position</string>
+		<string>attractor7_intensity</string>
+		<string>bokeh_blur_radius</string>
+		<string>attractor6_intensity</string>
+		<string>latencyStartTime</string>
+		<string>screen_ratio</string>
+		<string>chroma_rectangle_multiplier</string>
+		<string>attractor6_position</string>
+		<string>attractor4_position</string>
+		<string>bloom_blob_processing_intensity</string>
+		<string>attractor6_angle</string>
+		<string>initialInertia</string>
+		<string>pulse1</string>
+		<string>current_transition_to_square</string>
+		<string>progress_intensity</string>
+		<string>isWandEffect</string>
+		<string>latency_start</string>
+		<string>attractor1_angle</string>
+		<string>image_size</string>
+		<string>progress</string>
+		<string>blob_genmoji</string>
+		<string>attractor4_intensity</string>
+		<string>pulse_latency</string>
+		<string>attractor8_position</string>
+		<string>chroma_z</string>
+		<string>attractor4_angle</string>
+		<string>attractor5_angle</string>
+		<string>transition_shapeToBlob</string>
+		<string>inertiaTimer</string>
+		<string>inertia</string>
+		<string>attractor3_intensity</string>
+		<string>transition_blobToPicture</string>
+		<string>attractor1_intensity</string>
+		<string>attractor8_intensity</string>
+		<string>attractor1_position</string>
+		<string>genmoji_rampSize</string>
+		<string>attractor2_position</string>
+		<string>transition_to_square_interpolation_speed</string>
+		<string>transition_blobToRectangle</string>
+		<string>attractor5_intensity</string>
+		<string>bubbleGlow_size</string>
+		<string>attractor2_intensity</string>
+		<string>pulse2</string>
+		<string>attractor7_position</string>
+		<string>blob_rectangleSize</string>
+		<string>attractor7_angle</string>
+		<string>apple_position</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>bindingsNode</string>
+		<string>8141CE55-DED0-49BD-AB50-60CA4FFE3AFC</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>384</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>388</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>390</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>model</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>381</integer>
+			</dict>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>389</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAA/f9/Pw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AAAAQAAAgEAAAAAA
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>294</integer>
+			</dict>
+			<key>capSegmentCount</key>
+			<integer>0</integer>
+			<key>chamferRadius</key>
+			<real>0.0</real>
+			<key>chamferSegmentCount</key>
+			<integer>10</integer>
+			<key>cornerSegmentCount</key>
+			<integer>10</integer>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>383</integer>
+			</dict>
+			<key>geodesic</key>
+			<false/>
+			<key>height</key>
+			<real>1</real>
+			<key>heightSegmentCount</key>
+			<integer>1</integer>
+			<key>hemispheric</key>
+			<false/>
+			<key>innerRadius</key>
+			<real>0.25</real>
+			<key>length</key>
+			<real>1</real>
+			<key>lengthSegmentCount</key>
+			<integer>1</integer>
+			<key>materials</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>382</integer>
+			</dict>
+			<key>parametricType</key>
+			<integer>2</integer>
+			<key>pipeRadius</key>
+			<real>0.10000000149011612</real>
+			<key>pipeSegmentCount</key>
+			<integer>48</integer>
+			<key>primitiveType</key>
+			<integer>0</integer>
+			<key>radialSegmentCount</key>
+			<integer>48</integer>
+			<key>radialSpan</key>
+			<real>1</real>
+			<key>radius</key>
+			<real>1</real>
+			<key>segmentCount</key>
+			<integer>48</integer>
+			<key>subdivisionLevel</key>
+			<integer>0</integer>
+			<key>subdivisionSettings</key>
+			<data>
+			AQEFAQ==
+			</data>
+			<key>tessellator</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>0</integer>
+			</dict>
+			<key>topRadius</key>
+			<real>0.0</real>
+			<key>wantsAdaptiveSubdivision</key>
+			<true/>
+			<key>width</key>
+			<real>1</real>
+			<key>widthSegmentCount</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>132</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>7A9D7CDD-593F-440A-8ECB-F8FE11F9190F</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>385</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>387</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>386</integer>
+			</dict>
+		</dict>
+		<string>F6DE3F5C-CE01-4C7F-9051-7D93907E09D8</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>PlaneCircle</string>
+		<string>8A39AED4-5DFC-4F25-A5C5-4996BD2D921E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>392</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>400</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>398</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>402</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>401</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>393</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>395</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>394</integer>
+			</dict>
+		</dict>
+		<string>080C7C80-4BC0-4EC3-8207-5CE19506995C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>396</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<integer>14</integer>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>393</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXParticleEmitter</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXParticleEmitter</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare1</string>
+		<string>98356BC1-34E2-4A20-8E78-C9E34EB6201E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>404</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>410</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>409</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>412</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>411</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>405</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>407</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>406</integer>
+			</dict>
+		</dict>
+		<string>0DDFC361-CF0F-44C8-85CA-8B1E1163C359</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>408</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>405</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare2</string>
+		<string>FE5CBCF7-6418-4199-822B-7BEEEF9AC3A5</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>414</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>420</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>419</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>422</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>421</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>415</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>417</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>416</integer>
+			</dict>
+		</dict>
+		<string>4A9A2FF8-83E6-4A09-BF8E-05140505FEE6</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>418</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>415</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare3</string>
+		<string>93FEFEBD-8966-48EA-965D-FEEBA5F4B12A</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>424</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>430</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>429</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>432</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>431</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>425</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>427</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>426</integer>
+			</dict>
+		</dict>
+		<string>4655DBD2-DC29-49FB-BFF3-DB7B303B55C1</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>428</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>425</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare4</string>
+		<string>6A799143-7609-42F5-AFC0-B47B675AA83F</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>434</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>440</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>439</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>442</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>441</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>435</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>437</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>436</integer>
+			</dict>
+		</dict>
+		<string>30EAE34F-9015-41B3-9209-32E16C3F98B6</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>438</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>435</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare5</string>
+		<string>E00BC4C9-E97C-456E-976C-08D47E8DE21E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>444</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>450</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>449</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>452</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>451</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>445</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>447</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>446</integer>
+			</dict>
+		</dict>
+		<string>35DF4F46-5DED-4A18-A679-8E452774AB59</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>448</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>445</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare6</string>
+		<string>54939F0F-6572-4510-88AE-4C17A161153A</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>454</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>460</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>459</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>462</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>461</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>455</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>457</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>456</integer>
+			</dict>
+		</dict>
+		<string>E3CD30C4-D42C-4106-9ED3-54E8DB101F31</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>458</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>455</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare7</string>
+		<string>33834FBA-DE80-4C99-A63F-5C7E8E40F260</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>464</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>470</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>469</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>472</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>471</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			//9/P///fz8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>465</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>467</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>466</integer>
+			</dict>
+		</dict>
+		<string>BC60B0CF-6423-4B00-856D-4D149DC45B79</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>468</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>397</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>attractorColor</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>399</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>465</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EmitterFlare8</string>
+		<string>CCEC078A-A8A6-4C4B-8494-342B01E0E958</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>474</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>478</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>480</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>479</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>15</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>475</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>14</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>477</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>476</integer>
+			</dict>
+		</dict>
+		<string>F1C3695A-FD5C-4126-9B3C-B96DDB7E0932</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>VisibileGraph</string>
+		<string>63ACD8D1-2A26-43BB-9101-5CA5AEB7CE93</string>
+		<string>FF3B04CA-ED66-4DC1-9470-B29CCA1ABC9F</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>2</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>15</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>82</integer>
+			</dict>
+			<key>intensity</key>
+			<real>1</real>
+			<key>isCommonProfileProperty</key>
+			<integer>0</integer>
+			<key>magnificationFilter</key>
+			<integer>2</integer>
+			<key>mappingChannel</key>
+			<integer>0</integer>
+			<key>minificationFilter</key>
+			<integer>2</integer>
+			<key>mipFilter</key>
+			<integer>2</integer>
+			<key>parent</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>1</integer>
+			</dict>
+			<key>propertyType</key>
+			<integer>13</integer>
+			<key>wrapS</key>
+			<integer>1</integer>
+			<key>wrapT</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>487</integer>
+			</dict>
+			<key>states</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>485</integer>
+			</dict>
+			<key>transitions</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>486</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>13</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXStateManager</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXStateManager</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>489</integer>
+			</dict>
+			<key>NS.bytes</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0
+			b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRy
+			b290gAGmCwwZHyAnVSRudWxs1g0ODxAREhMUFRYXGFYkY2xhc3Nc
+			TlNDb21wb25lbnRzVU5TUkdCXE5TQ29sb3JTcGFjZV8QEk5TQ3Vz
+			dG9tQ29sb3JTcGFjZV8QEE5TTGluZWFyRXhwb3N1cmWABUcxIDEg
+			MSAxRjEgMSAxABABgAJBMNMaDRscHR5VTlNJQ0NZTlNTcGFjZUlE
+			gAOABBAOTxEMSAAADEhMaW5vAhAAAG1udHJSR0IgWFlaIAfOAAIA
+			CQAGADEAAGFjc3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAAAAAAAAAA
+			AAD21gABAAAAANMtSFAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEWNwcnQAAAFQAAAAM2Rl
+			c2MAAAGEAAAAbHd0cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJYWVoA
+			AAIYAAAAFGdYWVoAAAIsAAAAFGJYWVoAAAJAAAAAFGRtbmQAAAJU
+			AAAAcGRtZGQAAALEAAAAiHZ1ZWQAAANMAAAAhnZpZXcAAAPUAAAA
+			JGx1bWkAAAP4AAAAFG1lYXMAAAQMAAAAJHRlY2gAAAQwAAAADHJU
+			UkMAAAQ8AAAIDGdUUkMAAAQ8AAAIDGJUUkMAAAQ8AAAIDHRleHQA
+			AAAAQ29weXJpZ2h0IChjKSAxOTk4IEhld2xldHQtUGFja2FyZCBD
+			b21wYW55AABkZXNjAAAAAAAAABJzUkdCIElFQzYxOTY2LTIuMQAA
+			AAAAAAAAAAAAEnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABY
+			WVogAAAAAAAA81EAAQAAAAEWzFhZWiAAAAAAAAAAAAAAAAAAAAAA
+			WFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY
+			2lhZWiAAAAAAAAAkoAAAD4QAALbPZGVzYwAAAAAAAAAWSUVDIGh0
+			dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAWSUVDIGh0dHA6Ly93
+			d3cuaWVjLmNoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAALklFQyA2MTk2Ni0y
+			LjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAA
+			AAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3Vy
+			IHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZXNj
+			AAAAAAAAACxSZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4g
+			SUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAsUmVmZXJlbmNlIFZpZXdp
+			bmcgQ29uZGl0aW9uIGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAAdmlldwAAAAAAE6T+ABRfLgAQzxQAA+3M
+			AAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABXH+dtZWFzAAAA
+			AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACjwAAAAJzaWcgAAAAAENS
+			VCBjdXJ2AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcA
+			OwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCa
+			AJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsB
+			AQEHAQ0BEwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8
+			AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHyAfoCAwIMAhQC
+			HQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLV
+			AuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64D
+			ugPHA9MD4APsA/kEBgQTBCAELQQ7BEgEVQRjBHEEfgSMBJoEqAS2
+			BMQE0wThBPAE/gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF
+			5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcr
+			Bz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiCCJYI
+			qgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9
+			ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC/kM
+			EgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34
+			DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MPzw/sEAkQ
+			JhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJk
+			EoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U
+			8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcdF0EXZReJ
+			F64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEa
+			dxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1w
+			HZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qfvx/qIBUgQSBsIJgg
+			xCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQf
+			JE0kfCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn
+			3CgNKD8ocSiiKNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSud
+			K9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Ev
+			xy/+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPx
+			NCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4
+			jDjIOQU5Qjl/Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0i
+			PWE9oT3gPiA+YD6gPuA/IT9hP6I/4kAjQGRApkDnQSlBakGsQe5C
+			MEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5GIkZnRqtG8Ec1
+			R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwqTHJM
+			uk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIx
+			UnxSx1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdXRFeSV+BY
+			L1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4a
+			XmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBk
+			lGTpZT1lkmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhqn2r3
+			a09rp2v/bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx
+			8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjM
+			eSp5iXnnekZ6pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ/I3+Ef+WA
+			R4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4ef
+			iASIaYjOiTOJmYn+imSKyoswi5aL/IxjjMqNMY2Yjf+OZo7OjzaP
+			npAGkG6Q1pE/kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1
+			l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf
+			+qBpoNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhS
+			qMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqx
+			YLHWskuywrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7
+			urW7LrunvCG8m70VvY++Cr6Evv+/er/1wHDA7MFnwePCX8Lbw1jD
+			1MRRxM7FS8XIxkbGw8dBx7/IPci8yTrJuco4yrfLNsu2zDXMtc01
+			zbXONs62zzfPuNA50LrRPNG+0j/SwdNE08bUSdTL1U7V0dZV1tjX
+			XNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4DbgveFE
+			4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr
+			++yG7RHtnO4o7rTvQO/M8Fjw5fFy8f/yjPMZ86f0NPTC9VD13vZt
+			9vv3ivgZ+Kj5OPnH+lf65/t3/Af8mP0p/br+S/7c/23//9IhIiMk
+			WiRjbGFzc25hbWVYJGNsYXNzZXNcTlNDb2xvclNwYWNloiUmXE5T
+			Q29sb3JTcGFjZVhOU09iamVjdNIhIigpV05TQ29sb3KiKCYACAAR
+			ABoAJAApADIANwBJAEwAUQBTAFoAYABtAHQAgQCHAJQAqQC8AL4A
+			xgDNAM8A0QDTANoA4ADqAOwA7gDwDTwNQQ1MDVUNYg1lDXINew2A
+			DYgAAAAAAAACAQAAAAAAAAAqAAAAAAAAAAAAAAAAAAANiw==
+			</data>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSMutableData</string>
+				<string>NSData</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSMutableData</string>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>491</integer>
+			</dict>
+			<key>isHandTrackingEnabled</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXTriggerManager</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXTriggerManager</string>
+		</dict>
+		<string>26DCA45F-ADF8-4380-B101-FF8EFA01C443</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXWorld</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXWorld</string>
+		</dict>
+	</array>
+	<key>$top</key>
+	<dict>
+		<key>root</key>
+		<dict>
+			<key>CF$UID</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>$version</key>
+	<integer>100000</integer>
+</dict>
+</plist>

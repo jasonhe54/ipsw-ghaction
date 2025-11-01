@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Region Name Dictionary</key>
+	<dict>
+		<key>A Coruna</key>
+		<string>ES</string>
+		<key>Aachen</key>
+		<string>DE</string>
+		<key>Aarhus</key>
+		<string>DK</string>
+		<key>Aba</key>
+		<string>NG</string>
+		<key>Abra</key>
+		<string>PH</string>
+		<key>Abuja</key>
+		<string>NG</string>
+		<key>Aceh</key>
+		<string>ID</string>
+		<key>Acre</key>
+		<string>BR</string>
+		<key>Adana</key>
+		<string>TR</string>
+		<key>Adelaide</key>
+		<string>AU</string>
+		<key>Agra</key>
+		<string>IN</string>
+		<key>Agrinio</key>
+		<string>GR</string>
+		<key>Aguascalientes</key>
+		<string>MX</string>
+		<key>Agusan Del Norte</key>
+		<string>PH</string>
+		<key>Agusan Del Sur</key>
+		<string>PH</string>
+		<key>Ahmedabad</key>
+		<string>IN</string>
+		<key>Ahvaz</key>
+		<string>IR</string>
+		<key>Aix En Provence</key>
+		<string>FR</string>
+		<key>Aklan</key>
+		<string>PH</string>
+		<key>Alabama</key>
+		<string>US</string>
+		<key>Alagoas</key>
+		<string>BR</string>
+		<key>Alamein</key>
+		<string>EG</string>
+		<key>Alaska</key>
+		<string>US</string>
+		<key>Alba</key>
+		<string>RO</string>
+		<key>Albay</key>
+		<string>PH</string>
+		<key>Alexandria</key>
+		<string>EG</string>
+		<key>Alicante</key>
+		<string>ES</string>
+		<key>Allahabad</key>
+		<string>IN</string>
+		<key>Almada</key>
+		<string>PT</string>
+		<key>Almere</key>
+		<string>NL</string>
+		<key>Amadora</key>
+		<string>PT</string>
+		<key>Amapa</key>
+		<string>BR</string>
+		<key>Amazonas</key>
+		<string>BR</string>
+		<key>Amersfoort</key>
+		<string>NL</string>
+		<key>Amiens</key>
+		<string>FR</string>
+		<key>Amnat Charoen</key>
+		<string>TH</string>
+		<key>Amritsar</key>
+		<string>IN</string>
+		<key>Amsterdam</key>
+		<string>NL</string>
+		<key>An Giang</key>
+		<string>VN</string>
+		<key>Ancash</key>
+		<string>PE</string>
+		<key>Ang Thong</key>
+		<string>TH</string>
+		<key>Angers</key>
+		<string>FR</string>
+		<key>Anhui</key>
+		<string>CN</string>
+		<key>Ankara</key>
+		<string>TR</string>
+		<key>Antalya</key>
+		<string>TR</string>
+		<key>Antique</key>
+		<string>PH</string>
+		<key>Antofagasta</key>
+		<string>CL</string>
+		<key>Antwerp</key>
+		<string>BE</string>
+		<key>Antwerpen</key>
+		<string>BE</string>
+		<key>Anvers</key>
+		<string>BE</string>
+		<key>Apayao</key>
+		<string>PH</string>
+		<key>Apeldoorn</key>
+		<string>NL</string>
+		<key>Apurimac</key>
+		<string>PE</string>
+		<key>Arad</key>
+		<string>RO</string>
+		<key>Araucania</key>
+		<string>CL</string>
+		<key>Arequipa</key>
+		<string>PE</string>
+		<key>Arges</key>
+		<string>RO</string>
+		<key>Arhus</key>
+		<string>DK</string>
+		<key>Arica</key>
+		<string>CL</string>
+		<key>Arizona</key>
+		<string>US</string>
+		<key>Arkansas</key>
+		<string>US</string>
+		<key>Arnhem</key>
+		<string>NL</string>
+		<key>Ashdod</key>
+		<string>IL</string>
+		<key>Aswan</key>
+		<string>EG</string>
+		<key>Asyut</key>
+		<string>EG</string>
+		<key>Atacama</key>
+		<string>CL</string>
+		<key>Athens</key>
+		<string>GR</string>
+		<key>Auckland</key>
+		<string>NZ</string>
+		<key>Augsburg</key>
+		<string>DE</string>
+		<key>Aurangabad</key>
+		<string>IN</string>
+		<key>Aurora</key>
+		<string>PH</string>
+		<key>Australian Capital Territory</key>
+		<string>AU</string>
+		<key>Ayacucho</key>
+		<string>PE</string>
+		<key>Aydın</key>
+		<string>TR</string>
+		<key>Aysen</key>
+		<string>CL</string>
+		<key>Ba Riavung Tau</key>
+		<string>VN</string>
+		<key>Bac Giang</key>
+		<string>VN</string>
+		<key>Bac Kan</key>
+		<string>VN</string>
+		<key>Bac Lieu</key>
+		<string>VN</string>
+		<key>Bac Ninh</key>
+		<string>VN</string>
+		<key>Bacau</key>
+		<string>RO</string>
+		<key>Badalona</key>
+		<string>ES</string>
+		<key>Baghdad</key>
+		<string>IQ</string>
+		<key>Bahia</key>
+		<string>BR</string>
+		<key>Bahr</key>
+		<string>EG</string>
+		<key>Baja California</key>
+		<string>MX</string>
+		<key>Bale</key>
+		<string>CH</string>
+		<key>Bali</key>
+		<string>ID</string>
+		<key>Ballarat</key>
+		<string>AU</string>
+		<key>Balıkesir</key>
+		<string>TR</string>
+		<key>Bangalore</key>
+		<string>IN</string>
+		<key>Bangka Belitung</key>
+		<string>ID</string>
+		<key>Bangkok</key>
+		<string>TH</string>
+		<key>Bani Suwayf</key>
+		<string>EG</string>
+		<key>Banten</key>
+		<string>ID</string>
+		<key>Barcelona</key>
+		<string>ES</string>
+		<key>Barisal</key>
+		<string>BD</string>
+		<key>Barranquilla</key>
+		<string>CO</string>
+		<key>Basel</key>
+		<string>CH</string>
+		<key>Basilan</key>
+		<string>PH</string>
+		<key>Basilea</key>
+		<string>CH</string>
+		<key>Basra</key>
+		<string>IQ</string>
+		<key>Bataan</key>
+		<string>PH</string>
+		<key>Batanes</key>
+		<string>PH</string>
+		<key>Batangas</key>
+		<string>PH</string>
+		<key>Beersheba</key>
+		<string>IL</string>
+		<key>Beheira</key>
+		<string>EG</string>
+		<key>Beijing</key>
+		<string>CN</string>
+		<key>Ben Tre</key>
+		<string>VN</string>
+		<key>Bendingo</key>
+		<string>AU</string>
+		<key>Bengkulu</key>
+		<string>ID</string>
+		<key>Benguet</key>
+		<string>PH</string>
+		<key>Beni Suef</key>
+		<string>EG</string>
+		<key>Benin</key>
+		<string>NG</string>
+		<key>Benoni</key>
+		<string>ZA</string>
+		<key>Bergen</key>
+		<string>NO</string>
+		<key>Bergisch Gladbach</key>
+		<string>DE</string>
+		<key>Berlin</key>
+		<string>DE</string>
+		<key>Bern</key>
+		<string>CH</string>
+		<key>Berna</key>
+		<string>CH</string>
+		<key>Berne</key>
+		<string>CH</string>
+		<key>Besancon</key>
+		<string>FR</string>
+		<key>Bhopal</key>
+		<string>IN</string>
+		<key>Białystok</key>
+		<string>PL</string>
+		<key>Bielefeld</key>
+		<string>DE</string>
+		<key>Bihor</key>
+		<string>RO</string>
+		<key>Bilbao</key>
+		<string>ES</string>
+		<key>Biliran</key>
+		<string>PH</string>
+		<key>Binh Duong</key>
+		<string>VN</string>
+		<key>Binh Phuoc</key>
+		<string>VN</string>
+		<key>Binh Thuan</key>
+		<string>VN</string>
+		<key>Binh Đinh</key>
+		<string>VN</string>
+		<key>Bio Bio</key>
+		<string>CL</string>
+		<key>Bistrita Nasaud</key>
+		<string>RO</string>
+		<key>Bochum</key>
+		<string>DE</string>
+		<key>Bogota</key>
+		<string>CO</string>
+		<key>Bogra</key>
+		<string>BD</string>
+		<key>Bohol</key>
+		<string>PH</string>
+		<key>Bonn</key>
+		<string>DE</string>
+		<key>Bordeaux</key>
+		<string>FR</string>
+		<key>Botosani</key>
+		<string>RO</string>
+		<key>Bottrop</key>
+		<string>DE</string>
+		<key>Boulogne Billancourt</key>
+		<string>FR</string>
+		<key>Braga</key>
+		<string>PT</string>
+		<key>Brahmanbaria</key>
+		<string>BD</string>
+		<key>Braila</key>
+		<string>RO</string>
+		<key>Brasov</key>
+		<string>RO</string>
+		<key>Braunschweig</key>
+		<string>DE</string>
+		<key>Breda</key>
+		<string>NL</string>
+		<key>Bremen</key>
+		<string>DE</string>
+		<key>Bremerhaven</key>
+		<string>DE</string>
+		<key>Brest</key>
+		<string>FR</string>
+		<key>Brisbane</key>
+		<string>AU</string>
+		<key>Brno</key>
+		<string>CZ</string>
+		<key>Bruges</key>
+		<string>BE</string>
+		<key>Brugge</key>
+		<string>BE</string>
+		<key>Brussel</key>
+		<string>BE</string>
+		<key>Brussels</key>
+		<string>BE</string>
+		<key>Bruxelles</key>
+		<string>BE</string>
+		<key>Bucharest</key>
+		<string>RO</string>
+		<key>Bucuresti</key>
+		<string>RO</string>
+		<key>Budapest</key>
+		<string>HU</string>
+		<key>Bueng Kan</key>
+		<string>TH</string>
+		<key>Buhayrah</key>
+		<string>EG</string>
+		<key>Bukidnon</key>
+		<string>PH</string>
+		<key>Bulacan</key>
+		<string>PH</string>
+		<key>Bur Said</key>
+		<string>EG</string>
+		<key>Buriram</key>
+		<string>TH</string>
+		<key>Bursa</key>
+		<string>TR</string>
+		<key>Busan</key>
+		<string>KR</string>
+		<key>Buzau</key>
+		<string>RO</string>
+		<key>Bydgoszcz</key>
+		<string>PL</string>
+		<key>Ca Mau</key>
+		<string>VN</string>
+		<key>Caen</key>
+		<string>FR</string>
+		<key>Cagayan</key>
+		<string>PH</string>
+		<key>Cairns</key>
+		<string>AU</string>
+		<key>Cairo</key>
+		<string>EG</string>
+		<key>Cajamarca</key>
+		<string>PE</string>
+		<key>Calarasi</key>
+		<string>RO</string>
+		<key>Cali</key>
+		<string>CO</string>
+		<key>California</key>
+		<string>US</string>
+		<key>Callao</key>
+		<string>PE</string>
+		<key>Camarines Norte</key>
+		<string>PH</string>
+		<key>Camarines Sur</key>
+		<string>PH</string>
+		<key>Camiguin</key>
+		<string>PH</string>
+		<key>Campeche</key>
+		<string>MX</string>
+		<key>Can Tho</key>
+		<string>VN</string>
+		<key>Canberra</key>
+		<string>AU</string>
+		<key>Cao Bang</key>
+		<string>VN</string>
+		<key>Cape Town</key>
+		<string>ZA</string>
+		<key>Capiz</key>
+		<string>PH</string>
+		<key>Carabanchel</key>
+		<string>ES</string>
+		<key>Caracas</key>
+		<string>VE</string>
+		<key>Caras Severin</key>
+		<string>RO</string>
+		<key>Cartagena</key>
+		<string>CO</string>
+		<key>Catanduanes</key>
+		<string>PH</string>
+		<key>Cavite</key>
+		<string>PH</string>
+		<key>Ceara</key>
+		<string>BR</string>
+		<key>Cebu</key>
+		<string>PH</string>
+		<key>Central Sinai</key>
+		<string>EG</string>
+		<key>Chachoengsao</key>
+		<string>TH</string>
+		<key>Chai Nat</key>
+		<string>TH</string>
+		<key>Chaiyaphum</key>
+		<string>TH</string>
+		<key>Chalcis</key>
+		<string>GR</string>
+		<key>Chandigarh</key>
+		<string>IN</string>
+		<key>Changhua</key>
+		<string>TW</string>
+		<key>Chania</key>
+		<string>GR</string>
+		<key>Chanthaburi</key>
+		<string>TH</string>
+		<key>Charleroi</key>
+		<string>BE</string>
+		<key>Chelyabinsk</key>
+		<string>RU</string>
+		<key>Chemnitz</key>
+		<string>DE</string>
+		<key>Chennai</key>
+		<string>IN</string>
+		<key>Chiang Mai</key>
+		<string>TH</string>
+		<key>Chiang Rai</key>
+		<string>TH</string>
+		<key>Chiapas</key>
+		<string>MX</string>
+		<key>Chihuahua</key>
+		<string>MX</string>
+		<key>Chittagong</key>
+		<string>BD</string>
+		<key>Chonburi</key>
+		<string>TH</string>
+		<key>Chongqing</key>
+		<string>CN</string>
+		<key>Christchurch</key>
+		<string>NZ</string>
+		<key>Chumphon</key>
+		<string>TH</string>
+		<key>Chungcheongbuk Do</key>
+		<string>KR</string>
+		<key>Chungcheongnam Do</key>
+		<string>KR</string>
+		<key>Ciudad De Mexico</key>
+		<string>MX</string>
+		<key>Ciudad Lineal</key>
+		<string>ES</string>
+		<key>Clermont Ferrand</key>
+		<string>FR</string>
+		<key>Cluj</key>
+		<string>RO</string>
+		<key>Coahuila</key>
+		<string>MX</string>
+		<key>Coimbatore</key>
+		<string>IN</string>
+		<key>Coimbra</key>
+		<string>PT</string>
+		<key>Colima</key>
+		<string>MX</string>
+		<key>Cologne</key>
+		<string>DE</string>
+		<key>Colorado</key>
+		<string>US</string>
+		<key>Comilla</key>
+		<string>BD</string>
+		<key>Compostela Valley</key>
+		<string>PH</string>
+		<key>Connecticut</key>
+		<string>US</string>
+		<key>Constanta</key>
+		<string>RO</string>
+		<key>Copenhagen</key>
+		<string>DK</string>
+		<key>Coquimbo</key>
+		<string>CL</string>
+		<key>Cordoba</key>
+		<string>ES</string>
+		<key>Cotabato</key>
+		<string>PH</string>
+		<key>Covasna</key>
+		<string>RO</string>
+		<key>Coxs Bazar</key>
+		<string>BD</string>
+		<key>Cusco</key>
+		<string>PE</string>
+		<key>Czestochowa</key>
+		<string>PL</string>
+		<key>Daegu</key>
+		<string>KR</string>
+		<key>Daejeon</key>
+		<string>KR</string>
+		<key>Dakahlia</key>
+		<string>EG</string>
+		<key>Dambovita</key>
+		<string>RO</string>
+		<key>Damietta</key>
+		<string>EG</string>
+		<key>Daqahliyah</key>
+		<string>EG</string>
+		<key>Darmstadt</key>
+		<string>DE</string>
+		<key>Darwin</key>
+		<string>AU</string>
+		<key>Davao Del Norte</key>
+		<string>PH</string>
+		<key>Davao Del Sur</key>
+		<string>PH</string>
+		<key>Davao Occidental</key>
+		<string>PH</string>
+		<key>Davao Oriental</key>
+		<string>PH</string>
+		<key>Debrecen</key>
+		<string>HU</string>
+		<key>Delaware</key>
+		<string>US</string>
+		<key>Delhi</key>
+		<string>IN</string>
+		<key>Denizli</key>
+		<string>TR</string>
+		<key>Dhaka</key>
+		<string>BD</string>
+		<key>Dhanbad</key>
+		<string>IN</string>
+		<key>Dijon</key>
+		<string>FR</string>
+		<key>Dinagat Islands</key>
+		<string>PH</string>
+		<key>Dinajpur</key>
+		<string>BD</string>
+		<key>Distrito Federal</key>
+		<string>BR</string>
+		<key>Diyarbakır</key>
+		<string>TR</string>
+		<key>Dnipro</key>
+		<string>UA</string>
+		<key>Dolj</key>
+		<string>RO</string>
+		<key>Donetsk</key>
+		<string>UA</string>
+		<key>Dortmund</key>
+		<string>DE</string>
+		<key>Dresden</key>
+		<string>DE</string>
+		<key>Duisburg</key>
+		<string>DE</string>
+		<key>Dumyat</key>
+		<string>EG</string>
+		<key>Dunedin</key>
+		<string>NZ</string>
+		<key>Durango</key>
+		<string>MX</string>
+		<key>Durban</key>
+		<string>ZA</string>
+		<key>Dusseldorf</key>
+		<string>DE</string>
+		<key>East London</key>
+		<string>ZA</string>
+		<key>Eastern Samar</key>
+		<string>PH</string>
+		<key>Eindhoven</key>
+		<string>NL</string>
+		<key>Eixample</key>
+		<string>ES</string>
+		<key>Elche</key>
+		<string>ES</string>
+		<key>Enschede</key>
+		<string>NL</string>
+		<key>Enugu</key>
+		<string>NG</string>
+		<key>Erbil</key>
+		<string>IQ</string>
+		<key>Erfurt</key>
+		<string>DE</string>
+		<key>Erlangen</key>
+		<string>DE</string>
+		<key>Eskisehir</key>
+		<string>TR</string>
+		<key>Espirito Santo</key>
+		<string>BR</string>
+		<key>Espoo</key>
+		<string>FI</string>
+		<key>Essen</key>
+		<string>DE</string>
+		<key>Estado Amazonas</key>
+		<string>VE</string>
+		<key>Estado Anzoategui</key>
+		<string>VE</string>
+		<key>Estado Apure</key>
+		<string>VE</string>
+		<key>Estado Aragua</key>
+		<string>VE</string>
+		<key>Estado Barinas</key>
+		<string>VE</string>
+		<key>Estado Bolivar</key>
+		<string>VE</string>
+		<key>Estado Carabobo</key>
+		<string>VE</string>
+		<key>Estado Cojedes</key>
+		<string>VE</string>
+		<key>Estado Delta Amacuro</key>
+		<string>VE</string>
+		<key>Estado Falcon</key>
+		<string>VE</string>
+		<key>Estado Guarico</key>
+		<string>VE</string>
+		<key>Estado Lara</key>
+		<string>VE</string>
+		<key>Estado Merida</key>
+		<string>VE</string>
+		<key>Estado Miranda</key>
+		<string>VE</string>
+		<key>Estado Monagas</key>
+		<string>VE</string>
+		<key>Estado Nueva Esparta</key>
+		<string>VE</string>
+		<key>Estado Portuguesa</key>
+		<string>VE</string>
+		<key>Estado Sucre</key>
+		<string>VE</string>
+		<key>Estado Tachira</key>
+		<string>VE</string>
+		<key>Estado Trujillo</key>
+		<string>VE</string>
+		<key>Estado Vargas</key>
+		<string>VE</string>
+		<key>Estado Yaracuy</key>
+		<string>VE</string>
+		<key>Estado Zulia</key>
+		<string>VE</string>
+		<key>Faisalabad</key>
+		<string>PK</string>
+		<key>Faiyum</key>
+		<string>EG</string>
+		<key>Faridabad</key>
+		<string>IN</string>
+		<key>Fayyum</key>
+		<string>EG</string>
+		<key>Florida</key>
+		<string>US</string>
+		<key>Frankfurt Am Main</key>
+		<string>DE</string>
+		<key>Freiburg Im Breisgau</key>
+		<string>DE</string>
+		<key>Fujian</key>
+		<string>CN</string>
+		<key>Fukuoka</key>
+		<string>JP</string>
+		<key>Funchal</key>
+		<string>PT</string>
+		<key>Furth</key>
+		<string>DE</string>
+		<key>Galati</key>
+		<string>RO</string>
+		<key>Gand</key>
+		<string>BE</string>
+		<key>Gangwon Do</key>
+		<string>KR</string>
+		<key>Gansu</key>
+		<string>CN</string>
+		<key>Gasteiz</key>
+		<string>ES</string>
+		<key>Gaziantep</key>
+		<string>TR</string>
+		<key>Gazipur</key>
+		<string>BD</string>
+		<key>Gdansk</key>
+		<string>PL</string>
+		<key>Gdynia</key>
+		<string>PL</string>
+		<key>Geelong</key>
+		<string>AU</string>
+		<key>Gelsenkirchen</key>
+		<string>DE</string>
+		<key>Geneva</key>
+		<string>CH</string>
+		<key>Geneve</key>
+		<string>CH</string>
+		<key>Genf</key>
+		<string>CH</string>
+		<key>Gent</key>
+		<string>BE</string>
+		<key>Georgia</key>
+		<string>US</string>
+		<key>Gharbia</key>
+		<string>EG</string>
+		<key>Gharbiyah</key>
+		<string>EG</string>
+		<key>Ghaziabad</key>
+		<string>IN</string>
+		<key>Ghent</key>
+		<string>BE</string>
+		<key>Gia Lai</key>
+		<string>VN</string>
+		<key>Gijon</key>
+		<string>ES</string>
+		<key>Ginevra</key>
+		<string>CH</string>
+		<key>Giurgiu</key>
+		<string>RO</string>
+		<key>Giza</key>
+		<string>EG</string>
+		<key>Goias</key>
+		<string>BR</string>
+		<key>Gold Coast</key>
+		<string>AU</string>
+		<key>Gorj</key>
+		<string>RO</string>
+		<key>Gorontalo</key>
+		<string>ID</string>
+		<key>Gothenburg</key>
+		<string>SE</string>
+		<key>Gottingen</key>
+		<string>DE</string>
+		<key>Granada</key>
+		<string>ES</string>
+		<key>Graz</key>
+		<string>AT</string>
+		<key>Grenoble</key>
+		<string>FR</string>
+		<key>Groningen</key>
+		<string>NL</string>
+		<key>Guanajuato</key>
+		<string>MX</string>
+		<key>Guangdong</key>
+		<string>CN</string>
+		<key>Guangxi Zhuang</key>
+		<string>CN</string>
+		<key>Guerrero</key>
+		<string>MX</string>
+		<key>Guimaras</key>
+		<string>PH</string>
+		<key>Guizho</key>
+		<string>CN</string>
+		<key>Gujranwala</key>
+		<string>PK</string>
+		<key>Guwahati</key>
+		<string>IN</string>
+		<key>Gwalior</key>
+		<string>IN</string>
+		<key>Gwangju</key>
+		<string>KR</string>
+		<key>Gyeonggi Do</key>
+		<string>KR</string>
+		<key>Gyeongsangbuk Do</key>
+		<string>KR</string>
+		<key>Gyeongsangnam Do</key>
+		<string>KR</string>
+		<key>Gyor</key>
+		<string>HU</string>
+		<key>Ha Giang</key>
+		<string>VN</string>
+		<key>Ha Nam</key>
+		<string>VN</string>
+		<key>Ha Noi</key>
+		<string>VN</string>
+		<key>Ha Tinh</key>
+		<string>VN</string>
+		<key>Haarlem</key>
+		<string>NL</string>
+		<key>Haarlemmermeer</key>
+		<string>NL</string>
+		<key>Hagen</key>
+		<string>DE</string>
+		<key>Hague</key>
+		<string>NL</string>
+		<key>Hai Duong</key>
+		<string>VN</string>
+		<key>Hai Phong</key>
+		<string>VN</string>
+		<key>Haifa</key>
+		<string>IL</string>
+		<key>Hainan</key>
+		<string>CN</string>
+		<key>Halle</key>
+		<string>DE</string>
+		<key>Hamburg</key>
+		<string>DE</string>
+		<key>Hamilton</key>
+		<string>NZ</string>
+		<key>Hamm</key>
+		<string>DE</string>
+		<key>Hannover</key>
+		<string>DE</string>
+		<key>Hanoi</key>
+		<string>VN</string>
+		<key>Hanover</key>
+		<string>DE</string>
+		<key>Harcourt</key>
+		<string>NG</string>
+		<key>Harghita</key>
+		<string>RO</string>
+		<key>Hatay</key>
+		<string>TR</string>
+		<key>Hau Giang</key>
+		<string>VN</string>
+		<key>Hawaii</key>
+		<string>US</string>
+		<key>Hebei</key>
+		<string>CN</string>
+		<key>Heidelberg</key>
+		<string>DE</string>
+		<key>Heilbronn</key>
+		<string>DE</string>
+		<key>Heilongjiang</key>
+		<string>CN</string>
+		<key>Helsingborg</key>
+		<string>SE</string>
+		<key>Helsinki</key>
+		<string>FI</string>
+		<key>Henan</key>
+		<string>CN</string>
+		<key>Heraklion</key>
+		<string>GR</string>
+		<key>Herne</key>
+		<string>DE</string>
+		<key>Hertogenbosch</key>
+		<string>NL</string>
+		<key>Hidalgo</key>
+		<string>MX</string>
+		<key>Hildesheim</key>
+		<string>DE</string>
+		<key>Ho Chi Minh</key>
+		<string>VN</string>
+		<key>Hoa Binh</key>
+		<string>VN</string>
+		<key>Hobart</key>
+		<string>AU</string>
+		<key>Holon</key>
+		<string>IL</string>
+		<key>Hong Kong</key>
+		<string>CN</string>
+		<key>Hovedstadsomradet</key>
+		<string>DK</string>
+		<key>Howrah</key>
+		<string>IN</string>
+		<key>Huancavelica</key>
+		<string>PE</string>
+		<key>Huanuco</key>
+		<string>PE</string>
+		<key>Hubei</key>
+		<string>CN</string>
+		<key>Hunan</key>
+		<string>CN</string>
+		<key>Hunedoara</key>
+		<string>RO</string>
+		<key>Hung Yen</key>
+		<string>VN</string>
+		<key>Hyderabad</key>
+		<string>IN</string>
+		<key>Ialomita</key>
+		<string>RO</string>
+		<key>Iasi</key>
+		<string>RO</string>
+		<key>Ibadan</key>
+		<string>NG</string>
+		<key>Ica</key>
+		<string>PE</string>
+		<key>Idaho</key>
+		<string>US</string>
+		<key>Ifugao</key>
+		<string>PH</string>
+		<key>Ikorodu</key>
+		<string>NG</string>
+		<key>Ilfov</key>
+		<string>RO</string>
+		<key>Illinois</key>
+		<string>US</string>
+		<key>Ilocos Norte</key>
+		<string>PH</string>
+		<key>Ilocos Sur</key>
+		<string>PH</string>
+		<key>Iloilo</key>
+		<string>PH</string>
+		<key>Ilorin</key>
+		<string>NG</string>
+		<key>Incheon</key>
+		<string>KR</string>
+		<key>Indiana</key>
+		<string>US</string>
+		<key>Indore</key>
+		<string>IN</string>
+		<key>Ingolstadt</key>
+		<string>DE</string>
+		<key>Inner Mongolia</key>
+		<string>CN</string>
+		<key>Innsbruck</key>
+		<string>AT</string>
+		<key>Ionnina</key>
+		<string>GR</string>
+		<key>Iowa</key>
+		<string>US</string>
+		<key>Irkutsk</key>
+		<string>RU</string>
+		<key>Isabela</key>
+		<string>PH</string>
+		<key>Isfahan</key>
+		<string>IR</string>
+		<key>Iskandariya</key>
+		<string>EG</string>
+		<key>Iskandariyah</key>
+		<string>EG</string>
+		<key>Islamabad</key>
+		<string>PK</string>
+		<key>Ismailia</key>
+		<string>EG</string>
+		<key>Ismailiyah</key>
+		<string>EG</string>
+		<key>Istanbul</key>
+		<string>TR</string>
+		<key>Izmir</key>
+		<string>TR</string>
+		<key>Jabalpur</key>
+		<string>IN</string>
+		<key>Jabar</key>
+		<string>ID</string>
+		<key>Jaipur</key>
+		<string>IN</string>
+		<key>Jakarta</key>
+		<string>ID</string>
+		<key>Jalisco</key>
+		<string>MX</string>
+		<key>Jambi</key>
+		<string>ID</string>
+		<key>Janub Sina</key>
+		<string>EG</string>
+		<key>Jateng</key>
+		<string>ID</string>
+		<key>Jatim</key>
+		<string>ID</string>
+		<key>Java</key>
+		<string>ID</string>
+		<key>Jawa</key>
+		<string>ID</string>
+		<key>Jeju</key>
+		<string>KR</string>
+		<key>Jena</key>
+		<string>DE</string>
+		<key>Jeollabuk Do</key>
+		<string>KR</string>
+		<key>Jeollanam Do</key>
+		<string>KR</string>
+		<key>Jerusalem</key>
+		<string>IL</string>
+		<key>Jessore</key>
+		<string>BD</string>
+		<key>Jiangsu</key>
+		<string>CN</string>
+		<key>Jiangxi</key>
+		<string>CN</string>
+		<key>Jilin</key>
+		<string>CN</string>
+		<key>Jizah</key>
+		<string>EG</string>
+		<key>Jodhpur</key>
+		<string>IN</string>
+		<key>Johannesburg</key>
+		<string>ZA</string>
+		<key>Johor Darul Tazim</key>
+		<string>MY</string>
+		<key>Jos</key>
+		<string>NG</string>
+		<key>Junin</key>
+		<string>PE</string>
+		<key>Jyvaskyla</key>
+		<string>FI</string>
+		<key>Kaduna</key>
+		<string>NG</string>
+		<key>Kafr Ash</key>
+		<string>EG</string>
+		<key>Kafr El Sheikh</key>
+		<string>EG</string>
+		<key>Kahramanmaras</key>
+		<string>TR</string>
+		<key>Kalasin</key>
+		<string>TH</string>
+		<key>Kalbar</key>
+		<string>ID</string>
+		<key>Kalimantan</key>
+		<string>ID</string>
+		<key>Kalinga</key>
+		<string>PH</string>
+		<key>Kaliningrad</key>
+		<string>RU</string>
+		<key>Kalsel</key>
+		<string>ID</string>
+		<key>Kaltara</key>
+		<string>ID</string>
+		<key>Kalteng</key>
+		<string>ID</string>
+		<key>Kaltim</key>
+		<string>ID</string>
+		<key>Kalyan Dombivali</key>
+		<string>IN</string>
+		<key>Kamphaeng Phet</key>
+		<string>TH</string>
+		<key>Kanchanaburi</key>
+		<string>TH</string>
+		<key>Kano</key>
+		<string>NG</string>
+		<key>Kanpur</key>
+		<string>IN</string>
+		<key>Kansas</key>
+		<string>US</string>
+		<key>Kaohsiun</key>
+		<string>TW</string>
+		<key>Karachi</key>
+		<string>PK</string>
+		<key>Karaj</key>
+		<string>IR</string>
+		<key>Karlsruhe</key>
+		<string>DE</string>
+		<key>Kassel</key>
+		<string>DE</string>
+		<key>Katowice</key>
+		<string>PL</string>
+		<key>Kawasaki</key>
+		<string>JP</string>
+		<key>Kayseri</key>
+		<string>TR</string>
+		<key>Kazan</key>
+		<string>RU</string>
+		<key>Kecskemet</key>
+		<string>HU</string>
+		<key>Kedah Darul Aman</key>
+		<string>MY</string>
+		<key>Kelantan Darul Naim</key>
+		<string>MY</string>
+		<key>Kentucky</key>
+		<string>US</string>
+		<key>Kepri</key>
+		<string>ID</string>
+		<key>Kepulauan Riau</key>
+		<string>ID</string>
+		<key>Khanh Hoa</key>
+		<string>VN</string>
+		<key>Kharkiv</key>
+		<string>UA</string>
+		<key>Khon Kaen</key>
+		<string>TH</string>
+		<key>Khulna</key>
+		<string>BD</string>
+		<key>Kiel</key>
+		<string>DE</string>
+		<key>Kielce</key>
+		<string>PL</string>
+		<key>Kien Giang</key>
+		<string>VN</string>
+		<key>Kiev</key>
+		<string>UA</string>
+		<key>Kirkuk</key>
+		<string>IQ</string>
+		<key>Klagenfurt</key>
+		<string>AT</string>
+		<key>Kobe</key>
+		<string>JP</string>
+		<key>Koblenz</key>
+		<string>DE</string>
+		<key>Kocaeli</key>
+		<string>TR</string>
+		<key>Kolkata</key>
+		<string>IN</string>
+		<key>Koln</key>
+		<string>DE</string>
+		<key>Kon Tum</key>
+		<string>VN</string>
+		<key>Konya</key>
+		<string>TR</string>
+		<key>Kota</key>
+		<string>IN</string>
+		<key>Krabi</key>
+		<string>TH</string>
+		<key>Krai</key>
+		<string>RU</string>
+		<key>Krakow</key>
+		<string>PL</string>
+		<key>Krasnoyarsk</key>
+		<string>RU</string>
+		<key>Kray</key>
+		<string>RU</string>
+		<key>Krefeld</key>
+		<string>DE</string>
+		<key>Kristiansand</key>
+		<string>NO</string>
+		<key>Krung Thep Maha</key>
+		<string>TH</string>
+		<key>Kuala Lumpur</key>
+		<string>MY</string>
+		<key>Kuopio</key>
+		<string>FI</string>
+		<key>Kyiv</key>
+		<string>UA</string>
+		<key>Kyoto</key>
+		<string>JP</string>
+		<key>København</key>
+		<string>DK</string>
+		<key>La Libertad</key>
+		<string>PE</string>
+		<key>La Union</key>
+		<string>PH</string>
+		<key>Labuan</key>
+		<string>MY</string>
+		<key>Lagos</key>
+		<string>NG</string>
+		<key>Laguna</key>
+		<string>PH</string>
+		<key>Lahore</key>
+		<string>PK</string>
+		<key>Lahti</key>
+		<string>FI</string>
+		<key>Lai Chau</key>
+		<string>VN</string>
+		<key>Lam Đong</key>
+		<string>VN</string>
+		<key>Lambayeque</key>
+		<string>PE</string>
+		<key>Lampang</key>
+		<string>TH</string>
+		<key>Lamphun</key>
+		<string>TH</string>
+		<key>Lampung</key>
+		<string>ID</string>
+		<key>Lanao Del Norte</key>
+		<string>PH</string>
+		<key>Lanao Del Sur</key>
+		<string>PH</string>
+		<key>Lang Son</key>
+		<string>VN</string>
+		<key>Lao Cai</key>
+		<string>VN</string>
+		<key>Larissa</key>
+		<string>GR</string>
+		<key>Latina</key>
+		<string>ES</string>
+		<key>Lausanne</key>
+		<string>CH</string>
+		<key>Le Havre</key>
+		<string>FR</string>
+		<key>Le Mans</key>
+		<string>FR</string>
+		<key>Leipzig</key>
+		<string>DE</string>
+		<key>Leuven</key>
+		<string>BE</string>
+		<key>Leverkusen</key>
+		<string>DE</string>
+		<key>Leyte</key>
+		<string>PH</string>
+		<key>Lhospitalet De Llobregat</key>
+		<string>ES</string>
+		<key>Liaoning</key>
+		<string>CN</string>
+		<key>Liberec</key>
+		<string>CZ</string>
+		<key>Liege</key>
+		<string>BE</string>
+		<key>Lille</key>
+		<string>FR</string>
+		<key>Lima</key>
+		<string>PE</string>
+		<key>Limoges</key>
+		<string>FR</string>
+		<key>Linkoping</key>
+		<string>SE</string>
+		<key>Linz</key>
+		<string>AT</string>
+		<key>Lisboa</key>
+		<string>PT</string>
+		<key>Lisbon</key>
+		<string>PT</string>
+		<key>Loei</key>
+		<string>TH</string>
+		<key>Long An</key>
+		<string>VN</string>
+		<key>Lopburi</key>
+		<string>TH</string>
+		<key>Loreto</key>
+		<string>PE</string>
+		<key>Los Lagos</key>
+		<string>CL</string>
+		<key>Los Rios</key>
+		<string>CL</string>
+		<key>Losanna</key>
+		<string>CH</string>
+		<key>Louisiana</key>
+		<string>US</string>
+		<key>Louvain</key>
+		<string>BE</string>
+		<key>Lowen</key>
+		<string>BE</string>
+		<key>Lubeck</key>
+		<string>DE</string>
+		<key>Lublin</key>
+		<string>PL</string>
+		<key>Lucerna</key>
+		<string>CH</string>
+		<key>Lucerne</key>
+		<string>CH</string>
+		<key>Lucknow</key>
+		<string>IN</string>
+		<key>Ludhiana</key>
+		<string>IN</string>
+		<key>Ludwigshafen Am Rhein</key>
+		<string>DE</string>
+		<key>Luik</key>
+		<string>BE</string>
+		<key>Luxor</key>
+		<string>EG</string>
+		<key>Luzern</key>
+		<string>CH</string>
+		<key>Lyon</key>
+		<string>FR</string>
+		<key>Macau</key>
+		<string>CN</string>
+		<key>Madre De Dios</key>
+		<string>PE</string>
+		<key>Madrid</key>
+		<string>ES</string>
+		<key>Madurai</key>
+		<string>IN</string>
+		<key>Mae Hong Son</key>
+		<string>TH</string>
+		<key>Magallanes</key>
+		<string>CL</string>
+		<key>Magdeburg</key>
+		<string>DE</string>
+		<key>Maguindanao</key>
+		<string>PH</string>
+		<key>Maha Sarakham</key>
+		<string>TH</string>
+		<key>Maiduguri</key>
+		<string>NG</string>
+		<key>Maine</key>
+		<string>US</string>
+		<key>Mainz</key>
+		<string>DE</string>
+		<key>Maitland</key>
+		<string>AU</string>
+		<key>Malaga</key>
+		<string>ES</string>
+		<key>Malmo</key>
+		<string>SE</string>
+		<key>Maluku</key>
+		<string>ID</string>
+		<key>Malut</key>
+		<string>ID</string>
+		<key>Manila</key>
+		<string>PH</string>
+		<key>Manisa</key>
+		<string>TR</string>
+		<key>Mannheim</key>
+		<string>DE</string>
+		<key>Maramures</key>
+		<string>RO</string>
+		<key>Maranhao</key>
+		<string>BR</string>
+		<key>Marinduque</key>
+		<string>PH</string>
+		<key>Marseille</key>
+		<string>FR</string>
+		<key>Maryland</key>
+		<string>US</string>
+		<key>Masbate</key>
+		<string>PH</string>
+		<key>Mashhad</key>
+		<string>IR</string>
+		<key>Massachusetts</key>
+		<string>US</string>
+		<key>Mato Grosso</key>
+		<string>BR</string>
+		<key>Matruh</key>
+		<string>EG</string>
+		<key>Maule</key>
+		<string>CL</string>
+		<key>Medellin</key>
+		<string>CO</string>
+		<key>Meerut</key>
+		<string>IN</string>
+		<key>Mehedinti</key>
+		<string>RO</string>
+		<key>Melaka</key>
+		<string>MY</string>
+		<key>Melbourne</key>
+		<string>AU</string>
+		<key>Mersin</key>
+		<string>TR</string>
+		<key>Metz</key>
+		<string>FR</string>
+		<key>Mexico</key>
+		<string>MX</string>
+		<key>Mexico City</key>
+		<string>MX</string>
+		<key>Michigan</key>
+		<string>US</string>
+		<key>Michoacan</key>
+		<string>MX</string>
+		<key>Minas Gerais</key>
+		<string>BR</string>
+		<key>Minnesota</key>
+		<string>US</string>
+		<key>Minufiyah</key>
+		<string>EG</string>
+		<key>Minya</key>
+		<string>EG</string>
+		<key>Misamis Occidental</key>
+		<string>PH</string>
+		<key>Misamis Oriental</key>
+		<string>PH</string>
+		<key>Miskolc</key>
+		<string>HU</string>
+		<key>Mississippi</key>
+		<string>US</string>
+		<key>Missouri</key>
+		<string>US</string>
+		<key>Moers</key>
+		<string>DE</string>
+		<key>Monchengladbach</key>
+		<string>DE</string>
+		<key>Montana</key>
+		<string>US</string>
+		<key>Montpellier</key>
+		<string>FR</string>
+		<key>Montreuil</key>
+		<string>FR</string>
+		<key>Monufia</key>
+		<string>EG</string>
+		<key>Moquegua</key>
+		<string>PE</string>
+		<key>Morelos</key>
+		<string>MX</string>
+		<key>Moscow</key>
+		<string>RU</string>
+		<key>Moskva</key>
+		<string>RU</string>
+		<key>Mosul</key>
+		<string>IQ</string>
+		<key>Mountain Province</key>
+		<string>PH</string>
+		<key>Mukdahan</key>
+		<string>TH</string>
+		<key>Mulheim An Der</key>
+		<string>DE</string>
+		<key>Mulhouse</key>
+		<string>FR</string>
+		<key>Multan</key>
+		<string>PK</string>
+		<key>Mumbai</key>
+		<string>IN</string>
+		<key>Munchen</key>
+		<string>DE</string>
+		<key>Munich</key>
+		<string>DE</string>
+		<key>Munster</key>
+		<string>DE</string>
+		<key>Murcia</key>
+		<string>ES</string>
+		<key>Mures</key>
+		<string>RO</string>
+		<key>Mymensingh</key>
+		<string>BD</string>
+		<key>Nagoya</key>
+		<string>JP</string>
+		<key>Nagpur</key>
+		<string>IN</string>
+		<key>Nakhon Nayok</key>
+		<string>TH</string>
+		<key>Nakhon Pathom</key>
+		<string>TH</string>
+		<key>Nakhon Phanom</key>
+		<string>TH</string>
+		<key>Nakhon Ratchasima</key>
+		<string>TH</string>
+		<key>Nakhon Sawan</key>
+		<string>TH</string>
+		<key>Nakhon Si Thammarat</key>
+		<string>TH</string>
+		<key>Nam Đinh</key>
+		<string>VN</string>
+		<key>Namen</key>
+		<string>BE</string>
+		<key>Namur</key>
+		<string>BE</string>
+		<key>Nan</key>
+		<string>TH</string>
+		<key>Nancy</key>
+		<string>FR</string>
+		<key>Nantes</key>
+		<string>FR</string>
+		<key>Napier Hastings</key>
+		<string>NZ</string>
+		<key>Narathiwat</key>
+		<string>TH</string>
+		<key>Narayanganj</key>
+		<string>BD</string>
+		<key>Narsingdi</key>
+		<string>BD</string>
+		<key>Nashik</key>
+		<string>IN</string>
+		<key>Navi Mumbai</key>
+		<string>IN</string>
+		<key>Nawabganj</key>
+		<string>BD</string>
+		<key>Nayarit</key>
+		<string>MX</string>
+		<key>Neamt</key>
+		<string>RO</string>
+		<key>Nebraska</key>
+		<string>US</string>
+		<key>Negeri Sembilan Darul</key>
+		<string>MY</string>
+		<key>Negros Occidental</key>
+		<string>PH</string>
+		<key>Negros Oriental</key>
+		<string>PH</string>
+		<key>Netanya</key>
+		<string>IL</string>
+		<key>Neuss</key>
+		<string>DE</string>
+		<key>Nevada</key>
+		<string>US</string>
+		<key>New Hampshire</key>
+		<string>US</string>
+		<key>New Jersey</key>
+		<string>US</string>
+		<key>New Mexico</key>
+		<string>US</string>
+		<key>New South Wales</key>
+		<string>AU</string>
+		<key>New Valley</key>
+		<string>EG</string>
+		<key>New York</key>
+		<string>US</string>
+		<key>Newcastle</key>
+		<string>AU</string>
+		<key>Nghe An</key>
+		<string>VN</string>
+		<key>Nice</key>
+		<string>FR</string>
+		<key>Nijmegen</key>
+		<string>NL</string>
+		<key>Nimes</key>
+		<string>FR</string>
+		<key>Ningxia Hui</key>
+		<string>CN</string>
+		<key>Ninh Binh</key>
+		<string>VN</string>
+		<key>Ninh Thuan</key>
+		<string>VN</string>
+		<key>Nizhny Novgorod</key>
+		<string>RU</string>
+		<key>Nong Bua Lam</key>
+		<string>TH</string>
+		<key>Nong Khai</key>
+		<string>TH</string>
+		<key>Nonthaburi</key>
+		<string>TH</string>
+		<key>North Carolina</key>
+		<string>US</string>
+		<key>North Dakota</key>
+		<string>US</string>
+		<key>North Sinai</key>
+		<string>EG</string>
+		<key>Northern Samar</key>
+		<string>PH</string>
+		<key>Northern Territory</key>
+		<string>AU</string>
+		<key>Novosibirsk</key>
+		<string>RU</string>
+		<key>Nsukka</key>
+		<string>NG</string>
+		<key>Nueva Ecija</key>
+		<string>PH</string>
+		<key>Nueva Vizcaya</key>
+		<string>PH</string>
+		<key>Nuevo Leon</key>
+		<string>MX</string>
+		<key>Nuremberg</key>
+		<string>DE</string>
+		<key>Nurnberg</key>
+		<string>DE</string>
+		<key>Nusa Tenggara</key>
+		<string>ID</string>
+		<key>Nyiregyhaza</key>
+		<string>HU</string>
+		<key>Oaxaca</key>
+		<string>MX</string>
+		<key>Oberhausen</key>
+		<string>DE</string>
+		<key>Oblast</key>
+		<string>RU</string>
+		<key>Occidental Mindoro</key>
+		<string>PH</string>
+		<key>Odesa</key>
+		<string>UA</string>
+		<key>Odessa</key>
+		<string>UA</string>
+		<key>Offenbach Am Main</key>
+		<string>DE</string>
+		<key>Ohiggins</key>
+		<string>CL</string>
+		<key>Ohio</key>
+		<string>US</string>
+		<key>Oklahoma</key>
+		<string>US</string>
+		<key>Oldenburg</key>
+		<string>DE</string>
+		<key>Olomouc</key>
+		<string>CZ</string>
+		<key>Olt</key>
+		<string>RO</string>
+		<key>Omsk</key>
+		<string>RU</string>
+		<key>Orebro</key>
+		<string>SE</string>
+		<key>Oregon</key>
+		<string>US</string>
+		<key>Oriental Mindoro</key>
+		<string>PH</string>
+		<key>Orleans</key>
+		<string>FR</string>
+		<key>Osaka</key>
+		<string>JP</string>
+		<key>Oslo</key>
+		<string>NO</string>
+		<key>Osnabruck</key>
+		<string>DE</string>
+		<key>Ostrava</key>
+		<string>CZ</string>
+		<key>Oulu</key>
+		<string>FI</string>
+		<key>Oviedo</key>
+		<string>ES</string>
+		<key>Paderborn</key>
+		<string>DE</string>
+		<key>Pahang Darul Makmur</key>
+		<string>MY</string>
+		<key>Palawan</key>
+		<string>PH</string>
+		<key>Palma</key>
+		<string>ES</string>
+		<key>Pampanga</key>
+		<string>PH</string>
+		<key>Pangasinan</key>
+		<string>PH</string>
+		<key>Papua</key>
+		<string>ID</string>
+		<key>Papuabarat</key>
+		<string>ID</string>
+		<key>Para</key>
+		<string>BR</string>
+		<key>Paraiba</key>
+		<string>BR</string>
+		<key>Parana</key>
+		<string>BR</string>
+		<key>Paris</key>
+		<string>FR</string>
+		<key>Pasco</key>
+		<string>PE</string>
+		<key>Pathum Thani</key>
+		<string>TH</string>
+		<key>Patna</key>
+		<string>IN</string>
+		<key>Patras</key>
+		<string>GR</string>
+		<key>Pattani</key>
+		<string>TH</string>
+		<key>Pecs</key>
+		<string>HU</string>
+		<key>Penang</key>
+		<string>MY</string>
+		<key>Pennsylvania</key>
+		<string>US</string>
+		<key>Perak Darul Ridzuan</key>
+		<string>MY</string>
+		<key>Perlis Indera Kayangan</key>
+		<string>MY</string>
+		<key>Perm</key>
+		<string>RU</string>
+		<key>Pernambuco</key>
+		<string>BR</string>
+		<key>Perpignan</key>
+		<string>FR</string>
+		<key>Perth</key>
+		<string>AU</string>
+		<key>Peshawar</key>
+		<string>PK</string>
+		<key>Petah Tikva</key>
+		<string>IL</string>
+		<key>Pforzheim</key>
+		<string>DE</string>
+		<key>Phang Nga</key>
+		<string>TH</string>
+		<key>Phatthalung</key>
+		<string>TH</string>
+		<key>Phayao</key>
+		<string>TH</string>
+		<key>Phetchabun</key>
+		<string>TH</string>
+		<key>Phetchaburi</key>
+		<string>TH</string>
+		<key>Phichit</key>
+		<string>TH</string>
+		<key>Phitsanulok</key>
+		<string>TH</string>
+		<key>Phra Nakhon Si</key>
+		<string>TH</string>
+		<key>Phrae</key>
+		<string>TH</string>
+		<key>Phu Tho</key>
+		<string>VN</string>
+		<key>Phu Yen</key>
+		<string>VN</string>
+		<key>Phuket</key>
+		<string>TH</string>
+		<key>Piaul</key>
+		<string>BR</string>
+		<key>Pietermaritzburg</key>
+		<string>ZA</string>
+		<key>Pilsen</key>
+		<string>CZ</string>
+		<key>Pimpri Chinchwad</key>
+		<string>IN</string>
+		<key>Piura</key>
+		<string>PE</string>
+		<key>Port Elizabeth</key>
+		<string>ZA</string>
+		<key>Port Said</key>
+		<string>EG</string>
+		<key>Porto</key>
+		<string>PT</string>
+		<key>Potsdam</key>
+		<string>DE</string>
+		<key>Poznan</key>
+		<string>PL</string>
+		<key>Prachinburi</key>
+		<string>TH</string>
+		<key>Prachuap Khiri Khan</key>
+		<string>TH</string>
+		<key>Prague</key>
+		<string>CZ</string>
+		<key>Praha</key>
+		<string>CZ</string>
+		<key>Prahova</key>
+		<string>RO</string>
+		<key>Pretoria</key>
+		<string>ZA</string>
+		<key>Puebla</key>
+		<string>MX</string>
+		<key>Puente De Vallecas</key>
+		<string>ES</string>
+		<key>Pune</key>
+		<string>IN</string>
+		<key>Puno</key>
+		<string>PE</string>
+		<key>Putrajaya</key>
+		<string>MY</string>
+		<key>Qahira</key>
+		<string>EG</string>
+		<key>Qahirah</key>
+		<string>EG</string>
+		<key>Qalyubia</key>
+		<string>EG</string>
+		<key>Qalyubiyah</key>
+		<string>EG</string>
+		<key>Qena</key>
+		<string>EG</string>
+		<key>Qina</key>
+		<string>EG</string>
+		<key>Qinghai</key>
+		<string>CN</string>
+		<key>Qom</key>
+		<string>IR</string>
+		<key>Quang Binh</key>
+		<string>VN</string>
+		<key>Quang Nam</key>
+		<string>VN</string>
+		<key>Quang Ngai</key>
+		<string>VN</string>
+		<key>Quang Ninh</key>
+		<string>VN</string>
+		<key>Quang Tri</key>
+		<string>VN</string>
+		<key>Queanbeyan</key>
+		<string>AU</string>
+		<key>Queensland</key>
+		<string>AU</string>
+		<key>Queretaro</key>
+		<string>MX</string>
+		<key>Quetta</key>
+		<string>PK</string>
+		<key>Quezon</key>
+		<string>PH</string>
+		<key>Quintana</key>
+		<string>MX</string>
+		<key>Quirino</key>
+		<string>PH</string>
+		<key>Radom</key>
+		<string>PL</string>
+		<key>Raipur</key>
+		<string>IN</string>
+		<key>Rajkot</key>
+		<string>IN</string>
+		<key>Rajshahi</key>
+		<string>BD</string>
+		<key>Ranchi</key>
+		<string>IN</string>
+		<key>Rangpur</key>
+		<string>BD</string>
+		<key>Ranong</key>
+		<string>TH</string>
+		<key>Ratchaburi</key>
+		<string>TH</string>
+		<key>Rawalpindi</key>
+		<string>PK</string>
+		<key>Rayong</key>
+		<string>TH</string>
+		<key>Recklinghausen</key>
+		<string>DE</string>
+		<key>Red Sea</key>
+		<string>EG</string>
+		<key>Regensburg</key>
+		<string>DE</string>
+		<key>Region Metropolitana</key>
+		<string>CL</string>
+		<key>Reims</key>
+		<string>FR</string>
+		<key>Remscheid</key>
+		<string>DE</string>
+		<key>Rennes</key>
+		<string>FR</string>
+		<key>Reutlingen</key>
+		<string>DE</string>
+		<key>Rhode Island</key>
+		<string>US</string>
+		<key>Rhodes</key>
+		<string>GR</string>
+		<key>Riau</key>
+		<string>ID</string>
+		<key>Rio De Janeiro</key>
+		<string>BR</string>
+		<key>Rio Grande Do</key>
+		<string>BR</string>
+		<key>Rishon Lezion</key>
+		<string>IL</string>
+		<key>Rizal</key>
+		<string>PH</string>
+		<key>Roi Et</key>
+		<string>TH</string>
+		<key>Romblon</key>
+		<string>PH</string>
+		<key>Rondonia</key>
+		<string>BR</string>
+		<key>Roraima</key>
+		<string>BR</string>
+		<key>Rostock</key>
+		<string>DE</string>
+		<key>Rostov On Don</key>
+		<string>RU</string>
+		<key>Rotterdam</key>
+		<string>NL</string>
+		<key>Rouen</key>
+		<string>FR</string>
+		<key>Rzeszow</key>
+		<string>PL</string>
+		<key>Sa Kaeo</key>
+		<string>TH</string>
+		<key>Saarbrucken</key>
+		<string>DE</string>
+		<key>Sabah</key>
+		<string>MY</string>
+		<key>Saint Denis</key>
+		<string>FR</string>
+		<key>Saint Etienne</key>
+		<string>FR</string>
+		<key>Saint Paul</key>
+		<string>FR</string>
+		<key>Saint Petersburg</key>
+		<string>RU</string>
+		<key>Sakon Nakhon</key>
+		<string>TH</string>
+		<key>Salaj</key>
+		<string>RO</string>
+		<key>Salzburg</key>
+		<string>AT</string>
+		<key>Salzgitter</key>
+		<string>DE</string>
+		<key>Samar</key>
+		<string>PH</string>
+		<key>Samara</key>
+		<string>RU</string>
+		<key>Samsun</key>
+		<string>TR</string>
+		<key>Samut Prakan</key>
+		<string>TH</string>
+		<key>Samut Sakhon</key>
+		<string>TH</string>
+		<key>Samut Songkhram</key>
+		<string>TH</string>
+		<key>San Isidro</key>
+		<string>PE</string>
+		<key>San Luis Potosi</key>
+		<string>MX</string>
+		<key>San Martin</key>
+		<string>PE</string>
+		<key>Sanlıurfa</key>
+		<string>TR</string>
+		<key>Santa Catarina</key>
+		<string>BR</string>
+		<key>Santiago</key>
+		<string>CL</string>
+		<key>Sao Paulo</key>
+		<string>BR</string>
+		<key>Sapporo</key>
+		<string>JP</string>
+		<key>Saraburi</key>
+		<string>TH</string>
+		<key>Sarangani</key>
+		<string>PH</string>
+		<key>Sarawak</key>
+		<string>MY</string>
+		<key>Satu Mare</key>
+		<string>RO</string>
+		<key>Satun</key>
+		<string>TH</string>
+		<key>Sejong</key>
+		<string>KR</string>
+		<key>Selangor Darul Ehsan</key>
+		<string>MY</string>
+		<key>Seoul</key>
+		<string>KR</string>
+		<key>Sergipe</key>
+		<string>BR</string>
+		<key>Setubal</key>
+		<string>PT</string>
+		<key>Sevilla</key>
+		<string>ES</string>
+		<key>Shaanxi</key>
+		<string>CN</string>
+		<key>Shamal Sina</key>
+		<string>EG</string>
+		<key>Shandong</key>
+		<string>CN</string>
+		<key>Shanghai</key>
+		<string>CN</string>
+		<key>Shanxi</key>
+		<string>CN</string>
+		<key>Sharqia</key>
+		<string>EG</string>
+		<key>Sharqiyah</key>
+		<string>EG</string>
+		<key>Shiraz</key>
+		<string>IR</string>
+		<key>Sibiu</key>
+		<string>RO</string>
+		<key>Sichuan</key>
+		<string>CN</string>
+		<key>Siddhirganj</key>
+		<string>BD</string>
+		<key>Siegen</key>
+		<string>DE</string>
+		<key>Sinaloa</key>
+		<string>MX</string>
+		<key>Singburi</key>
+		<string>TH</string>
+		<key>Siquijor</key>
+		<string>PH</string>
+		<key>Sisaket</key>
+		<string>TH</string>
+		<key>Soc Trang</key>
+		<string>VN</string>
+		<key>Sohag</key>
+		<string>EG</string>
+		<key>Solapur</key>
+		<string>IN</string>
+		<key>Solingen</key>
+		<string>DE</string>
+		<key>Son La</key>
+		<string>VN</string>
+		<key>Songkhla</key>
+		<string>TH</string>
+		<key>Sonora</key>
+		<string>MX</string>
+		<key>Sorsogon</key>
+		<string>PH</string>
+		<key>Sosnowiec</key>
+		<string>PL</string>
+		<key>South Carolina</key>
+		<string>US</string>
+		<key>South Cotabato</key>
+		<string>PH</string>
+		<key>South Dakota</key>
+		<string>US</string>
+		<key>South Sinai</key>
+		<string>EG</string>
+		<key>Southern Leyte</key>
+		<string>PH</string>
+		<key>Soweto</key>
+		<string>ZA</string>
+		<key>Srinagar</key>
+		<string>IN</string>
+		<key>Stavanger</key>
+		<string>NO</string>
+		<key>Stockholm</key>
+		<string>SE</string>
+		<key>Strasbourg</key>
+		<string>FR</string>
+		<key>Stuttgart</key>
+		<string>DE</string>
+		<key>Suceava</key>
+		<string>RO</string>
+		<key>Suez</key>
+		<string>EG</string>
+		<key>Suhaj</key>
+		<string>EG</string>
+		<key>Sukhothai</key>
+		<string>TH</string>
+		<key>Sulawesi</key>
+		<string>ID</string>
+		<key>Sulbar</key>
+		<string>ID</string>
+		<key>Sulsel</key>
+		<string>ID</string>
+		<key>Sultan Kudarat</key>
+		<string>PH</string>
+		<key>Sulteng</key>
+		<string>ID</string>
+		<key>Sultra</key>
+		<string>ID</string>
+		<key>Sulu</key>
+		<string>PH</string>
+		<key>Sulut</key>
+		<string>ID</string>
+		<key>Sumatera</key>
+		<string>ID</string>
+		<key>Sumbar</key>
+		<string>ID</string>
+		<key>Sumsel</key>
+		<string>ID</string>
+		<key>Sumut</key>
+		<string>ID</string>
+		<key>Sunshine Coast</key>
+		<string>AU</string>
+		<key>Suphanburi</key>
+		<string>TH</string>
+		<key>Surat</key>
+		<string>IN</string>
+		<key>Surat Thani</key>
+		<string>TH</string>
+		<key>Surigao Del Norte</key>
+		<string>PH</string>
+		<key>Surigao Del Sur</key>
+		<string>PH</string>
+		<key>Surin</key>
+		<string>TH</string>
+		<key>Suways</key>
+		<string>EG</string>
+		<key>Sydney</key>
+		<string>AU</string>
+		<key>Sylhet</key>
+		<string>BD</string>
+		<key>Szczecin</key>
+		<string>PL</string>
+		<key>Szeged</key>
+		<string>HU</string>
+		<key>Tabasco</key>
+		<string>MX</string>
+		<key>Tabriz</key>
+		<string>IR</string>
+		<key>Tacna</key>
+		<string>PE</string>
+		<key>Taichung</key>
+		<string>TW</string>
+		<key>Tainan</key>
+		<string>TW</string>
+		<key>Taipei</key>
+		<string>TW</string>
+		<key>Tak</key>
+		<string>TH</string>
+		<key>Tamaulipas</key>
+		<string>MX</string>
+		<key>Tampere</key>
+		<string>FI</string>
+		<key>Taoyuan</key>
+		<string>TW</string>
+		<key>Tarapaca</key>
+		<string>CL</string>
+		<key>Tarlac</key>
+		<string>PH</string>
+		<key>Tasmania</key>
+		<string>AU</string>
+		<key>Tauranga</key>
+		<string>NZ</string>
+		<key>Tawi Tawi</key>
+		<string>PH</string>
+		<key>Tay Ninh</key>
+		<string>VN</string>
+		<key>Tehran</key>
+		<string>IR</string>
+		<key>Tel Aviv</key>
+		<string>IL</string>
+		<key>Teleorman</key>
+		<string>RO</string>
+		<key>Tembisa</key>
+		<string>ZA</string>
+		<key>Tennessee</key>
+		<string>US</string>
+		<key>Terengganu Darul Iman</key>
+		<string>MY</string>
+		<key>Texas</key>
+		<string>US</string>
+		<key>Thai Binh</key>
+		<string>VN</string>
+		<key>Thai Nguyen</key>
+		<string>VN</string>
+		<key>Thane</key>
+		<string>IN</string>
+		<key>Thanh Hoa</key>
+		<string>VN</string>
+		<key>Thessaloniki</key>
+		<string>GR</string>
+		<key>Thua Thienhue</key>
+		<string>VN</string>
+		<key>Tianjin</key>
+		<string>CN</string>
+		<key>Tibet</key>
+		<string>CN</string>
+		<key>Tien Giang</key>
+		<string>VN</string>
+		<key>Tilburg</key>
+		<string>NL</string>
+		<key>Timis</key>
+		<string>RO</string>
+		<key>Tlaxcala</key>
+		<string>MX</string>
+		<key>Tocantins</key>
+		<string>BR</string>
+		<key>Tokyo</key>
+		<string>JP</string>
+		<key>Tomsk</key>
+		<string>RU</string>
+		<key>Tongi</key>
+		<string>BD</string>
+		<key>Toowoomba</key>
+		<string>AU</string>
+		<key>Torun</key>
+		<string>PL</string>
+		<key>Toulon</key>
+		<string>FR</string>
+		<key>Toulouse</key>
+		<string>FR</string>
+		<key>Tours</key>
+		<string>FR</string>
+		<key>Townsville</key>
+		<string>AU</string>
+		<key>Tra Vinh</key>
+		<string>VN</string>
+		<key>Trang</key>
+		<string>TH</string>
+		<key>Trat</key>
+		<string>TH</string>
+		<key>Trier</key>
+		<string>DE</string>
+		<key>Trondheim</key>
+		<string>NO</string>
+		<key>Tulcea</key>
+		<string>RO</string>
+		<key>Tumbes</key>
+		<string>PE</string>
+		<key>Turku</key>
+		<string>FI</string>
+		<key>Tuyen Quang</key>
+		<string>VN</string>
+		<key>Tweed Heads</key>
+		<string>AU</string>
+		<key>Ubon Ratchathani</key>
+		<string>TH</string>
+		<key>Ucayali</key>
+		<string>PE</string>
+		<key>Udon Thani</key>
+		<string>TH</string>
+		<key>Ufa</key>
+		<string>RU</string>
+		<key>Ulm</key>
+		<string>DE</string>
+		<key>Ulsan</key>
+		<string>KR</string>
+		<key>Uppsala</key>
+		<string>SE</string>
+		<key>Uqsur</key>
+		<string>EG</string>
+		<key>Utah</key>
+		<string>US</string>
+		<key>Uthai Thani</key>
+		<string>TH</string>
+		<key>Utrecht</key>
+		<string>NL</string>
+		<key>Uttaradit</key>
+		<string>TH</string>
+		<key>Vadodara</key>
+		<string>IN</string>
+		<key>Valcea</key>
+		<string>RO</string>
+		<key>Valencia</key>
+		<string>ES</string>
+		<key>Valladolid</key>
+		<string>ES</string>
+		<key>Valparaiso</key>
+		<string>CL</string>
+		<key>Van</key>
+		<string>TR</string>
+		<key>Vantaa</key>
+		<string>FI</string>
+		<key>Varanasi</key>
+		<string>IN</string>
+		<key>Vasai Virar</key>
+		<string>IN</string>
+		<key>Vaslui</key>
+		<string>RO</string>
+		<key>Vasteras</key>
+		<string>SE</string>
+		<key>Veracruz</key>
+		<string>MX</string>
+		<key>Vermont</key>
+		<string>US</string>
+		<key>Victoria</key>
+		<string>AU</string>
+		<key>Vienna</key>
+		<string>AT</string>
+		<key>Vigo</key>
+		<string>ES</string>
+		<key>Vijayawada</key>
+		<string>IN</string>
+		<key>Vila Nova De</key>
+		<string>PT</string>
+		<key>Villeurbanne</key>
+		<string>FR</string>
+		<key>Vinh Long</key>
+		<string>VN</string>
+		<key>Virginia</key>
+		<string>US</string>
+		<key>Visakhapatnam</key>
+		<string>IN</string>
+		<key>Vitoria</key>
+		<string>ES</string>
+		<key>Volgograd</key>
+		<string>RU</string>
+		<key>Volos</key>
+		<string>GR</string>
+		<key>Voronezh</key>
+		<string>RU</string>
+		<key>Vrancea</key>
+		<string>RO</string>
+		<key>Wadi Al Jadid</key>
+		<string>EG</string>
+		<key>Wahhat Al Bahariya</key>
+		<string>EG</string>
+		<key>Warri</key>
+		<string>NG</string>
+		<key>Warsaw</key>
+		<string>PL</string>
+		<key>Warszawa</key>
+		<string>PL</string>
+		<key>Washington</key>
+		<string>US</string>
+		<key>Wellington</key>
+		<string>NZ</string>
+		<key>Western Australia</key>
+		<string>AU</string>
+		<key>Wien</key>
+		<string>AT</string>
+		<key>Wiesbaden</key>
+		<string>DE</string>
+		<key>Winterthour</key>
+		<string>CH</string>
+		<key>Winterthur</key>
+		<string>CH</string>
+		<key>Wisconsin</key>
+		<string>US</string>
+		<key>Wolfsburg</key>
+		<string>DE</string>
+		<key>Wollongong</key>
+		<string>AU</string>
+		<key>Wrocław</key>
+		<string>PL</string>
+		<key>Wuppertal</key>
+		<string>DE</string>
+		<key>Wurzburg</key>
+		<string>DE</string>
+		<key>Wyoming</key>
+		<string>US</string>
+		<key>Xinjiang</key>
+		<string>CN</string>
+		<key>Yala</key>
+		<string>TH</string>
+		<key>Yasothon</key>
+		<string>TH</string>
+		<key>Yekaterinburg</key>
+		<string>RU</string>
+		<key>Yen Bai</key>
+		<string>VN</string>
+		<key>Yogyakarta</key>
+		<string>ID</string>
+		<key>Yokohama</key>
+		<string>JP</string>
+		<key>Yucatan</key>
+		<string>MX</string>
+		<key>Yunnan</key>
+		<string>CN</string>
+		<key>Zaanstad</key>
+		<string>NL</string>
+		<key>Zacatecas</key>
+		<string>MX</string>
+		<key>Zambales</key>
+		<string>PH</string>
+		<key>Zamboanga Del Norte</key>
+		<string>PH</string>
+		<key>Zamboanga Del Sur</key>
+		<string>PH</string>
+		<key>Zamboanga Sibugay</key>
+		<string>PH</string>
+		<key>Zaragoza</key>
+		<string>ES</string>
+		<key>Zaria</key>
+		<string>NG</string>
+		<key>Zhejiang</key>
+		<string>CN</string>
+		<key>Zoetermeer</key>
+		<string>NL</string>
+		<key>Zurich</key>
+		<string>CH</string>
+		<key>Zwolle</key>
+		<string>NL</string>
+		<key>Đa Nang</key>
+		<string>VN</string>
+		<key>Đak Lak</key>
+		<string>VN</string>
+		<key>Đak Nong</key>
+		<string>VN</string>
+		<key>Đien Bien</key>
+		<string>VN</string>
+		<key>Đong Nai</key>
+		<string>VN</string>
+		<key>Đong Thap</key>
+		<string>VN</string>
+		<key>Łodz</key>
+		<string>PL</string>
+		<key>Адыгея</key>
+		<string>RU</string>
+		<key>Алания</key>
+		<string>RU</string>
+		<key>Алтаи</key>
+		<string>RU</string>
+		<key>Алтаискии</key>
+		<string>RU</string>
+		<key>Амурская</key>
+		<string>RU</string>
+		<key>Архангельская</key>
+		<string>RU</string>
+		<key>Астраханская</key>
+		<string>RU</string>
+		<key>Башкортостан</key>
+		<string>RU</string>
+		<key>Белгородская</key>
+		<string>RU</string>
+		<key>Брянская</key>
+		<string>RU</string>
+		<key>Бурятия</key>
+		<string>RU</string>
+		<key>Владимирская</key>
+		<string>RU</string>
+		<key>Волгоград</key>
+		<string>RU</string>
+		<key>Волгоградская</key>
+		<string>RU</string>
+		<key>Вологодская</key>
+		<string>RU</string>
+		<key>Воронеж</key>
+		<string>RU</string>
+		<key>Воронежская</key>
+		<string>RU</string>
+		<key>Дагестан</key>
+		<string>RU</string>
+		<key>Дніпро</key>
+		<string>UA</string>
+		<key>Донецьк</key>
+		<string>UA</string>
+		<key>Евреиская</key>
+		<string>RU</string>
+		<key>Екатеринбург</key>
+		<string>RU</string>
+		<key>Забаикальскии</key>
+		<string>RU</string>
+		<key>Ивановская</key>
+		<string>RU</string>
+		<key>Ингушетия</key>
+		<string>RU</string>
+		<key>Иркутская</key>
+		<string>RU</string>
+		<key>Кабардино Балкария</key>
+		<string>RU</string>
+		<key>Казань</key>
+		<string>RU</string>
+		<key>Калининград</key>
+		<string>RU</string>
+		<key>Калининградская</key>
+		<string>RU</string>
+		<key>Калмыкия</key>
+		<string>RU</string>
+		<key>Калужская</key>
+		<string>RU</string>
+		<key>Камчатскии</key>
+		<string>RU</string>
+		<key>Карачаево Черкесия</key>
+		<string>RU</string>
+		<key>Карелия</key>
+		<string>RU</string>
+		<key>Кемеровская</key>
+		<string>RU</string>
+		<key>Кировская</key>
+		<string>RU</string>
+		<key>Киів</key>
+		<string>UA</string>
+		<key>Коми</key>
+		<string>RU</string>
+		<key>Костромская</key>
+		<string>RU</string>
+		<key>Краснодарскии</key>
+		<string>RU</string>
+		<key>Красноярск</key>
+		<string>RU</string>
+		<key>Красноярскии</key>
+		<string>RU</string>
+		<key>Крым</key>
+		<string>RU</string>
+		<key>Курганская</key>
+		<string>RU</string>
+		<key>Курская</key>
+		<string>RU</string>
+		<key>Ленинградская</key>
+		<string>RU</string>
+		<key>Липецкая</key>
+		<string>RU</string>
+		<key>Магаданская</key>
+		<string>RU</string>
+		<key>Марии Эл</key>
+		<string>RU</string>
+		<key>Мордовия</key>
+		<string>RU</string>
+		<key>Москва</key>
+		<string>RU</string>
+		<key>Московская</key>
+		<string>RU</string>
+		<key>Мурманская</key>
+		<string>RU</string>
+		<key>Ненецкии</key>
+		<string>RU</string>
+		<key>Нижегородская</key>
+		<string>RU</string>
+		<key>Нижнии Новгород</key>
+		<string>RU</string>
+		<key>Новгородская</key>
+		<string>RU</string>
+		<key>Новосибирск</key>
+		<string>RU</string>
+		<key>Новосибирская</key>
+		<string>RU</string>
+		<key>Одеса</key>
+		<string>UA</string>
+		<key>Омск</key>
+		<string>RU</string>
+		<key>Омская</key>
+		<string>RU</string>
+		<key>Оренбургская</key>
+		<string>RU</string>
+		<key>Орловская</key>
+		<string>RU</string>
+		<key>Пензенская</key>
+		<string>RU</string>
+		<key>Пермскии</key>
+		<string>RU</string>
+		<key>Пермь</key>
+		<string>RU</string>
+		<key>Приморскии</key>
+		<string>RU</string>
+		<key>Псковская</key>
+		<string>RU</string>
+		<key>Ростов На Дону</key>
+		<string>RU</string>
+		<key>Ростовская</key>
+		<string>RU</string>
+		<key>Рязанская</key>
+		<string>RU</string>
+		<key>Самара</key>
+		<string>RU</string>
+		<key>Самарская</key>
+		<string>RU</string>
+		<key>Санкт Петербург</key>
+		<string>RU</string>
+		<key>Саратовская</key>
+		<string>RU</string>
+		<key>Сахалинская</key>
+		<string>RU</string>
+		<key>Свердловская</key>
+		<string>RU</string>
+		<key>Севастополь</key>
+		<string>RU</string>
+		<key>Смоленская</key>
+		<string>RU</string>
+		<key>Ставропольскии</key>
+		<string>RU</string>
+		<key>Тамбовская</key>
+		<string>RU</string>
+		<key>Татарстан</key>
+		<string>RU</string>
+		<key>Тверская</key>
+		<string>RU</string>
+		<key>Томская</key>
+		<string>RU</string>
+		<key>Тульская</key>
+		<string>RU</string>
+		<key>Тыва</key>
+		<string>RU</string>
+		<key>Тюменская</key>
+		<string>RU</string>
+		<key>Удмуртия</key>
+		<string>RU</string>
+		<key>Ульяновская</key>
+		<string>RU</string>
+		<key>Уфа</key>
+		<string>RU</string>
+		<key>Хабаровскии</key>
+		<string>RU</string>
+		<key>Хакасия</key>
+		<string>RU</string>
+		<key>Ханты Мансиискии</key>
+		<string>RU</string>
+		<key>Харків</key>
+		<string>UA</string>
+		<key>Челябинск</key>
+		<string>RU</string>
+		<key>Челябинская</key>
+		<string>RU</string>
+		<key>Чечня</key>
+		<string>RU</string>
+		<key>Чувашия</key>
+		<string>RU</string>
+		<key>Чукотскии</key>
+		<string>RU</string>
+		<key>Якутия</key>
+		<string>RU</string>
+		<key>Ямало Ненецкии</key>
+		<string>RU</string>
+		<key>Ярославская</key>
+		<string>RU</string>
+		<key>اسوان</key>
+		<string>EG</string>
+		<key>اسيوط</key>
+		<string>EG</string>
+		<key>اصفهان</key>
+		<string>IR</string>
+		<key>الاسكندرية</key>
+		<string>EG</string>
+		<key>الاسماعيلية</key>
+		<string>EG</string>
+		<key>الاقصر</key>
+		<string>EG</string>
+		<key>البحر الاحمر</key>
+		<string>EG</string>
+		<key>البحيرة</key>
+		<string>EG</string>
+		<key>البصرة</key>
+		<string>IQ</string>
+		<key>الجيزة</key>
+		<string>EG</string>
+		<key>الدقهلية</key>
+		<string>EG</string>
+		<key>السويس</key>
+		<string>EG</string>
+		<key>الشرقية</key>
+		<string>EG</string>
+		<key>الغربية</key>
+		<string>EG</string>
+		<key>الفيوم</key>
+		<string>EG</string>
+		<key>القاهرة</key>
+		<string>EG</string>
+		<key>القليوبية</key>
+		<string>EG</string>
+		<key>المنوفية</key>
+		<string>EG</string>
+		<key>المنيا</key>
+		<string>EG</string>
+		<key>الموصل</key>
+		<string>IQ</string>
+		<key>الوادي الجديد</key>
+		<string>EG</string>
+		<key>بغداد</key>
+		<string>IQ</string>
+		<key>بني سويف</key>
+		<string>EG</string>
+		<key>بورسعيد</key>
+		<string>EG</string>
+		<key>تبریز</key>
+		<string>IR</string>
+		<key>تهران</key>
+		<string>IR</string>
+		<key>جنوب سيناء</key>
+		<string>EG</string>
+		<key>دمياط</key>
+		<string>EG</string>
+		<key>سوهاج</key>
+		<string>EG</string>
+		<key>شمال سيناء</key>
+		<string>EG</string>
+		<key>شیراز</key>
+		<string>IR</string>
+		<key>قم</key>
+		<string>IR</string>
+		<key>قنا</key>
+		<string>EG</string>
+		<key>كركوك</key>
+		<string>IQ</string>
+		<key>كفر الشيخ</key>
+		<string>EG</string>
+		<key>مشهد</key>
+		<string>IR</string>
+		<key>مطروح</key>
+		<string>EG</string>
+		<key>هەولێر اربيل</key>
+		<string>IQ</string>
+		<key>کرج</key>
+		<string>IR</string>
+		<key>강원도</key>
+		<string>KR</string>
+		<key>경기도</key>
+		<string>KR</string>
+		<key>경상남도</key>
+		<string>KR</string>
+		<key>경상북도</key>
+		<string>KR</string>
+		<key>광주광역시</key>
+		<string>KR</string>
+		<key>대구광역시</key>
+		<string>KR</string>
+		<key>대전광역시</key>
+		<string>KR</string>
+		<key>부산광역시</key>
+		<string>KR</string>
+		<key>서울특별시</key>
+		<string>KR</string>
+		<key>세종특별자치시</key>
+		<string>KR</string>
+		<key>울산광역시</key>
+		<string>KR</string>
+		<key>인천광역시</key>
+		<string>KR</string>
+		<key>전라남도</key>
+		<string>KR</string>
+		<key>전라북도</key>
+		<string>KR</string>
+		<key>제주특별자치도</key>
+		<string>KR</string>
+		<key>충청남도</key>
+		<string>KR</string>
+		<key>충청북도</key>
+		<string>KR</string>
+		<key>彰化縣</key>
+		<string>TW</string>
+		<key>新北市</key>
+		<string>TW</string>
+		<key>桃園市</key>
+		<string>TW</string>
+		<key>臺中市</key>
+		<string>TW</string>
+		<key>臺北市</key>
+		<string>TW</string>
+		<key>臺南市</key>
+		<string>TW</string>
+		<key>高雄市</key>
+		<string>TW</string>
+	</dict>
+</dict>
+</plist>

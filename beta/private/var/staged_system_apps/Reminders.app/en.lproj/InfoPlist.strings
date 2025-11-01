@@ -1,0 +1,14 @@
+"NSLocationWhenInUseUsageDescription" = "When precise is on, your location is used for reminder notifications when you arrive at or leave places, and to set an additional language for categorizing reminders in your grocery lists.";
+"NSSiriUsageDescription" = "Allow Siri to make suggestions in Reminders and learn from how you use Reminders to make suggestions across apps.";
+"NSRegulatoryPrivacyDisclosureContacts" = "Contacts access allows Reminders to show your home and work address information and names of people in your contacts when you create a shared reminders list. The app will ask permission before accessing your contacts.";
+"NSRegulatoryPrivacyDisclosureCamera" = "Camera access allows you to take photos or scan documents to add to your reminders.";
+"NSUserNotificationsUsageDescription" = "Notifications let you know when your reminders are due.";
+"NSRegulatoryPrivacyDisclosureLocation" = "Location access allows Reminders to send notifications when you arrive or leave places. The app will ask permission before accessing your location.";
+"NSContactsUsageDescription" = "Reminders uses Contacts for locations, like Home and Work, and to show names when interacting with others.";
+"NSAlarmKitUsageDescription" = "TODO";
+"CFBundleDisplayName" = "Reminders";
+"NSPhotoLibraryUsageDescription" = "Photo library access allows you to attach photos to reminders.";
+"NSRegulatoryPrivacyDisclosureTitle" = "Getting Started with Reminders";
+"NSRegulatoryPrivacyDisclosurePhotos" = "Photo Library access allows you to add photos to your reminders.";
+"NSPhotoLibraryAddUsageDescription" = "Photo library write access allows you to add photos taken within Reminders to your photo library.";
+"CFBundleName" = "Reminders";

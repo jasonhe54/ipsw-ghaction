@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MDMDEPTokenSyncActivities.plist</key>
+			<true/>
+			<key>/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles/Library/ConfigurationProfiles/MDMOutstandingActivities.plist</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.devicemanagementclient.mdmd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>Managed Apple Account Long Lived Token Changed Notification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.devicemanagementclient.longLivedTokenChanged</string>
+			</dict>
+			<key>com.apple.managedconfiguration.rrts</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.managedconfiguration.rrts</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.managedconfiguration.mdmdpush-dev</key>
+		<true/>
+		<key>com.apple.aps.managedconfiguration.mdmdpush-prod</key>
+		<true/>
+		<key>com.apple.managedconfiguration.mdmdservice</key>
+		<true/>
+	</dict>
+	<key>Nice</key>
+	<integer>18</integer>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/mdmd</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>10</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

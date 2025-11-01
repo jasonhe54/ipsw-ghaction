@@ -1,0 +1,382 @@
+"CONTACT_TRACING_ONBOARDING_LEGAL_CONTENT_LOADING" = "Loading…";
+"DELETE_EXPOSURE_DATA_CONFIRM" = "Delete Data";
+"SHARE_A_DIAGNOSIS_TITLE" = "Share a Diagnosis";
+"EXPOSURE_NOTIFICATION_LOGGING_INACTIVE_REASON_UNKNOWN" = "Exposure logging is not active at this time due to an error.";
+"TEK_RELEASE_BODY_TEMPLATE_%@" = "Sharing your device’s Random IDs with %@ helps them notify others of exposure.
+
+Random IDs are a series of letters and numbers your iPhone creates to protect your privacy. These allow your public health authority to notify others without identifying you.
+
+This information is not shared with Apple.";
+"CONTACT_TRACING_ONBOARDING_LEGAL_AGREE_TITLE" = "Turn On Exposure Notifications?";
+"FETCH_REGION_CONFIGS_ERROR_TITLE" = "Unable to Download Your Region At This Time";
+"CONTACT_TRACING_ONBOARDING_LEGAL_PRIMARY_BUTTON_TITLE" = "Agree";
+"EXPOSURE_TYPE_NONE" = "No Exposure Notifications";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_PRIMARY_BUTTON_TITLE" = "Continue";
+"CONTACT_TRACING_ONBOARDING_LEGAL_AGREE_CANCEL" = "Cancel";
+"EXPOSURE_NOTIFICATION_LOGGING_INACTIVE_REASON_DISABLED" = "Exposure logging is not active because Exposure Notifications are turned off.";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_TITLE" = "Have You Had Symptoms?";
+"CONTACT_TRACING_ONBOARDING_SHOW_IN_APP_STORE_BUTTON" = "Show in App Store";
+"REGION_MANAGEMENT_GROUP_FOOTER" = "iPhone can use your general location to automatically switch your active region. This makes sure you receive Exposure Notifications and guidance from the region you’re in.
+
+Your region information is not shared with anyone and does not leave your device.";
+"REGION_DETAIL_PREAUTHORIZATION_ON_FOOTER" = "{'days': {'one': '%ld day', 'other': '%ld days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'To notify others of exposure, you have granted %1$@ one time access to your device’s random IDs if you test positive for COVID-19. These notifications don’t identify you. This permission will expire in %2$#@days@.'}";
+"REGION_DETAILS_DISABLED_STATE_FOOTER_TEXT" = "Exposure Notifications are off.";
+"CONTACT_TRACING_FETCHING_CONFIGURATION_SPINNER_TEXT" = "This may take a few minutes.";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_BODY_%@" = "Sharing your random IDs helps %@ notify others.
+
+Random IDs are a series of letters and numbers your iPhone creates to protect your privacy. These allow your public health authority to notify others without identifying you.
+
+This information is not shared with Apple.";
+"CONTACT_TRACING_VERIFICATION_CODE_ENTRY_VERIFYING" = "Verifying";
+"CONTACT_TRACING_VERIFICATION_CODE_ENTRY_LABEL" = "One Time Verification Code";
+"ANALYTICS_DATA_LOAD_ERROR" = "Unable to load analytics data.";
+"DELETE_EXPOSURE_DATA_CONFIRMATION_MESSAGE" = "This will delete your log along with any possible exposures.";
+"DELETE_EXPOSURE_LOG" = "Delete Exposure Log";
+"CONTACT_TRACING_ONBOARDING_LEGAL_DONT_AGREE_CANCEL" = "Cancel";
+"CONTINUE" = "Continue";
+"REGION_MANAGEMENT_TITLE" = "Region";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_REASON_UNKNOWN" = "Exposure logging is not active at this time due to an error. The past 14 days of requests to check your Exposure Log are saved.";
+"EXPOSURE_CHECK_LAST_CHECK_TIME_%@" = "Last checked %@";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_NO_SYMPTOMS_LABEL" = "I have not had symptoms";
+"CONTACT_TRACING_ONBOARDING_REGION_EXIST_OPEN_APP_%@" = "Open %@";
+"CONTACT_TRACING_VERIFICATION_ERROR_OK" = "OK";
+"PRE_AUTHORIZATION_ALLOW_BUTTON_TITLE" = "Share Once";
+"CONTACT_TRACING_KEY_RELEASED_BODY_COBRANDED_%@" = "Your random IDs have been shared with %@ in order to help notify others of exposure.";
+"CONTACT_TRACING_ONBOARDING_PROMPT_CONFIRM" = "Set Up";
+"EXPOSURE_FOOTER" = "For each confirmed exposure, the duration, date, and Bluetooth signal strength is shared with the authorized app to help them better understand the spread of the disease. No identifying information is shared with the app.";
+"CONTACT_TRACING_ONBOARDING_LEGAL_AGREE_BODY_%@" = "iPhone will begin using Bluetooth to log possible exposures so you can be notified of any significant COVID-19 exposure based on %@ guidelines.";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_1_BODY" = "Your iPhone looks for iOS and Android phones that have Exposure Notifications turned on and keeps a rolling 14 day log of their shared identifiers.";
+"CONTACT_TRACING_ONBOARDING_LEGAL_AGREE_CONFIRM" = "Turn On";
+"EXPOSURE_NOTIFICATIONS_FOOTER_OFF" = "Exposure Notifications are off. If you turn them on, your Public Health Authority can notify you of possible exposure to COVID-19.
+
+Your iPhone is not collecting or sharing exposure notification data with anyone. If you turn on Exposure Notifications, information related to your exposures can only be shared with your permission.";
+"PRE_AUTHORIZATION_CONSENT_TITLE" = "Automatically Share Exposure Information?";
+"ONBOARDING_CANCEL_VERIFICATION_TITLE" = "Stop Submitting Test Result and Exposure Data?";
+"LEGAL_TERMS" = "Terms";
+"REGION_DETAIL_VIEW_REGION_WEBSITE" = "Region Website";
+"AVAILABILITY_ALERTS_DISABLED_FOOTER_TEXT" = "Availability Alerts are not available because Location Services is turned off in Settings.";
+"CONTACT_TRACING_ONBOARDING_ANALYTICS_SECONDARY_BUTTON_TITLE" = "Don’t Share";
+"FILE_DETAILS" = "File Details";
+"DATA_SOURCE" = "Data Source";
+"CONTACT_TRACING_ONBOARDING_WELCOME_FOOTER_TEXT_FROM_AVAILABILITY_ALERT_%@" = "Exposure Notifications keep a log of possible exposures on your iPhone while protecting your privacy. Your location is not shared. %@";
+"REGION_DETAIL_SHARE_ANALYTICS_SWITCH" = "Share Analytics";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_BODY_SYMPTOMS_TRAVEL_%@" = "Sharing your symptom status, travel status, and random IDs helps %@ notify others.
+
+Random IDs are a series of letters and numbers your iPhone creates to protect your privacy. These allow your public health authority to notify others without identifying you.
+
+This information is not shared with Apple.";
+"REGION_GROUP_FOOTER" = "Your active region determines the guidelines for notifying you of possible exposures.";
+"CONTACT_TRACING_VERIFICATION_CODE_NETWORK_WIFI_ERROR_MESSAGE" = "Turn on Wi-Fi or cellular data to connect and verify your code.";
+"MATCHED_KEY_COUNT" = "Matched Key Count";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_PLACEHOLDER" = "Enter Date";
+"CONTACT_TRACING_VERIFICATION_CODE_UNSUPPORTED_REGION_ERROR_TITLE" = "Unable To Verify Your Code";
+"HOW_EXPOSURE_NOTIFICATIONS_WORK_LINK_TEXT" = "How Exposure Notifications work…";
+"EXPOSURE_CHECK_TITLE" = "Exposure Check Status";
+"OK" = "Continue";
+"CONTACT_TRACING_ABOUT_SECTION" = "About Bubble";
+"CONTACT_TRACING_ONBOARDING_LEGAL_DONT_AGREE_CONFIRM" = "Don’t Agree";
+"EXPOSURE_LOGGING_ACTIVE_WITHOUT_TIMESTAMP" = "Your iPhone is exchanging random IDs with other phones and logging them. The past 14 days of requests to check your Exposure Log are saved.";
+"AVAILABILITY_ALERTS_FOOTER_TEXT" = "Receive a notification if Exposure Notifications are available in your current region. Your region is based on a general location check from your iPhone.";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_REASON_BLUETOOTH" = "Exposure logging is currently off because Bluetooth is turned off. The past 14 days of requests to check your Exposure Log are saved.";
+"TURN_OFF_EXPOSURE_NOTIFICATIONS_TITLE" = "Turn Off Exposure Notifications";
+"REMOVE_REGION_CONFIRMATION_TITLE" = "Remove Region?";
+"PRE_AUTHORIZATION_COMPLETE_THANK_YOU_BODY" = "If you test positive for COVID-19, your information will help notify others who may have been exposed.
+
+This can help protect your community and fight the spread of the disease.";
+"CONTACT_TRACING_EXPOSURE_TITLE" = "You may have been exposed";
+"VACCINATION_QUESTION_TITLE" = "Have You Been Vaccinated Against COVID-19?";
+"CONTACT_TRACING_VERIFICATION_WELCOME_SELF_REPORT_DISCLAIMER" = "You can privately share a diagnosis with your public health authority. If you did not request a sharing code, you can cancel without sharing any information.";
+"CONTACT_TRACING_STATUS_ENABLED" = "Exposure Notification Enabled";
+"EXPOSURE_NOTIFICATIONS_SWITCH_FOOTER_LINK" = "Learn more…";
+"VIEW_IN_APP_STORE" = "View in App Store";
+"CONTACT_TRACING_ONBOARDING_REGION_EXIST_DETAIL_APP_%@" = "Open %@ to learn more about Exposure Notifications.";
+"DELETE_EXPOSURE_CHECKS" = "Delete Exposure Checks";
+"CONTACT_TRACING_VERIFICATION_FINISHED_TITLE" = "Thank You For Helping to Notify Others";
+"EXPOSURE_TYPE_REVOKED" = "Revoked Exposure";
+"TEK_RELEASE_TITLE" = "Share Info to Notify Others?";
+"REGION_DETAIL_REMOVE_REGION" = "Remove Region";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_BODY_SYMPTOMS_%@" = "Sharing your symptom status and random IDs helps %@ notify others.
+
+Random IDs are a series of letters and numbers your iPhone creates to protect your privacy. These allow your public health authority to notify others without identifying you.
+
+This information is not shared with Apple.";
+"DELETE_EXPOSURE_LOG_ALERT_BODY" = "Are you sure you want to delete your exposure log? This will remove all the random IDs your device has collected and prevent an app from notifying you of possible exposure to COVID-19.";
+"CONTACT_TRACING_SYSTEM_EXPLAINER" = "We’ll let you know if you are exposed to another user who later reports a positive COVID-19 diagnosis";
+"EXPOSURE_CHECK_ENABLED" = "Exposure check enabled";
+"SET_ACTIVE_REGION_CONFIRMATION_CONFIRM" = "Set Active Region";
+"DELETE_EXPOSURE_DATA_CANCEL" = "Cancel";
+"SET_ACTIVE_REGION_CONFIRMATION_MESSAGE_%@" = "Setting %@ as the Active Region will turn off automatic region switching until you turn it back on.";
+"ONBOARDING_DONT_SHARE_VERIFICATION_CONFIRMATION_BUTTON_TITLE" = "Don’t Share";
+"REMOVE_REGION_CONFIRMATION_MESSAGE_%@" = "You will no longer receive notifications about possible exposures from %@";
+"REGION_GROUP_TITLE" = "Active Region";
+"EXPOSURE_FOOTER_NO_APP_%@" = "Exposure logging is turned off. “%@” cannot notify you if you may have been exposed to COVID-19.";
+"CONTACT_TRACING_ONBOARDING_PROMPT_TITLE" = "Exposure Notifications Needs to Be Set Up";
+"REGION_DETAIL_PREAUTHORIZATION_OFF_FOOTER" = "Your public health authority can ask you for one time access to your random IDs if you are diagnosed with COVID-19. This allows them to notify others who may have been exposed. These notifications don’t identify you.";
+"CONTACT_TRACING_VERIFICATION_SPINNER_TEXT" = "This may take a few minutes.";
+"CONTACT_TRACING_TOPIC_TITLE" = "EXPOSURE NOTIFICATION";
+"REMOVE_REGION_CONFIRMATION_CONFIRM" = "Remove Region";
+"EXPOSURE_NOTIFICATION_LOGGING_INACTIVE_REASON_BLUETOOTH" = "Exposure logging is currently off because Bluetooth is turned off.";
+"REGION_CELL_SECTION_TITLE" = "Active Region";
+"ONBOARDING_DONT_SHARE_VERIFICATION_TITLE" = "Don’t Share and Notify Others?
+If you don’t share now, you’ll have to request a new code if you decide to share in the future. Sharing this information helps notify others of possible exposure.";
+"CONTACT_TRACING_ONBOARDING_CANCEL_SETUP_TITLE" = "Stop setting up Exposure Notifications?";
+"REGION_MANAGEMENT_AUTHORIZED_REGIONS_FOOTER" = "These are regions you have previously authorized and enabled Exposure Notifications from. You can change the active region manually by selecting a region.";
+"CONTACT_TRACING_ONBOARDING_REGION_CHANGE_SUMMARY_PRIMARY_BUTTON_TITLE" = "Done";
+"CONTACT_TRACING_VERIFICATION_CODE_INVALID_CODE_ERROR_TITLE" = "Invalid Code";
+"CONTACT_TRACING_ONBOARDING_CANCEL_LEGAL_CONSENT_TITLE" = "Stop Reviewing Consent?";
+"FETCH_REGION_CONFIGS_ERROR_OK" = "OK";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_BODY_TRAVEL_%@" = "Sharing your travel status and random IDs helps %@ notify others.
+
+Random IDs are a series of letters and numbers your iPhone creates to protect your privacy. These allow your public health authority to notify others without identifying you.
+
+This information is not shared with Apple.";
+"CONTACT_TRACING_VERIFICATION_FINISHED_BODY" = "The information you’ve provided can help protect your community from COVID-19";
+"CONTACT_TRACING_ONBOARDING_CANCEL_LEGAL_CONSENT_BODY" = "If you stop now, exposure logging and notifications will be turned off for this region.";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_%@" = "The most recent exposure notification from the past 14 days will be saved here. %@";
+"LEARN_MORE_AT_%@" = "Learn More at %@";
+"CONTACT_TRACING_VERIFICATION_TRAVEL_STATUS_NOT_TRAVELED_LABEL" = "I have not traveled";
+"EXPOSURE_CHECKS" = "Exposure Checks";
+"PRE_AUTHORIZATION_KEY_RELEASED_THANK_YOU_TITLE" = "Thank You For Helping to Notify Others";
+"WEEKLY_ALERT_TITLE" = "Monthly Update";
+"CONTACT_TRACING_ONBOARDING_REGION_EXIST_TITLE_APP_%@" = "You Have Already Installed the App for %@";
+"EXPOSURE_DETAILS_REGION_APP_GROUP_TITLE" = "Your region’s app";
+"VACCINATION_QUESTION_NOT_VACCINATED_LABEL" = "I have not been vaccinated";
+"CONTACT_TRACING_VERIFICATION_CODE_UNAVAILABLE_REGION_ERROR_TITLE" = "Unable To Verify Your Code";
+"CONTACT_TRACING_ONBOARDING_REGION_CHANGE_SUMMARY_PRIMARY_BUTTON_TITLE_NEXT" = "Next";
+"CONTACT_TRACING_ONBOARDING_LEGAL_SUBTITLE_%@" = "In order to turn on Exposure Notifications, review the consent from %@.";
+"EXPOSURE_LOGGING_TITLE" = "Exposure Logging";
+"CONTACT_TRACING_ONBOARDING_WELCOME_REGION_CHANGE_SUBTITLE" = "To ensure you get the right guidance, notifications should come from the public health authority of the region you’re in.";
+"ANALYTICS_DATA" = "Data";
+"CONTACT_TRACING_ONBOARDING_REGION_EXIST_DETAIL" = "This public health authority is already authorized to send you Exposure Notifications";
+"CONTACT_TRACING_ONBOARDING_REGION_CHANGE_SUMMARY_BODY_%@" = "If there’s an exposure, you’ll now receive notifications from %@ with next steps.
+
+You can manually change active regions in Settings.";
+"REGION_MANAGEMENT_ADD_REGION_TITLE" = "Add Another Region";
+"CONTACT_TRACING_ONBOARDING_LEGAL_SECONDARY_BUTTON_TITLE" = "Don’t Agree";
+"CONTACT_TRACING_ONBOARDING_CANCEL_SETUP_SWITCH_REGION_BODY" = "If you stop now, exposure logging and notifications will not be turned on for this region.";
+"PRE_AUTHORIZATION_CANCEL_BUTTON_TITLE" = "Don’t Share";
+"CHECK_DETAILS" = "Check Details";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_4_BODY" = "Exposure Notifications are designed to protect your privacy and the privacy of those around you. Learn more…";
+"PRE_AUTHORIZATION_BODY" = "If your test confirms you have COVID-19, Exposure Notifications can notify people who may have been exposed without identifying you.
+
+To notify others, this app needs your permission to access the random IDs from Exposure Notifications.
+
+Permission lasts for five days. If this information is not retrieved in that time, access will need to be requested again.";
+"EXPOSURE_DETAILS_TITLE" = "Exposure Details";
+"REGION_DETAIL_DATA_ACCESS_TRAVEL_STATUS_FOOTER" = "Your travel status helps notify you and others of possible exposure. It only indicates whether or not you’ve traveled outside your active region in the past 14 days. It does not include where you’ve traveled or your location.";
+"CONTACT_TRACING_VERIFICATION_CODE_ENTRY_TITLE" = "Enter Your Code";
+"CONTACT_TRACING_VERIFICATION_CODE_INVALID_REVISION_TRANSITION_ERROR_MESSAGE" = "You’ve already shared the necessary information with your public health authority";
+"CONTACT_TRACING_ONBOARDING_SUMMARY_PRIMARY_BUTTON_TITLE" = "Done";
+"CONTACT_TRACING_VERIFICATION_CODE_UNAVAILABLE_REGION_ERROR_MESSAGE" = "Contact your public health authority for more information.";
+"CONTACT_TRACING_VERIFICATION_CODE_GENERIC_ERROR_MESSAGE" = "You can try again later or request a new code from your public health authority.";
+"REGION_DETAIL_SHARE_ANALYTICS_DATA_TITLE" = "Analytics Data";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_PRIMARY_BUTTON_TITLE" = "Share";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_4_TITLE" = "Privacy";
+"CONTACT_TRACING_ONBOARDING_MANUAL_REGION_SELECTION_TITLE" = "COVID-19 Exposure Notifications";
+"CONTACT_TRACING_ONBOARDING_LEGAL_TITLE_%@" = "“%@” Terms";
+"REGION_DETAIL_SHARE_EXPOSURE_INFORMATION_FOOTER_%@" = "Details associated with possible exposures—such as date, duration, and Bluetooth signal strength—will be shared with %@. These details help the app notify you of possible exposures.";
+"CONTACT_TRACING_ONBOARDING_CANCEL_SETUP_CONFIRM" = "Stop Setting Up";
+"OPEN_APP" = "Open App";
+"CONTACT_TRACING_VERIFICATION_CODE_GENERIC_ERROR_TITLE" = "Unable To Verify Your Code";
+"CONTACT_TRACING_ONBOARDING_ANALYTICS_PRIMARY_BUTTON_TITLE" = "Share";
+"REGION_MANAGEMENT_AUTHORIZED_REGIONS_TITLE" = "Authorized Regions";
+"EXPOSURE_NOTIFICATION_LOGGING_INACTIVE_REASON_UNAUTHORIZED" = "Exposure logging is not active because Exposure Notifications are turned off.";
+"TURN_OFF_EXPOSURE_NOTIFICATIONS_CONFIRM" = "Turn Off and Delete Data";
+"REGION_DETAIL_SHARE_ANALYTICS_FOOTER_%@" = "Analytics, such as level of exposure and number of notifications, can help efforts to contain COVID-19. This data cannot be read by Apple. It is also encrypted and aggregated so it’s not linked to your phone. %@";
+"SWITCH_APP_ALERT_BODY" = "Only one app can notify you of potential exposure. Other apps’ ability to notify you will be turned off.";
+"PRE_AUTHORIZATION_FOOTER_TEXT" = "You can manage access in Settings > Exposure Notifications. This information is not shared with Apple.";
+"TIMESTAMP" = "Timestamp";
+"CONTACT_TRACING_ONBOARDING_REGION_EXIST_TITLE" = "You Have Already Added This Region";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_LEARN_MORE_BUTTON_TITLE" = "Learn More…";
+"PRE_AUTHORIZATION_WELCOME_TITLE" = "Help Notify Others if You Test Positive";
+"PRE_AUTHORIZATION_COMPLETE_THANK_YOU_TITLE" = "Thank You";
+"EXPOSURE_CHECK_POSSIBLE_EXPOSURE" = "Possible Exposure";
+"PROVIDED_KEY_COUNT" = "Provided Key Count";
+"SHARE_A_DIAGNOSIS_FOOTER_TEXT" = "If you get a positive COVID-19 diagnosis, it’s important to report it through your region’s public health authority app.";
+"TURN_OFF_EXPOSURE_NOTIFICATIONS_CANCEL" = "Cancel";
+"REGION_DETAIL_USE_APP_FOOTER_TEXT_%@" = "Details associated with possible exposures—such as date, duration, and Bluetooth signal strength—will be shared with %@. These details help the app notify you of possible exposures.";
+"EXPOSURE_NOTIFICATIONS_DESCRIPTION" = "When active, your iPhone can exchange random IDs with other devices. The random IDs your device collects are stored in your exposure log for 14 days.
+
+Your iPhone will regularly check your exposure log to see if you may have been near someone diagnosed with COVID-19.
+
+If you’re diagnosed with COVID-19, you can share your random IDs with your public health authority so that others can be notified of possible exposure.";
+"EXPOSURE_NOTIFICATIONS" = "COVID-19 Exposure Logging";
+"EXPOSURE_CHECK_INACTIVE_DESCRIPTION" = "Unable to check for possible exposure";
+"CONTACT_TRACING_LEARN_MORE_SECTION" = "Get More From Health";
+"REGION_DETAIL_FOOTER_CURRENTLY_ACTIVE_%@" = "%@ is currently set as your active region for Exposure Notifications.";
+"CONTACT_TRACING_ONBOARDING_WELCOME_SUBTITLE" = "Your iPhone can tell you if you may have been exposed to COVID-19.
+
+Your public health authority’s guidelines determine if an exposure is significant enough to notify you and provide next steps.";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_4_HIGHLIGHT" = "Learn more…";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_3_TITLE" = "If you’ve been exposed, your public health authority can notify you";
+"SET_ACTIVE_REGION_CONFIRMATION_CANCEL" = "Cancel";
+"PRE_AUTHORIZATION_BODY_ENX" = "If your test confirms you have COVID-19, you’ll receive a message. Exposure Notifications can then notify people who may have been exposed without identifying you.
+
+To notify others, your public health authority needs permission to access your random IDs.
+
+Permission lasts for five days. If this information is not retrieved in that time, access will need to be requested again.";
+"VACCINATION_QUESTION_VACCINATED_LABEL" = "I have been vaccinated";
+"CONTACT_TRACING_ONBOARDING_CANCEL_SETUP_CANCEL" = "Cancel";
+"CONTACT_TRACING_VERIFICATION_WELCOME_TITLE" = "Help Notify Others of Exposure";
+"CONTACT_TRACING_VERIFICATION_CODE_RATE_LIMIT_ERROR_TITLE" = "Unable To Verify Your Code At This Time";
+"EXPOSURE_CHECKS_EMPTY" = "Your exposure log has not been checked in the past 14 days.";
+"CONTACT_TRACING_VERIFICATION_CODE_INVALID_CODE_ERROR_MESSAGE_%@" = "The code you entered is invalid for %@. You can check your code and try again or request a new code from your public health authority.";
+"CONTACT_TRACING_VERIFICATION_CODE_ENTRY_HELP_BUTTON_TITLE_%@" = "Don’t have a code? Visit %@ Website";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_2_BODY" = "If someone gets a positive diagnosis, they can report it and anonymously notify those who have been near them.";
+"FETCH_REGION_CONFIGS_ERROR_BODY" = "Try again later.";
+"CONTACT_TRACING_ONBOARDING_SUMMARY_BODY" = "Your iPhone can now notify you of exposure based on guidelines set by your public health authority.
+
+If you receive a positive COVID-19 diagnosis, you’ll have the option of sharing your diagnosis. This helps public health authorities slow the spread by notifying others of exposure.";
+"REGION_HISTORY_GROUP_FOOTER" = "When active, your iPhone keeps a 14 day record of which regions you have been to in order to allow you to notify people of a possible exposure in other regions.";
+"EXPOSURE_LOGGING_INACTIVE" = "Inactive";
+"CONTACT_TRACING_ONBOARDING_REGION_NA_DETAIL" = "Exposure Notifications have not been turned on for your region by your public health authority.";
+"EXPOSURE_NOTIFICATION_LOGGING_INACTIVE_REASON_PAUSED" = "Exposure logging is not active because Exposure Notifications are paused.";
+"CONTACT_TRACING_VERIFICATION_CODE_RATE_LIMIT_ERROR_MESSAGE" = "You can try again later.";
+"SHARE_A_DIAGNOSIS_TITLE_WITH_APP_%@" = "Share a Diagnosis in %@ App";
+"CONTACT_TRACING_BACK_BUTTON_TITLE" = "Back";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_SECONDARY_BUTTON_TITLE" = "Don’t Share";
+"SET_ACTIVE_REGION_CONFIRMATION_TITLE" = "Turn off Automatic Region Switching?";
+"CONTACT_TRACING_VERIFICATION_CODE_EXPIRED_CODE_ERROR_TITLE" = "Your Code Expired";
+"REGION_FAQ_WEBSITE_CELL_TITLE" = "Region FAQ Website";
+"DELETE_EXPOSURE_DATA_CONFIRMATION_TITLE" = "Delete Data?";
+"REMOVE_REGION_CONFIRMATION_CANCEL" = "Cancel";
+"CONTACT_TRACING_ONBOARDING_MANUAL_COUNTRY_SELECTION_TITLE" = "Select Your Country or Region";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_SECONDARY_BUTTON_TITLE" = "Skip";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_2_TITLE" = "People can report that they have COVID-19";
+"CONTACT_TRACING_ONBOARDING_CANCEL_LEGAL_CONSENT_CONFIRM" = "Stop Reviewing Consent";
+"LEARN_MORE_LINK_TEXT" = "Learn more…";
+"CONTACT_TRACING_ONBOARDING_CANCEL_SETUP_INITIAL_BODY" = "If you stop now, exposure logging and notifications will not be turned on.";
+"CONTACT_TRACING_ONBOARDING_REGION_NA_TITLE" = "Exposure Notifications Are Not Currently Available";
+"DELETE_GROUP_FOOTER" = "Deleting your exposure log removes all of the random IDs on your device and any exposures.";
+"REGION_DETAIL_SET_ACTIVE_REGION" = "Set As Active Region";
+"CONTACT_TRACING_ONBOARDING_WELCOME_FOOTER_TEXT_%@" = "Exposure Notifications keep a log of possible exposures on your iPhone while protecting your privacy. The region you select is only used to download the configuration for that region. %@";
+"CONTACT_TRACING_VERIFICATION_SUMMARY_TITLE" = "Share And Notify Others?";
+"REGION_DETAIL_DATA_ACCESS_TRAVEL_STATUS_SWITCH" = "Share Travel Status";
+"ONBOARDING_CANCEL_VERIFICATION_CONFIRMATION_BUTTON_TITLE" = "Stop Submission";
+"CONTACT_TRACING_ONBOARDING_WELCOME_INITIAL_PRIMARY_BUTTON_TITLE" = "Continue";
+"TURN_OFF_EXPOSURE_NOTIFICATIONS_CONFIRMATION_MESSAGE" = "This turns off notifications from any apps you’ve authorized and deletes your log along with any possible exposures.";
+"CONTACT_TRACING_VERIFICATION_CODE_EXPIRED_CODE_ERROR_MESSAGE" = "To report a diagnosis, request a new code from your public health authority.";
+"REGION_HISTORY_SWITCH_TITLE" = "Region History";
+"CANCEL" = "Cancel";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_ACTIVE" = "The most recent exposure notification from the past 14 days will be saved here.";
+"REGION_GROUP_ACTIVE_SUBTITLE" = "Active";
+"CONTACT_TRACING_ONBOARDING_SUMMARY_TITLE" = "Exposure Notifications are Enabled";
+"EXPOSURE_CHECKS_LOAD_ERROR" = "Unable to load record of exposure checks.";
+"EXPOSURE_NOTIFICATIONS_UNSUPPORTED_REGION_GROUP_FOOTER" = "Exposure Notifications are off. If you turn them on, your Public Health Authority can notify you of possible exposure to COVID-19.
+
+You can turn on Exposure Notifications from your Public Health Authority by downloading their app in the App Store.
+
+Your iPhone is not collecting or sharing exposure notification data with anyone. If you turn on Exposure Notifications, information related to your exposures can only be shared with your permission.";
+"CONTACT_TRACING_VERIFICATION_CODE_ENTRY_WEB_REPORT_HELP_BUTTON_TITLE_%@" = "Don’t have a code? Request one from %@";
+"VIEW_EXPOSURE_CHECKS" = "View Exposure Checks";
+"DELETE" = "Delete";
+"CONTACT_TRACING_ONBOARDING_LEGAL_DONT_AGREE_TITLE" = "Are you sure?";
+"TURN_OFF_EXPOSURE_NOTIFICATIONS_CONFIRMATION_TITLE" = "Turn Off Exposure Notifications and Delete Data?";
+"CONTACT_TRACING_ONBOARDING_WELCOME_REGION_CHANGE_TITLE" = "Add Region to Exposure Notifications?";
+"TEK_RELEASE_SHARE_BUTTON_TITLE" = "Share";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_REASON_UNAUTHORIZED" = "Exposure logging is not active because Exposure Notifications are turned off. The past 14 days of requests to check your Exposure Log are saved.";
+"EXPOSURE_LOGGING_GROUP_FOOTER_TEXT_%@" = "Your active region determines the guidelines for notifying you of possible exposures. %@";
+"WEEKLY_ALERT_FOOTER_TEXT" = "Receive a notification that reminds you that the feature is functioning and possible exposures are being shared with your authorized public health authority app.";
+"EXPOSURE_NOTIFICATIONS_VIEW_IN_APP_BUTTON_TITLE" = "View Exposures in App";
+"CONTACT_TRACING_VERIFICATION_CODE_SERVER_TIMEOUT_ERROR_MESSAGE" = "You can try again later.";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_SYMPTOM_ONSET_DATE_LABEL" = "Start of symptoms";
+"CONTACT_TRACING_ONBOARDING_WELCOME_TITLE_FROM_AVAILABILITY_ALERT" = "COVID-19 Exposure Notifications are Available";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_1_TITLE" = "Your iPhone uses Bluetooth to keep a log throughout the day";
+"CONTACT_TRACING_ONBOARDING_REGION_CHANGE_SUMMARY_TITLE_%@" = "%@ Is Now Active";
+"CONTACT_TRACING_VERIFICATION_TRAVEL_STATUS_PRIMARY_BUTTON_TITLE" = "Continue";
+"CONTACT_TRACING_VERIFICATION_CODE_NETWORK_WLAN_ERROR_MESSAGE" = "Turn on WLAN or cellular data to connect and verify your code.";
+"EXPOSURE_CHECK_NO_EXPOSURE" = "No exposure identified";
+"CONTACT_TRACING_LOGGING_SECTION" = "Interaction Logging";
+"CONTACT_TRACING_VERIFICATION_CODE_INVALID_REVISION_TRANSITION_ERROR_TITLE" = "Unable to Notify Others Again";
+"REGION_GROUP_NO_ACTIVE_REGION" = "No Active Region Selected";
+"REGION_MANAGEMENT_ACTIVE_REGIONS_TITLE" = "Active Region";
+"EXPOSURE_HEADER" = "Active app";
+"CONTACT_TRACING_VERIFICATION_TRAVEL_STATUS_TRAVELED_LABEL" = "I have traveled";
+"CONTACT_TRACING_ONBOARDING_MANUAL_REGION_SELECTION_SUBTITLE" = "Your public health authority can send a notification when you may have been exposed to COVID-19. They’ll also provide guidance that can slow the spread of the disease.";
+"REGION_DETAIL_SET_UP_REGION" = "Set Up Region";
+"HASH" = "Hash";
+"CONTACT_TRACING_ONBOARDING_ANALYTICS_TITLE" = "Contribute Data to Help Understand the Spread of COVID-19";
+"CONTACT_TRACING_ONBOARDING_LEGAL_DONT_AGREE_BODY" = "If you don’t agree to the terms, you won’t be able to enable Exposure Notifications.";
+"CONTACT_TRACING_ONBOARDING_MANUAL_REGION_SELECTION_FOOTER_TEXT" = "The region you select will be shared with Apple in order to download the proper configuration. Exposure Notifications keep a log of possible exposures while still protecting your privacy. Learn more…";
+"CONTACT_TRACING_ONBOARDING_OPEN_APP_STORE_TITLE" = "Your Region Has An Exposure Notification App";
+"CONTACT_TRACING_VERIFICATION_CODE_ENTRY_BODY" = "This one time code is used to verify your diagnosis.";
+"NOT_IN_COUNTRY" = "Not available in your region";
+"REGION_MANAGEMENT_CHANGE_REGION_AUTOMATICALLY" = "Change Region Automatically";
+"REGION_DETAIL_SHARE_EXPOSURE_INFORMATION_SWITCH" = "Share Exposure Information";
+"CONTACT_TRACING_VERIFICATION_WELCOME_SELF_REPORT_TITLE" = "Sharing Your Test Result";
+"NEW_FILES" = "New Files";
+"CONTACT_TRACING_ONBOARDING_SUMMARY_PRIMARY_BUTTON_TITLE_NEXT" = "Next";
+"EXPOSURE_CHECK_INACTIVE" = "Inactive";
+"EXPOSURE_NOTIFICATIONS_SWITCH_LOGGING_HEADER" = " Logging profile installed. This allows an app developer to collect diagnostic information about Exposure Notifications, including data related to your COVID-19 exposures and the feature’s operation";
+"CONTACT_TRACING_VERIFICATION_WELCOME_SECONDARY_BUTTON_TITLE" = "Cancel";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_REASON_PAUSED" = "Exposure logging is not active because Exposure Notifications are paused. The past 14 days of requests to check your Exposure Log are saved.";
+"REGION_MANAGEMENT_ACTIVE_REGIONS_FOOTER" = "This region will be used to evaluate your exposure log and notify you of significant exposures to COVID-19.";
+"EXPOSURE_LOGGING_SECTION_TITLE" = "Exposure Logging Status";
+"CONTACT_TRACING_VERIFICATION_TRAVEL_STATUS_TITLE" = "Have You Traveled?";
+"SHARE_A_DIAGNOSIS_BUTTON_TITLE" = "Share a Positive COVID-19 Diagnosis";
+"DELETE_EXPOSURE_CHECKS_MESSAGE" = "Are you sure you want to delete all exposure check records? This will remove all checks that have been made by apps over the past 14 days.";
+"EXPOSURE_DETAILS_REGION_APP_SHOW_IN_APP_STORE" = "Show in App Store";
+"TURN_ON_EXPOSURE_NOTIFICATIONS_TITLE" = "Turn On Exposure Notifications";
+"EXPOSURE_NOTIFICATIONS_OFF" = "Off";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_REASON_RESTRICTED" = "Exposure Notifications are not available.";
+"EXPOSURE_LOGGING_ACTIVE" = "Active";
+"CONTACT_TRACING_ONBOARDING_OPEN_APP_STORE_DETAIL_%@" = "To turn on Exposure Notifications for %@, you can download their app from the App Store.";
+"NO_INSTALLED_APP" = "No installed app";
+"CONTACT_TRACING_ONBOARDING_WELCOME_REGION_CHANGE_PRIMARY_BUTTON_TITLE" = "Add";
+"CONTACT_TRACING_ONBOARDING_CANCEL_REGION_CHANGE_BODY" = "If you stop now, exposure logging and notifications will not be turned on for the new region.";
+"CONTACT_TRACING_ONBOARDING_INFO_BODY" = "Your iPhone can exchange random IDs with other devices using Bluetooth. The random IDs your device collects are stored in an exposure log for 14 days.
+The Health app, or health authority app you authorize, can use your exposure log to regularly check if you have been near someone who has reported being diagnosed with COVID-19.
+If the exposure is significant you can be notified and get directions on what to do next.";
+"EXPOSURE_NOTIFICATION_LOGGING_INACTIVE_REASON_RESTRICTED" = "Exposure logging is not active because Exposure Notifications are not available.";
+"CONTACT_TRACING_VERIFICATION_FINISHED_PRIMARY_BUTTON_TITLE" = "Done";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_ACTIVE_APP_%@" = "You are using %@ for Exposure Notifications. You can review any notifications you may have in their app.";
+"CONTACT_TRACING_CATEGORY_TITLE" = "Exposure Notification";
+"CONTACT_TRACING_ONBOARDING_PROMPT_CANCEL" = "Cancel";
+"CONTACT_TRACING_STATUS_DISABLED" = "Exposure Notification Disabled";
+"SWITCH_APP_ALERT_TITLE_%@" = "Use “%@” for Exposure Notifications?";
+"CONTACT_TRACING_VERIFICATION_SYMPTOM_DATE_ENTRY_SYMPTOMS_LABEL" = "I have had symptoms";
+"CONTACT_TRACING_ONBOARDING_ANALYTICS_FOOTER_TEXT_%@" = "This analytics data cannot be read by Apple. It is also encrypted and aggregated so it’s not linked to your phone. %@";
+"EXPOSURE_TYPE_POSSIBLE" = "Possible Exposure";
+"CONTACT_TRACING_ONBOARDING_INFO_TITLE" = "How Exposure Notifications Work";
+"ANALYTICS_DATA_EMPTY" = "You have no analytics data.";
+"TEK_RELEASE_CANCEL_BUTTON_TITLE" = "Don’t Share";
+"DELETE_EXPOSURE_DATA_TITLE" = "Delete All Exposure Data";
+"AVAILABILITY_ALERTS_TITLE" = "Availability Alerts";
+"CONTACT_TRACING_VERIFICATION_CODE_UNSUPPORTED_REGION_ERROR_MESSAGE" = "Contact your public health authority for more information.";
+"REGION_DETAIL_SHARE_ANALYTICS_RESTRICTED_FOOTER_%@" = "Your public health authority has stopped collecting analytics.
+
+Analytics, such as level of exposure and number of notifications, can help efforts to contain COVID-19. This data cannot be read by Apple. It is also encrypted and aggregated so it’s not linked to your phone. %@";
+"EXPOSURE_NOTIFICATIONS_ON" = "On";
+"CONTACT_TRACING_ONBOARDING_PROMPT_BODY" = "To notify others of exposure, you need to turn on Exposure Notifications. This allows your device to know who should be notified.";
+"CONTACT_TRACING_VERIFICATION_SHARE_GENERIC_ERROR_TITLE" = "Unable To Share And Notify Others";
+"CONTACT_TRACING_ONBOARDING_INFO_BUTTON_TITLE" = "Next";
+"CONTACT_TRACING_VERIFICATION_CODE_NETWORK_ERROR_TITLE" = "No Connection";
+"EXPOSURE_CHECK_POSSIBLE_EXPOSURE_TIME" = "You were exposed %@";
+"EXPOSURE_DETAILS_HEADER_TITLE_%@_%@" = "%1$@ - %2$@";
+"REGION_MANAGEMENT_AVAILABLE_REGIONS_TITLE" = "Available Regions";
+"CONTACT_TRACING_ONBOARDING_WELCOME_REGION_CHANGE_SECONDARY_BUTTON_TITLE" = "Don’t Add";
+"VACCINATION_QUESTION_PRIMARY_BUTTON_TITLE" = "Continue";
+"REGION_DETAIL_PREAUTHORIZATION_SWITCH" = "Automatically Notify Others";
+"VIEW_IN_APP_STORE_%@" = "View %@ in App Store";
+"CONTACT_TRACING_ONBOARDING_CANCEL_REGION_CHANGE_CONFIRM" = "Stop Changing Region";
+"CONTACT_TRACING_CONTINUE_BUTTON_TITLE" = "Continue";
+"CONTACT_TRACING_EXPOSURE_BODY_%@" = "On %@, you were in close proximity to someone who later reported a positive COVID-19 diagnosis";
+"CONTACT_TRACING_VERIFICATION_WELCOME_PRIMARY_BUTTON_TITLE" = "Continue";
+"EXPOSURE_NOTIFICATIONS_SWITCH" = "Exposure Logging";
+"CONTACT_TRACING_ONBOARDING_WELCOME_TITLE" = "COVID-19 Exposure Notifications";
+"EXPOSURE_NOTIFICATIONS_FOOTER" = "iPhone is exchanging random IDs with other devices using Bluetooth. This enables an app to notify you if you may have been exposed to COVID-19. Exposure Logging cannot access any data in, or add any data to, the Health app.";
+"OPEN_APP_%@" = "Open %@ App";
+"CONTACT_TRACING_ONBOARDING_WELCOME_INITIAL_SECONDARY_BUTTON_TITLE" = "Not Now";
+"EXPOSURE_CHECKS_GROUP_FOOTER" = "This is a record of all requests to check your Exposure Log from the past 14 days.";
+"CONTACT_TRACING_ONBOARDING_CANCEL_REGION_CHANGE_TITLE" = "Stop Changing Region?";
+"EXPORT_EXPOSURE_CHECKS" = "Export Exposure Checks";
+"REGION_DETAIL_FOOTER_SET_ACTIVE_%@" = "This will set %@ as the active region for Exposure Notifications.";
+"EXPOSURE_NOTIFICATIONS_GROUP_FOOTER_INACTIVE_REASON_DISABLED" = "Exposure logging is not active because Exposure Notifications are turned off. The past 14 days of requests to check your Exposure Log are saved.";
+"ONBOARDING_CANCEL_VERIFICATION_SECONDARY_BUTTON_TITLE" = "Continue";
+"ONBOARDING_CANCEL_VERIFICATION_MESSAGE" = "Are you sure you don’t want to submit your test result and your exposure data? Without this information, your public health authority will not be able to notify others of possible exposure.";
+"REGION_DETAIL_VIEW_LEGAL_CONSENT_TITLE" = "Legal Terms";
+"DELETE_GROUP_FOOTER_NO_LOGS" = "There are no random IDs on your device to delete.";
+"CONTACT_TRACING_ONBOARDING_MANUAL_STATE_SELECTION_TITLE" = "Select Your State or Region";
+"CONTACT_TRACING_ONBOARDING_INFO_ITEM_3_BODY" = "Your iPhone will check your log for exposure to anyone who has reported a positive COVID-19 diagnosis. If an exposure exceeds your public health authority’s guidelines, you will be notified.";
+"CONTACT_TRACING_VERIFICATION_TRAVEL_STATUS_SECONDARY_BUTTON_TITLE" = "Skip";
+"VACCINATION_QUESTION_SECONDARY_BUTTON_TITLE" = "Skip";

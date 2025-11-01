@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPACE_ATTRIBUTION_OWNER</key>
+	<string>com.apple.Fitness</string>
+	<key>SPACE_ATTRIBUTION_PATHS</key>
+	<array>
+		<string>/var/mobile/Library/Seymour</string>
+		<string>/var/mobile/Media/Downloads/com.apple.UserManagedAssets</string>
+	</array>
+	<key>SPACE_ATTRIBUTION_WRITERS</key>
+	<array>
+		<string>com.apple.fitcored</string>
+	</array>
+</dict>
+</plist>

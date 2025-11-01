@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criteria</key>
+	<array>
+		<dict>
+			<key>Location</key>
+			<dict>
+				<key>excludeHomeWorkLocations</key>
+				<true/>
+			</dict>
+			<key>POI</key>
+			<dict>
+				<key>minimumNumberOfPOIs</key>
+				<integer>1</integer>
+				<key>positivePOIs</key>
+				<array>
+					<string>Entertainment</string>
+				</array>
+			</dict>
+			<key>Scene</key>
+			<dict>
+				<key>minimumNumberOfPositiveScenes</key>
+				<integer>1</integer>
+				<key>positiveScenes</key>
+				<array>
+					<string>zoo</string>
+					<string>aquarium</string>
+					<string>underwater</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

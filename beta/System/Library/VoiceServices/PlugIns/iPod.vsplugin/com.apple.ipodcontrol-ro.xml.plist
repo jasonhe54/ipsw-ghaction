@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>redă</string>
+				<string>redare</string>
+				<string>redă muzică</string>
+				<string>redare muzică</string>
+				<string>cântă</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pauză</string>
+				<string>pune pauză</string>
+				<string>suspendă</string>
+				<string>suspendare</string>
+				<string>suspendă muzică</string>
+				<string>suspendă redarea</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>redă</string>
+				<string>redare</string>
+				<string>selectează</string>
+				<string>selectare</string>
+				<string>pune</string>
+				<string>cântă</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>următoarea</string>
+				<string>următoare</string>
+				<string>următorul</string>
+				<string>următor</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>anterioara</string>
+				<string>anterioară</string>
+				<string>precedenta</string>
+				<string>precedentă</string>
+				<string>anteriorul</string>
+				<string>anterior</string>
+				<string>precedentul</string>
+				<string>precedent</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>aleatoriu</string>
+				<string>aleator</string>
+				<string>mod aleatoriu</string>
+				<string>mod aleator</string>
+				<string>amestecă</string>
+				<string>amestecare</string>
+				<string>dezordonat</string>
+				<string>dezordine</string>
+				<string>shuffle</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pistă</string>
+				<string>piesă</string>
+				<string>melodie</string>
+				<string>cântec</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>listă de redare</string>
+				<string>lista de redare</string>
+				<string>listă</string>
+				<string>lista</string>
+				<string>lista de melodii</string>
+				<string>listă de melodii</string>
+				<string>playlist</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>melodii de</string>
+				<string>piese de</string>
+				<string>cântece de</string>
+				<string>muzică de de</string>
+				<string>artistul</string>
+				<string>artist</string>
+				<string>interpret</string>
+				<string>cântăreț</string>
+				<string>artistă</string>
+				<string>artista</string>
+				<string>interpreta</string>
+				<string>cântăreața</string>
+				<string>trupa</string>
+				<string>trupă</string>
+				<string>formația</string>
+				<string>formație</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>album</string>
+				<string>albumul</string>
+				<string>disc</string>
+				<string>discul</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>redă mai multe ca aceasta</string>
+				<string>redă altele similare</string>
+				<string>redă altele asemănătoare</string>
+				<string>cântă mai multe ca aceasta</string>
+				<string>cântă altele similare</string>
+				<string>cântă altele asemănătoare</string>
+				<string>pune mai multe ca aceasta</string>
+				<string>pune altele similare</string>
+				<string>pune altele asemănătoare</string>
+				<string>redă mai multe melodii ca aceasta</string>
+				<string>redă alte melodii similare</string>
+				<string>redă alte melodii asemănătoare</string>
+				<string>cântă mai multe melodii ca aceasta</string>
+				<string>cântă alte melodii similare</string>
+				<string>cântă alte melodii asemănătoare</string>
+				<string>pune mai multe melodii ca aceasta</string>
+				<string>pune alte melodii similare</string>
+				<string>pune alte melodii asemănătoare</string>
+				<string>redă mai multe piese ca aceasta</string>
+				<string>redă alte piese similare</string>
+				<string>redă alte piese asemănătoare</string>
+				<string>cântă mai multe piese ca aceasta</string>
+				<string>cântă alte piese similare</string>
+				<string>cântă alte piese asemănătoare</string>
+				<string>pune mai multe piese ca aceasta</string>
+				<string>pune alte piese similare</string>
+				<string>pune alte piese asemănătoare</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>ce melodie e asta</string>
+				<string>ce melodie este aceasta</string>
+				<string>ce piesă este acesta</string>
+				<string>ce cântec e ăsta</string>
+				<string>cine cântă melodia asta</string>
+				<string>cine cântă piesa asta</string>
+				<string>cine cântă această melodie</string>
+				<string>cine cântă această piesă</string>
+				<string>ce cântă acum</string>
+				<string>cine cântă acum</string>
+				<string>a cui e melodia asta</string>
+				<string>a cui e piesa asta</string>
+				<string>al cui e cântecul ăsta</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>ce melodie e asta?</string>
+			<string>ce melodie este aceasta?</string>
+			<string>ce piesă este acesta?</string>
+			<string>ce cântec e ăsta?</string>
+			<string>cine cântă melodia asta?</string>
+			<string>cine cântă piesa asta?</string>
+			<string>cine cântă această melodie?</string>
+			<string>cine cântă această piesă?</string>
+			<string>ce cântă acum?</string>
+			<string>cine cântă acum?</string>
+			<string>a cui e melodia asta?</string>
+			<string>a cui e piesa asta?</string>
+			<string>al cui e cântecul ăsta?</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>redă mai multe ca aceasta</string>
+			<string>redă altele similare</string>
+			<string>redă altele asemănătoare</string>
+			<string>cântă mai multe ca aceasta</string>
+			<string>cântă altele similare</string>
+			<string>cântă altele asemănătoare</string>
+			<string>pune mai multe ca aceasta</string>
+			<string>pune altele similare</string>
+			<string>pune altele asemănătoare</string>
+			<string>redă mai multe melodii ca aceasta</string>
+			<string>redă alte melodii similare</string>
+			<string>redă alte melodii asemănătoare</string>
+			<string>cântă mai multe melodii ca aceasta</string>
+			<string>cântă alte melodii similare</string>
+			<string>cântă alte melodii asemănătoare</string>
+			<string>pune mai multe melodii ca aceasta</string>
+			<string>pune alte melodii similare</string>
+			<string>pune alte melodii asemănătoare</string>
+			<string>redă mai multe piese ca aceasta</string>
+			<string>redă alte piese similare</string>
+			<string>redă alte piese asemănătoare</string>
+			<string>cântă mai multe piese ca aceasta</string>
+			<string>cântă alte piese similare</string>
+			<string>cântă alte piese asemănătoare</string>
+			<string>pune mai multe piese ca aceasta</string>
+			<string>pune alte piese similare</string>
+			<string>pune alte piese asemănătoare</string>
+		</array>
+		<array>
+			<string>redă lista de redare</string>
+			<string>redă lista</string>
+			<string>pune lista de redare</string>
+			<string>pune lista</string>
+		</array>
+		<array>
+			<string>redă melodii de</string>
+			<string>redă melodii ale artistului</string>
+			<string>redă melodii ale interpretului</string>
+			<string>redă melodii ale trupei</string>
+			<string>redă piese de</string>
+			<string>redă piese ale artistului</string>
+			<string>redă piese ale interpretului</string>
+			<string>redă piese ale trupei</string>
+		</array>
+		<array>
+			<string>redă albumul</string>
+			<string>pune albumul</string>
+			<string>cântă albumul</string>
+		</array>
+		<array>
+			<string>aleatoriu</string>
+			<string>aleator</string>
+			<string>mod aleatoriu</string>
+			<string>mod aleator</string>
+			<string>amestecă</string>
+			<string>amestecare</string>
+			<string>dezordonat</string>
+			<string>dezordine</string>
+			<string>shuffle</string>
+		</array>
+		<array>
+			<string>pista anterioară</string>
+			<string>piesa anterioară</string>
+			<string>melodia anterioară</string>
+			<string>cântecul anterior</string>
+			<string>pista precedentă</string>
+			<string>piesa precedentă</string>
+			<string>melodia precedentă</string>
+			<string>cântecul precedent</string>
+		</array>
+		<array>
+			<string>pista următoare</string>
+			<string>piesa următoare</string>
+			<string>melodia următoare</string>
+			<string>cântecul următor</string>
+			<string>următoarea pistă</string>
+			<string>următoarea piesă</string>
+			<string>următoarea melodie</string>
+			<string>următorul cântec</string>
+		</array>
+		<array>
+			<string>pauză</string>
+			<string>pune pauză</string>
+			<string>suspendă</string>
+			<string>suspendare</string>
+			<string>suspendă muzică</string>
+			<string>suspendă redarea</string>
+		</array>
+		<array>
+			<string>redă</string>
+			<string>redare</string>
+			<string>redă muzică</string>
+			<string>redare muzică</string>
+			<string>cântă</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

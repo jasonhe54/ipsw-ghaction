@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accessibility.DisableAssistiveTouch_iOS</key>
+	<dict>
+		<key>ConfirmationRequired</key>
+		<true/>
+	</dict>
+	<key>Accessibility.DisableCommandAndControl</key>
+	<dict>
+		<key>ConfirmationRequired</key>
+		<true/>
+	</dict>
+	<key>Accessibility.DisableFullKeyboardAccess_iOS</key>
+	<dict>
+		<key>ConfirmationRequired</key>
+		<true/>
+	</dict>
+	<key>Accessibility.DisableSwitchControl_iOS</key>
+	<dict>
+		<key>ConfirmationRequired</key>
+		<true/>
+	</dict>
+	<key>Accessibility.DisableVoiceOver_iOS</key>
+	<dict>
+		<key>ConfirmationRequired</key>
+		<true/>
+	</dict>
+	<key>System.PressItemWithoutPrefix</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>System.SOS</key>
+	<dict>
+		<key>ConfirmationRequired</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
