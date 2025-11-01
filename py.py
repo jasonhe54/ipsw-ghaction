@@ -27,23 +27,28 @@ if len(sys.argv) < 3:
     print("ERROR: Missing arguments.")
     print("Usage: python py.py <source_folder> <destination_folder>")
     print("  <source_folder>: e.g., ./mounted_dmg/System")
-    print("  <destination_folder>: e.g., ./beta/System")
+    print("  <destination_folder>: e.g., ./beta/iOS/System") # Updated example
     sys.exit(1)
 
 # The folder path from the mounted DMG, e.g., ./mounted_dmg/System
 parsedFolderPath = sys.argv[1] 
 
-# The relative path *in the repo* where files will be saved, e.g., beta/System
+# The relative path *in the repo* where files will be saved, e.g., beta/iOS/System
 finalBaseRepoPath = sys.argv[2]
 
-# The images path is built from the *root* of the beta folder
-# We find the 'beta' part and append 'images'
-if 'beta' in finalBaseRepoPath:
-    baseBetaPath = finalBaseRepoPath.split('beta', 1)[0] + 'beta'
-    finalBaseRepoImagesPath = os.path.join(baseBetaPath, "images")
-else:
-    # Fallback if 'beta' isn't in the path
-    finalBaseRepoImagesPath = os.path.join(finalBaseRepoPath, "images")
+# --- START OF UPDATED SECTION ---
+
+# The images path is built from the OS-specific root folder.
+# We find the parent of the folder we are saving to.
+# e.g., if finalBaseRepoPath is 'beta/iOS/System',
+# os.path.dirname() will return 'beta/iOS'.
+# This is our OS-specific root.
+osSpecificRootPath = os.path.dirname(finalBaseRepoPath)
+
+# We then join that path with 'images' to get, e.g., 'beta/iOS/images'
+finalBaseRepoImagesPath = os.path.join(osSpecificRootPath, "images")
+
+# --- END OF UPDATED SECTION ---
 
 
 print(f"--- Starting Python Script ---")
@@ -76,7 +81,7 @@ def convert_loctable_to_strings(loctable_file):
             os.remove(strings_file) 
             return
 
-        # 'finalBaseRepoPath' is now the *full* destination (e.g., 'beta/System')
+        # 'finalBaseRepoPath' is now the *full* destination (e.g., 'beta/iOS/System')
         outputDir = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG), "en.lproj")
         if not os.path.exists(outputDir):
             os.makedirs(outputDir)
@@ -108,7 +113,7 @@ def add_image_file_to_repo(file_path):
     
     # Get the *name* of the root folder (e.g., "System")
     root_folder_name = os.path.basename(parsedFolderPath)
-    # Build the image path as beta/images/System/...
+    # Build the image path as beta/iOS/images/System/...
     outputPath = os.path.join(finalBaseRepoImagesPath, root_folder_name, os.path.dirname(relPathInDMG))
 
     if not os.path.exists(outputPath):
@@ -136,7 +141,7 @@ def add_plist_file_to_repo(file_path):
 
     plist_xml_in_dmg = file_path.replace('.plist', '.xml.plist')
     
-    # 'finalBaseRepoPath' is now the *full* destination (e.g., 'beta/System')
+    # 'finalBaseRepoPath' is now the *full* destination (e.g., 'beta/iOS/System')
     outputPath = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG))
     if not os.path.exists(outputPath):
         os.makedirs(outputPath)
