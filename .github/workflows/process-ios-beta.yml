@@ -15,7 +15,7 @@ on:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
         type: string
-      base_branch:
+      commit_branch:
         description: 'The base branch to create the Pull Request against.'
         required: false
         type: string
@@ -171,7 +171,7 @@ jobs:
           **Output Repo Path:** \`/beta\`"
           
           gh pr create \
-            --base "${{ inputs.base_branch }}" \
+            --base "${{ inputs.commit_branch }}" \
             --head "${NEW_BRANCH}" \
             --title "${PR_TITLE}" \
             --body "${PR_BODY}"
