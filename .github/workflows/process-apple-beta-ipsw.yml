@@ -1,14 +1,24 @@
-name: Process iOS Beta IPSW
+name: Process Apple Beta IPSW
 
 on:
   workflow_dispatch:
     inputs:
+      os_type:
+        description: 'Operating System (e.g., iOS, iPadOS, visionOS)'
+        required: true
+        type: choice
+        options:
+          - iOS
+          - iPadOS
+          - visionOS
+          - tvOS
+          - macOS
       beta_version:
-        description: 'iOS Version (e.g., 26.0). Used for the version tag in the PR title and branch name.'
+        description: 'Version (e.g., 26.0). Used for the version tag.'
         required: true
         type: string
       beta_build:
-        description: 'Build ID (e.g., 23B5073a). Used for downloading the IPSW file.'
+        description: 'Build ID (e.g., 23B5073a). Used for downloading.'
         required: true
         type: string
       device_identifier:
@@ -23,10 +33,10 @@ on:
 
 jobs:
   process-ipsw:
-    runs-on: macos-latest # Required for hdiutil, plutil, and ipsw
+    runs-on: macos-latest
     permissions:
-      contents: write     # To push branches and commit
-      pull-requests: write # To create the pull request
+      contents: write
+      pull-requests: write
     
     steps:
       - name: 1. Check out repository
@@ -51,10 +61,10 @@ jobs:
 
       - name: 5. Download IPSW
         run: |
-          echo "Downloading full IPSW for iOS build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
+          echo "Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
           
-          # Corrected download command, using only the build number
-          ipsw dl appledb --os iOS \
+          # Use the new os_type input
+          ipsw dl appledb --os "${{ inputs.os_type }}" \
             --build "${{ inputs.beta_build }}" \
             --device "${{ inputs.device_identifier }}" \
             --output ./ipsw_files
@@ -113,25 +123,24 @@ jobs:
 
       - name: 8. Clean old beta directory
         run: |
-          echo "Removing old 'beta' directory..."
-          rm -rf beta
+          echo "Ensuring the 'beta' root directory exists..."
           mkdir -p beta
 
       - name: 9. Run Python Analyzer Script
         run: |
-          # This is the hardcoded path in your repo where files will be saved
-          REPO_SAVE_PATH="beta"
+          # This is the new, dynamic path based on the OS
+          REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
 
-          echo "Running Python script for Applications..."
+          echo "Running Python script for Applications... (Output: ${REPO_SAVE_PATH}/Applications)"
           python py.py "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
           
-          echo "Running Python script for Library..."
+          echo "Running Python script for Library... (Output: ${REPO_SAVE_PATH}/Library)"
           python py.py "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
           
-          echo "Running Python script for private..."
+          echo "Running Python script for private... (Output: ${REPO_SAVE_PATH}/private)"
           python py.py "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
           
-          echo "Running Python script for System..."
+          echo "Running Python script for System... (Output: ${REPO_SAVE_PATH}/System)"
           python py.py "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
 
       - name: 10. Unmount DMG
@@ -151,8 +160,11 @@ jobs:
         run: |
           set -euo pipefail
           
-          # beta_version is used for display, beta_build is used for uniqueness
-          VERSION_TAG="ios-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
+          # Make the OS type lowercase for the branch name
+          OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
+          
+          # Add the OS type to the version tag
+          VERSION_TAG="${OS_TYPE_LOWER}-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
           
           # Normalize the tag for the branch name
           # Replaces any character that is NOT alphanumeric or a hyphen with an underscore
@@ -167,6 +179,7 @@ jobs:
           git checkout -B "${NEW_BRANCH}"
           
           # Add all new/modified files from the python script
+          # This will correctly add 'beta/iOS/...' or 'beta/iPadOS/...' etc.
           git add beta/
           
           if git diff --cached --quiet; then
@@ -175,7 +188,8 @@ jobs:
           fi
           
           echo "Committing changes..."
-          COMMIT_MSG="Analyze: iOS ${{ inputs.beta_version }} (${{ inputs.beta_build }})
+          # Update commit message
+          COMMIT_MSG="Analyze: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})
           
           Device: ${{ inputs.device_identifier }}
           Processed folders: Applications, Library, private, System"
@@ -186,12 +200,13 @@ jobs:
           git push --set-upstream origin "${NEW_BRANCH}"
           
           echo "Creating Pull Request..."
-          PR_TITLE="Analysis: iOS ${{ inputs.beta_version }} (${{ inputs.beta_build }})"
-          PR_BODY="Automated analysis of iOS \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
+          # Update PR title and body
+          PR_TITLE="Analysis: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})"
+          PR_BODY="Automated analysis of \`${{ inputs.os_type }}\` \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
           
           **Device:** \`${{ inputs.device_identifier }}\`
           **Processed DMG Folders:** \`Applications\`, \`Library\`, \`private\`, \`System\`
-          **Output Repo Path:** \`/beta\`"
+          **Output Repo Path:** \`/beta/${{ inputs.os_type }}\`"
           
           gh pr create \
             --base "${{ inputs.commit_branch }}" \
