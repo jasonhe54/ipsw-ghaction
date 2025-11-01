@@ -1,0 +1,14 @@
+"CANCEL" = "Cancel";
+"EXTENSION_ENABLE_ALERT_WARNING_EXTENSION_NAME_%@" = "Enabling this %@ allows your device to send to the developer of this app information about your calls and text messages you choose to report.  For received calls that you report, the developer will receive information about the call, such as the caller’s number and the time of the call. For received text messages that you report, the developer will receive all of the text, content, and sender information. These messages may include verification codes from banks or other institutions, as well as other personal or sensitive information that may be in text messages.";
+"EXTENSION_ENABLE_ALERT_TITLE_MARKETING_NAME_%@_EXTENSION_NAME_%@" = "Enable %@ extension %@?";
+"ABOUT_REPORT_EXTENSION_MARKETING_NAME_%@_%@_%@_%@_%@_NO_SELECTION_%@" = "About %@ Extensions
+
+%@ extensions provide a way for you to choose to report selected phone calls and incoming text messages to third-party developers. For received calls that you report, the developer will receive information about the call, such as the caller’s number and the time of the call. For received text messages that you report, the developer will receive all of the text, content, and sender information. These messages may include verification codes from banks or other institutions, as well as other personal or sensitive information that may be in text messages.
+
+If you use a third-party provider’s %@ extension, you are subject to the app provider’s terms, privacy policy, and practices. We encourage you to learn about the terms, privacy policies, and practices of those third parties.
+
+You may choose to disable a %@ extension at any time by going to Settings > Apps > Phone > %@ and selecting %@ in the list.";
+"ENABLE_EXTENSION" = "Enable";
+"NO_EXTENSION_SELECTED" = "None";
+"REPORTING_MARKETING_NAME" = "SMS/Call Reporting";
+"REPORTING_MARKETING_NAME_%@_EXTENSIONS" = "%@ Extensions";

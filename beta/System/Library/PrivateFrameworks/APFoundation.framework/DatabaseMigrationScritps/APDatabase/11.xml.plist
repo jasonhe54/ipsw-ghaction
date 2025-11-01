@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Queries</key>
+	<array>
+		<string>PRAGMA foreign_keys = OFF</string>
+		<string>PRAGMA synchronous = OFF</string>
+		<string>DROP TABLE IF EXISTS {TableName}</string>
+		<string>PRAGMA foreign_keys = ON</string>
+		<string>PRAGMA synchronous = NORMAL</string>
+		<string>DELETE FROM APDBAdInstance</string>
+		<string>DELETE FROM OdcaAttribution</string>
+		<string>ALTER TABLE APDBAdInstance ADD COLUMN accountToken TEXT NOT NULL</string>
+		<string>ALTER TABLE OdcaAttribution ADD COLUMN accountToken TEXT NOT NULL</string>
+		<string>DROP INDEX IF EXISTS idx_adInstance_adamId</string>
+		<string>CREATE INDEX idx_adInstance_handle_accountToken ON APDBAdInstance (handle, accountToken)</string>
+		<string>CREATE INDEX idx_adInstance_adamId_accountToken ON APDBAdInstance (adamId, accountToken)</string>
+		<string>CREATE INDEX idx_adInstance_accountToken ON APDBAdInstance (accountToken)</string>
+	</array>
+</dict>
+</plist>

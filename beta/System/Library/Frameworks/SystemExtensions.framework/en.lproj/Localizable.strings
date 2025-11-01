@@ -1,0 +1,14 @@
+"BLOCKED_ENDPOINT_SECURITY_SYSEXT_ALERT_TITLE" = "“%@” would like to use a new endpoint security extension";
+"BLOCKED_COREMEDIA_SYSEXT_ALERT_TITLE" = "“%@” would like to use a new camera extension";
+"BLOCKED_SYSEXT_ALERT_DESCRIPTION" = "An application tried to load new system extension(s). If you want to enable these extensions, open General > Login Items & Extensions in System Settings.";
+"BLOCKED_COREMEDIA_SYSEXT_ALERT_DESCRIPTION" = "You can enable this extension in Login Items & Extensions. Camera extensions run in the background and can monitor external cameras connected to your Mac.";
+"BLOCKED_DRIVERKIT_SYSEXT_ALERT_DESCRIPTION" = "You can enable this extension in Login Items & Extensions. Driver extensions run in the background and can monitor hardware accessories connected to your Mac.";
+"ALERT_OPEN_LOGIN_ITEMS_AND_EXTENSIONS" = "Open System Settings";
+"BLOCKED_SYSEXT_ALERT_TITLE" = "“%@” would like to use a new system extension";
+"BLOCKED_NETWORK_SYSEXT_ALERT_TITLE" = "“%@” would like to use a new network extension";
+"BLOCKED_NETWORK_SYSEXT_ALERT_DESCRIPTION" = "You can enable this extension in Login Items & Extensions. Network extensions run in the background and can monitor network traffic on your Mac.";
+"ALERT_OK" = "OK";
+"BLOCKED_SYSEXT_ALERT_MESSAGE_DEVELOPER_NAME" = "An application tried to load new system extension(s) signed by “%@”. If you want to enable these extensions, open General > Login Items & Extensions in System Settings.";
+"BLOCKED_SYSEXT_ALERT_MESSAGE_APPLICATION_NAME" = "The application “%@” tried to load new system extension(s). If you want to enable these extensions, open General > Login Items & Extensions in System Settings.";
+"BLOCKED_ENDPOINT_SECURITY_SYSEXT_ALERT_DESCRIPTION" = "You can enable this extension in Login Items & Extensions. Endpoint security extensions run in the background and can monitor system events on your Mac.";
+"BLOCKED_DRIVERKIT_SYSEXT_ALERT_TITLE" = "“%@” would like to use a new driver extension";

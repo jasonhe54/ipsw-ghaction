@@ -1,0 +1,80 @@
+"IN_PROGRESS_CARD_SUBTITLE_IPAD" = "Keep this device near the iPad that’s in Diagnostics Mode while settings are being transferred.";
+"COMPLETE_CARD_SUBTITLE" = "Settings have been successfully transferred to the nearby device.";
+"AUTH_PRESENT_QR_SUBTITLE_IPHONE" = "Use the iPhone that’s in Diagnostics Mode to scan the QR code below.";
+"CANCELLED_CARD_TITLE" = "Authentication Cancelled";
+"CANCELLED_CARD_SUBTITLE_IPHONE" = "The nearby iPhone has restarted the setup process. This can occur if the authentication method was changed or if the process was canceled. Tap “OK” to try again.";
+"CANCELLED_CARD_SUBTITLE_WATCH" = "The nearby Apple Watch has restarted the setup process. This can occur if the authentication method was changed or if the process was canceled. Tap “OK” to try again.";
+"WELCOME_CARD_SUBTITLE" = "A nearby device is in Diagnostics Mode. Would you like to use this device’s settings to start a session on the nearby device?
+
+The following settings will be transferred:";
+"WELCOME_CARD_SUBTITLE_IPHONE" = "A nearby iPhone is in Diagnostics Mode. Would you like to use this device’s settings to start a session on the nearby iPhone?
+
+The following settings will be transferred:";
+"AUTH_PRESENT_ACC_SUBTITLE_VISION" = "Use the Apple Vision Pro that’s in Diagnostics Mode to scan the App Clip Code below by facing the display of this device in front of the Apple Vision Pro.";
+"IN_PROGRESS_CARD_TITLE_IPHONE" = "Configuring iPhone";
+"COMPLETE_CARD_SUBTITLE_VISION" = "Settings have been successfully transferred to the nearby Apple Vision Pro.";
+"IN_PROGRESS_CARD_SUBTITLE" = "Keep this device near the device that’s in Diagnostics Mode while settings are being transferred.";
+"WELCOME_CARD_SUBTITLE_WATCH" = "A nearby Apple Watch is in Diagnostics Mode. Would you like to use this device’s settings to start a session on the nearby Apple Watch?
+
+The following settings will be transferred:";
+"CAPTIVE_NETWORK_CARD_SUBTITLE_VISION" = "A nearby Apple Vision Pro is in Diagnostics Mode. However, this device is currently connected to a captive network which is not supported when a device is in Diagnostics Mode. Choose a different network and try again.";
+"FAILED_CARD_TITLE" = "Unable to Configure";
+"CANCELLED_CARD_SUBTITLE" = "The nearby device has restarted the setup process. This can occur if the authentication method was changed or if the process was canceled. Tap “OK” to try again.";
+"FAILED_CARD_SUBTITLE_VISION" = "An error occurred when attempting to configure the nearby Apple Vision Pro. Restart the Apple Vision Pro to Diagnostics Mode and try again.";
+"WELCOME_CARD_TRANSFERRED_SETTINGS_WLAN" = "WLAN network - %@";
+"AUTH_PRESENT_QR_SUBTITLE_IPAD" = "Use the iPad that’s in Diagnostics Mode to scan the QR code below.";
+"CAPTIVE_NETWORK_CARD_SUBTITLE_WATCH" = "A nearby Apple Watch is in Diagnostics Mode. However, this device is currently connected to a captive network which is not supported when a device is in Diagnostics Mode. Choose a different network and try again.";
+"PIN_CARD_SUBTITLE" = "Enter the authentication code shown on the nearby device.";
+"WELCOME_CARD_START_BUTTON" = "Continue";
+"AUTH_PRESENT_QR_SUBTITLE" = "Use the device that’s in Diagnostics Mode to scan the QR code below.";
+"TERMS_CONDITIONS_CARD_DISAGREE_BUTTON" = "Disagree";
+"IN_PROGRESS_CARD_SUBTITLE_VISION" = "Keep this device near the Apple Vision Pro that’s in Diagnostics Mode while settings are being transferred.";
+"CAPTIVE_NETWORK_CARD_DONE_BUTTON" = "OK";
+"COMPLETE_CARD_TITLE" = "Configuration Complete";
+"COMPLETE_CARD_SUBTITLE_IPAD" = "Settings have been successfully transferred to the nearby iPad.";
+"QR_SCANNER_CARD_SUBTITLE_IPHONE" = "Scan the QR code shown on the nearby iPhone.";
+"COMPLETE_CARD_SUBTITLE_WATCH" = "Settings have been successfully transferred to the nearby Apple Watch.";
+"WELCOME_CARD_CONNECTING" = "Connecting";
+"PIN_CARD_TITLE" = "Authentication";
+"QR_SCANNER_CARD_TITLE" = "Scan Authentication Code";
+"IN_PROGRESS_CARD_SUBTITLE_WATCH" = "Keep this device near the Apple Watch that’s in Diagnostics Mode while settings are being transferred.";
+"QR_SCANNER_CARD_SUBTITLE_IPAD" = "Scan the QR code shown on the nearby iPad.";
+"QR_SCANNER_CARD_SUBTITLE_VISION" = "Scan the QR code shown on the inside displays of the nearby Apple Vision Pro.";
+"TERMS_CONDITIONS_CARD_AGREE_BUTTON" = "Agree";
+"COMPLETE_CARD_DONE_BUTTON" = "OK";
+"IN_PROGRESS_CARD_TITLE_VISION" = "Configuring Apple Vision Pro";
+"CAPTIVE_NETWORK_CARD_SUBTITLE_IPAD" = "A nearby iPad is in Diagnostics Mode. However, this device is currently connected to a captive network which is not supported when a device is in Diagnostics Mode. Choose a different network and try again.";
+"IN_PROGRESS_CARD_TITLE_IPAD" = "Configuring iPad";
+"TERMS_AND_CONDITIONS_CB_REMOTE_SETUP" = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time the following diagnostic data from the nearby device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; and performance data from the device, parts, and paired accessories. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services. For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
+"WELCOME_CARD_TRANSFERRED_SETTINGS_WIFI" = "Wi-Fi network - %@";
+"IN_PROGRESS_CARD_SUBTITLE_IPHONE" = "Keep this device near the iPhone that’s in Diagnostics Mode while settings are being transferred.";
+"FAILED_CARD_SUBTITLE" = "An error occurred when attempting to configure the nearby device. Restart the device to Diagnostics Mode and try again.";
+"PIN_CARD_SUBTITLE_WATCH" = "Enter the authentication code shown on the nearby Apple Watch.";
+"CAPTIVE_NETWORK_CARD_SUBTITLE_IPHONE" = "A nearby iPhone is in Diagnostics Mode. However, this device is currently connected to a captive network which is not supported when a device is in Diagnostics Mode. Choose a different network and try again.";
+"CAPTIVE_NETWORK_CARD_SUBTITLE" = "A nearby device is in Diagnostics Mode. However, this device is currently connected to a captive network which is not supported when a device is in Diagnostics Mode. Choose a different network and try again.";
+"CANCELLED_CARD_SUBTITLE_IPAD" = "The nearby iPad has restarted the setup process. This can occur if the authentication method was changed or if the process was canceled. Tap “OK” to try again.";
+"AUTH_PRESENT_QR_FALLBACK_CB_AUTH_BUTTON" = "Use this device to scan instead";
+"FAILED_CARD_SUBTITLE_IPAD" = "An error occurred when attempting to configure the nearby iPad. Restart the iPad to Diagnostics Mode and try again.";
+"PIN_CARD_SUBTITLE_IPHONE" = "Enter the authentication code shown on the nearby iPhone.";
+"IN_PROGRESS_CARD_TITLE" = "Configuring Device";
+"PIN_CARD_SUBTITLE_IPAD" = "Enter the authentication code shown on the nearby iPad.";
+"WELCOME_CARD_TITLE" = "Diagnostics & Repair";
+"COMPLETE_CARD_SUBTITLE_IPHONE" = "Settings have been successfully transferred to the nearby iPhone.";
+"TERMS_CONDITIONS_CARD_TITLE" = "Terms and Conditions";
+"WELCOME_CARD_TRANSFERRED_SETTINGS_LANGUAGE" = "Device language - %@";
+"WELCOME_CARD_SUBTITLE_IPAD" = "A nearby iPad is in Diagnostics Mode. Would you like to use this device’s settings to start a session on the nearby iPad?
+
+The following settings will be transferred:";
+"CAPTIVE_NETWORK_CARD_TITLE" = "Captive Network Detected";
+"WELCOME_CARD_SUBTITLE_VISION" = "A nearby Apple Vision Pro is in Diagnostics Mode. Would you like to use this device’s settings to start a session on the nearby Apple Vision Pro?
+
+The following settings will be transferred:";
+"QR_SCANNER_CARD_SUBTITLE" = "Scan the QR code shown on the nearby device.";
+"FAILED_CARD_SUBTITLE_IPHONE" = "An error occurred when attempting to configure the nearby iPhone. Restart the iPhone to Diagnostics Mode and try again.";
+"CANCELLED_CARD_DONE_BUTTON" = "OK";
+"CANCELLED_CARD_SUBTITLE_VISION" = "The nearby Apple Vision Pro has restarted the setup process. This can occur if the authentication method was changed or if the process was canceled. Tap “OK” to try again.";
+"FAILED_CARD_SUBTITLE_WATCH" = "An error occurred when attempting to configure the nearby Apple Watch. Restart the Apple Watch to Diagnostics Mode and try again.";
+"IN_PROGRESS_CARD_TITLE_WATCH" = "Configuring Apple Watch";
+"AUTH_PRESENT_QR_CARD_TITLE" = "Authentication";
+"QR_SCANNER_CARD_SUBTITLE_WATCH" = "Scan the QR code shown on the nearby Apple Watch.";
+"FAILED_CARD_DONE_BUTTON" = "OK";

@@ -1,0 +1,13 @@
+"POWER_SAVING_MODE_FOOTER_FITNESS_JUNIOR" = "Turn off the built-in heart rate sensor during walking and running workouts to extend battery life.";
+"ACTIVITY_MOVE_VALUE_MIN_UNIT" = "{'move_minutes_earned': {'other': 'MIN', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@move_minutes_earned@'}";
+"APPLE_MOVE_TIME_UNIT_MEDIUM" = "{'minutes': {'one': 'Minute', 'other': 'Minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"ACTIVE_HOURS_UNIT_SHORT" = "{'NSStringLocalizedFormatKey': 'Hr'}";
+"POWER_SAVING_MODE_FOOTER_FITNESS_JUNIOR_TELEPHONY" = "Turn off cellular and the built-in heart rate sensor during walking and running workouts to extend battery life.";
+"BRISK_MINUTES_UNIT_SHORT" = "{'NSStringLocalizedFormatKey': 'Min'}";
+"ACTIVITY_MOVE_VALUE_MIN_UNIT_FORMAT" = "<value> <unit>";
+"ACTIVE_HOURS_UNIT_LONG" = "{'hours': {'one': 'hour', 'other': 'hours', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@hours@'}";
+"AUTO_PAUSE_ENABLED_FOOTER_FITNESS_JUNIOR" = "Apple Watch can automatically pause certain workouts when you stop moving and resume when you start again. This is not optimized for younger users.";
+"APPLE_MOVE_TIME_UNIT_LONG" = "{'move_minutes': {'one': 'Move minute', 'other': 'Move minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@move_minutes@'}";
+"APPLE_MOVE_TIME_UNIT_SHORT" = "{'NSStringLocalizedFormatKey': 'MIN'}";
+"BRISK_MINUTES_UNIT_LONG" = "{'minutes': {'one': 'minute', 'other': 'minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"FITNESS_TRACKING_DISABLED_BODY_TINKER" = "Enable Fitness Tracking in the Settings app on your watch under Privacy > Motion & Fitness.";

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AllowedTrafficClasses</key>
+	<array>
+		<string>com.apple.ids.trafficclass.nanoregistry.update</string>
+		<string>com.apple.ids.trafficclass.nanoregistry.check</string>
+	</array>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>WiFiManager_WiFiNetworkSync_IDS</string>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.wifi.networksync</string>
+	<key>LaunchDarwinNotification</key>
+	<string>com.apple.wifi.idslaunchnotification</string>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.wifi.networksync</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.wifi.networksync</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

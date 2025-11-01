@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>airpods noise suppression studio</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression_Large.propstrip</string>
+				</array>
+			</dict>
+			<key>FilePathBase</key>
+			<string>/Library/Audio/Tunings/AID8021/ADM</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

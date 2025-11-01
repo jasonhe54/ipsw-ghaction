@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayedMorphologies</key>
+	<array>
+		<string>nominative</string>
+		<string>genitive-independent</string>
+	</array>
+	<key>ExampleStringPlaceholders</key>
+	<array>
+		<string>ela</string>
+		<string>dela</string>
+	</array>
+	<key>ExampleStrings</key>
+	<array>
+		<string>Ontem %@ foi ao parque.</string>
+		<string>A ideia foi %@.</string>
+	</array>
+	<key>KnownPronouns</key>
+	<array>
+		<array>
+			<string>ela</string>
+			<string>dela</string>
+		</array>
+		<array>
+			<string>ele</string>
+			<string>dele</string>
+		</array>
+		<array>
+			<string>elu</string>
+			<string>delu</string>
+		</array>
+		<array>
+			<string>ile</string>
+			<string>dile</string>
+		</array>
+		<array>
+			<string>ilu</string>
+			<string>dilu</string>
+		</array>
+	</array>
+	<key>LegalCharactersRegex</key>
+	<string>[[\p{letter}&amp;&amp;\p{script=latin}][\p{nonspacing_mark}]\'\u2019\-\@\(\)]*</string>
+	<key>MaxPronounLength</key>
+	<integer>10</integer>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowByProxy</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>JetsamMemoryLimit</key>
+	<integer>7777</integer>
+	<key>JetsamProperties</key>
+	<dict>
+		<key>JetsamMemoryLimit</key>
+		<integer>7777</integer>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.accessibility.axAuditDaemon.deviceservice</string>
+	<key>LimitLoadToDeveloperMode</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.accessibility.axAuditDaemon.deviceservice.lockdown</key>
+		<true/>
+		<key>com.apple.accessibility.axAuditDaemon.deviceservice.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/AccessibilityAudit.framework/Support/axauditd</string>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.accessibility.axAuditDaemon.remoteAXService</key>
+		<dict>
+			<key>RequireEntitlement</key>
+			<string>AppleInternal</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>ServiceVersion</key>
+				<integer>1</integer>
+				<key>UsesRemoteXPC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>_DirtyJetsamPriority</key>
+	<string>2</string>
+</dict>
+</plist>

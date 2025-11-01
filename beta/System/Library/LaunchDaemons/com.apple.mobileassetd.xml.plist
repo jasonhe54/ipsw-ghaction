@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.mobileassetd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.mobileassetd.auto-asset-scheduler</key>
+			<dict>
+				<key>Delay</key>
+				<integer>14400</integer>
+				<key>GracePeriod</key>
+				<integer>900</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+			</dict>
+			<key>com.apple.mobileassetd.health-report</key>
+			<dict>
+				<key>AllowBattery</key>
+				<false/>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.mobileassetd</key>
+		<true/>
+		<key>com.apple.mobileasset.autoasset</key>
+		<true/>
+		<key>com.apple.mobileassetd</key>
+		<true/>
+		<key>com.apple.mobileassetd.cache-delete</key>
+		<true/>
+		<key>com.apple.mobileassetd.push-notifications</key>
+		<true/>
+		<key>com.apple.mobileassetd.v2</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/mobileassetd</string>
+	</array>
+	<key>_Conclave</key>
+	<string>com.apple.mobileassetd.conclave</string>
+</dict>
+</plist>

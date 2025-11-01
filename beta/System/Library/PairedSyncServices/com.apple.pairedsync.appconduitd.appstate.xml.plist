@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DependentBuddyStages</key>
+	<array>
+		<string>InstallAllAvailableAppsSelection</string>
+	</array>
+	<key>DependentServices</key>
+	<array>
+		<string>com.apple.pairedsync.appconduitd</string>
+	</array>
+	<key>Label</key>
+	<string>com.apple.pairedsync.appconduitd.appstate</string>
+	<key>MachServiceName</key>
+	<string>com.apple.appconduitd.appstate.pairedsync</string>
+	<key>SessionTypes</key>
+	<array>
+		<string>Reunion</string>
+		<string>Initial</string>
+	</array>
+	<key>Timeout</key>
+	<integer>60</integer>
+</dict>
+</plist>

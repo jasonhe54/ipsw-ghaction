@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>net</string>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>Unitel</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>LTE</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Category</key>
+				<integer>4</integer>
+				<key>Number</key>
+				<string>101</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_FIRE</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Number</key>
+				<string>102</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_POLICE</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>2</integer>
+				<key>Number</key>
+				<string>103</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_AMBULANCE</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>8</integer>
+				<key>Number</key>
+				<string>105</string>
+			</dict>
+		</array>
+	</dict>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>0anonymous@wlan.mnc088.mcc428.3gppnetwork.org</string>
+		<key>Certificate</key>
+		<string>MIID9TCCAt2gAwIBAgIJAOaoEV4K0XVnMA0GCSqGSIb3DQEBCwUAMIGQMQswCQYD
+VQQGEwJNTjEUMBIGA1UEBwwLVWxhYW5iYWF0YXIxFTATBgNVBAoMDFVuaXRlbCBH
+cm91cDEUMBIGA1UECwwLRGF0YU5ldHdvcmsxFTATBgNVBAMMDHRzLnVuaXRlbC5t
+bjEnMCUGCSqGSIb3DQEJARYYdGFpdmFuYmFhdGFyLnRAdW5pdGVsLm1uMB4XDTI0
+MDExMjA4MzYyNVoXDTI1MDExMTA4MzYyNVowgZAxCzAJBgNVBAYTAk1OMRQwEgYD
+VQQHDAtVbGFhbmJhYXRhcjEVMBMGA1UECgwMVW5pdGVsIEdyb3VwMRQwEgYDVQQL
+DAtEYXRhTmV0d29yazEVMBMGA1UEAwwMdHMudW5pdGVsLm1uMScwJQYJKoZIhvcN
+AQkBFhh0YWl2YW5iYWF0YXIudEB1bml0ZWwubW4wggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCuZf7/GUhmHcbkcrpLh5tn36PLRx7psWMdSK5fuskQu05X
+IlLZPli9DaJiMMPyh3nHRAc7wcmKYSXAMC/O6tRMkFRehb57+0DSYHq8VYE0HJFh
+VRq1o1v2y52dsy/DtT492conzGqKkUj3s6oD0MOcvqIk3hW9ycO58ta8k4fBq7dq
+kTKuktCbEl7i1gQGMRoDT1jESztasTVot7AwGdAShq9uGH81lrnMAc6Xy41Ki4fi
+5P3VpGEiRAlOpwwrLaSw1zsRwtCc/8QINc5H9mxZZzzDQpNtodxyCsaHI8LB6lhV
+FDWINb7OyIJVcInAp4CJQFjt+PsysP3LbMR/ZqvhAgMBAAGjUDBOMB0GA1UdDgQW
+BBTzQMbwLx7D5oVX4YAJYOsEx/MKWzAfBgNVHSMEGDAWgBTzQMbwLx7D5oVX4YAJ
+YOsEx/MKWzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAusrigQDSh
+vKEjaQnP1Sy6E4SN6opVMsrakkt8yUpzECbUgoVZO/Ik08ZjYfg5oHivka8P/rNj
+ftAIZ0b93TmZFd+loC5bs0LJ8uzdGtHEDnFSbIsM6Ps8ZsSLJc9eiUIhY8wMhpht
+I2kAW1tDIsMYuXS3dESYEqMRv6sJhWnY9Jpffq+BkSpgdGXFOiiWTfgQPWURwUGu
+iyNJsd7aJNfyZBapdKqTcB2tcK7imybeHlbMA0EngvYbrMI0sgQcT9Dq/AucDkBU
+nvtXtmvx0t+jwfdgJwfwK1bghsdiPvmQJpst2RZ++gE43Saw8+cFdHEYzZhOIRG6
+qbFzE8L6YoYX</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=20317b3a4886eb03d26e4908f93e547fd346ac03</string>
+		<key>UpdateURL</key>
+		<string>http://imsi.unitel.mn/encrypt</string>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Mongolia</string>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>MyAccountURL</key>
+	<string>https://www.unitel.mn/unitel/</string>
+	<key>MyAccountURLTitle</key>
+	<string>Unitel</string>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<array>
+		<string>+447786205094</string>
+	</array>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>Show3GSwitchWith4G</key>
+	<true/>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>428-88</string>
+			<key>StatusBarCarrierName</key>
+			<string>UNITEL</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>42888</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>net</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

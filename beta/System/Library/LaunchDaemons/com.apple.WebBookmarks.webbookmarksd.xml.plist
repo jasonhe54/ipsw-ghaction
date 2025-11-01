@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.WebBookmarks.webbookmarksd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>Application Uninstalled</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.LaunchServices.applicationUnregistered</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>Bookmarks File Changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.bookmarks.BookmarksFileChanged</string>
+			</dict>
+			<key>Device Name Changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobile.lockdown.device_name_changed</string>
+			</dict>
+			<key>Reset Privacy Warnings</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.Preferences.ResetPrivacyWarningsNotification</string>
+			</dict>
+			<key>SpringBoard Finished Startup</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.springboard.finishedstartup</string>
+			</dict>
+			<key>WebContentFilter Changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ManagedConfiguration.webContentFilterChanged</string>
+			</dict>
+			<key>WebContentFilterType Changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ManagedConfiguration.webContentFilterTypeChanged</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.webbookmarksd.passwordIconsRepeatingCleanupActivityIdentifier</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Delay</key>
+				<integer>300</integer>
+				<key>GracePeriod</key>
+				<integer>3600</integer>
+				<key>Interval</key>
+				<integer>172800</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<false/>
+				<key>RequiresClassA</key>
+				<true/>
+			</dict>
+			<key>com.apple.webbookmarksd.xpc.backupActivity</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>DASData</key>
+				<dict>
+					<key>UserRequestedBackupActivity</key>
+					<true/>
+				</dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+				<key>RequiresClassC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.WebBookmarks.CacheDelete</key>
+		<dict/>
+		<key>com.apple.WebBookmarks.webbookmarksd</key>
+		<dict/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>Program</key>
+	<string>/System/Cryptexes/App/usr/libexec/webbookmarksd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>globetrotter</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>evergreen.white</string>
+				<key>exclusions</key>
+				<array>
+					<string>evergreen.slate2</string>
+				</array>
+				<key>gallery-default</key>
+				<array>
+					<string>white</string>
+					<string>black</string>
+					<string>navyBlue</string>
+					<string>palePink</string>
+					<string>stardust</string>
+					<string>red2sg</string>
+					<string>blue11</string>
+					<string>green3</string>
+				</array>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>evergreen</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<true/>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.resourcegrabberd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>ACXApplicationsUpdatedDarwinNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.sockpuppet.applications.updated</string>
+			</dict>
+			<key>IDSWake</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.nanoresourcegrabber.idslaunchnotification</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mobile.cache_delete_nano_resource_grabber</key>
+		<true/>
+		<key>com.apple.nano.nanoresourcegrabber</key>
+		<true/>
+		<key>com.apple.nanoresourcegrabber.pairedsync</key>
+		<true/>
+		<key>com.apple.nanoresourcegrabber.pairedsync.prelaunch</key>
+		<true/>
+		<key>com.apple.private.alloy.resourcegrabber-idswake</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/resourcegrabberd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

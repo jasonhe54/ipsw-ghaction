@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Vanuatu</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>112</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>vu</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>541</string>
+		<string>com.apple.Vanuatu</string>
+	</array>
+</dict>
+</plist>

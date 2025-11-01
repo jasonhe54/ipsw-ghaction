@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-right</string>
+		<key>Keycaps</key>
+		<string>Ī Í Ǐ Ì</string>
+		<key>Strings</key>
+		<string>Ī Í Ǐ Ì</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-right</string>
+		<key>Keycaps</key>
+		<string>Ō Ó Ǒ Ò</string>
+		<key>Strings</key>
+		<string>Ō Ó Ǒ Ò</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-right</string>
+		<key>Keycaps</key>
+		<string>Ū Ú Ǔ Ù</string>
+		<key>Strings</key>
+		<string>Ū Ú Ǔ Ù</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-right</string>
+		<key>Keycaps</key>
+		<string>ī í ǐ ì</string>
+		<key>Strings</key>
+		<string>ī í ǐ ì</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-right</string>
+		<key>Keycaps</key>
+		<string>ō ó ǒ ò</string>
+		<key>Strings</key>
+		<string>ō ó ǒ ò</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-right</string>
+		<key>Keycaps</key>
+		<string>ū ú ǔ ù</string>
+		<key>Strings</key>
+		<string>ū ú ǔ ù</string>
+	</dict>
+</dict>
+</plist>

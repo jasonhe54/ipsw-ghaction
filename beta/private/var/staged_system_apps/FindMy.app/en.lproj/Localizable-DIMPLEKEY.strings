@@ -1,0 +1,3 @@
+"DEVICE_LIST_SUBTITLE_REMOVE_PENDING" = "Will be removed on %@";
+"DEVICE_REMOVE_GRACE_PERIOD_TITLE" = "{'value': {'one': '%lu Day Grace Period', 'other': '%lu Day Grace Period', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"DEVICE_REMOVE_GRACE_PERIOD_MESSAGE" = "{'value': {'one': 'This device will remain in Find My for the next %lu day, so you can still enable Lost Mode or erase this device.', 'other': 'This device will remain in Find My for the next %lu days, so you can still enable Lost Mode or erase this device.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': '%#@value@'}";

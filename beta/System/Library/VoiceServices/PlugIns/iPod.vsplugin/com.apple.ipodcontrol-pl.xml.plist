@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>odtwarzaj</string>
+				<string>graj</string>
+				<string>odtwarzaj muzykę</string>
+				<string>graj muzykę</string>
+				<string>muzyka</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pauza</string>
+				<string>pauzuj</string>
+				<string>wstrzymaj</string>
+				<string>wstrzymaj muzykę</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>odtwarzaj</string>
+				<string>graj</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>następny</string>
+				<string>następna</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>poprzedni</string>
+				<string>poprzednia</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>mieszaj</string>
+				<string>pomieszaj</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>utwór</string>
+				<string>piosenka</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>listę utworów</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>utwory</string>
+				<string>piosenki</string>
+				<string>muzykę</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>album</string>
+				<string>płytę</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>odtwarzaj podobne utwory</string>
+				<string>odtwarzaj podobne piosenki</string>
+				<string>odtwarzaj podobne</string>
+				<string>odwarzaj podobną muzykę</string>
+				<string>graj podobne utwory</string>
+				<string>graj podobne piosenki</string>
+				<string>graj podobne</string>
+				<string>graj podobną muzykę</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>co to za utwór</string>
+				<string>co to za piosenka</string>
+				<string>jak się nazywa ten utwór</string>
+				<string>jak się nazywa ta piosenka</string>
+				<string>kto śpiewa ten utwór</string>
+				<string>kto śpiewa tę piosenkę</string>
+				<string>kto to gra</string>
+				<string>kto to śpiewa</string>
+				<string>czyj to utwór</string>
+				<string>czyja to piosenka</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>odtwarzaj</string>
+			<string>graj</string>
+			<string>odtwarzaj muzykę</string>
+			<string>graj muzykę</string>
+			<string>muzyka</string>
+		</array>
+		<array>
+			<string>pauza</string>
+			<string>pauzuj</string>
+			<string>wstrzymaj</string>
+			<string>wstrzymaj muzykę</string>
+		</array>
+		<array>
+			<string>następny utwór</string>
+			<string>następna piosenka</string>
+		</array>
+		<array>
+			<string>poprzedni utwór</string>
+			<string>poprzednia piosenka</string>
+		</array>
+		<array>
+			<string>mieszaj</string>
+			<string>pomieszaj</string>
+		</array>
+		<array>
+			<string>graj album</string>
+			<string>odtwarzaj album</string>
+			<string>graj płytę</string>
+			<string>odtwarzaj płytę</string>
+		</array>
+		<array>
+			<string>graj utwory</string>
+			<string>odtwarzaj utwory</string>
+			<string>graj piosenki</string>
+			<string>odtwarzaj piosenki</string>
+			<string>graj muzykę</string>
+			<string>odtwarzaj muzykę</string>
+		</array>
+		<array>
+			<string>graj listę utworów</string>
+			<string>odtwarzaj listę utworów </string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>odtwarzaj podobne utwory</string>
+			<string>odtwarzaj podobne piosenki</string>
+			<string>odtwarzaj podobne</string>
+			<string>odwarzaj podobną muzykę</string>
+			<string>graj podobne utwory</string>
+			<string>graj podobne piosenki</string>
+			<string>graj podobne</string>
+			<string>graj podobną muzykę</string>
+		</array>
+		<array>
+			<string>co to za utwór</string>
+			<string>co to za piosenka</string>
+			<string>jak się nazywa ten utwór</string>
+			<string>jak się nazywa ta piosenka</string>
+			<string>kto śpiewa ten utwór</string>
+			<string>kto śpiewa tę piosenkę</string>
+			<string>kto to gra</string>
+			<string>kto to śpiewa</string>
+			<string>czyj to utwór</string>
+			<string>czyja to piosenka</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

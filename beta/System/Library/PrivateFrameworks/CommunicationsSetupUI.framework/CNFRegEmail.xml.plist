@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<string>0</string>
+			<key>id</key>
+			<string>FACETIME_EMAIL_DESCRIPTION_GROUP_ID</string>
+			<key>label</key>
+			<string>FACETIME_EMAIL_TITLE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>FACETIME_EMAIL_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>cellClass</key>
+			<string>CNFRegEditableTableCell</string>
+			<key>cnf-textFieldEmptyStateChangeSelector</key>
+			<string>emailFieldEmptyStateChanged:forSpecifier:</string>
+			<key>enabled</key>
+			<true/>
+			<key>get</key>
+			<string>pendingAliasForSpecifier:</string>
+			<key>id</key>
+			<string>FACETIME_EMAIL_ID</string>
+			<key>isEmail</key>
+			<true/>
+			<key>placeholder</key>
+			<string>FACETIME_EMAIL_ADDRESS_PLACEHOLDER</string>
+			<key>set</key>
+			<string>setPendingAlias:forSpecifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>FACETIME_EMAIL_CHECK_MAIL_DESCRIPTION</string>
+			<key>id</key>
+			<string>FACETIME_EMAIL_CHECK_MAIL_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>checkMailTapped:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>enabled</key>
+			<true/>
+			<key>id</key>
+			<string>FACETIME_EMAIL_CHECK_MAIL_ID</string>
+			<key>label</key>
+			<string>FACETIME_EMAIL_CHECK_MAIL_LABEL</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>FACETIME</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.ptpd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.usbptpd.iokitlaunch</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>USBDeviceFunction</key>
+					<string>PTP</string>
+				</dict>
+				<key>IOProviderClass</key>
+				<string>IOUSBDeviceInterface</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.usbptpd.demand</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/ptpd</string>
+		<string>-t</string>
+		<string>usb</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

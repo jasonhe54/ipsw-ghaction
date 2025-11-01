@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aim</key>
+	<string>aim</string>
+	<key>facebook</key>
+	<string>xmpp</string>
+	<key>googletalk</key>
+	<string>xmpp</string>
+	<key>icq</key>
+	<string>aim</string>
+	<key>jabber</key>
+	<string>xmpp</string>
+	<key>msn</key>
+	<string>msnim</string>
+	<key>skype</key>
+	<string>skype</string>
+	<key>yahoo</key>
+	<string>ymsgr</string>
+</dict>
+</plist>

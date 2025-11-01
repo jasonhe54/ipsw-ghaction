@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>STATUS_CELL_POSITION</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>label</key>
+			<string>STATUS_CELL_LEFT</string>
+			<key>statusCellOption</key>
+			<string>left</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>label</key>
+			<string>STATUS_CELL_RIGHT</string>
+			<key>statusCellOption</key>
+			<string>right</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>get</key>
+			<string>statusCellGeneralEnabled:</string>
+			<key>id</key>
+			<string>StatusCellGeneral</string>
+			<key>label</key>
+			<string>STATUS_CELL_GENERAL</string>
+			<key>set</key>
+			<string>setEnableStatusCellGeneral:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>get</key>
+			<string>statusCellTextStyleEnabled:</string>
+			<key>id</key>
+			<string>StatusCellTextStyle</string>
+			<key>label</key>
+			<string>STATUS_CELL_TEXT_STYLE</string>
+			<key>set</key>
+			<string>setEnableStatusCellTextStyle:specifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>STATUS_CELL</string>
+</dict>
+</plist>

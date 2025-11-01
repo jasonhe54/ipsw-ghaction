@@ -1,0 +1,6 @@
+"HOURS_CAPS" = "{'hours': {'one': '%.f{HR}', 'other': '%.f{HRS}', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@hours@'}";
+"MINUTES_SHORT_CAPS" = "{'minutes': {'other': '%.f{MIN}', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"HOURS_SHORT_CAPS" = "{'hours': {'other': '%.f{HR}', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@hours@'}";
+"MINUTES_CAPS" = "{'minutes': {'one': '%.f{MIN}', 'other': '%.f{MINS}', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"MINUTES_SHORTEST_CAPS" = "{'minutes': {'other': '%.f{M}', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"HOURS_SHORTEST_CAPS" = "{'hours': {'other': '%.f{H}', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@hours@'}";

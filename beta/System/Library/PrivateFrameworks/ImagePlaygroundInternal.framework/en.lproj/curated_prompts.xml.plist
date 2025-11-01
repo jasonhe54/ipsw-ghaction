@@ -1,0 +1,2139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>categories</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Themes</string>
+			</dict>
+			<key>allowsMultipleSelection</key>
+			<true/>
+			<key>displayName</key>
+			<string>Themes</string>
+			<key>id</key>
+			<integer>1</integer>
+			<key>needsPersonalizationUI</key>
+			<false/>
+			<key>shouldUsePersonDescriptionDirective</key>
+			<false/>
+			<key>subjectPriorityIndex</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Expressions</string>
+			</dict>
+			<key>allowsMultipleSelection</key>
+			<false/>
+			<key>displayName</key>
+			<string>Expressions</string>
+			<key>id</key>
+			<integer>2</integer>
+			<key>needsPersonalizationUI</key>
+			<true/>
+			<key>shouldUsePersonDescriptionDirective</key>
+			<true/>
+			<key>subjectPriorityIndex</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Costumes</string>
+			</dict>
+			<key>allowsMultipleSelection</key>
+			<true/>
+			<key>displayName</key>
+			<string>Costumes</string>
+			<key>id</key>
+			<integer>3</integer>
+			<key>needsPersonalizationUI</key>
+			<true/>
+			<key>shouldUsePersonDescriptionDirective</key>
+			<false/>
+			<key>subjectPriorityIndex</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Accessories</string>
+			</dict>
+			<key>allowsMultipleSelection</key>
+			<true/>
+			<key>displayName</key>
+			<string>Accessories</string>
+			<key>id</key>
+			<integer>4</integer>
+			<key>needsPersonalizationUI</key>
+			<true/>
+			<key>shouldUsePersonDescriptionDirective</key>
+			<false/>
+			<key>subjectPriorityIndex</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Places</string>
+			</dict>
+			<key>allowsMultipleSelection</key>
+			<true/>
+			<key>displayName</key>
+			<string>Places</string>
+			<key>id</key>
+			<integer>5</integer>
+			<key>needsPersonalizationUI</key>
+			<false/>
+			<key>shouldUsePersonDescriptionDirective</key>
+			<false/>
+			<key>subjectPriorityIndex</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>prompts</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in front of an orange tent on lush green grass, framed by a tall pine tree</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>an orange tent on lush green grass, framed by a tall pine tree</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Adventure</string>
+				<key>nonSubjectDescription</key>
+				<string>in a survival camping scene in the jungle, snowy mountain, and safari grasslands</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>survival camping in the jungle, snowy mountain, and safari grasslands</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🏕️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Adventure</string>
+			<key>id</key>
+			<integer>1000</integer>
+			<key>unlocalizedName</key>
+			<string>Adventure</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>celebrating with an elegant white cake decorated with strawberries and topped with three glowing candles</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>an elegant white cake decorated with strawberries and topped with three glowing candles</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Birthday</string>
+				<key>nonSubjectDescription</key>
+				<string>at a birthday celebration with decorations and party backdrop</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a birthday celebration with decorations and party backdrop</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🎂</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Birthday</string>
+			<key>id</key>
+			<integer>1001</integer>
+			<key>unlocalizedName</key>
+			<string>Birthday</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in a disco scene with a silver mirror ball</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>silver mirror ball</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Disco</string>
+				<key>nonSubjectDescription</key>
+				<string>in a disco scene with a large reflective disco ball disco festivity</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a disco floor with a large reflective disco ball disco festivity</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🪩</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Disco</string>
+			<key>id</key>
+			<integer>1002</integer>
+			<key>unlocalizedName</key>
+			<string>Disco</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in front of a european castle</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>european castle</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Fantasy</string>
+				<key>nonSubjectDescription</key>
+				<string>in a fantasy theme forest with enchanted plants magical fantasy structures and castles with sparkles</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a jewel-toned fantasy forest with enchanted plants magical fantasy structures and castles with sparkles</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🏰</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Fantasy</string>
+			<key>id</key>
+			<integer>1003</integer>
+			<key>unlocalizedName</key>
+			<string>Fantasy</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in a scene with pink and magenta firework burst with a bright white center, against a dark night sky background</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>pink and magenta firework burst with a bright white center, against a dark night sky background</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Fireworks</string>
+				<key>nonSubjectDescription</key>
+				<string>In a scene celebrating with different colors of fireworks</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a scene celebrating with different colors of fireworks brocade fireworks chrysanthemum fireworks sparkle</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Fireworks</string>
+			<key>id</key>
+			<integer>1004</integer>
+			<key>unlocalizedName</key>
+			<string>Fireworks</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>0</string>
+				<key>localizedDisplayName</key>
+				<string>Halloween</string>
+				<key>nonSubjectDescription</key>
+				<string>all hallows eve festivities with mystical plants spooky creatures creepy structures spirits</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>all hallows eve with mystical plants spooky creatures creepy structures spirits</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🎃</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Halloween</string>
+			<key>id</key>
+			<integer>1005</integer>
+			<key>unlocalizedName</key>
+			<string>Halloween</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>red heart</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>red heart</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Love</string>
+				<key>nonSubjectDescription</key>
+				<string>in a scene with a backdrop of love elements and romantic decorations</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a backdrop of love elements and romantic decorations</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>❤️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Love</string>
+			<key>id</key>
+			<integer>1006</integer>
+			<key>unlocalizedName</key>
+			<string>Love</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>a deep blue starry night sky with a dense band of glowing stars and a dark mountain silhouette below</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a deep blue starry night sky with a dense band of glowing stars and a dark mountain silhouette below</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Starry Night</string>
+				<key>nonSubjectDescription</key>
+				<string>in a night sky view of twinkling stars at midnight</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a sky view backdrop of twinkling stars at midnight</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Starry Night</string>
+			<key>id</key>
+			<integer>1008</integer>
+			<key>unlocalizedName</key>
+			<string>Starry Night</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>a colorful umbrella on a beach with a blue ocean</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a colorful umbrella on a beach with a blue ocean</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Summer</string>
+				<key>nonSubjectDescription</key>
+				<string>in a spring summer setting and summer clear skies</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a spring summer setting and summer clear skies</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🏖️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Summer</string>
+			<key>id</key>
+			<integer>1009</integer>
+			<key>unlocalizedName</key>
+			<string>Summer</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>party popper</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>party popper</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Party</string>
+				<key>nonSubjectDescription</key>
+				<string>in a setting with decorations and party details</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a Party backdrop celebration decorations and party details</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🎉</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Party</string>
+			<key>id</key>
+			<integer>1010</integer>
+			<key>unlocalizedName</key>
+			<string>Party</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>cherry blossom</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>cherry blossom</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Spring</string>
+				<key>nonSubjectDescription</key>
+				<string>in a spring time background with cherry blossoms</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a springtime background with cherry blossoms</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🌸</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Spring</string>
+			<key>id</key>
+			<integer>1011</integer>
+			<key>unlocalizedName</key>
+			<string>Spring</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>0</string>
+				<key>localizedDisplayName</key>
+				<string>Winter Holidays</string>
+				<key>nonSubjectDescription</key>
+				<string>a winter wonderland with snowman frosty</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a winter wonderland with snowman frosty</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>☃️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Winter Holidays</string>
+			<key>id</key>
+			<integer>1012</integer>
+			<key>unlocalizedName</key>
+			<string>Winter Holidays</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in a science fiction scene with elements from outer space and ufos and aliens, space age, futurism</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>UFO</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Sci-fi</string>
+				<key>nonSubjectDescription</key>
+				<string>in a science fiction scene with elements from outer space and ufos and aliens, space age, futurism</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a science fiction landscape with elements from outer space and ufos</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string>🛸</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Sci-Fi</string>
+			<key>id</key>
+			<integer>1013</integer>
+			<key>unlocalizedName</key>
+			<string>Sci-fi</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>sunset over water, featuring a bright sun on the horizon with radiating sunbeams and soft clouds</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>sunset over water, featuring a bright sun on the horizon with radiating sunbeams and soft clouds</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Sunset</string>
+				<key>nonSubjectDescription</key>
+				<string>in a gorgeous setting with a stunning sunset</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a gorgeous setting with a stunning sunset</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>1</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Sunset</string>
+			<key>id</key>
+			<integer>1014</integer>
+			<key>unlocalizedName</key>
+			<string>Sunset</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Artist</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing paint smock with paint brushes paint palette wearing paint smock</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>an easel with a palette and brushes</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧑‍🎨</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Artist</string>
+			<key>id</key>
+			<integer>2001</integer>
+			<key>unlocalizedName</key>
+			<string>Artist</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Astronaut</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing an astronaut spacesuit with helmet</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>an astronaut spacesuit with helmet</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧑‍🚀</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Astronaut</string>
+			<key>id</key>
+			<integer>2002</integer>
+			<key>unlocalizedName</key>
+			<string>Astronaut</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Chef</string>
+				<key>nonSubjectDescription</key>
+				<string>dressed in a white cook's jacket and wearing a chef hat</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a kitchen scene with pots, knife, and cutting board</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧑‍🍳</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Chef</string>
+			<key>id</key>
+			<integer>2003</integer>
+			<key>unlocalizedName</key>
+			<string>Chef</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Farmer</string>
+				<key>nonSubjectDescription</key>
+				<string>dressed in overalls, flannel shirt, feed cap, farming</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a farming landscape with tractor</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧑‍🌾</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Farmer</string>
+			<key>id</key>
+			<integer>2004</integer>
+			<key>unlocalizedName</key>
+			<string>Farmer</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a large backpack and hiking pole, walking on a mountain path with grey mountains and green trees</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string>1</string>
+				<key>genmojiSubjectDescription</key>
+				<string>a hiker with a large backpack and hiking pole, walking on a mountain path with grey mountains and green trees</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Hiker</string>
+				<key>nonSubjectDescription</key>
+				<string>with hiking gear and backpacking, day trekking</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>hiking gear</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Hiker</string>
+			<key>id</key>
+			<integer>2007</integer>
+			<key>unlocalizedName</key>
+			<string>Hiker</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>a white racing helmet with red stripes and a black visor</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string>1</string>
+				<key>genmojiSubjectDescription</key>
+				<string>a white racing helmet with red stripes and a black visor</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Race Car Driver</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a padded grand prix car racing suit</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a car racing helmet</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Racecar Driver</string>
+			<key>id</key>
+			<integer>2010</integer>
+			<key>unlocalizedName</key>
+			<string>Race Car Driver</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>with bionic steampunk robotic facepieces dressed like terminator</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>robot face</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Robot</string>
+				<key>nonSubjectDescription</key>
+				<string>with bionic steampunk robotic facepieces dressed like terminator</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a friendly steampunk terminator robot</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🤖</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Robot</string>
+			<key>id</key>
+			<integer>2012</integer>
+			<key>unlocalizedName</key>
+			<string>Robot</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a crown</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>crown</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Royalty</string>
+				<key>nonSubjectDescription</key>
+				<string>dressed as royalty, wearing crown, ruffles, pearl necklaces, big gemstones, gold</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a royal crown, pearl necklaces, royal jewels, lots of gold</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>👑</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Royalty</string>
+			<key>id</key>
+			<integer>2013</integer>
+			<key>unlocalizedName</key>
+			<string>Royalty</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Scientist</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a white science lab coat and safety goggles</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a science lab with beakers and test tubes</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧑‍🔬</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Scientist</string>
+			<key>id</key>
+			<integer>2014</integer>
+			<key>unlocalizedName</key>
+			<string>Scientist</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Superhero</string>
+				<key>nonSubjectDescription</key>
+				<string>dressed very heroic, wearing super spandex, with a cape and superpowers</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>the super mask of a marvelous hero lying flat on the sidewalk super inclusive design</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🦸</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Superhero</string>
+			<key>id</key>
+			<integer>2015</integer>
+			<key>unlocalizedName</key>
+			<string>Superhero</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Mage</string>
+				<key>nonSubjectDescription</key>
+				<string>as a mage with magical robes and hat and sparkles</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>the hat of a mage and enchanted staff with sparkles and fantasy backdrop</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧙</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Mage</string>
+			<key>id</key>
+			<integer>2019</integer>
+			<key>unlocalizedName</key>
+			<string>Mage</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string></string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string></string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Vampire</string>
+				<key>nonSubjectDescription</key>
+				<string>dressed as vamp in a black and red collared cape with fangs and bats</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a black coffin, creepy bats and fantasy vamp elements, medieval</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>3</integer>
+			<key>emojiRepresentation</key>
+			<string>🧛</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Vampire</string>
+			<key>id</key>
+			<integer>2020</integer>
+			<key>unlocalizedName</key>
+			<string>Vampire</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a blue baseball cap</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>blue baseball cap</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Baseball Cap</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a baseball cap with random logo and team colors</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a baseball cap with random logo and team colors</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string>🧢</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Baseball Cap</string>
+			<key>id</key>
+			<integer>3011</integer>
+			<key>unlocalizedName</key>
+			<string>Baseball Cap</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing an orange beanie hat</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>an orange beanie hat</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Beanie</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a small close fitted knit hat in random color and pattern</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a small close fitted knit hat in random color and style lying flat</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Beanie</string>
+			<key>id</key>
+			<integer>3012</integer>
+			<key>unlocalizedName</key>
+			<string>Beanie</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a red color beret</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>red color beret</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Beret</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a beret in an appropriate color</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a beret in a common color lying flat</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Beret</string>
+			<key>id</key>
+			<integer>3013</integer>
+			<key>unlocalizedName</key>
+			<string>Beret</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a purple bowtie</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a purple bowtie</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Bowtie</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a stylish bowtie for an event</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a stylish bowtie for an event sat ready</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Bowtie</string>
+			<key>id</key>
+			<integer>3014</integer>
+			<key>unlocalizedName</key>
+			<string>Bowtie</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a flower tiara made from a variety of flower types in various colors sat flat</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a flower tiara made from a variety of flower types in various colors sat flat</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Flower Crown</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing  a variety of flowers types in various colors as a fabulous floral tiara</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a flower tiara made from a variety of flower types in various colors sat flat</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Flower Crown</string>
+			<key>id</key>
+			<integer>3015</integer>
+			<key>unlocalizedName</key>
+			<string>Flower Crown</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a yellow color construction helmet facing slightly right</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>yellow color construction helmet facing slightly right</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Hard Hat</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a construction hard hat cap-style in a random color</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a construction hard hat cap-style from construction site</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Hard Hat</string>
+			<key>id</key>
+			<integer>3016</integer>
+			<key>unlocalizedName</key>
+			<string>Hard Hat</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a party hat and a party horn, surrounded by colorful confetti</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>smiley emoji with a party hat and a party horn, surrounded by colorful confetti</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Party Hat</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a party hat with fancy embellishments and fun patterns on the hat</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a party hat surrounded by elements of celebration</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string>🥳</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Party Hat</string>
+			<key>id</key>
+			<integer>3017</integer>
+			<key>unlocalizedName</key>
+			<string>Party Hat</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>potted plant inside a terracotta pot</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>potted plant inside a terracotta pot</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Potted Plant</string>
+				<key>nonSubjectDescription</key>
+				<string>having a potted Luscious and healthy Fiddle leaf Snake-Plant Ivy spider-plant monstera vines money-plant</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>luscious and healthy Fiddle leaf Snake-Plant Ivy spider-plant monstera vines money-plant</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string>🪴</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Potted Plant</string>
+			<key>id</key>
+			<integer>3018</integer>
+			<key>unlocalizedName</key>
+			<string>Potted Plant</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a sunglasses</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>sunglasses</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Sunglasses</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a stylish pair of sunglasses with polarized opaque black lenses</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a pair of stylish sunglasses with dark lenses and frames</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string>🕶️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Sunglasses</string>
+			<key>id</key>
+			<integer>3019</integer>
+			<key>unlocalizedName</key>
+			<string>Sunglasses</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a random knitted scarf</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>red scarf</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Scarf</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a random knitted scarf</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a multicolored knitted scarf</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string>🧣</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Scarf</string>
+			<key>id</key>
+			<integer>3020</integer>
+			<key>unlocalizedName</key>
+			<string>Scarf</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing an orange and white stripe sweatband with blue sweat droplet</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a grinning emoji wearing an orange and white stripe sweatband with blue sweat droplet</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Sweatband</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a colorful athletic sweatband sports sweatband headband</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a colorful athletic sweatband  sports sweatband for product photography</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Sweatband</string>
+			<key>id</key>
+			<integer>3021</integer>
+			<key>unlocalizedName</key>
+			<string>Sweatband</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>wearing a top hat</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>top hat</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Top Hat</string>
+				<key>nonSubjectDescription</key>
+				<string>wearing a top hat of any style or from any era</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a formal top hat for a fancy event set for product photography with various ribbons, confetti poppers, and accents</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>4</integer>
+			<key>emojiRepresentation</key>
+			<string>🎩</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Top Hat</string>
+			<key>id</key>
+			<integer>3022</integer>
+			<key>unlocalizedName</key>
+			<string>Top Hat</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>a city block with a tall golden skyscraper and many other tall buildings on a green base</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a city block with a tall golden skyscraper and many other tall buildings on a green base</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>City</string>
+				<key>nonSubjectDescription</key>
+				<string>against the backdrop of a city street landscape skyline skyscrapers scene day night city buildings</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a contemporary urban scape dominated by towering skyscrapers and high rise structures</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>City</string>
+			<key>id</key>
+			<integer>4007</integer>
+			<key>unlocalizedName</key>
+			<string>City</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>a desert landscape with light brown sand dunes and a green cactus</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a desert landscape with light brown sand dunes and a green cactus</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Desert</string>
+				<key>nonSubjectDescription</key>
+				<string>in a desert landscape</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a desert landscape with various Sahara structures sand dunes cracked land Acacia in random times of day or night</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Desert</string>
+			<key>id</key>
+			<integer>4008</integer>
+			<key>unlocalizedName</key>
+			<string>Desert</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in a park scene with a large green leafy tree, two smaller trees, and a wooden bench on grass</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a forest scene with three green pine trees on a patch of grass</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Forest</string>
+				<key>nonSubjectDescription</key>
+				<string>against a forest background with deciduous trees and broadleaf trees coniferous trees evergreen</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a lush forest teeming with diverse species of verdant trees</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Forest</string>
+			<key>id</key>
+			<integer>4009</integer>
+			<key>unlocalizedName</key>
+			<string>Forest</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in front of a red and white striped lighthouse with a glowing blue light in the lantern</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a red and white striped lighthouse with a glowing blue light in the lantern</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Lighthouse</string>
+				<key>nonSubjectDescription</key>
+				<string>at a fantastical lighthouse in a variety of settings</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>an fantasy lighthouse in a costal settings with random scenes in various colors and structure, weather</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Lighthouse</string>
+			<key>id</key>
+			<integer>4010</integer>
+			<key>unlocalizedName</key>
+			<string>Lighthouse</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>mountains</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>mountains</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Mountains</string>
+				<key>nonSubjectDescription</key>
+				<string>in a mountainous setting at various times midday bright morning noon twilight night alps</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a mountain range with various plants and formations and random time of day or night, alpine</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string>🏔️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Mountains</string>
+			<key>id</key>
+			<integer>4011</integer>
+			<key>unlocalizedName</key>
+			<string>Mountains</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in a park scene with a large green leafy tree, two smaller trees, and a wooden bench on grass</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a park scene with a large green leafy tree, two smaller trees, and a wooden bench on grass</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Park</string>
+				<key>nonSubjectDescription</key>
+				<string>with a serene park backdrop in various settings with park flora and structures</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>0x1F304</string>
+				<key>subjectDescription</key>
+				<string>a serene park settings with park flora</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Park</string>
+			<key>id</key>
+			<integer>4012</integer>
+			<key>unlocalizedName</key>
+			<string>Park</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>an outer space setting with a ringed planet resembling Saturn with a beige and yellow surface</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a ringed planet resembling Saturn with a beige and yellow surface</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Space</string>
+				<key>nonSubjectDescription</key>
+				<string>an outer space setting</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a galaxy view of outer space with stars, comets, planets and moons</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string>🪐</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Space</string>
+			<key>id</key>
+			<integer>4013</integer>
+			<key>unlocalizedName</key>
+			<string>Space</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>a circular stadium with a gray exterior, red seating, a green field, and a scoreboard</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a circular stadium with a gray exterior, red seating, a green field, and a scoreboard</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Stadium</string>
+				<key>nonSubjectDescription</key>
+				<string>in a stadium</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a sports stadium</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string>🏟️</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Stadium</string>
+			<key>id</key>
+			<integer>4014</integer>
+			<key>unlocalizedName</key>
+			<string>Stadium</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>microphone</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>microphone</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Stage</string>
+				<key>nonSubjectDescription</key>
+				<string>with the backdrop of a performance stage various structures and lighting </string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a stage with random rigging and various lighting for different events</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string>🎤</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Stage</string>
+			<key>id</key>
+			<integer>4015</integer>
+			<key>unlocalizedName</key>
+			<string>Stage</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in an island setting with background of volcano erupting with white smoke and orange lava</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>volcano erupting with white smoke and orange lava</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Volcano</string>
+				<key>nonSubjectDescription</key>
+				<string>a volcano background in various settings and random eruption</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a volcano background settings with random structures and eruptions</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string>🌋</string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Volcano</string>
+			<key>id</key>
+			<integer>4017</integer>
+			<key>unlocalizedName</key>
+			<string>Volcano</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>in an open grasslands or savanna with various grasses herbs and other prairie flora</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>a rainforest scene featuring a toucan perched on a branch amid lush green foliage</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Rainforest</string>
+				<key>nonSubjectDescription</key>
+				<string>in the tropical rainforest with various tropical flora and wildlife</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>a tropical rainforest with various tropical flora</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Rainforest</string>
+			<key>id</key>
+			<integer>4018</integer>
+			<key>unlocalizedName</key>
+			<string>Rainforest</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>with background of a prairie land with yellow sandy dunes and green bushes</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>isometric view of a prairie land with yellow sandy dunes and green bushes</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Prairie</string>
+				<key>nonSubjectDescription</key>
+				<string>in an open grasslands or savanna with various grasses herbs and other prairie flora</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>subjectDescription</key>
+				<string>an open grasslands or savanna with various grasses herbs and other prairie flora</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>5</integer>
+			<key>emojiRepresentation</key>
+			<string></string>
+			<key>forcesPersonalization</key>
+			<false/>
+			<key>iconFilename</key>
+			<string>Prairie</string>
+			<key>id</key>
+			<integer>4019</integer>
+			<key>unlocalizedName</key>
+			<string>Prairie</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>with tears of joy</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>smiley with tears of joy</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Laugh</string>
+				<key>nonSubjectDescription</key>
+				<string>with laughing expression</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with laughing expression</string>
+				<key>subjectDescription</key>
+				<string>with laughing expression</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>😂</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Laugh</string>
+			<key>id</key>
+			<integer>5000</integer>
+			<key>unlocalizedName</key>
+			<string>Laugh</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>smiling with smiling eyes</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>smiling smiley with smiling eyes</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Happy</string>
+				<key>nonSubjectDescription</key>
+				<string>with a smiling expression</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with a smiling expression</string>
+				<key>subjectDescription</key>
+				<string>with a smiling expression</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>😊</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Happy</string>
+			<key>id</key>
+			<integer>5001</integer>
+			<key>unlocalizedName</key>
+			<string>Happy</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>red angry face</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>red angry smiley</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Angry</string>
+				<key>nonSubjectDescription</key>
+				<string>with angry expression</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with angry expression</string>
+				<key>subjectDescription</key>
+				<string>with angry expression</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>😡</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Angry</string>
+			<key>id</key>
+			<integer>5002</integer>
+			<key>unlocalizedName</key>
+			<string>Angry</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>crying face</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>crying smiley</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Sad</string>
+				<key>nonSubjectDescription</key>
+				<string>with sad expression</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with sad expression</string>
+				<key>subjectDescription</key>
+				<string>with sad expression</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>😢</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Sad</string>
+			<key>id</key>
+			<integer>5003</integer>
+			<key>unlocalizedName</key>
+			<string>Sad</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>astonished face</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>astonished smiley</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Shocked</string>
+				<key>nonSubjectDescription</key>
+				<string>with a shocked expression</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with a shocked expression</string>
+				<key>subjectDescription</key>
+				<string>with a shocked expression</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>😲</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Shocked</string>
+			<key>id</key>
+			<integer>5005</integer>
+			<key>unlocalizedName</key>
+			<string>Shocked</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>with hearts on eyes</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>smiley with hearts on eyes</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Love</string>
+				<key>nonSubjectDescription</key>
+				<string>with heart shaped sunglasses and dark lenses</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with heart shaped sunglasses and dark lenses</string>
+				<key>subjectDescription</key>
+				<string>with heart shaped sunglasses and dark lenses</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>😍</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>LoveExpression</string>
+			<key>id</key>
+			<integer>5006</integer>
+			<key>unlocalizedName</key>
+			<string>Love</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>thinking face</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>thinking smiley</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Thinking</string>
+				<key>nonSubjectDescription</key>
+				<string>with a hand on the chin and thinking of something</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with a hand on the chin and thinking of something</string>
+				<key>subjectDescription</key>
+				<string>with a hand on the chin and thinking of something</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>🤔</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Thinking</string>
+			<key>id</key>
+			<integer>5007</integer>
+			<key>unlocalizedName</key>
+			<string>Thinking</string>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>genmojiNonSubjectDescription</key>
+				<string>thumbs up</string>
+				<key>genmojiNonSubjectPersonalizationDescription</key>
+				<string></string>
+				<key>genmojiShouldAutomatchPersonalization</key>
+				<string></string>
+				<key>genmojiSubjectDescription</key>
+				<string>Thumbs up</string>
+				<key>isDisplayed</key>
+				<string>1</string>
+				<key>localizedDisplayName</key>
+				<string>Thumbs Up</string>
+				<key>nonSubjectDescription</key>
+				<string>with their thumbs up</string>
+				<key>nonSubjectPersonalizationDescription</key>
+				<string>with their thumbs up</string>
+				<key>subjectDescription</key>
+				<string>with their thumbs up</string>
+			</dict>
+			<key>categoryID</key>
+			<integer>2</integer>
+			<key>emojiRepresentation</key>
+			<string>👍</string>
+			<key>forcesPersonalization</key>
+			<true/>
+			<key>iconFilename</key>
+			<string>Thumbs Up</string>
+			<key>id</key>
+			<integer>5010</integer>
+			<key>unlocalizedName</key>
+			<string>Thumbs Up</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>202509120917</string>
+</dict>
+</plist>

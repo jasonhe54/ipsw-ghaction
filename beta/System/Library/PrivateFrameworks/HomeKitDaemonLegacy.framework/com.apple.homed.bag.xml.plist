@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ActivationCertificateHostname</key>
+	<string>static.ips.apple.com</string>
+	<key>ActivationHostname</key>
+	<string>albert.apple.com</string>
+	<key>HomeKitReportRetry</key>
+	<dict>
+		<key>MaxRetryValue</key>
+		<real>1024</real>
+		<key>MinRetryValue</key>
+		<real>0.25</real>
+		<key>RequestTimeout</key>
+		<integer>60</integer>
+		<key>RetryFactor</key>
+		<integer>4</integer>
+	</dict>
+	<key>HomeKitReportUrl</key>
+	<string>https://report.homekit.push.apple.com/report</string>
+</dict>
+</plist>

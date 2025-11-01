@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>spiralboook_bottom.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>19</integer>
+	<key>Bottom Left</key>
+	<string>spiralboook_ll.png</string>
+	<key>Bottom Right</key>
+	<string>spiralboook_lr.png</string>
+	<key>Left</key>
+	<string>spiralboook_left.png</string>
+	<key>Left Frame Inset</key>
+	<integer>0</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.10000000000000001</real>
+	<key>Right</key>
+	<string>spiralboook_right.png</string>
+	<key>Right Frame Inset</key>
+	<integer>0</integer>
+	<key>Stretch Tiles</key>
+	<integer>1</integer>
+	<key>Top</key>
+	<string>spiralboook_top.png</string>
+	<key>Top Frame Inset</key>
+	<integer>10</integer>
+	<key>Top Left</key>
+	<string>spiralboook_ul.png</string>
+	<key>Top Right</key>
+	<string>spiralboook_ur.png</string>
+	<key>name</key>
+	<string>Spiral</string>
+	<key>preview-image</key>
+	<string>Spiral_thumbnail.png</string>
+</dict>
+</plist>

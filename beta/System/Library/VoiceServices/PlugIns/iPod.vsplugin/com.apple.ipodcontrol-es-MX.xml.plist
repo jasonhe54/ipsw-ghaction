@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>reproducir</string>
+				<string>reproducir música</string>
+				<string>reproduce</string>
+				<string>reproduce música</string>
+				<string>play</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pausa</string>
+				<string>música en pausa</string>
+				<string>pausar</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>reproducir</string>
+				<string>seleccionar</string>
+				<string>reproduce</string>
+				<string>selecciona</string>
+				<string>saltar a</string>
+				<string>salta a</string>
+				<string>saltar al</string>
+				<string>salta al</string>
+				<string>poner</string>
+				<string>pon</string>
+				<string>pasar a</string>
+				<string>pasa a</string>
+				<string>pasar al</string>
+				<string>pasa al</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>siguiente</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>anterior</string>
+				<string>previo</string>
+				<string>previa</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>aleatorio</string>
+				<string>desordenado</string>
+				<string>desordenar</string>
+				<string>desordena</string>
+				<string>mezclado</string>
+				<string>mezcla</string>
+				<string>shuffle</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pista</string>
+				<string>canción</string>
+				<string>tema</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>lista</string>
+				<string>lista de reproducción</string>
+				<string>la lista</string>
+				<string>la lista de reproducción</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>canciones de</string>
+				<string>pistas de</string>
+				<string>temas de</string>
+				<string>artista</string>
+				<string>cantante</string>
+				<string>grupo</string>
+				<string>las canciones de</string>
+				<string>las pistas de</string>
+				<string>los temas de</string>
+				<string>el artista</string>
+				<string>el cantante</string>
+				<string>el grupo</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>álbum</string>
+				<string>disco</string>
+				<string>el álbum</string>
+				<string>el disco</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypePersonName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>reproducir canciones similares a ésta</string>
+				<string>reproducir temas similares a éste</string>
+				<string>reproducir más como ésta</string>
+				<string>reproducir más como éste</string>
+				<string>poner canciones similares a ésta</string>
+				<string>poner temas similares a éste</string>
+				<string>poner más como ésta</string>
+				<string>poner más como éste</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>qué canción es</string>
+				<string>qué tema es</string>
+				<string>cómo se llama esta canción</string>
+				<string>cómo se llama este tema</string>
+				<string>quién canta esta canción</string>
+				<string>quién canta este tema</string>
+				<string>qué suena</string>
+				<string>qué está sonando</string>
+				<string>de quién es esta canción</string>
+				<string>de quién es este tema</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>reproducir</string>
+			<string>reproducir música</string>
+			<string>reproduce</string>
+			<string>reproduce música</string>
+			<string>play</string>
+		</array>
+		<array>
+			<string>pausa</string>
+			<string>música en pausa</string>
+			<string>pausar</string>
+		</array>
+		<array>
+			<string>pista siguiente</string>
+			<string>canción siguiente</string>
+			<string>tema siguiente</string>
+		</array>
+		<array>
+			<string>pista anterior</string>
+			<string>canción anterior</string>
+			<string>tema anterior</string>
+			<string>pista previa</string>
+			<string>canción previa</string>
+			<string>tema previo</string>
+		</array>
+		<array>
+			<string>aleatorio</string>
+			<string>desordenado</string>
+			<string>desordenar</string>
+			<string>desordena</string>
+			<string>mezclado</string>
+			<string>mezcla</string>
+			<string>shuffle</string>
+		</array>
+		<array>
+			<string>reproducir álbum</string>
+			<string>seleccionar álbum</string>
+			<string>reproduce álbum</string>
+			<string>selecciona álbum</string>
+			<string>saltar al álbum</string>
+			<string>salta al álbum</string>
+			<string>poner álbum</string>
+			<string>pon álbum</string>
+			<string>pasar al álbum</string>
+			<string>pasa al álbum</string>
+			<string>reproducir disco</string>
+			<string>seleccionar disco</string>
+			<string>reproduce disco</string>
+			<string>selecciona disco</string>
+			<string>saltar al disco</string>
+			<string>salta al disco</string>
+			<string>poner disco</string>
+			<string>pon disco</string>
+			<string>pasar al disco</string>
+			<string>pasa al disco</string>
+		</array>
+		<array>
+			<string>reproducir canciones de</string>
+			<string>seleccionar canciones de</string>
+			<string>reproduce canciones de</string>
+			<string>selecciona canciones de</string>
+			<string>saltar a canciones de</string>
+			<string>salta a canciones de</string>
+			<string>poner canciones de</string>
+			<string>pon canciones de</string>
+			<string>pasar a canciones de</string>
+			<string>pasa a canciones de</string>
+			<string>reproducir pistas de</string>
+			<string>seleccionar pistas de</string>
+			<string>reproduce pistas de</string>
+			<string>selecciona pistas de</string>
+			<string>saltar a pistas de</string>
+			<string>salta a pistas de</string>
+			<string>poner pistas de</string>
+			<string>pon pistas de</string>
+			<string>pasar a pistas de</string>
+			<string>pasa a pistas de</string>
+			<string>reproducir temas de</string>
+			<string>seleccionar temas de</string>
+			<string>reproduce temas de</string>
+			<string>selecciona temas de</string>
+			<string>saltar a temas de</string>
+			<string>salta a temas de</string>
+			<string>poner temas de</string>
+			<string>pon temas de</string>
+			<string>pasar a temas de</string>
+			<string>pasa a temas de</string>
+			<string>reproducir las canciones de</string>
+			<string>seleccionar las canciones de</string>
+			<string>reproduce las canciones de</string>
+			<string>selecciona las canciones de</string>
+			<string>saltar a las canciones de</string>
+			<string>salta a las canciones de</string>
+			<string>poner las canciones de</string>
+			<string>pon las canciones de</string>
+			<string>pasar a las canciones de</string>
+			<string>pasa a las canciones de</string>
+			<string>reproducir las pistas de</string>
+			<string>seleccionar las pistas de</string>
+			<string>reproduce las pistas de</string>
+			<string>selecciona las pistas de</string>
+			<string>saltar a las pistas de</string>
+			<string>salta a las pistas de</string>
+			<string>poner las pistas de</string>
+			<string>pon las pistas de</string>
+			<string>pasar a las pistas de</string>
+			<string>pasa a las pistas de</string>
+			<string>reproducir los temas de</string>
+			<string>seleccionar los temas de</string>
+			<string>reproduce los temas de</string>
+			<string>selecciona los temas de</string>
+			<string>saltar a los temas de</string>
+			<string>salta a los temas de</string>
+			<string>poner los temas de</string>
+			<string>pon los temas de</string>
+			<string>pasar a los temas de</string>
+			<string>pasa a los temas de</string>
+			<string>reproducir artista</string>
+			<string>seleccionar artista</string>
+			<string>reproduce artista</string>
+			<string>selecciona artista</string>
+			<string>poner artista</string>
+			<string>pon artista</string>
+			<string>reproducir cantante</string>
+			<string>seleccionar cantante</string>
+			<string>reproduce cantante</string>
+			<string>selecciona cantante</string>
+			<string>poner cantante</string>
+			<string>pon cantante</string>
+			<string>reproducir grupo</string>
+			<string>seleccionar grupo</string>
+			<string>reproduce grupo</string>
+			<string>selecciona grupo</string>
+			<string>poner grupo</string>
+			<string>pon grupo</string>
+			<string>reproducir el artista</string>
+			<string>seleccionar el artista</string>
+			<string>reproduce el artista</string>
+			<string>selecciona el artista</string>
+			<string>poner el artista</string>
+			<string>pon el artista</string>
+			<string>reproducir el cantante</string>
+			<string>seleccionar el cantante</string>
+			<string>reproduce el cantante</string>
+			<string>selecciona el cantante</string>
+			<string>poner el cantante</string>
+			<string>pon el cantante</string>
+			<string>reproducir el grupo</string>
+			<string>seleccionar el grupo</string>
+			<string>reproduce el grupo</string>
+			<string>selecciona el grupo</string>
+			<string>poner el grupo</string>
+			<string>pon el grupo</string>
+			<string>pasar al artista</string>
+			<string>pasa al artista</string>
+			<string>saltar al artista</string>
+			<string>salta al artista</string>
+			<string>pasar al cantante</string>
+			<string>pasa al cantante</string>
+			<string>saltar al cantante</string>
+			<string>salta al cantante</string>
+			<string>pasar al</string>
+			<string>pasa al grupo</string>
+			<string>saltar al grupo</string>
+			<string>salta al grupo</string>
+		</array>
+		<array>
+			<string>reproducir lista</string>
+			<string>seleccionar lista</string>
+			<string>reproduce lista</string>
+			<string>selecciona lista</string>
+			<string>saltar a lista</string>
+			<string>salta a lista</string>
+			<string>poner lista</string>
+			<string>pon lista</string>
+			<string>pasar a lista</string>
+			<string>pasa a lista</string>
+			<string>reproducir lista de reproducción</string>
+			<string>seleccionar lista de reproducción</string>
+			<string>reproduce lista de reproducción</string>
+			<string>selecciona lista de reproducción</string>
+			<string>saltar a lista de reproducción</string>
+			<string>salta a lista de reproducción</string>
+			<string>poner lista de reproducción</string>
+			<string>pon lista de reproducción</string>
+			<string>pasar a lista de reproducción</string>
+			<string>pasa a lista de reproducción</string>
+			<string>reproducir la lista</string>
+			<string>seleccionar la lista</string>
+			<string>reproduce la lista</string>
+			<string>selecciona la lista</string>
+			<string>saltar a la lista</string>
+			<string>salta a la lista</string>
+			<string>poner la lista</string>
+			<string>pon la lista</string>
+			<string>pasar a la lista</string>
+			<string>pasa a la lista</string>
+			<string>reproducir la lista de reproducción</string>
+			<string>seleccionar la lista de reproducción</string>
+			<string>reproduce la lista de reproducción</string>
+			<string>selecciona la lista de reproducción</string>
+			<string>saltar a la lista de reproducción</string>
+			<string>salta a la lista de reproducción</string>
+			<string>poner la lista de reproducción</string>
+			<string>pon la lista de reproducción</string>
+			<string>pasar a la lista de reproducción</string>
+			<string>pasa a la lista de reproducción</string>
+		</array>
+		<array>
+			<string>Genius</string>
+			<string>reproducir canciones similares a ésta</string>
+			<string>reproducir temas similares a éste</string>
+			<string>reproducir más como ésta</string>
+			<string>reproducir más como éste</string>
+			<string>poner canciones similares a ésta</string>
+			<string>poner temas similares a éste</string>
+			<string>poner más como ésta</string>
+			<string>poner más como éste</string>
+		</array>
+		<array>
+			<string>¿qué canción es?</string>
+			<string>¿qué tema es?</string>
+			<string>¿cómo se llama esta canción?</string>
+			<string>¿cómo se llama este tema?</string>
+			<string>¿quién canta esta canción?</string>
+			<string>¿quién canta este tema?</string>
+			<string>¿qué suena?</string>
+			<string>¿qué está sonando?</string>
+			<string>¿de quién es esta canción?</string>
+			<string>¿de quién es este tema?</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-prev-object</string>
+				<string>next-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-prev-object</string>
+				<string>prev-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

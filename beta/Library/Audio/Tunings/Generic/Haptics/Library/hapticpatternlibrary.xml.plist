@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConnectedToPower</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/ConnectedToPower.ahap</string>
+	<key>DeviceSilenced</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/DeviceSilenced.ahap</string>
+	<key>DeviceUnsilenced</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/DeviceUnsilenced.ahap</string>
+	<key>HardwareButtonGenericToggle</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/HardwareButtonGenericToggle.ahap</string>
+	<key>KeyboardDeletion</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardDeletion.ahap</string>
+	<key>KeyboardDeletionRapid</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardDeletionRapid.ahap</string>
+	<key>KeyboardDeletionRepeat</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardDeletionRepeat.ahap</string>
+	<key>KeyboardInputCandidate</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardInputCandidate.ahap</string>
+	<key>KeyboardInputSeparator</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardInputSeparator.ahap</string>
+	<key>KeyboardInputText</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardInputText.ahap</string>
+	<key>KeyboardOther</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardOther.ahap</string>
+	<key>KeyboardSwitchMode</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/KeyboardSwitchMode.ahap</string>
+	<key>NameDropConnectedPrimaryDevice</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/NameDropConnectedPrimaryDevice.ahap</string>
+	<key>NameDropConnectedSecondaryDevice</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/NameDropConnectedSecondaryDevice.ahap</string>
+	<key>NameDropHintingPrimaryDevice</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/NameDropHintingPrimaryDevice.ahap</string>
+	<key>NameDropHintingSecondaryDevice</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/NameDropHintingSecondaryDevice.ahap</string>
+	<key>ScreenLocked</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/ScreenLocked.ahap</string>
+	<key>TestPattern01</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/TestPattern01.ahap</string>
+	<key>TestPattern02</key>
+	<string>/Library/Audio/Tunings/Generic/Haptics/Patterns/TestPattern02.ahap</string>
+</dict>
+</plist>

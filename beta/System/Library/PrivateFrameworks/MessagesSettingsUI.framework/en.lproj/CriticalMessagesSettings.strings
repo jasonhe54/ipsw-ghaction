@@ -1,0 +1,7 @@
+"CRITICAL_MESSAGES_FOOTER" = "Apps that have requested permission to send critical messages as text messages will appear here.";
+"CRITICAL_MESSAGES_DETAIL_FOOTER" = "You will receive a notification when %@ sends a critical message to";
+"CRITICAL_MESSAGES_DETAIL_PLURAL" = "You will receive a notification when %@ sends a critical message to these numbers.";
+"CRITICAL_MESSAGES" = "Critical Messages";
+"CRITICAL_MESSAGES_DETAIL_HEADER" = "ALLOW MESSAGES TO";
+"CRITICAL_MESSAGES_DETAIL_SINGULAR" = "You will receive a notification when %@ sends a critical message to this number.";
+"CRITICAL_MESSAGES_PHONE_NUMBER_COUNT" = "{'value': {'one': '%lld number', 'other': '%lld numbers', 'zero': 'None', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";

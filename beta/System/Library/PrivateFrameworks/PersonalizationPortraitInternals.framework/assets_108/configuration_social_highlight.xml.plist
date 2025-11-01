@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CacheTimeoutInterval</key>
+	<real>21600</real>
+	<key>FeedbackDeletionInterval</key>
+	<real>2592000</real>
+	<key>HighlightDecayInterval</key>
+	<real>31536000</real>
+	<key>MaxNumHighlights</key>
+	<integer>64</integer>
+	<key>MaxRelevantContacts</key>
+	<integer>10</integer>
+	<key>MetricReportingInterval</key>
+	<real>2419200</real>
+	<key>RankedStorageMaxAge</key>
+	<integer>22500</integer>
+	<key>TopKCount</key>
+	<integer>1</integer>
+</dict>
+</plist>

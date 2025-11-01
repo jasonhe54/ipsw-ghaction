@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIdentifier</key>
+	<string>com.apple.SiriMetrics.SiriTurnRestatementExtension</string>
+	<key>name</key>
+	<string>com.apple.siri.metrics.SiriTurnRestatement</string>
+	<key>taskRequest</key>
+	<dict>
+		<key>groupConcurrencyLimit</key>
+		<integer>1</integer>
+		<key>groupName</key>
+		<string>com.apple.siri.metrics.SiriTurnRestatement</string>
+		<key>repeatingTask</key>
+		<dict>
+			<key>interval</key>
+			<integer>21600</integer>
+			<key>minDurationBetweenInstances</key>
+			<integer>17280</integer>
+		</dict>
+		<key>requiresClassC</key>
+		<true/>
+		<key>requiresExternalPower</key>
+		<true/>
+		<key>requiresUserInactivity</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

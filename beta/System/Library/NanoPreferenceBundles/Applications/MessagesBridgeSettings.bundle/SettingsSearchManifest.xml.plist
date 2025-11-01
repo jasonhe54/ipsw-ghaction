@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>REPEAT_ALERTS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.MessagesBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.MessagesBridgeSettings&amp;path=PLAY_ALERT_TONE</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>AUDIO_MESSAGES</string>
+			<key>searchSectionID</key>
+			<string>com.apple.MessagesBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.MessagesBridgeSettings&amp;path=AudioMessagesMode</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>DEFAULT_REPLIES</string>
+			<key>searchSectionID</key>
+			<string>com.apple.MessagesBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.MessagesBridgeSettings&amp;path=DEFAULT_REPLIES</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>SEND_READ_RECEIPTS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.MessagesBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.MessagesBridgeSettings%23READ_RECEIPTS</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SettingsSearchManifest</string>
+</dict>
+</plist>

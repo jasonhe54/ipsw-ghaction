@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contextual_telemetry</key>
+	<string>NO</string>
+	<key>maximum_duration</key>
+	<real>20</real>
+	<key>name</key>
+	<string>CatchUpNotificationPipeline</string>
+	<key>signposts</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>NotificationsPipelineSignpost</string>
+			<key>diagnostics</key>
+			<array>
+				<dict>
+					<key>gather_tailspin</key>
+					<true/>
+					<key>option_tailspin_includes_oslogs</key>
+					<true/>
+					<key>trigger_threshold_duration_single</key>
+					<integer>9</integer>
+				</dict>
+			</array>
+			<key>end</key>
+			<true/>
+			<key>name</key>
+			<string>NotificationPipeline</string>
+			<key>start</key>
+			<true/>
+			<key>subsystem</key>
+			<string>com.apple.summarization</string>
+		</dict>
+	</array>
+</dict>
+</plist>

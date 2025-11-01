@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>os</key>
+	<array>
+		<dict>
+			<key>aggregateStatistics</key>
+			<array>
+				<string>Mean</string>
+				<string>P75</string>
+				<string>Median</string>
+				<string>Min</string>
+				<string>Max</string>
+				<string>SD</string>
+			</array>
+			<key>assertExists</key>
+			<true/>
+			<key>category</key>
+			<string>UpdateCycleIdleScheduler</string>
+			<key>description</key>
+			<string>NotifyIdleObservers</string>
+			<key>name</key>
+			<string>NotifyIdleObservers</string>
+			<key>subsystem</key>
+			<string>com.apple.UIKit</string>
+			<key>targetTests</key>
+			<array>
+				<string>HomeRealisticScrollPortrait</string>
+				<string>HomeLinearScrollPortrait</string>
+				<string>HomeFastScrollPortrait</string>
+				<string>BrowseRealisticScrollPortrait</string>
+				<string>BrowseLinearScrollPortrait</string>
+				<string>BrowseFastScrollPortrait</string>
+				<string>RadioRealisticScrollPortrait</string>
+				<string>RadioLinearScrollPortrait</string>
+				<string>RadioFastScrollPortrait</string>
+				<string>ArtistDetailRealisticScrollPortrait</string>
+				<string>ArtistDetailLinearScrollPortrait</string>
+				<string>ArtistDetailFastScrollPortrait</string>
+				<string>HomeRealisticScrollLandscape</string>
+				<string>HomeLinearScrollLandscape</string>
+				<string>HomeFastScrollLandscape</string>
+				<string>BrowseRealisticScrollLandscape</string>
+				<string>BrowseLinearScrollLandscape</string>
+				<string>BrowseFastScrollLandscape</string>
+				<string>RadioRealisticScrollLandscape</string>
+				<string>RadioLinearScrollLandscape</string>
+				<string>RadioFastScrollLandscape</string>
+				<string>ArtistDetailRealisticScrollLandscape</string>
+				<string>ArtistDetailLinearScrollLandscape</string>
+				<string>ArtistDetailFastScrollLandscape</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
+	</array>
+</dict>
+</plist>

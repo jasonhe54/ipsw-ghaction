@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Downlink</key>
+	<dict>
+		<key>Nodes</key>
+		<dict>
+			<key>Dynamics</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/DL/downlink_mix.dspg</string>
+				<key>DSPGraphMacros</key>
+				<dict>
+					<key>ENABLE_ADVANCED_DUCKING</key>
+					<string>{ENABLE_ADVANCED_DUCKING}</string>
+				</dict>
+				<key>DSPGraphParameterValues</key>
+				<array>
+					<dict>
+						<key>ID</key>
+						<integer>1684829043</integer>
+						<key>Value</key>
+						<real>-7</real>
+					</dict>
+				</array>
+				<key>DSPGraphPropertyStripFilePath</key>
+				<string>DSP/DL/downlink_mix.propstrip</string>
+			</dict>
+			<key>Hardware</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/DL/downlink_hw_has_vp.dspg</string>
+				<key>DSPGraphMacros</key>
+				<dict>
+					<key>ENABLE_VOLUME_LIMIT</key>
+					<string>{ENABLE_VOLUME_LIMIT}</string>
+				</dict>
+			</dict>
+			<key>Voice</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/DL/downlink_voice_hhvp.dspg</string>
+				<key>DSPGraphMacros</key>
+				<dict>
+					<key>ENABLE_BWX</key>
+					<string>{ENABLE_BWX}</string>
+					<key>ENABLE_HOME_KIT_MUTE</key>
+					<string>{ENABLE_HOME_KIT_MUTE}</string>
+				</dict>
+			</dict>
+			<key>Voice_Mix</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/DL/downlink_voice_mix_pass_through.dspg</string>
+			</dict>
+		</dict>
+		<key>Settings</key>
+		<dict>
+			<key>SampleRateConversionAlgorithm</key>
+			<integer>1835626096</integer>
+			<key>SampleRateConversionQuality</key>
+			<integer>33</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

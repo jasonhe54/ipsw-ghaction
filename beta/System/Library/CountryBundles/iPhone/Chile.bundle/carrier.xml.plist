@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CellBroadcast</key>
+	<dict>
+		<key>AlertConfigurations</key>
+		<dict>
+			<key>Configuration_cl</key>
+			<dict>
+				<key>OverrideAccessibilityVibrationSetting</key>
+				<true/>
+				<key>PlaySoundUntilAcknowledged</key>
+				<true/>
+				<key>Sound</key>
+				<string>cbs_alert_cl.caf</string>
+				<key>Vibration</key>
+				<string>cbs_vibe_cl.plist</string>
+			</dict>
+		</dict>
+		<key>AlertTypes</key>
+		<dict>
+			<key>Alerta Local</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>Alerta de Emergencia</string>
+				<key>ShowTimestamp</key>
+				<true/>
+				<key>SwitchName</key>
+				<string>Alertas de Emergencia</string>
+				<key>UserConfigurable</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>IgnoreInvalidLengthPage</key>
+		<true/>
+		<key>MessageIDParameters3GPP</key>
+		<array>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_cl</string>
+				<key>AlertType</key>
+				<string>Alerta Local</string>
+				<key>EmergencyAlert</key>
+				<true/>
+				<key>FromServiceID</key>
+				<integer>4370</integer>
+				<key>ToServiceID</key>
+				<integer>4370</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_cl</string>
+				<key>AlertType</key>
+				<string>Alerta Local</string>
+				<key>EmergencyAlert</key>
+				<true/>
+				<key>FromServiceID</key>
+				<integer>919</integer>
+				<key>ToServiceID</key>
+				<integer>919</integer>
+			</dict>
+		</array>
+		<key>MessageValidityPeriod</key>
+		<dict>
+			<key>AirplaneMode</key>
+			<false/>
+		</dict>
+		<key>MinimumDeviceCategorySupported</key>
+		<integer>10</integer>
+		<key>SwitchGroupTitle</key>
+		<string>Government Alerts</string>
+	</dict>
+	<key>CountryName</key>
+	<string>Chile</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Category</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<string>133</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>cl</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>730</string>
+		<string>com.apple.Chile</string>
+	</array>
+</dict>
+</plist>

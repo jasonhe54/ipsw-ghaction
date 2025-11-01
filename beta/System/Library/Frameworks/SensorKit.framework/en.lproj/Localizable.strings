@@ -1,0 +1,14 @@
+"PPGSampleAdditionalNote" = "The data exported from the optical sensor (PPG data) is a distilled version of the data that was captured. Hardware and algorithm specific information is omitted, and multichannel signals are condensed into a single de-noised waveform. Also note that in some cases, accelerometer-derived metrics may also be collected alongside PPG data. Please refer to the accelerometer data export for that data.";
+"SRErrorPromptDeclined" = "Authorization prompt declined";
+"SRErrorNoAuthorization" = "Insufficient authorization to perform the action";
+"WristTemperatureSampleAdditionalNote" = "The exported Wrist Temperature data is a distilled version of the data that was captured. Hardware and algorithm specific information is omitted, and multichannel signals are condensed into a single de-noised value.";
+"ECGSampleAdditionalNote" = "The exported ECG data is a distilled version of the data that was captured. Hardware and algorithm specific information is omitted, and multichannel signals are condensed into a single de-noised waveform.";
+"SRErrorNoAuthorizationRecovery" = "User should authorize data collection for this app";
+"SRErrorInvalidEntitlement" = "No valid entitlement found";
+"reminderAlertTitle" = "Study Data Reminder";
+"faceMetricsReminderSubtitle" = "Face Shape and Expression";
+"faceMetricsReminderMessage" = "Study data captured by your camera this week will be submitted soon. Learn more in Settings.";
+"SRErrorDataInaccessible" = "Data is not accessible at this time";
+"SRErrorDataInaccessibleRecovery" = "Unlock the device to access data";
+"REMINDER_ALERT_STUDIES" = "{'NUM_STUDIES': {'one': '1 study', 'few': '%u studies', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': '%u studies', 'two': '%u studies', 'other': '%u studies', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': 'You’re contributing data to %#@NUM_STUDIES@. You can manage study access to your data in Settings.'}";
+"SRErrorFetchRequestInvalid" = "Fetch request contained invalid values";

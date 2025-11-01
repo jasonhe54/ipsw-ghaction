@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>https://www.nhk.or.jp/school/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>NHK for School</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://www.youtube.com/kids/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>You Tube Kids</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://kids.gakken.co.jp/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>学研キッズネット</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://kids.nifty.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>キッズ@nifty</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://kids.disney.co.jp/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney キッズ</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://www.kahaku.go.jp/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>国立科学博物館</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://scratch.mit.edu/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Scratch</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://kids.yahoo.co.jp/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Yahoo!きっず</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://www.kodomo.go.jp/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>国際子ども図書館</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://www.apple.com/jp</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>https://www.kids.isas.jaxa.jp/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>宇宙科学研究所キ ッズサイト「ウチュー ンズ」</string>
+		</dict>
+	</array>
+</dict>
+</plist>

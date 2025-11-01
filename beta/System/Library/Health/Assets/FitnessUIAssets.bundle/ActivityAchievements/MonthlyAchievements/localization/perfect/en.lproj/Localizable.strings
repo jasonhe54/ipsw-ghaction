@@ -1,0 +1,11 @@
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I’m trying to hit my Move goal every day this month. #AppleWatch'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I reached my Move goal every day in {{earned_date:month}} with my #AppleWatch.'}";
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION_STANDALONE_PHONE" = "{'NSStringLocalizedFormatKey': 'I’m trying to hit my Move goal every day this month.'}";
+"ACHIEVEMENT_UNACHIEVED_DESCRIPTION" = "{'progress_value': {'one': '%ld time', 'other': '%ld times', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'Earn this award when you reach your Move goal every day of a single month. You’ve done it %#@progress_value@ so far.'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION_STANDALONE_PHONE" = "{'NSStringLocalizedFormatKey': 'I reached my Move goal every day in {{earned_date:month}}.'}";
+"ACHIEVEMENT_ACHIEVED_FRIEND_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{user_first_name}} earned this award by reaching their daily Move goal every day of {{earned_date:monthyear}}.'}";
+"ACHIEVEMENT_ACHIEVED_ALERT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You reached your Move goal every day this month. Excellent work!'}";
+"ACHIEVEMENT_TITLE" = "{'NSStringLocalizedFormatKey': 'Perfect Month'}";
+"ACHIEVEMENT_UNACHIEVED_SHORT_DESCRIPTION" = "{'goal_value': {'one': '%ld day', 'other': '%ld days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '{{progress_value}} of %#@goal_value@'}";
+"ACHIEVEMENT_ACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{earned_date:monthyear}}'}";
+"ACHIEVEMENT_ACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You’ve earned this award for reaching your daily Move goal every day of {{earned_date:monthyear}}.'}";

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthorizedLocation</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>BlueJay</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>BlueSky</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>InstantPOI</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>LocationPlusOnboarding</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>LocationPlusSettings</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>OnDemandContext</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>PlaceTypeClassificationModel</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PlaceTypeClassificationRuleEngine</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PredictedContext</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>ProWorkouts</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Trailblazer</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
