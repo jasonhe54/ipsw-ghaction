@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Logging</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.AppleTracingSupport.LoggingProvider</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Logging</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>69</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B68</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>Documentation</key>
+	<dict>
+		<key>Description</key>
+		<string>In the default configuration, this provider captures only os_signpost data.
+                Collection of os_log data needs to be explicitly enabled.</string>
+		<key>Options</key>
+		<array>
+			<dict>
+				<key>Description</key>
+				<string>
+                        Enable capture of the os_log data.</string>
+				<key>Option</key>
+				<string>enable-logs</string>
+				<key>SupportedCommands</key>
+				<array>
+					<string>record</string>
+					<string>amend</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Description</key>
+				<string>
+                        Disable capture of the os_signpost data.</string>
+				<key>Option</key>
+				<string>disable-signposts</string>
+				<key>SupportedCommands</key>
+				<array>
+					<string>record</string>
+					<string>amend</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Description</key>
+				<string>
+                        Redact any privacy-sensitive values while capturing the logs.
+                        Serialize only dynamic values that are specified in the allow-list.</string>
+				<key>Option</key>
+				<string>redact-content</string>
+				<key>SupportedCommands</key>
+				<array>
+					<string>record</string>
+					<string>amend</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Description</key>
+				<string>
+                        Only capture log and signpost data matching the given predicate.
+                        Predicate syntax documentation can be viewed using `man log` command.</string>
+				<key>Option</key>
+				<string>predicate</string>
+				<key>SupportedCommands</key>
+				<array>
+					<string>record</string>
+					<string>amend</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Description</key>
+				<string>
+                        Append logging data from logarchive located at the given path.</string>
+				<key>Option</key>
+				<string>archive</string>
+				<key>SupportedCommands</key>
+				<array>
+					<string>amend</string>
+				</array>
+			</dict>
+		</array>
+		<key>Synopsis</key>
+		<string>Captures telemetry using the Unified Logging System.</string>
+	</dict>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>NSPrincipalClass</key>
+	<string>ATSLoggingProvider</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

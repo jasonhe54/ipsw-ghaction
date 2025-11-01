@@ -1,0 +1,5 @@
+"NEW_MESSAGES_FORMAT" = "{'Messages': {'one': '%lu New Message', 'zero': 'No New Messages', 'other': '%lu New Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@Messages@'}";
+"UNREAD_MESSAGES_FORMAT" = "{'Messages': {'zero': 'No Unread', 'other': '%lu Unread', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@Messages@'}";
+"MESSAGES_TITLE" = "Messages";
+"UTILITY_UNLOCK_TO_VIEW" = "UNLOCK TO VIEW";
+"99+_UNREAD" = "%1$ld+";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>NSRunningFromLaunchd</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.activitysharingd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.activitysharingd</key>
+		<true/>
+		<key>com.apple.aps.activitysharingd.securecloud.push</key>
+		<true/>
+		<key>com.apple.private.alloy.activitysharing.invite-idswake</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.ActivityMonitorApp</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/ActivitySharingServices.framework/activitysharingd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

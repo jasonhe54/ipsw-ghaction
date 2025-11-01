@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>ECG</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.SensorKit.ECG</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ECG</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B68</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>SRAuthService</key>
+	<string>kTCCServiceSensorKitWatchHeartRate</string>
+	<key>SRCollectedData</key>
+	<array>
+		<string>COLLECTED_DATA_0</string>
+		<string>COLLECTED_DATA_1</string>
+		<string>COLLECTED_DATA_2</string>
+	</array>
+	<key>SRDisplayName</key>
+	<string>ECG Details</string>
+	<key>SRNotCollectedData</key>
+	<array>
+		<string>NOT_COLLECTED_DATA</string>
+	</array>
+	<key>SRPlatforms</key>
+	<array>
+		<string>Watch</string>
+	</array>
+	<key>SRRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_ALERT_DETAIL</string>
+	<key>SRRevokeRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_REVOKE_ALERT_DETAIL</string>
+	<key>SRSampleData</key>
+	<array>
+		<dict>
+			<key>Data</key>
+			<array>
+				<dict>
+					<key>Flags</key>
+					<integer>0</integer>
+					<key>Value</key>
+					<real>1.1234567799999999</real>
+				</dict>
+			</array>
+			<key>Frequency</key>
+			<real>512.12345677999997</real>
+			<key>Lead</key>
+			<integer>0</integer>
+			<key>Sample Timestamp</key>
+			<real>709683845.37912297</real>
+			<key>Session</key>
+			<dict>
+				<key>Session Guidance</key>
+				<true/>
+				<key>State</key>
+				<integer>2</integer>
+				<key>identifier</key>
+				<string>EECD33AC-098C-4431-A746-27E1BDA75D8E&lt;no loc&gt;</string>
+			</dict>
+			<key>Timestamp</key>
+			<real>709683825.266065</real>
+		</dict>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

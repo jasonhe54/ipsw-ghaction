@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base</key>
+	<dict>
+		<key>additiveBlend</key>
+		<real>0.20000000000000001</real>
+		<key>bloomCombinedContrast</key>
+		<real>1.5</real>
+		<key>bloomContrast</key>
+		<real>1.1000000000000001</real>
+		<key>bloomFinalMult</key>
+		<real>1.5</real>
+		<key>bloomIterations</key>
+		<integer>8</integer>
+		<key>bloomLayerInputMult</key>
+		<real>1.6000000000000001</real>
+		<key>bloomTextContrast</key>
+		<real>1</real>
+		<key>bloomTextLayerInputMult</key>
+		<real>1.5</real>
+		<key>bloomWhitePoint</key>
+		<real>0.29999999999999999</real>
+		<key>convertToSRGB</key>
+		<true/>
+		<key>customTime</key>
+		<integer>0</integer>
+		<key>fontEnlargement</key>
+		<real>0.0</real>
+		<key>jitterAspectRatio</key>
+		<real>1.3</real>
+		<key>jitterScaleFar</key>
+		<real>0.75</real>
+		<key>jitterScaleNear</key>
+		<real>0.5</real>
+		<key>linearDim</key>
+		<real>0.65000000000000002</real>
+		<key>numColors</key>
+		<integer>20</integer>
+		<key>numLayers</key>
+		<integer>20</integer>
+		<key>overallScale</key>
+		<real>1</real>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1</real>
+		<key>segmentGlobalSpeedMultiplier</key>
+		<real>1</real>
+		<key>segmentRampLength</key>
+		<real>0.34999999999999998</real>
+	</dict>
+	<key>colorway1</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>2</real>
+		<key>bloomLayerInputMult</key>
+		<real>1.8</real>
+		<key>color1</key>
+		<string>45, 45, 45</string>
+		<key>color10</key>
+		<string>228, 2, 4</string>
+		<key>color11</key>
+		<string>0, 77, 255</string>
+		<key>color12</key>
+		<string>117, 7, 135</string>
+		<key>color13</key>
+		<string>0, 128, 38</string>
+		<key>color14</key>
+		<string>117, 7, 135</string>
+		<key>color15</key>
+		<string>255, 140, 0</string>
+		<key>color16</key>
+		<string>228, 2, 4</string>
+		<key>color17</key>
+		<string>0, 128, 38</string>
+		<key>color18</key>
+		<string>0, 77, 255</string>
+		<key>color19</key>
+		<string>120, 79, 23</string>
+		<key>color2</key>
+		<string>0, 77, 255</string>
+		<key>color20</key>
+		<string>45, 45, 45</string>
+		<key>color3</key>
+		<string>228, 2, 4</string>
+		<key>color4</key>
+		<string>117, 7, 135</string>
+		<key>color5</key>
+		<string>0, 77, 255</string>
+		<key>color6</key>
+		<string>228, 2, 4</string>
+		<key>color7</key>
+		<string>255, 237, 0</string>
+		<key>color8</key>
+		<string>255, 140, 0</string>
+		<key>color9</key>
+		<string>0, 128, 38</string>
+		<key>convertToSRGB</key>
+		<false/>
+		<key>parent</key>
+		<string>base</string>
+	</dict>
+	<key>colorway2</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>3</real>
+		<key>color1</key>
+		<string>212, 44, 0</string>
+		<key>color10</key>
+		<string>253, 152, 85</string>
+		<key>color11</key>
+		<string>212, 44, 0</string>
+		<key>color12</key>
+		<string>253, 152, 85</string>
+		<key>color13</key>
+		<string>162, 1, 97</string>
+		<key>color14</key>
+		<string>209, 97, 162</string>
+		<key>color15</key>
+		<string>162, 1, 97</string>
+		<key>color16</key>
+		<string>212, 44, 0</string>
+		<key>color17</key>
+		<string>253, 152, 85</string>
+		<key>color18</key>
+		<string>255, 255, 255</string>
+		<key>color19</key>
+		<string>209, 97, 162</string>
+		<key>color2</key>
+		<string>253, 152, 85</string>
+		<key>color20</key>
+		<string>162, 1, 97</string>
+		<key>color3</key>
+		<string>225, 225, 225</string>
+		<key>color4</key>
+		<string>209, 97, 162</string>
+		<key>color5</key>
+		<string>162, 1, 97</string>
+		<key>color6</key>
+		<string>209, 97, 162</string>
+		<key>color7</key>
+		<string>162, 1, 97</string>
+		<key>color8</key>
+		<string>255, 255, 255</string>
+		<key>color9</key>
+		<string>209, 97, 162</string>
+		<key>parent</key>
+		<string>base</string>
+	</dict>
+	<key>colorway3</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>4.5</real>
+		<key>bloomTextContrast</key>
+		<real>0.65000000000000002</real>
+		<key>color1</key>
+		<string>0, 56, 168</string>
+		<key>color10</key>
+		<string>0, 56, 168</string>
+		<key>color11</key>
+		<string>214, 3, 112</string>
+		<key>color12</key>
+		<string>214, 3, 112</string>
+		<key>color13</key>
+		<string>155, 79, 150</string>
+		<key>color14</key>
+		<string>0, 56, 168</string>
+		<key>color15</key>
+		<string>0, 56, 168</string>
+		<key>color16</key>
+		<string>214, 3, 112</string>
+		<key>color17</key>
+		<string>214, 3, 112</string>
+		<key>color18</key>
+		<string>155, 79, 150</string>
+		<key>color19</key>
+		<string>0, 56, 168</string>
+		<key>color2</key>
+		<string>214, 3, 112</string>
+		<key>color20</key>
+		<string>0, 56, 168</string>
+		<key>color3</key>
+		<string>155, 79, 150</string>
+		<key>color4</key>
+		<string>0, 56, 168</string>
+		<key>color5</key>
+		<string>0, 56, 168</string>
+		<key>color6</key>
+		<string>214, 3, 112</string>
+		<key>color7</key>
+		<string>214, 3, 112</string>
+		<key>color8</key>
+		<string>155, 79, 150</string>
+		<key>color9</key>
+		<string>0, 56, 168</string>
+		<key>parent</key>
+		<string>base</string>
+	</dict>
+	<key>colorway4</key>
+	<dict>
+		<key>additiveBlend</key>
+		<real>0.10000000000000001</real>
+		<key>bloomFinalMult</key>
+		<real>3</real>
+		<key>color1</key>
+		<string>245, 169, 184</string>
+		<key>color10</key>
+		<string>91, 206, 250</string>
+		<key>color11</key>
+		<string>91, 206, 250</string>
+		<key>color12</key>
+		<string>245, 169, 184</string>
+		<key>color13</key>
+		<string>91, 206, 250</string>
+		<key>color14</key>
+		<string>245, 169, 184</string>
+		<key>color15</key>
+		<string>91, 206, 250</string>
+		<key>color16</key>
+		<string>91, 206, 250</string>
+		<key>color17</key>
+		<string>245, 169, 184</string>
+		<key>color18</key>
+		<string>245, 169, 184</string>
+		<key>color19</key>
+		<string>245, 169, 184</string>
+		<key>color2</key>
+		<string>91, 206, 250</string>
+		<key>color20</key>
+		<string>91, 206, 250</string>
+		<key>color3</key>
+		<string>245, 169, 184</string>
+		<key>color4</key>
+		<string>245, 169, 184</string>
+		<key>color5</key>
+		<string>91, 206, 250</string>
+		<key>color6</key>
+		<string>245, 169, 184</string>
+		<key>color7</key>
+		<string>91, 206, 250</string>
+		<key>color8</key>
+		<string>255, 255, 255</string>
+		<key>color9</key>
+		<string>245, 169, 184</string>
+		<key>parent</key>
+		<string>base</string>
+	</dict>
+	<key>colorway5</key>
+	<dict>
+		<key>additiveBlend</key>
+		<real>0.14999999999999999</real>
+		<key>bloomFinalMult</key>
+		<real>4.5</real>
+		<key>color1</key>
+		<string>255, 244, 51</string>
+		<key>color10</key>
+		<string>155, 89, 208</string>
+		<key>color11</key>
+		<string>155, 89, 208</string>
+		<key>color12</key>
+		<string>155, 89, 208</string>
+		<key>color13</key>
+		<string>255, 244, 51</string>
+		<key>color14</key>
+		<string>255, 255, 255</string>
+		<key>color15</key>
+		<string>255, 244, 51</string>
+		<key>color16</key>
+		<string>155, 89, 208</string>
+		<key>color17</key>
+		<string>115,36 179</string>
+		<key>color18</key>
+		<string>155, 89, 208</string>
+		<key>color19</key>
+		<string>45, 45, 45</string>
+		<key>color2</key>
+		<string>155, 89, 208</string>
+		<key>color20</key>
+		<string>155, 89, 208</string>
+		<key>color3</key>
+		<string>255, 244, 51</string>
+		<key>color4</key>
+		<string>45, 45, 45</string>
+		<key>color5</key>
+		<string>255, 244, 51</string>
+		<key>color6</key>
+		<string>155, 89, 208</string>
+		<key>color7</key>
+		<string>255, 244, 51</string>
+		<key>color8</key>
+		<string>155, 89, 208</string>
+		<key>color9</key>
+		<string>45, 45, 45</string>
+		<key>parent</key>
+		<string>base</string>
+	</dict>
+	<key>global</key>
+	<dict>
+		<key>randomSeed</key>
+		<integer>5371</integer>
+	</dict>
+	<key>tritium1</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>3</real>
+		<key>color1</key>
+		<string>117, 7, 135</string>
+		<key>color2</key>
+		<string>0, 77, 255</string>
+		<key>color3</key>
+		<string>0, 128, 38</string>
+		<key>color4</key>
+		<string>228, 2, 4</string>
+		<key>color5</key>
+		<string>255, 237, 0</string>
+		<key>color6</key>
+		<string>255, 140, 0</string>
+		<key>color7</key>
+		<string>120, 79, 23</string>
+		<key>color8</key>
+		<string>45, 45, 45</string>
+		<key>color9</key>
+		<string>255, 140, 0</string>
+		<key>parents</key>
+		<string>colorway1, tritiumBase</string>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1.25</real>
+	</dict>
+	<key>tritium2</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>2</real>
+		<key>color1</key>
+		<string>253, 152, 85</string>
+		<key>color2</key>
+		<string>209, 97, 162</string>
+		<key>color3</key>
+		<string>212, 44, 0</string>
+		<key>color4</key>
+		<string>162, 1, 97</string>
+		<key>color5</key>
+		<string>255, 255, 255</string>
+		<key>parents</key>
+		<string>colorway2, tritiumBase</string>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1.5</real>
+		<key>tritiumSolidLayerIdx</key>
+		<integer>5</integer>
+		<key>tritiumSolidLayerLengthMultiplier</key>
+		<real>2</real>
+	</dict>
+	<key>tritium3</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>2.5</real>
+		<key>color1</key>
+		<string>214, 3, 112</string>
+		<key>color2</key>
+		<string>0, 56, 168</string>
+		<key>color3</key>
+		<string>155, 79, 150</string>
+		<key>color4</key>
+		<string>0, 56, 168</string>
+		<key>parents</key>
+		<string>colorway3, tritiumBase</string>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1.5</real>
+		<key>tritiumSolidLayerIdx</key>
+		<integer>4</integer>
+		<key>tritiumSolidLayerLengthMultiplier</key>
+		<real>2</real>
+	</dict>
+	<key>tritium4</key>
+	<dict>
+		<key>bloomFinalMult</key>
+		<real>1.5</real>
+		<key>color1</key>
+		<string>91, 206, 250</string>
+		<key>color2</key>
+		<string>245, 169, 184</string>
+		<key>color3</key>
+		<string>255, 255, 255</string>
+		<key>color4</key>
+		<string>245, 169, 184</string>
+		<key>color5</key>
+		<string>91, 206, 250</string>
+		<key>parents</key>
+		<string>colorway4, tritiumBase</string>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1.2</real>
+		<key>tritiumSolidLayerIdx</key>
+		<integer>5</integer>
+		<key>tritiumSolidLayerLengthMultiplier</key>
+		<real>2</real>
+	</dict>
+	<key>tritium5</key>
+	<dict>
+		<key>color1</key>
+		<string>255, 244, 51</string>
+		<key>color2</key>
+		<string>155, 89, 208</string>
+		<key>color3</key>
+		<string>255, 255, 255</string>
+		<key>color4</key>
+		<string>155, 89, 208</string>
+		<key>color5</key>
+		<string>155, 89, 208</string>
+		<key>color6</key>
+		<string>255, 255, 255</string>
+		<key>color7</key>
+		<string>255, 255, 255</string>
+		<key>parents</key>
+		<string>colorway5, tritiumBase</string>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1.5</real>
+		<key>tritiumSolidLayerIdx</key>
+		<integer>7</integer>
+		<key>tritiumSolidLayerLengthMultiplier</key>
+		<real>2</real>
+	</dict>
+	<key>tritiumBase</key>
+	<dict>
+		<key>additiveBlend</key>
+		<real>0.0</real>
+		<key>bloomFinalMult</key>
+		<real>3</real>
+		<key>bloomLayerInputMult</key>
+		<real>0.0</real>
+		<key>bloomLayerInputMultMidpoint</key>
+		<string>0.3, 1.5</string>
+		<key>bloomTextLayerInputMult</key>
+		<real>1</real>
+		<key>bloomWhitePointMidpoint</key>
+		<string>0.3, 1</string>
+		<key>darkenEdges</key>
+		<real>1</real>
+		<key>fontEnlargement</key>
+		<real>1</real>
+		<key>jitterAspectRatioMidpoint</key>
+		<string>0.3, 3</string>
+		<key>jitterScaleFar</key>
+		<real>0.0</real>
+		<key>jitterScaleMidpoint</key>
+		<string>0.3, 0.4</string>
+		<key>jitterScaleNear</key>
+		<real>0.0</real>
+		<key>linearDim</key>
+		<real>1</real>
+		<key>motionScale</key>
+		<real>0.0</real>
+		<key>overallScale</key>
+		<real>0.94999999999999996</real>
+		<key>overallScaleMidpoint</key>
+		<string>0.3, 1.02</string>
+		<key>segmentGlobalLengthMultiplier</key>
+		<real>1</real>
+		<key>segmentRampLength</key>
+		<real>0.25</real>
+		<key>tritiumSolidLayerIdx</key>
+		<integer>1</integer>
+		<key>tritiumSolidLayerLengthMultiplier</key>
+		<real>1</real>
+	</dict>
+</dict>
+</plist>

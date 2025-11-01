@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MultiStream</key>
+	<dict>
+		<key>AVCaptureDeviceFormats</key>
+		<dict>
+			<key>FullRes</key>
+			<dict>
+				<key>CaptureStreamFormat</key>
+				<string>FullRes</string>
+				<key>Height</key>
+				<integer>1104</integer>
+				<key>Width</key>
+				<integer>1312</integer>
+			</dict>
+		</dict>
+		<key>AVCaptureSessionPresets</key>
+		<dict>
+			<key>AVCaptureSessionPresetHigh</key>
+			<string>AVCaptureSessionPresetPhoto</string>
+			<key>AVCaptureSessionPresetPhoto</key>
+			<dict>
+				<key>DeviceFormat</key>
+				<string>FullRes</string>
+			</dict>
+			<key>Common</key>
+			<dict>
+				<key>MaxFrameRate</key>
+				<integer>30</integer>
+				<key>MinFrameRate</key>
+				<integer>30</integer>
+				<key>VideoCodec</key>
+				<string>avc1</string>
+				<key>VideoCompressionProperties</key>
+				<dict>
+					<key>MaxKeyFrameIntervalDuration</key>
+					<integer>1</integer>
+				</dict>
+			</dict>
+		</dict>
+		<key>FigCaptureStreamFormats</key>
+		<dict>
+			<key>FullRes</key>
+			<dict>
+				<key>MaxFrameRate</key>
+				<integer>60</integer>
+				<key>SensorHeight</key>
+				<integer>1104</integer>
+				<key>SensorWidth</key>
+				<integer>1312</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>SensorPowerConsumption</key>
+	<dict/>
+	<key>mediaType</key>
+	<string>vide</string>
+	<key>secureMetadataCameraSupported</key>
+	<true/>
+</dict>
+</plist>

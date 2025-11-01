@@ -1,0 +1,10 @@
+"UNKOWN_PART_DETAIL_TEXT" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'This part could not be configured because it is not a genuine Apple part or may not be functioning correctly. Check that the part is properly connected and try again. For more information, refer to the iPhone service manual for this device.\n\nYou can continue using your iPhone, but may experience unexpected behavior.\n\nView all of your repair details in the Parts & Service History in Settings.', 'ipad': 'This part could not be configured because it is not a genuine Apple part or may not be functioning correctly. Check that the part is properly connected and try again. For more information, refer to the iPad service manual for this device.\n\nYou can continue using your iPad, but may experience unexpected behavior.\n\nView all of your repair details in the Parts & Service History in Settings.'}}";
+"CONTINUE" = "Continue";
+"CANCEL" = "Cancel";
+"TEST_TITLE" = "Finish Repair";
+"TEST_DETAILS" = "Tap continue to complete the configuration of the parts listed below.";
+"TEXT_PASS" = "This is a genuine Apple part.";
+"TEXT_UNKNOWN" = "This part is not functioning as expected.";
+"TEXT_DENIED" = "This part is unable to be configured because it is property of Apple or one of its partners.";
+"TEXT_LOST" = "This part is unable to be configured because it is marked as lost.";
+"TEXT_LOCK" = "This part is activation locked to someone else’s Apple Account.";

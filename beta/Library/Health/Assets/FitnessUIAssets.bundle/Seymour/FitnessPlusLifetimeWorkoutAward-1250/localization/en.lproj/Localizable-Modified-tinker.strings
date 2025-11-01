@@ -1,0 +1,10 @@
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION" = "{'goal_value': {'one': '%ld Fitness+ session', 'other': '%ld Fitness+ sessions', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'I’m going to earn this award for completing %#@goal_value@!'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I just did my {{1250:ordinal}} Apple Fitness+ session!'}";
+"ACHIEVEMENT_UNACHIEVED_DESCRIPTION" = "{'goal_value': {'one': '%ld Fitness+ session', 'other': '%ld Fitness+ sessions', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'progress_value': {'one': '%ld session', 'other': '%ld sessions', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'Earn this award by completing %#@goal_value@. You’ve completed %#@progress_value@ so far.'}";
+"ACHIEVEMENT_ACHIEVED_FRIEND_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{user_first_name}} earned this award for completing their {{1250:ordinal}} Fitness+ session on {{earned_date:date}}.'}";
+"ACHIEVEMENT_YESTERDAY_DESC" = "{'NSStringLocalizedFormatKey': 'Yesterday, you did your {{1250:ordinal}} Fitness+ session. Keep it going!'}";
+"ACHIEVEMENT_ACHIEVED_ALERT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You’ve done 1250 Fitness+ sessions. Amazing work!'}";
+"ACHIEVEMENT_TITLE" = "{'NSStringLocalizedFormatKey': '1250 Fitness+ Sessions'}";
+"ACHIEVEMENT_UNACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{progress_value}} of {{goal_value}}'}";
+"ACHIEVEMENT_ACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{earned_date:date}}'}";
+"ACHIEVEMENT_ACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You earned this award for completing your {{1250:ordinal}} Fitness+ session on {{earned_date:date}}.'}";

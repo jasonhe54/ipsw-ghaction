@@ -1,0 +1,2399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>ProVideo</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ProVideoiOS</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ProVideo</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>610.0.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B68</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>ProPlugDictionaryVersion</key>
+	<string>1.0</string>
+	<key>ProPlugPlugInGroupList</key>
+	<array>
+		<dict>
+			<key>groupName</key>
+			<string>Blur</string>
+			<key>uuid</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Blurs</string>
+			<key>uuid</key>
+			<string>21D89DAB-8606-4FC4-90B4-F2A905FA69F8</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Transitions::Dissolves</string>
+			<key>uuid</key>
+			<string>FADCAFF3-C8C0-4DAB-9A96-B651E1E89291</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Movements</string>
+			<key>uuid</key>
+			<string>934CE0AF-01EE-488F-AFCE-78B2BEA05C34</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Objects</string>
+			<key>uuid</key>
+			<string>00BBFE87-369B-4323-8205-8F1951A25FE6</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Border</string>
+			<key>uuid</key>
+			<string>1FE56FAC-C543-4F2F-9A54-44E5F7F9A8CA</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Color Correction</string>
+			<key>uuid</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Distortion</string>
+			<key>uuid</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Generators</string>
+			<key>uuid</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Glow</string>
+			<key>uuid</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Keying and Matting</string>
+			<key>uuid</key>
+			<string>15F961A9-CC44-471B-A934-45DB8488FE36</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Sharpen</string>
+			<key>uuid</key>
+			<string>819DDEDE-FE87-4543-821E-7BED36A8C52D</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Stylize</string>
+			<key>uuid</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Time</string>
+			<key>uuid</key>
+			<string>25122F00-B6D4-434D-8270-9443D3096D86</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Tiling</string>
+			<key>uuid</key>
+			<string>33F7E20F-D67E-410E-AD83-D0B0D1FC3DB1</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Wipes</string>
+			<key>uuid</key>
+			<string>9B9985DC-7EF6-4A4B-830F-E0A9A8D4A31B</string>
+		</dict>
+		<dict>
+			<key>groupName</key>
+			<string>Video</string>
+			<key>uuid</key>
+			<string>B8185188-0CBF-4F2F-8861-363B5A9D622A</string>
+		</dict>
+	</array>
+	<key>ProPlugPlugInList</key>
+	<array>
+		<dict>
+			<key>className</key>
+			<string>PAESoftGradient</string>
+			<key>displayName</key>
+			<string>SoftGradient::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>SoftGradient::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/SoftGradient.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>F7AF5CB9-FBDB-48B7-A0F3-22D2F46B0984</string>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEColorCurvesEffect</string>
+			<key>displayName</key>
+			<string>PAEColorCurvesEffectDisplayName</string>
+			<key>finalCutSimplifiedList</key>
+			<true/>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>PAEColorCurvesEffectInfo</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Color Curves.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>920273EF-948C-4556-8EB8-8EFEF7A34111</string>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEVariableBlur</string>
+			<key>displayName</key>
+			<string>VariableBlur::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>VariableBlur::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Variable Blur.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>05DB4F81-7C57-4F33-A5B3-763C913ACAA3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESphere</string>
+			<key>displayName</key>
+			<string>Sphere::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Sphere::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Sphere.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>1E78D3E3-63AC-46E3-99F4-014129B9ECCC</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEPageCurlFilter</string>
+			<key>displayName</key>
+			<string>PageCurl::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>PageCurl::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Page Curl.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>BA8D0B63-2F01-4DA6-9751-56D308A28F98</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEHSCurvesEffect</string>
+			<key>displayName</key>
+			<string>PAEHSCurvesEffectDisplayName</string>
+			<key>finalCutSimplifiedList</key>
+			<true/>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>PAEHSCurvesEffectInfo</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>23723AD7-62C4-4ED0-A8C6-FA5A2D7162E4</string>
+			<key>version</key>
+			<string>8</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAELUTFile</string>
+			<key>displayName</key>
+			<string>LUT File</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>LUT Media File Applier</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>A47270A6-5604-4153-96AE-86C8FF6C7DAA</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEStroke</string>
+			<key>displayName</key>
+			<string>Stroke::Filter Name</string>
+			<key>group</key>
+			<string>1FE56FAC-C543-4F2F-9A54-44E5F7F9A8CA</string>
+			<key>infoString</key>
+			<string>Stroke::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>0CB21C8A-7983-418D-B7EC-EDBB20AF4732</string>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEChromaKeyeriOS</string>
+			<key>displayName</key>
+			<string>Chroma Key iOS</string>
+			<key>group</key>
+			<string>15F961A9-CC44-471B-A934-45DB8488FE36</string>
+			<key>infoString</key>
+			<string>Chroma Key for iOS Support</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>32FA9ECC-57F2-4ACB-8182-77EDE34C17D5</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAECamcorder</string>
+			<key>displayName</key>
+			<string>Camcorder</string>
+			<key>group</key>
+			<string>04B78FB4-9D8E-4AE1-93D9-B143591317AC</string>
+			<key>infoString</key>
+			<string>Camcorder support node for iOS</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>60002043-A70C-4863-B2A0-5E6EA4DAEC7A</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBlackAndWhiteMono</string>
+			<key>displayName</key>
+			<string>Black And White Mono</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Black and White Mono Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>FE0E7DEA-1649-4546-AF2A-BE4789BABABB</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBlackAndWhiteNoir</string>
+			<key>displayName</key>
+			<string>Black And White Noir</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Black and White Noir Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>5A4F823D-062E-4EB5-BC01-9512A778FA57</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESilvertone</string>
+			<key>displayName</key>
+			<string>Black And White Silvertone</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Black and White Silvertone Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>65E654B1-FD35-4695-B73B-048B203C2945</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDramaticWarmFG</string>
+			<key>displayName</key>
+			<string>Dramatic Warm FG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Dramatic Warm Foreground Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>F0BB7574-D4C8-4DA3-8BDF-6487880FD4DD</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDramaticWarmBG</string>
+			<key>displayName</key>
+			<string>Dramatic Warm BG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Dramatic Warm Background Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>BF500F70-172B-4D4E-8D68-F497D68D5EFA</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDramaticCoolFG</string>
+			<key>displayName</key>
+			<string>Dramatic Cool FG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Dramatic Cool Foreground Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>B180CBD5-2367-4DD9-9A1D-8516B44B46A3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDramaticCoolBG</string>
+			<key>displayName</key>
+			<string>Dramatic Cool BG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Dramatic Cool Background Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>976E41C2-7A40-49F0-A152-93543A45F190</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDramaticBG</string>
+			<key>displayName</key>
+			<string>Dramatic BG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Dramatic Background Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>33BE1CFB-B7A3-42D0-A623-F10F80E11807</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDramaticFG</string>
+			<key>displayName</key>
+			<string>Dramatic FG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Dramatic Foreground Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>7179A6DE-5431-46CF-B6B9-547AED722541</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEVividCoolBG</string>
+			<key>displayName</key>
+			<string>Vivid Cool BG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Vivid Cool Background Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>62EB45B2-84DE-4B65-8552-C91C94479826</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEVividWarmBG</string>
+			<key>displayName</key>
+			<string>Vivid Warm BG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Vivid Warm Background Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>BD2C7D72-A97E-44F8-AFF7-70E30FA02E00</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEVividStandardBG</string>
+			<key>displayName</key>
+			<string>Vivid Standard BG</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Photos Filter Vivid Standard Background Look</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>734D06BD-2CEE-4786-A2D0-594A99216E3E</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEFracturedFilter</string>
+			<key>displayName</key>
+			<string>Fractured::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>Fracture::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>67684682-1FAA-4181-8C22-245A4E537B93</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEUnsharpMask</string>
+			<key>displayName</key>
+			<string>Unsharpmask::Filter Name</string>
+			<key>group</key>
+			<string>819DDEDE-FE87-4543-821E-7BED36A8C52D</string>
+			<key>infoString</key>
+			<string>Unsharpmask::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Unsharp Mask.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>710CFB1F-16B3-48A2-8366-67BE752695CF</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBloomBB</string>
+			<key>displayName</key>
+			<string>BloomBB::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>BloomBB::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>9E0A3E0C-AF62-45F4-9825-9AC459D28979</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEOldWorldBB</string>
+			<key>displayName</key>
+			<string>OldWorldBB::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>OldWorldBB::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>33759D90-91C9-499C-859F-1AE169F998BF</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGloom</string>
+			<key>displayName</key>
+			<string>Gloom::Filter Name</string>
+			<key>group</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+			<key>infoString</key>
+			<string>Gloom::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Gloom.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>50387134-338C-42A2-8078-7DF9D7DB36EE</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBadFilm</string>
+			<key>displayName</key>
+			<string>BadFilm::FxPlug Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>BadFilm::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/BadFilm.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>9B5C17D9-1AC3-4B04-B8F3-59C1420963BF</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEAddNoise</string>
+			<key>displayName</key>
+			<string>AddNoise::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>AddNoise::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/NoiseFilter.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>C423A28F-C016-4133-B120-22FF2E9A7862</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGlow</string>
+			<key>displayName</key>
+			<string>Glow::Filter Name</string>
+			<key>group</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+			<key>infoString</key>
+			<string>Glow::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Glow.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>73F69C87-7226-4F7A-81F2-F5E378501423</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAECompoundBlur</string>
+			<key>displayName</key>
+			<string>CompoundBlur::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>CompoundBlur::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Compound Blur.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>000BAA25-418E-412B-8649-CF5C7C2771E3</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEThreshold</string>
+			<key>displayName</key>
+			<string>Threshold::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Threshold::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Threshold.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>96AFC322-287E-4014-9EFD-763CD9813E17</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEHSVAdjust</string>
+			<key>displayName</key>
+			<string>HSVAdjust::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>HSVAdjust::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/HSV Adjust.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D23AF030-B0BF-44DF-B622-7C9EA0DF5744</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEContrast</string>
+			<key>displayName</key>
+			<string>Contrast::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Contrast::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Contrast.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>B13B57AC-811B-4A24-BB5A-2167A3C66F5F</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDroplet</string>
+			<key>displayName</key>
+			<string>Droplet::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-811-737680E104D9</string>
+			<key>infoString</key>
+			<string>Droplet::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Droplet.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>0ACFAE37-4FAF-4D60-A50C-46E422EE0CD7</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBulge</string>
+			<key>displayName</key>
+			<string>Bulge::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Bulge::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Bulge.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>6AFD20E9-70D0-48F2-A5DD-97FC7B3E2BC4</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEColorize</string>
+			<key>displayName</key>
+			<string>Colorize::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Colorize::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Colorize.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D995BBCF-F766-4950-89D5-7A4828CD9B6F</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBrightness</string>
+			<key>displayName</key>
+			<string>Brightness::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Brightness::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Brightness.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>2E4DBB0A-A950-4896-BC2D-A5B0CFF7FAC6</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDayIntoNight</string>
+			<key>displayName</key>
+			<string>DayIntoNight::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>DayIntoNight::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>AC627219-2EF2-492A-897C-F0EEDAEA7B66</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDesaturate</string>
+			<key>displayName</key>
+			<string>Desaturate::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Desaturate::Filter Description</string>
+			<key>obsolete</key>
+			<string>1</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Desaturate.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>B69B650B-EAAE-412D-89BC-EDED0A1CDCC5</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEHardLight</string>
+			<key>displayName</key>
+			<string>HardLight::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>HardLight::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>84636E52-2494-48E5-B3B4-4DA928C831C5</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAETint</string>
+			<key>displayName</key>
+			<string>TintFx::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>TintFx::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Tint.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>717D6E01-83F4-4A4B-AF92-42AABA4B176C</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEMinMax</string>
+			<key>displayName</key>
+			<string>MinMax::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>MinMax::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/MinMax.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D2342006-51C4-4439-8E89-E970F135E21C</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEInvert</string>
+			<key>displayName</key>
+			<string>Invert::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Invert::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Invert.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>9A527DF8-790C-4FD7-B800-116A41B91E24</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGamma</string>
+			<key>displayName</key>
+			<string>Gamma::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Gamma::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Gamma.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>9F2DAEB8-1875-4E0E-B62F-DF1E28C1999B</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAELumaKeyer</string>
+			<key>displayName</key>
+			<string>LumaKeyer::Filter Name</string>
+			<key>finalCutSimplifiedList</key>
+			<true/>
+			<key>group</key>
+			<string>15F961A9-CC44-471B-A934-45DB8488FE36</string>
+			<key>infoString</key>
+			<string>LumaKeyer::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Lumakey.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>7E9178C5-7B0F-4B86-884D-FE79F568B6CE</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEChannelMixer</string>
+			<key>displayName</key>
+			<string>ChannelMixer::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>ChannelMixer::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Channel Mixer.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>B2E0DE39-119F-4AD6-8796-C18BF8FE27B8</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAELumaKey</string>
+			<key>displayName</key>
+			<string>LumaKey::Filter Name</string>
+			<key>group</key>
+			<string>15F961A9-CC44-471B-A934-45DB8488FE36</string>
+			<key>infoString</key>
+			<string>LumaKey::Filter Description</string>
+			<key>obsolete</key>
+			<string>1</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Lumakey.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>A0CE702C-9875-4C9F-9A9A-F0968C4F4A90</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAELevels</string>
+			<key>displayName</key>
+			<string>Levels::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>Levels::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Levels.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>2B221FA1-08A2-416E-998C-D7559E5509B5</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEColorBalance</string>
+			<key>displayName</key>
+			<string>ColorBalance::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>ColorBalance::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Color Balance.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>E9B93275-A56D-4012-BEF6-5DD59A74B344</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEVignette</string>
+			<key>displayName</key>
+			<string>Vignette::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>Vignette::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Vignette.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>EB96FF9E-5863-4770-B7B5-65CB9BBF8E3B</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEStripesGenerator</string>
+			<key>displayName</key>
+			<string>StripesGenerator::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>StripesGenerator::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Stripes.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>5ACDAE82-0065-4753-8409-86310C498168</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAECheckerboard</string>
+			<key>displayName</key>
+			<string>Checkerboard::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>Checkerboard::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Checkerboard.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>D1ABEFFC-D02E-40E8-A5B3-2108514F2BB8</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEColorSolid</string>
+			<key>displayName</key>
+			<string>ColorSolid::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>ColorSolid::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>C18E8B62-C24F-4F8D-8597-858675A40BBC</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGaussianBlur</string>
+			<key>displayName</key>
+			<string>GaussianBlur::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>GaussianBlur::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Gaussian Blur.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+				<string>FxROIRenderer</string>
+			</array>
+			<key>uuid</key>
+			<string>E472D646-2C92-464E-98A1-91CF8F162AD8</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEHeatWaveBB</string>
+			<key>displayName</key>
+			<string>HeatWaveBB::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>HeatWaveBB::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D12A3C93-DB54-45CC-92C7-4BD63B47EE85</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEHighlightGlow</string>
+			<key>displayName</key>
+			<string>HighlightGlow::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>GHighlightGlow::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+				<string>FxROIRenderer</string>
+			</array>
+			<key>uuid</key>
+			<string>E87A229A-F4DD-4B8E-B4CE-75DDFA21A40E</string>
+			<key>version</key>
+			<string>0</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGradientColorize</string>
+			<key>displayName</key>
+			<string>GradientColorize::Filter Name</string>
+			<key>finalCutSimplifiedList</key>
+			<false/>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>GradientColorize::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Gradient Colorize.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>FB917FD2-68DF-4BE7-A313-82124F6DE776</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESharpen</string>
+			<key>displayName</key>
+			<string>Sharpen::Filter Name</string>
+			<key>group</key>
+			<string>819DDEDE-FE87-4543-821E-7BED36A8C52D</string>
+			<key>infoString</key>
+			<string>Sharpen::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Sharpen.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>6EFE2B74-1702-4829-B98E-E619501D1F16</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESimpleBorder</string>
+			<key>displayName</key>
+			<string>SimpleBorder::Filter Name</string>
+			<key>group</key>
+			<string>1FE56FAC-C543-4F2F-9A54-44E5F7F9A8CA</string>
+			<key>infoString</key>
+			<string>SimpleBorder::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Simple Border.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>8777A5DD-CDDA-4707-8454-D648943210D9</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEUnderwater</string>
+			<key>displayName</key>
+			<string>Underwater::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Underwater::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Underwater.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>9FA1F483-1E09-4DD0-870F-C32777D7F1B0</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGradient</string>
+			<key>displayName</key>
+			<string>Gradient::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>Gradient::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Gradient.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>40091D89-9517-4344-9CB5-18436B1542D1</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEDirectionalBlur</string>
+			<key>displayName</key>
+			<string>DirectionalBlur::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>DirectionalBlur::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Directional Blur.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>2E7B1340-5D4F-4015-8AA0-53BEB9F2CA52</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEZoomBlur</string>
+			<key>displayName</key>
+			<string>Zoomblur::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>Zoomblur::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Zoom Blur.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>11C0E095-5F4F-46E2-AE28-F56ED7D38D7E</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBloom</string>
+			<key>displayName</key>
+			<string>Bloom::Filter Name</string>
+			<key>group</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+			<key>infoString</key>
+			<string>Bloom::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Bloom.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>5599C557-CDC0-4112-B2C4-355E9A1A902E</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBadTV</string>
+			<key>displayName</key>
+			<string>BadTV::FxPlug Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>BadTV::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/BadTV.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>32AB5EE1-BACB-4B81-B44E-6D1E643C8D00</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGradientBlur</string>
+			<key>displayName</key>
+			<string>GradientBlur::Filter Name</string>
+			<key>group</key>
+			<string>A35E6A38-6A9F-4A17-90EA-E48FAC302FE7</string>
+			<key>infoString</key>
+			<string>GradientBlur::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Gradient Blur.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>7C7405BB-1B00-4811-A507-CB9F619CA522</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEOffset</string>
+			<key>displayName</key>
+			<string>Offset::Filter Name</string>
+			<key>group</key>
+			<string>33F7E20F-D67E-410E-AD83-D0B0D1FC3DB1</string>
+			<key>infoString</key>
+			<string>Offset::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Offset.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D6245DC0-5D17-4847-ABB0-C4D01C3FA3F7</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEPhotosFilters</string>
+			<key>displayName</key>
+			<string>PhotosFilters::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>PhotosFilter::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/PhotosFilter.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>26A33B9C-7A5D-4D30-A346-DEE4FD2E3D05</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEMirror</string>
+			<key>displayName</key>
+			<string>Mirror::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Mirror::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Mirror.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>E1134541-27A1-45CD-972B-AD61D9528316</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESunburst</string>
+			<key>displayName</key>
+			<string>Sunburst::FxPlug Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>Sunburst::FxPlug Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>B9BEA9F8-364C-418A-A3EB-23716FF3E9AF</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEStarburst</string>
+			<key>displayName</key>
+			<string>Starburst::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Starburst::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Starburst.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>2D69D3F6-6145-428B-905B-249A76E70830</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEKaleidascope</string>
+			<key>displayName</key>
+			<string>Kaleidascope::Filter Name</string>
+			<key>group</key>
+			<string>33F7E20F-D67E-410E-AD83-D0B0D1FC3DB1</string>
+			<key>infoString</key>
+			<string>Kaleidascope::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Kaleidoscope.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>6209E095-64E4-11D9-B08D-000A95AF90F2</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEiOSKaleidoscope</string>
+			<key>displayName</key>
+			<string>iOSKaleidoscope::Filter Name</string>
+			<key>group</key>
+			<string>33F7E20F-D67E-410E-AD83-D0B0D1FC3DB1</string>
+			<key>infoString</key>
+			<string>iOSKaleidoscope::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/iOSKaleidoscope.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D15AB79A-221B-4A38-80CF-6A109E30D660</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEPoke</string>
+			<key>displayName</key>
+			<string>Poke::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Poke::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Poke.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>70471B0A-5D9D-4699-AEEE-CCFC84045B4B</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAETwirl</string>
+			<key>displayName</key>
+			<string>Twirl::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>Twirl::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Twirl.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>42D649CE-8CAA-4BCC-8F59-50E1009B03CE</string>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEFunHouse</string>
+			<key>displayName</key>
+			<string>FunHouse::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>FunHouse::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Fun House.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>448206B5-384F-4056-88C8-369B8AEEA2B0</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEiOSStretch</string>
+			<key>displayName</key>
+			<string>iOSStretch::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>iOSStretch::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/iOSStretch.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>FAA611BB-4D68-40C0-B972-EDE89407FF9C</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEiOSLightTunnel</string>
+			<key>displayName</key>
+			<string>iOSLightTunnel::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>iOSLightTunnel::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/iOSLightTunnel.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>4E8C49AA-74A1-4245-9790-5080E48E6270</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEiOSTwirl</string>
+			<key>displayName</key>
+			<string>iOSTwirl::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>iOSTwirl::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/iOSTwirl.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>2797BEF5-0709-47F2-BE3B-00C6F1869522</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEPixellate</string>
+			<key>displayName</key>
+			<string>Pixellate::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>Pixellate::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Pixellate.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>5E7CA164-3AAF-4C70-A377-567E5796528A</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAETextureWrap</string>
+			<key>displayName</key>
+			<string>TextureWrap::Filter Name</string>
+			<key>group</key>
+			<string>33F7E20F-D67E-410E-AD83-D0B0D1FC3DB1</string>
+			<key>infoString</key>
+			<string>TextureWrap::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>thumbnail</key>
+			<string></string>
+			<key>uuid</key>
+			<string>4A7128AB-2250-477B-9CBD-A2A50B8FED62</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEOverlappingCircles</string>
+			<key>displayName</key>
+			<string>Overlapping Circles::FxPlug Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>Overlapping Circles::FxPlug Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>D2D9DEE6-6DFB-4BD8-B6F4-0117CB6BAD29</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEComicTown</string>
+			<key>displayName</key>
+			<string>Comic Town</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>Comic Effect</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/ComicTown.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>A6782C45-23E9-4EC2-B25E-A3D2B238E2D1</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEStyleTransfer</string>
+			<key>displayName</key>
+			<string>Style Transfer</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>Style Transfer Effect</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/StyleTransfer.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>32F19D50-5E35-4DF5-99FA-A1341FBDE321</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEFill</string>
+			<key>displayName</key>
+			<string>Fill::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>Fill::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>thumbnail</key>
+			<string>Icons/Drop Shadow small.png</string>
+			<key>uuid</key>
+			<string>47D6B897-5749-4A6A-B93B-00FABCF72B25
+47D6B897-5749-4A6A-B93B-00FABCF72B25</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEEquirectProject</string>
+			<key>displayName</key>
+			<string>PAEEquirectProject::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>PAEEquirectProject::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>D977D25A-5DDB-400C-BB0C-451CAB019F28</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEEquirectProjectFilter</string>
+			<key>displayName</key>
+			<string>PAEEquirectProjectFilter::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>PAEEquirectProjectFilter::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>C0508CB7-9CAC-47DA-BA62-8C4EC18911B5</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEOuterGlow</string>
+			<key>displayName</key>
+			<string>OuterGlow::Filter Name</string>
+			<key>group</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+			<key>infoString</key>
+			<string>OuterGlow::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Outer Glow.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>A7077089-AA05-44F8-98E8-0C90E446F447</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEHalftone</string>
+			<key>displayName</key>
+			<string>Halftone::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>Halftone::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Halftone.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>10A46FDA-13E9-4167-B8AE-1A7204EB5139</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEMono</string>
+			<key>displayName</key>
+			<string>Mono::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Mono::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Mono.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>8997E1CD-18F4-48F5-A406-4E244DC8BCB8</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAETonal</string>
+			<key>displayName</key>
+			<string>Tonal::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Tonal::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Tonal.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>0962EB7B-F32A-42E6-B2B3-C5F4C02AEEAF</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAENoir</string>
+			<key>displayName</key>
+			<string>Noir::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Noir::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Noir.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>CFA2D547-3560-437A-A7E3-15228E78DD29</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEFade</string>
+			<key>displayName</key>
+			<string>Fade::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Fade::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Fade.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>8154D0DA-C99B-4EF8-8FF8-006FE5ED57F1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEChrome</string>
+			<key>displayName</key>
+			<string>Chrome::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Chrome::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Chrome.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>0A69EDEE-4A75-4685-930F-8A649BB0C7ED</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEProcess</string>
+			<key>displayName</key>
+			<string>Process::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Process::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Process.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>FA2255DA-D88C-489C-A4B4-D33AAB97A8E8</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAETransfer</string>
+			<key>displayName</key>
+			<string>Transfer::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Transfer::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Mono.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>AE4C894E-F2A9-4CD1-B620-DAC46EB87805</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEInstant</string>
+			<key>displayName</key>
+			<string>Instant::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Instant::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Instant.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>9FFF18B4-08C9-4891-BD06-945A08DCDF4A</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEBleach</string>
+			<key>displayName</key>
+			<string>Bleach::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Bleach::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Bleach.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>2DCA84A9-B341-4818-8EC1-D55E33D06CBD</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAECalifornia</string>
+			<key>displayName</key>
+			<string>California::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>California::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/California.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>C848D8E4-5625-43A3-B465-0E405B51279E</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEGrayscale</string>
+			<key>displayName</key>
+			<string>Grayscale::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Grayscale::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Grayscale.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>00513C3C-ADCB-455F-AB3F-5CE99E676C4A</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAENevada</string>
+			<key>displayName</key>
+			<string>Nevada::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Nevada::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Nevada.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>77C7A7CB-0C39-4A9E-A420-3886D681216A</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAENewYork</string>
+			<key>displayName</key>
+			<string>NewYork::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>NewYork::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/NewYork.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>6E61328D-0355-41B3-AD0C-7CAC8D9B6F8C</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESixties</string>
+			<key>displayName</key>
+			<string>Sixties::FxPlug Name</string>
+			<key>group</key>
+			<string>694622CC-11F4-46C3-A673-48290569F3C2</string>
+			<key>infoString</key>
+			<string>Sixties::FxPlug Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Sixties.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>67DF2D7D-BE87-437E-BE8D-8E989FA7E803</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAELightRays</string>
+			<key>displayName</key>
+			<string>LightRays::Filter Name</string>
+			<key>group</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+			<key>infoString</key>
+			<string>LightRays::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Light Rays.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>B074E0A5-BE6F-43B4-898A-AB0A44189CD9</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAENeon</string>
+			<key>displayName</key>
+			<string>Neon::Filter Name</string>
+			<key>group</key>
+			<string>728D3957-19DE-4E5F-A87E-B5DF0665AEE0</string>
+			<key>infoString</key>
+			<string>Neon::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>176021CD-2DFB-40FF-B3D4-9399F25C36C4</string>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESlitScan</string>
+			<key>displayName</key>
+			<string>SlitScan::Filter Name</string>
+			<key>group</key>
+			<string>2AC86D66-BBD2-467B-B257-6C5E182488F4</string>
+			<key>infoString</key>
+			<string>SlitScan::Filter Description</string>
+			<key>previewPath</key>
+			<string></string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>D4A4E04E-8127-472A-9390-53A2861F22C3</string>
+			<key>version</key>
+			<string>3</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEToneMap</string>
+			<key>displayName</key>
+			<string>PAE_TM::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>PAE_TM::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>F1B8F0CB-6E45-4BA7-96AC-1E30D7A83620</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEInverseToneMap</string>
+			<key>displayName</key>
+			<string>PAE_ITM::Filter Name</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>PAE_ITM::Filter Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>4068FF2A-5D8C-4467-8CA4-6487E5C78A8F</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAE_HLG_Inverse_OETF</string>
+			<key>displayName</key>
+			<string>HLG Inverse OETF</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>HLG Inverse OETF Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>6877F522-AB92-4322-BB15-42CF1A751E04</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAE_HLG_OETF</string>
+			<key>displayName</key>
+			<string>HLG OETF</string>
+			<key>group</key>
+			<string>56A0EBB5-D505-4960-A9EB-9D682B66D331</string>
+			<key>infoString</key>
+			<string>HLG OETF Description</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>44CA4634-A8DA-4B58-B0F0-D11FC4BB6393</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAEConcentricShapes</string>
+			<key>displayName</key>
+			<string>ConcentricCircles::Filter Name</string>
+			<key>group</key>
+			<string>6194F7C3-482F-423D-BFAF-2BB9A591D512</string>
+			<key>infoString</key>
+			<string>ConcentricCircles::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Concentric Circles.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxGenerator</string>
+			</array>
+			<key>uuid</key>
+			<string>232DD981-D108-42DE-A7D0-4CC9AAA7AA40</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>className</key>
+			<string>PAESlicedScale</string>
+			<key>displayName</key>
+			<string>SlicedScale::Filter Name</string>
+			<key>group</key>
+			<string>4DBC84B7-84F3-4FC1-8111-737680E104D9</string>
+			<key>infoString</key>
+			<string>SlicedScale::Filter Description</string>
+			<key>previewPath</key>
+			<string>$LibraryPath/Sliced Scale.mopr</string>
+			<key>protocolNames</key>
+			<array>
+				<string>FxFilter</string>
+			</array>
+			<key>uuid</key>
+			<string>546352EB-956A-4DDA-9071-C82CC50B7F73</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+	</array>
+	<key>ProPlugProtocolList</key>
+	<array>
+		<dict>
+			<key>protocolName</key>
+			<string>FxParameterCreationAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxParameterRetrievalAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxParameterSettingAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxOnScreenControlAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxTemporalImageAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxROIRequestAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxOptionalParameterCreationAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxOptionalParameterRetrievalAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxOptionalParameterSettingAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>FxCustomParameterActionAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>protocolName</key>
+			<string>OZEnvironmentAPI</string>
+			<key>versions</key>
+			<array>
+				<integer>1</integer>
+			</array>
+		</dict>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

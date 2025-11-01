@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ą A À Á Â Ä Æ Ã Å Ā</string>
+		<key>Strings</key>
+		<string>Ą A À Á Â Ä Æ Ã Å Ā</string>
+	</dict>
+	<key>Roman-Accent-C</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ć C Ç Č</string>
+		<key>Strings</key>
+		<string>Ć C Ç Č</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ę E È É Ê Ë Ė Ē</string>
+		<key>Strings</key>
+		<string>Ę E È É Ê Ë Ė Ē</string>
+	</dict>
+	<key>Roman-Accent-L</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ł L</string>
+		<key>Strings</key>
+		<string>Ł L</string>
+	</dict>
+	<key>Roman-Accent-N</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ń N Ñ</string>
+		<key>Strings</key>
+		<string>Ń N Ñ</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ó O Ô Ö Ò Õ Œ Ø Ō</string>
+		<key>Strings</key>
+		<string>Ó O Ô Ö Ò Õ Œ Ø Ō</string>
+	</dict>
+	<key>Roman-Accent-S</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ś S Š</string>
+		<key>Strings</key>
+		<string>Ś S Š</string>
+	</dict>
+	<key>Roman-Accent-Z</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ż Ź Z Ž</string>
+		<key>Strings</key>
+		<string>Ż Ź Z Ž</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ą a à á â ä æ ã å ā</string>
+		<key>Strings</key>
+		<string>ą a à á â ä æ ã å ā</string>
+	</dict>
+	<key>Roman-Accent-c</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ć c ç č</string>
+		<key>Strings</key>
+		<string>ć c ç č</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ę e è é ê ë ė ē</string>
+		<key>Strings</key>
+		<string>ę e è é ê ë ė ē</string>
+	</dict>
+	<key>Roman-Accent-l</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ł l</string>
+		<key>Strings</key>
+		<string>ł l</string>
+	</dict>
+	<key>Roman-Accent-n</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ń n ñ</string>
+		<key>Strings</key>
+		<string>ń n ñ</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ó o ô ö ò õ œ ø ō</string>
+		<key>Strings</key>
+		<string>ó o ô ö ò õ œ ø ō</string>
+	</dict>
+	<key>Roman-Accent-s</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ś s ß š</string>
+		<key>Strings</key>
+		<string>ś s ß š</string>
+	</dict>
+	<key>Roman-Accent-z</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ż ź z ž</string>
+		<key>Strings</key>
+		<string>ż ź z ž</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Bold</key>
+	<string>pogrubienie</string>
+	<key>UI-Buy</key>
+	<string>kup</string>
+	<key>UI-Cancel</key>
+	<string>anuluj</string>
+	<key>UI-Clear</key>
+	<string>wymaż</string>
+	<key>UI-Continue</key>
+	<string>dalej</string>
+	<key>UI-Copy</key>
+	<string>kopiuj</string>
+	<key>UI-Cut</key>
+	<string>wytnij</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Delete</key>
+	<string>usuń</string>
+	<key>UI-Done</key>
+	<string>gotowe</string>
+	<key>UI-EmergencyCall</key>
+	<string>SOS</string>
+	<key>UI-Go</key>
+	<string>idź</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>PL</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Italic</key>
+	<string>kursywa</string>
+	<key>UI-Join</key>
+	<string>połącz</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Polski</string>
+	<key>UI-Next</key>
+	<string>dalej</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>ABC</string>
+	<key>UI-NumberPad-3</key>
+	<string>DEF</string>
+	<key>UI-NumberPad-4</key>
+	<string>GHI</string>
+	<key>UI-NumberPad-5</key>
+	<string>JKL</string>
+	<key>UI-NumberPad-6</key>
+	<string>MNO</string>
+	<key>UI-NumberPad-7</key>
+	<string>PQRS</string>
+	<key>UI-NumberPad-8</key>
+	<string>TUV</string>
+	<key>UI-NumberPad-9</key>
+	<string>WXYZ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>wklej</string>
+	<key>UI-Pause</key>
+	<string>pauza</string>
+	<key>UI-Prediction</key>
+	<string>Przesuń w dół, aby zamknąć</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Recents</key>
+	<string>Ostatnie</string>
+	<key>UI-Redo</key>
+	<string>przywróć</string>
+	<key>UI-Return</key>
+	<string>return</string>
+	<key>UI-Route</key>
+	<string>trasa</string>
+	<key>UI-Search</key>
+	<string>szukaj</string>
+	<key>UI-Send</key>
+	<string>wyślij</string>
+	<key>UI-Space</key>
+	<string>spacja</string>
+	<key>UI-Speak</key>
+	<string>mów</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .pl .org .edu .eu</string>
+		<key>Strings</key>
+		<string>.com .pl .org .edu .eu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>podkreślenie</string>
+	<key>UI-Undo</key>
+	<string>cofnij</string>
+	<key>UI-Wait</key>
+	<string>czekaj</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

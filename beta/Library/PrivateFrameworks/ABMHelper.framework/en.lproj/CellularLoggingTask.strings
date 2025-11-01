@@ -1,0 +1,6 @@
+"USERCONFIRM_DENY" = "Don’t Allow";
+"USERCONFIRM_ALLOW" = "Ok";
+"USERCONFIRM_MESSAGE" = "
+This will automatically collect baseband logs that allows %@ to diagnose and debug issues that your device is having with the cellular network. The logs files may contain some of your personal information, including contents of SMS’s, device information, phone numbers, Apple Accounts into which you are signed, and logs of incoming and outgoing calls. These baseband logs can be sent to remote locations. If you wish to remove this logging capability, please contact your Administrator.
+";
+"USERCONFIRM_TITLE" = "Remote Baseband Log Collection";

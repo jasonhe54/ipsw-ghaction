@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.accessibility.axremoted</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>com.apple.accessibility.axremoted.rapportWake</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.accessibility.axremoted.rapportWake</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/AccessibilityRemoteServices.framework/Support/axremoted</string>
+</dict>
+</plist>

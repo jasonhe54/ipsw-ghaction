@@ -1,0 +1,6 @@
+"READ_DATA" = "read data";
+"SIGN_DATA" = "sign data";
+"INVALID_PIN" = "PIN has invalid format";
+"DECRYPT_DATA" = "decrypt data";
+"VERIFY_TRY_LEFT" = "{'tries': {'one': 'PIN verification failed, one try left', 'other': 'PIN verification failed, %d tries left', 'zero': 'PIN verification failed, PIN blocked', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%1$#@tries@'}";
+"REGISTERED_SMARTCARD_NFC_PROMPT_MESSAGE" = "Scan your registered smartcard for %@";

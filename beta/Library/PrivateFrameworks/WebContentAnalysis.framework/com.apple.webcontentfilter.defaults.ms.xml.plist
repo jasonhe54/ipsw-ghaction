@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.tvidi.ru</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Детский портал Твиди</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.ru/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.smeshariki.ru/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Смешарики</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/ru/startpage/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple (Россия)</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.rgdb.ru/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Российская государственная детская библиотека</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.popmech.ru/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Популярная механика</string>
+		</dict>
+	</array>
+</dict>
+</plist>

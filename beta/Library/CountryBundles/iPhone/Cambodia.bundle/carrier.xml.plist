@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Cambodia</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>117</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_POLICE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>118</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_FIRE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>119</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_AMBULANCE</string>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>kh</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>456</string>
+		<string>com.apple.Cambodia</string>
+	</array>
+</dict>
+</plist>

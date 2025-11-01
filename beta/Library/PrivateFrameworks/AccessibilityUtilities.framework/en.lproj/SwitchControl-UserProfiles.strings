@@ -1,0 +1,14 @@
+"PROFILES_LABEL" = "Switch Sets";
+"PROFILES_CANCEL" = "Cancel";
+"PROFILES_DELETE_ALL_PROMPT" = "This will delete all configured Switch Control profiles (including the Default profile).";
+"RENAME_PROFILE_TITLE" = "Rename Switch Set";
+"PROFILES_ADD_LABEL" = "Add New Switch Set…";
+"PROFILES_DELETE_ALL_TITLE" = "Delete All Switch Sets";
+"SWITCH_CONTROL_DEFAULT_PROFILE_NAME" = "Default";
+"PROFILES_FOOTER" = "Use Switch Sets to quickly change between a set of active switches & recipes to another set. Creating a new Switch Set will copy the current switches & recipes.";
+"switch.recipe.count.format" = "{'switches': {'one': '%d Switch', 'other': '%d Switches', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'recipes': {'one': '%d Recipe', 'other': '%d Recipes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@switches@, %#@recipes@'}";
+"PROFILES_OK" = "Delete All";
+"SWITCH_CONTROL_PROFILE_NAME_TEMPLATE" = "Switch Set %@";
+"PROFILES_DELETE_ALL_LABEL" = "Delete All Switch Sets";
+"SWITCH_CONTROL_PROFILES_LABEL" = "Switch Sets";
+"NEW_PROFILE_TITLE" = "New Switch Set";

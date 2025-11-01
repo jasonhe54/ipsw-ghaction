@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>When viewing Journaling Suggestions, always show the preview before Journaling about the Suggestion.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.apple.momentsd.event-streams-updated</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.apple.momentsd</string>
+			<key>key</key>
+			<string>MOSettingAlwaysPreviewItems</string>
+			<key>label</key>
+			<string>Always Preview Items</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Entries</string>
+</dict>
+</plist>

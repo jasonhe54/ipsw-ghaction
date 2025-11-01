@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>WatchOpticalSensor</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.SensorKit.WatchOpticalSensor</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>WatchOpticalSensor</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B68</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>SRAuthService</key>
+	<string>kTCCServiceSensorKitMotionHeartRate</string>
+	<key>SRCollectedData</key>
+	<array>
+		<string>COLLECTED_DATA_0</string>
+		<string>COLLECTED_DATA_1</string>
+		<string>COLLECTED_DATA_2</string>
+	</array>
+	<key>SRDisplayName</key>
+	<string>Optical Sensor</string>
+	<key>SRNotCollectedData</key>
+	<array>
+		<string>NOT_COLLECTED_DATA</string>
+	</array>
+	<key>SRPlatforms</key>
+	<array>
+		<string>Watch</string>
+	</array>
+	<key>SRRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_ALERT_DETAIL</string>
+	<key>SRRevokeRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_REVOKE_ALERT_DETAIL</string>
+	<key>SRSampleData</key>
+	<array>
+		<dict>
+			<key>Accelerometer Samples</key>
+			<array>
+				<dict>
+					<key>frequency</key>
+					<integer>256</integer>
+					<key>nanosecondsSinceStart</key>
+					<integer>123456</integer>
+					<key>x</key>
+					<real>1.123</real>
+					<key>y</key>
+					<real>-1.123</real>
+					<key>z</key>
+					<real>0.45600000000000002</real>
+				</dict>
+			</array>
+			<key>Optical Samples</key>
+			<array>
+				<dict>
+					<key>background noise</key>
+					<real>1.1234</real>
+					<key>background noise offset</key>
+					<real>1.1234</real>
+					<key>conditions</key>
+					<array>
+						<string>UnreliableNoise&lt;no loc&gt;</string>
+					</array>
+					<key>effective wavelength</key>
+					<real>692.12339999999995</real>
+					<key>emitter</key>
+					<integer>1</integer>
+					<key>frequency</key>
+					<integer>32</integer>
+					<key>nanosecondsSinceStart</key>
+					<integer>123456</integer>
+					<key>nominal wavelength</key>
+					<real>700.12339999999995</real>
+					<key>normalized reflectance</key>
+					<real>1.1234</real>
+					<key>photodiodes</key>
+					<integer>2</integer>
+					<key>pink noise</key>
+					<real>1.1234</real>
+					<key>signal identifier</key>
+					<integer>1</integer>
+					<key>white noise</key>
+					<real>1.1234</real>
+				</dict>
+			</array>
+			<key>Sample Timestamp</key>
+			<real>12345.678</real>
+			<key>Start Date</key>
+			<date>2023-10-04T00:51:52Z</date>
+			<key>Temperature</key>
+			<real>23.123456000000001</real>
+			<key>Usage</key>
+			<array>
+				<string>ForegroundHeartRate&lt;no loc&gt;</string>
+			</array>
+			<key>nanosecondsSinceStart</key>
+			<integer>123456</integer>
+			<key>sampling_rate_hz</key>
+			<integer>64</integer>
+		</dict>
+		<dict>
+			<key>Generation Timestamp</key>
+			<real>580251494.38956404</real>
+			<key>Sample Timestamp</key>
+			<real>12345.678</real>
+			<key>confidence</key>
+			<real>0.5</real>
+			<key>heartRate</key>
+			<real>75.123450000000005</real>
+		</dict>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

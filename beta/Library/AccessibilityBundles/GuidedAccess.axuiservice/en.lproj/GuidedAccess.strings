@@ -1,0 +1,138 @@
+"TIME_LIMIT_DURATION" = "Duration";
+"SESSION_RUNNING_NOTE_NHB_IPAD" = "Guided Access is enabled.
+Triple-click the Top Button to exit.";
+"OPTIONS_HEADER" = "Options";
+"HARDWARE_FEATURE_LOCK_IPHONE" = "Sleep/Wake Button";
+"GUIDED_ACCESS_TITLE" = "Guided Access";
+"APP_SELF_LOCK_ALLOW_BUTTON_LABEL" = "Yes";
+"HARDWARE_FEATURE_LOCK_IPOD" = "Sleep/Wake Button";
+"SET_PASSCODE" = "Set Passcode";
+"APP_SELF_LOCK_TIMED_OUT_IPAD" = "Time Expired.
+Your iPad is no longer locked to %1$@.";
+"APP_SELF_LOCK_ENDED_IPAD" = "Your iPad is no longer locked to %1$@.";
+"SYS_FEATURE_MOTION" = "Motion";
+"AX_APPLICATION" = "Application";
+"GUIDED_ACCESS_START_BUTTON" = "Start Guided Access";
+"TIME_RESTRICTION_FEATURE" = "Time Limit";
+"AX_RESIZE_BOTTOM_RIGHT" = "Bottom Right";
+"TIME_RESTRICTION_APP_TIME_REMAINING_CENTER_BANNER" = "Time Limit
+%@";
+"CLOSE_BUTTON" = "Close";
+"GUIDED_ACCESS_STARTED_TIME_LIMIT_FORMAT" = "Guided Access Started
+
+Triple-click the Digital Crown to exit
+
+Time limit set for %@";
+"TIME_LIMIT_EXPIRING_SOON" = "Time limit expiring soon";
+"START" = "Start";
+"INTERACTION_TOGGLE" = "Interface Interaction";
+"CANNOT_REUSE_PASSCODE" = "Cannot Reuse Passcode";
+"SESSION_ENDED_POWER_BUTTON_EXIT_NOTE_NHB" = "Triple-click the Side Button to exit.";
+"OPTIONS" = "Session Settings";
+"INPUT_SETUP_TOGGLE" = "Input Setup";
+"INTERACTION_FOOTER" = "When this is on, you can interact with the interface using eye and hand gestures.";
+"CANCEL" = "Cancel";
+"USER_LOCKED_OUT_VIA_FAIL" = "Incorrect passcode.
+You may try again after %@ seconds.";
+"APP_FOOTER" = "Only the selected app will be available during Guided Access.";
+"APP_SELF_LOCK_ENDED_IPOD" = "Your iPod touch is no longer locked to %1$@.";
+"APP_SELF_LOCK_ENDED_IPHONE" = "Your iPhone is no longer locked to %1$@.";
+"GAX_TIME_RESTRICTION_DID_EXPIRE_SPEECH_STRIMG" = "Guided Access time has ended";
+"SESSION_RUNNING_NOTE_WITH_FACE_ID_IPAD" = "Guided Access is enabled.
+Triple-click the Top Button or use Face ID to exit.";
+"END" = "End";
+"HARDWARE_FEATURE_LOCK_IPAD_NHB" = "Top Button";
+"CONFIRMATION_FAILURE" = "Passcodes did not match";
+"DEVICE_IS_RESTRICTED" = "Guided Access app unavailable. Please contact your administrator";
+"APP_SELF_LOCK_UNAVAILABLE_DEVICE_LOCKED" = "Unlock your device to use Guided Access.";
+"RESUME" = "Resume";
+"SESSION_STARTED" = "Guided Access Started.";
+"DONE" = "Done";
+"APP_SELF_LOCK_UNAVAILABLE_MULTIPLE_APPS" = "Guided Access is unavailable while multiple apps are open.";
+"AX_CLOSE_BUTTON" = "Delete";
+"OPTIONS_FEATURE" = "%@ Options";
+"INPUT_SETUP_TEXT" = "Input setup will begin when someone else puts this Apple Vision Pro on after starting Guided Access.";
+"SESSION_RUNNING_NOTE" = "Guided Access is enabled.
+Triple-click the home button to exit.";
+"END_GUIDED_ACCESS" = "End Guided Access";
+"HELP_GENERAL" = "Guided Access restricts system features and touch interaction.";
+"INCOMING_CALL_SUBTITLE" = "incoming call";
+"TIME_LIMIT_OTHER" = "OTHER";
+"APP_SELF_LOCK_UNAVAILABLE_NO_APP" = "Guided Access is unavailable.
+Open an app to start Guided Access.";
+"SESSION_ENDED" = "Guided Access Ended.";
+"APP_REPOSITIONING_TOGGLE" = "App Repositioning";
+"AX_RESIZE_TOP_LEFT" = "Top Left";
+"HELP_INTEREST_AREA" = "Circle areas on the screen you would like to disable.";
+"SESSION_RUNNING_NOTE_VISIONOS" = "Guided Access is enabled
+
+Triple-click the Digital Crown to exit";
+"GUIDED_ACCESS_STARTED_MESSAGE_SIMPLE" = "Guided Access Started
+
+Triple-click the Digital Crown to exit";
+"SESSION_SETTINGS" = "Session Settings";
+"GAX_TIME_RESTRICTION_LOCKOUT_VIEW_SUBTITLE" = "A time limit of %@ has been set for Guided Access. Triple-click to enter the Guided Access passcode.";
+"SESSION_RUNNING_NOTE_WITH_TOUCH_ID" = "Guided Access is enabled.
+Triple-click the home button or use Touch ID to exit.";
+"OPTIONS_FEATURE_HARDWARE" = "Hardware Buttons";
+"APP_SELF_LOCK_TIMED_OUT_IPOD" = "Time Expired.
+Your iPod touch is no longer locked to %1$@.";
+"TIME_LIMIT_MINUTES" = "MIN";
+"TIME_LIMIT_EXPIRED_VISIONOS" = "Time Expired
+
+A time limit has expired for Guided Access
+
+Triple-click the Digital Crown to enter the Guided Access passcode";
+"APP_SELF_LOCK_DENY_BUTTON_LABEL" = "No";
+"FACE_ID_FAILED_NOTE" = "Guided Access is enabled.
+Try again with Face ID.";
+"APP_HEADER" = "App";
+"AX_RESIZE_BOTTOM_LEFT" = "Bottom Left";
+"APP_SELF_LOCK_STARTED_IPAD" = "Your iPad is now locked to %1$@.
+Your iPad will be unlocked when %1$@ ends Assessment Mode, or after %2$@.";
+"HARDWARE_FEATURE_LOCK_IPHONE_NHB" = "Side Button";
+"APP_SELF_LOCK_UNAVAILABLE_IN_SETTINGS" = "Guided Access is not available while in Settings.";
+"SESSION_RUNNING_NOTE_NHB" = "Guided Access is enabled.
+Triple-click the side button to exit.";
+"SYS_FEATURE_TOUCH" = "Touch";
+"USER_LOCKED_OUT_VIA_FAIL_VISIONOS" = "Incorrect passcode.
+You may try again after %@.";
+"ENTER_PASSCODE" = "Enter Passcode";
+"GUIDED_ACCESS_STARTED_MESSAGE" = "Guided Access Started
+
+Input setup will begin when someone else puts on this Apple Vision Pro
+
+Triple-click the Digital Crown to exit";
+"AX_RESIZE_KNOB_HINT" = "Double tap and hold, then drag to adjust region";
+"TIME_LIMIT_EXPIRED_ANNOUNCEMENT" = "Time Limit Expired";
+"SYS_FEATURE_KEYBOARD_TEXT_INPUT" = "Software Keyboards";
+"APP_SELF_LOCK_UNKNOWN_APP_NAME" = "an application";
+"HARDWARE_FEATURE_LOCK_IPAD" = "Sleep/Wake Button";
+"ENTER_GUIDED_ACCESS_PASSCODE" = "Enter Guided Access Passcode";
+"APP_SELF_LOCK_STARTED_IPHONE" = "Your iPhone is now locked to %1$@.
+Your iPhone will be unlocked when %1$@ ends Assessment Mode, or after %2$@.";
+"USER_LOCKED_OUT_VIA_CANCEL_VISIONOS" = "Passcode entry disabled.
+You may try again after %@.";
+"AX_RESIZE_TOP_RIGHT" = "Top Right";
+"TOUCH_ID_FAILED_NOTE" = "Guided Access is enabled.
+Try again with Touch ID.";
+"APP_SELF_LOCK_TIMED_OUT_IPHONE" = "Time Expired.
+Your iPhone is no longer locked to %1$@.";
+"AX_RESIZE_KNOB" = "Resize";
+"GUIDED_ACCESS_RESUME_BUTTON" = "Resume Guided Access";
+"HARDWARE_FEATURE_VOLUME" = "Volume Buttons";
+"USER_LOCKED_OUT_VIA_CANCEL" = "Passcode entry disabled.
+You may try again after %@ seconds.";
+"SESSION_ENDED_POWER_BUTTON_EXIT_NOTE_NHB_IPAD" = "Triple-click the Top Button to exit.";
+"APP_SELF_LOCK_STARTED_IPOD" = "Your iPod touch is now locked to %1$@.
+Your iPod touch will be unlocked when %1$@ ends Assessment Mode, or after %2$@.";
+"APP_SELF_LOCK_CONFIRM_TITLE" = "Confirm App Self-Lock";
+"KEYBOARD_TOGGLE" = "Keyboard";
+"APP_SELF_LOCK_UNMANAGED_RESTRICTIONS" = "Unmanaged Autonomous Single-App Mode Restrictions";
+"AX_INTEREST_AREA_COUNT" = "{'areas': {'one': '%d area', 'zero': 'no areas', 'other': '%d areas', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@areas@'}";
+"GAX_TIME_RESTRICTION_LOCKOUT_VIEW_TITLE" = "Time Expired";
+"APP_SELF_LOCK_CONFIRM_MESSAGE" = "%1$@ wants to start Assessment Mode. You will be unable to use other apps on %2$@ until %1$@ ends Assessment Mode. Do you want to allow this?";
+"TIME_RESTRICTION_APP_TIME_REMAINING_TOP_BANNER" = "%@ remaining";
+"SESSION_RUNNING_NOTE_WITH_FACE_ID" = "Guided Access is enabled.
+Triple-click the side button or use Face ID to exit.";
+"APP_SELF_LOCK_UNAVAILABLE" = "Guided Access is unavailable.";

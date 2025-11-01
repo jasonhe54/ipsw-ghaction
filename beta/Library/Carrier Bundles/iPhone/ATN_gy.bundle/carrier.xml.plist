@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>5</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>ONE</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Guyana</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>27753</string>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>ServiceCode</key>
+			<string>911</string>
+			<key>ServiceName</key>
+			<string>Emergency</string>
+		</dict>
+	</array>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>ShowTTY</key>
+	<false/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GTT+ Do More</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GTT</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GT&amp;T</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GUY GTT + Do More</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GUY GTT+ Do More</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GTT-WE RISE</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>738002</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>VVMIgnoresIntlDataRoaming</key>
+	<false/>
+	<key>VisualVoicemailServiceName</key>
+	<string>none</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>Onecomm</string>
+			<key>type-mask</key>
+			<integer>49</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+"SINGLE_OWNER_SINGLE_ACTIVATION_LOCK_TEXT" = "This part is linked to another Apple Account. To complete the configuration, you will need to enter the email address or phone number and password that was used to set up the device that originally contained this part.
+
+If you do not know the Apple Account, contact the owner of the device or part seller, and ask them to remove Activation Lock from the device.
+
+For information on Activation Lock and Repair Assistant, see https://support.apple.com/120610.";
+"UNKNOWN_ERROR_ALERT_ACTION" = "OK";
+"AUTH_ERROR_ALERT_ACTION" = "OK";
+"SKIP_ACTIVATION_BUTTON_TITLE" = "Skip";
+"UNKNOWN_ERROR_ALERT_TITLE" = "Unable to Unlock Part";
+"UNKNOWN_ERROR_ALERT_MESSAGE" = "An error occurred unlocking this part.";
+"ACTIVATION_LOCK_INFO_TEXT" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Enter the email address or phone number that was used to set up the last iPhone that contained this part.', 'ipad': 'Enter the email address or phone number that was used to set up the last iPad that contained this part.'}}";
+"SINGLE_OWNER_MULTI_ACTIVATION_LOCK_TEXT" = "These parts are linked to another Apple Account. To complete the configuration, you will need to enter the email address or phone number and password that was used to set up the devices that originally contained these parts.
+
+If you do not know the Apple Account, contact the owner of the devices or part seller, and ask them to remove Activation Lock from the devices.
+
+For information on Activation Lock and Repair Assistant, see https://support.apple.com/120610.";
+"CHIMERA_LOCK_DETAIL_TEXT" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'This part is from a device that is property of Apple or one of its partners and cannot be used with this iPhone. You can continue using your iPhone, but may experience unexpected behavior.', 'ipad': 'This part is from a device that is property of Apple or one of its partners and cannot be used with this iPad. You can continue using your iPad, but may experience unexpected behavior.'}}";
+"AUTH_ERROR_ALERT_TITLE" = "Incorrect Apple Account or Password";
+"SINGLE_OWNER_MULTI_ACTIVATION_LOCK_TITLE" = "Multiple Parts Locked to Owner";
+"CHIMERA_LOCK_TITLE" = "Unable to Configure %@ ";
+"START_ACTIVATION_BUTTON_TITLE" = "Unlock with Apple Account";
+"MULTI_OWNER_MULTI_ACTIVATION_LOCK_TEXT" = "These parts are linked to more than one Apple Account. To complete the configuration, you will need to enter the email address or phone number and password for each account that was used to set up the devices that originally contained these parts.
+
+If you do not know the Apple Account credentials, contact the owners of the devices or part seller, and ask them to remove Activation Lock from the devices.
+
+For information on Activation Lock and Repair Assistant, see https://support.apple.com/120610.";
+"CONTINUE_BUTTON_TITLE" = "Continue";
+"ACTIVATION_LOST_DETAIL_TEXT" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'This part is from a device in Lost Mode. To complete configuration of this part, visit iCloud.com/find to turn off Lost Mode and try again.\n\nIf you do not know the Apple Account for this part, contact the owner or part seller and ask them to turn off Lost Mode and remove Activation Lock from the last iPhone.\n\nYou can continue using your iPhone, but may experience unexpected behavior.', 'ipad': 'This part is from a device in Lost Mode. To complete configuration of this part, visit iCloud.com/find to turn off Lost Mode and try again.\n\nIf you do not know the Apple Account for this part, contact the owner or part seller and ask them to turn off Lost Mode and remove Activation Lock from the last iPad.\n\nYou can continue using your iPad, but may experience unexpected behavior.'}}";
+"MULTI_OWNER_MULTI_ACTIVATION_LOCK_TITLE" = "Multiple Parts Locked to Owners";

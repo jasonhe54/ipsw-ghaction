@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shared-collections</key>
+	<dict>
+		<key>california-evergreen</key>
+		<dict>
+			<key>imports</key>
+			<array>
+				<string>evergreen</string>
+			</array>
+			<key>items</key>
+			<array>
+				<string>evergreen.ceramic</string>
+				<string>evergreen.gold</string>
+			</array>
+		</dict>
+		<key>custom</key>
+		<dict>
+			<key>fall2023</key>
+			<array>
+				<string>mint</string>
+			</array>
+		</dict>
+		<key>device-specific</key>
+		<dict>
+			<key>items-sku1</key>
+			<array>
+				<string>zeus.orange</string>
+			</array>
+		</dict>
+		<key>evergreen</key>
+		<array>
+			<string>navyBlue</string>
+			<string>ivory</string>
+			<string>palePink</string>
+			<string>white</string>
+			<string>black</string>
+			<string>darkTitanium</string>
+			<string>lightTitanium</string>
+			<string>evergreen</string>
+			<string>mango</string>
+			<string>slate</string>
+			<string>slate2</string>
+			<string>warmGray</string>
+			<string>watermelon</string>
+		</array>
+		<key>margarita</key>
+		<dict>
+			<key>items</key>
+			<array>
+				<string>black</string>
+				<string>charcoal</string>
+				<string>darkGray</string>
+				<string>gray</string>
+				<string>lightGray</string>
+				<string>white</string>
+				<string>beige</string>
+				<string>tan</string>
+				<string>coffee</string>
+				<string>brown</string>
+				<string>darkBrown</string>
+				<string>brickRed</string>
+				<string>red</string>
+				<string>roseRed</string>
+				<string>brightRed</string>
+				<string>pink</string>
+				<string>orangeRed</string>
+				<string>orange</string>
+				<string>mustard</string>
+				<string>yellow</string>
+				<string>lightYellow</string>
+				<string>limeGreen</string>
+				<string>lightGreen</string>
+				<string>green</string>
+				<string>darkGreen</string>
+				<string>teal</string>
+				<string>turquoise</string>
+				<string>jadeGreen</string>
+				<string>slate</string>
+				<string>deepNavy</string>
+				<string>royalBlue</string>
+				<string>greBlue</string>
+				<string>lakeBlue</string>
+				<string>skyBlue</string>
+				<string>lightBlue</string>
+				<string>violet</string>
+				<string>purple</string>
+				<string>deepPurple</string>
+				<string>magenta</string>
+				<string>fuchsia</string>
+				<string>dustyRose</string>
+				<string>lightPink</string>
+			</array>
+		</dict>
+		<key>mickey</key>
+		<array>
+			<string>vintage</string>
+			<string>red</string>
+		</array>
+		<key>seasons</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>fall2015</key>
+				<array>
+					<string>red</string>
+					<string>orange</string>
+					<string>turquoise</string>
+					<string>lightBlue</string>
+					<string>midnightBlue</string>
+					<string>lavender</string>
+					<string>vintageRose</string>
+					<string>walnut</string>
+					<string>stone</string>
+					<string>antiqueWhite</string>
+				</array>
+				<key>fall2016</key>
+				<array>
+					<string>oceanBlue</string>
+					<string>cocoa</string>
+				</array>
+				<key>fall2017</key>
+				<array>
+					<string>flash</string>
+					<string>blueCobalt</string>
+					<string>violet</string>
+					<string>pinkSand</string>
+					<string>electricPink</string>
+					<string>roseRed</string>
+					<string>softWhite</string>
+					<string>darkOlive</string>
+				</array>
+				<key>fall2018</key>
+				<array>
+					<string>stormGray</string>
+					<string>blueHorizon</string>
+					<string>indigo</string>
+					<string>lavenderGray</string>
+				</array>
+				<key>fall2019</key>
+				<array>
+					<string>clementine &amp; seasons.fall2015.vintageRose</string>
+					<string>lemonCream &amp; seasons.winter2019.beryl</string>
+					<string>seasons.winter2019.beryl &amp; seasons.winter2019.khaki</string>
+					<string>lemonCream &amp; alaskanBlue</string>
+					<string>seasons.spring2016.yellow &amp; seasons.fall2015.turquoise</string>
+					<string>seasons.fall2017.flash &amp; seasons.fall2017.pinkSand</string>
+					<string>seasons.fall2015.orange &amp; seasons.fall2018.stormGray</string>
+					<string>seasons.fall2017.darkOlive &amp; seasons.spring2015.pink</string>
+					<string>clementine</string>
+					<string>lemonCream</string>
+					<string>alaskanBlue</string>
+					<string>pineGreen</string>
+					<string>camel</string>
+				</array>
+				<key>fall2020</key>
+				<array>
+					<string>kumquat &amp; northernBlue</string>
+					<string>cyprusGreen &amp; deepNavy</string>
+					<string>pinkCitrus &amp; kumquat</string>
+					<string>pinkCitrus</string>
+					<string>deepNavy</string>
+					<string>northernBlue</string>
+					<string>kumquat</string>
+					<string>cream</string>
+					<string>cyprusGreen</string>
+					<string>plum</string>
+				</array>
+				<key>fall2021</key>
+				<array>
+					<string>seasons.spring2015.lightOrange &amp; white2t</string>
+					<string>seasons.fall2017.electricPink &amp; seasons.fall2015.walnut</string>
+					<string>seasons.fall2020.kumquat &amp; green6</string>
+					<string>red2sg &amp; purple1</string>
+					<string>blue11 &amp; green1</string>
+					<string>purple2</string>
+					<string>purple1</string>
+					<string>green3</string>
+					<string>stardust</string>
+					<string>red2sg</string>
+					<string>blue11</string>
+				</array>
+				<key>fall2022</key>
+				<array>
+					<string>green</string>
+					<string>red</string>
+					<string>succulent</string>
+					<string>elderberry</string>
+					<string>slateBlue</string>
+					<string>stormBlue</string>
+					<string>sunglow</string>
+					<string>seasons.fall2022.red &amp; seasons.fall2020.kumquat</string>
+					<string>seasons.fall2017.pinkSand &amp; seasons.spring2022.orange2</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2022.sunglow</string>
+					<string>seasons.fall2021.stardust &amp; seasons.summer2017.mistBlue</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2017.darkOlive</string>
+					<string>seasons.fall2022.stormBlue &amp; seasons.spring2015.white</string>
+				</array>
+				<key>fall2023</key>
+				<array>
+					<string>indigo</string>
+					<string>lightPink</string>
+					<string>red</string>
+					<string>clay</string>
+					<string>mulberry</string>
+					<string>winterBlue</string>
+					<string>orangeSorbet</string>
+					<string>cypress</string>
+					<string>guava</string>
+					<string>taupe</string>
+					<string>seasons.fall2019.alaskanBlue</string>
+					<string>seasons.fall2023.lightPink &amp; seasons.fall2023.guava</string>
+					<string>seasons.fall2023.cypress &amp; custom.fall2023.mint</string>
+					<string>seasons.fall2023.winterBlue &amp; seasons.fall2023.mulberry</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2023.orangeSorbet</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2023.winterBlue</string>
+					<string>seasons.fall2023.orangeSorbet &amp; seasons.fall2023.winterBlue</string>
+				</array>
+				<key>fall2024</key>
+				<array>
+					<string>iceBlue</string>
+					<string>navy</string>
+					<string>darkGreen</string>
+					<string>tan</string>
+					<string>green</string>
+					<string>silver</string>
+					<string>roseGold</string>
+					<string>natural</string>
+					<string>gold</string>
+					<string>slate</string>
+					<string>lakeGreen</string>
+					<string>plum</string>
+					<string>denim</string>
+					<string>lightBlush</string>
+					<string>starFruit</string>
+					<string>ultramarine</string>
+					<string>chartreuse</string>
+					<string>magenta</string>
+					<string>ink</string>
+					<string>blueCloud</string>
+					<string>darkTaupe</string>
+				</array>
+				<key>spring2015</key>
+				<array>
+					<string>white</string>
+					<string>green</string>
+					<string>blue</string>
+					<string>pink</string>
+					<string>purple</string>
+					<string>lightOrange</string>
+					<string>gold</string>
+					<string>goldRose</string>
+					<string>goldYellow</string>
+				</array>
+				<key>spring2016</key>
+				<array>
+					<string>apricot</string>
+					<string>yellow</string>
+					<string>mint</string>
+					<string>royalBlue</string>
+					<string>lightPink</string>
+				</array>
+				<key>spring2017</key>
+				<array>
+					<string>azure</string>
+					<string>camellia</string>
+					<string>pebble</string>
+				</array>
+				<key>spring2018</key>
+				<array>
+					<string>peach</string>
+					<string>flashLight</string>
+					<string>denimBlue</string>
+				</array>
+				<key>spring2019</key>
+				<array>
+					<string>papaya</string>
+					<string>spearmint</string>
+					<string>cerulean</string>
+					<string>lilac</string>
+					<string>delftBlue</string>
+				</array>
+				<key>spring2020</key>
+				<array>
+					<string>neonPink &amp; seasons.summer2020.coastalGray</string>
+					<string>seasons.spring2015.green &amp; seasons.summer2020.linenBlue</string>
+					<string>seasons.fall2015.orange &amp; seasons.summer2020.coastalGray</string>
+					<string>seasons.spring2015.lightOrange &amp; cactus</string>
+					<string>cactus</string>
+					<string>surfBlue</string>
+					<string>grapefruit</string>
+					<string>neonPink</string>
+				</array>
+				<key>spring2021</key>
+				<array>
+					<string>sunflower &amp; abyss</string>
+					<string>sunflower</string>
+					<string>pistachio</string>
+					<string>abyss</string>
+					<string>seaSalt</string>
+					<string>mallardGreen</string>
+				</array>
+				<key>spring2022</key>
+				<array>
+					<string>blue2</string>
+					<string>green3</string>
+					<string>green5</string>
+					<string>orange2</string>
+					<string>pink6t</string>
+					<string>seasons.fall2020.deepNavy &amp; seasons.spring2016.apricot</string>
+					<string>lavender &amp; lilac</string>
+					<string>oatmilk &amp; seasons.summer2019.canaryYellow</string>
+					<string>seasons.summer2020.linenBlue &amp; green5</string>
+					<string>orange2 &amp; seasons.winter2018.hibiscus</string>
+				</array>
+				<key>spring2023</key>
+				<array>
+					<string>sky</string>
+					<string>purpleFog</string>
+					<string>sproutGreen</string>
+				</array>
+				<key>spring2024</key>
+				<array>
+					<string>lightBlue</string>
+					<string>sunshine</string>
+					<string>softMint</string>
+					<string>oceanBlue</string>
+					<string>pink</string>
+					<string>raspberry</string>
+				</array>
+				<key>spring2025</key>
+				<array>
+					<string>peony</string>
+					<string>tangerine</string>
+					<string>aquamarine</string>
+					<string>periwinkle</string>
+					<string>northernLights</string>
+					<string>sage</string>
+				</array>
+				<key>summer2017</key>
+				<array>
+					<string>pollen</string>
+					<string>mistBlue</string>
+					<string>flamingo</string>
+				</array>
+				<key>summer2019</key>
+				<array>
+					<string>canaryYellow</string>
+					<string>dragonFruit</string>
+				</array>
+				<key>summer2020</key>
+				<array>
+					<string>seaFoam</string>
+					<string>linenBlue</string>
+					<string>coastalGray</string>
+				</array>
+				<key>summer2021</key>
+				<array>
+					<string>seasons.spring2015.pink &amp; olive</string>
+					<string>olive &amp; seasons.spring2021.seaSalt</string>
+					<string>seasons.fall2018.blueHorizon &amp; electricOrange</string>
+					<string>olive &amp; seasons.spring2020.grapefruit</string>
+					<string>electricOrange</string>
+					<string>cloudBlue</string>
+					<string>olive</string>
+				</array>
+				<key>winter2017</key>
+				<array>
+					<string>darkTeal</string>
+				</array>
+				<key>winter2018</key>
+				<array>
+					<string>mellowYellow</string>
+					<string>pacificGreen</string>
+					<string>hibiscus</string>
+				</array>
+				<key>winter2019</key>
+				<array>
+					<string>beryl</string>
+					<string>pomegranate</string>
+					<string>khaki</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>isAddable</key>
+				<true/>
+				<key>migration</key>
+				<dict>
+					<key>victory.volt</key>
+					<string>seasons.fall2017.flash</string>
+				</dict>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>spring2015</string>
+				<string>fall2015</string>
+				<string>spring2016</string>
+				<string>fall2016</string>
+				<string>spring2017</string>
+				<string>summer2017</string>
+				<string>fall2017</string>
+				<string>winter2017</string>
+				<string>spring2018</string>
+				<string>fall2018</string>
+				<string>winter2018</string>
+				<string>spring2019</string>
+				<string>summer2019</string>
+				<string>fall2019</string>
+				<string>winter2019</string>
+				<string>spring2020</string>
+				<string>summer2020</string>
+				<string>fall2020</string>
+				<string>spring2021</string>
+				<string>summer2021</string>
+				<string>fall2021</string>
+				<string>spring2022</string>
+				<string>fall2022</string>
+				<string>spring2023</string>
+				<string>fall2023</string>
+				<string>spring2024</string>
+				<string>fall2024</string>
+				<string>spring2025</string>
+			</array>
+		</dict>
+		<key>seasons-bands-no-ultra</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>exclusions-family10</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family12</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family14</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family16</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family17</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family7</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family8</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family9</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>isAddable</key>
+				<true/>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>seasons.spring2024</string>
+				<string>seasons.fall2024</string>
+				<string>seasons.spring2025</string>
+			</array>
+		</dict>
+		<key>seasons-duotone</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>exclusions-family10</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family12</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family14</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family16</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family17</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family7</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family8</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family9</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>seasons</string>
+			</array>
+		</dict>
+		<key>seasons-duotone-only</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>fall2019</key>
+				<array>
+					<string>seasons.fall2019.clementine &amp; seasons.fall2015.vintageRose</string>
+					<string>seasons.fall2019.lemonCream &amp; seasons.winter2019.beryl</string>
+					<string>seasons.winter2019.beryl &amp; seasons.winter2019.khaki</string>
+					<string>seasons.fall2019.lemonCream &amp; seasons.fall2019.alaskanBlue</string>
+					<string>seasons.spring2016.yellow &amp; seasons.fall2015.turquoise</string>
+					<string>seasons.fall2017.flash &amp; seasons.fall2017.pinkSand</string>
+					<string>seasons.fall2015.orange &amp; seasons.fall2018.stormGray</string>
+					<string>seasons.fall2017.darkOlive &amp; seasons.spring2015.pink</string>
+				</array>
+				<key>fall2020</key>
+				<array>
+					<string>seasons.fall2020.kumquat &amp; seasons.fall2020.northernBlue</string>
+					<string>seasons.fall2020.cyprusGreen &amp; seasons.fall2020.deepNavy</string>
+					<string>seasons.fall2020.pinkCitrus &amp; seasons.fall2020.kumquat</string>
+				</array>
+				<key>fall2021</key>
+				<array>
+					<string>seasons.spring2015.lightOrange &amp; seasons.fall2021.white2t</string>
+					<string>seasons.fall2017.electricPink &amp; seasons.fall2015.walnut</string>
+					<string>seasons.fall2020.kumquat &amp; seasons.fall2021.green6</string>
+					<string>seasons.fall2021.red2sg &amp; seasons.fall2021.purple1</string>
+					<string>seasons.fall2021.blue11 &amp; seasons.fall2021.green1</string>
+				</array>
+				<key>fall2022</key>
+				<array>
+					<string>seasons.fall2022.red &amp; seasons.fall2020.kumquat</string>
+					<string>seasons.fall2017.pinkSand &amp; seasons.spring2022.orange2</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2022.sunglow</string>
+					<string>seasons.fall2021.stardust &amp; seasons.summer2017.mistBlue</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2017.darkOlive</string>
+					<string>seasons.fall2022.stormBlue &amp; seasons.spring2015.white</string>
+				</array>
+				<key>fall2023</key>
+				<array>
+					<string>seasons.fall2023.lightPink &amp; seasons.fall2023.guava</string>
+					<string>seasons.fall2023.cypress &amp; custom.fall2023.mint</string>
+					<string>seasons.fall2023.winterBlue &amp; seasons.fall2023.mulberry</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2023.orangeSorbet</string>
+					<string>seasons.fall2021.stardust &amp; seasons.fall2023.winterBlue</string>
+					<string>seasons.fall2023.orangeSorbet &amp; seasons.fall2023.winterBlue</string>
+				</array>
+				<key>spring2020</key>
+				<array>
+					<string>seasons.spring2020.neonPink &amp; seasons.summer2020.coastalGray</string>
+					<string>seasons.spring2015.green &amp; seasons.summer2020.linenBlue</string>
+					<string>seasons.fall2015.orange &amp; seasons.summer2020.coastalGray</string>
+					<string>seasons.spring2015.lightOrange &amp; seasons.spring2020.cactus</string>
+				</array>
+				<key>spring2021</key>
+				<array>
+					<string>seasons.spring2021.sunflower &amp; seasons.spring2021.abyss</string>
+				</array>
+				<key>spring2022</key>
+				<array>
+					<string>seasons.fall2020.deepNavy &amp; seasons.spring2016.apricot</string>
+					<string>seasons.spring2022.lavender &amp; seasons.spring2022.lilac</string>
+					<string>seasons.spring2022.oatmilk &amp; seasons.summer2019.canaryYellow</string>
+					<string>seasons.summer2020.linenBlue &amp; seasons.spring2022.green5</string>
+					<string>seasons.spring2022.orange2 &amp; seasons.winter2018.hibiscus</string>
+				</array>
+				<key>summer2021</key>
+				<array>
+					<string>seasons.spring2015.pink &amp; seasons.summer2021.olive</string>
+					<string>seasons.summer2021.olive &amp; seasons.spring2021.seaSalt</string>
+					<string>seasons.fall2018.blueHorizon &amp; seasons.summer2021.electricOrange</string>
+					<string>seasons.summer2021.olive &amp; seasons.spring2020.grapefruit</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>isAddable</key>
+				<true/>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>fall2019</string>
+				<string>spring2020</string>
+				<string>fall2020</string>
+				<string>spring2021</string>
+				<string>summer2021</string>
+				<string>fall2021</string>
+				<string>spring2022</string>
+				<string>fall2022</string>
+				<string>fall2023</string>
+			</array>
+		</dict>
+		<key>seasons-monotone</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>excludes-duotone</key>
+				<true/>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>seasons</string>
+			</array>
+		</dict>
+		<key>seasons-monotone-no-device-specific</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>exclusions-family10</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family12</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family14</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family16</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family17</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family7</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family8</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+				<key>exclusions-family9</key>
+				<array>
+					<string>seasons.fall2022.green</string>
+					<string>seasons.fall2023.indigo</string>
+					<string>seasons.fall2024.iceBlue</string>
+					<string>seasons.fall2024.navy</string>
+					<string>seasons.fall2024.darkGreen</string>
+					<string>seasons.fall2024.tan</string>
+					<string>seasons.fall2024.green</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>seasons-monotone</string>
+			</array>
+		</dict>
+		<key>seasons-monotone-no-white</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>exclusions</key>
+				<array>
+					<string>seasons.spring2015.white</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+		<key>special</key>
+		<array>
+			<string>multicolor</string>
+			<string>rainbow</string>
+			<string>seasons.black</string>
+		</array>
+		<key>standard</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>supports-slider</key>
+				<true/>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>device-specific</string>
+			</array>
+			<key>items</key>
+			<array>
+				<string>red</string>
+				<string>orange</string>
+				<string>lightOrange</string>
+				<string>yellow</string>
+				<string>lightYellow</string>
+				<string>lightGreen</string>
+				<string>green</string>
+				<string>lightBlue</string>
+				<string>blue</string>
+				<string>navy</string>
+				<string>purple</string>
+				<string>lightPurple</string>
+				<string>lightPink</string>
+				<string>pink</string>
+				<string>plum</string>
+				<string>stone</string>
+				<string>warmGray</string>
+				<string>cream</string>
+				<string>gray</string>
+			</array>
+		</dict>
+		<key>victory</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>isAddable</key>
+				<true/>
+			</dict>
+			<key>fall2017</key>
+			<array>
+				<string>victory.lightViolet</string>
+				<string>victory.violetDust</string>
+				<string>victory.blueOrbit</string>
+				<string>victory.indigo</string>
+			</array>
+			<key>fall2018</key>
+			<array>
+				<string>victory.obsidianIndigo</string>
+				<string>victory.smokyMauve</string>
+				<string>victory.oliveFlak</string>
+				<string>victory.wolfGray</string>
+				<string>victory.lightSilver</string>
+				<string>victory.particleBeige</string>
+				<string>victory.terraBlush</string>
+				<string>victory.brightCrimson</string>
+				<string>victory.celestialTeal</string>
+			</array>
+			<key>fall2021</key>
+			<array>
+				<string>crimson-bliss</string>
+				<string>mystic-navy</string>
+				<string>cargo-khaki</string>
+				<string>victory.white &amp; victory.volt</string>
+				<string>victory.auroraGreen</string>
+				<string>victory.midnightTurquoise</string>
+				<string>seasons.spring2015.white &amp; explorer.red</string>
+			</array>
+			<key>fall2022</key>
+			<array>
+				<string>summitWhite</string>
+				<string>oliveGrey</string>
+				<string>brightCrimson</string>
+			</array>
+			<key>fall2023</key>
+			<array>
+				<string>blueFlame</string>
+				<string>desertStone</string>
+				<string>gameRoyal</string>
+				<string>brightGreen</string>
+				<string>sequoia</string>
+				<string>starlight</string>
+			</array>
+			<key>fall2024</key>
+			<array>
+				<string>grey</string>
+				<string>green</string>
+				<string>blue</string>
+			</array>
+			<key>spring2017</key>
+			<array>
+				<string>victory.lightBone</string>
+			</array>
+			<key>spring2018</key>
+			<array>
+				<string>victory.cargoKhaki</string>
+				<string>victory.barelyRose</string>
+			</array>
+			<key>spring2019</key>
+			<array>
+				<string>victory.tealTint</string>
+				<string>victory.hyperGrape</string>
+				<string>victory.spruceFog</string>
+				<string>victory.desertSand</string>
+				<string>victory.royalPulse</string>
+			</array>
+			<key>spring2022</key>
+			<array>
+				<string>pink-oxford</string>
+			</array>
+			<key>summer2021</key>
+			<array>
+				<string>victory.hasta</string>
+				<string>victory.chlorineBlue</string>
+				<string>victory.ironstone</string>
+				<string>victory.limeBlast</string>
+				<string>victory.spruceAura</string>
+				<string>victory.blueBlack</string>
+				<string>victory.obsidianMist</string>
+			</array>
+		</dict>
+		<key>victory-evergreen</key>
+		<dict>
+			<key>items</key>
+			<array>
+				<string>victory.white</string>
+				<string>victory.volt</string>
+				<string>victory.anthracite</string>
+				<string>victory.totalOrange</string>
+				<string>victory.pinkBlast</string>
+				<string>victory.hyperGrape</string>
+				<string>victory.brightCrimson</string>
+				<string>victory.cargoKhaki</string>
+				<string>victory.lightBone</string>
+			</array>
+		</dict>
+		<key>victory-special</key>
+		<array>
+			<string>special.rainbow</string>
+		</array>
+		<key>victoryHybrid</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>isAddable</key>
+				<true/>
+			</dict>
+			<key>fall2017</key>
+			<array>
+				<string>victory.lightViolet</string>
+				<string>victory.lightViolet &amp; victory.black</string>
+				<string>victory.black &amp; victory.lightViolet</string>
+				<string>victory.violetDust</string>
+				<string>victory.violetDust &amp; victory.black</string>
+				<string>victory.black &amp; victory.violetDust</string>
+				<string>victory.blueOrbit</string>
+				<string>victory.blueOrbit &amp; victory.black</string>
+				<string>victory.black &amp; victory.blueOrbit</string>
+				<string>victory.indigo</string>
+				<string>victory.indigo &amp; victory.black</string>
+				<string>victory.black &amp; victory.indigo</string>
+			</array>
+			<key>fall2018</key>
+			<array>
+				<string>victory.obsidianIndigo</string>
+				<string>victory.obsidianIndigo &amp; victory.black</string>
+				<string>victory.black &amp; victory.obsidianIndigo</string>
+				<string>victory.smokyMauve</string>
+				<string>victory.smokyMauve &amp; victory.black</string>
+				<string>victory.black &amp; victory.smokyMauve</string>
+				<string>victory.oliveFlak</string>
+				<string>victory.oliveFlak &amp; victory.black</string>
+				<string>victory.black &amp; victory.oliveFlak</string>
+				<string>victory.wolfGray</string>
+				<string>victory.wolfGray &amp; victory.black</string>
+				<string>victory.black &amp; victory.wolfGray</string>
+				<string>victory.lightSilver</string>
+				<string>victory.lightSilver &amp; victory.black</string>
+				<string>victory.black &amp; victory.lightSilver</string>
+				<string>victory.particleBeige</string>
+				<string>victory.particleBeige &amp; victory.black</string>
+				<string>victory.black &amp; victory.particleBeige</string>
+				<string>victory.terraBlush</string>
+				<string>victory.terraBlush &amp; victory.black</string>
+				<string>victory.black &amp; victory.terraBlush</string>
+				<string>victory.brightCrimson</string>
+				<string>victory.brightCrimson &amp; victory.black</string>
+				<string>victory.black &amp; victory.brightCrimson</string>
+				<string>victory.celestialTeal</string>
+				<string>victory.celestialTeal &amp; victory.black</string>
+				<string>victory.black &amp; victory.celestialTeal</string>
+			</array>
+			<key>fall2021</key>
+			<array>
+				<string>victory.fall2021.crimson-bliss</string>
+				<string>victory.fall2021.crimson-bliss &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2021.crimson-bliss</string>
+				<string>victory.fall2021.mystic-navy</string>
+				<string>victory.fall2021.mystic-navy &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2021.mystic-navy</string>
+				<string>victory.fall2021.cargo-khaki</string>
+				<string>victory.fall2021.cargo-khaki &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2021.cargo-khaki</string>
+				<string>victory.auroraGreen</string>
+				<string>victory.auroraGreen &amp; victory.black</string>
+				<string>victory.black &amp; victory.auroraGreen</string>
+				<string>victory.midnightTurquoise</string>
+				<string>victory.midnightTurquoise &amp; victory.black</string>
+				<string>victory.black &amp; victory.midnightTurquoise</string>
+			</array>
+			<key>fall2022</key>
+			<array>
+				<string>victory.fall2022.summitWhite</string>
+				<string>victory.fall2022.summitWhite &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2022.summitWhite</string>
+				<string>victory.fall2022.oliveGrey</string>
+				<string>victory.fall2022.oliveGrey &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2022.oliveGrey</string>
+				<string>victory.fall2022.brightCrimson</string>
+				<string>victory.fall2022.brightCrimson &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2022.brightCrimson</string>
+			</array>
+			<key>fall2023</key>
+			<array>
+				<string>victory.fall2023.blueFlame</string>
+				<string>victory.fall2023.blueFlame &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2023.blueFlame</string>
+				<string>victory.fall2023.desertStone</string>
+				<string>victory.fall2023.desertStone &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2023.desertStone</string>
+				<string>victory.fall2023.gameRoyal</string>
+				<string>victory.fall2023.gameRoyal &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2023.gameRoyal</string>
+				<string>victory.fall2023.brightGreen</string>
+				<string>victory.fall2023.brightGreen &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2023.brightGreen</string>
+				<string>victory.fall2023.sequoia</string>
+				<string>victory.fall2023.sequoia &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2023.sequoia</string>
+				<string>victory.fall2023.starlight</string>
+				<string>victory.fall2023.starlight &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2023.starlight</string>
+			</array>
+			<key>fall2024</key>
+			<array>
+				<string>victory.fall2024.grey</string>
+				<string>victory.fall2024.grey &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2024.grey</string>
+				<string>victory.fall2024.green</string>
+				<string>victory.fall2024.green &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2024.green</string>
+				<string>victory.fall2024.blue</string>
+				<string>victory.fall2024.blue &amp; victory.black</string>
+				<string>victory.black &amp; victory.fall2024.blue</string>
+			</array>
+			<key>spring2017</key>
+			<array>
+				<string>victory.lightBone</string>
+				<string>victory.lightBone &amp; victory.black</string>
+				<string>victory.black &amp; victory.lightBone</string>
+				<string>victory.volt</string>
+				<string>victory.volt &amp; victory.black</string>
+				<string>victory.black &amp; victory.volt</string>
+				<string>victory.purePlatinum</string>
+				<string>victory.purePlatinum &amp; victory.black</string>
+				<string>victory.black &amp; victory.purePlatinum</string>
+				<string>victory.totalOrange</string>
+				<string>victory.totalOrange &amp; victory.black</string>
+				<string>victory.black &amp; victory.totalOrange</string>
+				<string>victory.pinkBlast</string>
+				<string>victory.pinkBlast &amp; victory.black</string>
+				<string>victory.black &amp; victory.pinkBlast</string>
+			</array>
+			<key>spring2018</key>
+			<array>
+				<string>victory.cargoKhaki</string>
+				<string>victory.cargoKhaki &amp; victory.black</string>
+				<string>victory.black &amp; victory.cargoKhaki</string>
+				<string>victory.barelyRose</string>
+				<string>victory.barelyRose &amp; victory.black</string>
+				<string>victory.black &amp; victory.barelyRose</string>
+			</array>
+			<key>spring2019</key>
+			<array>
+				<string>victory.tealTint</string>
+				<string>victory.tealTint &amp; victory.black</string>
+				<string>victory.black &amp; victory.tealTint</string>
+				<string>victory.hyperGrape</string>
+				<string>victory.hyperGrape &amp; victory.black</string>
+				<string>victory.black &amp; victory.hyperGrape</string>
+				<string>victory.spruceFog</string>
+				<string>victory.spruceFog &amp; victory.black</string>
+				<string>victory.black &amp; victory.spruceFog</string>
+				<string>victory.desertSand</string>
+				<string>victory.desertSand &amp; victory.black</string>
+				<string>victory.black &amp; victory.desertSand</string>
+				<string>victory.royalPulse</string>
+				<string>victory.royalPulse &amp; victory.black</string>
+				<string>victory.black &amp; victory.royalPulse</string>
+			</array>
+			<key>spring2022</key>
+			<array>
+				<string>victory.spring2022.pink-oxford</string>
+				<string>victory.spring2022.pink-oxford &amp; victory.black</string>
+				<string>victory.black &amp; victory.spring2022.pink-oxford</string>
+			</array>
+			<key>summer2021</key>
+			<array>
+				<string>victory.hasta</string>
+				<string>victory.hasta &amp; victory.black</string>
+				<string>victory.black &amp; victory.hasta</string>
+				<string>victory.chlorineBlue</string>
+				<string>victory.chlorineBlue &amp; victory.black</string>
+				<string>victory.black &amp; victory.chlorineBlue</string>
+				<string>victory.ironstone</string>
+				<string>victory.ironstone &amp; victory.black</string>
+				<string>victory.black &amp; victory.ironstone</string>
+				<string>victory.limeBlast</string>
+				<string>victory.limeBlast &amp; victory.black</string>
+				<string>victory.black &amp; victory.limeBlast</string>
+				<string>victory.spruceAura</string>
+				<string>victory.spruceAura &amp; victory.black</string>
+				<string>victory.black &amp; victory.spruceAura</string>
+				<string>victory.blueBlack</string>
+				<string>victory.blueBlack &amp; victory.black</string>
+				<string>victory.black &amp; victory.blueBlack</string>
+				<string>victory.obsidianMist</string>
+				<string>victory.obsidianMist &amp; victory.black</string>
+				<string>victory.black &amp; victory.obsidianMist</string>
+			</array>
+		</dict>
+		<key>victoryHybrid-evergreen</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>collectionOverride</key>
+				<string>victory</string>
+			</dict>
+			<key>items</key>
+			<array>
+				<string>purePlatinum &amp; black</string>
+				<string>black &amp; purePlatinum</string>
+				<string>volt &amp; black</string>
+				<string>black &amp; volt</string>
+				<string>anthracite &amp; black</string>
+				<string>black &amp; anthracite</string>
+				<string>totalOrange &amp; black</string>
+				<string>black &amp; totalOrange</string>
+				<string>pinkBlast &amp; black</string>
+				<string>black &amp; pinkBlast</string>
+				<string>hyperGrape &amp; black</string>
+				<string>black &amp; hyperGrape</string>
+				<string>brightCrimson &amp; black</string>
+				<string>black &amp; brightCrimson</string>
+				<string>cargoKhaki &amp; black</string>
+				<string>black &amp; cargoKhaki</string>
+				<string>lightBone &amp; black</string>
+				<string>black &amp; lightBone</string>
+			</array>
+		</dict>
+		<key>zeus</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>isAddable</key>
+				<true/>
+				<key>sku</key>
+				<integer>1</integer>
+			</dict>
+			<key>fall2017</key>
+			<array>
+				<string>zeus.rougeHands</string>
+			</array>
+			<key>fall2018</key>
+			<array>
+				<string>zeus.indigo</string>
+				<string>zeus.craie &amp; zeus.indigo</string>
+				<string>zeus.roseExtreme &amp; zeus.bordeaux</string>
+				<string>zeus.capucine &amp; zeus.roseAzalee</string>
+			</array>
+			<key>fall2019</key>
+			<array>
+				<string>zeus.encre</string>
+				<string>zeus.etain</string>
+				<string>zeus.brique</string>
+			</array>
+			<key>fall2021</key>
+			<array>
+				<string>gold</string>
+			</array>
+			<key>fall2022</key>
+			<array>
+				<string>roseTexas</string>
+				<string>vertRousseau</string>
+				<string>beton</string>
+				<string>cuivre</string>
+				<string>bleuDeFrance</string>
+			</array>
+			<key>fall2023</key>
+			<array>
+				<string>canopee</string>
+			</array>
+			<key>fall2024</key>
+			<array>
+				<string>vertMoyen</string>
+				<string>beton</string>
+			</array>
+			<key>spring2019</key>
+			<array>
+				<string>zeus.craie &amp; zeus.sakura</string>
+				<string>zeus.craie &amp; zeus.bleu</string>
+			</array>
+			<key>spring2020</key>
+			<array>
+				<string>zeus.blanc &amp; zeus.noir</string>
+			</array>
+			<key>spring2021</key>
+			<array>
+				<string>zeus.roseMexico</string>
+			</array>
+			<key>spring2022</key>
+			<array>
+				<string>red</string>
+				<string>purple</string>
+				<string>grey</string>
+				<string>blue</string>
+			</array>
+			<key>spring2023</key>
+			<array>
+				<string>roseAzalee</string>
+			</array>
+			<key>spring2024</key>
+			<array>
+				<string>bleuCeleste</string>
+				<string>jauneDeNaples</string>
+			</array>
+			<key>spring2025</key>
+			<array>
+				<string>sun</string>
+				<string>bleuAcier</string>
+				<string>kraft</string>
+				<string>roseSakura</string>
+				<string>vertPeppermint</string>
+			</array>
+		</dict>
+		<key>zeus-evergreen</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>collectionOverride</key>
+				<string>zeus</string>
+				<key>sku</key>
+				<integer>1</integer>
+			</dict>
+			<key>items</key>
+			<array>
+				<string>argent</string>
+				<string>blanc</string>
+				<string>orangeDial</string>
+				<string>orange</string>
+				<string>jauneAmbre</string>
+				<string>bambou</string>
+				<string>navy</string>
+				<string>anemone</string>
+				<string>rougePiment</string>
+			</array>
+			<key>items-clhs4</key>
+			<array>
+				<string>noir</string>
+			</array>
+		</dict>
+	</dict>
+	<key>shared-config</key>
+	<dict>
+		<key>device-specific-config</key>
+		<dict>
+			<key>default-clhs11</key>
+			<string>gold</string>
+			<key>default-clhs12</key>
+			<string>lightTitanium</string>
+			<key>default-clhs13</key>
+			<string>darkTitanium</string>
+			<key>default-clhs14</key>
+			<string>red</string>
+			<key>default-clhs15</key>
+			<string>deepNavy</string>
+			<key>default-clhs16</key>
+			<string>seasons.fall2021.green3</string>
+			<key>default-clhs9</key>
+			<string>ceramic</string>
+			<key>default-family10-clhs1</key>
+			<string>seasons.fall2021.stardust</string>
+			<key>default-family10-clhs14</key>
+			<string>seasons.fall2022.red</string>
+			<key>default-family12-clhs1</key>
+			<string>seasons.fall2021.stardust</string>
+			<key>default-family12-clhs14</key>
+			<string>seasons.fall2023.red</string>
+			<key>default-family14-clhs19</key>
+			<string>seasons.fall2024.silver</string>
+			<key>default-family14-clhs20</key>
+			<string>seasons.fall2024.gold</string>
+			<key>default-family14-clhs22</key>
+			<string>seasons.fall2024.natural</string>
+			<key>default-family14-clhs24</key>
+			<string>seasons.fall2024.slate</string>
+			<key>default-family14-clhs8</key>
+			<string>seasons.fall2024.roseGold</string>
+			<key>default-family8-clhs1</key>
+			<string>seasons.fall2021.stardust</string>
+			<key>default-family8-clhs14</key>
+			<string>seasons.fall2021.red2sg</string>
+			<key>default-family8-clhs15</key>
+			<string>seasons.fall2021.blue11</string>
+			<key>default-family9-clhs19</key>
+			<string>seasons.fall2021.stardust</string>
+			<key>default-sku1</key>
+			<string>zeus.orange</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

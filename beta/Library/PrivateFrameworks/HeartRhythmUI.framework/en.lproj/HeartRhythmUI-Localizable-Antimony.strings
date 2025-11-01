@@ -1,0 +1,70 @@
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_ALERT_LOCATION_UNAVAILABLE_TITLE" = "Unable to confirm location";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_CANCEL_LATER_TITLE" = "Set Up Later";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_HOW_BODY" = "Apple Watch will occasionally look at your heart beat to check for an irregular rhythm that may be AFib. This usually happens when you’re still to ensure a more accurate reading.
+
+Depending on how active you are, the number of readings collected each day and the time between these readings will vary.";
+"ATRIAL_FIBRILLATION_DATA_TYPE_DESCRIPTION_WATCH" = "Apple Watch can notify you if it sees your heart beating with an irregular rhythm that may be atrial fibrillation. You can manage these notifications in Heart settings in the Apple Watch app.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_BODY" = "Atrial fibrillation (AFib) is a type of irregular heart rhythm. Your Apple Watch can send you a notification if it identifies an irregular rhythm that may be AFib.
+
+Early diagnosis and treatment can prevent health complications, including strokes.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_2_BODY" = "This means Apple Watch cannot detect all instances of AFib, and people with AFib may not get a notification.";
+"ATRIAL_FIBRILLATION_DETAIL_EDUCATION_BODY" = "Your heart has shown signs of an irregular rhythm suggestive of atrial fibrillation.
+If you have not been diagnosed with AFib by a physician, you should discuss this with your doctor.
+Do not change any medication or treatments without talking to your doctor.";
+"ATRIAL_FIBRILLATION_DETECTION_DIAGNOSIS_GATE_INELIGIBLE_TITLE" = "AFib Diagnosis Requirement Not Met";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_DISCLAIMER" = "These notifications are not designed for people who have been diagnosed with atrial fibrillation.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_4_TITLE" = "Do not change your medication without talking to your doctor.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_HEADING" = "AFib Symptoms";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_CANCEL_DESC" = "If you leave before finishing setup, you’ll have to go through it again to turn on these notifications.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_CANCEL_CANCEL_TITLE" = "Finish Setup";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_HOW_TITLE" = "How It Works";
+"ATRIAL_FIBRILLATION_DETECTION_AGE_GATE_INELIGIBLE_TITLE" = "Age Requirement Not Met";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_1" = "AFib occurs when the upper chambers of the heart beat out of sync with the lower chambers and this creates an irregular pattern.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_1_TITLE" = "Apple Watch cannot detect heart attacks.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_2" = "AFib is a manageable condition that if left untreated can cause blood to clot in the heart. If a clot is pumped out, it can lead to stroke, heart failure, or other medical complications. AFib is diagnosed in approximately 2% of people younger than 65 and about 9% of people 65 and older. It can be temporary or persistent but can be managed with a doctor’s care and medication. People with AFib often live healthy, active lives.";
+"ATRIAL_FIBRILLATION_DETAIL_EDUCATION_LEARN_MORE" = "Learn More…";
+"ATRIAL_FIBRILLATION_QUICK_LOOK_SUBTITLE" = "Heart Rate";
+"ATRIAL_FIBRILLATION_DETECTION_ENABLE_NOTIFICATION_NOT_NOW_BUTTON" = "Not Now";
+"ATRIAL_FIBRILLATION_DETECTION_ENABLE_NOTIFICATION_FOOTNOTE" = "You can manage these notifications in Heart settings in the Apple Watch app.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3" = "Some people with AFib don’t experience any symptoms. For those who do, common symptoms are:";
+"ATRIAL_FIBRILLATION_WATCH_SETTINGS_LINK" = "Open Apple Watch App";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_AGE_PROMPT" = "Are you 22 or older?";
+"ATRIAL_FIBRILLATION_DETECTION_AGE_GATE_INELIGIBLE_BODY" = "Irregular Rhythm Notifications are not intended for use by people under 22 years old.";
+"ATRIAL_FIBRILLATION_DETAIL_EDUCATION_TITLE" = "Atrial Fibrillation";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_DIAGNOSIS_PROMPT" = "Have you ever been diagnosed with atrial fibrillation by a doctor?";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_LEARN_MORE" = "Learn more about AFib";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_2_HEADING" = "How Serious Is AFib?";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_1" = "Rapid, pounding, or fluttering heartbeat";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_3_TITLE" = "If you’re not feeling well, you should talk to your doctor even if you don’t get a notification.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_2" = "Skipped heartbeat";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_FOOTER" = "This information is only used to set up the notifications and will not be shared or saved.";
+"ATRIAL_FIBRILLATION_DETECTION_ENABLE_NOTIFICATION_TITLE" = "Receiving a Notification";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_1_BODY" = "If you ever experience chest pain, pressure, tightness, or what you think is a heart attack, call emergency services immediately.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_4" = "Shortness of breath";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_3" = "Fatigue";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_ALERT_LOCATION_UNAVAILABLE_BODY" = "Make sure your iPhone is not in airplane mode and has a working SIM.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_5" = "Chest tightness or pain";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_DIAGNOSIS_FOOTER" = "Your information will not be shared.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_LOCATION_FOOTNOTE" = "During setup, your location will be used to make sure this feature is available in your region.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_DIAGNOSIS_NO" = "No";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_6" = "Fainting";
+"ATRIAL_FIBRILLATION_QUICK_LOOK_TITLE" = "Atrial Fibrillation";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_TITLE" = "Apple Watch Can Look for Atrial Fibrillation";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_LEARN_MORE_EXPANDED_3_SYMPTOM_7" = "Dizziness";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_BIRTHDAY_FOOTER" = "Your birthday will only be used to confirm you’re old enough to enable Irregular Rhythm Notifications.";
+"ATRIAL_FIBRILLATION_DETECTION_ENABLE_NOTIFICATION_ENABLE_BUTTON" = "Turn on Notifications";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_3_BODY" = "Symptoms such as rapid, pounding, or fluttering heartbeat, dizziness, or fainting, can indicate a serious condition.";
+"ATRIAL_FIBRILLATION_DETECTION_DIAGNOSIS_GATE_INELIGIBLE_BODY" = "These notifications are not designed for people who have been diagnosed with atrial fibrillation.";
+"ATRIAL_FIBRILLATION_DATA_TYPE_DESCRIPTION_AHA" = "Atrial fibrillation (AFib) occurs when the heart beats in an irregular pattern. It’s a common form of irregular heart rhythm where the upper chambers of the heart beat out of sync with the lower chambers. If untreated, AFib can cause blood to clot in the heart. This can lead to stroke, heart failure, or other complications.";
+"ATRIAL_FIBRILLATION_DETECTION_DIAGNOSIS_GATE_INELIGIBLE_ACK_BUTTON" = "OK";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_BODY" = "First, we need a little information from you.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_BULLET_2_TITLE" = "Apple Watch is not constantly looking for AFib.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_SHOULD_KNOW_TITLE" = "Four Things You Should Know";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_LOCATION_INELIGIBLE_BODY" = "Irregular Rhythm Notifications are not available in your region.";
+"ATRIAL_FIBRILLATION_DETECTION_AGE_GATE_INELIGIBLE_ACK_BUTTON" = "OK";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_INTRO_ROW_TITLE" = "About Irregular Rhythm Notifications";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_DIAGNOSIS_YES" = "Yes";
+"ATRIAL_FIBRILLATION_DETECTION_ENABLE_NOTIFICATION_BODY" = "If you receive a notification, Apple Watch identified an irregular heart rhythm that may be AFib and confirmed it with multiple readings.
+
+If you have not been diagnosed with AFib by a physician, you should discuss the notification with your doctor.";
+"ATRIAL_FIBRILLATION_DETECTION_ONBOARDING_GATE_TITLE" = "Get Started";

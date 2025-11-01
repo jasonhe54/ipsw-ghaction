@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIdentifier</key>
+	<string>com.apple.lighthouse.PnROnDeviceWorker</string>
+	<key>name</key>
+	<string>com.apple.lighthouse.pnrondeviceworker.hourly</string>
+	<key>taskRequest</key>
+	<dict>
+		<key>groupConcurrencyLimit</key>
+		<integer>1</integer>
+		<key>groupName</key>
+		<string>com.apple.lighthouse.PnROnDeviceWorker</string>
+		<key>priority</key>
+		<string>Maintenance</string>
+		<key>repeatingTask</key>
+		<dict>
+			<key>interval</key>
+			<real>3600</real>
+			<key>minDurationBetweenInstances</key>
+			<real>1800</real>
+		</dict>
+		<key>requiresExternalPower</key>
+		<true/>
+		<key>requiresUserInactivity</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

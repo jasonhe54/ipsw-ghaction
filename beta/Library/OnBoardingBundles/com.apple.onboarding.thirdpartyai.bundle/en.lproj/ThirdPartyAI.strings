@@ -1,0 +1,47 @@
+"FOOTER_TEXT" = "You can choose to enable the ChatGPT extension when using supported features, such as Siri, Writing Tools, and visual intelligence (where available). The ChatGPT extension can help you answer questions, as well as generate text and image content. You control when ChatGPT is used and will be asked before any of your information is shared.
+
+You can use the ChatGPT extension without an account. If you have a ChatGPT account, you can also choose to connect to your account with this extension.
+
+Using the ChatGPT Extension
+
+Before any information is sent to ChatGPT, you must enable the ChatGPT extension. This extension is off by default. Enabling it allows you to send requests to ChatGPT in supported features, including Siri, Writing Tools, and visual intelligence, and more. You can choose to disable the ChatGPT extension at any time on your iOS, iPadOS, or visionOS device by going to Settings > Apple Intelligence & Siri > ChatGPT, and tapping to turn off Use ChatGPT. On Mac, go to System Settings > Apple Intelligence & Siri > ChatGPT, and tap to turn off Use ChatGPT.
+
+When you use Siri to access the ChatGPT extension, your request will be analyzed to determine whether you are explicitly asking ChatGPT to process a request. For example, if you explicitly ask ChatGPT to perform a task, such as saying or typing “Ask ChatGPT to write a poem,” these requests will then be sent directly to ChatGPT.
+
+If there is no explicit request to use ChatGPT, your request is analyzed to determine whether ChatGPT might have useful results. If it does, Siri will ask whether you would like to use ChatGPT. If you choose, Siri will send your request to ChatGPT and present the answer directly. You can also choose to disable Siri asking you to confirm whether Siri should send a request to ChatGPT by going to Settings > Apple Intelligence & Siri > ChatGPT, and tapping to turn off Confirm ChatGPT Requests.
+
+When you use other supported features, like Writing Tools or visual intelligence, you will be able to choose whether you would like to use the ChatGPT extension for each of these features separately.
+
+Data Provided to ChatGPT
+
+When using the ChatGPT extension, you may choose what content to send to ChatGPT. Your request and attachments like documents, photos, or contents of the document, as well as limited data associated with the request, such as current time zone, country, device type, language, and feature being used when making the request, will be sent to ChatGPT to answer your request and enable ChatGPT to provide you accurate and relevant results.
+
+When using the ChatGPT extension, your IP address is obscured from ChatGPT. Your general location, which is approximated by matching the IP address of your internet connection to a geographic region, is provided to ChatGPT for purposes such as enabling ChatGPT to prevent fraud and comply with applicable law.
+
+Using the ChatGPT Extension Without an Account
+
+If you access the ChatGPT extension without an account, only the information described above will be sent to ChatGPT. OpenAI will not receive any information tied to your Apple Account.
+
+OpenAI must process your information solely for the purpose of fulfilling your request and not store your information or any responses it provides unless required under applicable laws. OpenAI also must not use your information to improve or train its models.
+
+Using the ChatGPT Extension with a ChatGPT Account
+
+You can choose to create a ChatGPT account or sign in to an existing account. If you are a ChatGPT subscriber, you will be able to access paid features from your Apple experiences.
+
+When you are signed in, your ChatGPT account settings and OpenAI’s data privacy policies will apply. This means OpenAI may log your request, attachments, and session history, and use this data to train or improve their models. To learn more about OpenAI’s privacy practices, visit https://openai.com/policies/row-privacy-policy.
+
+Data Provided to Apple
+
+When you use ChatGPT in supported features, Apple collects limited information about your requests to ChatGPT and ChatGPT’s response, such as the number of requests sent, or the approximate size of the request or response in order to operate the service and prevent fraud.
+
+When you use ChatGPT in Siri, Apple collects information about your request. For more information, visit www.apple.com/legal/privacy/data/en/ask-siri-dictation. If you choose to opt in to Improve Siri and Dictation, additional data about your request such as the audio recording and transcript of your request, and metadata associated with the response may be logged by Apple. None of this data is tied to your Apple Account. For more information, visit www.apple.com/legal/privacy/data/en/improve-siri-dictation.
+
+If you take steps to upgrade your current ChatGPT plan through your Apple device, Apple may collect limited information about your interactions with the upgrade experience, such as views and clicks, in order to understand and improve the experience. This data is not tied to your Apple Account.
+
+Reporting a Concern
+
+If you have an issue to report about the ChatGPT extension, you may report it through Report a Concern. When you report a concern, you may make a separate choice to share information about the concern with OpenAI. For more information, visit www.apple.com/legal/privacy/data/en/report-concern.";
+"BUTTON_TITLE" = "About ChatGPT Extension & Privacy…";
+"SPLASH_SUMMARY" = "The ChatGPT extension is designed to put you in control and enable you to choose what to share.";
+"SPLASH_TITLE" = "ChatGPT Extension & Privacy";
+"SPLASH_SHORT_TITLE" = "ChatGPT Extension";

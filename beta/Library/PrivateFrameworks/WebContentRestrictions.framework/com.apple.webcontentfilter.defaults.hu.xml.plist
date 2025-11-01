@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.hu/DisneyChannel/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.csodakpalotaja.hu/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Csodák Palotája</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://gyermek.gevk.hu/?p=watzup</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Gyermekkönyvtár</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://teveclub.hu/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Teveclub</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://natgeotv.com/hu</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>National Geographic</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.mesekastely.hu/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>MeseKastély</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.gyerekprogram.hu/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Gyerekprogram.hu</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.zoobudapest.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Zoo Budapest</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.gyerekfilm.hu/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Gyerekfilm</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://egyszervolt.hu/ret/index.html</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Egyszervolt.hu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

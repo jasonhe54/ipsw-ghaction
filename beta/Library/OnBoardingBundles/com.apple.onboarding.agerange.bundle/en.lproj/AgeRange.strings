@@ -1,0 +1,132 @@
+"FIRST_BULLET" = "Age Range for Apps allows you to share your age range, but not your actual birthdate, with apps to help them deliver age-appropriate experiences.";
+"SPLASH_SUMMARY" = "Age Range for Apps is designed to protect your information and enable you to choose what you share.";
+"BUTTON_TITLE" = "See how your data is managed…";
+"THIRD_BULLET" = "Age ranges shared with apps are synced across your devices using end-to-end encryption.";
+"SPLASH_TITLE" = "Age Range for Apps & Privacy";
+"FOOTER_TEXT_MAC" = "Setting Up Age Range for Apps
+
+To enable Age Range for Apps, your device uses the following Apple Account information: birthdate, country or region, and membership and role in a family group. Your device also checks the version of the device’s operating system and whether a Screen Time passcode has been enabled for you or your device.
+
+Age Range for Apps provides three configurations for sharing an age range with apps on their request: Ask First, Always, and Never. Ask First allows you to choose on an app-by-app basis whether to share your age range. If you select Always, your age range will automatically be shared with any app that requests it, and when you select Never, your age range will not be shared with apps. Information about whether Age Range for Apps is enabled and the sharing configuration (Ask First, Always, or Never) is associated with your Apple Account and synced across devices that support the feature using end-to-end encryption.
+
+If you’re an adult or a teen who is 13 or over (or equivalent in your country or region) and not in a family group using macOS 26 or later, you can enable and configure Age Range for Apps for yourself. Ask First is selected by default. You can enable Age Range for Apps and adjust your sharing preferences by going to System Settings > Family > [your name] > Personal Information > Age Range for Apps.
+
+Children and Teens in a Family Group and Age Range for Apps
+
+If you are a child or a teen in a family group, only the organizer or a parent/guardian in your family group (collectively, “parent/guardian”) can set up Age Range for Apps. To do so, the parent/guardian will be asked to confirm your age, which is based on the birthdate associated with your Apple Account, and then to select one of the sharing configurations.
+
+If a parent/guardian is using macOS 26 or later, they can set up Age Range for Apps for you remotely on their Mac by going to System Settings > [child or teen’s name] > Personal Information > Age Range for Apps. A parent/guardian can also set up Age Range for Apps locally on your Mac if a Screen Time passcode has been enabled for you, by going to System Settings > [your name] > Personal Information > Age Range for Apps.
+
+For more information on Family Sharing, including the roles available for a family group such as organizer, parent/guardian, adult, and child, visit www.apple.com/legal/privacy/data/en/family-sharing. For more information on Apple’s use of age thresholds in connection with Family Sharing, visit support.apple.com/102617. The specific age thresholds referenced below may be different for a user depending on which country or region is associated with their Apple Account.
+
+Sharing with Apps
+
+Age Range Requests
+If Age Range for Apps is enabled and configured to Ask First or Always, your device will use the age ranges designated by the app in its request and the birthdate associated with your Apple Account to determine your age range. Your device will also check the country or region associated with your Apple Account to determine the maximum age limit of the age range that can be shared with a developer, which is the age at which you’re considered an “adult” in your country or region.
+
+If you choose to share your age range with an app, the device will indicate whether the age that was used to determine the age range was confirmed by you (if you’re an adult or a teen who is not in a family group) or your parent/guardian (if you’re a child or teen in a family group). If you’re a child or teen in a family group, the device may also indicate whether certain parental controls provided by Apple have been enabled for you so that the app can leverage additional tools to protect your privacy and safety.
+
+If Age Range for Apps has not been enabled and configured, or you have declined to share, the device will indicate that the feature is not available or that you have declined to share your age range.
+
+The device’s response to the app does not include personal data; however, once an app receives the response, the app’s developer may associate it with personal data they collect separately, including your use and download of their app. An app’s processing of the response and other information is governed by the app developer’s terms and privacy policies.
+
+Restrictions on Requesting Age Range
+Your device retains a record of your responses to each app’s request, including the name of the app, whether an age range was shared and the corresponding date, and the actual age range that was shared (if you chose to share). This information is synchronized across devices that support this feature with end-to-end encryption so that it cannot be read by Apple. The most recent record is used to impose restrictions on when a new age range can be shared with developers, provide the Share Age Range Again feature described below, and inform you of the age range requested by developers. You can see the most recent record for each app on your Mac by going to System Settings > Family > [your name] > Apple Account > Age Range for Apps.
+
+Share Age Range Again
+Share Age Range Again is a feature of Age Range for Apps that allows you to reset the most recent record so that Apple makes a new determination of the age range you can share with developers upon their request. To use Share Age Range Again, go to System Settings > Family > [your name] > Personal Information > Age Range for Apps > [app name] > Share Age Range Again. If a Screen Time passcode has been enabled, it must be entered before an updated age range can be shared.
+
+Updated Age Range Requests
+If an app updates its request by changing its designation of age ranges, the device will check the most recent record to determine whether the updated request can result in a different age range being shared with the app. If it can, the device will reset the most recent record and, in response to the next request from the app, either automatically share the new age range if Always is configured, or present an updated prompt for the new age range if Ask First is configured. If Always is configured, you will be informed of the new age range if it is more precise compared to the age range from the most recent record.
+
+Managing Age Range for Apps
+You can manage the sharing configuration for Age Range for Apps at any time on your Mac by going to System Settings > Family > [your name] > Apple Account > Age Range for Apps. If a Screen Time passcode is enabled, it must be entered before configuration changes can be made. If you’re a child or teen in a family group, a parent/guardian in your family group can manage the configuration from their Mac by going to System Settings > Family > [child or teen’s name] > Personal Information > Age Range for Apps > Share with Apps.
+
+If the sharing configuration is updated, the new sharing configuration will be applied in response to subsequent requests from developers. Changing the sharing configuration to Always will act as a reset for any apps that you previously declined to share an age range with.
+
+If you need to update the birthdate associated with your Apple Account, you can do so on your Mac by going to System Settings > [your name] > Personal Information. If you need to update the birthdate associated with a child or teen in your family group, go to System Settings > Family > [child or teen’s name] > Personal information. After a birthdate has been updated, the Age Range for Apps feature must be reenabled.
+
+Applicable Legal Basis for Processing Personal Data
+
+We process personal data for Age Range for Apps generally for performance of your contract with Apple, as necessary for providing the service, and to comply with our legal obligations. Where consent is the appropriate legal basis, we seek it in accordance with applicable local law.
+
+Where applicable local law provides, we process personal data as necessary for purposes of our legitimate interests or those of a third party in order to enable setting up and providing the feature for you or a child in your family group if you’re a parent/guardian.
+
+The data used includes:
+
+• Apple Account information, including your birthdate and country or region, and family membership and role
+• Device information, including the version of the device’s operating system
+
+Retention
+
+Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law.
+
+If you have questions about how your personal information is used as it relates to Age Range for Apps, or you would like to reach our Data Protection Officer, you can contact us at www.apple.com/legal/privacy/contact.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"FOURTH_BULLET" = "If you’re a child or teen in a family group, your parent or guardian must enable Age Range for Apps on your behalf, and can manage the configuration.";
+"SPLASH_SHORT_TITLE" = "Age Range for Apps";
+"FIFTH_BULLET" = "If the age range you share with an app indicates that you’re below the age of majority in the country or region associated with your Apple Account, information on whether certain parental controls have been enabled may also be shared.";
+"FOOTER_TEXT" = "Setting Up Age Range for Apps
+
+To enable Age Range for Apps, your device uses the following Apple Account information: birthdate, country or region, and membership and role in a family group. Your device also checks the version of the device’s operating system and whether a Screen Time passcode has been enabled for you or your device.
+
+Age Range for Apps provides three configurations for sharing an age range with apps on their request: Ask First, Always, and Never. Ask First allows you to choose on an app-by-app basis whether to share your age range. If you select Always, your age range will automatically be shared with any app that requests it, and when you select Never, your age range will not be shared with apps. Information about whether Age Range for Apps is enabled and the sharing configuration (Ask First, Always, or Never) is associated with your Apple Account and synced across devices that support the feature using end-to-end encryption.
+
+If you’re an adult or a teen who is 13 or over (or equivalent in your country or region) and not in a family group using iOS or iPadOS 26 or later, you can enable and configure Age Range for Apps for yourself. Ask First is selected by default. You can enable Age Range for Apps and adjust your sharing preferences by going to Settings > [your name] > Personal Information > Age Range for Apps.
+
+Children and Teens in a Family Group and Age Range for Apps
+
+If you are a child or a teen in a family group, only the organizer or a parent/guardian in your family group (collectively, “parent/guardian”) can set up Age Range for Apps. To do so, the parent/guardian will be asked to confirm your age, which is based on the birthdate associated with your Apple Account, and then to select one of the sharing configurations.
+
+If a parent/guardian is using iOS or iPadOS 26 or later, they can set up Age Range for Apps for you remotely on their device by going to Settings > Family > [child or teen’s name] > Personal Information > Age Range for Apps. A parent/guardian can also set up Age Range for Apps locally on your device if a Screen Time passcode has been enabled for you, by going to Settings > [your name] > Personal Information > Age Range for Apps and entering the Screen Time passcode.
+
+For more information on Family Sharing, including the roles available for a family group such as organizer, parent/guardian, adult, and child, visit www.apple.com/legal/privacy/data/en/family-sharing. For more information on Apple’s use of age thresholds in connection with Family Sharing, visit support.apple.com/102617. The specific age thresholds referenced below may be different for a user depending on which country or region is associated with their Apple Account.
+
+Sharing with Apps
+
+Age Range Requests
+If Age Range for Apps is enabled and configured to Ask First or Always, your device will use the age ranges designated by the app in its request and the birthdate associated with your Apple Account to determine your age range. Your device will also check the country or region associated with your Apple Account to determine the maximum age limit of the age range that can be shared with a developer, which is the age at which you’re considered an “adult” in your country or region.
+
+If you choose to share your age range with an app, the device will indicate whether the age that was used to determine the age range was confirmed by you (if you’re an adult or a teen who is not in a family group) or your parent/guardian (if you’re a child or teen in a family group). If you’re a child or teen in a family group, the device may also indicate whether certain parental controls provided by Apple have been enabled for you so that the app can leverage additional tools to protect your privacy and safety.
+
+If Age Range for Apps has not been enabled and configured, or you have declined to share, the device will indicate that the feature is not available or that you have declined to share your age range.
+
+The device’s response to the app does not include personal data; however, once an app receives the response, the app’s developer may associate it with personal data they collect separately, including your use and download of their app. An app’s processing of the response and other information is governed by the app developer’s terms and privacy policies.
+
+Restrictions on Requesting Age Range
+Your device retains a record of your responses to each app’s request, including the name of the app, whether an age range was shared and the corresponding date, and the actual age range that was shared (if you chose to share). This information is synchronized across devices that support this feature with end-to-end encryption so that it cannot be read by Apple. The most recent record is used to impose restrictions on when a new age range can be shared with developers, provide the Share Age Range Again feature described below, and inform you of the age range requested by developers. You can see the most recent record for each app on your device by going to Settings > [your name] > Personal Information > Age Range for Apps, or Settings > [app name] > Age Range for Apps, or Settings > Apps > [app name] > Age Range for Apps.
+
+Share Age Range Again
+Share Age Range Again is a feature of Age Range for Apps that allows you to reset the most recent record so that Apple makes a new determination of the age range you can share with developers upon their request. To use Share Age Range Again, go to Settings > [your name] > Personal Information > Age Range for Apps > [app name] > Share Age Range Again. If a Screen Time passcode has been enabled, it must be entered before an updated age range can be shared.
+
+Updated Age Range Requests
+If an app updates its request by changing its designation of age ranges, the device will check the most recent record to determine whether the updated request can result in a different age range being shared with the app. If it can, the device will reset the most recent record and, in response to the next request from the app, either automatically share the new age range if Always is configured, or present an updated prompt for the new age range if Ask First is configured. If Always is configured, you will be informed of the new age range if it is more precise compared to the age range from the most recent record.
+
+Managing Age Range for Apps
+You can manage the sharing configuration for Age Range for Apps at any time on your device by going to Settings > [your name] > Personal Information > Age Range for Apps, or Settings > Apps > [app name] > Age Range for Apps. If a Screen Time passcode is enabled, it must be entered before configuration changes can be made. If you’re a child or teen in a family group, a parent/guardian in your family group can manage the configuration from their device by going to Settings > Family > [child or teen’s name] > Personal Information > Age Range for Apps > Share with Apps.
+
+If the sharing configuration is updated, the new sharing configuration will be applied in response to subsequent requests from developers. Changing the sharing configuration to Always will act as a reset for any apps that you previously declined to share an age range with.
+
+If you need to update the birthdate associated with your Apple Account, you can do so on your device by going to Settings > [your name] > Personal Information. If you need to update the birthdate associated with a child or teen in your family group, you can do so on your device by going to Settings > Family > [child or teen’s name] > Personal Information. After a birthdate has been updated, the Age Range for Apps feature must be reenabled.
+
+Applicable Legal Basis for Processing Personal Data
+
+We process personal data for Age Range for Apps generally for performance of your contract with Apple, as necessary for providing the service, and to comply with our legal obligations. Where consent is the appropriate legal basis, we seek it in accordance with applicable local law.
+
+Where applicable local law provides, we process personal data as necessary for purposes of our legitimate interests or those of a third party in order to enable setting up and providing the feature for you or a child in your family group if you’re a parent/guardian.
+
+The data used includes:
+
+• Apple Account information, including your birthdate and country or region, and family membership and role
+• Device information, including the version of the device’s operating system
+
+Retention
+
+Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law.
+
+If you have questions about how your personal information is used as it relates to Age Range for Apps, or you would like to reach our Data Protection Officer, you can contact us at www.apple.com/legal/privacy/contact.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"SECOND_BULLET" = "Your birthdate and country or region associated with your Apple Account are used to determine the age range you can choose to share with developers.";
+"BUTTON_CAPTION" = "Your device uses your Apple Account information, including your birthdate, to determine the age range that can be shared with apps. A parent or guardian must enable this feature for children and teens in a family group.";

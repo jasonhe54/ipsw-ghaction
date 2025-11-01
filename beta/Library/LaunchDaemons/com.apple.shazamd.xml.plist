@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.shazamd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.shazamd</key>
+		<true/>
+		<key>com.apple.shazamd</key>
+		<true/>
+		<key>com.apple.shazamd.events</key>
+		<true/>
+		<key>com.apple.shazamd.ui</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.ShazamNotifications</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/ShazamKit.framework/shazamd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

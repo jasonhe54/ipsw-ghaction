@@ -1,0 +1,64 @@
+"FINISH_ENROLL_BUTTON_DEMO" = "Try Face ID";
+"ENROLL_FAILED_MESSAGE_BUDDY" = "Set Up Face ID at any time in Settings.";
+"ENROLL_FAILED_TOO_COLD_BUDDY" = "You can set up Face ID later in Settings when iPhone warms up.";
+"INSTRUCTION_STATE_TUTORIAL" = "How to Set Up Face ID";
+"ENROLL_FAILED_MESSAGE_SETTINGS" = "Try setting up Face ID later.";
+"INSTRUCTION_DETAIL_STATE_SECOND_SCAN" = "";
+"INSTRUCTION_DETAIL_STATE_TUTORIAL" = "First, position your face in the camera frame. Then move your head in a circle to show all the angles of your face.";
+"FINISH_ENROLL_BUTTON_BUDDY" = "Continue";
+"INSTRUCTION_STATE_FIRST_SCAN" = "Move your head slowly to complete the circle.";
+"ENROLL_FAILED_INTERLOCKED_TITLE" = "Face ID Has Been Disabled";
+"INSTRUCTION_STATE_ENROLL_FINISHED_DEMO" = "Face ID is ready.";
+"INSTRUCTION_STATE_FIRST_SCAN_COMPLETE" = "First Face ID
+scan complete.";
+"INSTRUCTION_DETAIL_STATE_FIRST_SCAN" = "";
+"ENROLL_FAILED_GENERIC" = "Face ID Is Not Available";
+"START_ENROLL" = "Get Started";
+"INSTRUCTION_DETAIL_STATE_SECOND_SCAN_COMPLETE" = "";
+"CANCEL" = "Cancel";
+"ENROLL_FAILED_DIFFERENT_FACE_MESSAGE" = "Face ID requires the same face throughout enrollment.";
+"INSTRUCTION_DETAIL_STATE_ENROLL_FINISHED" = "";
+"START_OVER" = "Start Over";
+"NUDGE_TEXT" = "Follow the arrow.";
+"INSTRUCTION_STATE_ENROLL_FINISHED" = "Face ID is now
+set up.";
+"INSTRUCTION_DETAIL_STATE_POSITIONING" = "";
+"ENROLL_FAILED_INTERLOCKED_MESSAGE_SETTINGS" = "A problem has been detected with the TrueDepth camera.";
+"FINISH_ENROLL_BUTTON_SETTINGS" = "Done";
+"ENROLL_FAILED_DIFFERENT_FACE_TITLE" = "Not The Same Face";
+"INSTRUCTION_DETAIL_STATE_ENROLL_FINISHED_DEMO" = "";
+"BACK" = "Back";
+"FACE_ID" = "Face ID";
+"ENROLL_FAILED_TOO_COLD_SETTINGS" = "You can set up Face ID later when iPhone warms up.";
+"INSTRUCTION_SUBSTATE_0" = "";
+"INSTRUCTION_SUBSTATE_1" = "Move Back a Little";
+"ACCESSIBILITY_OPTIONS" = "Accessibility Options";
+"INSTRUCTION_DETAIL_STATE_FIRST_SCAN_COMPLETE" = "";
+"INSTRUCTION_SUBSTATE_2" = "Move Closer";
+"ENROLL_FAILED_TOO_HOT_BUDDY" = "You can set up Face ID later in Settings when iPhone cools down.";
+"PEARL_AUTOLOCK_FOOTER" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Attention is detected when you are looking at the screen. When attention is detected, Apple\xa0Vision\xa0Pro does not dim the display.', 'iphone': 'Attention is detected when you are looking at the screen. When attention is detected, iPhone does not dim the display.', 'ipad': 'Attention is detected when you are looking at the screen. When attention is detected, iPad does not dim the display.'}}";
+"INSTRUCTION_DETAIL_STATE_PARTIAL_CAPTURE" = "Face ID works best when it learns to recognize your face from all angles.
+However, if you are unable to complete the circle, you can choose to use Face ID with fewer angles.";
+"INSTRUCTION_SUBSTATE_3" = "Multiple Faces";
+"INSTRUCTION_STATE_SECOND_SCAN" = "Move your head slowly to complete the circle.";
+"INSTRUCTION_SUBSTATE_4" = "Background Is Too Bright";
+"CONTINUE" = "Continue";
+"INSTRUCTION_STATE_SECOND_SCAN_COMPLETE" = "Second Face ID
+scan complete.";
+"INSTRUCTION_SUBSTATE_5" = "Face Obstructed";
+"SET_UP_LATER_IN_SETTINGS" = "Set Up Later in Settings";
+"INSTRUCTION_SUBSTATE_6" = "Reposition Your Face
+Within the Frame";
+"ENROLL_FAILED_INTERLOCKED_MESSAGE_BUDDY" = "A problem has been detected with the TrueDepth camera. Go to Settings after you finish setting up iPhone for more information.";
+"ENROLL_FAILED_TOO_HOT_SETTINGS" = "You can set up Face ID later when iPhone cools down.";
+"INSTRUCTION_STATE_POSITIONING" = "Position your face
+within the frame.";
+"IDENTITY_NAME_FORMAT_TOUCH_ID" = "Finger %@";
+"INSTRUCTION_SUBSTATE_7" = "Position your face
+within the frame.";
+"INSTRUCTION_SUBSTATE_8" = "Position your face
+within the frame.";
+"INSTRUCTION_STATE_PARTIAL_CAPTURE" = "Accessibility";
+"USE_PARTIAL_CAPTURE" = "Use Partial Circle";
+"IDENTITY_NAME_FORMAT_FACE_ID" = "Face %@";
+"OK" = "Ok";

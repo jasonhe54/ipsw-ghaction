@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Greece</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>112</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsText</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Voice</key>
+		<dict>
+			<key>RTTSupported</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>gr</string>
+	</array>
+	<key>Location</key>
+	<dict>
+		<key>EmergencyLocation</key>
+		<dict>
+			<key>AugmentedEmergencyAction</key>
+			<dict>
+				<key>AML</key>
+				<dict>
+					<key>SMS</key>
+					<dict>
+						<key>Destination</key>
+						<string>112</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>202</string>
+		<string>com.apple.Greece</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>barva</key>
+	<string>barv</string>
+	<key>bezpečné</key>
+	<string>bezp</string>
+	<key>navštívené</key>
+	<string>navšť</string>
+	<key>neoznačené</key>
+	<string>( )</string>
+	<key>nezvýrazněné</key>
+	<string>nezvýr</string>
+	<key>obrázek</key>
+	<string>obr</string>
+	<key>odkaz</key>
+	<string>odk</string>
+	<key>označené</key>
+	<string>(x)</string>
+	<key>posunout</key>
+	<string>posun</string>
+	<key>posuvník</key>
+	<string>posuv</string>
+	<key>prázdné</key>
+	<string>prázd</string>
+	<key>přepínač</key>
+	<string>přep</string>
+	<key>skupina</key>
+	<string>skup</string>
+	<key>sloupce</key>
+	<string>slpce</string>
+	<key>sloupec</key>
+	<string>slpec</string>
+	<key>stav</key>
+	<string>stav</string>
+	<key>stránka</key>
+	<string>str</string>
+	<key>tabulka</key>
+	<string>tabl</string>
+	<key>tlačítko</key>
+	<string>tlač</string>
+	<key>upravit</key>
+	<string>uprav</string>
+	<key>vybrané</key>
+	<string>vybr</string>
+	<key>výběr</key>
+	<string>výb</string>
+	<key>zobrazené</key>
+	<string>zobr</string>
+	<key>ztlumené</key>
+	<string>ztlum</string>
+	<key>zvýrazněné</key>
+	<string>zvýr</string>
+	<key>záhlaví</key>
+	<string>záhl</string>
+	<key>úroveň</key>
+	<string>úrov</string>
+	<key>řádek</key>
+	<string>řád</string>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Queries</key>
+	<array>
+		<string>DROP TABLE IF EXISTS APDBAdInstance</string>
+		<string>CREATE TABLE APDBAdInstance (handle TEXT PRIMARY KEY, campaign TEXT DEFAULT NULL, adGroup TEXT DEFAULT NULL, ad TEXT DEFAULT NULL, creative TEXT DEFAULT NULL, bundleId TEXT DEFAULT NULL, searchTermId TEXT DEFAULT NULL, adamId TEXT DEFAULT NULL, adType INTEGER DEFAULT NULL, adFormatType INTEGER DEFAULT NULL, containerType INTEGER DEFAULT NULL, relayData BLOB DEFAULT NULL, adMetadata TEXT DEFAULT NULL, propertiesData BLOB DEFAULT NULL, brand TEXT DEFAULT NULL, advertiserCategory TEXT DEFAULT NULL)</string>
+		<string>CREATE INDEX idx_adInstance_adamId ON APDBAdInstance (adamId)</string>
+	</array>
+</dict>
+</plist>

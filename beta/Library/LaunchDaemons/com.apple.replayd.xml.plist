@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>Label</key>
+	<string>com.apple.replayd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.replayd</key>
+		<true/>
+		<key>com.apple.replayd-cache-delete</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.ReplayKitNotifications</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.ReplayKitNotifications.CallRecording</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/replayd</string>
+	</array>
+	<key>UNUserNotificationCenter</key>
+	<dict>
+		<key>UNDaemonShouldReceiveBackgroundResponses</key>
+		<true/>
+	</dict>
+	<key>Umask</key>
+	<integer>54</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>com.apple.private.security.no-sandbox</key>
+	<true/>
+</dict>
+</plist>

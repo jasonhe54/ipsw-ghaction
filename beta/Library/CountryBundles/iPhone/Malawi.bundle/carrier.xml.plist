@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Malawi</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>911</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<string>991</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<string>993</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<string>994</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<string>995</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>0</integer>
+				<key>Number</key>
+				<string>996</string>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>mw</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>650</string>
+		<string>com.apple.Malawi</string>
+	</array>
+</dict>
+</plist>

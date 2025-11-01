@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.ContextKit</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ContextKit English Assets</string>
+	<key>CFBundleShortVersionString</key>
+	<string>141</string>
+	<key>CFBundleVersion</key>
+	<string>141</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>CTKAssetIdentifier</key>
+		<string>en</string>
+		<key>_CompatibilityVersion</key>
+		<integer>5</integer>
+		<key>_ContentVersion</key>
+		<integer>141</integer>
+		<key>__AssetDefaultGarbageCollectionBehavior</key>
+		<string>Precious</string>
+		<key>__CanUseLocalCacheServer</key>
+		<true/>
+		<key>__RequiredByOS</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

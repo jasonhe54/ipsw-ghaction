@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.runningboardd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.runningboard</key>
+		<true/>
+		<key>com.apple.runningboard.resource_notify</key>
+		<true/>
+		<key>com.apple.runningboard.watchdog</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/runningboardd</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

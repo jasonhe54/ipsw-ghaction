@@ -1,0 +1,43 @@
+"PRIVACY_CONSENT_TITLE" = "Privacy Consent";
+"LEARN_MORE" = "Learn more…";
+"UNFUSED_NOT_ELIGIBLE" = "
+(unfused, not eligible)";
+"INSTALL_PRE_RELEASE_BETA_FIRMWARE_ON" = "PRE-RELEASE BETA PROGRAM";
+"LEGAL_CONSENT_TEXT" = "This AirPods Firmware Profile installs the AirPods firmware update which is pre-release software. Your use is subject to and licensed only under the terms and conditions of the Developer Program License Agreement (“DPLA”), including any applicable consent to collect diagnostic data set forth therein.  If you have not agreed to the DPLA, you are not permitted to use this software.  Installing this AirPods Firmware Profile will allow you to install the AirPods firmware update on your device and may provide you with access to Apple tools so that you may help Apple troubleshoot issues with your device and help Apple to improve AirPods and related products and services.
+
+This version of the AirPods firmware is only for use by members of the Apple Developer Program.  Please be sure to backup your devices and archive that backup prior to installing the AirPods firmware.  Once the firmware is installed, it cannot be removed and the AirPods cannot be restored to previously-released OS versions.  After installation of the AirPods firmware, do not insert any un-updated earbuds into the charging case, because they may be updated with the firmware.  Attempting to install this version of the AirPods firmware in an unauthorized manner could put your device in an unusable state, which could necessitate an out of warranty repair.  If you need assistance restoring your device, please contact AppleCare by visiting https://support.apple.com.
+
+By installing this profile, you may send certain personal information to Apple if you provide sysdiagnose or submit feedback through Feedback Assistant.  The personal information may include information found on your device or associated with your iCloud accounts, including but not limited to your name, serial numbers of your device, your device name, your device's location over the last one to two days, your attached peripheral devices, your user name, your email address and email settings, file paths, file names, Siri suggestions, your computer’s IP addresses, and network connection information.
+
+By installing this AirPods Firmware Profile and submitting sysdiagnose or feedback through Feedback Assistant, you consent to Apple's use of your information in accordance with its privacy policy (http://www.apple.com/legal/privacy).";
+"LOG_COLLECTION" = "Log Collection";
+"AIRPODS_TESTING" = "AirPods Testing";
+"CUSTOMER_STAGING_OVERRIDE" = "Customer Staging Override";
+"LEGAL_CONSENT_TITLE" = "Legal Consent";
+"HOW_TO_INSTALL_VISION" = "Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this Vision Pro.";
+"PRIVACY_CONSENT_TEXT" = "The AirPods Logging for iOS Developer Settings generates files that allow Apple to troubleshoot issues with your AirPods device and helps Apple to improve its products and services.  The generated log files include your device name, details on how you have interacted with the device, as well as information related to your calls, such as the numbers you call or that call you while this setting is enabled, the time these calls were made, the duration of the calls, and the names associated with these numbers if they are present in your address book, metadata for streamed audio tracks that may include information such as the title of the track and artist, and names of nearby Bluetooth devices.  The generated log files will not contain the aforementioned information about calls made prior to toggling on of the setting, nor will they contain recordings of the calls themselves.    You may review the log files on any Mac (with macOS Sierra or later) prior to sending them to Apple.
+
+This setting will expire after 4 days.  To disable the setting at any time, open Settings, tap Developer, tap Pre-Release Beta Firmware‚ toggle off Log Collection.
+
+This Developer Setting is only compatible with iOS 16 or newer and will cloud sync to other compatible devices signed into the same iCloud Account if you choose to send debug logging from multiple devices.
+
+By enabling this diagnostic tool and sending a copy of the generated files to Apple, you are consenting to Apple's use of the content of such files in accordance with its privacy policy (http://www.apple.com/legal/privacy).
+
+Apple Confidential Profile. Do not distribute. Not to be used or disclosed without permission from Apple. Copyright ¬© 2021, Apple Inc. All rights reserved.";
+"PUBLIC_SEED" = "Public Seed";
+"TURN_OFF" = "Turn Off";
+"LEGAL_CONSENT_BRIEF" = "The AirPods firmware update is a pre-release software update. Your participation in this program is subject to and licensed under the terms and conditions of the Developer Program License Agreement (“DPLA”)";
+"TURN_OFF_AIRPODS_TESTING_TITLE" = "Turn Off AirPods Testing?";
+"HOW_TO_INSTALL_IPOD" = "Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this iPod.";
+"DEVELOPER_SEED" = "Developer Seed";
+"NOT_NOW" = "Not Now";
+"LOCATION_NOT_ELIGIBLE" = "
+(internal location, not eligible)";
+"ENABLE_LOG_COLLECTION_FOR_AIRPODS" = "Enable Log Collection For AirPods";
+"AGREE" = "Agree";
+"DEV_FUSED_NOT_ELIGIBLE" = "
+(dev fused, not eligible)";
+"TURN_OFF_AIRPODS_TESTING_TEXT" = "%@ will not install future Pre-Release Beta Firmware updates. Your AirPods will update to the latest public firmware when it becomes available.";
+"HOW_TO_INSTALL_IPAD" = "Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this iPad.";
+"HOW_TO_INSTALL_IPHONE" = "Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this iPhone.";
+"CUSTOMER_STAGING" = "Customer Staging";

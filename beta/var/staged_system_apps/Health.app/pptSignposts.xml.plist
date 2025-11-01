@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>os</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>query</string>
+			<key>description</key>
+			<string>Sleep room query to fetch coaching onboarding state.</string>
+			<key>name</key>
+			<string>SleepCoachingQuery</string>
+			<key>subsystem</key>
+			<string>com.apple.Sleep</string>
+			<key>targetTests</key>
+			<array>
+				<string>SleepHealthAppPlugin.roomLoad</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>query</string>
+			<key>description</key>
+			<string>Sleep room query to fetch initial sleep schedule.</string>
+			<key>name</key>
+			<string>SleepScheduleQuery</string>
+			<key>subsystem</key>
+			<string>com.apple.Sleep</string>
+			<key>targetTests</key>
+			<array>
+				<string>SleepHealthAppPlugin.roomLoad</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>view</string>
+			<key>description</key>
+			<string>Sleep room viewDidLoad timing.</string>
+			<key>name</key>
+			<string>SleepRoomViewDidLoad</string>
+			<key>subsystem</key>
+			<string>com.apple.Sleep</string>
+			<key>targetTests</key>
+			<array>
+				<string>SleepHealthAppPlugin.roomLoad</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>query</string>
+			<key>description</key>
+			<string>Query time for upcoming resolved occurrence.</string>
+			<key>name</key>
+			<string>UpcomingResolvedScheduleOccurrenceQuery</string>
+			<key>subsystem</key>
+			<string>com.apple.Sleep</string>
+			<key>targetTests</key>
+			<array>
+				<string>SleepHealthAppPlugin.saveSingleDayOverride</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>view</string>
+			<key>description</key>
+			<string>Time for the sleep room to save a modified schedule.</string>
+			<key>name</key>
+			<string>SleepRoomDidModifySleepSchedule</string>
+			<key>subsystem</key>
+			<string>com.apple.Sleep</string>
+			<key>targetTests</key>
+			<array>
+				<string>SleepHealthAppPlugin.saveSingleDayOverride</string>
+			</array>
+		</dict>
+		<dict>
+			<key>assertExists</key>
+			<string>YES</string>
+			<key>category</key>
+			<string>view</string>
+			<key>description</key>
+			<string>Interval between saving in the schedule editing modal to the upcoming occurrence data source updating.</string>
+			<key>name</key>
+			<string>SaveSingleDayOverride</string>
+			<key>subsystem</key>
+			<string>com.apple.Sleep</string>
+			<key>targetTests</key>
+			<array>
+				<string>SleepHealthAppPlugin.saveSingleDayOverride</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>ppt</string>
+			<key>description</key>
+			<string>Mobility App Plugin Improve Walking Steadiness Responsiveness test</string>
+			<key>name</key>
+			<string>ImproveWalkingSteadinessArticleLoad</string>
+			<key>subsystem</key>
+			<string>com.apple.health.MobilityAppPlugin</string>
+			<key>targetTests</key>
+			<array>
+				<string>MobilityAppPlugin.responsivenessImproveWalkingSteadinessArticle</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>general</string>
+			<key>description</key>
+			<string>Records triggering background feature delivery on foreground</string>
+			<key>name</key>
+			<string>sceneWillEnterForeground_HKCountryMonitorControl</string>
+			<key>subsystem</key>
+			<string>com.apple.Health</string>
+			<key>targetTests</key>
+			<array>
+				<string>launch</string>
+				<string>resume</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>ppt</string>
+			<key>description</key>
+			<string>Heart App Plugin AFib Burden PDF Export Load Test</string>
+			<key>name</key>
+			<string>AFibBurdenPDFExportLoad</string>
+			<key>subsystem</key>
+			<string>com.apple.health.HeartAppPlugin</string>
+			<key>targetTests</key>
+			<array>
+				<string>Heart.responsivenessAFibBurdenPDFExport</string>
+				<string>Heart.responsivenessAFibBurdenPDFExportWithCaching</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

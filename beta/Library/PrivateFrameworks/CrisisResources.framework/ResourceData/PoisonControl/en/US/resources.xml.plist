@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>countryCode</key>
+		<string>US</string>
+		<key>languageCode</key>
+		<string>en</string>
+		<key>name</key>
+		<string>Poison Control</string>
+		<key>phoneNumber</key>
+		<string>8002221222</string>
+		<key>resourceType</key>
+		<string>poison control center</string>
+		<key>websearchQuery</key>
+		<string>poison control</string>
+		<key>website</key>
+		<dict>
+			<key>relative</key>
+			<string>https://www.aapcc.org</string>
+		</dict>
+	</dict>
+</array>
+</plist>

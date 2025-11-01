@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthService</key>
+	<string>kTCCServiceSensorKitPedometer</string>
+	<key>AuthorizationStoreCohort</key>
+	<string>locationd</string>
+	<key>Name</key>
+	<string>com.apple.SensorKit.pedometer.data</string>
+	<key>PublicEntitlementValue</key>
+	<string>pedometer</string>
+	<key>RelatedSettingsCategories</key>
+	<array>
+		<string>Motion</string>
+	</array>
+	<key>SRInfoPlistAuthCategory</key>
+	<string>SRSensorUsagePedometer</string>
+	<key>SampleClass</key>
+	<string>CMPedometerData</string>
+</dict>
+</plist>
