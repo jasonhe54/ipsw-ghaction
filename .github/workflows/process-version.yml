@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       beta_version:
-        description: 'iOS Version (e.g., 18.1)'
+        description: 'iOS Version (e.g., 18.1). Used for the version tag in the PR title and branch name.'
         required: true
       beta_build:
-        description: 'Build ID (e.g., 22B5044l)'
+        description: 'Build ID (e.g., 22B5044l). Used for downloading the IPSW file.'
         required: true
       device_identifier:
-        description: 'Device Identifier (e.g., iPhone16,1)'
+        description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
       - name: 4. Download IPSW
         run: |
           echo "Downloading full IPSW for iOS ${{ inputs.beta_version }} (${{ inputs.beta_build }}) for device ${{ inputs.device_identifier }}"
-          ipsw dl appledb --os iOS --version "${{ inputs.beta_version }}" --build "${{ inputs.beta_build }}" --device "${{ inputs.device_identifier }}" --output ./ipsw_files
+          ipsw dl appledb --os iOS --build "${{ inputs.beta_build }}" --device "${{ inputs.device_identifier }}" --output ./ipsw_files
           
           DOWNLOADED_FILE=$(find ./ipsw_files -name "*.ipsw" | head -n 1)
           if [[ -z "$DOWNLOADED_FILE" ]]; then
