@@ -3,25 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.MobileAsset.MobileBluetoothAssets</string>
+	<string>com.apple.MobileAsset.SharingDeviceAssets</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>8</string>
+	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MobileBluetoothDatabase</string>
+	<string>Placeholder</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>MobileAssetProperties</key>
 	<dict>
-		<key>AssetName</key>
-		<string>MobileBluetoothDatabase</string>
+		<key>CL</key>
+		<string>0</string>
+		<key>ProductType</key>
+		<string>Placeholder</string>
 		<key>_CompatibilityVersion</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>_ContentVersion</key>
-		<integer>39</integer>
-		<key>__AssetDefaultGarbageCollectionBehavior</key>
-		<string>NeverCollected</string>
+		<integer>1</integer>
 		<key>__RequiredByOS</key>
 		<true/>
 	</dict>

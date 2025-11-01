@@ -6,6 +6,7 @@
 "Productivity Gestures" = "Productivity Gestures";
 "This is the Display Zoom control of the Display & Brightness Settings pane. Use this control to choose between showing larger controls or more space." = "This is the Display Zoom control of the Display & Brightness Settings pane. Use this control to choose between showing larger controls or more space.";
 "This is the Multitasking section of the Multitasking & Gestures Settings pane where you can choose how to manage multiple apps on your screen at the same time." = "This is the Multitasking section of the Multitasking & Gestures Settings pane where you can choose how to manage multiple apps on your screen at the same time.";
+"This is the Full Screen Apps option of the Multitasking & Gestures Settings pane. When this option is selected, user can always use apps full screen and swipe home to switch between them." = "This is the Full Screen Apps option of the Multitasking & Gestures Settings pane. When this option is selected, user can always use apps full screen and swipe home to switch between them.";
 "Raise to Wake" = "Raise to Wake";
 "Start PiP Automatically" = "Start PiP Automatically";
 "This is the Appearance section of the Display & Brightness Settings pane where the user can set the appearance of the device as either Light Mode or Dark Mode." = "This is the Appearance section of the Display & Brightness Settings pane where the user can set the appearance of the device as either Light Mode or Dark Mode.";
@@ -18,10 +19,14 @@
 "Close All Windows After Swiping Home" = "Close All Windows After Swiping Home";
 "This is the Auto-Lock control in the Display & Brightness Settings pane. Use this control to set the delay until the device is locked." = "This is the Auto-Lock control in the Display & Brightness Settings pane. Use this control to set the delay until the device is locked.";
 "undo settings" = "undo settings";
+"frosted" = "frosted";
 "This is the Show on Home Screen in Search control of the Home Screen & App Library Settings pane. When enabled, Search will be visible on the home screen of your device." = "This is the Show on Home Screen in Search control of the Home Screen & App Library Settings pane. When enabled, Search will be visible on the home screen of your device.";
+"legibility" = "legibility";
 "This is the Newly Downloaded Apps section of the Home Screen & App Library Settings pane where you can choose where apps are stored after they are downloaded from the App Store." = "This is the Newly Downloaded Apps section of the Home Screen & App Library Settings pane where you can choose where apps are stored after they are downloaded from the App Store.";
 "Full Screen Apps" = "Full Screen Apps";
 "Stage Manager" = "Stage Manager";
+"liquid glass" = "liquid glass";
+"Liquid Glass" = "Liquid Glass";
 "Lock / Unlock" = "Lock / Unlock";
 "This is the main Display & Brightness Settings pane where you can adjust controls related to your device screen." = "This is the main Display & Brightness Settings pane where you can adjust controls related to your device screen.";
 "Open Home Screen & App Library Settings" = "Open Home Screen & App Library Settings";
@@ -60,8 +65,10 @@
 "This is the Multitasking Recent Apps control of the Multitasking & Gestures Settings pane. When enabled, Windowed Apps will close all windows after swiping home." = "This is the Multitasking Recent Apps control of the Multitasking & Gestures Settings pane. When enabled, Windowed Apps will close all windows after swiping home.";
 "Display & Brightness → Night Shift" = "Display & Brightness → Night Shift";
 "Use Large App Icons" = "Use Large App Icons";
+"tinted" = "tinted";
 "Display & Brightness" = "Display & Brightness";
 "Home Screen & App Library" = "Home Screen & App Library";
+"clear" = "clear";
 "This is the Swipe Finger from Corner control of the Multitasking & Gestures Settings pane. When enabled, you can select an action to perform when you swipe diagonally from the bottom corner." = "This is the Swipe Finger from Corner control of the Multitasking & Gestures Settings pane. When enabled, you can select an action to perform when you swipe diagonally from the bottom corner.";
 "Multitasking & Gestures Settings Deep Links" = "Multitasking & Gestures Settings Deep Links";
 "This is the Color Temperature slider control in the Night Shift pane of the Display & Brightness Settings pane. Use this control to set the warmth of the screen when Night Shift is active." = "This is the Color Temperature slider control in the Night Shift pane of the Display & Brightness Settings pane. Use this control to set the warmth of the screen when Night Shift is active.";
@@ -70,7 +77,6 @@
 "Show in App Library" = "Show in App Library";
 "Windowed Apps" = "Windowed Apps";
 "screen settings" = "screen settings";
-"This is the Full Screen Apps option of the Multitasking & Gestures Settings pane. When this option is selected, user can always use apps full screen and swipe Home to switch between them." = "This is the Full Screen Apps option of the Multitasking & Gestures Settings pane. When this option is selected, user can always use apps full screen and swipe Home to switch between them.";
 "Brightness" = "Brightness";
 "This is the Show Suggested and Recent Apps in Dock control of the Home Screen & App Library Settings pane. When enabled, recently used apps, as well as apps suggested by Siri, will be present in the Dock on your device home screen." = "This is the Show Suggested and Recent Apps in Dock control of the Home Screen & App Library Settings pane. When enabled, recently used apps, as well as apps suggested by Siri, will be present in the Dock on your device home screen.";
 "This is the Use Large App Icons control of the Home Screen & App Library Settings pane where you can choose if the app icons on your home screen are displayed as large or the default size." = "This is the Use Large App Icons control of the Home Screen & App Library Settings pane where you can choose if the app icons on your home screen are displayed as large or the default size.";
