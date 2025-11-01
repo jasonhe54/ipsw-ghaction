@@ -15,6 +15,11 @@ on:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
         type: string
+      base_branch:
+        description: 'The base branch to create the Pull Request against.'
+        required: false
+        type: string
+        default: 'main'
 
 jobs:
   process-ipsw:
@@ -26,6 +31,9 @@ jobs:
     steps:
       - name: 1. Check out repository
         uses: actions/checkout@v4
+        with:
+          # Check out the specified base branch
+          ref: ${{ inputs.base_branch }}
 
       - name: 2. Install blacktop/ipsw
         run: brew install blacktop/tap/ipsw
@@ -97,6 +105,7 @@ jobs:
           REPO_SAVE_PATH="beta"
 
           echo "Running Python script for Applications..."
+          # Assumes 'py.py' is in the root of your repo
           python py.py "${{ env.MOUNT_PATH }}/Applications" "$REPO_SAVE_PATH"
           
           echo "Running Python script for Library..."
@@ -131,7 +140,7 @@ jobs:
           # Append timestamp to branch name for uniqueness
           NEW_BRANCH="auto-analysis/${VERSION_TAG}-${TIMESTAMP}"
           
-          # Create new branch
+          # Create new branch from the checked-out base branch
           git checkout -B "${NEW_BRANCH}"
           
           # Add all new/modified files from the python script
@@ -162,7 +171,7 @@ jobs:
           **Output Repo Path:** \`/beta\`"
           
           gh pr create \
-            --base "main" \
+            --base "${{ inputs.base_branch }}" \
             --head "${NEW_BRANCH}" \
             --title "${PR_TITLE}" \
             --body "${PR_BODY}"
