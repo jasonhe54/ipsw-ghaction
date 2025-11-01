@@ -123,17 +123,16 @@ jobs:
           REPO_SAVE_PATH="beta"
 
           echo "Running Python script for Applications..."
-          # Assumes 'py.py' is in the root of your repo
-          python py.py "${{ env.MOUNT_PATH }}/Applications" "$REPO_SAVE_PATH"
+          python py.py "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
           
           echo "Running Python script for Library..."
-          python py.py "${{ env.MOUNT_PATH }}/Library" "$REPO_SAVE_PATH"
+          python py.py "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
           
           echo "Running Python script for private..."
-          python py.py "${{ env.MOUNT_PATH }}/private" "$REPO_SAVE_PATH"
+          python py.py "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
           
           echo "Running Python script for System..."
-          python py.py "${{ env.MOUNT_PATH }}/System" "$REPO_SAVE_PATH"
+          python py.py "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
 
       - name: 10. Unmount DMG
         if: always() # Always run this step, even if the script fails
