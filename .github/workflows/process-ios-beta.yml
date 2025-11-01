@@ -153,10 +153,15 @@ jobs:
           
           # beta_version is used for display, beta_build is used for uniqueness
           VERSION_TAG="ios-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
+          
+          # Normalize the tag for the branch name
+          # Replaces any character that is NOT alphanumeric or a hyphen with an underscore
+          CLEAN_VERSION_TAG=$(echo "${VERSION_TAG}" | sed 's/[^a-zA-Z0-9-]/_/g')
+          
           # Create a git-safe timestamp (YYYYMMDD-HHMMSS)
           TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
           # Append timestamp to branch name for uniqueness
-          NEW_BRANCH="auto-analysis/${VERSION_TAG}-${TIMESTAMP}"
+          NEW_BRANCH="auto-analysis/${CLEAN_VERSION_TAG}-${TIMESTAMP}"
           
           # Create new branch from the checked-out base branch
           git checkout -B "${NEW_BRANCH}"
