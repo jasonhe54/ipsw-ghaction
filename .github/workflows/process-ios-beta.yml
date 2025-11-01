@@ -32,8 +32,7 @@ jobs:
       - name: 1. Check out repository
         uses: actions/checkout@v4
         with:
-          # Check out the specified base branch
-          ref: ${{ inputs.base_branch }}
+          ref: ${{ inputs.commit_branch }}
 
       - name: 2. Install blacktop/ipsw
         run: brew install blacktop/tap/ipsw
@@ -43,10 +42,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 4. Download IPSW
+      - name: 4. Create output directory
         run: |
-          echo "Downloading full IPSW for iOS ${{ inputs.beta_version }} (${{ inputs.beta_build }}) for device ${{ inputs.device_identifier }}"
-          ipsw dl appledb --os iOS --build "${{ inputs.beta_build }}" --device "${{ inputs.device_identifier }}" --output ./ipsw_files
+          # Create the directory for the download
+          mkdir -p ./ipsw_files
+
+      - name: 5. Download IPSW
+        run: |
+          echo "Downloading full IPSW for iOS build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
+          
+          # Corrected download command, using only the build number
+          ipsw dl appledb --os iOS \
+            --build "${{ inputs.beta_build }}" \
+            --device "${{ inputs.device_identifier }}" \
+            --output ./ipsw_files
           
           DOWNLOADED_FILE=$(find ./ipsw_files -name "*.ipsw" | head -n 1)
           if [[ -z "$DOWNLOADED_FILE" ]]; then
@@ -56,7 +65,7 @@ jobs:
           echo "IPSW_FILE=${DOWNLOADED_FILE}" >> $GITHUB_ENV
           echo "Downloaded: $DOWNLOADED_FILE"
 
-      - name: 5. Extract Filesystem DMG and Decrypt
+      - name: 6. Extract Filesystem DMG and Decrypt
         run: |
           echo "Processing file: ${{ env.IPSW_FILE }}"
           
@@ -85,7 +94,7 @@ jobs:
           echo "DECRYPTED_DMG=./ipsw_files/filesystem.dmg" >> $GITHUB_ENV
           echo "Decrypted DMG at: ${{ env.DECRYPTED_DMG }}"
 
-      - name: 6. Mount Decrypted DMG
+      - name: 7. Mount Decrypted DMG
         run: |
           echo "Mounting DMG..."
           hdiutil attach "${{ env.DECRYPTED_DMG }}" -mountpoint ./mounted_dmg
@@ -93,13 +102,13 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 7. Clean old beta directory
+      - name: 8. Clean old beta directory
         run: |
           echo "Removing old 'beta' directory..."
           rm -rf beta
           mkdir -p beta
 
-      - name: 8. Run Python Analyzer Script
+      - name: 9. Run Python Analyzer Script
         run: |
           # This is the hardcoded path in your repo where files will be saved
           REPO_SAVE_PATH="beta"
@@ -117,23 +126,24 @@ jobs:
           echo "Running Python script for System..."
           python py.py "${{ env.MOUNT_PATH }}/System" "$REPO_SAVE_PATH"
 
-      - name: 9. Unmount DMG
+      - name: 10. Unmount DMG
         if: always() # Always run this step, even if the script fails
         run: |
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
 
-      - name: 10. Configure Git
+      - name: 11. Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: 11. Commit and Create PR
+      - name: 12. Commit and Create PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           
+          # beta_version is used for display, beta_build is used for uniqueness
           VERSION_TAG="ios-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
           # Create a git-safe timestamp (YYYYMMDD-HHMMSS)
           TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
