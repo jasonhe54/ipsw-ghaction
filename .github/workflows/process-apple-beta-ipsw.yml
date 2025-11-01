@@ -54,16 +54,16 @@ jobs:
 
       - name: 4. Create output directories
         run: |
-          # Create the directory for the download
           mkdir -p ./ipsw_files
-          # Create the directory for the extracted files
           mkdir -p ./ipsw_files/out
+          
+          # This is the new local copy directory
+          mkdir -p ./local_pristine_copy
 
       - name: 5. Download IPSW
         run: |
           echo "Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
           
-          # Use the new os_type input
           ipsw dl appledb --os "${{ inputs.os_type }}" \
             --build "${{ inputs.beta_build }}" \
             --device "${{ inputs.device_identifier }}" \
@@ -80,36 +80,19 @@ jobs:
       - name: 6. Extract and Decrypt Filesystem DMG
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
-          # Step A: Extract the .dmg.aea file using 'fs'
           ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
-          
           FS_DMG_AEA=$(find ./ipsw_files/out -name "*dmg.aea" | head -n 1)
-          if [[ -z "$FS_DMG_AEA" ]]; then
-            echo "::error::Failed to find extracted *dmg.aea file."
-            exit 1
-          fi
+          if [[ -z "$FS_DMG_AEA" ]]; then echo "::error::Failed to find extracted *dmg.aea file."; exit 1; fi
           echo "Found encrypted DMG: $FS_DMG_AEA"
-
           echo "Extracting decryption key (.pem)..."
-          # Step B: Extract the .pem file
           ipsw ex --fcs-key "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
-          
           AEA_KEY=$(find ./ipsw_files/out -name "*aea.pem" | head -n 1)
-          if [[ -z "$AEA_KEY" ]]; then
-            echo "::error::Failed to find extracted *aea.pem key."
-            exit 1
-          fi
+          if [[ -z "$AEA_KEY" ]]; then echo "::error::Failed to find extracted *aea.pem key."; exit 1; fi
           echo "Found key: $AEA_KEY"
-
           echo "Decrypting DMG..."
-          # Step C: Decrypt using the key with 'ipsw fw aea'
           ipsw fw aea --pem "${AEA_KEY}" "${FS_DMG_AEA}" -o ./ipsw_files/out
-          
           DECRYPTED_DMG=$(find ./ipsw_files/out -name "*.dmg" | head -n 1)
-          if [[ -z "$DECRYPTED_DMG" ]]; then
-            echo "::error::Failed to find decrypted .dmg file."
-            exit 1
-          fi
+          if [[ -z "$DECRYPTED_DMG" ]]; then echo "::error::Failed to find decrypted .dmg file."; exit 1; fi
           echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
           echo "Decrypted DMG at: $DECRYPTED_DMG"
 
@@ -121,65 +104,89 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 8. Clean old beta directory
+      # --- NEW STEP ---
+      - name: 8. Copy & Dereference DMG Contents
+        run: |
+          echo "Copying and dereferencing symlinks from DMG mount..."
+          
+          # The -L flag follows all symlinks, copying the
+          # actual file they point to. This replicates
+          # your manual copy process and fixes broken links.
+          
+          echo "Copying Applications..."
+          cp -rL ./mounted_dmg/Applications ./local_pristine_copy/Applications
+          
+          echo "Copying Library..."
+          cp -rL ./mounted_dmg/Library ./local_pristine_copy/Library
+          
+          echo "Copying private..."
+          cp -rL ./mounted_dmg/private ./local_pristine_copy/private
+          
+          echo "Copying System..."
+          cp -rL ./mounted_dmg/System ./local_pristine_copy/System
+          
+          echo "Copy complete."
+
+      - name: 9. Clean 'beta' directory
         run: |
           echo "Ensuring the 'beta' root directory exists..."
           mkdir -p beta
 
-      - name: 9. Run Python Analyzer Script
+      # --- MODIFIED STEP ---
+      - name: 10. Run Python Analyzer Script
         run: |
-          # This is the new, dynamic path based on the OS
+          # This is the OS-specific path for the *final repo output*
           REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
 
+          # These paths now point to the 'local_pristine_copy'
+          # This is the new *source* for the python script
+          LOCAL_SOURCE_PATH="./local_pristine_copy"
+
           echo "Running Python script for Applications... (Output: ${REPO_SAVE_PATH}/Applications)"
-          python py.py "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
+          python py.py "${LOCAL_SOURCE_PATH}/Applications" "${REPO_SAVE_PATH}/Applications"
           
           echo "Running Python script for Library... (Output: ${REPO_SAVE_PATH}/Library)"
-          python py.py "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
+          python py.py "${LOCAL_SOURCE_PATH}/Library" "${REPO_SAVE_PATH}/Library"
           
           echo "Running Python script for private... (Output: ${REPO_SAVE_PATH}/private)"
-          python py.py "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
+          python py.py "${LOCAL_SOURCE_PATH}/private" "${REPO_SAVE_PATH}/private"
           
           echo "Running Python script for System... (Output: ${REPO_SAVE_PATH}/System)"
-          python py.py "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          python py.py "${LOCAL_SOURCE_PATH}/System" "${REPO_SAVE_PATH}/System"
 
-      - name: 10. Unmount DMG
-        if: always() # Always run this step, even if the script fails
+      # --- MODIFIED STEP ---
+      - name: 11. Unmount DMG and Clean Up
+        if: always() # Always run this step
         run: |
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
+          
+          echo "Cleaning up local pristine copy..."
+          rm -rf ./local_pristine_copy
+          
+          echo "Cleaning up downloaded ipsw files..."
+          rm -rf ./ipsw_files
 
-      - name: 11. Configure Git
+      - name: 12. Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: 12. Commit and Create PR
+      - name: 13. Commit and Create PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           
-          # Make the OS type lowercase for the branch name
           OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
-          
-          # Add the OS type to the version tag
           VERSION_TAG="${OS_TYPE_LOWER}-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
-          
-          # Normalize the tag for the branch name
-          # Replaces any character that is NOT alphanumeric or a hyphen with an underscore
           CLEAN_VERSION_TAG=$(echo "${VERSION_TAG}" | sed 's/[^a-zA-Z0-9-]/_/g')
-          
-          # Create a git-safe timestamp (YYYYMMDD-HHMMSS)
           TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
-          # Append timestamp to branch name for uniqueness
           NEW_BRANCH="auto-analysis/${CLEAN_VERSION_TAG}-${TIMESTAMP}"
           
-          # Create new branch from the checked-out base branch
           git checkout -B "${NEW_BRANCH}"
           
-          # Add all new/modified files from the python script
-          # This will correctly add 'beta/iOS/...' or 'beta/iPadOS/...' etc.
+          # This 'git add' command is still correct
           git add beta/
           
           if git diff --cached --quiet; then
@@ -188,7 +195,6 @@ jobs:
           fi
           
           echo "Committing changes..."
-          # Update commit message
           COMMIT_MSG="Analyze: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})
           
           Device: ${{ inputs.device_identifier }}
@@ -200,7 +206,6 @@ jobs:
           git push --set-upstream origin "${NEW_BRANCH}"
           
           echo "Creating Pull Request..."
-          # Update PR title and body
           PR_TITLE="Analysis: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})"
           PR_BODY="Automated analysis of \`${{ inputs.os_type }}\` \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
           
