@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowDuplicateMessages</key>
+	<true/>
+	<key>AllowMagnetDelivery</key>
+	<true/>
+	<key>AllowPartialSendsToSucceed</key>
+	<true/>
+	<key>AllowProxyDelivery</key>
+	<true/>
+	<key>CanUseLargePayload</key>
+	<true/>
+	<key>DataProtectionClass</key>
+	<string>D</string>
+	<key>DisplayName</key>
+	<string>iMessage</string>
+	<key>Identifier</key>
+	<string>com.apple.madrid</string>
+	<key>LaunchMachServiceNotification</key>
+	<string>com.apple.madrid-idswake</string>
+	<key>LegacyIdentifier</key>
+	<string>com.apple.iMessage</string>
+	<key>PassThroughMessagesFromStorage</key>
+	<true/>
+	<key>ProtocolName</key>
+	<string>Messenger</string>
+	<key>PushTopic</key>
+	<string>com.apple.madrid</string>
+	<key>ServiceName</key>
+	<string>Messenger</string>
+	<key>ShouldShowUsageNotifications</key>
+	<true/>
+	<key>SupportsPhoneNumberRegistration</key>
+	<true/>
+	<key>SyncAccounts</key>
+	<true/>
+	<key>UseTransportZone</key>
+	<true/>
+	<key>WantsCheckTransportLogHint</key>
+	<true/>
+	<key>WantsLocalReflectedSend</key>
+	<true/>
+	<key>WantsPendingMessageUpdates</key>
+	<true/>
+	<key>WantsRemoteErrors</key>
+	<true/>
+</dict>
+</plist>

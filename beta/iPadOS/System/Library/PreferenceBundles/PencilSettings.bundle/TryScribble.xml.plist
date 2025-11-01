@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>TRY_SCRIBBLE_LIST</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>TryScribbleGroup</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>showEducationPanel:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>id</key>
+			<string>TryScribbleButton</string>
+			<key>label</key>
+			<string>TRY_SCRIBBLE_TITLE</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SETTINGS_TITLE</string>
+</dict>
+</plist>

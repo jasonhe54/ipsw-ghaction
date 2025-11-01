@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>LTE</string>
+	<key>EULocalBreakOut</key>
+	<dict>
+		<key>EnableByDefault</key>
+		<false/>
+		<key>ReroutableServices</key>
+		<integer>0</integer>
+		<key>apns</key>
+		<array>
+			<dict>
+				<key>apn</key>
+				<string>EUInternet</string>
+				<key>password</key>
+				<string></string>
+				<key>type-mask</key>
+				<integer>49</integer>
+				<key>username</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>EquivalentBundleTableFileName</key>
+	<string>equivalent_bundle_table.txt</string>
+	<key>EquivalentBundleTableVersion</key>
+	<string>1.6</string>
+	<key>IPCUApnTypemask</key>
+	<integer>1</integer>
+	<key>IPv6SupportedDataModeMask</key>
+	<integer>12316</integer>
+	<key>NumbersExcludedFromCallHistory</key>
+	<dict>
+		<key>214</key>
+		<array>
+			<string>016</string>
+		</array>
+	</dict>
+	<key>PreferPrimaryDNS</key>
+	<false/>
+	<key>SIDTableFileName</key>
+	<string>SIDTable.txt</string>
+	<key>SIDTableVersion</key>
+	<string>1.0</string>
+	<key>ShowRATIndicator</key>
+	<true/>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>DefaultBundle</string>
+	</array>
+	<key>TS25AnnexFileName</key>
+	<string>TS25_Annex.txt</string>
+	<key>TS25FileName</key>
+	<string>TS25.txt</string>
+	<key>TS25Version</key>
+	<string>66.0</string>
+</dict>
+</plist>

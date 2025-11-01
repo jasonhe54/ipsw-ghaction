@@ -1,0 +1,5 @@
+"BALANCE_SNIDGET_SUBTITLE_AND_MORE" = "{'data_and_more': {'one': '%2$@ and %1$d other', 'other': '%2$@ and %1$d others', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@data_and_more@'}";
+"BALANCE_SNIDGET_TYPICAL_TITLE" = "Typical";
+"BALANCE_SNIDGET_OUTLIERS_TITLE" = "{'outliers': {'one': '%d Outlier', 'other': '%d Outliers', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@outliers@'}";
+"BALANCE_SNIDGET_ESTABLISHING_BASELINE_TITLE" = "Needs More Data";
+"BALANCE_SNIDGET_TYPICAL_DESCRIPTION" = "All Metrics in Range";

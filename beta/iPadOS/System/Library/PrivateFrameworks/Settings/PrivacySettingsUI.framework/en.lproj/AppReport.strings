@@ -1,0 +1,95 @@
+"CAMERA" = "Camera";
+"EVENTS_HEADER_TEXT_PHOTOS" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s photos, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s photos, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s photos, it will be recorded here.'}}";
+"IN_APP_WEB_BROWSING" = "In-App Web Browsing";
+"PAST_7_DAYS" = "Past 7 Days";
+"APPS_YOU_VIEWED_THIS_WEBSITE_IN" = "Apps you viewed this website in";
+"OWNED_BY_FOOTER_LINK" = "Learn more…";
+"SITES_CONTACTING_DOMAIN" = "Websites that contacted this domain";
+"OWNED_BY_FOOTER" = "If multiple apps or websites contact a domain, it could indicate the domain is combining your activity into a profile.";
+"ONBOARDING_PARAGRAPH_1_FOOTER_LINK" = "Learn more…";
+"MICROPHONE" = "Microphone";
+"VISITED_N_TIMES" = "{'VARIABLE': {'one': 'Visited %ld time', 'other': 'Visited %ld times', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@VARIABLE@'}";
+"TRACKER_ACTIVITY_WILL_APPEAR_HERE" = "Report information will appear here as apps are used.";
+"DOMAIN" = "Domain";
+"ENABLE_REPORT" = "Turn On App Privacy Report";
+"LEARN_MORE_TITLE" = "App Privacy Report";
+"DOMAINS_CONTACTED_BY_APP" = "Domains contacted by app";
+"SCREEN_RECORDING" = "Screen Recording";
+"EVENTS_HEADER_TEXT_MEDIA_LIBRARY" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s media library, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s media library, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s media library, it will be recorded here.'}}";
+"ONBOARDING_PARAGRAPH_1" = "App Privacy Report shows how often apps use the permission you’ve granted to access your data, like your location or microphone. It also includes a breakdown of each app’s network activity, website network activity, and the most frequently contacted domains.";
+"TIME_AND_OWNER" = "%@ · %@";
+"EVENTS_HEADER_TEXT_CAMERA" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s camera, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s camera, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s camera, it will be recorded here.'}}";
+"WEBSITE_NETWORK_ACTIVITY_TITLE" = "Website Network Activity";
+"CANCEL" = "Cancel";
+"MOST_ACTIVE_DOMAIN" = "Most Active";
+"APP_REPORT_HEADER_TEXT" = "App Privacy Report records data and sensor access, app and website network activity, and the most frequently contacted domains.";
+"SHOW_ALL" = "Show All";
+"TIME_AND_CATEGORY_1" = "%@ · %@";
+"APP_NETWORK_ACTIVITY" = "App Network Activity";
+"OWNED_BY_TRACKER_FOOTER" = "This domain may be following you across multiple apps and websites to combine your activity into a profile.";
+"WEBSITES_VISITED_IN_APP" = "Websites visited in app";
+"WEBSITE_NETWORK_ACTIVITY" = "Website Network Activity";
+"WEBSITE_UNVERIFIED_CONTEXT_FOOTER" = "Websites labeled with a %@ were provided by the app. All other website names were populated automatically.";
+"DISABLE_REPORT" = "Turn Off App Privacy Report";
+"WEBSITE_NETWORK_ACTIVITY_FOOTER" = "These websites contacted domains when you visited them within an app in the past 7 days.";
+"APP_UPDATE_FOOTER" = "This app hasn’t been updated by the developer to show which domains were contacted by websites or other content viewed in the app.";
+"PHOTOS" = "Photos";
+"EVENTS_HEADER_TEXT_MICROPHONE" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s microphone, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s microphone, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s microphone, it will be recorded here.'}}";
+"MOST_RECENT_ACCESS" = "Most Recent Access";
+"APP_REPORT_LINK_TEXT" = "Learn more…";
+"OWNED_BY_%@" = "Owned by %@";
+"MOST_CONTACTED_DOMAINS_TITLE" = "Most Contacted Domains";
+"DATA_SENSOR_ACCESS_FOOTER" = "These apps accessed your data or sensors in the past 7 days.";
+"EVENTS_HEADER_TEXT_CONTACTS" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s contacts, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s contacts, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s contacts, it will be recorded here.'}}";
+"RECENT_ACCESS" = "Recent Access";
+"CONTACTS" = "Contacts";
+"EVENTS_HEADER_TEXT_LOCATION" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s location, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s location, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s location, it will be recorded here.'}}";
+"EVENTS_HEADER_TEXT_SCREEN_RECORDING" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Anytime this app accesses your Apple\xa0Vision\xa0Pro’s screen recording, it will be recorded here.', 'iphone': 'Anytime this app accesses your iPhone’s screen recording, it will be recorded here.', 'ipad': 'Anytime this app accesses your iPad’s screen recording, it will be recorded here.'}}";
+"MEDIALIBRARY" = "Media Library";
+"DATA_SENSOR_ACCESS" = "Data & Sensor Access";
+"TIME_AND_CATEGORY_2" = "%@ · %@ and %@";
+"MOST_CONTACTED_DOMAINS_FOOTER" = "These domains were contacted by one or more apps or websites in the past 7 days.";
+"UNNAMED_DOMAINS" = "Unnamed Domains";
+"DOMAINS_CONTACTED_BY_WEBSITE" = "Domains contacted by website";
+"LEARN_MORE_TEXT" = "App Privacy Report is designed to give you a more complete picture of how the apps you use treat your data. App Privacy Report shows you how often apps use the permission you’ve granted to access certain kinds of your data and device sensors. App Privacy Report also includes a breakdown of each app’s network activity, website network activity, and the most frequently contacted domains. This allows you to see whether an app may be sharing your data with other parties based on the domains an app is contacting.
+
+App Privacy Report displays information for the past seven days. There are four sections: Data and Sensor Access, App Network Activity, Website Network Activity, and Most Contacted Domains.
+
+Data and Sensor Access
+
+The Data and Sensor Access section shows when and how many times an app accessed your camera, contacts, location, media library, microphone, photo library, or screen recording.
+
+App Network Activity
+
+The App Network Activity section shows the domains an app has contacted and the date and time of these contacts. An app may contact a domain to do things like deliver email, provide video streaming or gameplay content, or connect you to other devices such as for video calls.
+
+App Privacy Report displays some domains as contacted directly by the app and some as contacted by other content. Domains contacted directly by the app may be necessary for app functionality. These connections may also include things like an app sending data to an analytics service or to an ad network to target advertising. A developer can label certain network connections as domains contacted by other content, if the connection takes place when you choose to interact with content in an app that requires a call to a domain. This could include, for example, tapping on a link posted on a news feed in a social media app, tapping to play a video that is embedded in an app, or opening an email in a mail app. For more information about how an app may share data with a third party, see the developer’s privacy policy.
+
+Website Network Activity
+
+The Website Network Activity section shows how many domains have been contacted by websites you visited through a web browser in an app. A developer may provide a website name to display for this section of the report, in which case this will be labeled as provided by the app.
+
+Most Contacted Domains
+
+The Most Contacted Domains section shows the domains contacted by all apps you use and by websites you visited in those apps. App Privacy Report identifies domains that are contacted by multiple apps because these domains may be collecting data about you from those apps and combining the data to create a profile about you, including for advertising purposes.
+
+Turn On or Off App Privacy Report
+
+To turn on or off App Privacy Report, in iOS Settings go to Privacy > App Privacy Report.
+
+The information displayed by App Privacy Report is stored locally on your device. If you turn off App Privacy Report, this information will be deleted from your device. If you uninstall an app, the information reported for that app will be deleted.";
+"WEBSITE_UNVERIFIED_CONTEXT_FOOTER_LINK" = "Learn more…";
+"LOCATION" = "Location";
+"MOST_ACTIVE_APP" = "Most Active";
+"APPS_CONTACTING_DOMAIN" = "Apps that contacted this domain";
+"DATA_SENSOR_ACCESS_TITLE" = "Data & Sensor Access";
+"TRACKER_ACTIVITY_ONBOARDING_TITLE" = "App Privacy Report";
+"DOMAINS_CONTACTED_DIRECTLY_BY_OTHER_CONTENT" = "Domains contacted by other content";
+"DOMAINS_CONTACTED_DIRECTLY_BY_APP" = "Domains contacted directly by app";
+"TIME_AND_CATEGORY_3" = "%@ · %@, %@ and %d more";
+"APP_NETWORK_ACTIVITY_FOOTER" = "These apps contacted domains in the past 7 days.";
+"MOST_FREQUENTLY_CONTACTED" = "Most Frequently Contacted";
+"SORT_BY" = "Sort By";
+"MOST_CONTACTED_DOMAINS" = "Most Contacted Domains";
+"MOST_ACTIVE_SITE" = "Most Active";
+"ALPHABETICAL" = "Alphabetical";

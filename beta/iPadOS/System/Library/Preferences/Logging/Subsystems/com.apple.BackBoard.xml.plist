@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accelerometer</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>KeyPresses</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>MotionEvents</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>SendHIDEvent</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>TouchDeliveryPolicy</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>TouchEvents</key>
+	<dict/>
+</dict>
+</plist>

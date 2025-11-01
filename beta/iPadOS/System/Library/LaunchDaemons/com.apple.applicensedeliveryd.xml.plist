@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.applicensedeliveryd</string>
+	<key>LaunchEvents</key>
+	<dict/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.applicensedeliveryd</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>34</integer>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/ManagedAppDistribution.framework/Support/applicensedeliveryd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

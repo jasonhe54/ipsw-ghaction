@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string>ndo</string>
+			<key>password</key>
+			<string></string>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>DataIndicatorOverrideForEvo</key>
+	<string>5GE</string>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.14</string>
+	<key>Show4GSwitchWith5G</key>
+	<true/>
+	<key>TypesOfEvo</key>
+	<dict>
+		<key>Type0</key>
+		<string></string>
+		<key>Type1</key>
+		<string>cricket...1</string>
+		<key>Type2</key>
+		<string>cricket...2</string>
+	</dict>
+</dict>
+</plist>

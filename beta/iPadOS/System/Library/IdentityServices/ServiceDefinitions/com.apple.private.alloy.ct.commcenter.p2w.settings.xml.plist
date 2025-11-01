@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>Commcenter P2W Settings</string>
+	<key>DuetIdentifiers</key>
+	<array>
+		<string>com.apple.coretelephony</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.ct.commcenter.p2w.settings</string>
+	<key>LaunchMachServiceNotification</key>
+	<string>com.apple.private.alloy.ct.commcenter.p2w.settings-idswake</string>
+	<key>LinkedDeviceRelationships</key>
+	<array>
+		<string>Tinker</string>
+	</array>
+	<key>MinCompatibilityVersion</key>
+	<integer>3</integer>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.ct.commcenter.p2w.settings</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.ct.commcenter.p2w.settings</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

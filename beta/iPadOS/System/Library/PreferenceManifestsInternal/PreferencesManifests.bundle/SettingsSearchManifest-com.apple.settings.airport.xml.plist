@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>WLAN_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>WLAN_KEYWORDS</string>
+			<key>label</key>
+			<string>WLAN</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>wifi</string>
+				<string>green-tea</string>
+			</array>
+			<key>searchSectionID</key>
+			<string>WIFI</string>
+			<key>searchURL</key>
+			<string>prefs:root=WIFI</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>WIFI_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>WIFI_KEYWORDS</string>
+			<key>label</key>
+			<string>WIFI</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>wifi</string>
+				<string>not-green-tea</string>
+			</array>
+			<key>searchSectionID</key>
+			<string>WIFI</string>
+			<key>searchURL</key>
+			<string>prefs:root=WIFI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

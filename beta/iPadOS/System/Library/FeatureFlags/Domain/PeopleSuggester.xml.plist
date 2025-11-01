@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pass_data_collection_only</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>pass_v2</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>peoplesuggester_hyperrecent_viewed_thread</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>peoplesuggester_rewrite</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>zkw_v2</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>zkw_v2_corecipient_predictions</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>zkw_v2_enable_blending_layer_ios</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>zkw_v2_enable_blending_layer_macos</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

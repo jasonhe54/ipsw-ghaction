@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPACE_ATTRIBUTION_OWNER</key>
+	<string>com.apple.Spotlight</string>
+	<key>SPACE_ATTRIBUTION_PATHS</key>
+	<array>
+		<string>/var/mobile/Library/Spotlight/CoreSpotlight</string>
+	</array>
+	<key>SPACE_ATTRIBUTION_SHARED</key>
+	<array/>
+	<key>SPACE_ATTRIBUTION_WRITERS</key>
+	<array>
+		<string>com.apple.spotlightknowledged</string>
+		<string>com.apple.searchd</string>
+		<string>com.apple.suggestd</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>1</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CaptiveSettingsBySSID</key>
+	<dict>
+		<key>Neuf WiFi</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>Neuf WiFi FON</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>SFR WiFi</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>SFR WiFi FON</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>SFR WiFi Gares</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>SFR WiFi Public</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>WiFi Partenaires</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>SFR</string>
+	<key>CarrierOverrideSmsSupportAllowedNumbersList</key>
+	<array>
+		<string>952</string>
+		<string>711</string>
+		<string>955</string>
+		<string>7800</string>
+		<string>7801</string>
+		<string>7802</string>
+		<string>7803</string>
+		<string>1800</string>
+		<string>686</string>
+		<string>815</string>
+		<string>2100</string>
+		<string>2152</string>
+		<string>944</string>
+		<string>956</string>
+		<string>965</string>
+		<string>967</string>
+	</array>
+	<key>CarrierOverridesSmsSupport</key>
+	<true/>
+	<key>CarrierOverridesSmsSupportWhitelist</key>
+	<array>
+		<string>952</string>
+		<string>711</string>
+		<string>955</string>
+		<string>7800</string>
+		<string>7801</string>
+		<string>7802</string>
+		<string>7803</string>
+		<string>1800</string>
+		<string>686</string>
+		<string>815</string>
+		<string>2100</string>
+		<string>2152</string>
+		<string>944</string>
+		<string>956</string>
+		<string>965</string>
+		<string>967</string>
+	</array>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Reunion</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>F SFR</string>
+			<key>StatusBarCarrierName</key>
+			<string>SFR</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>64710</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<false/>
+	<key>TetheringURL</key>
+	<string>http://m.sfr.fr/modem</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>websfr</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>websfr</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>48</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

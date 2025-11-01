@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIdentifier</key>
+	<string>com.apple.aiml.RepackagingWorker</string>
+	<key>name</key>
+	<string>com.apple.aiml.RepackagingWorker.Session</string>
+	<key>taskRequest</key>
+	<dict>
+		<key>groupConcurrencyLimit</key>
+		<integer>1</integer>
+		<key>groupName</key>
+		<string>com.apple.aiml.RepackagingWorker</string>
+		<key>priority</key>
+		<string>Maintenance</string>
+		<key>repeatingTask</key>
+		<dict>
+			<key>interval</key>
+			<real>4950</real>
+			<key>minDurationBetweenInstances</key>
+			<real>2250</real>
+		</dict>
+		<key>requiresExternalPower</key>
+		<true/>
+		<key>requiresProtectionClass</key>
+		<string>ClassC</string>
+		<key>requiresUserInactivity</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

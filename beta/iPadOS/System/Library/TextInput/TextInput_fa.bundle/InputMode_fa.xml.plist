@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>fa</key>
+		<array>
+			<string>fa</string>
+			<string>en_US</string>
+		</array>
+		<key>fa_AF</key>
+		<array>
+			<string>fa_AF</string>
+			<string>en_US</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>fa</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Persian-ISIRI 2901</string>
+				<string>Persian</string>
+				<string>Persian-QWERTY</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocorrection</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Persian</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardFontFallbacksRequired</key>
+			<true/>
+			<key>UIKeyboardNonstopPunctuationCharacters</key>
+			<string>‌</string>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+		</dict>
+		<key>fa_AF</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Afghan Dari</string>
+				<string>Persian-QWERTY</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocorrection</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Persian</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardFontFallbacksRequired</key>
+			<true/>
+			<key>UIKeyboardNonstopPunctuationCharacters</key>
+			<string>‌</string>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

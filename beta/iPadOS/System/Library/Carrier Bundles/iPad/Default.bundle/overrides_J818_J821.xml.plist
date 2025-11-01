@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DerGriFileName</key>
+	<string>global_setting_G.der.gri</string>
+	<key>DerGriFileVersion</key>
+	<string>2.1.1</string>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.2</string>
+	<key>Enable4GByDefault</key>
+	<true/>
+	<key>Enable5GStandaloneByDefault</key>
+	<true/>
+	<key>IPv6SupportedDataModeMask</key>
+	<integer>110620</integer>
+	<key>Show4GSwitch</key>
+	<true/>
+	<key>Show5GStandaloneSwitch</key>
+	<true/>
+	<key>ShowLTEWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowTARandomizationSwitch</key>
+	<false/>
+</dict>
+</plist>

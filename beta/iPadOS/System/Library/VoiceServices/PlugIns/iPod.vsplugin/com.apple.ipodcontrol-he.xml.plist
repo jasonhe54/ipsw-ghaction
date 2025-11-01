@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>הפעל</string>
+				<string>הפעל מוסיקה</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת הפעלה</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>השהה</string>
+				<string>השהה מוסיקה</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת השהיה</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>הפעל</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת בחירה</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>הבא</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת מעבר לפריט הבא</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>הקודם</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת מעבר לפריט הקודם</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>ערבב</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת ערבוב</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>רצועה</string>
+				<string>שיר</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>האובייקט הקודם הבא</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>רשימת השמעה</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>בחר אובייקט של רשימת השמעה</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>שירים מאת</string>
+				<string>אמן</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>בחר אובייקט אמן</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>אלבום</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>בחר אובייקט אלבום</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>אמן</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>רשימת השמעה</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>אלבום</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>השמע עוד שירים כמו זה</string>
+				<string>השמע עוד כמו זה</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת genius</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>איזה שיר זה</string>
+				<string>איך נקרא השיר הזה</string>
+				<string>מי שר את השיר הזה</string>
+				<string>מה מושמע</string>
+				<string>איזה שיר מושמע</string>
+				<string>של מי השיר הזה</string>
+				<string>איזו להקה שרה את השיר הזה</string>
+				<string>איזו להקה שרה את השיר הזה</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>פקודת זיהוי</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>איזה שיר זה?</string>
+			<string>איך נקרא השיר הזה?</string>
+			<string>מי שר את השיר הזה?</string>
+			<string>מה מושמע?</string>
+			<string>איזה שיר מושמע?</string>
+			<string>של מי השיר הזה?</string>
+			<string>איזו להקה שרה את השיר הזה?</string>
+			<string>איזו להקה שרה את השיר הזה?</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>השמע עוד שירים כמו זה</string>
+			<string>השמע עוד כמו זה</string>
+		</array>
+		<array>
+			<string>הפעל רשימת השמעה</string>
+		</array>
+		<array>
+			<string>השמע אמן</string>
+			<string>השמע שירים של</string>
+		</array>
+		<array>
+			<string>השמע אלבום</string>
+		</array>
+		<array>
+			<string>ערבב</string>
+		</array>
+		<array>
+			<string>הרצועה הקודמת</string>
+			<string>השיר הקודם</string>
+		</array>
+		<array>
+			<string>הרצועה הבאה</string>
+			<string>השיר הבא</string>
+		</array>
+		<array>
+			<string>השהה</string>
+			<string>השהה מוסיקה</string>
+		</array>
+		<array>
+			<string>הפעל</string>
+			<string>הפעל מוסיקה</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת הפעלה</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת השהיה</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת מעבר לפריט הבא</string>
+				<string>האובייקט הקודם הבא</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת מעבר לפריט הקודם</string>
+				<string>האובייקט הקודם הבא</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת ערבוב</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת בחירה</string>
+				<string>בחר אובייקט אלבום</string>
+				<string>אלבום</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת בחירה</string>
+				<string>בחר אובייקט אמן</string>
+				<string>אמן</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת בחירה</string>
+				<string>בחר אובייקט רשימת השמעה</string>
+				<string>רשימת השמעה</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת genius</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>פקודת זיהוי</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

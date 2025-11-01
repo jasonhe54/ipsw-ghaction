@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>1</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AllowedServicesTypeMaskOnInternet</key>
+	<integer>32768</integer>
+	<key>AllowsVoIP</key>
+	<true/>
+	<key>CarrierEntitlements</key>
+	<dict>
+		<key>Authentication</key>
+		<dict>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>Username</key>
+			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+		</dict>
+		<key>ProtocolVersion</key>
+		<string>2</string>
+		<key>ServerAddress</key>
+		<string>https://es.kw.zain.com</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportedActions</key>
+		<array>
+			<string>TransferSIMService</string>
+		</array>
+		<key>SupportedEntitlements</key>
+		<integer>8192</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
+		<key>UpdatePeriod</key>
+		<integer>24</integer>
+	</dict>
+	<key>CarrierName</key>
+	<string>Zain KW</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Kuwait</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>MyAccountURL</key>
+	<string>http://kw.zain.com</string>
+	<key>MyAccountURLTitle</key>
+	<string>Zain KW (Official Website)</string>
+	<key>OTASoftwareUpdate</key>
+	<dict/>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string></string>
+		<key>TransferPageURL</key>
+		<string>https://es.kw.zain.com:3161/websheet/esim/transferIosPrimaryEsimAuthenticationFailError</string>
+	</dict>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>+447786205094</string>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>zain KW</string>
+			<key>StatusBarCarrierName</key>
+			<string>Zain KW</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>Zain KW</string>
+			<key>StatusBarCarrierName</key>
+			<string>Zain KW</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>41902</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>pps</string>
+			<key>password</key>
+			<string>pps</string>
+			<key>type-mask</key>
+			<integer>32817</integer>
+			<key>username</key>
+			<string>pps</string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>pps</string>
+			<key>password</key>
+			<string>pps</string>
+			<key>type-mask</key>
+			<integer>48</integer>
+			<key>username</key>
+			<string>pps</string>
+		</dict>
+	</array>
+</dict>
+</plist>

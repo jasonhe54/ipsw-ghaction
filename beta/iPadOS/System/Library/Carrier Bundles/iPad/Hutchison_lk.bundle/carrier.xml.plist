@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemaskNew</key>
+	<integer>49</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CarrierBookmarks</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>HUTCH</string>
+			<key>URL</key>
+			<string>https://hutch.lk/</string>
+		</dict>
+	</array>
+	<key>CarrierName</key>
+	<string>Hutch</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.SriLanka</string>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>ShowDialAssist</key>
+	<false/>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>41308</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

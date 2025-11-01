@@ -1,0 +1,5 @@
+"hours.ago" = "{'hoursago': {'one': '%d hour ago', 'other': '%d hours ago', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@hoursago@'}";
+"hours.ahead" = "{'hoursahead': {'one': 'in %d hour', 'other': 'in %d hours', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@hoursahead@'}";
+"minutes.ago" = "{'minutesago': {'one': '%d minute ago', 'other': '%d minutes ago', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@minutesago@'}";
+"minutes.ahead" = "{'minutesahead': {'one': 'in %d minute', 'other': 'in %d minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@minutesahead@'}";
+"days.ago" = "{'days': {'one': '%d day', 'other': '%d days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@days@'}";

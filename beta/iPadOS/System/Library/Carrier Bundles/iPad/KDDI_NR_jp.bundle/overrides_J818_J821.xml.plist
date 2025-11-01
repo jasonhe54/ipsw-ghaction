@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CarrierEntitlements</key>
+	<dict>
+		<key>Authentication</key>
+		<dict>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>Username</key>
+			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+		</dict>
+		<key>ServerAddress</key>
+		<string>https://station01.ezweb.ne.jp/ENT/servlet/EntServlet3</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportSecureIntent</key>
+		<true/>
+		<key>SupportedEntitlements</key>
+		<integer>40968</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
+		<key>UpdatePeriod</key>
+		<integer>24</integer>
+	</dict>
+	<key>DataIndicatorOverrideForNRMmwave</key>
+	<string>NRPlus</string>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.14</string>
+	<key>Enable5GStandaloneByDefault</key>
+	<true/>
+	<key>Show5GStandaloneSwitch</key>
+	<true/>
+</dict>
+</plist>

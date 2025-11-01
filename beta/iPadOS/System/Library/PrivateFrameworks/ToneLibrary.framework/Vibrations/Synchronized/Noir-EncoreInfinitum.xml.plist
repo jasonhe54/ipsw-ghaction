@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Amplitude</key>
+	<real>1</real>
+	<key>Atoms</key>
+	<array>
+		<dict>
+			<key>Amplitude</key>
+			<real>1</real>
+			<key>Duration</key>
+			<real>0.45000000000000001</real>
+			<key>Frequency</key>
+			<real>135.64659999999998</real>
+			<key>StartTime</key>
+			<real>0.0</real>
+			<key>Type</key>
+			<string>RampSine</string>
+		</dict>
+		<dict>
+			<key>Amplitude</key>
+			<real>1</real>
+			<key>Duration</key>
+			<real>0.64200000000000002</real>
+			<key>Frequency</key>
+			<real>135.64659999999998</real>
+			<key>StartTime</key>
+			<real>0.52500000000000002</real>
+			<key>Type</key>
+			<string>RampSine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

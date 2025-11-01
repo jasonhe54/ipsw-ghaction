@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.BTMagic</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.iap2d.btpairing.connect</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.iap2d.btpairing.connect</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/sbin/BTMagic</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

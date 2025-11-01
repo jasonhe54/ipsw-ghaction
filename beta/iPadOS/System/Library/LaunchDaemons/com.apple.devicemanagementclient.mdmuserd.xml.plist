@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/mobile/Library/UserConfigurationProfiles/MDMOutstandingActivities.plist</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.devicemanagementclient.mdmuserd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.managedconfiguration.mdmuserdpush-dev</key>
+		<true/>
+		<key>com.apple.aps.managedconfiguration.mdmuserdpush-prod</key>
+		<true/>
+		<key>com.apple.managedconfiguration.mdmuserdservice</key>
+		<true/>
+	</dict>
+	<key>Nice</key>
+	<integer>18</integer>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/mdmuserd</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>10</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

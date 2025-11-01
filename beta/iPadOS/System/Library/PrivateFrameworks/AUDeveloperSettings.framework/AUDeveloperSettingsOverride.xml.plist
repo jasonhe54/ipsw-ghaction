@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>SELECT_LOCATION</string>
+			<key>isRadioGroup</key>
+			<true/>
+			<key>label</key>
+			<string>Select Location</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://mesu.apple.com/assets</string>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>description</key>
+			<string>Public firmware releases; i.e. Mesu, Pallas</string>
+			<key>id</key>
+			<string>CUSTOMER</string>
+			<key>label</key>
+			<string>Customer</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://basejumper.apple.com/mesu_staging</string>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>description</key>
+			<string>Staging location for public firmware releases; i.e. Mesu, Pallas</string>
+			<key>id</key>
+			<string>CUSTOMER_STAGING</string>
+			<key>label</key>
+			<string>Customer Staging</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://mesu.apple.com/assets/AirPodsDeveloperSeed</string>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>description</key>
+			<string>Customer facing developer seed; not every accessory will have a developer seed</string>
+			<key>id</key>
+			<string>DEVELOPER_SEED</string>
+			<key>label</key>
+			<string>Developer Seed</string>
+		</dict>
+		<dict>
+			<key>assetURL</key>
+			<string>https://mesu.apple.com/assets/AirPodsPublicSeed</string>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>description</key>
+			<string>Customer facing public seed; not every accessory will have a public seed</string>
+			<key>id</key>
+			<string>PUBLIC_SEED</string>
+			<key>label</key>
+			<string>Public Seed</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CUSTOMER_STAGING_OVERRIDE</string>
+</dict>
+</plist>

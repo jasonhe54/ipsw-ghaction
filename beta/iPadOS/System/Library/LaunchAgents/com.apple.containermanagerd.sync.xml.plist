@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<dict>
+		<key>#IfFeatureFlagDisabled</key>
+		<string>containermanagerd/sync_bubble_split</string>
+		<key>#Then</key>
+		<true/>
+	</dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.containermanagerd.sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>PostLogOutSync</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.containermanagerd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/containermanagerd</string>
+		<string>--runmode=sync</string>
+		<string>--user-container-mode=current</string>
+		<string>--bundle-container-mode=proxy</string>
+		<string>--bundle-container-owner=_installd</string>
+		<string>--system-container-mode=proxy</string>
+		<string>--system-container-owner=root</string>
+		<string>--kernel-upcall=no</string>
+	</array>
+</dict>
+</plist>

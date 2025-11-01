@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedServicesTypeMaskOnInternet</key>
+	<integer>32768</integer>
+	<key>CarrierName</key>
+	<string>airtel</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.SriLanka</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>ShowDialAssist</key>
+	<false/>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>41305</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>airtellive</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>1</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>1</integer>
+	<key>ASCIIFileNameRequired</key>
+	<true/>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>Carrier Lab</string>
+	<key>CellularPlanProvisioningSettings</key>
+	<dict>
+		<key>EnableAttachMonitorMode</key>
+		<false/>
+	</dict>
+	<key>CheckSMSonSIM</key>
+	<true/>
+	<key>NetworkEncryptionCiphers</key>
+	<dict>
+		<key>A5/3</key>
+		<true/>
+		<key>GEA3</key>
+		<true/>
+	</dict>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>00101</string>
+		<string>001011</string>
+		<string>00111</string>
+		<string>00211</string>
+		<string>00321</string>
+		<string>00431</string>
+		<string>00541</string>
+		<string>00651</string>
+		<string>00761</string>
+		<string>00871</string>
+		<string>00902</string>
+		<string>01012</string>
+		<string>01122</string>
+		<string>01232</string>
+		<string>10101</string>
+		<string>24608</string>
+		<string>246081</string>
+		<string>24681</string>
+		<string>246813</string>
+		<string>311011</string>
+		<string>29981</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>SuppressSimToolkitBIPNotifications</key>
+	<false/>
+	<key>SyncSIMPhonebook</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>0</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.mediaparserd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.coremedia.mediaparserd.fairplaypsshatomparser.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.figcaptiongroupconverterfromsamplebuffer.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.formatreader.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.jsonparser.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.manifold.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.mutablemovie.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.playlistfileparser.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.sessiondataparser.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.steeringparser.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.streamplaylistparser.xpc</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.utilities</key>
+		<true/>
+		<key>com.apple.coremedia.mediaparserd.xmlservice.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/mediaparserd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>_ExponentialThrottling</key>
+	<true/>
+</dict>
+</plist>

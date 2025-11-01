@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.raiscuola.rai.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Rai Scuola</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.topolino.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Topolino</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.juniorlibri.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Junior libri</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.mondadorieducation.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Mondadori Education</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.cartoonnetwork.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Cartoon Network</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.forkids.it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Forkids</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/it/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.letteratura.rai.it/categorie/ragazzi/26/1/default.aspx</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Letteratura</string>
+		</dict>
+	</array>
+</dict>
+</plist>

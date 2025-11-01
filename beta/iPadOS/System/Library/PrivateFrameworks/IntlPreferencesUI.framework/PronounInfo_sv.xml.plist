@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayedMorphologies</key>
+	<array>
+		<string>nominative</string>
+		<string>accusative</string>
+		<string>genitive-independent</string>
+	</array>
+	<key>ExampleStringPlaceholders</key>
+	<array>
+		<string>hon</string>
+		<string>henne</string>
+		<string>hennes</string>
+	</array>
+	<key>ExampleStrings</key>
+	<array>
+		<string>Igår gick %@ till parken.</string>
+		<string>Jag gick tillsammans med %@.</string>
+		<string>Det blåa paraplyet är %@.</string>
+	</array>
+	<key>KnownPronouns</key>
+	<array>
+		<array>
+			<string>de</string>
+			<string>dem</string>
+			<string>deras</string>
+		</array>
+		<array>
+			<string>den</string>
+			<string>den</string>
+			<string>dess</string>
+		</array>
+		<array>
+			<string>det</string>
+			<string>det</string>
+			<string>dess</string>
+		</array>
+		<array>
+			<string>han</string>
+			<string>honom</string>
+			<string>hans</string>
+		</array>
+		<array>
+			<string>hen</string>
+			<string>hen</string>
+			<string>hens</string>
+		</array>
+		<array>
+			<string>hen</string>
+			<string>henom</string>
+			<string>hens</string>
+		</array>
+		<array>
+			<string>hon</string>
+			<string>henne</string>
+			<string>hennes</string>
+		</array>
+	</array>
+	<key>LegalCharactersRegex</key>
+	<string>[[\p{letter}&amp;&amp;\p{script=latin}][\p{nonspacing_mark}]\'\u2019\-\:]*</string>
+	<key>MaxPronounLength</key>
+	<integer>10</integer>
+</dict>
+</plist>

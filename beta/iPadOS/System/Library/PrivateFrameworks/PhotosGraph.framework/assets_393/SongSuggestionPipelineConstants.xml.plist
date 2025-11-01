@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurationDefaultScores</key>
+	<dict>
+		<key>localeToMemoryLocationCuratorDefaultScore</key>
+		<integer>0</integer>
+		<key>lyricsToMemoryCaptionRelevanceCuratorDefaultScore</key>
+		<integer>0</integer>
+		<key>savoySentimentCuratorDefaultScore</key>
+		<real>0.5</real>
+		<key>shazamTasteProfileCuratorDefaultScore</key>
+		<integer>0</integer>
+		<key>sourceTypeToMemoryTypeCuratorDefaultScore</key>
+		<real>0.5</real>
+		<key>titleToMemoryTitleRelevanceCuratorDefaultScore</key>
+		<integer>0</integer>
+	</dict>
+	<key>CurationWeights</key>
+	<dict>
+		<key>localeToMemoryLocationCuratorWeight</key>
+		<real>0.10000000000000001</real>
+		<key>lyricsToMemoryCaptionRelevanceCuratorWeight</key>
+		<integer>0</integer>
+		<key>savoySentimentCuratorWeight</key>
+		<real>0.20000000000000001</real>
+		<key>shazamTasteProfileCuratorWeight</key>
+		<real>0.40000000000000002</real>
+		<key>sourceTypeToMemoryTypeCuratorWeight</key>
+		<real>0.29999999999999999</real>
+		<key>titleToMemoryTitleRelevanceCuratorWeight</key>
+		<integer>0</integer>
+	</dict>
+	<key>musicKitHumanCuratedPlaylistElectorCurationScore</key>
+	<real>0.80000000000000004</real>
+	<key>publicEventPerformerElectorCurationScore</key>
+	<real>0.80000000000000004</real>
+	<key>shazamElectorNonTripMemoryCurationScore</key>
+	<real>0.20000000000000001</real>
+	<key>shazamElectorTripMemoryCurationScore</key>
+	<real>0.80000000000000004</real>
+	<key>timeout</key>
+	<integer>10</integer>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

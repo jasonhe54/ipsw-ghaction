@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-#</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string># №</string>
+		<key>Strings</key>
+		<string># №</string>
+	</dict>
+	<key>Roman-Accent-А</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>А Ә</string>
+		<key>Strings</key>
+		<string>А Ә</string>
+	</dict>
+	<key>Roman-Accent-Г</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Г Ғ</string>
+		<key>Strings</key>
+		<string>Г Ғ</string>
+	</dict>
+	<key>Roman-Accent-Е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ё Е</string>
+		<key>Strings</key>
+		<string>Ё Е</string>
+	</dict>
+	<key>Roman-Accent-К</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>К Қ</string>
+		<key>Strings</key>
+		<string>К Қ</string>
+	</dict>
+	<key>Roman-Accent-Н</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Н Ң</string>
+		<key>Strings</key>
+		<string>Н Ң</string>
+	</dict>
+	<key>Roman-Accent-О</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>О Ө</string>
+		<key>Strings</key>
+		<string>О Ө</string>
+	</dict>
+	<key>Roman-Accent-У</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>У Ү Ұ</string>
+		<key>Strings</key>
+		<string>У Ү Ұ</string>
+	</dict>
+	<key>Roman-Accent-Х</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Х Һ</string>
+		<key>Strings</key>
+		<string>Х Һ</string>
+	</dict>
+	<key>Roman-Accent-Ы</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ы І</string>
+		<key>Strings</key>
+		<string>Ы І</string>
+	</dict>
+	<key>Roman-Accent-Ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ь Ъ</string>
+		<key>Strings</key>
+		<string>Ь Ъ</string>
+	</dict>
+	<key>Roman-Accent-а</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>а ә</string>
+		<key>Strings</key>
+		<string>а ә</string>
+	</dict>
+	<key>Roman-Accent-г</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>г ғ</string>
+		<key>Strings</key>
+		<string>г ғ</string>
+	</dict>
+	<key>Roman-Accent-е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ё е</string>
+		<key>Strings</key>
+		<string>ё е</string>
+	</dict>
+	<key>Roman-Accent-к</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>к қ</string>
+		<key>Strings</key>
+		<string>к қ</string>
+	</dict>
+	<key>Roman-Accent-н</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>н ң</string>
+		<key>Strings</key>
+		<string>н ң</string>
+	</dict>
+	<key>Roman-Accent-о</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>о ө</string>
+		<key>Strings</key>
+		<string>о ө</string>
+	</dict>
+	<key>Roman-Accent-у</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>у ү ұ</string>
+		<key>Strings</key>
+		<string>у ү ұ</string>
+	</dict>
+	<key>Roman-Accent-х</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>х һ</string>
+		<key>Strings</key>
+		<string>х һ</string>
+	</dict>
+	<key>Roman-Accent-ы</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ы і</string>
+		<key>Strings</key>
+		<string>ы і</string>
+	</dict>
+	<key>Roman-Accent-ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ь ъ</string>
+		<key>Strings</key>
+		<string>ь ъ</string>
+	</dict>
+	<key>Roman-Accent-№</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string># №</string>
+		<key>Strings</key>
+		<string># №</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>АӘБ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>₽</string>
+	<key>UI-Cancel</key>
+	<string>Бас тарту</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>Дайын</string>
+	<key>UI-EmergencyCall</key>
+	<string>Жедел
+қоңырау</string>
+	<key>UI-Go</key>
+	<string>Өту</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>Қ</string>
+	<key>UI-Join</key>
+	<string>Қосылу</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Қазақ тілі</string>
+	<key>UI-Next</key>
+	<string>Келесі</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>А Ә Б В Г</string>
+	<key>UI-NumberPad-3</key>
+	<string>Ғ Д Е Ж З</string>
+	<key>UI-NumberPad-4</key>
+	<string>И Й К Қ Л</string>
+	<key>UI-NumberPad-5</key>
+	<string>М Н Ң О Ө</string>
+	<key>UI-NumberPad-6</key>
+	<string>П Р С Т У</string>
+	<key>UI-NumberPad-7</key>
+	<string>Ұ Ү Ф Х Ц</string>
+	<key>UI-NumberPad-8</key>
+	<string>Ч Ш Щ Ъ Ы</string>
+	<key>UI-NumberPad-9</key>
+	<string>І Ь Э Ю Я</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>тоқтата тұру</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₸</string>
+	<key>UI-Redo</key>
+	<string>қайтару</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>Бағыттар</string>
+	<key>UI-Search</key>
+	<string>Іздеу</string>
+	<key>UI-Send</key>
+	<string>Жіберу</string>
+	<key>UI-Space</key>
+	<string>бос орын</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .қаз .kz .org .net</string>
+		<key>Strings</key>
+		<string>.com .қаз .kz .org .net</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>болдырмау</string>
+	<key>UI-Wait</key>
+	<string>күту</string>
+	<key>UI-abc</key>
+	<string>аәб</string>
+</dict>
+</plist>

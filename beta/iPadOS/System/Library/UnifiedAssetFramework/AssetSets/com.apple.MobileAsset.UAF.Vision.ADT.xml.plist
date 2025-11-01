@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AssetSetName</key>
+	<string>com.apple.MobileAsset.UAF.Vision.ADT</string>
+	<key>Assets</key>
+	<array>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.vision.adt.detector.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.vision.adt.detector.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.vision.adt.detector.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.vision.adt.iphone_tracker.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.vision.adt.iphone_tracker.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.vision.adt.iphone_tracker.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.vision.adt.uaf.metadata</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.vision.adt.uaf.metadata</string>
+				</dict>
+			</array>
+			<key>IgnoreOSCompatibility</key>
+			<true/>
+		</dict>
+	</array>
+	<key>AutoAssetType</key>
+	<string>com.apple.MobileAsset.UAF.Vision.ADT</string>
+	<key>FileType</key>
+	<string>AssetSetConfiguration</string>
+	<key>FileVersion</key>
+	<string>1.0.0</string>
+	<key>MetadataAsset</key>
+	<string>com.apple.vision.adt.uaf.metadata</string>
+	<key>UsageTypes</key>
+	<array>
+		<string>com.apple.vision.adt.detector.generic</string>
+		<string>com.apple.vision.adt.iphone_tracker.generic</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>1</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>1</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string>sunsurf</string>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>M1 Singapore</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Singapore</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>NotRegisteredResetWaitPeriod</key>
+	<integer>60</integer>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>ShowDialAssist</key>
+	<false/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>SGP-M1-3GSM</string>
+			<key>StatusBarCarrierName</key>
+			<string>M1-3GSM</string>
+		</dict>
+		<dict>
+			<key>CarrierName</key>
+			<string>SGP - M1</string>
+			<key>StatusBarCarrierName</key>
+			<string>M1</string>
+		</dict>
+		<dict>
+			<key>CarrierName</key>
+			<string>M1-3GSM</string>
+			<key>StatusBarCarrierName</key>
+			<string>M1</string>
+		</dict>
+	</array>
+	<key>StockSymboli</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>M1 Limited</string>
+			<key>symbol</key>
+			<string>B2F.SI</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>52503</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>sunsurf</string>
+			<key>type-mask</key>
+			<integer>32817</integer>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>64</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

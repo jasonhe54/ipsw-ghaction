@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.wifid</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.developer.wifi-infrastructure.WiFiNetworkSharingApp</key>
+		<true/>
+		<key>com.apple.developer.wifi-infrastructure.WiFiNetworkSharingExtension</key>
+		<true/>
+		<key>com.apple.private.corewifi-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.internal-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.mobilewifi-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.readonly-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.unrestricted-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.user-agent-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.wifi-network-sharing-ui-xpc</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.corewifi.usernotifications</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.wifid.usernotification</key>
+		<true/>
+		<key>com.apple.wifi-xpc</key>
+		<true/>
+		<key>com.apple.wifid.store.cache</key>
+		<true/>
+		<key>com.apple.wifid.watchdog</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/sbin/wifid</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>_LimitLoadToDeviceTree</key>
+	<array>
+		<string>wlan</string>
+		<string>marconi-wifi</string>
+		<string>centauri-alpha</string>
+		<string>centauri-alpha-protium</string>
+	</array>
+</dict>
+</plist>

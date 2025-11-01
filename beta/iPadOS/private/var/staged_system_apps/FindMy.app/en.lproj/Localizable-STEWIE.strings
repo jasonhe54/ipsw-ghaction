@@ -1,0 +1,62 @@
+"STEWIE_LOCATION_STATUS_UPDATED_TIME_HOUR_MINUTE" = "{'timeinhours': {'one': '%d hour', 'other': '%d hours', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'timeinminutes': {'one': '%d minute', 'other': '%d minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@timeinhours@, %#@timeinminutes@ ago'}";
+"STEWIE_LOCATION_UPDATE_ERROR_GENERIC_MESSAGE" = "Your last attempt to send your location via satellite failed. Please try again.";
+"STEWIE_WELCOME_UPDATE_TITLE" = "Send Location via Satellite";
+"STEWIE_LOCATION_BUTTON_TITLE_UPDATE" = "Send My Location";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_IN_REGION" = "Your current region isn’t supported.";
+"ONBOARDING_FEATURE_STEWIE_SUBTITLE_WLAN" = "Send your location using a supported iPhone from places where there are no cellular or WLAN networks.";
+"STEWIE_WELCOME_UPDATE_CONTINUE_BUTTON_TITLE" = "Send My Location";
+"STEWIE_LOCATION_HEADER" = "My Location via Satellite";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_HAS_FRIENDS" = "To send your location via satellite, share your location in Find My with at least 1 other person while you still have a network connection.";
+"STEWIE_LOCATION_BUTTON_TITLE_AVAILABLE_SOON" = "Send Again Soon";
+"STEWIE_NO_NETWORK_MESSAGE_WIFI" = "You can send your location via satellite in places where no cellular or Wi-Fi networks are available.";
+"STEWIE_LOCATION_UPDATE_ERROR_TITLE" = "Couldn’t Send Your Location";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_OFFLINE" = "You can’t send your location via satellite now because you appear to have other networks available.";
+"STEWIE_LOCATION_STATUS_PROGRESS" = "In Progress";
+"STEWIE_LOCATION_STATUS_UPDATED_TIME_HOUR" = "{'time': {'one': '%d hour ago', 'other': '%d hours ago', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@time@'}";
+"STEWIE_LOCATION_STATUS_UPDATED_TIME_MINUTE" = "{'time': {'one': '%d minute ago', 'other': '%d minutes ago', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@time@'}";
+"STEWIE_WELCOME_UPDATE_DONE_BUTTON_TITLE" = "OK";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_SHARING_LOCATION" = "To send your location via satellite, turn on Share My Location in Find My while you still have a network connection.";
+"STEWIE_LOCATION_STATUS_UPDATED_JUST" = "Just Now";
+"STEWIE_WELCOME_ALERT_AVAILABLE_WHEN_ME_DEVICE" = "Sending your location via satellite requires that you tap Use This iPhone as My Location in Find My when you’re online.
+
+You can switch to this iPhone for your location the next time you have a network connection.";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_LOCATION_SERVICES" = "To send your location via satellite, turn on Location Services in Settings.";
+"STEWIE_WELCOME_ALERT_REGION_TITLE" = "Region Not Supported";
+"STEWIE_LOCATION_UPDATE_ERROR_DIMISS" = "Dismiss";
+"STEWIE_WELCOME_ALERT_DEFAULT_TITLE" = "Additional Steps Required";
+"STEWIE_LOCATION_ATTENTION_MODULE_SUBTITLE_PEOPLE_GENERIC" = "This friend sent you their location via satellite because they have no other network available.";
+"STEWIE_LOCATION_NOT_AVAILABLE" = "Not Available";
+"STEWIE_WELCOME_UPDATE_SETTINGS_BUTTON_TITLE" = "Go to Settings";
+"STEWIE_WELCOME_ALERT_AVAILABLE_WHEN_AIRPLANE_MODE_OFF" = "You can’t send your location via satellite when Airplane Mode is turned on.";
+"STEWIE_WELCOME_UPDATE_SUBTITLE_WIFI" = "Sending your location via satellite is available wherever there are no cellular or Wi-Fi networks and you have a SIM installed.";
+"STEWIE_LOCATION_ATTENTION_MODULE_TITLE" = "Location Sent via Satellite";
+"ONBOARDING_FEATURE_STEWIE_TITLE" = "Send Your Location via Satellite";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_AIRPLANE_MODE_OFF" = "You can’t send your location via satellite when Airplane Mode is turned on.";
+"STEWIE_LOCATION_ATTENTION_MODULE_SUBTITLE_PEOPLE" = "%@ sent you their location via satellite because they have no other network available.";
+"STEWIE_WELCOME_ALERT_AVAILABLE_WHEN_HAS_FRIENDS" = "Sending your location via satellite requires that you share your location with at least 1 other person in Find My when you’re online.
+
+You can share your location with people the next time you have a network connection.";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_SETUP" = "To send your location via satellite, first sign in to your Apple Account and upgrade its security while you still have a network connection.";
+"STEWIE_NO_NETWORK_ACTION" = "Go to Me Tab";
+"STEWIE_WELCOME_ALERT_AVAILABLE_WHEN_SHARING_LOCATION" = "Sending your location via satellite requires that you turn on Share My Location in Find My when you’re online.
+
+You can start sharing your location the next time you have a network connection.";
+"STEWIE_LOCATION_AGE_PREFIX" = "Satellite Location • %@";
+"STEWIE_LOCATION_NOT_FINISH_SETUP" = "Finish Setup";
+"STEWIE_LOCATION_BUTTON_TITLE_IN_PROGRESS" = "Sending Location…";
+"STEWIE_WELCOME_UPDATE_SUBTITLE_WLAN" = "Sending your location via satellite is available wherever there are no cellular or WLAN networks and you have a SIM installed.";
+"STEWIE_WELCOME_ALERT_LOCATION_SERVICES_TITLE" = "Turn On Location Services";
+"STEWIE_WELCOME_UPDATE_CONTINUE_BUTTON_CAPTION" = "This iPhone will become the device used to share your location.";
+"ONBOARDING_FEATURE_STEWIE_SUBTITLE_WIFI" = "Send your location using a supported iPhone from places where there are no cellular or Wi-Fi networks.";
+"STEWIE_LOCATION_NOT_LEARN_MORE" = "Learn More";
+"STEWIE_LOCATION_UPDATE_ERROR_INTERNAL_MESSAGE" = "Your last attempt to send your location via satellite failed. Please try again. (Internal build status: %d)";
+"STEWIE_WELCOME_ALERT_LOCATION_SERVICES" = "To send your location, first turn on Location Services in Settings.";
+"STEWIE_NO_NETWORK_MESSAGE_WLAN" = "You can send your location via satellite in places where no cellular or WLAN networks are available.";
+"STEWIE_WELCOME_UPDATE_NOT_AVAILABLE_BUTTON_TITLE" = "Not Available";
+"STEWIE_WELCOME_FEATURE_AVAILABLE_WHEN_ME_DEVICE" = "To send your location via satellite, tap Use This iPhone as My Location in the Me tab in Find My while you still have a network connection.";
+"STEWIE_LOCATION_STATUS_TITLE" = "Last Sent";
+"STEWIE_LOCATION_BUTTON_TITLE_AVAILABLE_IN" = "{'timeinminutes': {'one': 'Can Send Again in %d Minute', 'other': 'Can Send Again in %d Minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@timeinminutes@'}";
+"STEWIE_WELCOME_ALERT_AVAILABLE_WHEN_SETUP" = "Sending your location via satellite requires that you first sign in to your Apple Account and upgrade its security in Settings when you’re online.
+
+You can sign in to your Apple Account the next time you have a network connection.";
+"STEWIE_WELCOME_ALERT_REGION" = "Sending your location via satellite isn’t supported in your current region.";

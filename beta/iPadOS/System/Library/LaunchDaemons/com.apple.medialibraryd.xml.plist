@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.medialibraryd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.CascadeSets.DonateNow</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.CascadeSets.DonateNow</string>
+			</dict>
+			<key>com.apple.UserProfiles.ProfileStoreDidUpdate</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.UserProfiles.ProfileStoreDidUpdate</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.medialibraryd.cacheDelete</key>
+		<true/>
+		<key>com.apple.medialibraryd.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MusicLibrary.framework/Support/medialibraryd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

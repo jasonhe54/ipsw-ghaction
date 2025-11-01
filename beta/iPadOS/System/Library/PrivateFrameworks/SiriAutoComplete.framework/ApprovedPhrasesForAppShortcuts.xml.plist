@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>approvedActionIdentifiers</key>
+	<array>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenNoteLinkAction</string>
+			<key>bundleId</key>
+			<string>com.apple.mobilenotes</string>
+		</dict>
+	</array>
+	<key>approvedPhrases</key>
+	<array>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartCaptureIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.camera</string>
+			<key>parameter</key>
+			<string>(Enumeration) photo</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Foto aufnehmen</string>
+				<key>en</key>
+				<string>Take a Photo</string>
+				<key>es</key>
+				<string>Hacer Foto</string>
+				<key>fr</key>
+				<string>Prendre une Photo</string>
+				<key>it</key>
+				<string>Scatta Foto</string>
+				<key>ja</key>
+				<string>写真で撮影</string>
+				<key>ko</key>
+				<string>사진 촬영</string>
+				<key>pt-BR</key>
+				<string>Tirar uma foto</string>
+				<key>pt-PT</key>
+				<string>Tirar uma Fotografia</string>
+				<key>zh-CN</key>
+				<string>拍照片</string>
+				<key>zh-XC</key>
+				<string>拍照片</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartCaptureIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.camera</string>
+			<key>parameter</key>
+			<string>(Enumeration) video</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Video-Aufnahme starten</string>
+				<key>en</key>
+				<string>Record a Video</string>
+				<key>es</key>
+				<string>Grabar Vídeo</string>
+				<key>fr</key>
+				<string>Enregistrer une Vidéo</string>
+				<key>it</key>
+				<string>Registra Video</string>
+				<key>ja</key>
+				<string>ビデオで撮影</string>
+				<key>ko</key>
+				<string>비디오 촬영</string>
+				<key>pt-BR</key>
+				<string>Gravar um Vídeo</string>
+				<key>pt-PT</key>
+				<string>Gravar um Vídeo</string>
+				<key>zh-CN</key>
+				<string>录视频</string>
+				<key>zh-XC</key>
+				<string>录视频</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartCaptureIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.camera</string>
+			<key>parameter</key>
+			<string>(Enumeration) selfie</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Selfie aufnehmen</string>
+				<key>en</key>
+				<string>Take a Selfie</string>
+				<key>es</key>
+				<string>Hacer Selfie</string>
+				<key>fr</key>
+				<string>Prendre un Selfie</string>
+				<key>it</key>
+				<string>Scatta Selfie</string>
+				<key>ja</key>
+				<string>セルフィーで撮影</string>
+				<key>ko</key>
+				<string>셀피 촬영</string>
+				<key>pt-BR</key>
+				<string>Tirar uma Selfie</string>
+				<key>pt-PT</key>
+				<string>Tirar uma Selfie</string>
+				<key>zh-CN</key>
+				<string>拍自拍</string>
+				<key>zh-XC</key>
+				<string>拍自拍</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>ScanDocument</string>
+			<key>bundleId</key>
+			<string>com.apple.DocumentsApp</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Dokument scannen</string>
+				<key>en</key>
+				<string>Scan document</string>
+				<key>es</key>
+				<string>Escanear documento</string>
+				<key>fr</key>
+				<string>Scanner un document</string>
+				<key>it</key>
+				<string>Scansiona documento</string>
+				<key>ja</key>
+				<string>書類をスキャン</string>
+				<key>ko</key>
+				<string>문서 스캔</string>
+				<key>pt-BR</key>
+				<string>Escanear Documento</string>
+				<key>pt-PT</key>
+				<string>Digitalizar documento</string>
+				<key>zh-CN</key>
+				<string>扫描文件</string>
+				<key>zh-XC</key>
+				<string>扫描文件</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>CRLCreateBoardIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.freeform</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Neues Freeform-Board</string>
+				<key>en</key>
+				<string>New Freeform board</string>
+				<key>es</key>
+				<string>Nueva pizarra de Freeform</string>
+				<key>fr</key>
+				<string>Nouveau tableau Freeform</string>
+				<key>ja</key>
+				<string>新規ボードを作成</string>
+				<key>ko</key>
+				<string>Freeform에서 새 캔버스 시작</string>
+				<key>zh-CN</key>
+				<string>创建无边记文稿</string>
+				<key>zh-XC</key>
+				<string>创建无边记文稿</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenBookIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.iBooks</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Mein aktuelles Buch öffnen</string>
+				<key>en</key>
+				<string>Open the book I’m reading</string>
+				<key>es</key>
+				<string>Ábreme el libro que me estoy leyendo</string>
+				<key>fr</key>
+				<string>Ouvrir le livre que je lis en ce moment</string>
+				<key>it</key>
+				<string>Apri il libro che sto leggendo</string>
+				<key>ja</key>
+				<string>現在読んでいるブックを開く</string>
+				<key>ko</key>
+				<string>지금 읽고 있는 책 열기</string>
+				<key>pt-BR</key>
+				<string>Abrir Meu Livro Mais Recente</string>
+				<key>pt-PT</key>
+				<string>Abrir o meu livro mais recente</string>
+				<key>zh-CN</key>
+				<string>打开当前图书</string>
+				<key>zh-XC</key>
+				<string>打开当前图书</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>CreateEntryIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.journal</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>Start a new Journal entry</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>KNNewDocumentIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Keynote</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>New Keynote presentation</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>DescribeThisIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Magnifier</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Lupe verwenden, um dies zu beschreiben</string>
+				<key>en</key>
+				<string>Describe this</string>
+				<key>es</key>
+				<string>Describir esto</string>
+				<key>fr</key>
+				<string>Décrire ceci</string>
+				<key>it</key>
+				<string>Descrivilo</string>
+				<key>ja</key>
+				<string>これを説明</string>
+				<key>ko</key>
+				<string>이거 설명해</string>
+				<key>pt-BR</key>
+				<string>Descrever isto</string>
+				<key>pt-PT</key>
+				<string>Descrever isto</string>
+				<key>zh-CN</key>
+				<string>描述此内容</string>
+				<key>zh-XC</key>
+				<string>描述此内容</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartDetectionTypeIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Magnifier</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Lupe verwenden, um Türen zu erkennen</string>
+				<key>en</key>
+				<string>Detect doors</string>
+				<key>es</key>
+				<string>Detectar puertas</string>
+				<key>fr</key>
+				<string>Détecter des portes</string>
+				<key>it</key>
+				<string>Rileva le porte</string>
+				<key>ja</key>
+				<string>ドアを検出</string>
+				<key>ko</key>
+				<string>문 감지</string>
+				<key>pt-BR</key>
+				<string>Detectar portas</string>
+				<key>pt-PT</key>
+				<string>Detetar portas</string>
+				<key>zh-CN</key>
+				<string>使用放大器查找门</string>
+				<key>zh-XC</key>
+				<string>使用放大器查找门</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartDetectionTypeIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Magnifier</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Lupe verwenden, um Einrichtungsgegenstände zu erkennen</string>
+				<key>en</key>
+				<string>Detect furniture</string>
+				<key>es</key>
+				<string>Detectar muebles</string>
+				<key>fr</key>
+				<string>Détecter des meubles</string>
+				<key>it</key>
+				<string>Rileva i mobili</string>
+				<key>ja</key>
+				<string>家具を検出</string>
+				<key>ko</key>
+				<string>가구 감지</string>
+				<key>pt-BR</key>
+				<string>Detectar móveis</string>
+				<key>pt-PT</key>
+				<string>Detetar mobília</string>
+				<key>zh-CN</key>
+				<string>使用放大器查找家具</string>
+				<key>zh-XC</key>
+				<string>使用放大器查找家具</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartDetectionTypeIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Magnifier</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Lupe verwenden, um Text zu erkennen</string>
+				<key>en</key>
+				<string>Detect text</string>
+				<key>es</key>
+				<string>Detectar texto en Lupa</string>
+				<key>fr</key>
+				<string>Détecter du texte dans Loupe</string>
+				<key>it</key>
+				<string>Rileva il testo in Lente</string>
+				<key>ja</key>
+				<string>拡大鏡でテキストを検出</string>
+				<key>ko</key>
+				<string>확대기 사용해서 텍스트 읽어</string>
+				<key>zh-CN</key>
+				<string>使用放大器检测文本</string>
+				<key>zh-XC</key>
+				<string>使用放大器检测文本</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartDetectionTypeIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Magnifier</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Lupe verwenden, um Personen zu erkennen</string>
+				<key>en</key>
+				<string>Detect people</string>
+				<key>es</key>
+				<string>Detectar personas</string>
+				<key>fr</key>
+				<string>Détecter des personnes</string>
+				<key>it</key>
+				<string>Rileva le persone</string>
+				<key>ja</key>
+				<string>人を検出</string>
+				<key>ko</key>
+				<string>사람 감지</string>
+				<key>pt-BR</key>
+				<string>Detectar pessoas</string>
+				<key>pt-PT</key>
+				<string>Detetar pessoas</string>
+				<key>zh-CN</key>
+				<string>使用放大器查找人</string>
+				<key>zh-XC</key>
+				<string>使用放大器查找人</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>CancelTimerIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Timer abbrechen</string>
+				<key>en</key>
+				<string>Cancel timer</string>
+				<key>es</key>
+				<string>Cancelar temporizador</string>
+				<key>fr</key>
+				<string>Annuler le minuteur</string>
+				<key>it</key>
+				<string>Annulla timer</string>
+				<key>ja</key>
+				<string>タイマーをキャンセル</string>
+				<key>ko</key>
+				<string>타이머 취소해</string>
+				<key>pt-BR</key>
+				<string>Cancelar o Timer</string>
+				<key>pt-PT</key>
+				<string>Cancelar temporizador</string>
+				<key>zh-CN</key>
+				<string>取消计时器</string>
+				<key>zh-XC</key>
+				<string>取消计时器</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>LapStopwatchIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Runden in Stoppuhr messen</string>
+				<key>en</key>
+				<string>Lap Stopwatch</string>
+				<key>es</key>
+				<string>Marcar vuelta</string>
+				<key>fr</key>
+				<string>Marquer un tour de chronomètre</string>
+				<key>it</key>
+				<string>Segna giro</string>
+				<key>ja</key>
+				<string>ラップを記録</string>
+				<key>ko</key>
+				<string>랩 설정해</string>
+				<key>pt-BR</key>
+				<string>Marcar Volta</string>
+				<key>pt-PT</key>
+				<string>Marcar volta</string>
+				<key>zh-CN</key>
+				<string>分段秒表</string>
+				<key>zh-XC</key>
+				<string>分段秒表</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>PauseTimerIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Timer pausieren</string>
+				<key>en</key>
+				<string>Pause timer</string>
+				<key>es</key>
+				<string>Pausar temporizador</string>
+				<key>fr</key>
+				<string>Mettre en pause le minuteur</string>
+				<key>it</key>
+				<string>Metti in pausa timer</string>
+				<key>ja</key>
+				<string>タイマーを一時停止</string>
+				<key>ko</key>
+				<string>타이머 일시 정지해</string>
+				<key>pt-BR</key>
+				<string>Pausar o Timer</string>
+				<key>pt-PT</key>
+				<string>Pausar temporizador</string>
+				<key>zh-CN</key>
+				<string>暂停计时器</string>
+				<key>zh-XC</key>
+				<string>暂停计时器</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>ResetStopwatchIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Stoppuhr zurücksetzen</string>
+				<key>en</key>
+				<string>Clear Stopwatch</string>
+				<key>es</key>
+				<string>Reiniciar cronómetro</string>
+				<key>fr</key>
+				<string>Réinitialiser le chronomètre</string>
+				<key>it</key>
+				<string>Azzera cronometro</string>
+				<key>ja</key>
+				<string>ストップウォッチをリセット</string>
+				<key>ko</key>
+				<string>스톱워치 삭제해</string>
+				<key>pt-BR</key>
+				<string>Apagar o Cronômetro</string>
+				<key>pt-PT</key>
+				<string>Apagar cronómetro</string>
+				<key>zh-CN</key>
+				<string>还原秒表</string>
+				<key>zh-XC</key>
+				<string>还原秒表</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>ResumeTimerIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Timer fortsetzen</string>
+				<key>en</key>
+				<string>Resume timer</string>
+				<key>es</key>
+				<string>Reanudar temporizador</string>
+				<key>fr</key>
+				<string>Relancer le minuteur</string>
+				<key>it</key>
+				<string>Riprendi timer</string>
+				<key>ja</key>
+				<string>タイマーを再開</string>
+				<key>ko</key>
+				<string>타이머 다시 시작해</string>
+				<key>pt-BR</key>
+				<string>Retomar o Timer</string>
+				<key>pt-PT</key>
+				<string>Continuar temporizador</string>
+				<key>zh-CN</key>
+				<string>继续计时</string>
+				<key>zh-XC</key>
+				<string>继续计时</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartStopwatchIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Stoppuhr starten</string>
+				<key>en</key>
+				<string>Start Stopwatch</string>
+				<key>es</key>
+				<string>Comienza cronómetro</string>
+				<key>fr</key>
+				<string>Démarrer un chronomètre</string>
+				<key>it</key>
+				<string>Avvia cronometro</string>
+				<key>ja</key>
+				<string>ストップウォッチを開始</string>
+				<key>ko</key>
+				<string>스톱워치 시작해</string>
+				<key>pt-BR</key>
+				<string>Começar Cronômetro</string>
+				<key>pt-PT</key>
+				<string>Começar cronómetro</string>
+				<key>zh-CN</key>
+				<string>启动秒表</string>
+				<key>zh-XC</key>
+				<string>启动秒表</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StopStopwatchIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobiletimer</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Stoppuhr anhalten</string>
+				<key>en</key>
+				<string>Cancel Stopwatch</string>
+				<key>es</key>
+				<string>Cancelar cronómetro</string>
+				<key>fr</key>
+				<string>Arrêter le chronomètre</string>
+				<key>it</key>
+				<string>Ferma cronometro</string>
+				<key>ja</key>
+				<string>ストップウォッチを終了</string>
+				<key>ko</key>
+				<string>스톱워치 취소해</string>
+				<key>pt-BR</key>
+				<string>Cancelar Cronômetro</string>
+				<key>pt-PT</key>
+				<string>Cancelar cronómetro</string>
+				<key>zh-CN</key>
+				<string>取消秒表</string>
+				<key>zh-XC</key>
+				<string>取消秒表</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenCollectionIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobileslideshow</string>
+			<key>parameter</key>
+			<string>CollectionEntity/092E2015-A7EF-40EB-BFA2-2AF0D94D1B1B</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Fotos von Zuletzt anzeigen</string>
+				<key>en</key>
+				<string>Show my recent photos</string>
+				<key>es</key>
+				<string>Ver Recientes en Fotos</string>
+				<key>fr</key>
+				<string>Afficher Récentes dans Photos</string>
+				<key>it</key>
+				<string>Mostrami Recenti in Foto</string>
+				<key>ja</key>
+				<string>写真で最近の項目を表示</string>
+				<key>ko</key>
+				<string>내 최근 항목 사진</string>
+				<key>pt-BR</key>
+				<string>Mostrar Recentes no app Fotos</string>
+				<key>pt-PT</key>
+				<string>Mostrar Recentes com Fotografias</string>
+				<key>zh-CN</key>
+				<string>照片中的最近项目</string>
+				<key>zh-XC</key>
+				<string>照片中的最近项目</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenCollectionIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobileslideshow</string>
+			<key>parameter</key>
+			<string>CollectionEntity/D8703294-0897-4718-8AB8-BA22535F06E8</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Favoriten in Fotos öffnen</string>
+				<key>en</key>
+				<string>Show my favorite photos</string>
+				<key>es</key>
+				<string>Mostrar Favoritos de Fotos</string>
+				<key>fr</key>
+				<string>Afficher Favorites dans Photos</string>
+				<key>it</key>
+				<string>Mostrami Preferiti in Foto</string>
+				<key>ja</key>
+				<string>お気に入りの写真を表示</string>
+				<key>ko</key>
+				<string>내 즐겨찾기 사진</string>
+				<key>pt-BR</key>
+				<string>Mostrar Favoritos no app Fotos</string>
+				<key>pt-PT</key>
+				<string>Mostrar Favoritos em Fotografias</string>
+				<key>zh-CN</key>
+				<string>照片中的个人收藏</string>
+				<key>zh-XC</key>
+				<string>照片中的个人收藏</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenCollectionIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobileslideshow</string>
+			<key>parameter</key>
+			<string>CollectionEntity/41DC75A9-32B7-485D-BA6F-65C6D3990EB2</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Fotos von Vor einem Jahr anzeigen</string>
+				<key>en</key>
+				<string>Show photos from a year ago</string>
+				<key>es</key>
+				<string>Ir a Hace un año en Fotos</string>
+				<key>fr</key>
+				<string>Afficher Photos de Il y a un an</string>
+				<key>it</key>
+				<string>Mostra la raccolta Foto di Un anno fa</string>
+				<key>ja</key>
+				<string>1年前の写真を表示</string>
+				<key>ko</key>
+				<string>1년 전 사진 탐색</string>
+				<key>pt-BR</key>
+				<string>Mostrar Fotos de Há Um Ano</string>
+				<key>pt-PT</key>
+				<string>Mostrar Fotografias de Há um ano</string>
+				<key>zh-CN</key>
+				<string>显示一年前的照片</string>
+				<key>zh-XC</key>
+				<string>显示一年前的照片</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenCollectionIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.mobileslideshow</string>
+			<key>parameter</key>
+			<string>CollectionEntity/6CBD7EF5-5BD9-4E24-A126-E3DE4BE8246B</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Meine Orte in Album öffnen</string>
+				<key>en</key>
+				<string>Show photos from trips</string>
+				<key>es</key>
+				<string>Abrir mis Lugares en Fotos</string>
+				<key>fr</key>
+				<string>Afficher Photos de Lieux</string>
+				<key>it</key>
+				<string>Mostra la raccolta Foto di Luoghi</string>
+				<key>ja</key>
+				<string>撮影地のアルバムを表示</string>
+				<key>ko</key>
+				<string>사진에서 장소 열어줘</string>
+				<key>pt-BR</key>
+				<string>Mostrar Lugares no app Fotos</string>
+				<key>pt-PT</key>
+				<string>Mostrar Locais com Fotografias</string>
+				<key>zh-CN</key>
+				<string>显示地点的照片</string>
+				<key>zh-XC</key>
+				<string>显示地点的照片</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>TNNewDocumentIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.Numbers</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>New Numbers spreadsheet</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>ConstructTapToRadarURLIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.TapToRadar</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>Construct radar URL</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>FileRadarIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.TapToRadar</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>File a Tap-to-Radar</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>OpenInTapToRadarIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.TapToRadar</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>Open in radar</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>StartSysdiagnoseIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.TapToRadar</string>
+			<key>phrase</key>
+			<dict>
+				<key>en</key>
+				<string>Start sysdiagnose in radar</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>PlaybackVoiceMemoIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.VoiceMemos</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Mein letztes Sprachmemo wiedergeben</string>
+				<key>en</key>
+				<string>Play last Voice Memo</string>
+				<key>es</key>
+				<string>Escuchar la última grabación de Notas de Voz</string>
+				<key>fr</key>
+				<string>Lire le dernier enregistrement Dictaphone</string>
+				<key>it</key>
+				<string>Riproduci il memo vocale più recente</string>
+				<key>ja</key>
+				<string>最新のボイスメモを再生</string>
+				<key>ko</key>
+				<string>가장 최근 음성 메모 재생해</string>
+				<key>pt-BR</key>
+				<string>Reproduzir Última Gravação</string>
+				<key>pt-PT</key>
+				<string>Reproduzir gravação mais recente do Dictafone</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>actionIdentifier</key>
+			<string>RecordVoiceMemoIntent</string>
+			<key>bundleId</key>
+			<string>com.apple.VoiceMemos</string>
+			<key>phrase</key>
+			<dict>
+				<key>de</key>
+				<string>Sprachmemo aufnehmen</string>
+				<key>en</key>
+				<string>Record a Voice Memo</string>
+				<key>es</key>
+				<string>Crear grabación en Notas de Voz</string>
+				<key>fr</key>
+				<string>Enregistrer un Mémo vocal</string>
+				<key>ja</key>
+				<string>ボイスメモを録音</string>
+				<key>ko</key>
+				<string>음성 메모 시작해</string>
+				<key>pt-BR</key>
+				<string>Iniciar Gravação no app Gravador</string>
+				<key>pt-PT</key>
+				<string>Iniciar gravação com Dictafone</string>
+				<key>zh-CN</key>
+				<string>录制语音备忘录</string>
+				<key>zh-XC</key>
+				<string>录制语音备忘录</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

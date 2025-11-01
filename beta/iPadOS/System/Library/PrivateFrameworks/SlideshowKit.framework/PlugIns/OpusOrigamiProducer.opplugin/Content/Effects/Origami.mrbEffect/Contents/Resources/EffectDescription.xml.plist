@@ -1,0 +1,6424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>effects</key>
+	<dict>
+		<key>Origami-H2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H2b</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H3b</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H3c</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .75),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .333333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .666666666667)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+						<string>X.75</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+						<string>X.75</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H3d</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .75),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .6666666667)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+						<string>X.25</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+						<string>X.25</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 6.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.0999999999999996</real>
+					<key>showTimeScript</key>
+					<string>2.75, 3.85</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.0999999999999996</real>
+					<key>showTimeScript</key>
+					<string>2.75, 3.85</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>6.5999999999999996</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+						<string>X.75</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H4a</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .6666666667),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 9.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 9.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .3333333333),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .6666666667),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>9</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 9.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66666667),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3.8, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3.8, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3.8, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333),(layerHeight * .33333333333)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>9</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H6</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>3., 5.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 4.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 4.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H6a</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.66666666667),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>4.4, 4.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>4.4, 4.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>9</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H6b</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.66666666667),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.66666666667),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.66666666667),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>4.4, 4.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>6</integer>
+					<key>showTimeScript</key>
+					<string>4.4, 4.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333333333),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>9</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H7</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 3.3</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 3.3</string>
+					<key>sizeScript</key>
+					<string>layerHeight,(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.7999999999999998</real>
+					<key>showTimeScript</key>
+					<string>2.3, 4.6</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.7999999999999998</real>
+					<key>showTimeScript</key>
+					<string>3.3, 3.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.7999999999999998</real>
+					<key>showTimeScript</key>
+					<string>3.3, 3.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>6.9000000000000004</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.25</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.25</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-H8</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>4:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3., 5.5</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3.7, 4.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3.7, 4.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>6.5</real>
+					<key>showTimeScript</key>
+					<string>3.7, 4.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth - layerHeight),(layerHeight * .33333333333)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>8.5</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.75</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.75</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-JustASlide</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Scrop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami-JustASlide-Portrait</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Scrop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>2</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami-Text</key>
+		<dict>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>7</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>5</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>title</key>
+							<string>Subtitle
+	Text
+	Here</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-Title1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>durationPadding</key>
+			<string>4.15</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Scrop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>phaseInDuration, -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>minimumEffectDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<real>4.1500000000000004</real>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>3</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>112</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-Title5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>phaseInDuration,(3.5*mainDuration/6.35)</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.6666666666667,(layerHeight * .625)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration +.05*mainDuration/6.35),(3.45*mainDuration/6.35)</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight * .375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration+.075*mainDuration/6.35),(3.425*mainDuration/6.35)</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .416666666666667),(layerHeight * .375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration+.2*mainDuration/6.35), -1.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.2000000000000002</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration+2.8*mainDuration/6.35), -1.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66666666666667),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>6.3499999999999996</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>minimumEffectDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>4.1500000000000004</real>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>3</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.67</string>
+					</array>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>112</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * 0.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * 0.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * 0.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .25)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight * .25)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+						<string>Y.25</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.5</string>
+						<string>Y.25</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 7.4</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 3.7</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * .666666666667)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>3.7000000000000002</real>
+					<key>showTimeScript</key>
+					<string>2.2, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333333),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>3.7000000000000002</real>
+					<key>showTimeScript</key>
+					<string>2.2, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333333333),(layerHeight * .33333333333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>3.7000000000000002</real>
+					<key>showTimeScript</key>
+					<string>2.2, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .666666667),(layerHeight * .66666666667)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>7.4000000000000004</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.33</string>
+						<string>X.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V6</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 4.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 4.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight-layerWidth)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.75</string>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.75</string>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V7</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.6</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .666666667),(layerHeight * 0.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 3.7</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333333),(layerHeight * .25)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 3.7</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333333),(layerHeight * .25)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 7.9</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>3.7000000000000002</real>
+					<key>showTimeScript</key>
+					<string>2.7, 5.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .666666667),(layerHeight * 0.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.5999999999999996</real>
+					<key>showTimeScript</key>
+					<string>3.4, 4.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333333),(layerHeight * .25)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.5999999999999996</real>
+					<key>showTimeScript</key>
+					<string>3.4, 4.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333333333),(layerHeight * .25)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>7.9000000000000004</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.33</string>
+						<string>Y.75</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+						<string>X.33</string>
+						<string>Y.75</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami-V8</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>3:4</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 6.6</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333),(layerHeight - layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333),(layerHeight - layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.5</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333),(layerHeight - layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3., 5.5</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3.7, 4.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333),(layerHeight - layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3.7, 4.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333),(layerHeight - layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3.7, 4.8</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .333333),(layerHeight - layerWidth)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<real>8.5</real>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.25</string>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.25</string>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-Intro-L1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.3333</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>4</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-Intro-L3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.6666),layerHeight</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-Intro-LP1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.6666),layerHeight</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>0.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-Intro-P1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>0.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.3333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-L1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-L2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.3333333,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.25),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.75),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.25</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.25</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP6</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333), layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LP7</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.33333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LQ3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LQ4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .75),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LQ5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .25),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .75),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.25</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LQ6</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .5),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LS1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight*.5),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LS1S4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 4.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight*.5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3., 4.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>3.8, 3.2</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>7</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-LS2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight*.5),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LS3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * .5),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LS4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-LS5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerHeight,layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight),(layerHeight * .5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth-layerHeight),(layerHeight * .5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT3</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT4</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT5</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT6</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT7</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>5</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LT8</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .66667),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * .33333),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>landscape</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LText1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>2</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight*.75</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>48</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LText2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.5,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>1</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>48</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LTextP1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>2</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight*.6666667</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>48</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LTextP2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.3333333,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>48</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LTitleP1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>durationPadding</key>
+			<string>4.15</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>2.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight*.6666667</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>panoramaScaleOffset</key>
+			<string>4.15</string>
+			<key>phaseInDuration</key>
+			<real>4.1500000000000004</real>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>3</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-LTitleP2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>durationPadding</key>
+			<string>4.15</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.3333333,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>panoramaScaleOffset</key>
+			<string>4.15</string>
+			<key>phaseInDuration</key>
+			<real>4.1500000000000004</real>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>3</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-P1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>9:16</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-P2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>9:16</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 8.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight*.33333333</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PP1</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PP2</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PP3</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),layerHeight</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.33333)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.33</string>
+						<string>X.67</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PQ1</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PQ2</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PQ3</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.5)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.25)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.25)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+						<string>Y.75</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.5</string>
+						<string>Y.75</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PS1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>2:3</string>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+		</dict>
+		<key>Origami2-PS2</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.5,(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.5,(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PS3</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight-layerWidth)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerWidth*.5</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.5,layerWidth*.5</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.5,layerWidth*.5</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PT1</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>4</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>4</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>4</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.33333)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.33</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PT2</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.66667)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>4</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.33333)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami2-PT3</key>
+		<dict>
+			<key>className</key>
+			<string>Origami</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,(layerHeight*.666673)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.33333)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., 5.</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerHeight*.33333)</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>orientation</key>
+			<string>portrait</string>
+			<key>phaseInDuration</key>
+			<real>0.0</real>
+			<key>phaseOutDuration</key>
+			<real>0.0</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.67</string>
+					</array>
+					<key>startLayoutTags</key>
+					<array>
+						<string>X.5</string>
+						<string>Y.67</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami3-LText1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>2</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight*.75</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami3-LText2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>2.5</real>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.5,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>1</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami3-LTextP1</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>2</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>1</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth,layerHeight*.6666667</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>Origami3-LTextP2</key>
+		<dict>
+			<key>aspectRatio</key>
+			<string>16:9</string>
+			<key>className</key>
+			<string>OrigamiTitle</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>panoType</key>
+					<integer>2</integer>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0., -1.</string>
+					<key>sizeScript</key>
+					<string>layerWidth*.3333333,layerHeight</string>
+				</dict>
+			</array>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>marimbaVersion</key>
+			<string>1.0</string>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>posterTimeIsStatic</key>
+			<true/>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>endLayoutTags</key>
+					<array/>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>{{.95, .95}, {.95, 1.}}</string>
+							<key>fontName</key>
+							<string>ProximaNova-Bold</string>
+							<key>fontSize</key>
+							<integer>60</integer>
+							<key>maxFontSize</key>
+							<string>118</string>
+							<key>title</key>
+							<string>This is
+my trip
+to Berlin</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>

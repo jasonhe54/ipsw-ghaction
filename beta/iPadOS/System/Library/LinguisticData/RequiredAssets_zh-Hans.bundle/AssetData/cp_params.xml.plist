@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CTCFTotalDistanceDeviationRatio</key>
+	<real>0.5</real>
+	<key>CTCFirstCharDistanceThreshold</key>
+	<integer>70</integer>
+	<key>CTCLMScorerAlpha</key>
+	<real>0.5</real>
+	<key>CTCLastCharDistanceThreshold</key>
+	<integer>210</integer>
+	<key>CTCLongPathDistance</key>
+	<integer>210</integer>
+	<key>CTCMinDistanceThreshold</key>
+	<real>54.25</real>
+	<key>CTCPathScoreMargin</key>
+	<real>4</real>
+	<key>CTCShortPathDistance</key>
+	<integer>70</integer>
+	<key>keyRadii</key>
+	<real>17.5</real>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+"FOOTER_TEXT" = "A personal Spatial Audio profile customizes audio to better match how you personally hear sound. If you choose to create a Spatial Audio profile, your device uses the TrueDepth camera to create a representation of your ear and head shape. Camera data used to develop your profile is processed entirely on device and images are not stored.
+
+Personalized Spatial Audio uses your personal profile during audio playback to change how audio is rendered on connected devices like AirPods. For example, your personal profile for Spatial Audio may be used to adjust sound processing delay to help enhance your audio experience on devices that support Spatial Audio. Your personal profile for Spatial Audio will sync across your Apple devices using end-to-end encryption if you use iCloud and cannot be read by Apple.
+
+You can delete your personal profile for Spatial Audio at any time. On your iOS device, go to Settings > [your Spatial Audio-enabled device name] > Personalized Spatial Audio, then tap Stop Using Personalized Spatial Audio. On your visionOS device, go to Settings > Bluetooth > My Devices and tap the Info button next to your Spatial Audio-enabled device name, then tap Personalized Spatial Audio > Stop Using Personalized Spatial Audio. On Mac, go to System Settings > [your Spatial Audio-enabled device name] > Personalized Spatial Audio, then click Stop Using Personalized Spatial Audio. Disabling Personalized Spatial Audio will delete the profile from all of your devices.";
+"BUTTON_TITLE" = "About Personalized Spatial Audio & Privacy…";
+"SPLASH_SUMMARY" = "Personal profiles for Spatial Audio are designed to protect your information and let you choose what you share.";
+"SPLASH_TITLE" = "Personalized Spatial Audio & Privacy";
+"SPLASH_SHORT_TITLE" = "Personalized Spatial Audio";

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BlockSize</key>
+	<integer>480</integer>
+	<key>ComputeEngineName</key>
+	<string>CPU</string>
+	<key>DefaultEmbeddingMode</key>
+	<integer>1</integer>
+	<key>EmbeddingMode</key>
+	<integer>1</integer>
+	<key>EmbeddingName</key>
+	<string>embedding</string>
+	<key>EmbeddingSize</key>
+	<integer>2</integer>
+	<key>InputName</key>
+	<string>audio</string>
+	<key>LookaheadSize</key>
+	<integer>320</integer>
+	<key>ModelNetPath</key>
+	<string>AID2028/AU/gen-aufx-nnet-appl-mcsc.mil</string>
+	<key>ModelNetPathBase</key>
+	<string>/Library/Audio/Tunings</string>
+	<key>NeuralNetImplementationType</key>
+	<string>MIL2BNNS</string>
+	<key>NumberOfInputChannels</key>
+	<integer>5</integer>
+	<key>NumberOfOutputChannels</key>
+	<integer>1</integer>
+	<key>OutputName</key>
+	<string>var_1465</string>
+	<key>SampleRate</key>
+	<integer>24000</integer>
+	<key>StreamingMode</key>
+	<integer>1</integer>
+	<key>TaskID</key>
+	<string>p4eh7tc56r</string>
+	<key>TaskIteration</key>
+	<integer>226590</integer>
+</dict>
+</plist>

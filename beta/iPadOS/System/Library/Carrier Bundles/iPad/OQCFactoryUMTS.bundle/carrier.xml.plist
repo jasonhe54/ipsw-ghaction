@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CarrierAllowsRingingMultipleDevices</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>Factory - UMTS only</string>
+	<key>IntlDataRoamingExceptions</key>
+	<array>
+		<string>10101</string>
+	</array>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>NetworkEncryptionCiphers</key>
+	<dict>
+		<key>A5/3</key>
+		<true/>
+		<key>GEA3</key>
+		<true/>
+	</dict>
+	<key>SendTextMMSToShortCodeAsSMS</key>
+	<true/>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>000FAC</string>
+	</array>
+	<key>SuspendFastDormancyAllowed</key>
+	<true/>
+	<key>apns</key>
+	<array/>
+</dict>
+</plist>

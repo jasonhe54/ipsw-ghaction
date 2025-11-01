@@ -1,0 +1,53 @@
+"DELEGATED_SHARES_CREATION_LIMIT_OK_ACTION" = "OK";
+"DELEGATED_SHARES_MANAGEMENT_SUMMMARY_TITLE" = "Share Item Location";
+"DELEGATED_SHARES_CREATION_LIMIT_ERROR_MESSAGE" = "You can only share location of %d items. To share location for this item, first stop sharing location of another item.";
+"DELEGATED_SHARES_INVALIDATION_ERROR_CANCEL_ACTION" = "Cancel";
+"SHARE_LIVE_LOCATION_SHARESHEET_BUTTON_TEXT" = "Share Link";
+"SHARE_ACCESSORY_CONFIRMATION_CAPTION" = "Be mindful that everyone who has access to this link can view the location of the AirTag.";
+"CONTACT_INFO_SETUP_NOTIFY_WHEN_FOUND_TOGGLE_TITLE" = "Notify When Found";
+"SHARE_LOCATION_UPDATES_INTRODUCTION_TITLE" = "Share Item Location";
+"SHARE_LOCATION_UPDATES_MODULE_ROW_TITLE" = "Share Item Location";
+"DELAGATED_URL_SHARE_CONFIRMATION_TITLE" = "What Will Happen";
+"DELEGATED_SHARES_LOCATION_UPDATES_ERROR_MESSAGE" = "Something went wrong starting item locations for this item. Please try again later.";
+"SHARE_LOCATION_UPDATES_USER_INFO_CAPTION_TEXT" = "The item’s serial number and your Apple Account email or phone number will be visible.";
+"DELEGATED_SHARES_MANAGEMENT_NUM_VISITORS_FORMATTED_TEXT" = "{'value': {'one': '%lu Person', 'other': '%lu People', 'zero': 'No People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"SHARE_LOCATION_UPDATES_CONTINUE" = "Continue";
+"DELEGATED_SHARES_INVALIDATION_ERROR_TITLE" = "Stop Sharing Failed";
+"DELEGATED_SHARES_MANAGEMENT_VISITORS_TITLE" = "Visited By";
+"DELGATED_SHARES_SHAREE_ITEM_DECRIPTION_OWNER_REPORTED" = "The owner has marked this item lost and create a temporary webpage with the location of the item.  This webpage can be shared with others, for example airlines or law enforcement, to help retrieve this item.  Whenever you are near this item the owner will be notified that the item was retrieved and the webpage will stop working.";
+"LIVE_LOCATION_CONFIRMATION_DONE" = "Done";
+"LIVE_LOCATION_INTRODUCTION_CANCEL" = "Cancel";
+"DELEGATED_SHARES_MANAGEMENT_STOP_SHARING_ALERT_SUBTITLE" = "Anyone with access to the location link will no longer be able to locate this item on a map.";
+"DELEGATED_SHARES_MANAGEMENT_STOP_SHARING_TITLE" = "Stop Sharing Item Location";
+"DELEGATED_SHARES_SHAREE_ITEM_DESCRIPTION_OWNER_NOT_REPORTED" = "The owner can mark this item lost and create a temporary webpage with the location of the item.  This webpage can be shared with others, for example airlines or law enforcement, to help retrieve this item.  Whenever you are near this item the owner will be notified that the item was retrieved and the webpage will stop working.";
+"DELEGATED_SHARES_SHAREE_ITEM_DESCRIPTION_TITLE" = "Lost AirTag";
+"DELEGATED_SHARES_SHAREE_ITEM_DESCRIPTION_DONE" = "Done";
+"DELEGATED_SHARES_MANAGEMENT_EXPIRATION_TITLE" = "Expiration";
+"SHARE_LOCATION_UPDATES_MODULE_ROW_SUBTITLE_HAS_REPORTED" = "Expires %@";
+"DELEGATED_SHARES_INVALIDATION_ERROR_OK_ACTION" = "OK";
+"DELEGATED_SHARES_CREATION_LIMIT_ERROR_TITLE" = "Maximum shared locations";
+"DELEGATED_SHARES_INVALIDATION_ERROR_CONTINUE_ACTION" = "Continue";
+"DELEGATED_SHARES_MANAGEMENT_DONE" = "Done";
+"SHARE_LOCATION_UPDATES_MODULE_ROW_SUBTITLE" = "Allow others to locate this item";
+"DELEGATED_SHARES_MANAGEMENT_SHARE_INVALIDATION_CAPTION" = "The location of this item will automatically stop sharing when you are reunited with it or when the expiration date is reached.";
+"FIND_LOST_ITEM_SHARE_LINK" = "Find Lost Item";
+"SHARE_LOCATION_UPDATES_SHAREE_ACTION_REPORTED_TITLE" = "Owner Marked This Item Lost";
+"ITEM_IS_WITH_YOU_ERROR_TITLE" = "Item Is With You";
+"DELEGATED_SHARES_MANAGEMENT_SHARE_WEBPAGE_TITLE" = "Share Location Link";
+"SHARE_LOCATION_UPDATES_SHAREE_ACTION_NOT_REPORTED_TITLE" = "Learn More";
+"DELEGATED_SHARES_INVALIDATION_ERROR_MESSAGE" = "Find My can’t stop sharing item locations right now. Please try again later.";
+"ITEM_IS_WITH_YOU_ERROR_DESCRIPTION" = "This feature is only available for items that are lost and not located in close proximity to you.";
+"DELEGATED_SHARES_INVALIDATION_ERROR_CONTINUE_ACTION_SHEET" = "Stop Sharing";
+"SHARE_LOCATION_UPDATES_DETAIL_TEXT_GENERIC" = "Get help finding your lost item by sharing its location with an airline or a trusted person.
+
+The person who opens the link will be able to see the location of your item for a limited time.";
+"CONTINUE_SHARE_LIVE_LOCATION_BUTTON_TEXT" = "Create Webpage";
+"DELEGATED_SHARES_LOCATION_UPDATES_ERROR_TITLE" = "Starting Item Locations Failed";
+"SHARE_WEBSITE_COPY" = "Copy";
+"SHARE_ACCESSORY_CONFIRMATION_DECRIPTION" = "You can now share the location link. Some apps let you paste the link directly when reporting an item missing.";
+"SHARE_LOCATION_UPDATES_DETAIL_TEXT" = "Get help finding your lost AirTag by sharing its location with an airline or a trusted person.
+
+The person who opens the link will be able to see the location of your AirTag for a limited time.";
+"DELEGATED_SHARES_LOCATION_UPDATES_OK_ACTION" = "OK";
+"LOCATION_UPDATES_READY_TITLE" = "Item Location Ready To Share";
+"SHARE_LOCATION_UPDATES_CAPTION_TEXT" = "At least one of your iPhone, iPad, or Mac devices needs to be online to provide updated locations.";

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AssetSetName</key>
+	<string>com.apple.siri.understanding.nl.overrides</string>
+	<key>Assets</key>
+	<array>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.siri.understanding.nl.overrides.uaf.metadata</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.siri.understanding.nl.overrides.uaf.metadata</string>
+				</dict>
+			</array>
+			<key>IgnoreOSCompatibility</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.siri.nl.overrides</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.siri.nl.overrides.{nl.language}</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>nl.language</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>AutoAssetType</key>
+	<string>com.apple.MobileAsset.UAF.Siri.UnderstandingNLOverrides</string>
+	<key>EnableCellular</key>
+	<true/>
+	<key>FileType</key>
+	<string>AssetSetConfiguration</string>
+	<key>FileVersion</key>
+	<string>1.0.0</string>
+	<key>MetadataAsset</key>
+	<string>com.apple.siri.understanding.nl.overrides.uaf.metadata</string>
+	<key>UsageTypes</key>
+	<array>
+		<string>nl.language</string>
+	</array>
+</dict>
+</plist>

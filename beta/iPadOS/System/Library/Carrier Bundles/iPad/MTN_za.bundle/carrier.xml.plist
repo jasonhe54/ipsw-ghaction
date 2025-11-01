@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemaskNew</key>
+	<integer>49</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>1</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>MTN</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.SouthAfrica</string>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>65510</string>
+	</array>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>mymtn</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

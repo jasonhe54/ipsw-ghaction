@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Profiles</key>
+	<dict>
+		<key>Pencil</key>
+		<dict>
+			<key>Latency</key>
+			<real>0.0057016740255789577</real>
+			<key>LowLatency</key>
+			<true/>
+			<key>Ready</key>
+			<dict>
+				<key>ReceiveDeadline</key>
+				<real>0.0019050073589122936</real>
+			</dict>
+			<key>TimestampConfidence</key>
+			<real>0.0020833333333333333</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>__AKSYNCBUBBLE</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.akd.sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>PostLogOutSync</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ak.anisette.xpc</key>
+		<true/>
+		<key>com.apple.ak.aps</key>
+		<true/>
+		<key>com.apple.ak.auth.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/AuthKit.framework/akd</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+</dict>
+</plist>

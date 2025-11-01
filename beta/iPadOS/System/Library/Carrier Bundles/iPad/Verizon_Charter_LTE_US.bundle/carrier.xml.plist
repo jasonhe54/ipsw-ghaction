@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CDMAInternationalRoaming</key>
+	<dict>
+		<key>EnabledByDefault</key>
+		<false/>
+	</dict>
+	<key>CarrierName</key>
+	<string>Spectrum</string>
+	<key>CarrierOverrideSmsSupportAllowedNumbersList</key>
+	<array>
+		<string>900080004000</string>
+		<string>900080004007</string>
+		<string>900080004001</string>
+		<string>118012222315</string>
+		<string>118012222311</string>
+		<string>118012222310</string>
+		<string>900080004022</string>
+		<string>900080004005</string>
+		<string>90008004000</string>
+		<string>7626</string>
+		<string>0867</string>
+		<string>900080005330</string>
+		<string>900080005331</string>
+		<string>900080005332</string>
+		<string>900080005333</string>
+		<string>900080005334</string>
+		<string>900080005335</string>
+		<string>900080005336</string>
+		<string>900080005337</string>
+		<string>900080005338</string>
+		<string>900080005339</string>
+		<string>900080005340</string>
+		<string>900080005341</string>
+		<string>900080005342</string>
+		<string>900080005343</string>
+		<string>900080005344</string>
+		<string>900080005345</string>
+		<string>900080005346</string>
+		<string>900080005347</string>
+		<string>900080005348</string>
+		<string>900080005349</string>
+		<string>1900080005330</string>
+		<string>1900080005331</string>
+		<string>1900080005332</string>
+		<string>1900080005333</string>
+		<string>1900080005334</string>
+		<string>1900080005335</string>
+		<string>1900080005336</string>
+		<string>1900080005337</string>
+		<string>1900080005338</string>
+		<string>1900080005339</string>
+		<string>1900080005340</string>
+		<string>1900080005341</string>
+		<string>1900080005342</string>
+		<string>1900080005343</string>
+		<string>1900080005344</string>
+		<string>1900080005345</string>
+		<string>1900080005346</string>
+		<string>1900080005347</string>
+		<string>1900080005348</string>
+		<string>1900080005349</string>
+		<string>1900080004007</string>
+		<string>1900080004000</string>
+	</array>
+	<key>CarrierOverridesSmsSupport</key>
+	<true/>
+	<key>CarrierOverridesSmsSupportWhitelist</key>
+	<array>
+		<string>900080004000</string>
+		<string>900080004007</string>
+		<string>900080004001</string>
+		<string>118012222315</string>
+		<string>118012222311</string>
+		<string>118012222310</string>
+		<string>900080004022</string>
+		<string>900080004005</string>
+		<string>90008004000</string>
+		<string>7626</string>
+		<string>0867</string>
+		<string>900080005330</string>
+		<string>900080005331</string>
+		<string>900080005332</string>
+		<string>900080005333</string>
+		<string>900080005334</string>
+		<string>900080005335</string>
+		<string>900080005336</string>
+		<string>900080005337</string>
+		<string>900080005338</string>
+		<string>900080005339</string>
+		<string>900080005340</string>
+		<string>900080005341</string>
+		<string>900080005342</string>
+		<string>900080005343</string>
+		<string>900080005344</string>
+		<string>900080005345</string>
+		<string>900080005346</string>
+		<string>900080005347</string>
+		<string>900080005348</string>
+		<string>900080005349</string>
+		<string>1900080005330</string>
+		<string>1900080005331</string>
+		<string>1900080005332</string>
+		<string>1900080005333</string>
+		<string>1900080005334</string>
+		<string>1900080005335</string>
+		<string>1900080005336</string>
+		<string>1900080005337</string>
+		<string>1900080005338</string>
+		<string>1900080005339</string>
+		<string>1900080005340</string>
+		<string>1900080005341</string>
+		<string>1900080005342</string>
+		<string>1900080005343</string>
+		<string>1900080005344</string>
+		<string>1900080005345</string>
+		<string>1900080005346</string>
+		<string>1900080005347</string>
+		<string>1900080005348</string>
+		<string>1900080005349</string>
+		<string>1900080004007</string>
+		<string>1900080004000</string>
+	</array>
+	<key>DeliveryReceiptsAllowUserOverride</key>
+	<false/>
+	<key>DisallowCarrierMenuAtHome</key>
+	<true/>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>anonymous</string>
+		<key>Certificate</key>
+		<string>MIIGxzCCBa+gAwIBAgIQAeYFXNSfqV/hkZpwdHKVSDANBgkqhkiG9w0BAQsFADBN
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E
+aWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMjQxMjE2MDAwMDAwWhcN
+MjYwMTE2MjM1OTU5WjB/MQswCQYDVQQGEwJVUzERMA8GA1UECBMITWlzc291cmkx
+EjAQBgNVBAcTCVN0LiBMb3VpczEuMCwGA1UEChMlQ2hhcnRlciBDb21tdW5pY2F0
+aW9ucyBPcGVyYXRpbmcsIExMQzEZMBcGA1UEAxMQYWthLnNwZWN0cnVtLm5ldDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALLv8zeNiS9gZhQA8rOaV+Xa
+rxwcgr47fyc7xx/Pfu0Kn0ANOTY3VG/vIjCQ8FE/j/mU5+66oierZhoMZRKTACHH
+LwZFI4Ht+cWuj5MK+I648dJHKWsdJtcV4PvRLdhLb1pi/p9EzJHOXTqzqSHDXLdO
+xAkVppmMyMw294t8Zvqx896Tn+KzbhCR3YdKpaCu7TJk6jb+wZdiWOSNqcLAg8ZR
+G6SGAwP9O6YYaMXBgNmK4M9VJaE5LMiTdubePlYBlc8Kbi3R9La30Iu42biWfio7
+md7CZo4yLnr7eOOsA1wIAcWf7VKLHBECZx8pp9OjazKdi3+66bTpefWh7QXZl1MC
+AwEAAaOCA28wggNrMB8GA1UdIwQYMBaAFA+AYRyCMWHVLyjnjUY4tCzhxtniMB0G
+A1UdDgQWBBRv16whs2olpLPrACuG1pY2Bho8bzAbBgNVHREEFDASghBha2Euc3Bl
+Y3RydW0ubmV0MD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0
+dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0l
+BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMIGNBgNVHR8EgYUwgYIwP6A9oDuGOWh0
+dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpY2VydFNIQTJTZWN1cmVTZXJ2ZXJD
+QS0xLmNybDA/oD2gO4Y5aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2ljZXJ0
+U0hBMlNlY3VyZVNlcnZlckNBLTEuY3JsMH4GCCsGAQUFBwEBBHIwcDAkBggrBgEF
+BQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEgGCCsGAQUFBzAChjxodHRw
+Oi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRTSEEyU2VjdXJlU2VydmVy
+Q0EtMi5jcnQwDAYDVR0TAQH/BAIwADCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFn
+AHYADleUvPOuqT4zGyyZB7P3kN+bwj1xMiXdIaklrGHFTiEAAAGT0DStsQAABAMA
+RzBFAiAhHscuA6K8g0Fz2nrdc7Izm4IFp6kD82zFC6TBV2OHcQIhAPVb+oOO44mg
+1Lywg/zJnaiA/oofwP8P1ewMJLsJ7qkUAHUAZBHEbKQS7KeJHKICLgC8q08oB9Qe
+NSer6v7VA8l9zfAAAAGT0DSt4wAABAMARjBEAiBN6FT3Rz/p9OlGWat5FOwXR/D2
+KdIcGExLUwDAuorYjAIgS4grKb1EhBxYa/O11xXpniYNOMW6cz4N03gyvgW4af8A
+dgBJnJtp3h187Pw23s2HZKa4W68Kh4AZ0VVS++nrKd34wwAAAZPQNK33AAAEAwBH
+MEUCIGyxNDguEu7pyGk1D0+vdN4RsH/MfRsGnYKuw3Llyy4vAiEAh5JvKprhLj9W
+P8wY6eftvfRAWTtbiIwKGjwonpni7CswDQYJKoZIhvcNAQELBQADggEBAD3NxwIz
+EtaN2tOkKoul2Km7N8g2KoQrYF65ACRyWh6CNFv2fxA3WpdiMjpoHhgw61HE8bUh
+4cG+Ehpmaiy/Fkn95Wtr1M0otM8KlDDZGgBLCt3WBP1RQK6b8BoNZYwcCcUX2lZ/
+bcT5FSjuHi+bXvbHVF84Z0rFJiwU9T4RQmAADLIZRRm4XFIOSAFDA2i2G7+E5Kzt
+Zo4vBWPW9cn/CFsVcRxSvl0KHy9tDQt04QOmI5iU/JRxXhD48cVNIEDU14DnptiO
+zc8GH8yEux05wPiJDssOF/kmyKrEu7ZByuEvJ0q+6i0EZnYHtVf1uz7hcVEhYgCz
+k2aSvjYoGAR8WIw=</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=01E6055CD49FA95FE1919A7074729548</string>
+		<key>UpdateOnBootup</key>
+		<false/>
+		<key>UpdatePeriod</key>
+		<integer>0</integer>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.UnitedStates</string>
+	<key>HomeERI</key>
+	<array>
+		<integer>64</integer>
+	</array>
+	<key>IPCUApnTypemask</key>
+	<integer>49</integer>
+	<key>IntlDataRoamingAllowed</key>
+	<array>
+		<string>330110</string>
+		<string>330120</string>
+		<string>310410</string>
+		<string>310260</string>
+		<string>310490</string>
+	</array>
+	<key>IntlDataRoamingExceptions</key>
+	<array>
+		<string>20404</string>
+	</array>
+	<key>MTU</key>
+	<array>
+		<dict>
+			<key>size</key>
+			<integer>1428</integer>
+			<key>technology-mask</key>
+			<integer>12</integer>
+		</dict>
+		<dict>
+			<key>size</key>
+			<integer>1472</integer>
+			<key>technology-mask</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<array>
+		<integer>5</integer>
+	</array>
+	<key>MyAccountURL</key>
+	<string>https://www.spectrum.net/login/?target=https://www.spectrum.net/my-account</string>
+	<key>MyAccountURLTitle</key>
+	<string>Spectrum Mobile</string>
+	<key>NotRegisteredResetWaitPeriod</key>
+	<integer>60</integer>
+	<key>OTAActivation</key>
+	<dict>
+		<key>PRIFileName</key>
+		<string>carrier_ota.pri</string>
+		<key>PriVersion</key>
+		<string>00.01.004</string>
+		<key>SupportsColdSIMActivation</key>
+		<true/>
+	</dict>
+	<key>OTASoftwareUpdate</key>
+	<dict/>
+	<key>OverrideOperatorName</key>
+	<string>Spectrum</string>
+	<key>PreferPrimaryDNS</key>
+	<true/>
+	<key>SMSUseLocalTZ</key>
+	<true/>
+	<key>Show3GSwitch</key>
+	<false/>
+	<key>Show4GSwitch</key>
+	<true/>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>StaticNATType</key>
+	<integer>448</integer>
+	<key>SupportedPLMNs</key>
+	<array>
+		<string>311480</string>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>311480_GID2-A7</string>
+		<string>20404_GID2-A7_ID-891480</string>
+	</array>
+	<key>SupportsEHRPD</key>
+	<true/>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>SupportsUserBusyCauseCode</key>
+	<false/>
+	<key>SuppressSimToolkitDisplayTextNotifications</key>
+	<true/>
+	<key>SuspendFastDormancyAllowed</key>
+	<true/>
+	<key>TosSupported</key>
+	<true/>
+	<key>UseTetheringAuthenticationOnCDMA</key>
+	<false/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>configuration</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>vzwinternet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>apn</key>
+					<string>vzwapp</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49152</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>technology-mask</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>configuration</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>apn</key>
+					<string>vzwinternet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>apn</key>
+					<string>vzwadmin</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>512</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>apn</key>
+					<string>vzwapp</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49152</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>technology-mask</key>
+			<integer>14</integer>
+		</dict>
+	</array>
+	<key>pdpTimeout</key>
+	<array>
+		<integer>0</integer>
+	</array>
+</dict>
+</plist>

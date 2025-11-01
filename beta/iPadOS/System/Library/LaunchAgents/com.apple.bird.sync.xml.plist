@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>DrainMessagesOnFailedInit</key>
+	<true/>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.bird.sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>PostLogOutSync</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.bird</key>
+		<true/>
+		<key>com.apple.bird.cache-delete</key>
+		<true/>
+		<key>com.apple.bird.token</key>
+		<true/>
+		<key>com.apple.bird.usermanager.sync</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.bird.usernotifications</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/iCloudDriveCore.framework/bird</string>
+	</array>
+</dict>
+</plist>

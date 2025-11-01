@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>PENCIL_TEXT_INPUT</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>PENCIL_TEXT_INPUT_FOOTER_TEXT</string>
+			<key>id</key>
+			<string>PencilTextInputGroup</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>kCFPreferencesAnyApplication</string>
+			<key>id</key>
+			<string>PencilTextInput</string>
+			<key>key</key>
+			<string>ApplePencilTextInputEnabled</string>
+			<key>label</key>
+			<string>PENCIL_TEXT_INPUT_TITLE</string>
+			<key>set</key>
+			<string>setPencilForTextInput:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SETTINGS_TITLE</string>
+</dict>
+</plist>

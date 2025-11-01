@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NavigationMinimumDistanceInMeters</key>
+	<integer>1000</integer>
+	<key>NavigiationMinimumTimeInterval</key>
+	<integer>50</integer>
+	<key>NextEventFuzzMinutes</key>
+	<integer>15</integer>
+	<key>QueryTimeNextFromMinutes</key>
+	<integer>-15</integer>
+	<key>QueryTimeNextToMinutes</key>
+	<integer>172800</integer>
+	<key>QueryTimeOtherToMinutes</key>
+	<integer>604800</integer>
+</dict>
+</plist>

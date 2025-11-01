@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.mobile.bubbled.sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>PostLogOutSync</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mobile.keybagd.bubbled.xpc</key>
+		<true/>
+	</dict>
+	<key>OnDemand</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/bubbled</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

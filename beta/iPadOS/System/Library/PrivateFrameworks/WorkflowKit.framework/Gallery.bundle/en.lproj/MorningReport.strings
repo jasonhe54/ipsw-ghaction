@@ -1,0 +1,5 @@
+"BA47F7F" = "Give me a morning report summarizing my day based on this info -- format it nicely with bold text, headers, separators, bullet points, and emoji if needed, and start with the weather (with the high and low)! Be very concise about the calendar events! If you don't see any calendar events or reminders, just tell me there is nothing planned for the day.
+
+${variable-0}
+${variable-1}
+${variable-2}";

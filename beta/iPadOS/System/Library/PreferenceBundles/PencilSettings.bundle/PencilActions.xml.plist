@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>Pencil</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>DoubleTapGroup</string>
+			<key>label</key>
+			<string>PENCIL_ACTIONS_TITLE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>doubleTapActionForSpecifier:</string>
+			<key>id</key>
+			<string>PencilDoubleTapAction</string>
+			<key>label</key>
+			<string>PENCIL_DOUBLE_TAP_ACTION</string>
+			<key>set</key>
+			<string>setDoubleTapAction:specifier:</string>
+			<key>validTitles</key>
+			<array>
+				<string>SWITCH_ERASER</string>
+				<string>SWITCH_PREVIOUS</string>
+				<string>SHOW_COLOR</string>
+				<string>SHOW_INK</string>
+				<string>OFF</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SETTINGS_TITLE</string>
+</dict>
+</plist>

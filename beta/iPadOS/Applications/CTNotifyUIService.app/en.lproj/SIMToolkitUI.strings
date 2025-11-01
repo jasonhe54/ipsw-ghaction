@@ -1,0 +1,188 @@
+"kCTErrorGprsServiceOptionTemporarilyOutOfOrder" = "GPRS Service Option Temporarily Out-of-Order";
+"Network Controlled" = "Network Controlled";
+"kCTErrorNetworkFailure" = "Network Failure";
+"kCTErrorGprsServiceOptionNotSubscribed" = "GPRS Service Option Not Subscribed";
+"kCTErrorInterworkingNotSupported" = "Interworking Not Supported";
+"kCTErrorSimFailure" = "SIM Failure";
+"kCTErrorDataCodingSchemeNotSupported" = "Data Coding Scheme Not Supported";
+"kCTErrorGprsLocationAreaNotAllowed" = "GPRS Location Area Not Allowed";
+"kCTErrorDestinationOutOfOrder" = "Destination Out-of-Order";
+"All Conditional Calls" = "All Conditional Calls";
+"kCTErrorUnspecifiedTpCommand" = "Unspecified TP Command Error";
+"kCTErrorUnspecifiedDcs" = "Unspecified DCS Error";
+"Connected Line ID Restriction
+%@" = "Connected Line ID Restriction
+%@";
+"BACK" = "Back";
+"Interrogation" = "Interrogation";
+"All Incoming" = "All Incoming";
+"All Outgoing" = "All Outgoing";
+"CLASS0SMS_DISMISS" = "Dismiss";
+"SIMTK_SMS_MESSAGE_SENT" = "Your SIM sent a text message.";
+"DIAL" = "Dial";
+"Unknown" = "Unknown";
+"CANCEL" = "Cancel";
+"Temporarily Disabled" = "Temporarily Disabled";
+"kCTErrorGprsPDPAuthenticationInfoRejectedByBaseband" = "GPRS PDP Authentication Info Rejected by Baseband";
+"kCTErrorGprsPdpAuthenticationFailure" = "GPRS PDP Authentication Failure";
+"kCTErrorCongestion" = "Network Congested";
+"kCTErrorSemanticallyIncorrectMessage" = "Semantically Incorrect Message";
+"Calling Name Presentation
+%@" = "Calling Name Presentation
+%@";
+"kCTErrorRequestedFacilityNotSubscribed" = "Requested Facility Not Subscribed";
+"Forwards to %@
+" = "Forwards to %@
+";
+"kCTErrorNumberNotAllowed" = "Number not Allowed";
+"kCTErrorNetworkOutOfOrder" = "Network Out-of-Order";
+"kCTErrorGprsServicesNotAllowed" = "GPRS Services Not Allowed";
+"%@ Call Forwarding
+%@
+%@%@" = "%@ Call Forwarding
+%@
+%@%@";
+"kCTUnknownError" = "Unknown Error";
+"All Calls" = "All Calls";
+"Outgoing International, Except Home Country" = "Outgoing International, Except Home Country";
+"kCTErrorClass0NotSupported" = "Class 0 Not Supported";
+"CHARS_REMAINING" = "{'Comment': 'The number of characters remaining to input into a text field', 'charsremaining': {'one': '1 character remaining', 'other': '%d characters remaining', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@charsremaining@'}";
+"kCTErrorMessageNotCompatibleWithProtocolState" = "Message Not Compatible With Protocol State";
+"CLASS0SMS_ABOUT_TITLE" = "About Flash SMS Messages";
+"kCTErrorRequestedFacilityNotImplemented" = "Requested Facility Not Implemented";
+"DISMISS_SIM_TOOLKIT" = "Dismiss";
+"kCTErrorMessageTypeNonExistant" = "Message Type Nonexistent";
+"kCTErrorTpduNotSupported" = "TPDU Not Supported";
+"SIMTK_DTMF_MESSAGE_SENT" = "Your SIM sent DTMF tones.";
+"SIMTK_HIGH_PRIORITY_CALL_ALERT" = "Your SIM would like to place a phone call.  Your current phone calls will be disconnected.";
+"NO" = "No";
+"Outgoing International" = "Outgoing International";
+"kCTErrorScBusy" = "SC Busy";
+"kCTErrorSimPukRequired" = "SIM PUK Required";
+"Incoming, Not On SIM" = "Incoming, Not On SIM";
+"kCTErrorNumberChanged" = "Number Changed";
+"kCTErrorProtocolErrorUnspecified" = "Protocol Error Unspecified";
+"USSD_ERROR" = "Error performing request";
+"%@ Call Waiting
+%@" = "%@ Call Waiting
+%@";
+"Calling Line Presentation
+%@" = "Calling Line Presentation
+%@";
+"kCTErrorCallBarred" = "Call Barred";
+"Not Available" = "Not Available";
+"REPLY" = "Reply";
+"PLEASE_WAIT" = "Please Wait…";
+"kCTErrorSimPinRequired" = "SIM PIN Required";
+"kCTErrorInvalidTransactionIdentifier" = "Invalid Transaction Identifier";
+"SIMTK_PLAY_TONE" = "Your SIM played a tone.";
+"kCTErrorCannotReplaceSm" = "Cannot Replace SIM";
+"SIMTK_CALL_ALERT" = "Your SIM would like to place a phone call.";
+"CALL_FAILED" = "Call Failed";
+"DISMISS_ALERT" = "Dismiss";
+"USSD_TERMINATED" = "Session Terminated";
+"CLASS0SMS_ALERT_TITLE" = "SMS Message";
+"CLASS0SMS_CLASS_0_SMS" = "Class 0 SMS";
+"Setting Interrogation Succeeded" = "Setting Interrogation Succeeded
+";
+"Deactivation" = "Deactivation";
+"kCTErrorInvalidNumberFormat" = "Invalid Number Format";
+"When Unreachable" = "When Unreachable";
+"kCTErrorShortMessageTransferRejected" = "Short Message Transfer Rejected";
+"CLASS0SMS_ABOUT_BODY" = "A %@, or %@, is a special type of text message that is displayed immediately on your screen, is not stored on your device when you dismiss it, and will notify the sender that it has been received.
+
+Flash SMS messages are sometimes used during emergency situations, however these messages may be used in an attempt to fraudulently acquire personal information from you, such as your account password or credit card information, or encourage you to visit a misleading website. Be cautious of messages sent to you by someone you don’t know.";
+"kCTErrorOperatorDeterminedBarring" = "Operator Determined Barring";
+"On All Calls" = "On All Calls";
+"ACCEPT" = "Accept";
+"SIMTK_MEDIUM_PRIORITY_CALL_ALERT" = "Your SIM would like to place a phone call.  Your current phone calls will be placed on hold.";
+"kCTErrorNoNetworkService" = "No Network Service";
+"kCTErrorFacilityRejected" = "Facility Rejected";
+"kCTErrorNoUserResponding" = "No User Responding";
+"SIMTK_SS_MESSAGE_SENT" = "Your SIM sent a supplementary service message.";
+"Disabled" = "Disabled";
+"kCTErrorResourcesUnavailable" = "Resources Unavailable";
+"kCTErrorTemporaryFailure" = "Temporary Failure";
+"kCTErrorUnspecifiedPid" = "Unspecified PID";
+"SEND" = "Send";
+"kCTErrorGprsUnspecified" = "GPRS Unspecified";
+"kCTErrorIncorrectPassword" = "Incorrect Password";
+"kCTErrorGprsIllegalMs" = "GPRS Illegal MS";
+"kCTErrorInvalidMandatoryInformation" = "Invalid Mandatory Information";
+"kCTErrorInformationElementNonExistant" = "Information Element Nonexistent";
+"Calling Line ID Restriction
+%@" = "Calling Line ID Restriction
+%@";
+"kCTErrorGprsServiceOptionNotSupported" = "GPRS Service Option Not Supported";
+"CLASS0SMS_ALERT_LEARN_MORE_TITLE" = "Why did I receive this message?";
+"Connected Line Presentation
+%@" = "Connected Line Presentation
+%@";
+"No Service Specified" = "No Service Specified";
+"Service Center Address
+%@" = "Service Center Address
+%@";
+"kCTBadPinFormatError" = "Bad PIN Format";
+"kCTErrorSimNotInserted" = "SIM Not Inserted";
+"Async Data Circuit" = "Async Data Circuit";
+"kCTErrorCommandUnsupported" = "Command Unsupported";
+"All Outgoing Services" = "All Outgoing Services";
+"Voice" = "Voice";
+"kCTErrorGprsMissingorUnknownAPN" = "GPRS Missing or Unknown APN";
+"When Unanswered" = "When Unanswered";
+"kCTErrorCallRejected" = "Call Rejected";
+"SIMTK_USSD_MESSAGE_SENT" = "Your SIM sent a USSD message.";
+"Setting %@ Succeeded" = "Setting %@ Succeeded
+";
+"kCTErrorGprsInvalidMobileClass" = "GPRS Invalid Mobile Class";
+"Temporarily Enabled" = "Temporarily Enabled";
+"Sync Data Circuit" = "Sync Data Circuit";
+"kCTErrorRejectedBySimSmsControl" = "Rejected by SIM SMS Control";
+"Fax" = "Fax";
+"%@ Fixed Dialing
+%@" = "%@ Fixed Dialing
+%@";
+"Pad Access" = "Pad Access";
+"Registration" = "Registration";
+"Setting %@ Failed" = "Setting %@ Failed
+";
+"Enabled" = "Enabled";
+"Data" = "Data";
+"CLASS_0_ALERT_MESSAGE_FROM" = "Message from %@:";
+"All Incoming Services" = "All Incoming Services";
+"Supplementary Service Password
+%@" = "Supplementary Service Password
+%@";
+"Erasure" = "Erasure";
+"kCTErrorCommandCannotBeActioned" = "Command Cannot Be Actioned";
+"Incoming While Roaming Outside Home Country" = "Incoming While Roaming Outside Home Country";
+"kCTErrorRadioFailure" = "Radio Failure";
+"kCTErrorUnknownSubscriber" = "Unknown Subscriber";
+"Type %d" = "Type %d";
+"kCTErrorUnassignedNumber" = "Unassigned Number";
+"kCTErrorSimMemoryFailure" = "SIM Memory Failure";
+"kCTErrorInterworkingError" = "Interworking Error";
+"kCTErrorGprsRoamingNotAllowedInLocationArea" = "GPRS Roaming Not Allowed In Location Area";
+"All Services" = "All Services";
+"kCTErrorGprsPlmnNotAllowed" = "GPRS PLMN Not Allowed";
+"SMS" = "SMS";
+"kCTErrorGprsIllegalMe" = "GPRS Illegal ME";
+"YES" = "Yes";
+"kCTNoError" = "No Error";
+"Activation" = "Activation";
+"Setting Interrogation Failed" = "Setting Interrogation Failed
+";
+"No Address" = "No Address";
+"kCTErrorUnidentifiedSubscriber" = "Unidentified Subscriber";
+"SIM Lock
+%@" = "SIM Lock
+%@";
+"%@ Call Barring
+%@
+%@" = "%@ Call Barring
+%@
+%@";
+"Packet Access" = "Packet Access";
+"When Busy" = "When Busy";
+"CLASS0SMS_FLASH_SMS" = "Flash SMS";
+"kCTErrorUserBusy" = "User Busy";

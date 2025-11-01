@@ -1,0 +1,37 @@
+"SPLASH_TITLE" = "Advanced Data Protection Analytics & Privacy";
+"FOOTER_TEXT" = "We work hard to collect only the data we need to make your experience better, and when we do collect data, we believe it’s important for you to know what we’re collecting and why we need it so you can make informed choices. Advanced Data Protection, like every Apple product and service, is designed with these principles in mind.
+
+Advanced Data Protection for iCloud is an optional setting that offers Apple’s highest level of cloud data security by offering end-to-end encryption for a majority of your iCloud data. While iCloud already protects sensitive data categories with end-to-end encryption, including passwords, iCloud Keychain, and Health data, Advanced Data Protection expands the categories of data protected by end-to-end encryption by including additional categories, including iCloud Backup, Notes, Photos, and more.
+
+When Advanced Data Protection is enabled, Apple does not have the encryption keys needed to help you recover your end-to-end encrypted data. If you ever lose access to your account, you’ll need to use one of your account recovery methods — your device passcode or password, your recovery contact, or recovery key — which are unknown to Apple, in order to recover your iCloud data. Because the majority of your iCloud data will be protected by end-to-end encryption, you’ll be guided to set up at least one recovery contact or recovery key before you turn on Advanced Data Protection.
+
+In order to improve and ensure the reliability of the account and data recovery processes, Apple collects certain limited information associated with your Apple Account when you enable Advanced Data Protection, including:
+
+• The success or failure rate of enabling or disabling Advanced Data Protection.
+
+• The journey and number of times you succeed or encounter issues when signing in to an Apple Account, setting up a new device using another device you already own in close proximity, updating your Apple Account settings, and authenticating in to your account to access your data.
+
+• Events that capture the performance and reliability of your creation and use of recovery contacts, including your interactions with the recovery contact process when assigning a recovery contact and when using the recovery contact to recover access to your data. Apple does not know, or have access to, your recovery contacts.
+
+• Events that capture the performance and reliability of your creation and use of recovery keys, including your interactions with the recovery key creation process, and events associated with the process when you use your recovery key to recover access to your data. Apple does not know, or have access to, your recovery key.
+
+• Events that capture the performance and reliability of using your device passcode or password to recover access to your data, including how often you succeed or encounter issues when attempting to recover data using knowledge of your passcodes, and your journey and interactions with the recovery process when using your passcode as the recovery method. Apple does not know, or have access to, your device passcode or password.
+
+• Data about how encryption keys are managed on your device when you enable or disable Advanced Data Protection, including how often encryption keys are rolled, and the events associated with the process of resetting and deleting all of your iCloud data to determine the effect of failed account and data recovery.
+
+Applicable Legal Basis for Processing Personal Data
+
+We process your personal data generally for performance of your contract with Apple, as necessary for providing the service, and to comply with our legal obligations. Where consent is the appropriate legal basis, we seek it in accordance with applicable law.
+
+Retention
+
+Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in this notice and in accordance with Apple’s Privacy Policy, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest legal period permissible under law.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy";
+"BUTTON_TITLE" = "See how your data is managed…";
+"SECOND_BULLET" = "You must set up a recovery key and/or one or more recovery contacts in order to enable Advanced Data Protection. Because Apple does not have the keys required to recover your data, only your account recovery methods can help you get your data back if you lose access.";
+"BUTTON_CAPTION" = "When you enable Advanced Data Protection, Apple collects limited information related to your use of the feature and information about account recovery. This information is associated with your Apple Account and is used to improve the feature and to ensure the reliability of the account and data recovery processes.";
+"THIRD_BULLET" = "Given the critical importance of data recovery, if you enable Advanced Data Protection, Apple collects limited information about your use of the feature, your interactions with account recovery methods, and information about how your encryption keys are handled in order to improve and ensure the reliability of the account and data recovery processes.";
+"SPLASH_SUMMARY" = "Advanced Data Protection uses end-to-end encryption to provide Apple’s highest level of cloud data security and is designed to protect your information.";
+"SPLASH_SHORT_TITLE" = "Advanced Data Protection";
+"FIRST_BULLET" = "Advanced Data Protection uses end-to-end encryption to ensure that a majority of your iCloud data can only be decrypted from your trusted devices.";

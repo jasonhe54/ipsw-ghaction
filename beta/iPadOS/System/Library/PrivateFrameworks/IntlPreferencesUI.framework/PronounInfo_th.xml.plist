@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayedMorphologies</key>
+	<array>
+		<string>nominative-first</string>
+	</array>
+	<key>ExampleStringPlaceholders</key>
+	<array>
+		<string>ดิฉัน</string>
+	</array>
+	<key>ExampleStrings</key>
+	<array>
+		<string>เมื่อวานนี้ %@ ไปซื้อของ</string>
+	</array>
+	<key>KnownPronouns</key>
+	<array/>
+	<key>LegalCharactersRegex</key>
+	<string>[[\p{letter}\p{mark}]&amp;&amp;[\p{script=thai}]]*</string>
+	<key>MaxPronounLength</key>
+	<integer>10</integer>
+</dict>
+</plist>

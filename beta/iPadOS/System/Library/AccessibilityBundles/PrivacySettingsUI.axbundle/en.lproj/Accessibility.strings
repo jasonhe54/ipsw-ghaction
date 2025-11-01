@@ -1,0 +1,4 @@
+"tracking.used.recently" = "{'hours': {'one': '%d hour', 'other': '%d hours', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': 'Requested your location within the last %#@hours@'}";
+"tracking.used.currently" = "Currently using your location";
+"tracking.used.none.recently" = "Requested your location in the past.";
+"tracking.geofence.enabled" = "Monitoring your region with a geo fence";

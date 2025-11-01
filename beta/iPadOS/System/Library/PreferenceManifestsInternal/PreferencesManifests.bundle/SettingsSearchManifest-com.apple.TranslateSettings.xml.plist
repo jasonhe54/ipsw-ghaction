@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>TRANSLATE_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>TRANSLATE_KEYWORDS</string>
+			<key>label</key>
+			<string>TRANSLATE</string>
+			<key>searchSectionID</key>
+			<string>TRANSLATE</string>
+			<key>searchURL</key>
+			<string>prefs:root=TRANSLATE</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>TRANSLATE_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>TRANSLATE_KEYWORDS</string>
+			<key>label</key>
+			<string>ON_DEVICE_MODE</string>
+			<key>searchSectionID</key>
+			<string>TRANSLATE</string>
+			<key>searchURL</key>
+			<string>prefs:root=TRANSLATE#OnDeviceOnly</string>
+		</dict>
+	</array>
+	<key>specifierAttributes</key>
+	<dict>
+		<key>requiredCapabilities</key>
+		<array>
+			<dict>
+				<key>retail-kiosk-mode</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

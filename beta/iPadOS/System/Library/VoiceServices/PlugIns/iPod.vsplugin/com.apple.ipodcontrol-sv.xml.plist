@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>play</string>
+				<string>play musik</string>
+				<string>spela</string>
+				<string>spela musik</string>
+				<string>börja spela musik</string>
+				<string>börja spela</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>paus</string>
+				<string>pausa</string>
+				<string>pausa musik</string>
+				<string>pausa uppspelning</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>play</string>
+				<string>spela</string>
+				<string>börja spela</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>nästa</string>
+				<string>kommande</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>föregånde</string>
+				<string>förra</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>shuffle</string>
+				<string>blanda</string>
+				<string>slumpordning</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>spår</string>
+				<string>låt</string>
+				<string>spåret</string>
+				<string>låten</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>playlist</string>
+				<string>spellista</string>
+				<string>spellistan</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>låtar med</string>
+				<string>musik med</string>
+				<string>låtar av</string>
+				<string>musik av</string>
+				<string>artisten</string>
+				<string>artist</string>
+				<string>band</string>
+				<string>bandet</string>
+				<string>grupp</string>
+				<string>gruppen</string>
+				<string>orkester</string>
+				<string>orkestern</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>album</string>
+				<string>albumet</string>
+				<string>skiva</string>
+				<string>skivan</string>
+				<string>CD</string>
+				<string>CD:n</string>
+				<string>CD-skiva</string>
+				<string>CD-skivan</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>spela fler låtar som den här</string>
+				<string>spela mer musik som den här</string>
+				<string>spela liknande musik</string>
+				<string>spela mer som den här</string>
+				<string>spela mer som liknar den här</string>
+				<string>spela mer musik som liknar den här</string>
+				<string>spela mer som denna</string>
+				<string>spela mer som liknar denna</string>
+				<string>spela mer musik som liknar denna</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>vilken låt är det här</string>
+				<string>vad heter den här låten</string>
+				<string>vem sjunger den här låten</string>
+				<string>vad spelas nu</string>
+				<string>vilken låt spelas nu</string>
+				<string>vem är det som har gjort den här låten</string>
+				<string>vilken grupp har gjort den här låten</string>
+				<string>vilket band har gjort den här låten</string>
+				<string>vad heter det här spåret</string>
+				<string>vilket spår spelas nu</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>spela</string>
+			<string>spela musik</string>
+			<string>börja spela musik</string>
+			<string>börja spela</string>
+		</array>
+		<array>
+			<string>paus</string>
+			<string>pausa</string>
+			<string>pausa musik</string>
+			<string>pausa uppspelning</string>
+		</array>
+		<array>
+			<string>nästa låt</string>
+			<string>kommande låt</string>
+			<string>nästa spår</string>
+			<string>kommande spår</string>
+		</array>
+		<array>
+			<string>föregående låt</string>
+			<string>föregående spår</string>
+			<string>förra låten</string>
+			<string>förra spåret</string>
+		</array>
+		<array>
+			<string>shuffle</string>
+			<string>blanda</string>
+			<string>slumpordning</string>
+		</array>
+		<array>
+			<string>spela albumet "..."</string>
+			<string>börja spela album "..."</string>
+			<string>spela skivan "..."</string>
+			<string>börja spela skiva "..."</string>
+			<string>spela CD:n "..."</string>
+			<string>börja spela CD "..."</string>
+			<string>spela CD-skivan "..."</string>
+			<string>börja spela CD-skiva "..."</string>
+		</array>
+		<array>
+			<string>spela låtar med "..."</string>
+			<string>spela musik med "..."</string>
+			<string>spela låtar av "..."</string>
+			<string>spela musik av "..."</string>
+			<string>spela artisten "..."</string>
+			<string>spela bandet "..."</string>
+			<string>spela gruppen "..."</string>
+			<string>spela orkestern "..."</string>
+		</array>
+		<array>
+			<string>spela spellistan "..."</string>
+			<string>börja spela spellista "..."</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>spela fler låtar som den här</string>
+			<string>spela mer musik som den här</string>
+			<string>spela liknande musik</string>
+			<string>spela mer musik som liknar den här</string>
+			<string>spela mer musik som liknar denna</string>
+		</array>
+		<array>
+			<string>vilken låt är det här?</string>
+			<string>vad heter den här låten?</string>
+			<string>vem sjunger den här låten?</string>
+			<string>vad spelas nu?</string>
+			<string>vilken låt spelas nu?</string>
+			<string>vem är det som har gjort den här låten?</string>
+			<string>vilken grupp har gjort den här låten?</string>
+			<string>vilket band har gjort den här låten?</string>
+			<string>vad heter det här spåret?</string>
+			<string>vilket spår spelas nu?</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

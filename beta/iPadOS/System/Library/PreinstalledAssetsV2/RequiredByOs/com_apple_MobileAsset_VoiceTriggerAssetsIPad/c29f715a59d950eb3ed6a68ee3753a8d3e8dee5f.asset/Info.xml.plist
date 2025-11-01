@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.VoiceTriggerAssetsIPad</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6</string>
+	<key>CFBundleName</key>
+	<string>VoiceTriggerAssetsIPad-de-CH</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>Footprint</key>
+		<string>Compact</string>
+		<key>FormatVersion</key>
+		<string>1</string>
+		<key>Languages</key>
+		<array>
+			<string>de-CH</string>
+			<string>de-AT</string>
+		</array>
+		<key>_CompatibilityVersion</key>
+		<integer>19</integer>
+		<key>_ContentVersion</key>
+		<integer>30</integer>
+		<key>__AssetDefaultGarbageCollectionBehavior</key>
+		<string>NeverCollected</string>
+		<key>__MinimumLifetime</key>
+		<integer>1</integer>
+		<key>__RequiredByOS</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

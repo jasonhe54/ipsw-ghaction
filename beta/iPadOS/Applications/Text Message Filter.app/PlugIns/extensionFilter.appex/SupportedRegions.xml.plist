@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Allow Test Phone Numbers</key>
+		<array/>
+		<key>Country Code Prefix</key>
+		<string>+91</string>
+		<key>Country Code Prefix Length</key>
+		<integer>3</integer>
+		<key>Dominant Language</key>
+		<string>en</string>
+		<key>Model Pipeline</key>
+		<integer>1</integer>
+		<key>Phone Number Length</key>
+		<array>
+			<integer>10</integer>
+		</array>
+		<key>RegionName</key>
+		<string>in</string>
+		<key>Retry Wait Timer In Minutes</key>
+		<integer>60</integer>
+		<key>SmsFilter Supported</key>
+		<true/>
+		<key>Sub Classification Model Available</key>
+		<true/>
+		<key>Sub Classification Promotional Capabilities</key>
+		<array/>
+		<key>Sub Classification Transactional Capabilities</key>
+		<array>
+			<integer>10001</integer>
+			<integer>10002</integer>
+			<integer>10003</integer>
+		</array>
+		<key>Trial</key>
+		<dict>
+			<key>Namespace Name</key>
+			<string>SMS_FILTER_INEN_CLASSIFICATION</string>
+			<key>Trial Supported</key>
+			<true/>
+		</dict>
+		<key>basicModel Available</key>
+		<false/>
+		<key>mainModel Available</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Allow Test Phone Numbers</key>
+		<array/>
+		<key>Country Code Prefix</key>
+		<string>+55</string>
+		<key>Country Code Prefix Length</key>
+		<integer>3</integer>
+		<key>Dominant Language</key>
+		<string>pt</string>
+		<key>Model Pipeline</key>
+		<integer>1</integer>
+		<key>Phone Number Length</key>
+		<array>
+			<integer>11</integer>
+		</array>
+		<key>RegionName</key>
+		<string>br</string>
+		<key>Retry Wait Timer In Minutes</key>
+		<integer>60</integer>
+		<key>SmsFilter Supported</key>
+		<true/>
+		<key>Sub Classification Model Available</key>
+		<false/>
+		<key>Sub Classification Promotional Capabilities</key>
+		<array/>
+		<key>Sub Classification Transactional Capabilities</key>
+		<array/>
+		<key>Trial</key>
+		<dict>
+			<key>Namespace Name</key>
+			<string>SMS_FILTER_BRPT_CLASSIFICATION</string>
+			<key>Trial Supported</key>
+			<true/>
+		</dict>
+		<key>basicModel Available</key>
+		<true/>
+		<key>mainModel Available</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>Allow Test Phone Numbers</key>
+		<array/>
+		<key>Country Code Prefix</key>
+		<string>+1</string>
+		<key>Country Code Prefix Length</key>
+		<integer>2</integer>
+		<key>Dominant Language</key>
+		<string>en</string>
+		<key>Model Pipeline</key>
+		<integer>2</integer>
+		<key>Phone Number Length</key>
+		<array>
+			<integer>10</integer>
+		</array>
+		<key>RegionName</key>
+		<string>us</string>
+		<key>Retry Wait Timer In Minutes</key>
+		<integer>60</integer>
+		<key>SmsFilter Supported</key>
+		<true/>
+		<key>Sub Classification Model Available</key>
+		<true/>
+		<key>Sub Classification Promotional Capabilities</key>
+		<array/>
+		<key>Sub Classification Transactional Capabilities</key>
+		<array>
+			<integer>10001</integer>
+			<integer>10002</integer>
+			<integer>10003</integer>
+		</array>
+		<key>Trial</key>
+		<dict>
+			<key>Namespace Name</key>
+			<string>SMS_FILTER_FELIS</string>
+			<key>Trial Supported</key>
+			<true/>
+		</dict>
+		<key>basicModel Available</key>
+		<false/>
+		<key>mainModel Available</key>
+		<true/>
+	</dict>
+</array>
+</plist>

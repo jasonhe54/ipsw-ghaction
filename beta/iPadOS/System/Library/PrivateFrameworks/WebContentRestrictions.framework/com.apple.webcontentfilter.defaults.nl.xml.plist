@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.donaldduck.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Donald Duck</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.nickelodeon.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Nickelodeon</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.willemwever.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Willem Wever</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.jeugdbieb.nl</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>JeugdBieb</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.jeugdjournaal.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Jeugdjournaal</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.nationalgeographic.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>National Geographic</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.netwijs.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Net wijs</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.cartoonnetwork.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Cartoon Network</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.zappelin.nl/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Zappelin</string>
+		</dict>
+	</array>
+</dict>
+</plist>

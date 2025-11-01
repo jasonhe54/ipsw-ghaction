@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.checkerboardd</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>osenvironment</key>
+		<array>
+			<string>diagnostics</string>
+		</array>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.checkerboardd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/checkerboardd</string>
+	</array>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.maccheckerboardd.remoteservice</key>
+		<dict>
+			<key>ExposedToUntrustedDevices</key>
+			<true/>
+			<key>RequireEntitlement</key>
+			<string>com.apple.maccheckerboardd.remoteservice</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>ServiceVersion</key>
+				<integer>1</integer>
+				<key>UsesRemoteXPC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

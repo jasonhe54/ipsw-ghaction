@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>PHOTOS</string>
+			<key>label</key>
+			<string>PHOTOS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>allowPinchToZoom:</string>
+			<key>id</key>
+			<string>ALLOW_PINCH_TO_ZOOM_TOGGLE</string>
+			<key>label</key>
+			<string>ALLOW_PINCH_TO_ZOOM</string>
+			<key>set</key>
+			<string>setAllowPinchToZoom:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>isIncludeSharedAlbumsEnabled:</string>
+			<key>id</key>
+			<string>INCLUDE_SHARED_ALBUMS_TOGGLE</string>
+			<key>label</key>
+			<string>INCLUDE_SHARED_ALBUMS</string>
+			<key>set</key>
+			<string>setIncludeSharedAlbumsEnabled:specifier:</string>
+		</dict>
+	</array>
+</dict>
+</plist>

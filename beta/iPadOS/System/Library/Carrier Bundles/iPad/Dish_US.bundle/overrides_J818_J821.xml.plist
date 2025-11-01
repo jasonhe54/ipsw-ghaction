@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowAttachAPNEditing</key>
+	<false/>
+	<key>AllowSAOnWiFiAssociation</key>
+	<true/>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.7</string>
+	<key>DisallowCarrierMenuAtHome</key>
+	<true/>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>Enable5GStandaloneByDefault</key>
+	<true/>
+	<key>EnableTARandomizationByDefault</key>
+	<true/>
+	<key>MTU</key>
+	<array>
+		<dict>
+			<key>size</key>
+			<integer>1430</integer>
+			<key>technology-mask</key>
+			<integer>24</integer>
+		</dict>
+	</array>
+	<key>Show5GStandaloneSwitch</key>
+	<false/>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowHighDataModeSwitch</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<false/>
+</dict>
+</plist>

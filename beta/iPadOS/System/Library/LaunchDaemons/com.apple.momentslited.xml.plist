@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.momentslited</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.momentslited.bootstrap</key>
+			<dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>86400</integer>
+					<key>MinDurationBetweenInstances</key>
+					<integer>5</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>C</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.momentslited</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/momentslited</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>
