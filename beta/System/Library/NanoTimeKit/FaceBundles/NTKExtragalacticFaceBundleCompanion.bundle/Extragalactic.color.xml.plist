@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>extragalactic</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>gold</string>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>items</key>
+			<array>
+				<string>black</string>
+				<string>gold</string>
+				<string>red</string>
+				<string>orange</string>
+				<string>green</string>
+				<string>blue</string>
+				<string>purple</string>
+				<string>pink</string>
+				<string>cream</string>
+				<string>gray</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-#</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string># №</string>
+		<key>Strings</key>
+		<string># №</string>
+	</dict>
+	<key>Roman-Accent-Е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ё Е</string>
+		<key>Strings</key>
+		<string>Ё Е</string>
+	</dict>
+	<key>Roman-Accent-Ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ь Ъ</string>
+		<key>Strings</key>
+		<string>Ь Ъ</string>
+	</dict>
+	<key>Roman-Accent-е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ё е</string>
+		<key>Strings</key>
+		<string>ё е</string>
+	</dict>
+	<key>Roman-Accent-ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ь ъ</string>
+		<key>Strings</key>
+		<string>ь ъ</string>
+	</dict>
+	<key>Roman-Accent-№</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string># №</string>
+		<key>Strings</key>
+		<string># №</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>АБВ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>Жирный</string>
+	<key>UI-Buy</key>
+	<string>Купить</string>
+	<key>UI-Cancel</key>
+	<string>Отменить</string>
+	<key>UI-Clear</key>
+	<string>Очистить</string>
+	<key>UI-Continue</key>
+	<string>Продолжить</string>
+	<key>UI-Copy</key>
+	<string>Скопировать</string>
+	<key>UI-Cut</key>
+	<string>Вырезать</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Delete</key>
+	<string>Удалить</string>
+	<key>UI-Done</key>
+	<string>Готово</string>
+	<key>UI-EmergencyCall</key>
+	<string>Экстренный
+вызов</string>
+	<key>UI-Go</key>
+	<string>Перейти</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>РУ</string>
+	<key>UI-Italic</key>
+	<string>Курсив</string>
+	<key>UI-Join</key>
+	<string>Подкл.</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Русская</string>
+	<key>UI-Next</key>
+	<string>Далее</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>А Б В Г</string>
+	<key>UI-NumberPad-3</key>
+	<string>Д Е Ж З</string>
+	<key>UI-NumberPad-4</key>
+	<string>И Й К Л</string>
+	<key>UI-NumberPad-5</key>
+	<string>М Н О П</string>
+	<key>UI-NumberPad-6</key>
+	<string>Р С Т У</string>
+	<key>UI-NumberPad-7</key>
+	<string>Ф Х Ц Ч</string>
+	<key>UI-NumberPad-8</key>
+	<string>Ш Щ Ъ Ы</string>
+	<key>UI-NumberPad-9</key>
+	<string>Ь Э Ю Я</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>Вставить</string>
+	<key>UI-Pause</key>
+	<string>пауза</string>
+	<key>UI-Prediction</key>
+	<string>Смахните вниз, чтобы закрыть</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₽</string>
+	<key>UI-Recents</key>
+	<string>Недавние</string>
+	<key>UI-Redo</key>
+	<string>Повторить</string>
+	<key>UI-Return</key>
+	<string>Ввод</string>
+	<key>UI-Route</key>
+	<string>Маршрут</string>
+	<key>UI-Search</key>
+	<string>Найти</string>
+	<key>UI-Send</key>
+	<string>Отправить</string>
+	<key>UI-Space</key>
+	<string>Пробел</string>
+	<key>UI-Speak</key>
+	<string>Произнести</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .рф .ru .org .edu</string>
+		<key>Strings</key>
+		<string>.com .рф .ru .org .edu</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>Подчеркнутый</string>
+	<key>UI-Undo</key>
+	<string>Отменить</string>
+	<key>UI-Wait</key>
+	<string>ожидание</string>
+	<key>UI-abc</key>
+	<string>абв</string>
+</dict>
+</plist>

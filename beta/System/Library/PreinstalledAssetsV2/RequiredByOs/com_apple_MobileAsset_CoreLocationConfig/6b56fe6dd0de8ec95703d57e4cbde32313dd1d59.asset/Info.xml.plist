@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.CoreLocationConfig</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6</string>
+	<key>CFBundleName</key>
+	<string>CoreLocationConfig-GNSS-iPad-iPad13,19_14,2</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>Component</key>
+		<string>GNSS</string>
+		<key>DeviceType</key>
+		<array>
+			<string>iPad</string>
+		</array>
+		<key>Devices</key>
+		<array>
+			<string>iPad13,19</string>
+			<string>iPad14,2</string>
+		</array>
+		<key>_CompatibilityVersion</key>
+		<string>2</string>
+		<key>_ContentVersion</key>
+		<string>2</string>
+		<key>__AssetDefaultGarbageCollectionBehavior</key>
+		<string>NeverCollected</string>
+		<key>__RequiredByOS</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

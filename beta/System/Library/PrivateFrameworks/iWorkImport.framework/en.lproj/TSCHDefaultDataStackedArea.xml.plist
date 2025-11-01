@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Grid</key>
+	<dict>
+		<key>Values</key>
+		<array>
+			<array>
+				<string>27</string>
+				<string>36</string>
+				<string>63</string>
+				<string>143</string>
+			</array>
+			<array>
+				<string>55</string>
+				<string>43</string>
+				<string>80</string>
+				<string>48</string>
+			</array>
+		</array>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>ColumnNames</key>
+			<array>
+				<string>April</string>
+				<string>May</string>
+				<string>June</string>
+				<string>July</string>
+			</array>
+			<key>RowNames</key>
+			<array>
+				<string>Region 1</string>
+				<string>Region 2</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Model</key>
+	<dict/>
+</dict>
+</plist>

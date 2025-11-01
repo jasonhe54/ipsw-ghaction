@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ActionPredictionSessionDataHarvestMaxItems</key>
+	<integer>10</integer>
+	<key>ActionPredictionSessionDataHarvestSamplingRate</key>
+	<real>0.25</real>
+	<key>AppPredictionSessionDataHarvestMaxItems</key>
+	<integer>13</integer>
+	<key>AppPredictionSessionDataHarvestSamplingRate</key>
+	<real>0.01</real>
+	<key>DocumentPredictionSessionDataHarvestMaxItems</key>
+	<integer>11</integer>
+	<key>DocumentPredictionSessionDataHarvestSamplingRate</key>
+	<real>0.25</real>
+	<key>ExtraItemsToLog</key>
+	<integer>6</integer>
+</dict>
+</plist>

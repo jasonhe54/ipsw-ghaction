@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>53</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AllowedServicesTypeMaskOnInternet</key>
+	<integer>32769</integer>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>AllowedProtocolMaskInRoamingLTE</key>
+			<integer>3</integer>
+			<key>AllowedProtocolMaskInRoamingUMTS</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string></string>
+			<key>enableXLAT464</key>
+			<true/>
+			<key>password</key>
+			<string></string>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>CarrierEntitlements</key>
+	<dict>
+		<key>Authentication</key>
+		<dict>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>Username</key>
+			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+		</dict>
+		<key>ProtocolVersion</key>
+		<string>2</string>
+		<key>ServerAddress</key>
+		<string>https://ses-prod.turkcell.com.tr</string>
+		<key>SupportedActions</key>
+		<array>
+			<string>TransferSIMService</string>
+		</array>
+		<key>SupportedEntitlements</key>
+		<integer>5121</integer>
+		<key>UpdatePeriod</key>
+		<integer>24</integer>
+	</dict>
+	<key>CarrierName</key>
+	<string>Turkcell</string>
+	<key>CellBroadcast</key>
+	<dict>
+		<key>AlertConfigurations</key>
+		<dict>
+			<key>Configuration_turkey</key>
+			<dict>
+				<key>OverrideDefaultDisplayOrder</key>
+				<true/>
+				<key>Sound</key>
+				<string>cbs_alert_us.caf</string>
+				<key>Vibration</key>
+				<string>cbs_vibe_us.plist</string>
+			</dict>
+		</dict>
+		<key>AlertTypes</key>
+		<dict>
+			<key>Life Threatening Alert Notification</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>Life Threatening Alert Notification</string>
+				<key>SoundAlertDeviceInMute</key>
+				<true/>
+				<key>SwitchName</key>
+				<string>Life Threatening Alert Notification</string>
+				<key>UserConfigurable</key>
+				<true/>
+			</dict>
+			<key>Lost/Kidnap Alert Notification</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>Lost/Kidnap Alert Notification</string>
+				<key>SoundAlertDeviceInMute</key>
+				<true/>
+				<key>SwitchName</key>
+				<string>Lost/Kidnap Alert Notification</string>
+				<key>UserConfigurable</key>
+				<true/>
+			</dict>
+			<key>State Alert Notification</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<true/>
+				<key>NotificationTitle</key>
+				<string>State Alert Notification</string>
+				<key>SoundAlertDeviceInMute</key>
+				<true/>
+				<key>SwitchName</key>
+				<string>State Alert Notification</string>
+				<key>UserConfigurable</key>
+				<false/>
+			</dict>
+			<key>Test Alert Notification</key>
+			<dict>
+				<key>EnabledByDefault</key>
+				<false/>
+				<key>NotificationTitle</key>
+				<string>Test Alert Notification</string>
+				<key>SoundAlertDeviceInMute</key>
+				<true/>
+				<key>SwitchName</key>
+				<string>Test Alert Notification</string>
+				<key>UserConfigurable</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>MessageIDParameters3GPP</key>
+		<array>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>Lost/Kidnap Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4379</integer>
+				<key>ToServiceID</key>
+				<integer>4379</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>Lost/Kidnap Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4392</integer>
+				<key>ToServiceID</key>
+				<integer>4392</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>Life Threatening Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4371</integer>
+				<key>ToServiceID</key>
+				<integer>4378</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>Life Threatening Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4384</integer>
+				<key>ToServiceID</key>
+				<integer>4391</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>State Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4370</integer>
+				<key>ToServiceID</key>
+				<integer>4370</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>State Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4383</integer>
+				<key>ToServiceID</key>
+				<integer>4383</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>Test Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4380</integer>
+				<key>ToServiceID</key>
+				<integer>4382</integer>
+			</dict>
+			<dict>
+				<key>AlertConfiguration</key>
+				<string>Configuration_turkey</string>
+				<key>AlertType</key>
+				<string>Test Alert Notification</string>
+				<key>FromServiceID</key>
+				<integer>4393</integer>
+				<key>ToServiceID</key>
+				<integer>4395</integer>
+			</dict>
+		</array>
+		<key>MinimumDeviceCategorySupported</key>
+		<integer>10</integer>
+		<key>SwitchGroupTitle</key>
+		<string>Emergency Notifications</string>
+	</dict>
+	<key>EnableLTEAfterUpgrade</key>
+	<true/>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>0anonymous</string>
+		<key>Certificate</key>
+		<string>MIIG7DCCBdSgAwIBAgITEQAEFxN4pJQT8p+a3wABAAQXEzANBgkqhkiG9w0BAQsF
+ADBoMRMwEQYKCZImiZPyLGQBGRYDdGdjMRQwEgYKCZImiZPyLGQBGRYEZW50cDEY
+MBYGCgmSJomT8ixkARkWCHR1cmtjZWxsMSEwHwYDVQQDExhUdXJrY2VsbCBFbnRl
+cnByaXNlIENBIDQwHhcNMjEwMTI3MTI1MDM2WhcNMjMwMTI3MTI1MDM2WjCBojEL
+MAkGA1UEBhMCVFIxDzANBgNVBAgTBktBUlRBTDERMA8GA1UEBxMISVNUQU5CVUwx
+ETAPBgNVBAoTCFRVUktDRUxMMQswCQYDVQQLEwJOVDEiMCAGA1UEAxMZd3d3Lmlt
+c2kyLnR1cmtjZWxsLmNvbS50cjErMCkGCSqGSIb3DQEJARYcY2V5aHVuLmt1bXVz
+QHR1cmtjZWxsLmNvbS50cjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AKszkEDyJ4pW+JGRI+sNhF3ukTyQO9vmBYwfBtfSH15x3kXJIyumU2NFqEoxg7+Q
+RRTAusB4zsRdOlHEEVkjKylPWkwCBMYLgiy5e96PxWjgYh5pdJc8erux/3tovFXv
+DwYT9A3LwtL+WLaZgve3i8nrrGQwVJohAcSwS3KXd0kR0g4UPWZcLK16XD4hwySD
+h7bFRx4+zfQyQDqjCvBOLi+Bd9MnRDJoCFDo/tB9cAyqq/ERhZw7gwpoQFaBrJ2K
+bYiJrEKwULJ33tERH51JBBvkxJaXFP6Mf5D+46L4RbT4DSXb5lr/Xs3vAaMVWstx
+hrBRkauX/dCtsIzMfP0u0U0CAwEAAaOCA1IwggNOMB0GA1UdDgQWBBSVb1ZUHpv0
+ezy+JfZNYP1uzZnrCTAfBgNVHSMEGDAWgBQzvYzuBCktyaDv37Ky08EwyRSpyjCC
+AR8GA1UdHwSCARYwggESMIIBDqCCAQqgggEGhoHAbGRhcDovLy9DTj1UdXJrY2Vs
+bCUyMEVudGVycHJpc2UlMjBDQSUyMDQsQ049VENDQTMsQ049Q0RQLENOPVB1Ymxp
+YyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24s
+REM9ZW50cCxEQz10Z2M/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlP29i
+amVjdENsYXNzPWNSTERpc3RyaWJ1dGlvblBvaW50hkFodHRwOi8vY3JsLnR1cmtj
+ZWxsLmNvbS50ci9wa2kvVHVya2NlbGwlMjBFbnRlcnByaXNlJTIwQ0ElMjA0LmNy
+bDCCAWoGCCsGAQUFBwEBBIIBXDCCAVgwgboGCCsGAQUFBzAChoGtbGRhcDovLy9D
+Tj1UdXJrY2VsbCUyMEVudGVycHJpc2UlMjBDQSUyMDQsQ049QUlBLENOPVB1Ymxp
+YyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZpZ3VyYXRpb24s
+REM9ZW50cCxEQz10Z2M/Y0FDZXJ0aWZpY2F0ZT9iYXNlP29iamVjdENsYXNzPWNl
+cnRpZmljYXRpb25BdXRob3JpdHkwaAYIKwYBBQUHMAKGXGh0dHA6Ly9jcmwudHVy
+a2NlbGwuY29tLnRyL3BraS9UQ0NBMy50dXJrY2VsbC5lbnRwLnRnY19UdXJrY2Vs
+bCUyMEVudGVycHJpc2UlMjBDQSUyMDQoMSkuY3J0MC8GCCsGAQUFBzABhiNodHRw
+Oi8vdGNjYTIudHVya2NlbGwuZW50cC50Z2Mvb2NzcDALBgNVHQ8EBAMCBaAwPAYJ
+KwYBBAGCNxUHBC8wLQYlKwYBBAGCNxUInONVg7e1XoX5nz6Boclkh+XOZ4FyhPOM
+Zs2vRAIBZAIBFDATBgNVHSUEDDAKBggrBgEFBQcDATAbBgkrBgEEAYI3FQoEDjAM
+MAoGCCsGAQUFBwMBMA0GCSqGSIb3DQEBCwUAA4IBAQBQvA+bvnVQwGp3i9IGdyWI
++qU1UtwVtwzyoa1A9mGhrJxkB2qVY+aA5AgdtlQrrW9EBDq6E573ipWN1cHpsolB
+2X+HQsTLS4jgwk9boqFGbLKli6LBdqMUHnKdvyLGXEwc1x0x5RmlHPTemduz2qm8
+cBGkWvQRvpiSyyOVV/w2T3HcBtp7iMfPRh8g7A4Umt8pZg2sh3YKyR/ldQzBIIZX
+rPNTKNEzfZP8kIF811ZOHovbJ6AzyNFCrmsPq9MFijTxy53Z3lxxbuPMNyXc7sZC
+QMpSe63CwucKP1RO+TIi7xkRwSl5BgQToxJ0z6J0X10bi6FSeBaMYG996wdurEkj</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=123456</string>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Turkey</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Media</key>
+		<dict>
+			<key>RTCPIntervalSeconds</key>
+			<integer>5</integer>
+		</dict>
+		<key>Signaling</key>
+		<dict>
+			<key>IncomingCallEndReasons</key>
+			<dict>
+				<key>TemporarilyUnavailable</key>
+				<dict>
+					<key>StatusCode</key>
+					<integer>480</integer>
+					<key>TerminationEvent</key>
+					<string>RemoteHangup</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>MMS</key>
+	<dict>
+		<key>GroupModeEnabled</key>
+		<false/>
+		<key>MMSC</key>
+		<string>http://mms.turkcell.com.tr/servlets/mms</string>
+		<key>MaxImageDimension</key>
+		<integer>512</integer>
+		<key>MaxMessageSize</key>
+		<integer>512000</integer>
+		<key>Proxy</key>
+		<string>212.252.169.217:8080</string>
+	</dict>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>MyAccountURL</key>
+	<string>http://www.turkcell.com.tr/</string>
+	<key>MyAccountURLTitle</key>
+	<string>www.turkcell.com.tr</string>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>+447786205094</string>
+	<key>PushSettings</key>
+	<dict>
+		<key>MultiSIMTopic</key>
+		<string>com.turkcell.esim</string>
+	</dict>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>RemoteCardProvisioningSettings</key>
+	<dict>
+		<key>ActivatingStateSubscriptionCheckTimerIntervals</key>
+		<array>
+			<integer>3600</integer>
+			<integer>5400</integer>
+		</array>
+		<key>CellularTrialPlan</key>
+		<dict>
+			<key>SupportsTrialPlan</key>
+			<true/>
+			<key>TrialEndPeriod</key>
+			<string>2022-12-01T00:00:00Z</string>
+			<key>TrialPlanType</key>
+			<string>FreeOrSpecial</string>
+			<key>TrialStartPeriod</key>
+			<string>2022-02-21T00:00:00Z</string>
+		</dict>
+		<key>MatchingICCIDPrefixes</key>
+		<array>
+			<string>899001</string>
+		</array>
+		<key>MinCompatibleWatchOS</key>
+		<string>8.6</string>
+		<key>ProvisioningMethod</key>
+		<string>CarrierFlow</string>
+		<key>ServerURL</key>
+		<string>https://turkcell.smdpp.protahub.com</string>
+		<key>SupportedSKUs</key>
+		<array>
+			<string>SKU_EU</string>
+		</array>
+	</dict>
+	<key>RoamingVoicemailPilotNumber</key>
+	<string>+905327532111</string>
+	<key>SMSEncoding</key>
+	<integer>521</integer>
+	<key>SMSSettings</key>
+	<dict>
+		<key>TransportFallback</key>
+		<true/>
+	</dict>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>ServiceCode</key>
+			<string>532</string>
+			<key>ServiceName</key>
+			<string>Müşteri Hizmetleri</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>05327572222</string>
+			<key>ServiceName</key>
+			<string>Ücretsiz Hizmet Hattı</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*123#</string>
+			<key>ServiceName</key>
+			<string>TL Sorgulama</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*100#</string>
+			<key>ServiceName</key>
+			<string>Hızlı Menü</string>
+		</dict>
+	</array>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>ShowTTY</key>
+	<false/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>TR TURKCELL</string>
+			<key>StatusBarCarrierName</key>
+			<string>Turkcell</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>TURKCELL</string>
+			<key>StatusBarCarrierName</key>
+			<string>Turkcell</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>28601</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>SuppressSimToolkitSendShortMessageNotifications</key>
+	<true/>
+	<key>VVMIgnoresIntlDataRoaming</key>
+	<false/>
+	<key>VisualVoicemailServiceName</key>
+	<string>none</string>
+	<key>VoicemailPilotNumber</key>
+	<string>7532</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>mms</string>
+			<key>password</key>
+			<string>mms</string>
+			<key>type-mask</key>
+			<integer>4</integer>
+			<key>username</key>
+			<string>mms</string>
+		</dict>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>AllowedProtocolMaskInRoaming</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>internet</string>
+			<key>enableXLAT464</key>
+			<true/>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>32817</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>2</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>2</integer>
+			<key>SupportSwitchOver</key>
+			<true/>
+			<key>apn</key>
+			<string>ims</string>
+			<key>password</key>
+			<string></string>
+			<key>tech-type-mask</key>
+			<integer>131072</integer>
+			<key>type-mask</key>
+			<integer>131072</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

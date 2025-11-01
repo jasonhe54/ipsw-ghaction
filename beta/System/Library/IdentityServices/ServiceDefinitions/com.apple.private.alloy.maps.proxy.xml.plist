@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>MapsProxy</string>
+	<key>DuetIdentifiers</key>
+	<array>
+		<string>com.apple.glances.NanoMaps</string>
+		<string>com.apple.Maps</string>
+		<string>com.apple.NanoMaps</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.maps.proxy</string>
+	<key>LaunchMachServiceNotification</key>
+	<string>com.apple.private.alloy.maps.proxy-idswake</string>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.maps.proxy</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.maps.proxy</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

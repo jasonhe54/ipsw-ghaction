@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.webinspectord</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.webinspectord.disabled</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.webinspectord.disabled</string>
+			</dict>
+			<key>com.apple.webinspectord.enabled</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.webinspectord.enabled</string>
+			</dict>
+		</dict>
+		<key>com.apple.remotepairing.metadata</key>
+		<dict>
+			<key>com.apple.WebInspector</key>
+			<dict>
+				<key>domain</key>
+				<string>com.apple.WebInspector</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.webinspector</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Cryptexes/App/usr/libexec/webinspectord</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

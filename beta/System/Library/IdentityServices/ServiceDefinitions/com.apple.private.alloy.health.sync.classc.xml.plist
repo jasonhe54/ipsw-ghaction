@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AllowPendingMessagesForInactiveDevice</key>
+	<true/>
+	<key>AllowSendingMessagesToInactiveDevice</key>
+	<true/>
+	<key>AllowedTrafficClasses</key>
+	<array>
+		<string>com.apple.ids.trafficclass.nanoregistry.altaccount</string>
+		<string>com.apple.ids.trafficclass.nanoregistry.configure</string>
+	</array>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>ClassAProtectedTraffic</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>HealthSync (A over C)</string>
+	<key>DuetIdentifiers</key>
+	<array>
+		<string>com.apple.Health</string>
+		<string>com.apple.Fitness</string>
+		<string>com.apple.SessionTrackerApp</string>
+		<string>com.apple.ActivityMonitorApp</string>
+		<string>com.apple.Noise</string>
+		<string>com.apple.NanoMenstrualCycles</string>
+		<string>com.apple.HeartRate</string>
+		<string>com.apple.NanoHeartRhythm</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.health.sync.classc</string>
+	<key>LaunchMachServiceNotification</key>
+	<string>com.apple.private.alloy.health.sync.classc-idswake</string>
+	<key>LinkedDeviceRelationships</key>
+	<array>
+		<string>Tinker</string>
+	</array>
+	<key>MinCompatibilityVersion</key>
+	<integer>2</integer>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.health.sync.classc</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.health.sync.classc</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

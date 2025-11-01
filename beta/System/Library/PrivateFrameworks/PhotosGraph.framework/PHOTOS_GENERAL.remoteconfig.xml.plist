@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.photos.graphservice.forcedailynotifications</key>
+	<false/>
+	<key>com.apple.photos.test.arrayValue</key>
+	<array>
+		<string>Disk0</string>
+		<string>Disk1</string>
+	</array>
+	<key>com.apple.photos.test.booleanValue</key>
+	<true/>
+	<key>com.apple.photos.test.dictionaryValue</key>
+	<dict>
+		<key>dictionaryDouble</key>
+		<real>2.1000000000000001</real>
+		<key>dictionaryLong</key>
+		<integer>2</integer>
+		<key>dictionaryString</key>
+		<string>DiskString</string>
+	</dict>
+	<key>com.apple.photos.test.doubleValue</key>
+	<real>1.1000000000000001</real>
+	<key>com.apple.photos.test.longValue</key>
+	<integer>1</integer>
+	<key>com.apple.photos.test.onDiskStringValue</key>
+	<string>KeyOnDiskOnly</string>
+	<key>com.apple.photos.test.stringValue</key>
+	<string>DiskValue</string>
+</dict>
+</plist>

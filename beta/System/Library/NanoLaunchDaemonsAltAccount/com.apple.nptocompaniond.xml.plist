@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<true/>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/mobile/Library/NanoPhotos/KeepAlive</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.nptocompaniond</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>Photos App Preferences Changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobileslideshow.PreferenceChanged</string>
+			</dict>
+			<key>Photos Limit changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.nanophotos.prefs.SyncCount-changed</string>
+			</dict>
+			<key>Synced Album changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.nanophotos.prefs.SyncAlbum-changed</string>
+			</dict>
+			<key>Watch Face Album Fetch Counts changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.nanophotos.prefs.WatchFaceAlbumFetchCounts-changed</string>
+			</dict>
+			<key>Watch Face Always Updating Albums changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.nanophotos.prefs.WatchFaceAlwaysUpdatingAlbums-changed</string>
+			</dict>
+			<key>com.apple.photos.private.watchUpdate</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.photos.private.watchUpdate</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.pairedsync.nptocompaniond</key>
+		<true/>
+		<key>com.apple.private.alloy.photos.proxy-idswake</key>
+		<true/>
+		<key>com.apple.private.alloy.tinker.photos-idswake</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/nptocompaniond</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>WorkingDirectory</key>
+	<string>/tmp</string>
+</dict>
+</plist>

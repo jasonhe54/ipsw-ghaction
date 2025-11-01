@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.adid</string>
+	<key>CFBundleName</key>
+	<string>adid</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.adid</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.adid</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/adid</string>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>com.apple.security.system-container</key>
+	<true/>
+</dict>
+</plist>

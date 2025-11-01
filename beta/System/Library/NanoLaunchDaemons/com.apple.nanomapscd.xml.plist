@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<true/>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.nanomapscd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.GeoServices.ConfigNeedsWatchSyncDarwinNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.GeoServices.ConfigNeedsWatchSyncDarwinNotification</string>
+			</dict>
+			<key>com.apple.GeoServices.FullyDownloadedSubscriptionsDidChange</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.GeoServices.FullyDownloadedSubscriptionsDidChange</string>
+			</dict>
+			<key>com.apple.GeoServices.experimentsChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.GeoServices.experimentsChanged</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mapssync.pairedsync</key>
+		<true/>
+		<key>com.apple.nanomaps.xpc.GeoServices</key>
+		<true/>
+		<key>com.apple.nanomaps.xpc.Maps</key>
+		<true/>
+		<key>com.apple.nanomaps.xpc.Routes</key>
+		<true/>
+		<key>com.apple.private.alloy.maps.proxy-idswake</key>
+		<true/>
+		<key>com.apple.private.alloy.maps.sync-idswake</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MapsSupport.framework/nanomapscd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

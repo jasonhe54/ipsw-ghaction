@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>MIRROR_RADIO_GROUP_ID</string>
+			<key>isRadioGroup</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>MIRROR_MY_COMPANION_ID</string>
+			<key>label</key>
+			<string>MIRROR_MY_COMPANION</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>CUSTOM_ID</string>
+			<key>label</key>
+			<string>CUSTOM_NOTIFICATION_OPTIONS</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LANGUAGE_AND_REGION</string>
+</dict>
+</plist>

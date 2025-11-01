@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>NewTravel_S_B.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>62</integer>
+	<key>Bottom Left</key>
+	<string>NewTravel_C_BL.png</string>
+	<key>Bottom Right</key>
+	<string>NewTravel_C_BR.png</string>
+	<key>Display</key>
+	<false/>
+	<key>Left</key>
+	<string>NewTravel_S_L.png</string>
+	<key>Left Frame Inset</key>
+	<integer>71</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.40000000596046448</real>
+	<key>Right</key>
+	<string>NewTravel_S_R.png</string>
+	<key>Right Frame Inset</key>
+	<integer>62</integer>
+	<key>Stretch Tiles</key>
+	<integer>1</integer>
+	<key>Top</key>
+	<string>NewTravel_S_T.png</string>
+	<key>Top Frame Inset</key>
+	<integer>0</integer>
+	<key>Top Left</key>
+	<string>NewTravel_C_TL.png</string>
+	<key>Top Right</key>
+	<string>NewTravel_C_TR.png</string>
+	<key>name</key>
+	<string>NewTravel</string>
+	<key>preview-image</key>
+	<string>NewTravel_thumbnail.png</string>
+</dict>
+</plist>

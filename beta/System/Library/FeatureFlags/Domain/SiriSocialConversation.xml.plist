@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BobcatJokes</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>BobcatJokesLocaleExpansion</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>GreetingRefresh</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Multiturn</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>NewMultiturn</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>ResponseFramework</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>SiriRemembers</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>SocialHints</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+</dict>
+</plist>

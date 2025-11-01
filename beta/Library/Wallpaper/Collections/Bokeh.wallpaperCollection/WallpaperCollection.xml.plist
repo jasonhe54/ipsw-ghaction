@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>identifier</key>
+	<string>D4894D14-DB0F-4D04-AB02-07C39C5E5466</string>
+	<key>isLegacyContent</key>
+	<false/>
+	<key>name</key>
+	<string>Bokeh</string>
+	<key>order</key>
+	<array>
+		<integer>5010</integer>
+		<integer>5020</integer>
+		<integer>5030</integer>
+		<integer>5040</integer>
+		<integer>5050</integer>
+		<integer>5060</integer>
+		<integer>5070</integer>
+		<integer>5080</integer>
+		<integer>5090</integer>
+	</array>
+	<key>source</key>
+	<string>Apple</string>
+	<key>supportedDeviceClasses</key>
+	<array>
+		<string>iPhone</string>
+	</array>
+	<key>wallpapersShareBaseAppearance</key>
+	<true/>
+</dict>
+</plist>

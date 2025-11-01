@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BFFilterLength</key>
+	<integer>60</integer>
+	<key>Beam0</key>
+	<dict>
+		<key>Azimuth</key>
+		<real>0.0</real>
+		<key>BFFilter</key>
+		<dict>
+			<key>Mic0</key>
+			<data>
+			P3qfwz2W2qY+Mzg8vFe8Gzx13aE8KnTzvOYX5zzFTmW8i++vO+RI
+			3roZ7ya9IrcUPP+Ezbztv/g82xsuvLDsJTxxWuq8OuYCvDJxADuF
+			04O8Ph8iPAyulrxLXOc7l/6MvCctIbo1j8O7lKj3Ojk8ZDrS5Uq7
+			zvASO2LFFLvJ1n876DKpu+o6yDvsOgW7farzO6qYnLsRr9E7Ga70
+			OxFfzjoHX347TVVpuoE2czteUuu5+foaOzfC6bnEvFg6mblRuOdI
+			zbqVujQ6XrM3uryIgDq+5Oi6y/9JOlxakDm95645g7xVOvXhELpb
+			5bQ6ZHhG
+			</data>
+			<key>Mic1</key>
+			<data>
+			PKLlJL2VoZG+NkdAPB7Xerynr7a8JUdxPOAZM7zRJVI8i+7ju9My
+			CLkJHfc9FbjgvOxx/j0IH8a86Ko1PNCCMbyAEWw8D6O1O9suvrsT
+			Kks8e5PevCiC+DxNs867bLP/PDMVOzoIvvQ7VRhoOuruA7p6ui87
+			nOoJu2KfxTvsSM67z2jnO9CdILvekww7qLhWu7eqrjsvK9i7IILu
+			uo6yn7qCZMy7Mz2SOqL37Ltt62M6pk+6u0KN0jpXcpa6V44fOCw9
+			pDrSVs+6YnG9OxKmX7qiePA60eBcugIROTnXWeY5KSDeupV/wDqW
+			vzm6jyIs
+			</data>
+		</dict>
+		<key>Description</key>
+		<string>Beam0</string>
+		<key>Distance</key>
+		<real>0.014000000432133675</real>
+		<key>EQSelectionFilter</key>
+		<data>
+		P4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		</data>
+		<key>Elevation</key>
+		<real>90</real>
+		<key>NonZeroMics</key>
+		<data>
+		P4AAAD+AAAA=
+		</data>
+	</dict>
+	<key>EQFilterLength</key>
+	<integer>30</integer>
+	<key>SampleRate</key>
+	<integer>24000</integer>
+	<key>nBeams</key>
+	<integer>1</integer>
+	<key>nMicsUsed</key>
+	<integer>2</integer>
+</dict>
+</plist>

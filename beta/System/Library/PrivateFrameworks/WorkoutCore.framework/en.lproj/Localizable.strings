@@ -1,0 +1,264 @@
+"ABOVE_TARGET_SPOKEN_CADENCE_PEDOMETER" = "Above target.";
+"SPOKEN_HEART_RATE_ALERT_BELOW" = "{'count': {'one': 'Below range, current heart rate %ld beat per minute.', 'other': 'Below range, current heart rate %ld beats per minute.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
+"WORKOUT_CONFIGURATION_MULTISPORT" = "Multisport";
+"BELOW_RANGE_SPOKEN_CADENCE_CYCLING" = "Below range.";
+"TIME_SPLIT_TITLE" = "TIME
+ELAPSED";
+"ABOVE_TARGET_CADENCE_CYCLING" = "Above
+Target
+%@";
+"BELOW_RANGE_CADENCE_CYCLING" = "Below
+Range";
+"WITHIN_RANGE_PACE" = "In
+Range";
+"CADENCE_VALUE_FORMAT" = "%1$@ %2$@";
+"WORKOUT_CONFIGURATION_GOAL_UNKNOWN" = "Unknown Goal";
+"STEP_TYPE_ADD_WARM_UP" = "Warmup";
+"ACTIVITY_RING_COMPLETION_LINE_2_EXERCISE" = "Ring";
+"AVERAGE_POWER_DESCRIPTION" = "Average
+Power";
+"BELOW_TARGET_PACE" = "Behind
+Target %@";
+"CADENCE_UNIT_LONG_CYCLING" = "Rotations Per Minute";
+"PACER_ALERT_DISTANCE_COMPLETE_SPOKEN_FORMAT" = "Pacer complete. %@ in %@.";
+"ABOVE_TARGET_PACE" = "Ahead of
+Target %@";
+"INTERVAL_ALERT_UPCOMING_STEP_WITH_ALERT_SUMMARY_SPOKEN" = "Now: %1$@, %2$@, %3$@";
+"ALERT_NONE_TITLE" = "None";
+"CURRENT_CADENCE_DESCRIPTION_PEDOMETER" = "
+CADENCE";
+"SPEED_ALERT_TITLE" = "Speed";
+"GOAL_PROGRESS_HALFWAY_SPOKEN" = "Halfway point.";
+"BELOW_RANGE_SPOKEN_PACE" = "Behind range.";
+"WORKOUT_CONFIGURATION_ROUTE" = "Race Route";
+"CADENCE_POWER_VALUE_FORMAT" = "%1$@ %2$@";
+"POWER_ALERT_TITLE" = "Power";
+"ZONE_NAME" = "Zone %ld";
+"ACTIVITY_RING_COMPLETION_LINE_1_EXERCISE" = "Exercise";
+"ABOVE_TARGET_SPOKEN_CADENCE_CYCLING" = "Above target.";
+"CADENCE_CYCLING" = "Cadence";
+"PACE_ALERT_TITLE" = "Pace";
+"AVERAGE_CADENCE_LONG_DESCRIPTION_CYCLING" = "Average Cadence";
+"PACER_GOAL_DESCRIPTION_FORMAT" = "%@ · %@";
+"WITHIN_RANGE_CADENCE_CYCLING" = "In
+Range";
+"RACE_ALERT_BEHIND_GHOST" = "You’re
+Behind";
+"ADD_WORKOUT" = "Add Workout";
+"MODERATE_EFFORT" = "Moderate";
+"PACE" = "Pace";
+"WITHIN_RANGE_POWER" = "In
+Range";
+"INTERVAL_ALERT_PREVIOUS_WORK_STEP_SUMMARY_SPOKEN" = "Previous interval: %@";
+"ALERT_RANGE_SPOKEN" = "%@ Range";
+"ROLLING_PACE_LONG_DESCRIPTION" = "Rolling Pace";
+"NUMBER_RANGE_NO_UNIT" = "%1$@–%2$@";
+"AVERAGE_CADENCE_DESCRIPTION_CYCLING" = "AVERAGE
+CADENCE";
+"AVERAGE_CADENCE_LONG_DESCRIPTION_PEDOMETER" = "Average Cadence";
+"RACE_ALERT_ON_ROUTE_SPOKEN" = "You’re back on route";
+"INTERVAL_WORKOUT_UNTITLED_TITLE" = "New Custom Workout";
+"METRIC_CURRENT_CYCLING_CADENCE_SPOKEN" = "Current Cadence";
+"ALERT_TARGET_SPOKEN" = "%@ Target";
+"RACE_ALERT_ROUTE_COMPLETE_LOST_SPOKEN" = "Race complete";
+"METRIC_AVERAGE_PACE_SPOKEN" = "Average pace";
+"POWER_UNIT_LONG" = "Watts";
+"WORKOUT_CONFIGURATION_GOAL_TIME" = "Time";
+"BELOW_TARGET_CADENCE_PEDOMETER" = "Below
+Target
+%@";
+"WORKOUT_CONFIGURATION_GOAL_ENERGY_CAL" = "Calories";
+"HEART_RATE_SPOKEN_UNIT" = "Beats Per Minute";
+"RACE_ALERT_OFF_ROUTE" = "You’re
+Off Route";
+"INTERVAL_ALERT_OPEN" = "Open";
+"SKIPPED" = "Skipped";
+"METRIC_SPLIT_SPEED_SPOKEN" = "Split speed";
+"CURRENT_POWER_DESCRIPTION" = "
+Power";
+"ACTIVITY_RING_COMPLETION_LINE_2_MOVE" = "Ring";
+"BELOW_RANGE_SPOKEN_CADENCE_PEDOMETER" = "Below range.";
+"WITHIN_RANGE_SPOKEN_CADENCE_CYCLING" = "In range.";
+"ABOVE_ZONE" = "Above Zone";
+"CADENCE_ALERT_TITLE_PEDOMETER" = "Cadence";
+"PACE_SPOKEN" = "Pace";
+"RACE_ALERT_EXPIRED" = "You Left
+the Race";
+"RACE_ALERT_ROUTE_COMPLETE_WON" = "You’ve Won";
+"ABOVE_RANGE_SPOKEN_POWER" = "Above range.";
+"CURRENT_CADENCE_SHORT_DESCRIPTION" = "SPM";
+"METRIC_AVERAGE_PEDOMETER_CADENCE_SPOKEN" = "Average Cadence";
+"HEART_RATE_ALERT_TITLE" = "Heart Rate";
+"RACE_ALERT_OFF_ROUTE_SPOKEN" = "You’re off route";
+"CURRENT_PACE_LONG_DESCRIPTION" = "Current Pace";
+"SPOKEN_SPLIT" = "{'split': {'one': 'Split %d.', 'other': 'Split %d.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@split@'}";
+"SPOKEN_MILESTONE_IMPERIAL" = "{'milestone': {'one': '%d mile.', 'other': 'Mile %d.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@milestone@'}";
+"METRIC_AVERAGE_POWER_SPOKEN" = "Average Power";
+"MULTISPORT_DEFAULT_CONFIGURATION_NAME" = "Untitled";
+"STEP_TYPE_HINT_WORK" = "W";
+"CADENCE_ALERT_TITLE_CYCLING" = "Cadence";
+"HARD_EFFORT" = "Hard";
+"WORKOUT_PAUSED_SPOKEN" = "Workout paused.";
+"WORKOUT_CONFIGURATION_FILTER_ALL" = "All";
+"WORKOUT_CONFIGURATION_GOAL_ENERGY_KJ" = "Kilojoules";
+"ABOVE_TARGET_SPOKEN_PACE" = "Ahead of target.";
+"ADD_WORKOUT_LIST_USE_DESCRIPTIVE_NAME_SORT" = "0";
+"POWER_ZONE_NAME" = "Power Zone %@";
+"ABOVE_RANGE_PACE" = "Ahead of
+Range";
+"BELOW_ZONE" = "Below Zone";
+"GOAL_PROGRESS_COMPLETION_SPOKEN" = "Goal achieved.";
+"RACE_ALERT_ROUTE_COMPLETE_WON_SPOKEN" = "You’ve won";
+"NUMBER_TARGET_WITH_UNIT" = "%1$@ %2$@";
+"BELOW_RANGE_PACE" = "Behind
+Range";
+"WORKOUT_VOICE_COMPANION_NOT_CONNECTED_ALERT_TITLE" = "Workout Buddy Unavailable";
+"CADENCE_CYCLING_VALUE_FORMAT" = "%1$@ %2$@";
+"ABOVE_RANGE_CADENCE_PEDOMETER" = "Above
+Range";
+"ACTIVITY_RING_COMPLETION_LINE_3_EXERCISE" = "Closed";
+"WORKOUT_RESUMED_SPOKEN" = "Workout resumed.";
+"MODERATE_EFFORT_DESCRIPTION" = "Working but comfortable
+Could go for a while";
+"WORKOUT_CONFIGURATION_FILTER_INTERVAL" = "Custom";
+"CURRENT_POWER_LONG_DESCRIPTION" = "Current Power";
+"METRIC_SEGMENT_PACE_SPOKEN" = "Segment pace";
+"WORKOUT_CONFIGURATION_FILTER_PACER" = "Pacer";
+"STEP_TYPE_ADD_WORK" = "Work";
+"BELOW_RANGE_CADENCE_PEDOMETER" = "Below
+Range";
+"CURRENT_CADENCE_SHORT_DESCRIPTION_CYCLING" = "RPM";
+"SPOKEN_HEART_RATE_ALERT_WITHIN" = "{'count': {'one': 'In range, current heart rate %ld beat per minute.', 'other': 'In range, current heart rate %ld beats per minute.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
+"STEP_TYPE_COOL_DOWN" = "Cooldown";
+"POWER" = "Power";
+"STEP_TYPE_HINT_RECOVER" = "R";
+"SPOKEN_HEART_RATE_TARGET_ALERT_BELOW" = "{'count': {'one': 'Below target, current heart rate %ld beat per minute.', 'other': 'Below target, current heart rate %ld beats per minute.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
+"ABOVE_TARGET_SPOKEN_POWER" = "Above target.";
+"METRIC_ROLLING_PACE_SPOKEN" = "Rolling-pace";
+"BELOW_TARGET_SPOKEN_CADENCE_PEDOMETER" = "Below target.";
+"METRIC_AVERAGE_CYCLING_CADENCE_SPOKEN" = "Average Cadence";
+"STEP_TYPE_WARM_UP" = "Warmup";
+"EASY_EFFORT_DESCRIPTION" = "Not challenging
+Could go a long time";
+"WITHIN_RANGE_SPOKEN_PACE" = "In range.";
+"AVERAGE_POWER_LONG_DESCRIPTION" = "Average Power";
+"METRIC_SEGMENT_SPEED_SPOKEN" = "Segment speed";
+"WORKOUT_CONFIGURATION_PACER" = "Pacer";
+"ALL_OUT_EFFORT_DESCRIPTION" = "Extremely uncomfortable
+Could barely continue";
+"ABOVE_RANGE_SPOKEN_PACE" = "Ahead of range.";
+"CURRENT_CADENCE_DESCRIPTION_CYCLING" = "
+CADENCE";
+"CURRENT_CADENCE_LONG_DESCRIPTION_PEDOMETER" = "Current Cadence";
+"ALL_OUT_EFFORT" = "All Out";
+"STEP_TYPE_ADD_RECOVER" = "Recovery";
+"RACE_ALERT_ON_ROUTE" = "You’re Back
+On Route";
+"INTERVAL_ALERT_COMBINED_STEPS_SUMMARIES_SPOKEN" = "%1$@, %2$@";
+"RACE_ALERT_RACE_RESULT_TITLE" = "Race Result";
+"TRACK_RUNNING_ALERT_LEFT_TRACK" = "You Left the Track";
+"SPOKEN_SEGMENT" = "{'segment': {'one': 'Segment %d.', 'other': 'Segment %d.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@segment@'}";
+"ACTIVITY_RING_COMPLETION_LINE_3_MOVE" = "Closed";
+"STEP_TYPE_WORK" = "Work";
+"WORKOUT_CONFIGURATION_GOAL_ENERGY_KCAL" = "Kilocalories";
+"RACE_ALERT_AHEAD_GHOST_SPOKEN" = "You’re ahead.";
+"WITHIN_RANGE_CADENCE_PEDOMETER" = "In
+Range";
+"METRIC_CURRENT_PEDOMETER_CADENCE_SPOKEN" = "Current Cadence";
+"MULTISPORT_OUTDOOR_TRIATHLON" = "Triathlon";
+"INTERVAL_ALERT_UPCOMING_STEP_SUMMARY_SPOKEN" = "Now: %1$@, %2$@";
+"END_PHRASE_PUNCTUATION" = ".";
+"SEGMENT_MARKED_SPOKEN" = "Marked.";
+"CADENCE_UNIT_LONG_PEDOMETER" = "Steps Per Minute";
+"WORKOUT_CONFIGURATION_FILTER_SUGGESTED" = "Suggested";
+"BELOW_TARGET_HEART_RATE" = "Below
+Target";
+"WORKOUT_VOICE_PHONE_LOCKED_ALERT_MESSAGE" = "If you’d like to use Workout Buddy, end your current workout, and start a new workout while your iPhone is unlocked.";
+"PAUSE_PUNCTUATION" = ",";
+"EASY_EFFORT" = "Easy";
+"WITHIN_RANGE_SPOKEN_CADENCE_PEDOMETER" = "In range.";
+"PACER_DISTANCE_GOAL_COMPLETE_SHORT" = "Complete";
+"PACER_ALERT_RESULT_TITLE" = "Result";
+"SPOKEN_LAP" = "{'lap': {'one': 'Lap %d.', 'other': 'Lap %d.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@lap@'}";
+"WORKOUT_CONFIGURATION_DATA_SOURCES_TITLE" = "Connected Apps";
+"WORKOUT_CONFIGURATION_INTERVAL" = "Custom";
+"METRIC_CURRENT_POWER_SPOKEN" = "Current Power";
+"BELOW_TARGET_SPOKEN_POWER" = "Below target.";
+"RACE_ALERT_ROUTE_COMPLETE_LOST" = "Race
+Complete";
+"WITHIN_RANGE_SPOKEN_POWER" = "In range.";
+"AVERAGE_PACE_LONG_DESCRIPTION" = "Average Pace";
+"WORKOUT_CONFIGURATION_FILTER_ROUTE" = "Race Route";
+"BELOW_RANGE_SPOKEN_POWER" = "Below range.";
+"WITHIN_ZONE" = "In Zone";
+"STEP_TYPE_HINT_COOL_DOWN" = "C
+D";
+"METRIC_CURRENT_PACE_SPOKEN" = "Current pace";
+"WORKOUT_CONFIGURATION_DATA_SOURCES_INFORMATIONAL_TEXT" = "Selected apps will be able to continuously add scheduled workouts to the Workout app. They will also be able to read whether or not these workouts have been completed.";
+"BELOW_TARGET_SPOKEN_CADENCE_CYCLING" = "Below target.";
+"WORKOUT_VOICE_COMPANION_NOT_CONNECTED_ALERT_MESSAGE" = "Workout Buddy requires Apple Watch to be connected to your iPhone.";
+"BELOW_TARGET_CADENCE_CYCLING" = "Below
+Target
+%@";
+"CURRENT_SPEED_LONG_DESCRIPTION" = "Current Speed";
+"ALERT_RANGE_VALUE_TO_VALUE" = "%@ to %@";
+"HARD_EFFORT_DESCRIPTION" = "Challenging and uncomfortable
+Could not go long at all";
+"RACE_ALERT_BEHIND_GHOST_SPOKEN" = "You’re behind.";
+"CURRENT_CADENCE_LONG_DESCRIPTION_CYCLING" = "Current Cadence";
+"RACE_ALERT_AHEAD_GHOST" = "You’re
+Ahead";
+"BELOW_TARGET_SPOKEN_PACE" = "Behind target.";
+"SPOKEN_HEART_RATE_TARGET_ALERT_ABOVE" = "{'count': {'one': 'Above target, current heart rate %ld beat per minute.', 'other': 'Above target, current heart rate %ld beats per minute.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
+"ABOVE_RANGE_CADENCE_CYCLING" = "Above
+Range";
+"ABOVE_TARGET_CADENCE_PEDOMETER" = "Above
+Target
+%@";
+"AVERAGE_SPEED_LONG_DESCRIPTION" = "Average Speed";
+"INTERVAL_ALERT_TIME_DISTANCE" = "%1$@ · %2$@";
+"MOVE_RING_COMPLETION_SPOKEN" = "Move Ring Closed.";
+"SPOKEN_MILESTONE_METRIC" = "{'milestone': {'one': '%d kilometer.', 'other': 'Kilometer %d.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@milestone@'}";
+"METRIC_AVERAGE_SPEED_SPOKEN" = "Average speed";
+"METRIC_SPLIT_PACE_SPOKEN" = "Split pace";
+"TARGET_ZONE_DISPLAY_STRING_VALUE_FORMAT" = "%1$@, %2$@";
+"STEP_TYPE_ADD_COOL_DOWN" = "Cooldown";
+"BELOW_TARGET_POWER" = "Below
+Target
+%@";
+"WORKOUT_CONFIGURATION_GOAL_OPEN" = "Open";
+"GOAL_PROGRESS_HALFWAY" = "Halfway
+Point";
+"ALERT_COMBINED_VALUE_SPOKEN" = "%@: %@";
+"RACE_ALERT_EXPIRED_SPOKEN" = "You left the race";
+"INTERVAL_ALERT_COMPLETE_SPOKEN" = "Intervals complete. Starting open goal.";
+"INTERVAL_ALERT_PREVIOUS_REST_STEP_SUMMARY_SPOKEN" = "Previous recovery: %@";
+"WORKOUT_CONFIGURATION_FILTER_GOAL_BASED" = "Goals";
+"BELOW_RANGE_POWER" = "Below
+Range";
+"ABOVE_RANGE_POWER" = "Above
+Range";
+"AVERAGE_CADENCE_DESCRIPTION_PEDOMETER" = "AVERAGE
+CADENCE";
+"SPOKEN_HEART_RATE_ALERT_ABOVE" = "{'count': {'one': 'Above range, current heart rate %ld beat per minute.', 'other': 'Above range, current heart rate %ld beats per minute.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
+"WORKOUT_CONFIGURATION_GOAL_DISTANCE" = "Distance";
+"ABOVE_RANGE_SPOKEN_CADENCE_CYCLING" = "Above range.";
+"STEP_TYPE_RECOVER" = "Recovery";
+"NUMBER_RANGE_WITH_UNIT" = "%1$@–%2$@ %3$@";
+"GOAL_PROGRESS_COMPLETION" = "Goal
+Achieved";
+"ABOVE_RANGE_SPOKEN_CADENCE_PEDOMETER" = "Above range.";
+"RACE_ROUTE_DESCRIPTION_FORMAT" = "%@ · %@";
+"STEP_TYPE_HINT_WARM_UP" = "W
+U";
+"ACTIVITY_RING_COMPLETION_LINE_1_MOVE" = "Move";
+"ABOVE_TARGET_POWER" = "Above
+Target
+%@";
+"HEART_RATE_ZONE_NAME" = "HR Zone %@";
+"CADENCE_PEDOMETER" = "Cadence";
+"EXERCISE_RING_COMPLETION_SPOKEN" = "Exercise Ring Closed.";
+"PACER_ALERT_DISTANCE_COMPLETE_SPOKEN_SHORT" = "Pacer complete.";
+"ABOVE_TARGET_HEART_RATE" = "Above
+Target";
+"POWER_ZONES_CUSTOM_ALERT_TITLE" = "Custom Power";

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>5</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>Cell C</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.SouthAfrica</string>
+	<key>MMS</key>
+	<dict>
+		<key>GroupModeEnabled</key>
+		<false/>
+		<key>MMSC</key>
+		<string>http://mms.cmobile.co.za</string>
+		<key>MaxMessageSize</key>
+		<integer>307200</integer>
+		<key>Proxy</key>
+		<string>196.31.116.250:8080</string>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>MyAccountURL</key>
+	<string>http://www.cellc.co.za</string>
+	<key>MyAccountURLTitle</key>
+	<string>Cell C</string>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>+447786205094</string>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>RoamingVoicemailPilotNumber</key>
+	<string>+2784132</string>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>ServiceCode</key>
+			<string>135</string>
+			<key>ServiceName</key>
+			<string>Customer Care</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>*147#</string>
+			<key>ServiceName</key>
+			<string>Self Service Menu</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>136</string>
+			<key>ServiceName</key>
+			<string>Prepaid recharge and balance enquiry</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>084143</string>
+			<key>ServiceName</key>
+			<string>Cell C Upgrades</string>
+		</dict>
+		<dict>
+			<key>ServiceCode</key>
+			<string>084145</string>
+			<key>ServiceName</key>
+			<string>Cell C Sales</string>
+		</dict>
+	</array>
+	<key>ShowTTY</key>
+	<false/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>Cell C</string>
+			<key>StatusBarCarrierName</key>
+			<string>Cell C</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>65507</string>
+			<key>StatusBarCarrierName</key>
+			<string>Cell C</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>65507</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<false/>
+	<key>VVMIgnoresIntlDataRoaming</key>
+	<false/>
+	<key>VisualVoicemailServiceName</key>
+	<string>none</string>
+	<key>VoicemailPilotNumber</key>
+	<string>132</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>mms</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>4</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>48</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

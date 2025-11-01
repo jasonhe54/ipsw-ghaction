@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>αναπαραγωγή</string>
+				<string>αναπαραγωγή μουσικής</string>
+				<string>παίξε</string>
+				<string>παίξε μουσική</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>παύση</string>
+				<string>παύση μουσικής</string>
+				<string>προσωρινή διακοπή</string>
+				<string>προσωρινή διακοπή μουσικής</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>αναπαραγωγή</string>
+				<string>παίξε</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>επόμενο</string>
+				<string>μετά</string>
+				<string>εμπρός</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>προηγούμενο</string>
+				<string>πριν</string>
+				<string>πίσω</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>τυχαία</string>
+				<string>τυχαία σειρά</string>
+				<string>ανακάτεμα</string>
+				<string>ανακάτεψε</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>κομμάτι</string>
+				<string>τραγούδι</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>λίστα αναπαραγωγής</string>
+				<string>λίστα</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>τραγούδια από</string>
+				<string>καλλιτέχνης</string>
+				<string>καλλιτέχνιδα</string>
+				<string>τραγουδιστής</string>
+				<string>τραγουδίστρια</string>
+				<string>συγκρότημα</string>
+				<string>γκρουπ</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>άλμπουμ</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>παίξε περισσότερα τραγούδια όπως αυτό</string>
+				<string>παίξε και άλλα τραγούδια όπως αυτό</string>
+				<string>παίξε κι άλλα τραγούδια όπως αυτό</string>
+				<string>παίξε περισσότερα τραγούδια σαν αυτό</string>
+				<string>παίξε και άλλα τραγούδια σαν αυτό</string>
+				<string>παίξε κι άλλα τραγούδια σαν αυτό</string>
+				<string>αναπαραγωγή περισσότερων τραγουδιών όπως αυτό</string>
+				<string>αναπαραγωγή και άλλων τραγουδιών όπως αυτό</string>
+				<string>αναπαραγωγή κι άλλων τραγουδιών όπως αυτό</string>
+				<string>αναπαραγωγή περισσότερων τραγουδιών σαν αυτό</string>
+				<string>αναπαραγωγή και άλλων τραγουδιών σαν αυτό</string>
+				<string>αναπαραγωγή κι άλλων τραγουδιών σαν αυτό</string>
+				<string>παίξε περισσότερα όπως αυτό</string>
+				<string>παίξε και άλλα όπως αυτό</string>
+				<string>παίξε κι άλλα όπως αυτό</string>
+				<string>αναπαραγωγή περισσότερων όπως αυτό</string>
+				<string>αναπαραγωγή και άλλων όπως αυτό</string>
+				<string>αναπαραγωγή κι άλλων όπως αυτό</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>ποιο τραγούδι είναι αυτό</string>
+				<string>πώς λέγεται αυτό το τραγούδι</string>
+				<string>πώς λέγεται το τραγούδι αυτό</string>
+				<string>ποιο είναι το όνομα αυτού του τραγουδιού</string>
+				<string>ποιος τραγουδάει αυτό το τραγούδι</string>
+				<string>ποιος τραγουδάει το τραγούδι αυτό</string>
+				<string>ποιος τραγουδά αυτό το τραγούδι</string>
+				<string>ποιος τραγουδά το τραγούδι αυτό</string>
+				<string>ποια τραγουδάει αυτό το τραγούδι</string>
+				<string>ποια τραγουδάει το τραγούδι αυτό</string>
+				<string>ποια τραγουδά αυτό το τραγούδι</string>
+				<string>ποια τραγουδά το τραγούδι αυτό</string>
+				<string>τι παίζει</string>
+				<string>τι αναπαράγεται</string>
+				<string>ποιο τραγούδι παίζει</string>
+				<string>ποιο παίζει</string>
+				<string>ποιο τραγούδι αναπαράγεται</string>
+				<string>ποιο αναπαράγεται</string>
+				<string>ποιος τραγουδάει αυτό το τραγούδι</string>
+				<string>ποιος τραγουδάει το τραγούδι αυτό</string>
+				<string>ποιος τραγουδά αυτό το τραγούδι</string>
+				<string>ποιος τραγουδά το τραγούδι αυτό</string>
+				<string>ποιος λέει αυτό το τραγούδι</string>
+				<string>ποιος λέει το τραγούδι αυτό</string>
+				<string>ποια τραγουδάει αυτό το τραγούδι</string>
+				<string>ποια τραγουδάει το τραγούδι αυτό</string>
+				<string>ποια τραγουδά αυτό το τραγούδι</string>
+				<string>ποια τραγουδά το τραγούδι αυτό</string>
+				<string>ποια λέει αυτό το τραγούδι</string>
+				<string>ποια λέει το τραγούδι αυτό</string>
+				<string>ποιοι τραγουδούν αυτό το τραγούδι</string>
+				<string>ποιοι τραγουδούν το τραγούδι αυτό</string>
+				<string>ποιοι λένε αυτό το τραγούδι</string>
+				<string>ποιοι λένε το τραγούδι αυτό</string>
+				<string>ποιο συγκρότημα τραγουδάει αυτό το τραγούδι</string>
+				<string>ποιο συγκρότημα τραγουδά αυτό το τραγούδι</string>
+				<string>ποιο συγκρότημα τραγουδάει το τραγούδι αυτό</string>
+				<string>ποιο συγκρότημα τραγουδά το τραγούδι αυτό</string>
+				<string>ποιο συγκρότημα λέει αυτό το τραγούδι</string>
+				<string>ποιο συγκρότημα λέει το τραγούδι αυτό</string>
+				<string>ποιο γκρουπ τραγουδάει αυτό το τραγούδι</string>
+				<string>ποιο γκρουπ τραγουδά αυτό το τραγούδι</string>
+				<string>ποιο γκρουπ τραγουδάει το τραγούδι αυτό</string>
+				<string>ποιο γκρουπ τραγουδά το τραγούδι αυτό</string>
+				<string>ποιο γκρουπ λέει αυτό το τραγούδι</string>
+				<string>ποιο γκρουπ λέει το τραγούδι αυτό</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>ποιο τραγούδι είναι αυτό;</string>
+			<string>πώς λέγεται αυτό το τραγούδι;</string>
+			<string>ποιος τραγουδάει αυτό το τραγούδι;</string>
+			<string>τι παίζει;</string>
+			<string>τι αναπαράγεται;</string>
+			<string>ποιο τραγούδι παίζει;</string>
+			<string>ποιο παίζει;</string>
+			<string>ποιος τραγουδάει αυτό το τραγούδι;</string>
+			<string>ποια τραγουδάει αυτό το τραγούδι;</string>
+			<string>ποιοι λένε το τραγούδι αυτό;</string>
+			<string>ποιο γκρουπ λέει το τραγούδι αυτό;</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>παίξε περισσότερα τραγούδια όπως αυτό</string>
+			<string>παίξε και άλλα τραγούδια όπως αυτό</string>
+			<string>παίξε κι άλλα τραγούδια όπως αυτό</string>
+			<string>παίξε περισσότερα τραγούδια σαν αυτό</string>
+			<string>παίξε και άλλα τραγούδια σαν αυτό</string>
+			<string>παίξε κι άλλα τραγούδια σαν αυτό</string>
+			<string>αναπαραγωγή περισσότερων τραγουδιών όπως αυτό</string>
+			<string>αναπαραγωγή και άλλων τραγουδιών όπως αυτό</string>
+			<string>αναπαραγωγή κι άλλων τραγουδιών σαν αυτό</string>
+			<string>παίξε περισσότερα όπως αυτό</string>
+			<string>παίξε και άλλα όπως αυτό</string>
+			<string>παίξε κι άλλα όπως αυτό</string>
+			<string>αναπαραγωγή περισσότερων όπως αυτό</string>
+			<string>αναπαραγωγή και άλλων όπως αυτό</string>
+			<string>αναπαραγωγή κι άλλων όπως αυτό</string>
+		</array>
+		<array>
+			<string>παίξε λίστα αναπαραγωγής</string>
+			<string>παίξε λίστα</string>
+			<string>αναπαραγωγή λίστας</string>
+		</array>
+		<array>
+			<string>παίξε τραγούδια από</string>
+			<string>αναπαραγωγή τραγουδιών από</string>
+			<string>παίξε καλλιτέχνη</string>
+			<string>παίξε τραγουδιστής</string>
+			<string>παίξε τραγουδίστρια</string>
+			<string>παίξε συγκρότημα</string>
+			<string>παίξε γκρουπ</string>
+		</array>
+		<array>
+			<string>παίξε άλμπουμ</string>
+			<string>αναπαραγωγή άλμπουμ</string>
+		</array>
+		<array>
+			<string>τυχαία</string>
+			<string>τυχαία σειρά</string>
+			<string>ανακάτεμα</string>
+			<string>ανακάτεψε</string>
+		</array>
+		<array>
+			<string>προηγούμενο κομμάτι</string>
+			<string>προηγούμενο τραγούδι</string>
+		</array>
+		<array>
+			<string>επόμενο κομμάτι</string>
+			<string>επόμενο τραγούδι</string>
+		</array>
+		<array>
+			<string>παύση</string>
+			<string>παύση μουσικής</string>
+			<string>προσωρινή διακοπή</string>
+			<string>προσωρινή διακοπή μουσικής</string>
+		</array>
+		<array>
+			<string>αναπαραγωγή</string>
+			<string>αναπαραγωγή μουσικής</string>
+			<string>παίξε</string>
+			<string>παίξε μουσική</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

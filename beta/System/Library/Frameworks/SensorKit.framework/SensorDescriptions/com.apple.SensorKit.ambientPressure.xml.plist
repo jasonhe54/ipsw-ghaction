@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthService</key>
+	<string>kTCCServiceSensorKitElevation</string>
+	<key>AuthorizationStoreCohort</key>
+	<string>locationd</string>
+	<key>LegacyName</key>
+	<string>com.apple.private.SensorKit.elevation.rawpressure</string>
+	<key>Name</key>
+	<string>com.apple.SensorKit.ambientPressure</string>
+	<key>PublicEntitlementValue</key>
+	<string>ambient-pressure</string>
+	<key>RelatedSettingsCategories</key>
+	<array>
+		<string>Motion</string>
+	</array>
+	<key>SRInfoPlistAuthCategory</key>
+	<string>SRSensorUsageElevation</string>
+	<key>SampleClass</key>
+	<string>CMAmbientPressureDataArray</string>
+</dict>
+</plist>

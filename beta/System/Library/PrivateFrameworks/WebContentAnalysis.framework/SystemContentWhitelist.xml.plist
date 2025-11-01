@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFSystemContentWhitelistItems</key>
+	<array>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.go.jp</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>www.city.*.osaka.jp</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.lg.jp</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>www.napls.us</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.dmkt-sp.jp</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.softbank.jp</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.au.com</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>pbteen.com</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.pbteen.com</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>potterybarnteen.com</string>
+		</dict>
+		<dict>
+			<key>WFSystemContentWhitelistDomainGlob</key>
+			<string>*.potterybarnteen.com</string>
+		</dict>
+	</array>
+</dict>
+</plist>

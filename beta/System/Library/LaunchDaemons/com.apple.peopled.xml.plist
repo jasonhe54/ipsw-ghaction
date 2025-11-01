@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.peopled</string>
+	<key>CFBundleName</key>
+	<string>peopled</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentalVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.peopled</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>_CalDatabaseChangedNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>_CalDatabaseChangedNotification</string>
+			</dict>
+			<key>__ABDataBaseChangedByOtherProcessNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>__ABDataBaseChangedByOtherProcessNotification</string>
+			</dict>
+			<key>com.apple.accessibility.cache.prefers.horizontal.text</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.accessibility.cache.prefers.horizontal.text</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.corespotlight.daemon.people</key>
+		<true/>
+		<key>com.apple.people.agent</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/People.framework/peopled</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

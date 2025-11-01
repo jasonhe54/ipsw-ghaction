@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.siri.flowtools.FlowTools.CreateDraftMessageTool|com.apple.MobileSMS.SendMessageIntent</key>
+	<array>
+		<string>com.apple.siri.CreateDraftTool</string>
+	</array>
+	<key>com.apple.siri.flowtools.FlowTools.SendDraftMessageTool|com.apple.MobileSMS.SendMessageIntent</key>
+	<array>
+		<string>com.apple.siri.SendDraftTool</string>
+	</array>
+	<key>com.apple.siri.flowtools.FlowTools.StartCallFlowTool|com.apple.calls.PhoneAppIntentsExtension.StartFaceTimeCallIntent</key>
+	<array>
+		<string>com.apple.calls.PhoneAppIntentsExtension.StartFaceTimeCallIntent</string>
+	</array>
+	<key>com.apple.siri.flowtools.FlowTools.StartCallFlowTool|com.apple.calls.PhoneAppIntentsExtension.StartTelephonyCallIntent</key>
+	<array>
+		<string>com.apple.calls.PhoneAppIntentsExtension.StartTelephonyCallIntent</string>
+	</array>
+	<key>com.apple.siri.flowtools.FlowTools.UpdateDraftMessageTool|com.apple.MobileSMS.SendMessageIntent</key>
+	<array>
+		<string>com.apple.siri.UpdateDraftTool</string>
+	</array>
+</dict>
+</plist>

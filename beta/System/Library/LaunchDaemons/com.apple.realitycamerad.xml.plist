@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.realitycamerad</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.realitycamerad.RCPLSProvider</key>
+		<true/>
+		<key>com.apple.realitycamerad.RCXPCProvider</key>
+		<true/>
+		<key>com.apple.realitycamerad.watchdog</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/RealityCamera.framework/realitycamerad</string>
+	</array>
+	<key>_PanicOnCrash</key>
+	<false/>
+	<key>com.apple.private.spawn-panic-crash-behavior</key>
+	<false/>
+</dict>
+</plist>

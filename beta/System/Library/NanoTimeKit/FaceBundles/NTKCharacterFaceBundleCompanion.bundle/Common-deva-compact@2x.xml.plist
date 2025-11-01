@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Background</key>
+	<dict>
+		<key>offset</key>
+		<integer>169776</integer>
+		<key>size</key>
+		<integer>128172</integer>
+	</dict>
+	<key>HandArm</key>
+	<dict>
+		<key>offset</key>
+		<integer>297948</integer>
+		<key>size</key>
+		<integer>138</integer>
+	</dict>
+	<key>HandHour_0</key>
+	<dict>
+		<key>offset</key>
+		<integer>27736</integer>
+		<key>size</key>
+		<integer>13868</integer>
+	</dict>
+	<key>HandMinute_0</key>
+	<dict>
+		<key>offset</key>
+		<integer>13868</integer>
+		<key>size</key>
+		<integer>13868</integer>
+	</dict>
+	<key>HandMinute_1</key>
+	<dict>
+		<key>offset</key>
+		<integer>0</integer>
+		<key>size</key>
+		<integer>13868</integer>
+	</dict>
+	<key>Numbers</key>
+	<dict>
+		<key>offset</key>
+		<integer>41604</integer>
+		<key>size</key>
+		<integer>128172</integer>
+	</dict>
+</dict>
+</plist>

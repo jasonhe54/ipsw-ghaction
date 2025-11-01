@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appearanceAware</key>
+	<true/>
+	<key>assets</key>
+	<dict>
+		<key>lockAndHome</key>
+		<dict>
+			<key>dark</key>
+			<dict>
+				<key>backgroundColors</key>
+				<array>
+					<string>#000000</string>
+					<string>#000000</string>
+				</array>
+				<key>bubbleColors</key>
+				<array>
+					<string>#A8A7A2</string>
+					<string>#9A9991</string>
+					<string>#898780</string>
+					<string>#7B7A78</string>
+					<string>#6F6D67</string>
+					<string>#615F59</string>
+				</array>
+				<key>bubbleCount</key>
+				<integer>40</integer>
+				<key>bubbleScale</key>
+				<real>1</real>
+				<key>identifier</key>
+				<integer>5080</integer>
+				<key>name</key>
+				<string>Warm Silver</string>
+				<key>parallaxMultiplier</key>
+				<real>0.5</real>
+				<key>thumbnailSeed</key>
+				<integer>0</integer>
+				<key>type</key>
+				<string>Bokeh</string>
+			</dict>
+			<key>default</key>
+			<dict>
+				<key>backgroundColors</key>
+				<array>
+					<string>#A8A7A2</string>
+					<string>#615F59</string>
+				</array>
+				<key>bubbleColors</key>
+				<array>
+					<string>#F2ECDA7F</string>
+					<string>#F2EDDF7F</string>
+					<string>#F2ECDA7F</string>
+					<string>#FFFAEB7F</string>
+					<string>#F2ECDA7F</string>
+					<string>#FFF7E07F</string>
+				</array>
+				<key>bubbleCount</key>
+				<integer>40</integer>
+				<key>bubbleScale</key>
+				<real>1</real>
+				<key>identifier</key>
+				<integer>5080</integer>
+				<key>name</key>
+				<string>Warm Silver</string>
+				<key>parallaxMultiplier</key>
+				<real>0.5</real>
+				<key>thumbnailSeed</key>
+				<integer>0</integer>
+				<key>type</key>
+				<string>Bokeh</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>family</key>
+	<string>Bokeh</string>
+	<key>identifier</key>
+	<integer>5080</integer>
+	<key>logicalScreenClass</key>
+	<string>any</string>
+	<key>name</key>
+	<string>Warm Silver</string>
+	<key>preferredProminentColor</key>
+	<dict>
+		<key>dark</key>
+		<string>#A8A69D</string>
+		<key>default</key>
+		<string>#DBD8CC</string>
+	</dict>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

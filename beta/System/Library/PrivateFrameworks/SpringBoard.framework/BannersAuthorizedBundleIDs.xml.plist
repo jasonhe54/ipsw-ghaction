@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.apple.AccessibilityUIServer</string>
+	<string>com.apple.BannerKitTest</string>
+	<string>com.apple.BluetoothUIService</string>
+	<string>com.apple.Maps</string>
+	<string>com.apple.proximitycontrold</string>
+	<string>com.apple.DragUI.druid</string>
+	<string>com.apple.Sharing.SharingHUDService</string>
+	<string>com.apple.PassbookBanner</string>
+	<string>com.apple.InCallService</string>
+	<string>com.apple.CopresenceApp</string>
+	<string>com.apple.CoreAuthUI</string>
+	<string>com.apple.LocalAuthenticationUIService</string>
+	<string>com.apple.shortcuts.runtime</string>
+	<string>com.apple.siri</string>
+	<string>com.apple.siri.SiriDebug</string>
+	<string>com.apple.ClassKitNotifier</string>
+	<string>com.apple.Preferences</string>
+	<string>com.apple.purplebuddy</string>
+	<string>com.apple.BiometricKitUITestApp</string>
+	<string>com.apple.ShortcutsUI</string>
+	<string>com.apple.UIKit.OverlayUI</string>
+	<string>com.apple.PassbookUISceneService</string>
+	<string>com.apple.MediaRemoteUI</string>
+	<string>com.apple.EyeReliefNotificationUI</string>
+	<string>com.apple.wifi.app</string>
+	<string>com.apple.GameOverlayUI</string>
+	<string>com.apple.GamePolicyAngel</string>
+	<string>com.apple.ops-swe.aqt</string>
+	<string>com.apple.MXUIService</string>
+	<string>com.apple.TrustKitUI</string>
+</array>
+</plist>

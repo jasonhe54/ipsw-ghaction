@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>imageList</key>
+	<array>
+		<dict>
+			<key>backgroundImageURL</key>
+			<string>back_668BAE4B-32F8-49D6-8F3F-B2528D9F9162.heic</string>
+			<key>baseImageURL</key>
+			<string>base_668BAE4B-32F8-49D6-8F3F-B2528D9F9162.heic</string>
+			<key>baseImageZorder</key>
+			<real>0.0</real>
+			<key>imageAOTBrightness</key>
+			<real>0.59082531929016113</real>
+			<key>localIdentifier</key>
+			<string>GalleryImage-5.12</string>
+			<key>maskImageURL</key>
+			<string>mask_668BAE4B-32F8-49D6-8F3F-B2528D9F9162.png</string>
+			<key>maskedImageZorder</key>
+			<real>2</real>
+			<key>modificationDate</key>
+			<date>2022-01-15T02:10:58Z</date>
+			<key>originalCropH</key>
+			<real>2931.1016437619232</real>
+			<key>originalCropW</key>
+			<real>2344.8813150095389</real>
+			<key>originalCropX</key>
+			<real>591.18563567760373</real>
+			<key>originalCropY</key>
+			<real>484.72897819585575</real>
+			<key>parallaxFlat</key>
+			<false/>
+			<key>parallaxScale</key>
+			<real>1.075</real>
+			<key>timeElementUnitBaseline</key>
+			<real>0.328125</real>
+			<key>timeElementUnitHeight</key>
+			<real>0.24111675126903553</real>
+			<key>timeElementZorder</key>
+			<real>1</real>
+			<key>userAdjusted</key>
+			<false/>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>

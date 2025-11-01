@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>OpenSourceImportDate</key>
+		<string>2018-02-16</string>
+		<key>OpenSourceLicense</key>
+		<string>BSD</string>
+		<key>OpenSourceLicenseFile</key>
+		<string>Measure.txt</string>
+		<key>OpenSourceModifications</key>
+		<array>
+			<string>Update build scripts for newer iOS versions, SDK versions, and architectures</string>
+			<string>Remove optional or un-unused modules and source</string>
+		</array>
+		<key>OpenSourceProject</key>
+		<string>OpenCV</string>
+		<key>OpenSourceSCM</key>
+		<string>git clone https://github.com/opencv/opencv.git</string>
+		<key>OpenSourceSHA256</key>
+		<string>b45f96d38c37d9da3b767e03195cd2d7eb90f06901a656f15661fec95e94d996</string>
+		<key>OpenSourceURL</key>
+		<string>https://github.com/opencv/opencv/tree/3.4</string>
+		<key>OpenSourceVersion</key>
+		<string>3.4.0</string>
+		<key>OpenSourceWebsiteURL</key>
+		<string>https://opencv.org/</string>
+	</dict>
+</array>
+</plist>

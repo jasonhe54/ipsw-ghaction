@@ -1,0 +1,14 @@
+"FOOTER_TEXT" = "In partnership with your utility provider, the Home app makes it easy to access, understand, and make informed decisions about your home electricity use. By connecting your utility account to the Home app, you can view your home’s electricity use over time, including use during lower and higher cost periods. If your home uses rooftop solar, the Home app also provides information about surplus energy that was sent back to the grid.
+
+When you set up Home Electricity, you can sign in with your utility account credentials or provide information, such as your name and contact information, to connect your utility account. If your account is identified by your utility provider and verification is successful, your utility provider will send data to your device about your account, such as your account ID, service location address, energy usage start date, energy meter information, and information about the utility programs you use. This account setup information is not accessed by Apple.
+
+To display electricity usage data in the Home app, your utility provider sends information to Apple about your electricity usage and billing, such as the start and end dates of your usage, your total consumption, a randomly generated identifier for your meter, and the total amount you spent on electricity in your last billing period. This information is stored temporarily on Apple servers, in a manner that does not allow Apple to identify you or connect your data to your Apple Account. Your device periodically downloads your electricity usage and billing information to display in the Home app. Your electricity usage and billing information is stored securely on your device and, if enabled, encrypted in iCloud.
+
+You may stop using Home Electricity at any time. To do so, tap the More button in the Home app, then go to Home Settings > Energy, tap your active provider, then tap Disconnect Account. By removing your account, the records associated with that account will be deleted from your devices and from Apple servers.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"BUTTON_TITLE_APPLETV" = "About Home Electricity & Privacy";
+"SPLASH_SUMMARY" = "Home Electricity is designed to protect your information and enable you to choose what you share.";
+"SPLASH_SHORT_TITLE" = "Home Electricity";
+"SPLASH_TITLE" = "Home Electricity & Privacy";
+"BUTTON_TITLE" = "About Home Electricity & Privacy…";

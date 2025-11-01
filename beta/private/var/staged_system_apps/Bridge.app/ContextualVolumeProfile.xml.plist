@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_GROUP_ID</string>
+			<key>isRadioGroup</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_LOUDER_ID</string>
+			<key>label</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_LOUDER</string>
+			<key>value</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_DEFAULT_ID</string>
+			<key>label</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_DEFAULT</string>
+			<key>value</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_QUIETER_ID</string>
+			<key>label</key>
+			<string>CONTEXTUAL_VOLUME_PROFILE_QUIETER</string>
+			<key>value</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CONTEXTUAL_VOLUME_PROFILE_TITLE</string>
+</dict>
+</plist>

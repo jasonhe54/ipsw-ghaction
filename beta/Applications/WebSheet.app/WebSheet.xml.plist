@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuddyAnchor</key>
+	<dict>
+		<key>Description</key>
+		<string>Attach WebSheet to MuseBuddy anchor.</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>Radar</key>
+		<integer>117829507</integer>
+	</dict>
+	<key>Exclusive</key>
+	<dict>
+		<key>Description</key>
+		<string>Hide other apps when WebSheet is launched.</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>Radar</key>
+		<integer>117829507</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+"trailer.label" = "Trailer";
+"unknown.badge" = "Badge";
+"more.button" = "More Actions";
+"star.histogram" = "{'ratings': {'one': '%1$d %2$#@stars@ review', 'other': '%1$d %2$#@stars@ reviews', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'stars': {'one': '%d-star', 'other': '%d-star', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%1$#@ratings@'}";
+"play.button" = "Play";
+"tvml.item.info" = "%@ of %@";
+"share.button" = "Share";
+"tvml.generic.poster" = "Poster";
+"remove.hint" = "Double tap to remove";
+"add.button" = "Add";
+"add.hint" = "Double tap to add";
+"fullscreen.button" = "Go to Full Screen";
+"star.rating" = "{'stars': {'one': '%d star', 'other': '%d stars', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@stars@'}";
+"star.rating.hint" = "Swipe left or right to rate";
+"remove.button" = "Remove";
+"playback.progress.label" = "Playback progress";

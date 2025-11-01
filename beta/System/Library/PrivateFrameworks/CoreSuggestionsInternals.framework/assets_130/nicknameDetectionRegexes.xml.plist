@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>body</key>
+		<string>^(hi|hi-ya|hel?lo|howdy(-?doody)?|yo|wassup|hey|hej|tjena|halloj|hei|h?ola|oi|buenos dias|buenas noches|bonjour|salut|coucou|shalom|selam|hal?lo|salve|ciao|yassas|yassou) (?&lt;core&gt;[^\d\W]{3,12}),?\n</string>
+		<key>subject</key>
+		<string>\b\B</string>
+	</dict>
+</dict>
+</plist>

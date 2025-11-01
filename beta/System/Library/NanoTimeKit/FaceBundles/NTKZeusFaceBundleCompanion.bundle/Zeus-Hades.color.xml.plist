@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>hades</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>evergreen</key>
+				<array>
+					<string>zeus.argent</string>
+					<string>zeus.navy</string>
+					<string>zeus.orange</string>
+				</array>
+				<key>seasons</key>
+				<dict>
+					<key>collections</key>
+					<dict>
+						<key>fall2021</key>
+						<array>
+							<string>hades.rouge h</string>
+							<string>hades.biscuit</string>
+							<string>hades.noir</string>
+						</array>
+					</dict>
+					<key>config</key>
+					<dict>
+						<key>isAddable</key>
+						<true/>
+					</dict>
+					<key>imports</key>
+					<array>
+						<string>fall2021</string>
+					</array>
+				</dict>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>rouge h</string>
+				<key>gallery-default</key>
+				<array>
+					<string>rouge h</string>
+					<string>biscuit</string>
+					<string>noir</string>
+					<string>argent</string>
+					<string>orange</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>hades.evergreen</string>
+				<string>hades.seasons</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

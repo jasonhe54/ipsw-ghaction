@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enable Fetch During Setup Assistant</key>
+	<true/>
+	<key>Expensive Networking Allowed</key>
+	<true/>
+	<key>Factor Path</key>
+	<string>/System/Library/PrivateFrameworks/SiriCam.framework/default_factors_750.pb</string>
+	<key>Namespace Compatibility Version</key>
+	<integer>2400</integer>
+	<key>Namespace Id</key>
+	<integer>750</integer>
+	<key>Namespace Upgrade Compatibility Versions</key>
+	<array/>
+	<key>ResourceAttributionBundleIdentifier</key>
+	<string>com.apple.AssistantServices</string>
+</dict>
+</plist>
