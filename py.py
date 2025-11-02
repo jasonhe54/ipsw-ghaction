@@ -229,34 +229,32 @@ def find_and_process_files_streaming(folder_path):
     
     print(f"Processing {len(valid_files)} valid files with {max_workers} workers...")
     
-    # Process files in parallel
-    futures = []
+    # Process files in parallel using map with chunking
+    # This is much more efficient than submit() for large batches
     with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all files for processing
-        # Process pool handles queueing automatically
-        for file_path in valid_files:
-            future = executor.submit(process_file_by_extension, file_path)
-            futures.append(future)
+        # chunksize: each worker processes this many files before reporting back
+        # Larger chunks = less overhead, but less frequent progress updates
+        # For 42k files on 3 cores: ~350 files per chunk = ~120 chunks total
+        chunksize = max(1, len(valid_files) // (max_workers * 40))
         
-        print(f"All {len(futures)} tasks submitted. Waiting for completion...")
+        print(f"Using chunksize of {chunksize} (creates ~{len(valid_files)//chunksize} batches)")
         
-        # Collect results with progress tracking
+        # executor.map() is more efficient than submit() for large datasets:
+        # - Less memory overhead (no Future objects until needed)
+        # - Better queue management (built-in backpressure)
+        # - Results are returned in order as they complete
         completed = 0
-        for future in concurrent.futures.as_completed(futures):
+        for result in executor.map(process_file_by_extension, valid_files, chunksize=chunksize):
             completed += 1
             
             # Progress updates every 5%
-            if completed % max(1, len(futures) // 20) == 0:
-                progress = (completed / len(futures)) * 100
-                print(f"Progress: {completed}/{len(futures)} ({progress:.1f}%)")
+            if completed % max(1, len(valid_files) // 20) == 0:
+                progress = (completed / len(valid_files)) * 100
+                print(f"Progress: {completed}/{len(valid_files)} ({progress:.1f}%)")
             
-            try:
-                result = future.result()
-                if result:  # Error dictionary
-                    errorArrayWithFilepaths.append(result)
-            except Exception as e:
-                # Unexpected crash in worker
-                print(f"Unexpected error in worker: {e}")
+            # Handle errors returned from worker
+            if result:  # Error dictionary
+                errorArrayWithFilepaths.append(result)
 
     total_time = time.time() - start_time
     print(f"\nAll processing complete in {total_time:.2f}s ({total_time/60:.2f} minutes)")
