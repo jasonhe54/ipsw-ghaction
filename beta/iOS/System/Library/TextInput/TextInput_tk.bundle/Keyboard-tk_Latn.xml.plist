@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-Z</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Z Ž</string>
+		<key>Strings</key>
+		<string>Z Ž</string>
+	</dict>
+	<key>Roman-Accent-z</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>z ž</string>
+		<key>Strings</key>
+		<string>z ž</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABÇ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>₽</string>
+	<key>UI-Cancel</key>
+	<string>Bes et</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>Boldy</string>
+	<key>UI-EmergencyCall</key>
+	<string>Gyssagly
+jaň</string>
+	<key>UI-Go</key>
+	<string>Git</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>TÜ</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>Goşul</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Türkmen</string>
+	<key>UI-Next</key>
+	<string>indiki</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>sägin</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>gaýtadan et</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>Gönükdirmeler</string>
+	<key>UI-Search</key>
+	<string>Gözleg</string>
+	<key>UI-Send</key>
+	<string>Iber</string>
+	<key>UI-Space</key>
+	<string>boşluk</string>
+	<key>UI-Undo</key>
+	<string>gaýtar</string>
+	<key>UI-Wait</key>
+	<string>garaşyň</string>
+	<key>UI-abc</key>
+	<string>abç</string>
+</dict>
+</plist>

@@ -1,0 +1,5 @@
+"competition.points.count" = "{'count': {'one': '%d point.', 'other': '%d points.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
+"message.bubble" = "Message";
+"competition.opponent.generic.name" = "Friend";
+"competition.opponentscore.vs.myscore" = "%@: %@ points, Me: %@ points";
+"competition.wins.count" = "{'count': {'one': '%d win.', 'other': '%d wins.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@count@'}";

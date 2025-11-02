@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Queries</key>
+	<array>
+		<string>CREATE TABLE Identifier (rowid INTEGER PRIMARY KEY, value NOT NULL, expiration NOT NULL, type NOT NULL, timestamp NOT NULL, generation, name, processId, amsDSID, paStatus)</string>
+		<string>CREATE TABLE IdentifierSource (rowid INTEGER PRIMARY KEY, identifierRowId, source NOT NULL, FOREIGN KEY (identifierRowId) REFERENCES Identifier(rowid) ON DELETE CASCADE)</string>
+		<string>CREATE TABLE OdcaMessageQueue (id TEXT PRIMARY KEY, position NOT NULL, type NOT NULL, assignedListener, payload)</string>
+		<string>CREATE TABLE OdcaAttribution (adamId, creationDate, start, end, candidate, tokenKey, tokens, expiration)</string>
+		<string>CREATE INDEX idx_OdcaAttribution_tokenKey ON OdcaAttribution (tokenKey)</string>
+		<string>CREATE INDEX idx_OdcaAttribution_adamId ON OdcaAttribution (adamId)</string>
+	</array>
+</dict>
+</plist>

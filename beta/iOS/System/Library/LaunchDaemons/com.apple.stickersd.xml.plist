@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.stickersd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.stickers.analytics</key>
+			<dict>
+				<key>AllowBattery</key>
+				<false/>
+				<key>Delay</key>
+				<integer>86400</integer>
+				<key>GracePeriod</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireScreenSleep</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.corespotlight.daemon.stickers</key>
+		<true/>
+		<key>com.apple.stickers.analytics</key>
+		<true/>
+		<key>com.apple.stickers.api</key>
+		<true/>
+		<key>com.apple.stickers.aps</key>
+		<true/>
+		<key>com.apple.stickers.launch-state-manager</key>
+		<true/>
+		<key>com.apple.stickers.recency</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

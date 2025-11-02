@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>maximum_duration</key>
+	<integer>30</integer>
+	<key>name</key>
+	<string>PodcastsClientLoadArtwork</string>
+	<key>signposts</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>Artwork</string>
+			<key>end</key>
+			<true/>
+			<key>event_identifier_field_name</key>
+			<string>identifier</string>
+			<key>name</key>
+			<string>SLMultiplexingImageProvider</string>
+			<key>start</key>
+			<true/>
+			<key>subsystem</key>
+			<string>com.apple.podcasts</string>
+		</dict>
+	</array>
+</dict>
+</plist>

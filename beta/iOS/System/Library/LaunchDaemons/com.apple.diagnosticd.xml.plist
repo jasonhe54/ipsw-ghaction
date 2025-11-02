@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>__CFPREFERENCES_AVOID_DAEMON</key>
+		<string>1</string>
+		<key>__CF_USER_TEXT_ENCODING</key>
+		<string>0x0:0:0</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.diagnosticd</string>
+	<key>LimitLoadToSessionType</key>
+	<string>System</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.diagnosticd</key>
+		<true/>
+		<key>com.apple.os_trace_relay</key>
+		<true/>
+		<key>com.apple.syslog_relay</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/diagnosticd</string>
+</dict>
+</plist>

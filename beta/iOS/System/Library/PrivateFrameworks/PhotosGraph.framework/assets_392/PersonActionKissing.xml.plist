@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criteria</key>
+	<array>
+		<dict>
+			<key>Action</key>
+			<dict>
+				<key>actionName</key>
+				<string>kissing</string>
+				<key>actionValue</key>
+				<integer>6</integer>
+				<key>operatingPoints</key>
+				<dict>
+					<key>42</key>
+					<dict>
+						<key>confidenceF1</key>
+						<real>0.32700000000000001</real>
+						<key>confidenceHighPrecisionThreshold</key>
+						<real>0.90000000000000002</real>
+						<key>confidenceHighRecallThreshold</key>
+						<real>0.20000000000000001</real>
+					</dict>
+					<key>44</key>
+					<dict>
+						<key>confidenceF1</key>
+						<real>0.55400000000000005</real>
+						<key>confidenceHighPrecisionThreshold</key>
+						<real>0.90000000000000002</real>
+						<key>confidenceHighRecallThreshold</key>
+						<real>0.40000000000000002</real>
+					</dict>
+				</dict>
+			</dict>
+			<key>People</key>
+			<dict>
+				<key>minimumNumberOfPeople</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

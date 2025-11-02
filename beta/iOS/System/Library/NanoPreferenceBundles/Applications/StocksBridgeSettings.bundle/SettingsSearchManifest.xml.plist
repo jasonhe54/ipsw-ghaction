@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>SELECTED_STOCK</string>
+			<key>searchSectionID</key>
+			<string>com.apple.StocksBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.StocksBridgeSettings&amp;amp;path=Selected%20Stock</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>CURRENT_PRICE</string>
+			<key>searchSectionID</key>
+			<string>com.apple.StocksBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.StocksBridgeSettings</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>POINTS_CHANGE</string>
+			<key>searchSectionID</key>
+			<string>com.apple.StocksBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.StocksBridgeSettings</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>PERCENTAGE_CHANGES</string>
+			<key>searchSectionID</key>
+			<string>com.apple.StocksBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.StocksBridgeSettings</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>MARKET_CAP</string>
+			<key>searchSectionID</key>
+			<string>com.apple.StocksBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.StocksBridgeSettings</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SettingsSearchManifest</string>
+</dict>
+</plist>

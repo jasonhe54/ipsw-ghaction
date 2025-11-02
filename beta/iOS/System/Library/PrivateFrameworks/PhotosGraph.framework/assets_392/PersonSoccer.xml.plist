@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criteria</key>
+	<array>
+		<dict>
+			<key>People</key>
+			<dict>
+				<key>minimumNumberOfPeople</key>
+				<integer>1</integer>
+			</dict>
+			<key>Scene</key>
+			<dict>
+				<key>minimumNumberOfAssetsWithPositiveScenes</key>
+				<integer>1</integer>
+				<key>minimumNumberOfPositiveScenes</key>
+				<integer>1</integer>
+				<key>negativeScenes</key>
+				<array/>
+				<key>positiveScenes</key>
+				<array>
+					<string>soccer</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

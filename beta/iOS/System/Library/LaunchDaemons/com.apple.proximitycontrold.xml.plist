@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.proximitycontrold</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bluetooth.discovery</key>
+		<dict>
+			<key>ProxControl</key>
+			<dict>
+				<key>bleRSSIThresholdHint</key>
+				<integer>-60</integer>
+				<key>discoveryFlags</key>
+				<array>
+					<string>ProxControl</string>
+				</array>
+				<key>keepAlive</key>
+				<true/>
+				<key>label</key>
+				<string>ProximityControl</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ProximityControl.HandoffViewServiceHost</key>
+		<true/>
+		<key>com.apple.ProximityControl.ProxControlDemoHost</key>
+		<true/>
+		<key>com.apple.ProximityControl.ProximityHandoffInteractions</key>
+		<true/>
+		<key>com.apple.ProximityControl.server</key>
+		<dict>
+			<key>_ExperimentalNonLaunching</key>
+			<true/>
+		</dict>
+		<key>com.apple.ProximityControl.server.launching</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/proximitycontrold</string>
+	</array>
+	<key>PublishesEvents</key>
+	<string>com.apple.ProximityControl.LockScreenDiscovery</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

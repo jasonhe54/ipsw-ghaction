@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>AssistantBridgeSettings</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>get</key>
+			<string>triggerPhraseType</string>
+			<key>id</key>
+			<string>TRIGGER_PHRASE_GROUP_ID</string>
+			<key>isRadioGroup</key>
+			<true/>
+			<key>set</key>
+			<string>setTriggerPhraseType:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>HS_JS_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>HEY_SIRI_ID</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>VOICE_TRIGGER_DISABLED_ID</string>
+			<key>label</key>
+			<string>VOICE_TRIGGER_DISABLED</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LISTEN_FOR</string>
+</dict>
+</plist>

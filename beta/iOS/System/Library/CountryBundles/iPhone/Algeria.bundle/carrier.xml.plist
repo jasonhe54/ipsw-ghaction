@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Algeria</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>17</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_POLICE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>14</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+				<key>Title</key>
+				<string>EMERGENCY_DISAMBIGUATION_AMBULANCE_FIRE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>104</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>1055</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>1548</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>1590</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>dz</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>603</string>
+		<string>com.apple.Algeria</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.sociallayerd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.spotlight.SyndicatedContentDeleted</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.spotlight.SyndicatedContentDeleted</string>
+			</dict>
+			<key>com.apple.spotlight.SyndicatedContentRefreshed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.spotlight.SyndicatedContentRefreshed</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.sociallayerd</key>
+		<true/>
+		<key>com.apple.sociallayerd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/SocialLayer.framework/sociallayerd.app/sociallayerd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

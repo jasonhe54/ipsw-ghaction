@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_accessoryupdater</string>
+	<key>Label</key>
+	<string>com.apple.accessoryupdaterd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.MobileAccessoryUpdater</key>
+		<true/>
+		<key>com.apple.accessoryupdater.launchauhelper</key>
+		<true/>
+		<key>com.apple.accessoryupdater.observer</key>
+		<true/>
+		<key>com.apple.accessoryupdater.uarp</key>
+		<true/>
+		<key>com.apple.accessoryupdater.uarp.standaloneCommandListener</key>
+		<true/>
+		<key>com.apple.uarppersonalization</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/accessoryupdaterd</string>
+		<string>120</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>UserName</key>
+	<string>_accessoryupdater</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ARKit_iOS_tests_app</string>
+	<string>ClockFace</string>
+	<string>ContextService</string>
+	<string>NanoReminders</string>
+	<string>assistant_service</string>
+	<string>dataaccessd</string>
+	<string>eventkitsyncd</string>
+	<string>exchangesyncd</string>
+	<string>maild</string>
+	<string>linkd</string>
+	<string>promotedcontentd</string>
+	<string>relevanced</string>
+	<string>remindd</string>
+	<string>suggestd</string>
+	<string>xctest</string>
+</array>
+</plist>

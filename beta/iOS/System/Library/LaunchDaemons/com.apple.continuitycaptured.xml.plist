@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.continuitycaptured</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>com.apple.cmio.continuitycaptured.server</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.continuitycapture</string>
+				<key>type</key>
+				<string>rdserver</string>
+			</dict>
+			<key>com.apple.cmio.continuitycaptured.server.launch</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.continuitycapture.sideband</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.continuitycaptured</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/continuitycaptured</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

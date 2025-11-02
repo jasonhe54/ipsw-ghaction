@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>besøgte</key>
+	<string>bes</string>
+	<key>billede</key>
+	<string>bld</string>
+	<key>boks</key>
+	<string>bks</string>
+	<key>dæmpet</key>
+	<string>dæm</string>
+	<key>emne</key>
+	<string>emn</string>
+	<key>emner</key>
+	<string>emnr</string>
+	<key>farve</key>
+	<string>frv</string>
+	<key>gruppe</key>
+	<string>grp</string>
+	<key>henvisning</key>
+	<string>henv</string>
+	<key>ikke valgt</key>
+	<string>( )</string>
+	<key>knap</key>
+	<string>knp</string>
+	<key>kolonne</key>
+	<string>kol</string>
+	<key>kolonner</key>
+	<string>kolr</string>
+	<key>linje</key>
+	<string>lin</string>
+	<key>markeret</key>
+	<string>mark</string>
+	<key>mærke</key>
+	<string>mrk</string>
+	<key>niveau</key>
+	<string>niv</string>
+	<key>overskrift</key>
+	<string>ovskr</string>
+	<key>radio</key>
+	<string>rd</string>
+	<key>rediger</key>
+	<string>red</string>
+	<key>rul</key>
+	<string>rul</string>
+	<key>side</key>
+	<string>sd</string>
+	<key>sikker</key>
+	<string>skr</string>
+	<key>status</key>
+	<string>sts</string>
+	<key>tabel</key>
+	<string>tbl</string>
+	<key>tekst</key>
+	<string>tkst</string>
+	<key>udvalg</key>
+	<string>udv</string>
+	<key>umarkeret</key>
+	<string>umark</string>
+	<key>valgt</key>
+	<string>(x)</string>
+	<key>valgte</key>
+	<string>vlgt</string>
+</dict>
+</plist>

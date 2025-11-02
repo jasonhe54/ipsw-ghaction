@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AllowCloudDelivery</key>
+	<true/>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>DataUsageBundleID</key>
+	<string>com.apple.NanoCalendar</string>
+	<key>DisplayName</key>
+	<string>EventKit Mutation</string>
+	<key>DuetIdentifiers</key>
+	<array>
+		<string>com.apple.reminders</string>
+		<string>com.apple.Carousel</string>
+		<string>com.apple.NanoCalendar</string>
+		<string>com.apple.mobilecal</string>
+		<string>com.apple.glances.NanoCalendar</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.eventkitmutation</string>
+	<key>LaunchMachServiceNotification</key>
+	<string>com.apple.private.alloy.eventkitmutation-idswake</string>
+	<key>MinCompatibilityVersion</key>
+	<integer>2</integer>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.eventkitmutation</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.eventkitmutation</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

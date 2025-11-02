@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.batterytrapd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.has-applelpm</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>has-applelpm</key>
+					<data>
+					AQAAAA==
+					</data>
+				</dict>
+				<key>IOProviderClass</key>
+				<string>IOPlatformDevice</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>AppleTimePreferencesChangedNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>AppleTimePreferencesChangedNotification</string>
+			</dict>
+			<key>SignificantTimeChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>SignificantTimeChangeNotification</string>
+			</dict>
+			<key>TimezoneNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.system.timezone</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/batterytrapd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

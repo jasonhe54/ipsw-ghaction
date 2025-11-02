@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.com.br/pt/index.jsp</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://mundonick.uol.com.br/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Nickelodeon</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.escolagames.com.br/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Escola Games</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.cartoonnetwork.com.br/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Cartoon Network Brasil</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://criancas.uol.com.br/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>UOL Crianças</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://senna.globo.com/senninha/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Senninha</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/br/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://tvcultura.cmais.com.br/cocorico</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Cocoricó</string>
+		</dict>
+	</array>
+</dict>
+</plist>

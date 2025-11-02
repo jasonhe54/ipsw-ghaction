@@ -1,0 +1,67 @@
+"LEARN_MORE_IN_HEALTH_LINK" = "Learn More…";
+"SOUND_AND_HAPTIC_PATTERNS_TEXTTONE_TITLE" = "Text Tone";
+"HEADPHONE_LEVEL_NOTIFICATIONS_VOICE_OVER_DESCRIPTION" = "{'notifications': {'one': '%1$d notification', 'few': '%1$d notifications', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'two': '%1$d notifications', 'many': '%1$d notifications', 'NSStringFormatValueTypeKey': 'd', 'other': '%1$d notifications', 'zero': 'No notifications'}, 'NSStringLocalizedFormatKey': '%#@notifications@'}";
+"AUDIO_MUTE_SWITCH" = "Silent Mode";
+"HEADPHONE_LEVEL_LIMIT_SELECTION_FOOTER" = "Your Apple Watch can analyze headphone audio and reduce any sound that is over a set decibel level. %@";
+"TITLE" = "Sounds & Haptics";
+"HEALTH_PRIVACY_SETTINGS_LINK" = "Privacy settings.";
+"HEADPHONE_AUDIO_LEVELS_ALERT_MESSAGE" = "You can turn on Headphone Audio Levels in Settings.";
+"AUDIO_MUTE_FOOTER" = "Silent mode will not mute alarms and timers while Apple Watch is charging.";
+"SOUND_AND_HAPTIC_PATTERNS_RINGTONE_TITLE" = "Ringtone";
+"HEADPHONE_LEVEL_NOTIFICATIONS_DISABLED_FOOTER" = "This setting is not available because headphone audio level measurements have been turned off in %@";
+"PROMINENT_HAPTIC_RADIO_TITLE" = "Prominent";
+"HEADPHONE_LEVEL_LIMIT_SET_LEVEL" = "%@ decibels";
+"HAPTIC_ALERTS_GROUP_TITLE" = "Haptics";
+"HEADPHONE_LEVEL_LIMIT_SET_OFF" = "Off";
+"TAP_TO_SPEAK" = "Tap to Speak Time";
+"HEADPHONE_LEVEL_NOTIFICATIONS_FOOTER" = "To protect your hearing, your Apple Watch will measure headphone audio levels. If you exceed the recommended 7-day limit, a notification is sent and the volume is turned down. %@";
+"CONTEXTUAL_VOLUME_PROFILE_TITLE" = "Level";
+"HEADPHONE_LEVEL_LIMIT_100_INFO" = "As loud as an ambulance siren";
+"HEADPHONE_LEVEL_WEEKLY_NOTIFICATIONS" = "Last 6 Months";
+"HEADPHONE_LEVEL_LIMIT_LABEL" = "Reduce Loud Sounds";
+"SETTINGS_BUTTON" = "Settings";
+"AUDIO_SLIDER" = "Alert Volume";
+"HEADPHONE_HEARING_PROTECTION" = "Headphone Safety";
+"HEADPHONE_LEVEL_NOTIFICATIONS_SWITCH" = "Headphone Notifications";
+"SYSTEM_HAPTICS_LABEL" = "System Haptics";
+"HAPTIC_SLIDER" = "Haptic Strength";
+"SYSTEM_SOUNDS_AND_HAPTICS_GROUP_TITLE" = "System Sounds & Haptics";
+"ABOUT_HEADPHONE_LEVEL_WEEKLY_NOTIFICATIONS_DETAILS_2" = "Exposure limits are based on the safe listening guidelines set by the World Health Organization. Audio is measured over a seven-day window and limits are based on a combination of loudness and time. The louder the audio, the less time you can safely listen and the faster you'll hit the limit.
+
+Classifying your Bluetooth devices can ensure your headphone audio measurements are accurate. ";
+"HEADPHONE_LEVEL_NOTIFICATIONS_GROUP" = "Headphone Notifications";
+"SOUND_AND_HAPTIC_PATTERNS_CALENDARALERTS_TITLE" = "Calendar Alerts";
+"ABOUT_HEADPHONE_LEVEL_WEEKLY_NOTIFICATIONS_TITLE" = "About Headphone Notifications";
+"HEADPHONE_LEVEL_LIMIT_95_INFO" = "As loud as a car horn";
+"CONTEXTUAL_VOLUME_SWITCH_TITLE" = "Automatically Adjust Volume";
+"HEADPHONE_LEVEL_LIMIT_90_INFO" = "As loud as a motorcycle";
+"HEADPHONE_LEVEL_NOTIFICATION_DESCRIPTION_SINGULAR" = "notification";
+"HAPTIC_ALERTS_TITLE" = "Haptic Alerts";
+"SOUND_AND_HAPTIC_PATTERNS_DEFAULTALERTS_TITLE" = "Default Alerts";
+"DEFAULTS_HAPTIC_RADIO_TITLE" = "Default";
+"SYSTEM_HAPTICS_DESCRIPTION" = "Play haptics for system controls and interactions.";
+"HEADPHONE_LEVEL_NOTIFICATIONS_DESCRIPTION_PLURAL" = "notifications";
+"HEADPHONE_LEVEL_LIMIT_80_INFO" = "As loud as a noisy restaurant";
+"HEADPHONE_LEVEL_LIMIT_85_INFO" = "As loud as heavy city traffic";
+"SOUND_AND_HAPTIC_PATTERNS_REMINDERALERTS_TITLE" = "Reminder Alerts";
+"LEARN_MORE_SAFE_LISTENING_HEALTH_LINK" = "Learn more about safe listening habits in Health.";
+"PROMINENT_HAPTIC_FOOTER" = "When this is on, Apple Watch will play a prominent haptic to pre-announce some common alerts.";
+"HEADPHONE_AUDIO_LEVELS_ALERT_TITLE" = "Headphone Audio Levels are Turned Off";
+"SOUND_AND_HAPTIC_PATTERNS_NEWMAIL_TITLE" = "New Mail";
+"CLASSIFY_BLUETOOTH_DEVICES_IN_SETTINGS_LINK" = "Go to Settings…";
+"PROMINENT_HAPTIC_TITLE" = "Prominent Haptic";
+"RINGTONE_AND_ALERTS_SECTION_TITLE" = "Ringtone and Alerts";
+"HEADPHONE_AUDIO_GROUP" = "Headphone Audio";
+"TAP_TO_SPEAK_FOOTER" = "When this is on, tapping Mickey Mouse or Minnie Mouse will announce the current time.";
+"HEADPHONE_LEVEL_NOTIFICATIONS_MANDATORY" = "In certain regions, these notifications are required. %@";
+"ABOUT_HEADPHONE_LEVEL_WEEKLY_NOTIFICATIONS_DETAILS_1" = "
+These notifications inform you if you've been listening to loud headphone audio for long enough to affect your hearing. In certain regions, these notifications are required due to regulations and safety standards.
+
+";
+"HEADPHONE_LEVEL_LIMIT_75_INFO" = "As loud as a vacuum cleaner";
+"ABOUT_HEADPHONE_LEVEL_WEEKLY_NOTIFICATIONS_DETAILS_3" = "
+
+You can view your headphone audio exposure and learn more about safe listening habits in Health. ";
+"ABOUT_HEADPHONE_LEVEL_WEEKLY_NOTIFICATIONS_SUBTITLE" = "7-Day Limit Notifications
+";
+"OK_BUTTON" = "OK";

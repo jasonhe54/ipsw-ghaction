@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.safetyAndHandling.bundleSampleContent</string>
+	<key>SHDisplayOrdering</key>
+	<integer>4</integer>
+	<key>SHRegions</key>
+	<array>
+		<string>MD</string>
+	</array>
+	<key>SHRequiredCapabilities</key>
+	<dict>
+		<key>RegulatoryModelNumber</key>
+		<array>
+			<string>A3256</string>
+			<string>A3522</string>
+			<string>A3523</string>
+			<string>A3524</string>
+			<string>A3257</string>
+			<string>A3525</string>
+			<string>A3526</string>
+			<string>A3527</string>
+		</array>
+	</dict>
+</dict>
+</plist>

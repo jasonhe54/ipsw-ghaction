@@ -1,0 +1,3 @@
+"ALERT_BODY" = "{'apps': {'one': '%d app', 'other': '%d apps', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'trackers': {'one': '%d tracker', 'other': '%d trackers', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': 'In the past week %#@apps@ contacted %#@trackers@.'}";
+"ALERT_TITLE" = "{'NSStringLocalizedFormatKey': 'Weekly Report Available'}";
+"ALERT_HEADER" = "{'NSStringLocalizedFormatKey': 'CROSS-APP TRACKING'}";

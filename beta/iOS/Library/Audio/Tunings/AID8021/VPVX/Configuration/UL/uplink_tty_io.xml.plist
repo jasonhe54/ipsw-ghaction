@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Uplink</key>
+	<dict>
+		<key>Nodes</key>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/UL/uplink_content_pass_through.dspg</string>
+			</dict>
+			<key>Echo</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/UL/uplink_tty_echo.dspg</string>
+				<key>DSPGraphPropertyStripFilePath</key>
+				<string>DSP/UL/uplink_tty_echo.propstrip</string>
+				<key>PreferredBlockDurationSeconds</key>
+				<real>0.01</real>
+			</dict>
+			<key>Hardware</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/UL/uplink_hardware_pass_through.dspg</string>
+			</dict>
+		</dict>
+		<key>Settings</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

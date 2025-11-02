@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_accessoryupdater</string>
+	<key>Label</key>
+	<string>com.apple.uarpd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.uarp.assetavailability</key>
+		<dict>
+			<key>com.apple.uarp.assetavailability.subscriber</key>
+			<dict>
+				<key>domain</key>
+				<string>uarpd</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.uarp.asset.personalization.complete</key>
+		<true/>
+		<key>com.apple.uarp.endpoint.control</key>
+		<true/>
+		<key>com.apple.uarp.endpoint.transport</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/uarpd</string>
+	<key>PublishesEvents</key>
+	<string>com.apple.uarp.personalization</string>
+	<key>UserName</key>
+	<string>_accessoryupdater</string>
+</dict>
+</plist>

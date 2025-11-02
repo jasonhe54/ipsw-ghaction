@@ -1,0 +1,3 @@
+"messagesCountFormat%1$lu" = "{'value': {'one': '%1$lu Message', 'other': '%1$lu Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"newMessagesFormat%1$lu" = "{'value': {'one': '%1$lu New Message', 'other': '%1$lu New Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"ItemsFormat%1$lu" = "{'value': {'one': '%1$lu item', 'other': '%1$lu items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
