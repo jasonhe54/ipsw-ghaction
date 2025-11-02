@@ -151,33 +151,34 @@ def process_file_by_extension(file_path):
 
 def discover_files_fast(root_path, extensions):
     """
-    Fast, optimized file discovery using os.walk.
-    Filters files by extension during discovery to minimize memory.
+    Fast, optimized file discovery using a single os.walk.
     
-    os.walk is highly optimized in Python and faster than custom implementations
-    for most use cases, especially on macOS with APFS.
+    os.walk() with followlinks=False already provides:
+    - 'filenames':  Includes regular files AND symlinks to files.
+    - 'dirnames':   Includes regular directories AND symlinks to directories.
+    
+    This function scans each directory only ONCE.
     """
     target_files = []
     
     try:
+        # We only need one walk.
         for dirpath, dirnames, filenames in os.walk(root_path, topdown=True, followlinks=False):
-            # Filter files by extension during walk (memory efficient)
+            
+            # 1. Check all files and symlinks-to-files
             for filename in filenames:
                 if any(filename.endswith(ext) for ext in extensions):
-                    file_path = os.path.join(dirpath, filename)
-                    target_files.append(file_path)
+                    target_files.append(os.path.join(dirpath, filename))
             
-            # Also check for symlinks that might be files
-            # os.walk doesn't yield symlinks separately, so we scan them
-            try:
-                for entry in os.scandir(dirpath):
-                    if entry.is_symlink():
-                        full_path = entry.path
-                        if any(full_path.endswith(ext) for ext in extensions):
-                            target_files.append(full_path)
-            except (PermissionError, OSError):
-                continue
-                
+            # 2. Check symlinks-to-directories (in case a symlink name
+            #    itself ends in a target extension, e.g., "MySymlink.plist")
+            for dirname in dirnames:
+                if any(dirname.endswith(ext) for ext in extensions):
+                    file_path = os.path.join(dirpath, dirname)
+                    # We only care if it's a symlink
+                    if os.path.islink(file_path): 
+                        target_files.append(file_path)
+                        
     except (PermissionError, OSError) as e:
         print(f"Warning: Could not access {root_path}: {e}")
     
