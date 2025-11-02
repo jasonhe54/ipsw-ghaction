@@ -4,9 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       os_type:
-        description: 'Operating System (iOS, iPadOS, etc.)'
+        description: 'Operating System (e.g., iOS, iPadOS, visionOS)'
         required: true
-        type: string
+        type: choice
+        options:
+          - iOS
+          - iPadOS
+          - visionOS
+          - tvOS
+          - macOS
       beta_version:
         description: 'Version (e.g., 26.0). Used for PR title.'
         required: true
