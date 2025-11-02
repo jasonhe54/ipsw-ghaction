@@ -1,5 +1,0 @@
-"%lld pages" = "{'pages': {'one': '%lld page', 'other': '%lld pages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@pages@'}";
-"%lld jobs pending" = "{'jobspending': {'one': '%lld job pending', 'other': '%lld jobs pending', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@jobspending@'}";
-"%lld copies" = "{'copies': {'one': '%lld copy', 'other': '%lld copies', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@copies@'}";
-"NoDocumentsWaiting" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'No Documents Waiting', 'iphone': 'No Documents Waiting', 'mac': 'No Jobs Waiting', 'other': 'No Documents Waiting'}}";
-"%lld jobs" = "{'jobs': {'one': '%lld job', 'other': '%lld jobs', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@jobs@'}";
