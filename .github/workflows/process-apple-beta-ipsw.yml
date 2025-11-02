@@ -10,9 +10,10 @@ on:
         options:
           - iOS
           - iPadOS
+          - macOS
+          - watchOS
           - visionOS
           - tvOS
-          - macOS
       beta_version:
         description: 'Version (e.g., 26.0). Used for the version tag.'
         required: true
