@@ -119,49 +119,33 @@ def process_file_by_extension(file_path):
 
 def discover_and_validate_files(root_path, extensions):
     """
-    FIXED: Single-pass discovery AND validation.
+    Fast, optimized file discovery using os.walk.
+    Filters files by extension during discovery to minimize memory.
     
-    os.walk(followlinks=False) is all we need:
-    - 'filenames' includes files AND symlinks-to-files.
-    - 'dirnames' includes directories AND symlinks-to-directories.
-    
-    This function scans each directory ONCE and validates in the same pass.
+    os.walk is highly optimized in Python and faster than custom implementations
+    for most use cases, especially on macOS with APFS.
     """
     valid_files = []
     
     try:
         for dirpath, dirnames, filenames in os.walk(root_path, topdown=True, followlinks=False):
-            
-            # 1. Check all files and symlinks-to-files
+            # Filter files by extension during walk (memory efficient)
             for filename in filenames:
                 if any(filename.endswith(ext) for ext in extensions):
                     file_path = os.path.join(dirpath, filename)
-                    # Validate *during* discovery
-                    if not os.path.exists(file_path):
-                        errorArrayWithFilepaths.append({
-                            "filepath": file_path, 
-                            "errorMessage": "Broken symlink or file not found", 
-                            "function": "discover_and_validate_files (scan)"
-                        })
-                    else:
-                        valid_files.append(file_path)
+                    target_files.append(file_path)
             
-            # 2. Check symlinks-to-directories (in case a symlink name
-            #    itself ends in a target extension, e.g., "MySymlink.plist")
-            for dirname in dirnames:
-                if any(dirname.endswith(ext) for ext in extensions):
-                    file_path = os.path.join(dirpath, dirname)
-                    # We only care if it's a symlink that also matches extension
-                    if os.path.islink(file_path): 
-                        if not os.path.exists(file_path):
-                            errorArrayWithFilepaths.append({
-                                "filepath": file_path, 
-                                "errorMessage": "Broken symlink or file not found", 
-                                "function": "discover_and_validate_files (scan)"
-                            })
-                        else:
-                            valid_files.append(file_path)
-                        
+            # Also check for symlinks that might be files
+            # os.walk doesn't yield symlinks separately, so we scan them
+            try:
+                for entry in os.scandir(dirpath):
+                    if entry.is_symlink():
+                        full_path = entry.path
+                        if any(full_path.endswith(ext) for ext in extensions):
+                            target_files.append(full_path)
+            except (PermissionError, OSError):
+                continue
+                
     except (PermissionError, OSError) as e:
         print(f"Warning: Could not access {root_path}: {e}")
     
@@ -207,7 +191,8 @@ def find_and_process_files_streaming(folder_path):
     # Process files in parallel
     futures = []
     with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
-        # Reverting to your original, faster submit() loop
+        # Submit all files for processing
+        # Process pool handles queueing automatically
         for file_path in valid_files:
             future = executor.submit(process_file_by_extension, file_path)
             futures.append(future)
@@ -216,21 +201,20 @@ def find_and_process_files_streaming(folder_path):
         
         # Collect results with progress tracking
         completed = 0
-        total_futures = len(futures)
-        progress_points = {int(total_futures * p / 100) for p in range(5, 101, 5)}
-
         for future in concurrent.futures.as_completed(futures):
             completed += 1
             
-            if completed in progress_points:
-                progress = (completed / total_futures) * 100
-                print(f"Progress: {completed}/{total_futures} ({progress:.0f}%)")
+            # Progress updates every 5%
+            if completed % max(1, len(futures) // 20) == 0:
+                progress = (completed / len(futures)) * 100
+                print(f"Progress: {completed}/{len(futures)} ({progress:.1f}%)")
             
             try:
                 result = future.result()
                 if result:  # Error dictionary
                     errorArrayWithFilepaths.append(result)
             except Exception as e:
+                # Unexpected crash in worker
                 print(f"Unexpected error in worker: {e}")
 
     total_time = time.time() - start_time
