@@ -74,7 +74,7 @@ jobs:
           echo "Downloading artifact from Run ID ${{ inputs.run_id }}"
           
           gh run download ${{ inputs.run_id }} \
-            --name "analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}" \
+            --name "analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}" \
             --dir ./
             
           echo "Artifact download complete."
