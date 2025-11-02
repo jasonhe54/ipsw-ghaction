@@ -11,7 +11,7 @@ on:
           - iOS
           - iPadOS
           - macOS
-          - watchOS
+          # - watchOS
           - visionOS
           - tvOS
       device_identifier:
