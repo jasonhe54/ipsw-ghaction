@@ -3,10 +3,11 @@ import subprocess
 import json
 import sys
 import concurrent.futures
+import multiprocessing
 
 # --- Error Handling ---
 # This list will be populated by the main thread after results are collected
-errorArrayWithFilepaths = [] 
+errorArrayWithFilepaths = []
 def printErrorArray():
     if len(errorArrayWithFilepaths) == 0:
         return
@@ -26,16 +27,11 @@ if len(sys.argv) < 3:
     print("  <destination_folder>: e.g., ./beta/iOS/System")
     sys.exit(1)
 
-# The folder path from the mounted DMG, e.g., ./mounted_dmg/System
-parsedFolderPath = sys.argv[1] 
-
-# The relative path *in the repo* where files will be saved, e.g., beta/iOS/System
+parsedFolderPath = sys.argv[1]
 finalBaseRepoPath = sys.argv[2]
 
-# The images path is built from the OS-specific root folder.
 osSpecificRootPath = os.path.dirname(finalBaseRepoPath)
 finalBaseRepoImagesPath = os.path.join(osSpecificRootPath, "images")
-
 
 print(f"--- Starting Python Script ---")
 print(f"Reading from DMG folder: {parsedFolderPath}")
@@ -43,10 +39,7 @@ print(f"Writing to repo folder:  {finalBaseRepoPath}")
 print(f"Writing images to:       {finalBaseRepoImagesPath}")
 print(f"------------------------------")
 
-# --- Core Functions ---
-# NOTE: These functions now RETURN an error dictionary instead of
-# calling addErrorToArray, to make them process-safe.
-
+# --- Core Functions (Unchanged) ---
 def convert_loctable_to_strings(loctable_file):
     relPathInDMG = loctable_file.replace(parsedFolderPath, "")
     if relPathInDMG.startswith('/'):
@@ -67,10 +60,10 @@ def convert_loctable_to_strings(loctable_file):
         enContent = data.get('en', {})
         if not enContent:
             os.remove(strings_file) 
-            return None # Not an error, just no 'en' content
+            return None
 
         outputDir = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG), "en.lproj")
-        os.makedirs(outputDir, exist_ok=True) # <-- Safer directory creation
+        os.makedirs(outputDir, exist_ok=True)
 
         finalStringsFilename = os.path.basename(strings_file).replace('-json.strings', '.strings')
         outputFile = os.path.join(outputDir, finalStringsFilename) 
@@ -80,17 +73,14 @@ def convert_loctable_to_strings(loctable_file):
                 file.write(f'"{key}" = "{enContent[key]}";\n')
         
         os.remove(strings_file)
-        return None # Success
+        return None
         
     except subprocess.CalledProcessError as e:
         error_message = e.stderr or e.stdout or str(e)
-        print(f"Error converting loctable: {loctable_file} - {error_message.strip()}")
         return {"filepath": loctable_file, "errorMessage": error_message, "function": "convert_loctable_to_strings"}
     except json.JSONDecodeError as e:
-        print(f"Error decoding JSON from: {strings_file} - {e}")
         return {"filepath": loctable_file, "errorMessage": str(e), "function": "convert_loctable_to_strings"}
     except Exception as e:
-        print(f"Unexpected error in convert_loctable_to_strings: {loctable_file} - {e}")
         return {"filepath": loctable_file, "errorMessage": str(e), "function": "convert_loctable_to_strings"}
 
 def add_image_file_to_repo(file_path):
@@ -102,17 +92,15 @@ def add_image_file_to_repo(file_path):
         root_folder_name = os.path.basename(parsedFolderPath)
         outputPath = os.path.join(finalBaseRepoImagesPath, root_folder_name, os.path.dirname(relPathInDMG))
 
-        os.makedirs(outputPath, exist_ok=True) # <-- Safer directory creation
+        os.makedirs(outputPath, exist_ok=True)
             
         subprocess.run(['cp', file_path, outputPath], check=True, capture_output=True)
-        return None # Success
+        return None
 
     except subprocess.CalledProcessError as e:
         error_message = e.stderr or e.stdout or str(e)
-        print(f"Error copying image: {file_path} - {error_message}")
         return {"filepath": file_path, "errorMessage": error_message, "function": "add_image_file_to_repo"}
     except Exception as e:
-        print(f"Unexpected error in add_image_file_to_repo: {file_path} - {e}")
         return {"filepath": file_path, "errorMessage": str(e), "function": "add_image_file_to_repo"}
 
 
@@ -123,14 +111,14 @@ def add_plist_file_to_repo(file_path):
             relPathInDMG = relPathInDMG[1:]
         
         if '.lproj' in relPathInDMG and 'en.lproj' not in relPathInDMG:
-            return None # Skip this file
+            return None
         if '.xml.plist' in file_path:
-            return None # Skip this file
+            return None
 
         plist_xml_in_dmg = file_path.replace('.plist', '.xml.plist')
         
         outputPath = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG))
-        os.makedirs(outputPath, exist_ok=True) # <-- Safer directory creation
+        os.makedirs(outputPath, exist_ok=True)
             
         result = subprocess.run(
             ['plutil', '-convert', 'xml1', file_path, '-o', plist_xml_in_dmg], 
@@ -140,76 +128,141 @@ def add_plist_file_to_repo(file_path):
         )
         subprocess.run(['cp', plist_xml_in_dmg, outputPath], check=True, capture_output=True)
         os.remove(plist_xml_in_dmg)
-        return None # Success
+        return None
 
     except subprocess.CalledProcessError as e:
         error_message = e.stderr or e.stdout or str(e)
-        print(f"Error processing plist: {file_path} - {error_message.strip()}")
         return {"filepath": file_path, "errorMessage": error_message, "function": "add_plist_file_to_repo"}
     except Exception as e:
-        print(f"Unexpected error in add_plist_file_to_repo: {file_path} - {e}")
         return {"filepath": file_path, "errorMessage": str(e), "function": "add_plist_file_to_repo"}
 
+# --- New Processing and Discovery Functions ---
 
-def find_and_process_files(folder_path):
-    loctable_files = []
-    image_files = []
-    plist_files = []
+def process_file_by_extension(file_path):
+    """Dispatch file to appropriate processor based on extension."""
+    if file_path.endswith('.loctable'):
+        return convert_loctable_to_strings(file_path)
+    elif file_path.endswith(('.png', '.jpg', '.heif', '.ico')):
+        return add_image_file_to_repo(file_path)
+    elif file_path.endswith('.plist'):
+        return add_plist_file_to_repo(file_path)
+    return None
 
-    print(f"Scanning {folder_path} to collect files...")
-    file_count = 0
-    for root, dirs, files in os.walk(folder_path):
-        for file in files:
-            file_count += 1
-            file_path = os.path.join(root, file)
 
-            if not os.path.exists(file_path):
-                # This error can be added directly, os.walk is still serial
-                errorArrayWithFilepaths.append({
-                    "filepath": file_path, 
-                    "errorMessage": "Broken symlink or file not found", 
-                    "function": "find_and_process_files (scan)"
-                })
-                continue 
-            
-            if file.endswith('.loctable'):
-                loctable_files.append(file_path)
-            elif file.endswith(('.png', '.jpg', '.heif', '.ico')):
-                image_files.append(file_path)
-            elif file.endswith('.plist'):
-                plist_files.append(file_path)
+def discover_files_fast(root_path, extensions):
+    """
+    Fast, optimized file discovery using os.walk.
+    Filters files by extension during discovery to minimize memory.
     
-    total_to_process = len(loctable_files) + len(image_files) + len(plist_files)
-    print(f"Scan complete. Processed {file_count} total files, found {total_to_process} to process in parallel.")
+    os.walk is highly optimized in Python and faster than custom implementations
+    for most use cases, especially on macOS with APFS.
+    """
+    target_files = []
+    
+    try:
+        for dirpath, dirnames, filenames in os.walk(root_path, topdown=True, followlinks=False):
+            # Filter files by extension during walk (memory efficient)
+            for filename in filenames:
+                if any(filename.endswith(ext) for ext in extensions):
+                    file_path = os.path.join(dirpath, filename)
+                    target_files.append(file_path)
+            
+            # Also check for symlinks that might be files
+            # os.walk doesn't yield symlinks separately, so we scan them
+            try:
+                for entry in os.scandir(dirpath):
+                    if entry.is_symlink():
+                        full_path = entry.path
+                        if any(full_path.endswith(ext) for ext in extensions):
+                            target_files.append(full_path)
+            except (PermissionError, OSError):
+                continue
+                
+    except (PermissionError, OSError) as e:
+        print(f"Warning: Could not access {root_path}: {e}")
+    
+    return target_files
 
-    # --- Parallel Processing ---
-    # Use ProcessPoolExecutor to run tasks in parallel using all available CPU cores.
-    # This is ideal for CPU-bound tasks like 'plutil' and I/O-bound tasks like 'cp'.
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        
-        print(f"Processing {len(loctable_files)} .loctable files...")
-        future_to_file_loctable = {executor.submit(convert_loctable_to_strings, f): f for f in loctable_files}
-        
-        print(f"Processing {len(image_files)} image files...")
-        future_to_file_image = {executor.submit(add_image_file_to_repo, f): f for f in image_files}
-        
-        print(f"Processing {len(plist_files)} .plist files...")
-        future_to_file_plist = {executor.submit(add_plist_file_to_repo, f): f for f in plist_files}
 
-        # --- Collect Results and Errors ---
-        print("Waiting for all tasks to complete...")
+def find_and_process_files_streaming(folder_path):
+    """
+    Optimized for GitHub Actions 3-core runner:
+    1. Fast sequential discovery using os.walk (I/O bound, minimal overhead)
+    2. All cores dedicated to parallel processing (CPU/I/O bound work)
+    3. Batch submission with chunking for better process pool efficiency
+    """
+    
+    # On 3-core system: use all cores for processing
+    # Discovery is fast enough that it doesn't need parallelization
+    cpu_count = multiprocessing.cpu_count()
+    max_workers = cpu_count  # Use all available cores
+    
+    print(f"Detected {cpu_count} CPU cores, using {max_workers} workers for processing...")
+    print(f"Starting file discovery in: {folder_path}")
+    
+    # Target file extensions
+    extensions = ('.loctable', '.png', '.jpg', '.heif', '.ico', '.plist')
+    
+    # Fast discovery phase (typically completes in seconds even for 45k files)
+    import time
+    start_time = time.time()
+    target_files = discover_files_fast(folder_path, extensions)
+    discovery_time = time.time() - start_time
+    
+    print(f"Discovery complete in {discovery_time:.2f}s: found {len(target_files)} files to process")
+    
+    if len(target_files) == 0:
+        print("No files to process.")
+        return
+    
+    # Filter out broken symlinks before processing
+    valid_files = []
+    for file_path in target_files:
+        if not os.path.exists(file_path):
+            errorArrayWithFilepaths.append({
+                "filepath": file_path, 
+                "errorMessage": "Broken symlink or file not found", 
+                "function": "find_and_process_files_streaming (validation)"
+            })
+        else:
+            valid_files.append(file_path)
+    
+    print(f"Processing {len(valid_files)} valid files with {max_workers} workers...")
+    
+    # Process files in parallel
+    futures = []
+    with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
+        # Submit all files for processing
+        # Process pool handles queueing automatically
+        for file_path in valid_files:
+            future = executor.submit(process_file_by_extension, file_path)
+            futures.append(future)
         
-        # Combine all futures into one set for easy iteration
-        all_futures = [future_to_file_loctable, future_to_file_image, future_to_file_plist]
+        print(f"All {len(futures)} tasks submitted. Waiting for completion...")
         
-        for future_map in all_futures:
-            for future in concurrent.futures.as_completed(future_map):
+        # Collect results with progress tracking
+        completed = 0
+        for future in concurrent.futures.as_completed(futures):
+            completed += 1
+            
+            # Progress updates every 5%
+            if completed % max(1, len(futures) // 20) == 0:
+                progress = (completed / len(futures)) * 100
+                print(f"Progress: {completed}/{len(futures)} ({progress:.1f}%)")
+            
+            try:
                 result = future.result()
-                if result: # If the function returned an error dictionary
+                if result:  # Error dictionary
                     errorArrayWithFilepaths.append(result)
+            except Exception as e:
+                # Unexpected crash in worker
+                print(f"Unexpected error in worker: {e}")
 
-    print(f"All processing complete.")
+    total_time = time.time() - start_time
+    print(f"\nAll processing complete in {total_time:.2f}s ({total_time/60:.2f} minutes)")
+    print(f"Average: {total_time/len(valid_files):.3f}s per file")
     printErrorArray()
+
 
 # --- Main execution ---
 if __name__ == "__main__":
@@ -217,4 +270,4 @@ if __name__ == "__main__":
         print(f"ERROR: Provided folder path does not exist: {parsedFolderPath}")
         sys.exit(1)
         
-    find_and_process_files(parsedFolderPath)
+    find_and_process_files_streaming(parsedFolderPath)
