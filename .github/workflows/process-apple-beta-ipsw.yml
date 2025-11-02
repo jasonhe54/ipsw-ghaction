@@ -36,25 +36,37 @@ jobs:
     runs-on: macos-latest
     
     steps:
-      - name: 1. Check out repository
+      - name: 1. Log Inputs to Job Summary
+        run: |
+          echo "### 🚀 Workflow: 1. Process Apple Beta IPSW" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Beta Version** | \`${{ inputs.beta_version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Beta Build** | \`${{ inputs.beta_build }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Checkout Branch** | \`${{ inputs.checkout_branch }}\` |" >> $GITHUB_STEP_SUMMARY
+
+      - name: 2. Check out repository
         uses: actions/checkout@v4
         with:
           ref: ${{ inputs.checkout_branch }}
 
-      - name: 2. Install blacktop/ipsw
+      - name: 3. Install blacktop/ipsw
         run: brew install blacktop/tap/ipsw
 
-      - name: 3. Set up Python
+      - name: 4. Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 4. Create output directories
+      - name: 5. Create output directories
         run: |
           mkdir -p ./ipsw_files
           mkdir -p ./ipsw_files/out
 
-      - name: 5. Download IPSW
+      - name: 6. Download IPSW
         run: |
           echo "Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
           
@@ -71,7 +83,7 @@ jobs:
           echo "IPSW_FILE=${DOWNLOADED_FILE}" >> $GITHUB_ENV
           echo "Downloaded: $DOWNLOADED_FILE"
 
-      - name: 6. Extract and Decrypt Filesystem DMG
+      - name: 7. Extract and Decrypt Filesystem DMG
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
           ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
@@ -104,7 +116,7 @@ jobs:
           echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
           echo "Decrypted DMG at: $DECRYPTED_DMG"
 
-      - name: 7. Mount Decrypted DMG
+      - name: 8. Mount Decrypted DMG
         run: |
           echo "Mounting DMG..."
           hdiutil attach "${{ env.DECRYPTED_DMG }}" -mountpoint ./mounted_dmg
@@ -112,12 +124,12 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 8. Clean old beta directory
+      - name: 9. Clean old beta directory
         run: |
           echo "Ensuring the 'beta' root directory exists..."
           mkdir -p beta
 
-      - name: 9. Run Python Analyzer Script
+      - name: 10. Run Python Analyzer Script
         run: |
           REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
 
@@ -133,12 +145,9 @@ jobs:
           echo "Running Python script for System... (Output: ${REPO_SAVE_PATH}/System)"
           python py.py "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
 
-      - name: 10. Sanitize File Paths
+      - name: 11. Sanitize File Paths
         run: |
           echo "Searching for and renaming files/directories with colons..."
-          # Use find with -depth to rename files before their parent directories.
-          # This finds all paths in ./beta that contain a colon (:)
-          # and renames them, replacing all colons with underscores (_).
           find ./beta -depth -name "*:*" -exec bash -c '
             dir=$(dirname "$0")
             base=$(basename "$0")
@@ -150,18 +159,15 @@ jobs:
           ' {} \;
           echo "Sanitization complete."
 
-      - name: 11. Unmount DMG
-        if: always() # Always run this step, even if the script fails
+      - name: 12. Unmount DMG
+        if: always()
         run: |
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
 
-      - name: 12. Upload Analysis Artifact
+      - name: 13. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
-          # Create a unique name for the artifact
-          name: analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}
-          # Upload the entire 'beta' directory that your script generated
+          name: analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}
           path: ./beta/
-          # Set retention to a few days
           retention-days: 5

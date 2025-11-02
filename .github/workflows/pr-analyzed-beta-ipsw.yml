@@ -35,64 +35,62 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-      actions: read # <-- Added permission to read other workflow runs
+      actions: read
     
     steps:
-      - name: 1. Check out repository
+      - name: 1. Log Inputs to Job Summary
+        run: |
+          echo "### 📦 Workflow: 2. Commit Beta Analysis" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Beta Version** | \`${{ inputs.beta_version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Beta Build** | \`${{ inputs.beta_build }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Source Run ID** | \`${{ inputs.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **PR Base Branch** | \`${{ inputs.pr_base_branch }}\` |" >> $GITHUB_STEP_SUMMARY
+
+      - name: 2. Check out repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.commit_branch }}
+          ref: ${{ inputs.pr_base_branch }}
 
-      - name: 2. Clean old directory
+      - name: 3. Clean old directory
         run: |
-          # This is CRITICAL for creating the diff
-          # We remove the old version's files before adding the new ones
           echo "Removing old directory: beta/${{ inputs.os_type }}"
           rm -rf beta/${{ inputs.os_type }}
 
-      - name: 3. Download specific artifact
+      - name: 4. Download specific artifact
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "Downloading artifact 'analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}' from Run ID ${{ inputs.run_id }}"
+          echo "Downloading artifact from Run ID ${{ inputs.run_id }}"
           
-          # Use the GitHub CLI to download the artifact from the *specific* run
-          # This guarantees you get the correct one
           gh run download ${{ inputs.run_id }} \
-            --name "analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}" \
+            --name "analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}" \
             --dir ./
             
           echo "Artifact download complete."
 
-      - name: 4. Configure Git
+      - name: 5. Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: 5. Commit and Create PR
+      - name: 6. Commit and Create PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           
-          # Make the OS type lowercase for the branch name
           OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
-          
-          # Add the OS type to the version tag
           VERSION_TAG="${OS_TYPE_LOWER}-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
-          
-          # Normalize the tag for the branch name
           CLEAN_VERSION_TAG=$(echo "${VERSION_TAG}" | sed 's/[^a-zA-Z0-9-]/_/g')
-          
-          # Create a git-safe timestamp (YYYYMMDD-HHMMSS)
           TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
-          # Append timestamp to branch name for uniqueness
           NEW_BRANCH="auto-analysis/${CLEAN_VERSION_TAG}-${TIMESTAMP}"
           
-          # Create new branch from the checked-out base branch
           git checkout -B "${NEW_BRANCH}"
-          
-          # This will correctly add the diff (removals from step 2, additions from step 3)
           git add beta/
           
           if git diff --cached --quiet; then
@@ -101,7 +99,6 @@ jobs:
           fi
           
           echo "Committing changes..."
-          # Update commit message
           COMMIT_MSG="Analyze: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})
           
           Device: ${{ inputs.device_identifier }}
@@ -113,7 +110,6 @@ jobs:
           git push --set-upstream origin "${NEW_BRANCH}"
           
           echo "Creating Pull Request..."
-          # Update PR title and body
           PR_TITLE="Analysis: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})"
           PR_BODY="Automated analysis of \`${{ inputs.os_type }}\` \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
           
@@ -122,7 +118,7 @@ jobs:
           **Output Repo Path:** \`/beta/${{ inputs.os_type }}\`"
           
           gh pr create \
-            --base "${{ inputs.commit_branch }}" \
+            --base "${{ inputs.pr_base_branch }}" \
             --head "${NEW_BRANCH}" \
             --title "${PR_TITLE}" \
             --body "${PR_BODY}"
