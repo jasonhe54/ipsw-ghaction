@@ -74,25 +74,25 @@ jobs:
           set -e 
           
           ARTIFACT_NAME="analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}"
+          TARGET_DIR="beta/${{ inputs.os_type }}"
           
           echo "Attempting to download artifact: ${ARTIFACT_NAME}"
           echo "From Run ID: ${{ inputs.run_id }}"
-
-          # This ensures the directory exists.
-          mkdir -p beta
           
-          # This downloads the artifact and unzips it into the './beta' directory, creating the path './beta/<os_type>'
-          #    and unzips it *into* './beta', creating the path './beta/iOS'
+          # create the target directory
+          mkdir -p "${TARGET_DIR}"
+          
+          # download the artifact contents into the target directory
           gh run download ${{ inputs.run_id }} \
             --name "${ARTIFACT_NAME}" \
-            --dir ./beta
+            --dir "${TARGET_DIR}"
           
           echo "Download command finished."
           
-          # This verification step should now pass.
-          echo "Verifying that 'beta/${{ inputs.os_type }}' was downloaded..."
-          if [ ! -d "beta/${{ inputs.os_type }}" ]; then
-            echo "::error::Verification failed! The directory 'beta/${{ inputs.os_type }}' does not exist."
+          # verify that the target directory was created and is not empty (since we manually created it above)
+          echo "Verifying that '${TARGET_DIR}' is not empty..."
+          if [ -z "$(ls -A "${TARGET_DIR}")" ]; then
+            echo "::error::Verification failed! The directory '${TARGET_DIR}' is empty."
             echo "This means the artifact download failed, likely due to a wrong artifact name or run_id."
             echo "Artifact sought: ${ARTIFACT_NAME}"
             exit 1
