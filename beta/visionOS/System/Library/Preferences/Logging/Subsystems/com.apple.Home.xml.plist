@@ -2,19 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>DEFAULT-OPTIONS</key>
+	<key>CrossProcessPerformance</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
+		<key>Signpost-Persisted</key>
 		<true/>
-		<key>Level</key>
-		<dict>
-			<key>Enable</key>
-			<string>Info</string>
-			<key>Persist</key>
-			<string>Default</string>
-		</dict>
-		<key>Privacy-Enable-Level</key>
-		<string>Private</string>
+		<key>Signpost-Scope</key>
+		<string>System</string>
+	</dict>
+	<key>HF_Performance</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>HF_PerformanceInfo</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<false/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>PerfSignposts</key>
+	<dict>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>Performance</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
 	</dict>
 </dict>
 </plist>

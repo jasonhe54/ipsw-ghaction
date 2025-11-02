@@ -2467,7 +2467,7 @@
 				<key>CFBundleName</key>
 				<string>SafariLinkExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.2.11.14.4</string>
+				<string>8622.2.11.14.6</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -2490,7 +2490,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>8622.2.11.14.4</string>
+				<string>8622.2.11.14.6</string>
 				<key>DELocalizedConsentFilename</key>
 				<string>SafariDEConsent.txt</string>
 				<key>NSExtension</key>
@@ -18225,7 +18225,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>215.1.7</string>
+				<string>215.1.10</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -18270,7 +18270,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>215.1.7</string>
+				<string>215.1.10</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -18306,7 +18306,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>215.1.7</string>
+				<string>215.1.10</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -18699,38 +18699,6 @@
 					<string>path</string>
 					<key>value</key>
 					<string>/Applications/DDActionsService.app/DDActionsService</string>
-				</dict>
-			</dict>
-		</dict>
-		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/AirPlayDiagnosticExtension.appex/AirPlayDiagnosticExtension</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>AirPlayDiagnosticExtension</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.DiagnosticExtensions.AirPlay</string>
-				<key>CFBundleName</key>
-				<string>AirPlayDiagnosticExtension</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>920.10.1</string>
-				<key>NSExtension</key>
-				<dict>
-					<key>NSExtensionAttributes</key>
-					<dict>
-						<key>DEAttachmentsLoggingEnabled</key>
-						<true/>
-						<key>DEAttachmentsName</key>
-						<string>AirPlay Logs</string>
-					</dict>
-					<key>NSExtensionPointIdentifier</key>
-					<string>com.apple.diagnosticextensions-service</string>
-					<key>NSExtensionPrincipalClass</key>
-					<string>AirPlayDiagnosticExtension</string>
 				</dict>
 			</dict>
 		</dict>
@@ -47665,47 +47633,6 @@
 			<key>com.apple.private.memoryinfo</key>
 			<true/>
 		</dict>
-		<key>/System/Library/LaunchDaemons/com.apple.memoryanalyticsd.plist</key>
-		<dict>
-			<key>EnablePressuredExit</key>
-			<true/>
-			<key>Label</key>
-			<string>com.apple.memoryanalyticsd</string>
-			<key>LaunchEvents</key>
-			<dict>
-				<key>com.apple.notifyd.matching</key>
-				<dict>
-					<key>com.apple.da.tasking_changed</key>
-					<dict>
-						<key>Notification</key>
-						<string>com.apple.da.tasking_changed</string>
-					</dict>
-				</dict>
-				<key>com.apple.xpc.activity</key>
-				<dict>
-					<key>com.apple.memoryanalyticsd.MTRandomMemgraphActivity</key>
-					<dict>
-						<key>AllowBattery</key>
-						<true/>
-						<key>ExpectedDuration</key>
-						<integer>600</integer>
-						<key>Interval</key>
-						<integer>3600</integer>
-						<key>Priority</key>
-						<string>Utility</string>
-						<key>Repeating</key>
-						<true/>
-					</dict>
-				</dict>
-			</dict>
-			<key>ProcessType</key>
-			<string>Background</string>
-			<key>ProgramArguments</key>
-			<array>
-				<string>/usr/libexec/memoryanalyticsd</string>
-				<string>-xlatSf</string>
-			</array>
-		</dict>
 		<key>/System/Library/LaunchDaemons/com.apple.metrickitd.plist</key>
 		<dict>
 			<key>EnablePressuredExit</key>
@@ -62575,7 +62502,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -63098,7 +63025,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>CanInheritApplicationStateFromOtherProcesses</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -63148,7 +63075,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>CanInheritApplicationStateFromOtherProcesses</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -63194,7 +63121,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>NSPrincipalClass</key>
@@ -63238,7 +63165,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>CanInheritApplicationStateFromOtherProcesses</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -63290,7 +63217,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>CanInheritApplicationStateFromOtherProcesses</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -66589,7 +66516,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>215.1.7</string>
+						<string>215.1.10</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -68114,7 +68041,7 @@
 							<string>Application</string>
 							<key>_AllowedClients</key>
 							<array>
-								<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryBSeed"</string>
+								<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryB"</string>
 							</array>
 						</dict>
 					</dict>
@@ -68166,10 +68093,10 @@
 							<string>Application</string>
 							<key>_AllowedClients</key>
 							<array>
-								<string> identifier = com.apple.dt.Instruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryBSeed"</string>
-								<string> identifier = com.apple.dt.InstrumentsCLI and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryBSeed"</string>
-								<string> identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryBSeed"</string>
-								<string> identifier = com.apple.dt.instruments.backgroundinstruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryBSeed"</string>
+								<string> identifier = com.apple.dt.Instruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryB"</string>
+								<string> identifier = com.apple.dt.InstrumentsCLI and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryB"</string>
+								<string> identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryB"</string>
+								<string> identifier = com.apple.dt.instruments.backgroundinstruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryB"</string>
 							</array>
 							<key>_RoleAccount</key>
 							<string>root</string>
@@ -73880,7 +73807,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -77439,7 +77366,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -77461,7 +77388,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.2.11.14.4</string>
+						<string>8622.2.11.14.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
