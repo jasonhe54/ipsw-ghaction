@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kauai</key>
+	<dict>
+		<key>ExposureBias</key>
+		<integer>0</integer>
+		<key>Fnumber</key>
+		<real>2</real>
+		<key>FocalLength</key>
+		<real>2.165</real>
+	</dict>
+	<key>lanai</key>
+	<dict>
+		<key>ExposureBias</key>
+		<integer>0</integer>
+		<key>Fnumber</key>
+		<real>2.1000000000000001</real>
+		<key>FocalLength</key>
+		<real>1.8999999999999999</real>
+	</dict>
+	<key>oahu</key>
+	<dict>
+		<key>ExposureBias</key>
+		<integer>0</integer>
+		<key>Fnumber</key>
+		<real>1.7</real>
+		<key>FocalLength</key>
+		<real>0.68000000000000005</real>
+	</dict>
+</dict>
+</plist>

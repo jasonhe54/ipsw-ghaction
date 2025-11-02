@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>graphPresets</key>
+	<dict>
+		<key>Beluga</key>
+		<string>Beluga.dspaghetti</string>
+		<key>DelayReverb</key>
+		<string>DelayReverb.dspaghetti</string>
+		<key>Hippo</key>
+		<string>Hippo.dspaghetti</string>
+		<key>Ibis</key>
+		<string>Ibis.dspaghetti</string>
+		<key>JT</key>
+		<string>JT.dspaghetti</string>
+		<key>LargeHall</key>
+		<string>LargeHall.dspaghetti</string>
+		<key>Lobster</key>
+		<string>Lobster.dspaghetti</string>
+		<key>Mole</key>
+		<string>Mole.dspaghetti</string>
+		<key>Moose</key>
+		<string>Moose.dspaghetti</string>
+		<key>PassThru</key>
+		<string>PassThru.dspaghetti</string>
+		<key>SmallRoom</key>
+		<string>SmallRoom.dspaghetti</string>
+		<key>Wolf</key>
+		<string>Wolf.dspaghetti</string>
+		<key>Yak</key>
+		<string>Yak.dspaghetti</string>
+	</dict>
+	<key>path</key>
+	<string>DSPGraphs</string>
+</dict>
+</plist>

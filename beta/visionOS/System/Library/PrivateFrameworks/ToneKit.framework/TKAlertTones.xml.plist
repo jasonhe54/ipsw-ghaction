@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classic</key>
+	<array>
+		<string>texttone:Anticipate</string>
+		<string>texttone:Bloom</string>
+		<string>texttone:Calypso</string>
+		<string>texttone:Choo Choo</string>
+		<string>texttone:Descent</string>
+		<string>texttone:Fanfare</string>
+		<string>texttone:Ladder</string>
+		<string>texttone:Minuet</string>
+		<string>texttone:News Flash</string>
+		<string>texttone:Noir</string>
+		<string>texttone:Sherwood Forest</string>
+		<string>texttone:Spell</string>
+		<string>texttone:Suspense</string>
+		<string>texttone:Telegraph</string>
+		<string>texttone:Tiptoes</string>
+		<string>texttone:Typewriters</string>
+		<string>texttone:Update</string>
+		<string>texttone:Tri-tone</string>
+		<string>texttone:Chime</string>
+		<string>texttone:Glass</string>
+		<string>texttone:Horn</string>
+		<string>texttone:Bell</string>
+		<string>texttone:Electronic</string>
+		<string>texttone:Alert</string>
+		<string>texttone:New Mail</string>
+		<string>texttone:Sent Mail</string>
+		<string>texttone:Sent Tweet</string>
+		<string>texttone:Sharing Post</string>
+	</array>
+	<key>modern</key>
+	<array>
+		<string>texttone:Note</string>
+		<string>texttone:Bamboo</string>
+		<string>texttone:Complete</string>
+		<string>texttone:Hello</string>
+		<string>texttone:Popcorn</string>
+		<string>texttone:Synth</string>
+		<string>texttone:Aurora</string>
+		<string>texttone:Keys</string>
+		<string>texttone:Circles</string>
+		<string>texttone:Input</string>
+		<string>texttone:Calendar Alert</string>
+		<string>texttone:Air Drop Invitation</string>
+	</array>
+	<key>sort</key>
+	<true/>
+</dict>
+</plist>

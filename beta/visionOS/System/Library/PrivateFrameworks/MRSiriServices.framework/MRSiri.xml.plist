@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DismissSiriOnTapToRadarLaunch</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>DynamicScaleScene</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>LegacySnippets</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>SAE</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>SiriSharedConversation</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>TapToRadarAssistant</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>TapToRadarScreenshots</key>
+	<dict>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

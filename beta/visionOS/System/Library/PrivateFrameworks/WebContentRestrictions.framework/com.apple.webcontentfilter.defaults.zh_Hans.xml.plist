@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://shaoer.cntv.cn/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>中国网络电视台少儿台</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://kids.nlc.gov.cn/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>少儿数字图书馆</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.dol.cn/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>迪士尼中国</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com.cn/startpage/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple 开始页面</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.tom61.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>中国儿童资源网</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://kid.qq.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>腾讯儿童</string>
+		</dict>
+	</array>
+</dict>
+</plist>

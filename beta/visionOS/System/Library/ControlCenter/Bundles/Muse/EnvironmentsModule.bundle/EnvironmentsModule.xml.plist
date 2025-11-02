@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AlwaysAllowEditMode</key>
+	<dict>
+		<key>Description</key>
+		<string>Never disable the Control Center buttons which allow launching Edit Mode</string>
+		<key>DisplayName</key>
+		<string>AlwaysAllowEditMode</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

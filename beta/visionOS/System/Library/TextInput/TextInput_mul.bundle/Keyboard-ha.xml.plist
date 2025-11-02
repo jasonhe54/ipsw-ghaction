@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-B</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ɓ B</string>
+		<key>Strings</key>
+		<string>Ɓ B</string>
+	</dict>
+	<key>Roman-Accent-D</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ɗ D</string>
+		<key>Strings</key>
+		<string>Ɗ D</string>
+	</dict>
+	<key>Roman-Accent-K</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ƙ K</string>
+		<key>Strings</key>
+		<string>Ƙ K</string>
+	</dict>
+	<key>Roman-Accent-R</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>R̃ R</string>
+		<key>Strings</key>
+		<string>R̃ R</string>
+	</dict>
+	<key>Roman-Accent-Y</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ƴ ʼY Y</string>
+		<key>Strings</key>
+		<string>Ƴ ʼY Y</string>
+	</dict>
+	<key>Roman-Accent-b</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ɓ b</string>
+		<key>Strings</key>
+		<string>ɓ b</string>
+	</dict>
+	<key>Roman-Accent-d</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ɗ d</string>
+		<key>Strings</key>
+		<string>ɗ d</string>
+	</dict>
+	<key>Roman-Accent-k</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ƙ k</string>
+		<key>Strings</key>
+		<string>ƙ k</string>
+	</dict>
+	<key>Roman-Accent-r</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>r̃ r</string>
+		<key>Strings</key>
+		<string>r̃ r</string>
+	</dict>
+	<key>Roman-Accent-y</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ƴ ʼy y</string>
+		<key>Strings</key>
+		<string>ƴ ʼy y</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>¥</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Cancel</key>
+	<string>⎋</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>⮐</string>
+	<key>UI-EmergencyCall</key>
+	<string>Emergency
+Call</string>
+	<key>UI-Go</key>
+	<string>⮐</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>HA</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>⮐</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Hausa</string>
+	<key>UI-Next</key>
+	<string>⮐</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>pause</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>↻</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>⮐</string>
+	<key>UI-Search</key>
+	<string>⮐</string>
+	<key>UI-Send</key>
+	<string>⮐</string>
+	<key>UI-Space</key>
+	<string></string>
+	<key>UI-Undo</key>
+	<string>↺</string>
+	<key>UI-Wait</key>
+	<string>wait</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

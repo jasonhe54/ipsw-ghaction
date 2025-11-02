@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>AppleKeyboardsInputModeChangedNotification</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.apple.InputModePreferences</string>
+			<key>id</key>
+			<string>LiveConversion</string>
+			<key>key</key>
+			<string>LiveConversion</string>
+			<key>label</key>
+			<string>LIVE_CONVERSION</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>ipad</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

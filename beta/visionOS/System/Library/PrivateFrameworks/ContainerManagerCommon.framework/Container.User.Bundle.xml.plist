@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>#Include</key>
+	<string>Container.User</string>
+	<key>cleanTransientsEachBoot</key>
+	<dict>
+		<key>#Else</key>
+		<true/>
+		<key>#IfFeatureFlagEnabled</key>
+		<string>InstalledContentLibrary/MI_Transient_Bundle_Cleanup</string>
+		<key>#Then</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

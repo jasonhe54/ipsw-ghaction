@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>Mindfulness</string>
+			<key>searchSectionID</key>
+			<string>com.apple.Mind</string>
+			<key>searchURL</key>
+			<string>prefs:root=MINDFULNESS</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Breath Rate</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>PSApplicationDisplayIdentifiersCapability</key>
+					<string>com.apple.Mind</string>
+				</dict>
+			</array>
+			<key>searchSectionID</key>
+			<string>com.apple.Mind</string>
+			<key>searchURL</key>
+			<string>prefs:root=MINDFULNESS#BREATH_RATE</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>Follow Your Breathing</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>PSApplicationDisplayIdentifiersCapability</key>
+					<string>com.apple.Mind</string>
+				</dict>
+			</array>
+			<key>searchSectionID</key>
+			<string>com.apple.Mind</string>
+			<key>searchURL</key>
+			<string>prefs:root=MINDFULNESS#FOLLOW_YOUR_BREATHING</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SettingsSearchManifest</string>
+</dict>
+</plist>

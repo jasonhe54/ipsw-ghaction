@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.ro/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.sigur.info/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Sigur.info</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.didactic.ro</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Didactic</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.radioromaniajunior.ro</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Radio România Junior</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.magicland.ro/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>MagicLand</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/ro/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple — Start</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.cartoonnetwork.ro/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Cartoon Network</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.minimaxro.tv/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Minimax</string>
+		</dict>
+	</array>
+</dict>
+</plist>

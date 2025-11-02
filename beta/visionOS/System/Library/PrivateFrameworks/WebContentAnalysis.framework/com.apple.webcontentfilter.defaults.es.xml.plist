@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.es/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.pocoyo.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Pocoyó</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.museodelprado.es/educacion/recursos/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Museo del Prado</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.educapeques.com</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Educa Peques</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.educathyssen.org/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Museo Thyssen</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.rtve.es/infantil/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Radio Televisión Española</string>
+		</dict>
+	</array>
+</dict>
+</plist>

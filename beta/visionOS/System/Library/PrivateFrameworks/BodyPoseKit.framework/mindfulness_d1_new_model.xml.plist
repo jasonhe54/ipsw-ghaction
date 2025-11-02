@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Input</key>
+	<dict>
+		<key>Confidences</key>
+		<true/>
+		<key>EvtImageOrientations</key>
+		<false/>
+		<key>FocalLengthTensor</key>
+		<string>src_focal</string>
+		<key>ImageHeight</key>
+		<integer>320</integer>
+		<key>ImageWidth</key>
+		<integer>320</integer>
+		<key>LiftingTimeSteps</key>
+		<integer>11</integer>
+		<key>PrincipalPointTensor</key>
+		<string>src_pp</string>
+		<key>Rays</key>
+		<true/>
+		<key>VIO</key>
+		<true/>
+	</dict>
+	<key>Output</key>
+	<dict>
+		<key>HeatmapHeight</key>
+		<integer>64</integer>
+		<key>HeatmapWidth</key>
+		<integer>64</integer>
+		<key>LiftingSkeletonDefinition</key>
+		<string>Nutrino</string>
+		<key>NumJoints</key>
+		<integer>18</integer>
+		<key>outputsHeatmap</key>
+		<false/>
+	</dict>
+	<key>Quantized</key>
+	<true/>
+</dict>
+</plist>

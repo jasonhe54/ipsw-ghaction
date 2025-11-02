@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nonSignificantWords</key>
+	<array>
+		<string>하다</string>
+		<string>와 함께</string>
+		<string>무엇</string>
+		<string>어떤</string>
+		<string>몇</string>
+		<string>할 것 같아</string>
+		<string>어떻게</string>
+		<string>그</string>
+		<string>이</string>
+		<string>그러나</string>
+		<string>또는</string>
+		<string>아니면</string>
+		<string>그렇지 않으면</string>
+		<string>내</string>
+		<string>나의</string>
+		<string>멈춰줘</string>
+		<string>그만</string>
+		<string>취소</string>
+		<string>취소해줘</string>
+		<string>멈춰</string>
+		<string>지워</string>
+		<string>삭제</string>
+		<string>종료</string>
+		<string>정지</string>
+		<string>일시 정지</string>
+		<string>잠깐 멈춰줘</string>
+		<string>잠깐 정지</string>
+		<string>다시 시작</string>
+		<string>수정</string>
+		<string>편집</string>
+		<string>업데이트</string>
+		<string>지워</string>
+		<string>랩</string>
+	</array>
+	<key>stopWords</key>
+	<array>
+		<string>하나의</string>
+		<string>아무거나</string>
+		<string>아무</string>
+		<string>다른 어떤</string>
+		<string>어떤</string>
+		<string>어느 다른</string>
+		<string>are</string>
+		<string>처럼</string>
+		<string>에</string>
+		<string>에서</string>
+		<string>위해서</string>
+		<string>나</string>
+		<string>안에</string>
+		<string>안속으로</string>
+		<string>안으로</string>
+		<string>이다</string>
+		<string>그것</string>
+		<string>그것은</string>
+		<string>의</string>
+		<string>위에</string>
+		<string>그래서</string>
+		<string>그</string>
+		<string>로</string>
+		<string>와 함께</string>
+		<string>그리고</string>
+	</array>
+</dict>
+</plist>

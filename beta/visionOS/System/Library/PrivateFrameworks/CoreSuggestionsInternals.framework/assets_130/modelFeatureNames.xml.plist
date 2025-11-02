@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>SubjectWordCount</string>
+	<string>PersonFromSenderProbability</string>
+	<string>PersonFromSenderInDyadicConversationProbability</string>
+	<string>SubjectContentProbability</string>
+	<string>PersonToRecipientsProbability</string>
+	<string>PersonCCRecipientsProbability</string>
+	<string>DomainFromSenderProbability</string>
+	<string>SenderIsVIP</string>
+</array>
+</plist>

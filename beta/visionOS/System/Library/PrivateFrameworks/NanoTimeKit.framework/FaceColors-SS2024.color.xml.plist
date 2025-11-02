@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shared-collections</key>
+	<dict>
+		<key>seasons</key>
+		<dict>
+			<key>spring2024</key>
+			<array>
+				<string>lightBlue</string>
+				<string>sunshine</string>
+				<string>softMint</string>
+				<string>oceanBlue</string>
+				<string>pink</string>
+				<string>raspberry</string>
+			</array>
+		</dict>
+		<key>zeus</key>
+		<dict>
+			<key>spring2024</key>
+			<array>
+				<string>bleuCeleste</string>
+				<string>jauneDeNaples</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

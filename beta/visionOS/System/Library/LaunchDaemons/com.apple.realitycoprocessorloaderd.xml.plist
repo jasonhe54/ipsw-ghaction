@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.realitycoprocessorloaderd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.realitycoprocessorloaderd</key>
+		<dict>
+			<key>IOMatchLaunchStream</key>
+			<true/>
+			<key>IONameMatch</key>
+			<string>AppleConvergedIPCBoraControl</string>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.realitycoprocessorloaderd.xpc.loader</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/realitycoprocessorloaderd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>_InitialSystemSupport</key>
+	<true/>
+	<key>_PanicOnCrash</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_PSEnsembleModel</key>
+	<dict>
+		<key>modelProxiesArray</key>
+		<array>
+			<string>inPhoneCallSuggestionProxies</string>
+			<string>hyperRecentSuggestionProxies</string>
+			<string>photosGroupSuggestionProxiesAssetPresence</string>
+			<string>photoSuggestionProxiesFilteredByAssetOrMomentPresence</string>
+			<string>photosGroupSuggestionProxies</string>
+			<string>miningSuggestionProxies</string>
+			<string>knnSuggestionProxies</string>
+			<string>backFillProxies</string>
+		</array>
+	</dict>
+	<key>_PSHeuristics</key>
+	<dict>
+		<key>_PSHeuristicsRecencyMargin</key>
+		<string>150</string>
+	</dict>
+	<key>_PSKNNModel</key>
+	<dict>
+		<key>_PSKnnMessagesZkwTopNFilter</key>
+		<string>4</string>
+		<key>_PSKnnModelRecencyMarginToPromoteShares</key>
+		<string>259200</string>
+		<key>_PSKnnModelRecencyMarginToPromoteSharesMatchingBundleId</key>
+		<string>604800</string>
+		<key>_PSKnnModelRecencyMarginToRetainShares</key>
+		<string>604800</string>
+		<key>_PSKnnTopKShares</key>
+		<string>3</string>
+	</dict>
+	<key>_PSRuleMiningModel</key>
+	<dict>
+		<key>_PSRuleMiningModelDaysToPromoteRecentlyInstalledAppExtensions</key>
+		<string>7</string>
+		<key>_PSRuleMiningModelMinRuleConfidenceForSuggestion</key>
+		<string>0.25</string>
+		<key>_PSRuleMiningModelRegularizingContextOverlapConstraint</key>
+		<string>2</string>
+	</dict>
+</dict>
+</plist>

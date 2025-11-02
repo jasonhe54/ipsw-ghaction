@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessory_tracking_uses_peer_daemon</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>arkitd_allow_undesirable_linking</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>arkitd_panic_on_crash</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>ka7ana</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>object_tracking_uses_peer_daemon</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>room_tracking</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BatchSize</key>
+	<integer>1</integer>
+	<key>ComputeEngineName</key>
+	<string>CPU</string>
+	<key>InputName</key>
+	<string>spec</string>
+	<key>LookaheadSize</key>
+	<integer>0</integer>
+	<key>ModelNetPath</key>
+	<string>model.mil</string>
+	<key>ModelNetPathBase</key>
+	<string>model.mlmodelc</string>
+	<key>NeuralNetImplementationType</key>
+	<string>MIL2BNNS</string>
+	<key>NumberOfInputChannels</key>
+	<integer>4</integer>
+	<key>NumberOfOutputChannels</key>
+	<integer>23</integer>
+	<key>OutputName</key>
+	<string>logits_and_confidence</string>
+	<key>SampleRate</key>
+	<integer>16000</integer>
+	<key>StreamingMode</key>
+	<integer>1</integer>
+	<key>TaskID</key>
+	<string>n/a</string>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.TTSAXResourceModelAssets</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>TTSAXResourceModelAssets-alva</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>Footprint</key>
+		<string>super-compact</string>
+		<key>Gender</key>
+		<string>female</string>
+		<key>Languages</key>
+		<array>
+			<string>sv-SE</string>
+		</array>
+		<key>MemoryPeak</key>
+		<integer>14484480</integer>
+		<key>Name</key>
+		<string>Alva</string>
+		<key>Subtype</key>
+		<string>None</string>
+		<key>Type</key>
+		<string>Maui</string>
+		<key>VoiceId</key>
+		<string>com.apple.voice.super-compact.sv-SE.Alva</string>
+		<key>_CompatibilityVersion</key>
+		<integer>1</integer>
+		<key>_ContentVersion</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

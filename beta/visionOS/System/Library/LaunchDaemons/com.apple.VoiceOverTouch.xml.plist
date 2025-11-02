@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.VoiceOverTouch</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.VoiceOverTouch</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.VoiceOverTouch.drag.xpc</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.VoiceOverTouch.xpc</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.accessibility.AXVoiceOverServer</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/VoiceOverTouch.app/vot</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

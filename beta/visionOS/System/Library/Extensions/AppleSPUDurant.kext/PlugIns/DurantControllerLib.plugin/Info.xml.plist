@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>DurantControllerLib</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.DurantControllerLib</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>DurantControllerLib</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>XROS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>6D9D6D27-D304-4197-8211-9366B7B498BD</key>
+		<string>DurantControllerLibFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>4517E4F8-C4AA-4682-BDBE-B1D6DAEF523E</key>
+		<array>
+			<string>6D9D6D27-D304-4197-8211-9366B7B498BD</string>
+		</array>
+	</dict>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>23N5041a</string>
+	<key>DTPlatformName</key>
+	<string>xros</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23N5041a</string>
+	<key>DTSDKName</key>
+	<string>xros26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>7</integer>
+	</array>
+</dict>
+</plist>

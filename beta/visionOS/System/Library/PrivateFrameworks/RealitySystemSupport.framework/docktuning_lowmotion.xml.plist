@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundle</key>
+	<array>
+		<dict>
+			<key>curve</key>
+			<array>
+				<array>
+					<real>0.0</real>
+					<real>0.0</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>0.49000000953674316</real>
+					<real>0.0</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>0.50999999046325684</real>
+					<real>1</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>1</real>
+					<real>1</real>
+					<real>0.0</real>
+				</array>
+			</array>
+			<key>name</key>
+			<string>Movement</string>
+			<key>purpose</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>curve</key>
+			<array>
+				<array>
+					<real>0.0</real>
+					<real>0.0</real>
+					<real>4</real>
+				</array>
+				<array>
+					<real>0.37999999523162842</real>
+					<real>1</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>0.62000000476837158</real>
+					<real>1</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>1</real>
+					<real>0.0</real>
+					<real>-4</real>
+				</array>
+			</array>
+			<key>name</key>
+			<string>Opacity</string>
+			<key>purpose</key>
+			<integer>128</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

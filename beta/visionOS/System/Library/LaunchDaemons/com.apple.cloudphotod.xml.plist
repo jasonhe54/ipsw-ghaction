@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cloudphotod</string>
+	<key>LaunchEvents</key>
+	<dict/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.photos.cloud.datarepair</key>
+		<true/>
+		<key>com.apple.cloudphotod</key>
+		<true/>
+		<key>com.apple.cloudphotod.daemon</key>
+		<true/>
+		<key>com.apple.photos.cloud.pushnotification</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Support/cloudphotod</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>cloudphotod</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

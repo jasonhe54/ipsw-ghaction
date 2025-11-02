@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CommonJoints</key>
+	<dict>
+		<key>LeftElbow</key>
+		<string></string>
+		<key>LeftShoulder</key>
+		<string></string>
+		<key>LeftWrist</key>
+		<string></string>
+		<key>RightElbow</key>
+		<string></string>
+		<key>RightShoulder</key>
+		<string></string>
+		<key>RightWrist</key>
+		<string></string>
+	</dict>
+	<key>JointNames</key>
+	<array>
+		<string>head_joint</string>
+	</array>
+	<key>Metadata</key>
+	<dict>
+		<key>DefinitionType</key>
+		<string>ArvinoFace</string>
+		<key>Version</key>
+		<integer>1</integer>
+	</dict>
+	<key>ParentIndices</key>
+	<array>
+		<integer>-1</integer>
+	</array>
+</dict>
+</plist>

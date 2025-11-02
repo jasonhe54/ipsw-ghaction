@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.userexperiencemanagerd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>CSDConversationManagerClientsShouldConnectNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>CSDConversationManagerClientsShouldConnectNotification</string>
+			</dict>
+			<key>com.apple.system.thermalmitigation</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.system.thermalmitigation</string>
+			</dict>
+			<key>com.apple.system.thermalpressurelevel</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.system.thermalpressurelevel</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>ResetAtClose</key>
+		<true/>
+		<key>com.apple.UXMAssertionService</key>
+		<true/>
+		<key>com.apple.UXMSessionService</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/userexperiencemanagerd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

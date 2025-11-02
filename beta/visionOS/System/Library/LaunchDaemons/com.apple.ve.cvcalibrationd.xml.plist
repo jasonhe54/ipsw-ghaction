@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<string>false</string>
+	<key>EnableTransactions</key>
+	<string>false</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.ve.cvcalibrationd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ve.cvcalibrationd.xpc</key>
+		<true/>
+		<key>com.apple.ve.cvcalibrationd.xpc_echo</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CVCalibration.framework/Daemon/cvcalibrationd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

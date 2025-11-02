@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Asset Specifiers</key>
+	<array>
+		<string>com.apple.rsa.wrapperapp.generic</string>
+	</array>
+	<key>Asset Type</key>
+	<string>com.apple.MobileAsset.CN.GuardrailFramework</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>_CompatibilityVersion</key>
+		<string>RegionalSafetyAnalysis-21.45</string>
+		<key>__ContainsCryptexContents</key>
+		<true/>
+		<key>__RequiresPersonalization</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

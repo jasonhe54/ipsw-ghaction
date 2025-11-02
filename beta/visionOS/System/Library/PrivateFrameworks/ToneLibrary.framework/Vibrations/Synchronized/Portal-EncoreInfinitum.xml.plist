@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Amplitude</key>
+	<real>1</real>
+	<key>Atoms</key>
+	<array>
+		<dict>
+			<key>Amplitude</key>
+			<real>1</real>
+			<key>Duration</key>
+			<real>1.3</real>
+			<key>Envelope</key>
+			<array>
+				<dict>
+					<key>Level</key>
+					<real>0.71999999999999997</real>
+					<key>Time</key>
+					<real>0.0</real>
+				</dict>
+				<dict>
+					<key>Level</key>
+					<real>1</real>
+					<key>Time</key>
+					<real>0.063</real>
+				</dict>
+				<dict>
+					<key>Level</key>
+					<real>1</real>
+					<key>Time</key>
+					<real>0.34999999999999998</real>
+				</dict>
+				<dict>
+					<key>Level</key>
+					<real>0.40000000000000002</real>
+					<key>Time</key>
+					<real>0.59999999999999998</real>
+				</dict>
+				<dict>
+					<key>Level</key>
+					<real>0.0</real>
+					<key>Time</key>
+					<real>1.3</real>
+				</dict>
+			</array>
+			<key>StartTime</key>
+			<real>0.0</real>
+			<key>Type</key>
+			<string>RampSine</string>
+		</dict>
+	</array>
+</dict>
+</plist>

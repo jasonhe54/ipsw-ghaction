@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IssueCategories</key>
+	<dict>
+		<key>SLAM.InfieldCalibration.BadCalibration</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>2</integer>
+			<key>HysteresisSec</key>
+			<integer>21600</integer>
+		</dict>
+		<key>slam-pose-imu-dataset</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>2</integer>
+			<key>HysteresisSec</key>
+			<integer>54000</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>frameWeights</key>
+		<array>
+			<string>thick</string>
+			<string>thin</string>
+		</array>
+		<key>identifier</key>
+		<string>plastic</string>
+		<key>imageFilename</key>
+		<string>plastic_opaque_graphite_black.png</string>
+		<key>layout</key>
+		<string>grid</string>
+		<key>name_localized</key>
+		<string>Plastic</string>
+	</dict>
+	<dict>
+		<key>frameWeights</key>
+		<array>
+			<string>thick</string>
+			<string>thin</string>
+		</array>
+		<key>identifier</key>
+		<string>tortoiseshell</string>
+		<key>imageFilename</key>
+		<string>tortoiseshell_sparse_amber.png</string>
+		<key>layout</key>
+		<string>grid</string>
+		<key>name_localized</key>
+		<string>Tortoiseshell</string>
+	</dict>
+	<dict>
+		<key>frameWeights</key>
+		<array>
+			<string>thick</string>
+			<string>thin</string>
+		</array>
+		<key>identifier</key>
+		<string>wood</string>
+		<key>imageFilename</key>
+		<string>wood_light_natural.png</string>
+		<key>layout</key>
+		<string>grid</string>
+		<key>name_localized</key>
+		<string>Wood</string>
+	</dict>
+	<dict>
+		<key>frameWeights</key>
+		<array>
+			<string>wire</string>
+			<string>rimless</string>
+		</array>
+		<key>identifier</key>
+		<string>metal</string>
+		<key>imageFilename</key>
+		<string>metal_silver.png</string>
+		<key>layout</key>
+		<string>list</string>
+		<key>name_localized</key>
+		<string>Metal</string>
+	</dict>
+</array>
+</plist>

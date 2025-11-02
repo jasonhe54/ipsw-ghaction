@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthService</key>
+	<string>kTCCServiceSensorKitMessageUsage</string>
+	<key>AuthorizationStoreCohort</key>
+	<string>SensorKitALSHelper</string>
+	<key>Name</key>
+	<string>com.apple.SensorKit.messagesUsageReport</string>
+	<key>PublicEntitlementValue</key>
+	<string>messages-usage</string>
+	<key>SRInfoPlistAuthCategory</key>
+	<string>SRSensorUsageMessageUsage</string>
+	<key>SampleClass</key>
+	<string>SRMessagesUsageReport</string>
+</dict>
+</plist>

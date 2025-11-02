@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.accessoryd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.accessoryd.matching.authCP</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>AppleAuthCP</string>
+			</dict>
+		</dict>
+		<key>com.apple.timed.accessory-timesync</key>
+		<dict>
+			<key>com.apple.timed.accessory-timesync</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.accessories.connection-info-server</key>
+		<true/>
+		<key>com.apple.accessories.externalaccessory-server</key>
+		<true/>
+		<key>com.apple.accessories.transport-server</key>
+		<true/>
+		<key>com.apple.iap2d.xpc</key>
+		<true/>
+		<key>com.apple.timed.accessory-timesync</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CoreAccessories.framework/Support/accessoryd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

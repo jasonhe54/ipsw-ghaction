@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ATTR_kMDItemDate</key>
+	<array>
+		<string>when</string>
+		<string>date</string>
+		<string>time</string>
+	</array>
+	<key>ATTR_kMDItemEndDate</key>
+	<array>
+		<string>check-out</string>
+		<string>checkout</string>
+		<string>check out</string>
+		<string>arrive</string>
+		<string>arrival time</string>
+		<string>arriving</string>
+		<string>land</string>
+		<string>landing</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightArrivalAirportName</key>
+	<array>
+		<string>arrival airport</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightArrivalTerminal</key>
+	<array>
+		<string>arrival terminal</string>
+		<string>arriving terminal</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightConfirmationNumber</key>
+	<array>
+		<string>confirmation</string>
+		<string>confirmation number</string>
+		<string>confirmation code</string>
+		<string>confirmation id</string>
+		<string>reservation number</string>
+		<string>reservation code</string>
+		<string>reservation id</string>
+		<string>booking number</string>
+		<string>booking code</string>
+		<string>booking id</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightDepartureAirportName</key>
+	<array>
+		<string>departure airport</string>
+		<string>airport</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightDepartureTerminal</key>
+	<array>
+		<string>terminal</string>
+		<string>departure terminal</string>
+		<string>departing terminal</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightDesignator</key>
+	<array>
+		<string>number</string>
+		<string>designator</string>
+	</array>
+	<key>ATTR_kMDItemEventFlightPassengerSeatNumbers</key>
+	<array>
+		<string>seat number</string>
+		<string>seat numbers</string>
+		<string>seat</string>
+		<string>seats</string>
+		<string>seated</string>
+	</array>
+	<key>ATTR_kMDItemEventHotelReservationForAddress</key>
+	<array>
+		<string>address</string>
+		<string>location</string>
+	</array>
+	<key>ATTR_kMDItemEventHotelReservationForName</key>
+	<array>
+		<string>name</string>
+	</array>
+	<key>ATTR_kMDItemEventHotelReservationId</key>
+	<array>
+		<string>confirmation</string>
+		<string>confirmation number</string>
+		<string>confirmation code</string>
+		<string>confirmation id</string>
+		<string>reservation number</string>
+		<string>reservation code</string>
+		<string>reservation id</string>
+		<string>booking number</string>
+		<string>booking code</string>
+		<string>booking id</string>
+	</array>
+	<key>ATTR_kMDItemEventRestaurantReservationForAddress</key>
+	<array>
+		<string>address</string>
+		<string>location</string>
+	</array>
+	<key>ATTR_kMDItemEventRestaurantReservationForName</key>
+	<array>
+		<string>name</string>
+	</array>
+	<key>ATTR_kMDItemEventRestaurantReservationId</key>
+	<array>
+		<string>confirmation</string>
+		<string>confirmation number</string>
+		<string>confirmation code</string>
+		<string>confirmation id</string>
+		<string>reservation number</string>
+		<string>reservation code</string>
+		<string>reservation id</string>
+		<string>booking number</string>
+		<string>booking code</string>
+		<string>booking id</string>
+	</array>
+	<key>ATTR_kMDItemStartDate</key>
+	<array>
+		<string>check-in</string>
+		<string>checkin</string>
+		<string>check in</string>
+		<string>depart</string>
+		<string>departing</string>
+		<string>departure time</string>
+		<string>flying</string>
+	</array>
+	<key>CAT_Breakfast</key>
+	<array>
+		<string>breakfast</string>
+	</array>
+	<key>CAT_Dinner</key>
+	<array>
+		<string>dinner</string>
+	</array>
+	<key>CAT_Flight</key>
+	<array>
+		<string>flight</string>
+		<string>flights</string>
+	</array>
+	<key>CAT_GenericEvent</key>
+	<array>
+		<string>booking</string>
+		<string>bookings</string>
+		<string>reservation</string>
+		<string>reservations</string>
+	</array>
+	<key>CAT_Hotel</key>
+	<array>
+		<string>hotel</string>
+		<string>hotels</string>
+		<string>stay</string>
+		<string>staying</string>
+	</array>
+	<key>CAT_Lunch</key>
+	<array>
+		<string>lunch</string>
+	</array>
+	<key>CAT_Restaurant</key>
+	<array>
+		<string>restaurant</string>
+		<string>restaurants</string>
+	</array>
+	<key>STOPWORDS</key>
+	<array>
+		<string>a</string>
+		<string>about</string>
+		<string>above</string>
+		<string>after</string>
+		<string>again</string>
+		<string>against</string>
+		<string>all</string>
+		<string>am</string>
+		<string>an</string>
+		<string>and</string>
+		<string>any</string>
+		<string>are</string>
+		<string>aren't</string>
+		<string>as</string>
+		<string>at</string>
+		<string>be</string>
+		<string>because</string>
+		<string>been</string>
+		<string>before</string>
+		<string>being</string>
+		<string>below</string>
+		<string>between</string>
+		<string>booking</string>
+		<string>both</string>
+		<string>but</string>
+		<string>by</string>
+		<string>can</string>
+		<string>cannot</string>
+		<string>confirmation</string>
+		<string>could</string>
+		<string>couldn't</string>
+		<string>detail</string>
+		<string>details</string>
+		<string>did</string>
+		<string>didn't</string>
+		<string>do</string>
+		<string>does</string>
+		<string>doesn't</string>
+		<string>doing</string>
+		<string>don't</string>
+		<string>down</string>
+		<string>during</string>
+		<string>each</string>
+		<string>earliest</string>
+		<string>few</string>
+		<string>find</string>
+		<string>for</string>
+		<string>from</string>
+		<string>further</string>
+		<string>had</string>
+		<string>hadn't</string>
+		<string>has</string>
+		<string>hasn't</string>
+		<string>have</string>
+		<string>haven't</string>
+		<string>having</string>
+		<string>he'd</string>
+		<string>he'll</string>
+		<string>he's</string>
+		<string>he</string>
+		<string>her</string>
+		<string>here's</string>
+		<string>here</string>
+		<string>hers</string>
+		<string>herself</string>
+		<string>him</string>
+		<string>himself</string>
+		<string>his</string>
+		<string>how's</string>
+		<string>how</string>
+		<string>i'd</string>
+		<string>i'll</string>
+		<string>i'm</string>
+		<string>i've</string>
+		<string>i</string>
+		<string>if</string>
+		<string>in</string>
+		<string>info</string>
+		<string>information</string>
+		<string>into</string>
+		<string>is</string>
+		<string>isn't</string>
+		<string>it's</string>
+		<string>it</string>
+		<string>its</string>
+		<string>itself</string>
+		<string>last</string>
+		<string>latest</string>
+		<string>let's</string>
+		<string>me</string>
+		<string>more</string>
+		<string>most</string>
+		<string>mustn't</string>
+		<string>my</string>
+		<string>myself</string>
+		<string>need</string>
+		<string>next</string>
+		<string>no</string>
+		<string>nor</string>
+		<string>not</string>
+		<string>of</string>
+		<string>off</string>
+		<string>on</string>
+		<string>once</string>
+		<string>only</string>
+		<string>or</string>
+		<string>other</string>
+		<string>ought</string>
+		<string>our</string>
+		<string>ours</string>
+		<string>ourselves</string>
+		<string>out</string>
+		<string>over</string>
+		<string>own</string>
+		<string>previous</string>
+		<string>reservation</string>
+		<string>same</string>
+		<string>shan't</string>
+		<string>she'd</string>
+		<string>she'll</string>
+		<string>she's</string>
+		<string>she</string>
+		<string>should</string>
+		<string>shouldn't</string>
+		<string>show</string>
+		<string>so</string>
+		<string>some</string>
+		<string>such</string>
+		<string>than</string>
+		<string>that's</string>
+		<string>that</string>
+		<string>the</string>
+		<string>their</string>
+		<string>theirs</string>
+		<string>them</string>
+		<string>themselves</string>
+		<string>then</string>
+		<string>there's</string>
+		<string>there</string>
+		<string>these</string>
+		<string>they'd</string>
+		<string>they'll</string>
+		<string>they're</string>
+		<string>they've</string>
+		<string>they</string>
+		<string>this</string>
+		<string>those</string>
+		<string>through</string>
+		<string>to</string>
+		<string>too</string>
+		<string>trip</string>
+		<string>under</string>
+		<string>until</string>
+		<string>up</string>
+		<string>upcoming</string>
+		<string>very</string>
+		<string>was</string>
+		<string>wasn't</string>
+		<string>we'd</string>
+		<string>we'll</string>
+		<string>we're</string>
+		<string>we've</string>
+		<string>we</string>
+		<string>were</string>
+		<string>weren't</string>
+		<string>what's</string>
+		<string>what's</string>
+		<string>what</string>
+		<string>whats</string>
+		<string>when's</string>
+		<string>when's</string>
+		<string>when</string>
+		<string>whens</string>
+		<string>where's</string>
+		<string>where</string>
+		<string>which</string>
+		<string>while</string>
+		<string>who's</string>
+		<string>who</string>
+		<string>whom</string>
+		<string>why's</string>
+		<string>why</string>
+		<string>with</string>
+		<string>won't</string>
+		<string>would</string>
+		<string>wouldn't</string>
+		<string>you'd</string>
+		<string>you'll</string>
+		<string>you're</string>
+		<string>you've</string>
+		<string>you</string>
+		<string>your</string>
+		<string>yours</string>
+		<string>yourself</string>
+		<string>yourselves</string>
+	</array>
+</dict>
+</plist>

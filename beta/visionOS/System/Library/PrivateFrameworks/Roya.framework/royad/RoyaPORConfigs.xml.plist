@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MixedRealityPOR</key>
+	<array>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>mediaserverd</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>replayd</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>audiomxd</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>airplayd</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>avconferenced</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>figvirtualdisplaytester</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>fscctester</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>airplaytester</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>apframesender</string>
+		</dict>
+		<dict>
+			<key>Output Types</key>
+			<array>
+				<string>file</string>
+			</array>
+			<key>Process Name</key>
+			<string>DeveloperCaptureXPCService</string>
+		</dict>
+		<dict>
+			<key>Allowed Cameras</key>
+			<array>
+				<string>mcam</string>
+			</array>
+			<key>Output Types</key>
+			<array>
+				<string>sbuf</string>
+			</array>
+			<key>Process Name</key>
+			<string>arkitd</string>
+		</dict>
+	</array>
+</dict>
+</plist>

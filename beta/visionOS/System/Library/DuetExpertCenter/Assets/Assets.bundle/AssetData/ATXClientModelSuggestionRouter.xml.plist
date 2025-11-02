@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>InfoClients</key>
+	<dict>
+		<key>com.apple.news</key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+		<key>com.apple.photos</key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+		<key>com.apple.photos.large</key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+		<key>com.apple.photos.medium</key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+		<key>com.apple.photos.small</key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+		<key>com.apple.photos.xlarge </key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+		<key>com.apple.proactive.mockInfoSource</key>
+		<dict>
+			<key>shouldPersistCache</key>
+			<false/>
+			<key>shouldRoute</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

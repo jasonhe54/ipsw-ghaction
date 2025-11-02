@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.Mindfulness</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6</string>
+	<key>CFBundleName</key>
+	<string>MindfulnessV1MeditationResilience1</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>AssetKey</key>
+		<string>resilience_1</string>
+		<key>CompatibilityVersion</key>
+		<integer>1</integer>
+		<key>ContentMajorVersion</key>
+		<integer>1</integer>
+		<key>ContentMinorVersion</key>
+		<integer>3</integer>
+		<key>InternalAssetType</key>
+		<string>V1Meditation</string>
+		<key>ScriptIndex</key>
+		<integer>7</integer>
+		<key>ThemeId</key>
+		<string>Resilience</string>
+		<key>VFXConfig</key>
+		<string>plum-02</string>
+		<key>Variant</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

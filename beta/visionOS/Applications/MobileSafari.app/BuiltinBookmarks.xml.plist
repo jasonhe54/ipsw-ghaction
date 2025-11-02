@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BookmarkArraySource</key>
+		<string>CarrierBundle</string>
+		<key>BookmarkType</key>
+		<string>BookmarkArray</string>
+	</dict>
+	<dict>
+		<key>BookmarkType</key>
+		<string>DeviceBookmark</string>
+		<key>iPadTitle</key>
+		<string>IPAD_USER_GUIDE_TITLE</string>
+		<key>iPadURL</key>
+		<string>https://support.apple.com/guide/ipad/</string>
+		<key>iPhoneTitle</key>
+		<string>IPHONE_USER_GUIDE_TITLE</string>
+		<key>iPhoneURL</key>
+		<string>https://support.apple.com/guide/iphone/</string>
+		<key>iPodTitle</key>
+		<string>IPOD_TOUCH_USER_GUIDE_TITLE</string>
+		<key>iPodURL</key>
+		<string>https://support.apple.com/guide/ipod-touch/</string>
+		<key>visionTitle</key>
+		<string>VISION_USER_GUIDE_TITLE</string>
+		<key>visionURL</key>
+		<string>https://support.apple.com/guide/apple-vision-pro/</string>
+	</dict>
+</array>
+</plist>

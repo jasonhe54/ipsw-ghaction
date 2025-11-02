@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Activity</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<true/>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Enable-Fault-Crashlogs</key>
+		<string>Once</string>
+	</dict>
+	<key>HUD</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<true/>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>Scene</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

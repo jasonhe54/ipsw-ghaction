@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.situationalawarenessd</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>targettype</key>
+		<array>
+			<string>N301</string>
+			<string>N301a</string>
+		</array>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.situational-awareness.breakthrough-shape</key>
+		<true/>
+		<key>com.apple.situational-awareness.debug-record</key>
+		<true/>
+		<key>com.apple.situational-awareness.driver</key>
+		<true/>
+		<key>com.apple.situational-awareness.frame-metadata</key>
+		<true/>
+		<key>com.apple.situational-awareness.game-pad-controller</key>
+		<true/>
+		<key>com.apple.situational-awareness.observer</key>
+		<true/>
+		<key>com.apple.situational-awareness.progress-listener</key>
+		<true/>
+		<key>com.apple.situational-awareness.settings</key>
+		<true/>
+		<key>com.apple.situational-awareness.user-boundary</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/SituationalAwareness.framework/situationalawarenessd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

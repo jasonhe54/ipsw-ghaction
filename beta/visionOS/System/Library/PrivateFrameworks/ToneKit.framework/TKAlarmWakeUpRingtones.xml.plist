@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>modern</key>
+	<array>
+		<string>alarmWakeUp:Early_Riser</string>
+		<string>alarmWakeUp:First_Light</string>
+		<string>alarmWakeUp:Helios</string>
+		<string>alarmWakeUp:Orbit</string>
+		<string>alarmWakeUp:Birdsong</string>
+		<string>alarmWakeUp:Droplets</string>
+		<string>alarmWakeUp:Sunny</string>
+		<string>alarmWakeUp:Springtide</string>
+		<string>alarmWakeUp:Bright-Eyed</string>
+	</array>
+	<key>sort</key>
+	<false/>
+</dict>
+</plist>

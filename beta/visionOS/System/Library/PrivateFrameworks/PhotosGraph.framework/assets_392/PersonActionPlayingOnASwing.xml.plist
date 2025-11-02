@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criteria</key>
+	<array>
+		<dict>
+			<key>Action</key>
+			<dict>
+				<key>actionName</key>
+				<string>playing_on_a_swing</string>
+				<key>actionValue</key>
+				<integer>18</integer>
+				<key>operatingPoints</key>
+				<dict>
+					<key>42</key>
+					<dict>
+						<key>confidenceF1</key>
+						<real>0.495</real>
+						<key>confidenceHighPrecisionThreshold</key>
+						<real>0.55000000000000004</real>
+						<key>confidenceHighRecallThreshold</key>
+						<real>0.41999999999999998</real>
+					</dict>
+					<key>44</key>
+					<dict>
+						<key>confidenceF1</key>
+						<real>0.50900000000000001</real>
+						<key>confidenceHighPrecisionThreshold</key>
+						<real>0.69999999999999996</real>
+						<key>confidenceHighRecallThreshold</key>
+						<real>0.40000000000000002</real>
+					</dict>
+				</dict>
+			</dict>
+			<key>People</key>
+			<dict>
+				<key>minimumNumberOfPeople</key>
+				<integer>1</integer>
+			</dict>
+			<key>Scene</key>
+			<dict>
+				<key>minimumNumberOfAssetsWithNegativeScenes</key>
+				<integer>1</integer>
+				<key>minimumNumberOfAssetsWithPositiveScenes</key>
+				<integer>1</integer>
+				<key>minimumNumberOfNegativeScenes</key>
+				<integer>1</integer>
+				<key>minimumNumberOfPositiveScenes</key>
+				<integer>1</integer>
+				<key>negativeScenes</key>
+				<array>
+					<string>carousel</string>
+				</array>
+				<key>positiveScenes</key>
+				<array>
+					<string>swing_playground</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

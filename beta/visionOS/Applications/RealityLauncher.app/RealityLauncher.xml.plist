@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AsyncIconLoading</key>
+	<dict>
+		<key>Description</key>
+		<string>Load application icons asynchronously.</string>
+		<key>DisplayName</key>
+		<string>AsyncIconLoading</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Radar</key>
+		<integer>123064853</integer>
+	</dict>
+	<key>Folders</key>
+	<dict>
+		<key>Description</key>
+		<string>Allow creation of custom folders in HomeUI.</string>
+		<key>DisplayName</key>
+		<string>Folders</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Radar</key>
+		<integer>104409184</integer>
+	</dict>
+	<key>ShowSyntheticEnvironmentsOnSimulator</key>
+	<dict>
+		<key>Description</key>
+		<string>Include the synthetic environments in HomeUI on simulator or Kitten</string>
+		<key>DisplayName</key>
+		<string>ShowSyntheticEnvironmentsOnSimulator</string>
+		<key>Enabled</key>
+		<false/>
+		<key>Radar</key>
+		<integer>107733606</integer>
+	</dict>
+	<key>StereoEnvironmentIcons</key>
+	<dict>
+		<key>Description</key>
+		<string>Use stereo effect for environment icons.</string>
+		<key>DisplayName</key>
+		<string>StereoEnvironmentIcons</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Radar</key>
+		<integer>100035298</integer>
+	</dict>
+	<key>Use16BitSDFForNativeIcon</key>
+	<dict>
+		<key>Description</key>
+		<string>If enabled, the n32 bit SDF stored in the native app icons will be converted to 16 bit SDF on load.</string>
+		<key>DisplayName</key>
+		<string>Use16BitSDFForNativeIcon</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

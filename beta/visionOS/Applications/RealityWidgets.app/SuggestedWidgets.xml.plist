@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pages</key>
+	<array>
+		<dict>
+			<key>Background</key>
+			<string>suggested-widgets-music-poster</string>
+			<key>Widget</key>
+			<dict>
+				<key>ExtensionID</key>
+				<string>com.apple.Music.MusicWidgets</string>
+				<key>Family</key>
+				<integer>6</integer>
+				<key>Kind</key>
+				<string>Music.PosterWidget</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Background</key>
+			<string>suggested-widgets-photos-poster</string>
+			<key>Widget</key>
+			<dict>
+				<key>ExtensionID</key>
+				<string>com.apple.mobileslideshow.PhotosVisionOSWidget</string>
+				<key>Family</key>
+				<integer>3</integer>
+				<key>Kind</key>
+				<string>PhotosPosterWidget</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Background</key>
+			<string>suggested-widgets-clock-iii</string>
+			<key>Widget</key>
+			<dict>
+				<key>ExtensionID</key>
+				<string>com.apple.ClockRealityWidgets.ClockClockIIIWidgetExtension</string>
+				<key>Family</key>
+				<integer>1</integer>
+				<key>Kind</key>
+				<string>ClockIII</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FastHandTracking</key>
+	<dict>
+		<key>Description</key>
+		<string>Enable fast hand tracking</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>DisplayName</key>
+		<string>Fast Hand Tracking</string>
+		<key>Radar</key>
+		<integer>132562523</integer>
+	</dict>
+	<key>HandCloseToFace</key>
+	<dict>
+		<key>Description</key>
+		<string>Enable tracking hand close to face in Persona mode</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>DisplayName</key>
+		<string>Hand Close To Face In Persona</string>
+		<key>Radar</key>
+		<integer>128153898</integer>
+	</dict>
+	<key>KalmanFilterOutput</key>
+	<dict>
+		<key>Description</key>
+		<string>Enable kalman filter and Hands hybrid pipeline</string>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+</dict>
+</plist>

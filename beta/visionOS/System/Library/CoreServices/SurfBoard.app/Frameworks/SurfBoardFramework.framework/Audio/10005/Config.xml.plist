@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetName</key>
+	<string>20231129_FanBlurLoop.caf</string>
+	<key>assetRate</key>
+	<real>1</real>
+	<key>audioActivePoint</key>
+	<real>5</real>
+	<key>cmdOverrideTime</key>
+	<real>3600</real>
+	<key>excludeFanBlur</key>
+	<real>-100</real>
+	<key>exclusiveModeWeight</key>
+	<real>0.0</real>
+	<key>fadeIn</key>
+	<real>1.2</real>
+	<key>fadeOut</key>
+	<real>1.2</real>
+	<key>fadeTo</key>
+	<real>0.5</real>
+	<key>fanMedian</key>
+	<real>10</real>
+	<key>fanWeight</key>
+	<real>20</real>
+	<key>gainMultipler</key>
+	<real>1</real>
+	<key>immersivePlaybackWeight</key>
+	<real>0.0</real>
+	<key>inCOPSessionWeight</key>
+	<real>100</real>
+	<key>inEnviromentWeight</key>
+	<real>-100</real>
+	<key>maxGain</key>
+	<real>-6.75</real>
+	<key>minGain</key>
+	<real>-26.5</real>
+	<key>spatialCaptureModeWeight</key>
+	<real>-100</real>
+	<key>tick</key>
+	<real>3</real>
+	<key>vrModeWeight</key>
+	<real>0.0</real>
+</dict>
+</plist>

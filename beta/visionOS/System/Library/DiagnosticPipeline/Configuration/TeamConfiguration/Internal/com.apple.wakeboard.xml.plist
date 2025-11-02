@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IssueCategories</key>
+	<dict>
+		<key>Client Hang</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>12</integer>
+			<key>HysteresisSec</key>
+			<integer>600</integer>
+		</dict>
+		<key>Frame Drop</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>24</integer>
+			<key>HysteresisSec</key>
+			<integer>900</integer>
+		</dict>
+		<key>Frequent Late Compositor Client Frames</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>6</integer>
+			<key>HysteresisSec</key>
+			<integer>7200</integer>
+		</dict>
+		<key>Pipeline Timings Failure</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>12</integer>
+			<key>HysteresisSec</key>
+			<integer>900</integer>
+		</dict>
+		<key>Prewarm Failure</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>4</integer>
+			<key>HysteresisSec</key>
+			<integer>7200</integer>
+		</dict>
+		<key>Repeated Gaze Drops</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>6</integer>
+			<key>HysteresisSec</key>
+			<integer>7200</integer>
+		</dict>
+		<key>Sustained Low Backboard Frame Rate</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>6</integer>
+			<key>HysteresisSec</key>
+			<integer>7200</integer>
+		</dict>
+		<key>System Sleep Hang</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>4</integer>
+			<key>HysteresisSec</key>
+			<integer>7200</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
