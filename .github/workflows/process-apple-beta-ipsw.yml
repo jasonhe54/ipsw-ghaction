@@ -169,5 +169,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}
-          path: ./beta/
+          path: ./beta/${{ inputs.os_type }}
           retention-days: 5

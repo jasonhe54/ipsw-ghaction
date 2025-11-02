@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       os_type:
-        description: 'Operating System (iOS, iPadOS, visionOS)'
+        description: 'Operating System (iOS, iPadOS, visionOS, etc.)'
         required: true
         type: choice
         options:
@@ -77,14 +77,19 @@ jobs:
           
           echo "Attempting to download artifact: ${ARTIFACT_NAME}"
           echo "From Run ID: ${{ inputs.run_id }}"
+
+          # This ensures the directory exists.
+          mkdir -p beta
           
+          # This downloads the artifact and unzips it into the './beta' directory, creating the path './beta/<os_type>'
+          #    and unzips it *into* './beta', creating the path './beta/iOS'
           gh run download ${{ inputs.run_id }} \
             --name "${ARTIFACT_NAME}" \
-            --dir ./
+            --dir ./beta
           
           echo "Download command finished."
           
-          # --- This is the verification check ---
+          # This verification step should now pass.
           echo "Verifying that 'beta/${{ inputs.os_type }}' was downloaded..."
           if [ ! -d "beta/${{ inputs.os_type }}" ]; then
             echo "::error::Verification failed! The directory 'beta/${{ inputs.os_type }}' does not exist."
