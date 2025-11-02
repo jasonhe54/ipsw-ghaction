@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>__ACSYNCBUBBLE</key>
+		<string>1</string>
+	</dict>
+	<key>JetsamProperties</key>
+	<dict>
+		<key>JetsamMemoryLimit</key>
+		<integer>2000</integer>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.accountsd.sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>PostLogOutSync</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.accountsd.accountmanager</key>
+		<true/>
+		<key>com.apple.accountsd.oauthsigner</key>
+		<true/>
+		<key>com.apple.accountsd.oopa</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/Accounts.framework/accountsd</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowScreenOnFastDormancy</key>
+	<integer>2</integer>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.4</string>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowHighDataModeSwitch</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+</dict>
+</plist>

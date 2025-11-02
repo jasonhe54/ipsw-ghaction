@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>49</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>1</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string>smart</string>
+			<key>password</key>
+			<string></string>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>CaptiveSettingsBySSID</key>
+	<dict>
+		<key>Auto-BTWiFi</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+		<key>VodafoneWiFi</key>
+		<dict>
+			<key>Bypass</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>CarrierAllowsRingingMultipleDevices</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>vodafone UK</string>
+	<key>CarrierOverrideSmsSupportAllowedNumbersList</key>
+	<array>
+		<string>40209</string>
+		<string>40506</string>
+		<string>40507</string>
+		<string>40775</string>
+		<string>Vodafone</string>
+		<string>VODAFONE</string>
+		<string>Vodafone.</string>
+		<string>TalkTalk</string>
+		<string>BT Mobile</string>
+		<string>Lebara</string>
+		<string>LEBARA</string>
+		<string>Talk Mobile</string>
+		<string>talkmobile</string>
+		<string>Talkmobile</string>
+		<string>TALKMOBILE</string>
+		<string>TalkMobile</string>
+		<string>Onetel</string>
+		<string>Network</string>
+		<string>Your MVNO</string>
+	</array>
+	<key>CarrierOverridesSmsSupport</key>
+	<true/>
+	<key>CarrierOverridesSmsSupportWhitelist</key>
+	<array>
+		<string>40209</string>
+		<string>40506</string>
+		<string>40507</string>
+		<string>40775</string>
+		<string>Vodafone</string>
+		<string>VODAFONE</string>
+		<string>Vodafone.</string>
+		<string>TalkTalk</string>
+		<string>BT Mobile</string>
+		<string>Lebara</string>
+		<string>LEBARA</string>
+		<string>Talk Mobile</string>
+		<string>talkmobile</string>
+		<string>Talkmobile</string>
+		<string>TALKMOBILE</string>
+		<string>TalkMobile</string>
+		<string>Onetel</string>
+		<string>Network</string>
+		<string>Your MVNO</string>
+	</array>
+	<key>CellularDataPlanNotSubscribedErrors</key>
+	<array>
+		<integer>302</integer>
+	</array>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>OTASoftwareUpdate</key>
+	<dict/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>vodafone UK</string>
+			<key>StatusBarCarrierName</key>
+			<string>vodafoneUK</string>
+		</dict>
+	</array>
+	<key>StockSymboli</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>VODAFONE GRP</string>
+			<key>symbol</key>
+			<string>VOD.L</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>23415_GID1-E2</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<false/>
+	<key>TetheringURL</key>
+	<string>http://www.vodafone.co.uk/help/iphone</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>smart</string>
+			<key>password</key>
+			<string>web</string>
+			<key>type-mask</key>
+			<integer>65649</integer>
+			<key>username</key>
+			<string>web</string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>smart</string>
+			<key>password</key>
+			<string>web</string>
+			<key>type-mask</key>
+			<integer>65648</integer>
+			<key>username</key>
+			<string>web</string>
+		</dict>
+	</array>
+</dict>
+</plist>

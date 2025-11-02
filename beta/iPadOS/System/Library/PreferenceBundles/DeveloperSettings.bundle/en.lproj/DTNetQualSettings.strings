@@ -1,0 +1,28 @@
+"LEARN_KB_TITLE" = "Learn more at";
+"LABEL_RPM" = "RPM";
+"FAILURE_TITLE" = "An Error Occured";
+"LEARN_SECTION3_TEXT" = "Responsiveness is a new way of measuring your network’s quality, focusing primarily on the reactivity of your network during simultaneous use by multiple devices or multiple services. While other tests measure throughput or ping latency, responsiveness adds another dimension to enable you to evaluate the network quality.";
+"LABEL_HIGH" = "High";
+"LEARN_SECTION2_TITLE" = "What is RPM?";
+"DATA_RATES_CONTINUE" = "Test";
+"FOOTER_LEARN" = "Learn more…";
+"LABEL_TEST" = "Test";
+"FAILURE_TEXT" = "Could not reach the test server. Try again later.";
+"DATA_RATES_CANCEL" = "Cancel";
+"LEARN_TITLE" = "About RPM";
+"LEARN_SECTION1_TITLE" = "How does it affect me?";
+"LEARN_SECTION2_TEXT" = "RPM is a measure of round-trips per minute, indicating how many transactions your device can do on the Internet within one minute. The higher the RPM-score is, the better your user-experience will be.";
+"DATA_RATES_TEXT" = "Measuring your Network Quality consumes network traffic for which data rates may apply.";
+"LEARN_SECTION1_TEXT_WLAN" = "Responsiveness measures the quality of your network while it is actively being used. You can experience this in regular use-cases when you are making a FaceTime call and you (or someone else on the same network) is transferring a large file or otherwise actively using the Internet connection.
+ When the responsiveness is low, it means that your network has a low ability to do multiple things at the same time. You might experience a slow network when others are actively using the same WLAN network as well.
+A high responsiveness means that your network very well supports serving multiple services at the same time. Like doing a FaceTime call and at the same time transferring large amounts of data.";
+"DATA_RATES_TITLE" = "Data Rates May Apply";
+"LABEL_MEDIUM" = "Medium";
+"FAILURE_OK" = "OK";
+"LABEL_LOW" = "Low";
+"LEARN_SECTION3_TITLE" = "How does it compare to other tests?";
+"LEARN_SECTION1_TEXT_WIFI" = "Responsiveness measures the quality of your network while it is actively being used. You can experience this in regular use-cases when you are making a FaceTime call and you (or someone else on the same network) is transferring a large file or otherwise actively using the Internet connection.
+ When the responsiveness is low, it means that your network has a low ability to do multiple things at the same time. You might experience a slow network when others are actively using the same Wi-Fi network as well.
+A high responsiveness means that your network very well supports serving multiple services at the same time. Like doing a FaceTime call and at the same time transferring large amounts of data.";
+"RESPONSIVENESS" = "Responsiveness";
+"FOOTER_TEXT" = "Responsiveness measures the quality of your network by the number of roundtrips completed per minute (RPM) under working conditions.";

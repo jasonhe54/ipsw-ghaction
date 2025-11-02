@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirstNamespaceEnhancedBudgetTest</key>
+	<dict>
+		<key>BudgetKeyName</key>
+		<string>com.apple.namespace.firstNamespaceEnhancedBudgetTest</string>
+		<key>DataTypes</key>
+		<array>
+			<string>firstDataTypeTest</string>
+			<string>thirdDataTypeTest</string>
+		</array>
+	</dict>
+	<key>SecondNamespaceEnhancedBudgetTest</key>
+	<dict>
+		<key>BudgetKeyName</key>
+		<string>com.apple.namespace.secondNamespaceEnhancedBudgetTest</string>
+		<key>DataTypes</key>
+		<array>
+			<string>secondDataTypeTest</string>
+			<string>thirdDataTypeTest</string>
+		</array>
+	</dict>
+	<key>Wallet</key>
+	<dict>
+		<key>BudgetKeyName</key>
+		<string>com.apple.namespace.wallet</string>
+		<key>DataTypes</key>
+		<array>
+			<string>Age</string>
+			<string>DeviceLanguage</string>
+			<string>Ethnicity</string>
+			<string>Gender</string>
+			<string>ProofingDecision</string>
+			<string>SkinTone</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>1</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>1</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>MobiCom</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>anonymous@wlan.mnc099.mcc428.3gppnetwork.org</string>
+		<key>Certificate</key>
+		<string>MIIGSTCCBTGgAwIBAgIQd4h2NkU1O47FYgJTSqBq+zANBgkqhkiG9w0BAQsFADCB
+jzELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4G
+A1UEBxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQD
+Ey5TZWN0aWdvIFJTQSBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENB
+MB4XDTI1MDUxNTAwMDAwMFoXDTI2MDUxNTIzNTk1OVowHjEcMBoGA1UEAxMTd2lm
+aWNlcnQubW9iaW5ldC5tbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AKadsR8QOtC1vs6oyNtLIb5nv3jRmK4zH0odhYUGa2gNS4VHweJ5rlaZ5BykmjqH
+M1qFScVlWhbsLJ7dEJGSDOqdEBBdJKpAWs1cvrbJF9c2uo8hKFyWj73fmMsnEG9T
+2Jp4z19N43jRXL3OdVVwYQHK/puTTdc4L5UDrZ30YY6+9aP6eu7NGh+2s1TqTrPQ
+CaixXSLewyRsFNRmpAhD27XtjIWuBW+S/tusVtzwifLB+Fxsf1IZ0JKXPHXGazWk
+Qrw5zYwCEYPW+oAcPAnF8vmmXc5ESAOvYXxYU6OMXSxG7M/DkiyaURZ+eAnLALEO
+msY1PFKdYvI8cqaIMJehYF8CAwEAAaOCAw8wggMLMB8GA1UdIwQYMBaAFI2MXsRU
+rYrhd+mb+ZsF4bgBjWHhMB0GA1UdDgQWBBTgU0NT0j7RlqzsN3i/BFI30R8/2zAO
+BgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcD
+AQYIKwYBBQUHAwIwSQYDVR0gBEIwQDA0BgsrBgEEAbIxAQICBzAlMCMGCCsGAQUF
+BwIBFhdodHRwczovL3NlY3RpZ28uY29tL0NQUzAIBgZngQwBAgEwgYQGCCsGAQUF
+BwEBBHgwdjBPBggrBgEFBQcwAoZDaHR0cDovL2NydC5zZWN0aWdvLmNvbS9TZWN0
+aWdvUlNBRG9tYWluVmFsaWRhdGlvblNlY3VyZVNlcnZlckNBLmNydDAjBggrBgEF
+BQcwAYYXaHR0cDovL29jc3Auc2VjdGlnby5jb20wNwYDVR0RBDAwLoITd2lmaWNl
+cnQubW9iaW5ldC5tboIXd3d3LndpZmljZXJ0Lm1vYmluZXQubW4wggF/BgorBgEE
+AdZ5AgQCBIIBbwSCAWsBaQB2AJaXZL9VWJet90OHaDcIQnfp8DrV9qTzNm5GpD8P
+yqnGAAABltGg9DYAAAQDAEcwRQIgXd7ovm7Zlp0ZGs6DqhYgyeVzH5E3KIjWJlKf
+9uHnKooCIQDoUp9n4sumyYVQkkhP36X35Ehoa/QhbuPa2NGm9aLYhwB2ABmG1Mco
+qm/+ugNveCpNAZGqzi1yMQ+uzl1wQS0lTMfUAAABltGg87AAAAQDAEcwRQIgUksI
+I/8OD8QtxqVihF/27dOwKimllazaQwvBfGPrXdYCIQDX7Cja4z8XfS5U9xXabw6U
+n4A7AESjqkoIkTtufQ46cgB3AA5XlLzzrqk+MxssmQez95Dfm8I9cTIl3SGpJaxh
+xU4hAAABltGg82cAAAQDAEgwRgIhAPqpdV7Y8JAz6Q+ct17Kq2wvWU0M+msWdmym
+BZZGgiS1AiEAyP3sXlYfaiDX4ZaaX+HspyE7WPAB4JcQf6zQgdUPI9UwDQYJKoZI
+hvcNAQELBQADggEBAIoVlswjRr9A6Xlw4+CqmUkWzdAWnpHAgF+1ZbJnMplYy0eO
+PfQY8qHoI+fpEyMF+tudoI/TrTuk/lgA1U6kQy8MbnomDj1+t7DkNfLnI42LQ/6l
+Yxc63tm+cWBasYaxyD+udqP4/qhFjunwWuOVr6SFL46vGRY0FZRCVF+RoPOe/CSH
+FnbKB2Eb/Z6S+h02GH63thcGF/8Rt9FwEEQUvnqC/0Jy5r1S96unQ20tJwPGZiOu
+15kt74dGw/fxbYLqy54MD80BdcnCUUFQS4okACNhcKMouaYQKRXDHQU1lHAmSfkP
+5lV9OONsRcTMqjkS+8ORplWaW0lKAFgCb2dY3sE=</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=7788763645353B8EC56202534AA06AFB</string>
+		<key>UpdateURL</key>
+		<string>https://wificert.mobinet.mn/eap/imsi-privacy/update-url</string>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Mongolia</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>+447786205094</string>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>MN Mobicom</string>
+			<key>StatusBarCarrierName</key>
+			<string>mobicom</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>42899</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

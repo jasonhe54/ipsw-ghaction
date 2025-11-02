@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Profiles</key>
+	<dict>
+		<key>Touch</key>
+		<dict>
+			<key>Latency</key>
+			<real>0.0079168110188984862</real>
+			<key>Period</key>
+			<real>0.0041666666666666666</real>
+			<key>Ready</key>
+			<dict>
+				<key>ReceiveDeadline</key>
+				<real>0.0067501443522318171</real>
+			</dict>
+			<key>ReadyExpecting</key>
+			<dict>
+				<key>ReceiveDeadline</key>
+				<real>0.0067501443522318171</real>
+				<key>UseNextEventInformation</key>
+				<true/>
+			</dict>
+			<key>SendPeriod</key>
+			<real>0.0083333333333333332</real>
+			<key>TimestampConfidence</key>
+			<real>0.0020833333333333333</real>
+			<key>UseNextEventInformation</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Debugging</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>madridBasicLogging:</string>
+			<key>label</key>
+			<string>Messages Logging</string>
+			<key>set</key>
+			<string>setMadridBasicLogging:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>registrationLoggingEnabled:</string>
+			<key>label</key>
+			<string>Registration Logging</string>
+			<key>set</key>
+			<string>setRegistrationLoggingEnabled:forSpecifier:</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>dumpLogs:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Dump Logs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>stkLogging:</string>
+			<key>label</key>
+			<string>STK Logging</string>
+			<key>set</key>
+			<string>setSTKLogging:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>fmfdLogging:</string>
+			<key>label</key>
+			<string>Share My Location Logging</string>
+			<key>set</key>
+			<string>setFMFDLogging:specifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>iMessage Debugging</string>
+</dict>
+</plist>

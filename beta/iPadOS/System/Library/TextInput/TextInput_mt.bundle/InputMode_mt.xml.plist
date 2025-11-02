@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>mt</key>
+		<array>
+			<string>mt</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>mt</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Maltese</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocapitalization</string>
+				<string>KeyboardCapsLock</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY-Maltese</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

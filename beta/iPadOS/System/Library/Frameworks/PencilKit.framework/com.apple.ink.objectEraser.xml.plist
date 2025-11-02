@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ink.objectEraser.0</key>
+	<dict>
+		<key>blend-mode</key>
+		<string>erase</string>
+		<key>is-object-eraser</key>
+		<true/>
+		<key>type</key>
+		<string>vector</string>
+	</dict>
+	<key>com.apple.ink.objectEraser.0.default</key>
+	<dict/>
+	<key>com.apple.ink.objectEraser.4</key>
+	<dict>
+		<key>blend-mode</key>
+		<string>erase</string>
+		<key>is-object-eraser</key>
+		<true/>
+		<key>type</key>
+		<string>vector</string>
+	</dict>
+	<key>com.apple.ink.objectEraser.4.default</key>
+	<dict/>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>et</key>
+		<array>
+			<string>et_EE</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>et_EE</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Estonian</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY</string>
+				<string>QWERTZ</string>
+				<string>AZERTY</string>
+			</array>
+			<key>SWLayouts-iPadExtra</key>
+			<array>
+				<string>QWERTY-Estonian</string>
+				<string>QWERTY-ISO</string>
+				<string>QWERTZ</string>
+				<string>AZERTY</string>
+			</array>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

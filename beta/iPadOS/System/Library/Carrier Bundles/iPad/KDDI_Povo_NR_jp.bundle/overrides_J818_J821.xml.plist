@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DataIndicatorOverrideForNRMmwave</key>
+	<string>NRPlus</string>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.1</string>
+	<key>Enable5GStandaloneByDefault</key>
+	<true/>
+	<key>Show5GStandaloneSwitch</key>
+	<true/>
+</dict>
+</plist>

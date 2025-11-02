@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>PencilActions</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PencilSqueezeActionController</string>
+			<key>get</key>
+			<string>squeezeActionForSpecifier:</string>
+			<key>id</key>
+			<string>PencilSqueezeAction</string>
+			<key>label</key>
+			<string>PENCIL_SQUEEZE_ACTION</string>
+			<key>set</key>
+			<string>setSqueezeAction:specifier:</string>
+			<key>validTitles</key>
+			<array>
+				<string>SHOW_MINI_PALETTE</string>
+				<string>SWITCH_ERASER</string>
+				<string>SWITCH_PREVIOUS</string>
+				<string>SHOW_COLOR</string>
+				<string>SHOW_INK</string>
+				<string>SYSTEM_SHORTCUT</string>
+				<string>OFF</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>5</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>6</integer>
+				<integer>0</integer>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>PENCIL_ACTIONS_TITLE</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayedMorphologies</key>
+	<array>
+		<string>nominative</string>
+	</array>
+	<key>ExampleStringPlaceholders</key>
+	<array>
+		<string>彼女</string>
+	</array>
+	<key>ExampleStrings</key>
+	<array>
+		<string>昨日、%@は公園へ行きました。</string>
+	</array>
+	<key>KnownPronouns</key>
+	<array/>
+	<key>LegalCharactersRegex</key>
+	<string>[[\p{letter}&amp;&amp;[\p{script=han}||\p{script=hiragana}||\p{script=katakana}]][\p{nonspacing_mark}]\u30FC]*</string>
+	<key>MaxPronounLength</key>
+	<integer>10</integer>
+</dict>
+</plist>

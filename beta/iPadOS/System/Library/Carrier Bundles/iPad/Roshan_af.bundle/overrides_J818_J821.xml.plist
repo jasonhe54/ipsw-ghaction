@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>apn</key>
+			<string>internet</string>
+		</dict>
+	</dict>
+	<key>Show3GSwitchWith4G</key>
+	<true/>
+	<key>Show4GSwitchWith5G</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>configuration</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>48</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>technology-mask</key>
+			<integer>9</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

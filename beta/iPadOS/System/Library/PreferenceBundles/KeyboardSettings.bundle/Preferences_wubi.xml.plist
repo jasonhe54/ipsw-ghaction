@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>get</key>
+			<string>wubiStandard:</string>
+			<key>id</key>
+			<string>WubiStandard</string>
+			<key>key</key>
+			<string>WubiStandard</string>
+			<key>label</key>
+			<string>WUBI_STANDARD_OPTION</string>
+			<key>set</key>
+			<string>setWubiStandard:specifier:</string>
+			<key>shortTitles</key>
+			<array>
+				<string>WUBI_86</string>
+				<string>WUBI_98</string>
+				<string>WUBI_NEWCENTURY</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>WUBI_86</string>
+				<string>WUBI_98</string>
+				<string>WUBI_NEWCENTURY</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.ensemble</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>com.apple.universalcontrol.discovery</key>
+			<dict>
+				<key>serviceType</key>
+				<string>_companion-link._tcp</string>
+				<key>type</key>
+				<string>discovery</string>
+			</dict>
+			<key>com.apple.universalcontrol.server</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.universalcontrol</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ensemble</key>
+		<true/>
+		<key>com.apple.ensemble.dragserver</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/UniversalControl</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

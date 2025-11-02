@@ -1,0 +1,132 @@
+"MANAGED_APPLE_ACCOUNT_TEXT_FORMAT_ORG_NAME" = "The Apple Account you are using is owned and managed by “%1$@”.
+
+Authorized administrators can sign in to this Apple Account and access the data that is associated with it — including data created on a personal device.";
+"SORT_ORDER_TYPE" = "<bygivenname>";
+"APPLE_ID_LABEL" = "Apple ID";
+"SIGN_IN_PROMPT_APPLE_ID" = "Sign in with your Apple ID 
+to continue";
+"RECENT_USERS_SECTION_LABEL" = "Recent Users";
+"OFFLINE_PASSWORD_HINT" = "Please try the password you most recently used
+to log in to this account.";
+"ONLINE_AUTHENTICATION_REQUIRED_IPAD" = "Connect this iPad to the Internet before signing in.";
+"ONLINE_AUTHENTICATION_REQUIRED_GENERIC" = "Connect this device to the Internet before signing in.";
+"LAST_REMOTE_AUTH_DATE" = "Last Remote Auth Date";
+"MANAGED_APPLE_ID_TEXT_FORMAT_ORG_NAME" = "The Apple ID you are using is owned and managed by “%1$@”.
+
+Authorized administrators can sign in to this Apple ID and access the data that is associated with it — including data created on a personal device.";
+"ENTER_PASSWORD_TITLE" = "Enter Password";
+"INCOMPATIBLE_APPLE_ID_GENERIC" = "The Apple ID you entered can’t be used on this device.";
+"SELECT_YOUR_NETWORKS_TITLE" = "Select Your Network";
+"INCOMPATIBLE_APPLE_ID_IPAD" = "The Apple ID you entered can’t be used on this iPad.";
+"SWITCH_FAILURE" = "Login failed. Please try again.";
+"SUPERVISION_TEXT_FORMAT_ORG_NAME" = "This iPad is managed by “%1$@”.
+
+“%1$@” can:
+
+• Configure accounts and settings
+• Control which features you can use
+• Monitor your Internet traffic
+• Enable Lost Mode to locate this device";
+"ALL_USERS_TITLE" = "All Users";
+"INCOMPATIBLE_APPLE_ACCOUNT_IPHONE" = "The Apple Account you entered can’t be used on this iPhone.";
+"HAS_MC_STATUS" = "Has Managed Credentials";
+"APPLE_ID" = "Apple ID";
+"TEMPORARY_SESSION_WARNING" = "Your data will not be saved after signing out.";
+"PRIVACY_TEXT_GENERIC" = "This iPad is managed.";
+"OTHER_USER_BUTTON_TITLE" = "Other User";
+"CANCEL" = "Cancel";
+"INCOMPATIBLE_APPLE_ID_IPHONE" = "The Apple ID you entered can’t be used on this iPhone.";
+"INFORMAL_WELCOME_TITLE_FORMAT_USER" = "Hello, %@";
+"USERNAME_LABEL" = "Username";
+"UNKNOWN_WIFI_ERROR" = "Unknown error occurred. Please try again.";
+"LOGGING_OUT" = "Logging Out…";
+"PASSCODE_BACKOFF_WARNING" = "Please try again in %@";
+"UNKNOWN_ERROR" = "An unknown error occurred.";
+"ONLINE_AUTHENTICATION_REQUIRED_IPHONE SIMULATOR" = "Connect this iPhone Simulator to the Internet before signing in.";
+"APPLE_ACCOUNT" = "Apple Account";
+"ACCOUNT_STATUS" = "Account Status";
+"INCOMPATIBLE_APPLE_ACCOUNT_IPAD" = "The Apple Account you entered can’t be used on this iPad.";
+"FAMILY_NAME" = "Last name";
+"INCOMPATIBLE_APPLE_ID_IPOD" = "The Apple ID you entered can’t be used on this iPod.";
+"FULL_NAME" = "Full name";
+"NETWORK_REQUEST_TIMED_OUT" = "Network request timed out. Please try again.";
+"SWIPE_UP_TO_SIGNIN" = "Swipe up to Sign In";
+"GIVEN_NAME" = "First name";
+"SELECT_CLASS_PROMPT" = "Select Your Class";
+"NETWORK_NOT_IDENTIFIED" = "Network can’t be identified. Please try again.";
+"ACCOUNT_LOCKOUT" = "You’ve been locked out of your account. Contact your administrator to unlock it.";
+"PRESS_HOME_TO_SIGNIN" = "Press Home to Sign In";
+"DATA_USED" = "Data Used";
+"TEMPORARY_SIGN_IN_WARNING" = "Are you sure you want to sign in as guest?";
+"PRESS_HOME_TO_UNLOCK" = "Press Home to unlock";
+"MANAGED_APPLE_ID_TEXT_GENERIC" = "The Apple ID you are using is owned and managed by your organization.
+
+Authorized administrators can sign in to this Apple ID and access the data that is associated with it — including data created on a personal device.";
+"USERS_BUTTON_TITLE" = "Users";
+"REQUIRED_PLACEHOLDER_TEXT" = "Required";
+"ONLINE_AUTHENTICATION_REQUIRED_HINT" = "This iPad must be reconnected to the Internet
+before you can sign in.";
+"UNKNOWN_CLASS_NAME" = "Unnamed Class";
+"LOGIN_FAILED" = "Login failed. Please try again.";
+"DONE_BUTTON_TITLE" = "Done";
+"SWIPE_UP_TO_UNLOCK" = "Swipe up to unlock";
+"OK" = "OK";
+"SUPERVISION_TEXT_GENERIC" = "This iPad is managed by your organization.
+
+Your organization can:
+
+• Configure accounts and settings
+• Control which features you can use
+• Monitor your Internet traffic
+• Enable Lost Mode to locate this device";
+"TIMEOUT" = "Timeout. Please try again.";
+"SUPERVISION_HEADER" = "Using a Supervised iPad";
+"ALL_STUDENTS_TITLE" = "All Students";
+"INTERNAL_BUILD_LEGAL_DECLARATION_DO_NOT_LOCALIZE" = "Confidential & Proprietary";
+"APPLE_ACCOUNT_LABEL" = "Apple Account";
+"SYNCING_RECENT_USERS" = "Syncing Recent Users";
+"ONLINE_AUTHENTICATION_REQUIRED_IPOD" = "Connect this iPod to the Internet before signing in.";
+"WIFI_CREDENTIAL_MISSING_OR_WRONG" = "Wi-Fi credentials are either missing or wrong.";
+"IMAGE_URL" = "Image URL";
+"INCOMPATIBLE_APPLE_ACCOUNT_GENERIC" = "The Apple Account you entered can’t be used on this device.";
+"CANNOT_CREATE_USER" = "There is not enough storage space available to add another account to this iPad. Wait for existing accounts to be synchronized or contact your administrator about freeing up storage space.";
+"NOT_YOU_BUTTON_TITLE" = "Not You?";
+"PASSWORD_LABEL" = "Password";
+"WLAN_CREDENTIAL_MISSING_OR_WRONG" = "WLAN credentials are either missing or wrong.";
+"INTERNAL_BUILD_LEGAL_INSTRUCTIONS_DO_NOT_LOCALIZE" = "Call";
+"USER_LIMIT_REACHED_GENERIC" = "iPad has reached the maximum number of users with local data to be synced. At least one user’s data must finish syncing to the cloud before a new user can sign in.";
+"GETTING_READY_TITLE" = "Getting Ready…";
+"INCOMPATIBLE_APPLE_ID_IPHONE SIMULATOR" = "The Apple ID you entered can’t be used on this iPhone Simulator.";
+"ONLINE_AUTHENTICATION_REQUIRED_IPHONE" = "Connect this iPhone to the Internet before signing in.";
+"ALL_CLASSES_SECTION_LABEL" = "All Classes";
+"MANAGED_APPLE_ID_HEADER" = "Using a Managed Apple ID";
+"GUEST" = "Guest";
+"INCOMPATIBLE_APPLE_ACCOUNT_IPOD" = "The Apple Account you entered can’t be used on this iPod.";
+"RECENT_USERS_TITLE" = "Recent Users";
+"CLASS_ROSTER_BUTTON_TITLE" = "Classes";
+"LAST_LOGIN_DATE" = "Last Login Date";
+"DATA_QUOTA" = "Data Quota";
+"LEARN_MORE" = "Learn more…";
+"SIGN_IN_PROMPT_APPLE_ACCOUNT" = "Sign in with your Apple Account 
+to continue";
+"CANNOT_CREATE_USER_TITLE" = "Not Enough Storage Space";
+"PASSCODE_TYPE" = "Passcode Type";
+"INFORMAL_WELCOME_TITLE_USER_NAME_FORMAT" = "<firstname>";
+"TEMPORARY_SIGN_IN" = "Sign in as a temporary user";
+"INFORMAL_WELCOME_TITLE_NO_NAME" = "Hello";
+"MANAGED_APPLE_ACCOUNT_HEADER" = "Using a Managed Apple Account";
+"MANAGED_DEVICES_TITLE" = "Managed Devices";
+"RECENTS_BUTTON_TITLE" = "Recents";
+"SYNC_STATUS" = "Sync Status";
+"SIGN_IN" = "Sign In";
+"CONTINUE" = "Continue";
+"INTERNAL_BUILD_LEGAL_CONTACT_DO_NOT_LOCALIZE" = "+1 877-595-1125";
+"INCOMPATIBLE_APPLE_ACCOUNT_IPHONE SIMULATOR" = "The Apple Account you entered can’t be used on this iPhone Simulator.";
+"MANAGED_APPLE_ACCOUNT_TEXT_GENERIC" = "The Apple Account you are using is owned and managed by your organization.
+
+Authorized administrators can sign in to this Apple Account and access the data that is associated with it — including data created on a personal device.";
+"ACCOUNT_LOCKOUT_HINT" = "Your account has been locked out. Please contact
+your administrator to unlock it.";
+"JOIN_BUTTON_TITLE" = "Join";
+"UNKNOWN_STUDENT_NAME" = "Unnamed Student";
+"PRIVACY_TEXT_FORMAT_ORG_NAME" = "This iPad is managed by “%@”.";

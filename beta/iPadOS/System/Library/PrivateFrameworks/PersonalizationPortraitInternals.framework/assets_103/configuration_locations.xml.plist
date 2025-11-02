@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ExtractionAlgorithmConfiguration</key>
+	<dict>
+		<key>AGGRESSIVE</key>
+		<array>
+			<string>Augmented Gazetteer</string>
+			<string>Knowledge Graph</string>
+			<string>Data Detectors</string>
+			<string>Maps Interaction</string>
+			<string>Photos Knowledge Graph</string>
+			<string>Core Routine</string>
+			<string>EventKit Import</string>
+			<string>Trusted Location</string>
+			<string>NSUA Structured Location</string>
+		</array>
+		<key>AGGRESSIVE_RULES</key>
+		<dict>
+			<key>*</key>
+			<dict>
+				<key>ADD</key>
+				<array/>
+				<key>BUNDLES</key>
+				<dict/>
+				<key>DEL</key>
+				<array/>
+			</dict>
+			<key>en</key>
+			<dict>
+				<key>ADD</key>
+				<array/>
+				<key>BUNDLES</key>
+				<dict>
+					<key>com.apple.news</key>
+					<dict>
+						<key>ADD</key>
+						<array/>
+						<key>DEL</key>
+						<array>
+							<string>CoreNLP</string>
+						</array>
+					</dict>
+				</dict>
+				<key>DEL</key>
+				<array/>
+			</dict>
+		</dict>
+	</dict>
+	<key>LocationDecayHalfLifeSeconds</key>
+	<integer>31536000</integer>
+	<key>LocationFeedbackUsesCoreML</key>
+	<false/>
+	<key>LocationScoringUsesCoreML</key>
+	<false/>
+	<key>LocationScoringUsesHybrid</key>
+	<false/>
+	<key>RoutineExtractionScoreCountWeight</key>
+	<real>0.10000000000000001</real>
+	<key>RoutineExtractionScoreDecayHalfLifeDays</key>
+	<real>14</real>
+	<key>RoutineExtractionScoreDurationWeight</key>
+	<real>0.10000000000000001</real>
+	<key>ScoreThresholdForLocation</key>
+	<real>0.10000000000000001</real>
+	<key>Use2StageScoreInterpreterForLocationScoring</key>
+	<true/>
+</dict>
+</plist>

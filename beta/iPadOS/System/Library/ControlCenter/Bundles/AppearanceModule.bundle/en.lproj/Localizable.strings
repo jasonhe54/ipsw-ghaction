@@ -1,0 +1,6 @@
+"CONTROL_CENTER_STATUS_STYLE_MODE_LIGHT_UNTIL_FORMAT" = "{'hours': {'one': 'Dark Mode: Off Until %2$@', 'other': 'Dark Mode: Off Until %2$@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@hours@'}";
+"CONTROL_CENTER_STATUS_STYLE_MODE_DARK_MANUAL" = "Dark Mode: On";
+"CONTROL_CENTER_STATUS_STYLE_MODE_LIGHT_MANUAL" = "Dark Mode: Off";
+"CONTROL_CENTER_STATUS_STYLE_MODE_DARK_UNTIL_SUNRISE" = "Dark Mode: On Until Sunrise";
+"CONTROL_CENTER_STATUS_STYLE_MODE_LIGHT_UNTIL_SUNSET" = "Dark Mode: Off Until Sunset";
+"CONTROL_CENTER_STATUS_STYLE_MODE_DARK_UNTIL_FORMAT" = "{'hours': {'one': 'Dark Mode: On Until %2$@', 'other': 'Dark Mode: On Until %2$@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@hours@'}";

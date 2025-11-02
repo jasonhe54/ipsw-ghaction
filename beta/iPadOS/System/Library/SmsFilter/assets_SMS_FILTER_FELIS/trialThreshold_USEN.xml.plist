@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>categories</key>
+	<dict>
+		<key>Personal</key>
+		<integer>0</integer>
+		<key>Promotional</key>
+		<real>0.84999999999999998</real>
+		<key>Transactional</key>
+		<integer>0</integer>
+	</dict>
+	<key>subcategories</key>
+	<dict>
+		<key>Finance</key>
+		<integer>0</integer>
+		<key>Orders</key>
+		<integer>0</integer>
+		<key>Others</key>
+		<integer>0</integer>
+		<key>Reminders</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+"FOOTER_TEXT" = "Touch ID lets you use your fingerprint to unlock your device and make purchases with Apple Pay, App Store, and Apple Books.
+
+Touch ID can be used to unlock your iPhone, iPad, or Mac. Using the Touch ID sensor, Touch ID determines whether a fingerprint matches the enrolled fingerprint. Other uses of Touch ID include making payments with Apple Pay, making purchases within the App Store, and authenticating within apps.
+
+Touch ID data — including mathematical representations of your fingerprint — is encrypted and protected within the Secure Enclave. Touch ID doesn’t store any images of your fingerprint, and instead relies only on a mathematical representation. It isn’t possible for someone to reverse engineer your actual fingerprint image from this stored data. Touch ID will incrementally update the mathematical representation of enrolled fingerprints over time to improve matching accuracy. Touch ID will also update this data when it detects a close match but a passcode is subsequently entered to unlock the device.
+
+Touch ID data does not leave your device, and is never backed up to iCloud or anywhere else.
+
+You Have Control Over Touch ID
+
+If you choose to enroll in Touch ID, you can control how it is used or disable it at any time. For example, if you don’t want to use Touch ID to unlock your iPhone or iPad, go to Settings > Touch ID & Passcode, enter your passcode, then tap to turn off iPhone Unlock or iPad Unlock. On Mac, go to System Settings > Touch ID & Password, then click to turn off “Use Touch ID to unlock your Mac.”
+
+To disable Touch ID, on iPhone or iPad, go to Settings > Touch ID & Passcode, enter your passcode, then tap each of the stored fingerprints under the Fingerprints section and tap Delete Fingerprint for each stored fingerprint. On Mac, go to System Settings > Touch ID & Password, then click on the fingerprints you would like to remove and confirm the deletion when prompted. Doing so will delete Touch ID data, including mathematical representations of enrolled fingerprints, from your device. If you choose to erase or reset your device using Find My or by erasing all content and settings, all Touch ID data will be deleted.
+
+Touch ID and Apps
+
+Within supported apps, you can enable Touch ID for authentication. Apps are notified only as to whether the authentication is successful. Apps can’t access Touch ID data associated with the enrolled fingerprint.";
+"BUTTON_TITLE" = "About Touch ID & Privacy…";
+"SPLASH_SUMMARY" = "Touch ID is designed to protect your information.";
+"SPLASH_TITLE" = "Touch ID & Privacy";
+"SPLASH_SHORT_TITLE" = "Touch ID";

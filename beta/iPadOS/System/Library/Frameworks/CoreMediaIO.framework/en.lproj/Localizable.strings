@@ -1,0 +1,4 @@
+"SYSEXT_INVALID_DICTIONARY" = "System extension %@ has an invalid CMIOExtension key in its Info.plist: the value of the CMIOExtension key must be a non-empty dictionary.";
+"SYSEXT_INVALID_MACH_SERVICE_NAME" = "System extension %@ has an invalid mach service name or is not signed, the value must be prefixed with one of the App Groups in the entitlement.";
+"SYSEXT_CANNOT_READ_BUNDLE" = "Failed to load the system extension bundle at %@.";
+"SYSEXT_INTERNAL_ERROR" = "System extension %@ could not be started because an internal error occurred.";

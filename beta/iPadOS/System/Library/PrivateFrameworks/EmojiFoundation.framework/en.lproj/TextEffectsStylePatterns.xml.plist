@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metadata</key>
+	<dict>
+		<key>language</key>
+		<string>en</string>
+		<key>schemaVersion</key>
+		<integer>1</integer>
+	</dict>
+	<key>triggers</key>
+	<dict>
+		<key>asterisk</key>
+		<string></string>
+		<key>capitalLetter</key>
+		<string></string>
+		<key>hyphen</key>
+		<string></string>
+		<key>repeatedCharacter</key>
+		<string></string>
+		<key>slash</key>
+		<string></string>
+		<key>tilde</key>
+		<string></string>
+		<key>underScore</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

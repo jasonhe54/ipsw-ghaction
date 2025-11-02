@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>Internet</string>
+		</dict>
+	</dict>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.1</string>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowHighDataModeSwitch</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>Internet</string>
+			<key>type-mask</key>
+			<integer>49</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,146 @@
+"SHARE_SAFETY_DATA" = "Improve Safety";
+"IMPROVE_ASSISTIVE_VOICE" = "Improve Assistive Voice Features";
+"IMPROVE_SIRI_EXPLANATION" = "Help Apple improve Siri and Dictation by sharing the audio recordings and transcripts of your interactions with Siri, Dictation, and Translate from this device. %@";
+"PROBLEM_REPORTING_EXPLANATION_ALT" = "Help improve products and services by sharing diagnostic and usage data with Apple. Apple may share data with developers relevant to your use of their apps and products. %@";
+"DIAGNOSTICS_MIRRORED_ALERT_TITLE_ON" = "This will also turn on data collection on your Apple Watch.";
+"ABOUT_HEALTH_DATA_INFO_TEXT" = "Improve Health & Activity sends activity, workout, and limited health-related information from your iOS device and Apple Watch to Apple in order to help Apple develop, improve, and understand the effectiveness of health, activity, and fitness features on Apple devices.  Your data will not be used for any other purpose, and does not include personally identifiable information.
+
+This information includes data that is shown in the Health and Activity apps on your iOS device, including certain data you have input (such as age, sex, height, weight and wheelchair mode state).  Data sent to Apple can include activity and motion data (such as stand hours, exercise minutes, flights climbed, move ring completion percentage, physical activity level, accelerometer, and gyroscope data) as well as related data displayed in the Health app (such as Vo2Max and heart-related measurements), which may be aggregated or otherwise combined in a form that does not personally identify you.  Apple may also receive information about whether other fitness apps are installed, approximate location, and how long you have been using Apple Watch.
+
+By enabling Improve Health & Activity, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.  Apple may store this information with trusted third-party service providers.
+
+At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"SHARE_HEALTH_DATA" = "Improve Health & Activity";
+"ABOUT_IMPROVE_ASSISTIVE_VOICE" = "About Improve Assistive Voice Features & Privacy…";
+"SHARE_WITH_APP_DEVELOPERS" = "Share With App Developers";
+"ABOUT_APP_ANALYTICS_LINK" = "About App Analytics & Privacy…";
+"IMPROVE_AR_LOCATION_ACCURACY_FOOTER" = "Send Apple data about the size and shape of buildings and other physical features around you when you refine your location in Maps by scanning your surroundings. The data isn’t attached to your Apple ID and can’t be used to identify you or anyone else. %@";
+"ABOUT_HEALTH_RECORDS_DATA" = "Improve Health Records";
+"ID_VERIFICATION_DATA_LINK" = "About IDs in Wallet & Privacy…";
+"SHARE_FITNESS_PLUS_DATA" = "Improve Fitness+";
+"FILESYSTEM_METADATA_SNAPSHOT_FAIL_MESSAGE" = "Failed to snapshot the filesystem. Please check logs for errors.";
+"ABOUT_ICLOUD_ANALYTICS_LINK" = "About iCloud Analytics & Privacy…";
+"PROBLEM_REPORTING_NO_DATA" = "No Diagnostic Data";
+"ENHANCED_LOGGING_SESSION_EXPLANATION" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'An enhanced logging session is in progress on this iPad.', 'applevision': 'An enhanced logging session is in progress on this Apple\xa0Vision\xa0Pro.', 'iphone': 'An enhanced logging session is in progress on this iPhone.', 'ipod': 'An enhanced logging session is in progress on this iPod.'}}";
+"ABOUT_IMPROVE_SIRI" = "About Improve Siri and Dictation & Privacy…";
+"ABOUT_APP_ANALYTICS_TITLE" = "App Analytics & Privacy";
+"HEALTH_DATA_LINK" = "About Improve Health and Activity & Privacy…";
+"WHEELCHAIR_DATA_LINK" = "About Improve Wheelchair Mode & Privacy…";
+"HEALTH_RECORDS_DATA_EXPLANATION" = "Help Apple improve the Health Records feature by sharing information such as medications, labs, and conditions. This also enables sharing data from your other devices. %@";
+"HEALTH_DATA_EXPLANATION" = "Help Apple improve health and fitness features by sharing your activity, workout, and limited health-related data. This also enables sharing data from your other devices. %@";
+"IMPROVE_AR_LOCATION_ACCURACY_FOOTER_REBRAND" = "Send Apple data about the size and shape of buildings and other physical features around you when you refine your location in Maps by scanning your surroundings. The data isn’t attached to your Apple Account and can’t be used to identify you or anyone else. %@";
+"APPLEID_ANALYTICS_EXPLANATION" = "Help Apple improve Apple ID access and recovery by allowing analytics of usage and data from your Account. %@";
+"HEALTH_RECORDS_DATA_LINK" = "About Improve Health Records & Privacy…";
+"ABOUT_HEALTH_RECORDS_DATA_INFO_TEXT" = "The Improve Health Records feature sends certain information from your health records to Apple in order to help Apple develop, improve, and understand the Health Records feature and related Apple health features. Your data will not be used for any other purpose.
+
+The information provided to Apple could include any information in your health records, such as condition information, medications, vitals and procedures. Before your information is sent to Apple for analysis, it is processed through tools to remove data that may personally identify you, such as your name or phone number. While the tools are intended to remove all information that may personally identify you, it is possible that Apple may receive identifiable information. If any personally identifiable information is found, it will be promptly deleted.
+
+All information sent to Apple is encrypted while in transit and when received.  All information will also be encrypted while at rest on our servers.
+
+By enabling Improve Health Records, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing and use of this information as described above. You may choose to turn off Improve Health Records at any time.  To do so, go to Settings > Health and turn off ‘Improve Health Records’.
+
+At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"SHARE_ANALYTICS" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Share iPad Analytics', 'applevision': 'Share Apple\xa0Vision\xa0Pro Analytics', 'iphone': 'Share iPhone Analytics', 'ipod': 'Share iPod touch Analytics'}}";
+"FILESYSTEM_METADATA_SNAPSHOT_SUCCESS_MESSAGE" = "Please sync with iTunes to retrieve the snapshot.";
+"DEVICE_ANALYTICS_VOS_SEED" = "visionOS Developer Analytics";
+"APP_ANALYTICS_EXPLANATION" = "Help app developers improve their apps by allowing Apple to share crash data as well as statistics about how you use their apps with them. %@";
+"AUTOMATED_FEEDBACK_LINK" = "http://www.apple.com/legal/privacy";
+"FITNESS_PLUS_DATA_EXPLANATION" = "Help Apple improve Fitness+ by sharing with Apple additional information about your workouts, including workout titles and trainers. %@";
+"ABOUT_DIAGNOSTICS_INFO_TEXT" = "Apple would like your help improving the quality and performance of its products and services. With your consent, there are three types of analytics Apple may collect:  iOS device analytics, iCloud analytics and App analytics.  Your iOS device can automatically collect analytics information about your iOS device and any paired Apple Watch and send it to Apple for analysis, but only with your explicit consent.  We would also like your help to improve our products and services by using, in a privacy preserving manner, data from your iCloud account. You can also assist Apple’s partners and developers by providing aggregated information about applications and services you use by turning on App analytics.
+
+iOS Device Analytics
+%@ may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. None of the collected information identifies you personally. Personal data is either not logged at all, is subject to privacy preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information by going to Settings on your iOS device, tapping Privacy & Security, tapping Analytics and looking under Analytics Data.
+
+If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile signal in a particular location). This analytics location data may include locations such as the location of your devices once per day, the location where a call ends or the location of a failed in-store transaction. You may choose to turn off Location Services for Analytics at any time. To do so, open Settings, tap Privacy & Security, tap Location Services, tap System Services and turn off the %@ switch.
+
+You may also choose to turn off %@ altogether. To do so, open Settings, tap Privacy & Security, tap Analytics, and set “%@” to off. If you have an Apple Watch paired with your iPhone, then set “Share iPhone & Watch Analytics” to off.
+
+iCloud Analytics
+Analysis of data from your iCloud account is undertaken only after the data has undergone privacy preserving techniques such as differential privacy.  Analysis of such data will allow Apple to improve intelligent features and services such as Siri and other similar or related services.
+
+You may choose to turn off iCloud Analytics at any time. To do so, you can open Settings, tap Privacy & Security, tap Analytics and set “Share iCloud Analytics” to off.
+
+App Analytics
+To help Apple’s partners and third-party developers improve their apps, products and services designed for use with Apple products, Apple may provide such partners or developers with a subset of analytics information that is relevant to that partner’s or developer’s app, product or service, as well as statistics about how you use that partner’s or developer’s app, as long as the analytics information and statistics are aggregated or in a form that does not personally identify you.
+
+You may choose not to share crash data and statistics about how you use apps with third-party app developers. To do so, open Settings on your iOS device, tap Privacy & Security, tap Analytics, and turn off Share With App Developers. If Analytics is set to Don’t Send, sharing crash data and statistics about how you use their apps with third-party app developers is automatically turned off.
+
+By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing and use of this information as described above.
+
+At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"INTERNAL_DIAGNOSTICS_REQUIRED" = "Diagnostics & Usage is Required on Internal Installs";
+"SHARE_HANDWASHING_DATA" = "Improve Handwashing";
+"ABOUT_WHEELCHAIR_DATA_INFO_TEXT" = "Improve Wheelchair Mode sends wheelchair workout and activity information from iPhone and Apple Watch to Apple in order to help Apple improve and understand the effectiveness of health and fitness features on Apple devices.  Your data will not be used for any other purpose, and does not include personally identifiable information.  This information includes wheelchair workout and activity data (such as roll hours, number of pushes, exercise minutes, and move ring completion percentage).
+
+By enabling Improve Wheelchair Mode, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
+
+At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"PROBLEM_REPORTING_DATA" = "Data";
+"ABOUT_DIAGNOSTICS_LINK" = "About Analytics & Privacy…";
+"ABOUT_ICLOUD_DATA" = "iCloud Analytics & Privacy";
+"START_DIAGNOSTICS_WITH_APPLE_SUPPORT" = "Start Diagnostics With Apple Support";
+"AUTOMATED_FEEDBACK_FOOTER" = "Help Apple improve its beta software program by automatically detecting when certain issues occur. Information about detected issues is sent to Apple and aggregated to identify trends. Additional software logging may occur on device and include telephony logs, which may contain personal information, including SMS contents, device identifiers and names, phone numbers of the registering device, Apple IDs of the accounts into which you are signed, and logs of incoming and outgoing calls and audio routes during the time the logging is enabled. These additional logs may automatically be sent to Apple. Any information sent to Apple will be treated according to Apple’s privacy policy (%@).";
+"DIAGNOSTICS_MIRRORED_ALERT_CANCEL" = "Cancel";
+"ABOUT_APPLEID_DATA" = "Apple ID Analytics & Privacy";
+"AUTOMATED_FEEDBACK" = "Enhanced Beta Feedback";
+"DEVICE_ANALYTICS" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'iPad Analytics', 'applevision': 'Apple\xa0Vision\xa0Pro Analytics', 'iphone': 'iPhone Analytics', 'ipod': 'iPod touch Analytics'}}";
+"START_DIAGNOSTICS_WITH_APPLE_SUPPORT_EXPLANATION" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'An Apple support technician has enrolled this iPad in a diagnostic session.', 'applevision': 'An Apple support technician has enrolled this Apple\xa0Vision\xa0Pro in a diagnostic session.', 'iphone': 'An Apple support technician has enrolled this iPhone in a diagnostic session.', 'ipod': 'An Apple support technician has enrolled this iPod touch in a diagnostic session.'}}";
+"ID_VERIFICATION_DATA_EXPLANATION" = "Help Apple and your state issuing authority improve ID verification by sharing demographic data anonymously from your device-including age range, sex, and apparent skin tone. You can change this selection at any time during the 90 days your anonymized data is available to Apple. %@";
+"IMPROVE_SIRI" = "Improve Siri & Dictation";
+"SHARE_ANALYTICS_VOS_SEED" = "Share visionOS Developer Analytics";
+"FILESYSTEM_METADATA_SNAPSHOT_SUCCESS_TITLE" = "Snapshot successful";
+"DIAGNOSTICS_MIRRORED_ALERT_OK" = "OK";
+"SHARE_WITH_DEVELOPERS" = "Share With Developers";
+"DIAGNOSTIC_USAGE_DATA_VOS_SEED" = "visionOS Developer Analytics Data";
+"ABOUT_APPLEID_ANALYTICS_LINK" = "About improve Apple ID Analytics & Privacy…";
+"ABOUT_WHEELCHAIR_DATA" = "Improve Wheelchair Mode & Privacy";
+"PROBLEM_REPORTING_TITLE" = "Diagnostics";
+"ABOUT_APP_AND_ACCESSORY_ANALYTICS_LINK" = "About Sharing with Developers & Privacy…";
+"ABOUT_DIAGNOSTICS_LINK_VOS_SEED" = "About visionOS Developer Analytics & Privacy…";
+"FILESYSTEM_METADATA_SNAPSHOT_FAIL_TITLE" = "Snapshot failed";
+"RESUME_DIAGNOSTICS_WITH_APPLE_SUPPORT" = "Resume Diagnostics Support Session";
+"ABOUT_FILESYSTEM_METADATA_SNAPSHOT" = "About filesystem metadata snapshot";
+"ABOUT_DIAGNOSTICS_TITLE" = "Analytics";
+"SHARE_ANALYTICS_WATCH_IPHONE" = "Share iPhone & Watch Analytics";
+"IMPROVE_ASSISTIVE_VOICE_EXPLANATION" = "Help Apple improve Vocal Shortcuts and Voice Control by sharing audio recordings of your Vocal Shortcuts and Voice Control interactions from this device. %@";
+"HANDWASHING_DATA_EXPLANATION" = "Help Apple improve Handwashing by sharing limited motion and audio data. %@";
+"FILESYSTEM_METADATA_SNAPSHOT" = "Snapshot filesystem metadata";
+"SAFETY_DATA_LINK" = "About Improve Safety & Privacy…";
+"IMPROVE_AR_LOCATION_ACCURACY" = "Improve AR Location Accuracy";
+"HANDWASHING_DATA_LINK" = "About Improve Handwashing & Privacy…";
+"DIAGNOSTICS_MIRRORED_ALERT_TITLE_OFF" = "This will also turn off data collection on your Apple Watch.";
+"SHARE_APPLEID_ANALYTICS" = "Improve Apple ID";
+"INTERNAL_DIAGNOSTICS_REQUIRED_CONFIRMATION" = "OK";
+"FITNESS_PLUS_DATA_LINK" = "About Improve Fitness+ & Privacy…";
+"IMPROVE_AR_LOCATION_ACCURACY_LINK" = "Learn more…";
+"ABOUT_ICLOUD_DATA_INFO_TEXT" = "Apple would like your help to improve our products and services by using, in a privacy preserving manner, data from your iCloud account.
+
+Analysis of data from your iCloud account is undertaken only after the data has undergone privacy preserving techniques such as differential privacy.  Analysis of such data will allow Apple to improve intelligent features and services such as Siri and other similar or related services.
+
+You may choose to turn off iCloud Analytics at any time. To do so, you can open Settings, tap Privacy & Security, tap Analytics and set “Share iCloud Analytics” to off.
+
+By using this feature, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing and use of this information as described above.
+
+At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"SHARE_ICLOUD_ANALYTICS" = "Share iCloud Analytics";
+"SHARE_HEALTH_RECORDS_DATA" = "Improve Health Records";
+"ABOUT_APPLEID_DATA_INFO_TEXT" = "Apple would like your help to improve our products and services by using, in a privacy preserving manner, data from your iCloud account.
+
+Analysis of data from your iCloud account is undertaken only after the data has undergone privacy preserving techniques such as differential privacy.  Analysis of such data will allow Apple to improve intelligent features and services such as Siri and other similar or related services.
+
+You may choose to turn off iCloud Analytics at any time. To do so, you can open Settings, tap Privacy & Security, tap Analytics and set “Share iCloud Analytics” to off.
+
+By using this feature, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing and use of this information as described above.
+
+At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"WHEELCHAIR_DATA_EXPLANATION" = "Help Apple improve health and fitness features by sending your wheelchair activity and workout data. %@";
+"SAFETY_DATA_EXPLANATION" = "Help Apple improve safety features by sharing your safety data. %@";
+"DIAGNOSTIC_USAGE_DATA" = "Analytics Data";
+"APP_AND_ACCESSORY_ANALYTICS_EXPLANATION" = "Help app and accessory developers improve their products by allowing Apple to share crash data as well as statistics about how you use their apps with them. %@";
+"PROBLEM_REPORTING_EXPLANATION" = "Help Apple improve its products and services by automatically sending daily diagnostic and usage data. Data may include location information. Analytics uses wireless data. %@";
+"VIEW_ENHANCED_LOGGING_SESSION" = "View Enhanced Logging Session";
+"AUTOMATED_FEEDBACK_FOOTER_REBRAND" = "Help Apple improve its beta software program by automatically detecting when certain issues occur. Information about detected issues is sent to Apple and aggregated to identify trends. Additional software logging may occur on device and include telephony logs, which may contain personal information, including SMS contents, device identifiers and names, phone numbers of the registering device, Apple Accounts into which you are signed, and logs of incoming and outgoing calls and audio routes during the time the logging is enabled. These additional logs may automatically be sent to Apple. Any information sent to Apple will be treated according to Apple’s privacy policy (%@).";
+"SHARE_WHEELCHAIR_DATA" = "Improve Wheelchair Mode";
+"ICLOUD_ANALYTICS_EXPLANATION" = "Help Apple improve its products and services, including Siri and other intelligent features, by allowing analytics of usage and data from your iCloud account. %@";
+"ID_VERIFICATION_DATA" = "Improve ID Verification";
+"ABOUT_HEALTH_DATA" = "Improve Health & Activity";

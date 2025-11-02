@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cloudphotod.sync</string>
+	<key>LimitLoadToSessionType</key>
+	<string>PostLogOutSync</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cloudphotod</key>
+		<true/>
+		<key>com.apple.cloudphotod.daemon</key>
+		<true/>
+		<key>com.apple.cloudphotod.syncstakeholder</key>
+		<true/>
+		<key>com.apple.photos.cloud.pushnotification</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Support/cloudphotod</string>
+		<string>--syncbubble</string>
+	</array>
+</dict>
+</plist>

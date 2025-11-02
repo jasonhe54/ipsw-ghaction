@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPACE_ATTRIBUTION_DAEMON_MAP</key>
+	<dict>
+		<key>com.apple.AppStore</key>
+		<array>
+			<string>com.apple.itunesstored</string>
+		</array>
+		<key>com.apple.Maps</key>
+		<array>
+			<string>com.apple.geod</string>
+		</array>
+		<key>com.apple.Music</key>
+		<array>
+			<string>com.apple.medialibraryd</string>
+		</array>
+		<key>com.apple.Spotlight</key>
+		<array>
+			<string>com.apple.searchd</string>
+		</array>
+		<key>com.apple.iBooks</key>
+		<array>
+			<string>com.apple.bookassetd</string>
+		</array>
+		<key>com.apple.idleassetsd</key>
+		<array>
+			<string>com.apple.idleassetsd</string>
+		</array>
+		<key>com.apple.logd</key>
+		<array>
+			<string>com.apple.logd</string>
+		</array>
+		<key>com.apple.mobileassetd</key>
+		<array>
+			<string>com.apple.mobileassetd</string>
+		</array>
+		<key>com.apple.mobilesafari</key>
+		<array>
+			<string>com.apple.webbookmarksd</string>
+		</array>
+		<key>com.apple.nsurlsessiond</key>
+		<array>
+			<string>com.apple.nsurlsessiond</string>
+		</array>
+		<key>com.apple.siri</key>
+		<array>
+			<string>com.apple.assistantd</string>
+		</array>
+	</dict>
+	<key>SPACE_ATTRIBUTION_OWNER</key>
+	<string>com.apple.spaceattributiond</string>
+	<key>SPACE_ATTRIBUTION_PATHS</key>
+	<array>
+		<string>/var/db/spaceattribution/</string>
+	</array>
+	<key>SPACE_ATTRIBUTION_SHARED</key>
+	<array/>
+</dict>
+</plist>

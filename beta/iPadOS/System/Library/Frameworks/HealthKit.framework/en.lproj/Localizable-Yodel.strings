@@ -1,0 +1,16 @@
+"AUDIOGRAM_MANUAL_INGESTION" = "Manually Entered Audiogram";
+"AUDIOGRAM_KEYWORDS" = "hearing test results|hearing test|audiogram";
+"AUDIOGRAM_APPLE_HEARING_TEST" = "Apple Hearing Test";
+"AUDIOGRAM_TITLE_EMBEDDED" = "Hearing Test Results";
+"AUDIOGRAM_CATEGORY_MODERATE_LOSS" = "Moderate Loss";
+"AUDIOGRAM" = "Hearing Test Results";
+"AUDIOGRAM_CATEGORY_UNAVAILABLE" = "Unable to classify";
+"AUDIOGRAM_EMBEDDED" = "hearing test results";
+"AUDIOGRAM_SUMMARY" = "Hearing test results (audiograms) are the result of an audiometry test and show your hearing ability at different frequencies of sound measured in decibels (dbHL). The higher the decibels, the louder a sound needs to be for you to hear it.
+Individuals with healthy hearing can hear very soft sounds close to 0 decibels. As people lose their hearing ability, often as they age, sounds have to be louder to be heard. In the test results, the decibels for each frequency can range from -10 (excellent hearing) to over 85 (profound hearing loss).
+The average hearing for your left and right ear is based on the four frequencies that are most important for speech (500Hz, 1kHz, 2kHz, 4kHz).";
+"AUDIOGRAM_CATEGORY_SEVERE_LOSS" = "Severe Loss";
+"AUDIOGRAM_CATEGORY_MILD_LOSS" = "Mild Loss";
+"AUDIOGRAM_UPPER_CLAMPED_VALUE_AND_UNIT %@ %@" = "%1$@ %2$@ or more";
+"AUDIOGRAM_CATEGORY_NORMAL" = "Little to No Loss";
+"AUDIOGRAM_CATEGORY_PROFOUND_LOSS" = "Profound Loss";

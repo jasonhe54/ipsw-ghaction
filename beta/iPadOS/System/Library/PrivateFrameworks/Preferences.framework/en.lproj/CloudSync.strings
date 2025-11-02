@@ -1,0 +1,16 @@
+"REDIRECT" = "Go to Settings";
+"MERGE_CONFLICT_MESSAGE" = "{'NSStringDeviceSpecificRuleType': {'iphone': "The %@ Settings in your iCloud are different from this iPhone's %@ Settings. Select how you'd like to sync.", 'ipad': "The %@ Settings in your iCloud are different from this iPad's %@ Settings. Select how you'd like to sync."}}";
+"IPHONE_IPAD_SYNC" = "These settings are applied to any iPhone or iPad signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"IPHONE_MAC_SYNC" = "These settings are applied to any iPhone or Mac signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"SYNC_SETTING_DEFAULT" = "Sync Settings";
+"IPHONE_IPAD_MAC_SYNC" = "These settings are applied to any iPhone, iPad, or Mac signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"MAC_SYNC" = "These settings are applied to any Mac signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"MERGE_CONFLICT_APPLY_ICLOUD" = "Apply iCloud Settings";
+"IPHONE_SYNC" = "These settings are applied to any iPhone signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"CLOUD_SYNC" = "Cloud Sync";
+"MERGE_CONFLICT_SYNC_CURRENT" = "Sync Current Settings";
+"CANCEL" = "Cancel";
+"IPAD_SYNC" = "These settings are applied to any iPad signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"IPAD_MAC_SYNC" = "These settings are applied to any iPad or Mac signed into your Apple ID. Turn off iCloud Settings to apply these settings to this device only.";
+"SYNC_SETTING" = "Sync %@";
+"MERGE_CONFLICT_MESSAGE_DEFAULT" = "{'NSStringDeviceSpecificRuleType': {'iphone': "The settings in your iCloud are different from this iPhone's settings. Select how you'd like to sync.", 'ipad': "The settings in your iCloud are different from this iPad's settings. Select how you'd like to sync."}}";

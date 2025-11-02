@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>TimeSyncTimeLineFilter</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.DriverKit.TimeSyncTimeLineFilter</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TimeSyncTimeLineFilter</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1410.2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>DriverKit</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1410.2</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>driverkit</string>
+	<key>DTPlatformVersion</key>
+	<string>25.1</string>
+	<key>DTSDKBuild</key>
+	<string></string>
+	<key>DTSDKName</key>
+	<string>driverkit.iphoneos25.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2021 Apple Inc. All rights reserved.</string>
+	<key>OSMinimumDriverKitVersion</key>
+	<string>25.1</string>
+</dict>
+</plist>

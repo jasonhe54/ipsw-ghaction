@@ -1,0 +1,16 @@
+"" = "";
+"Current streak" = "Current streak";
+"%lf of %lf" = "%1$.0f of %2$.0f";
+"Fitness+ Weekly Workout Streak" = "Fitness+ Weekly Workout Streak";
+"Continue your streak" = "Continue your streak";
+"Your current streak is %lld weeks." = "{'value': {'one': 'Your current streak is %lld week.', 'other': 'Your current streak is %lld weeks.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Start a new streak" = "Start a new streak";
+"Suggested Workouts" = "Suggested Workouts";
+"%lld remaining" = "{'value': {'one': 'Only %lld remaining', 'other': '%lld remaining', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"You‘ve completed %lld of %lld workouts" = "{'arg2': {'one': '%2$lld workout', 'other': '%2$lld workouts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': 'You’ve completed %1$lld of %2$#@arg2@'}";
+"Go For It, %@" = "Go For It, %@";
+"Go For It" = "Go For It";
+"%lld weeks" = "{'value': {'one': '%lld week', 'other': '%lld weeks', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"You are close to earning multiple awards today" = "You are close to earning multiple awards today";
+"Award progress" = "Award progress";
+"Failed to generate image." = "Failed to generate image.";

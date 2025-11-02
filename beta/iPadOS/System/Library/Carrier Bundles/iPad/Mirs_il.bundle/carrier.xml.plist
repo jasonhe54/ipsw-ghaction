@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>0</integer>
+	<key>APNEditabilityTypemaskNew</key>
+	<integer>1</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>AllowedProtocolMaskInRoamingLTE</key>
+			<integer>1</integer>
+			<key>AllowedProtocolMaskInRoamingUMTS</key>
+			<integer>1</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>PcscfAddressRequired</key>
+			<false/>
+			<key>apn</key>
+			<string></string>
+			<key>password</key>
+			<string></string>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>CarrierName</key>
+	<string>HOT mobile</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Israel</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>MyAccountURL</key>
+	<string>http://m.hotmobile.co.il</string>
+	<key>MyAccountURLTitle</key>
+	<string>HOT mobile Portal</string>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>+ 447786205094</string>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>Show3GSwitchWith4G</key>
+	<true/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>Pelephone</string>
+			<key>StatusBarCarrierName</key>
+			<string>HOT mobile</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>42503</string>
+			<key>StatusBarCarrierName</key>
+			<string>HOT mobile</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>HOT mobile</string>
+			<key>StatusBarCarrierName</key>
+			<string>HOT mobile</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<false/>
+			<key>CarrierName</key>
+			<string>Israel</string>
+			<key>StatusBarCarrierName</key>
+			<string>HOT mobile</string>
+		</dict>
+	</array>
+	<key>SupportedPLMNs</key>
+	<array>
+		<string>42503</string>
+		<string>42501</string>
+		<string>42528</string>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>42507</string>
+		<string>20404_ID-8997207</string>
+		<string>20809_ID-8997207</string>
+	</array>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>AllowedProtocolMaskInRoaming</key>
+			<integer>1</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>net.hotm</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>1</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>apn</key>
+			<string>pc.hotm</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>48</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

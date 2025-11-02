@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asynciCloudSignIn</key>
+	<dict>
+		<key>CodeComplete</key>
+		<true/>
+		<key>DisplayName</key>
+		<string>Do iCloud sign-in asynchronously during Shared iPad first time login</string>
+		<key>Enabled</key>
+		<true/>
+		<key>TargetRelease</key>
+		<string>Fall2024</string>
+	</dict>
+	<key>idMSPreferences</key>
+	<dict>
+		<key>CodeComplete</key>
+		<true/>
+		<key>DisplayName</key>
+		<string>Cache preferences on idMS</string>
+		<key>Enabled</key>
+		<true/>
+		<key>TargetRelease</key>
+		<string>Fall2021</string>
+	</dict>
+</dict>
+</plist>

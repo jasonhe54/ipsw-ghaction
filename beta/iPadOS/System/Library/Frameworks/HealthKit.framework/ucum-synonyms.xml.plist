@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%</key>
+	<string>%</string>
+	<key>%/100{WBC}</key>
+	<string>%/100 WBCs</string>
+	<key>%{0to3Hours}</key>
+	<string>% 0-3 h</string>
+	<key>%{Abnormal}</key>
+	<string>% Abnormal</string>
+	<key>%{Activity}</key>
+	<string>% Activity</string>
+	<key>%{BasalActivity}</key>
+	<string>% Basal Activity</string>
+	<key>%{Binding}</key>
+	<string>% Binding</string>
+	<key>%{Blockade}</key>
+	<string>% Blockade</string>
+	<key>%{Bound}</key>
+	<string>% Bound</string>
+	<key>%{Carboxyhemoglobin}</key>
+	<string>% COHb</string>
+	<key>%{EosSeen}</key>
+	<string>% Eosinophils seen</string>
+	<key>%{Excretion}</key>
+	<string>% Excretion</string>
+	<key>%{FetalErythrocytes}</key>
+	<string>% Fetal RBCs</string>
+	<key>%{HemoglobinA1C}</key>
+	<string>% HbA1c</string>
+	<key>%{HemoglobinSaturation}</key>
+	<string>% Hb sat</string>
+	<key>%{Hemoglobin}</key>
+	<string>% Hb</string>
+	<key>%{Hemolysis}</key>
+	<string>% Hemolysis</string>
+	<key>%{Inhibition}</key>
+	<string>% Inhibition</string>
+	<key>%{NormalPooledPlasma}</key>
+	<string>% Normal Pooled Plasma</string>
+	<key>%{Normal}</key>
+	<string>% Normal</string>
+	<key>%{OfLymphocytes}</key>
+	<string>% Lymphocytes</string>
+	<key>%{OfWBCs}</key>
+	<string>% WBCs</string>
+	<key>%{Oxygen}</key>
+	<string>% Oxygen</string>
+	<key>%{Positive}</key>
+	<string>% Positive</string>
+	<key>%{SpermMotility}</key>
+	<string>% Sperm Motility</string>
+	<key>%{TotalProtein}</key>
+	<string>% Total Protein</string>
+	<key>%{Total}</key>
+	<string>% Total</string>
+	<key>%{Uptake}</key>
+	<string>% Uptake</string>
+	<key>%{ofBacteria}</key>
+	<string>% Bacteria</string>
+	<key>%{vol}</key>
+	<string>Volume %</string>
+	<key>/10*10</key>
+	<string>/10¹⁰</string>
+	<key>/10*12</key>
+	<string>/10¹²</string>
+	<key>/10*12{rbc}</key>
+	<string>/10¹² RBCs</string>
+	<key>/10*6</key>
+	<string>/10⁶</string>
+	<key>/10*9</key>
+	<string>/10⁹</string>
+	<key>/100</key>
+	<string>/100</string>
+	<key>/100{Spermatozoa}</key>
+	<string>/100 spermatozoa</string>
+	<key>/100{WBC}</key>
+	<string>/100 WBCs</string>
+	<key>/L</key>
+	<string>/L</string>
+	<key>/dL</key>
+	<string>/dL</string>
+	<key>/g</key>
+	<string>/g</string>
+	<key>/g{HGB}</key>
+	<string>/g Hb</string>
+	<key>/g{creat}</key>
+	<string>/g Creat</string>
+	<key>/g{tot`nit}</key>
+	<string>/g total nitrogen</string>
+	<key>/g{tot`prot}</key>
+	<string>/g total protein</string>
+	<key>/g{wet`tis}</key>
+	<string>/g wet tissue</string>
+	<key>/kg</key>
+	<string>/kg</string>
+	<key>/kg{body`wt}</key>
+	<string>/kg body weight</string>
+	<key>/m2</key>
+	<string>/m²</string>
+	<key>/mL</key>
+	<string>/mL</string>
+	<key>/m^2</key>
+	<string>/m²</string>
+	<key>/mg</key>
+	<string>/mg</string>
+	<key>/uL</key>
+	<string>/μL</string>
+	<key>/{Entity}</key>
+	<string>/Entity</string>
+	<key>/{tot}</key>
+	<string>/total count</string>
+	<key>1/L</key>
+	<string>/L</string>
+	<key>1/dL</key>
+	<string>/dL</string>
+	<key>1/g</key>
+	<string>/g</string>
+	<key>1/kg</key>
+	<string>/kg</string>
+	<key>1/m</key>
+	<string>/m</string>
+	<key>1/mL</key>
+	<string>/mL</string>
+	<key>1/m^2</key>
+	<string>/m²</string>
+	<key>1/mcL</key>
+	<string>/μL</string>
+	<key>1/mg</key>
+	<string>/mg</string>
+	<key>1/min</key>
+	<string>/min</string>
+	<key>10*12/L</key>
+	<string>×10¹²/L</string>
+	<key>10*3</key>
+	<string>×10³</string>
+	<key>10*3.{RBC}</key>
+	<string>×10³ RBCs</string>
+	<key>10*3/L</key>
+	<string>×10³/L</string>
+	<key>10*3/mL</key>
+	<string>×10³/mL</string>
+	<key>10*3/uL</key>
+	<string>×10³/μL</string>
+	<key>10*3{Copies}/mL</key>
+	<string>×10³ copies/mL</string>
+	<key>10*5</key>
+	<string>×10⁵</string>
+	<key>10*6</key>
+	<string>×10⁶</string>
+	<key>10*6.[iU]</key>
+	<string>×10⁶ IU</string>
+	<key>10*6.eq/mL</key>
+	<string>×10⁶ Eq/mL</string>
+	<key>10*6/L</key>
+	<string>×10⁶/L</string>
+	<key>10*6/mL</key>
+	<string>×10⁶/mL</string>
+	<key>10*6/uL</key>
+	<string>×10⁶/μL</string>
+	<key>10*6/{Specimen}</key>
+	<string>×10⁶/specimen</string>
+	<key>10*8</key>
+	<string>×10⁸</string>
+	<key>10*9/L</key>
+	<string>×10⁹/L</string>
+	<key>10*9/mL</key>
+	<string>×10⁹/mL</string>
+	<key>10*9/uL</key>
+	<string>×10⁹/μL</string>
+	<key>Cel</key>
+	<string>°C</string>
+	<key>K</key>
+	<string>K</string>
+	<key>K/W</key>
+	<string>K/Watt</string>
+	<key>L</key>
+	<string>L</string>
+	<key>L.s*2/s</key>
+	<string>L s²/s</string>
+	<key>L.s2/s</key>
+	<string>L s²/s</string>
+	<key>L/kg</key>
+	<string>L/kg</string>
+	<key>Ms</key>
+	<string>Ms</string>
+	<key>U/L</key>
+	<string>U/L</string>
+	<key>U/g</key>
+	<string>U/g</string>
+	<key>U/g{Cre}</key>
+	<string>U/g Creat</string>
+	<key>U/g{Hgb}</key>
+	<string>U/g Hb</string>
+	<key>[Ch]</key>
+	<string>Fr</string>
+	<key>[cin_i]</key>
+	<string>in³</string>
+	<key>[cup_us]</key>
+	<string>Cup</string>
+	<key>[degF]</key>
+	<string>°F</string>
+	<key>[dr_av]</key>
+	<string>dr</string>
+	<key>[fdr_us]</key>
+	<string>fl dr</string>
+	<key>[foz_us]</key>
+	<string>fl oz</string>
+	<key>[ft_i]</key>
+	<string>ft</string>
+	<key>[fth_i]</key>
+	<string>fathom</string>
+	<key>[gal_us]</key>
+	<string>gal</string>
+	<key>[gr]</key>
+	<string>gr</string>
+	<key>[iU]</key>
+	<string>IU</string>
+	<key>[iU]/L</key>
+	<string>IU/L</string>
+	<key>[iU]/dL</key>
+	<string>IU/dL</string>
+	<key>[iU]/g</key>
+	<string>IU/g</string>
+	<key>[iU]/g{Hgb}</key>
+	<string>IU/g Hb</string>
+	<key>[iU]/kg</key>
+	<string>IU/kg</string>
+	<key>[iU]/mL</key>
+	<string>IU/mL</string>
+	<key>[in_i]</key>
+	<string>in</string>
+	<key>[lb_av]</key>
+	<string>lb</string>
+	<key>[lg]</key>
+	<string>log₁₀</string>
+	<key>[mi_i]</key>
+	<string>mi</string>
+	<key>[nmi_i]</key>
+	<string>nmi</string>
+	<key>[oz_av]</key>
+	<string>oz</string>
+	<key>[oz_tr]</key>
+	<string>oz t</string>
+	<key>[pH]</key>
+	<string>pH</string>
+	<key>[pt_us]</key>
+	<string>pt</string>
+	<key>[qt_us]</key>
+	<string>qt</string>
+	<key>[sft_i]</key>
+	<string>ft²</string>
+	<key>[sin_i]</key>
+	<string>in²</string>
+	<key>[ston_av]</key>
+	<string>ton</string>
+	<key>[syd_i]</key>
+	<string>yd²</string>
+	<key>[yd_i]</key>
+	<string>yd</string>
+	<key>a</key>
+	<string>yr</string>
+	<key>cL</key>
+	<string>cL</string>
+	<key>cg</key>
+	<string>cg</string>
+	<key>cm</key>
+	<string>cm</string>
+	<key>cm2</key>
+	<string>cm²</string>
+	<key>cm^2</key>
+	<string>cm²</string>
+	<key>count/min</key>
+	<string>/min</string>
+	<key>count&lt;1000000000000&gt;/L</key>
+	<string>×10¹²/L</string>
+	<key>count&lt;1000000000&gt;/L</key>
+	<string>×10⁹/L</string>
+	<key>count&lt;1000000000&gt;/mL</key>
+	<string>×10⁹/mL</string>
+	<key>count&lt;1000000000&gt;/mcL</key>
+	<string>×10⁹/μL</string>
+	<key>count&lt;100000000&gt;</key>
+	<string>×10⁸</string>
+	<key>count&lt;1000000&gt;</key>
+	<string>×10⁶</string>
+	<key>count&lt;1000000&gt;/L</key>
+	<string>×10⁶/L</string>
+	<key>count&lt;1000000&gt;/mL</key>
+	<string>×10⁶/mL</string>
+	<key>count&lt;1000000&gt;/mcL</key>
+	<string>×10⁶/μL</string>
+	<key>count&lt;100000&gt;</key>
+	<string>×10⁵</string>
+	<key>count&lt;1000&gt;</key>
+	<string>×10³</string>
+	<key>count&lt;1000&gt;/L</key>
+	<string>×10³/L</string>
+	<key>count&lt;1000&gt;/mL</key>
+	<string>×10³/mL</string>
+	<key>count&lt;1000&gt;/mcL</key>
+	<string>×10³/μL</string>
+	<key>d</key>
+	<string>d</string>
+	<key>dL</key>
+	<string>dL</string>
+	<key>deg</key>
+	<string>°</string>
+	<key>degC</key>
+	<string>°C</string>
+	<key>degF</key>
+	<string>°F</string>
+	<key>dg</key>
+	<string>dg</string>
+	<key>dm</key>
+	<string>dm</string>
+	<key>eq</key>
+	<string>Eq</string>
+	<key>eq/L</key>
+	<string>Eq/L</string>
+	<key>eq/mL</key>
+	<string>Eq/mL</string>
+	<key>eq/mmol</key>
+	<string>Eq/mmol</string>
+	<key>eq/umol</key>
+	<string>Eq/μmol</string>
+	<key>fL</key>
+	<string>fL</string>
+	<key>fg</key>
+	<string>fg</string>
+	<key>fm</key>
+	<string>fm</string>
+	<key>fmol</key>
+	<string>fmol</string>
+	<key>fmol/g</key>
+	<string>fmol/gm</string>
+	<key>fmol/mL</key>
+	<string>fmol/mL</string>
+	<key>fmol/mg</key>
+	<string>fmol/mg</string>
+	<key>g</key>
+	<string>g</string>
+	<key>g.m</key>
+	<string>Gram Meter</string>
+	<key>g.m/({hb}.m*2)</key>
+	<string>Gram Meter/heart beat/m²</string>
+	<key>g.m/({hb}.m2)</key>
+	<string>Gram Meter/heart beat/m²</string>
+	<key>g.m/{hb}</key>
+	<string>Gram Meter/heart beat</string>
+	<key>g/L</key>
+	<string>g/L</string>
+	<key>g/[100]g</key>
+	<string>g/100g</string>
+	<key>g/dL</key>
+	<string>g/dL</string>
+	<key>g/g</key>
+	<string>g/g</string>
+	<key>g/g{Cre}</key>
+	<string>g/g Creat</string>
+	<key>g/kg</key>
+	<string>g/kg</string>
+	<key>g/m2</key>
+	<string>g/m²</string>
+	<key>g/mL</key>
+	<string>g/mL</string>
+	<key>g/m^2</key>
+	<string>g/m²</string>
+	<key>g/{TotalWeight}</key>
+	<string>g/total weight</string>
+	<key>h</key>
+	<string>h</string>
+	<key>hL</key>
+	<string>hL</string>
+	<key>kCal/[oz_av]</key>
+	<string>kCal/oz</string>
+	<key>kL</key>
+	<string>kL</string>
+	<key>kPa</key>
+	<string>kPa</string>
+	<key>kU/g</key>
+	<string>kU/g</string>
+	<key>k[iU]/mL</key>
+	<string>kIU/mL</string>
+	<key>kat/kg</key>
+	<string>kat/kg</string>
+	<key>kg</key>
+	<string>kg</string>
+	<key>kg/L</key>
+	<string>kg/L</string>
+	<key>kg/m2</key>
+	<string>kg/m²</string>
+	<key>kg/m3</key>
+	<string>kg/m³</string>
+	<key>kg/m^2</key>
+	<string>kg/m²</string>
+	<key>kg/m^3</key>
+	<string>kg/m³</string>
+	<key>kg/mol</key>
+	<string>kg/mol</string>
+	<key>km</key>
+	<string>km</string>
+	<key>ks</key>
+	<string>ks</string>
+	<key>m</key>
+	<string>m</string>
+	<key>m2</key>
+	<string>m²</string>
+	<key>mL</key>
+	<string>mL</string>
+	<key>mL/dL</key>
+	<string>mL/dL</string>
+	<key>mL/kg</key>
+	<string>mL/kg</string>
+	<key>mL/{h`b}</key>
+	<string>mL/heart beat</string>
+	<key>mU/g</key>
+	<string>mU/g</string>
+	<key>mU/g{Hgb}</key>
+	<string>mU/g Hb</string>
+	<key>mU/mg</key>
+	<string>mU/mg</string>
+	<key>mU/mg{Cre}</key>
+	<string>mU/mg Creat</string>
+	<key>m[iU]/L</key>
+	<string>mIU/L</string>
+	<key>m[iU]/mL</key>
+	<string>mIU/mL</string>
+	<key>m^2</key>
+	<string>m²</string>
+	<key>meq</key>
+	<string>mEq</string>
+	<key>meq/L</key>
+	<string>mEq/L</string>
+	<key>meq/dL</key>
+	<string>mEq/dL</string>
+	<key>meq/g</key>
+	<string>mEq/g</string>
+	<key>meq/g{Cre}</key>
+	<string>mEq/g Creat</string>
+	<key>meq/kg</key>
+	<string>mEq/kg</string>
+	<key>meq/m2</key>
+	<string>mEq/m²</string>
+	<key>meq/mL</key>
+	<string>mEq/mL</string>
+	<key>meq/m^2</key>
+	<string>mEq/m²</string>
+	<key>meq/{Specimen}</key>
+	<string>mEq/specimen</string>
+	<key>mg</key>
+	<string>mg</string>
+	<key>mg/L</key>
+	<string>mg/L</string>
+	<key>mg/dL</key>
+	<string>mg/dL</string>
+	<key>mg/g</key>
+	<string>mg/g</string>
+	<key>mg/g{Cre}</key>
+	<string>mg/g Creat</string>
+	<key>mg/kg</key>
+	<string>mg/kg</string>
+	<key>mg/m2</key>
+	<string>mg/m²</string>
+	<key>mg/m3</key>
+	<string>mg/m³</string>
+	<key>mg/mL</key>
+	<string>mg/mL</string>
+	<key>mg/m^2</key>
+	<string>mg/m²</string>
+	<key>mg/mg</key>
+	<string>mg/mg</string>
+	<key>mg/mg{Cre}</key>
+	<string>mg/mg Creat</string>
+	<key>mg/{TotalVolume}</key>
+	<string>mg/total volume</string>
+	<key>mg/{Volume}</key>
+	<string>mg/volume</string>
+	<key>mg{Phenylketones}/dL</key>
+	<string>mg Phenylketones/dL</string>
+	<key>min</key>
+	<string>min</string>
+	<key>mm</key>
+	<string>mm</string>
+	<key>mm2</key>
+	<string>mm²</string>
+	<key>mm[Hg]</key>
+	<string>mmHg</string>
+	<key>mm^2</key>
+	<string>mm²</string>
+	<key>mmol</key>
+	<string>mmol</string>
+	<key>mmol/L</key>
+	<string>mmol/L</string>
+	<key>mmol/dL</key>
+	<string>mmol/dL</string>
+	<key>mmol/g</key>
+	<string>mmol/g</string>
+	<key>mmol/kg</key>
+	<string>mmol/kg</string>
+	<key>mmol/m2</key>
+	<string>mmol/m²</string>
+	<key>mmol/m^2</key>
+	<string>mmol/m²</string>
+	<key>mmol/mol</key>
+	<string>mmol/mol</string>
+	<key>mmol/mol{Cre}</key>
+	<string>mmol/mol Creat</string>
+	<key>mmol/{TotalVolume}</key>
+	<string>mmol/total volume</string>
+	<key>mo</key>
+	<string>mo</string>
+	<key>mol</key>
+	<string>mol</string>
+	<key>mol/L</key>
+	<string>mol/L</string>
+	<key>mol/kg</key>
+	<string>mol/kg</string>
+	<key>mol/m3</key>
+	<string>mol/m³</string>
+	<key>mol/mL</key>
+	<string>mol/mL</string>
+	<key>mosm</key>
+	<string>mOsm</string>
+	<key>mosm/L</key>
+	<string>mOsm/L</string>
+	<key>mosm/kg</key>
+	<string>mOsm/kg</string>
+	<key>ms</key>
+	<string>ms</string>
+	<key>nL</key>
+	<string>nL</string>
+	<key>ng</key>
+	<string>ng</string>
+	<key>ng/L</key>
+	<string>ng/L</string>
+	<key>ng/dL</key>
+	<string>ng/dL</string>
+	<key>ng/g</key>
+	<string>ng/g</string>
+	<key>ng/g{Cre}</key>
+	<string>ng/g Creat</string>
+	<key>ng/kg</key>
+	<string>ng/kg</string>
+	<key>ng/m2</key>
+	<string>ng/m²</string>
+	<key>ng/mL</key>
+	<string>ng/mL</string>
+	<key>ng/mL{rbc}</key>
+	<string>ng/mL RBCs</string>
+	<key>ng/m^2</key>
+	<string>ng/m²</string>
+	<key>ng/mg</key>
+	<string>ng/mg</string>
+	<key>ng/mg{Protein}</key>
+	<string>ng/mg Prot</string>
+	<key>nm</key>
+	<string>nm</string>
+	<key>nmol</key>
+	<string>nmol</string>
+	<key>nmol/L</key>
+	<string>nmol/L</string>
+	<key>nmol/dL</key>
+	<string>nmol/dL</string>
+	<key>nmol/g</key>
+	<string>nmol/g</string>
+	<key>nmol/g{Cre}</key>
+	<string>nmol/g Creat</string>
+	<key>nmol/mL</key>
+	<string>nmol/mL</string>
+	<key>nmol/mg</key>
+	<string>nmol/mg</string>
+	<key>nmol/mmol</key>
+	<string>nmol/mmol</string>
+	<key>nmol/mmol{Cre}</key>
+	<string>nmol/mmol Creat</string>
+	<key>nmol/mol</key>
+	<string>nmol/mol</string>
+	<key>ns</key>
+	<string>ns</string>
+	<key>osm/L</key>
+	<string>Osm/L</string>
+	<key>osm/kg</key>
+	<string>Osm/kg</string>
+	<key>pL</key>
+	<string>pL</string>
+	<key>pg</key>
+	<string>pg</string>
+	<key>pg/L</key>
+	<string>pg/L</string>
+	<key>pg/dL</key>
+	<string>pg/dL</string>
+	<key>pg/mL</key>
+	<string>pg/mL</string>
+	<key>pg/mm</key>
+	<string>pg/mm</string>
+	<key>pm</key>
+	<string>pm</string>
+	<key>pmol</key>
+	<string>pmol</string>
+	<key>pmol/L</key>
+	<string>pmol/L</string>
+	<key>pmol/dL</key>
+	<string>pmol/dL</string>
+	<key>pmol/mL</key>
+	<string>pmol/mL</string>
+	<key>pmol/umol</key>
+	<string>pmol/μmol</string>
+	<key>ps</key>
+	<string>ps</string>
+	<key>s</key>
+	<string>sec</string>
+	<key>t</key>
+	<string>t</string>
+	<key>uL</key>
+	<string>μL</string>
+	<key>u[iU]</key>
+	<string>uIU</string>
+	<key>u[iU]/mL</key>
+	<string>μIU/mL</string>
+	<key>ueq</key>
+	<string>μEq</string>
+	<key>ueq/L</key>
+	<string>μEq/L</string>
+	<key>ueq/mL</key>
+	<string>μEq/mL</string>
+	<key>ug</key>
+	<string>μg</string>
+	<key>ug/L</key>
+	<string>μg/L</string>
+	<key>ug/[100]g</key>
+	<string>μg/100 g</string>
+	<key>ug/dL</key>
+	<string>μg/dL</string>
+	<key>ug/dL{rbc}</key>
+	<string>μg/dL RBCs</string>
+	<key>ug/g</key>
+	<string>μg/g</string>
+	<key>ug/g{Cre}</key>
+	<string>μg/g Creat</string>
+	<key>ug/g{DryWeight}</key>
+	<string>μg/g dry weight</string>
+	<key>ug/g{Hgb}</key>
+	<string>μg/g Hb</string>
+	<key>ug/kg</key>
+	<string>μg/kg</string>
+	<key>ug/m2</key>
+	<string>μg/m²</string>
+	<key>ug/mL</key>
+	<string>μg/mL</string>
+	<key>ug/m^2</key>
+	<string>μg/m²</string>
+	<key>ug/mg</key>
+	<string>μg/mg</string>
+	<key>ug/mg{Cre}</key>
+	<string>μg/mg Creat</string>
+	<key>ug/ng</key>
+	<string>μg/ng</string>
+	<key>ug/{Specimen}</key>
+	<string>μg/specimen</string>
+	<key>ug/{TotalVolume}</key>
+	<string>μg/total volume</string>
+	<key>um</key>
+	<string>μm</string>
+	<key>umol</key>
+	<string>μmol</string>
+	<key>umol/L</key>
+	<string>μmol/L</string>
+	<key>umol/dL</key>
+	<string>μmol/dL</string>
+	<key>umol/g</key>
+	<string>μmol/g</string>
+	<key>umol/g{Cre}</key>
+	<string>μmol/g Creat</string>
+	<key>umol/g{Hgb}</key>
+	<string>μmol/g Hb</string>
+	<key>umol/mL</key>
+	<string>μmol/mL</string>
+	<key>umol/mg</key>
+	<string>μmol/mg</string>
+	<key>umol/mg{Cre}</key>
+	<string>μmol/mg Creat</string>
+	<key>umol/min/g</key>
+	<string>μmol/min/g</string>
+	<key>umol/mol</key>
+	<string>μmol/mol</string>
+	<key>umol/mol{Cre}</key>
+	<string>μmol/mol Creat</string>
+	<key>us</key>
+	<string>μs</string>
+	<key>wk</key>
+	<string>wk</string>
+	<key>{AHG}eq/mL</key>
+	<string>AHG Eq/mL</string>
+	<key>{BoneCollagen}eq/mmol{Cre}</key>
+	<string>BCE/mmol Creat</string>
+	<key>{BoneCollagen}eq/umol{Cre}</key>
+	<string>BCE/μmol Creat</string>
+	<key>{Cells}/uL</key>
+	<string>cells/μL</string>
+	<key>{ComplementCh50}U/mL</key>
+	<string>CH50 U/mL</string>
+	<key>{Copies}/mL</key>
+	<string>Copies/mL</string>
+	<key>{Ehrlich_U}/100g</key>
+	<string>EU/100 g</string>
+	<key>{Ehrlich_U}/dL</key>
+	<string>EU/dL</string>
+	<key>{Elisa_U}/mL</key>
+	<string>Elisa U/mL</string>
+	<key>{IgAPhospholipid}U/mL</key>
+	<string>IgA Phospholipid U/mL</string>
+	<key>{IgGPhospholipid}U/mL</key>
+	<string>IgG Phospholipid U/mL</string>
+	<key>{IgMPhospholipid}U/mL</key>
+	<string>IgM Phospholipid U/mL</string>
+	<key>{Relative}%</key>
+	<string>Relative %</string>
+	<key>{Spermatozoa}/mL</key>
+	<string>spermatozoa/mL</string>
+	<key>{cfu}/mL</key>
+	<string>CFU/mL</string>
+	<key>{rbc}/uL</key>
+	<string>RBC/μL</string>
+</dict>
+</plist>

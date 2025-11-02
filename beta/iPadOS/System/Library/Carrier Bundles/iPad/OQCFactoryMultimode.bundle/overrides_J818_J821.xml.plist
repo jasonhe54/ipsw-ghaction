@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedMultimodeSIMs</key>
+	<dict>
+		<key>Config</key>
+		<dict>
+			<key>OverrideConfiguration</key>
+			<dict>
+				<key>signature</key>
+				<data>
+				ovIwhcmoL/AixPNktdc6Rm6eTk6byqDl5BiujqUZileU
+				iL4+brwand1JtYwnXWP6T3zSciOxPruNC8rwRGY8nCTU
+				8zGs0EJR+TXwC/+nz6F/u4Ra7+1c2BBxeISJOacDlQ1D
+				KSEbwD1wTtiwXuBr7UCRP8D/1r1+nOtM5KpD3dk=
+				</data>
+			</dict>
+			<key>signature</key>
+			<data>
+			VBHxp6XJ4kZR4JJDkpcJxBt3ImfbNHhjkwuW+a9KtxJKmtXBCNaP
+			DN9giVBcSKwDNYW0yNKFKPd82eaGLWAcqytkHR01rjIymUIUG/K4
+			HsjeJwSyjwg5hPPAg4dQ7OeFTTBGQV6q1plfhEexwxGaH71i1e7t
+			Jgfbe9w5eNcdzK4=
+			</data>
+		</dict>
+	</dict>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.1</string>
+	<key>Show4GSwitchWith5G</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_accessoryupdater</string>
+	<key>Label</key>
+	<string>com.apple.uarphidd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>AppleDevices</key>
+			<dict>
+				<key>DeviceUsage</key>
+				<integer>70</integer>
+				<key>DeviceUsagePage</key>
+				<integer>65280</integer>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOHIDDevice</string>
+				<key>VendorID</key>
+				<integer>1452</integer>
+			</dict>
+			<key>BeatsByDreDevices</key>
+			<dict>
+				<key>DeviceUsage</key>
+				<integer>70</integer>
+				<key>DeviceUsagePage</key>
+				<integer>65280</integer>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOHIDDevice</string>
+				<key>VendorID</key>
+				<integer>10507</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/uarphidd</string>
+	<key>UserName</key>
+	<string>_accessoryupdater</string>
+</dict>
+</plist>

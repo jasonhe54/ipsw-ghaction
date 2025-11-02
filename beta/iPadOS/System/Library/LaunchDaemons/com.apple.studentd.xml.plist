@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/mobile/Library/studentd/isConnected</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.studentd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>ACDAccountStoreDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>ACDAccountStoreDidChangeNotification</string>
+			</dict>
+			<key>com.apple.progressd.studentClassMembershipChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.progressd.studentClassMembershipChanged</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.studentd</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.studentd.notifications</key>
+		<true/>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/studentd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>10</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

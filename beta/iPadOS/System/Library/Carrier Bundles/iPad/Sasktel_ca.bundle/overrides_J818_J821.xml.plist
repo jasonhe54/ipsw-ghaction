@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CarrierEntitlements</key>
+	<dict>
+		<key>Authentication</key>
+		<dict>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>Username</key>
+			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+		</dict>
+		<key>ProvisioningRecheckPeriod</key>
+		<integer>24</integer>
+		<key>ServerAddress</key>
+		<string>https://entitlement.sasktel.com/entitlement/rest</string>
+		<key>SupportIMEIPredictionForSIMTransfer</key>
+		<false/>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportSecureIntent</key>
+		<true/>
+		<key>SupportedEntitlements</key>
+		<integer>8224</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
+		<key>UpdatePeriod</key>
+		<integer>24</integer>
+	</dict>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>sm-v4-062-a-gtm.pr.go-esim.com</string>
+	</dict>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowHighDataModeSwitch</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+</dict>
+</plist>

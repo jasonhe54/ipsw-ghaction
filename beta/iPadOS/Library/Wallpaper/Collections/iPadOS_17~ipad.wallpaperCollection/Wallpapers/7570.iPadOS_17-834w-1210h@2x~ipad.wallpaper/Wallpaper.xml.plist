@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adjustments</key>
+	<dict>
+		<key>adjustmentTraitOffset</key>
+		<dict>
+			<key>screenScaleModeMoreSpace</key>
+			<dict>
+				<key>interfaceOrientationLandscape</key>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>-4</integer>
+				</dict>
+				<key>interfaceOrientationPortrait</key>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>-8</integer>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>appearanceAware</key>
+	<true/>
+	<key>assets</key>
+	<dict>
+		<key>lockAndHome</key>
+		<dict>
+			<key>default</key>
+			<dict>
+				<key>backgroundAnimationFileName</key>
+				<string>7570.iPadOS_17_Background-834w-1210h@2x~ipad.ca</string>
+				<key>floatingAnimationFileNameKey</key>
+				<string>7570.iPadOS_17_Floating-834w-1210h@2x~ipad.ca</string>
+				<key>identifier</key>
+				<integer>7570</integer>
+				<key>name</key>
+				<string>iPadOS 17</string>
+				<key>type</key>
+				<string>LayeredAnimation</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>contentVersion</key>
+	<real>2.02</real>
+	<key>family</key>
+	<string>iPadOS 17</string>
+	<key>identifier</key>
+	<integer>7570</integer>
+	<key>logicalScreenClass</key>
+	<string>834w-1210h@2x~ipad</string>
+	<key>name</key>
+	<string>iPadOS 17</string>
+	<key>preferredProminentColor</key>
+	<dict>
+		<key>dark</key>
+		<string>#F89043</string>
+		<key>default</key>
+		<string>#FFC76E</string>
+	</dict>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

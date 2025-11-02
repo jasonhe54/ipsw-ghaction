@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>leftHandAnchors</key>
+	<array>
+		<string>emoji</string>
+		<string>的emoji</string>
+		<string>表情符号</string>
+		<string>表情emoji</string>
+		<string>的表情符号</string>
+		<string>的表情emoji</string>
+	</array>
+	<key>metadata</key>
+	<dict>
+		<key>language</key>
+		<string>zh-Hans</string>
+		<key>schemaVersion</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

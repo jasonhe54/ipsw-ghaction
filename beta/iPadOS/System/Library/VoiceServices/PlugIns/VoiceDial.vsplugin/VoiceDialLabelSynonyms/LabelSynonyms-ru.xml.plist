@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>домашний</key>
+	<array>
+		<string>дома</string>
+		<string>домашний</string>
+		<string>дом</string>
+	</array>
+	<key>мобильный</key>
+	<array>
+		<string>сотовый</string>
+		<string>сотовый телефон</string>
+		<string>мобильный телефон</string>
+		<string>мобильный</string>
+	</array>
+	<key>рабочий</key>
+	<array>
+		<string>офис</string>
+		<string>работа</string>
+		<string>на работе</string>
+		<string>фирма</string>
+		<string>на фирме</string>
+	</array>
+</dict>
+</plist>

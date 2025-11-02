@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>1</integer>
+	<key>APNEditabilityTypemaskNew</key>
+	<integer>1</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>MultiByte</string>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<true/>
+	</dict>
+	<key>OverrideOperatorName</key>
+	<string>MultiByte</string>
+	<key>ShowCallForwardingSwitch</key>
+	<false/>
+	<key>ShowCallWaitingSwitch</key>
+	<false/>
+	<key>ShowCallerIDSwitch</key>
+	<false/>
+	<key>ShowDialAssist</key>
+	<false/>
+	<key>ShowVolteSwitch</key>
+	<false/>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>45424</string>
+		<string>45406_GID1-58300_GID2-58301</string>
+		<string>45412_GID1-0331</string>
+		<string>45413_GID1-0331</string>
+		<string>45403_GID1-0227_GID2-02280</string>
+		<string>45404_GID1-0227_GID2-02280</string>
+		<string>45501_GID1-1501</string>
+		<string>42501_GID1-9601</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>apn</key>
+			<string>MB</string>
+			<key>password</key>
+			<string></string>
+			<key>type-mask</key>
+			<integer>49</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

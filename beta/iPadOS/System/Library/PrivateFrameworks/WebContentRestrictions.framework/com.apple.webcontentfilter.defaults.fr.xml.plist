@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://disney.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.babygo.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>BabyGo</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.phosphore.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Phosphore</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.tfou.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>TFou</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.louvre.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Le Louvre</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.jde.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Le journal des Enfants</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.journaldemickey.com/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Le journal de Mickey</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/fr/startpage/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple — Démarrage</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.linternaute.com/junior/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>L’Internaute Juniors</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.labosvj.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Science et Vie Junior</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.kidclap.fr/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>KidClap</string>
+		</dict>
+	</array>
+</dict>
+</plist>

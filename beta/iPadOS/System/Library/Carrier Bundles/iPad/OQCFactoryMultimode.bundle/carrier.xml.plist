@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedMultimodeSIMs</key>
+	<dict>
+		<key>Config</key>
+		<dict>
+			<key>OverrideConfiguration</key>
+			<dict>
+				<key>IntlDataRoamingExceptions</key>
+				<array>
+					<string>10101</string>
+				</array>
+				<key>apns</key>
+				<array/>
+				<key>signature</key>
+				<data>
+				jpjqxFoYFMKmMvnGOFeTeSMVActbwF1J1MU5i0NZRa8q
+				LZjdVeHvgtQMN+UeIEbvjjtrIPUEzUaWyXmu4NKwGgQK
+				BWhtDHwxftVeVj9l9v/kNkg6/4WTeHG5ijl6m/yLdMvy
+				7MGxWwp2B4rDnF0kY1OuQyihiqLRBVT74DoUyJ4=
+				</data>
+			</dict>
+			<key>SupportedSIMs</key>
+			<array>
+				<string>10101</string>
+			</array>
+			<key>signature</key>
+			<data>
+			YWa0kl1XHsfONcOZhbT+dGPpBYO8KhHncenoq9sIdOzVvG9d8vHe
+			CtY4nIx924tWtzh/S9wtSLQV3vlX7Pr8ssPXykGB0I2AFHEU89jO
+			/5U4rvAIyroqJjA1HdVKhvg0PgE6p12kdRnA22MQjjg3X8J1FDoi
+			j9zdJNz3ABa3LiA=
+			</data>
+		</dict>
+	</dict>
+	<key>CarrierAllowsRingingMultipleDevices</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>Factory - Multimode</string>
+	<key>DMUFileName</key>
+	<string>carrier.dmu</string>
+	<key>HomeERI</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>PRLFileName</key>
+	<string>carrier.prl</string>
+	<key>PrlName</key>
+	<integer>0</integer>
+	<key>PrlPushFlag</key>
+	<false/>
+	<key>SMSUseLocalTZ</key>
+	<true/>
+	<key>SupportedCarrierIds</key>
+	<array>
+		<string>101FAC</string>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>101FAC</string>
+	</array>
+	<key>SuspendFastDormancyAllowed</key>
+	<true/>
+	<key>apns</key>
+	<array/>
+</dict>
+</plist>

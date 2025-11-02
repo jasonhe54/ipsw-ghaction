@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DerPriFileName</key>
+	<string>overrides_J818_J821.der.pri</string>
+	<key>DerPriFileVersion</key>
+	<string>0.0.1</string>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>Enable5GStandaloneByDefault</key>
+	<true/>
+	<key>IMSConfig</key>
+	<dict>
+		<key>SMS</key>
+		<dict>
+			<key>SupportedDomains</key>
+			<dict>
+				<key>LTE</key>
+				<true/>
+				<key>NR</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>Show5GStandaloneSwitch</key>
+	<true/>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowHighDataModeSwitch</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+</dict>
+</plist>

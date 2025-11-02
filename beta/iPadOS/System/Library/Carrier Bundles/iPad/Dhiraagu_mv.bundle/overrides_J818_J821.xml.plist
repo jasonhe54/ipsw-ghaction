@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CarrierEntitlements</key>
+	<dict>
+		<key>Authentication</key>
+		<dict>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>Username</key>
+			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+		</dict>
+		<key>ProtocolVersion</key>
+		<string>2</string>
+		<key>ProvisioningRecheckPeriod</key>
+		<integer>1</integer>
+		<key>ServerAddress</key>
+		<string>https://des.dhiraagu.com.mv/entitlement</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportSecureIntent</key>
+		<true/>
+		<key>SupportedActions</key>
+		<array>
+			<string>transferSIMService</string>
+		</array>
+		<key>SupportedEntitlements</key>
+		<integer>8192</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
+		<key>UpdatePeriod</key>
+		<integer>24</integer>
+		<key>UserAgent</key>
+		<string>Entitlement/$version ($device) iOS/$iOSVersion Carrier Settings/$carrierBundleVersion</string>
+	</dict>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://rsp.invigo.com</string>
+	</dict>
+	<key>PushSettings</key>
+	<dict>
+		<key>CellularPlanTransferTopic</key>
+		<string>com.dhiraagu.esimtransfer</string>
+	</dict>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>ShowHighDataModeSwitch</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+</dict>
+</plist>

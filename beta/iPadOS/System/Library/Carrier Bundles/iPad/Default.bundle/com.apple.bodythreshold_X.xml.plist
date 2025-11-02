@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CMOnBodyStatusManagerAngleMetricThreshold</key>
+	<integer>0</integer>
+	<key>CMOnBodyStatusManagerClassifierMaxHighPower</key>
+	<real>10</real>
+	<key>CMOnBodyStatusManagerClassifierMaxLowPower</key>
+	<real>0.0079432823472428103</real>
+	<key>CMOnBodyStatusManagerClassifierMinLowPower</key>
+	<real>0.0054954087385762499</real>
+	<key>CMOnBodyStatusManagerClassifierTheta0</key>
+	<real>-1.1265645474842061</real>
+	<key>CMOnBodyStatusManagerClassifierTheta1</key>
+	<real>3.1318362436400831</real>
+	<key>CMOnBodyStatusManagerClassifierTheta2</key>
+	<real>-0.722965021881803</real>
+	<key>CMOnBodyStatusManagerClassifierTheta3</key>
+	<real>0.0</real>
+	<key>CMOnBodyStatusManagerClassifierTheta4</key>
+	<real>-0.038398538443554002</real>
+	<key>CMOnBodyStatusManagerClassifierTheta5</key>
+	<integer>0</integer>
+	<key>CMOnBodyStatusManagerConfidenceThreshold</key>
+	<real>0.23999999999999999</real>
+	<key>CMOnBodyStatusManagerHighBandStart</key>
+	<integer>77</integer>
+	<key>CMOnBodyStatusManagerHighBandStop</key>
+	<integer>127</integer>
+	<key>CMOnBodyStatusManagerLowBandStart</key>
+	<integer>1</integer>
+	<key>CMOnBodyStatusManagerLowBandStop</key>
+	<integer>25</integer>
+	<key>CMOnBodyStatusManagerMedianFilterSize</key>
+	<integer>24</integer>
+	<key>CMOnBodyStatusManagerOddsThreshold</key>
+	<real>0.23999999999999999</real>
+	<key>CMOnBodyStatusManagerUseAngleOverride</key>
+	<integer>0</integer>
+	<key>CMOnBodyStatusManagerUseHysteresis</key>
+	<integer>1</integer>
+	<key>CMOnBodyStatusManagerWakeThreshold</key>
+	<real>1.2</real>
+</dict>
+</plist>

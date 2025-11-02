@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<string>PencilSqueezeThreshold</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>PENCIL_SQUEEZE_THRESHOLD_FOOTNOTE</string>
+			<key>id</key>
+			<string>PencilSqueezeThresholdGroup</string>
+			<key>label</key>
+			<string>PENCIL_SQUEEZE_THRESHOLD_TITLE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>PNPSqueezeThresholdSliderCell</string>
+			<key>extendedRange</key>
+			<false/>
+			<key>id</key>
+			<string>PencilSqueezeThreshold</string>
+			<key>label</key>
+			<string>Threshold</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SETTINGS_TITLE</string>
+</dict>
+</plist>

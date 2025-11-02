@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Downlink</key>
+	<dict>
+		<key>Nodes</key>
+		<dict>
+			<key>Dynamics</key>
+			<dict>
+				<key>media-ducker</key>
+				<dict>
+					<key>DSPGraphAUStripFilePath</key>
+					<string>Tuning/DL/{REF_4CC}-{MIC_4CC}-medc-dldn.austrip</string>
+					<key>DSPGraphFilePath</key>
+					<string>DSP/DL/downlink_dynamics_media.dspg</string>
+					<key>DSPGraphOutputChannelCounts</key>
+					<dict>
+						<key>mix</key>
+						<integer>2</integer>
+					</dict>
+					<key>DSPGraphPropertyStripFilePaths</key>
+					<array>
+						<string>DSP/DL/downlink_dynamics_media.propstrip</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Hardware</key>
+			<dict>
+				<key>media-pass-through</key>
+				<dict>
+					<key>DSPGraphFilePath</key>
+					<string>DSP/DL/downlink_hardware_pass_through.dspg</string>
+					<key>DSPGraphInputChannelCounts</key>
+					<dict>
+						<key>mix</key>
+						<integer>2</integer>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
