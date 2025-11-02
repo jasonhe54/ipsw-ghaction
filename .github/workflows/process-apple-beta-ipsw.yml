@@ -39,7 +39,7 @@ jobs:
       - name: 1. Check out repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.commit_branch }}
+          ref: ${{ inputs.checkout_branch }}
 
       - name: 2. Install blacktop/ipsw
         run: brew install blacktop/tap/ipsw
@@ -51,16 +51,13 @@ jobs:
 
       - name: 4. Create output directories
         run: |
-          # Create the directory for the download
           mkdir -p ./ipsw_files
-          # Create the directory for the extracted files
           mkdir -p ./ipsw_files/out
 
       - name: 5. Download IPSW
         run: |
           echo "Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
           
-          # Use the new os_type input
           ipsw dl appledb --os "${{ inputs.os_type }}" \
             --build "${{ inputs.beta_build }}" \
             --device "${{ inputs.device_identifier }}" \
@@ -77,7 +74,6 @@ jobs:
       - name: 6. Extract and Decrypt Filesystem DMG
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
-          # Step A: Extract the .dmg.aea file using 'fs'
           ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
           
           FS_DMG_AEA=$(find ./ipsw_files/out -name "*dmg.aea" | head -n 1)
@@ -88,7 +84,6 @@ jobs:
           echo "Found encrypted DMG: $FS_DMG_AEA"
 
           echo "Extracting decryption key (.pem)..."
-          # Step B: Extract the .pem file
           ipsw ex --fcs-key "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
           
           AEA_KEY=$(find ./ipsw_files/out -name "*aea.pem" | head -n 1)
@@ -99,7 +94,6 @@ jobs:
           echo "Found key: $AEA_KEY"
 
           echo "Decrypting DMG..."
-          # Step C: Decrypt using the key with 'ipsw fw aea'
           ipsw fw aea --pem "${AEA_KEY}" "${FS_DMG_AEA}" -o ./ipsw_files/out
           
           DECRYPTED_DMG=$(find ./ipsw_files/out -name "*.dmg" | head -n 1)
@@ -125,7 +119,6 @@ jobs:
 
       - name: 9. Run Python Analyzer Script
         run: |
-          # This is the new, dynamic path based on the OS
           REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
 
           echo "Running Python script for Applications... (Output: ${REPO_SAVE_PATH}/Applications)"
@@ -140,13 +133,30 @@ jobs:
           echo "Running Python script for System... (Output: ${REPO_SAVE_PATH}/System)"
           python py.py "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
 
-      - name: 10. Unmount DMG
+      - name: 10. Sanitize File Paths
+        run: |
+          echo "Searching for and renaming files/directories with colons..."
+          # Use find with -depth to rename files before their parent directories.
+          # This finds all paths in ./beta that contain a colon (:)
+          # and renames them, replacing all colons with underscores (_).
+          find ./beta -depth -name "*:*" -exec bash -c '
+            dir=$(dirname "$0")
+            base=$(basename "$0")
+            new_base=$(echo "$base" | tr ":" "_")
+            if [[ "$base" != "$new_base" ]]; then
+              echo "Renaming $0 to $dir/$new_base"
+              mv "$0" "$dir/$new_base"
+            fi
+          ' {} \;
+          echo "Sanitization complete."
+
+      - name: 11. Unmount DMG
         if: always() # Always run this step, even if the script fails
         run: |
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
 
-      - name: 11. Upload Analysis Artifact
+      - name: 12. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
           # Create a unique name for the artifact
