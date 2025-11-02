@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       os_type:
-        description: 'Operating System (e.g., iOS, iPadOS, visionOS)'
+        description: 'Operating System (iOS, iPadOS, visionOS)'
         required: true
         type: choice
         options:
@@ -67,33 +67,33 @@ jobs:
           echo "Removing old directory: beta/${{ inputs.os_type }}"
           rm -rf beta/${{ inputs.os_type }}
 
-          - name: 4. Download and Verify Artifact
-          env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          run: |
-            set -e 
-            
-            ARTIFACT_NAME="analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}"
-            
-            echo "Attempting to download artifact: ${ARTIFACT_NAME}"
-            echo "From Run ID: ${{ inputs.run_id }}"
-            
-            gh run download ${{ inputs.run_id }} \
-              --name "${ARTIFACT_NAME}" \
-              --dir ./
-            
-            echo "Download command finished."
-            
-            # --- This is the verification check ---
-            echo "Verifying that 'beta/${{ inputs.os_type }}' was downloaded..."
-            if [ ! -d "beta/${{ inputs.os_type }}" ]; then
-              echo "::error::Verification failed! The directory 'beta/${{ inputs.os_type }}' does not exist."
-              echo "This means the artifact download failed, likely due to a wrong artifact name or run_id."
-              echo "Artifact sought: ${ARTIFACT_NAME}"
-              exit 1
-            fi
-            
-            echo "Verification successful. Artifact files are present."
+      - name: 4. Download and Verify Artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e 
+          
+          ARTIFACT_NAME="analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}"
+          
+          echo "Attempting to download artifact: ${ARTIFACT_NAME}"
+          echo "From Run ID: ${{ inputs.run_id }}"
+          
+          gh run download ${{ inputs.run_id }} \
+            --name "${ARTIFACT_NAME}" \
+            --dir ./
+          
+          echo "Download command finished."
+          
+          # --- This is the verification check ---
+          echo "Verifying that 'beta/${{ inputs.os_type }}' was downloaded..."
+          if [ ! -d "beta/${{ inputs.os_type }}" ]; then
+            echo "::error::Verification failed! The directory 'beta/${{ inputs.os_type }}' does not exist."
+            echo "This means the artifact download failed, likely due to a wrong artifact name or run_id."
+            echo "Artifact sought: ${ARTIFACT_NAME}"
+            exit 1
+          fi
+          
+          echo "Verification successful. Artifact files are present."
 
       - name: 5. Configure Git
         run: |
