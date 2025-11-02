@@ -1,2 +1,23 @@
 branchFields:
 - pr_base_branch
+
+type: ipsw
+ipsw:
+  osField: os_type
+  deviceIdentifierField: device_identifier
+  deviceOptions:
+    iOS:
+      - name: "iPhone 17 Pro"
+        identifier: "iPhone18,1"
+    iPadOS:
+      - name: "iPad Pro 11-inch (M5)"
+        identifier: "iPad17,1"
+    visionOS:
+      - name: "Apple Vision Pro (M5)"
+        identifier: "RealityDevice17,1"
+    tvOS:
+      - name: "Apple TV 4K (3rd Generation)"
+        identifier: "AppleTV14,1"
+    macOS:
+      - name: "MacBook Pro 14-inch (M5)"
+        identifier: "Mac17,2"
