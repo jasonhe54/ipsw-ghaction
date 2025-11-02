@@ -158,6 +158,10 @@ def process_file_by_extension(file_path):
 def discover_files_fast(root_path, extensions):
     """
     Fast, optimized file discovery using os.walk.
+    Filters files by extension during discovery to minimize memory.
+    
+    os.walk is highly optimized in Python and faster than custom implementations
+    for most use cases, especially on macOS with APFS.
     """
     target_files = []
     
@@ -168,14 +172,9 @@ def discover_files_fast(root_path, extensions):
                     file_path = os.path.join(dirpath, filename)
                     target_files.append(file_path)
             
-            try:
-                for entry in os.scandir(dirpath):
-                    if entry.is_symlink():
-                        full_path = entry.path
-                        if any(full_path.endswith(ext) for ext in extensions):
-                            target_files.append(full_path)
-            except (PermissionError, OSError):
-                continue
+            # --- REDUNDANT BLOCK REMOVED ---
+            # The os.scandir loop that was here was adding symlinks
+            # a second time. It has been removed.
                 
     except (PermissionError, OSError) as e:
         # MODIFIED: Print warning to sys.stderr
