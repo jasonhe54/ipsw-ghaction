@@ -1,0 +1,128 @@
+name: 2. Commit Beta Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      os_type:
+        description: 'Operating System (iOS, iPadOS, etc.)'
+        required: true
+        type: string
+      beta_version:
+        description: 'Version (e.g., 26.0). Used for PR title.'
+        required: true
+        type: string
+      beta_build:
+        description: 'Build ID (e.g., 23B5073a). Used for artifact name.'
+        required: true
+        type: string
+      device_identifier:
+        description: 'Device Identifier (e.g., iPhone18,1)'
+        required: true
+        type: string
+      run_id:
+        description: 'The specific Run ID of the "Analyzer" workflow to pull from.'
+        required: true
+        type: string
+      pr_base_branch:
+        description: 'The base branch to create the Pull Request against.'
+        required: false
+        type: string
+        default: 'main'
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: read # <-- Added permission to read other workflow runs
+    
+    steps:
+      - name: 1. Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.commit_branch }}
+
+      - name: 2. Clean old directory
+        run: |
+          # This is CRITICAL for creating the diff
+          # We remove the old version's files before adding the new ones
+          echo "Removing old directory: beta/${{ inputs.os_type }}"
+          rm -rf beta/${{ inputs.os_type }}
+
+      - name: 3. Download specific artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Downloading artifact 'analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}' from Run ID ${{ inputs.run_id }}"
+          
+          # Use the GitHub CLI to download the artifact from the *specific* run
+          # This guarantees you get the correct one
+          gh run download ${{ inputs.run_id }} \
+            --name "analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}" \
+            --dir ./
+            
+          echo "Artifact download complete."
+
+      - name: 4. Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: 5. Commit and Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          
+          # Make the OS type lowercase for the branch name
+          OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
+          
+          # Add the OS type to the version tag
+          VERSION_TAG="${OS_TYPE_LOWER}-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
+          
+          # Normalize the tag for the branch name
+          CLEAN_VERSION_TAG=$(echo "${VERSION_TAG}" | sed 's/[^a-zA-Z0-9-]/_/g')
+          
+          # Create a git-safe timestamp (YYYYMMDD-HHMMSS)
+          TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
+          # Append timestamp to branch name for uniqueness
+          NEW_BRANCH="auto-analysis/${CLEAN_VERSION_TAG}-${TIMESTAMP}"
+          
+          # Create new branch from the checked-out base branch
+          git checkout -B "${NEW_BRANCH}"
+          
+          # This will correctly add the diff (removals from step 2, additions from step 3)
+          git add beta/
+          
+          if git diff --cached --quiet; then
+            echo "No changes detected in 'beta' directory. Exiting."
+            exit 0
+          fi
+          
+          echo "Committing changes..."
+          # Update commit message
+          COMMIT_MSG="Analyze: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})
+          
+          Device: ${{ inputs.device_identifier }}
+          Processed folders: Applications, Library, private, System"
+          
+          git commit -m "$COMMIT_MSG"
+          
+          echo "Pushing branch ${NEW_BRANCH}..."
+          git push --set-upstream origin "${NEW_BRANCH}"
+          
+          echo "Creating Pull Request..."
+          # Update PR title and body
+          PR_TITLE="Analysis: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})"
+          PR_BODY="Automated analysis of \`${{ inputs.os_type }}\` \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
+          
+          **Device:** \`${{ inputs.device_identifier }}\`
+          **Processed DMG Folders:** \`Applications\`, \`Library\`, \`private\`, \`System\`
+          **Output Repo Path:** \`/beta/${{ inputs.os_type }}\`"
+          
+          gh pr create \
+            --base "${{ inputs.commit_branch }}" \
+            --head "${NEW_BRANCH}" \
+            --title "${PR_TITLE}" \
+            --body "${PR_BODY}"

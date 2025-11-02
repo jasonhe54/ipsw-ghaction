@@ -1,4 +1,4 @@
-name: Process Apple Beta IPSW
+name: 1. Process Apple Beta IPSW
 
 on:
   workflow_dispatch:
@@ -25,8 +25,8 @@ on:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
         type: string
-      commit_branch:
-        description: 'The base branch to create the Pull Request against.'
+      checkout_branch:
+        description: 'The base branch (for checkout, not PR since PR is handled by the other workflow).'
         required: false
         type: string
         default: 'main'
@@ -34,9 +34,6 @@ on:
 jobs:
   process-ipsw:
     runs-on: macos-latest
-    permissions:
-      contents: write
-      pull-requests: write
     
     steps:
       - name: 1. Check out repository
@@ -149,67 +146,12 @@ jobs:
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
 
-      - name: 11. Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-      - name: 12. Commit and Create PR
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euo pipefail
-          
-          # Make the OS type lowercase for the branch name
-          OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
-          
-          # Add the OS type to the version tag
-          VERSION_TAG="${OS_TYPE_LOWER}-${{ inputs.beta_version }}-${{ inputs.beta_build }}"
-          
-          # Normalize the tag for the branch name
-          # Replaces any character that is NOT alphanumeric or a hyphen with an underscore
-          CLEAN_VERSION_TAG=$(echo "${VERSION_TAG}" | sed 's/[^a-zA-Z0-9-]/_/g')
-          
-          # Create a git-safe timestamp (YYYYMMDD-HHMMSS)
-          TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
-          # Append timestamp to branch name for uniqueness
-          NEW_BRANCH="auto-analysis/${CLEAN_VERSION_TAG}-${TIMESTAMP}"
-          
-          # Create new branch from the checked-out base branch
-          git checkout -B "${NEW_BRANCH}"
-          
-          # Add all new/modified files from the python script
-          # This will correctly add 'beta/iOS/...' or 'beta/iPadOS/...' etc.
-          git add beta/
-          
-          if git diff --cached --quiet; then
-            echo "No changes detected in 'beta' directory. Exiting."
-            exit 0
-          fi
-          
-          echo "Committing changes..."
-          # Update commit message
-          COMMIT_MSG="Analyze: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})
-          
-          Device: ${{ inputs.device_identifier }}
-          Processed folders: Applications, Library, private, System"
-          
-          git commit -m "$COMMIT_MSG"
-          
-          echo "Pushing branch ${NEW_BRANCH}..."
-          git push --set-upstream origin "${NEW_BRANCH}"
-          
-          echo "Creating Pull Request..."
-          # Update PR title and body
-          PR_TITLE="Analysis: ${{ inputs.os_type }} ${{ inputs.beta_version }} (${{ inputs.beta_build }})"
-          PR_BODY="Automated analysis of \`${{ inputs.os_type }}\` \`${{ inputs.beta_version }}\` (Build \`${{ inputs.beta_build }}\`).
-          
-          **Device:** \`${{ inputs.device_identifier }}\`
-          **Processed DMG Folders:** \`Applications\`, \`Library\`, \`private\`, \`System\`
-          **Output Repo Path:** \`/beta/${{ inputs.os_type }}\`"
-          
-          gh pr create \
-            --base "${{ inputs.commit_branch }}" \
-            --head "${NEW_BRANCH}" \
-            --title "${PR_TITLE}" \
-            --body "${PR_BODY}"
+      - name: 11. Upload Analysis Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          # Create a unique name for the artifact
+          name: analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}
+          # Upload the entire 'beta' directory that your script generated
+          path: ./beta/
+          # Set retention to a few days
+          retention-days: 5
