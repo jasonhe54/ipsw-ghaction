@@ -4,6 +4,7 @@ import json
 import sys
 import concurrent.futures
 import multiprocessing
+import time
 
 # --- Error Handling ---
 # This list will be populated by the main thread after results are collected
@@ -152,106 +153,107 @@ def process_file_by_extension(file_path):
 def discover_files_fast(root_path, extensions):
     """
     Fast, optimized file discovery using a single os.walk.
-    
-    os.walk() with followlinks=False already provides:
-    - 'filenames':  Includes regular files AND symlinks to files.
-    - 'dirnames':   Includes regular directories AND symlinks to directories.
-    
-    This function scans each directory only ONCE.
+    Validates files exist and separates broken symlinks IN A SINGLE PASS.
+    Returns: (list_of_valid_files, list_of_error_dicts)
     """
-    target_files = []
+    valid_files = []
+    errors = []
     
     try:
         # We only need one walk.
         for dirpath, dirnames, filenames in os.walk(root_path, topdown=True, followlinks=False):
             
-            # 1. Check all files and symlinks-to-files
+            # --- Check all files and symlinks-to-files ---
             for filename in filenames:
                 if any(filename.endswith(ext) for ext in extensions):
-                    target_files.append(os.path.join(dirpath, filename))
+                    file_path = os.path.join(dirpath, filename)
+                    # --- VALIDATION MOVED HERE ---
+                    if not os.path.exists(file_path):
+                        errors.append({
+                            "filepath": file_path, 
+                            "errorMessage": "Broken symlink or file not found", 
+                            "function": "discover_files_fast (scan)"
+                        })
+                    else:
+                        valid_files.append(file_path)
             
-            # 2. Check symlinks-to-directories (in case a symlink name
-            #    itself ends in a target extension, e.g., "MySymlink.plist")
+            # --- Check symlinks-to-directories ---
             for dirname in dirnames:
                 if any(dirname.endswith(ext) for ext in extensions):
                     file_path = os.path.join(dirpath, dirname)
-                    # We only care if it's a symlink
-                    if os.path.islink(file_path): 
-                        target_files.append(file_path)
+                    if os.path.islink(file_path): # Only care if it's a symlink
+                        # --- VALIDATION MOVED HERE ---
+                        if not os.path.exists(file_path):
+                            errors.append({
+                                "filepath": file_path, 
+                                "errorMessage": "Broken symlink or file not found", 
+                                "function": "discover_files_fast (scan)"
+                            })
+                        else:
+                            valid_files.append(file_path)
                         
     except (PermissionError, OSError) as e:
         print(f"Warning: Could not access {root_path}: {e}")
     
-    return target_files
+    return valid_files, errors # <-- Return both lists
 
 
 def find_and_process_files_streaming(folder_path):
     """
     Optimized for GitHub Actions 3-core runner:
-    1. Fast sequential discovery using os.walk (I/O bound, minimal overhead)
+    1. Fast sequential discovery AND validation in one pass.
     2. All cores dedicated to parallel processing (CPU/I/O bound work)
     3. Batch submission with chunking for better process pool efficiency
     """
     
-    # On 3-core system: use all cores for processing
-    # Discovery is fast enough that it doesn't need parallelization
     cpu_count = multiprocessing.cpu_count()
     max_workers = cpu_count  # Use all available cores
     
     print(f"Detected {cpu_count} CPU cores, using {max_workers} workers for processing...")
-    print(f"Starting file discovery in: {folder_path}")
+    print(f"Starting file discovery and validation in: {folder_path}")
     
     # Target file extensions
     extensions = ('.loctable', '.png', '.jpg', '.heif', '.ico', '.plist')
     
-    # Fast discovery phase (typically completes in seconds even for 45k files)
-    import time
     start_time = time.time()
-    target_files = discover_files_fast(folder_path, extensions)
+    
+    # --- MODIFIED CALL ---
+    # Discovery and validation now happen in one function
+    valid_files, discovery_errors = discover_files_fast(folder_path, extensions)
+    errorArrayWithFilepaths.extend(discovery_errors) # Add scan errors to global list
+    # --- END MODIFICATION ---
+            
     discovery_time = time.time() - start_time
     
-    print(f"Discovery complete in {discovery_time:.2f}s: found {len(target_files)} files to process")
+    print(f"Discovery complete in {discovery_time:.2f}s: found {len(valid_files)} files to process")
     
-    if len(target_files) == 0:
+    if len(valid_files) == 0:
         print("No files to process.")
+        printErrorArray() # Print errors found during scan
         return
     
-    # Filter out broken symlinks before processing
-    valid_files = []
-    for file_path in target_files:
-        if not os.path.exists(file_path):
-            errorArrayWithFilepaths.append({
-                "filepath": file_path, 
-                "errorMessage": "Broken symlink or file not found", 
-                "function": "find_and_process_files_streaming (validation)"
-            })
-        else:
-            valid_files.append(file_path)
+    # --- THE SLOW VALIDATION LOOP IS NOW REMOVED ---
     
     print(f"Processing {len(valid_files)} valid files with {max_workers} workers...")
     
     # Process files in parallel using map with chunking
-    # This is much more efficient than submit() for large batches
     with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
-        # chunksize: each worker processes this many files before reporting back
-        # Larger chunks = less overhead, but less frequent progress updates
-        # For 42k files on 3 cores: ~350 files per chunk = ~120 chunks total
         chunksize = max(1, len(valid_files) // (max_workers * 40))
         
         print(f"Using chunksize of {chunksize} (creates ~{len(valid_files)//chunksize} batches)")
         
-        # executor.map() is more efficient than submit() for large datasets:
-        # - Less memory overhead (no Future objects until needed)
-        # - Better queue management (built-in backpressure)
-        # - Results are returned in order as they complete
         completed = 0
+        total_files = len(valid_files)
+        
+        # Use a generator to print progress more naturally
+        progress_points = {int(total_files * p / 100) for p in range(5, 101, 5)}
+        
         for result in executor.map(process_file_by_extension, valid_files, chunksize=chunksize):
             completed += 1
             
-            # Progress updates every 5%
-            if completed % max(1, len(valid_files) // 20) == 0:
-                progress = (completed / len(valid_files)) * 100
-                print(f"Progress: {completed}/{len(valid_files)} ({progress:.1f}%)")
+            if completed in progress_points:
+                progress = (completed / total_files) * 100
+                print(f"Progress: {completed}/{total_files} ({progress:.0f}%)")
             
             # Handle errors returned from worker
             if result:  # Error dictionary
@@ -259,7 +261,8 @@ def find_and_process_files_streaming(folder_path):
 
     total_time = time.time() - start_time
     print(f"\nAll processing complete in {total_time:.2f}s ({total_time/60:.2f} minutes)")
-    print(f"Average: {total_time/len(valid_files):.3f}s per file")
+    if total_files > 0:
+        print(f"Average: {total_time/total_files:.3f}s per file")
     printErrorArray()
 
 
