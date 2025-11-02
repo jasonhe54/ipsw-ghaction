@@ -2,11 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AppleLanguages</key>
-	<array>
-		<string>en</string>
-	</array>
-	<key>AppleLocale</key>
-	<string>en_US</string>
+	<key>GnssConstellationSettings</key>
+	<dict>
+		<key>IsBeidouDisabled</key>
+		<true/>
+		<key>IsGlonassDisabled</key>
+		<true/>
+		<key>IsQzssDisabled</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
