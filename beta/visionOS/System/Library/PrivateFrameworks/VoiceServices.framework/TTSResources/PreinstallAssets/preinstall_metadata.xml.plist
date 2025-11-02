@@ -13,22 +13,18 @@
 			<string>false</string>
 			<key>LanguagesCompatibility</key>
 			<array>
-				<string>en-IN</string>
-				<string>hi-IN</string>
-				<string>gu-IN</string>
-				<string>mr-IN</string>
-				<string>pa-IN</string>
+				<string>lt-LT</string>
 			</array>
 			<key>Name</key>
-			<string>tara</string>
+			<string>ona</string>
 			<key>Type</key>
 			<string>neuralAX</string>
 			<key>_CompatibilityVersion</key>
-			<integer>71</integer>
+			<integer>68</integer>
 			<key>_ContentVersion</key>
-			<integer>1028</integer>
+			<integer>1064</integer>
 			<key>_RelativePath</key>
-			<string>en-IN_tara</string>
+			<string>lt-LT_ona</string>
 		</dict>
 		<dict>
 			<key>Footprint</key>
@@ -56,28 +52,6 @@
 			<key>Footprint</key>
 			<string>compact</string>
 			<key>Gender</key>
-			<string>female</string>
-			<key>IsDialogCapable</key>
-			<string>false</string>
-			<key>LanguagesCompatibility</key>
-			<array>
-				<string>lt-LT</string>
-			</array>
-			<key>Name</key>
-			<string>ona</string>
-			<key>Type</key>
-			<string>neuralAX</string>
-			<key>_CompatibilityVersion</key>
-			<integer>68</integer>
-			<key>_ContentVersion</key>
-			<integer>1064</integer>
-			<key>_RelativePath</key>
-			<string>lt-LT_ona</string>
-		</dict>
-		<dict>
-			<key>Footprint</key>
-			<string>compact</string>
-			<key>Gender</key>
 			<string>male</string>
 			<key>IsDialogCapable</key>
 			<string>false</string>
@@ -99,6 +73,32 @@
 			<integer>1026</integer>
 			<key>_RelativePath</key>
 			<string>en-IN_aman</string>
+		</dict>
+		<dict>
+			<key>Footprint</key>
+			<string>compact</string>
+			<key>Gender</key>
+			<string>female</string>
+			<key>IsDialogCapable</key>
+			<string>false</string>
+			<key>LanguagesCompatibility</key>
+			<array>
+				<string>en-IN</string>
+				<string>hi-IN</string>
+				<string>gu-IN</string>
+				<string>mr-IN</string>
+				<string>pa-IN</string>
+			</array>
+			<key>Name</key>
+			<string>tara</string>
+			<key>Type</key>
+			<string>neuralAX</string>
+			<key>_CompatibilityVersion</key>
+			<integer>71</integer>
+			<key>_ContentVersion</key>
+			<integer>1028</integer>
+			<key>_RelativePath</key>
+			<string>en-IN_tara</string>
 		</dict>
 	</array>
 </dict>

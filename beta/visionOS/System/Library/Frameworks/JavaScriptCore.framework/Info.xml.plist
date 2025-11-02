@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>JavaScriptCore</string>
 	<key>CFBundleGetInfoString</key>
-	<string>8622.2.11.14.4, Copyright 2003-2025 Apple Inc.; Copyright 1999-2001 Harri Porten &lt;porten@kde.org&gt;; Copyright 2001 Peter Kelly &lt;pmk@post.com&gt;; Copyright 1997-2005 University of Cambridge; Copyright 1991, 2000, 2001 by Lucent Technologies.</string>
+	<string>8622.2.11.14.6, Copyright 2003-2025 Apple Inc.; Copyright 1999-2001 Harri Porten &lt;porten@kde.org&gt;; Copyright 2001 Peter Kelly &lt;pmk@post.com&gt;; Copyright 1997-2005 University of Cambridge; Copyright 1991, 2000, 2001 by Lucent Technologies.</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.JavaScriptCore</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -25,17 +25,17 @@
 		<string>XROS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>8622.2.11.14.4</string>
+	<string>8622.2.11.14.6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>23N5041a</string>
+	<string>23N46</string>
 	<key>DTPlatformName</key>
 	<string>xros</string>
 	<key>DTPlatformVersion</key>
 	<string>26.1</string>
 	<key>DTSDKBuild</key>
-	<string>23N5041a</string>
+	<string>23N46</string>
 	<key>DTSDKName</key>
 	<string>xros26.1.internal</string>
 	<key>DTXcode</key>

@@ -55,7 +55,7 @@
 		<string>Application</string>
 		<key>_AllowedClients</key>
 		<array>
-			<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryBSeed"</string>
+			<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "DiscoveryB"</string>
 		</array>
 	</dict>
 </dict>
