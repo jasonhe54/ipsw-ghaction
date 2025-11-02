@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>sensitivity</key>
+	<integer>17</integer>
+	<key>shared-collections</key>
+	<dict>
+		<key>gossamer</key>
+		<array>
+			<string>color3</string>
+			<string>color1</string>
+			<string>color4</string>
+			<string>color8</string>
+			<string>color2</string>
+			<string>color5</string>
+			<string>color6</string>
+		</array>
+	</dict>
+</dict>
+</plist>

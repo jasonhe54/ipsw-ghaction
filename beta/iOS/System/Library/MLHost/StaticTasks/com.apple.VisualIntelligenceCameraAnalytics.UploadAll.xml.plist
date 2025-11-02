@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIdentifier</key>
+	<string>com.apple.VisualIntelligenceCameraAnalytics</string>
+	<key>name</key>
+	<string>com.apple.VisualIntelligenceCameraAnalytics.UploadAll</string>
+	<key>taskRequest</key>
+	<dict>
+		<key>repeatingTask</key>
+		<dict>
+			<key>interval</key>
+			<real>86400</real>
+			<key>minDurationBetweenInstances</key>
+			<integer>69120</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

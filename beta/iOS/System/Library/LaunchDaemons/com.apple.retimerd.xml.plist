@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.retimerd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.retimerd</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>AppleTypeCRetimerReporter</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/retimerd</string>
+		<string>report</string>
+	</array>
+</dict>
+</plist>

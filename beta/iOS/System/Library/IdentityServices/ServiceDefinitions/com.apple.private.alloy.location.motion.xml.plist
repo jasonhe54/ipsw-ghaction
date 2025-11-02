@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdHocServiceType</key>
+	<integer>2</integer>
+	<key>AutoConfigureVettedAddresses</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>LocationMotion</string>
+	<key>DuetIdentifiers</key>
+	<array>
+		<string>com.apple.SessionTrackerApp</string>
+		<string>com.apple.ActivityMonitorApp</string>
+		<string>com.apple.CoreMotion</string>
+	</array>
+	<key>Identifier</key>
+	<string>com.apple.private.alloy.location.motion</string>
+	<key>LaunchDarwinNotification</key>
+	<string>com.apple.locationd.idslaunchnotification</string>
+	<key>ProtocolName</key>
+	<string>com.apple.private.alloy</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.alloy.location.motion</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.alloy.location.motion</string>
+	<key>iCloudService</key>
+	<true/>
+</dict>
+</plist>

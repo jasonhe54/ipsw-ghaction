@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>MetadataTypeName</key>
+		<string>Decimal</string>
+		<key>Name</key>
+		<string>Decimal</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSNumber *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>DoubleHasExactValue</string>
+			<string>DoubleValueIsNotEqual</string>
+			<string>DoubleValueIsGreaterThan</string>
+			<string>DoubleValueIsGreaterThanOrEqual</string>
+			<string>DoubleValueIsLessThan</string>
+			<string>DoubleValueIsLessThanOrEqual</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INDoubleResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>Double</string>
+		<key>SwiftDefaultValue</key>
+		<string>0</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>NSNumber</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@ &gt;= 0</string>
+			</dict>
+			<dict>
+				<key>Code</key>
+				<string>greaterThanMaximumValue</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be higher than ${maximumValue}.</string>
+				<key>Predicate</key>
+				<string>metadata.maximumValue == nil OR %@ &lt;= metadata.maximumValue</string>
+				<key>PredicateKeyPath</key>
+				<string></string>
+				<key>Tokens</key>
+				<array>
+					<string>maximumValue</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Code</key>
+				<string>lessThanMinimumValue</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be lower than ${minimumValue}.</string>
+				<key>Predicate</key>
+				<string>metadata.minimumValue == nil OR %@ &gt;= metadata.minimumValue</string>
+				<key>Tokens</key>
+				<array>
+					<string>minimumValue</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>MetadataTypeName</key>
+		<string>Integer</string>
+		<key>Name</key>
+		<string>Integer</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSNumber *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>IntegerHasExactValue</string>
+			<string>IntegerValueIsNotEqual</string>
+			<string>IntegerValueIsGreaterThan</string>
+			<string>IntegerValueIsGreaterThanOrEqual</string>
+			<string>IntegerValueIsLessThan</string>
+			<string>IntegerValueIsLessThanOrEqual</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INIntegerResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>Int</string>
+		<key>SwiftDefaultValue</key>
+		<string>0</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>NSNumber</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@ &gt;= 0</string>
+			</dict>
+			<dict>
+				<key>Code</key>
+				<string>greaterThanMaximumValue</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be higher than ${maximumValue}.</string>
+				<key>Predicate</key>
+				<string>metadata.maximumValue == nil OR %@ &lt;= metadata.maximumValue</string>
+				<key>PredicateKeyPath</key>
+				<string></string>
+				<key>Tokens</key>
+				<array>
+					<string>maximumValue</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Code</key>
+				<string>lessThanMinimumValue</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be lower than ${minimumValue}.</string>
+				<key>Predicate</key>
+				<string>metadata.minimumValue == nil OR %@ &gt;= metadata.minimumValue</string>
+				<key>Tokens</key>
+				<array>
+					<string>minimumValue</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>MetadataTypeName</key>
+		<string>Boolean</string>
+		<key>Name</key>
+		<string>Boolean</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSNumber *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>BooleanHasExactValue</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INBooleanResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>NSNumber</string>
+		<key>SwiftDefaultValue</key>
+		<string>false</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>NSNumber</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>IDEIntentBuilderPropertySeparator</string>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Scalar</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Decimal</string>
+		<key>Name</key>
+		<string>Double</string>
+		<key>ObjCCollectionPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCCollectionType</key>
+		<string>NSNumber *</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>assign</string>
+		<key>ObjCType</key>
+		<string>double</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>DoubleHasExactValue</string>
+			<string>DoubleValueIsNotEqual</string>
+			<string>DoubleValueIsGreaterThan</string>
+			<string>DoubleValueIsGreaterThanOrEqual</string>
+			<string>DoubleValueIsLessThan</string>
+			<string>DoubleValueIsLessThanOrEqual</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INDoubleResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftDefaultValue</key>
+		<string>0</string>
+		<key>SwiftOptional</key>
+		<false/>
+		<key>SwiftType</key>
+		<string>Double</string>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Scalar</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Integer</string>
+		<key>Name</key>
+		<string>Int32</string>
+		<key>ObjCCollectionPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCCollectionType</key>
+		<string>NSNumber *</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>assign</string>
+		<key>ObjCType</key>
+		<string>int32_t</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>IntegerHasExactValue</string>
+			<string>IntegerValueIsNotEqual</string>
+			<string>IntegerValueIsGreaterThan</string>
+			<string>IntegerValueIsGreaterThanOrEqual</string>
+			<string>IntegerValueIsLessThan</string>
+			<string>IntegerValueIsLessThanOrEqual</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INIntegerResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>Int</string>
+		<key>SwiftDefaultValue</key>
+		<string>0</string>
+		<key>SwiftOptional</key>
+		<false/>
+		<key>SwiftType</key>
+		<string>Int</string>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Scalar</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Integer</string>
+		<key>Name</key>
+		<string>Int64</string>
+		<key>ObjCCollectionPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCCollectionType</key>
+		<string>NSNumber *</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>assign</string>
+		<key>ObjCType</key>
+		<string>int64_t</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>IntegerHasExactValue</string>
+			<string>IntegerValueIsNotEqual</string>
+			<string>IntegerValueIsGreaterThan</string>
+			<string>IntegerValueIsGreaterThanOrEqual</string>
+			<string>IntegerValueIsLessThan</string>
+			<string>IntegerValueIsLessThanOrEqual</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INIntegerResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftDefaultValue</key>
+		<string>0</string>
+		<key>SwiftOptional</key>
+		<false/>
+		<key>SwiftType</key>
+		<string>Integer</string>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Scalar</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Boolean</string>
+		<key>Name</key>
+		<string>Bool</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>assign</string>
+		<key>ObjCType</key>
+		<string>BOOL</string>
+		<key>RelationshipPredicates</key>
+		<array>
+			<string>BooleanHasExactValue</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INBooleanResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>NSNumber</string>
+		<key>SwiftDefaultValue</key>
+		<string>false</string>
+		<key>SwiftOptional</key>
+		<false/>
+		<key>SwiftType</key>
+		<string>Bool</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>IDEIntentBuilderPropertySeparator</string>
+	</dict>
+	<dict>
+		<key>Default</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>String</string>
+		<key>Name</key>
+		<string>String</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSString *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INStringResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftDefaultValue</key>
+		<string>""</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>String</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Dictionary</string>
+		<key>Name</key>
+		<string>Dictionary</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSDictionary *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Dictionary</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Dictionary</string>
+		<key>Name</key>
+		<string>JSONDictionary</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSDictionary *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Dictionary</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Data</string>
+		<key>Name</key>
+		<string>Data</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSData *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Data</string>
+	</dict>
+	<dict>
+		<key>MetadataTypeName</key>
+		<string>File</string>
+		<key>Name</key>
+		<string>File</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INFile *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INFileResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INFile</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Date</string>
+		<key>Name</key>
+		<string>Date</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSDate *</string>
+		<key>Object</key>
+		<true/>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Date</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Date Components</string>
+		<key>MetadataTypeName</key>
+		<string>DateComponents</string>
+		<key>Name</key>
+		<string>DateComponents</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSDateComponents *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INDateComponentsResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>DateComponents</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Duration</string>
+		<key>MetadataTypeName</key>
+		<string>TimeInterval</string>
+		<key>Name</key>
+		<string>TimeInterval</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSNumber *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<false/>
+		<key>ResolutionResultType</key>
+		<string>INTimeIntervalResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>NSNumber</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>NSNumber</string>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Measurement</string>
+		<key>ImageName</key>
+		<string>property_Measurement</string>
+		<key>MetadataTypeName</key>
+		<string>Length</string>
+		<key>Name</key>
+		<string>Distance</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSMeasurement&lt;NSUnitLength *&gt; *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INLengthResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Measurement&lt;UnitLength&gt;</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.doubleValue &gt;= 0</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Measurement</string>
+		<key>ImageName</key>
+		<string>property_Measurement</string>
+		<key>MetadataTypeName</key>
+		<string>Temperature</string>
+		<key>Name</key>
+		<string>Temperature</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSMeasurement&lt;NSUnitTemperature *&gt; *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INTemperatureResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Measurement&lt;UnitTemperature&gt;</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.doubleValue &gt;= 0</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Measurement</string>
+		<key>ImageName</key>
+		<string>property_Measurement</string>
+		<key>MetadataTypeName</key>
+		<string>Mass</string>
+		<key>Name</key>
+		<string>Mass</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSMeasurement&lt;NSUnitMass *&gt; *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INMassResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Measurement&lt;UnitMass&gt;</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.doubleValue &gt;= 0</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Measurement</string>
+		<key>ImageName</key>
+		<string>property_Measurement</string>
+		<key>MetadataTypeName</key>
+		<string>Volume</string>
+		<key>Name</key>
+		<string>Volume</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSMeasurement&lt;NSUnitVolume *&gt; *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INVolumeResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Measurement&lt;UnitVolume&gt;</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.doubleValue &gt;= 0</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Measurement</string>
+		<key>ImageName</key>
+		<string>property_Measurement</string>
+		<key>MetadataTypeName</key>
+		<string>Speed</string>
+		<key>Name</key>
+		<string>Speed</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSMeasurement&lt;NSUnitSpeed *&gt; *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INSpeedResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Measurement&lt;UnitSpeed&gt;</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.doubleValue &gt;= 0</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Group</key>
+		<string>Measurement</string>
+		<key>ImageName</key>
+		<string>property_Measurement</string>
+		<key>MetadataTypeName</key>
+		<string>Energy</string>
+		<key>Name</key>
+		<string>Energy</string>
+		<key>ObjCAPIAvailability</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0))</string>
+		<key>ObjCAPIAvailabilityInternal</key>
+		<string>API_AVAILABLE(ios(13.0), watchos(6.0), macosx(10.15))</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSMeasurement&lt;NSUnitEnergy *&gt; *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INEnergyResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftAPIAvailability</key>
+		<string>@available(iOS 13.0, watchOS 6.0, *)</string>
+		<key>SwiftAPIAvailabilityInternal</key>
+		<string>@available(iOS 13.0, watchOS 6.0, macOS 10.15, *)</string>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Measurement&lt;UnitEnergy&gt;</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.doubleValue &gt;= 0</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Decimal Number</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Decimal</string>
+		<key>Name</key>
+		<string>DecimalNumber</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>strong, nullable</string>
+		<key>ObjCType</key>
+		<string>NSDecimalNumber *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>Decimal</string>
+	</dict>
+	<dict>
+		<key>MetadataTypeName</key>
+		<string>URL</string>
+		<key>Name</key>
+		<string>URL</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSURL *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INURLResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>URL</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>UUID</string>
+		<key>Name</key>
+		<string>UUID</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>NSUUID *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>UUID</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>User Activity</string>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>UserActivity</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>strong, nullable</string>
+		<key>ObjCType</key>
+		<string>NSUserActivity *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<false/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>UserActivity</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>Range</string>
+		<key>ObjCCollectionPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCCollectionType</key>
+		<string>NSValue *</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>assign</string>
+		<key>ObjCType</key>
+		<string>NSRange</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>NSValue *</string>
+		<key>SwiftOptional</key>
+		<false/>
+		<key>SwiftType</key>
+		<string>Range</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>IDEIntentBuilderPropertySeparator</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Location</string>
+		<key>MetadataTypeName</key>
+		<string>Placemark</string>
+		<key>Name</key>
+		<string>Placemark</string>
+		<key>ObjCImport</key>
+		<string>&lt;CoreLocation/CoreLocation.h&gt;</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>CLPlacemark *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INPlacemarkResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftImport</key>
+		<string>CoreLocation</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>CLPlacemark</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Location (CLLocation)</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Location</string>
+		<key>Name</key>
+		<string>Location</string>
+		<key>ObjCImport</key>
+		<string>&lt;CoreLocation/CoreLocation.h&gt;</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>CLLocation *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftImport</key>
+		<string>CoreLocation</string>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>CLLocation</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>IDEIntentBuilderPropertySeparator</string>
+	</dict>
+	<dict>
+		<key>MetadataTypeName</key>
+		<string>Person</string>
+		<key>Name</key>
+		<string>Person</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INPerson *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INPersonResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INPerson</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Speakable String</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>String</string>
+		<key>Name</key>
+		<string>SpeakableString</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INSpeakableString *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INSpeakableStringResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INSpeakableString</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Date Components Range</string>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>DateComponentsRange</string>
+		<key>Name</key>
+		<string>DateComponentsRange</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INDateComponentsRange *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INDateComponentsRangeResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INDateComponentsRange</string>
+	</dict>
+	<dict>
+		<key>Hidden</key>
+		<true/>
+		<key>MetadataTypeName</key>
+		<string>Image</string>
+		<key>Name</key>
+		<string>Image</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INImage *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INImage</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Conditional Operator</string>
+		<key>Hidden</key>
+		<true/>
+		<key>Name</key>
+		<string>ConditionalOperator</string>
+		<key>ObjCCollectionPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCCollectionType</key>
+		<string>NSNumber *</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>assign</string>
+		<key>ObjCType</key>
+		<string>INConditionalOperator</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftCollectionType</key>
+		<string>NSNumber *</string>
+		<key>SwiftDefaultValue</key>
+		<string>0</string>
+		<key>SwiftOptional</key>
+		<false/>
+		<key>SwiftType</key>
+		<string>INConditionalOperator</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Currency Amount</string>
+		<key>MetadataTypeName</key>
+		<string>CurrencyAmount</string>
+		<key>Name</key>
+		<string>CurrencyAmount</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INCurrencyAmount *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INCurrencyAmountResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INCurrencyAmount</string>
+		<key>UnsupportedReasons</key>
+		<array>
+			<dict>
+				<key>Code</key>
+				<string>negativeNumbersNotSupported</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be negative.</string>
+				<key>Predicate</key>
+				<string>metadata.supportsNegativeNumbers == YES OR %@.amount.doubleValue &gt;= 0</string>
+			</dict>
+			<dict>
+				<key>Code</key>
+				<string>greaterThanMaximumValue</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be higher than ${maximumValue}.</string>
+				<key>Predicate</key>
+				<string>metadata.maximumValue == nil OR %@.amount.doubleValue &lt;= metadata.maximumValue</string>
+				<key>PredicateKeyPath</key>
+				<string></string>
+				<key>Tokens</key>
+				<array>
+					<string>maximumValue</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Code</key>
+				<string>lessThanMinimumValue</string>
+				<key>FormatString</key>
+				<string>${displayName} can’t be lower than ${minimumValue}.</string>
+				<key>Predicate</key>
+				<string>metadata.minimumValue == nil OR %@.amount.doubleValue &gt;= metadata.minimumValue</string>
+				<key>Tokens</key>
+				<array>
+					<string>minimumValue</string>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Payment Method</string>
+		<key>MetadataTypeName</key>
+		<string>PaymentMethod</string>
+		<key>Name</key>
+		<string>PaymentMethod</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INPaymentMethod *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>RequiresDynamicEnumeration</key>
+		<true/>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INPaymentMethodResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INPaymentMethod</string>
+	</dict>
+	<dict>
+		<key>DisplayName</key>
+		<string>Custom</string>
+		<key>ImageName</key>
+		<string>type</string>
+		<key>MetadataTypeName</key>
+		<string>Object</string>
+		<key>Name</key>
+		<string>Object</string>
+		<key>ObjCPropertyAttributes</key>
+		<string>copy, nullable</string>
+		<key>ObjCType</key>
+		<string>INObject *</string>
+		<key>PromptDialogTokens</key>
+		<array>
+			<string>displayName</string>
+		</array>
+		<key>ResolutionResultSupportsConfirmation</key>
+		<true/>
+		<key>ResolutionResultSupportsDisambiguation</key>
+		<true/>
+		<key>ResolutionResultType</key>
+		<string>INObjectResolutionResult</string>
+		<key>SupportsDynamicEnumeration</key>
+		<true/>
+		<key>SupportsMultipleValues</key>
+		<true/>
+		<key>SwiftCollectionOptional</key>
+		<true/>
+		<key>SwiftOptional</key>
+		<true/>
+		<key>SwiftType</key>
+		<string>INObject</string>
+	</dict>
+</array>
+</plist>

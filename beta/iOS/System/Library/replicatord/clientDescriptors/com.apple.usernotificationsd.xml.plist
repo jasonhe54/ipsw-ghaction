@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entitlement</key>
+	<string>com.apple.UserNotifications.RemoteNotifications.Replicator</string>
+	<key>id</key>
+	<string>com.apple.UserNotifications.RemoteNotifications</string>
+	<key>messageDescriptors</key>
+	<dict/>
+	<key>messageNotificationName</key>
+	<string>com.apple.UserNotifications.RemoteNotifications.Replicator.message</string>
+	<key>recordNotificationName</key>
+	<string>com.apple.UserNotifications.RemoteNotifications.Replicator.record</string>
+	<key>zoneDescriptors</key>
+	<dict>
+		<key>sender_sources</key>
+		<dict>
+			<key>compressFiles</key>
+			<false/>
+			<key>id</key>
+			<string>sender_sources</string>
+			<key>protocolVersion</key>
+			<dict>
+				<key>current</key>
+				<integer>1</integer>
+				<key>minimum</key>
+				<integer>1</integer>
+			</dict>
+			<key>publicationMethod</key>
+			<integer>1</integer>
+			<key>replicationPriority</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

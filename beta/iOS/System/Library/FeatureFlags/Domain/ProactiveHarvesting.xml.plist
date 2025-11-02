@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CatchUp</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>DisclosureRequired</key>
+		<string>962bbdc2-15fe-b429-6de4-344847c93104</string>
+	</dict>
+	<key>FetchMailThreadMessagesFromSource</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>PrecomputeSmartReplies</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>DisclosureRequired</key>
+		<string>ff7b5dcd-7912-95de-a1cd-7d8c226da489</string>
+	</dict>
+	<key>PrecomputeSmartRepliesMail</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>DisclosureRequired</key>
+		<string>ff7b5dcd-7912-95de-a1cd-7d8c226da489</string>
+	</dict>
+	<key>QuotedRegions</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>UrgentNotificationsMaxCount</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+</dict>
+</plist>

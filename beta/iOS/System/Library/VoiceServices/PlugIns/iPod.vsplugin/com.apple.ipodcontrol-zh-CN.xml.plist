@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>听 歌</string>
+				<string>听 音乐</string>
+				<string>播放 歌曲</string>
+				<string>播放</string>
+				<string>播放 音乐</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>暂停</string>
+				<string>暂停 音乐</string>
+				<string>暂停 播放</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>播放</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>下 一首</string>
+				<string>后 一首</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>上 一首</string>
+				<string>前 一首</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>随机 播放</string>
+				<string>任意 顺序 播放</string>
+				<string>打乱 顺序 播放</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>音轨</string>
+				<string>歌曲</string>
+				<string>乐曲</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>播放 列表</string>
+				<string>播放 清单</string>
+				<string>歌曲 列表</string>
+				<string>歌单</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>表演者</string>
+				<string>歌手</string>
+				<string>组合</string>
+				<string>乐队</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>专辑</string>
+				<string>唱片</string>
+				<string>歌集</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>播放 类似 歌曲</string>
+				<string>播放 这 类 歌曲</string>
+				<string>播放 同类 歌曲</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>这 是 什么 歌</string>
+				<string>歌 名 是 什么</string>
+				<string>歌曲 名称 是 什么</string>
+				<string>这 首 歌 叫 什么</string>
+				<string>这 首 歌 是 谁 唱 的</string>
+				<string>播放 的 是 什么 歌</string>
+				<string>现在 播放 的 是 什么</string>
+				<string>这 是 谁 的 歌</string>
+				<string>谁 唱 的</string>
+				<string>谁 演奏 的</string>
+				<string>歌手 是 谁</string>
+				<string>哪个 组合 的</string>
+				<string>哪个 乐队 的</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>这是什么歌？</string>
+			<string>歌名是什么？</string>
+			<string>歌曲名称是什么？</string>
+			<string>这首歌叫什么？</string>
+			<string>这首歌是谁唱的？</string>
+			<string>播放的是什么歌？</string>
+			<string>现在播放的是什么？</string>
+			<string>这是谁的歌？</string>
+			<string>谁唱的？</string>
+			<string>谁演奏的？</string>
+			<string>歌手是谁？</string>
+			<string>哪个组合的？</string>
+			<string>哪个乐队的？</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>播放类似歌曲</string>
+			<string>播放这类歌曲</string>
+			<string>播放同类歌曲</string>
+		</array>
+		<array>
+			<string>播放列表</string>
+			<string>播放歌曲列表</string>
+			<string>播放歌单</string>
+		</array>
+		<array>
+			<string>播放表演者</string>
+			<string>播放歌手</string>
+			<string>播放组合</string>
+			<string>播放乐队</string>
+			<string>听表演者</string>
+			<string>听歌手</string>
+			<string>听组合</string>
+			<string>听乐队</string>
+		</array>
+		<array>
+			<string>播放专辑</string>
+			<string>播放唱片</string>
+			<string>播放歌集</string>
+			<string>听专辑</string>
+			<string>听唱片</string>
+			<string>听歌集</string>
+		</array>
+		<array>
+			<string>随机播放</string>
+			<string>任意顺序播放</string>
+			<string>打乱顺序播放</string>
+		</array>
+		<array>
+			<string>上一首音轨</string>
+			<string>前一首音轨</string>
+			<string>上一首歌曲</string>
+			<string>前一首歌曲</string>
+		</array>
+		<array>
+			<string>下一首音轨</string>
+			<string>后一首音轨</string>
+			<string>下一首歌曲</string>
+			<string>后一首歌曲</string>
+		</array>
+		<array>
+			<string>暂停</string>
+			<string>暂停播放</string>
+			<string>暂停歌曲</string>
+			<string>暂停音乐</string>
+		</array>
+		<array>
+			<string>播放</string>
+			<string>播放音乐</string>
+			<string>播放歌曲</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

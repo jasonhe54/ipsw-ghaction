@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleHPMLib</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleHPMLib</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AppleHPMLib</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.4.4</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>3.4.4</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>70FF443E-8ACF-43AC-B793-E7911C1C0CD5</key>
+		<string>AppleHPMLibFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>12A1DCCF-CF7A-4775-BEE5-9C4319F4CD2B</key>
+		<array>
+			<string>70FF443E-8ACF-43AC-B793-E7911C1C0CD5</string>
+		</array>
+	</dict>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>23B5072a</string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B5072a</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017-2019 Apple Inc. All rights reserved.</string>
+	<key>Personality</key>
+	<dict>
+		<key>IOProviderClass</key>
+		<string>AppleHPM</string>
+	</dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

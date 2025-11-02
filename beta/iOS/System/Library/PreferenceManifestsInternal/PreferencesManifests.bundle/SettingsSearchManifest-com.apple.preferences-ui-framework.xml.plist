@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>AIRPLANE_MODE_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>AIRPLANE_MODE_KEYWORDS</string>
+			<key>label</key>
+			<string>AIRPLANE_MODE</string>
+			<key>searchSectionID</key>
+			<string>AIRPLANE_MODE</string>
+			<key>searchURL</key>
+			<string>prefs:root=ROOT#AIRPLANE_MODE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

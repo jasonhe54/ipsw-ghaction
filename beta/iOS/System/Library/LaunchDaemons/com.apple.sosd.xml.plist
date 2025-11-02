@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/mobile/Library/SOS/KeepAlive</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.sosd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>Interactive</key>
+		<true/>
+		<key>com.apple.SafetyKit</key>
+		<true/>
+		<key>com.apple.sos</key>
+		<true/>
+		<key>com.apple.sos.status</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.sosd.usernotification</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/SOS.framework/sosd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>_Conclave</key>
+	<string>com.apple.sosd.conclave</string>
+</dict>
+</plist>

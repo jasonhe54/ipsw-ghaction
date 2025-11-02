@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>APP_STORE_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>APP_STORE_KEYWORDS</string>
+			<key>label</key>
+			<string>APP_STORE</string>
+			<key>searchSectionID</key>
+			<string>com.apple.BridgeAppStoreDaemonSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.BridgeAppStoreDaemonSettings</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>AUTOMATIC_DOWNLOADS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>AUTOMATIC_DOWNLOADS_KEYWORDS</string>
+			<key>label</key>
+			<string>AUTOMATIC_DOWNLOADS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.BridgeAppStoreDaemonSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.BridgeAppStoreDaemonSettings#automaticDownloadSpecifier</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>AUTOMATIC_UPDATES_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>AUTOMATIC_UPDATES_KEYWORDS</string>
+			<key>label</key>
+			<string>AUTOMATIC_UPDATES</string>
+			<key>searchSectionID</key>
+			<string>com.apple.BridgeAppStoreDaemonSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.BridgeAppStoreDaemonSettings#Automatic%20Updates</string>
+		</dict>
+	</array>
+</dict>
+</plist>

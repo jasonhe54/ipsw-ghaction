@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Enable-Fault-Crashlogs</key>
+		<string>Once</string>
+	</dict>
+	<key>DeleteAll</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<true/>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>System</string>
+	</dict>
+	<key>PhotosNilCS</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<true/>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>System</string>
+	</dict>
+	<key>PhotosQueryUnderstanding</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<false/>
+		<key>Signpost-Persisted</key>
+		<false/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>SpotlightDaemonClient</key>
+	<dict>
+		<key>Signpost-Enabled</key>
+		<true/>
+		<key>Signpost-Persisted</key>
+		<false/>
+		<key>Signpost-Scope</key>
+		<string>System</string>
+	</dict>
+</dict>
+</plist>

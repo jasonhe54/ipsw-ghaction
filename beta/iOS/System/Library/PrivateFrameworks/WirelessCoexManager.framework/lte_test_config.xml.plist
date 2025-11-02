@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kMessageArgs</key>
+	<dict>
+		<key>kWCMCellularNetworkConfiguration_DLBandInfo_BandWidth</key>
+		<integer>20</integer>
+		<key>kWCMCellularNetworkConfiguration_DLBandInfo_CenterFreq</key>
+		<integer>2521</integer>
+		<key>kWCMCellularNetworkConfiguration_LTEBandInformationSet</key>
+		<array>
+			<dict>
+				<key>kWCMCellularNetworkConfiguration_BandInfoSet_Bandwidth</key>
+				<integer>20000000</integer>
+				<key>kWCMCellularNetworkConfiguration_BandInfoSet_CenterFreq</key>
+				<integer>2521020</integer>
+				<key>kWCMCellularNetworkConfiguration_BandInfoSet_DirectionMask</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>kWCMCellularNetworkConfiguration_BandInfoSet_Bandwidth</key>
+				<integer>20000000</integer>
+				<key>kWCMCellularNetworkConfiguration_BandInfoSet_CenterFreq</key>
+				<integer>2521020</integer>
+				<key>kWCMCellularNetworkConfiguration_BandInfoSet_DirectionMask</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>kWCMCellularNetworkConfiguration_LTECarrierInformationSet</key>
+		<array>
+			<string>0</string>
+			<integer>0</integer>
+		</array>
+		<key>kWCMCellularNetworkConfiguration_ULBandInfo_BandWidth</key>
+		<integer>20</integer>
+		<key>kWCMCellularNetworkConfiguration_ULBandInfo_CenterFreq</key>
+		<integer>2521</integer>
+	</dict>
+	<key>kMessageId</key>
+	<integer>2600</integer>
+	<key>kSubId</key>
+	<integer>0</integer>
+</dict>
+</plist>

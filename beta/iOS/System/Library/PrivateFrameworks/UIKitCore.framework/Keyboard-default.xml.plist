@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-!</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>¡ !</string>
+		<key>Strings</key>
+		<string>¡ !</string>
+	</dict>
+	<key>Roman-Accent-"</key>
+	<dict>
+		<key>Direction</key>
+		<string>strictly-left</string>
+		<key>Keycaps</key>
+		<string>” “ „ » « "</string>
+		<key>Strings</key>
+		<string>” “ „ » « "</string>
+	</dict>
+	<key>Roman-Accent-%</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>‰ %</string>
+		<key>Strings</key>
+		<string>‰ %</string>
+	</dict>
+	<key>Roman-Accent-&amp;</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>§ &amp;</string>
+		<key>Strings</key>
+		<string>§ &amp;</string>
+	</dict>
+	<key>Roman-Accent-'</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>’ ‘ ` '</string>
+		<key>Strings</key>
+		<string>’ ‘ ` '</string>
+	</dict>
+	<key>Roman-Accent-'"</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>"</string>
+		<key>Strings</key>
+		<string>"</string>
+	</dict>
+	<key>Roman-Accent-,!</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>'</string>
+		<key>Strings</key>
+		<string>'</string>
+	</dict>
+	<key>Roman-Accent-,&lt;</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>&lt;</string>
+		<key>Strings</key>
+		<string>&lt;</string>
+	</dict>
+	<key>Roman-Accent--</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>– — • -</string>
+		<key>Strings</key>
+		<string>– — • -</string>
+	</dict>
+	<key>Roman-Accent--_</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>_</string>
+		<key>Strings</key>
+		<string>_</string>
+	</dict>
+	<key>Roman-Accent-.</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>… .</string>
+		<key>Strings</key>
+		<string>… .</string>
+	</dict>
+	<key>Roman-Accent-.&gt;</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>&gt;</string>
+		<key>Strings</key>
+		<string>&gt;</string>
+	</dict>
+	<key>Roman-Accent-.?</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>"</string>
+		<key>Strings</key>
+		<string>"</string>
+	</dict>
+	<key>Roman-Accent-/</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>\ /</string>
+		<key>Strings</key>
+		<string>\ /</string>
+	</dict>
+	<key>Roman-Accent-/?</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>?</string>
+		<key>Strings</key>
+		<string>?</string>
+	</dict>
+	<key>Roman-Accent-0</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>° 0</string>
+		<key>Strings</key>
+		<string>° 0</string>
+	</dict>
+	<key>Roman-Accent-0)</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>)</string>
+		<key>Strings</key>
+		<string>)</string>
+	</dict>
+	<key>Roman-Accent-1!</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>!</string>
+		<key>Strings</key>
+		<string>!</string>
+	</dict>
+	<key>Roman-Accent-2@</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>@</string>
+		<key>Strings</key>
+		<string>@</string>
+	</dict>
+	<key>Roman-Accent-3#</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>#</string>
+		<key>Strings</key>
+		<string>#</string>
+	</dict>
+	<key>Roman-Accent-4$</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>$</string>
+		<key>Strings</key>
+		<string>$</string>
+	</dict>
+	<key>Roman-Accent-5%</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>%</string>
+		<key>Strings</key>
+		<string>%</string>
+	</dict>
+	<key>Roman-Accent-6^</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>^</string>
+		<key>Strings</key>
+		<string>^</string>
+	</dict>
+	<key>Roman-Accent-7&amp;</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>&amp;</string>
+		<key>Strings</key>
+		<string>&amp;</string>
+	</dict>
+	<key>Roman-Accent-8*</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>*</string>
+		<key>Strings</key>
+		<string>*</string>
+	</dict>
+	<key>Roman-Accent-9(</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>(</string>
+		<key>Strings</key>
+		<string>(</string>
+	</dict>
+	<key>Roman-Accent-;:</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>:</string>
+		<key>Strings</key>
+		<string>:</string>
+	</dict>
+	<key>Roman-Accent-=+</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>+</string>
+		<key>Strings</key>
+		<string>+</string>
+	</dict>
+	<key>Roman-Accent-?</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>¿ ?</string>
+		<key>Strings</key>
+		<string>¿ ?</string>
+	</dict>
+	<key>Roman-Accent-[{</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>{</string>
+		<key>Strings</key>
+		<string>{</string>
+	</dict>
+	<key>Roman-Accent-\|</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>|</string>
+		<key>Strings</key>
+		<string>|</string>
+	</dict>
+	<key>Roman-Accent-]}</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>}</string>
+		<key>Strings</key>
+		<string>}</string>
+	</dict>
+	<key>Roman-Accent-«</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>" “ „ ' «</string>
+		<key>Strings</key>
+		<string>" “ „ ' «</string>
+	</dict>
+	<key>Roman-Accent-»</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>" ” ' »</string>
+		<key>Strings</key>
+		<string>" ” ' »</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateTagSymbol</key>
+	<string>#</string>
+	<key>UI-Cancel</key>
+	<string>Cancel</string>
+	<key>UI-Caps-Lock</key>
+	<string>caps lock</string>
+	<key>UI-Clear</key>
+	<string>Clear</string>
+	<key>UI-Confirm</key>
+	<string>confirm</string>
+	<key>UI-Copy</key>
+	<string>copy</string>
+	<key>UI-Currency-$</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>$ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>$ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-kr</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>kr € $ £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>kr € $ £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-£</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>£ € $ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>£ € $ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-¥</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>¥ $ € £ ₩ ₽ ￥ ＄</string>
+		<key>Strings</key>
+		<string>¥ $ € £ ₩ ₽ ￥ ＄</string>
+	</dict>
+	<key>UI-Currency-฿</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>฿ $ € £ ¥ ₽</string>
+		<key>Strings</key>
+		<string>฿ $ € £ ¥ ₽</string>
+	</dict>
+	<key>UI-Currency-₩</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₩ $ € ¥ £ ₽</string>
+		<key>Strings</key>
+		<string>₩ $ € ¥ £ ₽</string>
+	</dict>
+	<key>UI-Currency-€</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>€ $ £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>€ $ £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-₱</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₱ $ € £ ¥ ₽</string>
+		<key>Strings</key>
+		<string>₱ $ € £ ¥ ₽</string>
+	</dict>
+	<key>UI-Currency-₹</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₹ $ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>₹ $ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Currency-₽</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₽ $ € £ ¥ ₩</string>
+		<key>Strings</key>
+		<string>₽ $ € £ ¥ ₩</string>
+	</dict>
+	<key>UI-Currency-＄</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>＄ € £ ¥ ₩ ₽</string>
+		<key>Strings</key>
+		<string>＄ € £ ¥ ₩ ₽</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>cut</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Delete</key>
+	<string>delete</string>
+	<key>UI-Done</key>
+	<string>Done</string>
+	<key>UI-EmergencyCall</key>
+	<string>Emergency Call</string>
+	<key>UI-Go</key>
+	<string>Go</string>
+	<key>UI-Join</key>
+	<string>Join</string>
+	<key>UI-Next</key>
+	<string>Next</string>
+	<key>UI-NextPage</key>
+	<string>next page</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>ABC</string>
+	<key>UI-NumberPad-3</key>
+	<string>DEF</string>
+	<key>UI-NumberPad-4</key>
+	<string>GHI</string>
+	<key>UI-NumberPad-5</key>
+	<string>JKL</string>
+	<key>UI-NumberPad-6</key>
+	<string>MNO</string>
+	<key>UI-NumberPad-7</key>
+	<string>PQRS</string>
+	<key>UI-NumberPad-8</key>
+	<string>TUV</string>
+	<key>UI-NumberPad-9</key>
+	<string>WXYZ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>paste</string>
+	<key>UI-PrimaryTagSymbol</key>
+	<string>@</string>
+	<key>UI-Recents</key>
+	<string>Recent</string>
+	<key>UI-Redo</key>
+	<string>redo</string>
+	<key>UI-Return</key>
+	<string>return</string>
+	<key>UI-Route</key>
+	<string>Route</string>
+	<key>UI-Search</key>
+	<string>Search</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>next</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>next</string>
+	<key>UI-Select-Previous-Candidate</key>
+	<string>previous</string>
+	<key>UI-Send</key>
+	<string>Send</string>
+	<key>UI-Shift</key>
+	<string>shift</string>
+	<key>UI-Space</key>
+	<string>space</string>
+	<key>UI-Tab</key>
+	<string>tab</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .org .edu .net</string>
+		<key>Strings</key>
+		<string>.com .org .edu .net</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>undo</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

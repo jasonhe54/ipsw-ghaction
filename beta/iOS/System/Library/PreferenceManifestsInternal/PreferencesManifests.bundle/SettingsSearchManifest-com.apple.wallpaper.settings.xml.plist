@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>WALLPAPER_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>WALLPAPER_KEYWORDS</string>
+			<key>label</key>
+			<string>WALLPAPER</string>
+			<key>searchSectionID</key>
+			<string>Wallpaper</string>
+			<key>searchURL</key>
+			<string>prefs:root=Wallpaper</string>
+		</dict>
+	</array>
+	<key>specifierAttributes</key>
+	<dict>
+		<key>requiredCapabilities</key>
+		<array>
+			<dict>
+				<key>retail-kiosk-mode</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Accounts</key>
+	<dict/>
+	<key>Accounts_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>Default</key>
+	<dict/>
+	<key>Default_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>Push</key>
+	<dict/>
+	<key>Push_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>Service</key>
+	<dict/>
+	<key>Service_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>Sync</key>
+	<dict/>
+	<key>Sync_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>UPP</key>
+	<dict/>
+	<key>UPP_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+	<key>XPC</key>
+	<dict/>
+	<key>XPC_Oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

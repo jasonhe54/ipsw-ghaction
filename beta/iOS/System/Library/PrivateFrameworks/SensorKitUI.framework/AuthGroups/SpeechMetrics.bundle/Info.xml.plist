@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>SpeechMetrics</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.SensorKit.SpeechMetrics</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SpeechMetrics</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>iPhoneOS</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>iphoneos</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23B68</string>
+	<key>DTSDKName</key>
+	<string>iphoneos26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>SRAuthService</key>
+	<string>kTCCServiceSensorKitSpeechMetrics</string>
+	<key>SRCollectedData</key>
+	<array>
+		<string>COLLECTED_DATA_0</string>
+		<string>COLLECTED_DATA_1</string>
+	</array>
+	<key>SRDisplayName</key>
+	<string>Speech Metrics</string>
+	<key>SRNotCollectedData</key>
+	<array>
+		<string>NOT_COLLECTED_DATA_0</string>
+		<string>NOT_COLLECTED_DATA_1</string>
+	</array>
+	<key>SRPlatforms</key>
+	<array>
+		<string>Phone</string>
+	</array>
+	<key>SRRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_ALERT_DETAIL</string>
+	<key>SRRevokeRequiredAuthAlertDetail</key>
+	<string>REQUIRED_AUTH_REVOKE_ALERT_DETAIL</string>
+	<key>SRSampleData</key>
+	<array>
+		<dict>
+			<key>Audio Level</key>
+			<dict>
+				<key>Time Range</key>
+				<dict>
+					<key>duration</key>
+					<real>0.47999999999999998</real>
+					<key>start</key>
+					<real>17.504999999999999</real>
+				</dict>
+				<key>level</key>
+				<real>1.123456</real>
+			</dict>
+			<key>Sample Timestamp</key>
+			<real>12345.678</real>
+			<key>Session Flags</key>
+			<integer>1</integer>
+			<key>Session Identifier</key>
+			<string>42</string>
+			<key>Sound Detection</key>
+			<dict>
+				<key>Detector Identifier</key>
+				<string>SNSoundPrintALaughterModel&lt;no loc&gt;</string>
+				<key>Time Range</key>
+				<dict>
+					<key>duration</key>
+					<real>0.47999999999999998</real>
+					<key>start</key>
+					<real>17.504999999999999</real>
+				</dict>
+				<key>confidence</key>
+				<real>0.5</real>
+				<key>detected</key>
+				<true/>
+				<key>identifier</key>
+				<string>Laughing</string>
+			</dict>
+			<key>Speech Expression</key>
+			<dict>
+				<key>Time Range</key>
+				<dict>
+					<key>duration</key>
+					<real>0.47999999999999998</real>
+					<key>start</key>
+					<real>17.504999999999999</real>
+				</dict>
+				<key>arousal</key>
+				<real>0.5</real>
+				<key>confidence</key>
+				<real>0.5</real>
+				<key>dominance</key>
+				<real>0.5</real>
+				<key>mood</key>
+				<real>0.5</real>
+				<key>valence</key>
+				<real>0.5</real>
+			</dict>
+			<key>Speech Recognition</key>
+			<dict>
+				<key>Final</key>
+				<true/>
+				<key>Redacted Best Transcription</key>
+				<dict>
+					<key>Segments</key>
+					<array>
+						<dict>
+							<key>Confidence</key>
+							<real>0.55000000000000004</real>
+							<key>Duration</key>
+							<real>5.0999999999999996</real>
+							<key>Timestamp</key>
+							<real>128.19999999999999</real>
+						</dict>
+						<dict>
+							<key>Confidence</key>
+							<real>0.90000000000000002</real>
+							<key>Duration</key>
+							<real>5.0999999999999996</real>
+							<key>Timestamp</key>
+							<real>123.12</real>
+						</dict>
+					</array>
+				</dict>
+				<key>Redacted Transcriptions</key>
+				<array>
+					<dict>
+						<key>Segments</key>
+						<array>
+							<dict>
+								<key>Confidence</key>
+								<real>0.55000000000000004</real>
+								<key>Duration</key>
+								<real>5.0999999999999996</real>
+								<key>Timestamp</key>
+								<real>128.19999999999999</real>
+							</dict>
+							<dict>
+								<key>Confidence</key>
+								<real>0.90000000000000002</real>
+								<key>Duration</key>
+								<real>5.0999999999999996</real>
+								<key>Timestamp</key>
+								<real>123.12</real>
+							</dict>
+						</array>
+					</dict>
+				</array>
+				<key>Speech Recognition Metadata</key>
+				<dict>
+					<key>Average Pause Duration</key>
+					<real>1.2</real>
+					<key>Speaking Rate</key>
+					<real>2.2999999999999998</real>
+					<key>Speech Duration</key>
+					<integer>10</integer>
+					<key>Speech Start Timestamp</key>
+					<real>123.12</real>
+					<key>Voice Analytics</key>
+					<dict>
+						<key>jitter</key>
+						<dict>
+							<key>Acoustic Feature Values Per Frame</key>
+							<array>
+								<real>0.5</real>
+								<real>1.5</real>
+								<real>2</real>
+							</array>
+							<key>Frame Duration</key>
+							<real>10.6</real>
+						</dict>
+						<key>pitch</key>
+						<dict>
+							<key>Acoustic Feature Values Per Frame</key>
+							<array>
+								<real>0.5</real>
+								<real>1.5</real>
+								<real>2</real>
+							</array>
+							<key>Frame Duration</key>
+							<real>10.6</real>
+						</dict>
+						<key>shimmer</key>
+						<dict>
+							<key>Acoustic Feature Values Per Frame</key>
+							<array>
+								<real>0.5</real>
+								<real>1.5</real>
+								<real>2</real>
+							</array>
+							<key>Frame Duration</key>
+							<real>10.6</real>
+						</dict>
+						<key>voicing</key>
+						<dict>
+							<key>Acoustic Feature Values Per Frame</key>
+							<array>
+								<real>0.5</real>
+								<real>1.5</real>
+								<real>2</real>
+							</array>
+							<key>Frame Duration</key>
+							<real>10.6</real>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Time Since Audio Start</key>
+			<real>10.12345</real>
+		</dict>
+	</array>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64e</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>computeCustomTimeRange</key>
+		<false/>
+	</dict>
+	<key>fr</key>
+	<dict>
+		<key>computeCustomTimeRange</key>
+		<false/>
+	</dict>
+	<key>safeguardingQuotedRegionsRegex</key>
+	<string>(Start på videresendt besked:|Begin forwarded message:|---------- Forwarded message ----------|Begin doorgestuurd bericht:|Début du message réexpédié:|Anfang der weitergeleiteten E-Mail:|Inizio messaggio inoltrato:|Начало переадресованного сообщения:|Inicio del mensaje reenviado:|-----Original Message-----|----- Original Message ----|------Original Message------|----- Original Message -----|---------- 転送メッセージ ----------|下面是被转发的邮件：|開始轉寄郵件：|以下是转发的邮件：|Début du message transféré:|Anfang der weitergeleiteten E‑Mail:|----- Messaggio originale -----|----- Ursprüngliche Mail ----|----- Message d.origine ----|بدايةالرسالةالمحوّلة:|________________________________________|________________________________|-----Oprindelig meddelelse-----|-----Oorspronkelijk bericht-----|Début du message transféré :|-----Ursprüngliche Nachricht-----|-----Исходное сообщение-----|-----Mensaje original-----|----- Original meddelelse -----|---------- Forwarded message ----------‎|-----الرسالة الأصلية-----|-----Messaggio originale-----|-----Message d.origine-----|תחילת ההודעה שהועברה:|بداية الرسالة المحوّلة:|Välitetty viesti alkaa:|전달된 메시지 시작:|Videresendt melding:|Początek przekazywanej wiadomości:|Início da mensagem encaminhada:|Início da mensagem reenviada:|Vidarebefordrat brev:|Den .{0,100} skrev .{0,100}|Op .{0,100} om .{0,100} heeft .{0,100} het volgende geschreven|On .{0,100} wrote|--- On .{0,100} wrote|Le .{0,100} a écrit|Am .{0,100} schrieb .{0,100}|Il giorno .{0,100} ha scritto|.{0,100} в .{0,100} написал(а)|El .{0,100} escribió|在 .{0,100} 写道|.{0,100} 於 .{0,100} 寫道|في .{0,100} الساعة .{0,100} كتب .{0,100}|在 佛历.{0,100} 写道|.{0,100}בפבר.{0,100}כתב/ה|.{0,100} kirjoitti .{0,100} kello .{0,100}|.{0,100} 작성|Wiadomość napisana przez .{0,100} w dniu .{0,100}, o godz. .{0,100}|Em .{0,100} escreveu|A .{0,100} escreveu|.{0,100} kl. .{0,100} skrev .{0,100})</string>
+</dict>
+</plist>

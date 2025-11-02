@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Singapore</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Number</key>
+				<string>999</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>2</integer>
+				<key>Number</key>
+				<string>995</string>
+				<key>SupportsEmergencySetup</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Voice</key>
+		<dict>
+			<key>EnableVolteByDefault</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>sg</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>525</string>
+		<string>com.apple.Singapore</string>
+	</array>
+</dict>
+</plist>

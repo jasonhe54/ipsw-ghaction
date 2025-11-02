@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CPMSPowerBudgetPeriodms</key>
+	<integer>5000</integer>
+	<key>CPMSPowerTimeScale1s</key>
+	<dict>
+		<key>Idle</key>
+		<integer>3400</integer>
+		<key>Max</key>
+		<integer>3400</integer>
+		<key>Min</key>
+		<integer>200</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>bo</key>
+		<array>
+			<string>bo</string>
+			<string>en_US</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>bo</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Tibetan-QWERTY</string>
+				<string>Tibetan-Wylie</string>
+				<string>TibetanOtaniUS</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Tibetan</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardDefaultLayoutIsSecure</key>
+			<false/>
+			<key>UIKeyboardDoubleSpaceForQuestionReplacement</key>
+			<string>  </string>
+			<key>UIKeyboardDoubleSpaceReplacement</key>
+			<string>  </string>
+			<key>UIKeyboardFeatureSpecializationClass</key>
+			<string>TIKeyboardFeatureSpecialization_bo</string>
+			<key>UIKeyboardNonstopPunctuationCharacters</key>
+			<string></string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>backingStore</string>
+	<string>protoData</string>
+	<string>utteranceString</string>
+	<string>launchId</string>
+	<string>identifier</string>
+	<string>intentId</string>
+	<string>extensionBundleId</string>
+	<string>triggerMethod</string>
+	<string>typeName</string>
+	<string>intentDescription</string>
+	<string>suggestedInvocationPhrase</string>
+	<string>shortcutAvailability</string>
+	<string>displayName</string>
+	<string>minimumValue</string>
+	<string>maximumValue</string>
+	<string>count</string>
+	<string>self</string>
+</array>
+</plist>

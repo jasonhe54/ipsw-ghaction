@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AssetSetName</key>
+	<string>com.apple.TKModelMessages</string>
+	<key>Assets</key>
+	<array>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.trustkit.tkmodelmessages</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.trustkit.tkmodelmessages.all</string>
+					<key>RequiredUsageTypes</key>
+					<array/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>AutoAssetType</key>
+	<string>com.apple.MobileAsset.UAF.TKModelMessages</string>
+	<key>EnableCellular</key>
+	<true/>
+	<key>FileType</key>
+	<string>AssetSetConfiguration</string>
+	<key>FileVersion</key>
+	<string>1.0.0</string>
+	<key>UsageTypes</key>
+	<array/>
+</dict>
+</plist>

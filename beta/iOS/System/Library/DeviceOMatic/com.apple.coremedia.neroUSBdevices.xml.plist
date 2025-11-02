@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>USBVideoDevice1</key>
+		<dict>
+			<key>IOProbeScore</key>
+			<integer>32767</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>4737</integer>
+			<key>idVendor</key>
+			<integer>1452</integer>
+		</dict>
+		<key>USBVideoDevice2</key>
+		<dict>
+			<key>IOProbeScore</key>
+			<integer>32767</integer>
+			<key>IOProviderClass</key>
+			<string>IOUSBHostDevice</string>
+			<key>idProduct</key>
+			<integer>4647</integer>
+			<key>idVendor</key>
+			<integer>1452</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

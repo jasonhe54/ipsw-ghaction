@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.LinguisticData.RequiredAssets_sl</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>483.10</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>AssetLocale</key>
+		<string>sl</string>
+		<key>Contents</key>
+		<array/>
+		<key>FormatVersion</key>
+		<integer>1</integer>
+		<key>Language</key>
+		<string>sl</string>
+		<key>LinguisticAssetType</key>
+		<string>Required</string>
+		<key>_CompatibilityVersion</key>
+		<integer>17</integer>
+		<key>_ContentVersion</key>
+		<integer>1</integer>
+		<key>__InstallWithOS</key>
+		<integer>1</integer>
+		<key>__RequiredByOS</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

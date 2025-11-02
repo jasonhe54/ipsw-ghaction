@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.findmy.findmybeaconingd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict/>
+		<key>com.apple.xpc.activity</key>
+		<dict/>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.findmy.LocalBeaconing</key>
+		<true/>
+		<key>com.apple.findmy.findmybeaconingd.push</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/findmybeaconingd</string>
+	<key>Umask</key>
+	<integer>23</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

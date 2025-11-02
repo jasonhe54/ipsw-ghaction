@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Jamaica</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>911</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>119</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Media</key>
+		<dict>
+			<key>RingbackTone</key>
+			<string>ANSI</string>
+		</dict>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>jm</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>338</string>
+		<string>com.apple.Jamaica</string>
+	</array>
+</dict>
+</plist>

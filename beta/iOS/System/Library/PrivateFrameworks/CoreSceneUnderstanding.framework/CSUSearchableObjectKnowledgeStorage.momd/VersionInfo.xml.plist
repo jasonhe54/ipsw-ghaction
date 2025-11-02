@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>SearchableObjectKnowledgeStorageV3</string>
+	<key>NSManagedObjectModel_VersionChecksums</key>
+	<dict>
+		<key>SearchableObjectKnowledgeStorage</key>
+		<string>7kWoI8APOu36jFK4gKPhEdbILxVDmo6Yb6qa8zlPrKY=</string>
+		<key>SearchableObjectKnowledgeStorageV2</key>
+		<string>VX4iKYCrC9AaT9mqFWrJtxWOeyNbLCtFLbw/EdVLbIw=</string>
+		<key>SearchableObjectKnowledgeStorageV3</key>
+		<string>Q7zMpGgVvSF0TVs+W3BQX7NlBlbUJLcSjDM6ccmU57o=</string>
+	</dict>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>SearchableObjectKnowledgeStorage</key>
+		<dict>
+			<key>CSUSearchableKnowledgeDBObject</key>
+			<data>
+			8wRDHJJ+D4rnBqOig66nBgn9vEzOGjHdZb7gtbK3LjQ=
+			</data>
+		</dict>
+		<key>SearchableObjectKnowledgeStorageV2</key>
+		<dict>
+			<key>CSUSearchableKnowledgeDBObject</key>
+			<data>
+			6lKYiQ6bpCO3r4WKgYzcQ2Ni7MEjfugstQahFEb9XUk=
+			</data>
+		</dict>
+		<key>SearchableObjectKnowledgeStorageV3</key>
+		<dict>
+			<key>CSUSearchableKnowledgeDBObject</key>
+			<data>
+			rKlQlS6kVtKSHPVQvll0I1SOmskl7i4in5hJnMx2aac=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

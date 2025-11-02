@@ -1,0 +1,195 @@
+"" = "";
+"This security response cannot be installed while connected to Apple CarPlay." = "This security response cannot be installed while connected to Apple CarPlay.";
+"If you download the security response over your cellular network, additional usage fees will apply." = "If you download the security response over your cellular network, additional usage fees will apply.";
+"When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch Wi-Fi networks to proceed with the update." = "When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch Wi-Fi networks to proceed with the update.";
+"An error occurred while checking for a software update.
+
+[Internal Only]
+Verify that you are connected to the Internal Network; trigger VPN manually if applicable." = "An error occurred while checking for a software update.
+
+[Internal Only]
+Verify that you are connected to the Internal Network; trigger VPN manually if applicable.";
+"Downloading" = "Downloading";
+"Disagree" = "Disagree";
+"I agree to the Terms and Conditions" = "I agree to the Terms and Conditions";
+"This update is not available because you are not connected to the internet." = "This update is not available because you are not connected to the internet.";
+"%@ will be installed when ProductFamilyName is locked and has enough battery to update." = "{'NSStringDeviceSpecificRuleType': {'ipod': '%@ will be installed when iPod is locked and has enough battery to update.', 'other': '%@ will be installed when ProductFamilyName is locked and has enough battery to update.', 'ipad': '%@ will be installed when iPad is locked and has enough battery to update.', 'applevision': '%@ will be installed when Apple Vision Pro is locked and has enough battery to update.', 'iphone': '%@ will be installed when iPhone is locked and has enough battery to update.', 'applewatch': '%@ will be installed when Apple Watch is locked and has enough battery to update.'}}";
+"Available Update" = "Available Update";
+"I agree to the %@, %@, and %@ Terms and Conditions and the Apple Privacy Policy" = "I agree to the %1$@, %2$@, and %3$@ Terms and Conditions and the Apple Privacy Policy";
+"Update Requested…" = "Update Requested…";
+"Installing…" = "Installing…";
+"INTERNAL ONLY: Device needs to be rooted from snapshot to update.
+As root user, run “snapshottool golive 0” then “reboot”.
+You’ll be able to update once the device boots back." = "INTERNAL ONLY: Device needs to be rooted from snapshot to update.
+As root user, run “snapshottool golive 0” then “reboot”.
+You’ll be able to update once the device boots back.";
+"Terms and Conditions" = "Terms and Conditions";
+"OSName %@ (%@)" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iOS %1$@ (%2$@)', 'other': 'OSName %1$@ (%2$@)', 'ipad': 'iPadOS %1$@ (%2$@)', 'applevision': 'visionOS %1$@ (%2$@)', 'iphone': 'iOS %1$@ (%2$@)', 'applewatch': 'watchOS %1$@ (%2$@)'}}";
+"Upgrade to OSName %@" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Upgrade to iOS %@', 'other': 'Upgrade to OSName %@', 'ipad': 'Upgrade to iPadOS %@', 'applevision': 'Upgrade to visionOS %@', 'iphone': 'Upgrade to iOS %@', 'applewatch': 'Upgrade to watchOS %@'}}";
+"Update Now" = "Update Now";
+"Failed to load terms and conditions" = "Failed to load terms and conditions";
+"This security response requires at least %@ battery while wirelessly charging." = "This security response requires at least %@ battery while wirelessly charging.";
+"Your ProductFamilyName is running the latest software update allowed by your administrator." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Your iPod is running the latest software update allowed by your administrator.', 'other': 'Your ProductFamilyName is running the latest software update allowed by your administrator.', 'ipad': 'Your iPad is running the latest software update allowed by your administrator.', 'applevision': 'Your Apple Vision Pro is running the latest software update allowed by your administrator.', 'iphone': 'Your iPhone is running the latest software update allowed by your administrator.', 'applewatch': 'Your Apple Watch is running the latest software update allowed by your administrator.'}}";
+"I agree to the %@ and %@ Terms and Conditions" = "I agree to the %1$@ and %2$@ Terms and Conditions";
+"This update requires a Wi-Fi network connection to download." = "This update requires a Wi-Fi network connection to download.";
+"The download will automatically resume when ProductFamilyName reconnects to the internet." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'The download will automatically resume when iPod reconnects to the internet.', 'other': 'The download will automatically resume when ProductFamilyName reconnects to the internet.', 'ipad': 'The download will automatically resume when iPad reconnects to the internet.', 'applevision': 'The download will automatically resume when Apple Vision Pro reconnects to the internet.', 'iphone': 'The download will automatically resume when iPhone reconnects to the internet.', 'applewatch': 'The download will automatically resume when Apple Watch reconnects to the internet.'}}";
+"Paused" = "Paused";
+"This security response cannot be installed while data is syncing." = "This security response cannot be installed while data is syncing.";
+"About this update" = "About this update";
+"The download was paused because you are roaming and data roaming is turned off. The download will resume when you are no longer roaming, or if you connect to Wi-Fi network." = "The download was paused because you are roaming and data roaming is turned off. The download will resume when you are no longer roaming, or if you connect to Wi-Fi network.";
+"This update cannot be installed while restoring from a backup." = "This update cannot be installed while restoring from a backup.";
+"If you select Install Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.
+
+%@" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'If you select Install Tonight, iPod will try to update when the device is locked and the battery has enough charge.\n\n%@', 'other': 'If you select Install Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.\n\n%@', 'ipad': 'If you select Install Tonight, iPad will try to update when the device is locked and the battery has enough charge.\n\n%@', 'applevision': 'If you select Install Tonight, Apple Vision Pro will try to update when the device is locked and the battery has enough charge.\n\n%@', 'iphone': 'If you select Install Tonight, iPhone will try to update when the device is locked and the battery has enough charge.\n\n%@', 'applewatch': 'If you select Install Tonight, Apple Watch will try to update when the device is locked and the battery has enough charge.\n\n%@'}}";
+"Cancel Auto Install" = "Cancel Auto Install";
+"This security response requires at least %@ battery while connected to a power source, and %@ of available storage during installation." = "This security response requires at least %1$@ battery while connected to a power source, and %2$@ of available storage during installation.";
+"Update image" = "Update image";
+"Preparing Security Response…" = "Preparing Security Response…";
+"Update Tonight" = "Update Tonight";
+"This security response requires a Wi-Fi, 3G, or faster network connection to download." = "This security response requires a Wi-Fi, 3G, or faster network connection to download.";
+"This update cannot be installed while data is syncing." = "This update cannot be installed while data is syncing.";
+"This update requires a Wi-Fi, 3G, or faster network connection to download." = "This update requires a Wi-Fi, 3G, or faster network connection to download.";
+"Security Response Requested…" = "Security Response Requested…";
+"[Internal Only] An unresolvable error has occurred, please file a radar.
+Error: %@" = "[Internal Only] An unresolvable error has occurred, please file a radar.
+Error: %@";
+"An update has already started downloading. Configuring beta updates will delete the existing update." = "An update has already started downloading. Configuring beta updates will delete the existing update.";
+"This update cannot be installed while Continuity Camera is in use" = "This update cannot be installed while Continuity Camera is in use";
+"This update requires at least %@ battery, and %@ of available storage during installation." = "This update requires at least %1$@ battery, and %2$@ of available storage during installation.";
+"You can install this update when your ProductFamilyName is finished restoring from the iCloud backup." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'You can install this update when your iPod is finished restoring from the iCloud backup.', 'other': 'You can install this update when your ProductFamilyName is finished restoring from the iCloud backup.', 'ipad': 'You can install this update when your iPad is finished restoring from the iCloud backup.', 'applevision': 'You can install this update when your Apple Vision Pro is finished restoring from the iCloud backup.', 'iphone': 'You can install this update when your iPhone is finished restoring from the iCloud backup.', 'applewatch': 'You can install this update when your Apple Watch is finished restoring from the iCloud backup.'}}";
+"Verification of the %@ security response failed because you are no longer connected to the internet." = "Verification of the %@ security response failed because you are no longer connected to the internet.";
+"Agree" = "Agree";
+"You can resume the download when you are connected to a WLAN, 3G, or faster network." = "You can resume the download when you are connected to a WLAN, 3G, or faster network.";
+"The download was paused because you are roaming and data roaming is turned off. The download will resume when you are no longer roaming, or if you connect to WLAN network." = "The download was paused because you are roaming and data roaming is turned off. The download will resume when you are no longer roaming, or if you connect to WLAN network.";
+"Unable to Install" = "Unable to Install";
+"If you download the security response over your cellular network, additional usage fees may apply." = "If you download the security response over your cellular network, additional usage fees may apply.";
+"This security response requires at least %@ battery while connected to a power source, %@ of available storage during installation, and a network connection to install." = "This security response requires at least %1$@ battery while connected to a power source, %2$@ of available storage during installation, and a network connection to install.";
+"Unable to download" = "Unable to download";
+"This security response is not available because you are not connected to the internet." = "This security response is not available because you are not connected to the internet.";
+"When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch WLAN networks to proceed with the security response." = "When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch WLAN networks to proceed with the security response.";
+"I agree to the %@, %@, and %@ Terms and Conditions" = "I agree to the %1$@, %2$@, and %3$@ Terms and Conditions";
+"Sign in with an Apple Account that is enrolled in the Apple Beta Software Program or Apple Developer Program." = "Sign in with an Apple Account that is enrolled in the Apple Beta Software Program or Apple Developer Program.";
+"This update requires at least %@ battery." = "This update requires at least %@ battery.";
+"If you select Update Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.
+
+%@" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'If you select Update Tonight, iPod will try to update when the device is locked and the battery has enough charge.\n\n%@', 'other': 'If you select Update Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.\n\n%@', 'ipad': 'If you select Update Tonight, iPad will try to update when the device is locked and the battery has enough charge.\n\n%@', 'applevision': 'If you select Update Tonight, Apple Vision Pro will try to update when the device is locked and the battery has enough charge.\n\n%@', 'iphone': 'If you select Update Tonight, iPhone will try to update when the device is locked and the battery has enough charge.\n\n%@', 'applewatch': 'If you select Update Tonight, Apple Watch will try to update when the device is locked and the battery has enough charge.\n\n%@'}}";
+"The latest available Background Security Improvement will also be installed." = "The latest available Background Security Improvement will also be installed.";
+"Are you sure you want to cancel Auto Install?" = "Are you sure you want to cancel Auto Install?";
+"Your organization has decided to update your device to OSName %@. You can choose to update now or it will update automatically on %@." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Your organization has decided to update your device to iOS %1$@. You can choose to update now or it will update automatically on %2$@.', 'other': 'Your organization has decided to update your device to OSName %1$@. You can choose to update now or it will update automatically on %2$@.', 'ipad': 'Your organization has decided to update your device to iPadOS %1$@. You can choose to update now or it will update automatically on %2$@.', 'applevision': 'Your organization has decided to update your device to visionOS %1$@. You can choose to update now or it will update automatically on %2$@.', 'iphone': 'Your organization has decided to update your device to iOS %1$@. You can choose to update now or it will update automatically on %2$@.', 'applewatch': 'Your organization has decided to update your device to watchOS %1$@. You can choose to update now or it will update automatically on %2$@.'}}";
+"Your organization’s device management settings do not recommend beta updates on this device. Contact your administrator for more information." = "Your organization’s device management settings do not recommend beta updates on this device. Contact your administrator for more information.";
+"An error occurred while checking for a software update. You can connect your device to a computer to check for updates. [More Info…](https://support.apple.com/109046)" = "An error occurred while checking for a software update. You can connect your device to a computer to check for updates. [More Info…](https://support.apple.com/109046)";
+"No release notes available." = "No release notes available.";
+"Apple Account: %@" = "Apple Account: %@";
+"I agree to the %@ Terms and Conditions and the Apple Privacy Policy" = "I agree to the %@ Terms and Conditions and the Apple Privacy Policy";
+"Software update availability is being managed by your administrator." = "Software update availability is being managed by your administrator.";
+"This update requires at least %@ battery, and a network connection to install." = "This update requires at least %@ battery, and a network connection to install.";
+"iCloud" = "iCloud";
+"Your ProductFamilyName is showing the latest software update allowed by your administrator." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Your iPod is showing the latest software update allowed by your administrator.', 'other': 'Your ProductFamilyName is showing the latest software update allowed by your administrator.', 'ipad': 'Your iPad is showing the latest software update allowed by your administrator.', 'applevision': 'Your Apple Vision Pro is showing the latest software update allowed by your administrator.', 'iphone': 'Your iPhone is showing the latest software update allowed by your administrator.', 'applewatch': 'Your Apple Watch is showing the latest software update allowed by your administrator.'}}";
+"OSName %@ Download Will Be Deleted" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iOS %@ Download Will Be Deleted', 'other': 'OSName %@ Download Will Be Deleted', 'ipad': 'iPadOS %@ Download Will Be Deleted', 'applevision': 'visionOS %@ Download Will Be Deleted', 'iphone': 'iOS %@ Download Will Be Deleted', 'applewatch': 'watchOS %@ Download Will Be Deleted'}}";
+"Use Cellular Data to Download?" = "Use Cellular Data to Download?";
+"Cancel Update" = "Cancel Update";
+"Unable to install" = "Unable to install";
+"This update cannot be installed while audio is playing." = "This update cannot be installed while audio is playing.";
+"An update has already been downloaded. Configuring beta updates will delete the existing update." = "An update has already been downloaded. Configuring beta updates will delete the existing update.";
+"Signed in as %@.
+
+You can sign in with a different Apple Account that is enrolled in the Apple Beta Software Program or Apple Developer Program." = "Signed in as %@.
+
+You can sign in with a different Apple Account that is enrolled in the Apple Beta Software Program or Apple Developer Program.";
+"This update cannot be installed while connected to Apple CarPlay." = "This update cannot be installed while connected to Apple CarPlay.";
+"Sign in with Apple Account" = "Sign in with Apple Account";
+"INTERNAL ONLY: Roots may be installed. Try the update again to receive the full replacement." = "INTERNAL ONLY: Roots may be installed. Try the update again to receive the full replacement.";
+"Your organization has decided to update your device to OSName %@. You can choose to update now or it will update automatically on %@. Organization Help URL: [%@](%@)" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Your organization has decided to update your device to iOS %1$@. You can choose to update now or it will update automatically on %2$@. Organization Help URL: [%3$@](%4$@)', 'other': 'Your organization has decided to update your device to OSName %1$@. You can choose to update now or it will update automatically on %2$@. Organization Help URL: [%3$@](%4$@)', 'ipad': 'Your organization has decided to update your device to iPadOS %1$@. You can choose to update now or it will update automatically on %2$@. Organization Help URL: [%3$@](%4$@)', 'applevision': 'Your organization has decided to update your device to visionOS %1$@. You can choose to update now or it will update automatically on %2$@. Organization Help URL: [%3$@](%4$@)', 'iphone': 'Your organization has decided to update your device to iOS %1$@. You can choose to update now or it will update automatically on %2$@. Organization Help URL: [%3$@](%4$@)', 'applewatch': 'Your organization has decided to update your device to watchOS %1$@. You can choose to update now or it will update automatically on %2$@. Organization Help URL: [%3$@](%4$@)'}}";
+"If you download the update over your cellular network, additional usage fees will apply." = "If you download the update over your cellular network, additional usage fees will apply.";
+"Downloaded" = "Downloaded";
+"This security response requires at least %@ battery or to be connected to a power source." = "This security response requires at least %@ battery or to be connected to a power source.";
+"A restart is required to continue removal." = "A restart is required to continue removal.";
+"When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch WLAN networks to proceed with the update." = "When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch WLAN networks to proceed with the update.";
+"%@ Battery Required" = "%@ Battery Required";
+"This security response cannot be installed because it requires at least %@ of available storage during installation." = "This security response cannot be installed because it requires at least %@ of available storage during installation.";
+"Install Once Downloaded" = "Install Once Downloaded";
+"OSName is up to date" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iOS is up to date', 'other': 'OSName is up to date', 'ipad': 'iPadOS is up to date', 'applevision': 'visionOS is up to date', 'iphone': 'iOS is up to date', 'applewatch': 'watchOS is up to date'}}";
+"Beta Updates" = "Beta Updates";
+"I agree to the %@, %@, %@, and %@ Terms and Conditions" = "I agree to the %1$@, %2$@, %3$@, and %4$@ Terms and Conditions";
+"This security response cannot be installed while Continuity Camera is in use" = "This security response cannot be installed while Continuity Camera is in use";
+"Unable to Check for Update" = "Unable to Check for Update";
+"You can install this security response when your ProductFamilyName is finished restoring from the iCloud backup." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'You can install this security response when your iPod is finished restoring from the iCloud backup.', 'other': 'You can install this security response when your ProductFamilyName is finished restoring from the iCloud backup.', 'ipad': 'You can install this security response when your iPad is finished restoring from the iCloud backup.', 'applevision': 'You can install this security response when your Apple Vision Pro is finished restoring from the iCloud backup.', 'iphone': 'You can install this security response when your iPhone is finished restoring from the iCloud backup.', 'applewatch': 'You can install this security response when your Apple Watch is finished restoring from the iCloud backup.'}}";
+"OK" = "OK";
+"Use a different Apple Account…" = "Use a different Apple Account…";
+"This security response cannot be installed while audio is playing." = "This security response cannot be installed while audio is playing.";
+"An update has already started downloading automatically. Choosing to download this update will delete the existing update." = "An update has already started downloading automatically. Choosing to download this update will delete the existing update.";
+"Apple Account for Beta Updates" = "Apple Account for Beta Updates";
+"This update requires a WLAN network connection to download." = "This update requires a WLAN network connection to download.";
+"OSName %@ is up to date." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iOS %@ is up to date.', 'other': 'OSName %@ is up to date.', 'ipad': 'iPadOS %@ is up to date.', 'applevision': 'visionOS %@ is up to date.', 'iphone': 'iOS %@ is up to date.', 'applewatch': 'watchOS %@ is up to date.'}}";
+"The download was paused because you are on a roaming cellular network. You can continue downloading this update over the current network. Additional usage fees may apply." = "The download was paused because you are on a roaming cellular network. You can continue downloading this update over the current network. Additional usage fees may apply.";
+"This update cannot be installed while driving." = "This update cannot be installed while driving.";
+"An error occurred while checking for a software update." = "An error occurred while checking for a software update.";
+"This security response cannot be installed while driving." = "This security response cannot be installed while driving.";
+"Beta Updates cannot be configured while in Lockdown Mode." = "Beta Updates cannot be configured while in Lockdown Mode.";
+"You can resume the download when you are connected to a Wi-Fi, 3G, or faster network." = "You can resume the download when you are connected to a Wi-Fi, 3G, or faster network.";
+"Update Scheduled" = "Update Scheduled";
+"%@ (%@)" = "%1$@ (%2$@)";
+"This update cannot be installed because it requires at least %@ of available storage during installation." = "This update cannot be installed because it requires at least %@ of available storage during installation.";
+"This security response cannot be installed while on a call." = "This security response cannot be installed while on a call.";
+"This update cannot be installed while on a call." = "This update cannot be installed while on a call.";
+"If you select Update Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'If you select Update Tonight, iPod will try to update when the device is locked and the battery has enough charge.', 'other': 'If you select Update Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.', 'ipad': 'If you select Update Tonight, iPad will try to update when the device is locked and the battery has enough charge.', 'applevision': 'If you select Update Tonight, Apple Vision Pro will try to update when the device is locked and the battery has enough charge.', 'iphone': 'If you select Update Tonight, iPhone will try to update when the device is locked and the battery has enough charge.', 'applewatch': 'If you select Update Tonight, Apple Watch will try to update when the device is locked and the battery has enough charge.'}}";
+"The security response could not be installed. Connect your ProductFamilyName to your computer to install." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'The security response could not be installed. Connect your iPod to your computer to install.', 'other': 'The security response could not be installed. Connect your ProductFamilyName to your computer to install.', 'ipad': 'The security response could not be installed. Connect your iPad to your computer to install.', 'applevision': 'The security response could not be installed. Connect your Apple Vision Pro to your computer to install.', 'iphone': 'The security response could not be installed. Connect your iPhone to your computer to install.', 'applewatch': 'The security response could not be installed. Connect your Apple Watch to your computer to install.'}}";
+"This security response requires at least %@ battery while connected to a power source, and a network connection to install." = "This security response requires at least %@ battery while connected to a power source, and a network connection to install.";
+"Suggestion icon" = "Suggestion icon";
+"Download Only" = "Download Only";
+"This security response requires a WLAN network connection to download." = "This security response requires a WLAN network connection to download.";
+"Unable to Update" = "Unable to Update";
+"ProductFamilyName has started downloading an update automatically. Once completed, ProductFamilyName will attempt to install the update later when ProductFamilyName is locked and the battery has enough charge." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iPod has started downloading an update automatically. Once completed, iPod will attempt to install the update later when iPod is locked and the battery has enough charge.', 'other': 'ProductFamilyName has started downloading an update automatically. Once completed, ProductFamilyName will attempt to install the update later when ProductFamilyName is locked and the battery has enough charge.', 'ipad': 'iPad has started downloading an update automatically. Once completed, iPad will attempt to install the update later when iPad is locked and the battery has enough charge.', 'applevision': 'Apple Vision Pro has started downloading an update automatically. Once completed, Apple Vision Pro will attempt to install the update later when Apple Vision Pro is locked and the battery has enough charge.', 'iphone': 'iPhone has started downloading an update automatically. Once completed, iPhone will attempt to install the update later when iPhone is locked and the battery has enough charge.', 'applewatch': 'Apple Watch has started downloading an update automatically. Once completed, Apple Watch will attempt to install the update later when Apple Watch is locked and the battery has enough charge.'}}";
+"Manage ProductFamilyName Storage" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Manage iPod Storage', 'other': 'Manage ProductFamilyName Storage', 'ipad': 'Manage iPad Storage', 'applevision': 'Manage Apple Vision Pro Storage', 'iphone': 'Manage iPhone Storage', 'applewatch': 'Manage Apple Watch Storage'}}";
+"Preparing Update…" = "Preparing Update…";
+"Game Center" = "Game Center";
+"Try Again" = "Try Again";
+"I agree to the %@ Terms and Conditions" = "I agree to the %@ Terms and Conditions";
+"This update requires a network connection to install." = "This update requires a network connection to install.";
+"Done" = "Done";
+"I agree to the %@ and %@ Terms and Conditions and the Apple Privacy Policy" = "I agree to the %1$@ and %2$@ Terms and Conditions and the Apple Privacy Policy";
+"Download in Progress" = "Download in Progress";
+"This security response requires a WLAN, 3G, or faster network connection to download." = "This security response requires a WLAN, 3G, or faster network connection to download.";
+"I agree to the Terms and Conditions and the Apple Privacy Policy" = "I agree to the Terms and Conditions and the Apple Privacy Policy";
+"ALSO AVAILABLE" = "ALSO AVAILABLE";
+"This security response requires at least %@ of available storage during installation, and a network connection to install." = "This security response requires at least %@ of available storage during installation, and a network connection to install.";
+"Your ProductFamilyName is running OSName %@" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Your iPod is running iOS %@', 'other': 'Your ProductFamilyName is running OSName %@', 'ipad': 'Your iPad is running iPadOS %@', 'applevision': 'Your Apple Vision Pro is running visionOS %@', 'iphone': 'Your iPhone is running iOS %@', 'applewatch': 'Your Apple Watch is running watchOS %@'}}";
+"OSName" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iOS', 'other': 'OSName', 'ipad': 'iPadOS', 'applevision': 'visionOS', 'iphone': 'iOS', 'applewatch': 'watchOS'}}";
+"Unable to Download" = "Unable to Download";
+"Continue" = "Continue";
+"This security response requires at least %@ battery while connected to a power source." = "This security response requires at least %@ battery while connected to a power source.";
+"If you download the update over your cellular network, additional usage fees may apply." = "If you download the update over your cellular network, additional usage fees may apply.";
+"This update requires at least %@ of available storage during installation, and a network connection to install." = "This update requires at least %@ of available storage during installation, and a network connection to install.";
+"More Details" = "More Details";
+"This update requires a WLAN, 3G, or faster network connection to download." = "This update requires a WLAN, 3G, or faster network connection to download.";
+"You can resume the download when you are connected to a WLAN network." = "You can resume the download when you are connected to a WLAN network.";
+"Install Tonight" = "Install Tonight";
+"I agree to the %@, %@, %@, and %@ Terms and Conditions and the Apple Privacy Policy" = "I agree to the %1$@, %2$@, %3$@, and %4$@ Terms and Conditions and the Apple Privacy Policy";
+"OSName %@" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'iOS %@', 'other': 'OSName %@', 'ipad': 'iPadOS %@', 'applevision': 'visionOS %@', 'iphone': 'iOS %@', 'applewatch': 'watchOS %@'}}";
+"This security response requires a network connection to install." = "This security response requires a network connection to install.";
+"When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch Wi-Fi networks to proceed with the security response." = "When Low Data Mode is turned on, downloads are paused. Turn off Low Data Mode, or switch Wi-Fi networks to proceed with the security response.";
+"This update requires at least %@ battery while connected to a power source." = "This update requires at least %@ battery while connected to a power source.";
+"Restart Now" = "Restart Now";
+"More Storage Required" = "More Storage Required";
+"Off" = "Off";
+"Remove Security Response" = "Remove Security Response";
+"Install Now" = "Install Now";
+"An update has already been downloaded automatically. Choosing to download this update will delete the existing update." = "An update has already been downloaded automatically. Choosing to download this update will delete the existing update.";
+"Receive beta updates on this ProductFamilyName to test‑drive pre‑release versions of OSName and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Receive beta updates on this iPod to test‑drive pre‑release versions of iOS and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)', 'other': 'Receive beta updates on this ProductFamilyName to test‑drive pre‑release versions of OSName and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)', 'ipad': 'Receive beta updates on this iPad to test‑drive pre‑release versions of iPadOS and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)', 'applevision': 'Receive beta updates on this Apple Vision Pro to test‑drive pre‑release versions of visionOS and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)', 'iphone': 'Receive beta updates on this iPhone to test‑drive pre‑release versions of iOS and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)', 'applewatch': 'Receive beta updates on this Apple Watch to test‑drive pre‑release versions of watchOS and provide feedback to help make Apple software even better. [Learn More…](https://beta.apple.com/)'}}";
+"Don’t Cancel" = "Don’t Cancel";
+"Updating is restricted when Guest User is on." = "Updating is restricted when Guest User is on.";
+"This security response requires a Wi-Fi network connection to download." = "This security response requires a Wi-Fi network connection to download.";
+"Update is not installable at this time." = "Update is not installable at this time.";
+"To download and install this software update, connect your ProductFamilyName to your computer." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'To download and install this software update, connect your iPod to your computer.', 'other': 'To download and install this software update, connect your ProductFamilyName to your computer.', 'ipad': 'To download and install this software update, connect your iPad to your computer.', 'applevision': 'To download and install this software update, connect your Apple Vision Pro to your computer.', 'iphone': 'To download and install this software update, connect your iPhone to your computer.', 'applewatch': 'To download and install this software update, connect your Apple Watch to your computer.'}}";
+"Apple Media Services" = "Apple Media Services";
+"The update could not be installed. Connect your ProductFamilyName to your computer to install." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'The update could not be installed. Connect your iPod to your computer to install.', 'other': 'The update could not be installed. Connect your ProductFamilyName to your computer to install.', 'ipad': 'The update could not be installed. Connect your iPad to your computer to install.', 'applevision': 'The update could not be installed. Connect your Apple Vision Pro to your computer to install.', 'iphone': 'The update could not be installed. Connect your iPhone to your computer to install.', 'applewatch': 'The update could not be installed. Connect your Apple Watch to your computer to install.'}}";
+"This update requires at least %@ battery while wirelessly charging." = "This update requires at least %@ battery while wirelessly charging.";
+"Verification of the %@ update failed because you are no longer connected to the internet." = "Verification of the %@ update failed because you are no longer connected to the internet.";
+"Checking for a software update failed because you are not connected to the internet." = "Checking for a software update failed because you are not connected to the internet.";
+"This update requires at least %@ battery, %@ of available storage during installation, and a network connection to install." = "This update requires at least %1$@ battery, %2$@ of available storage during installation, and a network connection to install.";
+"This security response cannot be installed while restoring from a backup." = "This security response cannot be installed while restoring from a backup.";
+"Cancel" = "Cancel";
+"You can resume the download when you are connected to a Wi-Fi network." = "You can resume the download when you are connected to a Wi-Fi network.";
+"If you select Install Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge." = "{'NSStringDeviceSpecificRuleType': {'ipod': 'If you select Install Tonight, iPod will try to update when the device is locked and the battery has enough charge.', 'other': 'If you select Install Tonight, ProductFamilyName will try to update when the device is locked and the battery has enough charge.', 'ipad': 'If you select Install Tonight, iPad will try to update when the device is locked and the battery has enough charge.', 'applevision': 'If you select Install Tonight, Apple Vision Pro will try to update when the device is locked and the battery has enough charge.', 'iphone': 'If you select Install Tonight, iPhone will try to update when the device is locked and the battery has enough charge.', 'applewatch': 'If you select Install Tonight, Apple Watch will try to update when the device is locked and the battery has enough charge.'}}";
+"Learn more…" = "Learn more…";
+"Checking for updates…" = "Checking for updates…";

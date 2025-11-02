@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ా అ ఆ A</string>
+		<key>Strings</key>
+		<string>ా అ ఆ A</string>
+	</dict>
+	<key>Roman-Accent-B</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>బ భ B</string>
+		<key>Strings</key>
+		<string>బ భ B</string>
+	</dict>
+	<key>Roman-Accent-C</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>చ ఛ C</string>
+		<key>Strings</key>
+		<string>చ ఛ C</string>
+	</dict>
+	<key>Roman-Accent-D</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ద ధ డ ఢ D</string>
+		<key>Strings</key>
+		<string>ద ధ డ ఢ D</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ె ఎ ే ఏ ై ఐ E</string>
+		<key>Strings</key>
+		<string>ె ఎ ే ఏ ై ఐ E</string>
+	</dict>
+	<key>Roman-Accent-F</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>్ F</string>
+		<key>Strings</key>
+		<string>్ F</string>
+	</dict>
+	<key>Roman-Accent-G</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>గ ఘ G</string>
+		<key>Strings</key>
+		<string>గ ఘ G</string>
+	</dict>
+	<key>Roman-Accent-H</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>హ ః H</string>
+		<key>Strings</key>
+		<string>హ ః H</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ి ఇ ీ ఈ I</string>
+		<key>Strings</key>
+		<string>ి ఇ ీ ఈ I</string>
+	</dict>
+	<key>Roman-Accent-J</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>జ ఝ J</string>
+		<key>Strings</key>
+		<string>జ ఝ J</string>
+	</dict>
+	<key>Roman-Accent-K</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>క ఖ K</string>
+		<key>Strings</key>
+		<string>క ఖ K</string>
+	</dict>
+	<key>Roman-Accent-L</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ల ళ ఴ L</string>
+		<key>Strings</key>
+		<string>ల ళ ఴ L</string>
+	</dict>
+	<key>Roman-Accent-M</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>మ ం ఁ M</string>
+		<key>Strings</key>
+		<string>మ ం ఁ M</string>
+	</dict>
+	<key>Roman-Accent-N</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>న ణ ఞ ఙ ం ఁ N</string>
+		<key>Strings</key>
+		<string>న ణ ఞ ఙ ం ఁ N</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ొ ఒ ో ఓ ౌ ఔ O</string>
+		<key>Strings</key>
+		<string>ొ ఒ ో ఓ ౌ ఔ O</string>
+	</dict>
+	<key>Roman-Accent-P</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ప ఫ P</string>
+		<key>Strings</key>
+		<string>ప ఫ P</string>
+	</dict>
+	<key>Roman-Accent-R</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ర ఱ ృ ఋ R</string>
+		<key>Strings</key>
+		<string>ర ఱ ృ ఋ R</string>
+	</dict>
+	<key>Roman-Accent-S</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>స శ ష S</string>
+		<key>Strings</key>
+		<string>స శ ష S</string>
+	</dict>
+	<key>Roman-Accent-T</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>త థ ట ఠ T</string>
+		<key>Strings</key>
+		<string>త థ ట ఠ T</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ు ఉ ూ ఊ U</string>
+		<key>Strings</key>
+		<string>ు ఉ ూ ఊ U</string>
+	</dict>
+	<key>Roman-Accent-V</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>వ V</string>
+		<key>Strings</key>
+		<string>వ V</string>
+	</dict>
+	<key>Roman-Accent-W</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>వ W</string>
+		<key>Strings</key>
+		<string>వ W</string>
+	</dict>
+	<key>Roman-Accent-Y</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>య Y</string>
+		<key>Strings</key>
+		<string>య Y</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ా అ ఆ a</string>
+		<key>Strings</key>
+		<string>ా అ ఆ a</string>
+	</dict>
+	<key>Roman-Accent-b</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>బ భ b</string>
+		<key>Strings</key>
+		<string>బ భ b</string>
+	</dict>
+	<key>Roman-Accent-c</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>చ ఛ c</string>
+		<key>Strings</key>
+		<string>చ ఛ c</string>
+	</dict>
+	<key>Roman-Accent-d</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ద ధ డ ఢ d</string>
+		<key>Strings</key>
+		<string>ద ధ డ ఢ d</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ె ఎ ే ఏ ై ఐ e</string>
+		<key>Strings</key>
+		<string>ె ఎ ే ఏ ై ఐ e</string>
+	</dict>
+	<key>Roman-Accent-f</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>్ f</string>
+		<key>Strings</key>
+		<string>్ f</string>
+	</dict>
+	<key>Roman-Accent-g</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>గ ఘ g</string>
+		<key>Strings</key>
+		<string>గ ఘ g</string>
+	</dict>
+	<key>Roman-Accent-h</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>హ ః h</string>
+		<key>Strings</key>
+		<string>హ ః h</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ి ఇ ీ ఈ i</string>
+		<key>Strings</key>
+		<string>ి ఇ ీ ఈ i</string>
+	</dict>
+	<key>Roman-Accent-j</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>జ ఝ j</string>
+		<key>Strings</key>
+		<string>జ ఝ j</string>
+	</dict>
+	<key>Roman-Accent-k</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>క ఖ k</string>
+		<key>Strings</key>
+		<string>క ఖ k</string>
+	</dict>
+	<key>Roman-Accent-l</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ల ళ ఴ l</string>
+		<key>Strings</key>
+		<string>ల ళ ఴ l</string>
+	</dict>
+	<key>Roman-Accent-m</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>మ ం ఁ m</string>
+		<key>Strings</key>
+		<string>మ ం ఁ m</string>
+	</dict>
+	<key>Roman-Accent-n</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>న ణ ఞ ఙ ం ఁ n</string>
+		<key>Strings</key>
+		<string>న ణ ఞ ఙ ం ఁ n</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ొ ఒ ో ఓ ౌ ఔ o</string>
+		<key>Strings</key>
+		<string>ొ ఒ ో ఓ ౌ ఔ o</string>
+	</dict>
+	<key>Roman-Accent-p</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ప ఫ p</string>
+		<key>Strings</key>
+		<string>ప ఫ p</string>
+	</dict>
+	<key>Roman-Accent-r</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ర ఱ ృ ఋ r</string>
+		<key>Strings</key>
+		<string>ర ఱ ృ ఋ r</string>
+	</dict>
+	<key>Roman-Accent-s</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>స శ ష s</string>
+		<key>Strings</key>
+		<string>స శ ష s</string>
+	</dict>
+	<key>Roman-Accent-t</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>త థ ట ఠ t</string>
+		<key>Strings</key>
+		<string>త థ ట ఠ t</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ు ఉ ూ ఊ u</string>
+		<key>Strings</key>
+		<string>ు ఉ ూ ఊ u</string>
+	</dict>
+	<key>Roman-Accent-v</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>వ v</string>
+		<key>Strings</key>
+		<string>వ v</string>
+	</dict>
+	<key>Roman-Accent-w</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>వ w</string>
+		<key>Strings</key>
+		<string>వ w</string>
+	</dict>
+	<key>Roman-Accent-y</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>య y</string>
+		<key>Strings</key>
+		<string>య y</string>
+	</dict>
+	<key>Roman-Accent-।</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>॥ ।</string>
+		<key>Strings</key>
+		<string>॥ ।</string>
+	</dict>
+	<key>Roman-Accent-।?</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>"</string>
+		<key>Strings</key>
+		<string>"</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-IconArtworkFull</key>
+	<string>Transliteration.Script.Telu</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>→క</string>
+	<key>UI-LanguageIndicator</key>
+	<string>తెలుగు (A→అ)</string>
+	<key>UI-te-Translit</key>
+	<string>తెలుగు (A→అ)</string>
+</dict>
+</plist>

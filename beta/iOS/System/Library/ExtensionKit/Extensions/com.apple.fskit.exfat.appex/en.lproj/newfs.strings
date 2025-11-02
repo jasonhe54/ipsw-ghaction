@@ -1,0 +1,198 @@
+"%1$@: Sector size was not initialized, setting to default value (%2$@)
+" = "%1$@: Sector size was not initialized, setting to default value (%2$@)
+";
+"Failed to read cluster %1$@; skipping reformat
+" = "Failed to read cluster %1$@; skipping reformat
+";
+"Sector size (%1$@) is too large
+" = "Sector size (%1$@) is too large
+";
+"wipefs_alloc(): fd(%1$@) %2$@
+" = "wipefs_alloc(): fd(%1$@) %2$@
+";
+"Format: Prepare boot region
+" = "Format: Prepare boot region
+";
+"Upcase file size : %1$@
+" = "Upcase file size : %1$@
+";
+"Encountered errors while writing backup boot sector
+" = "Encountered errors while writing backup boot sector
+";
+"wipefs_except_blocks(): fd(%1$@) %2$@
+" = "wipefs_except_blocks(): fd(%1$@) %2$@
+";
+"Format: Wipe: Failed
+" = "Format: Wipe: Failed
+";
+"Number of FATs   : %1$@
+" = "Number of FATs   : %1$@
+";
+"Reformatting existing ExFAT volume
+" = "Reformatting existing ExFAT volume
+";
+"wipefs_wipe(): fd(%1$@) %2$@
+" = "wipefs_wipe(): fd(%1$@) %2$@
+";
+"Bytes per sector : %1$@
+" = "Bytes per sector : %1$@
+";
+"Invalid bytes per cluster (%1$@); must be a power of two from 512 to 33554432
+" = "Invalid bytes per cluster (%1$@); must be a power of two from 512 to 33554432
+";
+"Volume size      : %1$@ sectors (%2$@ bytes)
+" = "Volume size      : %1$@ sectors (%2$@ bytes)
+";
+"No memory for cluster buffer; skipping reformat
+" = "No memory for cluster buffer; skipping reformat
+";
+"Format: Write bitmaps
+" = "Format: Write bitmaps
+";
+"Invalid sector size, cluster size, or number of sectors; skipping reformat
+" = "Invalid sector size, cluster size, or number of sectors; skipping reformat
+";
+"Bitmap file size : %1$@
+" = "Bitmap file size : %1$@
+";
+"%1$@: Wipe resource error: %2$@
+" = "%1$@: Wipe resource error: %2$@
+";
+"%1$@: fstat failed, path (%2$@)
+" = "%1$@: fstat failed, path (%2$@)
+";
+"Invalid cluster offset or count; skipping reformat
+" = "Invalid cluster offset or count; skipping reformat
+";
+"Bitmap start (#2): %1$@
+" = "Bitmap start (#2): %1$@
+";
+"Format: Prepare boot region: Failed
+" = "Format: Prepare boot region: Failed
+";
+"Invalid bytes per sector (%1$@); must be a power of two from 512 to 4096
+" = "Invalid bytes per sector (%1$@); must be a power of two from 512 to 4096
+";
+"Sectors per FAT must be non-zero
+" = "Sectors per FAT must be non-zero
+";
+"Volume Serial #  : %1$@
+" = "Volume Serial #  : %1$@
+";
+"Encountered errors while writing main boot sector
+" = "Encountered errors while writing main boot sector
+";
+"Inconsistent sectors per cluster (%1$@) and bytes per cluster (%2$@)
+" = "Inconsistent sectors per cluster (%1$@) and bytes per cluster (%2$@)
+";
+"Format: Write FAT tables
+" = "Format: Write FAT tables
+";
+"Could not convert name (%1$@) to precomposed UTF-16 little endian; may be too long
+" = "Could not convert name (%1$@) to precomposed UTF-16 little endian; may be too long
+";
+"Sectors per cluster (%1$@) too large; max is %2$@
+" = "Sectors per cluster (%1$@) too large; max is %2$@
+";
+"Upcase start     : %1$@
+" = "Upcase start     : %1$@
+";
+"%1$@: Can't allocate a wipe FS context object
+" = "%1$@: Can't allocate a wipe FS context object
+";
+"%1$@: Given device is not a block device
+" = "%1$@: Given device is not a block device
+";
+"Cluster size differs from command line argument; skipping reformat
+" = "Cluster size differs from command line argument; skipping reformat
+";
+"Format: Preparing
+" = "Format: Preparing
+";
+"Failed to allocate temporary buffer
+" = "Failed to allocate temporary buffer
+";
+"%1$@: device file descriptor is -1, path (%2$@)
+" = "%1$@: device file descriptor is -1, path (%2$@)
+";
+"FAT offset       : %1$@ sectors (%2$@ bytes)
+" = "FAT offset       : %1$@ sectors (%2$@ bytes)
+";
+"Invalid sectors per cluster (%1$@); must be a power of two from 1 to 65536
+" = "Invalid sectors per cluster (%1$@); must be a power of two from 1 to 65536
+";
+"Format: Wipe
+" = "Format: Wipe
+";
+"Failed to read FAT for cluster %1$@; skipping reformat
+" = "Failed to read FAT for cluster %1$@; skipping reformat
+";
+"%1$@: Total sectors was not initialized, setting to default value (%2$@)
+" = "%1$@: Total sectors was not initialized, setting to default value (%2$@)
+";
+"Failed to start phase, error %1$@
+" = "Failed to start phase, error %1$@
+";
+"Format: Flush data structures
+" = "Format: Flush data structures
+";
+"Bitmap start     : %1$@
+" = "Bitmap start     : %1$@
+";
+"Partition offset was not initialized , setting to default value (%1$@)
+" = "Partition offset was not initialized , setting to default value (%1$@)
+";
+"Volume name      : %1$@
+" = "Volume name      : %1$@
+";
+"Invalid number of FATs (%1$@); must be 1 or 2
+" = "Invalid number of FATs (%1$@); must be 1 or 2
+";
+"Numeric overflow for option -%1$@: %2$@
+" = "Numeric overflow for option -%1$@: %2$@
+";
+"Unknown FS version (%1$@); skipping reformat
+" = "Unknown FS version (%1$@); skipping reformat
+";
+"Invalid argument for option -%1$@: %2$@
+" = "Invalid argument for option -%1$@: %2$@
+";
+"Format: Flush data structures: Failed
+" = "Format: Flush data structures: Failed
+";
+"Could not create CFMutableString for volume name
+" = "Could not create CFMutableString for volume name
+";
+"# Clusters       : %1$@
+" = "# Clusters       : %1$@
+";
+"Format: Check reformat: Failed
+" = "Format: Check reformat: Failed
+";
+"Partition offset : %1$@ sectors (%2$@ bytes)
+" = "Partition offset : %1$@ sectors (%2$@ bytes)
+";
+"Given volume name (%1$@) is invalid for this file system
+" = "Given volume name (%1$@) is invalid for this file system
+";
+"Cluster offset   : %1$@ sectors (%2$@ bytes)
+" = "Cluster offset   : %1$@ sectors (%2$@ bytes)
+";
+"Format: Preparing: Failed
+" = "Format: Preparing: Failed
+";
+"Encountered errors trying to wipe resource
+" = "Encountered errors trying to wipe resource
+";
+"Bytes per cluster: %1$@
+" = "Bytes per cluster: %1$@
+";
+"Root start       : %1$@
+" = "Root start       : %1$@
+";
+"# FAT sectors    : %1$@
+" = "# FAT sectors    : %1$@
+";
+"Format: Check reformat
+" = "Format: Check reformat
+";

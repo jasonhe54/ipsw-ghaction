@@ -1,0 +1,53 @@
+"PRECISE_LOCATION_FOOTER" = "Allows apps to use your specific location. With this setting off, apps can only determine your approximate location.";
+"PREFERRED_ROUTES_FOOTER_WITH_LINK" = "Allows apps to access the routes you take most frequently and destinations you’re likely to visit.
+
+More location access requires Precise Location and %@ to be turned on.";
+"HOMEKIT" = "Home";
+"ALWAYS_AUTHORIZATION" = "Always";
+"WIRELESS_DISABLE_MESSAGE_UWB_WLAN" = "Turning off location for networking and wireless may affect Bluetooth, WLAN, and Ultra Wideband performance.";
+"WIRELESS_DISABLE_MESSAGE_WLAN" = "Turning off location for networking and wireless may affect Bluetooth and WLAN performance.";
+"NEVER_AUTHORIZATION" = "Never";
+"Key" = "Key";
+"NOT_DETERMINED_AUTHORIZATION_EXPLANATION" = "Access to your location may be requested by this app.";
+"PREFERRED_ROUTES_FOOTER" = "Allows apps to access the routes you take most frequently and destinations you’re likely to visit.";
+"ALLOW_MORE_LOCATION_ACCESS_HEADER" = "Allow More Location Access";
+"NOT_DETERMINED_AUTHORIZATION_NO_AUTH" = "When I Share";
+"PREFERRED_ROUTES" = "Preferred Routes & Predicted Destinations";
+"SYSTEM_CUSTOMIZATION" = "System Customization";
+"WHEN_IN_USE_AUTHORIZATION_SHORT" = "While Using";
+"PURPOSE_STRING_REDUCED" = "App explanation for always: “%@”
+
+If you only allow access to your location while you are using the app, some features may not work in the background.";
+"VISITED_PLACES_FOOTER" = "Allows apps to access places you visit throughout the day. Started sharing %@.
+
+More location access requires Precise Location and %@ to be turned on.";
+"NETWORKING_WIRELESS" = "Networking & Wireless";
+"ALWAYS_AUTHORIZATION_EXPLANATION" = "Access to your location will be available even when this app is in the background.";
+"LOCATION_BASED_ALERTS" = "Alerts & Shortcuts Automations";
+"PURPOSE_STRING" = "App explanation: “%@”";
+"WHEN_IN_USE_AUTHORIZATION_EXPLANATION" = "Access to your location is available only when this app or one of its features is visible on screen.";
+"WIRELESS_DISABLE_CANCEL" = "Cancel";
+"WIRELESS_DISABLE_CONFIRM" = "Turn Off";
+"VISITED_PLACES_FOOTER_JUST_NOW" = "Allows apps to access places you visit throughout the day. Started sharing just now.
+
+More location access requires Precise Location and %@ to be turned on.";
+"VISITED_PLACES" = "Visited Places";
+"WIRELESS_DISABLE_MESSAGE_WIFI" = "Turning off location for networking and wireless may affect Bluetooth and Wi-Fi performance.";
+"WHEN_IN_USE_APP_OR_WIDGET_AUTHORIZATION" = "While Using the App or Widgets";
+"NOT_DETERMINED_AUTHORIZATION_SHORT" = "When Shared";
+"WHEN_IN_USE_AUTHORIZATION_AND_MORE" = "While Using & More";
+"ALLOW_MORE_LOCATION_ACCESS_FOOTER_LINK" = "Significant Locations & Routes";
+"WIRELESS_DISABLE_MESSAGE_UWB_WIFI" = "Turning off location for networking and wireless may affect Bluetooth, Wi-Fi, and Ultra Wideband performance.";
+"PRECISE_LOCATION" = "Precise Location";
+"ALLOW_LOCATION_SERVICES_HEADER" = "Allow Location Access";
+"WHEN_IN_USE_AUTHORIZATION" = "While Using the App";
+"WIRELESS_DISABLE_TITLE" = "Location for Networking & Wireless";
+"ROUTING_AND_TRAFFIC" = "Routing & Traffic";
+"IMPROVE_LOCATION_ACCURACY" = "Improve Location Accuracy";
+"VISITED_PLACES_FOOTER_NO_DATE" = "Allows apps to access places you visit throughout the day.
+
+More location access requires Precise Location and %@ to be turned on.";
+"PURPOSE_STRING_COMBINED" = "App explanation for always: “%@”
+
+App explanation for while using: “%@”";
+"NOT_DETERMINED_AUTHORIZATION" = "Ask Next Time Or When I Share";

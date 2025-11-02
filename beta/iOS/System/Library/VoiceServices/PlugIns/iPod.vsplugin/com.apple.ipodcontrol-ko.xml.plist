@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>재생</string>
+				<string>듣기</string>
+				<string>틀기</string>
+				<string>음악 재생</string>
+				<string>음악 듣기</string>
+				<string>음악 틀기</string>
+				<string>노래 재생</string>
+				<string>노래 듣기</string>
+				<string>노래 틀기</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>일시 정지</string>
+				<string>음악 일시 정지</string>
+				<string>노래 일시 정지</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>재생</string>
+				<string>듣기</string>
+				<string>틀기</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>다음</string>
+				<string>뒤의</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>이전</string>
+				<string>앞의</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>임의 재생</string>
+				<string>셔플</string>
+				<string>순서없이 재생</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>전</string>
+				<string>노래</string>
+				<string>곡</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>재생목록</string>
+				<string>재생리스트</string>
+				<string>노래목록</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>가 부른 노래</string>
+				<string>가 부른 곡</string>
+				<string>의 노래</string>
+				<string>의 곡</string>
+				<string>아티스트</string>
+				<string>가수</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>앨범</string>
+				<string>음반</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>비슷한 곡 듣기</string>
+				<string>비슷한 노래 듣기</string>
+				<string>비슷한 곡 틀기</string>
+				<string>비슷한 노래 틀기</string>
+				<string>이 노래와 비슷한 노래 재생</string>
+				<string>이 노래와 비슷한 노래 듣기</string>
+				<string>이런 노래 재생</string>
+				<string>비슷한 노래 재생</string>
+				<string>비슷한 노래 듣기</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>이 곡이 무슨 곡입니까</string>
+				<string>이 곡 제목</string>
+				<string>노래 제목</string>
+				<string>이 곡 가수 이름</string>
+				<string>이 노래 가수 이름</string>
+				<string>가수 이름</string>
+				<string>재생 중인 노래</string>
+				<string>재생 중인 곡</string>
+				<string>듣고 있는 노래</string>
+				<string>누가 부른 곡입니까</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>이 곡이 무슨 곡입니까?</string>
+			<string>이 곡 제목</string>
+			<string>노래 제목</string>
+			<string>이 곡 가수 이름</string>
+			<string>이 노래 가수 이름</string>
+			<string>가수 이름</string>
+			<string>재생 중인 노래</string>
+			<string>재생 중인 곡</string>
+			<string>듣고 있는 노래</string>
+			<string>누가 부른 곡입니까?</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>비슷한 곡 듣기</string>
+			<string>비슷한 노래 듣기</string>
+			<string>비슷한 곡 틀기</string>
+			<string>비슷한 노래 틀기</string>
+			<string>이 노래와 비슷한 노래 재생</string>
+			<string>이 노래와 비슷한 노래 듣기</string>
+			<string>이런 노래 재생</string>
+			<string>비슷한 노래 재생</string>
+			<string>비슷한 노래 듣기</string>
+		</array>
+		<array>
+			<string>재생 &lt;재생목록 이름&gt; 재생목록</string>
+			<string>재생 &lt;재생목록 이름&gt; 재생리스트</string>
+			<string>재생 &lt;재생목록 이름&gt; 노래목록</string>
+			<string>듣기 &lt;재생목록 이름&gt; 재생목록</string>
+			<string>듣기 &lt;재생목록 이름&gt; 재생리스트</string>
+			<string>듣기 &lt;재생목록 이름&gt; 노래목록</string>
+			<string>틀기 &lt;재생목록 이름&gt; 재생목록</string>
+			<string>틀기 &lt;재생목록 이름&gt; 재생리스트</string>
+			<string>틀기 &lt;재생목록 이름&gt; 노래목록</string>
+			<string>&lt;재생목록 이름&gt; 재생목록 재생</string>
+			<string>&lt;재생목록 이름&gt; 재생리스트 재생</string>
+			<string>&lt;재생목록 이름&gt; 노래목록 재생</string>
+			<string>&lt;재생목록 이름&gt; 재생목록 듣기</string>
+			<string>&lt;재생목록 이름&gt; 재생리스트 듣기</string>
+			<string>&lt;재생목록 이름&gt; 노래목록 듣기</string>
+			<string>&lt;재생목록 이름&gt; 재생목록 틀기</string>
+			<string>&lt;재생목록 이름&gt; 재생리스트 틀기</string>
+			<string>&lt;재생목록 이름&gt; 노래목록 틀기</string>
+			<string>재생목록 재생</string>
+			<string>재생리스트 재생</string>
+			<string>노래목록 재생</string>
+			<string>재생목록 듣기</string>
+			<string>재생리스트 듣기</string>
+			<string>노래목록 듣기</string>
+			<string>재생목록 틀기</string>
+			<string>재생리스트 틀기</string>
+			<string>노래목록 틀기</string>
+		</array>
+		<array>
+			<string>재생 &lt;가수 이름&gt; 아티스트</string>
+			<string>재생 &lt;가수 이름&gt; 가수</string>
+			<string>듣기 &lt;가수 이름&gt; 아티스트</string>
+			<string>듣기 &lt;가수 이름&gt; 가수</string>
+			<string>틀기 &lt;가수 이름&gt; 아티스트</string>
+			<string>틀기 &lt;가수 이름&gt; 가수</string>
+			<string>재생 &lt;가수 이름&gt;가 부른 노래</string>
+			<string>재생 &lt;가수 이름&gt;가 부른 곡</string>
+			<string>재생 &lt;가수 이름&gt;의 노래</string>
+			<string>재생 &lt;가수 이름&gt;의 곡</string>
+			<string>듣기 &lt;가수 이름&gt;가 부른 노래</string>
+			<string>듣기 &lt;가수 이름&gt;가 부른 곡</string>
+			<string>듣기 &lt;가수 이름&gt;의 노래</string>
+			<string>듣기 &lt;가수 이름&gt;의 곡</string>
+			<string>틀기 &lt;가수 이름&gt;가 부른 노래</string>
+			<string>틀기 &lt;가수 이름&gt;가 부른 곡</string>
+			<string>틀기 &lt;가수 이름&gt;의 노래</string>
+			<string>틀기 &lt;가수 이름&gt;의 곡</string>
+			<string>&lt;가수 이름&gt; 아티스트 재생</string>
+			<string>&lt;가수 이름&gt; 가수 재생</string>
+			<string>&lt;가수 이름&gt; 아티스트 듣기</string>
+			<string>&lt;가수 이름&gt; 가수 듣기</string>
+			<string>&lt;가수 이름&gt; 아티스트 틀기</string>
+			<string>&lt;가수 이름&gt; 가수 틀기</string>
+			<string>&lt;가수 이름&gt;가 부른 노래 재생</string>
+			<string>&lt;가수 이름&gt;가 부른 곡 재생</string>
+			<string>&lt;가수 이름&gt;의 노래 재생</string>
+			<string>&lt;가수 이름&gt;의 곡 재생</string>
+			<string>&lt;가수 이름&gt;가 부른 노래 듣기</string>
+			<string>&lt;가수 이름&gt;가 부른 곡 듣기</string>
+			<string>&lt;가수 이름&gt;의 노래 듣기</string>
+			<string>&lt;가수 이름&gt;의 곡 듣기</string>
+			<string>&lt;가수 이름&gt;가 부른 노래 틀기</string>
+			<string>&lt;가수 이름&gt;가 부른 곡 틀기</string>
+			<string>&lt;가수 이름&gt;의 노래 틀기</string>
+			<string>&lt;가수 이름&gt;의 곡 틀기</string>
+		</array>
+		<array>
+			<string>재생 &lt;앨범 이름&gt; 앨범</string>
+			<string>재생 &lt;앨범 이름&gt; 음반</string>
+			<string>듣기 &lt;앨범 이름&gt; 앨범</string>
+			<string>듣기 &lt;앨범 이름&gt; 음반</string>
+			<string>틀기 &lt;앨범 이름&gt; 앨범</string>
+			<string>틀기 &lt;앨범 이름&gt; 음반</string>
+			<string>&lt;앨범 이름&gt; 앨범 재생</string>
+			<string>&lt;앨범 이름&gt; 음반 재생</string>
+			<string>&lt;앨범 이름&gt; 앨범 듣기</string>
+			<string>&lt;앨범 이름&gt; 음반 듣기</string>
+			<string>&lt;앨범 이름&gt; 앨범 틀기</string>
+			<string>&lt;앨범 이름&gt; 음반 틀기</string>
+			<string>앨범 재생</string>
+			<string>앨범 듣기</string>
+			<string>앨범 틀기</string>
+			<string>음반 재생</string>
+			<string>음반 듣기</string>
+			<string>음반 틀기</string>
+		</array>
+		<array>
+			<string>임의 재생</string>
+			<string>셔플</string>
+			<string>순서없이 재생</string>
+		</array>
+		<array>
+			<string>이전 트랙</string>
+			<string>이전 노래</string>
+			<string>이전 곡</string>
+			<string>앞의 트랙</string>
+			<string>앞의 노래</string>
+			<string>앞의 곡</string>
+		</array>
+		<array>
+			<string>다음 트랙</string>
+			<string>다음 노래</string>
+			<string>다음 곡</string>
+			<string>뒤의 트랙</string>
+			<string>뒤의 노래</string>
+			<string>뒤의 곡</string>
+		</array>
+		<array>
+			<string>일시 정지</string>
+			<string>음악 일시 정지</string>
+			<string>노래 일시 정지</string>
+		</array>
+		<array>
+			<string>재생</string>
+			<string>듣기</string>
+			<string>틀기</string>
+			<string>음악 재생</string>
+			<string>음악 듣기</string>
+			<string>음악 틀기</string>
+			<string>노래 재생</string>
+			<string>노래 듣기</string>
+			<string>노래 틀기</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>album</string>
+				<string>select-album-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>artist</string>
+				<string>select-artist-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>playlist</string>
+				<string>select-playlist-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>album</string>
+				<string>select-album-object</string>
+				<string>select-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>artist</string>
+				<string>select-artist-object</string>
+				<string>select-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>playlist</string>
+				<string>select-playlist-object</string>
+				<string>select-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

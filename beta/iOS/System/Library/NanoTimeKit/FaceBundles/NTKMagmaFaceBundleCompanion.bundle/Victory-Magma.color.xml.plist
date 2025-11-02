@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>magma</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>fall2022</key>
+				<array>
+					<string>ghostGreen</string>
+					<string>photoBlue</string>
+					<string>gameRoyal</string>
+					<string>blueChill</string>
+					<string>sesame</string>
+					<string>coconutMilk</string>
+					<string>desertBerry</string>
+					<string>summitWhite</string>
+					<string>doll</string>
+				</array>
+				<key>special</key>
+				<array>
+					<string>special.rainbow</string>
+					<string>color I</string>
+					<string>color II</string>
+					<string>color III</string>
+					<string>color IV</string>
+					<string>victory.brightCrimson &amp; magma.fall2022.ghostGreen</string>
+					<string>victory.brightCrimson &amp; magma.fall2022.photoBlue</string>
+					<string>magma.fall2022.gameRoyal &amp; victory.auroraGreen</string>
+					<string>magma.fall2022.blueChill &amp; magma.fall2022.ghostGreen</string>
+					<string>magma.fall2022.sesame &amp; magma.fall2022.coconutMilk</string>
+					<string>victory.spruceAura &amp; magma.fall2022.desertBerry</string>
+					<string>magma.fall2022.summitWhite &amp; magma.fall2022.doll</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>purePlatinum</string>
+				<key>exclusions</key>
+				<array>
+					<string>white</string>
+					<string>white &amp; volt</string>
+					<string>white &amp; red</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<array>
+					<string>victory.purePlatinum</string>
+				</array>
+				<string>victory-evergreen</string>
+				<string>magma.special</string>
+				<string>victory</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
