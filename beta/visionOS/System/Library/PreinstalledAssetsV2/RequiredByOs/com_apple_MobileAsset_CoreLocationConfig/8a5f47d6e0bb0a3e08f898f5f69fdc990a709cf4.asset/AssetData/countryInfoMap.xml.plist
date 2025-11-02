@@ -2,15 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>commissioning</key>
-	<dict>
-		<key>Level</key>
+	<key>CountryInfo</key>
+	<array>
 		<dict>
-			<key>Enable</key>
-			<string>Debug</string>
-			<key>Persist</key>
-			<string>Debug</string>
+			<key>ISOCode</key>
+			<array>
+				<string>US</string>
+			</array>
+			<key>SettingsFile</key>
+			<string>UnitedStatesSettings.plist</string>
 		</dict>
-	</dict>
+	</array>
 </dict>
 </plist>
