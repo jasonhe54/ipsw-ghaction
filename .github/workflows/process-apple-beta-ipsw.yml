@@ -31,6 +31,11 @@ on:
         required: false
         type: string
         default: 'main'
+      exclude_info_plist:
+        description: 'Exclude all files named "Info.plist" from processing.'
+        required: true
+        type: boolean
+        default: true
 
 jobs:
   process-ipsw:
@@ -48,6 +53,7 @@ jobs:
           echo "| **Beta Build** | \`${{ inputs.beta_build }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Checkout Branch** | \`${{ inputs.checkout_branch }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Exclude Info.plist** | \`${{ inputs.exclude_info_plist }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Run ID** | \`${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
 
       - name: 2. Check out repository
@@ -151,7 +157,8 @@ jobs:
             
             START_TIME=$(date +%s)
             
-            JSON_OUTPUT=$(python py.py "$MOUNT_PATH" "$REPO_PATH")
+            # --- MODIFIED: Added ${{ inputs.exclude_info_plist }} as the 3rd argument ---
+            JSON_OUTPUT=$(python py.py "$MOUNT_PATH" "$REPO_PATH" "${{ inputs.exclude_info_plist }}")
             
             END_TIME=$(date +%s)
             DURATION_S=$((END_TIME - START_TIME))

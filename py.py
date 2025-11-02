@@ -27,13 +27,20 @@ def printErrorArray():
 if len(sys.argv) < 3:
     # MODIFIED: All error/usage prints go to sys.stderr
     print("ERROR: Missing arguments.", file=sys.stderr)
-    print("Usage: python py.py <source_folder> <destination_folder>", file=sys.stderr)
+    print("Usage: python py.py <source_folder> <destination_folder> [exclude_info_plist_boolean]", file=sys.stderr)
     print("  <source_folder>: e.g., ./mounted_dmg/System", file=sys.stderr)
     print("  <destination_folder>: e.g., ./beta/iOS/System", file=sys.stderr)
+    print("  [exclude_info_plist_boolean]: (Optional) 'true' or 'false' to skip Info.plist files. Defaults to 'false'.", file=sys.stderr)
     sys.exit(1)
 
 parsedFolderPath = sys.argv[1]
 finalBaseRepoPath = sys.argv[2]
+
+# --- NEW: Check for skip_info_plist flag ---
+SKIP_INFO_PLIST = False
+if len(sys.argv) > 3:
+    SKIP_INFO_PLIST = sys.argv[3].lower() == 'true'
+# ---
 
 osSpecificRootPath = os.path.dirname(finalBaseRepoPath)
 finalBaseRepoImagesPath = os.path.join(osSpecificRootPath, "images")
@@ -43,6 +50,7 @@ print(f"--- Starting Python Script ---", file=sys.stderr)
 print(f"Reading from DMG folder: {parsedFolderPath}", file=sys.stderr)
 print(f"Writing to repo folder:  {finalBaseRepoPath}", file=sys.stderr)
 print(f"Writing images to:       {finalBaseRepoImagesPath}", file=sys.stderr)
+print(f"Exclude Info.plist:      {SKIP_INFO_PLIST}", file=sys.stderr)
 print(f"------------------------------", file=sys.stderr)
 
 # --- Core Functions (Unchanged) ---
@@ -146,6 +154,12 @@ def add_plist_file_to_repo(file_path):
 
 def process_file_by_extension(file_path):
     """Dispatch file to appropriate processor based on extension."""
+    
+    # --- NEW: Skip Info.plist if flag is set ---
+    if SKIP_INFO_PLIST and os.path.basename(file_path) == 'Info.plist':
+        return None # Skip this file
+    # ---
+    
     if file_path.endswith('.loctable'):
         return convert_loctable_to_strings(file_path)
     elif file_path.endswith(('.png', '.jpg', '.heif', '.ico')):
