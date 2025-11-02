@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>Label</key>
+	<string>com.apple.royad</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.royad</key>
+		<true/>
+		<key>com.apple.royad.clientarkitservice</key>
+		<true/>
+		<key>com.apple.royad.developerservice</key>
+		<true/>
+		<key>com.apple.royad.screenshotservice</key>
+		<true/>
+		<key>com.apple.royad.statusservice</key>
+		<dict>
+			<key>_ExperimentalNonLaunching</key>
+			<true/>
+		</dict>
+		<key>com.apple.royad.usereventservice</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/Roya.framework/royad/royad</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

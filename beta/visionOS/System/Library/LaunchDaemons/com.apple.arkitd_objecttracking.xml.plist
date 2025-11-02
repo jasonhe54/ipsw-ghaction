@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.arkitd_objecttracking</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>targettype</key>
+		<array>
+			<string>N301</string>
+			<string>N301a</string>
+		</array>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.arkit.service.accessoryTracking</key>
+		<dict>
+			<key>#Else</key>
+			<false/>
+			<key>#IfFeatureFlagEnabled</key>
+			<string>ARKitCore/accessory_tracking_uses_peer_daemon</string>
+			<key>#Then</key>
+			<true/>
+		</dict>
+		<key>com.apple.arkit.service.objectTracking</key>
+		<dict>
+			<key>#Else</key>
+			<false/>
+			<key>#IfFeatureFlagEnabled</key>
+			<string>ARKitCore/object_tracking_uses_peer_daemon</string>
+			<key>#Then</key>
+			<true/>
+		</dict>
+		<key>com.apple.arkit.service.objectTrackingControl</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/arkitd_objecttracking</string>
+	</array>
+	<key>RunAtLoad</key>
+	<dict>
+		<key>#Else</key>
+		<false/>
+		<key>#IfFeatureFlagEnabled</key>
+		<string>ARKitCore/accessory_tracking_uses_peer_daemon</string>
+		<key>#Then</key>
+		<true/>
+	</dict>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

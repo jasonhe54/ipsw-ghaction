@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>countryCode</key>
+		<string>US</string>
+		<key>languageCode</key>
+		<string>es</string>
+		<key>name</key>
+		<string>Nacional de Prevención del Suicidio</string>
+		<key>phoneNumber</key>
+		<string>8886289454</string>
+		<key>resourceType</key>
+		<string>suicide prevention center</string>
+		<key>websearchQuery</key>
+		<string>prevención del suicidio hotline</string>
+		<key>website</key>
+		<dict>
+			<key>relative</key>
+			<string>https://suicidepreventionlifeline.org/help-yourself/en-espanol</string>
+		</dict>
+	</dict>
+</array>
+</plist>

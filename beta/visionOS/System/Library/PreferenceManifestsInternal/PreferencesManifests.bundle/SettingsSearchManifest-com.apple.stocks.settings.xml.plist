@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>STOCKS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>STOCKS_KEYWORDS</string>
+			<key>label</key>
+			<string>STOCKS</string>
+			<key>searchSectionID</key>
+			<string>STOCKS</string>
+			<key>searchURL</key>
+			<string>prefs:root=STOCKS</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>STOCKS</string>
+			<key>keywords</key>
+			<string>PRIVACY_KEYWORDS</string>
+			<key>label</key>
+			<string>PRIVACY</string>
+			<key>searchSectionID</key>
+			<string>STOCKS</string>
+			<key>searchURL</key>
+			<string>prefs:root=STOCKS#Privacy</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>STOCKS</string>
+			<key>keywords</key>
+			<string>RESET_IDENTIFIER_KEYWORDS</string>
+			<key>label</key>
+			<string>RESET_IDENTIFIER</string>
+			<key>searchSectionID</key>
+			<string>STOCKS</string>
+			<key>searchURL</key>
+			<string>prefs:root=STOCKS#reset_identifier</string>
+		</dict>
+	</array>
+	<key>specifierAttributes</key>
+	<dict>
+		<key>restrictByMCFeature</key>
+		<string>allowStocks</string>
+	</dict>
+</dict>
+</plist>

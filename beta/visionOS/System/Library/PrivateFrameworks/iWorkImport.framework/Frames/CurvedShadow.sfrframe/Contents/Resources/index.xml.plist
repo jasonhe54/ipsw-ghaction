@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>CurvedShadow_08.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>17</integer>
+	<key>Bottom Left</key>
+	<string>CurvedShadow_07.png</string>
+	<key>Bottom Left Mask</key>
+	<string>CurvedShadow_Mask_07.png</string>
+	<key>Bottom Mask</key>
+	<string>CurvedShadow_Mask_08.png</string>
+	<key>Bottom Right</key>
+	<string>CurvedShadow_09.png</string>
+	<key>Bottom Right Mask</key>
+	<string>CurvedShadow_Mask_09.png</string>
+	<key>Left</key>
+	<string>CurvedShadow_04.png</string>
+	<key>Left Frame Inset</key>
+	<integer>23</integer>
+	<key>Left Mask</key>
+	<string>CurvedShadow_Mask_04.png</string>
+	<key>Minimum Asset Scale</key>
+	<real>0.10000000149011612</real>
+	<key>Right</key>
+	<string>CurvedShadow_06.png</string>
+	<key>Right Frame Inset</key>
+	<integer>23</integer>
+	<key>Right Mask</key>
+	<string>CurvedShadow_Mask_06.png</string>
+	<key>Stretch Tiles</key>
+	<integer>2</integer>
+	<key>Top</key>
+	<string>CurvedShadow_02.png</string>
+	<key>Top Frame Inset</key>
+	<integer>16</integer>
+	<key>Top Left</key>
+	<string>CurvedShadow_01.png</string>
+	<key>Top Left Mask</key>
+	<string>CurvedShadow_Mask_01.png</string>
+	<key>Top Mask</key>
+	<string>CurvedShadow_Mask_02.png</string>
+	<key>Top Right</key>
+	<string>CurvedShadow_03.png</string>
+	<key>Top Right Mask</key>
+	<string>CurvedShadow_Mask_03.png</string>
+	<key>name</key>
+	<string>CurvedShadow</string>
+	<key>preview-image</key>
+	<string>CurvedShadowicon.png</string>
+</dict>
+</plist>

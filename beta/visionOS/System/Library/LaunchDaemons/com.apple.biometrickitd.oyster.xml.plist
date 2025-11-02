@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>LLVM_PROFILE_FILE</key>
+		<string>/tmp/biometrickitd.%p.profraw</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.biometrickitd.oyster</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.biometrickitd.oyster</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>AppleOysterSEPDriver</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>CRXFClipOnStateDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>CRXFClipOnStateDidChangeNotification</string>
+			</dict>
+			<key>com.apple.managedconfiguration.passcodechanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.managedconfiguration.passcodechanged</string>
+			</dict>
+			<key>com.apple.mobile.keybagd.lock_status</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobile.keybagd.lock_status</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.biometrickitd.oyster</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/biometrickitd</string>
+		<string>-module</string>
+		<string>3</string>
+	</array>
+</dict>
+</plist>

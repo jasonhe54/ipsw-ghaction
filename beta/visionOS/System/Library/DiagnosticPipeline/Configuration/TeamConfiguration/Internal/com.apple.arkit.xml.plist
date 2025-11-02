@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IssueCategories</key>
+	<dict>
+		<key>arkitd-hang-detected</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>10</integer>
+			<key>HysteresisSec</key>
+			<integer>600</integer>
+		</dict>
+		<key>gaze-data-drop</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>10</integer>
+			<key>HysteresisSec</key>
+			<integer>600</integer>
+		</dict>
+		<key>slam-short-data-drop</key>
+		<dict>
+			<key>CountCap</key>
+			<integer>10</integer>
+			<key>HysteresisSec</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

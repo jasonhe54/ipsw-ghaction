@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedInput</key>
+	<dict/>
+	<key>distribution</key>
+	<dict>
+		<key>unitsPerColumn</key>
+		<integer>100</integer>
+		<key>unitsPerRow</key>
+		<integer>100</integer>
+	</dict>
+	<key>framerate</key>
+	<integer>10</integer>
+	<key>name</key>
+	<string>RealitySimulation Debug Parameters</string>
+	<key>userVisible</key>
+	<true/>
+	<key>visualizers</key>
+	<array>
+		<dict>
+			<key>arguments</key>
+			<dict>
+				<key>layoutPath</key>
+				<string>/AppleInternal/Library/RealityCheck/Layouts/com.apple.surfboard.overlay-layout.realitysimulation.taa.plist</string>
+			</dict>
+			<key>frame</key>
+			<dict>
+				<key>height</key>
+				<integer>70</integer>
+				<key>width</key>
+				<integer>40</integer>
+				<key>xPosition</key>
+				<integer>20</integer>
+				<key>yPosition</key>
+				<integer>20</integer>
+			</dict>
+			<key>label</key>
+			<string>TAA Debug Parameters</string>
+			<key>visualizerName</key>
+			<string>com.apple.realitycheck.embedded-layout</string>
+		</dict>
+	</array>
+</dict>
+</plist>

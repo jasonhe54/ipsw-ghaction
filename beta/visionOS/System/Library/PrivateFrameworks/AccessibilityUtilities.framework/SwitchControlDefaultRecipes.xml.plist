@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Mappings</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>CenterTap</string>
+				<key>Optional</key>
+				<false/>
+				<key>SwitchOriginalAction</key>
+				<integer>103</integer>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>Exit</string>
+				<key>Optional</key>
+				<true/>
+				<key>SwitchOriginalAction</key>
+				<integer>104</integer>
+			</dict>
+		</array>
+		<key>MenuIconIdentifier</key>
+		<string>CenterTap</string>
+		<key>Timeout</key>
+		<real>60</real>
+		<key>UUID</key>
+		<string>27D17FD4-5CE5-482E-B440-D74A35AA11A4</string>
+		<key>UnlocalizedName</key>
+		<string>CENTER_TAP</string>
+	</dict>
+	<dict>
+		<key>Mappings</key>
+		<array>
+			<dict>
+				<key>Action</key>
+				<string>RightToLeftSwipe</string>
+				<key>Optional</key>
+				<false/>
+				<key>SwitchOriginalAction</key>
+				<integer>103</integer>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>LeftToRightSwipe</string>
+				<key>Optional</key>
+				<true/>
+				<key>SwitchOriginalAction</key>
+				<integer>104</integer>
+			</dict>
+		</array>
+		<key>MenuIconIdentifier</key>
+		<string>TurnPages</string>
+		<key>Timeout</key>
+		<integer>300</integer>
+		<key>UUID</key>
+		<string>167ACCA4-1C60-4AF6-A7E2-23736E507884</string>
+		<key>UnlocalizedName</key>
+		<string>TURN_PAGES</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>MEASURE_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>MEASURE_KEYWORDS</string>
+			<key>label</key>
+			<string>MEASURE</string>
+			<key>searchSectionID</key>
+			<string>MEASURE</string>
+			<key>searchURL</key>
+			<string>prefs:root=MEASURE</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>MEASURE</string>
+			<key>keywords</key>
+			<string>MEASURE_UNITS_KEYWORDS</string>
+			<key>label</key>
+			<string>MEASURE_UNITS</string>
+			<key>searchSectionID</key>
+			<string>MEASURE</string>
+			<key>searchURL</key>
+			<string>prefs:root=MEASURE#MEASURE_UNITS</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>MEASURE</string>
+			<key>keywords</key>
+			<string>IMPERIAL_KEYWORDS</string>
+			<key>label</key>
+			<string>IMPERIAL</string>
+			<key>searchSectionID</key>
+			<string>MEASURE</string>
+			<key>searchURL</key>
+			<string>prefs:root=MEASURE#Imperial</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>MEASURE</string>
+			<key>keywords</key>
+			<string>METRIC_KEYWORDS</string>
+			<key>label</key>
+			<string>METRIC</string>
+			<key>searchSectionID</key>
+			<string>MEASURE</string>
+			<key>searchURL</key>
+			<string>prefs:root=MEASURE#Metric</string>
+		</dict>
+	</array>
+	<key>specifierAttributes</key>
+	<dict>
+		<key>requiredCapabilities</key>
+		<array>
+			<dict>
+				<key>retail-kiosk-mode</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

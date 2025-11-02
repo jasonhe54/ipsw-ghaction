@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>Air Quality Index - contentDescription</string>
+			<key>keywords</key>
+			<string>Air Quality Index - keywords</string>
+			<key>label</key>
+			<string>Air Quality Index - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS#AirQualityPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Always in English - contentDescription</string>
+			<key>keywords</key>
+			<string>Always in English - keywords</string>
+			<key>label</key>
+			<string>Always in English - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS#LabelLanguageAlwaysUIPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Cycling - contentDescription</string>
+			<key>keywords</key>
+			<string>Cycling - keywords</string>
+			<key>label</key>
+			<string>Cycling - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS&amp;path=CyclingLinkPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Default Transportation Mode - contentDescription</string>
+			<key>keywords</key>
+			<string>Default Transportation Mode - keywords</string>
+			<key>label</key>
+			<string>Default Transportation Mode - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS#TransportTypePreferenceGroupID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Driving - contentDescription</string>
+			<key>keywords</key>
+			<string>Driving - keywords</string>
+			<key>label</key>
+			<string>Driving - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS&amp;path=DrivingLinkPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Maps - contentDescription</string>
+			<key>keywords</key>
+			<string>Maps - keywords</string>
+			<key>label</key>
+			<string>Maps - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Navigation Guidance - contentDescription</string>
+			<key>keywords</key>
+			<string>Navigation Guidance - keywords</string>
+			<key>label</key>
+			<string>Navigation Guidance - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS&amp;path=NavigationGuidanceLinkPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Parked Car - contentDescription</string>
+			<key>keywords</key>
+			<string>Parked Car - keywords</string>
+			<key>label</key>
+			<string>Parked Car - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS#ParkedCarPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Share ETA - contentDescription</string>
+			<key>keywords</key>
+			<string>Share ETA - keywords</string>
+			<key>label</key>
+			<string>Share ETA - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS#ShareETAPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Transit - contentDescription</string>
+			<key>keywords</key>
+			<string>Transit - keywords</string>
+			<key>label</key>
+			<string>Transit - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS&amp;path=TransitLinkPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Walking - contentDescription</string>
+			<key>keywords</key>
+			<string>Walking - keywords</string>
+			<key>label</key>
+			<string>Walking - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS&amp;path=WalkingLinkPreferenceID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>Weather Conditions - contentDescription</string>
+			<key>keywords</key>
+			<string>Weather Conditions - keywords</string>
+			<key>label</key>
+			<string>Weather Conditions - label</string>
+			<key>searchSectionID</key>
+			<string>MAPS</string>
+			<key>searchURL</key>
+			<string>prefs:root=MAPS#WeatherConditionsPreferenceID</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>bottom.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>45</integer>
+	<key>Bottom Left</key>
+	<string>ll.png</string>
+	<key>Bottom Right</key>
+	<string>lr.png</string>
+	<key>Left</key>
+	<string>left.png</string>
+	<key>Left Frame Inset</key>
+	<integer>130</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.29999999999999999</real>
+	<key>Right</key>
+	<string>right.png</string>
+	<key>Right Frame Inset</key>
+	<integer>118</integer>
+	<key>Stretch Tiles</key>
+	<integer>0</integer>
+	<key>Top</key>
+	<string>top.png</string>
+	<key>Top Frame Inset</key>
+	<integer>10</integer>
+	<key>Top Left</key>
+	<string>ul.png</string>
+	<key>Top Right</key>
+	<string>ur.png</string>
+	<key>name</key>
+	<string>photostack_v1</string>
+	<key>preview-image</key>
+	<string>photostack_thumbnail.png</string>
+</dict>
+</plist>

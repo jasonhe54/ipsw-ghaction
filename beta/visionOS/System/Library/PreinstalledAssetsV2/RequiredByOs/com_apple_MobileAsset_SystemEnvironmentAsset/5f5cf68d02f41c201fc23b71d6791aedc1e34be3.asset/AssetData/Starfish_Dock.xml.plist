@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundle</key>
+	<array>
+		<dict>
+			<key>curve</key>
+			<array>
+				<array>
+					<real>0.0</real>
+					<real>0.0</real>
+					<real>1.5</real>
+				</array>
+				<array>
+					<real>1</real>
+					<real>1</real>
+					<real>0.30000001192092896</real>
+				</array>
+			</array>
+			<key>name</key>
+			<string>Rotation</string>
+			<key>purpose</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>curve</key>
+			<array>
+				<array>
+					<real>0.0</real>
+					<real>0.0</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>1</real>
+					<real>1</real>
+					<real>0.0</real>
+				</array>
+			</array>
+			<key>name</key>
+			<string>Scale</string>
+			<key>purpose</key>
+			<integer>8</integer>
+		</dict>
+		<dict>
+			<key>curve</key>
+			<array>
+				<array>
+					<real>0.0</real>
+					<real>0.0</real>
+					<real>0.0</real>
+				</array>
+				<array>
+					<real>1</real>
+					<real>1</real>
+					<real>0.0</real>
+				</array>
+			</array>
+			<key>name</key>
+			<string>Translate</string>
+			<key>purpose</key>
+			<integer>32</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

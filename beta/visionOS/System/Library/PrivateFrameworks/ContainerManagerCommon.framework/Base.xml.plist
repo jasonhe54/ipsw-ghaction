@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>attemptMetadataReconstructionIfMissing</key>
+	<false/>
+	<key>containerConfiguration</key>
+	<dict>
+		<key>#Include</key>
+		<string>Containers</string>
+	</dict>
+	<key>errorOnPersonaPropagationFailure</key>
+	<false/>
+	<key>globalBundlePOSIXOwner</key>
+	<string>_installd</string>
+	<key>globalSystemPOSIXOwner</key>
+	<string>nobody</string>
+	<key>requireDataBackedPersona</key>
+	<false/>
+	<key>supportPersonasIfAvailable</key>
+	<true/>
+	<key>warnIfNotDataBackedPersona</key>
+	<false/>
+</dict>
+</plist>

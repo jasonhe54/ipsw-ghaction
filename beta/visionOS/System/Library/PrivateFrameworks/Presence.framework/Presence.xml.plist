@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppVisible</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AppVisible</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>BeardFadeComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Beard Fade Component</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>EyewearCustomization</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Eyewear Customization</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>EyewearPlacementComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Eyewear Placement Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>GroundingShadowComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Grounding Shadow Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>JointConfidenceComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Joint Confidence Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaAVCComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona AVC Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaBackgroundPicker</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona Background Picker</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaFrameSuspenderComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona Frame Suspender Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaPlacementComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona Placement Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaSkeletalPoseComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona Skeletal Pose Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaStateComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona State Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaVirtualCamera</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Persona Virtual Camera</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>RSSCameraAnchorPlacement</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>RSS Camera Anchor Placement</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>TexturedRepresentation</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Textured Representation</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>VoiceTransformComponent</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Voice Transform Component</string>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

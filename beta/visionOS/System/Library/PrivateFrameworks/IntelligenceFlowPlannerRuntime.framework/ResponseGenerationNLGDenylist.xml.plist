@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.apple.mobilenotes.InsertNoteLinkLinkAction</string>
+	<string>com.apple.reminders.IncludeDueTodayEntity</string>
+	<string>com.apple.reminders.MuteNotificationsEntity</string>
+	<string>com.apple.reminders.ShowAsOverdueEntity</string>
+	<string>com.apple.reminders.ShowSuggestionsEntity</string>
+	<string>com.apple.reminders.TodayNotificationEntity</string>
+	<string>com.apple.mobilesafari.AutoFillContactInfoEntity</string>
+	<string>com.apple.mobilesafari.AutoFillCreditCardEntity</string>
+	<string>com.apple.mobilesafari.BlockPopUpsEntity</string>
+	<string>com.apple.mobilesafari.OpenLinksInBackgroundEntity</string>
+	<string>com.apple.mobilesafari.CloseTabsModeEntity</string>
+	<string>com.apple.mobilesafari.LandscapeTabBarEntity</string>
+	<string>com.apple.mobilesafari.SafariSuggestionsEntity</string>
+	<string>com.apple.mobilesafari.SearchEngineEntity</string>
+	<string>com.apple.mobilesafari.TabBarLayoutEntity</string>
+	<string>com.apple.mobilesafari.TabLayoutEntity</string>
+	<string>com.apple.mobilesafari.PrivateSearchEngineEntity</string>
+	<string>com.apple.mobilesafari.SearchEngineSuggestionsEntity</string>
+	<string>com.apple.shortcuts.CreateShortcutiCloudLinkAction</string>
+</array>
+</plist>

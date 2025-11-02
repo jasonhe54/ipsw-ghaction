@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowedAlgorithmModeForResourceConfiguration</key>
+	<dict>
+		<key>arkit/worldTracking/SLAMPredictedPoseStateIsNominal/bool</key>
+		<array>
+			<string>ARWorldTrackingAlgorithmModeTravel</string>
+		</array>
+		<key>odt/accessoryTracking/tracking</key>
+		<array>
+			<string>ODTTrackingAlgorithmModeDisabled</string>
+		</array>
+	</dict>
+</dict>
+</plist>

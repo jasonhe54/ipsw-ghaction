@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>keywords</key>
+			<string>DIGITAL_CROWN_KEYWORDS</string>
+			<key>label</key>
+			<string>DIGITAL_CROWN</string>
+			<key>searchSectionID</key>
+			<string>DigitalCrown</string>
+			<key>searchURL</key>
+			<string>prefs:root=DigitalCrown</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>MuseCrownSettingsSearchManifest</string>
+</dict>
+</plist>

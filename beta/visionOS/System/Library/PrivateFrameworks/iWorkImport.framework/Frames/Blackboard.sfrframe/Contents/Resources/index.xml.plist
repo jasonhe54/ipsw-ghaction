@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Adornment</key>
+	<string>Blackboard_tape.tif</string>
+	<key>Adornment Location Absolute</key>
+	<real>0.0</real>
+	<key>Adornment Location Relative</key>
+	<real>0.5</real>
+	<key>Bottom Frame Inset</key>
+	<integer>0</integer>
+	<key>Display</key>
+	<false/>
+	<key>Left Frame Inset</key>
+	<integer>0</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.10000000149011612</real>
+	<key>Right Frame Inset</key>
+	<integer>0</integer>
+	<key>Stretch Tiles</key>
+	<integer>0</integer>
+	<key>Top Frame Inset</key>
+	<integer>0</integer>
+	<key>name</key>
+	<string>Blackboard</string>
+	<key>preview-image</key>
+	<string>Blackboard.png</string>
+</dict>
+</plist>

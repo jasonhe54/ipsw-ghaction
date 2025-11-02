@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CommonJoints</key>
+	<dict>
+		<key>LeftElbow</key>
+		<string>LeftElbow</string>
+		<key>LeftShoulder</key>
+		<string>LeftShoulder</string>
+		<key>LeftWrist</key>
+		<string>LeftWrist</string>
+		<key>RightElbow</key>
+		<string>RightElbow</string>
+		<key>RightShoulder</key>
+		<string>RightShoulder</string>
+		<key>RightWrist</key>
+		<string>RightWrist</string>
+	</dict>
+	<key>JointNames</key>
+	<array>
+		<string>MidShoulder</string>
+		<string>RightClavicle</string>
+		<string>RightShoulder</string>
+		<string>RightElbow</string>
+		<string>RightWrist</string>
+		<string>LeftClavicle</string>
+		<string>LeftShoulder</string>
+		<string>LeftElbow</string>
+		<string>LeftWrist</string>
+	</array>
+	<key>Metadata</key>
+	<dict>
+		<key>DefinitionType</key>
+		<string>NutrinoArmLengthEnrollment</string>
+		<key>Version</key>
+		<integer>1</integer>
+	</dict>
+	<key>ParentIndices</key>
+	<array>
+		<integer>-1</integer>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>0</integer>
+		<integer>5</integer>
+		<integer>6</integer>
+		<integer>7</integer>
+	</array>
+</dict>
+</plist>

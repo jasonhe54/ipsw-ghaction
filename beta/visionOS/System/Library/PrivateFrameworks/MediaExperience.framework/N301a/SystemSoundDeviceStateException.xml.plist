@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Exception</key>
+	<array>
+		<string>AuthenticationStart</string>
+		<string>AuthenticationVerifying</string>
+		<string>AuthenticationMatch_Full</string>
+		<string>AuthenticationMatch_Short</string>
+		<string>AuthenticationNoMatch</string>
+		<string>CameraShutter</string>
+		<string>CameraShutterAlwaysHeard</string>
+		<string>CameraShutterAlt</string>
+		<string>CameraShutterAltAlwaysHeard</string>
+		<string>BeginVideoRecording</string>
+		<string>BeginVideoRecordingAlwaysHeard</string>
+		<string>EndVideoRecording</string>
+		<string>EndVideoRecordingAlwaysHeard</string>
+		<string>LowPower</string>
+		<string>ConnectedToPower</string>
+	</array>
+</dict>
+</plist>

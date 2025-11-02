@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_accessoryupdater</string>
+	<key>Label</key>
+	<string>com.apple.uarpassetmanagerd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.UARPAssetManager.periodicFirmwareCheck</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Delay</key>
+				<integer>300</integer>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.uarpassetmanager.settings</key>
+		<true/>
+		<key>com.apple.uarpassetmanager.uarp</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/uarpassetmanagerd</string>
+	</array>
+	<key>PublishesEvents</key>
+	<string>com.apple.uarp.assetavailability</string>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>_accessoryupdater</string>
+</dict>
+</plist>

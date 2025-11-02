@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sections</key>
+	<array>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>comma</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>,</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>fullstop</string>
+						<string>dot</string>
+						<string>point</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>.</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>period</string>
+					</array>
+					<key>Comment</key>
+					<string>US, Canadian &amp; Indian English only</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>.</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>question mark</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>?</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>exclamation mark</string>
+						<string>exclamation point</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>!</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>semicolon</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>;</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>colon</string>
+						<string>colon mark</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>:</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>quote</string>
+						<string>open quote</string>
+						<string>open double quote</string>
+						<string>begin quote</string>
+						<string>begin double quote</string>
+						<string>open quotes</string>
+						<string>open double quotes</string>
+						<string>begin quotes</string>
+						<string>begin double quotes</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>"</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>unquote</string>
+						<string>close quote</string>
+						<string>close double quote</string>
+						<string>end quote</string>
+						<string>end double quote</string>
+						<string>close quotes</string>
+						<string>close double quotes</string>
+						<string>end quotes</string>
+						<string>end double quotes</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>"</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open single quote</string>
+						<string>begin single quote</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>'</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close single quote</string>
+						<string>end single quote</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>'</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>apostrophe</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>'</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>slash</string>
+						<string>forward slash</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>/</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>backslash</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>\</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>hyphen</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>-</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>dash</string>
+						<string>double dash</string>
+						<string>en-dash</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>–</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>em-dash</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>—</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>underscore</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>_</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>ellipsis</string>
+						<string>dot-dot-dot</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>…</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open paren</string>
+						<string>open parenthesis</string>
+						<string>left paren</string>
+						<string>left parenthesis</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>(</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close paren</string>
+						<string>close parenthesis</string>
+						<string>right parenthesis</string>
+						<string>right paren</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>)</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open bracket</string>
+						<string>left bracket</string>
+					</array>
+					<key>Comment</key>
+					<string>UK, Australian &amp; Indian English only</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>(</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close bracket</string>
+						<string>right bracket</string>
+					</array>
+					<key>Comment</key>
+					<string>UK, Australian &amp; Indian English only</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>)</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open bracket</string>
+						<string>open square bracket</string>
+						<string>left bracket</string>
+						<string>left square bracket</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>[</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close bracket</string>
+						<string>close square bracket</string>
+						<string>right bracket</string>
+						<string>right square bracket</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>]</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open bracket</string>
+						<string>left bracket</string>
+					</array>
+					<key>Comment</key>
+					<string>US &amp; Canadian English only</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>[</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close bracket</string>
+						<string>right bracket</string>
+					</array>
+					<key>Comment</key>
+					<string>US &amp; Canadian English only</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>]</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open brace</string>
+						<string>open curly brace</string>
+						<string>open curly bracket</string>
+						<string>left brace</string>
+						<string>left curly brace</string>
+						<string>left curly bracket</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>{</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close brace</string>
+						<string>close curly brace</string>
+						<string>close curly bracket</string>
+						<string>right brace</string>
+						<string>right curly brace</string>
+						<string>right curly bracket</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>}</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>open angle bracket</string>
+						<string>left angle bracket</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>&lt;</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>close angle bracket</string>
+						<string>right angle bracket</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>&gt;</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Punctuation</string>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>space bar</string>
+					</array>
+					<key>Comment</key>
+					<string>Inserts space character.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>no break space</string>
+						<string>unbreakable space</string>
+						<string>nonbreakable space</string>
+					</array>
+					<key>Comment</key>
+					<string>Inserts nonbreaking space character.</string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>tab key</string>
+					</array>
+					<key>Comment</key>
+					<string>Moves the cursor to the next tab stop.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>new line</string>
+						<string>next line</string>
+					</array>
+					<key>Comment</key>
+					<string>Inserts return character.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>new paragraph</string>
+						<string>next paragraph</string>
+					</array>
+					<key>Comment</key>
+					<string>Inserts two return characters.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>numeral</string>
+					</array>
+					<key>Comment</key>
+					<string>Formats the next phrase as a number.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>roman numeral</string>
+					</array>
+					<key>Comment</key>
+					<string>Formats the next phrase as a Roman numeral.</string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>all caps</string>
+					</array>
+					<key>Comment</key>
+					<string>Formats the next word in ALL CAPS.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>all caps on</string>
+					</array>
+					<key>Comment</key>
+					<string>Formats the next phrase in ALL CAPS.</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Formatting</string>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>at</string>
+						<string>at sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>@</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>ampersand</string>
+						<string>and sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>&amp;</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>number sign</string>
+						<string>hash mark</string>
+						<string>hash sign</string>
+						<string>hash tag</string>
+						<string>sharp sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>#</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>pound sign</string>
+					</array>
+					<key>Comment</key>
+					<string>US &amp; Canadian English only</string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>#</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>asterisk</string>
+						<string>star</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>*</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>add sign</string>
+						<string>plus sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>+</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>minus sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>-</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>multiplication sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>×</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>division sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>÷</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>equal sign</string>
+						<string>equals sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>=</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>less than sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>&lt;</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>greater than sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>&gt;</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>backquote</string>
+						<string>back tick</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>`</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>vertical bar</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>|</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>broken vertical bar</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>¦</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>tilde</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>~</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>percent sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>%</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>dollar sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>All</string>
+					<key>Result</key>
+					<string>$</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>pound sterling sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>£</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>pound sign</string>
+					</array>
+					<key>Comment</key>
+					<string>UK, Australian &amp; Indian English only</string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>£</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>euro sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>€</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>yen sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>¥</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>guilder sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>Ƒ</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>smiley face</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>:-)</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>frowny face</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>:-(</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>winky face</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>;-)</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>copyright sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>©</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>registered sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>®</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>trademark sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>™</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Section sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>§</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Paragraph sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>¶</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>degree sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>°</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>center dot</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>·</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>large center dot</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>•</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>inverted question mark</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>¿</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>apostrophe-ess</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>'s</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>superscript one</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>¹</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>superscript two</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>²</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>one quarter</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>1/4</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>one half</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>1/2</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>three quarters</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>3/4</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>logical and</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>&amp;&amp;</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>logical not sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>¬</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>single dagger sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>†</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>feminine ordinal sign</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Dictation</string>
+					<key>Result</key>
+					<string>ª</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Typography</string>
+		</dict>
+		<dict>
+			<key>Items</key>
+			<array>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Alfa</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>a</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Bravo</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>b</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Charlie</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>c</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Delta</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>d</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Echo</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>e</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Foxtrot</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>f</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Golf</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>g</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Hotel</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>h</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>India</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>i</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Juliett</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>j</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Kilo</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>k</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Lima</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>l</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Mike</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>m</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>November</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>n</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Oscar</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>o</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Papa</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>p</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Quebec</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>q</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Romeo</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>r</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Sierra</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>s</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Tango</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>t</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Uniform</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>u</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Victor</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>v</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Whiskey</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>w</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>X-ray</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>x</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Yankee</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>y</string>
+				</dict>
+				<dict>
+					<key>CommandStrings</key>
+					<array>
+						<string>Zulu</string>
+					</array>
+					<key>Comment</key>
+					<string></string>
+					<key>Mode</key>
+					<string>Spelling</string>
+					<key>Result</key>
+					<string>z</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Character</string>
+		</dict>
+	</array>
+</dict>
+</plist>

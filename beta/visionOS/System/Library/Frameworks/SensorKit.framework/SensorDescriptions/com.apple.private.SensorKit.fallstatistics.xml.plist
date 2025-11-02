@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthService</key>
+	<string>kTCCServiceSensorKitWatchFallStats</string>
+	<key>AuthorizationStoreCohort</key>
+	<string>locationd</string>
+	<key>Name</key>
+	<string>com.apple.private.SensorKit.fallstatistics</string>
+	<key>RelatedSettingsCategories</key>
+	<array>
+		<string>Motion</string>
+	</array>
+	<key>SRInfoPlistAuthCategory</key>
+	<string>SRSensorUsageFallStatistics</string>
+	<key>SampleClass</key>
+	<string>CMFallStats</string>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.installcoordination_proxy</string>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/InstallCoordination.framework/Support/installcoordination_proxy</string>
+	</array>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.remote.installcoordination_proxy</key>
+		<dict>
+			<key>ExposedToUntrustedDevices</key>
+			<array>
+				<string>HasInternalSecurityPolicies</string>
+			</array>
+			<key>RequireEntitlement</key>
+			<string>com.apple.private.InstallCoordinationRemote</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>ServiceVersion</key>
+				<integer>1</integer>
+				<key>UsesRemoteXPC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

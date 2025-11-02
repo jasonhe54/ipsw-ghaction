@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>23A344014</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Capture</string>
+	<key>CFBundleExecutable</key>
+	<string>Capture</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<string>AppIcon</string>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.Capture</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Capture</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>195.40.2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>XROS</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIsPrivate</key>
+			<true/>
+			<key>CFBundleURLName</key>
+			<string>Capture Launch URL</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>capture</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>195.40.2</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string></string>
+	<key>DTPlatformName</key>
+	<string>xros</string>
+	<key>DTPlatformVersion</key>
+	<string>26.1</string>
+	<key>DTSDKBuild</key>
+	<string>23N37</string>
+	<key>DTSDKName</key>
+	<string>xros26.1.internal</string>
+	<key>DTXcode</key>
+	<string>2600</string>
+	<key>DTXcodeBuild</key>
+	<string>17A6264l</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>26.1</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Capture uses Contacts to identify people in photos, albums, and Memories.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is used to tag where photos and videos are taken, which improves photos search and Memories.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photos access allows you to save photos and videos to your photo library.</string>
+	<key>NSRegulatoryPrivacyDisclosure</key>
+	<dict>
+		<key>NSRegulatoryPrivacyDisclosureCamera</key>
+		<string>Camera access allows you to take photos and videos.</string>
+		<key>NSRegulatoryPrivacyDisclosureContacts</key>
+		<string>Contacts access allows you to identify people in photos. The app will request permission before accessing this information.</string>
+		<key>NSRegulatoryPrivacyDisclosureLocation</key>
+		<string>Location access allows you to tag where photos and videos are taken, which improves photos search and Memories. The app will request permission before accessing this information.</string>
+		<key>NSRegulatoryPrivacyDisclosureMediaLibrary</key>
+		<string>Media Library access allows Capture to curate music for Memories.</string>
+		<key>NSRegulatoryPrivacyDisclosureMicrophone</key>
+		<string>Microphone access allows you to take videos with audio.</string>
+		<key>NSRegulatoryPrivacyDisclosurePhotos</key>
+		<string>Photos access allows you to save photos and videos to your photo library.</string>
+		<key>NSRegulatoryPrivacyDisclosureSummary</key>
+		<string>To capture photos and video, Capture may access sensors such as your camera and microphone and data such as your photos. You can learn more about how your data is used or continue to start using Capture.</string>
+		<key>NSRegulatoryPrivacyDisclosureTitle</key>
+		<string>Welcome to Capture</string>
+		<key>NSRegulatoryPrivacyDisclosureVersion</key>
+		<string>1.0</string>
+	</dict>
+	<key>SBAppTags</key>
+	<array>
+		<string>searchable</string>
+		<string>quittable</string>
+		<string>hidden</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SFCamera-Bold.ttf</string>
+		<string>SFCamera-Heavy.ttf</string>
+		<string>SFCamera-Light.ttf</string>
+		<string>SFCamera-Medium.ttf</string>
+		<string>SFCamera-Regular.ttf</string>
+		<string>SFCamera-Semibold.ttf</string>
+		<string>SFCamera-Thin.ttf</string>
+		<string>SFCamera-Ultralight.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Recording Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>Capture.RecordingSceneDelegate</string>
+				</dict>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>One Up Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>Capture.OneUpSceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>7</integer>
+	</array>
+	<key>UILaunchPlacementParameters</key>
+	<dict>
+		<key>PreferredLaunchSize</key>
+		<dict>
+			<key>Depth</key>
+			<integer>272</integer>
+			<key>Height</key>
+			<integer>720</integer>
+			<key>Width</key>
+			<integer>1280</integer>
+		</dict>
+	</dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

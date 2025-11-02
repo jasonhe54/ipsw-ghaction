@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.apple.AirDropWolfControlCenterModule</string>
+	<string>com.apple.accessibility.controlcenter.MuseAccessibilityShortcutsModule</string>
+	<string>com.apple.accessibility.controlcenter.MuseAccessibilityHearingModule</string>
+	<string>com.apple.accessibility.controlcenter.MuseAccessibilityGuidedAccessModule</string>
+	<string>com.apple.accessibility.controlcenter.MuseAccessibilityTextSizeModule</string>
+	<string>com.apple.accessibility.controlcenter.MuseAccessibilitySoundRecognitionModule</string>
+	<string>com.apple.arkit.TravelModule</string>
+	<string>com.apple.DDUIVisionPairingModule</string>
+	<string>com.apple.mediaremote.controlcenter.MediaControlsAudioModuleWolf</string>
+	<string>com.apple.mediaremote.controlcenter.MediaControlsMirroringModuleWolf</string>
+	<string>com.apple.mediaremote.controlcenter.MediaControlsModuleWolf</string>
+	<string>com.apple.MRSiri.controlcenter.SiriModule</string>
+	<string>com.apple.facetime.NearbyControlCenter</string>
+	<string>com.apple.printcenter.controlcentermodule</string>
+	<string>com.apple.replaykit.controlcenter.screencapture</string>
+	<string>com.apple.Spotlight.SpotlightControlCenterModule</string>
+	<string>com.apple.SurfBoard.controlcenter.AirplaneModule</string>
+	<string>com.apple.SurfBoard.controlcenter.BluetoothModule</string>
+	<string>com.apple.SurfBoard.controlcenter.ConnectivityModule</string>
+	<string>com.apple.SurfBoard.controlcenter.FocusModule</string>
+	<string>com.apple.SurfBoard.controlcenter.HomeModule</string>
+	<string>com.apple.SurfBoard.controlcenter.ReturnToServiceModule</string>
+	<string>com.apple.SurfBoard.controlcenter.SharingModeModule</string>
+	<string>com.apple.SystemEnvironments.controlcenter.EnvironmentsModule</string>
+	<string>com.apple.sidecar-control-center-module</string>
+</array>
+</plist>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>SafariAutoFillSettingsController</string>
+			<key>id</key>
+			<string>AUTO_FILL</string>
+			<key>label</key>
+			<string>AutoFill</string>
+			<key>safariAvailable</key>
+			<string>isAutoFillAvailable:</string>
+			<key>safariRestricted</key>
+			<string>isAutoFillRestricted:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerCellClass</key>
+			<string>PSFooterHyperlinkView</string>
+			<key>id</key>
+			<string>PRIVACY</string>
+			<key>label</key>
+			<string>Privacy</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>trackerProtectionEnabled</string>
+			<key>id</key>
+			<string>TRACKER_PROTECTION</string>
+			<key>label</key>
+			<string>Prevent Cross-Site Tracking</string>
+			<key>safariRestricted</key>
+			<string>isTrackerProtectionRestricted:</string>
+			<key>set</key>
+			<string>safariToggleTrackerProtection:forSpecifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>containerBundleID</key>
+			<string>com.apple.mobilesafari</string>
+			<key>defaults</key>
+			<string>com.apple.mobilesafari</string>
+			<key>get</key>
+			<string>isSafariFraudWarningEnabled:</string>
+			<key>id</key>
+			<string>WARN_ABOUT_FRAUDULENT_WEBSITES</string>
+			<key>key</key>
+			<string>WarnAboutFraudulentWebsites</string>
+			<key>label</key>
+			<string>Fraudulent Website Warning</string>
+			<key>safariRestricted</key>
+			<string>isSafariFraudWarningRestricted:</string>
+			<key>set</key>
+			<string>safariFraudWarningsToggled:forSpecifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>HISTORY_AND_WEBSITE_DATA</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>showClearHistoryAndDataConfirmation:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>id</key>
+			<string>CLEAR_HISTORY_AND_DATA</string>
+			<key>label</key>
+			<string>Clear Data Button Title</string>
+			<key>safariRestricted</key>
+			<string>isClearHistoryRestricted:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SafariDeveloperSettingsController</string>
+			<key>id</key>
+			<string>ADVANCED</string>
+			<key>label</key>
+			<string>Advanced Button Title</string>
+			<key>searchPlist</key>
+			<string>Developer</string>
+		</dict>
+	</array>
+</dict>
+</plist>

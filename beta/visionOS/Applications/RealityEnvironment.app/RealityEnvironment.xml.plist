@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BackgroundWhenIdle</key>
+	<dict>
+		<key>Description</key>
+		<string>Background RealityEnvironment when it is not actively displaying content</string>
+		<key>DisplayName</key>
+		<string>Background When Idle</string>
+		<key>Enabled</key>
+		<true/>
+		<key>Radar</key>
+		<integer>98756338</integer>
+	</dict>
+	<key>EnableDebugTimeShuttle</key>
+	<dict>
+		<key>Description</key>
+		<string>Enable time shuttle debug scrubber</string>
+		<key>DisplayName</key>
+		<string>EnableDebugTimeShuttle</string>
+		<key>Enabled</key>
+		<false/>
+		<key>Radar</key>
+		<integer>107733606</integer>
+	</dict>
+	<key>EnvironmentsMixWithAll</key>
+	<dict>
+		<key>Description</key>
+		<string>Reality Environments mix with all</string>
+		<key>DisplayName</key>
+		<string>EnvironmentsMixWithAll</string>
+		<key>Enabled</key>
+		<false/>
+		<key>Radar</key>
+		<integer>104699873</integer>
+	</dict>
+	<key>ShowEnvironmentsOnSimulator</key>
+	<dict>
+		<key>Description</key>
+		<string>Show environments on simulator and kitten</string>
+		<key>DisplayName</key>
+		<string>ShowEnvironmentsOnSimulator</string>
+		<key>Enabled</key>
+		<false/>
+		<key>Radar</key>
+		<integer>107733606</integer>
+	</dict>
+</dict>
+</plist>

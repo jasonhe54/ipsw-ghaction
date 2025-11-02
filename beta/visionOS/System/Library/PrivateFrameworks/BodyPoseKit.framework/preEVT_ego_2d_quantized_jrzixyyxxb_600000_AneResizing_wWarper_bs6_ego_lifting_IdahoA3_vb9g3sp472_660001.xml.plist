@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Input</key>
+	<dict>
+		<key>Confidences</key>
+		<true/>
+		<key>EvtImageOrientations</key>
+		<false/>
+		<key>FocalLengthTensor</key>
+		<string>focal_length_xy</string>
+		<key>ImageHeight</key>
+		<integer>320</integer>
+		<key>ImageWidth</key>
+		<integer>320</integer>
+		<key>LiftingTimeSteps</key>
+		<integer>11</integer>
+		<key>PrincipalPointTensor</key>
+		<string>principal_point_xy</string>
+		<key>Rays</key>
+		<false/>
+		<key>VIO</key>
+		<false/>
+	</dict>
+	<key>Output</key>
+	<dict>
+		<key>HeatmapHeight</key>
+		<integer>64</integer>
+		<key>HeatmapWidth</key>
+		<integer>64</integer>
+		<key>JointNames</key>
+		<array>
+			<string>RightKnee</string>
+			<string>LeftKnee</string>
+			<string>RightAnkle</string>
+			<string>LeftAnkle</string>
+			<string>RightToeBase</string>
+			<string>LeftToeBase</string>
+			<string>RightShoulder</string>
+			<string>LeftShoulder</string>
+			<string>RightElbow</string>
+			<string>LeftElbow</string>
+			<string>RightWrist</string>
+			<string>LeftWrist</string>
+			<string>RightBaseKnuckle</string>
+			<string>LeftBaseKnuckle</string>
+			<string>RightHip</string>
+			<string>LeftHip</string>
+		</array>
+		<key>LiftingSkeletonDefinition</key>
+		<string>NutrinoArmLengthEnrollment</string>
+		<key>NumJoints</key>
+		<integer>16</integer>
+		<key>outputsHeatmap</key>
+		<false/>
+	</dict>
+	<key>Quantized</key>
+	<true/>
+</dict>
+</plist>

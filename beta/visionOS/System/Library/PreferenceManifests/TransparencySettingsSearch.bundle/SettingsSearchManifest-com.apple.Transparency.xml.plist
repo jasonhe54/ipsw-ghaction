@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>KEY_TRANSPARENCY_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>KEY_TRANSPARENCY_KEYWORDS</string>
+			<key>label</key>
+			<string>KEY_TRANSPARENCY</string>
+			<key>searchSectionID</key>
+			<string>APPLE_ACCOUNT</string>
+			<key>searchURL</key>
+			<string>prefs:root=APPLE_ACCOUNT&amp;path=TRANSPARENCY</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SettingsSearchManifest</string>
+</dict>
+</plist>

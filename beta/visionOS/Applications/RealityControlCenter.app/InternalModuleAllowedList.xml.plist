@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.apple.ContextualConnectivity.CXCNetworkProbeModule</string>
+	<string>com.apple.CoreRE.CAREDumpControlCenterModule</string>
+	<string>com.apple.GazeTester.GazeTesterCaptureModule</string>
+	<string>com.apple.NaturalInputSupport.ControlCenterRecordingModule</string>
+	<string>com.apple.StreamReceiverModule</string>
+	<string>com.apple.TDGPerfTools.controlcenter.PerformanceTraceModule</string>
+	<string>com.apple.TapToRadar.ControlCenterModule</string>
+</array>
+</plist>

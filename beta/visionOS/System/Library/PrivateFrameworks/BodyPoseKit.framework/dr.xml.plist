@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Input</key>
+	<dict>
+		<key>CameraInputs</key>
+		<array>
+			<string>dcaml_image</string>
+			<string>dcamr_image</string>
+			<string>jcaml_image</string>
+			<string>jcamr_image</string>
+			<string>scaml_image</string>
+			<string>scamr_image</string>
+		</array>
+		<key>ImageHeight</key>
+		<integer>320</integer>
+		<key>ImageWidth</key>
+		<integer>320</integer>
+	</dict>
+	<key>Quantized</key>
+	<true/>
+</dict>
+</plist>

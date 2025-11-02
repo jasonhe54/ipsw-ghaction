@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.instruments.deviceservice</string>
+	<key>LimitLoadToDeveloperMode</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.instruments.deviceservice.lockdown.secure</key>
+		<true/>
+		<key>com.apple.instruments.deviceservice.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/DVTInstrumentsFoundation.framework/DTServiceHub</string>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.instruments.dtservicehub</key>
+		<dict>
+			<key>RequireEntitlement</key>
+			<string>com.apple.private.dt.instruments.dtservicehub.client</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>Features</key>
+				<array>
+					<string>com.apple.dt.profile</string>
+				</array>
+				<key>version</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>OYSTER_SETTINGS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>OYSTER_SETTINGS_KEYWORDS</string>
+			<key>label</key>
+			<string>OYSTER_SETTINGS_TITLE</string>
+			<key>searchSectionID</key>
+			<string>PASSCODE</string>
+			<key>searchURL</key>
+			<string>prefs:root=PASSCODE&amp;path=OysterSettings</string>
+		</dict>
+	</array>
+</dict>
+</plist>

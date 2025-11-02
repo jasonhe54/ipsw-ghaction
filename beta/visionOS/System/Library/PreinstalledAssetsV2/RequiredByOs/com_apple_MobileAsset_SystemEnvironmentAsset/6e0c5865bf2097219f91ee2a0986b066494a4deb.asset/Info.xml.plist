@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.MobileAsset.SystemEnvironmentAsset</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SystemEnvironmentAsset-Wolf</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>MobileAssetProperties</key>
+	<dict>
+		<key>ContentMajorVersion</key>
+		<integer>1</integer>
+		<key>ContentMinorVersion</key>
+		<integer>73</integer>
+		<key>EnvironmentKey</key>
+		<string>Wolf</string>
+		<key>_CompatibilityVersion</key>
+		<integer>1</integer>
+		<key>__AssetDefaultGarbageCollectionBehavior</key>
+		<string>NeverCollected</string>
+		<key>__RequiredByOS</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

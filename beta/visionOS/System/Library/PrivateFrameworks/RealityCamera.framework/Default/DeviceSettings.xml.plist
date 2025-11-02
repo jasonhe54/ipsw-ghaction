@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>platformSettings</key>
+	<dict>
+		<key>clientSocketPath</key>
+		<string>/var/run/rcclient.sock</string>
+		<key>enableXPC</key>
+		<true/>
+		<key>socketPath</key>
+		<string>/var/run/rc.sock</string>
+		<key>sourceType</key>
+		<string>VEC</string>
+	</dict>
+</dict>
+</plist>

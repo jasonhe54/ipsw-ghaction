@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.containermanagerd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.containermanagerd</key>
+		<true/>
+		<key>com.apple.containermanagerd.upcall</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>25</integer>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/containermanagerd</string>
+		<string>--runmode=agent</string>
+		<string>--user-container-mode=fixed</string>
+		<string>--bundle-container-mode=proxy</string>
+		<string>--bundle-container-owner=_installd</string>
+		<string>--system-container-mode=proxy</string>
+		<string>--system-container-owner=root</string>
+		<string>--kernel-upcall=yes</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>_PanicOnCrash</key>
+	<dict>
+		<key>InternalOnly</key>
+		<true/>
+		<key>PanicOnConsecutiveCrash</key>
+		<true/>
+		<key>PanicOnCrashDeadline</key>
+		<integer>60</integer>
+	</dict>
+</dict>
+</plist>

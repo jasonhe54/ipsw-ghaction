@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CallRecording</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>Captions</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>ControlCenterButton</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>GazeController</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>LimitConfirmActivityNotifications</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>LiveVoicemail</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>NearbyFaceTime</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>NearbyPersonaOptimization</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>NearbyShareChrome</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PersonaSessionUI</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>SharePlaySFXViaInCallService</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>UnreliableChannelSyncMessages</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

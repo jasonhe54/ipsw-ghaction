@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>da</key>
+		<array>
+			<string>da_DK</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>da_DK</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Danish</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>Hardware</key>
+			<dict>
+				<key>Layout</key>
+				<string>Danish</string>
+				<key>USBCountry</key>
+				<integer>6</integer>
+			</dict>
+			<key>KeyboardCPAllowsDeleteWord</key>
+			<true/>
+			<key>KeyboardCPEnabled</key>
+			<true/>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY-Danish</string>
+			</array>
+			<key>UIKeyboardEnablePrediction</key>
+			<true/>
+			<key>UIKeyboardHasWordNgramModel</key>
+			<true/>
+			<key>UIKeyboardNonstopPunctuationCharacters</key>
+			<string>-'&amp;`’</string>
+			<key>UIKeyboardPreferredMultilingualLanguageModelLocale</key>
+			<string>mul_154</string>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+			<key>UIKeyboardSupportsMultilingual</key>
+			<true/>
+			<key>UIKeyboardSupportsWatch</key>
+			<true/>
+			<key>UIKeyboardTypeToSiriUnderDevelopment</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

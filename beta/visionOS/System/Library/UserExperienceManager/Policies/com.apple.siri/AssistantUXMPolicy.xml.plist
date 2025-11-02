@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UXM_COPRESENCE_SESSION_STATE_SELECTION_POLICY</key>
+	<dict>
+		<key>DEFAULT_SELECTION_POLICY</key>
+		<dict>
+			<key>ASR_ASSISTANT</key>
+			<string>DEFAULT</string>
+			<key>ASR_DICTATION</key>
+			<string>DEFAULT</string>
+			<key>TTS</key>
+			<string>DEFAULT</string>
+		</dict>
+		<key>UXM_IN_COPRESENCE_SESSION</key>
+		<dict>
+			<key>ASR_ASSISTANT</key>
+			<string>DEFAULT</string>
+			<key>ASR_DICTATION</key>
+			<string>DEFAULT</string>
+			<key>TTS</key>
+			<string>DEFAULT</string>
+		</dict>
+	</dict>
+	<key>UXM_THERMAL_MITIGATION_THRESHOLD_POLICY</key>
+	<dict>
+		<key>UXM_THERMAL_MITIGATION_0</key>
+		<dict>
+			<key>ASR_ASSISTANT</key>
+			<string>DEFAULT</string>
+			<key>ASR_DICTATION</key>
+			<string>DEFAULT</string>
+			<key>TTS</key>
+			<string>DEFAULT</string>
+		</dict>
+		<key>UXM_THERMAL_MITIGATION_14</key>
+		<dict>
+			<key>ASR_ASSISTANT</key>
+			<string>DISABLED</string>
+			<key>ASR_DICTATION</key>
+			<string>DISABLED</string>
+			<key>TTS</key>
+			<string>DISABLED</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

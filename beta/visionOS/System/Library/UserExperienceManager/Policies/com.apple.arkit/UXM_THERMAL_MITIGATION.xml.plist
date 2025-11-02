@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UXM_THERMAL_MITIGATION_11</key>
+	<dict>
+		<key>maxFrequencyForResourceConfiguration</key>
+		<dict>
+			<key>MeshList-Output</key>
+			<integer>1</integer>
+			<key>UserBodyTracking-IBT-output</key>
+			<integer>15</integer>
+			<key>arkit/faceRepresentation/ARFaceRepresentationRef</key>
+			<integer>15</integer>
+		</dict>
+	</dict>
+	<key>UXM_THERMAL_MITIGATION_13</key>
+	<dict>
+		<key>allowedAlgorithmModeForResourceConfiguration</key>
+		<dict>
+			<key>MeshList-Output</key>
+			<array>
+				<string>ARMeshReconstructionMonitor</string>
+			</array>
+		</dict>
+	</dict>
+	<key>UXM_THERMAL_MITIGATION_14</key>
+	<dict>
+		<key>maxFrequencyForResourceConfiguration</key>
+		<dict>
+			<key>VGEyeSightRenderingInput</key>
+			<integer>15</integer>
+			<key>gaze_data_shared_resource</key>
+			<integer>45</integer>
+			<key>odt/accessoryTracking/tracking</key>
+			<integer>15</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

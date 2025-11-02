@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-Bold</key>
+	<string>tebal</string>
+	<key>UI-Buy</key>
+	<string>Beli</string>
+	<key>UI-Cancel</key>
+	<string>Batalkan</string>
+	<key>UI-Clear</key>
+	<string>Bersihkan</string>
+	<key>UI-Confirm</key>
+	<string>Mengesahkan</string>
+	<key>UI-Continue</key>
+	<string>Lanjutkan</string>
+	<key>UI-Copy</key>
+	<string>salin</string>
+	<key>UI-Cut</key>
+	<string>potong</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Delete</key>
+	<string>Hapus</string>
+	<key>UI-Done</key>
+	<string>Selesai</string>
+	<key>UI-EmergencyCall</key>
+	<string>Tel Darurat</string>
+	<key>UI-Go</key>
+	<string>Masuk</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>ID</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Italic</key>
+	<string>cetak miring</string>
+	<key>UI-Join</key>
+	<string>Gabung</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Bahasa Indonesia</string>
+	<key>UI-Next</key>
+	<string>Berikut</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>ABC</string>
+	<key>UI-NumberPad-3</key>
+	<string>DEF</string>
+	<key>UI-NumberPad-4</key>
+	<string>GHI</string>
+	<key>UI-NumberPad-5</key>
+	<string>JKL</string>
+	<key>UI-NumberPad-6</key>
+	<string>MNO</string>
+	<key>UI-NumberPad-7</key>
+	<string>PQRS</string>
+	<key>UI-NumberPad-8</key>
+	<string>TUV</string>
+	<key>UI-NumberPad-9</key>
+	<string>WXYZ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>tempel</string>
+	<key>UI-Pause</key>
+	<string>jeda</string>
+	<key>UI-Prediction</key>
+	<string>Gesek ke bawah untuk menutup</string>
+	<key>UI-Recents</key>
+	<string>Terbaru</string>
+	<key>UI-Redo</key>
+	<string>Ulang</string>
+	<key>UI-Return</key>
+	<string>Kembali</string>
+	<key>UI-Route</key>
+	<string>Rute</string>
+	<key>UI-Search</key>
+	<string>Cari</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>Berikutnya</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>Berikutnya</string>
+	<key>UI-Send</key>
+	<string>Kirim</string>
+	<key>UI-Space</key>
+	<string>Spasi</string>
+	<key>UI-Speak</key>
+	<string>Ucapkan</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .id .org .edu .net</string>
+		<key>Strings</key>
+		<string>.com .id .org .edu .net</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>garis bawah</string>
+	<key>UI-Undo</key>
+	<string>Batalkan</string>
+	<key>UI-Wait</key>
+	<string>tunggu</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

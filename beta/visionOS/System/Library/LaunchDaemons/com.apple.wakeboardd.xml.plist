@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AbandonProcessGroup</key>
+	<true/>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>#IfVariant</key>
+		<string>HasInternalContent</string>
+		<key>#Then</key>
+		<dict>
+			<key>OBJC_DEBUG_DUPLICATE_CLASSES</key>
+			<string>FATAL</string>
+			<key>OBJC_DEBUG_MISSING_POOLS</key>
+			<string>FATAL</string>
+		</dict>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.wakeboardd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.wakeboard.hmdpresentable.owner</key>
+		<true/>
+		<key>com.apple.wakeboard.hmdpresentable.postprocess</key>
+		<true/>
+		<key>com.apple.wakeboard.hmdpresentableserver</key>
+		<true/>
+		<key>com.apple.wakeboard.hmdproperties</key>
+		<true/>
+		<key>com.apple.wakeboard.hmdsystemsetter</key>
+		<true/>
+		<key>com.apple.wakeboard.watchdog</key>
+		<true/>
+		<key>com.apple.wakeboardd.system</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/wakeboardd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+</dict>
+</plist>

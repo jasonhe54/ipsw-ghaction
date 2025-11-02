@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.apple.pairedsync.nanoprefsyncdfirst</string>
+	<string>com.apple.pairedsync.appconduitd.appstate</string>
+	<string>com.apple.pairedsync.tccd</string>
+	<string>com.apple.pairedsync.locationauth</string>
+	<string>com.apple.pairedsync.nanoprefsyncd</string>
+	<string>com.apple.pairedsync.coreduet</string>
+	<string>com.apple.pairedsync.clockface</string>
+	<string>com.apple.pairedsync.watchconnectivity.complications</string>
+	<string>com.apple.pairedsync.bulletindistributor</string>
+	<string>com.apple.pairedsync.eventkitsync</string>
+	<string>com.apple.pairedsync.healthd</string>
+	<string>com.apple.pairedsync.addressbooksyncd</string>
+	<string>com.apple.pairedsync.passbook</string>
+	<string>com.apple.pairedsync.nptocompaniond</string>
+	<string>com.apple.pairedsync.mail</string>
+	<string>com.apple.pairedsync.nanophone</string>
+	<string>com.apple.pairedsync.mapssync</string>
+	<string>com.apple.pairedsync.siri</string>
+	<string>com.apple.pairedsync.companionappd</string>
+	<string>com.apple.pairedsync.appconduitd</string>
+	<string>com.apple.pairedsync.nanosystemsettings</string>
+	<string>com.apple.pairedsync.callhistory</string>
+	<string>com.apple.pairedsync.locationd</string>
+	<string>com.apple.pairedsync.atc</string>
+</array>
+</plist>

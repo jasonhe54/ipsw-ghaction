@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A/B Groups</key>
+	<dict>
+		<key>Seed</key>
+		<integer>0</integer>
+		<key>Test1</key>
+		<dict>
+			<key>A/B Activation</key>
+			<dict>
+				<key>Modulo</key>
+				<integer>256</integer>
+				<key>Range</key>
+				<string>{0,100}</string>
+			</dict>
+			<key>LuceneContextEngine</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>Blacklist</key>
+	<dict>
+		<key>Portrait</key>
+		<array/>
+		<key>Title</key>
+		<array/>
+	</dict>
+	<key>LuceneContextEngine</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+		<key>IndexPath</key>
+		<string></string>
+		<key>MinRelativeScore</key>
+		<real>0.29999999999999999</real>
+	</dict>
+</dict>
+</plist>

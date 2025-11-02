@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.togetherd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.accounts.changes</key>
+		<dict>
+			<key>AppleAccountAddedOrChanged</key>
+			<dict>
+				<key>com.apple.account.AppleAccount</key>
+				<dict>
+					<key>ChangeTypes</key>
+					<array>
+						<integer>1</integer>
+						<integer>2</integer>
+						<integer>3</integer>
+					</array>
+				</dict>
+			</dict>
+			<key>IDMSAccountChanged</key>
+			<dict>
+				<key>com.apple.account.idms</key>
+				<dict>
+					<key>AllChanges</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.mobile.keybagd.lock_status</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobile.keybagd.lock_status</string>
+			</dict>
+		</dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>OnIncomingRequest</key>
+			<dict>
+				<key>serviceType</key>
+				<string>TogetherSpatialService</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.togetherd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/togetherd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

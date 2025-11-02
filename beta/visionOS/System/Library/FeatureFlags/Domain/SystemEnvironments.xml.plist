@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplyDiffuseLightspillContentBrightnessScale</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>ApplySpecularLightspillContentBrightnessScale</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>DisablePartialMix</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>EnableDynamicLighting</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>EnableManualBootstrap</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>EnableVideoTextures</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>ForceAmbientIntoQuad</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>PrecompileShaderGraphMaterialsOnBoot</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ASSERTION_ALLOW</key>
+	<array>
+		<string>com.apple.accessibility.AccessibilityMRServer</string>
+		<string>com.apple.backboardd</string>
+		<string>com.apple.facetime</string>
+		<string>com.apple.sawctl</string>
+		<string>com.apple.Capture</string>
+		<string>com.apple.MuseBuddy</string>
+		<string>com.apple.PassbookUISceneService</string>
+		<string>com.apple.Preferences</string>
+		<string>com.apple.RealityBreakthrough</string>
+		<string>com.apple.RealityCoverSheet</string>
+		<string>com.apple.SeaLevelAdjustment</string>
+		<string>com.apple.SurfBoard</string>
+		<string>com.apple.UserRepresentationEnrollmentUI</string>
+		<string>com.apple.UserRepresentationEnrollmentUI.ViewExtension</string>
+	</array>
+	<key>BREAKTHROUGH_SHAPE</key>
+	<array>
+		<string>com.apple.AwarenessToyBox</string>
+		<string>com.apple.sawctl</string>
+		<string>com.apple.situationalawareness</string>
+		<string>com.apple.RealityKeyboard</string>
+		<string>com.apple.sidecar</string>
+		<string>com.apple.sidecar-relay</string>
+		<string>com.apple.SurfBoard</string>
+	</array>
+	<key>BREAKTHROUGH_SHAPE_FROM_ANCHOR_ID</key>
+	<array>
+		<string>com.apple.sawctl</string>
+		<string>com.apple.situationalawareness</string>
+		<string>com.apple.AwarenessToyBox</string>
+		<string>com.apple.sidecar-relay</string>
+		<string>com.apple.sidecar</string>
+		<string>com.apple.SurfBoard</string>
+	</array>
+	<key>CUSTOM_PERSON_BREAKTHROUGH_SETTINGS_ALLOW</key>
+	<array>
+		<string>com.apple.facetime</string>
+		<string>com.apple.sawctl</string>
+	</array>
+	<key>DISABLE_RENDERING_ALLOW</key>
+	<array>
+		<string>com.apple.RealityBreakthrough</string>
+		<string>com.apple.backboardd</string>
+	</array>
+	<key>PASSTHROUGH_REVEAL</key>
+	<array>
+		<string>com.apple.SurfBoard</string>
+	</array>
+	<key>SETTINGS_ALLOW</key>
+	<array>
+		<string>com.apple.RealityBreakthrough</string>
+		<string>com.apple.sawctl</string>
+		<string>com.apple.Preferences</string>
+		<string>com.apple.backboardd</string>
+	</array>
+	<key>SYSTEM_BREAKTHROUGH_PROCESS</key>
+	<array>
+		<string>com.apple.backboardd</string>
+	</array>
+</dict>
+</plist>

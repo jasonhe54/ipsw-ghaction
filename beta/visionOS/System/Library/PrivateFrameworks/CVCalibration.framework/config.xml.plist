@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ForceDeviceType</key>
+	<string></string>
+	<key>ForceSerialNumber</key>
+	<string></string>
+	<key>InitialIPD</key>
+	<string>65</string>
+	<key>ServiceType</key>
+	<string>xpcd</string>
+</dict>
+</plist>

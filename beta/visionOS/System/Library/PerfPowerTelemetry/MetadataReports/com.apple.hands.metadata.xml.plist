@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metrics</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>hands</string>
+			<key>datatype</key>
+			<integer>7</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>mode</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>mode</string>
+			<key>privacyClassification</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>2</integer>
+			<key>subsystem</key>
+			<string>Arkit</string>
+			<key>timeToLive</key>
+			<integer>1</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>hands</string>
+			<key>datatype</key>
+			<integer>7</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>mode</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>duration</string>
+			<key>privacyClassification</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>2</integer>
+			<key>subsystem</key>
+			<string>Arkit</string>
+			<key>timeToLive</key>
+			<integer>1</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
