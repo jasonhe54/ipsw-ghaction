@@ -4,27 +4,32 @@ import json
 import sys
 import concurrent.futures
 import multiprocessing
+import time
 
 # --- Error Handling ---
 # This list will be populated by the main thread after results are collected
 errorArrayWithFilepaths = []
 def printErrorArray():
+    """ MODIFIED: All print statements now go to sys.stderr """
     if len(errorArrayWithFilepaths) == 0:
         return
-    print(f'\n--- ⚠️ Encountered Errors ---')
+    print(f'\n--- ⚠️ Encountered Errors ---', file=sys.stderr)
     for error in errorArrayWithFilepaths:
-        print(f"  Function: {error['function']}")
-        print(f"  File: {error['filepath']}")
-        print(f"  Error: {error['errorMessage'].strip()}")
-        print(f"  ---------------------")
-    print(f'--- End of Error Report ---\n')
+        print(f"  Function: {error['function']}", file=sys.stderr)
+        print(f"  File: {error['filepath']}", file=sys.stderr)
+        print(f"  Error: {error['errorMessage'].strip()}", file=sys.stderr)
+        print(f"  ---------------------", file=sys.stderr)
+    print(f'--- End of Error Report ---\n', file=sys.stderr)
 
 # --- Argument Parsing ---
+# MODIFIED: Removed all --quiet logic
+
 if len(sys.argv) < 3:
-    print("ERROR: Missing arguments.")
-    print("Usage: python py.py <source_folder> <destination_folder>")
-    print("  <source_folder>: e.g., ./mounted_dmg/System")
-    print("  <destination_folder>: e.g., ./beta/iOS/System")
+    # MODIFIED: All error/usage prints go to sys.stderr
+    print("ERROR: Missing arguments.", file=sys.stderr)
+    print("Usage: python py.py <source_folder> <destination_folder>", file=sys.stderr)
+    print("  <source_folder>: e.g., ./mounted_dmg/System", file=sys.stderr)
+    print("  <destination_folder>: e.g., ./beta/iOS/System", file=sys.stderr)
     sys.exit(1)
 
 parsedFolderPath = sys.argv[1]
@@ -33,11 +38,12 @@ finalBaseRepoPath = sys.argv[2]
 osSpecificRootPath = os.path.dirname(finalBaseRepoPath)
 finalBaseRepoImagesPath = os.path.join(osSpecificRootPath, "images")
 
-print(f"--- Starting Python Script ---")
-print(f"Reading from DMG folder: {parsedFolderPath}")
-print(f"Writing to repo folder:  {finalBaseRepoPath}")
-print(f"Writing images to:       {finalBaseRepoImagesPath}")
-print(f"------------------------------")
+# MODIFIED: All startup prints go to sys.stderr
+print(f"--- Starting Python Script ---", file=sys.stderr)
+print(f"Reading from DMG folder: {parsedFolderPath}", file=sys.stderr)
+print(f"Writing to repo folder:  {finalBaseRepoPath}", file=sys.stderr)
+print(f"Writing images to:       {finalBaseRepoImagesPath}", file=sys.stderr)
+print(f"------------------------------", file=sys.stderr)
 
 # --- Core Functions (Unchanged) ---
 def convert_loctable_to_strings(loctable_file):
@@ -152,23 +158,16 @@ def process_file_by_extension(file_path):
 def discover_files_fast(root_path, extensions):
     """
     Fast, optimized file discovery using os.walk.
-    Filters files by extension during discovery to minimize memory.
-    
-    os.walk is highly optimized in Python and faster than custom implementations
-    for most use cases, especially on macOS with APFS.
     """
     target_files = []
     
     try:
         for dirpath, dirnames, filenames in os.walk(root_path, topdown=True, followlinks=False):
-            # Filter files by extension during walk (memory efficient)
             for filename in filenames:
                 if any(filename.endswith(ext) for ext in extensions):
                     file_path = os.path.join(dirpath, filename)
                     target_files.append(file_path)
             
-            # Also check for symlinks that might be files
-            # os.walk doesn't yield symlinks separately, so we scan them
             try:
                 for entry in os.scandir(dirpath):
                     if entry.is_symlink():
@@ -179,43 +178,45 @@ def discover_files_fast(root_path, extensions):
                 continue
                 
     except (PermissionError, OSError) as e:
-        print(f"Warning: Could not access {root_path}: {e}")
+        # MODIFIED: Print warning to sys.stderr
+        print(f"Warning: Could not access {root_path}: {e}", file=sys.stderr)
     
     return target_files
 
 
-def find_and_process_files_streaming(folder_path):
+def find_and_process_files_streaming(folder_path): # MODIFIED: Removed IS_QUIET_FLAG
     """
-    Optimized for GitHub Actions 3-core runner:
-    1. Fast sequential discovery using os.walk (I/O bound, minimal overhead)
-    2. All cores dedicated to parallel processing (CPU/I/O bound work)
-    3. Batch submission with chunking for better process pool efficiency
+    Optimized for GitHub Actions 3-core runner.
     """
     
-    # On 3-core system: use all cores for processing
-    # Discovery is fast enough that it doesn't need parallelization
     cpu_count = multiprocessing.cpu_count()
-    max_workers = cpu_count  # Use all available cores
+    max_workers = cpu_count
     
-    print(f"Detected {cpu_count} CPU cores, using {max_workers} workers for processing...")
-    print(f"Starting file discovery in: {folder_path}")
+    # MODIFIED: All progress prints go to sys.stderr
+    print(f"Detected {cpu_count} CPU cores, using {max_workers} workers for processing...", file=sys.stderr)
+    print(f"Starting file discovery in: {folder_path}", file=sys.stderr)
     
-    # Target file extensions
     extensions = ('.loctable', '.png', '.jpg', '.heif', '.ico', '.plist')
     
-    # Fast discovery phase (typically completes in seconds even for 45k files)
-    import time
     start_time = time.time()
     target_files = discover_files_fast(folder_path, extensions)
     discovery_time = time.time() - start_time
     
-    print(f"Discovery complete in {discovery_time:.2f}s: found {len(target_files)} files to process")
+    # MODIFIED: All progress prints go to sys.stderr
+    print(f"Discovery complete in {discovery_time:.2f}s: found {len(target_files)} files to process", file=sys.stderr)
     
     if len(target_files) == 0:
-        print("No files to process.")
-        return
+        # MODIFIED: All progress prints go to sys.stderr
+        print("No files to process.", file=sys.stderr)
+        return {
+            "discovery_time_s": discovery_time,
+            "files_found": 0,
+            "valid_files_processed": 0,
+            "total_time_s": time.time() - start_time,
+            "avg_time_s": 0,
+            "error_count": 0
+        }
     
-    # Filter out broken symlinks before processing
     valid_files = []
     for file_path in target_files:
         if not os.path.exists(file_path):
@@ -227,47 +228,61 @@ def find_and_process_files_streaming(folder_path):
         else:
             valid_files.append(file_path)
     
-    print(f"Processing {len(valid_files)} valid files with {max_workers} workers...")
+    # MODIFIED: All progress prints go to sys.stderr
+    print(f"Processing {len(valid_files)} valid files with {max_workers} workers...", file=sys.stderr)
     
-    # Process files in parallel
     futures = []
     with concurrent.futures.ProcessPoolExecutor(max_workers=max_workers) as executor:
-        # Submit all files for processing
-        # Process pool handles queueing automatically
         for file_path in valid_files:
             future = executor.submit(process_file_by_extension, file_path)
             futures.append(future)
         
-        print(f"All {len(futures)} tasks submitted. Waiting for completion...")
+        # MODIFIED: All progress prints go to sys.stderr
+        print(f"All {len(futures)} tasks submitted. Waiting for completion...", file=sys.stderr)
         
-        # Collect results with progress tracking
         completed = 0
         for future in concurrent.futures.as_completed(futures):
             completed += 1
             
-            # Progress updates every 5%
+            # MODIFIED: Progress updates go to sys.stderr
             if completed % max(1, len(futures) // 20) == 0:
                 progress = (completed / len(futures)) * 100
-                print(f"Progress: {completed}/{len(futures)} ({progress:.1f}%)")
+                print(f"Progress: {completed}/{len(futures)} ({progress:.1f}%)", file=sys.stderr)
             
             try:
                 result = future.result()
-                if result:  # Error dictionary
+                if result:
                     errorArrayWithFilepaths.append(result)
             except Exception as e:
-                # Unexpected crash in worker
-                print(f"Unexpected error in worker: {e}")
+                # MODIFIED: Error print goes to sys.stderr
+                print(f"Unexpected error in worker: {e}", file=sys.stderr)
 
     total_time = time.time() - start_time
-    print(f"\nAll processing complete in {total_time:.2f}s ({total_time/60:.2f} minutes)")
-    print(f"Average: {total_time/len(valid_files):.3f}s per file")
-    printErrorArray()
+    avg_time = (total_time / len(valid_files)) if len(valid_files) > 0 else 0
+    
+    stats = {
+        "discovery_time_s": discovery_time,
+        "files_found": len(target_files),
+        "valid_files_processed": len(valid_files),
+        "total_time_s": total_time,
+        "avg_time_s": avg_time,
+        "error_count": len(errorArrayWithFilepaths)
+    }
+
+    # MODIFIED: Final human-readable summary goes to sys.stderr
+    print(f"\nAll processing complete in {stats['total_time_s']:.2f}s ({stats['total_time_s']/60:.2f} minutes)", file=sys.stderr)
+    if stats['valid_files_processed'] > 0:
+        print(f"Average: {stats['avg_time_s']:.3f}s per file", file=sys.stderr)
+    printErrorArray() # This function already prints to stderr
+
+    return stats
 
 
 # --- Main execution ---
 if __name__ == "__main__":
     if not os.path.isdir(parsedFolderPath):
-        print(f"ERROR: Provided folder path does not exist: {parsedFolderPath}")
+        print(f"ERROR: Provided folder path does not exist: {parsedFolderPath}", file=sys.stderr)
         sys.exit(1)
-        
-    find_and_process_files_streaming(parsedFolderPath)
+    stats = find_and_process_files_streaming(parsedFolderPath)
+    stats['errors'] = errorArrayWithFilepaths
+    print(json.dumps(stats))

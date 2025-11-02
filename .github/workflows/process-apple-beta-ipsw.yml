@@ -129,21 +129,60 @@ jobs:
           echo "Ensuring the 'beta' root directory exists..."
           mkdir -p beta
 
-      - name: 10. Run Python Analyzer Script
+      - name: 10. Run Python Analyzer Script and Log Stats
         run: |
           REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Python Processing Stats" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Folder | Duration | Files Found | Files Processed | Errors | Avg. Time (s) |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
 
-          echo "Running Python script for Applications... (Output: ${REPO_SAVE_PATH}/Applications)"
-          python py.py "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
-          
-          echo "Running Python script for Library... (Output: ${REPO_SAVE_PATH}/Library)"
-          python py.py "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
-          
-          echo "Running Python script for private... (Output: ${REPO_SAVE_PATH}/private)"
-          python py.py "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
-          
-          echo "Running Python script for System... (Output: ${REPO_SAVE_PATH}/System)"
-          python py.py "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          # --- Define a helper function to run and log each folder ---
+          run_and_log() {
+            FOLDER_NAME=$1
+            MOUNT_PATH=$2
+            REPO_PATH=$3
+            
+            echo "--- Processing $FOLDER_NAME ---"
+            
+            START_TIME=$(date +%s)
+            
+            JSON_OUTPUT=$(python py.py "$MOUNT_PATH" "$REPO_PATH")
+            
+            END_TIME=$(date +%s)
+            DURATION_S=$((END_TIME - START_TIME))
+            DURATION_FORMATTED=$(printf "%02d:%02d" $((DURATION_S/60)) $((DURATION_S%60)))
+
+            if ! echo "$JSON_OUTPUT" | jq empty; then
+              echo "::error::Failed to process $FOLDER_NAME. Output was not valid JSON."
+              echo "Raw output: $JSON_OUTPUT"
+              echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | *Failed* | *Failed* | *Failed* | *Failed* |" >> $GITHUB_STEP_SUMMARY
+              return
+            fi
+
+            FILES_FOUND=$(echo "$JSON_OUTPUT" | jq .files_found)
+            FILES_PROCESSED=$(echo "$JSON_OUTPUT" | jq .valid_files_processed)
+            ERROR_COUNT=$(echo "$JSON_OUTPUT" | jq .error_count)
+            AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
+
+            # This log line is good confirmation *after* the python script's logs
+            echo "Finished $FOLDER_NAME processing (Duration: $DURATION_FORMATTED)"
+
+            # Append to GitHub Job Summary
+            echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | $FILES_FOUND | $FILES_PROCESSED | $ERROR_COUNT | $AVG_TIME |" >> $GITHUB_STEP_SUMMARY
+            
+            if [[ "$ERROR_COUNT" -gt 0 ]]; then
+              echo "::warning::Encountered $ERROR_COUNT errors processing $FOLDER_NAME. See logs above for details."
+            fi
+          }
+
+          # --- Execute for each folder ---
+          run_and_log "Applications" "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
+          run_and_log "Library" "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
+          run_and_log "private" "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
+          run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
 
       - name: 11. Sanitize File Paths
         run: |
