@@ -56541,13 +56541,13 @@
 					<key>com.apple.ecosystem_analytics.runtime_analysis</key>
 					<dict>
 						<key>AllowBattery</key>
-						<true/>
+						<false/>
 						<key>Delay</key>
 						<integer>82800</integer>
 						<key>GracePeriod</key>
-						<integer>28800</integer>
+						<integer>604800</integer>
 						<key>Interval</key>
-						<integer>86400</integer>
+						<integer>604800</integer>
 						<key>Priority</key>
 						<string>Maintenance</string>
 						<key>Repeating</key>
@@ -56556,13 +56556,13 @@
 					<key>com.apple.ecosystem_analytics.static_analysis</key>
 					<dict>
 						<key>AllowBattery</key>
-						<true/>
+						<false/>
 						<key>Delay</key>
 						<integer>82800</integer>
 						<key>GracePeriod</key>
-						<integer>28800</integer>
+						<integer>604800</integer>
 						<key>Interval</key>
-						<integer>86400</integer>
+						<integer>604800</integer>
 						<key>Priority</key>
 						<string>Maintenance</string>
 						<key>Repeating</key>
@@ -59180,47 +59180,6 @@
 			<key>ProgramArguments</key>
 			<array>
 				<string>/usr/libexec/mmaintenanced</string>
-			</array>
-		</dict>
-		<key>/System/Library/LaunchDaemons/com.apple.memoryanalyticsd.plist</key>
-		<dict>
-			<key>EnablePressuredExit</key>
-			<true/>
-			<key>Label</key>
-			<string>com.apple.memoryanalyticsd</string>
-			<key>LaunchEvents</key>
-			<dict>
-				<key>com.apple.notifyd.matching</key>
-				<dict>
-					<key>com.apple.da.tasking_changed</key>
-					<dict>
-						<key>Notification</key>
-						<string>com.apple.da.tasking_changed</string>
-					</dict>
-				</dict>
-				<key>com.apple.xpc.activity</key>
-				<dict>
-					<key>com.apple.memoryanalyticsd.MTRandomMemgraphActivity</key>
-					<dict>
-						<key>AllowBattery</key>
-						<true/>
-						<key>ExpectedDuration</key>
-						<integer>600</integer>
-						<key>Interval</key>
-						<integer>3600</integer>
-						<key>Priority</key>
-						<string>Utility</string>
-						<key>Repeating</key>
-						<true/>
-					</dict>
-				</dict>
-			</dict>
-			<key>ProcessType</key>
-			<string>Background</string>
-			<key>ProgramArguments</key>
-			<array>
-				<string>/usr/libexec/memoryanalyticsd</string>
-				<string>-xlatSf</string>
 			</array>
 		</dict>
 		<key>/System/Library/LaunchDaemons/com.apple.metadata.mds.index.plist</key>
@@ -67121,6 +67080,8 @@
 		<string>/System/Library/PrivateFrameworks/Categories.framework/Versions/A/Categories</string>
 		<key>/System/Library/PrivateFrameworks/CentauriAlphaPatchBay.framework/CentauriAlphaPatchBay</key>
 		<string>/System/Library/PrivateFrameworks/CentauriAlphaPatchBay.framework/Versions/A/CentauriAlphaPatchBay</string>
+		<key>/System/Library/PrivateFrameworks/CentauriBetaPatchBay.framework/CentauriBetaPatchBay</key>
+		<string>/System/Library/PrivateFrameworks/CentauriBetaPatchBay.framework/Versions/A/CentauriBetaPatchBay</string>
 		<key>/System/Library/PrivateFrameworks/CharacterPicker.framework/CharacterPicker</key>
 		<string>/System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/CharacterPicker</string>
 		<key>/System/Library/PrivateFrameworks/Chirp.framework/Chirp</key>
@@ -75137,7 +75098,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -75163,7 +75124,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSBackgroundOnly</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>
@@ -76099,7 +76060,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSDoNotSetTaskPolicyAutomatically</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -76153,7 +76114,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSDoNotSetTaskPolicyAutomatically</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -76205,7 +76166,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSDoNotSetTaskPolicyAutomatically</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -76271,7 +76232,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>
@@ -76325,7 +76286,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSDoNotSetTaskPolicyAutomatically</key>
 						<true/>
 						<key>LSFileQuarantineEnabled</key>
@@ -77253,7 +77214,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.200.81.1.5</string>
+						<string>3864.200.81.1.6</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -79529,6 +79490,11 @@
 			</array>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/CentauriAlphaPatchBay.framework/Versions/A/CentauriAlphaPatchBay</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/CentauriBetaPatchBay.framework/Versions/A/CentauriBetaPatchBay</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -86645,7 +86611,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.200.81.1.5</string>
+						<string>3864.200.81.1.6</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -86680,7 +86646,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.200.81.1.5</string>
+						<string>3864.200.81.1.6</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -87279,7 +87245,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.200.81.1.5</string>
+						<string>3864.200.81.1.6</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -91600,7 +91566,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>NSPrincipalClass</key>
@@ -91648,7 +91614,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -91672,7 +91638,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -95552,7 +95518,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSMinimumSystemVersion</key>
 						<string>26.1</string>
 						<key>XPCService</key>
@@ -97089,7 +97055,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>
@@ -97131,7 +97097,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>
@@ -97171,7 +97137,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>
@@ -97225,7 +97191,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>
@@ -97279,7 +97245,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>21622.2.11.11.5</string>
+						<string>21622.2.11.11.9</string>
 						<key>LSFileQuarantineEnabled</key>
 						<true/>
 						<key>LSMinimumSystemVersion</key>

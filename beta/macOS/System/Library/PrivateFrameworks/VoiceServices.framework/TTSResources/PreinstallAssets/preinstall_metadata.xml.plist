@@ -13,28 +13,6 @@
 			<string>false</string>
 			<key>LanguagesCompatibility</key>
 			<array>
-				<string>kk-KZ</string>
-			</array>
-			<key>Name</key>
-			<string>aru</string>
-			<key>Type</key>
-			<string>neuralAX</string>
-			<key>_CompatibilityVersion</key>
-			<integer>68</integer>
-			<key>_ContentVersion</key>
-			<integer>1061</integer>
-			<key>_RelativePath</key>
-			<string>kk-KZ_aru</string>
-		</dict>
-		<dict>
-			<key>Footprint</key>
-			<string>compact</string>
-			<key>Gender</key>
-			<string>female</string>
-			<key>IsDialogCapable</key>
-			<string>false</string>
-			<key>LanguagesCompatibility</key>
-			<array>
 				<string>en-IN</string>
 				<string>hi-IN</string>
 				<string>gu-IN</string>
@@ -99,6 +77,28 @@
 			<integer>1064</integer>
 			<key>_RelativePath</key>
 			<string>lt-LT_ona</string>
+		</dict>
+		<dict>
+			<key>Footprint</key>
+			<string>compact</string>
+			<key>Gender</key>
+			<string>female</string>
+			<key>IsDialogCapable</key>
+			<string>false</string>
+			<key>LanguagesCompatibility</key>
+			<array>
+				<string>kk-KZ</string>
+			</array>
+			<key>Name</key>
+			<string>aru</string>
+			<key>Type</key>
+			<string>neuralAX</string>
+			<key>_CompatibilityVersion</key>
+			<integer>68</integer>
+			<key>_ContentVersion</key>
+			<integer>1061</integer>
+			<key>_RelativePath</key>
+			<string>kk-KZ_aru</string>
 		</dict>
 	</array>
 </dict>

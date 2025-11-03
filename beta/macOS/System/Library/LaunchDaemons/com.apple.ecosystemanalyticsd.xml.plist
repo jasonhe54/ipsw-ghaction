@@ -15,13 +15,13 @@
 			<key>com.apple.ecosystem_analytics.runtime_analysis</key>
 			<dict>
 				<key>AllowBattery</key>
-				<true/>
+				<false/>
 				<key>Delay</key>
 				<integer>82800</integer>
 				<key>GracePeriod</key>
-				<integer>28800</integer>
+				<integer>604800</integer>
 				<key>Interval</key>
-				<integer>86400</integer>
+				<integer>604800</integer>
 				<key>Priority</key>
 				<string>Maintenance</string>
 				<key>Repeating</key>
@@ -30,13 +30,13 @@
 			<key>com.apple.ecosystem_analytics.static_analysis</key>
 			<dict>
 				<key>AllowBattery</key>
-				<true/>
+				<false/>
 				<key>Delay</key>
 				<integer>82800</integer>
 				<key>GracePeriod</key>
-				<integer>28800</integer>
+				<integer>604800</integer>
 				<key>Interval</key>
-				<integer>86400</integer>
+				<integer>604800</integer>
 				<key>Priority</key>
 				<string>Maintenance</string>
 				<key>Repeating</key>

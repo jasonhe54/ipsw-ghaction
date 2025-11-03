@@ -14,8 +14,8 @@
 	<string>/var/spool/postfix</string>
 	<key>memberships</key>
 	<array>
-		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001E</string>
 		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001D</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001E</string>
 	</array>
 	<key>name</key>
 	<string>_postfix</string>

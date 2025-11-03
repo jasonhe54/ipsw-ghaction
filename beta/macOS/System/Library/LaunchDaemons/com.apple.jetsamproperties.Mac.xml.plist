@@ -3151,11 +3151,11 @@
 				<key>com.apple.WindowServer</key>
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
-					<integer>8000</integer>
+					<integer>-1</integer>
 					<key>EnergyEfficiencyMode</key>
 					<string>UserInterface</string>
 					<key>InactiveSoftMemoryLimit</key>
-					<integer>8000</integer>
+					<integer>-1</integer>
 					<key>JetsamPriority</key>
 					<integer>170</integer>
 					<key>MallocNanoZone</key>
