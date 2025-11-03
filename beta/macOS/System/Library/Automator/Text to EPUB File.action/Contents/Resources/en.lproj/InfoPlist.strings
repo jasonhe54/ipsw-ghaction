@@ -1,0 +1,11 @@
+"AMDResult" = "";
+"AMName" = "Text to EPUB File";
+"AMDSummary" = "This action creates a new EPUB document using text files passed from the previous action, combined with media files selected from within the action's interface. Each of the passed text files will become a chapter in the publication, with its title derived from the source text file name.";
+"AMDWebsite" = "http://padilicious.com/epub";
+"AMDRequires" = "";
+"title" = "My New Book";
+"AMDInput" = "";
+"AMDNote" = "";
+"NSHumanReadableCopyright" = "Copyright © 2010–2012 Apple Inc.  All rights reserved.";
+"AMDAlert" = "";
+"AMDOptions" = "The action supports the inclusion of movies (H.264 MPEG format), audio files (AAC MPEG format), and image files.";

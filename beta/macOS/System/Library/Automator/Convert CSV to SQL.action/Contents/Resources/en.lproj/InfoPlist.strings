@@ -1,0 +1,9 @@
+"AMName" = "Convert CSV to SQL";
+"AMDSummary" = "This action converts comma-separated value (CSV) input to SQL suitable for application to a database.";
+"Development" = "Development";
+"Xcode" = "Xcode";
+"AMDResult" = "One sequence of SQL commands per input.";
+"CFBundleName" = "Convert CSV to SQL";
+"AMDInput" = "One or more strings or files in comma-separated value format.";
+"NSHumanReadableCopyright" = "Copyright © 2009-2013 Apple Inc.  All rights reserved.";
+"AMDOptions" = "Supply SQL commands to be placed before the input, to be used in place of each line of input, and to be placed after the input.  Also indicate whether the first line of input is a header containing column names.  To substitute the value of a field in the current line of input, use the format %{field}@ where field is the number of the field starting from 1.  In the SQL to be placed before and after the input, the current line is the first line of input.";

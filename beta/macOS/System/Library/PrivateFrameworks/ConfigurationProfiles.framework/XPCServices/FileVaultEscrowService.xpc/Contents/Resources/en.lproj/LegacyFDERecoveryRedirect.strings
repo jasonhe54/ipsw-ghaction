@@ -1,0 +1,12 @@
+"str_LegacyFDERedirect_MissingEncryptionCert" = "The encryption certificate referenced by the %@ payload is missing.";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Legacy FileVault Recovery Key Redirection', 'other': 'Legacy FileVault Recovery Key Redirections (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_LegacyFDERecoveryRedirect_BadRedirectURL" = "The redirection URL in the %@ payload is invalid.";
+"str_LegacyFDERedirect_InvalidEncryptionCert" = "The encryption certificate referenced by the %@ payload is invalid or does not support encryption.";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"str_LegacyFDERecoveryRedirect_RedirectURLMustBeHTTPS" = "The redirection URL in the %@ payload must start with ‘https’.";
+"str_LegacyFDERedirect_SummaryNote" = "This payload is no longer supported (see details below).";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Legacy FileVault Recovery Key Redirection', 'other': '%lu Legacy FileVault Recovery Key Redirections', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Legacy FileVault Recovery Key Redirection', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_LegacyFDERedirect_NotSystemProfile" = "The profile is a user profile but contains a “%@” payload which is only valid in device profiles.";
+"str_LegacyFDERedirect_DetailValue" = "This payload is no longer supported and will prevent you from enabling FileVault with a Personal Recovery Key until you either remove this profile or install a profile with the new recovery key escrow payload of type ‘%@’.";
+"str_LegacyFDERedirect_DetailTitle" = "Warning!";

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.mobile.notification_proxy</string>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/notification_proxy</string>
+	</array>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.mobile.notification_proxy.remote</key>
+		<dict>
+			<key>ExposedToUntrustedDevices</key>
+			<array>
+				<string>PreSetup</string>
+				<string>HasInternalSecurityPolicies</string>
+			</array>
+			<key>RequireEntitlement</key>
+			<string>com.apple.mobile.notification_proxy.remote</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>ServiceVersion</key>
+				<integer>1</integer>
+				<key>UsesRemoteXPC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>UserName</key>
+	<string>_notification_proxy</string>
+</dict>
+</plist>

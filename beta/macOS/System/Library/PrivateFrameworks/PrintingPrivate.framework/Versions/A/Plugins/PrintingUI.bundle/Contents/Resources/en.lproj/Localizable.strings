@@ -1,0 +1,253 @@
+"Selection in %@" = "Selection in %@";
+"On" = "ON";
+"%@ On" = "%@ On";
+"Go to First Page" = "Go to First Page";
+"%@: %@
+  Top %@  Bottom %@
+  Left %@  Right %@" = "%@: %@
+  Top %@  Bottom %@
+  Left %@  Right %@";
+"Please enter a valid fax number." = "Please enter a valid fax number.";
+"Account ID: %@" = "Account ID: %@";
+"Page %@" = "Page %@";
+"Last updated yesterday at %@" = "Last updated yesterday at %@";
+"The %@ option, %@, isn't available, because the printer doesn't have the necessary hardware or the printer's available features aren't correctly set." = "The %1$@ option, %2$@, isn't available, because the printer doesn't have the necessary hardware or the printer's available features aren't correctly set.";
+"Generic PostScript Printer" = "Generic PostScript Printer";
+"Print Job Presets" = "Print Job Presets";
+"Print" = "Print";
+"Use Cover Page" = "Use Cover Page";
+"To set %@ to %@, select Continue. To keep %@ at its previous setting, select Cancel." = "To set %1$@ to %2$@, select Continue. To keep %3$@ at its previous setting, select Cancel.";
+"Left" = "Left";
+"The value in the "Height" field is out of range." = "The value in the "Height" field is out of range.";
+"Printing of jobs for this printer is stopped. Do you want to continue and resume the printing of jobs?" = "Printing of jobs for this printer is stopped. Do you want to continue and resume the printing of jobs?";
+"Open in Preview" = "Open in Preview";
+"Diagonal" = "Diagonal";
+"Portrait" = "Portrait";
+"Align text to the right" = "Align text to the right";
+"Single Hairline Border" = "Single Hairline Border";
+"Custom" = "Custom";
+"Resetting to valid value." = "Resetting to valid value.";
+" in" = " in";
+"Stop after Page %ld" = "Stop after Page %ld";
+"The printer is locked." = "The printer is locked.";
+"Align text to the left" = "Align text to the left";
+"%@ %@ will be scaled to %@
+" = "%1$@ %2$@ will be scaled to %3$@
+";
+"Job Preset" = "Job Preset";
+"Even numbered sheets" = "Even numbered sheets";
+"NUP_PAGES" = "{'Comment': 'pages per sheet (nUp) value', 'nUpPages': {'one': '1 page per sheet', 'other': '%ld pages per sheet', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%1$#@nUpPages@'}";
+"Watermark: %@" = "Watermark: %@";
+"All Sheets" = "All Sheets";
+"Two sided: %@" = "Two sided: %@";
+"Reversed Orientation" = "Reversed Orientation";
+"Destination paper: %@" = "Destination paper: %@";
+"Quality" = "Quality";
+"Add to Printer" = "Add to Printer";
+"Feed" = "Feed";
+"Changing the destination paper to %@ would cause a conflict that cannot be resolved. No change will be made." = "Changing the destination paper to %@ would cause a conflict that cannot be resolved. No change will be made.";
+"Passwords must contain fewer than 32 characters." = "Passwords must contain fewer than 32 characters.";
+"Finishing Template" = "Finishing Template";
+"No Presets Applied" = "No Presets Applied";
+"The value in the "Copies" field is out of range." = "The value in the "Copies" field is out of range.";
+"Flipped Horizontally" = "Flipped Horizontally";
+"%@ inch Roll" = "%@ inch Roll";
+"Add Printer..." = "Add Printer…";
+"%@ mm Roll" = "%@ mm Roll";
+"Skip Page %ld" = "Skip Page %ld";
+"Reverse sheet order" = "Reverse sheet order";
+"Passwords must contain only printable ASCII characters." = "Passwords must contain only printable ASCII characters.";
+"The value in the "Account ID" field is invalid. An Account ID must be entered." = "The value in the "Account ID" field is invalid. An Account ID must be entered.";
+"Page Attributes: %@" = "Page Attributes: %@";
+"Printers & Scanners Settings..." = "Printers & Scanners Settings…";
+" mm" = " mm";
+"To set %@ to %@, click Continue. To change the destination paper to its previous setting, click Cancel." = "To set %1$@ to %2$@, click Continue. To change the destination paper to its previous setting, click Cancel.";
+"Unknown" = "Unknown";
+"The passwords do not match." = "The passwords do not match.";
+"Right" = "Right";
+"Scale: %@" = "Scale: %@";
+"Reverse" = "Reverse";
+"Edit Menu..." = "Edit Menu…";
+"Collate Sheets" = "Collate Sheets";
+"No Presets" = "No Presets";
+"%" = "%";
+"Start at Page %ld" = "Start at Page %ld";
+"Save as PDF..." = "Save as PDF…";
+"Print As Booklet" = "Print As Booklet";
+"Finishing Templates" = "Finishing Templates";
+"To scale to fit to %@, click Continue. To change %@ to its previous setting, click Cancel." = "To scale to fit to %1$@, click Continue. To change %2$@ to its previous setting, click Cancel.";
+"Scale to fit paper size" = "Scale to fit paper size";
+" • " = " • ";
+"Scale To Fit: %@" = "Scale To Fit: %@";
+"Printer" = "Printer";
+"Scale Down Only" = "Scale Down Only";
+"Cover Page Subject: "%@"" = "Cover Page Subject: "%@"";
+"Add a custom paper size" = "Add a custom paper size";
+"Odd numbered sheets" = "Odd numbered sheets";
+"Thumbnail Context Menu" = "Thumbnail Context Menu";
+"None" = "None";
+"Paper Handling: %@" = "Paper Handling: %@";
+"Sheet %ld of %ld" = "Sheet %ld of %ld";
+"Finishing Template: %@" = "Finishing Template: %@";
+"Suggested Paper:" = "Suggested Paper:";
+"Cover Page Message: "%@"" = "Cover Page Message: "%@"";
+"Top-Bottom-Right-Left" = "Top-Bottom-Right-Left";
+"Last updated %@" = "Last updated %@";
+"Normal sheet order" = "Normal sheet order";
+"Untitled" = "Untitled";
+"This printer requires both an account ID and a PIN to print." = "This printer requires both an account ID and a PIN to print.";
+"After selecting "%@," the fields below are filled in with the values for "%@"'s margins" = "After selecting "%1$@," the fields below are filled in with the values for "%2$@"'s margins";
+"Sheets: %@" = "Sheets: %@";
+"Duplicate the selected paper size" = "Duplicate the selected paper size";
+"Save Current Settings as Preset..." = "Save Current Settings as Preset…";
+"Save" = "Save";
+"The value in the "PIN" field is invalid. A PIN must be %d digits." = "The value in the "PIN" field is invalid. A PIN must be %d digits.";
+"No Recipients" = "No Recipients";
+"This value is not supported by the selected printer." = "This value is not supported by the selected printer.";
+"Paper Type" = "Paper Type";
+"Layout: %@" = "Layout: %@";
+"%@" = "%@";
+"Print All Pages" = "Print All Pages";
+"Information Not Available" = "Information Not Available";
+"Printer Options" = "Printer Options";
+"The margins are too large." = "The margins are too large.";
+"This printer requires an account ID to print." = "This printer requires an account ID to print.";
+"Fax" = "Fax";
+"To:" = "To:";
+"Any Printer" = "Any Printer";
+"Date:" = "Date:";
+"%@ Scaling" = "%@ Scaling";
+"The page size limits as defined by the PPD are a minimum %@ of %@%@. and a maximum %@ of %@%@.
+
+%@" = "The page size limits as defined by the PPD are a minimum %1$@ of %2$@%3$@. and a maximum %4$@ of %5$@%6$@.
+
+%7$@";
+"Changing the setting of the destination paper to %@ will cause a conflict with another print setting. The following change can be made to resolve the conflict. To accept the change, select Continue. To revert the destination paper, select Cancel." = "Changing the setting of the destination paper to %@ will cause a conflict with another print setting. The following change can be made to resolve the conflict. To accept the change, select Continue. To revert the destination paper, select Cancel.";
+"Double Hairline Border" = "Double Hairline Border";
+"OK" = "OK";
+"the default setting" = "the default setting";
+"Please enter a value between %@ and %@.
+The value will be reset to its original value." = "Please enter a value between %1$@ and %2$@.
+The value will be reset to its original value.";
+"Please adjust the margins." = "Please adjust the margins.";
+"Presets" = "Presets";
+"Finishing Options: %@" = "Finishing Options: %@";
+"Default Settings" = "Default Settings";
+"The passwords must not be empty." = "The passwords must not be empty.";
+"width" = "width";
+"Remove the selected preset" = "Remove the selected preset";
+"Justify text (align to the left and right)" = "Justify text (align to the left and right)";
+"Advanced Selection..." = "Advanced Selection…";
+"Printer Options: %@" = "Printer Options: %@";
+"Gathering Supplies Information" = "Gathering Supplies Information";
+"The value in the "From" field is out of range." = "The value in the "From" field is out of range.";
+"Remove the selected paper size" = "Remove the selected paper size";
+"Location: %@" = "Location: %@";
+"Please contact the application's developer." = "Please contact the application's developer.";
+"Edit Preset List..." = "Edit Preset List…";
+"Align text to the center" = "Align text to the center";
+"The margin is too large." = "The margin is too large.";
+"Left-Right-Top-Bottom" = "Left-Right-Top-Bottom";
+"Even" = "Even";
+"Changing the setting of %@ to %@ causes a conflict that cannot be resolved. Suggest a setting of %@." = "Changing the setting of %1$@ to %2$@ causes a conflict that cannot be resolved. Suggest a setting of %3$@.";
+"Standard Presets" = "Standard Presets";
+"Changing the setting of %@ to %@ would cause a conflict that cannot be resolved. No change will be made." = "Changing the setting of %1$@ to %2$@ would cause a conflict that cannot be resolved. No change will be made.";
+"Paper Name: %@" = "Paper Name: %@";
+"Select Multiple Presets…" = "Select Multiple Presets…";
+"Page %ld" = "Page %ld";
+"Media Type" = "Media Type";
+"No preset selected" = "None";
+"The printer is stopped." = "The printer is stopped.";
+"Subject:" = "Subject:";
+"Best" = "Best";
+"If you do not want to resume the printing of jobs, you may add this job to the printer for later printing. If you select Resume and the printing of jobs cannot be resumed, this job will automatically be added to the printer." = "If you do not want to resume the printing of jobs, you may add this job to the printer for later printing. If you select Resume and the printing of jobs cannot be resumed, this job will automatically be added to the printer.";
+"Dialing Prefix: "%@"" = "Dialing Prefix: "%@"";
+"Changing "%@" to "%@" would cause an unresolvable conflict with the selected custom paper. No change will be made." = "Changing "%1$@" to "%2$@" would cause an unresolvable conflict with the selected custom paper. No change will be made.";
+"The values will be reset to their original values." = "The values will be reset to their original values.";
+""%@" is not a valid fax number." = ""%@" is not a valid fax number.";
+"Changing the setting of %@ to %@ will cause conflicts with other print settings. The following changes can be made to resolve the conflicts. To accept the changes, select Continue. To revert %@, select Cancel." = "Changing the setting of %1$@ to %2$@ will cause conflicts with other print settings. The following changes can be made to resolve the conflicts. To accept the changes, select Continue. To revert %3$@, select Cancel.";
+"Standard Options: %@" = "Standard Options: %@";
+"Orientation: %@" = "Orientation: %@";
+"Copies: %@" = "Copies: %@";
+"The value in the "Scale" field is out of range." = "The value in the "Scale" field is out of range.";
+"No Pages Selected" = "No Pages Selected";
+"Output Order: %@" = "Output Order: %@";
+"Odd" = "Odd";
+"The minimum margins as defined by the PPD are:
+top: %@%@
+left: %@%@
+right: %@%@
+bottom: %@%@
+
+%@" = "The minimum margins as defined by the PPD are:
+top: %1$@%2$@
+left: %3$@%4$@
+right: %5$@%6$@
+bottom: %7$@%8$@
+
+%9$@";
+"The value in the "Width" field is out of range." = "The value in the "Width" field is out of range.";
+"Continue" = "Continue";
+"Changing the setting of the destination paper to %@ will cause conflicts with other print settings. The following changes can be made to resolve the conflicts. To accept the changes, select Continue. To revert the destination paper, select Cancel." = "Changing the setting of the destination paper to %@ will cause conflicts with other print settings. The following changes can be made to resolve the conflicts. To accept the changes, select Continue. To revert the destination paper, select Cancel.";
+"The printer is remote." = "The printer is remote.";
+"The print settings cause conflicts in the PPD that cannot be resolved by CUPS." = "The print settings cause conflicts in the PPD that cannot be resolved by CUPS.";
+"The destination paper, %@, is not available when %@ is set to %@." = "The destination paper, %1$@, is not available when %2$@ is set to %3$@.";
+"On (short edge)" = "On (short edge)";
+"The %@ option, %@, is not available when the destination paper size is set to %@." = "The %1$@ option, %2$@, is not available when the destination paper size is set to %3$@.";
+"Top" = "Top";
+"%@-%@" = "%1$@-%2$@";
+"After selecting a printer, the fields below are filled in with the values for the driver's margins" = "After selecting a printer, the fields below are filled in with the values for the driver's margins";
+"The passwords can not be the same." = "The passwords can not be the same.";
+"Bottom" = "Bottom";
+"Copies & Pages" = "Copies & Pages";
+"Landscape" = "Landscape";
+"Draft" = "Draft";
+"Add Page %ld" = "Add Page %ld";
+"Single Thin Line Border" = "Single Thin Line Border";
+"Media & Quality: %@" = "Media & Quality: %@";
+"PDF" = "PDF";
+"Go to Last Page" = "Go to Last Page";
+"No Border" = "No Border";
+"The printer is offline." = "The printer is offline.";
+"Resume" = "Resume";
+"height" = "height";
+"Off" = "Off";
+"The value in the "to" field is out of range." = "The value in the "to" field is out of range.";
+"Multiple" = "Multiple";
+"Recipients:%@" = "Recipients:%@";
+"Color: %@" = "Color: %@";
+"Please enter a valid dialing prefix.
+Valid characters are #()*+,-.ABCDpw and the digits 0-9." = "Please enter a valid dialing prefix.
+Valid characters are #()*+,-.ABCDpw and the digits 0-9.";
+"Double Thin Line Border" = "Double Thin Line Border";
+"Last updated today at %@" = "Last updated today at %@";
+"This printer requires a PIN to print." = "This printer requires a PIN to print.";
+"%@ will be changed from %@ to %@
+" = "%1$@ will be changed from %2$@ to %3$@
+";
+""%@" is not a valid dialing prefix." = ""%@" is not a valid dialing prefix.";
+"This application does not support printing." = "This application does not support printing.";
+"The %@ option, %@, is not available when %@ is set to %@." = "The %1$@ option, %2$@, is not available when %3$@ is set to %4$@.";
+"Preset" = "Preset";
+"No Cover Page" = "No Cover Page";
+"No Printer Selected" = "No Printer Selected";
+"Offline Printers" = "Offline Printers";
+"%@: %@" = "%1$@: %2$@";
+"Page %ld of %ld" = "Page %ld of %ld";
+"Cancel" = "Cancel";
+"Nearby Printers" = "Nearby Printers";
+"Save as Postscript..." = "Save as Postscript…";
+"PAGE_RANGE_SUMMARY" = "{'Comment': 'page range label: pages to print value', 'totalPages': {'one': 'All Pages', 'other': 'All %ld Pages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%1$#@totalPages@'}";
+"From:" = "From:";
+"Collation Off" = "Collation Off";
+"Normal" = "Normal";
+"Right-Left-Top-Bottom" = "Right-Left-Top-Bottom";
+"Pages %@" = "Pages %@";
+"Sheets to follow:" = "Sheets to follow:";
+"PIN: %@" = "PIN: %@";
+""%@"" = ""%@"";
+"Last Used Settings" = "Last Used Settings";
+"Manage Custom Sizes..." = "Manage Custom Sizes…";
+"Top-Bottom-Left-Right" = "Top-Bottom-Left-Right";
+"On (long edge)" = "On (long edge)";
+"Scale Down Only: %@" = "Scale Down Only: %@";

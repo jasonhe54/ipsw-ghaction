@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Versions</key>
+	<dict>
+		<key>ArtistsExceptions</key>
+		<dict>
+			<key>buildID</key>
+			<string>1.4</string>
+			<key>changelist</key>
+			<integer>222742</integer>
+		</dict>
+		<key>ConditionerRules</key>
+		<dict>
+			<key>buildID</key>
+			<string>1.4</string>
+			<key>changelist</key>
+			<integer>222093</integer>
+		</dict>
+		<key>LanguageDetectorModels</key>
+		<dict>
+			<key>buildID</key>
+			<string>1.4</string>
+			<key>changelist</key>
+			<integer>214034</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

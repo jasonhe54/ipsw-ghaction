@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CVCategoryData</key>
+	<dict>
+		<key>CVSkipNullGlyphs</key>
+		<true/>
+		<key>DataArray</key>
+		<array>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-RightArrows</string>
+				<key>Data</key>
+				<string>→,⇒,⟹,⇨,⇾,➾,⇢,☛,☞,➔,➜,➙,➛,➝,➞,➟,➠,➡︎,➢,➣,➤,➥,➦,➧,➨,⥤,⇀,⇁,⥛,⥟,⇰,➩,➪,➫,➬,➭,➮,➯,➱,0x1F8A1,0x1F8A3,0x1F8A5,0x1F8A7,0x1F8A9,0x1F8AB,➲,➳,➵,➸,➻,➺,➼,➽,⟶,⇉,⇶,⇛,⇏,⤃,↛,↝,⤳,↣,↠,↦,⟼,⤅,⤇,⟾,⇥,⥓,⥗,⇝,⟿,↬,⇴,⇸,⇻,⤀,⤁,⤍,⤏,⤐,⤑,⤔,⤕,⤖,⤗,⤘,⤙,⤛,⤞,⤠,⤻,⤼,⥅,⥴,⥵,⥱,⥲,⥇,⥈,⥬,⥭,0x1F802,0x1F806,0x1F80A,0x1F812,0x1F816,0x1F81A,0x1F81E,0x1F822,0x1F826,0x1F82A,0x1F82E,0x1F832,0x1F836,0x1F83A,0x1F83E,0x1F840,0x1F842,0x1F846,0x1F852,0x1F862,0x1F86A,0x1F872,0x1F87A,0x1F882,0x1F892,0x1F896,0x1F89A</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-LeftArrows</string>
+				<key>Data</key>
+				<string>←,⇐,⟸,⇦,⇽,⇠,☚,☜,⬅︎,⥢,⟵,↼,↽,⥚,0x1F8A0,0x1F8A2,0x1F8A4,0x1F8A6,0x1F8A8,0x1F8AA,↚,↜,↢,↞,↤,⟻,⤆,⟽,⇇,⇤,⥒,⥖,⥞,⇚,⇍,⤂,⇜,↫,⇷,⇺,⤌,⤎,⤚,⤜,⤝,⤟,⤺,⤽,⥆,⥳,⥪,⥫,0x1F800,0x1F804,0x1F808,0x1F810,0x1F814,0x1F818,0x1F81C,0x1F820,0x1F824,0x1F828,0x1F82C,0x1F830,0x1F834,0x1F838,0x1F83C,0x1F844,0x1F850,0x1F860,0x1F868,0x1F870,0x1F878,0x1F880,0x1F890,0x1F894,0x1F898</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-UpArrows</string>
+				<key>Data</key>
+				<string>↑,⇑,⇡,☝︎,⬆︎,⇧,⇪,⥣,↟,↾,↿,⥔,⥘,⥜,⥠,⟰,⤊,↥,⇫,⇬,⇭,⇮,⇯,⇈,⤉,⇞,⤒,⥉,0x1F801,0x1F805,0x1F809,0x1F811,0x1F815,0x1F819,0x1F81D,0x1F821,0x1F825,0x1F829,0x1F82D,0x1F831,0x1F835,0x1F839,0x1F83D,0x1F841,0x1F845,0x1F851,0x1F861,0x1F869,0x1F871,0x1F879,0x1F881,0x1F891,0x1F895,0x1F899</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-DownArrows</string>
+				<key>Data</key>
+				<string>↓,⇓,⇩,⇣,☟,⬇︎,⥥,↡,⇂,⇃,⥝,⥡,⇊,⟱,⤋,↧,⥕,⥙,↯,⤈,⇟,⤓,0x1F803,0x1F807,0x1F80B,0x1F813,0x1F817,0x1F81B,0x1F81F,0x1F823,0x1F827,0x1F82B,0x1F82F,0x1F833,0x1F837,0x1F83B,0x1F83F,0x1F843,0x1F847,0x1F853,0x1F863,0x1F86B,0x1F873,0x1F87B,0x1F883,0x1F893,0x1F897,0x1F89B</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-LeftRightArrows</string>
+				<key>Data</key>
+				<string>↔︎,⇔,⟺,⬄,⇿,⬌,⟷,0x1F858,⥊,⥋,⥎,⥐,⥦,⥧,⥨,⥩,⥪,⥫,⥬,⥭,⇋,⇌,⇄,⇆,↹,⇎,⤄,↭,↮,⇹,⇼,⥂,⥃,⥄</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-UpDownArrows</string>
+				<key>Data</key>
+				<string>↕︎,⇕,⇳,⬍,0x1F859,⥌,⥍,⥏,⥑,⥮,⥯,⇅,↨,⇵</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-MiscArrows</string>
+				<key>Data</key>
+				<string>↘︎,➘,⇘,⬂,⬊,⇲,➷,➴,⤥,⤵︎,⤷,0x1F856,0x1F866,0x1F86E,0x1F876,0x1F87E,0x1F886,↗︎,➚,⇗,⬀,⬈,➹,➶,⤤,⤴︎,0x1F855,0x1F865,0x1F86D,0x1F875,0x1F87D,0x1F885,↖︎,⇖,⬁,⬉,⤣,↸,⇱,0x1F854,0x1F864,0x1F86C,0x1F874,0x1F87C,0x1F884,↙︎,⇙,⬃,⬋,⤦,⤶,⤹,0x1F857,0x1F867,0x1F86F,0x1F877,0x1F87F,0x1F887,⤡,⤢,⤸,↵,↲,↩︎,↳,↪︎,↰,↱,↴,↶,↷,↺,⟲,⥀,↻,⟳,⤾,⤿,⤺,⤻,⤼,⤽,⥆,⥅,⥁,⤧,⤨,⤩,⤪,⤫,⤬,⤭,⤮,⤯,⤰,⤱,⤲,⥶,⥷,⥸,⥺,⥰,⥹,⥻,⥼,⥽,⥾,⥿,⎯,⏐,0x1F89C,0x1F89D,0x1F89E,0x1F89F,0x1F8AC,0x1F8AD</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

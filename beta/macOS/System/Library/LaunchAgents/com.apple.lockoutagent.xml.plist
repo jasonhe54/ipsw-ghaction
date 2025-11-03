@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.lockoutagent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.ManagedSettings.effective-settings.changed</key>
+		<dict>
+			<key>com.apple.lockoutservice.effective-settings</key>
+			<dict>
+				<key>SettingsGroups</key>
+				<array>
+					<string>shield</string>
+				</array>
+			</dict>
+		</dict>
+		<key>com.apple.lockout.lifecycle</key>
+		<dict>
+			<key>com.apple.lockout.lifecycle</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.lockout.lifecycle</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>ManagementStateStateDidChange</key>
+			<dict>
+				<key>Notification</key>
+				<string>ManagementStateStateDidChange</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/lockoutagent</string>
+</dict>
+</plist>

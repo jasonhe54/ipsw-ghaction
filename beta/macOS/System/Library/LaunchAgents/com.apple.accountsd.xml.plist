@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.accountsd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.usernotificationcenter.matching</key>
+		<dict>
+			<key>NewAccountNotification</key>
+			<dict>
+				<key>bundleid</key>
+				<string>com.apple.accountsd</string>
+				<key>events</key>
+				<array>
+					<string>didActivateNotification</string>
+				</array>
+				<key>system</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.accountsd.accountmanager</key>
+		<true/>
+		<key>com.apple.accountsd.oauthsigner</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd</string>
+	</array>
+	<key>PublishesEvents</key>
+	<dict>
+		<key>com.apple.accounts.changes</key>
+		<dict>
+			<key>RequireTrusted</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>_Cryptex</key>
+	<string>com.apple.system.app</string>
+</dict>
+</plist>

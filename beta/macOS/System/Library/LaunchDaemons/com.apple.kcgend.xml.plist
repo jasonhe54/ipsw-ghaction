@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.kcgend</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>osenvironment</key>
+		<array>
+			<string>kcgen</string>
+		</array>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/kcgend</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/dev/console</string>
+	<key>StandardOutPath</key>
+	<string>/dev/console</string>
+</dict>
+</plist>

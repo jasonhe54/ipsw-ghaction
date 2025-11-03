@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>АБВ</string>
+	<key>UI-Cancel</key>
+	<string>Адмена</string>
+	<key>UI-Confirm</key>
+	<string>пацвердзіць</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>Гатова</string>
+	<key>UI-EmergencyCall</key>
+	<string>SOS-выклік</string>
+	<key>UI-Go</key>
+	<string>Перайсці</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>БЕ</string>
+	<key>UI-Join</key>
+	<string>Далучыцца</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Беларуская</string>
+	<key>UI-Next</key>
+	<string>Далей</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>паўза</string>
+	<key>UI-Redo</key>
+	<string>вярнуць</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>Маршрут</string>
+	<key>UI-Search</key>
+	<string>Пошук</string>
+	<key>UI-Send</key>
+	<string>Адправіць</string>
+	<key>UI-Space</key>
+	<string>прабел</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.by .бел .com .org .net</string>
+		<key>Strings</key>
+		<string>.by .бел .com .org .net</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>адмяніць</string>
+	<key>UI-Wait</key>
+	<string>інтэрвал</string>
+	<key>UI-abc</key>
+	<string>абв</string>
+</dict>
+</plist>

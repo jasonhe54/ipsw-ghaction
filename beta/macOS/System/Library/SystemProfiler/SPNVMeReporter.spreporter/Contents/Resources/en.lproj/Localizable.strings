@@ -1,0 +1,17 @@
+"internal" = "Internal";
+"spnvme_slot_name" = "Slot";
+"spnvme_linkspeed" = "Link Speed";
+"reporter_error" = "There was an error while scanning for NVMExpress devices.";
+"nvme" = "NVMExpress";
+"SPNVMeDataType" = "NVMExpress";
+"spnvme_vendor" = "Vendor";
+"spnvme_revision" = "Revision";
+"spnvme_trim_support" = "TRIM Support";
+"spnvme_rom-revision" = "ROM Revision";
+"spnvme_name" = "Name";
+"spnvme_product" = "Product";
+"spnvme_linkwidth" = "Link Width";
+"no_info_found" = "This computer doesn’t contain any NVMExpress devices. If you installed NVMExpress devices, make sure they are connected properly and powered on.";
+"spnvme_pci_device" = "PCI";
+"_name" = "NVMExpress Device Tree";
+"device_serial" = "Serial Number";

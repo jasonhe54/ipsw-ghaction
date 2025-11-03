@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisplayName</key>
+	<string>Contacts</string>
+	<key>Entities</key>
+	<dict>
+		<key>com.apple.contacts.CalendarURI</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>value</string>
+			<string>label</string>
+			<string>contact</string>
+		</array>
+		<key>com.apple.contacts.Contact</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>first name</string>
+			<string>last name</string>
+			<string>first name yomi</string>
+			<string>last name yomi</string>
+			<string>maiden name</string>
+			<string>middle name</string>
+			<string>middle name yomi</string>
+			<string>suffix</string>
+			<string>title</string>
+			<string>nickname</string>
+			<string>company name</string>
+			<string>department</string>
+			<string>job title</string>
+			<string>birthday</string>
+			<string>notes</string>
+			<string>display as company</string>
+			<string>display order</string>
+			<string>phone numbers</string>
+			<string>primary phone number</string>
+			<string>street addresses</string>
+			<string>primary street address</string>
+			<string>email addresses</string>
+			<string>primary email address</string>
+			<string>dates</string>
+			<string>primary date</string>
+			<string>related names</string>
+			<string>primary related name</string>
+			<string>IMs</string>
+			<string>primary IM</string>
+			<string>parent groups</string>
+			<string>image</string>
+			<string>originalImage</string>
+			<string>URLs</string>
+			<string>primary URL</string>
+			<string>Calendar URIs</string>
+			<string>Primary Calendar URI</string>
+			<string>imageTransformationInfo</string>
+		</array>
+		<key>com.apple.contacts.Date</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>value</string>
+			<string>label</string>
+			<string>contact</string>
+		</array>
+		<key>com.apple.contacts.Email Address</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>value</string>
+			<string>label</string>
+			<string>contact</string>
+		</array>
+		<key>com.apple.contacts.Group</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>name</string>
+			<string>members</string>
+			<string>smart group members</string>
+			<string>parent groups</string>
+			<string>distribution phone numbers</string>
+			<string>distribution email addresses</string>
+			<string>distribution street addresses</string>
+		</array>
+		<key>com.apple.contacts.IM</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>service</string>
+			<string>user</string>
+			<string>label</string>
+			<string>contact</string>
+			<string>extended service type</string>
+		</array>
+		<key>com.apple.contacts.ImageTransformationInfo</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>contact</string>
+			<string>originX</string>
+			<string>originY</string>
+			<string>width</string>
+			<string>height</string>
+		</array>
+		<key>com.apple.contacts.Phone Number</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>value</string>
+			<string>label</string>
+			<string>contact</string>
+		</array>
+		<key>com.apple.contacts.Related Name</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>value</string>
+			<string>label</string>
+			<string>contact</string>
+		</array>
+		<key>com.apple.contacts.SmartGroup</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>name</string>
+			<string>criteria</string>
+			<string>tracksModification</string>
+		</array>
+		<key>com.apple.contacts.Street Address</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>label</string>
+			<string>street</string>
+			<string>city</string>
+			<string>state</string>
+			<string>postal code</string>
+			<string>country</string>
+			<string>country code</string>
+			<string>contact</string>
+		</array>
+		<key>com.apple.contacts.URL</key>
+		<array>
+			<string>com.apple.syncservices.RecordEntityName</string>
+			<string>com.apple.syncservices.KeepAwayFromServers</string>
+			<string>type</string>
+			<string>value</string>
+			<string>label</string>
+			<string>contact</string>
+		</array>
+	</dict>
+	<key>ImagePath</key>
+	<string>/System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app/Contents/Resources/Contacts.icns</string>
+	<key>LocalizationBundlePath</key>
+	<string>.</string>
+	<key>NeverFormatsRelationships</key>
+	<true/>
+	<key>SyncsWith</key>
+	<dict>
+		<key>SyncAlertToolPath</key>
+		<string>/System/Library/Frameworks/AddressBook.framework/Helpers/AddressBookSync.app/Contents/MacOS/AddressBookSync</string>
+		<key>SyncAlertTypes</key>
+		<array>
+			<string>app</string>
+			<string>device</string>
+			<string>server</string>
+		</array>
+	</dict>
+	<key>Type</key>
+	<string>app</string>
+</dict>
+</plist>

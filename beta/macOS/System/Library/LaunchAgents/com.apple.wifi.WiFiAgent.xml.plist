@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+		<key>PathState</key>
+		<dict>
+			<key>/private/var/run/wifi</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.wifi.WiFiAgent</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+		<string>LoginWindow</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.usernotifications.delegate.com.apple.wifi.usernotifications.autohotspot</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.wifi.usernotifications.diagnostics</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.wifi.usernotifications.join</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.wifi.usernotifications.recommend</key>
+		<true/>
+		<key>com.apple.wifi.WiFiAgent</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent</string>
+</dict>
+</plist>

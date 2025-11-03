@@ -1,0 +1,17 @@
+"IPXFaceHideNPeople" = "{'messageFormat': {'one': 'Hide this Person', 'other': 'Hide %lu People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceHideNPeople_Pet" = "{'messageFormat': {'one': 'Hide this Pet', 'other': 'Hide %lu Pets', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceUnfavoriteNPeople" = "{'messageFormat': {'one': 'Unfavorite this Person', 'other': 'Unfavorite %lu People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceFavoriteNPeople" = "{'messageFormat': {'one': 'Favorite this Person', 'other': 'Favorite %lu People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceFavoriteNPeople_PeoplePet" = "{'messageFormat': {'NSStringFormatValueTypeKey': 'lu', 'other': 'Favorite %lu Collections', 'Comment': 'This string is only used for plural.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceUnfavoriteNPeople_Pet" = "{'messageFormat': {'one': 'Unfavorite this Pet', 'other': 'Unfavorite %lu Pets', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXToggleFaceModeMenuItemTitle" = "Faces";
+"IPXRenamePersonMenuTitle_Pet" = "Rename this Pet";
+"IPXFaceNotAFace" = "Not a Face";
+"IPXFaceMergeNPeople_Pet" = "{'messageFormat': {'zero': '', 'other': 'Merge %lu Pets', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXRenamePersonMenuTitle" = "Rename this Person";
+"IPXNamePersonMenuTitle_Pet" = "Name this Pet";
+"IPXNamePersonMenuTitle" = "Name this Person";
+"IPXFaceHideNPeople_PeoplePet" = "{'messageFormat': {'NSStringFormatValueTypeKey': 'lu', 'other': 'Hide %lu Collections', 'Comment': 'This string is only used for plural.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceFavoriteNPeople_Pet" = "{'messageFormat': {'one': 'Favorite this Pet', 'other': 'Favorite %lu Pets', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceMergeNPeople" = "{'messageFormat': {'zero': '', 'other': 'Merge %lu People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXFaceUnfavoriteNPeople_PeoplePet" = "{'messageFormat': {'NSStringFormatValueTypeKey': 'lu', 'other': 'Unfavorite %lu Collections', 'Comment': 'This string is only used for plural.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";

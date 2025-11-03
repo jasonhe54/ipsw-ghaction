@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EXCEL_DOCUMENT</key>
+	<array>
+		<string>com.microsoft.excel.xls</string>
+		<string>com.microsoft.excel.xlt</string>
+		<string>org.openxmlformats.spreadsheetml.sheet</string>
+		<string>org.openxmlformats.spreadsheetml.template</string>
+		<string>org.openxmlformats.spreadsheetml.sheet.macroenabled</string>
+		<string>org.openxmlformats.spreadsheetml.template.macroenabled</string>
+	</array>
+	<key>FOLDER</key>
+	<array>
+		<string>com.apple.framework</string>
+		<string>public.folder</string>
+	</array>
+	<key>KEYNOTE_DOCUMENT</key>
+	<array>
+		<string>com.apple.iwork.keynote.key</string>
+		<string>com.apple.iwork.keynote.sffkey</string>
+	</array>
+	<key>NUMBERS_DOCUMENT</key>
+	<array>
+		<string>com.apple.iwork.numbers.numbers</string>
+		<string>com.apple.iwork.numbers.sffnumbers</string>
+	</array>
+	<key>PAGES_DOCUMENT</key>
+	<array>
+		<string>com.apple.iwork.pages.pages</string>
+		<string>com.apple.iwork.pages.sffpages</string>
+	</array>
+	<key>PDF_DOCUMENT</key>
+	<array>
+		<string>com.apple.localized-pdf-bundle</string>
+		<string>com.adobe.pdf</string>
+	</array>
+	<key>POWERPOINT_DOCUMENT</key>
+	<array>
+		<string>com.microsoft.powerpoint.ppt</string>
+		<string>com.microsoft.powerpoint.pot</string>
+		<string>com.microsoft.powerpoint.pps</string>
+		<string>org.openxmlformats.presentationml.presentation</string>
+		<string>org.openxmlformats.presentationml.template.macroenabled</string>
+		<string>org.openxmlformats.presentationml.template</string>
+		<string>org.openxmlformats.presentationml.presentation.macroenabled</string>
+		<string>org.openxmlformats.presentationml.slideshow</string>
+		<string>org.openxmlformats.presentationml.slideshow.macroenabled</string>
+	</array>
+	<key>WORD_DOCUMENT</key>
+	<array>
+		<string>com.microsoft.word.doc</string>
+		<string>com.microsoft.word.dot</string>
+		<string>com.microsoft.word.stationery</string>
+		<string>org.openxmlformats.wordprocessingml.document</string>
+		<string>org.openxmlformats.wordprocessingml.template</string>
+		<string>org.openxmlformats.wordprocessingml.document.macroenabled</string>
+		<string>org.openxmlformats.wordprocessingml.template.macroenabled</string>
+	</array>
+</dict>
+</plist>

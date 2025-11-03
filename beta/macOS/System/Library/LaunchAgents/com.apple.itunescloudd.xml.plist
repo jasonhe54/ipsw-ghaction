@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.itunescloudd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.itunescloudd</key>
+		<true/>
+		<key>com.apple.itunescloud.in-app-message-service</key>
+		<true/>
+		<key>com.apple.itunescloud.library-auth-token-provider</key>
+		<true/>
+		<key>com.apple.itunescloud.music-subscription-status-service</key>
+		<true/>
+		<key>com.apple.itunescloud.remote-request-execution-service</key>
+		<true/>
+		<key>com.apple.itunescloudd.playactivity</key>
+		<true/>
+		<key>com.apple.itunescloudd.tcchelper</key>
+		<true/>
+		<key>com.apple.itunescloudd.xpc</key>
+		<true/>
+		<key>com.apple.private.alloy.itunescloudd-idswake</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd</string>
+	</array>
+</dict>
+</plist>

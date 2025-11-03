@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>Vintage_Inset_08.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>14</integer>
+	<key>Bottom Left</key>
+	<string>Vintage_Inset_07.png</string>
+	<key>Bottom Left Mask</key>
+	<string>Vintage_Inset_mask_07.png</string>
+	<key>Bottom Mask</key>
+	<string>Vintage_Inset_mask_08.png</string>
+	<key>Bottom Right</key>
+	<string>Vintage_Inset_09.png</string>
+	<key>Bottom Right Mask</key>
+	<string>Vintage_Inset_mask_09.png</string>
+	<key>Display</key>
+	<true/>
+	<key>Left</key>
+	<string>Vintage_Inset_04.png</string>
+	<key>Left Frame Inset</key>
+	<integer>12</integer>
+	<key>Left Mask</key>
+	<string>Vintage_Inset_mask_04.png</string>
+	<key>Minimum Asset Scale</key>
+	<real>0.10000000149011611</real>
+	<key>Right</key>
+	<string>Vintage_Inset_06.png</string>
+	<key>Right Frame Inset</key>
+	<integer>13</integer>
+	<key>Right Mask</key>
+	<string>Vintage_Inset_mask_06.png</string>
+	<key>Stretch Tiles</key>
+	<integer>2</integer>
+	<key>Top</key>
+	<string>Vintage_Inset_02.png</string>
+	<key>Top Frame Inset</key>
+	<integer>15</integer>
+	<key>Top Left</key>
+	<string>Vintage_Inset_01.png</string>
+	<key>Top Left Mask</key>
+	<string>Vintage_Inset_mask_01.png</string>
+	<key>Top Mask</key>
+	<string>Vintage_Inset_mask_02.png</string>
+	<key>Top Right</key>
+	<string>Vintage_Inset_03.png</string>
+	<key>Top Right Mask</key>
+	<string>Vintage_Inset_mask_03.png</string>
+	<key>name</key>
+	<string>Vintage Inset</string>
+	<key>preview-image</key>
+	<string>VintageInset.png</string>
+</dict>
+</plist>

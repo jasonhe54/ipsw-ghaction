@@ -1,0 +1,10 @@
+"NOTIFICATION_TITLE_EXPIRED" = "Password expired";
+"LAPOLICY_REASON" = "sign in to %@";
+"NOTIFICATION_DESC_TODAY_FORMAT" = "Your %1$@ password will expire today.";
+"NOTIFICATION_TITLE_SOON" = "Password expiring soon";
+"NOTIFICATION_DESC_EXPIRED_FORMAT" = "Your %1$@ password has expired. Please change your password immediately.";
+"SIGN_IN_LOWERCASE_TEXT" = "sign in";
+"NOTIFICATION_DESC_NORMAL_FORMAT" = "{'days': {'one': 'Your %1$@ password will expire in %2$d day.', 'other': 'Your %1$@ password will expire in %2$d days.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@days@'}";
+"ACTIVE_DIRECTORY_PRODUCTNAME" = "Active Directory";
+"NOTIFICATION_IGNORE_BUTTON" = "Ignore";
+"NOTIFICATION_CHANGE_BUTTON" = "Change";

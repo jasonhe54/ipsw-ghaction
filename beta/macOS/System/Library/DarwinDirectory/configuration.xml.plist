@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anonymizeUUIDs</key>
+	<false/>
+	<key>defaultGroupMembershipsForAllUsers</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000003D</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000000C</string>
+	</array>
+	<key>defaultGroupMembershipsForLocalUsers</key>
+	<array/>
+	<key>mutableSystemGroups</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000000C</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000050</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000003D</string>
+	</array>
+</dict>
+</plist>

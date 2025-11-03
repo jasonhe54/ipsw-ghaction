@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.YearInReview-FoldedCard</string>
+	<key>CatalogVersion</key>
+	<integer>4</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:13:59Z</date>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>YearInReview-FoldedCard-V</string>
+		<string>YearInReview-FoldedCard</string>
+	</array>
+	<key>YearInReview-FoldedCard-V.keywords</key>
+	<array>
+		<string>CARDCategoryAll:200</string>
+		<string>CARDCategoryBaby:3000</string>
+		<string>CARDCategoryBirthday:1100</string>
+		<string>CARDCategoryFormal:2000</string>
+		<string>CARDCategoryHoliday:200</string>
+		<string>CARDCategoryThankYou:900</string>
+	</array>
+	<key>YearInReview-FoldedCard-V.products</key>
+	<array>
+		<string>VerticalFoldedCard</string>
+	</array>
+	<key>YearInReview-FoldedCard.keywords</key>
+	<array>
+		<string>CARDCategoryAll:200</string>
+		<string>CARDCategoryBaby:3000</string>
+		<string>CARDCategoryBirthday:1100</string>
+		<string>CARDCategoryFormal:2000</string>
+		<string>CARDCategoryHoliday:200</string>
+		<string>CARDCategoryThankYou:900</string>
+	</array>
+	<key>YearInReview-FoldedCard.products</key>
+	<array>
+		<string>HorizontalFoldedCard</string>
+	</array>
+</dict>
+</plist>

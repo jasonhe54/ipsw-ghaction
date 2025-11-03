@@ -1,0 +1,11 @@
+"AMName" = "Apply Quartz Composition Filter to Image Files";
+"AMDSummary" = "This action applies a selected image filter Quartz Composition from the Quartz Composer Composition Repository to image files.";
+"ApplyButton" = "Add";
+"Quartz Composer" = "Quartz Composer";
+"FileError" = "Failed processing";
+"AMDNote" = "This action can use any Quartz Composition of type Image Filter installed in the Quartz Composer Composition Repository (“/Library/Compositions” or “~/Library/Compositions”) as long as it does not depend on time.";
+"NSHumanReadableCopyright" = "© 2007-2009 Apple Inc. All Rights Reserved.";
+"CompositionError" = "Unable find Quartz Composition in Composition Repository.";
+"IgnoreButton" = "Don’t Add";
+"Image" = "Image";
+"Message" = "This action will change the image files passed into it. Would you like to add a Copy Finder Items action so that the copies are changed and your originals are preserved?";

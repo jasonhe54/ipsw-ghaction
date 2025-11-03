@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kCSCheckFixAll</key>
+	<dict>
+		<key>11102709</key>
+		<dict>
+			<key>com.macromates.textmate</key>
+			<array>
+				<string>1*</string>
+			</array>
+			<key>org.gnu.Aquamacs</key>
+			<array>
+				<string>2.4.*</string>
+			</array>
+		</dict>
+		<key>11188789</key>
+		<dict>
+			<key>com.apple.iBooksAuthor</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>com.apple.iWork.Keynote</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>com.apple.iWork.Numbers</key>
+			<array>
+				<string>*</string>
+			</array>
+			<key>com.apple.iWork.Pages</key>
+			<array>
+				<string>*</string>
+			</array>
+		</dict>
+	</dict>
+	<key>kCSCheckFixVersion</key>
+	<string>1</string>
+</dict>
+</plist>

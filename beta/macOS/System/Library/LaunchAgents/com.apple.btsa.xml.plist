@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.btsa</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+		<string>LoginWindow</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.btsa</key>
+		<true/>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/BluetoothSetupAssistant.app/Contents/MacOS/BluetoothSetupAssistant</string>
+		<string>-autoConfigure</string>
+	</array>
+</dict>
+</plist>

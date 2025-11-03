@@ -1,0 +1,16 @@
+"AMDSummary" = "This action creates a CD or DVD containing the files and folders passed in from the previous action.";
+"AMDOptions" = "Name the disc, append today's date to the disc name, choose the device to use.";
+"CD" = "CD";
+"DVD" = "DVD";
+"System" = "System";
+"AMDRequires" = "A drive capable of burning and a blank disc.";
+"Utility" = "Utility";
+"AMDResult" = "Files and folders passed from the previous action.";
+"AMDInput" = "Files and folders passed from the previous action.";
+"File" = "File";
+"AMName" = "Burn a Disc";
+"title" = "My Disc";
+"Burn" = "Burn";
+"Folder" = "Folder";
+"NSHumanReadableCopyright" = "Copyright (c) 2004-2012 Apple Inc.  All Rights Reserved.";
+"CFBundleName" = "BurnADisc";

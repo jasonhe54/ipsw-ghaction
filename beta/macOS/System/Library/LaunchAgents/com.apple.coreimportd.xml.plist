@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>JetsamProperties</key>
+	<dict>
+		<key>JetsamMemoryLimit</key>
+		<integer>4000</integer>
+		<key>JetsamPriority</key>
+		<integer>-49</integer>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.coreimportd</string>
+	<key>LaunchEvents</key>
+	<dict/>
+	<key>LimitLoadToSessionType</key>
+	<string>Background</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.spotlight.ImportAgent</key>
+		<true/>
+	</dict>
+	<key>NoEnvironmentVariables</key>
+	<dict>
+		<key>MallocStackLogging</key>
+		<string>1</string>
+		<key>no_DYLD_INSERT_LIBRARIES</key>
+		<string>/usr/lib/libgmalloc.dylib</string>
+		<key>no_MallocStackLoggingNoCompact</key>
+		<string>1</string>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/coreimportd</string>
+	</array>
+</dict>
+</plist>

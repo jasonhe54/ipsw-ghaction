@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<dict>
+		<key>#IfFeatureFlagDisabled</key>
+		<string>usbaudiod/useAUASD</string>
+		<key>#Then</key>
+		<true/>
+	</dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_coreaudiod</string>
+	<key>Label</key>
+	<string>com.apple.usbaudiod</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.usbaudiod</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Audio/Plug-Ins/usbaudio.bundle/Contents/MacOS/usbaudiod</string>
+	</array>
+	<key>UserName</key>
+	<string>_coreaudiod</string>
+</dict>
+</plist>

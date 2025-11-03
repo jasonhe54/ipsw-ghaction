@@ -1,0 +1,5 @@
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Setting for Using Local Content Caches', 'other': '%lu Settings for Using Local Content Caches', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Setting for Using Local Content Caches', 'other': 'Settings for Using Local Content Caches (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"ACCOP Public IP Address Ranges" = "Public IP addresses";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Setting for Using Local Content Caches', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"ACCOP Favored Server Ranges" = "Favored server addresses";

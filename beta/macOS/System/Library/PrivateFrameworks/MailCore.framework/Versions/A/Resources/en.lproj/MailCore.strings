@@ -1,0 +1,108 @@
+"SSLGenericReadError" = "An SSL error occurred while trying to read data. Verify that this server supports SSL and that your account settings are correct.";
+"ProgressNamePreparingToMoveMessages" = "{'status': {'one': 'Preparing To Move Message', 'other': 'Preparing To Move Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"ReplyAttributionSenderName%1$@%2$@" = "%1$@ <%2$@>";
+"ProgressNameIndexingMessage" = "{'status': {'other': 'Indexing...', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"PartialMessage%1$@%2$@%3$@" = "<b>This is part %1$@ of %2$@</b><br><br>The sender sent this message in %3$@ parts because it was too large to send as a single message. To view the raw source of each part, choose View > Message > Raw Source.";
+"CheckingConnection" = "Checking connection";
+"SSLConnectionFailureFormat%1$@%2$ld" = "Mail was unable to connect to server “%1$@” using SSL on port %2$ld. Verify that this server supports SSL and that your account settings are correct.";
+"SMIMEMissingEncryptionCertMessage%1$@" = "You don’t have a certificate in your keychain that matches the email address “%1$@”. Without a certificate, you can’t encrypt messages sent to this address.";
+"SSLCertNotYetValid" = "The certificate for this server is not yet valid.";
+"To" = "To";
+"SSLGenericWriteError" = "An SSL error occurred while trying to write data. Verify that this server supports SSL and that your account settings are correct.";
+"HostUnreachableDefaultPorts%1$@" = "The server “%1$@” cannot be contacted on the default ports.";
+"Attachments" = "Attachments";
+"ProgressNameConnecting" = "{'status': {'other': 'Connecting…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"SMIMECantEncryptTitle" = "Unable to encrypt message";
+"Date" = "Date";
+"SMIMECantSignTitle" = "Unable to sign message";
+"DisplayNameInfoListStart%1$@" = "%1$@";
+"ReplyAttribution%1$@%2$@%3$@" = "On %1$@, at %2$@, %3$@ wrote:
+
+";
+"MimeAttachmentFilename" = "Mail Attachment";
+"RemovedAttachment%1$@" = "
+
+[The attachment %1$@ has been manually removed]
+
+";
+"SMIMESignatureErrorFormat%1$@" = "An error occurred while trying to sign this message with a certificate from “%1$@”. Verify that your certificate for this address is correct, and that its private key is in your keychain.";
+"Reply-To" = "Reply-To";
+"ConnectionTimedOut%1$@%2$ld" = "The connection to the server “%1$@” on port %2$ld timed out.";
+"DisplayNameInfoListEnd%1$@" = " & %1$@";
+"SMIMEMissingEncryptionCertMessages%1$@" = "You don’t have certificates in your keychain matching the following email addresses:
+
+%1$@
+
+Without certificates, you can’t encrypt messages sent to these addresses.";
+"ManualSetupProgressText" = "Account must be manually configured";
+"SMIMEEncryptionErrorMessage" = "An error occurred while trying to encrypt your message. Verify that you have valid certificates in your keychain for all of the recipients.";
+"CannotDecodeMultipartMessage%1$@%2$@" = "This message cannot be displayed because of the way it is formatted. Ask the sender to send it again using a different format or email program.
+
+%1$@/%2$@";
+"Bcc" = "Bcc";
+"SMIMESigningCertificateNotYetValidMessage%1$@%2$@" = "The certificate for the email address “%1$@” is not yet valid. Without a valid certificate, you can’t sign messages sent from this address.";
+"SMIMEConfirmSignatureFormat%1$@" = "Mail was unable to verify the authenticity of the S/MIME certificate provided by “%1$@”. Messages signed by this user may be coming from a different source.";
+"ProgressNameNoNewMessages" = "{'status': {'other': 'No new messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"DisplayNameInfoListMiddle%1$@" = ", %1$@";
+"AuthNotSupportedFormat%1$@%2$@%3$@" = "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Verify your account settings and try again.";
+"ConnectionTimedOutDefaultPorts%1$@" = "Connections to the server “%1$@” on the default ports timed out.";
+"ProgressReasonPower" = "Paused (On Battery)";
+"ProgressNameSendingMessage" = "{'messages': {'one': 'Sending Message', 'other': 'Sending %2$lld of %1$lld Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@messages@'}";
+"Cc" = "Cc";
+"ConnectionErrorDefaultPorts%1$@%2$ld%3$@" = "Connections to the server “%1$@” on the default ports failed (error %2$ld: %3$@)";
+"SSLCertUntrusted" = "The certificate for this server is invalid.";
+"SMIMEUntrustedCertificateMessage%1$@" = "You have chosen not to trust the S/MIME certificate used by “%1$@” to sign this message.";
+"TLSNotSupportedFormat%1$@%2$@%3$ld" = "The %1$@ server “%2$@” doesn’t support TLS (SSL) on port %3$ld. Verify your account settings and try again.";
+"Subject" = "Subject";
+"SMIMESigningCertificateExpiredMessage%1$@%2$@" = "The certificate for the email address “%1$@” has expired. Without a valid certificate, you can’t sign messages sent from this address.";
+"HostUnreachable%1$@%2$ld" = "The server “%1$@” cannot be contacted on port %2$ld.";
+"ProgressNameMovingMessages" = "{'status': {'one': 'Moving Message', 'other': 'Moving Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"FailedLogin" = "The user name and password specified in Mail preferences were not accepted by the server.";
+"SASLDataDecryptionError%1$@%2$@" = "There was an unexpected problem decrypting data received from the server “%1$@” using “%2$@” authentication. Verify that your account settings are correct.";
+"SSLUnknownRootCert" = "The certificate for this server was signed by an unknown certifying authority.";
+"SMIMEMissingSigningCertMessage%1$@" = "You don’t have a trusted certificate in your keychain that matches the email address “%1$@”. Without a certificate, you can’t sign messages sent from this address.";
+"GenericConnectFailed%1$@%2$ld" = "The connection to host %1$@ on port %2$ld failed.";
+"SSLConnectionFailureFormatDefaultPorts%1$@" = "Mail was unable to connect to server “%1$@” using SSL on the default ports. Verify that this server supports SSL and that your account settings are correct.";
+"ProgressNamePreparingToCopyMessages" = "{'status': {'one': 'Preparing To Copy Message', 'other': 'Preparing To Copy Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"SMIMEDamagedSignatureMessageFormat%1$@" = "The digital signature for this message is incorrect. The message may have been tampered with or corrupted since being signed by “%1$@”.";
+"ForwardedMessagePrefix" = "Begin forwarded message:
+
+";
+"SSLGenericConnectError" = "An SSL error has occurred and a secure connection to the server cannot be made.";
+"GenericReadFailed%1$@" = "The attempt to read data from the server “%1$@” failed.";
+"Resent-From" = "Resent-From";
+"SMIMECantDecryptMessage" = "There was a problem decrypting this message. Verify that you have a valid certificate in your keychain.";
+"SMIMEBadSignatureTitle" = "Unable to verify message signature";
+"ProgressReasonNetwork" = "Paused (Tethered)";
+"InsecurePasswordDialogTitle%1$@" = "Password could not be sent to “%1$@” securely";
+"SMIMEBadSignatureMessage" = "There was a problem reading the digital signature for this message.";
+"POPLoggingInFormat%1$@" = "Logging in as user “%1$@”";
+"Resent-To" = "Resent-To";
+"NoSubject" = "No subject";
+"HiddenGroup" = "Undisclosed-recipients";
+"SMIMECantDecryptTitle" = "Unable to decrypt message";
+"ConnectionError%1$@%2$ld%3$ld%4$@" = "The connection to the server “%1$@” on port %2$ld failed (error %3$ld: %4$@)";
+"InsecurePasswordDescription" = "Mail cannot send your password securely to the server. You can remove this restriction in the Accounts preferences by setting “Allow insecure authentication”, which could put your password at risk.";
+"DisplayNameInfoList2%1$@%2$@" = "%1$@ & %2$@";
+"AdditionalAccountInfoRequiredProgressText" = "Additional account information required";
+"ProgressNameSavingDraftMessage" = "{'messages': {'one': 'Saving Draft', 'other': 'Saving %2$lld of %1$lld Drafts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@messages@'}";
+"Flag" = "Flag";
+"ConnectionRefusedDefaultPorts%1$@" = "The server “%1$@” refused to allow a connection on the default ports.";
+"From" = "From";
+"ContactingServerProgressText" = "Contacting server";
+"SASLDataEncryptionError%1$@%2$@" = "There was an unexpected problem encrypting data to be sent to the server “%1$@” using “%2$@” authentication. Verify that your account settings are correct.";
+"ProgressStatusFoundMessages" = "{'value': {'one': '%lld new message', 'other': '%lld new messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"ProgressNameCheckingForMail" = "{'status': {'other': 'Checking for Mail…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"ValidatingAccountInfoProgressText" = "Validating settings";
+"FailedSASL%1$@%2$@%3$@" = "Mail was unable to log in to the %1$@ server “%2$@” using “%3$@” authentication. Verify that your account settings are correct.";
+"ProgressStatusFormat%1$llu%2$llu" = "%1$llu of %2$llu";
+"SSLCertExpired" = "The certificate for this server has expired.";
+"ProgressNameDownloadingMessages" = "{'status': {'one': 'Downloading Message', 'other': 'Downloading Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"SSLAlertFormat%1$@" = "The identity of “%1$@” cannot be verified.";
+"SMIMENoRecipientsMessage" = "There are no recipients in this message.";
+"ConnectionRefused%1$@%2$ld" = "The server “%1$@” refused to allow a connection on port %2$ld.";
+"Resent-Cc" = "Resent-Cc";
+"GenericConnectFailedDefaultPorts%1$@" = "Connections to host %1$@ on the default ports failed.";
+"GenericWriteFailed%1$@" = "The attempt to send data to the server “%1$@” failed.";
+"ProgressNameCopyingMessages" = "{'status': {'one': 'Copying Message', 'other': 'Copying Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@status@'}";
+"EncryptedSubjectLineMessage" = "Encrypted Subject";

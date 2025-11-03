@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPMemoryDataType</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>12</string>
+	</dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_isOutlineColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>10</string>
+	</dict>
+	<key>dimm_ecc_errors</key>
+	<dict>
+		<key>_order</key>
+		<string>60</string>
+	</dict>
+	<key>dimm_serial_number</key>
+	<dict>
+		<key>_detailLevel</key>
+		<string>0</string>
+	</dict>
+	<key>dimm_size</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>20</string>
+	</dict>
+	<key>dimm_speed</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>40</string>
+	</dict>
+	<key>dimm_status</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>50</string>
+	</dict>
+	<key>dimm_type</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>30</string>
+	</dict>
+</dict>
+</plist>

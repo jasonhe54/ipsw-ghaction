@@ -1,0 +1,3 @@
+"ErrorMissingProduct" = "The requested product could not be found.";
+"ErrorMissingBundle" = "The requested uninstall could not be completed because the bundle %@ is missing";
+"ErrorApplicationRunning" = "The requested uninstall could not be completed because the application %@ is running.";

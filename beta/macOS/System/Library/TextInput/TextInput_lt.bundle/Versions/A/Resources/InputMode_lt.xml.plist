@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>lt</key>
+		<array>
+			<string>lt_LT</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>lt_LT</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Lithuanian</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>KeyboardCPAllowsDeleteWord</key>
+			<true/>
+			<key>KeyboardCPEnabled</key>
+			<true/>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY</string>
+			</array>
+			<key>SWLayouts-iPadExtra</key>
+			<array>
+				<string>QWERTY-ISO</string>
+				<string>QWERTZ</string>
+				<string>AZERTY</string>
+			</array>
+			<key>UIKeyboardEnablePrediction</key>
+			<true/>
+			<key>UIKeyboardHasWordNgramModel</key>
+			<true/>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<true/>
+			<key>UIKeyboardSupportsMultilingual</key>
+			<true/>
+			<key>UIKeyboardSupportsWatch</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

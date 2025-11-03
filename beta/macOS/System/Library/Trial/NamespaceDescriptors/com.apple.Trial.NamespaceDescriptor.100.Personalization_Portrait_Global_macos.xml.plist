@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Factor Path</key>
+	<string>/System/Library/PrivateFrameworks/PersonalizationPortraitInternals.framework/Resources/PERSONALIZATION_PORTRAIT_GLOBAL_100_default_factors.pb</string>
+	<key>Namespace Compatibility Version</key>
+	<integer>13</integer>
+	<key>Namespace Id</key>
+	<integer>100</integer>
+	<key>ResourceAttributionBundleIdentifier</key>
+	<dict>
+		<key>default</key>
+		<string>com.apple.proactive.PersonalizationPortrait</string>
+	</dict>
+</dict>
+</plist>

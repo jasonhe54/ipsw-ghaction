@@ -1,0 +1,11 @@
+"AMName" = "Create Annotated Movie File";
+"AMDResult" = "";
+"AMDSummary" = "This action will create an annotated duplicate of each of the movie files passed to it. The annotated copies will be saved in QuickTime format with a “mov” name extension instead of the name extension of the source file.";
+"AMDWebsite" = "";
+"AMDRequires" = "";
+"CFBundleName" = "Create Annotated Movie File";
+"AMDInput" = "";
+"AMDNote" = "";
+"NSHumanReadableCopyright" = "Copyright © 2004-2019 Apple Inc. All rights reserved.";
+"AMDAlert" = "";
+"AMDOptions" = "There are options to create the annotated files in the same directory as the source files, and to delete the source files after processing.";

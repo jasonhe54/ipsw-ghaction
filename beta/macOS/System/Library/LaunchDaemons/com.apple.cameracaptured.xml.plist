@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_cmiodalassistants</string>
+	<key>Label</key>
+	<string>com.apple.cameracaptured</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.cmio.registerassistantservice.system-extensions.matching</key>
+		<dict>
+			<key>com.apple.cameracaptured</key>
+			<dict>
+				<key>CMIOExtensionBundleIdentifier</key>
+				<string>com.apple.cameracaptured</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cameracaptured</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/cameracaptured</string>
+	</array>
+	<key>UserName</key>
+	<string>_cmiodalassistants</string>
+	<key>_Conclave</key>
+	<string>com.apple.cameracaptured.conclave</string>
+</dict>
+</plist>

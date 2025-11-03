@@ -1,0 +1,93 @@
+"kPairingAttemptFailedUnableToTalkToDevice" = "Unable to connect to the device. Turn the device off, turn it back on, and then try again to connect.";
+"kHIDLess_KeyboardPairingFailedTextKey" = "The computer failed to connect to that keyboard. The computer will try again in 5 seconds…";
+"kDiscovery_Gen_UpdatingDeviceNamesMultipleKey%@" = "Updating %@ device names…";
+"kDiscovery_Gen_UpdatingDeviceNamesSingleKey%@" = "Updating %@ device name…";
+"kHIDLess_KeyboardSmallInstructionDiscovering2TextKey" = "Looking for a wireless keyboard. If one is found it will be connected to your computer. Check your cables if you expect to use a USB keyboard.
+
+If you are attempting to use a wireless keyboard and it isn’t found, make sure it is turned on and “discoverable.” If you are using an Apple wireless keyboard, turn on your keyboard. If you are trying to use a non-Apple wireless keyboard, see the documentation that came with the keyboard.";
+"kQuitButtonKey" = "Quit";
+"kUsersTrackpadKey" = "%@’s Trackpad";
+"kMouseTrackpadSetupTitleKey" = "Bluetooth Mouse or Trackpad Setup";
+"kPair_SSPNumCmp_StatusExplanationTextKey" = "To continue, you must accept the connection on the device. The number below should match the number displayed on the device you’re connecting.";
+"kHIDLess_MouseAttemptingToConnectTextKey%@%@" = "Attempting to connect with mouse #%@ (%@)…";
+"kHIDLess_MousePairingFailed1TextKey" = "The computer failed to connect to that mouse. The computer will try again with the same mouse in 5 seconds…";
+"kDiscovery_Keyboard_NoFoundDevicesSoFarKey" = "No keyboards have been found. Make sure your keyboard is “discoverable.”";
+"kContinueButtonKey" = "Continue";
+"kKeyboardKey" = "Keyboard";
+"kCancelButtonKey" = "Cancel";
+"kPair_General_ConnectionEstablishedKey" = "Connection established.";
+"kHIDLess_TrackpadClickContinueButtonTextKey%@" = "Connecting was successful with a trackpad. To acknowledge the connection, use your trackpad to click Continue. If your trackpad doesn’t move the pointer and there is another wireless mouse or trackpad available, then your computer may be trying to connect to another wireless mouse or trackpad.
+
+Your computer will attempt to connect again to your trackpad in %@.";
+"kPair_Device_GatheringInformationKey" = "Gathering additional information about your device.";
+"kUsersKeyboardKey" = "%@’s Keyboard";
+"kHIDLess_KeyboardSmallInstructionPairing2TextKey" = "Once you have entered the passkey on your keyboard, the connecting process is complete.";
+"kBluetoothIsOffKey" = "Bluetooth has been turned off on this computer. Once you have turned on Bluetooth, you may continue.";
+"kHIDLess_KeyboardTypeContinueButtonTextKey" = "Connecting to your keyboard was successful.
+
+Type the Return key on your keyboard when you are ready to continue.";
+"kPair_Trackpad_PairingAttemptSucceededKey" = "This computer and the trackpad have been successfully connected.";
+"kHIDLess_KeyboardSmallInstructionPairingTextKey" = "Type the following passkey on the keyboard you are setting up, followed by the Return key:";
+"kDiscovery_Keyboard_YouMustFindAndSelectBeforeContinuingKey" = "You must find and select a keyboard in the list before continuing.";
+"kDeviceKey" = "Device";
+"kDiscovery_Keyboard_NoDeviceSelectedKey" = "No keyboard selected.";
+"kPair_SSPPassNotif_StatusExplanationTextKey" = "To continue connecting, type the number below followed by the Return key on the device you’re connecting.";
+"kPair_General_NoDeviceStringKey" = "Error: No device has been specified on the previous panel.";
+"kHIDLess_KeyboardConnectedTextKey%@%@" = "Connection established with keyboard #%@ (%@).";
+"kPair_Device_InstructionText2Key" = "Once you have entered the passkey on your device the connecting process will be completed.";
+"kMouseKey" = "Mouse";
+"kPair_Device_PairingAttemptFailed18Key" = "The connection attempt was unsuccessful. The device is refusing the connection attempt. Refer to the manual that came with the device. When ready, click Continue to try again.";
+"kPair_Keyboard_PairingAttemptSucceededKey" = "This computer and the keyboard have been successfully connected.";
+"kHIDLess_MouseSmallInstructionTextKey" = "Bluetooth Setup Assistant is looking for a wireless mouse. If one is found it will be connected to your computer. Check your cables if you expect to use a USB mouse.
+
+If you are attempting to use a wireless mouse and it isn’t found, make sure it is turned on and “discoverable.” To turn on an Apple wireless mouse, slide the switch on the bottom of the mouse. If you are trying to use a non-Apple wireless mouse, see the documentation that came with the mouse.";
+"kHIDLess_USBMouseTextKey" = "Mouse connected over USB";
+"kTrackpadKey" = "Trackpad";
+"kPair_Mouse_PairingAttemptSucceededKey" = "This computer and the mouse have been successfully connected.";
+"kDiscovery_Keyboard_SmallInstructionTextKey" = "When your keyboard appears in the list, select it and click Continue. If you don’t see your keyboard in the list, make sure your keyboard is “discoverable.” If you are using an Apple wireless keyboard, turn on your keyboard.";
+"kHIDLess_MousePairingFailed2TextKey" = "The computer failed to connect to that mouse. Connecting to the next wireless mouse or trackpad…";
+"kDiscovery_Mouse_Trackpad_NoFoundDevicesSoFarKey" = "No wireless mice or trackpads have been found. Make sure your wireless mouse or trackpad is “discoverable.”";
+"kSetUpAnotherDeviceButtonKey" = "Set Up Another Device";
+"kPair_Device_ClickContinueToSetupKey" = "Click Continue to set up the services available on your device.";
+"kHIDLess_MouseUSBPairedSuccessTextKey" = "Connecting was successful with a mouse. To continue unplug the USB cable from the mouse.";
+"kHIDLess_MouseClickContinueButtonTextKey" = "Connecting was successful with a mouse. To acknowledge the connection, use your mouse to click Continue. If your mouse doesn’t move the pointer and there is another wireless mouse available, then your computer may be trying to connect to the other mouse.
+
+The Bluetooth Setup Assistant will attempt to connect again to your mouse in %@ seconds.";
+"kOKButtonKey" = "OK";
+"kPair_General_PairingAttemptToPairKey%@" = "Attempting to pair with “%@.”";
+"kHIDLess_TrackpadAttemptingToConnectTextKey%@%@" = "Attempting to connect with trackpad #%@ (%@)…";
+"kKeyboardSetupTitleKey" = "Bluetooth Keyboard Setup";
+"kAreYouSureYouWantToQuitExplanationKey" = "You will have to run the Setup Assistant again from the beginning if you quit now.";
+"kPair_Device_InstructionTextKey" = "Your device may ask you to enter a passkey. Check your device to see if it is ready to accept a passkey. When your device is ready, enter in the following passkey followed by the Return key:";
+"kPair_Device_PairingAttemptFailed2Key" = "The connection attempt was unsuccessful. Make sure your device is in range of this computer, turned on and “discoverable.” When ready, click Continue to try again.";
+"kHIDLess_KeyboardPairingAuthenticationFailedTextKey" = "An authentication error occurred. The passcodes did not match.";
+"kPair_Device_PairingAttemptSucceededKey" = "This computer and the device have been successfully connected.";
+"kPair_Device_AlreadyPairedKey" = "This computer and the device are already connected.";
+"kDiscovery_Gen_ErrorOccurredSearchingKey" = "An error occurred attempting to perform the search.";
+"kHIDLess_MouseInstructionTextKey" = "There isn’t a mouse connected.";
+"kHIDLess_KeyboardPairingTimeoutTextKey" = "A connection timeout error occurred. Make sure you type the passcode and press the Return key.";
+"kHIDLess_TrackpadPairingFailed1TextKey" = "The computer failed to connect to that trackpad. The computer will try again with the same trackpad in 5 seconds…";
+"kUsersMouseKey" = "%@’s Mouse";
+"kAdvancedPasskeyOptionsButtonKey" = "Passcode Options…";
+"kDiscovery_Keyboard_BigInstructionTextKey" = "Searching for your keyboard";
+"kAreYouSureYouWantToQuitKey" = "Are you sure you want to quit the Setup Assistant?";
+"kHIDLess_KeyboardSmallInstructionDiscoveringTextKey" = "Bluetooth Setup Assistant is looking for a wireless keyboard. If one is found it will be connected to your computer. Check your cables if you expect to use a USB keyboard.
+
+If you are attempting to use a wireless keyboard and it isn’t found, make sure it is turned on and “discoverable.” If you are using an Apple wireless keyboard, turn on your keyboard. If you are trying to use a non-Apple wireless keyboard, see the documentation that came with the keyboard.";
+"kHIDLess_MouseClickContinueButton2TextKey%@" = "Connecting was successful with a mouse. To acknowledge the connection, use your mouse to click Continue. If your mouse doesn’t move the pointer and there is another wireless mouse or trackpad available, then your computer may be trying to connect to another wireless mouse or trackpad.
+
+Your computer will attempt to connect again to your mouse in %@.";
+"kHIDLess_KeyboardInstructionTextKey" = "There isn’t a keyboard connected.";
+"kDiscovery_Keyboard_SearchingForDevicesKey%@" = "Searching for keyboards - %@ found.";
+"kHIDLess_MouseTrackpadSmallInstructionTextKey" = "Looking for a wireless mouse or trackpad. If one is found it will be connected to your computer. Check your cables if you expect to use a USB mouse. If you don’t want to set up a mouse or trackpad, press Command-Q to Quit.
+
+If you are attempting to use a wireless mouse or trackpad and it isn’t found, make sure it is turned on and “discoverable.” If you are using an Apple wireless mouse or trackpad, turn on your mouse or trackpad. If you are trying to use a non-Apple wireless mouse or trackpad, see the documentation that came with the mouse or trackpad.";
+"kHIDLess_KeyboardPairingAuthenticationFailed2TextKey" = "The computer failed to connect to that keyboard. The computer will try again with the same keyboard in 5 seconds…";
+"kHIDLess_MouseWaitingForPairingAckTextKey" = "{'seconds': {'one': 'Click Continue (%d second)…', 'other': 'Click Continue (%d seconds)…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@seconds@'}";
+"kPair_SSPNumCmp_StatusTextKey" = "If you see this number on the other device, click Continue to complete the connection process. If you don’t, click Go Back to try again.";
+"kHIDLess_MouseTrackpadInstructionTextKey" = "There isn’t a wireless mouse or trackpad connected.";
+"kHIDLess_TrackpadPairingFailed2TextKey" = "The computer failed to connect to that trackpad. Connecting to the next wireless mouse or trackpad…";
+"kHIDLess_KeyboardAttemptingToConnectTextKey%@%@" = "Attempting to connect to keyboard #%@ (%@)…";
+"kPairAttemptFailed3Key" = "The connection attempt was unsuccessful. If you would like to try a different passcode or connection method, click “Passcode Options…” button. Click Continue to try again.";
+"kPair_General_ConnectingToDeviceKey%@" = "Connecting to “%@.”";
+"kDiscovery_Mouse_Trackpad_SearchingForDevicesKey%@" = "Searching for wireless mice or trackpads - %@ found.";

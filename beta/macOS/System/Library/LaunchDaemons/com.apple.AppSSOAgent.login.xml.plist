@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.AppSSOAgent.login</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.PlatformSSO.login.service-xpc</key>
+		<dict/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent</string>
+		<string>-l</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>_securityagent</string>
+</dict>
+</plist>

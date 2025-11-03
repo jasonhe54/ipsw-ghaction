@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TrackTypes</key>
+	<array>
+		<string>vide</string>
+		<string>soun</string>
+		<string>clcp</string>
+		<string>sbtl</string>
+		<string>text</string>
+	</array>
+	<key>ValidationType</key>
+	<string>RequireOneRecognized</string>
+	<key>soun</key>
+	<array>
+		<string>lpcm</string>
+		<string>ima4</string>
+		<string>aac </string>
+		<string>aach</string>
+		<string>aacl</string>
+		<string>aace</string>
+		<string>aacf</string>
+		<string>aacg</string>
+		<string>aacp</string>
+		<string>paac</string>
+		<string>alac</string>
+		<string>.mp3</string>
+		<string>ulaw</string>
+		<string>alaw</string>
+		<string>ac-3</string>
+		<string>pac3</string>
+		<string>ec-3</string>
+		<string>pec3</string>
+		<string>0x6d730002</string>
+		<string>0x6d730011</string>
+		<string>0x6d730031</string>
+	</array>
+	<key>text</key>
+	<array>
+		<string>wvtt</string>
+		<string>svtt</string>
+	</array>
+	<key>vide</key>
+	<array>
+		<string>hvc1</string>
+		<string>avc1</string>
+		<string>mp4v</string>
+		<string>ipb </string>
+		<string>h263</string>
+		<string>dmb1</string>
+		<string>jpeg</string>
+		<string>drmi</string>
+	</array>
+</dict>
+</plist>

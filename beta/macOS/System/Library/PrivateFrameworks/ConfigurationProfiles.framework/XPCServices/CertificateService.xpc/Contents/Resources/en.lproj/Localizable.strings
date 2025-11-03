@@ -1,0 +1,15 @@
+"missing_Credentials_Header" = "Enter settings for certificate “%@”:";
+"SCEPField_Challenge" = "Challenge:";
+"str_Credentials_NoCertName" = "X509 Certificate";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"str_Credentials_CertNotFound" = "Not found in keychain";
+"str_SCEP_ConnectionFailed" = "Unable to contact SCEP server at “%@”. (%@:%@)";
+"CredentialsField_Password" = "Password:";
+"str_Credentials_IssuedBy" = "Issuer";
+"str_Credentials_CertName" = "Certificate";
+"str_Credentials_ErrorTitle" = "Error";
+"str_Credentials_ProfileAuthFailed" = "Unable to obtain authorization to install profile.";
+"str_Credentials_Expires" = "Expires";
+"str_Credentials_Expired" = "Expired";
+"missing_SCEP_Header" = "Enter settings for SCEP Enrollment “%@”:";
+"str_ServerURL" = "Server";

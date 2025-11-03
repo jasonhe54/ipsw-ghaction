@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.testmanagerd.remote</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.dt.xctestd.remote.runner</key>
+		<true/>
+		<key>com.apple.dt.xctestd.remote.target</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Standard</string>
+	<key>Program</key>
+	<string>/usr/libexec/testmanagerd</string>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.testmanagerd.remote.automation</key>
+		<dict>
+			<key>RequireEntitlement</key>
+			<string>AppleInternal</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>UsesRemoteXPC</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

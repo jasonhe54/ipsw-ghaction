@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.sidecar-relay</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>com.apple.sidecar-relay.companion-link.server</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.sidecar</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+			<key>com.apple.sidecar-relay.discovery</key>
+			<dict>
+				<key>serviceType</key>
+				<string>_rdlink._tcp</string>
+				<key>type</key>
+				<string>discovery</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.SpatialConnect.host</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+		</dict>
+		<key>com.apple.sidecar-relay</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/usr/libexec/SidecarRelay</string>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.InstallerDiagnostics.installerdiagwatcher</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.InstallerDiagnostics.installerdiagwatcher.nvram-match</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyExistsMatch</key>
+				<array>
+					<string>IDInstallerDataV2</string>
+				</array>
+				<key>IOProviderClass</key>
+				<string>AppleEFINVRAM</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>ReportFactoryInstall</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.InstallerDiagnostics.ReportFactoryInstall</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>LaunchOnlyOnce</key>
+	<true/>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/Resources/installerdiagwatcher</string>
+	</array>
+</dict>
+</plist>

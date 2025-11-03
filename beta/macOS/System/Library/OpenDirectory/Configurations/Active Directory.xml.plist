@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Top level generic Active Directory node</string>
+	<key>enabled</key>
+	<true/>
+	<key>hide registration</key>
+	<true/>
+	<key>locked</key>
+	<true/>
+	<key>module options</key>
+	<dict/>
+	<key>modules</key>
+	<dict>
+		<key>default</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>ActiveDirectory</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>915C8529-71E2-44F9-80D2-704C33FFA2E6</string>
+			</dict>
+		</array>
+	</dict>
+	<key>node name</key>
+	<string>/Active Directory</string>
+	<key>options</key>
+	<dict/>
+</dict>
+</plist>

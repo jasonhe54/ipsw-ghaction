@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/run/socketfilterfw.launchd</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.alf</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.networkextension.provider.matching</key>
+		<dict>
+			<key>com.apple.alf</key>
+			<dict>
+				<key>NEExtensionPoints</key>
+				<array>
+					<string>com.apple.networkextension.filter-data</string>
+				</array>
+				<key>NEProviderBundleIdentifier</key>
+				<string>com.apple.ALF.ApplicationFirewall</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ALF.ApplicationFirewall.message</key>
+		<true/>
+		<key>com.apple.alf</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/ApplicationFirewall/socketfilterfw</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+"Finder" = "Finder";
+"AMName" = "Set Spotlight Comments for Finder Items";
+"Folder" = "Folder";
+"Comment" = "Comment";
+"File" = "File";
+"CFBundleName" = "Set Spotlight Comments for Finder Items";
+"Add" = "Add";
+"Spotlight" = "Spotlight";
+"AMDNote" = "If no text is specified and the append checkbox is not checked, this action will clear the current Spotlight Comments from each Finder item.";
+"AMDSummary" = "If set to append, this action adds the specified text to the end of the Spotlight Comments field for the Finder items it receives. If the append checkbox is not checked, this action will replace the current Spotlight Comments with the specified text.";
+"NSHumanReadableCopyright" = "Copyright © 2004–2012 Apple Inc.  All rights reserved.";

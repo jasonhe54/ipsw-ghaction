@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LibraryApplications</key>
+	<dict>
+		<key>Calendar</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.iCal</string>
+			<key>name</key>
+			<string>Calendar</string>
+			<key>path</key>
+			<string>/Applications/Calendar.app</string>
+		</dict>
+		<key>Contacts</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.AddressBook</string>
+			<key>name</key>
+			<string>Contacts</string>
+			<key>path</key>
+			<string>/Applications/Contacts.app</string>
+		</dict>
+		<key>Database Events</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.databaseevents</string>
+			<key>name</key>
+			<string>Database Events</string>
+			<key>path</key>
+			<string>/System/Library/CoreServices/Database Events.app</string>
+		</dict>
+		<key>Finder</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.finder</string>
+			<key>name</key>
+			<string>Finder</string>
+			<key>path</key>
+			<string>/System/Library/CoreServices/Finder.app</string>
+		</dict>
+		<key>Image Events</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.imageevents</string>
+			<key>name</key>
+			<string>Image Events</string>
+			<key>path</key>
+			<string>/System/Library/CoreServices/Image Events.app</string>
+		</dict>
+		<key>Keynote</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.iWork.Keynote</string>
+			<key>name</key>
+			<string>Keynote</string>
+			<key>path</key>
+			<string>/Applications/Keynote.app</string>
+		</dict>
+		<key>Mail</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.mail</string>
+			<key>name</key>
+			<string>Mail</string>
+			<key>path</key>
+			<string>/Applications/Mail.app</string>
+		</dict>
+		<key>Messages</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.MobileSMS</string>
+			<key>name</key>
+			<string>Messages</string>
+			<key>path</key>
+			<string>/Applications/Messages.app</string>
+		</dict>
+		<key>Music</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.Music</string>
+			<key>name</key>
+			<string>Music</string>
+			<key>path</key>
+			<string>/Applications/Music.app</string>
+		</dict>
+		<key>Notes</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.Notes</string>
+			<key>name</key>
+			<string>Notes</string>
+			<key>path</key>
+			<string>/Applications/Notes.app</string>
+		</dict>
+		<key>Numbers</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.iWork.Numbers</string>
+			<key>name</key>
+			<string>Numbers</string>
+			<key>path</key>
+			<string>/Applications/Numbers.app</string>
+		</dict>
+		<key>Pages</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.iWork.Pages</string>
+			<key>name</key>
+			<string>Pages</string>
+			<key>path</key>
+			<string>/Applications/Pages.app</string>
+		</dict>
+		<key>Photos</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.Photos</string>
+			<key>name</key>
+			<string>Photos</string>
+			<key>path</key>
+			<string>/Applications/Photos.app</string>
+		</dict>
+		<key>QuickTime Player</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.QuickTimePlayerX</string>
+			<key>name</key>
+			<string>Quicktime Player</string>
+			<key>path</key>
+			<string>/Applications/QuickTime Player.app</string>
+		</dict>
+		<key>Reminders</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.reminders</string>
+			<key>name</key>
+			<string>Reminders</string>
+			<key>path</key>
+			<string>/Applications/Reminders.app</string>
+		</dict>
+		<key>Safari</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.Safari</string>
+			<key>name</key>
+			<string>Safari</string>
+			<key>path</key>
+			<string>/Applications/Safari.app</string>
+		</dict>
+		<key>Script Editor</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.ScriptEditor2</string>
+			<key>name</key>
+			<string>Script Editor</string>
+			<key>path</key>
+			<string>/Applications/Utilities/Script Editor.app</string>
+		</dict>
+		<key>Speech Recognition Server</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.speech.SpeechRecognitionServer</string>
+			<key>name</key>
+			<string>Speech Recognition Server</string>
+			<key>path</key>
+			<string>/System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechRecognitionServer.app</string>
+		</dict>
+		<key>StandardAdditions</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.osax.standardadditions</string>
+			<key>name</key>
+			<string>StandardAdditions</string>
+			<key>path</key>
+			<string>/System/Library/ScriptingAdditions/StandardAdditions.osax</string>
+		</dict>
+		<key>System Events</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.systemevents</string>
+			<key>name</key>
+			<string>System Events</string>
+			<key>path</key>
+			<string>/System/Library/CoreServices/System Events.app</string>
+		</dict>
+		<key>TV</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.TV</string>
+			<key>name</key>
+			<string>TV</string>
+			<key>path</key>
+			<string>/Applications/TV.app</string>
+		</dict>
+		<key>Terminal</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.Terminal</string>
+			<key>name</key>
+			<string>Terminal</string>
+			<key>path</key>
+			<string>/Applications/Utilities/Terminal.app</string>
+		</dict>
+		<key>TextEdit</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.TextEdit</string>
+			<key>name</key>
+			<string>TextEdit</string>
+			<key>path</key>
+			<string>/Applications/TextEdit.app</string>
+		</dict>
+		<key>VoiceOver</key>
+		<dict>
+			<key>id</key>
+			<string>com.apple.VoiceOver</string>
+			<key>name</key>
+			<string>VoiceOver</string>
+			<key>path</key>
+			<string>/System/Library/CoreServices/VoiceOver.app</string>
+		</dict>
+	</dict>
+	<key>LibraryWindowVisible</key>
+	<false/>
+</dict>
+</plist>

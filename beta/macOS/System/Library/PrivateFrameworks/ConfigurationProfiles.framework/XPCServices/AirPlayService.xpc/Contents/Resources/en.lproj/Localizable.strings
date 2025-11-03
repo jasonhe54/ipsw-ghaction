@@ -1,0 +1,12 @@
+"str_AirPlay_Details_DevicePasswords" = "Device Passwords";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'AirPlay Setting', 'other': 'AirPlay Settings (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_AirPlay_Details_AllowedDevices" = "Allowed Devices";
+"str_AirPlay_BadKeyInPayload" = "The key “%@” in the AirPlay payload “%@” is malformed.";
+"str_AirPlay_PayloadSummary_PasswordsOnly" = "Passwords";
+"str_AirPlay_DeviceNameFromID" = "AirPlay: %@";
+"str_AirPlay_PayloadSummary_AllowListOnly" = "Allowed devices";
+"str_PasswordMissingRequiredKey" = "A password setting in the AirPlay payload “%@” is missing the required key “%@”.";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'AirPlay Setting', 'other': '%lu AirPlay Settings', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_AirPlay_PayloadSummary_AllowListAndPasswords" = "Allowed devices and passwords";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'AirPlay Setting', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_AirPlay_CantSpecifyDeviceNameAndDeviceID" = "An entry in the key “%@” in the AirPlay payload “%@” specifies both “%@” and “%@”.";

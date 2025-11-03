@@ -1,0 +1,11 @@
+"Checking packages..." = "Checking packages…";
+"SUPredicateInstallErrorFailedInstall" = "The update could not be installed.";
+"SUPredicateInstallErrorFailedDownload" = "The update could not be downloaded.";
+"LONG_FIRMWARE_SCRIPT_WARNING" = "This may take a few minutes; do not shut down your computer.";
+"SUPredicateInstallErrorBusy" = "The update cannot be installed now because another update is being installed.";
+"SUPredicateInstallErrorServerNotTrusted" = "The software can’t be installed because it has not been signed by Apple.";
+"SUPredicateInstallErrorNotReachable" = "Software Update can’t connect to the update server. Make sure you’re connected to the internet, and then try again by choosing System Settings from the Apple menu.";
+"SUPredicateInstallErrorInvalidPredicate" = "An unexpected error occurred.";
+"SUPredicateInstallErrorProductRequiredLogout" = "The update requires that you restart your computer. When you are ready to install, choose System Settings from the Apple menu.";
+"SUPredicateInstallErrorNoProductsFound" = "You can check for the software later by choosing System Settings from the Apple menu.";
+"SUPredicateInstallErrorInsufficientDiskSpace" = "The software can’t be installed because there is not enough disk space.";

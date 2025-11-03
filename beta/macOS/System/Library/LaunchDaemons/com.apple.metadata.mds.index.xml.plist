@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.Spotlight</string>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>GroupName</key>
+	<dict>
+		<key>#IfFeatureFlagEnabled</key>
+		<string>Spotlight/RoleUserIndexDaemon</string>
+		<key>#Then</key>
+		<string>_mds_stores</string>
+	</dict>
+	<key>HardResourceLimits</key>
+	<dict>
+		<key>NumberOfFiles</key>
+		<integer>2048</integer>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.metadata.mds.index</string>
+	<key>LowPriorityBackgroundIO</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.metadata.mds.index</key>
+		<true/>
+		<key>com.apple.metadata.mds.index.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mds_stores</string>
+	</array>
+	<key>SoftResourceLimits</key>
+	<dict>
+		<key>NumberOfFiles</key>
+		<integer>2048</integer>
+	</dict>
+	<key>UserName</key>
+	<dict>
+		<key>#IfFeatureFlagEnabled</key>
+		<string>Spotlight/RoleUserIndexDaemon</string>
+		<key>#Then</key>
+		<string>_mds_stores</string>
+	</dict>
+	<key>_ExponentialThrottling</key>
+	<true/>
+</dict>
+</plist>

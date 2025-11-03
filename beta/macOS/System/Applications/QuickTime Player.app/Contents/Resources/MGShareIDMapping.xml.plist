@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.QuickTimePlayerX.share.Desktop</key>
+	<dict>
+		<key>MGClassName</key>
+		<string>MGDesktopJobController</string>
+		<key>MGDestinationName</key>
+		<string>Desktop</string>
+	</dict>
+	<key>com.apple.QuickTimePlayerX.share.YouTube</key>
+	<dict>
+		<key>MGClassName</key>
+		<string>MGYouTubeJobController</string>
+		<key>MGDestinationName</key>
+		<string>YouTube</string>
+	</dict>
+</dict>
+</plist>

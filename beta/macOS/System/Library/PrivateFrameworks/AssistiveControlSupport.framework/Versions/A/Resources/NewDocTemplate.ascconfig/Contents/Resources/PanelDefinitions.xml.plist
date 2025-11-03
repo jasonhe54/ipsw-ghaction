@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Panels</key>
+	<dict>
+		<key>ACSH.template.new</key>
+		<dict>
+			<key>HideSwitchDock</key>
+			<false/>
+			<key>ID</key>
+			<string>ACSH.template.net</string>
+			<key>LocalizedName</key>
+			<string>template.name.new</string>
+			<key>PanelObjects</key>
+			<array/>
+			<key>ShowPanelLocationString</key>
+			<string>CustomPanelList</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

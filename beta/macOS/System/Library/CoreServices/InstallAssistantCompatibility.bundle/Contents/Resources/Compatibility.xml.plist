@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version 1</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.apple.InstallAssistant.macOSBigSur*</string>
+			<key>Error String Key</key>
+			<string>BIG_SUR_OLD</string>
+		</dict>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.apple.InstallAssistant.macOSMonterey*</string>
+			<key>Error String Key</key>
+			<string>MONTEREY_OLD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

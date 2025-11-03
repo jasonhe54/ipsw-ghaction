@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>tg</key>
+		<array>
+			<string>tg_Cyrl</string>
+			<string>en_GB</string>
+		</array>
+		<key>tg_Cyrl</key>
+		<array>
+			<string>tg_Cyrl</string>
+			<string>en_GB</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>tg_Cyrl</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Tajik-Cyrillic</string>
+				<string>Group-Cyrillic</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardAutocapitalization</string>
+				<string>KeyboardCapsLock</string>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Tajik-Cyrillic</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardSupportsASCIIToggleKey</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

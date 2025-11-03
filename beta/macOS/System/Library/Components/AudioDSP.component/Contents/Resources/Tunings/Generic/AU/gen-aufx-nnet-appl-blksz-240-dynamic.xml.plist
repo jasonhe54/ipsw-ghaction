@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BlockSize</key>
+	<integer>240</integer>
+	<key>ComputeEngineName</key>
+	<string>CPU</string>
+	<key>DynamicBatchSize</key>
+	<true/>
+	<key>InputName</key>
+	<string>audio</string>
+	<key>LookaheadSize</key>
+	<integer>320</integer>
+	<key>ModelNetPath</key>
+	<string>Generic/AU/vi-nnet-voice-dynamic-mixed.mil</string>
+	<key>ModelNetPathBase</key>
+	<string>/System/Library/Components/AudioDSP.component/Contents/Resources/Tunings</string>
+	<key>NeuralNetImplementationType</key>
+	<string>MIL2BNNS</string>
+	<key>NumberOfInputChannels</key>
+	<integer>2</integer>
+	<key>NumberOfOutputChannels</key>
+	<integer>2</integer>
+	<key>OutputName</key>
+	<string>var_3654</string>
+	<key>SampleRate</key>
+	<integer>24000</integer>
+	<key>StreamingMode</key>
+	<integer>1</integer>
+	<key>TaskID</key>
+	<string>hc3ueiudrj</string>
+	<key>TaskIteration</key>
+	<integer>4232723</integer>
+</dict>
+</plist>

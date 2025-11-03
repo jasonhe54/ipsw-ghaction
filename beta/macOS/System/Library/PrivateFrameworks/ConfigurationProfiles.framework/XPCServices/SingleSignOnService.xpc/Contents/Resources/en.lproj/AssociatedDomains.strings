@@ -1,0 +1,9 @@
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Associated Domains Configuration', 'other': 'Associated Domains Configurations (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_AD_MissingRequiredKey" = "The “%@” payload is missing the required key: “%@”.";
+"str_AD_Details_Domains" = "Domains";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Associated Domains Configuration', 'other': '%lu Associated Domains Configurations', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_AD_Details_AppID" = "Application";
+"str_AD_RequiresUserApprovedMDM" = "The “%@” payload can only be installed from a user-approved MDM server.";
+"str_AD_Details_DirectDownloads_Enabled" = "Enabled";
+"str_AD_Details_DirectDownloads" = "Direct Downloads";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Associated Domains Configuration', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

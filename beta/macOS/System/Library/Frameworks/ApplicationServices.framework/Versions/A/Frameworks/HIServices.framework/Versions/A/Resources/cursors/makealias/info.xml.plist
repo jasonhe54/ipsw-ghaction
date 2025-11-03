@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blur</key>
+	<real>2</real>
+	<key>delay</key>
+	<real>0.0</real>
+	<key>frames</key>
+	<integer>1</integer>
+	<key>hotx</key>
+	<real>11</real>
+	<key>hoty</key>
+	<real>3</real>
+	<key>shadowcolor</key>
+	<array>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.45000000000000001</real>
+	</array>
+	<key>shadowoffsetx</key>
+	<real>0.0</real>
+	<key>shadowoffsety</key>
+	<real>-1</real>
+	<key>vectoronly</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+"str_FileVault2_PayloadType" = "FileVault Settings";
+"str_FV2_Missing_Password" = "Password:";
+"str_FileVault2_Detail_Enable" = "Enable";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'FileVault Settings', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_FileVault2_Details_EnableOnlyAdmin" = "OnlyIfAdmin";
+"str_FileVault2_Detail_HasCert" = "Certificate";
+"kCPFVUnexpectedInstitutionalKeychainFound" = "A unexpected FileVault master keychain was found.";
+"str_FV2_Details_TRUE" = "True";
+"str_CPFV_AlreadyEnabledTitle" = "FileVault appears to be turned on.";
+"kCPFVfdesetupError" = "An unknown error occurred while trying to enable or disable FileVault";
+"str_CPFV_RecoveryKey_AlertOKButton" = "Continue";
+"str_FileVault2_Detail_EnableDisbledDueToBuddy" = "(Unavailable due to Configuration)";
+"kCPFVEnableFailed" = "Enabling FileVault failed";
+"kCPFVUserProfileNotAllowed" = "This payload can only be installed via a device profile.";
+"str_CPFV_AlreadyEnabledEnablingMessage" = "Installing this profile will not take effect while FileVault is enabled.";
+"str_FileVault2_Detail_UsePRK" = "Personal Recovery Key";
+"str_FV2_Missing_Username" = "Username:";
+"str_CPFV_OverwriteMasterPasswordMessage" = "Installing this profile will overwrite your existing Master Password.";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'FileVault Settings', 'other': '%lu FileVault Settings', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"kCPFVAuthenticationFailed" = "User authentication failed.";
+"str_FileVault2_Detail_CertUUID" = "Certificate";
+"str_CPFV_RecoveryKey_AlertMessage" = "Before continuing, you should save this recovery key and keep it in a safe place. You will not see this message again.";
+"str_FileVault2_Detail_DeferForceAtUserLogin" = "Force At User Login Cancel Attempts";
+"str_CPFV_AlreadyEnableDisablingdMessage" = "Removing this profile will not disable FileVault. Use System Settings Security & Privacy to turn off FileVault.";
+"str_FileVault2_Detail_Defer" = "Defer";
+"str_FileVault2_Details_EnableIfAny" = "Always";
+"str_FV2Missing_PayloadHeader" = "Enter credentials of the FileVault user:";
+"str_FileVault2_Detail_ForceBuddyEnable" = "Force Enable in Setup Assistant";
+"kCPFVPayloadKeyDataInvalid" = "Some information in the payload was invalid.";
+"str_FileVault2_Details_EnableOff" = "Off";
+"str_FileVault2_Detail_DeferDontAskAtLogout" = "Don’t Ask At User Logout to Enable";
+"str_CPFV_RecoveryKey_AlertTitle" = "FileVault Recovery Key
+
+%@
+";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'FileVault Settings', 'other': 'FileVault Settings (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_CPFV_OverwriteMasterPasswordTitle" = "A master password already exists.";
+"str_FileVault2_Detail_Username" = "User name";

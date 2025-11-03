@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>MPEG-4</key>
+		<array>
+			<string>DivX</string>
+			<string>mp4v</string>
+		</array>
+	</dict>
+	<dict>
+		<key>H.264</key>
+		<array>
+			<string>avc1</string>
+			<string>DAVC</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Protected H.264</key>
+		<array>
+			<string>drmi</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Apple ProRes 422 (HQ)</key>
+		<array>
+			<string>apch</string>
+		</array>
+	</dict>
+</array>
+</plist>

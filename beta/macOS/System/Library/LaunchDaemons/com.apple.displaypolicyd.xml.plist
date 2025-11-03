@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.displaypolicyd</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>optional.x86_64</key>
+		<integer>1</integer>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Standard</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/displaypolicyd</string>
+		<string>-k</string>
+		<string>1</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>SHAuthorizationRight</key>
+	<string>system.preferences</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/displaypolicyd.stdout.log</string>
+	<key>StandardOutPath</key>
+	<string>/var/log/displaypolicyd.stdout.log</string>
+</dict>
+</plist>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.mdmclient.agent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>APNS says have cloud config</key>
+			<dict>
+				<key>Name</key>
+				<string>CPCloudConfigInfoDidSucceed</string>
+			</dict>
+			<key>APNS says no cloud config</key>
+			<dict>
+				<key>Name</key>
+				<string>CPCloudConfigInfoDidFail</string>
+			</dict>
+			<key>AgentLaunchOnDemand</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.mdmclient.agent.private</string>
+			</dict>
+			<key>Cloud config has been fetched</key>
+			<dict>
+				<key>Name</key>
+				<string>CPFetchedCloudConfig</string>
+			</dict>
+			<key>OrgInfoChanged</key>
+			<dict>
+				<key>Name</key>
+				<string>CP_MDMOrgInfoChangedNotification</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>Managed Apple Account Changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.devicemanagementclient.longLivedTokenChanged</string>
+			</dict>
+			<key>UserPersona Disabled</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobile.usermanagerd.userpersona_disabled</string>
+			</dict>
+		</dict>
+		<key>com.apple.usernotificationcenter.matching</key>
+		<dict>
+			<key>mdmclient</key>
+			<dict>
+				<key>bundleid</key>
+				<string>com.apple.mdmclient</string>
+				<key>events</key>
+				<array>
+					<string>didActivateNotification</string>
+					<string>didDismissAlert</string>
+				</array>
+				<key>system</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.mdmclient.agent.push.development</key>
+		<true/>
+		<key>com.apple.aps.mdmclient.agent.push.production</key>
+		<true/>
+		<key>com.apple.mdmclient.agent</key>
+		<true/>
+		<key>com.apple.mdmclient.agent.unrestricted</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.mdmclient.usernotifications.v2</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/mdmclient</string>
+		<string>agent</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

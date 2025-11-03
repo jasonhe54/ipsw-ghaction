@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.smbd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.smbd</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MaterializeDatalessFiles</key>
+	<true/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/sbin/smbd</string>
+	</array>
+	<key>Sockets</key>
+	<dict>
+		<key>direct</key>
+		<dict>
+			<key>Bonjour</key>
+			<array>
+				<string>smb</string>
+			</array>
+			<key>SockServiceName</key>
+			<string>microsoft-ds</string>
+		</dict>
+	</dict>
+	<key>_LimitLoadFromVariant</key>
+	<string>IsRecovery</string>
+</dict>
+</plist>

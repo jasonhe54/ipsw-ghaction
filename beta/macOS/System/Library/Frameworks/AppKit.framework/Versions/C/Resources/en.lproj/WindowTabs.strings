@@ -1,0 +1,12 @@
+"tab bar" = "tab bar";
+"Search Tabs" = "Search Tabs";
+"pinned tab" = "pinned tab";
+"All Tabs" = "All Tabs";
+"New Tab" = "New Tab";
+"Close tab" = "Close tab";
+"Tab bar, %lu tabs" = "{'Tabs': {'one': '%1$zu tab.', 'other': '%1$zu tabs.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'zu'}, 'NSStringLocalizedFormatKey': 'Tab bar, %1$#@Tabs@'}";
+"Close" = "Close";
+"Tab bar, %lu tabs, %lu pinned" = "{'tabCount': {'one': '%1$zu tab', 'other': '%1$zu tabs', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'zu'}, 'pinnedCount': {'one': '%2$zu pinned', 'other': '%2$zu pinned', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'zu'}, 'NSStringLocalizedFormatKey': 'Tab bar, %1$#@tabCount@, %2$#@pinnedCount@.'}";
+"tab" = "tab";
+"new tab" = "new tab";
+"thumbnail of the tab picker image" = "thumbnail of the tab picker image";

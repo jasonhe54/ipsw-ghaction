@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>A Á</string>
+		<key>Strings</key>
+		<string>A Á</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>I Í</string>
+		<key>Strings</key>
+		<string>I Í</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>O Ó</string>
+		<key>Strings</key>
+		<string>O Ó</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>U Ú</string>
+		<key>Strings</key>
+		<string>U Ú</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>a á</string>
+		<key>Strings</key>
+		<string>a á</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>i í</string>
+		<key>Strings</key>
+		<string>i í</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>o ó</string>
+		<key>Strings</key>
+		<string>o ó</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>u ú</string>
+		<key>Strings</key>
+		<string>u ú</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>¥</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Cancel</key>
+	<string>aimai</string>
+	<key>UI-Continue</key>
+	<string>bebo kai</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>iro</string>
+	<key>UI-EmergencyCall</key>
+	<string>Kenai SOS</string>
+	<key>UI-Go</key>
+	<string>kai</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>ISK</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>⮐</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Iskonawa</string>
+	<key>UI-Next</key>
+	<string>witsa</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>pausa</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>ana aki</string>
+	<key>UI-Return</key>
+	<string>ikiai</string>
+	<key>UI-Route</key>
+	<string>bai</string>
+	<key>UI-Search</key>
+	<string>benai</string>
+	<key>UI-Send</key>
+	<string>bomai</string>
+	<key>UI-Space</key>
+	<string>habá</string>
+	<key>UI-Speak</key>
+	<string>⮐</string>
+	<key>UI-Undo</key>
+	<string>micha</string>
+	<key>UI-Wait</key>
+	<string>espera</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

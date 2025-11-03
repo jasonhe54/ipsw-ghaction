@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.mobiledeviceupdater</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>Firmware device was attached</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOUSBDevice</string>
+				<key>idProductArray</key>
+				<array>
+					<integer>4642</integer>
+					<integer>4646</integer>
+					<integer>4647</integer>
+					<integer>4648</integer>
+					<integer>4649</integer>
+					<integer>4736</integer>
+					<integer>4737</integer>
+					<integer>4738</integer>
+					<integer>4739</integer>
+					<integer>6273</integer>
+					<integer>61460</integer>
+					<integer>61461</integer>
+				</array>
+				<key>idVendor</key>
+				<integer>1452</integer>
+			</dict>
+			<key>Mux device was attached</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOUSBInterface</string>
+				<key>bInterfaceClass</key>
+				<integer>255</integer>
+				<key>bInterfaceProtocol</key>
+				<integer>2</integer>
+				<key>bInterfaceSubClass</key>
+				<integer>254</integer>
+				<key>idVendor</key>
+				<integer>1452</integer>
+			</dict>
+			<key>NCM device was attached</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>AppleUSBNCMData</string>
+				<key>idVendor</key>
+				<integer>1452</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.DeviceSupportUpdater</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MobileDevice.framework/Resources/MobileDeviceUpdater.app/Contents/MacOS/MobileDeviceUpdater</string>
+	</array>
+	<key>_AdjustProgramPath</key>
+	<true/>
+</dict>
+</plist>

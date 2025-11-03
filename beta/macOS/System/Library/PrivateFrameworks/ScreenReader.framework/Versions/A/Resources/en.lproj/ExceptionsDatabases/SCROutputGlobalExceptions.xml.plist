@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIElement</key>
+	<dict>
+		<key>*</key>
+		<dict>
+			<key>*</key>
+			<dict>
+				<key>ContainsText</key>
+				<dict>
+					<key>HK$</key>
+					<dict>
+						<key>TTSText</key>
+						<string>Hong Kong Dollar</string>
+					</dict>
+					<key>Rescan</key>
+					<dict>
+						<key>TTSText</key>
+						<string>Re-scan</string>
+					</dict>
+					<key>rescan</key>
+					<dict>
+						<key>TTSText</key>
+						<string>re-scan</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

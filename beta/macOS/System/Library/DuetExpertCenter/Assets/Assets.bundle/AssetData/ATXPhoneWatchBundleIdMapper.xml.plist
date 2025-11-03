@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blacklistedWatchApps</key>
+	<array>
+		<string>com.apple.internal.Null-WK2.watchkitapp</string>
+	</array>
+	<key>phoneToWatch</key>
+	<dict>
+		<key>com.apple.Fitness</key>
+		<string>com.apple.SessionTrackerApp</string>
+		<key>com.apple.Home</key>
+		<string>com.apple.NanoHome</string>
+		<key>com.apple.Maps</key>
+		<string>com.apple.NanoMaps</string>
+		<key>com.apple.Music</key>
+		<string>com.apple.NanoMusic</string>
+		<key>com.apple.Passbook</key>
+		<string>com.apple.NanoPassbook</string>
+		<key>com.apple.Preferences</key>
+		<string>com.apple.NanoSettings</string>
+		<key>com.apple.camera</key>
+		<string>com.apple.NanoCamera</string>
+		<key>com.apple.mobilecal</key>
+		<string>com.apple.NanoCalendar</string>
+		<key>com.apple.mobilemail</key>
+		<string>com.apple.NanoMail</string>
+		<key>com.apple.mobilephone</key>
+		<string>com.apple.NanoPhone</string>
+		<key>com.apple.mobileslideshow</key>
+		<string>com.apple.NanoPhotos</string>
+		<key>com.apple.mobiletimer</key>
+		<string>com.apple.NanoWorldClock</string>
+		<key>com.apple.news</key>
+		<string>com.apple.nanonews</string>
+		<key>com.apple.reminders</key>
+		<string>com.apple.NanoReminders</string>
+	</dict>
+	<key>sameBundleIdApps</key>
+	<array>
+		<string>com.apple.MobileSMS</string>
+		<string>com.apple.mobileme.fmf1</string>
+		<string>com.apple.podcasts</string>
+		<string>com.apple.Mica-Player</string>
+	</array>
+</dict>
+</plist>

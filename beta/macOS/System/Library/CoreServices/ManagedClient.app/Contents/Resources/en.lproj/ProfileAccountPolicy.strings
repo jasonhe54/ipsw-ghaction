@@ -1,0 +1,15 @@
+"minUntilFailedLoginReset" = "The number of minutes until the login is reset is %@.";
+"requireAlphanumeric" = "Contain at least one number and one alphabetic character.";
+"passcodeSummary" = "Password requirements:";
+"minComplexChars2" = "Contain at least %@ non-alphanumeric characters, such as ‘.'!@#$%^&*_-+=`|(){}[]:;/<>,.?/’.";
+"minLength" = "Contain at least one character.";
+"pinHistory" = "Not be the same as the previous password.";
+"summaryLineBreak" = "
+";
+"maxPINAgeInDays" = "The password has expired because it has been more than %@ days since the last password change.";
+"changeAtNextAuth" = "The password has expired because the profile requires the password be changed immediately.";
+"minLength2" = "Contain at least %@ characters.";
+"allowSimple" = "Not have two consecutive, or three sequential characters.";
+"minComplexChars" = "Contain at least one non-alphanumeric character, such as ‘.'!@#$%^&*_-+=`|(){}[]:;/<>,.?/’.";
+"maxFailedAttempts" = "The maximum number of failed attempts is %@.";
+"pinHistory2" = "Not be the same as the previous %@ passwords.";

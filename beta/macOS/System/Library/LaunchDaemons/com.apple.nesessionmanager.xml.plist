@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.nesessionmanager</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.networkextension.file-descriptor-maintainer</key>
+		<dict>
+			<key>init</key>
+			<dict>
+				<key>nesm-pid</key>
+				<integer>0</integer>
+			</dict>
+			<key>new-handles</key>
+			<dict>
+				<key>handles-array</key>
+				<array/>
+			</dict>
+		</dict>
+		<key>com.apple.networkextension.network-detection</key>
+		<dict>
+			<key>SessionManager</key>
+			<dict>
+				<key>init</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.networkextension.apps-changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.networkextension.apps-changed</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.nesessionmanager</key>
+		<true/>
+		<key>com.apple.nesessionmanager.content-filter</key>
+		<true/>
+		<key>com.apple.nesessionmanager.flow-divert-token</key>
+		<true/>
+		<key>com.apple.nesessionmanager.system-extensions</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/nesessionmanager</string>
+	<key>PublishesEvents</key>
+	<string>com.apple.networkextension.provider.matching</string>
+</dict>
+</plist>

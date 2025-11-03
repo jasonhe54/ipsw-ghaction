@@ -1,0 +1,14 @@
+"SECONDS_REMAINING" = "{'secondsremaining': {'one': 'seconds', 'other': '%lu seconds', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@secondsremaining@'}";
+"FILE_SIZES_STATUS" = "%@ of %@";
+"STOP_TITLE" = "Stop";
+"CONFIRM_POST_LOGOUT_TITLE" = "There are software updates to install. Do you want to install them before restarting the computer?";
+"OK_TITLE" = "OK";
+"SCANNING_TITLE" = "Finding software";
+"UPDATES_AVAILABLE_NO_RESTART_MESSAGE" = "Software updates are available for your computer. Do you want to install them?";
+"NON_PRODUCTION_SERVER_TITLE" = "Software Update (%@)";
+"INSTALLING_ONE_ITEM" = "Installing 1 item";
+"CONFIRM_POST_LOGOUT_BODY_FORMAT" = "If you do nothing, the updates will be installed and your computer will restart automatically in %@.";
+"CONFIRM_POST_LOGOUT_RESTART_BUTTON" = "Restart";
+"CONFIRM_POST_LOGOUT_INSTALL_AND_RESTART_BUTTON" = "Install and Restart";
+"FILE_SIZES_AND_TIME_ESTIMATE_STATUS" = "%@ of %@ — %@";
+"INSTALL_DONE" = "The software was installed.";

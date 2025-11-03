@@ -1,0 +1,12 @@
+"value_Yes" = "Yes";
+"error_InternalError" = "Internal error installing profile.";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Kernel Extension Policy Control', 'other': 'Kernel Extension Policy Controls (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"value_No" = "No";
+"desc_UserApprovalAllowed" = "User approvals allowed?";
+"error_NotSystemProfile" = "The profile must be a system profile. User profiles are not supported.";
+"error_UnapprovedSource" = "The profile must originate from a user approved MDM server.";
+"desc_ApprovalsRequireAdministrator" = "Approvals require administrator?";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Kernel Extension Policy Control', 'other': '%lu Kernel Extension Policy Controls', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"error_InvalidPayload" = "The profile's payload did not validate properly.";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Kernel Extension Policy Control', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"desc_ApprovedBundles" = "Approved Bundle Identifiers";

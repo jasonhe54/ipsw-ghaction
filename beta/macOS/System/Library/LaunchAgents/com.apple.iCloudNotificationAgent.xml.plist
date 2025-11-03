@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>JetsamProperties</key>
+	<dict>
+		<key>JetsamMemoryLimit</key>
+		<real>5000</real>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.iCloudNotificationAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>refreshCFAvailability</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.os-eligibility-domain.change.greymatter</string>
+			</dict>
+			<key>refreshGMSAvailability</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.gms.availability.notification</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.ind.heartbeat</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ind.aps</key>
+		<true/>
+		<key>com.apple.ind.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+</dict>
+</plist>

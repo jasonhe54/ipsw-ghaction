@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.arkitd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.arkit.service.control</key>
+		<true/>
+		<key>com.apple.arkit.service.deviceConnection</key>
+		<true/>
+		<key>com.apple.arkit.service.gazeTracking</key>
+		<true/>
+		<key>com.apple.arkit.service.streamingPrediction</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/arkitd</string>
+	</array>
+</dict>
+</plist>

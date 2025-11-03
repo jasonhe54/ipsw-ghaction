@@ -1,0 +1,63 @@
+"FB_RESTORING_FONTS_INCLUDING_DOWNLOADABLE_AREYOUSURE_TEXT" = "Are you sure you wish to reset fonts? This operation cannot be undone.";
+"deactivate-fonts-button" = "Deactivate Fonts";
+"FB_RESTORING_FONTS_INCLUDING_DOWNLOADABLE_AREYOUSURE_TITLE" = "Proceed With Font Reset?";
+"alert-remove-error-message" = "Could not remove font. %@";
+"deactivate-fonts-message" = "Do You Want to Deactivate Fonts?";
+"alerts-deactivate-non-system-font-information" = "Deactivated fonts are not available to other applications.
+
+The fonts you’ve selected include Apple System fonts. These fonts cannot be deactivated.";
+"alerts-export-message" = "Choose a folder to which to export your font files.";
+"alerts-delete-library-message" = "Are you sure you want to delete “%@”?";
+"alerts-cannot-rename-file-information" = "An effort to keep both copies of a font failed. Please rename your font files and try again. (%@)";
+"FB_RESETTING_DOWNLOADABLE_FONTS_ERROR_TEXT" = "Check network connection and try again later.";
+"FB_NO_FONTS_TO_PRINT_TEXT" = "Fonts requiring download cannot be printed.";
+"FB_RESTORING_FONTS_AREYOUSURE_TEXT" = "Fonts not included in the macOS system install will be placed in a “Fonts (Removed)” folder next to the Fonts folder.";
+"alerts-deactivate-font-information" = "Deactivated fonts are not available to other applications.";
+"FB_RESTORING_FONTS_ERROR_TEXT" = "Unknown error occurred: %@.";
+"FB_RESTORING_FONTS_MOVED_SOME_FONTS" = "The standard macOS font installation was restored. You can find removed fonts in the “Fonts (Removed)” folder.";
+"alert-remove-error-message-no-error" = "Font removal failed. This may occur because of efforts to remove system fonts or fonts managed by non-Apple utilities. Check your selection and try again.";
+"alert-remove-font-from-library-message" = "This will remove the fonts from the “%@” library permanently. They will be deactivated and no longer available to other applications.";
+"FB_DELETE_COLLECTION_ERROR_TEXT" = "“%@” cannot be deleted";
+"alerts-delete-okay" = "Delete";
+"alert-remove-fonts-title" = "Do you want to remove the selected fonts?";
+"alert-remove-non-system-font-message" = "Downloaded fonts will be reset, and other font files will be moved to the Trash.
+
+The fonts you’ve selected include Apple System fonts. These fonts cannot be removed.";
+"alert-remove-non-system-button" = "Remove Non-System Fonts";
+"alert-install-error-title" = "Fonts not installed";
+"deactivate-nonsystem-fonts-button" = "Deactivate Non-system Fonts";
+"alert-install-error-message-no-error" = "Could not install font. This may occur because of efforts to install fonts in files containing no valid fonts. Check your selection and try again.";
+"alerts-cannot-rename-file-information-no-error" = "An effort to keep both copies of a font failed. Please rename your font files and try again.";
+"alerts-library-install-failure" = "An error occurred while installing fonts";
+"FB_RESTORING_FONTS_ADVISE_REINSTALL_TEXT" = "Some of the standard system fonts were missing. Please reinstall macOS to recover these fonts.";
+"alerts-delete-collection-message" = "Are you sure you want to delete “%@”?";
+"alert-activate-downloadable-title" = "Downloadable Fonts";
+"FB_NO_FONTS_TO_PRINT_TITLE" = "Unable to print selected fonts";
+"alerts-export-title" = "Export Fonts";
+"FB_RESTORING_FONTS_ERROR_TITLE" = "Could not restore the system font configuration.";
+"alerts-system-font-information" = "Fonts automatically installed by Apple are selected. These fonts cannot be deleted or deactivated.";
+"alerts-system-font-message" = "System Fonts Selected";
+"deactivate-font-button" = "Deactivate Font";
+"alerts-new-library-failure-message" = "Could not create a new library";
+"alert-activate-downloadable-message" = "Some fonts need to be downloaded before they can be activated.";
+"FB_RESTORING_FONTS_FINISHED_TITLE" = "Standard fonts were restored. No problems were encountered.";
+"FB_RESTORING_FONTS_ADVISE_REINSTALL_TITLE" = "Please reinstall macOS to recover standard fonts.";
+"alert-install-error-message" = "Could not install font. %@";
+"FB_RESETTING_DOWNLOADABLE_FONTS_ERROR_TITLE" = "Resetting downloadable fonts failed.";
+"FB_RESTORING_FONTS_NO_CHANGES" = "Your system already contains the standard system fonts and no others. No changes were made.";
+"deactivate-nonsystem-font-button" = "Deactivate Non-system Font";
+"FB_ALERT_BUTTON_PROCEED" = "Proceed";
+"alert-remove-font-from-collection-message" = "This will remove the fonts from the “%@” collection permanently.";
+"alerts-cannot-rename-file-message" = "Cannot Rename Font File";
+"deactivate-font-message" = "Do You Want to Deactivate a Font?";
+"alerts-new-library-failure-information" = "An error occurred when creating a new library.";
+"alert-remove-error-title" = "Fonts not removed";
+"alert-remove-button" = "Remove Fonts";
+"alerts-delete-collection-information" = "The collection will be removed permanently, but the fonts it contains will be unaffected.
+
+This operation cannot be undone.";
+"alerts-delete-library-information" = "The library will be removed permanently. The fonts it contains will be disabled and become unavailable to other applications. The font files will be unaffected.
+
+This operation cannot be undone.";
+"FB_DELETE_COLLECTION_ERROR_TITLE" = "Collection Cannot Be Deleted";
+"alert-remove-font-message" = "Downloaded fonts will be reset, and other font files will be moved to the Trash.";

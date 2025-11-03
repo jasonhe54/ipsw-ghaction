@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>color</key>
+	<string>NSColorPboardType</string>
+	<key>file</key>
+	<string>NSFileContentsPboardType</string>
+	<key>file names</key>
+	<string>NSFilenamesPboardType</string>
+	<key>font</key>
+	<string>NSFontPboardType</string>
+	<key>html</key>
+	<string>NSHTMLPboardType</string>
+	<key>image</key>
+	<string>NSTIFFPboardType</string>
+	<key>pdf</key>
+	<string>NSPDFPboardType</string>
+	<key>pict image</key>
+	<string>NSPICTPboardType</string>
+	<key>postscript</key>
+	<string>NSPostScriptPboardType</string>
+	<key>rich text</key>
+	<string>NSRTFPboardType</string>
+	<key>rich text data</key>
+	<string>NSRTFDPboardType</string>
+	<key>ruler</key>
+	<string>NSRulerPboardType</string>
+	<key>string</key>
+	<string>NSStringPboardType</string>
+	<key>tabular text</key>
+	<string>NSTabularTextPboardType</string>
+	<key>url</key>
+	<string>NSURLPboardType</string>
+	<key>vcard</key>
+	<string>NSVCardPboardType</string>
+</dict>
+</plist>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>A Á Ä À</string>
+		<key>Strings</key>
+		<string>A Á Ä À</string>
+	</dict>
+	<key>Roman-Accent-E</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>E É Ë È</string>
+		<key>Strings</key>
+		<string>E É Ë È</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>I Í Ï Ì</string>
+		<key>Strings</key>
+		<string>I Í Ï Ì</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>O Ó Ö Ò</string>
+		<key>Strings</key>
+		<string>O Ó Ö Ò</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>U Ú Ü Ù</string>
+		<key>Strings</key>
+		<string>U Ú Ü Ù</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>a á ä à</string>
+		<key>Strings</key>
+		<string>a á ä à</string>
+	</dict>
+	<key>Roman-Accent-e</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>e é ë è</string>
+		<key>Strings</key>
+		<string>e é ë è</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>i í ï ì</string>
+		<key>Strings</key>
+		<string>i í ï ì</string>
+	</dict>
+	<key>Roman-Accent-n</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>n ñ</string>
+		<key>Strings</key>
+		<string>n ñ</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>o ó ö ò</string>
+		<key>Strings</key>
+		<string>o ó ö ò</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>u ú ü ù</string>
+		<key>Strings</key>
+		<string>u ú ü ù</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Cancel</key>
+	<string>kufuta</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>kumaliza</string>
+	<key>UI-EmergencyCall</key>
+	<string>Simu yad
+Harura</string>
+	<key>UI-Go</key>
+	<string>kwenda</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>SW</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>kujiunga</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Kiswahili</string>
+	<key>UI-Next</key>
+	<string>ya</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>pause</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>tena</string>
+	<key>UI-Return</key>
+	<string>kurudi</string>
+	<key>UI-Route</key>
+	<string>njia</string>
+	<key>UI-Search</key>
+	<string>kupata</string>
+	<key>UI-Send</key>
+	<string>kutuma</string>
+	<key>UI-Space</key>
+	<string>nafasi</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .net .org .edu</string>
+		<key>Strings</key>
+		<string>.com .net .org .edu</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>kutengua</string>
+	<key>UI-Wait</key>
+	<string>wait</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

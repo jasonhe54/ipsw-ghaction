@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>com.apple.WebKit.GPU</string>
+	<string>com.google.Chrome</string>
+	<string>com.google.Chrome.canary</string>
+	<string>org.mozilla.firefox</string>
+	<string>com.microsoft.edgemac</string>
+	<string>com.operasoftware.Opera</string>
+	<string>com.google.Chrome.helper</string>
+	<string>org.mozilla.plugincontainer</string>
+	<string>com.microsoft.edgemac.helper</string>
+	<string>com.operasoftware.Opera.helper</string>
+</array>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>canStretchPhaseOut</key>
+	<true/>
+	<key>className</key>
+	<string>VignettingOverlay</string>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>imageProviderInfo</key>
+	<dict>
+		<key>vignette</key>
+		<dict>
+			<key>imageName</key>
+			<string>vignette.png</string>
+			<key>imageSizeScript</key>
+			<string>layerWidth,layerHeight</string>
+		</dict>
+	</dict>
+	<key>mainDuration</key>
+	<integer>5</integer>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>numberOfTexts</key>
+	<integer>0</integer>
+	<key>phaseInDuration</key>
+	<integer>5</integer>
+	<key>phaseOutDuration</key>
+	<integer>5</integer>
+	<key>presets</key>
+	<dict>
+		<key>Default</key>
+		<dict>
+			<key>animateRange</key>
+			<string>0</string>
+			<key>animates</key>
+			<false/>
+			<key>center</key>
+			<string>{.5, .5}</string>
+			<key>radius</key>
+			<real>547.10000000000002</real>
+		</dict>
+		<key>PhotoEdges</key>
+		<dict>
+			<key>backgroundColor</key>
+			<string>[0.95 0.95 0.95 1]</string>
+			<key>center</key>
+			<string>{.5, .5}</string>
+			<key>innerRadius</key>
+			<string>0</string>
+			<key>radial</key>
+			<true/>
+			<key>radius</key>
+			<integer>590</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

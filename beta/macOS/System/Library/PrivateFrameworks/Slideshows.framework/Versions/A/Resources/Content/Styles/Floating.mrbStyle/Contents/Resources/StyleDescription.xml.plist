@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backgroundColor</key>
+	<string>[0 0 0 1]</string>
+	<key>canUseClustering</key>
+	<false/>
+	<key>croppingMode</key>
+	<integer>3</integer>
+	<key>dynamicBatchSize</key>
+	<integer>20</integer>
+	<key>interstitialMode</key>
+	<integer>2</integer>
+	<key>isDynamic</key>
+	<true/>
+	<key>layout</key>
+	<dict>
+		<key>pictures</key>
+		<dict>
+			<key>autoKenBurnsLikelihood</key>
+			<integer>0</integer>
+			<key>basePeriod</key>
+			<string>1</string>
+			<key>effectPresets</key>
+			<array>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>Floating/Default</string>
+				</dict>
+			</array>
+			<key>lockTransitionDuration</key>
+			<true/>
+			<key>loopTransition</key>
+			<string>Dissolve</string>
+			<key>maximumTransitionDuration</key>
+			<integer>2</integer>
+			<key>minimumEffectDuration</key>
+			<string>3</string>
+			<key>minimumTransitionDuration</key>
+			<real>0.5</real>
+			<key>outroEffect</key>
+			<string>FadeOut</string>
+			<key>phasesMatchTransition</key>
+			<false/>
+			<key>zIndex</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>mainLayer</key>
+	<string>pictures</string>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>navigationIncrement</key>
+	<integer>15</integer>
+	<key>needsFaceDetection</key>
+	<false/>
+	<key>needsToBeLive</key>
+	<true/>
+	<key>numOfSlidesToPreload</key>
+	<integer>20</integer>
+	<key>reorderMode</key>
+	<integer>0</integer>
+	<key>thumbnail</key>
+	<string>Icon.tiff</string>
+</dict>
+</plist>

@@ -1,0 +1,122 @@
+"MCX_ADMIN_FV_MOBILE_ACCOUNT_OK_BUTTON" = "Continue";
+"KEYCHAIN_NETWORK_KIND" = "Network Password";
+"MCX_DeviceEnroll_AuthRequiredSuggestionString" = "Make sure your authentication information is entered correctly, or contact your system administrator.";
+"MCX_MOBILE_ACCNT_LOGOUT_MESSAGE_OK_BUTTON" = "OK";
+"MCX_FV_MOBILE_ACCOUNT_AUTH_PASSWORD_PROMPT" = "Password:";
+"MCX_DeviceEnroll_CantConnectSuggestionString" = "Try again later, or contact your system administrator.";
+"MCX_DISABLE_MGMT_ALLOW_PREFS_BUTTON" = "Allow Settings";
+"MCX_CREATE_FV_LOGIN_MSG_ONE_TIMESREMAINING_TEXT" = "%@You can log in one more time before you must enable FileVault.%@";
+"MCX_CREATE_FV_ERROR_UNEXPECTED_KEYCHAIN_MESSAGE" = "An unexpected master password keychain was found. You should use System Settings Security & Privacy to view or change FileVault.";
+"MCX_OK_BUTTON" = "OK";
+"MCX_MOBILE_ACCNT_TEXT" = "A mobile account provides a copy of your network account that may be used when a computer is disconnected from the network.
+";
+"MCX_MOBILE_ACCNT_CANCEL_BUTTON" = "Cancel Login";
+"MCX_FV_MOBILE_ACCOUNT_UNENCRYPTED_AUTH_TITLE" = "Enter a SecureToken administrator’s name and password to allow this mobile account to use FileVault.";
+"MCX_DeviceEnroll_AuthRequiredErrorString" = "Authentication to the MDM server for your organization failed.";
+"MCX_DISABLE_MGMT_TEXT" = "Your system administrator has given you the option of disabling management settings.";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_ERROR_TITLE" = "Unable to create mobile account.";
+"MCX_DeviceEnroll_DeviceIdentityErrorString" = "Unable to obtain the device identity.";
+"MCX_CREATE_FV_LOGIN_MSG_FV_DESCRIPTION_TEXT" = "FileVault secures the data on your disk by encrypting its contents automatically.
+
+";
+"MCX_MOBILE_ACCNT_STARTUP_VOL_TEXT" = " (Startup Disk)";
+"MCX_WGPICKER_TEXT" = "Select a workgroup to use. Click Remember and Continue to save the selected workgroup for use next time. Hold down the Option key at log in time to bring this window back up.
+";
+"MCX_MOBILE_ACCNT_LOGOUT_GET_PASSWORD_CANCEL_BUTTON" = "Cancel";
+"MCX_MOBILE_ACCNT_CHECKBOX" = "Don’t ask me again";
+"MCX_MOBILE_ACCNT_CHOOSE_LOCATION_TEXT" = "
+Select the home folder’s volume:
+";
+"MCXFileVault_RecoveryKey_AlertTitle" = "FileVault Recovery Key
+
+%@
+";
+"MCX_DeviceEnroll_CantConnectErrorString" = "Unable to connect to the MDM server for your organization.";
+"MCXFileVault_RecoveryKey_AlertOKButton" = "Continue";
+"MCX_FV_MOBILE_ACCOUNT_ENCRYPTED_AUTH_TITLE" = "Enter a SecureToken administrator’s name and password to allow this mobile account to log in at startup time.";
+"MCX_FV_LOGIN_DONTENABLE_BUTTON" = "Don’t Enable";
+"fdesetup_Enable_Title_ButtonString" = "fdesetup would like to enable FileVault.";
+"MCX_FV_MOBILE_ACCOUNT_ENCRYPTED_AUTH_MESSAGE" = "You can Bypass this to continue creating your mobile account, but you may not be able to log in with this account when the computer starts up until your administrator resolves this issue.
+";
+"MCX_CREATE_FV_ERROR_TITLE" = "There was a problem enabling FileVault on your computer.";
+"MCX_ADMIN_FV_MOBILE_ACCOUNT_CANCEL_BUTTON" = "Bypass";
+"fdesetup_Enable_Enable_ButtonString" = "OK";
+"MCX_FV_MOBILE_ACCOUNT_UNENCRYPTED_AUTH_MESSAGE" = "You can Bypass this to continue creating your mobile account, but if this volume is encrypted, you may not be able to log in when the computer starts up.
+";
+"MCX_WGPICKER_CANCEL_BUTTON" = "Cancel";
+"MCX_MOBILE_ACCNT_PLEASE_INSERT_VOL_TEXT" = "
+Please attach an external volume.
+";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_VOLUME_ERROR_TEXT" = "There was a problem accessing your mobile account’s home folder volume.";
+"MCX_DISABLE_MGMT_REFRESH_TEXT" = " You can also refresh any locally stored computer settings.";
+"MCX_DeviceEnroll_SigningSuggestionString" = "Try again later, or contact your system administrator.";
+"MCX_MOBILE_ACCNT_YES_BUTTON" = "Create Now";
+"MCX_CREATE_FV_MESSAGE_TEXT" = "The initial setup may take a few minutes. You can click OK to dismiss this window, but your system will continue the initial setup process. Your system will automatically continue when it’s ready.
+";
+"MCX_MOBILE_ACCNT_INSERT_VOL_TEXT" = "(No Volume Attached)";
+"MCX_DeviceEnroll_GenericServerSuggestionString" = "Try again later, or contact your system administrator.";
+"MCX_DeviceEnroll_DefaultSuggestionString" = "Try again later, or contact your system administrator.";
+"MCX_WGPICKER_REMEMBER_CONTINUE_BUTTON" = "Remember and Continue";
+"MCX_FV_LOGOUT_ADD_GET_PASSWORD_TITLE_WITH_USER" = "To add this user to FileVault, enter the password for “%@.”";
+"MCX_MOBILE_ACCNT_LOGOUT_PASSWORD_INCORRECT_TITLE" = "Incorrect password.";
+"MCX_FV_LOGIN_ENABLE_BUTTON" = "Enable Now";
+"MCX_WGPICKER_TITLE" = "Workgroups for %@.";
+"MCX_MOBILE_ACCNT_NO_BUTTON" = "Don’t Create";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_FILEVAULT_PATH_ERROR_TEXT" = "Your FileVault home can’t be created because a folder with the same name already exists.";
+"MCX_MOBILE_ACCNT_CREATE_FV_MESSAGE_TEXT" = "FileVault encrypts your volume using your login password.
+
+The initial setup may take a minute.";
+"MCX_CANCEL_BUTTON" = "Cancel";
+"MCX_DeviceEnroll_DeviceIdentitySuggestionString" = "Try again later, or contact your system administrator.";
+"MCX_CREATE_FV_LOGIN_MSG_MULTIPLE_TIMESREMAINING_TEXT" = "%@You can log in %d more times before you must enable FileVault.%@";
+"MCX_MOBILE_ACCNT_LOGOUT_GET_PASSWORD_TITLE_WITH_USER" = "Enter the password to create a mobile account for “%@.”";
+"MCX_CREATE_FV_LOGIN_MSG_NEXT_TIMESREMAINING_TEXT" = "%@You can log in once before you must enable FileVault.%@";
+"MCX_CREATE_FV_LOGIN_HEADER_TEXT" = "Your administrator requires that you enable FileVault.";
+"MCX_CantConnectErrorString" = "Your account is locked and cannot be authenticated";
+"MCX_CREATE_FV_LOGIN_RECOVERYKEY_MESSAGE_TEXT" = " Once FileVault completes its initial setup, you may be asked to write down the personal recovery key.";
+"MCX_DeviceEnroll_CertUntrustedErrorString" = "The server certificate chain for your organization’s MDM server was not properly set up.";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_HOME_PATH_ERROR_TEXT" = "There was a problem creating or accessing “%@”.";
+"MCX_CREATE_FV_ERROR_MESSAGE" = "You should use System Settings Security & Privacy to view or change FileVault.";
+"MCX_DISABLE_MGMT_TITLE" = "This computer will be managed. Would you like to continue with managed settings enabled?";
+"MCX_CREATE_FV_LOGIN_MSG_ZERO_TIMESREMAINING_TEXT" = "%@You must enable FileVault now to continue.%@";
+"fdesetup_Enable_Cancel_ButtonString" = "Don't Allow";
+"MCX_MOBILE_ACCNT_LOGOUT_GET_PASSWORD_RESTART_BUTTON" = "Restart";
+"MCX_DISABLE_MGMT_DISABLE_PREFS_BUTTON" = "Disable Settings";
+"MCX_MOBILE_ACCNT_DUPLICATE_VOLNAME_DETECTED" = "One or more duplicate volume names were detected. If you use one of these volumes, it can cause the mobile account to not function properly.";
+"MCX_FV_AND_MA_LOGOUT_GET_PASSWORD_TITLE_WITH_USER" = "Enter the password to set up FileVault and to create a mobile account for “%@.”";
+"MCX_DeviceEnroll_CertUntrustedSuggestionString" = "Please contact your system administrator.";
+"MCX_CREATE_FV_MESSAGE_LOGOUT_SHOWRECOVERYKEY_TEXT" = "The initial setup may take a few minutes. Click OK to start.
+";
+"MCX_FV_LOGIN_CANCEL_BUTTON" = "Cancel";
+"MCX_DISABLE_MGMT_SAVE_TEXT" = "
+
+If you remember this choice, you can display this window again by holding down the Option key as you log in.";
+"MCX_MOBILE_ACCNT_RESTART_BUTTON" = "Restart";
+"MCX_DeviceEnroll_GenericServerErrorString" = "The MDM server for your organization returned an unexpected status (%d).";
+"MCX_FV_LOGOUT_ENABLE_GET_PASSWORD_TITLE_WITH_USER" = "To set up FileVault with this user, enter the password for “%@.”";
+"MCX_FV_MOBILE_ACCOUNT_AUTH_USER_PROMPT" = "User Name:";
+"MCX_MOBILE_ACCNT_LOGOUT_GET_PASSWORD_OK_BUTTON" = "OK";
+"MCX_CREATE_FV_HEADER_TEXT" = "Enabling FileVault on your volume.";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_CANCELED_TITLE" = "Mobile account creation canceled.";
+"MCX_DeviceEnroll_SigningErrorString" = "Unable to securely sign the request to your organization’s MDM server.";
+"MCX_MOBILE_ACCNT_CANT_CREATE_NO_VOL_SUBTEXT" = "You must attach an external volume to create the mobile account.";
+"MCXFileVault_RecoveryKey_AlertMessage" = "Before continuing, you should save this recovery key and keep it in a safe place. You will not see this message again.";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_FILEVAULT_ERROR_TEXT" = "There was a problem creating a FileVault home.";
+"MCX_WGPICKER_DONT_ENABLE_MGMT_CHECKBOX" = "Don’t enable management";
+"MCX_AuthBackoffSecsErrorString" = "Your account is temporarily locked and cannot be authenticated at this time. Seconds to wait: %d";
+"MCX_WGPICKER_CONTINUE_BUTTON" = "Continue";
+"MCX_ADMIN_FV_MOBILE_ACCOUNT_AUTH_ERROR" = "The user could either not be authenticated, or is not a SecureToken enabled administrator on this volume.";
+"MCX_FV_RESTART_MESSAGE" = "To start the FileVault encryption process you will need to restart your computer and log back in.";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_ERROR_TEXT" = "There was a problem creating your mobile account.";
+"MCX_DISABLE_MGMT_REFRESH_PREFS_BUTTON" = "Refresh Preferences";
+"USER_ORIG_HOME_DOCK_ITEM" = "%@’s Network Home";
+"MCX_AuthBackoffMinsErrorString" = "Your account is temporarily locked and cannot be authenticated at this time. Minutes to wait: %d";
+"MCX_CREATE_FV_LOGIN_MSG_ENABLENOTREQUIRED_TEXT" = "%@You should enable FileVault as soon as possible.%@";
+"MCX_MOBILE_ACCNT_DUPLICATE_VOLNAME_DETECTED_SUBTEXT" = "Before selecting one of the duplicated volumes as a destination for your mobile account, you should fix this by renaming the volume.";
+"MCX_MOBILE_ACCNT_CREATE_FV_HEADER_TEXT" = "Enabling FileVault on your system.";
+"MCX_MOBILE_ACCNT_CANT_CREATE_NO_VOL" = "Unable to create mobile account.";
+"MCX_MOBILE_ACCNT_TITLE" = "Create a mobile account?";
+"MCX_DeviceEnroll_DefaultErrorString" = "Unable to connect to the MDM server for your organization.";
+"MCX_DISABLE_MGMT_REMEMBER_CHECKBOX" = "Remember my choice";
+"MCX_MOBILE_ACCNT_LOGOUT_CREATE_RECORD_ERROR_TEXT" = "There was a problem creating your mobile account record.";
+"MCX_MOBILE_ACCNT_LOGOUT_GET_PASSWORD_PASSWORD_LABEL" = "Password:";

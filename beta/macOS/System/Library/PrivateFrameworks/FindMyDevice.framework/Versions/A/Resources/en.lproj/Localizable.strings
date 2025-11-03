@@ -1,0 +1,29 @@
+"AL_REMOVE_FAILURE_MACOS_PASSWORD" = "Your password is incorrect. Please try again.";
+"FMM_DELETE_ICLOUD_ACCOUNT_FAILED_NETWORK_ERROR_MAC_TITLE" = "Could not sign out";
+"FMM_DELETE_ICLOUD_ACCOUNT_FAILED_GENERIC_ERROR_MAC_TITLE" = "Could not sign out";
+"AL_DEVICE_OWNER_CALLER_NAME" = "Find My Mac";
+"FMM_TURN_OFF_FAILED_GENERIC_ERROR_MAC_TITLE" = "Cannot Turn Off Find My Mac";
+"FMM_TURN_OFF_FAILED_NETWORK_ERROR_OK_BUTTON" = "OK";
+"AL_REMOVE_FAILURE_MACOS_PASSWORD_ATTEMPTS_EXHAUSTED" = "The password for this Mac can no longer be used to remove Activation Lock. The password was entered incorrectly too many times.";
+"AL_VALIDATION_FAILURE_APPLEID_PASSWORD" = "Your Apple Account or password is incorrect.";
+"AL_CHECK_FAILURE_SERVER" = "Activation Lock status could not be determined because the activation lock server cannot be reached. Try again in a few minutes.
+
+If this problem persists, contact Apple Support at apple.com/support";
+"FMM_DELETE_ICLOUD_ACCOUNT_FAILED_GENERIC_ERROR_OK_BUTTON" = "OK";
+"FMM_TURN_OFF_FAILED_NETWORK_ERROR_MAC_TEXT" = "An Internet connection is required to turn off Find My Mac.";
+"FMM_DELETE_ICLOUD_ACCOUNT_FAILED_NETWORK_ERROR_MAC_TEXT" = "An Internet connection is required to turn off Find My Mac and delete your Apple Account.";
+"AL_VALIDATION_FAILURE_SERVER" = "The Apple Account and password could not be validated because the activation lock server cannot be reached. Try again in a few minutes.
+
+If this problem persists, contact Apple Support at apple.com/support";
+"FMM_TURN_OFF_FAILED_GENERIC_ERROR_MAC_TEXT" = "There was a problem removing this Mac from your account. Try turning Find My Mac off again.";
+"AL_REMOVE_FAILURE_SERVER" = "Activation Lock could not be removed because the activation lock server cannot be reached. Try again in a few minutes.
+
+If this problem persists, contact Apple Support at apple.com/support";
+"AL_VALIDATION_FAILURE_DIFFERENT_APPLEID" = "This Mac is linked to a different Apple Account.";
+"FMM_DELETE_ICLOUD_ACCOUNT_FAILED_NETWORK_ERROR_OK_BUTTON" = "OK";
+"AL_REMOVE_FAILURE_APPLEID_PASSWORD" = "Your Apple Account or password is incorrect.";
+"FMM_TURN_OFF_FAILED_GENERIC_ERROR_OK_BUTTON" = "OK";
+"AL_REMOVE_FAILURE_DIFFERENT_APPLEID" = "This Mac is linked to a different Apple Account.";
+"FMM_DELETE_ICLOUD_ACCOUNT_FAILED_GENERIC_ERROR_MAC_TEXT" = "There was a problem removing this Mac from your account. Try signing out again.";
+"FMM_TURN_OFF_FAILED_NETWORK_ERROR_MAC_TITLE" = "Cannot Turn Off Find My Mac";
+"AL_DEVICE_OWNER_AUTH_TITLE" = "“Find My Mac” is trying to authenticate this user.";

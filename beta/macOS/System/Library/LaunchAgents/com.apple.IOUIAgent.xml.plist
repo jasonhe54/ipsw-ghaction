@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.IOUIAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>port-authorization-pending</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>AuthorizationRequired</key>
+					<true/>
+					<key>BuiltIn</key>
+					<true/>
+					<key>UserAuthorizationPending</key>
+					<true/>
+				</dict>
+				<key>IOProviderClass</key>
+				<string>IOPort</string>
+			</dict>
+			<key>trm-enrollment-pending</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>TRM_EnrollmentPending</key>
+					<true/>
+				</dict>
+				<key>IOProviderClass</key>
+				<string>AppleCredentialManager</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>showLiquidDetectionUI</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ldcm.show-ui</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/IOUIAgent.app/Contents/MacOS/IOUIAgent</string>
+	<key>ProgramArguments</key>
+	<array/>
+</dict>
+</plist>

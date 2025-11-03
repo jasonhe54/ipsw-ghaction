@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0x0208</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Keyboard 1st gen (white) ANSI</string>
+	</dict>
+	<key>0x0209</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Keyboard 1st gen (white) ISO</string>
+	</dict>
+	<key>0x020A</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Keyboard 1st gen (white) JIS</string>
+	</dict>
+	<key>0x022C</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>ImageName</key>
+		<string>M90.icns</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 1st gen ANSI</string>
+	</dict>
+	<key>0x022D</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 1st gen ISO</string>
+	</dict>
+	<key>0x022E</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 1st gen JIS</string>
+	</dict>
+	<key>0x0239</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ANSI</string>
+	</dict>
+	<key>0x023A</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ISO</string>
+	</dict>
+	<key>0x023B</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen JIS</string>
+	</dict>
+	<key>0x0255</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ANSI - new layout</string>
+	</dict>
+	<key>0x0256</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ISO - new layout</string>
+	</dict>
+	<key>0x0257</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Keyboard</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen JIS - new layout</string>
+	</dict>
+	<key>0x0265</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>D67-Black.icns</string>
+			<key>0x09</key>
+			<string>D67-Black.icns</string>
+			<key>0x20</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x21</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x22</key>
+			<string>D67-BlackRounded.icns</string>
+			<key>0x24</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x25</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x26</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x27</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x28</key>
+			<string>D67-WhiteRounded.icns</string>
+			<key>0x29</key>
+			<string>D67-WhiteRounded.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Magic Trackpad</string>
+		<key>ImageName</key>
+		<string>D67-White.icns</string>
+		<key>Name</key>
+		<string>Magic Trackpad</string>
+	</dict>
+	<key>0x0267</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Magic Keyboard</string>
+		<key>ImageName</key>
+		<string>A111.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x0269</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>A125-Black.icns</string>
+			<key>0x09</key>
+			<string>A125-Black.icns</string>
+			<key>0x22</key>
+			<string>A125-Black.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Magic Mouse</string>
+		<key>ImageName</key>
+		<string>A125-White.icns</string>
+		<key>Name</key>
+		<string>Magic Mouse</string>
+	</dict>
+	<key>0x026C</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>A211-5-BlackBlack.icns</string>
+			<key>0x09</key>
+			<string>A211-9-SilverBlack.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Magic Keyboard</string>
+		<key>ImageName</key>
+		<string>A211-SilverWhite.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x029A</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x20</key>
+			<string>A222-20-Silver.icns</string>
+			<key>0x24</key>
+			<string>A222-24-Yellow.icns</string>
+			<key>0x25</key>
+			<string>A222-25-Green.icns</string>
+			<key>0x26</key>
+			<string>A222-26-Blue.icns</string>
+			<key>0x27</key>
+			<string>A222-27-Pink.icns</string>
+			<key>0x28</key>
+			<string>A222-28-Purple.icns</string>
+			<key>0x29</key>
+			<string>A222-29-Orange.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Magic Keyboard</string>
+		<key>ImageName</key>
+		<string>A222-20-Silver.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x029C</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x20</key>
+			<string>A222e-20-Silver.icns</string>
+			<key>0x24</key>
+			<string>A222e-24-Yellow.icns</string>
+			<key>0x25</key>
+			<string>A222e-25-Green.icns</string>
+			<key>0x26</key>
+			<string>A222e-26-Blue.icns</string>
+			<key>0x27</key>
+			<string>A222e-27-Pink.icns</string>
+			<key>0x28</key>
+			<string>A222e-28-Purple.icns</string>
+			<key>0x29</key>
+			<string>A222e-29-Orange.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Magic Keyboard</string>
+		<key>ImageName</key>
+		<string>A222e-20-Silver.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x029F</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x20</key>
+			<string>A223-20-SilverWhite.icns</string>
+			<key>0x22</key>
+			<string>A223-22-SilverBlack.icns</string>
+			<key>0x24</key>
+			<string>A223-24-Yellow.icns</string>
+			<key>0x25</key>
+			<string>A223-25-Green.icns</string>
+			<key>0x26</key>
+			<string>A223-26-Blue.icns</string>
+			<key>0x27</key>
+			<string>A223-27-Pink.icns</string>
+			<key>0x28</key>
+			<string>A223-28-Purple.icns</string>
+			<key>0x29</key>
+			<string>A223-29-Orange.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Magic Keyboard</string>
+		<key>ImageName</key>
+		<string>A223-20-SilverWhite.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x0309</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x030C</string>
+		<key>DisplayName</key>
+		<string>Apple Wireless Mouse</string>
+		<key>Name</key>
+		<string>Apple Wireless Mouse (no scrollball)</string>
+	</dict>
+	<key>0x030C</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Mighty Mouse</string>
+		<key>ImageName</key>
+		<string>M6.icns</string>
+		<key>Name</key>
+		<string>Apple Mighty Mouse (with scrollball)</string>
+	</dict>
+	<key>0x030D</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x0269</string>
+		<key>DisplayName</key>
+		<string>Magic Mouse</string>
+		<key>Name</key>
+		<string>Magic Mouse</string>
+	</dict>
+	<key>0x030E</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Magic Trackpad</string>
+		<key>ImageName</key>
+		<string>K67.png</string>
+		<key>Name</key>
+		<string>Magic Trackpad</string>
+	</dict>
+	<key>0x1290</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone.icns</string>
+		<key>Name</key>
+		<string>iPhone</string>
+	</dict>
+	<key>0x1292</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-3g.icns</string>
+		<key>Name</key>
+		<string>iPhone 3G</string>
+	</dict>
+	<key>0x1294</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x1292</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>Name</key>
+		<string>iPhone 3Gs</string>
+	</dict>
+	<key>0x1297</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-4-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 4 GSM</string>
+	</dict>
+	<key>0x129A</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad.icns</string>
+		<key>Name</key>
+		<string>iPad</string>
+	</dict>
+	<key>0x129C</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x1297</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>Name</key>
+		<string>iPhone 4 CDMA</string>
+	</dict>
+	<key>0x129D</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>Apple TV</string>
+		<key>ImageName</key>
+		<string>com.apple.apple-tv-3.icns</string>
+		<key>Name</key>
+		<string>AppleTV</string>
+	</dict>
+	<key>0x129E</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x1297</string>
+		<key>DisplayName</key>
+		<string>iPod touch</string>
+		<key>Name</key>
+		<string>iPod touch 4th Generation</string>
+	</dict>
+	<key>0x129F</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad-2-black.icns</string>
+		<key>Name</key>
+		<string>iPad 2 WiFi</string>
+	</dict>
+	<key>0x12A0</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-4-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 4s</string>
+	</dict>
+	<key>0x12A2</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>Name</key>
+		<string>iPad 2 GSM</string>
+	</dict>
+	<key>0x12A3</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>Name</key>
+		<string>iPad 2 CDMA</string>
+	</dict>
+	<key>0x12A4</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>Name</key>
+		<string>iPad 3 WiFi</string>
+	</dict>
+	<key>0x12A5</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>Name</key>
+		<string>iPad 3 GSM</string>
+	</dict>
+	<key>0x12A6</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>Name</key>
+		<string>iPad 3 CDMA</string>
+	</dict>
+	<key>0x12A7</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>Apple TV</string>
+		<key>ImageName</key>
+		<string>com.apple.apple-tv-4.icns</string>
+		<key>Name</key>
+		<string>AppleTV</string>
+	</dict>
+	<key>0x12A8</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-5-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 5</string>
+	</dict>
+	<key>0x12A9</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>Name</key>
+		<string>iPad 2 WiFi 2</string>
+	</dict>
+	<key>0x12AA</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPod touch</string>
+		<key>ImageName</key>
+		<string>com.apple.ipod-touch-5-silver.icns</string>
+		<key>Name</key>
+		<string>iPod touch 5th Generation</string>
+	</dict>
+	<key>0x12AB</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPad</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad-mini-black-wifi.icns</string>
+		<key>Name</key>
+		<string>iPad 4, iPad mini</string>
+	</dict>
+	<key>0x2002</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AirPods</string>
+		<key>ImageName</key>
+		<string>B188-B288.png</string>
+		<key>Name</key>
+		<string>AirPods</string>
+	</dict>
+	<key>0x2003</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B312-0-White.png</string>
+			<key>0x01</key>
+			<string>B312-1-Black.png</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Powerbeats³</string>
+		<key>ImageName</key>
+		<string>B312-1-Black.png</string>
+		<key>Name</key>
+		<string>Powerbeats³</string>
+	</dict>
+	<key>0x2005</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B282-0-White.png</string>
+			<key>0x01</key>
+			<string>B282-1-Black.png</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beatsˣ</string>
+		<key>ImageName</key>
+		<string>B282-1-Black.png</string>
+		<key>Name</key>
+		<string>Beatsˣ</string>
+	</dict>
+	<key>0x2006</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B352-0-White.png</string>
+			<key>0x01</key>
+			<string>B352-1-Black.png</string>
+			<key>0x5B</key>
+			<string>B352-91-Gold.icns</string>
+			<key>0x5C</key>
+			<string>B352-92-Silver.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Solo³</string>
+		<key>ImageName</key>
+		<string>B352-1-Black.png</string>
+		<key>Name</key>
+		<string>Beats Solo³</string>
+	</dict>
+	<key>0x2009</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>B453-1-Black.icns</string>
+			<key>0x03</key>
+			<string>B453-3-Blue.icns</string>
+			<key>0x07</key>
+			<string>B453-7-Tan.icns</string>
+			<key>0x09</key>
+			<string>B453-9-Brown.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Studio³</string>
+		<key>ImageName</key>
+		<string>B453-1-Black.icns</string>
+		<key>Name</key>
+		<string>Beats Studio³</string>
+	</dict>
+	<key>0x200A</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B515-0-Black.icns</string>
+			<key>0x02</key>
+			<string>B515-2-Red.icns</string>
+			<key>0x03</key>
+			<string>B515-3-Blue.icns</string>
+			<key>0x0F</key>
+			<string>B515-0-Black.icns</string>
+			<key>0x10</key>
+			<string>B515-16-White.icns</string>
+			<key>0x11</key>
+			<string>B515-17-Green.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>AirPods Max</string>
+		<key>ImageName</key>
+		<string>B515-0-Black.icns</string>
+		<key>Name</key>
+		<string>AirPods Max</string>
+	</dict>
+	<key>0x200B</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B444-0-Ivory.png</string>
+			<key>0x01</key>
+			<string>B444-1-Black.png</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Powerbeats Pro</string>
+		<key>ImageName</key>
+		<string>B444-1-Black.png</string>
+		<key>Name</key>
+		<string>Powerbeats Pro</string>
+	</dict>
+	<key>0x200C</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>B419-1-Black.png</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Solo Pro</string>
+		<key>ImageName</key>
+		<string>B419-1-Black.png</string>
+		<key>Name</key>
+		<string>Solo Pro</string>
+	</dict>
+	<key>0x200D</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>B364-1-Black.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Powerbeats⁴</string>
+		<key>ImageName</key>
+		<string>B364-1-Black.icns</string>
+		<key>Name</key>
+		<string>Powerbeats⁴</string>
+	</dict>
+	<key>0x200E</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AirPods Pro</string>
+		<key>ImageName</key>
+		<string>B298.png</string>
+		<key>Name</key>
+		<string>AirPods Pro</string>
+	</dict>
+	<key>0x200F</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AirPods</string>
+		<key>ImageName</key>
+		<string>B188-B288.png</string>
+		<key>Name</key>
+		<string>AirPods</string>
+	</dict>
+	<key>0x2010</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>B372-1-Black.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Flex</string>
+		<key>ImageName</key>
+		<string>B372-1-Black.icns</string>
+		<key>Name</key>
+		<string>Beats Flex</string>
+	</dict>
+	<key>0x2011</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B507-0-White.icns</string>
+			<key>0x01</key>
+			<string>B507-1-Black.icns</string>
+			<key>0x02</key>
+			<string>B507-2-Red.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Studio Buds</string>
+		<key>ImageName</key>
+		<string>B507-1-Black.icns</string>
+		<key>Name</key>
+		<string>Beats Studio Buds</string>
+	</dict>
+	<key>0x2012</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B494-0-White.icns</string>
+			<key>0x01</key>
+			<string>B494-1-Black.icns</string>
+			<key>0x02</key>
+			<string>B494-2-StonePurple.icns</string>
+			<key>0x03</key>
+			<string>B494-3-SageGray.icns</string>
+			<key>0x04</key>
+			<string>B494-4-CoralPink.icns</string>
+			<key>0x05</key>
+			<string>B494-5-VoltYellow.icns</string>
+			<key>0x06</key>
+			<string>B494-6-TidalBlue.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Fit Pro</string>
+		<key>ImageName</key>
+		<string>B494-1-Black.icns</string>
+		<key>Name</key>
+		<string>Beats Fit Pro</string>
+	</dict>
+	<key>0x2013</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AirPods</string>
+		<key>ImageName</key>
+		<string>B688.icns</string>
+		<key>Name</key>
+		<string>AirPods</string>
+	</dict>
+	<key>0x2014</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AirPods Pro</string>
+		<key>ImageName</key>
+		<string>B698.icns</string>
+		<key>Name</key>
+		<string>AirPods Pro</string>
+	</dict>
+	<key>0x2016</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B607-0-Black.icns</string>
+			<key>0x01</key>
+			<string>B607-1-Icing.icns</string>
+			<key>0x02</key>
+			<string>B607-2-Transparent.icns</string>
+			<key>0x03</key>
+			<string>B607-3-CosmicSilver.icns</string>
+			<key>0x04</key>
+			<string>B607-4-CosmicPink.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Studio Buds +</string>
+		<key>ImageName</key>
+		<string>B607-0-Black.icns</string>
+		<key>Name</key>
+		<string>Beats Studio Buds +</string>
+	</dict>
+	<key>0x2017</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>B453-1-Black.icns</string>
+			<key>0x03</key>
+			<string>B453-3-Blue.icns</string>
+			<key>0x04</key>
+			<string>B453-4-Moon.icns</string>
+			<key>0x05</key>
+			<string>B453-5-Dune.icns</string>
+			<key>0x06</key>
+			<string>B453-6-Earth.icns</string>
+			<key>0x07</key>
+			<string>B453-7-Tan.icns</string>
+			<key>0x09</key>
+			<string>B453-9-Brown.icns</string>
+			<key>0x0C</key>
+			<string>B453-12-Pink.icns</string>
+			<key>0x0D</key>
+			<string>B453-13-DarkSlate.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Studio Pro</string>
+		<key>ImageName</key>
+		<string>B453-1-Black.icns</string>
+		<key>Name</key>
+		<string>Beats Studio Pro</string>
+	</dict>
+	<key>0x201A</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>B487-1-Black.icns</string>
+			<key>0x02</key>
+			<string>B487-2-Champagne.icns</string>
+			<key>0x04</key>
+			<string>B487-4-Red.icns</string>
+			<key>0x06</key>
+			<string>B487-6-Mushroom.icns</string>
+			<key>0x07</key>
+			<string>B487-7-Graphite.icns</string>
+			<key>0x08</key>
+			<string>B487-8-Blue.icns</string>
+			<key>0x09</key>
+			<string>B487-9-Pink.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>Beats Pill</string>
+		<key>ImageName</key>
+		<string>B487-1-Black.icns</string>
+	</dict>
+	<key>0x201F</key>
+	<dict>
+		<key>Color</key>
+		<dict>
+			<key>0x00</key>
+			<string>B515-0-Black.icns</string>
+			<key>0x02</key>
+			<string>B515-2-Red.icns</string>
+			<key>0x03</key>
+			<string>B515-3-Blue.icns</string>
+			<key>0x0F</key>
+			<string>B515-0-Black.icns</string>
+			<key>0x10</key>
+			<string>B515-16-White.icns</string>
+			<key>0x11</key>
+			<string>B515-17-Green.icns</string>
+		</dict>
+		<key>DisplayName</key>
+		<string>AirPods Max</string>
+		<key>ImageName</key>
+		<string>B515-0-Black.icns</string>
+		<key>Name</key>
+		<string>AirPods Max</string>
+	</dict>
+	<key>0x2024</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>AirPods Pro</string>
+		<key>ImageName</key>
+		<string>B698.icns</string>
+		<key>Name</key>
+		<string>AirPods Pro</string>
+	</dict>
+	<key>0x6D00</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x12A8</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>Name</key>
+		<string>iPhone 5c</string>
+	</dict>
+	<key>0x6D01</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-5-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 5s GSM</string>
+	</dict>
+	<key>0x6D02</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-5-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 5s GSM+CDMA</string>
+	</dict>
+	<key>0x6D07</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPad Air</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad-air-99989b.icns</string>
+		<key>Name</key>
+		<string>iPad Air</string>
+	</dict>
+	<key>0x6E00</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-6-b4b5b9.icns</string>
+		<key>Name</key>
+		<string>iPhone 6</string>
+	</dict>
+	<key>0x6E01</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-6-plus-b4b5b9.icns</string>
+		<key>Name</key>
+		<string>iPhone 6 plus</string>
+	</dict>
+	<key>0x710D</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>DisplayName</key>
+		<string>iPhone</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-x-1.icns</string>
+		<key>Name</key>
+		<string>iPhone X</string>
+	</dict>
+</dict>
+</plist>

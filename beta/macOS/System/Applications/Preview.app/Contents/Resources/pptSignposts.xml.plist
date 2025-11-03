@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>os</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>Application</string>
+			<key>description</key>
+			<string>Measure app activation</string>
+			<key>listAll</key>
+			<true/>
+			<key>name</key>
+			<string>Activation</string>
+			<key>subsystem</key>
+			<string>com.apple.AppKit</string>
+			<key>targetTests</key>
+			<array>
+				<string>Preview_Activation</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>Application</string>
+			<key>description</key>
+			<string>Measure app deactivation</string>
+			<key>listAll</key>
+			<true/>
+			<key>name</key>
+			<string>Deactivation</string>
+			<key>subsystem</key>
+			<string>com.apple.AppKit</string>
+			<key>targetTests</key>
+			<array>
+				<string>Preview_Activation</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
+	</array>
+</dict>
+</plist>

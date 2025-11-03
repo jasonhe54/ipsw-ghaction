@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Icon</key>
+	<string>PreferencesPlaybackButton</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>FooterText</key>
+			<string> </string>
+			<key>Title</key>
+			<string>READING_OPTIONS_HEADER</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Description</key>
+			<string>AUTO_HYPHENATION_DESCRIPTION</string>
+			<key>Key</key>
+			<string>BKAutoHyphenation</string>
+			<key>Title</key>
+			<string>AUTO_HYPHENATION</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string> </string>
+			<key>Title</key>
+			<string>DISPLAY_SLEEP_HEADER</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>BKPreventScreenDimmingPreferenceKey</string>
+			<key>Title</key>
+			<string>EXTEND_SLEEP</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Reading</string>
+	<key>SystemSymbolIcon</key>
+	<string>book</string>
+</dict>
+</plist>

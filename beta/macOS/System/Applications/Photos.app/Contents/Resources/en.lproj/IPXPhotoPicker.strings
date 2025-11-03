@@ -1,0 +1,19 @@
+"IPXPhotoPickerForPrints" = "{'messageFormat': {'one': 'Add 1 selected photo to prints order', 'few': 'Add %1$ld selected photos to prints order', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Add %1$ld selected photos to prints order', 'other': 'Add %1$ld selected photos to prints order', 'NSStringFormatValueTypeKey': 'ld', 'zero': 'Select photos for prints order'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"NoItemsSelectedMessagePhotosOnly" = "Choose “All Items” and select photos to add.";
+"IPXPhotoPickerItemNoCollectionName" = "{'messageFormat': {'one': '1 item selected', 'few': '%1$ld items selected', 'other': '%1$ld items selected', 'many': '%1$ld items selected', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"ConfirmButtonTitle" = "Add";
+"SelectMomentButtonTitle" = "Select Moment";
+"ConfirmButtonTitleDisabled" = "Add";
+"ConfirmButtonTitleNoSelection" = "Continue";
+"SelectPhotosAddToSlideshow" = "Select photos to add to Slideshow";
+"ExpandMomentButtonTitle" = "Show Moment (%@)";
+"IPXPhotoPickerForCalendar" = "{'messageFormat': {'one': 'Add 1 selected photo to calendar', 'few': 'Add %1$ld selected photos to calendar', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Add %1$ld selected photos to calendar', 'other': 'Add %1$ld selected photos to calendar', 'NSStringFormatValueTypeKey': 'ld', 'zero': 'Select photos to add to calendar or click Continue to add photos later'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"NoItemsSelectedToAddToMessage" = "Choose “All Items” and select photos and videosto add to “%@.”";
+"CollapseMomentButtonTitle" = "Show Result (%@)";
+"IPXPhotoPickerForBook" = "{'messageFormat': {'one': 'Add 1 selected photo to book', 'few': 'Add %1$ld selected photos to book', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Add %1$ld selected photos to book', 'other': 'Add %1$ld selected photos to book', 'NSStringFormatValueTypeKey': 'ld', 'zero': 'Select photos to add to book or click Continue to add photos later'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXPhotoPickerItem" = "{'messageFormat': {'one': 'Add 1 selected item to “%2$@”', 'few': 'Add %1$ld selected items to “%2$@”', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Add %1$ld selected items to “%2$@”', 'other': 'Add %1$ld selected items to “%2$@”', 'NSStringFormatValueTypeKey': 'ld', 'zero': 'Select items to add to “%2$@”'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"NoItemsSelectedToAddToMessagePhotosOnly" = "Choose “All Items” and select photosto add to “%@.”";
+"IPXPhotoPickerForCards" = "{'messageFormat': {'one': 'Add 1 selected photo to card', 'few': 'Add %1$ld selected photos to card', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Add %1$ld selected photos to card', 'other': 'Add %1$ld selected photos to card', 'NSStringFormatValueTypeKey': 'ld', 'zero': 'Select photos to add to card or click Continue to add photos later'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"NoItemsSelectedMessage" = "Choose “All Items” and select photos and videos to add.";
+"IPXPhotoPickerForProjectExtension" = "{'messageFormat': {'one': 'Create project with 1 selected photo', 'few': 'Create project with %1$ld selected photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Create project with %1$ld selected photos', 'other': 'Create project with %1$ld selected photos', 'NSStringFormatValueTypeKey': 'ld', 'zero': 'Select photos to create a project'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"BrowserTitle" = "Choose Items";

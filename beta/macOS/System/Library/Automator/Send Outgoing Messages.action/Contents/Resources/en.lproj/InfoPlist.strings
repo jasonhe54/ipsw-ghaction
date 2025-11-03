@@ -1,0 +1,8 @@
+"AMName" = "Send Outgoing Messages";
+"AMDSummary" = "This action sends the outgoing email messages in the Mail application.";
+"Send" = "Send";
+"CFBundleName" = "Send Outgoing Messages";
+"AMDNote" = "If outgoing messages are passed from the previous action, only they will be sent.  If no messages are passed in, all outgoing messages will be sent.";
+"NSHumanReadableCopyright" = "Copyright © 2004–2012 Apple Inc.  All rights reserved.";
+"Mail" = "Mail";
+"Message" = "Message";

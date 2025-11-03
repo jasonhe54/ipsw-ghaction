@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProcessAllow</key>
+	<array>
+		<string>FaceTime</string>
+		<string>ContinuityCaptureAgent</string>
+		<string>Final Cut Pro</string>
+		<string>TVAirPlay</string>
+		<string>AVConferenceTestRunner</string>
+		<string>AVConferenceTestRunneriOS</string>
+		<string>AVConferenceTestRunneriOSMac</string>
+		<string>AVConferenceTestRunnertvOS</string>
+		<string>AVConferenceTestRunnerWatchOS</string>
+		<string>PeerCamTestDirector</string>
+		<string>CameraKitDemo</string>
+		<string>backboardd</string>
+		<string>RealityReceiver</string>
+		<string>APReceiver</string>
+	</array>
+</dict>
+</plist>

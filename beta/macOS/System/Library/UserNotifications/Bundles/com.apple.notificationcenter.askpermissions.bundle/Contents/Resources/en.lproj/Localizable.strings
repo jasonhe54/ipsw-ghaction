@@ -1,0 +1,4 @@
+"ALLOW_BODY" = "Notifications may include alerts, sounds, and icon badges.";
+"ALLOW_BODY_CRITICAL" = "Critical alerts always play a sound and appear on the lock screen even if your Mac is muted or Do Not Disturb is on.";
+"ALLOW_TITLE_CRITICAL" = "“%@” Critical Alerts";
+"ALLOW_TITLE" = "“%@” Notifications";

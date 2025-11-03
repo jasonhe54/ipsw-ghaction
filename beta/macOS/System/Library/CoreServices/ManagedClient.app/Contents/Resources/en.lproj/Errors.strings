@@ -1,0 +1,12 @@
+"CLOUD_CONFIG_INTERNAL_ERROR" = "The device failed to request configuration. Please try again later.";
+"CLOUD_CONFIG_SERVER_TRUST_ERROR" = "The Device Enrollment server trust could not be verified. Please contact your system administrator.";
+"CLOUD_CONFIG_SERVER_BUSY_ERROR" = "The Device Enrollment server is busy. Please try again later.";
+"CLOUD_CONFIG_MAX_RETRIES_EXCEEDED" = "The Device Enrollment server is unavailable. Please try again later.";
+"CLOUD_CONFIG_ABSINTHE_ERROR_P_OSSTATUS" = "The device could not sign the configuration request. Error: %@.";
+"CLOUD_CONFIG_SERVER_DOWN_ERROR" = "The Device Enrollment server is unavailable or busy. Please contact your system administrator or try again later.";
+"CLOUD_CONFIG_BAD_FORMAT_ERROR" = "The Device Enrollment configuration for this device is invalid. Please contact your system administrator.";
+"CLOUD_CONFIG_SERIAL_NUMBER_MISSING" = "Unable to determine device serial number. Please contact your system administrator or try again later.";
+"CLOUD_CONFIG_INVALID_CONFIG_BAG" = "Unable to retrieve the Device Enrollment server information. Please contact your system administrator or try again later.";
+"CLOUD_CONFIG_INVALID_DEVICE_ERROR" = "The Device Enrollment service could not verify the identity of this device. Please contact your system administrator.";
+"CLOUD_CONFIG_DAEMON_BUSY_ERROR" = "A Device Enrollment server request is already in progress. Please try again later.";
+"CLOUD_CONFIG_XPC_FAILURE" = "Unable to communicate with the local Device Enrollment service. Please try again later.";

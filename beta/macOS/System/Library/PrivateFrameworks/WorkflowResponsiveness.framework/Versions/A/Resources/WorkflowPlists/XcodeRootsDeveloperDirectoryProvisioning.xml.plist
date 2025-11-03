@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>maximum_duration</key>
+	<integer>600</integer>
+	<key>name</key>
+	<string>XcodeRootsDeveloperDirectoryProvisioning</string>
+	<key>signposts</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>DeveloperDirectoryProvisioning</string>
+			<key>end</key>
+			<true/>
+			<key>environment_field_names</key>
+			<array>
+				<string>dvt_version</string>
+				<string>dvt_build_version</string>
+				<string>dvt_app_name</string>
+			</array>
+			<key>name</key>
+			<string>Developer Directory Provisioning</string>
+			<key>start</key>
+			<true/>
+			<key>subsystem</key>
+			<string>com.apple.dt.Xcode.WorkflowSignposts</string>
+		</dict>
+	</array>
+</dict>
+</plist>

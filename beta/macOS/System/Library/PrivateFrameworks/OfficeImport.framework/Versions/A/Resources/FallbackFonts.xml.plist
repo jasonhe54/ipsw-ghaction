@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Academy Engraved LET</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AcademyEngravedLetPlain</string>
+		</dict>
+	</array>
+	<key>AppleGaramond Bd</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AppleGaramond-Bold</string>
+		</dict>
+	</array>
+	<key>AppleGaramond BdIt</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AppleGaramond-BoldItalic</string>
+		</dict>
+	</array>
+	<key>AppleGaramond Bk</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AppleGaramond-Book</string>
+		</dict>
+	</array>
+	<key>AppleGaramond BkIt</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AppleGaramond-BookItalic</string>
+		</dict>
+	</array>
+	<key>AppleGaramond Lt</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AppleGaramond-Light</string>
+		</dict>
+	</array>
+	<key>AppleGaramond LtIt</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AppleGaramond-LightItalic</string>
+		</dict>
+	</array>
+	<key>Arial Black</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AvenirNext-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-Bold</string>
+		</dict>
+	</array>
+	<key>Arial Narrow</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AvenirNextCondensed-Regular</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-Light</string>
+		</dict>
+	</array>
+	<key>Arial Narrow Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AvenirNextCondensed-DemiBold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-LightBold</string>
+		</dict>
+	</array>
+	<key>Arial Narrow Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AvenirNextCondensed-DemiBoldItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-LightBoldItalic</string>
+		</dict>
+	</array>
+	<key>Arial Narrow Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>AvenirNextCondensed-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-LightItalic</string>
+		</dict>
+	</array>
+	<key>Bank Gothic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>BankGothic-Light</string>
+		</dict>
+	</array>
+	<key>Blackmoor LET</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>BlackmoorLetPlain</string>
+		</dict>
+	</array>
+	<key>BlairMdITC TT-Medium</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>BlairMdITCTT-Medium</string>
+		</dict>
+	</array>
+	<key>Book Antiqua</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Roman</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville</string>
+		</dict>
+	</array>
+	<key>Book Antiqua Bold</key>
+	<array>
+		<dict>
+			<key>New item</key>
+			<dict>
+				<key>PostScript-name</key>
+				<string>Palatino-Roman</string>
+			</dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-Bold</string>
+		</dict>
+	</array>
+	<key>Book Antiqua Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-BoldItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Book Antiqua Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-Italic</string>
+		</dict>
+	</array>
+	<key>Bookman Old Style</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Georgia</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Roman</string>
+		</dict>
+	</array>
+	<key>Bookman Old Style Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Georgia-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Bold</string>
+		</dict>
+	</array>
+	<key>Bookman Old Style Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Georgia-BoldItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Bookman Old Style Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Georgia-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Italic</string>
+		</dict>
+	</array>
+	<key>Bordeaux Roman Bold LET</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>BordeauxRomanBoldLetPlain</string>
+		</dict>
+	</array>
+	<key>Calibri</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS</string>
+		</dict>
+	</array>
+	<key>Calibri Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Bold</string>
+		</dict>
+	</array>
+	<key>Calibri Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Trebuchet-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Calibri Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Italic</string>
+		</dict>
+	</array>
+	<key>Cambria</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPSMT</string>
+		</dict>
+	</array>
+	<key>Cambria Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldMT</string>
+		</dict>
+	</array>
+	<key>Cambria Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldItalicMT</string>
+		</dict>
+	</array>
+	<key>Cambria Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-ItalicMT</string>
+		</dict>
+	</array>
+	<key>Candara</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS</string>
+		</dict>
+	</array>
+	<key>Candara Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Bold</string>
+		</dict>
+	</array>
+	<key>Candara Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Trebuchet-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Candara Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Italic</string>
+		</dict>
+	</array>
+	<key>Century Gothic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-Roman</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Helvetica</string>
+		</dict>
+	</array>
+	<key>Century Gothic Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-Heavy</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Helvetica-Bold</string>
+		</dict>
+	</array>
+	<key>Century Gothic Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-HeavyOblique</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Helvetica-BoldOblique</string>
+		</dict>
+	</array>
+	<key>Century Gothic Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-Oblique</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Helvetica-Oblique</string>
+		</dict>
+	</array>
+	<key>Century Schoolbook</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Roman</string>
+		</dict>
+	</array>
+	<key>Century Schoolbook Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Bold</string>
+		</dict>
+	</array>
+	<key>Century Schoolbook Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Century Schoolbook Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Italic</string>
+		</dict>
+	</array>
+	<key>Comic Sans MS</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Chalkboard</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>ChalkboardSE-Regular</string>
+		</dict>
+	</array>
+	<key>Comic Sans MS Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Chalkboard-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>ChalkboardSE-Bold</string>
+		</dict>
+	</array>
+	<key>Constantia</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Roman</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-Regular</string>
+		</dict>
+	</array>
+	<key>Constantia Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-Bold</string>
+		</dict>
+	</array>
+	<key>Constantia Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-BoldItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Constantia Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Palatino-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-Italic</string>
+		</dict>
+	</array>
+	<key>Copperplate Gothic Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Copperplate-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Copperplate</string>
+		</dict>
+	</array>
+	<key>Copperplate Gothic Light</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Copperplate-Light</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Copperplate</string>
+		</dict>
+	</array>
+	<key>Corbel</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>GillSans-Light</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS</string>
+		</dict>
+	</array>
+	<key>Corbel Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>GillSans</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Bold</string>
+		</dict>
+	</array>
+	<key>Corbel Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>GillSans-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Trebuchet-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Corbel Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>GillSans-LightItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Italic</string>
+		</dict>
+	</array>
+	<key>Franklin Gothic Book</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue</string>
+		</dict>
+	</array>
+	<key>Franklin Gothic Book Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-Italic</string>
+		</dict>
+	</array>
+	<key>Garamond</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-Regular</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPSMT</string>
+		</dict>
+	</array>
+	<key>Garamond Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-Black</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldMT</string>
+		</dict>
+	</array>
+	<key>Impact</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HelveticaNeue-CondensedBlack</string>
+		</dict>
+	</array>
+	<key>Lucida Sans Unicode</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>EuphemiaUCAS</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>GillSans</string>
+		</dict>
+	</array>
+	<key>Monotype Corsiva</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Apple-Chancery</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-Italic</string>
+		</dict>
+	</array>
+	<key>Permanent Marker</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>MarkerFelt-Thin</string>
+		</dict>
+	</array>
+	<key>Perpetua</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPSMT</string>
+		</dict>
+	</array>
+	<key>Perpetua Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-SemiBold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldMT</string>
+		</dict>
+	</array>
+	<key>Perpetua Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-SemiBoldItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldItalicMT</string>
+		</dict>
+	</array>
+	<key>Perpetua Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Baskerville-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-ItalicMT</string>
+		</dict>
+	</array>
+	<key>Segoe UI</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Verdana</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS</string>
+		</dict>
+	</array>
+	<key>Segoe UI Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Verdana-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Bold</string>
+		</dict>
+	</array>
+	<key>Segoe UI Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Verdana-BoldItalic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Trebuchet-BoldItalic</string>
+		</dict>
+	</array>
+	<key>Segoe UI Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Verdana-Italic</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TrebuchetMS-Italic</string>
+		</dict>
+	</array>
+	<key>Sylfaen</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Marion-Regular</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>HoeflerText-Regular</string>
+		</dict>
+	</array>
+	<key>Tahoma</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Verdana</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Helvetica</string>
+		</dict>
+	</array>
+	<key>Tahoma Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Verdana-Bold</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Helvetica-Bold</string>
+		</dict>
+	</array>
+	<key>TimesNewRomanPS</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPSMT</string>
+		</dict>
+	</array>
+	<key>TimesNewRomanPS Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldMT</string>
+		</dict>
+	</array>
+	<key>TimesNewRomanPS Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-BoldItalicMT</string>
+		</dict>
+	</array>
+	<key>TimesNewRomanPS Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>TimesNewRomanPS-ItalicMT</string>
+		</dict>
+	</array>
+	<key>Traditional Arabic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>GeezaPro</string>
+		</dict>
+	</array>
+	<key>Tw Cen MT</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-Roman</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>ArialMT</string>
+		</dict>
+	</array>
+	<key>Tw Cen MT Bold</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-Black</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Arial-BoldMT</string>
+		</dict>
+	</array>
+	<key>Tw Cen MT Bold Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-BlackOblique</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Arial-BoldItalicMT</string>
+		</dict>
+	</array>
+	<key>Tw Cen MT Italic</key>
+	<array>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Avenir-Oblique</string>
+		</dict>
+		<dict>
+			<key>PostScript-name</key>
+			<string>Arial-ItalicMT</string>
+		</dict>
+	</array>
+</dict>
+</plist>

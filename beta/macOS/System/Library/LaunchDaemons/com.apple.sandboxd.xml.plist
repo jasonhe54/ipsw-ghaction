@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.sandboxd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.OpenDirectory.ODTrigger</key>
+		<dict>
+			<key>Record Creation</key>
+			<dict>
+				<key>Events</key>
+				<string>Add</string>
+				<key>Nodes</key>
+				<string>/Local/Default</string>
+				<key>RecordTypes</key>
+				<string>dsRecTypeStandard:Users</string>
+				<key>TriggerType</key>
+				<string>Records</string>
+			</dict>
+			<key>Record Deletion</key>
+			<dict>
+				<key>Events</key>
+				<string>Delete</string>
+				<key>Nodes</key>
+				<string>/Local/Default</string>
+				<key>RecordTypes</key>
+				<string>dsRecTypeStandard:Users</string>
+				<key>TriggerType</key>
+				<string>Records</string>
+			</dict>
+			<key>Record Modification</key>
+			<dict>
+				<key>Nodes</key>
+				<string>/Local/Default</string>
+				<key>RecordAttributes</key>
+				<array>
+					<string>dsAttrTypeStandard:NFSHomeDirectory</string>
+					<string>dsAttrTypeStandard:UniqueID</string>
+				</array>
+				<key>RecordTypes</key>
+				<string>dsRecTypeStandard:Users</string>
+				<key>TriggerType</key>
+				<string>RecordAttributes</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.tcc.access.changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.tcc.access.changed</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.sandboxd</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>14</integer>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/sandboxd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

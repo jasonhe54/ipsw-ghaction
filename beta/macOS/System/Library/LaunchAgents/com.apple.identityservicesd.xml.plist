@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>NSRunningFromLaunchd</key>
+		<string>1</string>
+	</dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.identityservicesd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.identityservicesd.aps</key>
+		<true/>
+		<key>com.apple.identityservicesd.desktop.auth</key>
+		<true/>
+		<key>com.apple.identityservicesd.desktop.sim2host</key>
+		<true/>
+		<key>com.apple.identityservicesd.idquery.desktop.auth</key>
+		<true/>
+		<key>com.apple.identityservicesd.nsxpc</key>
+		<true/>
+		<key>com.apple.identityservicesd.nsxpc.auth</key>
+		<true/>
+		<key>com.apple.identityservicesd.pds</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.identityservicesd.firewall</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd</string>
+	</array>
+</dict>
+</plist>

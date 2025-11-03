@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.usbpowerd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.usb.powerSinkDevice</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyExistsMatch</key>
+				<array>
+					<string>UsbPowerSinkCapability</string>
+				</array>
+				<key>IOProviderClass</key>
+				<string>IOUSBHostDevice</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/usbpowerd</string>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>1</string>
+	</dict>
+	<key>Provides</key>
+	<dict>
+		<key>_order</key>
+		<string>3</string>
+	</dict>
+	<key>Requires</key>
+	<dict>
+		<key>_order</key>
+		<string>4</string>
+	</dict>
+	<key>Uses</key>
+	<dict>
+		<key>_order</key>
+		<string>5</string>
+	</dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>0</string>
+	</dict>
+	<key>spstartupitem_enabled</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>3</string>
+	</dict>
+	<key>spstartupitem_location</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>2</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+"VolumeToolTip" = "Disk: %@";
+"VolumeFreeSizeToolTip" = "
+Available: %@";
+"VolumeLockedToolTip" = "
+Locked disk";
+"CheckingToolTip" = "This disk is not yet available";
+"SizeDescriptionText_Available" = "%1$@ available";
+"BootVolumeToolTip" = "
+Your computer is running from this disk";
+"VolumeSizeToolTip" = "
+Size: %@";
+"CheckingLocationToolTip" = "This location is not yet available";
+"SizeDescriptionText_Prereap_Tooltip" = "At least %1$@ free";
+"SizeDescriptionText_Prereap" = "At least %1$@ free";
+"VolumeDeviceToolTip" = "
+Device: %@";
+"SizeDescriptionText_Capacity" = "%1$@ total";
+"SizeDescriptionText_Available_Tooltip" = "%1$@";
+"SizeDescriptionText_Locked" = "This disk is locked";
+"UnavailableLocationToolTip" = "You can’t install in this location";
+"VersionToolTip" = "
+System: %1$@, %2$@
+Build: %3$@";

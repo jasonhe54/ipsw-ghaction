@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompatibilityVersion</key>
+	<string>1.0.24</string>
+	<key>Model</key>
+	<dict>
+		<key>Policy</key>
+		<dict>
+			<key>Allow</key>
+			<dict>
+				<key>BundleIdentifiers</key>
+				<array>
+					<string>com.codebrewgames.pocketcitymac</string>
+				</array>
+				<key>ProcessNames</key>
+				<array>
+					<string>TrainValley2</string>
+				</array>
+				<key>ProcessPartialPaths</key>
+				<array>
+					<string>Roblox.app/Contents/MacOS/RobloxPlayer</string>
+				</array>
+			</dict>
+			<key>Block</key>
+			<dict>
+				<key>BundleIdentifiers</key>
+				<array>
+					<string>com.apple.Safari</string>
+					<string>com.google.Chrome</string>
+					<string>org.mozilla.firefox</string>
+					<string>com.brave.Browser</string>
+					<string>com.operasoftware.Opera</string>
+					<string>com.microsoft.edgemac</string>
+					<string>org.qt-project.Qt.QtWebEngineProcess</string>
+				</array>
+				<key>ProcessNames</key>
+				<array>
+					<string>QtWebEngineProc</string>
+				</array>
+			</dict>
+			<key>CriticalServiceIdentifiers</key>
+			<array>
+				<string>com.logi.ghub</string>
+				<string>com.logi.ghub.agent</string>
+				<string>com.logi.ghub.ui</string>
+				<string>com.apple.gamecenter.GameCenterUIService</string>
+				<string>com.apple.GameCenterFoundation</string>
+				<string>com.apple.accessibility.AXVisualSupportAgent</string>
+				<string>com.apple.sidecar-display-agent</string>
+			</array>
+			<key>CriticalServiceProcessNames</key>
+			<array>
+				<string>avconferenced</string>
+				<string>rapportd</string>
+				<string>SidecarRelay</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

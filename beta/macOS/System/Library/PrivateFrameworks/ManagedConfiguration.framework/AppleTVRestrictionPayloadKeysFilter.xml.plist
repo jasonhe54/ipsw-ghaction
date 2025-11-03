@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>intersection</key>
+	<array>
+		<string>appLockBundleIDs</string>
+		<string>allowListedAppBundleIDs</string>
+		<string>whitelistedAppBundleIDs</string>
+	</array>
+	<key>restrictedBool</key>
+	<array>
+		<string>allowAirPlayIncomingRequests</string>
+		<string>allowAutomaticScreenSaver</string>
+		<string>allowBookstoreErotica</string>
+		<string>allowCamera</string>
+		<string>allowDeviceNameModification</string>
+		<string>allowDeviceSleep</string>
+		<string>allowExplicitContent</string>
+		<string>allowPasswordProximityRequests</string>
+		<string>allowRemoteAppPairing</string>
+		<string>forceAirPlayIncomingRequestsPairingPassword</string>
+		<string>forceAutomaticDateAndTime</string>
+		<string>forceConferenceRoomDisplay</string>
+		<string>forceDelayedSoftwareUpdates</string>
+	</array>
+	<key>restrictedValue</key>
+	<array>
+		<string>ratingMovies</string>
+		<string>ratingTVShows</string>
+		<string>ratingApps</string>
+		<string>enforcedSoftwareUpdateDelay</string>
+	</array>
+	<key>union</key>
+	<array>
+		<string>blacklistedAppBundleIDs</string>
+		<string>blockedAppBundleIDs</string>
+		<string>tvRemoteAllowedRemotes</string>
+	</array>
+</dict>
+</plist>

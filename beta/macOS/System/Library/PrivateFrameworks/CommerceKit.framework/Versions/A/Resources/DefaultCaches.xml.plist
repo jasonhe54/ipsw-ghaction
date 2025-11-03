@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>caches</key>
+	<array>
+		<dict>
+			<key>file-extensions</key>
+			<array>
+				<string>jpg</string>
+				<string>png</string>
+			</array>
+			<key>memory-size</key>
+			<integer>524288</integer>
+			<key>persistent-id</key>
+			<string>com.apple.storeagent.cache.default</string>
+		</dict>
+	</array>
+</dict>
+</plist>

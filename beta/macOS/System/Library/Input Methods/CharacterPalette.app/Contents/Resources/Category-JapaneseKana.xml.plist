@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CVCategoryData</key>
+	<dict>
+		<key>CVSkipNullGlyphs</key>
+		<true/>
+		<key>DataArray</key>
+		<array>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-Hiragana</string>
+				<key>Data</key>
+				<string>あ,い,う,え,お,か,き,く,け,こ,さ,し,す,せ,そ,た,ち,つ,て,と,な,に,ぬ,ね,の,は,ひ,ふ,へ,ほ,ま,み,む,め,も,や,ゆ,よ,ら,り,る,れ,ろ,わ,ゐ,ゑ,を,ん,ゔ,が,ぎ,ぐ,げ,ご,ざ,じ,ず,ぜ,ぞ,だ,ぢ,づ,で,ど,ば,び,ぶ,べ,ぼ,ぱ,ぴ,ぷ,ぺ,ぽ,ぁ,ぃ,ぅ,ぇ,ぉ,ゕ,ゖ,っ,ゃ,ゅ,ょ,ゎ,ゔ,か゚,き゚,く゚,け゚,こ゚,ゝ,ゞ,ゟ,𛀁</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-Katakana</string>
+				<key>Data</key>
+				<string>ア,イ,ウ,エ,オ,カ,キ,ク,ケ,コ,サ,シ,ス,セ,ソ,タ,チ,ツ,テ,ト,ナ,ニ,ヌ,ネ,ノ,ハ,ヒ,フ,ヘ,ホ,マ,ミ,ム,メ,モ,ヤ,ユ,ヨ,ラ,リ,ル,レ,ロ,ワ,ヰ,ヱ,ヲ,ン,ガ,ギ,グ,ゲ,ゴ,ザ,ジ,ズ,ゼ,ゾ,ダ,ヂ,ヅ,デ,ド,バ,ビ,ブ,ベ,ボ,パ,ピ,プ,ペ,ポ,ァ,ィ,ゥ,ェ,ォ,ヵ,ヶ,ッ,ャ,ュ,ョ,ヮ,ヴ,ヷ,ヸ,ヹ,ヺ,カ゚,キ゚,ク゚,ケ゚,コ゚,セ゚,ツ゚,ト゚,ㇰ,ㇱ,ㇲ,ㇳ,ㇴ,ㇵ,ㇶ,ㇷ,ㇷ゚,ㇸ,ㇹ,ㇺ,ㇻ,ㇼ,ㇽ,ㇾ,ㇿ,ヽ,ヾ,ヿ,𛀀</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-Symbols</string>
+				<key>Data</key>
+				<string>゠,・,ー,゛,゜,〱,〲,〳,〴,〵</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

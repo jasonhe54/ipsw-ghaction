@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>AfterInitialDemand</key>
+		<true/>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.Spotlight</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.Spotlight</key>
+		<true/>
+		<key>com.apple.Spotlight.Preferences</key>
+		<true/>
+		<key>com.apple.private.spotlight.mdwrite</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

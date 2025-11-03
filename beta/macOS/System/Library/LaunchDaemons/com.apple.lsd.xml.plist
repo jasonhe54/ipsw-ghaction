@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.lsd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.lsd.advertisingidentifiers</key>
+		<true/>
+		<key>com.apple.lsd.diagnostics</key>
+		<true/>
+		<key>com.apple.lsd.dissemination</key>
+		<true/>
+		<key>com.apple.lsd.encryption</key>
+		<true/>
+		<key>com.apple.lsd.extensions</key>
+		<true/>
+		<key>com.apple.lsd.mapdb</key>
+		<true/>
+		<key>com.apple.lsd.modifydb</key>
+		<true/>
+		<key>com.apple.lsd.open</key>
+		<true/>
+		<key>com.apple.lsd.openurl</key>
+		<true/>
+		<key>com.apple.lsd.personaobserver</key>
+		<true/>
+		<key>com.apple.lsd.plugin</key>
+		<true/>
+		<key>com.apple.lsd.trustedsignatures</key>
+		<true/>
+		<key>com.apple.security.translocation</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/lsd</string>
+		<string>runAsRoot</string>
+	</array>
+	<key>PublishesEvents</key>
+	<string>com.apple.launchservices.LSObserver</string>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

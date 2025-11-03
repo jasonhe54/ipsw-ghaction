@@ -1,0 +1,13 @@
+"IPXPlaceBrowserTypeSatelliteTitle" = "Satellite";
+"IPXMapBrowserControllerTitle" = "Places";
+"IPXPlaceShowPhotosString" = "{'messageFormat': {'one': 'Show Photo', 'other': 'Show All Photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXMapBrowserSecondaryToolbarHideNearbyButton" = "Hide Nearby Photos";
+"IPXMapAnnotationViewAXLabelDelimiter" = ", ";
+"IPXPlacePhotoCountFormatString" = "{'messageFormat': {'one': '1 Photo', 'other': '%1$ld Photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
+"IPXLibrarySearchTooltipFormatWithSubtitle" = "%1$@
+%2$@";
+"IPXMapBrowserSecondaryToolbarNearbyButton" = "Nearby Photos";
+"IPXMapBrowserSecondaryToolbarShowNearbyButton" = "Show Nearby Photos";
+"IPXPlacesMailingAddressOneLineDelimiter" = ", ";
+"IPXPlaceBrowserTypeGridTitle" = "Grid";
+"IPXPlaceBrowserTypeMapTitle" = "Map";

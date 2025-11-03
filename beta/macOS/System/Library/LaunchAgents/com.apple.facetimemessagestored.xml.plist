@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>NSRunningFromLaunchd</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.facetimemessagestored</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.facetimemessagestored</key>
+		<true/>
+		<key>com.apple.facetimemessagestored.service</key>
+		<true/>
+		<key>com.apple.facetimemessagestored.videomessaging</key>
+		<true/>
+		<key>com.apple.private.alloy.facetime.messaging-idswake</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/facetimemessagestored</string>
+	</array>
+</dict>
+</plist>

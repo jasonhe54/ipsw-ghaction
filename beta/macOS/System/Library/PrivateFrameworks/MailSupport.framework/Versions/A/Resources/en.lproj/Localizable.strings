@@ -1,0 +1,13 @@
+"Send Later…" = "Send Later…";
+"Email %@" = "Email %@";
+"preview" = "preview";
+"Send %@ Tomorrow" = "{'AT_TIME': {'other': 'Send %2$@ Tomorrow', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@AT_TIME@'}";
+"Email" = "Email";
+"Send at %@" = "{'AT_TIME': {'other': 'Send at %2$@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@AT_TIME@'}";
+"Show Link Preview" = "Show Link Preview";
+"Open Link" = "Open Link";
+"Send Now" = "Send Now";
+"Send %@ Tonight" = "{'AT_TIME': {'other': 'Send %2$@ Tonight', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@AT_TIME@'}";
+"Send %@ Monday" = "{'AT_TIME': {'other': 'Send %2$@ Monday', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@AT_TIME@'}";
+"Send Later" = "Send Later";
+"Convert to Plain Link" = "Convert to Plain Link";

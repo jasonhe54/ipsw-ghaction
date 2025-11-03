@@ -1,0 +1,118 @@
+"SLEEP_BUTTON" = "Sleep";
+"RESTART_TO_SAFARI_BUTTON" = "Restart to Safari";
+"KEYCHAIN_WARNING_TEXT" = "The user’s previous keychain still exists. If you find the previous password, you can access the previous keychain and the information and passwords it contains.";
+"RECOVERY_USER" = "Recovery User";
+"AF_PASSWORDNEEDSDIGIT" = "Your password must contain one or more numbers.";
+"PIN" = "PIN";
+"NA_UNTRUSTED_CERT_MSG" = "Your computer cannot access the secure network.";
+"AHP_REQ_LOGIN" = "Your password is required to
+log in";
+"RESTART_WARNING_MSG" = "This computer will restart to a secure, Web Browser-only system for the Guest user. Other users logged into this computer may lose unsaved changes.";
+"CANNOT_LOGIN" = "Cannot log in right now";
+"RESET_MOBILE_PASSWORD_INSTRUCTIONS" = "Enter the password for your network account.";
+"RESTART_WANRING_INFO" = "To avoid losing unsaved changes, log out all users before restarting. To continue without saving changes, click Restart.";
+"FUS_FAILED_MSG" = "The user account you selected isn’t available.";
+"EXTERNAL_CURRENTLY_LOGGED_IN" = "External, currently logged in";
+"AF_NEWPASSWORDREQUIRED" = "You must enter a new password before you can log in to this account.";
+"NETWORK_NODES_NONE" = "Network accounts are unavailable.";
+"AF_AUTH_FAILED" = "You entered an invalid user name or password.";
+"AHP_REQ_48_HOURS" = "Touch ID requires your password after 48 hours";
+"PersonalRecovery" = "Personal Recovery";
+"LOG_IN_BUTTON" = "Log In";
+"USER_PASSWORD" = "Password:";
+"AF_PASSWORDNEEDSLETTER" = "Your password must contain one or more letters.";
+"Network Configurations" = "Network Configurations";
+"SERIAL_NUMBER" = "Serial Number %@";
+"AF_PASSWORDEXPIRINGSOON" = "Your password will expire soon. Enter a new password.";
+"GUEST_CURRENTLY_LOGGED_IN" = "Guest, currently logged in";
+"AHP_REQ_RESTART" = "Touch ID requires your password when Mac restarts";
+"IP_ADDRESS" = "IP Address %@";
+"AF_INVALIDLOGONHOURS" = "You are only allowed to log in during specific hours.
+Contact your system administrator for more information.";
+"APPLEID_CHANGE_PASSWORD_MSG" = "Changing your password will unlink your password from your iCloud account.";
+"AHP_AUTOUNLOCK_RESTART" = "Unlock with Apple Watch requires your password when Mac restarts";
+"SAFE_BOOT" = "Safe Boot";
+"NETWORK_ACCOUNT" = "Network Account";
+"SYSTEM_BUILD_INFO" = "Build %@";
+"AF_PASSWORDLENGTH" = "Your password must contain between %1$@ and %2$@ characters.";
+"AHP_REQ_TO_ENABLE" = "Your password is required to enable Touch ID";
+"AF_PASSWORDMAXCHARS" = "Your password must be no longer than %@ characters.";
+"CHANGE_PASSWORD" = "Change Password";
+"OPTIONS_BUTTON" = "Options";
+"LOGIN_TIME" = "Can log in at %@";
+"MOBILE_CURRENTLY_LOGGED_IN" = "Mobile, currently logged in";
+"FORGOT_PASSWORD_BUTTON" = "Forgot Password";
+"AF_INVALIDCOMPUTER" = "You are not allowed to use this computer.
+Contact your system administrator for more information.";
+"FUS_FAILED_INFO" = "Check your network connection, and try switching to the user account again. If you are connected to the network, ask your system administrator for assistance.";
+"AF_SEESYSTEMADMIN" = "Contact your system administrator for more information.";
+"PASSWORD_EXPIRATION_TODAY" = "Your password will expire today.
+
+Press “Change Password” to enter a new password.";
+"APPLEID_LOGIN_HINT" = "This account uses an iCloud password to log in. If you need to change the password, use another device to change it at appleid.apple.com.";
+"AF_INVALIDHOMEDIRECTORY" = "Your account does not have a valid home directory.
+Contact your system administrator for more information.";
+"TOUCH_ID_OR_PASSWORD" = "Touch ID or Enter Password";
+"AF_PASSWORDMINCHARS" = "Your password must contain at least %@ characters.";
+"PASSWORD_EXPIRATION_DAYS" = "Your password will expire in %@ days.
+
+Press “Change Password” to enter a new password.";
+"MAX_USERS_MESSAGE_USER" = "Unable to log into user “%@.”";
+"MAX_USERS_MESSAGE" = "Unable to log into the user account.";
+"RESTART_WARNING_MSG_ONE_USER" = "This computer will restart to a secure, Web Browser-only system for the Guest user.";
+"SHORT_NAME" = "Short Name: %@";
+"MASTER_PASSWORD_INFO_WITH_FILEVAULT" = "Type the master password to reset this user‘s password and to unlock FileVault.";
+"AF_PASSWORDTOOSHORT" = "Your password is too short.";
+"PASSWORD_SUPPORT_ADDRESS" = "support.apple.com/mac/password";
+"LOCAL_ACCOUNT" = "Local Account";
+"PROFILE_FULLNAME" = "%1$@: %2$@";
+"APPLEID_CHANGE_PASSWORD_INFO" = "You can restore the link by changing your password in the Users & Groups preference pane. To change your password, press Continue.";
+"GUEST_ACCOUNT_NAME" = "Guest User";
+"FORGOT_PASSWORD" = "Forgot Password";
+"PASSWORD_EXPIRATION_DAY" = "Your password will expire tomorrow.
+
+Press “Change Password” to enter a new password.";
+"OTHER_USER" = "Other…";
+"AF_ACCOUNTLOCKED" = "Your account is locked.";
+"KEYCHAIN_WARNING_TITLE" = "If you change the password for this user account, you will create a new keychain to store the user’s passwords.";
+"OK_BUTTON" = "OK";
+"CONTINUE_BUTTON" = "Continue";
+"AHP_REQ_LOCKOUT" = "Touch ID requires your password due to lockout";
+"PROFILE_UNTITLED" = "Untitled";
+"AF_QUALITYCHECKFAILED" = "Your password does not meet the policy requirements.";
+"APPLEID_LOGIN_FAILURE_HINT_DATE" = "Please enter your iCloud password as of %@.";
+"CURRENTLY_LOGGED_IN" = "Currently logged in";
+"AF_ACCOUNTRATELIMITED" = "Your account is locked. Try again in %@.";
+"NETWORK" = "Network";
+"MAX_USERS_INFO" = "The maximum number of logged in users has been reached.";
+"AF_UNABLETOLOGIN" = "The system is unable to log you in at this time.
+Contact your system administrator for more information.";
+"MOBILE_ACCOUNT" = "Mobile Account";
+"GUEST" = "Guest";
+"NET_NODE" = "Network Node: %@";
+"NETWORK_NODES_AUTH" = "Network access requires login.";
+"AF_CRYPTPASSWORD" = "Your password needs to be updated.";
+"NETWORK_CURRENTLY_LOGGED_IN" = "Network, currently logged in";
+"EXTERNAL" = "External";
+"EXTERNAL_ACCOUNT" = "External Account";
+"NETWORK_NODES_SOME" = "Some network accounts are available.";
+"NA_UNTRUSTED_CERT_INFO" = "You attempted to access the network by using an 802.1X authentication server, but the server’s security certificate could not be verified. Contact your network administrator for more information.";
+"BACK_BUTTON" = "Back";
+"SHUT_DOWN_BUTTON" = "Shut Down";
+"NETWORK_NODES_ALL" = "Network accounts are available.";
+"RESET_PASSWORD" = "Reset Password";
+"APPLEID_LOGIN_FAILURE_HINT" = "Please try the password you most recently used to log in to this account.";
+"RESTART_BUTTON" = "Restart";
+"GUEST_ACCOUNT" = "Guest Account";
+"NONE" = "None";
+"HOME_VOLUME" = "Volume: %@";
+"MASTER_PASSWORD_INFO" = "Type the master password to reset this user‘s password.";
+"AF_PASSWORDTOOLONG" = "Your password is too long.";
+"CANCEL_BUTTON" = "Cancel";
+"MASTER_PASSWORD" = "Master Password:";
+"USERNAME" = "Name";
+"MOBILE" = "Mobile";
+"AF_ACCOUNTDISABLED" = "Your account has been disabled.
+Contact your system administrator for more information.";
+"SYSTEM_VERSION_INFO" = "Version %@";
+"PASSWORD" = "Enter Password";

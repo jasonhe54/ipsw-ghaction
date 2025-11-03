@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>exportedDylibs</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics</string>
+		<string>/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText</string>
+		<string>/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO</string>
+		<string>/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSyncLegacy.framework/Versions/A/ColorSyncLegacy</string>
+		<string>/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD</string>
+		<string>/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis</string>
+	</array>
+	<key>loadPath</key>
+	<string>/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices</string>
+</dict>
+</plist>

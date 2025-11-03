@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0x0265</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Trackpad.prefPane</string>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>TrackpadIcon_2b.icns</string>
+			<key>0x09</key>
+			<string>TrackpadIcon_2b.icns</string>
+		</dict>
+		<key>ImageName</key>
+		<string>TrackpadIcon_2.icns</string>
+		<key>Name</key>
+		<string>Magic Trackpad</string>
+	</dict>
+	<key>0x0269</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Mouse.prefPane</string>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>Mouse_b.icns</string>
+			<key>0x09</key>
+			<string>Mouse_b.icns</string>
+		</dict>
+		<key>ImageName</key>
+		<string>Mouse.icns</string>
+		<key>Name</key>
+		<string>Magic Mouse</string>
+	</dict>
+	<key>0x026C</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Keyboard.prefPane</string>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>KeyboardIcon_3b.icns</string>
+			<key>0x09</key>
+			<string>KeyboardIcon_3c.icns</string>
+		</dict>
+		<key>ImageName</key>
+		<string>KeyboardIcon_3-5EA3EDE802-5C29671E58.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+</dict>
+</plist>

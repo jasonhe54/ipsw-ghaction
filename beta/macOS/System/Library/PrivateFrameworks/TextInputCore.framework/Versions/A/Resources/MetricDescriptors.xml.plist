@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>calcAcceptedCandidateLength</key>
+	<dict>
+		<key>calculationExpression</key>
+		<string>index + 1</string>
+		<key>metricDescription</key>
+		<string>TODO</string>
+		<key>metricType</key>
+		<string>numericValue</string>
+	</dict>
+	<key>calcAutocorrectionEnabled</key>
+	<dict>
+		<key>metricDescription</key>
+		<string>Indicates whether the autocorrection feature is enabled.</string>
+		<key>metricType</key>
+		<string>settingValue</string>
+		<key>settingName</key>
+		<string>autocorrectionEnabled</string>
+	</dict>
+	<key>calcAutocorrectionUsage</key>
+	<dict>
+		<key>bucketThresholds</key>
+		<array>
+			<real>0.001</real>
+			<real>0.070000000000000007</real>
+			<real>0.14999999999999999</real>
+			<real>0.25</real>
+			<real>0.5</real>
+			<real>0.90000000000000002</real>
+		</array>
+		<key>calculationDefaultValue</key>
+		<integer>-1</integer>
+		<key>calculationDependencies</key>
+		<array>
+			<string>wordsAutocorrected</string>
+			<string>calcWordsEntered</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * wordsAutocorrected) / calcWordsEntered</string>
+		<key>calculationPrecondition</key>
+		<string>calcWordsEntered &gt; 0</string>
+		<key>configString</key>
+		<string>autocorrectionEnabled</string>
+		<key>discoveryCounter</key>
+		<string>totalWordsAutocorrected</string>
+		<key>discoveryThreshold</key>
+		<integer>1</integer>
+		<key>metricDescription</key>
+		<string>Computes the usage of the autocorrection feature.</string>
+		<key>metricType</key>
+		<string>featureUsage</string>
+	</dict>
+	<key>calcCandidateBarUsage</key>
+	<dict>
+		<key>bucketThresholds</key>
+		<array>
+			<real>0.001</real>
+			<real>0.029999999999999999</real>
+			<real>0.059999999999999998</real>
+			<real>0.12</real>
+			<real>0.25</real>
+			<real>0.90000000000000002</real>
+		</array>
+		<key>calculationDefaultValue</key>
+		<integer>-1</integer>
+		<key>calculationDependencies</key>
+		<array>
+			<string>wordsFromCandidateBar</string>
+			<string>calcWordsEntered</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * wordsFromCandidateBar) / calcWordsEntered</string>
+		<key>calculationPrecondition</key>
+		<string>calcWordsEntered &gt; 0</string>
+		<key>configString</key>
+		<string>KeyboardShowPredictionBar</string>
+		<key>discoveryCounter</key>
+		<string>totalWordsFromCandidateBar</string>
+		<key>discoveryThreshold</key>
+		<integer>1</integer>
+		<key>metricDescription</key>
+		<string>Computes the usage of the candidate bar feature.</string>
+		<key>metricType</key>
+		<string>featureUsage</string>
+	</dict>
+	<key>calcContinuousPathUsage</key>
+	<dict>
+		<key>bucketThresholds</key>
+		<array>
+			<real>0.01</real>
+			<real>0.20000000000000001</real>
+			<real>0.40000000000000002</real>
+			<real>0.59999999999999998</real>
+			<real>0.80000000000000004</real>
+			<real>0.98999999999999999</real>
+		</array>
+		<key>calculationDefaultValue</key>
+		<integer>-1</integer>
+		<key>calculationDependencies</key>
+		<array>
+			<string>calcWordsPathed</string>
+			<string>calcWordsEntered</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * calcWordsPathed) / calcWordsEntered</string>
+		<key>calculationPrecondition</key>
+		<string>calcWordsEntered &gt; 0</string>
+		<key>configString</key>
+		<string>KeyboardContinuousPathEnabled</string>
+		<key>discoveryCounter</key>
+		<string>totalWordsPathed</string>
+		<key>discoveryThreshold</key>
+		<integer>5</integer>
+		<key>metricDescription</key>
+		<string>Computes the usage of the continuous path feature.</string>
+		<key>metricType</key>
+		<string>featureUsage</string>
+	</dict>
+	<key>calcDeletePathByWordEnabled</key>
+	<dict>
+		<key>metricType</key>
+		<string>settingValue</string>
+		<key>settingName</key>
+		<string>KeyboardContinuousPathDeleteWholeWord</string>
+	</dict>
+	<key>calcDurationAverage</key>
+	<dict>
+		<key>calculationDefaultValue</key>
+		<integer>-1</integer>
+		<key>calculationDependencies</key>
+		<array>
+			<string>durationTypedKey</string>
+			<string>totalKeyTyped</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * durationTypedKey) / totalKeyTyped</string>
+		<key>calculationPrecondition</key>
+		<string>totalKeyTyped &gt; 0</string>
+		<key>metricDescription</key>
+		<string>Computes the duration average.</string>
+		<key>metricType</key>
+		<string>numericValue</string>
+	</dict>
+	<key>calcDurationVariance</key>
+	<dict>
+		<key>calculationDefaultValue</key>
+		<integer>-1</integer>
+		<key>calculationDependencies</key>
+		<array>
+			<string>squareDurationTypedKey</string>
+			<string>totalKeyTyped</string>
+			<string>calcDurationAverage</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * squareDurationTypedKey) / totalKeyTyped - calcDurationAverage * calcDurationAverage</string>
+		<key>calculationPrecondition</key>
+		<string>calcDurationAverage != -1</string>
+		<key>metricDescription</key>
+		<string>Computes the duration variance.</string>
+		<key>metricType</key>
+		<string>numericValue</string>
+	</dict>
+	<key>calcKeyboardConfiguration</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardConfiguration</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardFeatureUsage</key>
+	<dict>
+		<key>bucketThresholds</key>
+		<array>
+			<integer>5</integer>
+			<integer>50</integer>
+			<integer>100</integer>
+			<integer>200</integer>
+			<integer>500</integer>
+			<integer>5000</integer>
+		</array>
+		<key>calculationDependencies</key>
+		<array>
+			<string>calcWordsEntered</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * calcWordsEntered) / 7</string>
+		<key>metricDescription</key>
+		<string>Computes the general usage of the keyboard.</string>
+		<key>metricType</key>
+		<string>featureUsage</string>
+	</dict>
+	<key>calcKeyboardLanguage</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardLanguage</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardLayout</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardLayout</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardRegion</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardRegion</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardSecondaryLanguage</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardSecondaryLanguage</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardSecondaryRegion</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardSecondaryRegion</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardType</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardType</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcKeyboardVariant</key>
+	<dict>
+		<key>contextFieldName</key>
+		<string>keyboardVariant</string>
+		<key>metricType</key>
+		<string>contextValue</string>
+	</dict>
+	<key>calcMultilingualUsage</key>
+	<dict>
+		<key>bucketThresholds</key>
+		<array>
+			<real>0.01</real>
+			<real>0.10000000000000001</real>
+			<real>0.25</real>
+			<real>0.40000000000000002</real>
+			<real>0.55000000000000004</real>
+			<real>0.69999999999999996</real>
+		</array>
+		<key>calculationDefaultValue</key>
+		<integer>-1</integer>
+		<key>calculationDependencies</key>
+		<array>
+			<string>wordsTypedInSecondaryLanguage</string>
+			<string>calcWordsEntered</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>(1.0 * wordsTypedInSecondaryLanguage) / calcWordsEntered</string>
+		<key>calculationPrecondition</key>
+		<string>calcWordsEntered &gt; 0</string>
+		<key>discoveryCounter</key>
+		<string>totalWordsTypedInSecondaryLanguage</string>
+		<key>discoveryThreshold</key>
+		<integer>1</integer>
+		<key>metricDescription</key>
+		<string>Computes the usage of the multilingual keyboard feature.</string>
+		<key>metricType</key>
+		<string>featureUsage</string>
+	</dict>
+	<key>calcPredictiveInputEnabled</key>
+	<dict>
+		<key>metricDescription</key>
+		<string>Indicates whether the predictive input feature is enabled.</string>
+		<key>metricType</key>
+		<string>settingValue</string>
+		<key>settingName</key>
+		<string>KeyboardPrediction</string>
+	</dict>
+	<key>calcWordsEntered</key>
+	<dict>
+		<key>calculationDependencies</key>
+		<array>
+			<string>calcWordsPathed</string>
+			<string>calcWordsTapped</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>calcWordsPathed + calcWordsTapped</string>
+		<key>metricDescription</key>
+		<string>Computes the number of words entered.</string>
+		<key>metricType</key>
+		<string>numericValue</string>
+	</dict>
+	<key>calcWordsPathed</key>
+	<dict>
+		<key>calculationDependencies</key>
+		<array>
+			<string>wholeWordsPathed</string>
+			<string>wordCompletionsPathed</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>wholeWordsPathed + wordCompletionsPathed</string>
+		<key>metricDescription</key>
+		<string>Computes the number of words pathed.</string>
+		<key>metricType</key>
+		<string>numericValue</string>
+	</dict>
+	<key>calcWordsTapped</key>
+	<dict>
+		<key>calculationDependencies</key>
+		<array>
+			<string>pathEligibleWordsTapped</string>
+			<string>pathIneligibleWordsTapped</string>
+		</array>
+		<key>calculationExpression</key>
+		<string>pathEligibleWordsTapped + pathIneligibleWordsTapped</string>
+		<key>metricDescription</key>
+		<string>Computes the number of words tapped.</string>
+		<key>metricType</key>
+		<string>numericValue</string>
+	</dict>
+</dict>
+</plist>

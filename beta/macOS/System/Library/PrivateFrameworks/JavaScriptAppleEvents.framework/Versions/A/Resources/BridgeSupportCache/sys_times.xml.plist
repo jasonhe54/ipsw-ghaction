@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>functions</key>
+	<dict>
+		<key>times</key>
+		<dict>
+			<key>args</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>type</key>
+					<string>^{tms=QQQQ}</string>
+				</dict>
+			</dict>
+			<key>retval</key>
+			<dict>
+				<key>type</key>
+				<string>Q</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>structTagsByName</key>
+	<dict>
+		<key>tms</key>
+		<string>tms</string>
+	</dict>
+	<key>structs</key>
+	<dict>
+		<key>tms</key>
+		<dict>
+			<key>type</key>
+			<string>{tms="tms_utime"Q"tms_stime"Q"tms_cutime"Q"tms_cstime"Q}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

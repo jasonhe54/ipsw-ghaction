@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Movie</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetHighQuality</string>
+			<key>MGPresetName</key>
+			<string>High</string>
+			<key>MGPresetSummary</key>
+			<string>High capture quality</string>
+			<key>MGPrimaryPreset</key>
+			<true/>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGHighQualityAACAudio</string>
+				<key>MGPresetSummary</key>
+				<string>High audio quality</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MG1280x720Video</string>
+				<key>MGPresetSummary</key>
+				<string>High video quality</string>
+				<key>MGVideoDefaultHeight</key>
+				<integer>720</integer>
+				<key>MGVideoDefaultWidth</key>
+				<integer>1280</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Movie</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetMaximumQuality</string>
+			<key>MGPresetName</key>
+			<string>Maximum</string>
+			<key>MGPresetSummary</key>
+			<string>Maximum capture quality</string>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGLPCMAudio</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGProRes422Video</string>
+			</dict>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Movie</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetHighQuality</string>
+			<key>MGPresetName</key>
+			<string>High</string>
+			<key>MGPresetSummary</key>
+			<string>High capture quality</string>
+			<key>MGPrimaryPreset</key>
+			<true/>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGHighQualityAACAudio</string>
+				<key>MGPresetSummary</key>
+				<string>High audio quality</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MG640x480Video</string>
+				<key>MGPresetSummary</key>
+				<string>High video quality</string>
+				<key>MGVideoDefaultHeight</key>
+				<integer>480</integer>
+				<key>MGVideoDefaultWidth</key>
+				<integer>640</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Movie</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetMaximumQuality</string>
+			<key>MGPresetName</key>
+			<string>Maximum</string>
+			<key>MGPresetSummary</key>
+			<string>Maximum capture quality</string>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGLPCMAudio</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGProRes422Video</string>
+			</dict>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Movie</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetHighQuality</string>
+			<key>MGPresetName</key>
+			<string>High</string>
+			<key>MGPresetSummary</key>
+			<string>High capture quality</string>
+			<key>MGPrimaryPreset</key>
+			<true/>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGHighQualityAACAudio</string>
+				<key>MGPresetSummary</key>
+				<string>High audio quality</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MG720x480Video</string>
+				<key>MGPresetSummary</key>
+				<string>High video quality</string>
+				<key>MGVideoDefaultHeight</key>
+				<integer>480</integer>
+				<key>MGVideoDefaultWidth</key>
+				<integer>720</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Movie</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetMaximumQuality</string>
+			<key>MGPresetName</key>
+			<string>Maximum</string>
+			<key>MGPresetSummary</key>
+			<string>Maximum capture quality</string>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGLPCMAudio</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGProRes422Video</string>
+			</dict>
+		</dict>
+	</array>
+</array>
+</plist>

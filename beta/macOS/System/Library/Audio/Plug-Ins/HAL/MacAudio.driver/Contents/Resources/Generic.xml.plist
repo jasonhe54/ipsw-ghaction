@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSP Devices</key>
+	<dict>
+		<key>Built-in Headphone</key>
+		<dict>
+			<key>Parameters</key>
+			<dict>
+				<key>InputVolumeInitial</key>
+				<integer>0</integer>
+				<key>InputVolumeMax</key>
+				<integer>12</integer>
+				<key>InputVolumeMin</key>
+				<integer>-12</integer>
+				<key>OutputVolumeInitial</key>
+				<integer>0</integer>
+				<key>OutputVolumeMax</key>
+				<integer>0</integer>
+				<key>OutputVolumeMin</key>
+				<real>-63.5</real>
+			</dict>
+		</dict>
+		<key>Built-in Microphone</key>
+		<dict>
+			<key>Parameters</key>
+			<dict>
+				<key>InputVolumeInitial</key>
+				<integer>0</integer>
+				<key>InputVolumeMax</key>
+				<integer>12</integer>
+				<key>InputVolumeMin</key>
+				<integer>-12</integer>
+			</dict>
+		</dict>
+		<key>Built-in Speaker</key>
+		<dict>
+			<key>Parameters</key>
+			<dict>
+				<key>OutputVolumeInitial</key>
+				<integer>0</integer>
+				<key>OutputVolumeMax</key>
+				<integer>0</integer>
+				<key>OutputVolumeMin</key>
+				<real>-63.5</real>
+				<key>TapStreamChannelCount</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Underlying Devices</key>
+	<dict>
+		<key>Bridge Loopback</key>
+		<dict>
+			<key>Properties</key>
+			<dict>
+				<key>canBeDefaultDevice</key>
+				<true/>
+				<key>canBeDefaultSystemDevice</key>
+				<true/>
+				<key>transportType</key>
+				<real>1651274862</real>
+			</dict>
+		</dict>
+		<key>Codec Input</key>
+		<dict>
+			<key>Properties</key>
+			<dict>
+				<key>canBeDefaultDevice</key>
+				<true/>
+				<key>canBeDefaultSystemDevice</key>
+				<true/>
+				<key>transportType</key>
+				<real>1651274862</real>
+			</dict>
+		</dict>
+		<key>Codec Output</key>
+		<dict>
+			<key>Properties</key>
+			<dict>
+				<key>canBeDefaultDevice</key>
+				<true/>
+				<key>canBeDefaultSystemDevice</key>
+				<true/>
+				<key>transportType</key>
+				<real>1651274862</real>
+			</dict>
+		</dict>
+		<key>Digital Mic</key>
+		<dict>
+			<key>Properties</key>
+			<dict>
+				<key>canBeDefaultDevice</key>
+				<true/>
+				<key>canBeDefaultSystemDevice</key>
+				<true/>
+				<key>transportType</key>
+				<real>1651274862</real>
+			</dict>
+		</dict>
+		<key>Speaker</key>
+		<dict>
+			<key>Parameters</key>
+			<dict>
+				<key>OutputVolumeScalarMax</key>
+				<integer>1</integer>
+				<key>OutputVolumeScalarMin</key>
+				<real>0.34999999999999998</real>
+			</dict>
+			<key>Properties</key>
+			<dict>
+				<key>canBeDefaultDevice</key>
+				<true/>
+				<key>canBeDefaultSystemDevice</key>
+				<true/>
+				<key>transportType</key>
+				<real>1651274862</real>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

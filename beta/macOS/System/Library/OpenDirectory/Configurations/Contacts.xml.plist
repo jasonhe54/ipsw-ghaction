@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Contact search policy</string>
+	<key>locked</key>
+	<false/>
+	<key>mappings</key>
+	<dict/>
+	<key>modules</key>
+	<dict>
+		<key>session</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>search</string>
+				<key>options</key>
+				<dict>
+					<key>dsAttrTypeStandard:CSPSearchPath</key>
+					<array/>
+					<key>dsAttrTypeStandard:LSPSearchPath</key>
+					<array>
+						<string>/Local/Default</string>
+					</array>
+					<key>dsAttrTypeStandard:NSPSearchPath</key>
+					<array>
+						<string>/Local/Default</string>
+					</array>
+					<key>dsAttrTypeStandard:SearchPolicy</key>
+					<string>dsAttrTypeStandard:NSPSearchPath</string>
+				</dict>
+				<key>uuid</key>
+				<string>7963E752-DB53-4C9B-8842-D3F5FDF6C9D8</string>
+			</dict>
+		</array>
+	</dict>
+	<key>node name</key>
+	<string>/Contacts</string>
+</dict>
+</plist>

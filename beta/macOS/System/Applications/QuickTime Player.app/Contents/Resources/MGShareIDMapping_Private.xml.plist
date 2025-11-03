@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.QuickTimePlayerX.share.Facebook</key>
+	<dict>
+		<key>MGClassName</key>
+		<string>MGFacebookJobController</string>
+		<key>MGDestinationName</key>
+		<string>Facebook</string>
+	</dict>
+	<key>com.apple.QuickTimePlayerX.share.Flickr</key>
+	<dict>
+		<key>MGClassName</key>
+		<string>MGFlickrJobController</string>
+		<key>MGDestinationName</key>
+		<string>Flickr</string>
+	</dict>
+	<key>com.apple.QuickTimePlayerX.share.Vimeo</key>
+	<dict>
+		<key>MGClassName</key>
+		<string>MGVimeoJobController</string>
+		<key>MGDestinationName</key>
+		<string>Vimeo</string>
+	</dict>
+</dict>
+</plist>

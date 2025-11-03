@@ -1,0 +1,49 @@
+"TargetGammaPaneBullet" = "Target Gamma";
+"BuildingPaneBullet" = "Conclusion";
+"Quit" = "Quit";
+"IntroductionPaneTitle" = "Introduction";
+"fourth" = "fourth";
+"CanNotCalibrateDisplay" = "Can’t calibrate the display";
+"IntroductionPaneBullet" = "Introduction";
+"target gamma" = "%@ (approximate)";
+"NameAsciiPaneBullet" = "Name";
+"A profile with this name already exists.The existing profile will be replaced." = "A profile with this name already exists.The existing profile will be replaced.";
+"ClickThisWindow" = "Click this window to calibrate
+the display ‘%@’.";
+"second" = "second";
+"NameAsciiPaneTitle" = "Give the profile a name";
+"fifth" = "fifth";
+"FactoryProfileNotFound" = "The factory profile for the display could not be found.";
+"AdminPaneTitle" = "Administrator options";
+"DoYouWantToQuit" = "Do you want to quit display calibration?";
+"first" = "first";
+"third" = "third";
+"ConclusionPaneBullet" = "Conclusion";
+"NativeGammaPaneTitle" = "Determine your display’s native gamma";
+"NativeGammaExpertPaneTitle" = "Determine your display’s native response";
+"TargetWhitePaneTitle" = "Select a target white point";
+"Native" = "Native";
+"NativeGammaPaneBullet" = "Native Gamma";
+"native gamma (approximate)" = "%@ (approximate)";
+"Continue" = "Continue";
+"A profile with this name already exists.Please choose a different name." = "A profile with this name already exists.Please choose a different name.";
+"ConclusionPaneTitle" = "Conclusion";
+"NamePaneTitle" = "Give the profile a name";
+"TargetGammaPaneTitle" = "Select a target gamma";
+"NativeGammaExpertPaneBullet" = "Native Gamma";
+"BuildingPaneTitle" = "Conclusion";
+"CouldNotCreateProfile" = "An error occurred.
+
+The new calibrated display profile could not be created or set to be the current profile for this display.";
+"AdminPaneBullet" = "Admin";
+"TargetWhitePaneBullet" = "Target White Point";
+"SetupPaneBullet" = "Set Up";
+"Profile name contains an illegal character.Please choose a different name." = "Profile name contains an illegal character.Please choose a different name.";
+"NamePaneBullet" = "Name";
+"native temp (approximate)" = "%@ (approximate)";
+"SetupPaneTitle" = "Display Adjustment";
+"targetTemp" = "%@ ";
+"A profile name is required.
+Please choose a name." = "A profile name is required.
+Please choose a name.";
+"%@ Calibrated" = "%@ Calibrated";

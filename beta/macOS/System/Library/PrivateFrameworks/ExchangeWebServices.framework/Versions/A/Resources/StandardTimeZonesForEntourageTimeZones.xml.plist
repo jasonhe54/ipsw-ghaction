@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Abu Dhabi\, Muscat</key>
+	<string>Asia/Muscat</string>
+	<key>Adelaide</key>
+	<string>Australia/Adelaide</string>
+	<key>Alaska</key>
+	<string>America/Anchorage</string>
+	<key>Almaty\, Novosibirsk</key>
+	<string>Asia/Almaty</string>
+	<key>Amsterdam, Berlin\, Bern\, Rome\, Stockholm\, Vienna</key>
+	<string>Europe/Berlin</string>
+	<key>Arizona</key>
+	<string>America/Phoenix</string>
+	<key>Astana\, Dhaka</key>
+	<string>Asia/Dhaka</string>
+	<key>Athens\, Istanbul\, Minsk</key>
+	<string>Europe/Athens</string>
+	<key>Atlantic Time (Canada)</key>
+	<string>Canada/Atlantic</string>
+	<key>Auckland\, Wellington</key>
+	<string>Pacific/Auckland</string>
+	<key>Azores</key>
+	<string>Atlantic/Azores</string>
+	<key>Baghdad</key>
+	<string>Asia/Baghdad</string>
+	<key>Baku\, Tbilisi\, Yerevan</key>
+	<string>Asia/Baku</string>
+	<key>Bangkok\, Hanoi\, Jakarta</key>
+	<string>Asia/Jakarta</string>
+	<key>Beijing\, Chongqing\, Hong Kong\, Urumqi</key>
+	<string>Asia/Hong_Kong</string>
+	<key>Belgrade\, Bratislava\, Budapest\, Ljubljana\, Prague</key>
+	<string>Europe/Budapest</string>
+	<key>Bogota\, Lima\, Quito</key>
+	<string>America/Bogota</string>
+	<key>Brasilia</key>
+	<string>America/Sao_Paulo</string>
+	<key>Brisbane</key>
+	<string>Australia/Brisbane</string>
+	<key>Brussels\, Copenhagen\, Madrid\, Paris</key>
+	<string>Europe/Paris</string>
+	<key>Bucharest</key>
+	<string>Europe/Bucharest</string>
+	<key>Buenos Aires\, Georgetown</key>
+	<string>America/Buenos_Aires</string>
+	<key>Cairo</key>
+	<string>Africa/Cairo</string>
+	<key>Canberra, Melbourne, Sydney</key>
+	<string>Australia/Sydney</string>
+	<key>Cape Verde Is.</key>
+	<string>Atlantic/Cape_Verde</string>
+	<key>Caracas\, La Paz</key>
+	<string>America/Caracas</string>
+	<key>Casablanca\, Monrovia</key>
+	<string>Africa/Casablanca</string>
+	<key>Central America</key>
+	<string>America/Costa_Rica</string>
+	<key>Central Time (US &amp; Canada)</key>
+	<string>US/Central</string>
+	<key>Chennai\, Kolkata\, Mumbai\, New Delhi</key>
+	<string>Asia/Calcutta</string>
+	<key>Darwin</key>
+	<string>Australia/Darwin</string>
+	<key>Eastern Time (US &amp; Canada)</key>
+	<string>US/Eastern</string>
+	<key>Ekaterinburg</key>
+	<string>Asia/Yekaterinburg</string>
+	<key>Fiji\, Kamchatka\, Marshall Is.</key>
+	<string>Pacific/Fiji</string>
+	<key>Greenland</key>
+	<string>America/Godthab</string>
+	<key>Greenwich Mean Time : Dublin\, Edinburgh\, Lisbon\, London</key>
+	<string>Europe/London</string>
+	<key>Guam\, Port Moresby</key>
+	<string>Pacific/Guam</string>
+	<key>Harare\, Pretoria</key>
+	<string>Africa/Harare</string>
+	<key>Hawaii</key>
+	<string>Pacific/Honolulu</string>
+	<key>Helsinki\, Kyiv\, Riga\, Sofia\, Tallinn\, Vilnius</key>
+	<string>Europe/Helsinki</string>
+	<key>Hobart</key>
+	<string>Australia/Hobart</string>
+	<key>Indiana (East)</key>
+	<string>America/Indianapolis</string>
+	<key>International Date Line West (Eniwetok, Kwajalein)</key>
+	<string>Pacific/Kwajalein</string>
+	<key>Irkutsk\, Ulaan Bataar</key>
+	<string>Asia/Irkutsk</string>
+	<key>Islamabad\, Karachi\, Tashkent</key>
+	<string>Asia/Karachi</string>
+	<key>Jerusalem</key>
+	<string>Asia/Jerusalem</string>
+	<key>Kabul</key>
+	<string>Asia/Kabul</string>
+	<key>Kathmandu</key>
+	<string>Asia/Katmandu</string>
+	<key>Krasnoyarsk</key>
+	<string>Asia/Krasnoyarsk</string>
+	<key>Kuala Lumpur\, Singapore</key>
+	<string>Asia/Singapore</string>
+	<key>Kuwait\, Riyadh</key>
+	<string>Asia/Riyadh</string>
+	<key>Magadan\, Solomon Is.\, New Caledonia</key>
+	<string>Pacific/Guadalcanal</string>
+	<key>Mexico City</key>
+	<string>America/Mexico_City</string>
+	<key>Mid-Atlantic</key>
+	<string>Atlantic/South_Georgia</string>
+	<key>Midway Island\, Samoa</key>
+	<string>Pacific/Midway</string>
+	<key>Moscow\, St. Petersburg\, Volgograd</key>
+	<string>Europe/Moscow</string>
+	<key>Mountain Time (US &amp; Canada)</key>
+	<string>US/Mountain</string>
+	<key>Nairobi</key>
+	<string>Africa/Nairobi</string>
+	<key>Newfoundland</key>
+	<string>Canada/Newfoundland</string>
+	<key>Nuku'alofa</key>
+	<string>Pacific/Tongatapu</string>
+	<key>Osaka\, Sapporo\, Tokyo</key>
+	<string>Asia/Tokyo</string>
+	<key>Pacific Time (US &amp; Canada)\; Tijuana</key>
+	<string>US/Pacific</string>
+	<key>Perth</key>
+	<string>Australia/Perth</string>
+	<key>Rangoon</key>
+	<string>Asia/Rangoon</string>
+	<key>Santiago</key>
+	<string>America/Santiago</string>
+	<key>Sarajevo\, Skopje\, Warsaw\, Zagreb</key>
+	<string>Europe/Warsaw</string>
+	<key>Saskatchewan</key>
+	<string>Canada/Saskatchewan</string>
+	<key>Seoul</key>
+	<string>Asia/Seoul</string>
+	<key>Sri Jayawardenepura</key>
+	<string>Asia/Colombo</string>
+	<key>Taipei</key>
+	<string>Asia/Taipei</string>
+	<key>Vladivostok</key>
+	<string>Asia/Vladivostok</string>
+	<key>West Central Africa</key>
+	<string>Africa/Kinshasa</string>
+	<key>Yakutsk</key>
+	<string>Asia/Yakutsk</string>
+</dict>
+</plist>

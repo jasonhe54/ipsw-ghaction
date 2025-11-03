@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_usbmuxd</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.usbmuxd</string>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd</string>
+		<string>-launchd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>Sockets</key>
+	<dict>
+		<key>Listeners</key>
+		<dict>
+			<key>SockFamily</key>
+			<string>Unix</string>
+			<key>SockPathMode</key>
+			<integer>511</integer>
+			<key>SockPathName</key>
+			<string>/var/run/usbmuxd</string>
+		</dict>
+	</dict>
+	<key>UserName</key>
+	<string>_usbmuxd</string>
+</dict>
+</plist>

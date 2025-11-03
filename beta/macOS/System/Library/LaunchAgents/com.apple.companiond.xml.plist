@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.companiond</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bluetooth.connections</key>
+		<dict>
+			<key>CompanionServices</key>
+			<dict>
+				<key>label</key>
+				<string>CompanionServices</string>
+				<key>psm</key>
+				<integer>136</integer>
+			</dict>
+		</dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>CPSRemoteLLM</key>
+			<dict>
+				<key>serviceType</key>
+				<string>CPSRemoteLLM</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+			<key>CompanionAuthenticationDiscovery</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.CompanionAuthentication</string>
+				<key>type</key>
+				<string>discovery</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.CompanionServices</key>
+		<true/>
+		<key>com.apple.DistributedTimers</key>
+		<true/>
+		<key>com.apple.companiond.xpc</key>
+		<true/>
+		<key>com.apple.private.alloy.companion.auth-idswake</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/companiond</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+"AMName" = "Render Quartz Compositions to Image Files";
+"AMDSummary" = "This action renders Quartz Composition files at specified frame time and dimensions to PNG image files.";
+"Quartz Composer" = "Quartz Composer";
+"AMDNote" = "This action only accepts Quartz Compositions (.qtz) as input files.";
+"NSHumanReadableCopyright" = "© 2007-2009 Apple Inc. All Rights Reserved.";
+"Image" = "Image";
+"AMDOptions" = "You can pass the values of up to 5 Automator variables to the Quartz Composition through its input parameters with keys “automatorVariable1” to “automatorVariable5”.";
+"FileError" = "Failed processing";

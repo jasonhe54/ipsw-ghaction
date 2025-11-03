@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.Spotlight</string>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>MallocCorruptionAbort</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.metadata.mdflagwriter</string>
+	<key>LimitLoadToSessionType</key>
+	<string>Background</string>
+	<key>LowPriorityBackgroundIO</key>
+	<false/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.metadata.mdflagwriter</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MultipleInstances</key>
+	<false/>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+	<key>_ExponentialThrottling</key>
+	<true/>
+</dict>
+</plist>

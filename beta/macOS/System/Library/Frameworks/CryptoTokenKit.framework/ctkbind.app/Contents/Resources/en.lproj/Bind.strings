@@ -1,0 +1,21 @@
+"STORE_UNLOCK_KEY_FAILED_INFO" = "The SmartCard was successfully paired, but the password will be required after the next SmartCard login to unlock Login Keychain.";
+"LOCAL_USER_UNAVAILABLE" = "%@ is not a local account. Network accounts are not supported.";
+"OK" = "OK";
+"PAIRING_FAILED" = "SmartCard pairing failed.";
+"PAIRING_ERROR" = "Cannot pair SmartCard with the current user.
+%@";
+"UN_UNPAIRED_SC" = "Unpaired SmartCard inserted:
+%@";
+"AUTH_ERROR" = "Authorization failed (%d).";
+"STORE_UNLOCK_KEY_CURRENT_USER_ERROR" = "Login keychain unlock key can be stored only when pairing the current user.";
+"UN_UNSUPPORTED_SC" = "Unsupported SmartCard inserted";
+"ENABLE_FILEVAULT_FAILED_INFO" = "SmartCard unlock for FileVault was not enabled.";
+"SMART_CARD" = "SmartCard";
+"UN_PAIR" = "Pair";
+"SC_IS_ALREADY_PAIRED" = "SmartCard is already paired.";
+"UNSUITABLE_KEY" = "Current user is paired with unsuitable identity: ‘%@’.
+Please use different identity";
+"CANCEL" = "Cancel";
+"UNPAIR" = "Unpair";
+"STORE_UNLOCK_KEY_FAILED" = "Failed to store Login keychain unlock key";
+"NO_WRAP_KEY_ERROR" = "No suitable key was found on the selected SmartCard.";

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cmio.registerassistantservice</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cmio.registerassistantservice</key>
+		<true/>
+		<key>com.apple.cmio.registerassistantservice.system-extensions</key>
+		<true/>
+		<key>com.apple.cmio.registerassistantservice.usernotification</key>
+		<true/>
+		<key>com.apple.cmio.system-extensions</key>
+		<true/>
+		<key>com.apple.continuitycaptureaudio.providerhelper.xpc</key>
+		<true/>
+		<key>com.apple.continuitycaptureaudio.receiverhelper.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/Resources/com.apple.cmio.registerassistantservice</string>
+	<key>PublishesEvents</key>
+	<string>com.apple.cmio.registerassistantservice.system-extensions.matching</string>
+</dict>
+</plist>

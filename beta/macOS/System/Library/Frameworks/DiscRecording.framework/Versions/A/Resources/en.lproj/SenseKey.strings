@@ -1,0 +1,16 @@
+"04" = "There is a hardware problem with the device";
+"0B" = "The command was aborted by the device";
+"09" = "A vendor specific error occurred";
+"00" = "No sense information was returned";
+"05" = "An illegal request was sent to the device";
+"0C" = "EQUAL";
+"01" = "An error was recovered";
+"06" = "The device was reset or the media was changed while a command was being processed";
+"0D" = "The media is full";
+"02" = "The device is not ready";
+"07" = "The media is protected from access";
+"0E" = "The data read from the media did not compare correctly";
+"03" = "There is a problem with the media";
+"0A" = "The device to device copy was aborted";
+"08" = "The media is not blank";
+"0F" = "Reserved Sense";

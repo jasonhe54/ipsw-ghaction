@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MGAVExportAlphaPresetIdentifier</key>
+	<string>AVAssetExportPresetHEVC1920x1080WithAlpha</string>
+	<key>MGAVExportHEVCPresetIdentifier</key>
+	<string>AVAssetExportPresetHEVC1920x1080</string>
+	<key>MGAVExportPresetIdentifier</key>
+	<string>AVAssetExportPreset1920x1080</string>
+	<key>MGExportOptionIdentifier</key>
+	<string>QTExportOptionsQuickTimeMovie1080p</string>
+	<key>MaximumSize</key>
+	<string>1920, 1080</string>
+	<key>QTExpComponentExtension</key>
+	<string>mov</string>
+	<key>QTExpComponentFlags</key>
+	<integer>269058096</integer>
+	<key>QTExpComponentFlagsMask</key>
+	<integer>65785</integer>
+	<key>QTExpComponentManufacture</key>
+	<integer>1634758764</integer>
+	<key>QTExpComponentSubType</key>
+	<integer>1299148630</integer>
+	<key>QTExpComponentType</key>
+	<integer>1936746868</integer>
+	<key>QTExpSettingsFileName</key>
+	<string>QTMovie1080p</string>
+	<key>QTExpType</key>
+	<string>Export</string>
+	<key>RFExportPresetName</key>
+	<string>QTMovie1080p</string>
+	<key>RFExportTemplateName</key>
+	<string>QTMovieExport</string>
+</dict>
+</plist>

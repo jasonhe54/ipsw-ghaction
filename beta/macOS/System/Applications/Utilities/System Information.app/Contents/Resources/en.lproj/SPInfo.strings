@@ -1,0 +1,117 @@
+"MAC_GRAPHICS_TEXT" = "%@ %@";
+"DISK_CALC" = "Calculating…";
+"DISP_BUILTIN_STD" = "Built-in Display";
+"PCI_POOL_B_LABEL" = "B";
+"MAC_MEMORY_TEXT" = "%@ %@";
+"DISK_SIZE" = "%@
+Disk";
+"DISP_GFX_MAIN" = "%@ %@";
+"MEM_SLOTS_N_N" = "%@ memory slots in use, %@ available";
+"OS_VERSION_BUILD" = "%1$@ (%2$@)";
+"PCI_LABEL" = "PCI cards";
+"DISP_DISPLAY" = "%@ Display";
+"DISK_MISC" = "%@ and Others";
+"MEM_ACCESSIBILITY_IMAGE_WARNING" = "Warning";
+"GRAPHICS_LABEL" = "Graphics";
+"DISK_SYSTEM" = "macOS";
+"MEM_OVERPOPULATED" = "More than the maximum supported memory is installed in your Mac. Your Mac will use a single memory module until no more than 768 GB is installed.";
+"MEM_SLOTS_FULL" = "All memory slots are currently in use.";
+"MEM_SLOTS_N_1" = "%@ memory slots in use, 1 available";
+"MEM_INFO_N" = "Your Mac contains %@ memory slots, each of which accepts
+a %@ memory module.";
+"UNKNOWN" = "Unknown";
+"SERIAL_LABEL" = "Serial number";
+"DISC_OTHER" = "Optical Drive";
+"PCI_OVERVIEW_ONE" = "Your Mac contains %@ PCI card slots, 1 of which is currently in use.";
+"DISK_APPS" = "Apps";
+"DISK_CORE_STORAGE" = "Internal Storage";
+"DISK_ACCESSIBILITY" = "%@ Usage";
+"DISK_FREE_CAPACITY" = "%1$@ available of %2$@";
+"MEM_BANK" = "Bank %@";
+"OS_LABEL" = "macOS";
+"DISK_USED" = "Used Space";
+"COPYRIGHT_FMT" = "™ and © %@ All Rights Reserved.";
+"DISK_MOVIES" = "Movies";
+"DISK_AUDIO" = "Audio";
+"DISP_BUILTIN_LIQUID_RETINA" = "Built-in Liquid Retina Display";
+"CATEGORY_DISPLAYS" = "Displays";
+"CHIP_LABEL" = "Chip";
+"MEM_SLOTS_ZERO" = "No user-installable memory slots exist.";
+"DISP_GENERIC" = "Display";
+"MEM_SLOT" = "Slot %@";
+"BOOT_DISK_LABEL" = "Startup disk";
+"PCI_LANE_WIDTH" = "x%d";
+"DISP_INCH" = "%@-inch";
+"PCI_POOL_A_LABEL" = "A";
+"CATEGORY_PCI" = "PCI Cards";
+"DISP_INT_LEGACY" = "64 MB";
+"DISP_APPLE" = "Apple %@";
+"MORE_INFO_BUTTON" = "More Info…";
+"MEM_INFO_1" = "Your Mac contains a single memory slot which accepts
+a %@ memory module.";
+"DISK_FREE" = "Available";
+"LICENSE_WARRANTY" = "License and Warranty";
+"DISK_ENCRYPTED" = "Encrypted Volume";
+"DISP_MANUAL" = "User manual";
+"DISP_CM" = "%@-cm";
+"DISK_PHOTOS" = "Photos";
+"REGULATORY_LABEL" = "Regulatory Certification";
+"DISK_OTHER" = "System Data";
+"DISP_SIZE_RES" = "%@ (%@)";
+"DISK_SIZE_FUSION" = "%@
+Fusion Drive";
+"MEM_EMPTY" = "Empty";
+"DISC_NOFORMATS" = "None";
+"DISP_BUILTIN_LIQUID_RETINA_XDR" = "Built-in Liquid Retina XDR Display";
+"MEM_ACCESSIBILITY_IMAGE_OPTIMAL" = "Optimal";
+"OS_BETA_VERSION_BUILD" = "%1$@ Beta (%2$@)";
+"DISK_SIZE_TYPE" = "%@
+%@ Disk";
+"MEM_ECC_TYPE" = "%@ ECC %@";
+"CATEGORY_RESOURCES" = "Resources";
+"DISK_SIZE_SSD" = "%@
+Solid State Drive";
+"MEM_SLOTS_N" = "%@ memory slots available";
+"MEM_SLOTS_1_N" = "1 memory slot in use, %@ available";
+"CATEGORY_OVERVIEW" = "Overview";
+"PCI_OPTIMAL" = "
+
+The installed PCI cards are arranged in an optimal configuration.";
+"PCI_OVERVIEW_MANY" = "Your Mac contains %@ PCI card slots, %@ of which are currently in use.";
+"MEM_SLOTS_1_1" = "1 memory slot in use, 1 available";
+"DISK_SIZE_TYPE_SSD" = "%@
+Solid State %@ Drive";
+"DISP_GFX_NOVRAM" = "%@ graphics";
+"EXT_DISK_SIZE" = "External %@
+Disk";
+"DISC_COMMA" = ", ";
+"MEM_SLOT_1" = "1 memory slot available";
+"DISC_UNTITLED" = "Untitled";
+"DISP_GFX" = "%@ %@ graphics";
+"EXT_DISK_SIZE_TYPE_SSD" = "External %@
+Solid State %@ Drive";
+"DISK_BACKUPS" = "Backups & Other";
+"DISK_MANAGE" = "Manage…";
+"DISP_BUILTIN_RETINA" = "Built-in Retina Display";
+"LICENSE_AGREEMENT" = "License Agreement";
+"DISP_W_H" = "%@ × %@";
+"DISP_APPLE_DISP" = "Apple %@ Display";
+"MEM_INFO_N_NO_BREAK" = "Your Mac contains %@ memory slots, %@ of which are installed with a %@ memory module.";
+"EXT_DISK_SIZE_SSD" = "External %@
+Solid State Drive";
+"MEM_GIGABYTE_FORMAT" = "%@ GB";
+"DISK_OTHER_VOLS" = "Other Volumes in Container";
+"MEM_TYPE" = "%@ %@";
+"NO_SERIAL" = "";
+"MEM_UNDERPOPULATED" = "To improve performance, it is recommended that memory is installed in pairs, and at least four modules are installed.";
+"CHIP_LABEL_INTEL" = "Processor";
+"COPYRIGHT_LABEL" = "™ and © %@
+All Rights Reserved.";
+"EXT_DISK_SIZE_TYPE" = "External %@
+%@ Disk";
+"MEMORY_LABEL" = "Memory";
+"DISK_SIZE_RAID" = "%@
+RAID Storage";
+"MEM_ACCESSIBILITY_IMAGE_NON_OPTIMAL" = "Not optimal for best performance";
+"DISK_SIZE_FLASH" = "%@
+Flash Storage";

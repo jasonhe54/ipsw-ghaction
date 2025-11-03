@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.HolidayColors-FoldedCard</string>
+	<key>CatalogVersion</key>
+	<integer>2</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:11:37Z</date>
+	<key>HolidayColors-FoldedCard-V.keywords</key>
+	<array>
+		<string>CARDCategoryAll:400</string>
+		<string>CARDCategoryBirthday:1200</string>
+		<string>CARDCategoryCongratulations:900</string>
+		<string>CARDCategoryFathersDay:600</string>
+		<string>CARDCategoryFormal:1800</string>
+		<string>CARDCategoryHoliday:1000</string>
+		<string>CARDCategoryMothersDay:2600</string>
+		<string>CARDCategoryThankYou:600</string>
+		<string>CARDCategoryWhimsical:1000</string>
+	</array>
+	<key>HolidayColors-FoldedCard-V.products</key>
+	<array>
+		<string>VerticalFoldedCard</string>
+	</array>
+	<key>HolidayColors-FoldedCard.keywords</key>
+	<array>
+		<string>CARDCategoryAll:400</string>
+		<string>CARDCategoryBirthday:1200</string>
+		<string>CARDCategoryCongratulations:900</string>
+		<string>CARDCategoryFathersDay:600</string>
+		<string>CARDCategoryFormal:1800</string>
+		<string>CARDCategoryHoliday:1000</string>
+		<string>CARDCategoryMothersDay:2600</string>
+		<string>CARDCategoryThankYou:600</string>
+		<string>CARDCategoryWhimsical:1000</string>
+	</array>
+	<key>HolidayColors-FoldedCard.products</key>
+	<array>
+		<string>HorizontalFoldedCard</string>
+	</array>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>HolidayColors-FoldedCard-V</string>
+		<string>HolidayColors-FoldedCard</string>
+	</array>
+</dict>
+</plist>

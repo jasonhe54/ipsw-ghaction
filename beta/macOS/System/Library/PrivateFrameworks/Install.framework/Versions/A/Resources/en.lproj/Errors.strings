@@ -1,0 +1,63 @@
+"ERROR_BAD_SOURCE_MEDIA" = "The item you are installing from is damaged. Try installing from a different copy of the item or contact the manufacturer for a replacement.";
+"ERROR_VALIDATING_MESSAGE" = "The Installer can’t validate the contents of the ‘%@’ package. Contact the software manufacturer for assistance.";
+"ERROR_UNKNOWN_MESSAGE" = "The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.";
+"ROSETTA_TWO_NOT_ELIGIBLE_MESSAGE" = "Installing “%@” requires Rosetta.
+
+Rosetta is not eligible for installation.";
+"WARNING_PROTECTED_SYSTEM_CONTENT_TITLE" = "This package is incompatible with this version of macOS and may fail to install.";
+"DOWNLOAD_ERROR_MESSAGE" = "There was an error obtaining data from the file “%@”, which is needed to install the software. Check your Internet connection and try again, or contact the software manufacturer for assistance.";
+"NOT_AUTHORIZED_MESSAGE" = "You do not have the necessary authorization to install this software. Make sure you have administrative privileges before trying again.";
+"WARNING_PROTECTED_SYSTEM_CONTENT_CONTINUE_BUTTON_TITLE" = "Install Anyway";
+"ERROR_UNKNOWN_TITLE" = "An unknown installation error occurred.";
+"USER_CANCEL_INSTALL_TITLE" = "The installation was canceled.";
+"ERROR_DOWNLOAD_FAILED" = "The Installer could not copy the necessary support files.";
+"ERROR_GENERIC_MESSAGE" = "The Installer can’t install some files in “%@”. Contact the software manufacturer for assistance.";
+"ERROR_IMPORTING_MESSAGE" = "The Installer could not import your user account from the previous system. You must create a new user account in Setup Assistant. Your original account is stored in the “/Previous System” folder.";
+"ERROR_GENERIC_TITLE" = "macOS could not be installed on this disk.";
+"UNABLE_TO_START_TITLE" = "The Installer could not install the software.";
+"ERROR_PATCHING_MESSAGE" = "The Installer can’t install the software. Contact the software manufacturer for assistance.";
+"ERROR_FATAL_RECOVERY_MESSAGE" = "macOS can’t be installed on the disk %@, because a recovery system can’t be created. Visit www.apple.com/support/no-recovery to learn more.";
+"ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_MESSAGE" = "The package is trying to install content to the system volume. Contact the software manufacturer for assistance.";
+"ERROR_NEED_MORE_SPACE" = "There is not enough space on this disk to install the selected items. Deselect at least %@ and try again.";
+"ERROR_REAPING_MESSAGE" = "The Installer could not remove old system files on “%@”.";
+"URL_LOCATING_ERROR_MESSAGE" = "The Installer can’t locate the data it needs to install the software. Check your install media or Internet connection and try again, or contact the software manufacturer for assistance.";
+"ROSETTA_TWO_INSTALL_FAILED_TITLE" = "Rosetta cannot be installed";
+"ROSETTA_TWO_UPDATE_TITLE" = "To install “%@”, you need to install Rosetta.
+Do you want to install it now?";
+"ERROR_CANT_UPGRADE_MESSAGE" = "The Installer can’t perform an upgrade because it can’t find the software to upgrade.";
+"NOT_AUTHORIZED_TITLE" = "You need to have administrative privileges to install this software.";
+"ERROR_WRITING_RECEIPT_MESSAGE" = "The Installer can’t write the receipt for “%@”.";
+"ERROR_UNSUPPORTED_INSTALL_VOLUME_TITLE" = "Some features of macOS are not supported for the disk “%@”.";
+"ERROR_PREPARING_DISK_MESSAGE" = "The Installer can’t prepare the disk for installation. You may need to repair your disk using Disk Utility.";
+"ERROR_INSTALL_STEP_FAILED_MESSAGE" = "The following installation step failed: %@. Contact the software manufacturer for assistance.";
+"ROSETTA_TWO_INSTALL_FAILED_MESSAGE" = "Installing “%@” requires Rosetta.
+
+An error occurred during installation.";
+"ERROR_INSTALL_SCRIPT_MISSING_MESSAGE" = "The package contents could not be completely extracted. The package may have been corrupted during download.";
+"ERROR_LOCATING_PATCH_TOOL_MESSAGE" = "The Installer could not find its patch tool in “%@”. You may need to reinstall macOS.";
+"WARNING_PROTECTED_SYSTEM_CONTENT_CANCEL_BUTTON_TITLE" = "Quit";
+"ERROR_OUT_OF_SPACE_MESSAGE" = "The disk “%@” ran out of space during the installation. Try making more space available on the disk, and then reinstall the software.";
+"ERROR_PREPARING_ARCHIVE_TITLE" = "The Installer was unable to archive your previous system.";
+"ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_CANCEL_BUTTON_TITLE" = "Quit";
+"ERROR_INCOMPATIBLE_PKG_FEATURES" = "The package you are installing is not compatible with this version of macOS. Contact the software manufacturer for assistance.";
+"ROSETTA_TWO_NOT_ELIGIBLE_TITLE" = "Not eligible for installation";
+"WARNING_PROTECTED_SYSTEM_CONTENT_MESSAGE" = "Installing this package may damage your system, and the installation may fail. To stop the program and the installation, click “Cancel Installation”.";
+"ROSETTA_TWO_INSTALL_FAILED_MESSAGE_EXT" = "Installing “%@” requires Rosetta.
+
+%@";
+"ERROR_FINALIZING_DISK_MESSAGE" = "The Installer could not start up the computer from the disk “%@”. Try selecting your disk using the Startup Disk utility.";
+"ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_TITLE" = "This package is incompatible with this version of macOS.";
+"ERROR_CREATING_RECEIPT_MESSAGE" = "The Installer can’t create the receipt for “%@”.";
+"This installer package does not contain support for your system language." = "This installer doesn’t support your primary system language.";
+"UNABLE_TO_START_MESSAGE" = "The Installer could not install the software because there was no software found to install.";
+"ERROR_NEWER_SOFTWARE_ONDISK_MESSAGE" = "The Installer didn’t upgrade the software because a newer version of the software is already installed.";
+"ROSETTA_TWO_NOT_ELIGIBLE_MESSAGE_EXT" = "Installing “%@” requires Rosetta.
+
+%@";
+"USER_CANCEL_INSTALL_MESSAGE" = "You have chosen to cancel the installation.";
+"ERROR_READ_ONLY_SYSTEM_VOLUME_CONTENT_CONTINUE_BUTTON_TITLE" = "Install Anyway";
+"ERROR_EXTRACTING_MESSAGE" = "The Installer can’t extract files from the package for %@. Contact the software manufacturer for assistance.";
+"ERROR_DESTINATION_DISK_MESSAGE" = "The Installer is experiencing errors installing on “%@”. The disk may be damaged. Try installing on another disk.";
+"ERROR_VERIFYING_TARGET_MESSAGE" = "The macOS upgrade couldn't be started because the disk %@ is damaged and can't be repaired. After your computer restarts, back up your data, erase your disk, and try installing again.";
+"ERROR_UNSUPPORTED_INSTALL_VOLUME__MESSAGE" = "Features such as FileVault and Recovery Mode won't be available if you install Lion on this disk. Visit www.apple.com/support/no-recovery to learn more. To continue with the installation, select the disk again and click Install.";
+"ERROR_CREATING_DIR_MESSAGE" = "The Installer can’t create the folder “%@”.";

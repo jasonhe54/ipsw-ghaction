@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.appleidsetupd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.devicemanagementclient.devicePostureChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.devicemanagementclient.devicePostureChanged</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.appleidsetup.xpc</key>
+		<true/>
+		<key>com.apple.appleidsetupd.agemigration.xpc</key>
+		<true/>
+		<key>com.apple.appleidsetupd.repair.xpc</key>
+		<true/>
+		<key>com.apple.appleidsetupd.setup.xpc</key>
+		<true/>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/appleidsetupd</string>
+	</array>
+</dict>
+</plist>

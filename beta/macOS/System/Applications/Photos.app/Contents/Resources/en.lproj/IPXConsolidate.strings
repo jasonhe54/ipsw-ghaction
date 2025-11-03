@@ -1,0 +1,21 @@
+"consolidateMastersImportError" = "Can’t consolidate images while importing.";
+"consolidateInsufficentSpace" = "Insufficient Disk Space";
+"consolidateMasterErrorTitleFormat" = "Error while consolidating (%@) ";
+"consolidateTypeCopy" = "Copy";
+"consolidateNoFilesMessage" = "The selected items are already stored in the library.";
+"consolidateMasterErrorTitle" = "Error while consolidating";
+"consolidateMasterErrorMessage" = "“%@”";
+"consolidateOriginalsUnavailableMessage" = "One or more of the selected original images are unavailable. You can consolidate all available originals, or cancel, connect any required drives, and try again.";
+"consolidatePhaseConsolidate" = "Consolidating referenced media";
+"consolidateOriginalsUnavailableTitle" = "Unavailable original images cannot be consolidated.";
+"consolidatePhaseReconnect" = "Reconnecting referenced media";
+"consolidateApplyAll" = "Apply to All";
+"consolidateMastersTitle" = "Consolidate Original Files into the Photos Library";
+"consolidateContinue" = "Continue Consolidating";
+"consolidateAlertMessageForSingleTask" = "Photos is currently consolidating original files.";
+"consolidateAlertTitleForSingleTask" = "Do you want to continue consolidating?";
+"consolidateNoFilesTitle" = "No Referenced Files to Consolidate";
+"consolidateMethodPrompt" = "This action will copy the original files into the Photos Library and cannot be undone.
+";
+"consolidateTypeMove" = "Move";
+"consolidatePhaseDiscovery" = "Finding referenced media";

@@ -1,0 +1,212 @@
+"New Certificate Preference…" = "New Certificate Preference…";
+"Directory Services" = "Directory Services";
+"Enter a password which will be used to protect the exported items:" = "Enter a password which will be used to protect the exported items:";
+"Access to this item is not restricted." = "Access to this item is not restricted.";
+"Cut" = "Cut";
+"Create a Certificate Authority With “%@”…" = "Create a Certificate Authority With “%@”…";
+"To view the contents of this keychain, it must first be unlocked." = "To view the contents of this keychain, it must first be unlocked.";
+"symmetric key" = "symmetric key";
+"Each item opens in a separate window." = "Each item opens in a separate window.";
+"Passwords" = "Passwords";
+"Copy Secure Note to Clipboard" = "Copy Secure Note to Clipboard";
+"Create a Certificate Authority…" = "Create a Certificate Authority…";
+"New Identity Preference…" = "New Identity Preference…";
+"Hide Expired Certificates" = "Hide Expired Certificates";
+"Get Info" = "Get Info";
+"locked" = "locked";
+"The provided password did not unlock this keychain, or access has been limited to a particular user account." = "The provided password did not unlock this keychain, or access has been limited to a particular user account.";
+"%@, %@, %lu-bit" = "%1$@, %2$@, %3$lu-bit";
+"Keychain Access is unable to import “%@”.
+
+Error: %ld" = "Keychain Access is unable to import “%1$@”.
+
+Error: %2$ld";
+"Evaluate a Certificate…" = "Evaluate a Certificate…";
+"Keychain Access" = "Keychain Access";
+"You have made changes to this item. Would you like to save your changes?" = "You have made changes to this item. Would you like to save your changes?";
+"secure note" = "secure note";
+"Remove Reference" = "Remove Reference";
+"New Password Item" = "New Password Item";
+"IPsec Shared Secret" = "IPsec Shared Secret";
+"An error occurred when attempting to reset Keychain Syncing." = "An error occurred when attempting to reset Keychain Syncing.";
+"Change Settings for Keychain “%@”…" = "Change Settings for Keychain “%@”…";
+"New Keychain…" = "New Keychain…";
+"Create a Certificate With “%@”…" = "Create a Certificate With “%@”…";
+"login" = "login";
+"Go" = "Go";
+"Signing" = "Signing";
+"The “System Roots” keychain cannot be modified." = "The “System Roots” keychain cannot be modified.";
+"Unlock Keychain “%@”…" = "Unlock Keychain “%@”…";
+"Access for this item cannot be edited." = "Access for this item cannot be edited.";
+"%@ password" = "%@ password";
+"login (%@)" = "login (%@)";
+"Application" = "Application";
+"Are you sure you want to delete the selected items from the “%@” keychain?" = "Are you sure you want to delete the selected items from the “%@” keychain?";
+"Are you sure you want to delete the selected items?" = "Are you sure you want to delete the selected items?";
+"Important: If a certificate with custom trust settings is deleted, it will remove those settings, requiring you to enter your password." = "Important: If a certificate with custom trust settings is deleted, it will remove those settings, requiring you to enter your password.";
+"All Items" = "All Items";
+"Keep Items" = "Keep Items";
+"network password" = "network password";
+"AirPlay Server Identity" = "AirPlay Server Identity";
+"Keys" = "Keys";
+"Save changes before closing?" = "Save changes before closing?";
+"There are %d unused “%@” items in your keychain. Would you like to remove them?" = "There are %1$d unused “%2$@” items in your keychain. Would you like to remove them?";
+"This operation cannot be undone." = "This operation cannot be undone.";
+"Password items will be deleted from this keychain only. You can still type your password manually to access the service." = "Password items will be deleted from this keychain only. You can still type your password manually to access the service.";
+"Warning! One or more selected items is a private key. If a private key is deleted, certificates associated with that key can no longer be used. This may prevent you from reading encrypted messages or making secure connections. Proceed only if you are certain that you no longer need the selected key." = "Warning! One or more selected items is a private key. If a private key is deleted, certificates associated with that key can no longer be used. This may prevent you from reading encrypted messages or making secure connections. Proceed only if you are certain that you no longer need the selected key.";
+"Evaluate “%@”…" = "Evaluate “%@”…";
+"The certificate password you entered was invalid. Please contact your network administrator for the certificate password.
+
+Error: %ld" = "The certificate password you entered was invalid. Please contact your network administrator for the certificate password.
+
+Error: %ld";
+"Hide Invisible Items" = "Hide Invisible Items";
+"application password" = "application password";
+"Reset" = "Reset";
+"Delete Selected Item" = "Delete Selected Item";
+"Show Expired Certificates" = "Show Expired Certificates";
+"A file or folder with the same name already exists in this location. Replacing it will overwrite its current contents." = "A file or folder with the same name already exists in this location. Replacing it will overwrite its current contents.";
+"Paste" = "Paste";
+"An unexpected error has occurred that may cause Keychain Access to malfunction. You may want to quit the Keychain Access application.
+
+Error: %@" = "An unexpected error has occurred that may cause Keychain Access to malfunction. You may want to quit the Keychain Access application.
+
+Error: %@";
+"If a disk image password is removed, you will need to type it manually in order to decrypt the file. Make sure you remember the password if you want to access this file in the future!" = "If a disk image password is removed, you will need to type it manually in order to decrypt the file. Make sure you remember the password if you want to access this file in the future!";
+"Show Summary" = "Show Summary";
+"Internet-sharing password" = "Internet-sharing password";
+"Go to iDisk" = "Go to iDisk";
+"iCloud" = "iCloud";
+"Replace" = "Replace";
+"Do you want to add the certificate(s) from the file “%@” to a keychain?" = "Do you want to add the certificate(s) from the file “%@” to a keychain?";
+"System Keychains" = "System Keychains";
+"AirPort network password" = "AirPort network password";
+"Are you sure you want to delete “%@” from the “%@” keychain?" = "Are you sure you want to delete “%1$@” from the “%2$@” keychain?";
+"Save" = "Save";
+"Warning: Removing these items may require you to update the VPN settings on other computers that sync with this keychain." = "Warning: Removing these items may require you to update the VPN settings on other computers that sync with this keychain.";
+"This key has expired." = "This key has expired.";
+"Quit" = "Quit";
+"unlocked" = "unlocked";
+"Encryption" = "Encryption";
+"Hide Keychains" = "Hide Keychains";
+"root certificate" = "root certificate";
+"Local Items" = "Local Items";
+"Search %@ for certificates" = "Search %@ for certificates";
+"1 item" = "1 item";
+"Copy Password to Clipboard" = "Copy Password to Clipboard";
+"Warning! If a private key is deleted, certificates associated with that key can no longer be used. This may prevent you from reading encrypted messages or making secure connections. Proceed only if you are certain that you no longer need the selected key." = "Warning! If a private key is deleted, certificates associated with that key can no longer be used. This may prevent you from reading encrypted messages or making secure connections. Proceed only if you are certain that you no longer need the selected key.";
+"Today" = "Today";
+"Are you sure you want to delete “%@”?" = "Are you sure you want to delete “%@”?";
+"Web Sites" = "Web Sites";
+"Handoff Encryption Key" = "Handoff Encryption Key";
+"%@, %@" = "%1$@, %2$@";
+"Copy “%@”" = "Copy “%@”";
+"System Roots" = "System Roots";
+"Yesterday" = "Yesterday";
+"Request a Certificate From a Certificate Authority…" = "Request a Certificate From a Certificate Authority…";
+"Copy %d items" = "Copy %d items";
+"OK" = "OK";
+"%@ Application Group" = "%@ Application Group";
+"AppleShare" = "AppleShare";
+"Custom Keychains" = "Custom Keychains";
+"Device Pairing Identity" = "Device Pairing Identity";
+"Hide Summary" = "Hide Summary";
+"unknown" = "unknown";
+"not available" = "not available";
+"Access group for this item:" = "Access group for this item:";
+"Password for client access to shared media" = "Password for client access to shared media";
+"Certificates" = "Certificates";
+"Create new empty “login” and “%@” keychains. You will lose all items currently stored in these keychains." = "Create new empty “login” and “%@” keychains. You will lose all items currently stored in these keychains.";
+"Change Password for Keychain “%@”…" = "Change Password for Keychain “%@”…";
+"Request a Certificate From a Certificate Authority With “%@”…" = "Request a Certificate From a Certificate Authority With “%@”…";
+"Default Keychains" = "Default Keychains";
+"Other" = "Other";
+"Other People" = "Other People";
+"certificate preference" = "certificate preference";
+"To change whether a root certificate is trusted, open it in Keychain Access and modify its Trust Settings. New root certificates should be added to the login keychain for the current user, or to the System keychain if they are to be shared by all users of this machine." = "To change whether a root certificate is trusted, open it in Keychain Access and modify its Trust Settings. New root certificates should be added to the login keychain for the current user, or to the System keychain if they are to be shared by all users of this machine.";
+"Keychain Access - Unexpected Error" = "Keychain Access - Unexpected Error";
+"Show Keychains" = "Show Keychains";
+"No" = "No";
+"certificate" = "certificate";
+"Keychain Files" = "Keychain Files";
+"Add Keychain…" = "Add Keychain…";
+"Go There" = "Go There";
+"%@ — %@" = "%1$@ — %2$@";
+"Important: One or more selected certificates have custom trust settings. Deleting the certificates will remove those settings, requiring you to enter your password." = "Important: One or more selected certificates have custom trust settings. Deleting the certificates will remove those settings, requiring you to enter your password.";
+"Keychain Access is trying to access information saved in your keychains." = "Keychain Access is trying to access information saved in your keychains.";
+"Certificates contain no secrets and are always public.
+They are digitally signed to prevent modification." = "Certificates contain no secrets and are always public.
+They are digitally signed to prevent modification.";
+"Delete %d items" = "Delete %d items";
+"private key" = "private key";
+"Show Invisible Items" = "Show Invisible Items";
+"My Certificates" = "My Certificates";
+"Hide Status Line" = "Hide Status Line";
+"Are you sure you want to delete the selected items from the list?" = "Are you sure you want to delete the selected items from the list?";
+"New root certificates should be added to the login keychain for the current user, or to the System keychain if they are to be shared by all users of this machine." = "New root certificates should be added to the login keychain for the current user, or to the System keychain if they are to be shared by all users of this machine.";
+"Back to My Mac key" = "Back to My Mac key";
+"Paste %d items" = "Paste %d items";
+"Delete" = "Delete";
+"Mount Disk Image" = "Mount Disk Image";
+"Always allow access by these applications:" = "Always allow access by these applications:";
+"AppleShare password" = "AppleShare password";
+"Continue" = "Continue";
+"Delete Keychain “%@”…" = "Delete Keychain “%@”…";
+"identity preference" = "identity preference";
+"Internet" = "Internet";
+"Lock Keychain “%@”" = "Lock Keychain “%@”";
+"Yes" = "Yes";
+"Keychain syncing is not enabled." = "Keychain syncing is not enabled.";
+"Keychain" = "Keychain";
+"AirPlay Pairing Identity" = "AirPlay Pairing Identity";
+"Do you want to delete the keychain “%@”, or only remove the reference to it?" = "Do you want to delete the keychain “%@”, or only remove the reference to it?";
+"Authorities" = "Authorities";
+"Delete Keychain File" = "Delete Keychain File";
+"Resetting will change the passwords used for keychain syncing to the keychain passwords on this computer. These passwords are asked for when enabling keychain syncing on additional computers." = "Resetting will change the passwords used for keychain syncing to the keychain passwords on this computer. These passwords are asked for when enabling keychain syncing on additional computers.";
+"Remote Pairing Identity" = "Remote Pairing Identity";
+"%@ items" = "%@ items";
+"“%@” already exists.
+Do you want to replace it?" = "“%@” already exists.
+Do you want to replace it?";
+"The keychain “%@” could not be opened." = "The keychain “%@” could not be opened.";
+"Add" = "Add";
+"Secure Notes" = "Secure Notes";
+"Password" = "Password";
+"Enter the password for “%@”:" = "Enter the password for “%@”:";
+"Certificate Import Error" = "Certificate Import Error";
+"Alert" = "Alert";
+"Please sync first in order to reset keychain syncing." = "Please sync first in order to reset keychain syncing.";
+"Create a Certificate…" = "Create a Certificate…";
+"Export %d items…" = "Export %d items…";
+"If a personal certificate is deleted, you may no longer be able to encrypt messages or make secure connections. Proceed only if you are certain that you no longer need the selected certificate." = "If a personal certificate is deleted, you may no longer be able to encrypt messages or make secure connections. Proceed only if you are certain that you no longer need the selected certificate.";
+"Access to this item is restricted." = "Access to this item is restricted.";
+"Are you sure you want to open %d messages?" = "Are you sure you want to open %d messages?";
+"Show Status Line" = "Show Status Line";
+"disk image password" = "disk image password";
+"Keychain Access is unable to import the certificate.
+
+Error: %ld" = "Keychain Access is unable to import the certificate.
+
+Error: %ld";
+"Handoff Decryption Key" = "Handoff Decryption Key";
+"Sorry, you entered an invalid password.
+
+Please try again, enter the password for “%@”:" = "Sorry, you entered an invalid password.
+
+Please try again, enter the password for “%@”:";
+"Internet password" = "Internet password";
+"Remove Items" = "Remove Items";
+"Don’t Save" = "Don’t Save";
+"Paste “%@”" = "Paste “%@”";
+"directory password" = "directory password";
+"Cancel" = "Cancel";
+"Export “%@”…" = "Export “%@”…";
+"encrypted volume password" = "encrypted volume password";
+"Delete “%@”" = "Delete “%@”";
+"Copy" = "Copy";
+"Are you sure you want to reset keychain syncing?" = "Are you sure you want to reset keychain syncing?";
+"All Keychains" = "All Keychains";
+"Keychain: %@ (%@)" = "Keychain: %1$@ (%2$@)";
+"public key" = "public key";
+"You failed to provide the necessary administrator authorization." = "You failed to provide the necessary administrator authorization.";
+"Removable Keychains" = "Removable Keychains";

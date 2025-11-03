@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.loginwindow</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.loginwindow</key>
+		<true/>
+	</dict>
+	<key>MultipleInstances</key>
+	<true/>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow</string>
+		<string>console</string>
+	</array>
+	<key>_AdditionalProperties</key>
+	<dict>
+		<key>RunningBoard</key>
+		<dict>
+			<key>VariableEUID</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

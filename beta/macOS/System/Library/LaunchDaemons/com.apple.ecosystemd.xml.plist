@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.ecosystemd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.ecosystem.periodic-notifications</key>
+			<dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>604800</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>LowPriorityIO</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ecosystem.database</key>
+		<true/>
+		<key>com.apple.ecosystem.notifications</key>
+		<true/>
+		<key>com.apple.ecosystem.processreporter</key>
+		<true/>
+		<key>com.apple.ecosystem.rosetta</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemd</string>
+	</array>
+</dict>
+</plist>

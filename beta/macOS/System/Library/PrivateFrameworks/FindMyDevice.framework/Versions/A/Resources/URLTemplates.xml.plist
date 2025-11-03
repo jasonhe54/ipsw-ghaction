@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentLocation</key>
+	<string>${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/currentLocation</string>
+	<key>qc</key>
+	<string>${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/qc</string>
+	<key>register</key>
+	<string>${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/register</string>
+	<key>unregister</key>
+	<string>${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/unregister</string>
+	<key>unregisterV2</key>
+	<string>${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/unregisterV2</string>
+	<key>unregisterV3</key>
+	<string>${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/unregisterV3</string>
+</dict>
+</plist>

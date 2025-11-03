@@ -1,0 +1,30 @@
+"FOOTER_TEXT" = "Photos is designed to protect your privacy while delivering a personalized experience that reflects your unique photo library. Apple does not access your photos or videos, and does not use them for research and development.
+
+Photos uses on-device machine learning to deliver a personalized experience, organize photos and videos in ways that are meaningful to you, and power features like Sharing Suggestions, Memories, the People & Pets Album, and Featured Photos. This on-device analysis includes scene classification, people and pets identification, photo quality analysis, and audio classification. Photos also uses on-device information, such as which photos you have edited or shared to other people, people you frequently communicate with in Messages, relationships set in Contacts, Home and Work locations set in Contacts or Maps, locations where you take photos, and important dates in Calendar and Contacts.
+
+Photos additionally uses on-device analysis to recognize the faces of people in photos, and groups them together in the People & Pets Album. When you add a name to a person in the People & Pets Album, their name and face will appear in Photos across all your iCloud-enabled devices.
+
+iCloud Photos
+
+If you use iCloud Photos, your photos and videos are stored securely in iCloud and kept up to date across your iCloud-enabled devices. iCloud protects each photo and video file, along with the file’s metadata, by encrypting it in transit and at rest.
+
+Searching Photos
+
+Enhanced Visual Search in Photos allows you to search for photos using landmarks or points of interest. Your device privately matches places in your photos to a global index Apple maintains on our servers. We apply homomorphic encryption and differential privacy, and use an OHTTP relay that hides IP address. This prevents Apple from learning about the information in your photos. You can turn off Enhanced Visual Search at any time on your iOS or iPadOS device by going to Settings > Apps > Photos. On Mac, open Photos and go to Settings > General.
+
+Sharing Photos
+
+Photos puts you in control of what you share with another Apple user, or to third-party apps using Photo Picker inside an app or through the Share Sheet in Photos. For example, when sharing a photo with the Share Sheet in Photos, you can control which metadata, like the Live Photos video, edit history, or location information, is shared along with the photo.
+
+When using Photo Picker from inside an app, you can select the photo you want to share, or grant the app access to your entire photo library. Access to photos includes associated metadata, such as location and depth information. You can change an app’s ability to access your photo library at any time by going to Settings > Privacy & Security > Photos.
+
+Location
+
+If you allow Camera to access your location, your location is used to tag where photos and videos are taken. You can change this setting at any time by going to Settings > Privacy & Security > Location Services > Camera. On your visionOS device, go to Settings > Privacy & Security > Location Services > Capture. You can remove location information from any photo or video by tapping More on the photo or video, then tapping Adjust Location > No Location.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"BUTTON_TITLE_APPLETV" = "About Photos & Privacy";
+"SPLASH_SUMMARY" = "Photos is designed to protect your information and enable you to choose what you share.";
+"SPLASH_SHORT_TITLE" = "Photos";
+"SPLASH_TITLE" = "Photos & Privacy";
+"BUTTON_TITLE" = "About Photos & Privacy…";

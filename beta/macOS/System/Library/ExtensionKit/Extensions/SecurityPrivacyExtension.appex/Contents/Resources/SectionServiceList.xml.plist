@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>locationServicesSection</key>
+	<dict>
+		<key>LOCATION_SERVICES</key>
+		<string></string>
+	</dict>
+	<key>subtitledServicesSection</key>
+	<dict>
+		<key>ALL_FILES</key>
+		<string></string>
+		<key>CALENDARS</key>
+		<string></string>
+		<key>CONTACTS</key>
+		<string></string>
+		<key>FILE_ACCESS_COMBINED</key>
+		<string></string>
+		<key>HOMEKIT</key>
+		<string></string>
+		<key>MEDIA</key>
+		<string></string>
+		<key>PHOTOS</key>
+		<string></string>
+		<key>REMINDERS</key>
+		<string></string>
+		<key>WEB_BROWSER_PASSKEY_ACCESS</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

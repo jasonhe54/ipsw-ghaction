@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.quicktime-movie</string>
+			<key>MGPresetCategory</key>
+			<string>Screen</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetFullScreenResolutionHighQuality</string>
+			<key>MGPresetName</key>
+			<string>High</string>
+			<key>MGPresetSummary</key>
+			<string>Full screen resolution high capture quality</string>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGHighQualityAACAudio</string>
+				<key>MGPresetSummary</key>
+				<string>High audio quality</string>
+			</dict>
+			<key>vide</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGH264Video</string>
+				<key>MGPresetSummary</key>
+				<string>Full screen resolution high video quality</string>
+			</dict>
+		</dict>
+	</array>
+</array>
+</plist>

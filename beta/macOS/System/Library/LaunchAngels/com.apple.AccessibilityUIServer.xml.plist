@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.AccessibilityUIServer</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.AccessibilityUIServer</key>
+		<dict>
+			<key>_ExperimentalNonLaunching</key>
+			<true/>
+		</dict>
+		<key>com.apple.aps.AccessibilityUIServer</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.accessibility.NameRecognitionNotifications</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/AccessibilityUIServer.app/Contents/MacOS/AccessibilityUIServer</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>_AdditionalProperties</key>
+	<dict>
+		<key>RunningBoard</key>
+		<dict>
+			<key>Managed</key>
+			<true/>
+			<key>Reported</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>com.apple.realityenrollment</key>
+	<true/>
+</dict>
+</plist>

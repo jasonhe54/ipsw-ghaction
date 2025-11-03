@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSRestricted</key>
+	<array/>
+	<key>NSUnrestricted</key>
+	<array>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Automator</string>
+			<key>NSMenuItem</key>
+			<string>Create Service</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Automator</string>
+			<key>NSMenuItem</key>
+			<string>Create Workflow</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ChineseTextConverterService</string>
+			<key>NSMenuItem</key>
+			<string>Convert Text from Simplified to Traditional Chinese</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ChineseTextConverterService</string>
+			<key>NSMenuItem</key>
+			<string>Convert Text from Traditional to Simplified Chinese</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ChineseTextConverterService</string>
+			<key>NSMenuItem</key>
+			<string>Convert Text to Full Width</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ChineseTextConverterService</string>
+			<key>NSMenuItem</key>
+			<string>Convert Text to Half Width</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Decalog4</string>
+			<key>NSMenuItem</key>
+			<string>Parse HexDump</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Dictionary</string>
+			<key>NSMenuItem</key>
+			<string>Look Up in Dictionary</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.DiskUtility</string>
+			<key>NSMenuItem</key>
+			<string>Disk Utility/Calculate Image Checksum (CRC-32)</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.DiskUtility</string>
+			<key>NSMenuItem</key>
+			<string>Disk Utility/Calculate Image Checksum (MD-5)</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.FileMerge</string>
+			<key>NSMenuItem</key>
+			<string>FileMerge/Compare Files</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.FileMerge</string>
+			<key>NSMenuItem</key>
+			<string>FileMerge/Compare To Master</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.FontBook</string>
+			<key>NSMenuItem</key>
+			<string>Font Book/Create Font Library From Text</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.FontBook</string>
+			<key>NSMenuItem</key>
+			<string>Font Book/Create Collection From Text</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Grab</string>
+			<key>NSMenuItem</key>
+			<string>Capture Selection from Screen</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Grab</string>
+			<key>NSMenuItem</key>
+			<string>Capture Full Screen</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Grab</string>
+			<key>NSMenuItem</key>
+			<string>Capture Screen using Timer</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ImageCaptureService</string>
+			<key>NSMenuItem</key>
+			<string>Import Image</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Preview</string>
+			<key>NSMenuItem</key>
+			<string>Preview/Open images</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.QuickTime.service.encodeSelectedAudioFiles</string>
+			<key>NSMenuItem</key>
+			<string>Encode Selected Audio Files</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Safari</string>
+			<key>NSMenuItem</key>
+			<string>Search With %WebSearchProvider@</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Safari</string>
+			<key>NSMenuItem</key>
+			<string>Add to Reading List</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ScriptEditor2</string>
+			<key>NSMenuItem</key>
+			<string>Script Editor/Make New AppleScript</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Services-Manager</string>
+			<key>NSMenuItem</key>
+			<string>Toggle Service Group</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.SpotlightService</string>
+			<key>NSMenuItem</key>
+			<string>SEARCH_WITH_SPOTLIGHT</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Stickies</string>
+			<key>NSMenuItem</key>
+			<string>Make Sticky</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.SummaryService</string>
+			<key>NSMenuItem</key>
+			<string>Summarize</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>NSMenuItem</key>
+			<string>New Terminal at Folder</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>NSMenuItem</key>
+			<string>New Terminal Tab at Folder</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>NSMenuItem</key>
+			<string>Open man Page in Terminal</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>NSMenuItem</key>
+			<string>Search man Page Index in Terminal</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.TextEdit</string>
+			<key>NSMenuItem</key>
+			<string>New TextEdit Window Containing Selection</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.TextEdit</string>
+			<key>NSMenuItem</key>
+			<string>Open Selected File in TextEdit</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.Instruments</string>
+			<key>NSMenuItem</key>
+			<string>System Trace</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.Instruments</string>
+			<key>NSMenuItem</key>
+			<string>Activity Monitor</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.Instruments</string>
+			<key>NSMenuItem</key>
+			<string>Allocations &amp; Leaks</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.Instruments</string>
+			<key>NSMenuItem</key>
+			<string>File Activity</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.instruments.backgroundinstruments</string>
+			<key>NSMenuItem</key>
+			<string>Time Profile Active Application</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.instruments.backgroundinstruments</string>
+			<key>NSMenuItem</key>
+			<string>Time Profile Entire System</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.instruments.backgroundinstruments</string>
+			<key>NSMenuItem</key>
+			<string>Time Profile App Under Mouse</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.dt.instruments.backgroundinstruments</string>
+			<key>NSMenuItem</key>
+			<string>Toggle Instruments Recording</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.finder</string>
+			<key>NSMenuItem</key>
+			<string>Finder/Reveal</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.finder</string>
+			<key>NSMenuItem</key>
+			<string>Finder/Show Info</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.Radar</string>
+			<key>NSMenuItem</key>
+			<string>Radar/View Problem List in Radar</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.Radar</string>
+			<key>NSMenuItem</key>
+			<string>Radar/View Problem Detail in Radar</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.Radar</string>
+			<key>NSMenuItem</key>
+			<string>Radar/View Problem Browser in Radar</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.appledirectory.Apple-Directory-Services</string>
+			<key>NSMenuItem</key>
+			<string>Search Employee in Apple Directory</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.appledirectory.Apple-Directory-Services</string>
+			<key>NSMenuItem</key>
+			<string>Search Group in Apple Directory</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.appledirectory.Apple-Directory-Services</string>
+			<key>NSMenuItem</key>
+			<string>Search Conference Room in Apple Directory</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.ist.appledirectory.Apple-Directory-Services</string>
+			<key>NSMenuItem</key>
+			<string>Search Retail Store in Apple Directory</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.mail</string>
+			<key>NSMenuItem</key>
+			<string>Mail/New Email With Selection</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.mail</string>
+			<key>NSMenuItem</key>
+			<string>Mail/New Email To Address</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.services.addToiTunesAsSpokenTrack</string>
+			<key>NSMenuItem</key>
+			<string>Add to iTunes as a Spoken Track</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.services.encodeSelectedVideoFiles</string>
+			<key>NSMenuItem</key>
+			<string>Encode Selected Video Files</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.services.setDesktopPicture</string>
+			<key>NSMenuItem</key>
+			<string>Set Desktop Picture</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.services.showAddressInGoogleMaps</string>
+			<key>NSMenuItem</key>
+			<string>Show Address in Google Maps</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.speech.SpeechService</string>
+			<key>NSMenuItem</key>
+			<string>Speech/Start Speaking Text</string>
+		</dict>
+		<dict>
+			<key>NSBundleID</key>
+			<string>com.apple.speech.SpeechService</string>
+			<key>NSMenuItem</key>
+			<string>Speech/Stop Speaking</string>
+		</dict>
+	</array>
+</dict>
+</plist>

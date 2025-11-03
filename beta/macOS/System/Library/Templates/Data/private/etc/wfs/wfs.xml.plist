@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AccessGroup</key>
+	<string>everyone</string>
+	<key>AllowLongUserName</key>
+	<true/>
+	<key>ApplyUserInstanceSandbox</key>
+	<true/>
+	<key>CreateHomeDirsForLocalUsers</key>
+	<true/>
+	<key>InactivityTimeoutSeconds</key>
+	<integer>3600</integer>
+	<key>LogFilePath</key>
+	<string>/Library/Logs/WebDAVFileSharing.log</string>
+	<key>LogLevel</key>
+	<string>info</string>
+	<key>PathForUserLogDirs</key>
+	<string>/private/var/run/webdav_sharing</string>
+	<key>RemoveUserLogDirsAtStartup</key>
+	<true/>
+	<key>ServerAddr</key>
+	<string>*</string>
+	<key>ServerName</key>
+	<string></string>
+	<key>ServerPort</key>
+	<integer>443</integer>
+	<key>ServerSSL</key>
+	<true/>
+	<key>ShareSharePoints</key>
+	<true/>
+	<key>SynthesizeSharePointForUserHomeDir</key>
+	<true/>
+</dict>
+</plist>

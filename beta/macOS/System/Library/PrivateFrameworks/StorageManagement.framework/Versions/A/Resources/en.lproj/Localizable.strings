@@ -1,0 +1,164 @@
+"DISK_SIZE_FUSION" = "%@
+Fusion Drive";
+"DM_TRASH_TITLE" = "Are you sure you want to permanently erase the items in the Trash?";
+"RECOMMENDATION_ENABLE_CLOUDKIT_MESSAGES_MESSAGE" = "Store all messages in iCloud and save space by keeping only recent attachments on this Mac when storage space is needed.";
+"ERROR_PREFLIGHT_ALREADY_ENABLED_TITLE" = "iCloud Photo Library is already turned on.";
+"DM_REMOVE_TITLE_1" = "Are you sure you want to delete “%@”?";
+"RECOMMENDATION_OPTIMIZE_ICLOUD_DESKTOP_DOCUMENTS_MESSAGE" = "Store all files in iCloud Drive and save space by making files available on demand when storage space is needed.";
+"RECOMMENDATION_OPTIMIZE_ICLOUD_PHOTO_LIBRARY_MESSAGE_ALT" = "All full-resolution photos and videos will be stored in iCloud Photo Library and optimized versions will be kept on this Mac.";
+"RECOMMENDATION_UPGRADE_STORAGE_MESSAGE_ICLOUD_PHOTO_LIBRARY" = "You don’t have enough available iCloud storage to turn on iCloud Photo Library. Upgrade your iCloud storage to continue.";
+"DM_REMOVE" = "Delete";
+"DISK_FREE" = "Available";
+"DISK_APPS" = "Apps";
+"ERROR_PREFLIGHT_ESTIMATION_FAILED_TITLE" = "Your Photos library is incompatible with iCloud Photo Library.";
+"DISK_SIZE_RAID" = "%@
+RAID Storage";
+"SUBTITLE_IOS_FILES" = "Permanently erase device backups and software updates to free storage space.";
+"DISK_PHOTOS" = "Photos";
+"RECOMMENDATION_UPGRADE_STORAGE_MESSAGE_ICLOUD_DESKTOP_DOCUMENTS_AND_PHOTOS" = "You don’t have enough available iCloud storage to turn on iCloud Desktop and Documents and iCloud Photo Library. Upgrade your iCloud storage to continue.";
+"EXT_DISK_SIZE_SSD" = "External %@
+Solid State Drive";
+"ERROR_PREFLIGHT_HFS_VOLUME_MESSAGE" = "To check the format of a volume, select the volume in the Finder and choose Get Info from the File menu. The type of volume appears in the Format field.";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_ICLOUD_PHOTO_LIBRARY_TITLE" = "Do you want to optimize all photos and videos in iCloud?";
+"STORAGE_CRITICALLY_LOW" = "Your disk is almost full";
+"ERROR_PREFLIGHT_ESTIMATION_FAILED_MESSAGE" = "Open Photos to choose or create a library, or to update your existing library, and then try again.";
+"ERROR_PREFLIGHT_CANNOT_ENABLE_TITLE_ICLOUD_PHOTO_LIBRARY" = "iCloud Photo Library could not be turned on.";
+"RECOMMENDATION_CONFIRM_STORE_IN_ICLOUD_TITLE" = "Choose what you would like to store in iCloud.";
+"OperationTypeInstall_info" = "Additional %@ of disk space is required to install this file. You can manage disk space by removing items from the Storage section of About This Mac.";
+"ERROR_PREFLIGHT_MULTIPLE_TITLE" = "The operation couldn’t be completed.";
+"ERROR_PREFLIGHT_UNKNOWN_MESSAGE" = "An unexpected error occurred.";
+"INFO_TEXT" = "Additional %@ of free space is needed to continue. You can create disk space by removing items from the Storage section of About This Mac.";
+"RECOMMENDATION_ENABLE_ICLOUD_PHOTO_LIBRARY_MESSAGE" = "Store all photos and videos in iCloud Photo Library and save space by keeping optimized versions on this Mac when storage space is needed.";
+"RECOMMENDATION_OPTIMIZE_STORAGE_ACTION" = "Optimize…";
+"STORAGE_CRITICALLY_LOW_INFO" = "Save space by optimizing storage.";
+"RECOMMENDATION_SIGN_IN_TITLE" = "Sign in to iCloud.";
+"RECOMMENDATION_STORE_IN_ICLOUD_ACTION" = "Store in iCloud…";
+"SUBTITLE_DEVELOPER" = "Remove project build caches and unused SDKs to free storage space.";
+"SUBTITLE_TRASH" = "Permanently erase individual files or click Empty Trash to erase all.";
+"RECOMMENDATION_ENABLE_CLOUDKIT_MESSAGES_TITLE_ALT" = "Messages";
+"RECOMMENDATION_SIGN_IN_MESSAGE_ICLOUD_DESKTOP_DOCUMENTS_AND_PHOTOS" = "You must be signed in to iCloud to store your files and photos in iCloud. Sign in to iCloud, then try again.";
+"ERROR_PREFLIGHT_MAY_NOT_FIT_MESSAGE" = "You can free up space by enabling other optimizations, or by removing files you no longer need.";
+"RECOMMENDATION_CONFIRM_STORE_IN_ICLOUD_CONFIRM" = "Store in iCloud";
+"RECOMMENDATION_CONFIRM_ENABLE_CLOUDKIT_MESSAGES_MESSAGE" = "All messages and attachments will be stored in iCloud. When storage space is needed, only recent attachments will be kept on this Mac. You can download attachments at any time.
+
+You can modify this preference later in Messages Settings.";
+"OPEN_MAIL" = "Open Mail";
+"RECOMMENDATION_OPTIMIZE_ICLOUD_PHOTO_LIBRARY_MESSAGE" = "Store all photos and videos in iCloud Photo Library and save space by keeping optimized versions on this Mac when storage space is needed.";
+"OPEN_STMUI" = "Manage…";
+"RECOMMENDATION_UPGRADE_STORAGE_MESSAGE_GENERIC" = "You don’t have enough available iCloud storage to turn on iCloud services. Upgrade your iCloud storage to continue.";
+"DM_TRASH_OK" = "Empty Trash";
+"RECOMMENDATION_REDUCE_CLUTTER_TITLE" = "Reduce Clutter";
+"RECOMMENDATION_CONFIRM_ENABLE_CLOUDKIT_MESSAGES_TITLE" = "Do you want to store Messages in iCloud?";
+"RECOMMENDATION_UPGRADE_STORAGE_CONFIRM" = "Upgrade iCloud Storage…";
+"OperationTypeDownload" = "Not enough disk space to download “%@”";
+"ERROR_PREFLIGHT_HFS_VOLUME_TITLE" = "iCloud Photo Library is only available on macOS Standard, macOS Extended, and APFS formatted volumes.";
+"RECOMMENDATION_ENABLE_ICLOUD_DESKTOP_DOCUMENTS_TITLE_ALT" = "Desktop and Documents";
+"ERROR_PREFLIGHT_CANNOT_INGEST_MESSAGE" = "You have too many files, too many files in a single folder, or too many nested folders in your Documents or Desktop folders.";
+"DM_OPEN_X" = "Open %@";
+"RECOMMENDATION_CONFIRM_ENABLE_ICLOUD_PHOTO_LIBRARY_TITLE" = "Do you want to store all photos and videos in iCloud?";
+"RECOMMENDATION_ENABLE_ICLOUD_PHOTO_LIBRARY_MESSAGE_ALT" = "All full-resolution photos and videos will be stored in iCloud Photo Library and optimized versions will be kept on this Mac.";
+"DM_REMOVE_NOSIZE" = "{'num_items': {'one': 'The item will be deleted immediately. You can’t undo this action.', 'other': '%1$ld items will be deleted immediately. You can’t undo this action.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%1$#@num_items@'}";
+"DISK_SIZE" = "%@
+Disk";
+"RECOMMENDATION_OPTIMIZE_STORAGE_TITLE" = "Optimize Storage";
+"OperationTypeDownload_info" = "Additional %@ of disk space is required to download this file. You can manage disk space by removing items from the Storage section of About This Mac.";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_STORAGE_CONFIRM" = "Optimize";
+"ERROR_PREFLIGHT_NEEDS_PASSWORD_TITLE" = "Your password is required to enable iCloud Photo Library.";
+"RECOMMENDATION_OPTIMIZE_ICLOUD_PHOTO_LIBRARY_TITLE_ALT" = "Photos";
+"RECOMMENDATION_OPTIMIZE_ICLOUD_DESKTOP_DOCUMENTS_MESSAGE_ALT" = "All files from your Desktop and Documents folders will be stored in iCloud Drive and available on all your devices.";
+"DM_DOCUMENTS" = "Documents";
+"DM_REMOVE_MESSAGE_1" = "The item will be deleted immediately, freeing %@ of storage. You can’t undo this action.";
+"ERROR_PREFLIGHT_GREY_MODE_TITLE_ICLOUD_PHOTO_LIBRARY" = "Your password is required to enable iCloud Photo Library.";
+"RECOMMENDATION_CONFIRM_ENABLE_ICLOUD_PHOTO_LIBRARY_MESSAGE" = "All full-resolution photos and videos will be stored in iCloud Photo Library. When storage space is low, only optimized photos and videos will be kept on this Mac. You can download the originals at any time.
+
+You can modify this preference later in Photos.";
+"OperationTypeExport_info" = "Additional %@ of disk space is required to export this file. You can manage disk space by removing items from the Storage section of About This Mac.";
+"RECOMMENDATION_REDUCE_CLUTTER_MESSAGE" = "Sort through documents and other content stored on this Mac and delete what is no longer needed.";
+"RECOMMENDATION_ENABLE_ICLOUD_PHOTO_LIBRARY_TITLE_ALT" = "Photos";
+"RECOMMENDATION_AUTO_TRASH_MESSAGE" = "Save space by automatically erasing items that have been in the Trash for more than 30 days.";
+"DISK_SIZE_TYPE" = "%@
+%@ Disk";
+"SUBTITLE_MUSIC" = "Remove music video files to free storage space.";
+"ERROR_PREFLIGHT_UNKNOWN_TITLE" = "The operation couldn’t be completed.";
+"EXT_DISK_SIZE_TYPE_SSD" = "External %@
+Solid State %@ Drive";
+"SUBTITLE_IBOOKS" = "Remove books you can download again in Books to free storage space.";
+"RECOMMENDATION_SIGN_IN_MESSAGE_ICLOUD_DESKTOP_DOCUMENTS" = "You must be signed in to iCloud to store your Desktop and Documents folders in iCloud Drive. Sign in to iCloud, then try again.";
+"ERROR_PREFLIGHT_GREY_MODE_TITLE_ICLOUD_DESKTOP_DOCUMENTS" = "Your password is required to enable iCloud Desktop and Documents.";
+"DISK_USED" = "Used Space";
+"OperationTypeCopy" = "Not enough disk space to copy “%@”";
+"DISK_CALC" = "Calculating…";
+"RECOMMENDATION_AUTO_TRASH_ACTION" = "Turn On…";
+"ERROR_PREFLIGHT_NEEDS_PASSWORD_MESSAGE" = "Open Apple ID in System Settings to turn on iCloud Photo Library.";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_ICLOUD_PHOTO_LIBRARY_MESSAGE" = "All full-resolution photos and videos will be stored in iCloud Photo Library. When storage space is needed, only optimized photos and videos will be kept on this Mac. You can download the originals at any time.
+
+You can modify this preference later in Photos.";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_STORAGE_TITLE" = "Do you want to optimize storage?";
+"ERROR_PREFLIGHT_CANNOT_ENABLE_MESSAGE" = "Please try again later. If the problem persists, contact your system administrator.";
+"DM_OPEN" = "Open";
+"DISK_OTHER_VOLS" = "Other Volumes";
+"DM_TRASH_INFO" = "You can’t undo this action.";
+"WAITING" = "Waiting to Upload";
+"DM_OK" = "OK";
+"RECOMMENDATION_SIGN_IN_MESSAGE_GENERIC" = "You must be signed in to iCloud to continue. Sign in to iCloud, then try again.";
+"RECOMMENDATION_STORE_IN_ICLOUD_MESSAGE" = "Store all files, photos, and messages in iCloud and save space by keeping only recent files and optimized photos on this Mac when storage space is needed.";
+"DM_CANCEL" = "Cancel";
+"OperationTypeExport" = "Not enough disk space to export “%@”";
+"DISK_MISC" = "%@ and Others";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_STORAGE_MESSAGE" = "When storage space is needed, Apple TV movies and TV shows that you’ve already watched will be automatically removed and only recent email attachments in Mail will be kept on this Mac. You can download them at any time.";
+"DISK_AUDIO" = "Audio";
+"ERROR_PREFLIGHT_GREY_MODE_MESSAGE" = "Open Apple ID in System Settings to enter your password, then try again.";
+"RECOMMENDATION_CONFIRM_ENABLE_ICLOUD_DESKTOP_DOCUMENTS_TITLE" = "Do you want to store all files in iCloud?";
+"DISC_UNTITLED" = "Untitled";
+"ERROR_PREFLIGHT_MAY_NOT_FIT_TITLE" = "You may not have enough space on this Mac to enable iCloud Photo Library.";
+"DISK_SIZE_FLASH" = "%@
+Flash Storage";
+"SUBTITLE_TV" = "Remove movies and TV shows you can download again to free storage space.";
+"PINNED" = "Pinned Locally";
+"RECOMMENDATION_ENABLE_CLOUDKIT_MESSAGES_MESSAGE_ALT" = "All messages and attachments will be stored in iCloud and available on all your devices.";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_ICLOUD_DESKTOP_DOCUMENTS_TITLE" = "Do you want to optimize storage of files from iCloud?";
+"RECOMMENDATION_OPTIMIZE_ICLOUD_DESKTOP_DOCUMENTS_TITLE_ALT" = "Desktop and Documents";
+"DISC_OTHER" = "Optical Drive";
+"ERROR_PREFLIGHT_CANNOT_INGEST_TITLE" = "Your Documents and Desktop folders cannot be stored on iCloud Drive.";
+"RECOMMENDATION_UPGRADE_STORAGE_TITLE" = "iCloud Storage is almost full.";
+"EXT_DISK_SIZE_TYPE" = "External %@
+%@ Disk";
+"RECOMMENDATION_ENABLE_ICLOUD_DESKTOP_DOCUMENTS_MESSAGE_ALT" = "All files from your Desktop and Documents folders will be stored in iCloud Drive and available on all your devices.";
+"RECOMMENDATION_SIGN_IN_CONFIRM" = "Sign In";
+"ERROR_PREFLIGHT_MULTIPLE_MESSAGE" = "Multiple errors occurred while trying to turn on iCloud services. Try turning them on individually.";
+"SUBTITLE_APPLICATIONS" = "Remove applications you can download again from the App Store to free storage space.";
+"DISK_SYSTEM" = "macOS";
+"DISC_NOFORMATS" = "None";
+"RECOMMENDATION_ENABLE_ICLOUD_DESKTOP_DOCUMENTS_MESSAGE" = "Store all files in iCloud Drive and save space by keeping only recent files on this Mac when storage space is needed.";
+"RECOMMENDATION_CONFIRM_ENABLE_ICLOUD_DESKTOP_DOCUMENTS_MESSAGE" = "All files from your Desktop and Documents folders will be stored in iCloud Drive. When storage space is needed, only recently opened files will be kept on this Mac. You can download the originals at any time.
+
+You can modify these preferences later in System Settings.";
+"DISK_BACKUPS" = "Backups & Other";
+"DM_REMOVE_NOSIZE_1" = "The item will be deleted immediately. You can’t undo this action.";
+"ERROR_PREFLIGHT_CANNOT_ENABLE_TITLE_ICLOUD_DESKTOP_DOCUMENTS" = "iCloud Desktop and Documents could not be turned on.";
+"EXT_DISK_SIZE" = "External %@
+Disk";
+"DISK_ENCRYPTED" = "Encrypted Volume";
+"DISK_MOVIES" = "Movies";
+"RECOMMENDATION_CONFIRM_STORE_IN_ICLOUD_MESSAGE" = "Store all files, photos, and messages in iCloud and save space on this Mac automatically when it’s needed.";
+"RECOMMENDATION_AUTO_TRASH_TITLE" = "Empty Trash Automatically";
+"RECOMMENDATION_SIGN_IN_MESSAGE_ICLOUD_PHOTO_LIBRARY" = "You must be signed in to iCloud to store your photos and videos in iCloud Photo Library. Sign in to iCloud, then try again.";
+"DISC_COMMA" = ", ";
+"DISK_SIZE_TYPE_SSD" = "%@
+Solid State %@ Drive";
+"RECOMMENDATION_STORE_IN_ICLOUD_TITLE" = "Store in iCloud";
+"RECOMMENDATION_OPTIMIZE_STORAGE_MESSAGE" = "Save space by automatically removing Apple TV movies and TV shows that you’ve already watched and by keeping only recent email attachments on this Mac when storage space is needed.";
+"DISK_SIZE_SSD" = "%@
+Solid State Drive";
+"OperationTypeInstall" = "Not enough disk space to install “%@”";
+"DISK_OTHER" = "System Data";
+"DM_REMOVE_TITLE" = "{'num_items': {'one': 'Are you sure you want to delete “%2$@”?', 'other': 'Are you sure you want to delete the %1$ld selected items?', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%1$#@num_items@'}";
+"OperationTypeCopy_info" = "Additional %@ of disk space is required to copy this file. You can manage disk space by removing items from the Storage section of About This Mac.";
+"RECOMMENDATION_UPGRADE_STORAGE_MESSAGE_ICLOUD_DESKTOP_DOCUMENTS" = "You don’t have enough available iCloud storage to turn on iCloud Desktop and Documents. Upgrade your iCloud storage to continue.";
+"RECOMMENDATION_REDUCE_CLUTTER_ACTION" = "Review Files";
+"SUBTITLE_PODCASTS" = "Remove podcast episodes you can download again to free storage space.";
+"SUBTITLE_CLOUD_FILES" = "Remove cloud files waiting to be synced with the server to free storage space.";
+"RECOMMENDATION_CONFIRM_OPTIMIZE_ICLOUD_DESKTOP_DOCUMENTS_MESSAGE" = "All original files will be stored in iCloud Drive. When storage space is needed, only recently opened files will be kept on this Mac. You can download the originals at any time.
+
+You can modify this preference later in System Settings.";
+"DM_REMOVE_MESSAGE" = "{'num_items': {'one': 'The item will be deleted immediately, freeing %2$@ of storage. You can’t undo this action.', 'other': '%1$ld items will be deleted immediately, freeing %2$@ of storage. You can’t undo this action.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%1$#@num_items@'}";

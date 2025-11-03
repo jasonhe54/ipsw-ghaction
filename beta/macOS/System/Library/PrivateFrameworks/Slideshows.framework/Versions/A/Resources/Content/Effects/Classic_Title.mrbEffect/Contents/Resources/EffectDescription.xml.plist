@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>className</key>
+	<string>JustATitle</string>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>isOpaque</key>
+	<false/>
+	<key>mainDuration</key>
+	<string>2</string>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>numberOfTexts</key>
+	<string>1</string>
+	<key>phaseInDuration</key>
+	<real>0.5</real>
+	<key>phaseOutDuration</key>
+	<real>0.5</real>
+	<key>posterTime</key>
+	<integer>1</integer>
+	<key>presets</key>
+	<dict>
+		<key>ClassicSubtitle</key>
+		<dict>
+			<key>posterTime</key>
+			<real>1.5</real>
+			<key>text0MaxNumberOfLines</key>
+			<integer>1</integer>
+			<key>text0Rect</key>
+			<string>{{0, -0.81}, {2,.25}}</string>
+			<key>textSettings</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Arial-BoldMT</string>
+					<key>fontSize</key>
+					<integer>43</integer>
+					<key>kern</key>
+					<integer>-1</integer>
+					<key>maxFontSize</key>
+					<integer>72</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{3, -3}</string>
+					</dict>
+					<key>title</key>
+					<string>Title Text Here</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Default</key>
+		<dict>
+			<key>dissolve</key>
+			<false/>
+			<key>posterTime</key>
+			<real>1.5</real>
+			<key>text0MaxNumberOfLines</key>
+			<integer>3</integer>
+			<key>text0Rect</key>
+			<string>{{0, -0.35}, {2,.75}}</string>
+			<key>textSettings</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Arial-BoldMT</string>
+					<key>fontSize</key>
+					<integer>62</integer>
+					<key>kern</key>
+					<integer>-1</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{3, -3}</string>
+					</dict>
+					<key>title</key>
+					<string>Title Text Here</string>
+				</dict>
+			</array>
+		</dict>
+		<key>HyperGridTitle</key>
+		<dict>
+			<key>dissolve</key>
+			<false/>
+			<key>posterTime</key>
+			<real>1.5</real>
+			<key>text0MaxNumberOfLines</key>
+			<integer>2</integer>
+			<key>text0Rect</key>
+			<string>{{0, -0.75}, {2,.75}}</string>
+			<key>textSettings</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Arial-BoldMT</string>
+					<key>fontSize</key>
+					<integer>62</integer>
+					<key>kern</key>
+					<integer>-1</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{3, -3}</string>
+					</dict>
+					<key>title</key>
+					<string>Title Text Here</string>
+				</dict>
+			</array>
+		</dict>
+		<key>KenBurns</key>
+		<dict>
+			<key>dissolve</key>
+			<true/>
+			<key>posterTime</key>
+			<real>1.5</real>
+			<key>text0MaxNumberOfLines</key>
+			<integer>3</integer>
+			<key>text0Rect</key>
+			<string>{{0, -0.35}, {2,.75}}</string>
+			<key>textSettings</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Georgia</string>
+					<key>fontSize</key>
+					<integer>60</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{3, -3}</string>
+					</dict>
+					<key>title</key>
+					<string>Title Text Here</string>
+				</dict>
+			</array>
+		</dict>
+		<key>KenBurnsSubtitle</key>
+		<dict>
+			<key>dissolveInMain</key>
+			<true/>
+			<key>matchTransitionToPhase</key>
+			<true/>
+			<key>posterTime</key>
+			<real>1.5</real>
+			<key>text0MaxNumberOfLines</key>
+			<integer>1</integer>
+			<key>text0Rect</key>
+			<string>{{0, -0.81}, {2,.25}}</string>
+			<key>textSettings</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Georgia</string>
+					<key>fontSize</key>
+					<integer>43</integer>
+					<key>maxFontSize</key>
+					<integer>72</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{3, -3}</string>
+					</dict>
+					<key>title</key>
+					<string>Title Text Here</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

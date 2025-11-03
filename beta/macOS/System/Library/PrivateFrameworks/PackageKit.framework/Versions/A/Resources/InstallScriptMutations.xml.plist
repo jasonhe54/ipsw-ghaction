@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeleteScript</key>
+	<dict>
+		<key>Delete</key>
+		<true/>
+	</dict>
+	<key>LIPOARM64e</key>
+	<dict>
+		<key>ReplacementContent</key>
+		<string>#!/bin/sh
+
+echo "lipoarm64e was mutated by PackageKit and is no longer implemented."</string>
+	</dict>
+	<key>LinkPackage</key>
+	<dict>
+		<key>PostReplacementChanges</key>
+		<array>
+			<dict>
+				<key>PreMutationCaptureIndex</key>
+				<integer>0</integer>
+				<key>RegexMatch</key>
+				<string>^SHARED_SUPPORT_PATH\=.*$</string>
+			</dict>
+		</array>
+		<key>PreReplacementCaptures</key>
+		<array>
+			<string>^SHARED_SUPPORT_PATH\=.*$</string>
+		</array>
+		<key>ReplacementContent</key>
+		<string>#!/bin/bash
+
+SHARED_SUPPORT_PATH="${3}Applications/%%%IA_NAME%%%/Contents/SharedSupport"
+/bin/mkdir -m 755 -p "${SHARED_SUPPORT_PATH}"
+/bin/chmod 0755 "${SHARED_SUPPORT_PATH}"
+
+echo "Copying ${PACKAGE_PATH} into ${SHARED_SUPPORT_PATH}"
+/bin/cp -fc "${PACKAGE_PATH}" "${SHARED_SUPPORT_PATH}/InstallESD.dmg" ||
+/bin/cp -f "${PACKAGE_PATH}" "${SHARED_SUPPORT_PATH}/InstallESD.dmg"</string>
+	</dict>
+	<key>LinkPackage2</key>
+	<dict>
+		<key>PostReplacementChanges</key>
+		<array>
+			<dict>
+				<key>PreMutationCaptureIndex</key>
+				<integer>0</integer>
+				<key>RegexMatch</key>
+				<string>^SHARED_SUPPORT_PATH\=.*$</string>
+			</dict>
+		</array>
+		<key>PreReplacementCaptures</key>
+		<array>
+			<string>^SHARED_SUPPORT_PATH\=.*$</string>
+		</array>
+		<key>ReplacementContent</key>
+		<string>#!/bin/bash
+
+#
+# Note that this designed to be a component script for "Install Mac OS X.app",
+# so $2 contains the actual (possibly relocated) install path for IA. Actually
+# overwriting another copy of IA doesn't seem like a Real User Scenario (much
+# less having that existing copy relocated), but we should still aim to do the
+# right thing.
+#
+IA_PATH="$2"
+
+#
+# Work around &lt;rdar://problem/8966177&gt;, which causes the prefix path (install-location)
+# to be prepended twice to $2. (An alternate workaround is to put "./Applications"
+# into the payload instead of into the install-location. This is still allowed by iTS,
+# and avoids having the double appending of the prefix path invalidate anything.)
+#
+if [ ! -e "$IA_PATH" ]; then
+    IA_PATH="${IA_PATH/\/Applications/}"
+    if [ ! -e "$IA_PATH" ]; then
+        echo "Cannot find app from \"$2\""
+        exit 1
+    fi
+fi
+
+SHARED_SUPPORT_PATH="$IA_PATH/Contents/SharedSupport"
+/bin/mkdir -m 755 -p "${SHARED_SUPPORT_PATH}"
+/bin/chmod 0755 "${SHARED_SUPPORT_PATH}"
+
+echo "Copying ${PACKAGE_PATH} into ${SHARED_SUPPORT_PATH}"
+/bin/cp -fc "${PACKAGE_PATH}" "${SHARED_SUPPORT_PATH}/InstallESD.dmg" ||
+/bin/cp -f "${PACKAGE_PATH}" "${SHARED_SUPPORT_PATH}/InstallESD.dmg"</string>
+	</dict>
+	<key>LinkSharedSupport</key>
+	<dict>
+		<key>PostReplacementChanges</key>
+		<array>
+			<dict>
+				<key>PreMutationCaptureIndex</key>
+				<integer>0</integer>
+				<key>RegexMatch</key>
+				<string>^SHARED_SUPPORT_PATH\=.*$</string>
+			</dict>
+		</array>
+		<key>PreReplacementCaptures</key>
+		<array>
+			<string>^SHARED_SUPPORT_PATH\=.*$</string>
+		</array>
+		<key>ReplacementContent</key>
+		<string>#!/bin/bash
+
+SHARED_SUPPORT_PATH="${3}Applications/%%%IA_NAME%%%/Contents/SharedSupport"
+/bin/mkdir -m 755 -p "${SHARED_SUPPORT_PATH}"
+
+echo "Copying ${PACKAGE_PATH} into ${SHARED_SUPPORT_PATH}"
+/bin/cp -fc "${PACKAGE_PATH}" "${SHARED_SUPPORT_PATH}/SharedSupport.dmg" ||
+/bin/cp -f "${PACKAGE_PATH}" "${SHARED_SUPPORT_PATH}/SharedSupport.dmg"</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classes</key>
+	<dict>
+		<key>MXMetricPayload</key>
+		<dict>
+			<key>instanceMethods</key>
+			<dict>
+				<key>includesMultipleApplicationVersions</key>
+				<dict>
+					<key>retval</key>
+					<dict>
+						<key>type</key>
+						<string>B</string>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>exportedDylibs</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/SignpostMetrics.framework/Versions/A/SignpostMetrics</string>
+	</array>
+	<key>loadPath</key>
+	<string>/System/Library/Frameworks/MetricKit.framework/MetricKit</string>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>#IfVariant</key>
+		<string>HasInternalContent</string>
+		<key>#Then</key>
+		<dict>
+			<key>OBJC_DEBUG_DUPLICATE_CLASSES</key>
+			<string>FATAL</string>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.remotecompositorclientd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.CompositorServices.CLI</key>
+		<true/>
+		<key>com.apple.CompositorServices.RemoteClient</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/remotecompositorclientd</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>NO</string>
+		<key>_isOutlineColumn</key>
+		<string>NO</string>
+		<key>_order</key>
+		<string>0</string>
+	</dict>
+	<key>spcamera</key>
+	<dict>
+		<key>_order</key>
+		<string>10</string>
+	</dict>
+	<key>spcamera_model-id</key>
+	<dict>
+		<key>_order</key>
+		<string>30</string>
+	</dict>
+	<key>spcamera_unique-id</key>
+	<dict>
+		<key>_order</key>
+		<string>40</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,49 @@
+"LegacySharePlaylistsLabel" = "Selected playlists";
+"HomeSharingAuthorizationFailedExtraText" = "To turn on Home Sharing, first deauthorize one of your other devices.
+
+Then on this computer, open Music or TV app and select Account > Authorizations > Authorize This Computer.";
+"ErrorStatus" = "Error";
+"HomeSharingLoginOK" = "Turn On Home Sharing";
+"HomeSharingConfirmationExplanation" = "Use the same Apple Account “%@” when turning on Home Sharing for your other computers and devices.";
+"OnStatus" = "On";
+"AppleIDLabel" = "Apple Account: ";
+"OKButton" = "OK";
+"LegacySharingLabel" = "Share media with guests";
+"ServiceLevelExplanation" = "Media Sharing is selected, but Home Sharing and guest sharing are off.";
+"HomeSharingAuthorizationFailedExtraTextChina" = "To turn on Home Sharing, first deauthorize one of your other devices.
+
+Then on this computer, open Music or Videos app and select Account > Authorizations > Authorize This Computer.";
+"ServiceLevelExtraText" = "A sharing service must be activated to enable Media Sharing.";
+"LegacyShareAllLabel" = "All songs, movies, and TV shows";
+"MachineAuthorizationHelpURL" = "https://support.apple.com/en-us/HT201251";
+"ChooseButton" = "Choose…";
+"HomeSharingExplanation" = "Use your library across all devices signed into an Apple Account.";
+"HomeSharingOperationIncompleteExplanation" = "The network operation could not be completed.
+
+Please check your network connection and try again.";
+"HomeSharingLoginExplanation" = "Home Sharing makes it easy to play or copy music, movies, and more among computers in your home. Just use the same Apple Account on up to five computers.";
+"LegacySharingExplanation" = "Devices on your network can browse and play downloaded music, movies, and TV shows.";
+"SharePhotosWithTV" = "Share photos with Apple TV";
+"HomeSharingLoginMessage" = "Enter the Apple Account used to create your Home Share.";
+"CancelButton" = "Cancel";
+"HomeSharingCouldNotBeTurnedOn" = "Home Sharing could not be turned on.";
+"HomeSharingLoginCancel" = "Cancel";
+"ServiceLevelTitle" = "Select a sharing service to continue.";
+"HomeSharingUpdatesPlayCounts" = "Devices update play counts";
+"OptionsButton" = "Options…";
+"HomeSharingConfirmationExtraText" = "Home Sharing is for personal use.";
+"HomeSharingConfirmation" = "Home Sharing is now on.";
+"MediaSharingStatusLabel" = "Media Sharing:";
+"LoadingStatus" = "Loading";
+"connected_guest_count" = "{'guestCount': {'one': '(%d connected)', 'zero': '(%d connected)', 'other': '(%d connected)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@guestCount@'}";
+"RequirePasswordLabel" = "Require Password";
+"HomeSharing" = "Home Sharing";
+"HomeSharingLoginTitle" = "Home Sharing";
+"HomeSharingAuthorizationFailedExplanation" = "Your Apple Account “%@” is associated with the maximum number of authorized devices.";
+"HomeSharingNoInternetExplanation" = "The internet connection appears to be offline.
+
+Please check your network connection and try again.";
+"CreateAppleID" = "Create New Apple Account";
+"OffStatus" = "Off";
+"WarningStatus" = "Warning";
+"LibraryNameLabel" = "Library Name:";

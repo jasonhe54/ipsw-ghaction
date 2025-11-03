@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.appplaceholdersyncd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>devices-changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.replicatord.devicesChanged</string>
+			</dict>
+			<key>eligibility-changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.os-eligibility-domain.change.iron</string>
+			</dict>
+			<key>enabled-devices-changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.sharing.authentication.enabled-devices-changed</string>
+			</dict>
+			<key>messages-received</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.appplaceholdersyncd.replicatorclient.message</string>
+			</dict>
+			<key>records-received</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.appplaceholdersyncd.replicatorclient.record</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.appplaceholdersync</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/appplaceholdersyncd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

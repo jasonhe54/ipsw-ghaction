@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>77</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004D</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>Cyrus Administrator</string>
+	<key>homeDirectory</key>
+	<string>/var/imap</string>
+	<key>memberships</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001D</string>
+	</array>
+	<key>name</key>
+	<string>_cyrus</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000006</string>
+	<key>shell</key>
+	<string>/usr/bin/false</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

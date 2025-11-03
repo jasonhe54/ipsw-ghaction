@@ -1,0 +1,9 @@
+"AMName" = "Combine PDF Pages";
+"AMDSummary" = "This action will combine pages from the passed PDF documents into one single PDF document.";
+"AMDResult" = "A reference to the newly created PDF document.";
+"CFBundleName" = "Combine PDF Pages";
+"NSHumanReadableCopyright" = "Copyright © 2005–2009 Apple Inc. All rights reserved.";
+"PDF" = "PDF";
+"Combine" = "Combine";
+"Shuffle" = "Shuffle";
+"AMDOptions" = "Combine documents by appending or shuffling pages. The shuffle method will add one page from each of the passed documents to the new document, then proceed to take the next page from each passed document, until all pages in the passed documents have been added to the new document.";

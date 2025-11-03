@@ -1,0 +1,14 @@
+"strDetail_Email" = "Email";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Exchange Web Services Account', 'other': 'Exchange Web Services Accounts (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"strDetail_Username" = "Username";
+"str_EWS_Field_Email" = "Email Address:";
+"str_EWS_Field_Password" = "Password:";
+"str_EWS_Field_Host" = "Host:";
+"str_EWS_Field_ExternalHost" = "External Host:";
+"strDetail_Host" = "Host";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Exchange Web Services Account', 'other': '%lu Exchange Web Services Accounts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_EWS_Header" = "Enter settings for the Exchange Web Services account “%@”:";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Exchange Web Services Account', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_EWS_Field_Username" = "Username:";
+"str_EWS_HeaderWithHost" = "Enter settings for the Exchange Web Services account “%@” on %@:";

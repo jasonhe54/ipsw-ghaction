@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clientIDs</key>
+	<array>
+		<string>com.apple.chronod</string>
+		<string>com.apple.liveactivitiesd.replicatorParticipant</string>
+		<string>com.apple.placeholdersyncservicesd.client</string>
+		<string>com.apple.replicatorctl</string>
+		<string>com.apple.usernotificationsd</string>
+		<string>com.apple.duetexpertd</string>
+		<string>com.apple.relevanced</string>
+	</array>
+</dict>
+</plist>

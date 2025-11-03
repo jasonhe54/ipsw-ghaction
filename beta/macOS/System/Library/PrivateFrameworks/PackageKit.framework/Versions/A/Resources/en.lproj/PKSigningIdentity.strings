@@ -1,0 +1,4 @@
+"NEED_INSTALLER_IDENTITY" = "An installer signing identity (not an application signing identity) is required for signing flat-style products.";
+"NO_IDENTITY_MATCH_IN_KEYCHAIN" = "Could not find appropriate signing identity for “%@” in keychain at “%@”.";
+"NEED_APPLICATION_IDENTITY" = "An application signing identity (not an installer signing identity) is required for signing bundle-style products.";
+"NO_IDENTITY_MATCH" = "Could not find appropriate signing identity for “%@”.";

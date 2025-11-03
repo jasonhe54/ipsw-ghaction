@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>spatial playback</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/CFG19230/AU</string>
+			<key>Multi Channel - Built-in Speaker</key>
+			<dict>
+				<key>AUPresetOverrides</key>
+				<array>
+					<dict>
+						<key>BoxName</key>
+						<string>Spatializer</string>
+						<key>FileName</key>
+						<string>cfg19230-aumx-3dem-appl.aupreset</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Stereo - Built-in Speaker</key>
+			<dict>
+				<key>AUPresetOverrides</key>
+				<array>
+					<dict>
+						<key>BoxName</key>
+						<string>Spatializer</string>
+						<key>FileName</key>
+						<string>cfg19230-aumx-3dem-appl.aupreset</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+"Cocoa.XPCConnectionInterrupted.title" = "The operation can’t be completed because an unexpected error occurred.";
+"URL.UnsupportedURL.title" = "The operation can’t be completed because this URL is not supported.";
+"POSIX.EAUTH.title" = "You entered an invalid username or password for the server.";
+"POSIX.EBADF.title" = "The operation can’t be completed because an unexpected error occurred.";
+"FileProvider.ProviderNotFound.title" = "The file provider supporting this action is not available anymore";
+"POSIX.ENOTCONN.title" = "There was a problem connecting to the server.";
+"URL.BadURL.title" = "The operation can’t be completed because this URL is not valid.";
+"POSIX.ENOTCONN.recovery" = "Check the server name or IP address, and then try again. If you continue to have problems, contact your system administrator.";

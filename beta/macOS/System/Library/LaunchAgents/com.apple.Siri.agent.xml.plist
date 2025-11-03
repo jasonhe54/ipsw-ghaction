@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.Siri.agent</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.Siri.running</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.siri.activation</key>
+		<true/>
+		<key>com.apple.siri.invoke</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri</string>
+		<string>launchd</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

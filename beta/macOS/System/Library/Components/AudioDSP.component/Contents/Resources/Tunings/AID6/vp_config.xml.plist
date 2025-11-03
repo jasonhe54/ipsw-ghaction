@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allow_spatialization_in_headset_routes</key>
+	<integer>0</integer>
+	<key>allow_spatialization_in_speaker_routes</key>
+	<integer>0</integer>
+	<key>num_physical_mic_channels</key>
+	<integer>0</integer>
+	<key>vp_version</key>
+	<integer>6</integer>
+</dict>
+</plist>

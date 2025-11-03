@@ -1,0 +1,71 @@
+"str_CDXManager_Error_2" = "Internal exception caught.";
+"str_ErrorDesc_NoSearchNode" = "The server “%@” does not have Directory Searching enabled. Contact the server administrator.";
+"str_ErrorTitle_HTTPErrorForURL" = "Server Error";
+"str_CDXManager_Error_3" = "Account information is incomplete (host, user or password missing)";
+"str_BadCert_Msg_Untrusted" = "The certificate for this server is invalid. You might be connecting to a server that is pretending to be “%@” which could put your confidential information at risk. Would you like to connect to the server anyway?";
+"str_CDXManager_Error_4" = "Server HTTP error %@.";
+"str_CDXManager_Error_5" = "Unable to determine location of user’s address book home on server.";
+"str_ErrorTitle_AuthFailed" = "Authentication Failure";
+"str_ErrorDesc_BadServerReply" = "The %@ returned data in an unexpected format.
+
+URL: %@
+
+%@";
+"str_ErrorTitle_BadServerReply" = "Bad Server Reply";
+"str_GoOnlineMenuItem" = "Go Online";
+"str_CDXManager_Error_7" = "Some server contacts could not be copied to this address book.";
+"str_CDXManager_Error_6" = "Some contacts could not be copied to the server.";
+"str_SABPopup_NotQueried" = "Server Not Queried";
+"str_CDXManager_Error_8" = "There is already an account for this user.";
+"str_ErrorDesc_ConfigChangeWarning" = "Changing the account configuration will cause all modifications to contacts that have not yet been synced with the server to be lost. Do you wish to proceed anyway?";
+"str_UserNameFieldFormatString" = "%@:";
+"str_ConfigChange_Cancel" = "Cancel";
+"str_MainSharedAddressBookName" = "%@ – shared";
+"str_SABError_NoneAvailable" = "No Shared Address Books are available to the user “%@”.";
+"str_ErrorTitle_CantFindHost" = "Server Not Found";
+"str_MainMultiAccountSharedAddressBookName" = "%@@%@ – shared";
+"str_AltAddressBookName" = "%@ – %@";
+"str_SABPopup_NoneAvailable" = "None Available";
+"str_MainMultiAccountAddressBookName" = "%@@%@";
+"str_BadCert_Msg_BadDate" = "The certificate for this server has expired. You might be connecting to a server that is pretending to be “%@” which could put your confidential information at risk. Would you like to connect to the server anyway?";
+"str_BadCert_Cancel" = "Cancel";
+"str_MainAddressBookName" = "%@";
+"str_ErrorDesc_CantConnectToHost" = "Could not connect to the server “%@”. Verify the account settings in Contacts preferences.";
+"str_SyncAllMenuItem" = "Refresh “%@” address books";
+"str_SABError_NoMoreAvailable" = "No more Shared Address Books are available to the user “%@”.";
+"str_CancelSyncMenuItem" = "Cancel Refresh";
+"str_ErrorTitle_ServerNotResponding" = "Server Not Responding";
+"str_ErrorDesc_AuthFailed" = "The user “%@” or password is invalid for the server “%@”. Verify the account settings in Contacts preferences.";
+"str_CardDAVServerName" = "CardDAV server";
+"str_CardDAVProductName" = "CardDAV";
+"str_ErrorTitle_ConfigChangeWarning" = "Account Configuration Change";
+"str_BadCert_Msg_UnknownRoot" = "The certificate for this server was signed by an unknown certifying authority. You might be connecting to a server that is pretending to be “%@” which could put your confidential information at risk. Would you like to connect to the server anyway?";
+"str_ErrorTitle_CantConnectToHost" = "Connection Error";
+"str_SABError_NoLongerAvailable" = "The Shared Address Book “%@” is no longer available to the user “%@”.";
+"str_ErrorDesc_HTTPErrorForURL" = "The %@ returned an error (%@) for the user “%@”.
+
+URL: %@";
+"str_BadCert_Continue" = "Continue";
+"str_ConfigChange_Proceed" = "Proceed";
+"str_BadCert_Msg_NotYetValid" = "The certificate for this server is not yet valid. You might be connecting to a server that is pretending to be “%@” which could put your confidential information at risk. Would you like to connect to the server anyway?";
+"str_ErrorDesc_ServerNotResponding" = "A request to the server “%@” timed out. Verify the account settings in Contacts preferences or contact the server administrator.";
+"str_AppleProductName" = "Mac OS X Server";
+"str_SABErrorTitle_Config" = "Shared Address Book configuration error";
+"str_ErrorDesc_PermissionDeniedForURL" = "The %@ denied access for the user “%@”. Verify the account settings in Contacts preferences.
+
+URL: %@";
+"str_ErrorDesc_InsufficientStorage" = "The %@ reported insufficient storage for the user “%@”. Contact the server administrator to increase usage quotas.
+
+URL: %@";
+"str_AppleCardDAVServerName" = "Address Book Server";
+"str_BadCert_Title" = "Contacts can’t verify the identity of the server “%@”.";
+"str_ErrorDesc_CantFindHost" = "The server “%@” could not be found on the network. Verify the account settings in Contacts preferences.";
+"str_SyncNowMenuItem" = "Refresh “%@”";
+"str_GoOfflineMenuItem" = "Go Offline";
+"str_AltSharedAddressBookName" = "%@ – %@ – shared";
+"str_Tooltip_OfflineStatus" = "The account “%@” is offline and will not refresh. Click this icon to change to “online” status.";
+"str_ErrorTitle_InsufficientStorage" = "Insufficient Storage";
+"str_AppleServerName" = "Mac OS X Server";
+"str_ErrorTitle_NoSearchNode" = "Directory Searching not enabled";
+"str_CDXManager_Error_1" = "Authentication failure.";
+"str_ErrorTitle_PermissionDeniedForURL" = "Permission Denied";

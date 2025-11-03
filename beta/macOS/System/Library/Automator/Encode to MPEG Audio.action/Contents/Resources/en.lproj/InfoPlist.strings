@@ -1,0 +1,11 @@
+"AMName" = "Encode to MPEG Audio";
+"AMDResult" = "";
+"AMDSummary" = "This action will compress the audio files passed from the previous action to MPEG (AAC) format.";
+"AMDWebsite" = "http://www.macosxautomation.com";
+"AMDRequires" = "Supported input data types are: AIFF (.aif), CAFF (.caf), and WAVE (.wav)";
+"AMDInput" = "";
+"AMDNote" = "";
+"CFBundleGetInfoString" = "1.1, Copyright © 2010 Apple Inc., All Rights Reserved";
+"AMDAlert" = "";
+"AMDOptions" = "Options are available for placing the resulting files in the same directory as their original source files, and for deleting the source files upon completion of the encoding.";
+"NSHumanReadableCopyright" = "Copyright © 2010 Apple Inc., All Rights Reserved.";

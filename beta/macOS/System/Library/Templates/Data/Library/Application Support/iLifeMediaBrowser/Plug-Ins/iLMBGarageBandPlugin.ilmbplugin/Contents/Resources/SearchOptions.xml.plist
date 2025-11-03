@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioSearch</key>
+	<array>
+		<dict>
+			<key>LocalizedName</key>
+			<string>AllSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Name</string>
+				<string>Artist</string>
+				<string>Album</string>
+				<string>Genre</string>
+			</array>
+		</dict>
+		<dict>
+			<key>LocalizedName</key>
+			<string>ArtistSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>LocalizedName</key>
+			<string>AlbumSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>LocalizedName</key>
+			<string>NameSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Name</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+"message.title.formatter.screencapture" = "“%@” would like to record this computer’s screen and audio.";
+"message.title.formatter.listenevents" = "“%@” would like to receive keystrokes from any application.";
+"unknown.application" = "Application";
+"message.title.formatter.events" = "“%@” would like to control this computer using accessibility features.";
+"window.title.accessibility" = "Accessibility Access";
+"message.title.formatter.unexpected" = "Interal Error: “%@” is asking for an unsuppored access type!";
+"message.details.standard" = "Grant access to this application in Privacy & Security settings, located in System Settings.";
+"window.title.unexpected" = "Internal Error: unsuppored access type!";
+"message.details.remotedesktop" = "This will allow anyone using this app to view or control your computer. Only allow access if you trust the person who may be viewing or controlling your computer with this app. You can control access in Privacy & Security settings.";
+"window.title.screencapture" = "Screen Recording";
+"window.title.remotedesktop" = "Remote Desktop";
+"message.title.formatter.accessibility" = "“%@” would like to control this computer using accessibility features.";
+"unknown.path" = "(unknown)";
+"window.title.listenevents" = "Keystroke Receiving";
+"message.title.formatter.remotedesktop" = "“%@” would like to allow for this computer to be controlled remotely";
+"window.title.events" = "Accessibility Access (Events)";

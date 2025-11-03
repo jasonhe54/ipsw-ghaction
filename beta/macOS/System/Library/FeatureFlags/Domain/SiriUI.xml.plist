@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compact_siri</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>jit_enablement_window</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>sae</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+		<key>DisclosureRequired</key>
+		<string>12af3371-cf1a-fbb5-24f0-a31e288e9093</string>
+	</dict>
+	<key>sae_use_container</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>tts_service</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

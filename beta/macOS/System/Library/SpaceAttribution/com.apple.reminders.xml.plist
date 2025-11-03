@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPACE_ATTRIBUTION_OWNER</key>
+	<string>com.apple.reminders</string>
+	<key>SPACE_ATTRIBUTION_PATHS</key>
+	<array>
+		<string>~/Library/Reminders</string>
+		<string>~/Library/Caches/com.apple.remindd</string>
+		<string>~/Library/Logs/CrashReporter/Reminders</string>
+		<string>~/Library/HTTPStorages/com.apple.remindd</string>
+	</array>
+	<key>SPACE_ATTRIBUTION_SHARED</key>
+	<array/>
+	<key>SPACE_ATTRIBUTION_WRITERS</key>
+	<array>
+		<string>com.apple.remindd</string>
+	</array>
+</dict>
+</plist>

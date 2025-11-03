@@ -1,0 +1,3394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CVCategoryData</key>
+	<dict>
+		<key>Columns</key>
+		<integer>16</integer>
+		<key>DataArray</key>
+		<array>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Basic Latin</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x0-0x7F</string>
+				<key>Unicode</key>
+				<string>00000000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin-1 Supplement</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x80-0xFF</string>
+				<key>Unicode</key>
+				<string>00000080</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-A</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x100-0x17F</string>
+				<key>Unicode</key>
+				<string>00000100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-B</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x180-0x24F</string>
+				<key>Unicode</key>
+				<string>00000180</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>IPA Extensions</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x250-0x2AF</string>
+				<key>Unicode</key>
+				<string>00000250</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Spacing Modifier Letters</string>
+				<key>Category</key>
+				<string>Modifier Letters</string>
+				<key>Data</key>
+				<string>0x2B0-0x2FF</string>
+				<key>Unicode</key>
+				<string>000002B0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Combining Diacritical Marks</string>
+				<key>Category</key>
+				<string>Combining Marks</string>
+				<key>Data</key>
+				<string>0x300-0x36F</string>
+				<key>Unicode</key>
+				<string>00000300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Greek and Coptic</string>
+				<key>Category</key>
+				<string>Greek</string>
+				<key>Data</key>
+				<string>0x370-0x3FF</string>
+				<key>Unicode</key>
+				<string>00000370</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cyrillic</string>
+				<key>Category</key>
+				<string>Cyrillic</string>
+				<key>Data</key>
+				<string>0x400-0x4FF</string>
+				<key>Unicode</key>
+				<string>00000400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cyrillic Supplement</string>
+				<key>Category</key>
+				<string>Cyrillic</string>
+				<key>Data</key>
+				<string>0x500-0x52F</string>
+				<key>Unicode</key>
+				<string>00000500</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Armenian</string>
+				<key>Category</key>
+				<string>Armenian</string>
+				<key>Data</key>
+				<string>0x530-0x58F</string>
+				<key>Unicode</key>
+				<string>00000530</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hebrew</string>
+				<key>Category</key>
+				<string>Hebrew</string>
+				<key>Data</key>
+				<string>0x590-0x5FF</string>
+				<key>Unicode</key>
+				<string>00000590</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0x600-0x6FF</string>
+				<key>Unicode</key>
+				<string>00000600</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Syriac</string>
+				<key>Category</key>
+				<string>Syriac</string>
+				<key>Data</key>
+				<string>0x700-0x74F</string>
+				<key>Unicode</key>
+				<string>00000700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Supplement</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0x750-0x77F</string>
+				<key>Unicode</key>
+				<string>00000750</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Thaana</string>
+				<key>Category</key>
+				<string>Thaana</string>
+				<key>Data</key>
+				<string>0x780-0x7BF</string>
+				<key>Unicode</key>
+				<string>00000780</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>N'Ko</string>
+				<key>Category</key>
+				<string>N'Ko</string>
+				<key>Data</key>
+				<string>0x7C0-0x7FF</string>
+				<key>Unicode</key>
+				<string>000007C0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Samaritan</string>
+				<key>Category</key>
+				<string>Samaritan</string>
+				<key>Data</key>
+				<string>0x800-0x83F</string>
+				<key>Unicode</key>
+				<string>00000800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mandaic</string>
+				<key>Category</key>
+				<string>Mandaic</string>
+				<key>Data</key>
+				<string>0x840-0x85F</string>
+				<key>Unicode</key>
+				<string>00000840</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Syriac Supplement</string>
+				<key>Category</key>
+				<string>Syriac</string>
+				<key>Data</key>
+				<string>0x860-0x86F</string>
+				<key>Unicode</key>
+				<string>00000860</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Extended-B</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0x870-0x89F</string>
+				<key>Unicode</key>
+				<string>00000870</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Extended-A</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0x8A0-0x8FF</string>
+				<key>Unicode</key>
+				<string>000008A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Devanagari</string>
+				<key>Category</key>
+				<string>Devanagari</string>
+				<key>Data</key>
+				<string>0x900-0x97F</string>
+				<key>Unicode</key>
+				<string>00000900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bengali</string>
+				<key>Category</key>
+				<string>Bengali and Assamese</string>
+				<key>Data</key>
+				<string>0x980-0x9FF</string>
+				<key>Unicode</key>
+				<string>00000980</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Gurmukhi</string>
+				<key>Category</key>
+				<string>Gurmukhi</string>
+				<key>Data</key>
+				<string>0xA00-0xA7F</string>
+				<key>Unicode</key>
+				<string>00000A00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Gujarati</string>
+				<key>Category</key>
+				<string>Gujarati</string>
+				<key>Data</key>
+				<string>0xA80-0xAFF</string>
+				<key>Unicode</key>
+				<string>00000A80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Oriya</string>
+				<key>Category</key>
+				<string>Oriya</string>
+				<key>Data</key>
+				<string>0xB00-0xB7F</string>
+				<key>Unicode</key>
+				<string>00000B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tamil</string>
+				<key>Category</key>
+				<string>Tamil</string>
+				<key>Data</key>
+				<string>0xB80-0xBFF</string>
+				<key>Unicode</key>
+				<string>00000B80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Telugu</string>
+				<key>Category</key>
+				<string>Telugu</string>
+				<key>Data</key>
+				<string>0xC00-0xC7F</string>
+				<key>Unicode</key>
+				<string>00000C00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kannada</string>
+				<key>Category</key>
+				<string>Kannada</string>
+				<key>Data</key>
+				<string>0xC80-0xCFF</string>
+				<key>Unicode</key>
+				<string>00000C80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Malayalam</string>
+				<key>Category</key>
+				<string>Malayalam</string>
+				<key>Data</key>
+				<string>0xD00-0xD7F</string>
+				<key>Unicode</key>
+				<string>00000D00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sinhala</string>
+				<key>Category</key>
+				<string>Sinhala</string>
+				<key>Data</key>
+				<string>0xD80-0xDFF</string>
+				<key>Unicode</key>
+				<string>00000D80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Thai</string>
+				<key>Category</key>
+				<string>Thai</string>
+				<key>Data</key>
+				<string>0xE00-0xE7F</string>
+				<key>Unicode</key>
+				<string>00000E00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Lao</string>
+				<key>Category</key>
+				<string>Lao</string>
+				<key>Data</key>
+				<string>0xE80-0xEFF</string>
+				<key>Unicode</key>
+				<string>00000E80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tibetan</string>
+				<key>Category</key>
+				<string>Tibetan</string>
+				<key>Data</key>
+				<string>0xF00-0xFFF</string>
+				<key>Unicode</key>
+				<string>00000F00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Myanmar</string>
+				<key>Category</key>
+				<string>Myanmar</string>
+				<key>Data</key>
+				<string>0x1000-0x109F</string>
+				<key>Unicode</key>
+				<string>00001000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Georgian</string>
+				<key>Category</key>
+				<string>Georgian</string>
+				<key>Data</key>
+				<string>0x10A0-0x10FF</string>
+				<key>Unicode</key>
+				<string>000010A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hangul Jamo</string>
+				<key>Category</key>
+				<string>Hangul</string>
+				<key>Data</key>
+				<string>0x1100-0x11FF</string>
+				<key>Unicode</key>
+				<string>00001100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ethiopic</string>
+				<key>Category</key>
+				<string>Ethiopic</string>
+				<key>Data</key>
+				<string>0x1200-0x137F</string>
+				<key>Unicode</key>
+				<string>00001200</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ethiopic Supplement</string>
+				<key>Category</key>
+				<string>Ethiopic</string>
+				<key>Data</key>
+				<string>0x1380-0x139F</string>
+				<key>Unicode</key>
+				<string>00001380</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cherokee</string>
+				<key>Category</key>
+				<string>Cherokee</string>
+				<key>Data</key>
+				<string>0x13A0-0x13FF</string>
+				<key>Unicode</key>
+				<string>000013A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Unified Canadian Aboriginal Syllabics</string>
+				<key>Category</key>
+				<string>Canadian Aboriginal Syllabics</string>
+				<key>Data</key>
+				<string>0x1400-0x167F</string>
+				<key>Unicode</key>
+				<string>00001400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ogham</string>
+				<key>Category</key>
+				<string>Ogham</string>
+				<key>Data</key>
+				<string>0x1680-0x169F</string>
+				<key>Unicode</key>
+				<string>00001680</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Runic</string>
+				<key>Category</key>
+				<string>Runic</string>
+				<key>Data</key>
+				<string>0x16A0-0x16FF</string>
+				<key>Unicode</key>
+				<string>000016A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tagalog</string>
+				<key>Category</key>
+				<string>Philippine Scripts</string>
+				<key>Data</key>
+				<string>0x1700-0x171F</string>
+				<key>Unicode</key>
+				<string>00001700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hanunoo</string>
+				<key>Category</key>
+				<string>Philippine Scripts</string>
+				<key>Data</key>
+				<string>0x1720-0x173F</string>
+				<key>Unicode</key>
+				<string>00001720</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Buhid</string>
+				<key>Category</key>
+				<string>Philippine Scripts</string>
+				<key>Data</key>
+				<string>0x1740-0x175F</string>
+				<key>Unicode</key>
+				<string>00001740</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tagbanwa</string>
+				<key>Category</key>
+				<string>Philippine Scripts</string>
+				<key>Data</key>
+				<string>0x1760-0x177F</string>
+				<key>Unicode</key>
+				<string>00001760</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Khmer</string>
+				<key>Category</key>
+				<string>Khmer</string>
+				<key>Data</key>
+				<string>0x1780-0x17FF</string>
+				<key>Unicode</key>
+				<string>00001780</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mongolian</string>
+				<key>Category</key>
+				<string>Mongolian</string>
+				<key>Data</key>
+				<string>0x1800-0x18AF</string>
+				<key>Unicode</key>
+				<string>00001800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Unified Canadian Aboriginal Syllabics Extended</string>
+				<key>Category</key>
+				<string>Canadian Aboriginal Syllabics</string>
+				<key>Data</key>
+				<string>0x18B0-0x18FF</string>
+				<key>Unicode</key>
+				<string>000018B0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Limbu</string>
+				<key>Category</key>
+				<string>Limbu</string>
+				<key>Data</key>
+				<string>0x1900-0x194F</string>
+				<key>Unicode</key>
+				<string>00001900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tai Le</string>
+				<key>Category</key>
+				<string>Tai Le</string>
+				<key>Data</key>
+				<string>0x1950-0x197F</string>
+				<key>Unicode</key>
+				<string>00001950</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>New Tai Lue</string>
+				<key>Category</key>
+				<string>New Tai Lue</string>
+				<key>Data</key>
+				<string>0x1980-0x19DF</string>
+				<key>Unicode</key>
+				<string>00001980</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Khmer Symbols</string>
+				<key>Category</key>
+				<string>Khmer</string>
+				<key>Data</key>
+				<string>0x19E0-0x19FF</string>
+				<key>Unicode</key>
+				<string>000019E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Buginese</string>
+				<key>Category</key>
+				<string>Buginese</string>
+				<key>Data</key>
+				<string>0x1A00-0x1A1F</string>
+				<key>Unicode</key>
+				<string>00001A00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tai Tham</string>
+				<key>Category</key>
+				<string>Tai Tham</string>
+				<key>Data</key>
+				<string>0x1A20-0x1AAF</string>
+				<key>Unicode</key>
+				<string>00001A20</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Combining Diacritical Marks Extended</string>
+				<key>Category</key>
+				<string>Combining Marks</string>
+				<key>Data</key>
+				<string>0x1AB0-0x1AFF</string>
+				<key>Unicode</key>
+				<string>00001AB0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Balinese</string>
+				<key>Category</key>
+				<string>Balinese</string>
+				<key>Data</key>
+				<string>0x1B00-0x1B7F</string>
+				<key>Unicode</key>
+				<string>00001B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sundanese</string>
+				<key>Category</key>
+				<string>Sundanese</string>
+				<key>Data</key>
+				<string>0x1B80-0x1BBF</string>
+				<key>Unicode</key>
+				<string>00001B80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Batak</string>
+				<key>Category</key>
+				<string>Batak</string>
+				<key>Data</key>
+				<string>0x1BC0-0x1BFF</string>
+				<key>Unicode</key>
+				<string>00001BC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Lepcha</string>
+				<key>Category</key>
+				<string>Lepcha</string>
+				<key>Data</key>
+				<string>0x1C00-0x1C4F</string>
+				<key>Unicode</key>
+				<string>00001C00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ol Chiki</string>
+				<key>Category</key>
+				<string>Ol Chiki</string>
+				<key>Data</key>
+				<string>0x1C50-0x1C7F</string>
+				<key>Unicode</key>
+				<string>00001C50</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cyrillic Extended-C</string>
+				<key>Category</key>
+				<string>Cyrillic</string>
+				<key>Data</key>
+				<string>0x1C80-0x1C8F</string>
+				<key>Unicode</key>
+				<string>00001C80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Georgian Extended</string>
+				<key>Category</key>
+				<string>Georgian</string>
+				<key>Data</key>
+				<string>0x1C90-0x1CBF</string>
+				<key>Unicode</key>
+				<string>00001C90</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sundanese Supplement</string>
+				<key>Category</key>
+				<string>Sundanese</string>
+				<key>Data</key>
+				<string>0x1CC0-0x1CCF</string>
+				<key>Unicode</key>
+				<string>00001CC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Vedic Extensions</string>
+				<key>Category</key>
+				<string>Devanagari</string>
+				<key>Data</key>
+				<string>0x1CD0-0x1CFF</string>
+				<key>Unicode</key>
+				<string>00001CD0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Phonetic Extensions</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x1D00-0x1D7F</string>
+				<key>Unicode</key>
+				<string>00001D00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Phonetic Extensions Supplement</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x1D80-0x1DBF</string>
+				<key>Unicode</key>
+				<string>00001D80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Combining Diacritical Marks Supplement</string>
+				<key>Category</key>
+				<string>Combining Marks</string>
+				<key>Data</key>
+				<string>0x1DC0-0x1DFF</string>
+				<key>Unicode</key>
+				<string>00001DC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended Additional</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x1E00-0x1EFF</string>
+				<key>Unicode</key>
+				<string>00001E00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Greek Extended</string>
+				<key>Category</key>
+				<string>Greek</string>
+				<key>Data</key>
+				<string>0x1F00-0x1FFF</string>
+				<key>Unicode</key>
+				<string>00001F00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>General Punctuation</string>
+				<key>Category</key>
+				<string>General Punctuation</string>
+				<key>Data</key>
+				<string>0x2000-0x206F</string>
+				<key>Unicode</key>
+				<string>00002000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Superscripts and Subscripts</string>
+				<key>Category</key>
+				<string>Superscript and Subscript Symbols</string>
+				<key>Data</key>
+				<string>0x2070-0x209F</string>
+				<key>Unicode</key>
+				<string>00002070</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Currency Symbols</string>
+				<key>Category</key>
+				<string>Currency Symbols</string>
+				<key>Data</key>
+				<string>0x20A0-0x20CF</string>
+				<key>Unicode</key>
+				<string>000020A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Combining Diacritical Marks for Symbols</string>
+				<key>Category</key>
+				<string>Combining Marks</string>
+				<key>Data</key>
+				<string>0x20D0-0x20FF</string>
+				<key>Unicode</key>
+				<string>000020D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Letterlike Symbols</string>
+				<key>Category</key>
+				<string>Letterlike Symbols</string>
+				<key>Data</key>
+				<string>0x2100-0x214F</string>
+				<key>Unicode</key>
+				<string>00002100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Number Forms</string>
+				<key>Category</key>
+				<string>Number Forms</string>
+				<key>Data</key>
+				<string>0x2150-0x218F</string>
+				<key>Unicode</key>
+				<string>00002150</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arrows</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x2190-0x21FF</string>
+				<key>Unicode</key>
+				<string>00002190</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mathematical Operators</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x2200-0x22FF</string>
+				<key>Unicode</key>
+				<string>00002200</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miscellaneous Technical</string>
+				<key>Category</key>
+				<string>Technical Symbols</string>
+				<key>Data</key>
+				<string>0x2300-0x23FF</string>
+				<key>Unicode</key>
+				<string>00002300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Control Pictures</string>
+				<key>Category</key>
+				<string>Technical Symbols</string>
+				<key>Data</key>
+				<string>0x2400-0x243F</string>
+				<key>Unicode</key>
+				<string>00002400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Optical Character Recognition</string>
+				<key>Category</key>
+				<string>Technical Symbols</string>
+				<key>Data</key>
+				<string>0x2440-0x245F</string>
+				<key>Unicode</key>
+				<string>00002440</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Enclosed Alphanumerics</string>
+				<key>Category</key>
+				<string>Enclosed and Square</string>
+				<key>Data</key>
+				<string>0x2460-0x24FF</string>
+				<key>Unicode</key>
+				<string>00002460</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Box Drawing</string>
+				<key>Category</key>
+				<string>Geometrical Symbols</string>
+				<key>Data</key>
+				<string>0x2500-0x257F</string>
+				<key>Unicode</key>
+				<string>00002500</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Block Elements</string>
+				<key>Category</key>
+				<string>Geometrical Symbols</string>
+				<key>Data</key>
+				<string>0x2580-0x259F</string>
+				<key>Unicode</key>
+				<string>00002580</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Geometric Shapes</string>
+				<key>Category</key>
+				<string>Geometrical Symbols</string>
+				<key>Data</key>
+				<string>0x25A0-0x25FF</string>
+				<key>Unicode</key>
+				<string>000025A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x2600-0x26FF</string>
+				<key>Unicode</key>
+				<string>00002600</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Dingbats</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x2700-0x27BF</string>
+				<key>Unicode</key>
+				<string>00002700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miscellaneous Math Symbols-A</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x27C0-0x27EF</string>
+				<key>Unicode</key>
+				<string>000027C0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplemental Arrows-A</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x27F0-0x27FF</string>
+				<key>Unicode</key>
+				<string>000027F0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Braille Patterns</string>
+				<key>Category</key>
+				<string>Braille</string>
+				<key>Data</key>
+				<string>0x2800-0x28FF</string>
+				<key>Unicode</key>
+				<string>00002800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplemental Arrows-B</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x2900-0x297F</string>
+				<key>Unicode</key>
+				<string>00002900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miscellaneous Math Symbols-B</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x2980-0x29FF</string>
+				<key>Unicode</key>
+				<string>00002980</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplemental Math Operators</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x2A00-0x2AFF</string>
+				<key>Unicode</key>
+				<string>00002A00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miscellaneous Symbols and Arrows</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x2B00-0x2BFF</string>
+				<key>Unicode</key>
+				<string>00002B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Glagolitic</string>
+				<key>Category</key>
+				<string>Glagolitic</string>
+				<key>Data</key>
+				<string>0x2C00-0x2C5F</string>
+				<key>Unicode</key>
+				<string>00002C00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-C</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x2C60-0x2C7F</string>
+				<key>Unicode</key>
+				<string>00002C60</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Coptic</string>
+				<key>Category</key>
+				<string>Coptic</string>
+				<key>Data</key>
+				<string>0x2C80-0x2CFF</string>
+				<key>Unicode</key>
+				<string>00002C80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Georgian Supplement</string>
+				<key>Category</key>
+				<string>Georgian</string>
+				<key>Data</key>
+				<string>0x2D00-0x2D2F</string>
+				<key>Unicode</key>
+				<string>00002D00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tifinagh</string>
+				<key>Category</key>
+				<string>Tifinagh</string>
+				<key>Data</key>
+				<string>0x2D30-0x2D7F</string>
+				<key>Unicode</key>
+				<string>00002D30</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ethiopic Extended</string>
+				<key>Category</key>
+				<string>Ethiopic</string>
+				<key>Data</key>
+				<string>0x2D80-0x2DDF</string>
+				<key>Unicode</key>
+				<string>00002D80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cyrillic Extended-A</string>
+				<key>Category</key>
+				<string>Cyrillic</string>
+				<key>Data</key>
+				<string>0x2DE0-0x2DFF</string>
+				<key>Unicode</key>
+				<string>00002DE0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplemental Punctuation</string>
+				<key>Category</key>
+				<string>General Punctuation</string>
+				<key>Data</key>
+				<string>0x2E00-0x2E7F</string>
+				<key>Unicode</key>
+				<string>00002E00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Radicals Supplement</string>
+				<key>Category</key>
+				<string>CJK Radicals/Kangxi Radicals</string>
+				<key>Data</key>
+				<string>0x2E80-0x2EFF</string>
+				<key>Unicode</key>
+				<string>00002E80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kangxi Radicals</string>
+				<key>Category</key>
+				<string>CJK Radicals/Kangxi Radicals</string>
+				<key>Data</key>
+				<string>0x2F00-0x2FDF</string>
+				<key>Unicode</key>
+				<string>00002F00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ideographic Desc. Characters</string>
+				<key>Category</key>
+				<string>CJK Radicals/Kangxi Radicals</string>
+				<key>Data</key>
+				<string>0x2FF0-0x2FFF</string>
+				<key>Unicode</key>
+				<string>00002FF0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Symbols and Punctuation</string>
+				<key>Category</key>
+				<string>CJK Symbols and Punctuation</string>
+				<key>Data</key>
+				<string>0x3000-0x303F</string>
+				<key>Unicode</key>
+				<string>00003000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hiragana</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x3040-0x309F</string>
+				<key>Unicode</key>
+				<string>00003040</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Katakana</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x30A0-0x30FF</string>
+				<key>Unicode</key>
+				<string>000030A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bopomofo</string>
+				<key>Category</key>
+				<string>Bopomofo</string>
+				<key>Data</key>
+				<string>0x3100-0x312F</string>
+				<key>Unicode</key>
+				<string>00003100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hangul Compatibility Jamo</string>
+				<key>Category</key>
+				<string>Hangul</string>
+				<key>Data</key>
+				<string>0x3130-0x318F</string>
+				<key>Unicode</key>
+				<string>00003130</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kanbun</string>
+				<key>Category</key>
+				<string>Kanbun</string>
+				<key>Data</key>
+				<string>0x3190-0x319F</string>
+				<key>Unicode</key>
+				<string>00003190</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bopomofo Extended</string>
+				<key>Category</key>
+				<string>Bopomofo</string>
+				<key>Data</key>
+				<string>0x31A0-0x31BF</string>
+				<key>Unicode</key>
+				<string>000031A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Strokes</string>
+				<key>Category</key>
+				<string>CJK Radicals/Kangxi Radicals</string>
+				<key>Data</key>
+				<string>0x31C0-0x31EF</string>
+				<key>Unicode</key>
+				<string>000031C0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Katakana Phonetic Extensions</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x31F0-0x31FF</string>
+				<key>Unicode</key>
+				<string>000031F0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Enclosed CJK Letters and Months</string>
+				<key>Category</key>
+				<string>Enclosed and Square</string>
+				<key>Data</key>
+				<string>0x3200-0x32FF</string>
+				<key>Unicode</key>
+				<string>00003200</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Compatibility</string>
+				<key>Category</key>
+				<string>Enclosed and Square</string>
+				<key>Data</key>
+				<string>0x3300-0x33FF</string>
+				<key>Unicode</key>
+				<string>00003300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. A</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x3400-0x4DBF</string>
+				<key>Unicode</key>
+				<string>00003400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Yijing Hexagram Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x4DC0-0x4DFF</string>
+				<key>Unicode</key>
+				<string>00004DC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x4E00-0x9FFF</string>
+				<key>Unicode</key>
+				<string>00004E00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Yi Syllables</string>
+				<key>Category</key>
+				<string>Yi</string>
+				<key>Data</key>
+				<string>0xA000-0xA48F</string>
+				<key>Unicode</key>
+				<string>0000A000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Yi Radicals</string>
+				<key>Category</key>
+				<string>Yi</string>
+				<key>Data</key>
+				<string>0xA490-0xA4CF</string>
+				<key>Unicode</key>
+				<string>0000A490</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Lisu</string>
+				<key>Category</key>
+				<string>Lisu</string>
+				<key>Data</key>
+				<string>0xA4D0-0xA4FF</string>
+				<key>Unicode</key>
+				<string>0000A4D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Vai</string>
+				<key>Category</key>
+				<string>Vai</string>
+				<key>Data</key>
+				<string>0xA500-0xA63F</string>
+				<key>Unicode</key>
+				<string>0000A500</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cyrillic Extended-B</string>
+				<key>Category</key>
+				<string>Cyrillic</string>
+				<key>Data</key>
+				<string>0xA640-0xA69F</string>
+				<key>Unicode</key>
+				<string>0000A640</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bamum</string>
+				<key>Category</key>
+				<string>Bamum</string>
+				<key>Data</key>
+				<string>0xA6A0-0xA6FF</string>
+				<key>Unicode</key>
+				<string>0000A6A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Modifier Tone Letters</string>
+				<key>Category</key>
+				<string>Modifier Letters</string>
+				<key>Data</key>
+				<string>0xA700-0xA71F</string>
+				<key>Unicode</key>
+				<string>0000A700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-D</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0xA720-0xA7FF</string>
+				<key>Unicode</key>
+				<string>0000A720</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Syloti Nagri</string>
+				<key>Category</key>
+				<string>Syloti Nagri</string>
+				<key>Data</key>
+				<string>0xA800-0xA82F</string>
+				<key>Unicode</key>
+				<string>0000A800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Common Indic Number Forms</string>
+				<key>Category</key>
+				<string>Numerals</string>
+				<key>Data</key>
+				<string>0xA830-0xA83F</string>
+				<key>Unicode</key>
+				<string>0000A830</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Phags-pa</string>
+				<key>Category</key>
+				<string>Phags-pa</string>
+				<key>Data</key>
+				<string>0xA840-0xA87F</string>
+				<key>Unicode</key>
+				<string>0000A840</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Saurashtra</string>
+				<key>Category</key>
+				<string>Saurashtra</string>
+				<key>Data</key>
+				<string>0xA880-0xA8DF</string>
+				<key>Unicode</key>
+				<string>0000A880</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Devanagari Extended</string>
+				<key>Category</key>
+				<string>Devanagari</string>
+				<key>Data</key>
+				<string>0xA8E0-0xA8FF</string>
+				<key>Unicode</key>
+				<string>0000A8E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kayah Li</string>
+				<key>Category</key>
+				<string>Kayah Li</string>
+				<key>Data</key>
+				<string>0xA900-0xA92F</string>
+				<key>Unicode</key>
+				<string>0000A900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Rejang</string>
+				<key>Category</key>
+				<string>Rejang</string>
+				<key>Data</key>
+				<string>0xA930-0xA95F</string>
+				<key>Unicode</key>
+				<string>0000A930</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hangul Jamo Extended-A</string>
+				<key>Category</key>
+				<string>Hangul</string>
+				<key>Data</key>
+				<string>0xA960-0xA97F</string>
+				<key>Unicode</key>
+				<string>0000A960</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Javanese</string>
+				<key>Category</key>
+				<string>Javanese</string>
+				<key>Data</key>
+				<string>0xA980-0xA9DF</string>
+				<key>Unicode</key>
+				<string>0000A980</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Myanmar Extended-B</string>
+				<key>Category</key>
+				<string>Myanmar</string>
+				<key>Data</key>
+				<string>0xA9E0-0xA9FF</string>
+				<key>Unicode</key>
+				<string>0000A9E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cham</string>
+				<key>Category</key>
+				<string>Cham</string>
+				<key>Data</key>
+				<string>0xAA00-0xAA5F</string>
+				<key>Unicode</key>
+				<string>0000AA00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Myanmar Extended-A</string>
+				<key>Category</key>
+				<string>Myanmar</string>
+				<key>Data</key>
+				<string>0xAA60-0xAA7F</string>
+				<key>Unicode</key>
+				<string>0000AA60</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tai Viet</string>
+				<key>Category</key>
+				<string>Tai Viet</string>
+				<key>Data</key>
+				<string>0xAA80-0xAADF</string>
+				<key>Unicode</key>
+				<string>0000AA80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Meetei Mayek Extensions</string>
+				<key>Category</key>
+				<string>Meetei Mayek</string>
+				<key>Data</key>
+				<string>0xAAE0-0xAAFF</string>
+				<key>Unicode</key>
+				<string>0000AAE0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ethiopic Extended-A</string>
+				<key>Category</key>
+				<string>Ethiopic</string>
+				<key>Data</key>
+				<string>0xAB00-0xAB2F</string>
+				<key>Unicode</key>
+				<string>0000AB00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-E</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0xAB30-0xAB6F</string>
+				<key>Unicode</key>
+				<string>0000AB30</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cherokee Supplement</string>
+				<key>Category</key>
+				<string>Cherokee</string>
+				<key>Data</key>
+				<string>0xAB70-0xABBF</string>
+				<key>Unicode</key>
+				<string>0000AB70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Meetei Mayek</string>
+				<key>Category</key>
+				<string>Meetei Mayek</string>
+				<key>Data</key>
+				<string>0xABC0-0xABFF</string>
+				<key>Unicode</key>
+				<string>0000ABC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hangul Syllables</string>
+				<key>Category</key>
+				<string>Hangul</string>
+				<key>Data</key>
+				<string>0xAC00-0xD7AF</string>
+				<key>Unicode</key>
+				<string>0000AC00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hangul Jamo Extended-B</string>
+				<key>Category</key>
+				<string>Hangul</string>
+				<key>Data</key>
+				<string>0xD7B0-0xD7FF</string>
+				<key>Unicode</key>
+				<string>0000D7B0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>High Surrogates</string>
+				<key>Category</key>
+				<string>Surrogates</string>
+				<key>Data</key>
+				<string>0xD800-0xDB7F</string>
+				<key>Unicode</key>
+				<string>0000D800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>High Private Use Surrogates</string>
+				<key>Category</key>
+				<string>Surrogates</string>
+				<key>Data</key>
+				<string>0xDB80-0xDBFF</string>
+				<key>Unicode</key>
+				<string>0000DB80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Low Surrogates</string>
+				<key>Category</key>
+				<string>Surrogates</string>
+				<key>Data</key>
+				<string>0xDC00-0xDFFF</string>
+				<key>Unicode</key>
+				<string>0000DC00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Private Use Area</string>
+				<key>Category</key>
+				<string>Private Use</string>
+				<key>Data</key>
+				<string>0xE000-0xF8FF</string>
+				<key>Unicode</key>
+				<string>0000E000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Compatibility Ideographs</string>
+				<key>Category</key>
+				<string>CJK Compatibility Ideographs</string>
+				<key>Data</key>
+				<string>0xF900-0xFAFF</string>
+				<key>Unicode</key>
+				<string>0000F900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Alphabetic Presentation Forms</string>
+				<key>Category</key>
+				<string>Other</string>
+				<key>Data</key>
+				<string>0xFB00-0xFB4F</string>
+				<key>Unicode</key>
+				<string>0000FB00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Presentation Forms-A</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0xFB50-0xFDFF</string>
+				<key>Unicode</key>
+				<string>0000FB50</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Variation Selectors</string>
+				<key>Category</key>
+				<string>Variation Selectors</string>
+				<key>Data</key>
+				<string>0xFE00-0xFE0F</string>
+				<key>Unicode</key>
+				<string>0000FE00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Vertical Forms</string>
+				<key>Category</key>
+				<string>CJK Compatibility Forms</string>
+				<key>Data</key>
+				<string>0xFE10-0xFE1F</string>
+				<key>Unicode</key>
+				<string>0000FE10</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Combining Half Marks</string>
+				<key>Category</key>
+				<string>Combining Marks</string>
+				<key>Data</key>
+				<string>0xFE20-0xFE2F</string>
+				<key>Unicode</key>
+				<string>0000FE20</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Compatibility Forms</string>
+				<key>Category</key>
+				<string>CJK Compatibility Forms</string>
+				<key>Data</key>
+				<string>0xFE30-0xFE4F</string>
+				<key>Unicode</key>
+				<string>0000FE30</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Small Form Variants</string>
+				<key>Category</key>
+				<string>CJK Compatibility Forms</string>
+				<key>Data</key>
+				<string>0xFE50-0xFE6F</string>
+				<key>Unicode</key>
+				<string>0000FE50</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Presentation Forms-B</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0xFE70-0xFEFF</string>
+				<key>Unicode</key>
+				<string>0000FE70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Halfwidth and Fullwidth Forms</string>
+				<key>Category</key>
+				<string>CJK Compatibility Forms</string>
+				<key>Data</key>
+				<string>0xFF00-0xFFEF</string>
+				<key>Unicode</key>
+				<string>0000FF00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Specials</string>
+				<key>Category</key>
+				<string>Specials</string>
+				<key>Data</key>
+				<string>0xFFF0-0xFFFF</string>
+				<key>Unicode</key>
+				<string>0000FFF0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Linear B Syllabary</string>
+				<key>Category</key>
+				<string>Linear B</string>
+				<key>Data</key>
+				<string>0x10000-0x1007F</string>
+				<key>Unicode</key>
+				<string>00010000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Linear B Ideograms</string>
+				<key>Category</key>
+				<string>Linear B</string>
+				<key>Data</key>
+				<string>0x10080-0x100FF</string>
+				<key>Unicode</key>
+				<string>00010080</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Aegean Numbers</string>
+				<key>Category</key>
+				<string>Linear B</string>
+				<key>Data</key>
+				<string>0x10100-0x1013F</string>
+				<key>Unicode</key>
+				<string>00010100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ancient Greek Numbers</string>
+				<key>Category</key>
+				<string>Greek</string>
+				<key>Data</key>
+				<string>0x10140-0x1018F</string>
+				<key>Unicode</key>
+				<string>00010140</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ancient Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x10190-0x101CF</string>
+				<key>Unicode</key>
+				<string>00010190</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Phaistos Disc</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x101D0-0x101FF</string>
+				<key>Unicode</key>
+				<string>000101D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Lycian</string>
+				<key>Category</key>
+				<string>Lycian</string>
+				<key>Data</key>
+				<string>0x10280-0x1029F</string>
+				<key>Unicode</key>
+				<string>00010280</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Carian</string>
+				<key>Category</key>
+				<string>Carian</string>
+				<key>Data</key>
+				<string>0x102A0-0x102DF</string>
+				<key>Unicode</key>
+				<string>000102A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Coptic Epact Numbers</string>
+				<key>Category</key>
+				<string>Coptic</string>
+				<key>Data</key>
+				<string>0x102E0-0x102FF</string>
+				<key>Unicode</key>
+				<string>000102E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Italic</string>
+				<key>Category</key>
+				<string>Old Italic</string>
+				<key>Data</key>
+				<string>0x10300-0x1032F</string>
+				<key>Unicode</key>
+				<string>00010300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Gothic</string>
+				<key>Category</key>
+				<string>Gothic</string>
+				<key>Data</key>
+				<string>0x10330-0x1034F</string>
+				<key>Unicode</key>
+				<string>00010330</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Permic</string>
+				<key>Category</key>
+				<string>Old Permic</string>
+				<key>Data</key>
+				<string>0x10350-0x1037F</string>
+				<key>Unicode</key>
+				<string>00010350</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ugaritic</string>
+				<key>Category</key>
+				<string>Cuneiform</string>
+				<key>Data</key>
+				<string>0x10380-0x1039F</string>
+				<key>Unicode</key>
+				<string>00010380</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Persian</string>
+				<key>Category</key>
+				<string>Cuneiform</string>
+				<key>Data</key>
+				<string>0x103A0-0x103DF</string>
+				<key>Unicode</key>
+				<string>000103A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Deseret</string>
+				<key>Category</key>
+				<string>Deseret</string>
+				<key>Data</key>
+				<string>0x10400-0x1044F</string>
+				<key>Unicode</key>
+				<string>00010400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Shavian</string>
+				<key>Category</key>
+				<string>Shavian</string>
+				<key>Data</key>
+				<string>0x10450-0x1047F</string>
+				<key>Unicode</key>
+				<string>00010450</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Osmanya</string>
+				<key>Category</key>
+				<string>Osmanya</string>
+				<key>Data</key>
+				<string>0x10480-0x104AF</string>
+				<key>Unicode</key>
+				<string>00010480</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Osage</string>
+				<key>Category</key>
+				<string>Osage</string>
+				<key>Data</key>
+				<string>0x104B0-0x104FF</string>
+				<key>Unicode</key>
+				<string>000104B0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Elbasan</string>
+				<key>Category</key>
+				<string>Elbasan</string>
+				<key>Data</key>
+				<string>0x10500-0x1052F</string>
+				<key>Unicode</key>
+				<string>00010500</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Caucasian Albanian</string>
+				<key>Category</key>
+				<string>Caucasian Albanian</string>
+				<key>Data</key>
+				<string>0x10530-0x1056F</string>
+				<key>Unicode</key>
+				<string>00010530</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Vithkuqi</string>
+				<key>Category</key>
+				<string>Vithkuqi</string>
+				<key>Data</key>
+				<string>0x10570-0x105BF</string>
+				<key>Unicode</key>
+				<string>00010570</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Todhri</string>
+				<key>Category</key>
+				<string>Todhri</string>
+				<key>Data</key>
+				<string>0x105C0-0x105FF</string>
+				<key>Unicode</key>
+				<string>000105C0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Linear A</string>
+				<key>Category</key>
+				<string>Linear A</string>
+				<key>Data</key>
+				<string>0x10600-0x1077F</string>
+				<key>Unicode</key>
+				<string>00010600</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-F</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x10780-0x107BF</string>
+				<key>Unicode</key>
+				<string>00010780</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cypriot Syllabary</string>
+				<key>Category</key>
+				<string>Cypriot Syllabary</string>
+				<key>Data</key>
+				<string>0x10800-0x1083F</string>
+				<key>Unicode</key>
+				<string>00010800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Imperial Aramaic</string>
+				<key>Category</key>
+				<string>Imperial Aramaic</string>
+				<key>Data</key>
+				<string>0x10840-0x1085F</string>
+				<key>Unicode</key>
+				<string>00010840</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Palmyrene</string>
+				<key>Category</key>
+				<string>Palmyrene</string>
+				<key>Data</key>
+				<string>0x10860-0x1087F</string>
+				<key>Unicode</key>
+				<string>00010860</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Nabataean</string>
+				<key>Category</key>
+				<string>Nabataean</string>
+				<key>Data</key>
+				<string>0x10880-0x108AF</string>
+				<key>Unicode</key>
+				<string>00010880</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hatran</string>
+				<key>Category</key>
+				<string>Hatran</string>
+				<key>Data</key>
+				<string>0x108E0-0x108FF</string>
+				<key>Unicode</key>
+				<string>000108E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Phoenician</string>
+				<key>Category</key>
+				<string>Phoenician</string>
+				<key>Data</key>
+				<string>0x10900-0x1091F</string>
+				<key>Unicode</key>
+				<string>00010900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Lydian</string>
+				<key>Category</key>
+				<string>Lydian</string>
+				<key>Data</key>
+				<string>0x10920-0x1093F</string>
+				<key>Unicode</key>
+				<string>00010920</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Meroitic Hieroglyphs</string>
+				<key>Category</key>
+				<string>Meroitic</string>
+				<key>Data</key>
+				<string>0x10980-0x1099F</string>
+				<key>Unicode</key>
+				<string>00010980</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Meroitic Cursive</string>
+				<key>Category</key>
+				<string>Meroitic</string>
+				<key>Data</key>
+				<string>0x109A0-0x109FF</string>
+				<key>Unicode</key>
+				<string>000109A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kharoshthi</string>
+				<key>Category</key>
+				<string>Kharoshthi</string>
+				<key>Data</key>
+				<string>0x10A00-0x10A5F</string>
+				<key>Unicode</key>
+				<string>00010A00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old South Arabian</string>
+				<key>Category</key>
+				<string>Old South Arabian</string>
+				<key>Data</key>
+				<string>0x10A60-0x10A7F</string>
+				<key>Unicode</key>
+				<string>00010A60</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old North Arabian</string>
+				<key>Category</key>
+				<string>Old North Arabian</string>
+				<key>Data</key>
+				<string>0x10A80-0x10A9F</string>
+				<key>Unicode</key>
+				<string>00010A80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Manichaean</string>
+				<key>Category</key>
+				<string>Manichaean</string>
+				<key>Data</key>
+				<string>0x10AC0-0x10AFF</string>
+				<key>Unicode</key>
+				<string>00010AC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Avestan</string>
+				<key>Category</key>
+				<string>Avestan</string>
+				<key>Data</key>
+				<string>0x10B00-0x10B3F</string>
+				<key>Unicode</key>
+				<string>00010B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Inscriptional Parthian</string>
+				<key>Category</key>
+				<string>Pahlavi and Parthian</string>
+				<key>Data</key>
+				<string>0x10B40-0x10B5F</string>
+				<key>Unicode</key>
+				<string>00010B40</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Inscriptional Pahlavi</string>
+				<key>Category</key>
+				<string>Pahlavi and Parthian</string>
+				<key>Data</key>
+				<string>0x10B60-0x10B7F</string>
+				<key>Unicode</key>
+				<string>00010B60</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Psalter Pahlavi</string>
+				<key>Category</key>
+				<string>Pahlavi and Parthian</string>
+				<key>Data</key>
+				<string>0x10B80-0x10BAF</string>
+				<key>Unicode</key>
+				<string>00010B80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Turkic</string>
+				<key>Category</key>
+				<string>Old Turkic</string>
+				<key>Data</key>
+				<string>0x10C00-0x10C4F</string>
+				<key>Unicode</key>
+				<string>00010C00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Hungarian</string>
+				<key>Category</key>
+				<string>Old Hungarian</string>
+				<key>Data</key>
+				<string>0x10C80-0x10CFF</string>
+				<key>Unicode</key>
+				<string>00010C80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Hanifi Rohingya</string>
+				<key>Category</key>
+				<string>Hanifi Rohingya</string>
+				<key>Data</key>
+				<string>0x10D00-0x10D3F</string>
+				<key>Unicode</key>
+				<string>00010D00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Garay</string>
+				<key>Category</key>
+				<string>Garay</string>
+				<key>Data</key>
+				<string>0x10D40-0x10D8F</string>
+				<key>Unicode</key>
+				<string>00010D40</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Rumi Numeral Symbols</string>
+				<key>Category</key>
+				<string>Numerals</string>
+				<key>Data</key>
+				<string>0x10E60-0x10E7F</string>
+				<key>Unicode</key>
+				<string>00010E60</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Yezidi</string>
+				<key>Category</key>
+				<string>Yezidi</string>
+				<key>Data</key>
+				<string>0x10E80-0x10EBF</string>
+				<key>Unicode</key>
+				<string>00010E80</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Extended-C</string>
+				<key>Category</key>
+				<string>Arabic</string>
+				<key>Data</key>
+				<string>0x10EC0-0x10EFF</string>
+				<key>Unicode</key>
+				<string>00010EC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Sogdian</string>
+				<key>Category</key>
+				<string>Old Sogdian</string>
+				<key>Data</key>
+				<string>0x10F00-0x10F2F</string>
+				<key>Unicode</key>
+				<string>00010F00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sogdian</string>
+				<key>Category</key>
+				<string>Sogdian</string>
+				<key>Data</key>
+				<string>0x10F30-0x10F6F</string>
+				<key>Unicode</key>
+				<string>00010F30</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Old Uyghur</string>
+				<key>Category</key>
+				<string>Old Uyghur</string>
+				<key>Data</key>
+				<string>0x10F70-0x10FAF</string>
+				<key>Unicode</key>
+				<string>00010F70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Chorasmian</string>
+				<key>Category</key>
+				<string>Chorasmian</string>
+				<key>Data</key>
+				<string>0x10FB0-0x10FDF</string>
+				<key>Unicode</key>
+				<string>00010FB0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Elymaic</string>
+				<key>Category</key>
+				<string>Elymaic</string>
+				<key>Data</key>
+				<string>0x10FE0-0x10FFF</string>
+				<key>Unicode</key>
+				<string>00010FE0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Brahmi</string>
+				<key>Category</key>
+				<string>Brahmi</string>
+				<key>Data</key>
+				<string>0x11000-0x1107F</string>
+				<key>Unicode</key>
+				<string>00011000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kaithi</string>
+				<key>Category</key>
+				<string>Kaithi</string>
+				<key>Data</key>
+				<string>0x11080-0x110CF</string>
+				<key>Unicode</key>
+				<string>00011080</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sora Sompeng</string>
+				<key>Category</key>
+				<string>Sora Sompeng</string>
+				<key>Data</key>
+				<string>0x110D0-0x110FF</string>
+				<key>Unicode</key>
+				<string>000110D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Chakma</string>
+				<key>Category</key>
+				<string>Chakma</string>
+				<key>Data</key>
+				<string>0x11100-0x1114F</string>
+				<key>Unicode</key>
+				<string>00011100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mahajani</string>
+				<key>Category</key>
+				<string>Mahajani</string>
+				<key>Data</key>
+				<string>0x11150-0x1117F</string>
+				<key>Unicode</key>
+				<string>00011150</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sharada</string>
+				<key>Category</key>
+				<string>Sharada</string>
+				<key>Data</key>
+				<string>0x11180-0x111DF</string>
+				<key>Unicode</key>
+				<string>00011180</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sinhala Archaic Numbers</string>
+				<key>Category</key>
+				<string>Sinhala</string>
+				<key>Data</key>
+				<string>0x111E0-0x111FF</string>
+				<key>Unicode</key>
+				<string>000111E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Khojki</string>
+				<key>Category</key>
+				<string>Khojki</string>
+				<key>Data</key>
+				<string>0x11200-0x1124F</string>
+				<key>Unicode</key>
+				<string>00011200</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Multani</string>
+				<key>Category</key>
+				<string>Multani</string>
+				<key>Data</key>
+				<string>0x11280-0x112AF</string>
+				<key>Unicode</key>
+				<string>00011280</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Khudawadi</string>
+				<key>Category</key>
+				<string>Khudawadi</string>
+				<key>Data</key>
+				<string>0x112B0-0x112FF</string>
+				<key>Unicode</key>
+				<string>000112B0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Grantha</string>
+				<key>Category</key>
+				<string>Grantha</string>
+				<key>Data</key>
+				<string>0x11300-0x1137F</string>
+				<key>Unicode</key>
+				<string>00011300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tulu-Tigalari</string>
+				<key>Category</key>
+				<string>Tulu-Tigalari</string>
+				<key>Data</key>
+				<string>0x11380-0x113FF</string>
+				<key>Unicode</key>
+				<string>00011380</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Newa</string>
+				<key>Category</key>
+				<string>Newa</string>
+				<key>Data</key>
+				<string>0x11400-0x1147F</string>
+				<key>Unicode</key>
+				<string>00011400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tirhuta</string>
+				<key>Category</key>
+				<string>Tirhuta</string>
+				<key>Data</key>
+				<string>0x11480-0x114DF</string>
+				<key>Unicode</key>
+				<string>00011480</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Siddham</string>
+				<key>Category</key>
+				<string>Siddham</string>
+				<key>Data</key>
+				<string>0x11580-0x115FF</string>
+				<key>Unicode</key>
+				<string>00011580</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Modi</string>
+				<key>Category</key>
+				<string>Modi</string>
+				<key>Data</key>
+				<string>0x11600-0x1165F</string>
+				<key>Unicode</key>
+				<string>00011600</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mongolian Supplement</string>
+				<key>Category</key>
+				<string>Mongolian</string>
+				<key>Data</key>
+				<string>0x11660-0x1167F</string>
+				<key>Unicode</key>
+				<string>00011660</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Takri</string>
+				<key>Category</key>
+				<string>Takri</string>
+				<key>Data</key>
+				<string>0x11680-0x116CF</string>
+				<key>Unicode</key>
+				<string>00011680</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Myanmar Extended-C</string>
+				<key>Category</key>
+				<string>Myanmar</string>
+				<key>Data</key>
+				<string>0x116D0-0x116FF</string>
+				<key>Unicode</key>
+				<string>000116D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ahom</string>
+				<key>Category</key>
+				<string>Ahom</string>
+				<key>Data</key>
+				<string>0x11700-0x1173F</string>
+				<key>Unicode</key>
+				<string>00011700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Dogra</string>
+				<key>Category</key>
+				<string>Dogra</string>
+				<key>Data</key>
+				<string>0x11800-0x1184F</string>
+				<key>Unicode</key>
+				<string>00011800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Warang Citi</string>
+				<key>Category</key>
+				<string>Warang Citi</string>
+				<key>Data</key>
+				<string>0x118A0-0x118FF</string>
+				<key>Unicode</key>
+				<string>000118A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Dives Akuru</string>
+				<key>Category</key>
+				<string>Dives Akuru</string>
+				<key>Data</key>
+				<string>0x11900-0x1195F</string>
+				<key>Unicode</key>
+				<string>00011900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Nandinagari</string>
+				<key>Category</key>
+				<string>Nandinagari</string>
+				<key>Data</key>
+				<string>0x119A0-0x119FF</string>
+				<key>Unicode</key>
+				<string>000119A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Zanabazar Square</string>
+				<key>Category</key>
+				<string>Zanabazar Square</string>
+				<key>Data</key>
+				<string>0x11A00-0x11A4F</string>
+				<key>Unicode</key>
+				<string>00011A00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Soyombo</string>
+				<key>Category</key>
+				<string>Soyombo</string>
+				<key>Data</key>
+				<string>0x11A50-0x11AAF</string>
+				<key>Unicode</key>
+				<string>00011A50</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Unified Canadian Aboriginal Syllabics Extended-A</string>
+				<key>Category</key>
+				<string>Canadian Aboriginal Syllabics</string>
+				<key>Data</key>
+				<string>0x11AB0-0x11ABF</string>
+				<key>Unicode</key>
+				<string>00011AB0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Pau Cin Hau</string>
+				<key>Category</key>
+				<string>Pau Cin Hau</string>
+				<key>Data</key>
+				<string>0x11AC0-0x11AFF</string>
+				<key>Unicode</key>
+				<string>00011AC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Devanagari Extended-A</string>
+				<key>Category</key>
+				<string>Devanagari</string>
+				<key>Data</key>
+				<string>0x11B00-0x11B5F</string>
+				<key>Unicode</key>
+				<string>00011B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sunuwar</string>
+				<key>Category</key>
+				<string>Sunuwar</string>
+				<key>Data</key>
+				<string>0x11BC0-0x11BFF</string>
+				<key>Unicode</key>
+				<string>00011B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bhaiksuki</string>
+				<key>Category</key>
+				<string>Bhaiksuki</string>
+				<key>Data</key>
+				<string>0x11C00-0x11C6F</string>
+				<key>Unicode</key>
+				<string>00011C00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Marchen</string>
+				<key>Category</key>
+				<string>Marchen</string>
+				<key>Data</key>
+				<string>0x11C70-0x11CBF</string>
+				<key>Unicode</key>
+				<string>00011C70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Masaram Gondi</string>
+				<key>Category</key>
+				<string>Masaram Gondi</string>
+				<key>Data</key>
+				<string>0x11D00-0x11D5F</string>
+				<key>Unicode</key>
+				<string>00011D00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Gunjala Gondi</string>
+				<key>Category</key>
+				<string>Gunjala Gondi</string>
+				<key>Data</key>
+				<string>0x11D60-0x11DAF</string>
+				<key>Unicode</key>
+				<string>00011D60</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Makasar</string>
+				<key>Category</key>
+				<string>Makasar</string>
+				<key>Data</key>
+				<string>0x11EE0-0x11EFF</string>
+				<key>Unicode</key>
+				<string>00011EE0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kawi</string>
+				<key>Category</key>
+				<string>Kawi</string>
+				<key>Data</key>
+				<string>0x11F00-0x11F5F</string>
+				<key>Unicode</key>
+				<string>00011F00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Lisu Supplement</string>
+				<key>Category</key>
+				<string>Lisu</string>
+				<key>Data</key>
+				<string>0x11FB0-0x11FBF</string>
+				<key>Unicode</key>
+				<string>00011FB0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tamil Supplement</string>
+				<key>Category</key>
+				<string>Tamil</string>
+				<key>Data</key>
+				<string>0x11FC0-0x11FFF</string>
+				<key>Unicode</key>
+				<string>00011FC0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cuneiform</string>
+				<key>Category</key>
+				<string>Sumero-Akkadian</string>
+				<key>Data</key>
+				<string>0x12000-0x123FF</string>
+				<key>Unicode</key>
+				<string>00012000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cuneiform Numbers and Punctuation</string>
+				<key>Category</key>
+				<string>Sumero-Akkadian</string>
+				<key>Data</key>
+				<string>0x12400-0x1247F</string>
+				<key>Unicode</key>
+				<string>00012400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Early Dynastic Cuneiform</string>
+				<key>Category</key>
+				<string>Sumero-Akkadian</string>
+				<key>Data</key>
+				<string>0x12480-0x1254F</string>
+				<key>Unicode</key>
+				<string>00012480</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cypro-Minoan</string>
+				<key>Category</key>
+				<string>Cypro-Minoan</string>
+				<key>Data</key>
+				<string>0x12F90-0x12FFF</string>
+				<key>Unicode</key>
+				<string>00012F90</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Egyptian Hieroglyphs</string>
+				<key>Category</key>
+				<string>Egyptian Hieroglyphs</string>
+				<key>Data</key>
+				<string>0x13000-0x1342F</string>
+				<key>Unicode</key>
+				<string>00013000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Egyptian Hieroglyph Format Controls</string>
+				<key>Category</key>
+				<string>Egyptian Hieroglyphs</string>
+				<key>Data</key>
+				<string>0x13430-0x1343F</string>
+				<key>Unicode</key>
+				<string>00013430</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Egyptian Hieroglyphs Extended-A</string>
+				<key>Category</key>
+				<string>Egyptian Hieroglyphs</string>
+				<key>Data</key>
+				<string>0x13460-0x143FF</string>
+				<key>Unicode</key>
+				<string>00013460</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Anatolian Hieroglyphs</string>
+				<key>Category</key>
+				<string>Anatolian Hieroglyphs</string>
+				<key>Data</key>
+				<string>0x14400-0x1467F</string>
+				<key>Unicode</key>
+				<string>00014400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Gurung Khema</string>
+				<key>Category</key>
+				<string>Gurung Khema</string>
+				<key>Data</key>
+				<string>0x16100-0x1613F</string>
+				<key>Unicode</key>
+				<string>00016100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bamum Supplement</string>
+				<key>Category</key>
+				<string>Bamum</string>
+				<key>Data</key>
+				<string>0x16800-0x16A3F</string>
+				<key>Unicode</key>
+				<string>00016800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mro</string>
+				<key>Category</key>
+				<string>Mro</string>
+				<key>Data</key>
+				<string>0x16A40-0x16A6F</string>
+				<key>Unicode</key>
+				<string>00016A40</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tangsa</string>
+				<key>Category</key>
+				<string>Tangsa</string>
+				<key>Data</key>
+				<string>0x16A70-0x16ACF</string>
+				<key>Unicode</key>
+				<string>00016A70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Bassa Vah</string>
+				<key>Category</key>
+				<string>Bassa Vah</string>
+				<key>Data</key>
+				<string>0x16AD0-0x16AFF</string>
+				<key>Unicode</key>
+				<string>00016AD0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Pahawh Hmong</string>
+				<key>Category</key>
+				<string>Pahawh Hmong</string>
+				<key>Data</key>
+				<string>0x16B00-0x16B8F</string>
+				<key>Unicode</key>
+				<string>00016B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kirat Rai</string>
+				<key>Category</key>
+				<string>Kirat Rai</string>
+				<key>Data</key>
+				<string>0x16D40-0x16D7F</string>
+				<key>Unicode</key>
+				<string>00016D40</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Medefaidrin</string>
+				<key>Category</key>
+				<string>Medefaidrin</string>
+				<key>Data</key>
+				<string>0x16E40-0x16E9F</string>
+				<key>Unicode</key>
+				<string>00016E40</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miao</string>
+				<key>Category</key>
+				<string>Miao</string>
+				<key>Data</key>
+				<string>0x16F00-0x16F9F</string>
+				<key>Unicode</key>
+				<string>00016F00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ideographic Symbols and Punctuation</string>
+				<key>Category</key>
+				<string>CJK Symbols and Punctuation</string>
+				<key>Data</key>
+				<string>0x16FE0-0x16FFF</string>
+				<key>Unicode</key>
+				<string>00016FE0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tangut</string>
+				<key>Category</key>
+				<string>Tangut</string>
+				<key>Data</key>
+				<string>0x17000-0x187FF</string>
+				<key>Unicode</key>
+				<string>00017000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tangut Components</string>
+				<key>Category</key>
+				<string>Tangut</string>
+				<key>Data</key>
+				<string>0x18800-0x18AFF</string>
+				<key>Unicode</key>
+				<string>00018800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Khitan Small Script</string>
+				<key>Category</key>
+				<string>Khitan Small Script</string>
+				<key>Data</key>
+				<string>0x18B00-0x18CFF</string>
+				<key>Unicode</key>
+				<string>00018B00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tangut Supplement</string>
+				<key>Category</key>
+				<string>Tangut</string>
+				<key>Data</key>
+				<string>0x18D00-0x18D7F</string>
+				<key>Unicode</key>
+				<string>00018D00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kana Extended-B</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x1AFF0-0x1AFFF</string>
+				<key>Unicode</key>
+				<string>0001AFF0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kana Supplement</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x1B000-0x1B0FF</string>
+				<key>Unicode</key>
+				<string>0001B000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kana Extended-A</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x1B100-0x1B12F</string>
+				<key>Unicode</key>
+				<string>0001B100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Small Kana Extension</string>
+				<key>Category</key>
+				<string>Hiragana and Katakana</string>
+				<key>Data</key>
+				<string>0x1B130-0x1B16F</string>
+				<key>Unicode</key>
+				<string>0001B130</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Nushu</string>
+				<key>Category</key>
+				<string>Nushu</string>
+				<key>Data</key>
+				<string>0x1B170-0x1B2FF</string>
+				<key>Unicode</key>
+				<string>0001B170</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Duployan</string>
+				<key>Category</key>
+				<string>Duployan</string>
+				<key>Data</key>
+				<string>0x1BC00-0x1BC9F</string>
+				<key>Unicode</key>
+				<string>0001BC00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Shorthand Format Controls</string>
+				<key>Category</key>
+				<string>Duployan</string>
+				<key>Data</key>
+				<string>0x1BCA0-0x1BCAF</string>
+				<key>Unicode</key>
+				<string>0001BCA0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Symbols for Legacy Computing Supplement</string>
+				<key>Category</key>
+				<string>Legacy Computing</string>
+				<key>Data</key>
+				<string>0x1CC00-0x1CEBF</string>
+				<key>Unicode</key>
+				<string>0001CC00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Znamenny Musical Notation</string>
+				<key>Category</key>
+				<string>Musical Symbols</string>
+				<key>Data</key>
+				<string>0x1CF00-0x1CFCF</string>
+				<key>Unicode</key>
+				<string>0001CF00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Byzantine Musical Symbols</string>
+				<key>Category</key>
+				<string>Musical Symbols</string>
+				<key>Data</key>
+				<string>0x1D000-0x1D0FF</string>
+				<key>Unicode</key>
+				<string>0001D000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Musical Symbols</string>
+				<key>Category</key>
+				<string>Musical Symbols</string>
+				<key>Data</key>
+				<string>0x1D100-0x1D1FF</string>
+				<key>Unicode</key>
+				<string>0001D100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ancient Greek Musical Notation</string>
+				<key>Category</key>
+				<string>Musical Symbols</string>
+				<key>Data</key>
+				<string>0x1D200-0x1D24F</string>
+				<key>Unicode</key>
+				<string>0001D200</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Kaktovik Numerals</string>
+				<key>Category</key>
+				<string>Kaktovik Numerals</string>
+				<key>Data</key>
+				<string>0x1D2C0-0x1D2DF</string>
+				<key>Unicode</key>
+				<string>0001D2C0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mayan Numerals</string>
+				<key>Category</key>
+				<string>Mayan Numerals</string>
+				<key>Data</key>
+				<string>0x1D2E0-0x1D2FF</string>
+				<key>Unicode</key>
+				<string>0001D2E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tai Xuan Jing Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1D300-0x1D35F</string>
+				<key>Unicode</key>
+				<string>0001D300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Counting Rod Numerals</string>
+				<key>Category</key>
+				<string>Counting Rod Numerals</string>
+				<key>Data</key>
+				<string>0x1D360-0x1D37F</string>
+				<key>Unicode</key>
+				<string>0001D360</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Math Alphanumeric Symbols</string>
+				<key>Category</key>
+				<string>Letterlike Symbols</string>
+				<key>Data</key>
+				<string>0x1D400-0x1D7FF</string>
+				<key>Unicode</key>
+				<string>0001D400</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Sutton SignWriting</string>
+				<key>Category</key>
+				<string>Sutton SignWriting</string>
+				<key>Data</key>
+				<string>0x1D800-0x1DAAF</string>
+				<key>Unicode</key>
+				<string>0001D800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Latin Extended-G</string>
+				<key>Category</key>
+				<string>Latin</string>
+				<key>Data</key>
+				<string>0x1DF00-0x1DFFF</string>
+				<key>Unicode</key>
+				<string>0001DF00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Glagolitic Supplement</string>
+				<key>Category</key>
+				<string>Glagolitic</string>
+				<key>Data</key>
+				<string>0x1E000-0x1E02F</string>
+				<key>Unicode</key>
+				<string>0001E000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Cyrillic Extended-D</string>
+				<key>Category</key>
+				<string>Cyrillic</string>
+				<key>Data</key>
+				<string>0x1E030-0x1E08F</string>
+				<key>Unicode</key>
+				<string>0001E030</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Nyiakeng Puachue Hmong</string>
+				<key>Category</key>
+				<string>Nyiakeng Puachue Hmong</string>
+				<key>Data</key>
+				<string>0x1E100-0x1E14F</string>
+				<key>Unicode</key>
+				<string>0001E100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Toto</string>
+				<key>Category</key>
+				<string>Toto</string>
+				<key>Data</key>
+				<string>0x1E290-0x1E2BF</string>
+				<key>Unicode</key>
+				<string>0001E290</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Wancho</string>
+				<key>Category</key>
+				<string>Wancho</string>
+				<key>Data</key>
+				<string>0x1E2C0-0x1E2FF</string>
+				<key>Unicode</key>
+				<string>0001E2C0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Nag Mundari</string>
+				<key>Category</key>
+				<string>Nag Mundari</string>
+				<key>Data</key>
+				<string>0x1E4D0-0x1E4FF</string>
+				<key>Unicode</key>
+				<string>0001E4D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ol Onal</string>
+				<key>Category</key>
+				<string>Ol Onal</string>
+				<key>Data</key>
+				<string>0x1E5D0-0x1E5FF</string>
+				<key>Unicode</key>
+				<string>0001E5D0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ethiopic Extended-B</string>
+				<key>Category</key>
+				<string>Ethiopic</string>
+				<key>Data</key>
+				<string>0x1E7E0-0x1E7FF</string>
+				<key>Unicode</key>
+				<string>0001E7E0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mende Kikakui</string>
+				<key>Category</key>
+				<string>Mende Kikakui</string>
+				<key>Data</key>
+				<string>0x1E800-0x1E8DF</string>
+				<key>Unicode</key>
+				<string>0001E800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Adlam</string>
+				<key>Category</key>
+				<string>Adlam</string>
+				<key>Data</key>
+				<string>0x1E900-0x1E95F</string>
+				<key>Unicode</key>
+				<string>0001E900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Indic Siyaq Numbers</string>
+				<key>Category</key>
+				<string>Indic Siyaq Numbers</string>
+				<key>Data</key>
+				<string>0x1EC70-0x1ECBF</string>
+				<key>Unicode</key>
+				<string>0001EC70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ottoman Siyaq Numbers</string>
+				<key>Category</key>
+				<string>Ottoman Siyaq Numbers</string>
+				<key>Data</key>
+				<string>0x1ED00-0x1ED4F</string>
+				<key>Unicode</key>
+				<string>0001ED00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Arabic Math Alphabetic Symbols</string>
+				<key>Category</key>
+				<string>Math Alphanumeric Symbols</string>
+				<key>Data</key>
+				<string>0x1EE00-0x1EEFF</string>
+				<key>Unicode</key>
+				<string>0001EE00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Mahjong Tiles</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F000-0x1F02F</string>
+				<key>Unicode</key>
+				<string>0001F000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Domino Tiles</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F030-0x1F09F</string>
+				<key>Unicode</key>
+				<string>0001F030</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Playing Cards</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F0A0-0x1F0FF</string>
+				<key>Unicode</key>
+				<string>0001F0A0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Enclosed Alphanumeric Supplement</string>
+				<key>Category</key>
+				<string>Enclosed and Square</string>
+				<key>Data</key>
+				<string>0x1F100-0x1F1FF</string>
+				<key>Unicode</key>
+				<string>0001F100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Enclosed Ideographic Supplement</string>
+				<key>Category</key>
+				<string>Enclosed and Square</string>
+				<key>Data</key>
+				<string>0x1F200-0x1F2FF</string>
+				<key>Unicode</key>
+				<string>0001F200</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Miscellaneous Symbols And Pictographs</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F300-0x1F5FF</string>
+				<key>Unicode</key>
+				<string>0001F300</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Emoticons</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F600-0x1F64F</string>
+				<key>Unicode</key>
+				<string>0001F600</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Ornamental Dingbats</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F650-0x1F67F</string>
+				<key>Unicode</key>
+				<string>0001F650</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Transport And Map Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F680-0x1F6FF</string>
+				<key>Unicode</key>
+				<string>0001F680</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Alchemical Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F700-0x1F77F</string>
+				<key>Unicode</key>
+				<string>0001F700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Geometric Shapes Extended</string>
+				<key>Category</key>
+				<string>Geometrical Symbols</string>
+				<key>Data</key>
+				<string>0x1F780-0x1F7FF</string>
+				<key>Unicode</key>
+				<string>0001F780</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplemental Arrows-C</string>
+				<key>Category</key>
+				<string>Mathematical Symbols</string>
+				<key>Data</key>
+				<string>0x1F800-0x1F8FF</string>
+				<key>Unicode</key>
+				<string>0001F800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplemental Symbols and Pictographs</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1F900-0x1F9FF</string>
+				<key>Unicode</key>
+				<string>0001F900</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Chess Symbols</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1FA00-0x1FA6F</string>
+				<key>Unicode</key>
+				<string>0001FA00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Symbols and Pictographs Extended-A</string>
+				<key>Category</key>
+				<string>Miscellaneous Symbols</string>
+				<key>Data</key>
+				<string>0x1FA70-0x1FAFF</string>
+				<key>Unicode</key>
+				<string>0001FA70</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Symbols for Legacy Computing</string>
+				<key>Category</key>
+				<string>Technical Symbols</string>
+				<key>Data</key>
+				<string>0x1FB00-0x1FBFF</string>
+				<key>Unicode</key>
+				<string>0001FB00</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. B</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x20000-0x2A6DF</string>
+				<key>Unicode</key>
+				<string>00020000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. C</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x2A700-0x2B73F</string>
+				<key>Unicode</key>
+				<string>0002A700</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. D</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x2B740-0x2B81F</string>
+				<key>Unicode</key>
+				<string>0002B740</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. E</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x2B820-0x2CEAF</string>
+				<key>Unicode</key>
+				<string>0002B820</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. F</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x2CEB0-0x2EBEF</string>
+				<key>Unicode</key>
+				<string>0002CEB0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. I</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x2EBF0-0x2EE5F</string>
+				<key>Unicode</key>
+				<string>0002EBF0</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Compatibility Ideographs Supp.</string>
+				<key>Category</key>
+				<string>CJK Compatibility Ideographs</string>
+				<key>Data</key>
+				<string>0x2F800-0x2FA1F</string>
+				<key>Unicode</key>
+				<string>0002F800</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. G</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x30000-0x3134F</string>
+				<key>Unicode</key>
+				<string>00030000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>CJK Unified Ideographs Ext. H</string>
+				<key>Category</key>
+				<string>CJK Unified Ideographs</string>
+				<key>Data</key>
+				<string>0x31350-0x323AF</string>
+				<key>Unicode</key>
+				<string>00031350</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Tags</string>
+				<key>Category</key>
+				<string>Tags</string>
+				<key>Data</key>
+				<string>0xE0000-0xE007F</string>
+				<key>Unicode</key>
+				<string>000E0000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Variation Selectors Supplement</string>
+				<key>Category</key>
+				<string>Variation Selectors</string>
+				<key>Data</key>
+				<string>0xE0100-0xE01EF</string>
+				<key>Unicode</key>
+				<string>000E0100</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplementary Private Use Area-A</string>
+				<key>Category</key>
+				<string>Private Use</string>
+				<key>Data</key>
+				<string>0xF0000-0xFFFFF</string>
+				<key>Unicode</key>
+				<string>000F0000</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>Supplementary Private Use Area-B</string>
+				<key>Category</key>
+				<string>Private Use</string>
+				<key>Data</key>
+				<string>0x100000-0x10FFFF</string>
+				<key>Unicode</key>
+				<string>00100000</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

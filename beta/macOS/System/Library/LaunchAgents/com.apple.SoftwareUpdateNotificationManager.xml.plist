@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.SoftwareUpdateNotificationManager</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>BadgingCountChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.SoftwareUpdate.BadgingCountChanged</string>
+			</dict>
+			<key>InsufficientSpace</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.SoftwareUpdateNotificationManager.InsufficientSpace</string>
+			</dict>
+			<key>LoginDone</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.system.loginwindow.delayedLoginItemsInitiated</string>
+			</dict>
+			<key>PostMinorUpdateSuccess</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.SoftwareUpdateNotificationManager.PostMinorUpdateSuccess</string>
+			</dict>
+			<key>UpdatesAvailable</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.SoftwareUpdate.updatesAvailable</string>
+			</dict>
+			<key>Wakeup</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.SoftwareUpdateNotificationManager.wakeup</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>LoginWindow</string>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.SoftwareUpdateNotificationManagerService</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.SoftwareUpdateNotification</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager</string>
+</dict>
+</plist>

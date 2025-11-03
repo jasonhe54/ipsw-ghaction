@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ImageSearch</key>
+	<array>
+		<dict>
+			<key>LocalizedName</key>
+			<string>AllSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Name</string>
+				<string>Caption</string>
+				<string>Comment</string>
+				<string>displayDateString</string>
+				<string>fileExtensionString</string>
+				<string>ILMediaObjectKeywordsAttribute</string>
+			</array>
+		</dict>
+		<dict>
+			<key>LocalizedName</key>
+			<string>TitleSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Name</string>
+			</array>
+		</dict>
+	</array>
+	<key>MovieSearch</key>
+	<array>
+		<dict>
+			<key>LocalizedName</key>
+			<string>AllSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Name</string>
+				<string>Artist</string>
+				<string>fileExtensionString</string>
+			</array>
+		</dict>
+		<dict>
+			<key>LocalizedName</key>
+			<string>TitleSearchTitle</string>
+			<key>SearchAttributes</key>
+			<array>
+				<string>Name</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

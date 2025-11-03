@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>className</key>
+	<string>Floating</string>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>hasMultiImageInput</key>
+	<true/>
+	<key>imageInputInfo</key>
+	<array>
+		<dict>
+			<key>aspectRatioHint</key>
+			<string>all</string>
+			<key>canHandleKenBurns</key>
+			<true/>
+			<key>kenBurnsType</key>
+			<string>Crop to Fit</string>
+			<key>showDisplayTime</key>
+			<real>1</real>
+			<key>usesMipmapping</key>
+			<true/>
+		</dict>
+	</array>
+	<key>isNative3D</key>
+	<true/>
+	<key>isOpaque</key>
+	<false/>
+	<key>mainDuration</key>
+	<integer>3</integer>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>needsFaceDetection</key>
+	<false/>
+	<key>numberOfTexts</key>
+	<integer>0</integer>
+	<key>phaseInDuration</key>
+	<integer>0</integer>
+	<key>phaseOutDuration</key>
+	<integer>0</integer>
+	<key>presets</key>
+	<dict>
+		<key>Default</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

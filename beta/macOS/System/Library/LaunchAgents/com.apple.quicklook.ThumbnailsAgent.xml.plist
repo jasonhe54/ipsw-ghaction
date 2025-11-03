@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.quicklook.ThumbnailsAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.finder.DeleteImmediately</key>
+			<dict>
+				<key>Name</key>
+				<string>DeleteImmediately</string>
+			</dict>
+			<key>com.apple.finder.EmptyTrash</key>
+			<dict>
+				<key>Name</key>
+				<string>EmptyingTrash</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.quicklook.cloudThumbnailDatabaseCleanup</key>
+			<dict>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.quicklook.ThumbnailsAgent</key>
+		<true/>
+		<key>com.apple.quicklook.ThumbnailsAgent.CacheDelete</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent</string>
+</dict>
+</plist>

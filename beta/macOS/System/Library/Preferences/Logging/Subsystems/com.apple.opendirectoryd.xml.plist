@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mappings</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+			<key>Persist</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>object-lifetime</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+			<key>Persist</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>pipeline</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Default</string>
+			<key>Persist</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+	<key>systemcache.memberships.debug</key>
+	<dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>off</string>
+			<key>Persist</key>
+			<string>Default</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

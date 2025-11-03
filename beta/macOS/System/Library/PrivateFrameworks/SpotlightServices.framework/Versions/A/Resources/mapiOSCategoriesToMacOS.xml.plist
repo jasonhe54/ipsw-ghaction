@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.CloudDocs.MobileDocumentsFileProvider</key>
+	<string>com.apple.documents</string>
+	<key>com.apple.CloudDocs.iCloudDriveFileProvider</key>
+	<string>com.apple.documents</string>
+	<key>com.apple.CloudDocs.iCloudDriveFileProviderManaged</key>
+	<string>com.apple.documents</string>
+	<key>com.apple.MobileAddressBook</key>
+	<string>com.apple.contacts</string>
+	<key>com.apple.MobileSMS</key>
+	<string>com.apple.iChat</string>
+	<key>com.apple.Music</key>
+	<string>com.apple.music</string>
+	<key>com.apple.Preferences</key>
+	<string>com.apple.systempreferences</string>
+	<key>com.apple.application</key>
+	<string>com.apple.applications</string>
+	<key>com.apple.calculation</key>
+	<string>com.apple.calculator</string>
+	<key>com.apple.conversion</key>
+	<string>com.apple.conversions</string>
+	<key>com.apple.mobilecal</key>
+	<string>com.apple.CalendarUI</string>
+	<key>com.apple.mobilemail</key>
+	<string>com.apple.mail</string>
+	<key>com.apple.mobilenotes</key>
+	<string>com.apple.Notes</string>
+	<key>com.apple.mobilesafari</key>
+	<string>com.apple.bookmarks</string>
+	<key>com.apple.parsec.itunes.iosSoftware</key>
+	<string>com.apple.parsec.itunes.desktopApp</string>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.mobile.NRDUpdated</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mobile.NRDUpdated</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/NRDUpdated</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>_softwareupdate</string>
+</dict>
+</plist>

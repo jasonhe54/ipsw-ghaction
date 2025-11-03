@@ -1,0 +1,15 @@
+"RATCHET_RC_ADD_NOT_ALLOWED_ALERT_TITLE_VISION" = "Can’t Add Recovery Contact on this Vision Pro";
+"RATCHET_RC_ADD_NOT_ALLOWED_ALERT_TITLE_MAC" = "Can’t Add Recovery Contact on this Mac";
+"RATCHET_RC_ADD_NOT_ALLOWED_ALERT_TITLE_UNKNOWN" = "Can’t Add Recovery Contact on this device";
+"RATCHET_RC_ADD_NOT_ALLOWED_ALERT_TITLE_IPHONE" = "Can’t Add Recovery Contact on this iPhone";
+"RATCHET_RC_ADD_NOT_ALLOWED_MESSAGE_VM" = "macOS running on a virtual machine can’t be used to edit certain account information. To add your recovery contact now, use your other Apple devices.";
+"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_UNKNOWN" = "Can’t Remove Recovery Contact on this device";
+"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_VISION" = "Can’t Remove Recovery Contact on this Vision Pro";
+"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_MAC" = "Can’t Remove Recovery Contact on this Mac";
+"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_IPHONE" = "Can’t Remove Recovery Contact on this iPhone";
+"RATCHET_RC_DELETE_NOT_ALLOWED_MESSAGE" = "For security, your new device can’t be used to edit your account information at this time. To remove your recovery contact now, use your other Apple devices.";
+"RATCHET_RC_DELETE_NOT_ALLOWED_MESSAGE_VM" = "macOS running on a virtual machine can’t be used to edit certain account information. To remove your recovery contact now, use your other Apple devices.";
+"RATCHET_RC_ADD_NOT_ALLOWED_ALERT_TITLE_IPAD" = "Can’t Add Recovery Contact on this iPad";
+"RATCHET_RC_ADD_NOT_ALLOWED_MESSAGE" = "For security, your new device can’t be used to edit your account information at this time. To add your recovery contact now, use your other Apple devices.";
+"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_IPAD" = "Can’t Remove Recovery Contact on this iPad";
+"RATCHET_RC_EDIT_NOT_ALLOWED_ALERT_BUTTON" = "OK";

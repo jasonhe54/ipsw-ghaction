@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Dynamic LDAPv3 node</string>
+	<key>enabled</key>
+	<true/>
+	<key>hide registration</key>
+	<true/>
+	<key>locked</key>
+	<true/>
+	<key>module options</key>
+	<dict>
+		<key>AppleODClient</key>
+		<dict>
+			<key>Server Mappings</key>
+			<true/>
+		</dict>
+		<key>ldap</key>
+		<dict>
+			<key>Denied SASL Methods</key>
+			<array>
+				<string>DIGEST-MD5</string>
+			</array>
+			<key>LDAP Referrals</key>
+			<false/>
+			<key>Use DNS replicas</key>
+			<true/>
+			<key>Use altServer replicas</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>options</key>
+	<dict>
+		<key>connection idle disconnect</key>
+		<integer>60</integer>
+		<key>connection setup timeout</key>
+		<integer>10</integer>
+		<key>man-in-the-middle</key>
+		<false/>
+		<key>no cleartext authentication</key>
+		<true/>
+		<key>packet encryption</key>
+		<integer>1</integer>
+		<key>packet signing</key>
+		<integer>1</integer>
+		<key>query timeout</key>
+		<integer>30</integer>
+	</dict>
+	<key>template</key>
+	<string>Open Directory Server</string>
+</dict>
+</plist>

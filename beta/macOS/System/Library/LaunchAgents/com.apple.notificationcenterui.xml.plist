@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.notificationcenterui.agent</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.notificationcenterui.customalerts</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+		</dict>
+		<key>com.apple.notificationcenterui.main</key>
+		<true/>
+		<key>com.apple.notificationcenterui.menu</key>
+		<true/>
+		<key>com.apple.notificationcenterui.nctool</key>
+		<true/>
+		<key>com.apple.notificationcenterui.pip</key>
+		<true/>
+		<key>com.apple.notificationcenterui.siri</key>
+		<true/>
+		<key>com.apple.widget-observation</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter</string>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

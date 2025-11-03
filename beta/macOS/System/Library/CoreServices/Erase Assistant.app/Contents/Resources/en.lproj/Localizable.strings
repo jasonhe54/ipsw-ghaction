@@ -1,0 +1,72 @@
+"OTHER_VOLUMES_TITLE" = "Erase Other Volumes";
+"OTHER_VOLUMES_LINK_TITLE" = "Open Disk Utility…";
+"HARDWARE_NOT_SUPPORTED_LINK" = "https://support.apple.com/kb/HT201065";
+"RESET_PROGRESS_TITLE" = "Erasing Content & Data…";
+"EFI_PASSWORD_URL" = "https://support.apple.com/kb/HT204455";
+"OTHER_VOLUMES_BODY" = "Your computer’s disk has been partitioned and formatted so that it prevents erasing. Other volumes need to be erased in Disk Utility before erasing all content and settings on this Mac.";
+"OTHER_USERS_LABEL" = "Other Users";
+"FAILURE_ALERT_BODY" = "An error occurred when preparing to erase. Try again later.";
+"ICLOUD_SIGNOUT_TITLE" = "Sign Out";
+"NOT_AUTHORIZED_BODY" = "You are not authorized to open %@.";
+"PROFILE_BLOCKED_BODY" = "Erase Assistant cannot be opened because it is restricted by a profile.";
+"RESET_SUMMARY_LIST_ACCESSORIES" = "Accessories";
+"HARDWARE_NOT_SUPPORTED_TITLE" = "%@ is not supported on this Mac";
+"RESET_SUMMARY_LIST_APPLEACCOUNT" = "Apple Account";
+"Quit" = "Quit";
+"FULL_SECURITY_SUPPORT_URL" = "https://support.apple.com/kb/HT208198";
+"PROFILE_BLOCKED_TITLE" = "Profile Installed";
+"FMM_SIGNOUT_FAILED" = "Failed to sign out of Find My";
+"CONFIRM_ERASE_INFO" = "All data, settings, and apps will be erased. This cannot be undone.
+
+Your screen may be dark while your Mac is being erased and your Mac may restart more than once. This process is complete when your Mac displays “Hello” on the screen.";
+"CONFIRM_ERASE_SECOND_BUTTON_TITLE" = "Cancel";
+"COLLECT_ADMIN_CREDENTIALS" = "Administrator credentials are required to open %@.";
+"Back" = "Back";
+"CONFIRM_ERASE_FIRST_BUTTON_TITLE" = "Erase All Content & Settings";
+"PASSWORD_ENTRY_TITLE" = "Enter Password";
+"RESET_SUMMARY_TITLE" = "Erase All Content & Settings";
+"RESET_SUMMARY_LIST_WALLET" = "Wallet";
+"RESET_SUMMARY_LIST_FINDMY_SUB" = "Location Sharing will be turned off";
+"TIME_MACHINE_LINK_TITLE" = "Open Time Machine…";
+"NOT_AUTHORIZED_TITLE" = "User Account Not Authorized";
+"RESET_SUMMARY_LIST_TOUCHID" = "Touch ID";
+"RESET_SUMMARY_LIST_WALLET_SUB" = "All Wallet items including Apple Card will be removed";
+"FAILURE_ALERT_TITLE" = "Cannot Erase All Content and Settings";
+"RESET_SUMMARY_BODY" = "All settings, media, and data for all volumes on this Mac will be erased. The following items will also be removed:";
+"LEARN_MORE_BUTTON" = "Learn More";
+"NOT_ADMIN_BODY" = "You must be a system administrator to open %@. Log in as an administrator and try again.";
+"PASSWORD_ENTRY_LABEL" = "Password:";
+"FMM_SIGNOUT_BODY" = "Enter the password for the Apple Account “%1$@” to turn off Find My on this Mac.";
+"APPLEID_SIGNOUT_FAILED" = "Failed to sign out of iCloud";
+"NOT_INTEGRAL_CANCEL_INSTALL_BUTTON" = "Not Now";
+"PASSWORD_ENTRY_BODY" = "To erase all content and settings, enter the password of your user account.";
+"NOT_FULL_SECURITY_TITLE" = "Set Secure Boot to Full Security";
+"RESET_SUMMARY_LIST_TOUCHID_SUB" = "All fingerprints used for unlocking this Mac and purchases will be removed";
+"WALLET_ITEMS" = "{'WALLET_ITEMS': {'one': '%1$lu item', 'zero': '%1$lu items', 'other': '%1$lu items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@WALLET_ITEMS@'}";
+"NOT_FULL_SECURITY_BODY" = "Secure Boot must be set to full security to erase all content and settings.
+
+Learn more at %@";
+"NOT_INTEGRAL_BODY" = "Erase Assistant cannot erase this Mac because the system has been modified. Reinstall macOS to use Erase Assistant.";
+"RESET_SUMMARY_BODY_SHORT" = "All settings, media, and data for all volumes on this Mac will be erased.";
+"RESET_PROGRESS_STATUS_TIME_FORMAT" = "Time Remaining: %@";
+"ICLOUD_SIGNOUT_BODY" = "Enter the password for the Apple Account “%1$@”
+You will also be signed out of Apple Music, Apple Podcasts, Apple TV, Apple News, App Store and other Apple services.";
+"NOT_ADMIN_TITLE" = "Admin User Required";
+"Continue" = "Continue";
+"RESET_SUMMARY_LIST_FINDMY" = "Find My & Activation Lock";
+"RESET_PROGRESS_STATUS_HEADING" = "Erasing Data…";
+"TIME_MACHINE_BODY" = "You should back up your Mac using Time Machine before resetting it. Resetting your Mac will delete all media, data, and settings.";
+"NOT_INTEGRAL_TITLE" = "Cannot Erase All Content and Settings";
+"EFI_PASSWORD_TITLE" = "Turn Off Firmware Password";
+"CONFIRM_ERASE_MESSAGE" = "You are about to erase all content and settings from this Mac";
+"TIME_MACHINE_TITLE" = "Time Machine Backup";
+"NOT_ADMIN_QUIT" = "Quit";
+"FMM_SIGNOUT_TITLE" = "Sign Out of Find My";
+"EFI_PASSWORD_BODY" = "The firmware password must be removed to erase all content and settings.
+
+Learn more at %@";
+"RESET_SUMMARY_LIST_ACCESSORIES_SUB" = "All Bluetooth accessories will be unpaired";
+"TIME_MACHINE_STATUS_FORMAT" = "Your Mac was last backed up on %@";
+"TIME_MACHINE_NO_BACKUP_DATE" = "Time Machine is not enabled.";
+"RESET_SUMMARY_LIST_APPLEACCOUNT_SUB" = "%@ will be signed out";
+"NOT_INTEGRAL_CONTINUE_INSTALL_BUTTON" = "Install";

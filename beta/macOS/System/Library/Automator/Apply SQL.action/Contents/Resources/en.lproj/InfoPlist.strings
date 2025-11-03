@@ -1,0 +1,9 @@
+"AMName" = "Apply SQL";
+"AMDSummary" = "This action applies the input SQL against an SQLite database and produces output in one of several formats.";
+"Development" = "Development";
+"Xcode" = "Xcode";
+"AMDResult" = "One string per input sequence of SQL commands, describing the results of executing the SQL against the specified database, in the requested output format.";
+"CFBundleName" = "Apply SQL";
+"AMDInput" = "One or more sequences of SQL commands, either as strings or files.  Each string or file is executed against the database in sequence.";
+"NSHumanReadableCopyright" = "Copyright © 2009-2013 Apple Inc.  All rights reserved.";
+"AMDOptions" = "Select the database to apply the input SQL commands to and the format of the output.  You may choose an existing database or create a new one.  The output may be formatted as plain text, HTML, or comma-separated values (CSV).";

@@ -1,0 +1,10 @@
+"AMName" = "Render PDF Pages as Images";
+"Render" = "Render";
+"AMDSummary" = "This action will render each page of the passed PDF documents as images.";
+"AMDResult" = "References to the rendered image files.";
+"CFBundleName" = "Render PDF Pages as Images";
+"AMDNote" = "As the names of the resulting images are randomly generated, this action is often followed by the Rename Finder Items > Make Sequential action.";
+"NSHumanReadableCopyright" = "Copyright © 2005–2009 Apple Inc. All rights reserved.";
+"PDF" = "PDF";
+"AMDOptions" = "Image format, color model, resolution, and compression";
+"Print" = "Print";

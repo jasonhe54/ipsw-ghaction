@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>exportedDylibs</key>
+	<array>
+		<string>/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore</string>
+		<string>/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework/Versions/A/QuartzComposer</string>
+		<string>/System/Library/Frameworks/PDFKit.framework/Versions/A/PDFKit</string>
+		<string>/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework/Versions/A/QuartzFilters</string>
+		<string>/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework/Versions/A/ImageKit</string>
+		<string>/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI</string>
+	</array>
+	<key>loadPath</key>
+	<string>/System/Library/Frameworks/Quartz.framework/Quartz</string>
+</dict>
+</plist>

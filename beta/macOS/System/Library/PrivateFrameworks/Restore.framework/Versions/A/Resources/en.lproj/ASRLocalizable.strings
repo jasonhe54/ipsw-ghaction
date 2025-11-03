@@ -1,0 +1,390 @@
+"Could not get filesystem information for “%@”" = "Could not get filesystem information for “%@”";
+"Container has no preboot volume" = "Container has no preboot volume";
+"getting information for “%@”." = "getting information for “%@”.";
+"Could not execute %@" = "Could not execute %@";
+"Can’t overwrite special file “%@”" = "Can’t overwrite special file “%@”";
+"SHA-1 checksumming was requested and the source does not contain a SHA-1 hash" = "SHA-1 checksumming was requested and the source does not contain a SHA-1 hash";
+"Couldn’t get case sensitivity for volume at %@" = "Couldn’t get case sensitivity for volume at %@";
+"SHA-256 checksumming was requested and the source does not contain a SHA-256 hash" = "SHA-256 checksumming was requested and the source does not contain a SHA-256 hash";
+"Couldn’t find any scan data for image %@. Try running asr imagescan." = "Couldn’t find any scan data for image %@. Try running asr imagescan.";
+"The target must be a single APFS volume for a snapshot delta restore - %@" = "The target must be a single APFS volume for a snapshot delta restore - %@";
+"The source must be an HFS volume when converting to Core Storage" = "The source must be an HFS volume when converting to Core Storage";
+"unable to reorder image file “%@” - %@" = "unable to reorder image file “%1$@” - %2$@";
+"Could not map UUIDs for APFS volumes in container %@" = "Could not map UUIDs for APFS volumes in container %@";
+"Value for kRestoreOpPROptionsKey must be a file URL" = "Value for kRestoreOpPROptionsKey must be a file URL";
+"“%@” is not a directory" = "“%@” is not a directory";
+"unable to write scan resources into “%@” - %@." = "unable to write scan resources into “%1$@” - %2$@.";
+"Checksum failed.
+Expected %lX
+but got %lX" = "Checksum failed.
+Expected %1$lX
+but got %2$lX";
+"Could not repartition the target for Core Storage" = "Could not repartition the target for Core Storage";
+"More than one volume in the source container has the name “%@”.
+Use --sourcevolumeUUID. Use ‘diskutil apfs list’ to see volume UUIDs." = "More than one volume in the source container has the name “%@”.
+Use --sourcevolumeUUID. Use ‘diskutil apfs list’ to see volume UUIDs.";
+"Could not stat “%@”: %@" = "Could not stat “%1$@”: %2$@";
+"Could not open disk image %@ for verification" = "Could not open disk image %@ for verification";
+"Could not fix UUIDs for APFS volumes in container %@" = "Could not fix UUIDs for APFS volumes in container %@";
+"error reading link “%@” on volume %@: %@" = "error reading link “%1$@” on volume %2$@: %3$@";
+"unable to get read MDB/VH for blkx %d - %@." = "unable to get read MDB/VH for blkx %1$d - %2$@.";
+"unable to write UDIF info into “%@” - %@." = "unable to write UDIF info into “%1$@” - %2$@.";
+"Couldn’t copy preboot volume contents from source - %@" = "Couldn’t copy preboot volume contents from source - %@";
+"Couldn’t make group for system at %@: %@" = "Couldn’t make group for system at %1$@: %2$@";
+"unable to update ‘cSum’ resource - %@." = "unable to update ‘cSum’ resource - %@.";
+"No data volume corresponding to unreadable system volume at %@" = "No data volume corresponding to unreadable system volume at %@";
+"Bless failed on volume “%@” - %@" = "Bless failed on volume “%1$@” - %2$@";
+"Fingerprinting" = "Fingerprinting";
+"Verification failed: You can’t start up a computer with the target partition." = "Verification failed: You can’t start up a computer with the target partition.";
+"Unrecognized filesystem format “%@”" = "Unrecognized filesystem format “%@”";
+"Could not understand multicast server response" = "Could not understand multicast server response";
+"unable to add new ‘nsiz’ resource - %@." = "unable to add new ‘nsiz’ resource - %@.";
+"unable to read sectors 0x%08llX...0x%08llX - %@." = "unable to read sectors 0x%1$llX...0x%2$llX - %3$@.";
+"Could not attach source image" = "Could not attach source image";
+"Couldn’t personalize volume at %@ - %@" = "Couldn’t personalize volume at %1$@ - %2$@";
+"APFS volume cannot be the target of restores unless the source is also APFS." = "APFS volume cannot be the target of restores unless the source is also APFS.";
+"%@ failed with error %d
+" = "%1$@ failed with error %2$d
+";
+"Reordering" = "Reordering";
+"Could not open resources for image “%@”" = "Could not open resources for image “%@”";
+"only UDIF images can be scanned." = "only UDIF images can be scanned.";
+"Expected device properties can’t be found" = "Expected device properties can’t be found";
+"Could not access multicast stream information" = "Could not access multicast stream information";
+"Note: checksumming turned off due to format argument" = "Note: checksumming turned off due to format argument";
+"Source volume format on device “%@” is not valid for restoring" = "Source volume format on device “%@” is not valid for restoring";
+"Could not unmount partitions on %s" = "Could not unmount partitions on %s";
+"Ejecting the source image..." = "Ejecting the source image...";
+"Verifying   " = "Verifying   ";
+"Could not get mount information for volume %@" = "Could not get mount information for volume %@";
+"Could not set the size for %@" = "Could not set the size for %@";
+"unable to get UDIF info from “%@” - %@." = "unable to get UDIF info from “%1$@” - %2$@.";
+"Could not get content information for device “%@”" = "Could not get content information for device “%@”";
+"There is no volume mounted on device “%@”, and you have not set the erase option" = "There is no volume mounted on device “%@”, and you have not set the erase option";
+"Error while looking up data volume in container %@: %@" = "Error while looking up data volume in container %1$@: %2$@";
+"Couldn’t get device information for %@ - %d" = "Couldn’t get device information for %1$@ - %2$d";
+"Erasing target device %@..." = "Erasing target device %@...";
+"Could not find a system volume in container at %@" = "Could not find a system volume in container at %@";
+"Couldn’t complete APFS hidden restore - %@" = "Couldn’t complete APFS hidden restore - %@";
+"unable to calculate block checksum for blkx %d - %@." = "unable to calculate block checksum for blkx %1$d - %2$@.";
+"Verifying" = "Verifying";
+"“%@” is a directory. The target path must be a file." = "“%@” is a directory. The target path must be a file.";
+"Could not calculate checksum for volume “%@”" = "Could not calculate checksum for volume “%@”";
+"Could not get blkx resource for volume’s partition" = "Could not get blkx resource for volume’s partition";
+"The source image is missing checksum/hash information.
+Please rescan it." = "The source image is missing checksum/hash information.
+Please rescan it.";
+"The “from” and “to” snapshots must be different." = "The “from” and “to” snapshots must be different.";
+"Error looking up system volume for data volume %@: %@." = "Error looking up system volume for data volume %1$@: %2$@.";
+"Not enough space on %@ to restore" = "Not enough space on %@ to restore";
+"	Verifying  " = "	Verifying  ";
+"unable to get HFS tidemark - %@" = "unable to get HFS tidemark - %@";
+"Couldn’t unmount all volumes prior to inversion - %@" = "Couldn’t unmount all volumes prior to inversion - %@";
+"The directory “%@” is not writable" = "The directory “%@” is not writable";
+"fsck_hfs failed to convert the target to case-sensitive." = "fsck_hfs failed to convert the target to case-sensitive.";
+"Snapshot %@ doesn’t exist on device %s." = "Snapshot %1$@ doesn’t exist on device %2$s.";
+"Couldn’t attach source image “%@”" = "Couldn’t attach source image “%@”";
+"Couldn’t embed the APFS EFI driver - %@" = "Couldn’t embed the APFS EFI driver - %@";
+"Unable to convert blkx resource to copy instructions" = "Unable to convert blkx resource to copy instructions";
+"unable to get kill HFS wrapper copy instructions for blkx %d - %@." = "unable to get kill HFS wrapper copy instructions for blkx %1$d - %2$@.";
+"The target is a revertible Core Storage volume, but the source contains non-zero bytes in the first 1 KiB" = "The target is a revertible Core Storage volume, but the source contains non-zero bytes in the first 1 KiB";
+"The given volume does not contain the given snapshots." = "The given volume does not contain the given snapshots.";
+"kRestoreOpStreamBufSizeKey is only for multicast restores." = "kRestoreOpStreamBufSizeKey is only for multicast restores.";
+"Block checksum: " = "Block checksum: ";
+"Target “%@” is not an APFS container disk." = "Target “%@” is not an APFS container disk.";
+"Couldn’t open resource file for image %@" = "Couldn’t open resource file for image %@";
+"Image is not ordered" = "Image is not ordered";
+"Could not recognize “%@” as an image file" = "Could not recognize “%@” as an image file";
+"Could not instantiate disk image object for %@" = "Could not instantiate disk image object for %@";
+"Try using --disableOwners" = "Try using --disableOwners";
+"The source must be an APFS container for ARV block restores" = "The source must be an APFS container for ARV block restores";
+"unable to convert “%@” to CFURL - %@." = "unable to convert “%1$@” to CFURL - %2$@.";
+"A source is required when scanning." = "A source is required when scanning.";
+"Can’t have both kRestoreOpTargetKey and kRestoreOpTargetFileKey" = "Can’t have both kRestoreOpTargetKey and kRestoreOpTargetFileKey";
+"Error finding volume with matching snapshots in container %@ - %d" = "Error finding volume with matching snapshots in container %1$@ - %2$d";
+"waiting for server..." = "waiting for server...";
+"Couldn’t get UUID for volume %@ - %d" = "Couldn’t get UUID for volume %1$@ - %2$d";
+"Could not get mount information for device %@" = "Could not get mount information for device %@";
+"unable to read partition map - %@." = "unable to read partition map - %@.";
+"unable to scan filesystem - %@." = "unable to scan filesystem - %@.";
+"Validating target..." = "Validating target...";
+"Error waiting for container %@ to quiesce" = "Error waiting for container %@ to quiesce";
+"Image “%@” doesn’t have any appropriate volumes to restore." = "Image “%@” doesn’t have any appropriate volumes to restore.";
+"unable to read MDB/VH - %@" = "unable to read MDB/VH - %@";
+"Repartitioning target device..." = "Repartitioning target device...";
+"Could not stat source filesystem - “%@”" = "Could not stat source filesystem - “%@”";
+"Could not mark APFS container as new/unique" = "Could not mark APFS container as new/unique";
+"unable to allocate checksum buffer - %@." = "unable to allocate checksum buffer - %@.";
+"Can’t verify a read-only hidden volume" = "Can’t verify a read-only hidden volume";
+"Source volume is read-write and cannot be unmounted, so it can’t be block copied." = "Source volume is read-write and cannot be unmounted, so it can’t be block copied.";
+"Unable to disable display sleep - %d" = "Unable to disable display sleep - %d";
+"access denied for “%@”. Try running as root." = "access denied for “%@”. Try running as root.";
+"unable to get info for volume “%@”." = "unable to get info for volume “%@”.";
+"Could not get information about filesystem for “%@” - %@
+" = "Could not get information about filesystem for “%1$@” - %2$@
+";
+"Volume replication failed - %@" = "Volume replication failed - %@";
+"A source is required when restoring." = "A source is required when restoring.";
+"More than one volume in the source image has the name “%@”.
+Use --sourcevolumeUUID. Use asr info to see volume UUIDs." = "More than one volume in the source image has the name “%@”.
+Use --sourcevolumeUUID. Use asr info to see volume UUIDs.";
+"The image “%@” has missing or outdated scan information" = "The image “%@” has missing or outdated scan information";
+"Writing to two targets. Split point is %.1f GiB (%lld bytes)." = "Writing to two targets. Split point is %1$.1f GiB (%2$lld bytes).";
+"Couldn’t set up partitions on target device - operation %@, line #%d - %@" = "Couldn’t set up partitions on target device - operation %1$@, line #%2$d - %3$@";
+"Volume at %@ has no UUID" = "Volume at %@ has no UUID";
+"“%@” doesn’t have any appropriate volumes with the given name or UUID." = "“%@” doesn’t have any appropriate volumes with the given name or UUID.";
+"Successfully copied file “%@”" = "Successfully copied file “%@”";
+"Calculating checksum for volume “%@”..." = "Calculating checksum for volume “%@”...";
+"Error looking up snapshot for volume “%@”" = "Error looking up snapshot for volume “%@”";
+"Block restoring over an APFS container requires --erase." = "Block restoring over an APFS container requires --erase.";
+"The “info” verb can only be used with an image file as the source." = "The “info” verb can only be used with an image file as the source.";
+"Could not query APFS container for system volume" = "Could not query APFS container for system volume";
+"Remounting target volume..." = "Remounting target volume...";
+"Could not rename ordered file. Original file still exists as “%@”
+Ordered file exists as “%@”.
+" = "Could not rename ordered file. Original file still exists as “%1$@”
+Ordered file exists as “%2$@”.
+";
+"Could not find any mountable partitions in image “%@”" = "Could not find any mountable partitions in image “%@”";
+"Checksumming partition of size %ld blocks..." = "Checksumming partition of size %ld blocks...";
+"Image “%@” has more than one Apple_HFS or Apple_UFS partition" = "Image “%@” has more than one Apple_HFS or Apple_UFS partition";
+"Couldn’t set crypto hint for volume “%@” - %@" = "Couldn’t set crypto hint for volume “%1$@” - %2$@";
+"Error looking up snapshot on device %@" = "Error looking up snapshot on device %@";
+"unable to add new ‘cSum’ resource - %@." = "unable to add new ‘cSum’ resource - %@.";
+"unable to get blkx for partition %d." = "unable to get blkx for partition %d.";
+"Could not change the partition type for %@ - %@" = "Could not change the partition type for %1$@ - %2$@";
+"Could not find media object for volume %s - %d" = "Could not find media object for volume %1$s - %2$d";
+"Could not access device “%@”" = "Could not access device “%@”";
+"The source image is missing file checksum information.
+Please rescan it with the --filechecksum option." = "The source image is missing file checksum information.
+Please rescan it with the --filechecksum option.";
+"unable to write ranges file “%@”. Does the directory exist?" = "unable to write ranges file “%@”. Does the directory exist?";
+"Validating source..." = "Validating source...";
+"Copying    " = "Copying    ";
+"Could not get volume geometry information - %@" = "Could not get volume geometry information - %@";
+"Catalog file on image/volume “%@” is too badly fragmented" = "Catalog file on image/volume “%@” is too badly fragmented";
+"Catalog file is too fragmented for restore.
+Try “fsck_hfs -r” on writeable copy of the image volume" = "Catalog file is too fragmented for restore.
+Try “fsck_hfs -r” on writeable copy of the image volume";
+"The volume on device “%@” is not of type Apple_HFS or Apple_UFS" = "The volume on device “%@” is not of type Apple_HFS or Apple_UFS";
+"unable to update resources for “%@” - %@." = "unable to update resources for “%1$@” - %2$@.";
+"Could not resize APFS container - %@" = "Could not resize APFS container - %@";
+"Rebuilding catalog" = "Rebuilding catalog";
+"Could not get information about volume “%@”" = "Could not get information about volume “%@”";
+"fts_open() failed on “%@”." = "fts_open() failed on “%@”.";
+"Could not get target partition size" = "Could not get target partition size";
+"Verifying  " = "Verifying  ";
+"Could not turn off caching for file “%@”: %@" = "Could not turn off caching for file “%1$@”: %2$@";
+"Couldn’t find container disk for image “%@”" = "Couldn’t find container disk for image “%@”";
+"The source, %@, is an ARV that isn’t part of a volume group" = "The source, %@, is an ARV that isn’t part of a volume group";
+"Could not get underlying volume for the snapshot volume %@" = "Could not get underlying volume for the snapshot volume %@";
+"The multicast restore can’t be performed, because the geometries of the source image and target volume aren’t compatible." = "The multicast restore can’t be performed, because the geometries of the source image and target volume aren’t compatible.";
+"Could not get information about file “%@” - %@
+" = "Could not get information about file “%1$@” - %2$@
+";
+"There are no volumes in the container %@ with the given snapshots." = "There are no volumes in the container %@ with the given snapshots.";
+"unable to get image checksum." = "unable to get image checksum.";
+"Couldn’t get target recovery partition information.
+Someone has the disk open." = "Couldn’t get target recovery partition information.
+Someone has the disk open.";
+"Could not find any scan information. The source image needs to be imagescanned before it can be restored." = "Could not find any scan information. The source image needs to be imagescanned before it can be restored.";
+"Could not access directory “%@”" = "Could not access directory “%@”";
+"Couldn’t find container device for volume %@ - %d" = "Couldn’t find container device for volume %1$@ - %2$d";
+"Could not find APFS container disk for target - %@" = "Could not find APFS container disk for target - %@";
+"Can’t get role for volume %@." = "Can’t get role for volume %@.";
+"Error finding volume with appropriate role in container %@" = "Error finding volume with appropriate role in container %@";
+"Retrieving scan information..." = "Retrieving scan information...";
+"Could not restore - %@" = "Could not restore - %@";
+"The target must be a file/folder path for multicast copies" = "The target must be a file/folder path for multicast copies";
+"Could not set size of file “%@”: %@" = "Could not set size of file “%1$@”: %2$@";
+"Copying Files" = "Copying Files";
+"Copying Blocks" = "Copying Blocks";
+"Couldn’t look up group information for volume %@ - %@" = "Couldn’t look up group information for volume %1$@ - %2$@";
+"unable to add new ‘size’ resource - %@." = "unable to add new ‘size’ resource - %@.";
+"The hidden restore can’t be performed, because the geometries of the source image and target volume aren’t compatible." = "The hidden restore can’t be performed, because the geometries of the source image and target volume aren’t compatible.";
+"unable to add partition map ranges for image “%@” - %@" = "unable to add partition map ranges for image “%1$@” - %2$@";
+"Bom copy exited with error %d" = "Bom copy exited with error %d";
+"Could not create directory “%@”: %@" = "Could not create directory “%1$@”: %2$@";
+"Can’t gather image metadata" = "Can’t gather image metadata";
+"Updating   " = "Updating   ";
+"Could not get source partition size" = "Could not get source partition size";
+"File checksum:  " = "File checksum:  ";
+"Couldn’t unmount all volumes in container %@" = "Couldn’t unmount all volumes in container %@";
+"Reading back the contents of storage after writing it failed to match
+what was expected. Either the image needs to be rescanned, or
+corruption occurred on the device after transmission,
+due to bad memory or bad storage hardware (NAND).
+" = "Reading back the contents of storage after writing it failed to match
+what was expected. Either the image needs to be rescanned, or
+corruption occurred on the device after transmission,
+due to bad memory or bad storage hardware (NAND).
+";
+"Container has no system volume" = "Container has no system volume";
+"Could not get UUIDs for APFS volumes in container %@" = "Could not get UUIDs for APFS volumes in container %@";
+"Can’t block restore to an APFS volume." = "Can’t block restore to an APFS volume.";
+"Retry %sm" = "Retry %sm";
+"Blessed folder IDs couldn’t be copied" = "Blessed folder IDs couldn’t be copied";
+"Error looking up property “%@” for device “%@”" = "Error looking up property “%1$@” for device “%2$@”";
+"unable to update ‘nsiz’ resource - %@." = "unable to update ‘nsiz’ resource - %@.";
+"unable to allocate new ‘size’ resource - %@." = "unable to allocate new ‘size’ resource - %@.";
+"Error looking up group for volume “%@”" = "Error looking up group for volume “%@”";
+"Error: more than one snapshot on volume “%@” in factory mode" = "Error: more than one snapshot on volume “%@” in factory mode";
+"The source volume is a snapshot and can’t be used with the --toSnapshot option" = "The source volume is a snapshot and can’t be used with the --toSnapshot option";
+"Image format is not UDIF" = "Image format is not UDIF";
+"Restoring  " = "Restoring  ";
+"unable to recognize “%@” as a disk image - %@." = "unable to recognize “%1$@” as a disk image - %2$@.";
+"Could not allocate operator object %@" = "Could not allocate operator object %@";
+"“%@” is not a volume" = "“%@” is not a volume";
+"Could not restore the startup file on the target" = "Could not restore the startup file on the target";
+"APFS inverter failed to invert the volume - %@" = "APFS inverter failed to invert the volume - %@";
+"Could not get information about source file “%@”" = "Could not get information about source file “%@”";
+"The file “%@” already exists" = "The file “%@” already exists";
+"Could not repartition target device" = "Could not repartition target device";
+"Internal imagescan error" = "Internal imagescan error";
+"Checksum failure! Expected %lX but got %lX" = "Checksum failure! Expected %1$lX but got %2$lX";
+"Could not get source volume name" = "Could not get source volume name";
+"The source must have a recovery partition when converting to Core Storage" = "The source must have a recovery partition when converting to Core Storage";
+"There is not enough space in volume “%@” to do the restore" = "There is not enough space in volume “%@” to do the restore";
+"Waiting for server" = "Waiting for server";
+"cannot scan read/write images." = "cannot scan read/write images.";
+"Could not save the startup file" = "Could not save the startup file";
+"A target is required when restoring." = "A target is required when restoring.";
+"unable to allocate new ‘cSum’ resource - %@." = "unable to allocate new ‘cSum’ resource - %@.";
+"Checksum failed.
+Expected %s
+but got %s" = "Checksum failed.
+Expected %1$s
+but got %2$s";
+"unable to set generate XML data for ‘nsiz’ resource" = "unable to set generate XML data for ‘nsiz’ resource";
+"Erase option required for multicast restore" = "Erase option required for multicast restore";
+"The source must be an image in order to verify" = "The source must be an image in order to verify";
+"Source “%@” contains multiple system/data volumes.
+You must pass --sourcevolumename or --sourcevolumeUUID to specify which volume to restore." = "Source “%@” contains multiple system/data volumes.
+You must pass --sourcevolumename or --sourcevolumeUUID to specify which volume to restore.";
+"Could not mount source image" = "Could not mount source image";
+"Container has no recovery volume" = "Container has no recovery volume";
+"Could not find a data volume in container at %@" = "Could not find a data volume in container at %@";
+"Could not validate sizes - %@" = "Could not validate sizes - %@";
+"unable to instantiate CUDIFFileAccess object from “%@” - %@." = "unable to instantiate CUDIFFileAccess object from “%1$@” - %2$@.";
+"Verify failed: partitions are not set up correctly for Core Storage conversion." = "Verify failed: partitions are not set up correctly for Core Storage conversion.";
+"The image “%@” is missing size information. Please rescan it." = "The image “%@” is missing size information. Please rescan it.";
+"Setup" = "Setup";
+"The image %@ has no checksum to verify" = "The image %@ has no checksum to verify";
+"Couldn’t prepare the system volume for embedded block copy - %@" = "Couldn’t prepare the system volume for embedded block copy - %@";
+"unable to create dictionary to return information about volume “%@”." = "unable to create dictionary to return information about volume “%@”.";
+"Could not get information about target’s volume header - %@" = "Could not get information about target’s volume header - %@";
+"unable to open UDIFFileAccess object from “%@” - %@." = "unable to open UDIFFileAccess object from “%1$@” - %2$@.";
+"Verification is supported only for block operations" = "Verification is supported only for block operations";
+"The source and target cannot be the same" = "The source and target cannot be the same";
+"Could not query APFS container for data volume" = "Could not query APFS container for data volume";
+"Reordering:     " = "Reordering:     ";
+"Source volume format not yet supported in this version of macOS" = "Source volume format not yet supported in this version of macOS";
+"Not enough space on device to create ordered file" = "Not enough space on device to create ordered file";
+"Validating sizes..." = "Validating sizes...";
+"Couldn’t mount target volume from device %s" = "Couldn’t mount target volume from device %s";
+"checksum failed at instruction %ld, blocks 0x%08lX...0x%08lX - %@." = "checksum failed at instruction %1$ld, blocks 0x%2$lX...0x%3$lX - %4$@.";
+"Couldn’t remove volume %@" = "Couldn’t remove volume %@";
+"No snapshot on volume at %@ with UUID %@" = "No snapshot on volume at %1$@ with UUID %2$@";
+"unable to instantiate resource file object from “%@” - %@." = "unable to instantiate resource file object from “%1$@” - %2$@.";
+"
+Server data rate exceeds client capability, or packet loss exceeds
+error correction ability.
+Adjust server data rate and/or verify network integrity and try again.
+" = "
+Server data rate exceeds client capability, or packet loss exceeds
+error correction ability.
+Adjust server data rate and/or verify network integrity and try again.
+";
+"can’t open “%@” read/write" = "can’t open “%@” read/write";
+"The source volume cannot be restored because it has a broken seal" = "The source volume cannot be restored because it has a broken seal";
+"Precalc data for image “%@” is incomplete" = "Precalc data for image “%@” is incomplete";
+"a terminal copy error occurred on file “%@”: %@" = "a terminal copy error occurred on file “%1$@”: %2$@";
+"Erase restoring the APFS fusion drive “%@” is not supported." = "Erase restoring the APFS fusion drive “%@” is not supported.";
+"No restore type set in command dictionary" = "No restore type set in command dictionary";
+"Replicating " = "Replicating ";
+"No operator class found for restore type %@" = "No operator class found for restore type %@";
+"Could not retrieve group UUID for volume “%@”" = "Could not retrieve group UUID for volume “%@”";
+"Could not copy “%@”: %@" = "Could not copy “%1$@”: %2$@";
+"unable to get HFS band information for blkx %d - %@." = "unable to get HFS band information for blkx %1$d - %2$@.";
+"Recovery partition restores can only be done on GPT partition maps." = "Recovery partition restores can only be done on GPT partition maps.";
+"Could not get seal information for volume at %@" = "Could not get seal information for volume at %@";
+"can’t read badly formed partition map" = "can’t read badly formed partition map";
+"Block checksumming  " = "Block checksumming  ";
+"Snapshot with UUID %s doesn’t exist on device %s." = "Snapshot with UUID %1$s doesn’t exist on device %2$s.";
+"Can’t multicast restore an image with more than one filesystems partition" = "Can’t multicast restore an image with more than one filesystems partition";
+"unable to get catalog information - %@" = "unable to get catalog information - %@";
+"Couldn’t get volume roles for APFS container" = "Couldn’t get volume roles for APFS container";
+"The snapshot “%@” does not exist on the given source volume." = "The snapshot “%@” does not exist on the given source volume.";
+"Error looking up UUID for volume at %@" = "Error looking up UUID for volume at %@";
+"unable to resize existing ‘cSum’ resource - %@." = "unable to resize existing ‘cSum’ resource - %@.";
+"Couldn’t get synthesized whole disk for physical store %@ - %d" = "Couldn’t get synthesized whole disk for physical store %1$@ - %2$d";
+"Verify failed: the recovery partition is not set up correctly." = "Verify failed: the recovery partition is not set up correctly.";
+"Could not get information for device “%@”" = "Could not get information for device “%@”";
+"unable to convert “%@” to backing store object - %@." = "unable to convert “%1$@” to backing store object - %2$@.";
+"File Checksum Partition #%d" = "File Checksum Partition #%d";
+"unable to resize existing ‘size’ resource - %@." = "unable to resize existing ‘size’ resource - %@.";
+"Could not open resources for image" = "Could not open resources for image";
+"Could not stat source volume - “%@”" = "Could not stat source volume - “%@”";
+"Could not erase target - %@" = "Could not erase target - %@";
+"attaching “%@”." = "attaching “%@”.";
+"The “restoreexact” verb cannot be used with an APFS source volume." = "The “restoreexact” verb cannot be used with an APFS source volume.";
+"Could not get precalc data for image “%@”" = "Could not get precalc data for image “%@”";
+"The snapshot “%@” does not exist on any volume in the source group." = "The snapshot “%@” does not exist on any volume in the source group.";
+"Inverting target volume..." = "Inverting target volume...";
+"Couldn’t get volume group information for device %s" = "Couldn’t get volume group information for device %s";
+"Block Checksum Partition #%d" = "Block Checksum Partition #%d";
+"Could not validate source - %@" = "Could not validate source - %@";
+"unable to retrieve existing checksum from “%@”. It needs to be scanned." = "unable to retrieve existing checksum from “%@”. It needs to be scanned.";
+"Could not retrieve scan information - %@" = "Could not retrieve scan information - %@";
+"Could not set owner/group for directory “%@”: %@" = "Could not set owner/group for directory “%1$@”: %2$@";
+"Image “%@” is not kernel-compatible" = "Image “%@” is not kernel-compatible";
+"unable to resize existing ‘nsiz’ resource - %@." = "unable to resize existing ‘nsiz’ resource - %@.";
+"Checksum calculation failed for image %@" = "Checksum calculation failed for image %@";
+"Couldn’t copy recovery volume contents from source - %@" = "Couldn’t copy recovery volume contents from source - %@";
+"Device %@ is busy" = "Device %@ is busy";
+"Source image volume size is not an exact multiple of 1 MiB" = "Source image volume size is not an exact multiple of 1 MiB";
+"unable to update ‘size’ resource - %@." = "unable to update ‘size’ resource - %@.";
+"Restored target device is %@." = "Restored target device is %@.";
+"Could not change the partition size for %@" = "Could not change the partition size for %@";
+"Couldn’t remove group for volume at %@" = "Couldn’t remove group for volume at %@";
+"Couldn’t open target disk for repartitioning." = "Couldn’t open target disk for repartitioning.";
+"Could not validate target - %@" = "Could not validate target - %@";
+"Multicast file copy failed - %@" = "Multicast file copy failed - %@";
+"Couldn’t get information about target device - %@" = "Couldn’t get information about target device - %@";
+"Could not reconcile volumes in container %@ - %@" = "Could not reconcile volumes in container %1$@ - %2$@";
+"could not checksum %@" = "could not checksum %@";
+"The precalc data for image “%@” appears to be corrupt" = "The precalc data for image “%@” appears to be corrupt";
+"Could not rename ordered file. It should exist as “%@”.
+" = "Could not rename ordered file. It should exist as “%@”.
+";
+"Could not find device for volume “%@”" = "Could not find device for volume “%@”";
+"Could not get the uuid for the snapshot volume %@" = "Could not get the uuid for the snapshot volume %@";
+"Could not finish mounting volumes on %@" = "Could not finish mounting volumes on %@";
+"unable to allocate new ‘nsiz’ resource - %@." = "unable to allocate new ‘nsiz’ resource - %@.";
+"unable to get block checksum - %@" = "unable to get block checksum - %@";
+"unable to write scan resource %d into “%@” - %@." = "unable to write scan resource %1$d into “%2$@” - %3$@.";
+"kRestoreOpTargetFileKey is only for multicast restores" = "kRestoreOpTargetFileKey is only for multicast restores";
+"Could not find a data partition to restore." = "Could not find a data partition to restore.";
+"unable to convert blkx %d to copy instructions - %@." = "unable to convert blkx %1$d to copy instructions - %2$@.";
+"Could not unmount volume “%@” (%@)" = "Could not unmount volume “%1$@” (%2$@)";
+"Couldn’t unmount device %@" = "Couldn’t unmount device %@";
+"done" = "done";
+"The image “%@” is already mounted and cannot be used." = "The image “%@” is already mounted and cannot be used.";
+"error scanning “%@”: %@" = "error scanning “%1$@”: %2$@";
+"Replicating" = "Replicating";
+"Error while looking up system volume in container %@: %@" = "Error while looking up system volume in container %1$@: %2$@";
+"Missing source for info operation." = "Missing source for info operation.";
+"Verification failed: partition types for source and target have different sizes." = "Verification failed: partition types for source and target have different sizes.";
+"the copy engine failed: %@" = "the copy engine failed: %@";
+"Failed to create source stream for replication" = "Failed to create source stream for replication";
+"unable to allocate ImageInfoRec array." = "unable to allocate ImageInfoRec array.";
+"Can’t restore a locked, encrypted volume.
+Try running ‘diskutil apfs unlockVolume’ first." = "Can’t restore a locked, encrypted volume.
+Try running ‘diskutil apfs unlockVolume’ first.";
+"An unknown error occurred - %d" = "An unknown error occurred - %d";
+"Could not get mount info for “%@”" = "Could not get mount info for “%@”";
+"unable to open resource fork of “%@” - %@." = "unable to open resource fork of “%1$@” - %2$@.";
+"Couldn’t get name for volume at %@" = "Couldn’t get name for volume at %@";
+"Could not open file “%@”: %@" = "Could not open file “%1$@”: %2$@";
+"Could not check for a recovery partition for volume “%@”" = "Could not check for a recovery partition for volume “%@”";
+"Couldn’t create new data volume in container %@" = "Couldn’t create new data volume in container %@";
