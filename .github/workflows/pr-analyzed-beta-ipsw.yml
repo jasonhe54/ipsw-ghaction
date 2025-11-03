@@ -4,16 +4,16 @@ on:
   workflow_dispatch:
     inputs:
       os_type:
-        description: 'Operating System (iOS, iPadOS, visionOS, etc.)'
+        description: 'Operating System (iOS, iPadOS, macOS, visionOS)'
         required: true
         type: choice
         options:
           - iOS
           - iPadOS
           - macOS
-          # - watchOS
           - visionOS
-          - tvOS
+          # - watchOS
+          # - tvOS
       device_identifier:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true

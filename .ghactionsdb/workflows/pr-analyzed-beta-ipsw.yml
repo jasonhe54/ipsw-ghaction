@@ -38,16 +38,6 @@ ipsw:
           - releaseName: "macOS 26.1 RC"
             releaseBuildIdentifier: "25B77"
             releaseDate: "2025-10-28"
-    # watchOS:
-    #   - name: "Apple Watch Series 11 42mm case"
-    #     identifier: "Watch7,17"
-    #     builds:
-    #       - releaseName: "watchOS 26.1 Beta 4"
-    #         releaseBuildIdentifier: "23S5031a"
-    #         releaseDate: "2025-10-20"
-    #       - releaseName: "watchOS 26.1 RC"
-    #         releaseBuildIdentifier: "23S36"
-    #         releaseDate: "2025-10-28"
     visionOS:
       - name: "Apple Vision Pro (M5)"
         identifier: "RealityDevice17,1"
@@ -58,13 +48,23 @@ ipsw:
           - releaseName: "visionOS 26.1 RC"
             releaseBuildIdentifier: "23N48"
             releaseDate: "2025-10-28"
-    tvOS:
-      - name: "Apple TV 4K (3rd Generation)"
-        identifier: "AppleTV14,1"
-        builds:
-          - releaseName: "tvOS 26.1 Beta 4"
-            releaseBuildIdentifier: "23J5571a"
-            releaseDate: "2025-10-20"
-          - releaseName: "tvOS 26.1 RC"
-            releaseBuildIdentifier: "23J580"
-            releaseDate: "2025-10-28"
+    # watchOS:
+    #   - name: "Apple Watch Series 11 42mm case"
+    #     identifier: "Watch7,17"
+    #     builds:
+    #       - releaseName: "watchOS 26.1 Beta 4"
+    #         releaseBuildIdentifier: "23S5031a"
+    #         releaseDate: "2025-10-20"
+    #       - releaseName: "watchOS 26.1 RC"
+    #         releaseBuildIdentifier: "23S36"
+    #         releaseDate: "2025-10-28"
+    # tvOS:
+    #   - name: "Apple TV 4K (3rd Generation)"
+    #     identifier: "AppleTV14,1"
+    #     builds:
+    #       - releaseName: "tvOS 26.1 Beta 4"
+    #         releaseBuildIdentifier: "23J5571a"
+    #         releaseDate: "2025-10-20"
+    #       - releaseName: "tvOS 26.1 RC"
+    #         releaseBuildIdentifier: "23J580"
+    #         releaseDate: "2025-10-28"
