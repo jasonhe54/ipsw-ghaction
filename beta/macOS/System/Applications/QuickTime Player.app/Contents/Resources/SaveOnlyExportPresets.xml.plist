@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Presets</key>
+	<array>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Save a movie file that contains media in the same format as the original movie.</string>
+			<key>ExportPresetFile</key>
+			<string>FlattenSettings</string>
+			<key>ID</key>
+			<integer>5000</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>Movie</string>
+			<key>Passthrough</key>
+			<true/>
+			<key>RFExportPresetName</key>
+			<string>Flatten</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieFlatten</string>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 4K. Compatible with Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>UHD4KSettings</string>
+			<key>ID</key>
+			<real>6003</real>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>4K</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie4K</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+			<key>SupportsHEVC</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 1080p. Compatible with Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>HD1080PSettings</string>
+			<key>ID</key>
+			<real>6002</real>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>1080p</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie1080p</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+			<key>SupportsHEVC</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 720p. Compatible with Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>HD720PSettings</string>
+			<key>ID</key>
+			<integer>6001</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>720p</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie720p</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 480p. Compatible with Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>HD480PSettings</string>
+			<key>ID</key>
+			<integer>6000</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>480p</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie480p</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 1080p. Compatible with Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>HD1080PSettings</string>
+			<key>ID</key>
+			<integer>7002</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>Mac &amp; PC</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie1080p</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 720p. Compatible with iPod touch (4th generation), iPhone 4, iPad, Apple TV (2nd generation), Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>iPad&amp;iPhone4</string>
+			<key>ID</key>
+			<integer>7001</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>Computer</string>
+			<key>ImageName</key>
+			<string>iMac</string>
+			<key>Name</key>
+			<string>iPad, iPhone 4 &amp; Apple TV</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie720p</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>Description</key>
+			<string>Up to 480p. Compatible with iPod touch (3rd generation), iPhone 3GS, iPad, Apple TV, Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>iPod&amp;iPhone3GS</string>
+			<key>ID</key>
+			<integer>7000</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>iPhone</string>
+			<key>ImageName</key>
+			<string>iPhone</string>
+			<key>Name</key>
+			<string>iPod touch &amp; iPhone 3GS</string>
+			<key>RFExportPresetName</key>
+			<string>QTMovie480p</string>
+			<key>RFExportTemplateName</key>
+			<string>QTMovieExport</string>
+		</dict>
+		<dict>
+			<key>AlwaysEnabled</key>
+			<false/>
+			<key>AudioOnly</key>
+			<true/>
+			<key>Description</key>
+			<string>Compatible with iPod, iPhone, iPad, Apple TV, Mac &amp; PC.</string>
+			<key>ExportPresetFile</key>
+			<string>AppleDeviceAudioOnly</string>
+			<key>ID</key>
+			<integer>8000</integer>
+			<key>ImageAccessibilityDescription</key>
+			<string>Devices Audio only</string>
+			<key>ImageName</key>
+			<string>DeviceAudio</string>
+			<key>Name</key>
+			<string>Audio Only</string>
+		</dict>
+	</array>
+</dict>
+</plist>

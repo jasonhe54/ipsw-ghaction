@@ -1,0 +1,53 @@
+"Day Range Printing" = "{'value': {'one': '%lu day will be printed', 'other': '%lu days will be printed', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Events & Reminders" = "Events & Reminders";
+"
+Notes: " = "
+Notes: ";
+"
+URL: " = "
+URL: ";
+"Month Range Printing" = "{'value': {'one': '%lu month will be printed', 'other': '%lu months will be printed', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Calendar can’t find any print models in its resources. Try reinstalling Calendar." = "Calendar can’t find any print models in its resources. Try reinstalling Calendar.";
+"Reminders-XX01" = "Reminders";
+"Page %lu/%lu" = "Page %lu/%lu";
+"No print models were found." = "No print models were found.";
+", " = ", ";
+"
+Location: " = "
+Location: ";
+"There is nothing to print." = "There is nothing to print.";
+"
+Video Call: " = "
+Video Call: ";
+"Day Page %lu/%lu - " = "Day Page %lu/%lu - ";
+"An unexpected layout error occurred." = "An unexpected layout error occurred.";
+"%@ %@-XX01" = "%1$@ %2$@";
+"● Events" = "● Events";
+"Calendar — %@ — %@" = "Calendar — %1$@ — %2$@";
+"%@ (%@) to %@ (%@) %@" = "%@ (%@) to %@ (%@) %@";
+"● No Entry" = "● No Entry";
+"%@ %@" = "%@ %@";
+"● Timed Events" = "● Timed Events";
+"and %ld more…-XX01" = "{'value': {'other': 'and %ld more…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Time Zone: %@" = "Time Zone: %@";
+"Events" = "Events";
+"%@ to %@ (%@) %@" = "%@ to %@ (%@) %@";
+"%@ (%@) to %@ %@" = "%@ (%@) to %@ %@";
+" (%@)" = " (%@)";
+"The paper size is too small. Select a different paper size." = "The paper size is too small. Select a different paper size.";
+"Week Printing Range" = "{'value': {'one': '%lu week will be printed', 'other': '%lu weeks will be printed', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"%@ to %@ %@-XX01" = "%1$@ to %2$@ %3$@";
+"%@ to %@ %@-XX02" = "%1$@ to %2$@ %3$@";
+"and %ld more…-XX02" = "{'value': {'other': 'and %ld more…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"● All-Day Events" = "● All-Day Events";
+"Calendar printout" = "Calendar printout";
+"%@ to %@, %@" = "%@ to %@, %@";
+"Week %@ of %@" = "Week %@ of %@";
+"
+Invitees: " = "
+Invitees: ";
+"Event Page %lu/%lu" = "Event Page %lu/%lu";
+"page %d/%d" = "page %d/%d";
+"… %@" = "… %@";
+"Week %ld" = "Week %ld";
+"From %@ to %@" = "From %@ to %@";

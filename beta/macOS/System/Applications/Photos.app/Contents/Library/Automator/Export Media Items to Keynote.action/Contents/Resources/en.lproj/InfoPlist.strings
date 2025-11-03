@@ -1,0 +1,16 @@
+"AMDSummary" = "This creates a new slide in Keynote for each of the Photos media items whose references were passed to this action as input.";
+"AMDNote" = "";
+"ApplyButton" = "";
+"AMDOptions" = "Action parameters include:
+	1) Having the exported images scaled to center or scaled to fill the Keynote slides.
+	2) Whether to create and use a new Keynote document instead of any existing document.
+	3) Whether to use media item descriptions as slide presenter notes.
+	4) Whether to begin playing the Keynote presentation.";
+"Message" = "";
+"NSHumanReadableCopyright" = "Copyright © 2015 Apple Inc. All rights reserved.";
+"AMDAlert" = "";
+"AMDResult" = "";
+"AMDInput" = "";
+"IgnoreButton" = "";
+"AMDRequires" = "";
+"AMName" = "Export Media Items to Keynote";

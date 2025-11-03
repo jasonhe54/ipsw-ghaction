@@ -1,0 +1,9 @@
+"AMName" = "Take Video Snapshot";
+"AMDSummary" = "This action takes a video snapshot using a digital camera.";
+"Photos" = "Photos";
+"System" = "System";
+"AMDRequires" = "A built-in camera, iSight or other webcam, or digital camera connected to your computer.";
+"AMDResult" = "Image is downloaded to the designated folder. Image file passed to next action.";
+"Photo Booth" = "Photo Booth";
+"AMDNote" = "Not all cameras support this feature. Connect your camera to check its status. If your camera allows you to configure it for USB connection, choose PTP.";
+"NSHumanReadableCopyright" = "Copyright © 2007–2012 Apple Inc.  All rights reserved.";

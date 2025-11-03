@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>OpenSourceImportDate</key>
+		<string>2019-03-29</string>
+		<key>OpenSourceLicense</key>
+		<string>BSD</string>
+		<key>OpenSourceLicenseFile</key>
+		<string>ScreenSharing.txt</string>
+		<key>OpenSourceProject</key>
+		<string>keysymdef.h</string>
+		<key>OpenSourceURL</key>
+		<string>https://dl.bintray.com/xquartz/downloads/XQuartz-2.7.11.dmg</string>
+		<key>OpenSourceVersion</key>
+		<string>2.7.11</string>
+		<key>OpenSourceWebsiteURL</key>
+		<string>https://www.xquartz.org</string>
+	</dict>
+	<dict>
+		<key>OpenSourceImportDate</key>
+		<string>2003-08-27</string>
+		<key>OpenSourceLicense</key>
+		<string>BSD</string>
+		<key>OpenSourceLicenseFile</key>
+		<string>RemoteDesktop.txt</string>
+		<key>OpenSourceProject</key>
+		<string>VNC Reflector</string>
+		<key>OpenSourceURL</key>
+		<string>http://sourceforge.net/projects/vnc-reflector/files/vnc-reflector/1.2.4/vref_124.zip/download</string>
+		<key>OpenSourceVersion</key>
+		<string>1.2.4</string>
+		<key>OpenSourceWebsiteURL</key>
+		<string>http://sourceforge.net/projects/vnc-reflector/</string>
+	</dict>
+	<dict>
+		<key>OpenSourceImportDate</key>
+		<string>2003-10-13</string>
+		<key>OpenSourceLicense</key>
+		<string>BSD</string>
+		<key>OpenSourceLicenseFile</key>
+		<string>RemoteDesktop.txt</string>
+		<key>OpenSourceProject</key>
+		<string>JPEG Library</string>
+		<key>OpenSourceVersion</key>
+		<string>6b</string>
+		<key>OpenSourceWebsiteURL</key>
+		<string>http://www.ijg.org/</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DEFAULT-OPTIONS</key>
+	<dict>
+		<key>Default-Privacy-Setting</key>
+		<string>Public</string>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+		<key>Event-Log</key>
+		<dict>
+			<key>Enabled</key>
+			<string>Inherit</string>
+		</dict>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Inherit</string>
+			<key>Persist</key>
+			<string>Inherit</string>
+		</dict>
+	</dict>
+	<key>GCDAsyncSocket</key>
+	<dict/>
+	<key>HTTPAsyncFileResponse</key>
+	<dict/>
+	<key>HTTPConnection</key>
+	<dict/>
+	<key>HTTPDataResponse</key>
+	<dict/>
+	<key>HTTPDynamicFileResponse</key>
+	<dict/>
+	<key>HTTPFileResponse</key>
+	<dict/>
+	<key>HTTPRedirectResponse</key>
+	<dict/>
+	<key>HTTPSendFileResponse</key>
+	<dict/>
+	<key>HTTPServer</key>
+	<dict/>
+	<key>HTTPUpgrade</key>
+	<dict/>
+</dict>
+</plist>

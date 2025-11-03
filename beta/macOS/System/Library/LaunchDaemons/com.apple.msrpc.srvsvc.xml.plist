@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>RPC_DEBUG</key>
+		<string>0</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.msrpc.srvsvc</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/rpcsvchost</string>
+		<string>-launchd</string>
+		<string>-sandbox</string>
+		<string>srvsvc.bundle</string>
+	</array>
+	<key>Sockets</key>
+	<dict>
+		<key>ncacn_np</key>
+		<dict>
+			<key>Bonjour</key>
+			<false/>
+			<key>SockPathMode</key>
+			<integer>438</integer>
+			<key>SockPathName</key>
+			<string>/var/rpc/ncacn_np/srvsvc</string>
+		</dict>
+		<key>ncalrpc</key>
+		<dict>
+			<key>Bonjour</key>
+			<false/>
+			<key>SockPathMode</key>
+			<integer>438</integer>
+			<key>SockPathName</key>
+			<string>/var/rpc/ncalrpc/srvsvc</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

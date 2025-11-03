@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Configure node for legacy lookups</string>
+	<key>enabled</key>
+	<true/>
+	<key>hide registration</key>
+	<true/>
+	<key>locked</key>
+	<true/>
+	<key>mappings</key>
+	<dict/>
+	<key>modules</key>
+	<dict>
+		<key>default</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>configure</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>4A23C86D-BFF0-4E36-AE91-77704F6A8DA3</string>
+			</dict>
+			<dict>
+				<key>module</key>
+				<string>keychain</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>C8CA78D4-999E-4418-8202-BC7E817F54D6</string>
+			</dict>
+		</array>
+	</dict>
+	<key>node name</key>
+	<string>/Configure</string>
+</dict>
+</plist>

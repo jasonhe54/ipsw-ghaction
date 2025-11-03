@@ -1,0 +1,15 @@
+"FSGetCatalogInfoBulkFailed" = "Scanning children of “%FSRef@” failed (%d)";
+"FileOpenFailed" = "Could not open “%FSRef@” (%d).";
+"FSGetCatalogInfoFailed" = "Could not retrieve file metadata information for “%FSRef@” (%d).";
+"FSRefReadFailed" = "Could not read “%FSRef@” (%d).";
+"DataForkOpenFailed" = "Could not open the data fork of “%FSRef@” (%d).";
+"<unable to get file path>" = "<unable to get file path>";
+"FileRefNumSizeModifiedInfo" = "“%RefNum@” changed size while being read.";
+"FSRefFolderModifiedInfo" = "Contents of folder “%FSRef@” changed while being scanned.";
+"ResForkOpenFailed" = "Could not open the resource fork of “%FSRef@” (%d).";
+"FileRefNumModifiedInfo" = "“%RefNum@” was modified while being read.";
+"FSIteratorOpenFailed" = "Could not scan children of “%FSRef@” (%d).";
+"FileAtPathUnreadable" = "Could not read “%s”.";
+"DRMFileReadFailed" = "“%FSRef@” contains protected content and cannot be burned.";
+"AliasResolutionFailed" = "Could not find original of alias file “%FSRef@” (%d).";
+"FileRefNumReadFailed" = "Could not read “%RefNum@” (%d).";

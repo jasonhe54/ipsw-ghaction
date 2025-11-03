@@ -1,0 +1,6 @@
+"str_WebClip_Detail_URL" = "URL";
+"str_WebClip_PayloadType" = "Web Clip";
+"str_WebClip_Detail_Label" = "Label";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Web Clip', 'other': 'Web Clips (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Web Clip', 'other': '%lu Web Clips', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Web Clip', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>NSRunningFromLaunchd</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.helpd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.tips.content-updated</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.tips.content-updated</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.helpd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/HelpData.framework/Versions/A/Resources/helpd</string>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Applications/</string>
+		<string>/Applications/Utilities/</string>
+	</array>
+</dict>
+</plist>

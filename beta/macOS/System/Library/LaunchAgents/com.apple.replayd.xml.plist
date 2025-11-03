@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.replayd</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>LoginWindow</string>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.replayd</key>
+		<true/>
+		<key>com.apple.replayd-cache-delete</key>
+		<true/>
+		<key>com.apple.replaykit.sharingsession</key>
+		<true/>
+		<key>com.apple.replaykit.sharingsession.notification</key>
+		<dict>
+			<key>_ExperimentalNonLaunching</key>
+			<true/>
+		</dict>
+		<key>com.apple.usernotifications.delegate.com.apple.ReplayKitNotifications</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/replayd</string>
+	</array>
+	<key>UNUserNotificationCenter</key>
+	<dict>
+		<key>UNDaemonShouldReceiveBackgroundResponses</key>
+		<true/>
+	</dict>
+	<key>Umask</key>
+	<integer>54</integer>
+	<key>com.apple.private.security.no-sandbox</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,44 @@
+"keyVendor(0x10E0)" = "IXMicro";
+"keyVendor(0x1116)" = "Media100";
+"MoveCardFromToFormat" = "• Move PCI card from slot %@ to slot %@";
+"keyQuit" = "Quit";
+"toolTipFormatBadWidth" = "%@
+Current width: x%d, Maximum width: x%d
+Speed: Gen%d";
+"toolTipFormatBadSpeed" = "%@
+Width: x%d
+Current speed: Gen%d, Maximum speed: Gen%d";
+"keyVendor(0x121A)" = "3DFX";
+"keyVendor(0x10DE)" = "NVIDIA";
+"restartRequiredMessage" = "Restart required for changes to take effect";
+"laneWidthFormat" = "x%d";
+"keyVendor(0x1002)" = "ATI";
+"keyVendor(0x11AF)" = "AVID";
+"authorizationErrorText" = "Authorization was denied or canceled.";
+"keyCardNameFormat" = "%@ %@ Card";
+"keyUnsupportedSystemTitle" = "Expansion Slot Utility";
+"configInvalidErrorText" = "This configuration is not valid for your system";
+"keyVendor(0x102B)" = "Matrox";
+"toolTipFormatEmptySlot" = "Empty slot
+Width: x%d";
+"keyVendor(0x1000)Device(0x0626)" = "Apple 2Gbps Fibre Channel Card";
+"keyVendor(0x10A9)" = "SGI";
+"cardNameUnknown" = "Unknown card";
+"writeSwitchFailMessage" = "The updated pool data was not successfully written to the device.";
+"autoConfigTextOn" = "Automatic bandwidth configuration allows your Mac to dynamically assign bandwidth between pools for best performance.";
+"keyVendor(0x3D3D)" = "3Dlabs";
+"keyUnknownVendor" = "Unknown";
+"recommendationHeader" = "The installed PCI cards are not arranged in an optimal configuration for best performance.";
+"autoConfigTextOff" = "Manually assign bandwidth between pools, or enable automatic bandwidth configuration to allow your Mac to dynamically assign bandwidth.";
+"toolTipFormatNominalCard" = "%@
+Width: x%d
+Speed: Gen%d";
+"writeSwitchFailTitle" = "Failed to write the pool data.";
+"keyVendor(0x8086)" = "Intel";
+"keyUnsupportedSystemMessage" = "Expansion Slot Utility is not intended to run on this system.";
+"SwapCardsFormat" = "• Swap PCI card slot %@ and slot %@";
+"thunderboltDevices" = "Thunderbolt Devices";
+"toolTipFormatBadEverything" = "%@
+Current width: x%d, Maximum width: x%d
+Current speed: Gen%d, Maximum speed: Gen%d";
+"keyVendor(0x106B)" = "Apple";

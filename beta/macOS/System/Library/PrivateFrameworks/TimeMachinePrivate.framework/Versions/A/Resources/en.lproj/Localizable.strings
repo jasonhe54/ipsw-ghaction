@@ -1,0 +1,155 @@
+"" = "";
+"RESULTCODE_26_MESSAGE" = "The network disk disconnected from your Mac while backing up.
+
+Make sure the computer and the backup disk are on the same network, and that the backup disk is turned on.";
+"The next major version of macOS will no longer support %@, or other Time Capsule disks, for Time Machine backups." = "The next major version of macOS will no longer support %@, or other Time Capsule disks, for Time Machine backups.";
+"RESULTCODE_22_MESSAGE" = "Backup canceled.";
+"RESULTCODE_999_MESSAGE" = "An unknown error occurred.";
+"RESULTCODE_33_MESSAGE" = "The system date and time is incorrect.";
+"RESULTCODE_2_MESSAGE" = "An error occurred while starting the backup. Anti-virus software may be preventing Time Machine from writing to the backup.";
+"Preparing verification…" = "Preparing verification…";
+"RESULTCODE_14_MESSAGE" = "An error occurred while deleting old backups.";
+"weekly backups" = "weekly backups";
+"After power is connected" = "After power is connected";
+"RESULTCODE_1003_BUTTON3" = "Decide Later";
+"RESULTCODE_21_MESSAGE" = "The backup disk image “%@” could not be accessed (error %@).";
+"%@ available" = "%@ available";
+"RESULTCODE_50_HELPANCHOR" = "mh15137";
+"RESULTCODE_1008_TITLE" = "The backup disk “%@” was not recognized.";
+"RESULTCODE_3_MESSAGE" = "The backup disk is not in Apple File System or Mac OS Extended (Journaled) format.";
+"Cleaning up old backups…" = "Cleaning up old backups…";
+"RESULTCODE_501_BUTTON2" = "Erase Backup History";
+"When triggered manually" = "When triggered manually";
+"RESULTCODE_49_MESSAGE" = "Time Machine could not back up the disk “%@” because a snapshot of the disk could not be created.";
+"RESULTCODE_38_MESSAGE" = "Time Machine can’t use the disk image because it is read-only.";
+"RESULTCODE_45_MESSAGE" = "The network backup disk does not support the required capabilities.";
+"RESULTCODE_1008_BUTTON2" = "Don’t Use This Disk";
+"RESULTCODE_52_MESSAGE" = "Time Machine did not back up because the backup was encrypted with an empty password. Use Time Machine Settings to set up a new backup.";
+"RESULTCODE_37_MESSAGE" = "One of the disks being backed up was ejected or disconnected from your Mac while backing up.";
+"RESULTCODE_106_TITLE" = "Time Machine cannot back up because some %@ files have not finished syncing.";
+"The next major version of macOS will no longer support AFP network disks for Time Machine backups." = "The next major version of macOS will no longer support AFP network disks for Time Machine backups.";
+"RESULTCODE_44_MESSAGE" = "Time Machine could not delete the backup disk image “%@”.";
+"RESULTCODE_4_MESSAGE" = "Unable to get status of backup disk.";
+"RESULTCODE_1003_BUTTON2" = "Start Separate Backups";
+"manual backups" = "manual backups";
+"daily backups" = "daily backups";
+"RESULTCODE_18_MESSAGE" = "The backup disk could not be found. Make sure the backup disk is connected or select a different backup disk.";
+"RESULTCODE_25_MESSAGE" = "There were no disks found to back up. This can happen if all available disks have been excluded from the backup. Click Options to edit the excluded items.";
+", " = ", ";
+"Disk Not Recommended for Backups" = "Disk Not Recommended for Backups";
+"RESULTCODE_101_MESSAGE" = "Time Machine did not back up because the battery charge was low.";
+"RESULTCODE_32_MESSAGE" = "The backup disk image “%@” could not be found.";
+"%1$@ done – %2$@ copied" = "%1$@ done – %2$@ copied";
+"Restricted by a profile" = "Restricted by a profile";
+"RESULTCODE_102_MESSAGE" = "Time Machine did not back up because the computer was in a poor thermal state.";
+"FINDING_CHANGES_LOCSTRING" = "{'changes': {'one': 'Found 1 change…', 'few': 'Found %2$@ changes…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': 'Found %2$@ changes…', 'other': 'Found %2$@ changes…', 'NSStringFormatValueTypeKey': 'lu', 'zero': 'Preparing to back up…'}, 'NSStringLocalizedFormatKey': '%1$#@changes@'}";
+"RESULTCODE_24_MESSAGE" = "Two of the disks to back up have the same name. Rename one of the disks named “%@”.";
+"Skipping verification…" = "Skipping verification…";
+"RESULTCODE_20_MESSAGE" = "The backup disk image could not be created.";
+"RESULTCODE_103_MESSAGE" = "Time Machine could not back up the disk “%@” because it is being encrypted or decrypted by FileVault.
+
+Try again once FileVault finishes.";
+"%1$@ done – %2$@
+%3$@ copied" = "%1$@ done – %2$@
+%3$@ copied";
+"RESULTCODE_12_MESSAGE" = "An error occurred while preserving unchanged files.";
+"RESULTCODE_5_MESSAGE" = "An error occurred while enabling ownership on the backup disk.";
+"RESULTCODE_105_TITLE" = "Time Machine cannot back up because some cloud files have not finished syncing.";
+"RESULTCODE_104_MESSAGE" = "Time Machine did not finish backing up because some files were unavailable. Backups will resume when your Mac is unlocked.";
+"RESULTCODE_105_MESSAGE" = "Syncing happens when your Mac is turned on and connected to the Internet. Syncing may take a few days. Syncing will happen more quickly while your Mac is connected to a power source.";
+"Disks Not Recommended for Backups" = "Disks Not Recommended for Backups";
+"RESULTCODE_106_MESSAGE" = "Syncing happens when your Mac is turned on and connected to the Internet. Syncing may take a few days. Syncing will happen more quickly while your Mac is connected to a power source.";
+"RESULTCODE_301_MESSAGE" = "An error occurred while preparing the backup.";
+"RESULTCODE_1004_BUTTON2" = "Remind Me Tomorrow";
+"RESULTCODE_999_TITLE" = "Time Machine couldn’t complete the backup to “%@”";
+"RESULTCODE_1008_BUTTON1" = "Use This Disk";
+"RESULTCODE_302_MESSAGE" = "An error occurred while preparing the backup.";
+"RESULTCODE_1003_MESSAGE" = "The backups were created on a different computer named “%@”. 
+
+Choose “Claim Existing Backups” if the other computer no longer needs these backups.
+
+Choose “Start Separate Backups” to start new backups for this computer and preserve the other computer’s backups.";
+"The next major version of macOS will no longer support Time Capsule disks for Time Machine backups." = "The next major version of macOS will no longer support Time Capsule disks for Time Machine backups.";
+"hourly backups" = "hourly backups";
+"%@ quota" = "%@ quota";
+"RESULTCODE_56_MESSAGE" = "Time Machine could not back up because the disk is full.";
+"RESULTCODE_28_HELPANCHOR" = "mh15137";
+"RESULTCODE_303_MESSAGE" = "An error occurred while preparing the backup.";
+"Some Disks Not Recommended for Backups" = "Some Disks Not Recommended for Backups";
+"RESULTCODE_70_MESSAGE" = "The backup disk image was ejected or disconnected from your Mac while backing up.";
+"RESULTCODE_6_MESSAGE" = "The backup disk is not in Apple File System or Mac OS Extended (Journaled) format.";
+"Connecting to backup disk…" = "Connecting to backup disk…";
+"RESULTCODE_1003_BUTTON1" = "Claim Existing Backups";
+"RESULTCODE_29_MESSAGE" = "The network backup disk could not be accessed because there was a problem with the network username or password. You may need to re-select the backup disk and enter the correct username and password.";
+"RESULTCODE_1003_TITLE" = "Should this computer claim the existing backups on the disk “%@”?";
+"RESULTCODE_100_MESSAGE" = "Time Machine did not back up because the computer was running on battery power.
+Connect your Mac to a power source while your backup disk is available.";
+"Automatic (weekly)" = "Automatic (weekly)";
+"RESULTCODE_501_MESSAGE" = "Time Machine must erase your existing backup history and start a new backup to correct this.";
+"RESULTCODE_307_MESSAGE" = "Spotlight was not responding. Try again later.";
+"Finishing backup…" = "Finishing backup…";
+"RESULTCODE_28_MESSAGE" = "“%@” could not be backed up because there was not enough space on the backup disk.";
+"RESULTCODE_50_MESSAGE" = "Time Machine could not back up the disk “%@” because it is nearly full.
+
+Delete some files on this disk and try again.";
+"RESULTCODE_31_MESSAGE" = "The backup disk image “%@” is already in use.
+
+Check that the image is not in use by another computer. If the image is not in use and the error persists, try rebooting the server.";
+"Time Capsule Account" = "Time Capsule Account";
+"RESULTCODE_42_MESSAGE" = "Verification may have been interrupted by a network problem. Try again after the network problems are resolved.";
+"Latest Backup to “%@”" = "Latest Backup to “%@”";
+"RESULTCODE_7_MESSAGE" = "“%@” could not be backed up because there was not enough space on the backup disk even after older backups were deleted.
+
+Select a larger backup disk or make the backup smaller by excluding files.";
+"The next major version of macOS will no longer support %@, or other AFP network disks, for Time Machine backups." = "The next major version of macOS will no longer support %@, or other AFP network disks, for Time Machine backups.";
+"RESULTCODE_42_TITLE" = "Time Machine couldn’t verify your backups.";
+"RESULTCODE_23_MESSAGE" = "A disk you are backing up is case-sensitive, but the backup disk is not. Select a different backup disk or exclude the case-sensitive disk from backups.";
+"RESULTCODE_402_MESSAGE" = "The disk “%@” could not be backed up.";
+"RESULTCODE_53_BUTTON1" = "Update Password";
+"RESULTCODE_30_MESSAGE" = "Time Machine could not inherit “%@” for use with this computer.";
+"RESULTCODE_1004_BUTTON1" = "Open AirPort Utility…";
+"RESULTCODE_300_MESSAGE" = "An error occurred while preparing the backup.";
+"Latest Time Capsule Backup:" = "Latest Time Capsule Backup:";
+"RESULTCODE_1008_MESSAGE" = "The disk may have been replaced or erased since the previous backup, or someone may be trying to trick your computer into backing up to the wrong disk.";
+"%1$@ done – %2$@
+%3$@ copied – Freeing space…" = "%1$@ done – %2$@
+%3$@ copied – Freeing space…";
+"RESULTCODE_11_MESSAGE" = "“%@” could not be backed up.";
+"RESULTCODE_404_MESSAGE" = "An error occurred while finishing the backup.";
+"Freeing space…" = "Freeing space…";
+"RESULTCODE_0_MESSAGE" = "No error.";
+"RESULTCODE_10_MESSAGE" = "An error occurred while preparing the backup.";
+"RESULTCODE_501_TITLE" = "Time Machine detected that your backups on “%@” can not be reliably restored.";
+"RESULTCODE_406_MESSAGE" = "The file “%@” could not be backed up because its path is too long. Rename this file with a shorter name or exclude it from backup and try again.";
+"RESULTCODE_455_MESSAGE" = "The configuration of this backup disk was invalid. Try removing the disk from the list of Time Machine destinations and adding it back.";
+"RESULTCODE_8_MESSAGE" = "Files can’t be copied onto the backup disk because it is read-only.";
+"RESULTCODE_704_MESSAGE" = "The backup was cancelled so that the backup disk could be ejected.";
+"RESULTCODE_703_MESSAGE" = "The backup was cancelled so that one of the disks being backed up could be ejected.";
+"RESULTCODE_501_BUTTON1" = "Remind Me Tomorrow";
+"Encrypted" = "Encrypted";
+"Verifying backup…" = "Verifying backup…";
+"RESULTCODE_80_MESSAGE" = "The encrypted file “%@” could not be backed up because your Mac was locked. Try backing up again while the Mac is unlocked and your backup disk is available.";
+"restricted by a profile" = "restricted by a profile";
+"RESULTCODE_53_BUTTON2" = "Remind Me Tomorrow";
+"Automatic (daily)" = "Automatic (daily)";
+"RESULTCODE_39_MESSAGE" = "Time Machine did not back up because the backup disk was previously encrypted but is no longer encrypted.";
+"RESULTCODE_1_MESSAGE" = "Unable to launch Time Machine.";
+"RESULTCODE_7_HELPANCHOR" = "mh15137";
+"RESULTCODE_9_MESSAGE" = "The backup disk does not have Access Control Lists enabled, which is required.";
+"RESULTCODE_53_MESSAGE" = "The password for the disk image “%@” is incorrect. Please provide the correct password.";
+"Preparing to back up…" = "Preparing to back up…";
+"RESULTCODE_60_MESSAGE" = "Time Machine could not back up because backups are restricted by a managed profile.";
+"RESULTCODE_450_MESSAGE" = "An error occurred while sealing the backup.";
+"RESULTCODE_1004_MESSAGE" = "The firmware for “%@” must be updated.";
+"Cleaning up…" = "Cleaning up…";
+"RESULTCODE_27_MESSAGE" = "The backup disk was ejected or disconnected from your Mac while backing up.
+
+Make sure the backup disk is connected and turned on.
+
+If you continue to have problems, try connecting the disk using a different cable.";
+"Skipping…" = "Skipping…";
+"Calculating time remaining…" = "Calculating time remaining…";
+"RESULTCODE_451_MESSAGE" = "The configuration of this backup disk is out-of-date. Try removing the disk from the list of Time Machine destinations and adding it back.";
+"After disk is connected" = "After disk is connected";
+"RESULTCODE_19_MESSAGE" = "The backup disk is not available. Make sure the backup disk is connected or select a different backup disk.";
+"Automatic (hourly)" = "Automatic (hourly)";

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Icon</key>
+	<string>PreferencesAdvancedButton</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>FooterText</key>
+			<string> </string>
+			<key>Title</key>
+			<string>SEARCHING_HEADER</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>BKIncludeBookStoreResultsInSearch</string>
+			<key>Title</key>
+			<string>INCLUDE_STORE_RESULTS</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string> </string>
+			<key>Title</key>
+			<string>ONLINE_HEADER</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>ConfirmationPrompt</key>
+			<dict>
+				<key>ConfirmText</key>
+				<string>RESET_ACCESS_CONFIRMATION</string>
+				<key>DenyText</key>
+				<string>RESET_ACCESS_CONFIRMATION_CANCEL</string>
+				<key>Prompt</key>
+				<string>RESET_ACCESS_CONFIRMATION_PROPMT</string>
+				<key>Type</key>
+				<string>PSConfirmationPrompt</string>
+			</dict>
+			<key>Description</key>
+			<string>RESET_ACCESS_FOOTER</string>
+			<key>Selector</key>
+			<string>resetOnlineContentAccess:</string>
+			<key>Title</key>
+			<string>RESET_ACCESS</string>
+			<key>Type</key>
+			<string>PSCustomButtonSpecifier</string>
+		</dict>
+		<dict>
+			<key>ConfirmationPrompt</key>
+			<dict>
+				<key>ConfirmText</key>
+				<string>RESET_IDENTIFIER_CONFIRMATION</string>
+				<key>DenyText</key>
+				<string>RESET_IDENTIFIER_CONFIRMATION_CANCEL</string>
+				<key>Prompt</key>
+				<string>RESET_IDENTIFIER_CONFIRMATION_PROPMT</string>
+				<key>Type</key>
+				<string>PSConfirmationPrompt</string>
+			</dict>
+			<key>Description</key>
+			<string>RESET_IDENTIFIER_FOOTER</string>
+			<key>Selector</key>
+			<string>resetAnalyticsIdentifier:</string>
+			<key>Title</key>
+			<string>RESET_IDENTIFIER</string>
+			<key>Type</key>
+			<string>PSCustomButtonSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Advanced</string>
+	<key>SystemSymbolIcon</key>
+	<string>gearshape.2</string>
+</dict>
+</plist>

@@ -1,0 +1,3 @@
+"AMDSummary" = "This action will cause the first action in the workflow to be the next action executed. You may choose for this to occur a specified number of times, after a specified number of minutes, or to be prompted each time this action is executed.  You may choose to restart the workflow with the original set of data or to use the current data as input to the first action.";
+"AMName" = "Loop";
+"NSHumanReadableCopyright" = "Copyright © 2007–2012 Apple Inc.  All rights reserved.";

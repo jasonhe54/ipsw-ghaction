@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>description</key>
+	<string>Standards-based LDAPv3 Node</string>
+	<key>identifier</key>
+	<string>com.apple.opendirectoryd.templates.LDAPv3</string>
+	<key>modules</key>
+	<dict>
+		<key>default</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>ldap</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>8562BBB8-9B83-48AE-85F9-02016CBED799</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

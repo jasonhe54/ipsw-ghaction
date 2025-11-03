@@ -1,0 +1,116 @@
+"" = "";
+"ENABLE_WIFI_THUMPER_CALLING_TEXT" = "Use your iPhone cellular account to make and receive cellular calls when your iPhone is nearby and on Wi-Fi.";
+"RINGTONE_PICKER_TITLE" = "Ringtone:";
+"SHAREPLAY_TAB_TITLE" = "SharePlay";
+"LIVE_VOICEMAIL_TOGGLE_TITLE" = "Live Voicemail";
+"?" = "?";
+"FILTER_SPAM_CALLERS_TOGGLE_TITLE_FACETIME" = "FaceTime Spam";
+"SILENCE_UNKNOWN_CALLERS_TOGGLE_SUBTITLE" = "Calls from unknown numbers will be silenced, sent to voicemail, and displayed on the Recents list.
+
+Incoming calls will continue to ring from people in your contacts, recent outgoing calls, and Siri Suggestions.";
+"DIRECT_TO_VOICEMAIL_TOGGLE_TITLE" = "Direct to voicemail";
+"LIVE_VOICEMAIL_TOGGLE_SUBTITLE" = "View a transcript of an incoming voicemail and answer the call before it ends. Calling and data rates may apply.";
+"THUMPER_ENABLED_TEXT" = "Use your iPhone %@ account to make and receive calls from this Mac even when your iPhone is not nearby. These calls will use the caller ID %@.";
+"UPGRADE_TO_WLAN_CALLING_CONFIRMATION_TEXT" = "Upgrade to WLAN Calling?";
+"RELAY_CALLING_WIFI_WITH_CALLER_ID_TOGGLE_SUBTEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on Wi-Fi. These calls will use the caller ID %@.";
+"CALL_SCREENING_SILENCE_DESCRIPTION" = "Calls from unsaved numbers will be silenced, sent to voicemail, and displayed on the Recents list. Calling and data rates may apply.";
+"CALL_RECORDING_TOGGLE_SUBTITLE" = "This allows you to use the Phone app to record a conversation during the call, then transcribe and summarize in the Notes app. An audio notification will automatically play before a recording begins.";
+"RELAY_ENABLED_USING_WLAN_AND_CALLER_ID_TEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on WLAN. These calls will use the caller ID %@.";
+"RELAY_ENABLED_USING_WIFI_TEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on Wi-Fi.";
+"GENERAL_TAB_TITLE" = "General";
+"WIFI_CALLS" = "Wi-Fi Calls";
+"ALIAS_LIST_TOGGLES_TITLE" = "You can be reached for FaceTime at:";
+"FILTER_SPAM_CALLERS_TOGGLE_SUBTITLE" = "Calls identified as spam or fraud will be silenced and moved to the Spam list.";
+"WAITING_FOR_WLAN_CALL_ACTIVATION_TEXT" = "Waiting for WLAN call activation…";
+"UPGRADE_TO_THUMPER_TOGGLE_SUBTITLE" = "Use your iPhone carrier account to make and receive calls from this Mac even when your iPhone is not nearby.";
+"CONFIRMATION_FOR_REMOTE_CALLING_TEXT" = "When you join a network, information about the country or region where the network connection is made may be sent to your carrier for details like billing. For short code calls, the city will be sent for call routing purposes. You can change this in preferences.";
+"CALL_SCREENING_OPTION_ASK" = "Ask Reason for Calling";
+"SIGN_OUT_BUTTON_TEXT" = "Sign Out";
+"CALL_SCREENING_OPTION_SILENCE" = "Silence";
+"ABOUT_PHONE_AND_PRIVACY_BUTTON" = "About Phone & Privacy…";
+"LOCATION_PICKER_TITLE" = "Location:";
+"CALLS_FROM_IPHONE_TOGGLE_TITLE" = "Calls from iPhone";
+"WAITING_FOR_WIFI_CALL_ACTIVATION_TEXT" = "Waiting for Wi-Fi call activation…";
+"CALLS_TAB_TITLE_FACETIME" = "FaceTime";
+"BLOCKED_TAB_TITLE" = "Blocked";
+"ABOUT_FACETIME_AND_PRIVACY_BUTTON" = "About FaceTime & Privacy…";
+"SIGN_OUT_ALERT_TITLE" = "Do you want to sign out of FaceTime?";
+"CALL_SCREENING_NEVER_DESCRIPTION" = "Calls from unsaved numbers will ring, and missed calls will be displayed on the Recents list.";
+"RELAY_ENABLED_USING_WIFI_AND_CALLER_ID_TEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on Wi-Fi. These calls will use the caller ID %@.";
+"SHAREPLAY_TOGGLE_TITLE" = "SharePlay";
+"SCREEN_CALLERS_TOGGLE_SUBTITLE" = "Unknown callers will be asked for more
+information before iPhone rings.";
+"AUTOMATIC_PROMINENCE_TOGGLE_SUBTITLE" = "During Group FaceTime calls, the tile of the person speaking will automatically become larger.";
+"UPDATE_EMERGENCY_ADDRESS_WIFI_TEXT" = "Wi-Fi calls require an address to help emergency response services respond to calls. Review your carrier’s emergency calling information to understand the availability of emergency calling over Wi-Fi.";
+"UPLEVEL_FTA_TOGGLE_SUBTITLE" = "If the person you’re calling is using an iPhone, iPad, or Mac, your call will be as private and secure as any other FaceTime call.";
+"UPGRADE_TO_WIFI_CALLING_CONFIRMATION_TEXT" = "Upgrade to Wi-Fi Calling?";
+"RELAY_CALLING_WIFI_TOGGLE_SUBTEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on Wi-Fi.";
+"SHAREPLAY_ALLOWED_APPS_TEXT" = "Allow these apps to automatically start SharePlay, and to automatically join with people you’ve used SharePlay with before.";
+"ABOUT_WIFI_CALLING_TEXT" = "Wi-Fi Calling is a service provided by certain carriers that allows you to make and receive calls via Wi-Fi on your iOS, watchOS, and Mac devices and, if available, via cellular data on your iPad.
+
+If you enable Wi-Fi Calling and connect to a Wi-Fi or cellular data network from a Wi-Fi Calling enabled device, information about the country or region where your network connection is made, based on your IP address or cellular network, may be sent to your carrier for billing and service availability purposes. If you do not want to share this information with your carrier, you may turn off Wi-Fi Calling on your iPhone and paired Apple Watch by opening Settings, tapping Phone, and turning off Wi-Fi Calling (for iPhone) and Calls on other Devices (for your other devices, including your paired Apple Watch). To turn off Wi-Fi Calling on an iPad or iPod touch, go to Settings, tap FaceTime, and turn off Calls from iPhone. To turn off Wi-Fi Calling on your Mac, open FaceTime, open Preferences, and turn off Calls from iPhone.
+
+In order for your carrier to complete short code calls (calls to abbreviated numbers that provide access to public services) via Wi-Fi or cellular data, Apple must provide the city from which the call is placed to your carrier to help them properly route the call. If you do not want to share the city you are calling from with your carrier when making short code calls, you may turn off Location Services for Wi-Fi Calling on iOS and watchOS by opening Settings, tapping Privacy, tapping Location Services, tapping System Services, and disabling Wi-Fi Calling. You can turn off Location Services for Wi-Fi Calling on macOS in the Privacy pane of System Preferences by clicking “Details” next to System Services and then deselecting Wi-Fi Calling. Please note that if you turn Location Services for Wi-Fi Calling off, your device will not be able to determine or send the city you are in to your carrier when you dial a short code number for a Wi-Fi call and as a result your carrier may not be able to properly route or connect your call.
+
+Emergency calls on your iPhone are routed through cellular service when available. In the event that cellular is not available and you have enabled Wi-Fi Calling, emergency calls may be made over Wi-Fi, and your device’s location information may be used for emergency calls to aid response efforts regardless of whether you enable Location Services. However, your carrier may choose to use your billing address or other address you provide to your carrier for the purpose of routing emergency services. You may update your address information for the carrier in Settings on your iOS devices and in FaceTime Preferences on your Mac. You should keep this information up to date. Failing to do so may prevent emergency services from being properly routed to your physical location. For location reliability reasons, it is preferable to make emergency calls over traditional cellular or fixed line services, and only use Wi-Fi Calling features for such calls as a last resort.
+
+For more information about Wi-Fi Calling, please refer to your carrier’s terms, privacy policy and practices. At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy/privacy-policy/.
+";
+"UPGRADE_TO_WIFI_CALLING_BUTTON_TEXT" = "Upgrade to Wi-Fi Calling";
+"SCREEN_CALLERS_TOGGLE_TITLE" = "Screen Callers";
+"DONE_BUTTON_TEXT" = "Done";
+"FILTER_NEW_CALLERS_TOGGLE_TITLE" = "Unknown Callers";
+"CANNOT_TURN_ON_CALLS_FROM_IPHONE_TEXT" = "Cannot Turn On Calls from iPhone";
+"DIRECT_TO_VOICEMAIL_TOGGLE_SUBTITLE" = "Unknown calls will be silenced, sent to voicemail, and displayed on the Recents list.";
+"FILTER_NEW_CALLERS_TOGGLE_SUBTITLE" = "Missed calls and voicemail from unknown numbers will be moved to the Unknown Callers list.";
+"WLAN_CALLS" = "WLAN Calls";
+" " = " ";
+"MUST_BE_SIGNED_IN_THE_SAME_APPLE_ID_FOR_CELLULAR_CALLS" = "FaceTime and iCloud must be signed in to the same Apple ID to use iPhone Cellular Calls.";
+"FILTER_SPAM_CALLERS_TOGGLE_TITLE_PHONE" = "Spam";
+"BLOCKED_ADDRESSES_LIST_TEXT" = "Enter FaceTime addresses to block in the list below:";
+"THUMPER_ENABLED_WITH_NO_CARRIER_NAME_TEXT" = "Use your iPhone carrier account to make and receive calls from this Mac even when your iPhone is not nearby. These calls will use the caller ID %@.";
+"ENABLE_WLAN_THUMPER_CALLING_TEXT" = "Use your iPhone cellular account to make and receive cellular calls when your iPhone is nearby and on WLAN.";
+"UPGRADE_TO_WIFI_CALLING_TEXT" = "To allow Wi-Fi calls on this account, contact your carrier.";
+"UNKNOWN_CALLERS_TOGGLE_TITLE_FACETIME" = "FaceTime calls from unknown numbers";
+"CALL_SCREENING_OPTION_NEVER" = "Never";
+"RELAY_CALLING_WLAN_TOGGLE_SUBTEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on WLAN.";
+"UPGRADE_TO_WLAN_CALLING_TEXT" = "To allow WLAN calls on this account, contact your carrier.";
+"UPDATE_EMERGENCY_ADDRESS_WLAN_TEXT" = "WLAN calls require an address to help emergency response services respond to calls. Review your carrier’s emergency calling information to understand the availability of emergency calling over WLAN.";
+"CANCEL_BUTTON_TEXT" = "Cancel";
+"ABOUT_WIFI_CALLING_AND_PRIVACY_OB_BUTTON_TITLE" = "About Wi-Fi Calling & Privacy";
+"CALLS_TAB_TITLE_PHONE" = "Calls";
+"LIVE_CAPTIONS_TOGGLE_TITLE" = "Live Captions";
+"SHAREPLAY_TOGGLE_SUBTITLE" = "Watch shows, listen to music, and use apps together during FaceTime calls.";
+"ONLINE_SAFETY_URL_UK" = "https://www.apple.com/uk/legal/online-safety/";
+"SILENCE_UNKNOWN_CALLERS_TOGGLE_TITLE" = "Silence Unknown Callers";
+"LEARN_MORE_ABOUT_ONLINE_SAFETY" = "Learn More About Online Safety";
+"UPLEVEL_FTA_TOGGLE_TITLE" = "Always Prefer FaceTime Audio";
+"UPGRADE_TO_THUMPER_WITH_CARRIER_TOGGLE_SUBTITLE" = "Use your iPhone %@ account to make and receive calls from this Mac even when your iPhone is not nearby.";
+"SIGN_OUT_ALERT_MESSAGE" = "If you sign out, you will no longer be able to receive FaceTime calls.";
+"CALL_SCREENING_ROW_TITLE" = "Screen Unknown Callers";
+"SEE_HOW_YOUR_DATA_IS_MANAGED_TEXT" = "See how your data is managed…";
+"DEFAULT_FOR_CALLS_PICKER_TITLE" = "Default for calls:";
+"AUTOMATIC_PROMINENCE_TOGGLE_TITLE" = "Automatic prominence while speaking";
+"RELAY_CALLING_WLAN_WITH_CALLER_ID_TOGGLE_SUBTEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on WLAN. These calls will use the caller ID %@.";
+"ONLINE_SAFETY_URL_TEST" = "https://www.apple.com/";
+"ONLINE_SAFETY_URL_AU" = "https://www.apple.com/au/legal/online-safety/";
+"CALL_FILTERING_ROW_TITLE" = "Call Filtering";
+"APPLE_ACCOUNT_TITLE" = "Apple Account:";
+"ABOUT_WIFI_CALLING_AND_PRIVACY_BUTTON_TITLE" = "About Wi-Fi Calling and Privacy…";
+"UPGRADE_TO_THUMPER_WITH_CARRIER_TEXT" = "Use your iPhone %@ account to make and receive calls from this Mac even when your iPhone is not nearby.";
+"LIVE_PHOTOS_TOGGLE_SUBTITLE" = "Allow Live Photos to be captured during Video calls";
+"START_NEW_CALLS_FROM_PICKER_TITLE" = "Start new calls from:";
+"MUST_BE_SIGNED_IN_THE_SAME_APPLE_ACCOUNT_FOR_CELLULAR_CALLS" = "FaceTime and iCloud must be signed in to the same Apple Account to use iPhone Cellular Calls.";
+"OK_BUTTON_TEXT" = "OK";
+"UNKNOWN_CALLERS_TOGGLE_TITLE_PHONE" = "Calls from unknown numbers";
+"CANNOT_TURN_ON_CELLULAR_CALLS_TEXT" = "Cannot Turn On iPhone Cellular Calls";
+"CALL_RECORDING_TOGGLE_TITLE" = "Call Recording";
+"ENABLE_BUTTON_TEXT" = "Enable";
+"HOLD_ASSIST_DETECTION_TOGGLE_SUBTITLE" = "Automatically detect when you are placed on hold, so you can step away. Mac will then notify you when it’s time to pick up.";
+"FACETIME_LIVE_PHOTOS_TOGGLE_TITLE" = "FaceTime Live Photos";
+"APPLE_ID_TITLE" = "Apple ID:";
+"RELAY_ENABLED_USING_WLAN_TEXT" = "Use your iPhone cellular account to make and receive calls when your iPhone is nearby and on WLAN.";
+"CALL_SCREENING_ASK_DESCRIPTION" = "Calls from unsaved numbers will be asked for more information before iPhone rings. Calling and data rates may apply.";
+"LIVE_CAPTIONS_TOGGLE_SUBTITLE" = "Your Mac will use on-device intelligence to automatically display captions in FaceTime. Accuracy of Live Captions may vary and should not be relied upon in high-risk emergency situations.";
+"HOLD_ASSIST_DETECTION_TOGGLE_TITLE" = "Hold Assist Detection";
+"UPDATE_EMERGENCY_ADDRESS_BUTTON_TEXT" = "Update Emergency Address";

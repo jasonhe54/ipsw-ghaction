@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.AppleQEMUGuestAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.driver.applevirtio.console.match</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>AppleVirtIOAgentDevice</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/AppleQEMUGuestAgent</string>
+	</array>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.AppleQEMUGuestAgent</key>
+		<dict>
+			<key>ExposedToUntrustedDevices</key>
+			<true/>
+			<key>LimitExposedToDeviceType</key>
+			<string>virtualmachine-host</string>
+			<key>RequireEntitlement</key>
+			<string>com.apple.private.AppleQEMUGuestAgent</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>ServiceVersion</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

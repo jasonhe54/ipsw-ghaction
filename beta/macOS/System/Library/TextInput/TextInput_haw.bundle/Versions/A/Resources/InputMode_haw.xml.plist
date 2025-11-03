@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>haw</key>
+		<array>
+			<string>haw</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>haw</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Hawaiian</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY-Hawaiian</string>
+			</array>
+			<key>UIKeyboardInputManagerClass</key>
+			<string>TIKeyboardInputManager_haw</string>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

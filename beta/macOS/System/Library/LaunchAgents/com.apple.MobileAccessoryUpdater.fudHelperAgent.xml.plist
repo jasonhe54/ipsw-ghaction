@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.MobileAccessoryUpdater.fudHelperAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>pendingRestartReported</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MobileAccessoryUpdater.defaultClient.restartPending</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.fudHelperLaunchdActivity</key>
+			<dict>
+				<key>Delay</key>
+				<integer>60</integer>
+				<key>GracePeriod</key>
+				<integer>60</integer>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>Repeating</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/Support/fudHelperAgent</string>
+	</array>
+</dict>
+</plist>

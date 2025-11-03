@@ -1,0 +1,5 @@
+"DISTRIBUTION_DOCUMENT_EMPTY" = "This installer document is empty.";
+"DISTRIBUTION_CHOICE_ID_EMPTY" = "The choice identifier cannot be empty or missing.";
+"DISTRIBUTION_VERSION_ERROR" = "This installer document requires a newer version of the OS X Installer (version %@ is required, version %@ is supported).";
+"DISTRIBUTION_CHOICE_ID_CONFLICT" = "The choice identifier “%@” is already being used by another choice. Choice identifiers must be unique.";
+"DISTRIBUTION_DOCUMENT_INVALID" = "This document is not a valid distribution.";

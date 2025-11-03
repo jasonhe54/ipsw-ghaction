@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.tracd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>IOHIDInterface - Bluetooth</key>
+			<dict>
+				<key>DeviceUsagePairs</key>
+				<array>
+					<dict>
+						<key>DeviceUsage</key>
+						<integer>75</integer>
+						<key>DeviceUsagePage</key>
+						<integer>65280</integer>
+					</dict>
+				</array>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOHIDInterface</string>
+				<key>ProductIDArray</key>
+				<array>
+					<integer>666</integer>
+					<integer>671</integer>
+					<integer>801</integer>
+					<integer>802</integer>
+				</array>
+				<key>VendorID</key>
+				<integer>76</integer>
+			</dict>
+			<key>IOHIDInterface - USB</key>
+			<dict>
+				<key>DeviceUsagePairs</key>
+				<array>
+					<dict>
+						<key>DeviceUsage</key>
+						<integer>75</integer>
+						<key>DeviceUsagePage</key>
+						<integer>65280</integer>
+					</dict>
+				</array>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOHIDInterface</string>
+				<key>ProductIDArray</key>
+				<array>
+					<integer>666</integer>
+					<integer>671</integer>
+					<integer>801</integer>
+					<integer>802</integer>
+				</array>
+				<key>VendorID</key>
+				<integer>1452</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.TrustedAccessory.XPC</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/tracd</string>
+</dict>
+</plist>

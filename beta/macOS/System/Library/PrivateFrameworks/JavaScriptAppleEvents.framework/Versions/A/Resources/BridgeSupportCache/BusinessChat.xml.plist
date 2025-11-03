@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constants</key>
+	<dict>
+		<key>BCParameterNameBody</key>
+		<dict>
+			<key>type</key>
+			<string>@</string>
+		</dict>
+		<key>BCParameterNameGroup</key>
+		<dict>
+			<key>type</key>
+			<string>@</string>
+		</dict>
+		<key>BCParameterNameIntent</key>
+		<dict>
+			<key>type</key>
+			<string>@</string>
+		</dict>
+	</dict>
+	<key>enums</key>
+	<dict>
+		<key>BCChatButtonStyleDark</key>
+		<dict>
+			<key>value</key>
+			<string>1</string>
+		</dict>
+		<key>BCChatButtonStyleLight</key>
+		<dict>
+			<key>value</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>loadPath</key>
+	<string>/System/Library/Frameworks/BusinessChat.framework/BusinessChat</string>
+</dict>
+</plist>

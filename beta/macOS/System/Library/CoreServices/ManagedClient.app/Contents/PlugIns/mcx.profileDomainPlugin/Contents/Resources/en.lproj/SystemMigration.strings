@@ -1,0 +1,3 @@
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'System Migration', 'other': '%lu System Migration', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'System Migration', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'System Migration', 'other': 'System Migration (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

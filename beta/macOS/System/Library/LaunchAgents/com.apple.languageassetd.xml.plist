@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.languageassetd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>AppleKeyboardsPreferencesChangedNotification</key>
+			<dict>
+				<key>Name</key>
+				<string>AppleKeyboardsPreferencesChangedNotification</string>
+			</dict>
+			<key>AppleLanguagePreferencesChangedNotification</key>
+			<dict>
+				<key>Name</key>
+				<string>AppleLanguagePreferencesChangedNotification</string>
+			</dict>
+			<key>com.apple.fonts.download.languageassets</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.fonts.download.languageassets</string>
+			</dict>
+			<key>com.apple.purplebuddy.setupdone</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.purplebuddy.setupdone</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.languageassetd</key>
+		<true/>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/languageassetd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

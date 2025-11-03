@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kATSFontTestDescriptionKey</key>
+	<string>This test checks for basic parsability; failure means we can't even successfully parse the supplied data as a font.</string>
+	<key>kATSFontTestIdentifierKey</key>
+	<string>com.apple.generalFont</string>
+	<key>kATSFontTestNameKey</key>
+	<string>Font basic parsability</string>
+	<key>kATSFontTestSeverityKey</key>
+	<array>
+		<string>kATSFontTestSeverityFatalError</string>
+	</array>
+	<key>kATSFontTestTargetKey</key>
+	<array>
+		<string>kATSFontTestGeneralFontData</string>
+	</array>
+	<key>kATSFontTestTypeKey</key>
+	<array>
+		<string>kATSFontTestUsabilityTest</string>
+		<string>kATSFontTestStructureTest</string>
+		<string>kATSFontTestSpecificationTest</string>
+		<string>kATSFontTestUnexpectedValueTest</string>
+	</array>
+	<key>kATSFontTestVersionKey</key>
+	<integer>1</integer>
+</dict>
+</plist>

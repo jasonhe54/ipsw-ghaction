@@ -1,0 +1,17 @@
+"CHART" = "Chart";
+"TOTAL %@ %@" = "total %@ %@";
+"VARIES BETWEEN %@ AND %@" = "varies between %@ and %@";
+"%lld SERIES" = "{'series': {'zero': 'no series', 'other': '%d series', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@series@'}";
+"NO FINITE VALUES" = "no finite values";
+"%@ TO %@, INCREASES INCONSISTENTLY" = "%@ to %@, increases inconsistently";
+"GROUP" = "group";
+"STARTS AT %@, VARIES BETWEEN %@ AND %@, ENDS AT %@" = "starts at %@, varies between %@ and %@, ends at %@";
+"%lld VALUES" = "{'values': {'one': '1 value', 'zero': 'no values', 'other': '%d values', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@values@'}";
+"MEAN %@" = "average %@";
+"%@ THE ENTIRE TIME" = "%@ the entire time";
+"MEAN %@ %@" = "average %@ %@";
+"TOTAL %@" = "total %@";
+"%@ TO %@" = "%@ to %@";
+"%@ TO %@, DECREASES INCONSISTENTLY" = "%@ to %@, decreases inconsistently";
+"%@ TO %@, INCREASES CONSISTENTLY" = "%@ to %@, increases consistently";
+"%@ TO %@, DECREASES CONSISTENTLY" = "%@ to %@, decreases consistently";

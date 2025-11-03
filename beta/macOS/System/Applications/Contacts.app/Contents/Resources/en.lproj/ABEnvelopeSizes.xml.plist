@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>110</integer>
+		<key>ABEnvelopeName</key>
+		<string>DL</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>220</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>81</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C7</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>114</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>81</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C7/6</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>162</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>114</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C6</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>162</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>169</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C5</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>229</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>229</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C4</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>324</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>324</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C3</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>458</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>458</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C2</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>648</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>648</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C1</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>917</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>International Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>917</integer>
+		<key>ABEnvelopeName</key>
+		<string>ISO C0</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>1297</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.1875</real>
+		<key>ABEnvelopeName</key>
+		<string>Baronial 2</string>
+		<key>ABEnvelopeWidth</key>
+		<real>4.25</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.625</real>
+		<key>ABEnvelopeName</key>
+		<string>Baronial 4</string>
+		<key>ABEnvelopeWidth</key>
+		<real>4.625</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.125</real>
+		<key>ABEnvelopeName</key>
+		<string>Baronial 5</string>
+		<key>ABEnvelopeWidth</key>
+		<real>5.125</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.25</real>
+		<key>ABEnvelopeName</key>
+		<string>Baronial 5 1/4</string>
+		<key>ABEnvelopeWidth</key>
+		<real>5.25</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.375</real>
+		<key>ABEnvelopeName</key>
+		<string>Baronial 5 1/2</string>
+		<key>ABEnvelopeWidth</key>
+		<real>5.625</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>5</real>
+		<key>ABEnvelopeName</key>
+		<string>Baronial 6</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6.25</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.0625</real>
+		<key>ABEnvelopeName</key>
+		<string>Commercial 5</string>
+		<key>ABEnvelopeWidth</key>
+		<real>5.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.375</real>
+		<key>ABEnvelopeName</key>
+		<string>Commercial 6</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.5</real>
+		<key>ABEnvelopeName</key>
+		<string>Commercial 6 1/4</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.5619999999999998</real>
+		<key>ABEnvelopeName</key>
+		<string>Commercial 6 1/2</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.625</real>
+		<key>ABEnvelopeName</key>
+		<string>Commercial 6 3/4</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.75</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 7</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6.75</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.75</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 7 1/2</string>
+		<key>ABEnvelopeWidth</key>
+		<real>7.625</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.875</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 7 3/4 (Monarch)</string>
+		<key>ABEnvelopeWidth</key>
+		<real>7.625</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.5</real>
+		<key>ABEnvelopeName</key>
+		<string>Official Data Card</string>
+		<key>ABEnvelopeWidth</key>
+		<real>7.625</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.625</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 8 5/8 (Check)</string>
+		<key>ABEnvelopeWidth</key>
+		<real>8.625</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.875</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 9</string>
+		<key>ABEnvelopeWidth</key>
+		<real>8.875</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.125</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 10</string>
+		<key>ABEnvelopeWidth</key>
+		<real>9.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.5</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 10 1/2</string>
+		<key>ABEnvelopeWidth</key>
+		<real>9.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.5</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 11</string>
+		<key>ABEnvelopeWidth</key>
+		<real>10.375</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>4.75</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 12</string>
+		<key>ABEnvelopeWidth</key>
+		<real>11</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>5</real>
+		<key>ABEnvelopeName</key>
+		<string>Official 14</string>
+		<key>ABEnvelopeWidth</key>
+		<real>11.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.5</real>
+		<key>ABEnvelopeName</key>
+		<string>Remittance 6 1/4</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.5</real>
+		<key>ABEnvelopeName</key>
+		<string>Remittance 6 1/2</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6.25</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.625</real>
+		<key>ABEnvelopeName</key>
+		<string>Remittance 6 3/4</string>
+		<key>ABEnvelopeWidth</key>
+		<real>6.5</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>North American Envelopes</string>
+		<key>ABEnvelopeHeight</key>
+		<real>3.875</real>
+		<key>ABEnvelopeName</key>
+		<string>Remittance 9</string>
+		<key>ABEnvelopeWidth</key>
+		<real>8.875</real>
+		<key>ABUnits</key>
+		<real>2</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>142</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 1</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>332</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>119</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 2</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>277</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>120</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 3</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>235</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>105</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 31</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>235</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>92</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 30</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>235</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>90</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 40</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>225</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Choukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>90</integer>
+		<key>ABEnvelopeName</key>
+		<string>Choukei 4</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>205</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>320</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei A3</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>440</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>287</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 0</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>382</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>270</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 1</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>382</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>240</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 2</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>332</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>229</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei Kokusai A4</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>324</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>216</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 3</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>277</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>197</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 4</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>267</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>190</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 5</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>240</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>162</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 6</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>229</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>142</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 7</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>205</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Kakukei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>119</integer>
+		<key>ABEnvelopeName</key>
+		<string>Kakukei 8</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>197</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>235</integer>
+		<key>ABEnvelopeName</key>
+		<string>Furusu 10</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>120</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>197</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 0</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>136</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>176</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 1</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>120</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>173</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 1 Small</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>118</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>162</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 2</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>114</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>148</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 3</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>98</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>235</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 4</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>105</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>217</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 5</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>95</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>190</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 6</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>98</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+	<dict>
+		<key>ABEnvelopeGrouping</key>
+		<string>Japanese Envelopes/Youkei</string>
+		<key>ABEnvelopeHeight</key>
+		<integer>165</integer>
+		<key>ABEnvelopeName</key>
+		<string>Youkei 7</string>
+		<key>ABEnvelopeWidth</key>
+		<integer>92</integer>
+		<key>ABUnits</key>
+		<real>1</real>
+	</dict>
+</array>
+</plist>

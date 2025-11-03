@@ -1,0 +1,16 @@
+"com.apple.calendars.Event/com.apple.ical.procalarms" = "script alarm";
+"com.apple.calendars.Calendar/com.apple.ical.node" = "node";
+"com.apple.calendars.Event/com.apple.ical.stampdate" = "event modification date";
+"com.apple.calendars.AudioAlarm/com.apple.ical.occurrencetriggerdate" = "list of snoozed audio alarms trigger dates";
+"com.apple.calendars.Event/com.apple.ical.uid" = "event unique identifier";
+"com.apple.calendars.AudioAlarm/com.apple.ical.occurrencetriggerid" = "list of snoozed audio alarm identifiers";
+"com.apple.calendars.DisplayAlarm/com.apple.ical.occurrencetriggerid" = "list of snoozed message alarm identifiers";
+"com.apple.calendars.Calendar/com.apple.ical.type" = "calendar type";
+"com.apple.calendars.Event/com.apple.ical.creationdate" = "event creation date";
+"com.apple.calendars.Event/com.apple.ical.itip.needsupdate" = "need to resend invitation";
+"com.apple.calendars.Event/com.apple.ical.lastmodificationdate" = "event last modification date";
+"com.apple.calendars.Event/com.apple.ical.itip.mystatus" = "received invitation has been modified";
+"com.apple.calendars.DisplayAlarm/com.apple.ical.occurrencetriggerdate" = "list of snoozed message alarms trigger dates";
+"com.apple.calendars.Event/com.apple.ical.itip.sent" = "invitation sent";
+"com.apple.calendars.AudioAlarm/com.apple.ical.sound" = "alarm sound";
+"com.apple.calendars.Event/com.apple.ical.sequence" = "event version";

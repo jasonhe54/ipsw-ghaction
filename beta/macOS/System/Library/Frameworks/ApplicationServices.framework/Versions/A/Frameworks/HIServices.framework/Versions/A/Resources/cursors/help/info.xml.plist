@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blur</key>
+	<real>1.8</real>
+	<key>hotx</key>
+	<integer>9</integer>
+	<key>hotx-scaled</key>
+	<integer>9</integer>
+	<key>hoty</key>
+	<integer>9</integer>
+	<key>hoty-scaled</key>
+	<integer>9</integer>
+	<key>shadowcolor</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+		<integer>0</integer>
+		<real>0.65000000000000002</real>
+	</array>
+	<key>shadowoffsetx</key>
+	<integer>0</integer>
+	<key>shadowoffsety</key>
+	<integer>-1</integer>
+</dict>
+</plist>

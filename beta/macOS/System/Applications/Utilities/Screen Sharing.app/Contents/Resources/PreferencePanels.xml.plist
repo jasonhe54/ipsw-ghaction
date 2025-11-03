@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferencePanels</key>
+	<array>
+		<dict>
+			<key>Class</key>
+			<string>DisplayPreferencesModule</string>
+			<key>Identifier</key>
+			<string>Display</string>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>QualityPreferencesModule</string>
+			<key>Identifier</key>
+			<string>Quality</string>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>BlockPreferencesModule</string>
+			<key>Identifier</key>
+			<string>Blocked Users</string>
+		</dict>
+	</array>
+	<key>UsesButtons</key>
+	<string>0</string>
+</dict>
+</plist>

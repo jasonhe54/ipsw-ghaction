@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-D</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>D Ḏ Ď Ð</string>
+		<key>Strings</key>
+		<string>D Ḏ Ď Ð</string>
+	</dict>
+	<key>Roman-Accent-L</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>L Ḻ Ł Ļ</string>
+		<key>Strings</key>
+		<string>L Ḻ Ł Ļ</string>
+	</dict>
+	<key>Roman-Accent-N</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>N Ṉ Ŋ Ñ Ń Ņ</string>
+		<key>Strings</key>
+		<string>N Ṉ Ŋ Ñ Ń Ņ</string>
+	</dict>
+	<key>Roman-Accent-R</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>R Ṟ Ř</string>
+		<key>Strings</key>
+		<string>R Ṟ Ř</string>
+	</dict>
+	<key>Roman-Accent-T</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>T Ṯ Ț Ť Þ</string>
+		<key>Strings</key>
+		<string>T Ṯ Ț Ť Þ</string>
+	</dict>
+	<key>Roman-Accent-d</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>d ḏ ď ð</string>
+		<key>Strings</key>
+		<string>d ḏ ď ð</string>
+	</dict>
+	<key>Roman-Accent-l</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>l ḻ ł ļ</string>
+		<key>Strings</key>
+		<string>l ḻ ł ļ</string>
+	</dict>
+	<key>Roman-Accent-n</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>n ṉ ŋ ñ ń ņ</string>
+		<key>Strings</key>
+		<string>n ṉ ŋ ñ ń ņ</string>
+	</dict>
+	<key>Roman-Accent-r</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>r ṟ ř</string>
+		<key>Strings</key>
+		<string>r ṟ ř</string>
+	</dict>
+	<key>Roman-Accent-t</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>t ṯ ț ť þ</string>
+		<key>Strings</key>
+		<string>t ṯ ț ť þ</string>
+	</dict>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Currency-$</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>$ ¢</string>
+		<key>Strings</key>
+		<string>$ ¢</string>
+	</dict>
+	<key>UI-IconLabelLanguageVariant</key>
+	<string>AU</string>
+	<key>UI-LanguageIndicator</key>
+	<string>English (Australia)</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .au .org .edu</string>
+		<key>Strings</key>
+		<string>.com .au .org .edu</string>
+	</dict>
+</dict>
+</plist>

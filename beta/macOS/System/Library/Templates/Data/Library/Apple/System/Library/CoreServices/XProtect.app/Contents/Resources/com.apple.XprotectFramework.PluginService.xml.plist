@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.XprotectFramework.PluginService</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.XprotectFramework.PluginService</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/XPCServices/XProtectPluginService.xpc/Contents/MacOS/XProtectPluginService</string>
+</dict>
+</plist>

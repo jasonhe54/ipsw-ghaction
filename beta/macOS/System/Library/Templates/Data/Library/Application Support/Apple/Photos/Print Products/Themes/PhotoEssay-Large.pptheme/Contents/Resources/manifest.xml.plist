@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.PhotoEssay-Large</string>
+	<key>CatalogVersion</key>
+	<integer>2</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:12:45Z</date>
+	<key>PhotoEssay-Large.keywords</key>
+	<array>
+		<string>BOOKCategoryAll:300</string>
+	</array>
+	<key>PhotoEssay-Large.products</key>
+	<array>
+		<string>ExtraLargeHardcoverBook</string>
+		<string>HardcoverBook</string>
+		<string>MediumSoftcoverBook</string>
+		<string>MediumWireBoundBook</string>
+		<string>LargeSoftcoverBook</string>
+		<string>LargeWireBoundBook</string>
+	</array>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>PhotoEssay-Large</string>
+	</array>
+</dict>
+</plist>

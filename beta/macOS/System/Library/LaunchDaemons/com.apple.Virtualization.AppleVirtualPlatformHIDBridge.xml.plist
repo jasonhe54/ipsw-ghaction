@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.Virtualization.AppleVirtualPlatformHIDBridge</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>Bridged Service Present</key>
+			<dict>
+				<key>IOProviderClass</key>
+				<string>AppleVirtualPlatformHIDInterface</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/AppleVirtualPlatformHIDBridge</string>
+	<key>UserName</key>
+	<string>_avphidbridge</string>
+</dict>
+</plist>

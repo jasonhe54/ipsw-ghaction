@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>A A̱</string>
+		<key>Strings</key>
+		<string>A A̱</string>
+	</dict>
+	<key>Roman-Accent-I</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>I I̱</string>
+		<key>Strings</key>
+		<string>I I̱</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>O O̱</string>
+		<key>Strings</key>
+		<string>O O̱</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>a a̱</string>
+		<key>Strings</key>
+		<string>a a̱</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>i i̱</string>
+		<key>Strings</key>
+		<string>i i̱</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>o o̱</string>
+		<key>Strings</key>
+		<string>o o̱</string>
+	</dict>
+	<key>Roman-Accent-ʼ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>' ’ ‘ ` ʼ</string>
+		<key>Strings</key>
+		<string>' ’ ‘ ` ʼ</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>¥</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Cancel</key>
+	<string>issachi</string>
+	<key>UI-Continue</key>
+	<string>maha̱ya</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>ʋlhtaha</string>
+	<key>UI-EmergencyCall</key>
+	<string>Afehna</string>
+	<key>UI-Go</key>
+	<string>ia</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>CHA</string>
+	<key>UI-IconLabelLanguageUsesCondensedFont</key>
+	<true/>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>ibafoka</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Chahta</string>
+	<key>UI-Next</key>
+	<string>himakma</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>yokopa</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>↻</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>hina
+isht anoli</string>
+	<key>UI-Search</key>
+	<string>hoyo</string>
+	<key>UI-Send</key>
+	<string>pila</string>
+	<key>UI-Space</key>
+	<string>nan iksho</string>
+	<key>UI-Undo</key>
+	<string>↺</string>
+	<key>UI-Wait</key>
+	<string>ho̱kli</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

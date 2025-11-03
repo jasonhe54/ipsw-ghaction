@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompatibilityVersion</key>
+	<string>1.0.24</string>
+	<key>Model</key>
+	<dict>
+		<key>Launcher</key>
+		<dict>
+			<key>BundleIdentifier</key>
+			<string>com.epicgames.EpicGamesLauncher</string>
+			<key>Developer</key>
+			<string>Epic</string>
+			<key>Name</key>
+			<string>Epic Games</string>
+		</dict>
+		<key>Policy</key>
+		<dict>
+			<key>Allow</key>
+			<dict>
+				<key>BundleIdentifiers</key>
+				<array/>
+				<key>ProcessNames</key>
+				<array/>
+			</dict>
+			<key>Block</key>
+			<dict>
+				<key>BundleIdentifiers</key>
+				<array>
+					<string>com.epicgames.EpicGamesLauncher</string>
+					<string>com.epicgames.EpicWebHelper</string>
+					<string>com.epicgames.UE4EditorServices</string>
+				</array>
+				<key>ProcessNames</key>
+				<array>
+					<string>UE4EditorServic</string>
+					<string>EpicWebHelper</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

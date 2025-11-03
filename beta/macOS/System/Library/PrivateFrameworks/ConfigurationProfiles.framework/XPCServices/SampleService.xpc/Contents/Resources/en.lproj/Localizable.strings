@@ -1,0 +1,4 @@
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Sample Setting', 'other': 'Sample Settings (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Sample Setting', 'other': '%lu Sample Settings', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Sample Setting', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

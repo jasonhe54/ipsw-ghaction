@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>airpods noise suppression</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+				</array>
+			</dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+		</dict>
+	</dict>
+	<key>airpods noise suppression studio</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+				</array>
+			</dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+		</dict>
+	</dict>
+	<key>airpods noise suppression studio_voice activity detection</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+			<key>No EC</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC.propstrip</string>
+				</array>
+			</dict>
+			<key>No EC (NNVADV2)</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC_v2.propstrip</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>airpods noise suppression studio_voice activity detection_voice isolation</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+			<key>No EC</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC.propstrip</string>
+				</array>
+			</dict>
+			<key>No EC (NNVADV2)</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC_v2.propstrip</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>airpods noise suppression studio_voice isolation</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+				</array>
+			</dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+		</dict>
+	</dict>
+	<key>airpods noise suppression_voice activity detection</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+			<key>No EC</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC.propstrip</string>
+				</array>
+			</dict>
+			<key>No EC (NNVADV2)</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC_v2.propstrip</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>airpods noise suppression_voice activity detection_voice isolation</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+			<key>No EC</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC.propstrip</string>
+				</array>
+			</dict>
+			<key>No EC (NNVADV2)</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+					<string>VoiceActivityDetection-noEC_v2.propstrip</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>airpods noise suppression_voice isolation</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>PropStripFileNames</key>
+				<array>
+					<string>AirpodsNoiseSuppression.propstrip</string>
+				</array>
+			</dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/Generic/ADM</string>
+		</dict>
+	</dict>
+	<key>spatial playback</key>
+	<dict>
+		<key>DSPConfigurations</key>
+		<dict>
+			<key>FilePathBase</key>
+			<string>/System/Library/Audio/Tunings/AID9/AU</string>
+			<key>Multi Channel - Built-in Speaker</key>
+			<dict>
+				<key>AUPresetOverrides</key>
+				<array>
+					<dict>
+						<key>BoxName</key>
+						<string>Spatializer</string>
+						<key>FileName</key>
+						<string>aid9-aumx-3dem-appl.aupreset</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Stereo - Built-in Speaker</key>
+			<dict>
+				<key>AUPresetOverrides</key>
+				<array>
+					<dict>
+						<key>BoxName</key>
+						<string>Spatializer</string>
+						<key>FileName</key>
+						<string>aid9-aumx-3dem-appl.aupreset</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

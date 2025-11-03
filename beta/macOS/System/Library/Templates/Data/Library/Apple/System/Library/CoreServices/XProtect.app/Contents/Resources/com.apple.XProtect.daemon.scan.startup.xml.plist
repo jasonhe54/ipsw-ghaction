@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>START_UP</key>
+		<string>1</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.XProtect.daemon.scan.startup</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>Program</key>
+	<string>/Library/Apple/System/Library/CoreServices/XProtect.app/Contents/MacOS/XProtect</string>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

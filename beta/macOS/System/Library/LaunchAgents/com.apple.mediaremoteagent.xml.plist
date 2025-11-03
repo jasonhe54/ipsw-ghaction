@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.mediaremoteagent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.callkit.callcontroller.shouldconnect</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.callkit.callcontroller.shouldconnect</string>
+			</dict>
+			<key>com.apple.telephonyutilities.callservicesdaemon.connectionrequest</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.telephonyutilities.callservicesdaemon.connectionrequest</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent</string>
+	</array>
+</dict>
+</plist>

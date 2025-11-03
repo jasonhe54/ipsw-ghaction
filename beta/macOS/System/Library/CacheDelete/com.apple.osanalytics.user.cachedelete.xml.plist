@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CACHE_DELETE_ID</key>
+	<string>com.apple.osanalytics.user.cachedelete</string>
+	<key>CACHE_DELETE_SERVICES</key>
+	<array>
+		<string>PURGEABLE</string>
+		<string>PURGE</string>
+		<string>PERIODIC</string>
+	</array>
+	<key>CACHE_DELETE_USER_AGENT</key>
+	<true/>
+</dict>
+</plist>

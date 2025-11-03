@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.DiagnosticsReporter</string>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/Diagnostics Reporter.app/Contents/MacOS/Diagnostics Reporter</string>
+	<key>QueueDirectories</key>
+	<array>
+		<string>/var/db/PanicReporter/</string>
+		<string>/var/db/DiagnosticsReporter/</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/dev/null</string>
+</dict>
+</plist>

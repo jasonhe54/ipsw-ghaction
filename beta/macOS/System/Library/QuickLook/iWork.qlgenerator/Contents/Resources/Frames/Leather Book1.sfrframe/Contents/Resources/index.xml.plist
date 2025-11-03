@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>leatherbook_bottom.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>6</integer>
+	<key>Bottom Left</key>
+	<string>leatherbook_ll.png</string>
+	<key>Bottom Right</key>
+	<string>leatherbook_lr.png</string>
+	<key>Left</key>
+	<string>leatherbook_left.png</string>
+	<key>Left Frame Inset</key>
+	<integer>6</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.29999999999999999</real>
+	<key>Right</key>
+	<string>leatherbook_right.png</string>
+	<key>Right Frame Inset</key>
+	<integer>6</integer>
+	<key>Stretch Tiles</key>
+	<integer>0</integer>
+	<key>Top</key>
+	<string>leatherbook_top.png</string>
+	<key>Top Frame Inset</key>
+	<integer>6</integer>
+	<key>Top Left</key>
+	<string>leatherbook_ul.png</string>
+	<key>Top Right</key>
+	<string>leatherbook_ur.png</string>
+	<key>name</key>
+	<string>leatherbook</string>
+	<key>preview-image</key>
+	<string>leatherbook_thumbnail.png</string>
+</dict>
+</plist>

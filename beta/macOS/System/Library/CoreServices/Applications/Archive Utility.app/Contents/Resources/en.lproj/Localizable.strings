@@ -1,0 +1,62 @@
+"Save archives into:" = "Save archives into:";
+"Select where to save expanded files." = "Select where to save expanded files.";
+"Cancel" = "Cancel";
+"Please enter the password for “%1$@”." = "Please enter the password for “%1$@”.";
+"The archive “%1$@” is empty." = "The archive “%1$@” is empty.";
+"Unable to delete “%1$@”." = "Unable to delete “%1$@”.";
+"Could not find a writable folder in which to create an archive of “%1$@.”  Try moving it to a writable folder." = "Could not find a writable folder in which to create an archive of “%1$@.”  Try moving it to a writable folder.";
+"Unable to delete archive “%1$@”." = "Unable to delete archive “%1$@”.";
+"Expanding “%1$@”…" = "Expanding “%1$@”…";
+"Unable to move archive “%1$@” to “%2$@”." = "Unable to move archive “%1$@” to “%2$@”.";
+"Unable to expand “%1$@” into “%2$@”.
+(Error %3$ld - %4$@.)" = "Unable to expand “%1$@” into “%2$@”.
+(Error %3$ld - %4$@.)";
+"Select where to move files after archiving them." = "Select where to move files after archiving them.";
+"Could not find a writable folder for the contents of “%1$@.”  Try moving it to a writable folder." = "Could not find a writable folder for the contents of “%1$@.”  Try moving it to a writable folder.";
+"Unable to move archive “%1$@” to Trash." = "Unable to move archive “%1$@” to Trash.";
+"Unable to move “%1$@” to “%2$@”.
+Target does not exist or is not a directory." = "Unable to move “%1$@” to “%2$@”.
+Target does not exist or is not a directory.";
+"Finished expanding “%1$@” into “%2$@”." = "Finished expanding “%1$@” into “%2$@”.";
+"Save expanded file(s) into:" = "Save expanded file(s) into:";
+"Unable to move archive “%1$@” to “%2$@”.
+Target does not exist or is not a directory." = "Unable to move archive “%1$@” to “%2$@”.
+Target does not exist or is not a directory.";
+"Select where to move archives after expanding." = "Select where to move archives after expanding.";
+"Unable to expand “%@”. It is in an unsupported format." = "Unable to expand “%@”. It is in an unsupported format.";
+"move archive to…" = "move archive to…";
+"move files to “%@”" = "move files to “%@”";
+"Unable to expand “%1$@” into “%2$@”.
+(Error %3$d - %4$@.)" = "Unable to expand “%1$@” into “%2$@”.
+(Error %3$d - %4$@.)";
+"After expanding, move archive to:" = "After expanding, move archive to:";
+"Archive File or Folder" = "Archive File or Folder";
+"Error identifying a writable temporary folder. Try moving the archive to another volume." = "Error identifying a writable temporary folder. Try moving the archive to another volume.";
+"Finished archiving “%1$@” into “%2$@”." = "Finished archiving “%1$@” into “%2$@”.";
+"Unable to expand “%1$@” because you do not have permission to open the document. (Error %2$d)" = "Unable to expand “%1$@” because you do not have permission to open the document. (Error %2$d)";
+"Archiving “%1$@”…" = "Archiving “%1$@”…";
+"Expanding “%1$@” into “%2$@” was canceled." = "Expanding “%1$@” into “%2$@” was canceled.";
+"Progress" = "Progress";
+"Unable to move “%1$@” to “%2$@”." = "Unable to move “%1$@” to “%2$@”.";
+"Unable to open archive “%1$@”.
+(Error %2$d - %3$@.)" = "Unable to open archive “%1$@”.
+(Error %2$d - %3$@.)";
+"into…" = "into…";
+"Cleaning up…" = "Cleaning up…";
+"Archive Utility" = "Archive Utility";
+"Archive" = "Archive";
+"After archiving, move files to:" = "After archiving, move files to:";
+"Unable to expand “%@”. Stuffit archives are not supported." = "Unable to expand “%@”. Stuffit archives are not supported.";
+"Expand File" = "Expand File";
+"Unable to open damaged archive “%1$@”." = "Unable to open damaged archive “%1$@”.";
+"Unable to archive “%1$@” into “%2$@”.
+(Error %3$ld - %4$@.)" = "Unable to archive “%1$@” into “%2$@”.
+(Error %3$ld - %4$@.)";
+"Select where to save archives." = "Select where to save archives.";
+"Expand" = "Expand";
+"move archive to “%@”" = "move archive to “%@”";
+"move files to…" = "move files to…";
+"Unable to finish expanding “%1$@” into “%2$@”.
+Could not move “%3$@” into destination directory." = "Unable to finish expanding “%1$@” into “%2$@”.
+Could not move “%3$@” into destination directory.";
+"into “%@”" = "into “%@”";

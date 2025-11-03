@@ -1,0 +1,3 @@
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Setup Assistant', 'other': '%lu Setup Assistant', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Setup Assistant', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Setup Assistant', 'other': 'Setup Assistant (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

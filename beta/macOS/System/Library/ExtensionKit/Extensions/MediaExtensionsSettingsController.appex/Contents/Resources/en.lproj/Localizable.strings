@@ -1,0 +1,21 @@
+"" = "";
+"SYSTEM_EXTENSIONS_FAILED_TO_ENABLE" = "Failed to enable %@ : %@";
+"MEDIA_EXTENSIONS" = "Media Extensions";
+"GROUP_SUBTITLE_FORMATREADER" = "Choose the extension to handle media format ‘%@’";
+"SECTION_TITLE_RAWPROCESSORS" = "Video Raw Processors";
+"GROUP_TITLE_FORMATREADER" = "Format ‘%@’";
+"GROUP_TITLE_CODEC" = "Codec ‘%@’";
+"SYSTEM_EXTENSIONS_DISABLED_INFO_WITHOUT_USAGE" = "%@ was installed by %@ and is currently disabled.";
+"SYSTEM_EXTENSIONS_FAILED_TO_UNINSTALL" = "Failed to uninstall %@ : %@";
+"SECTION_TITLE_VIDEODECODERS" = "Video Decoders";
+"CANCEL_BUTTON" = "Cancel";
+"SYSTEM_EXTENSIONS_ENABLED_INFO" = "%@ was installed by %@ and is currently enabled. Usage Description: %@";
+"MORE_INFO_LABEL" = "Show in Finder";
+"GROUP_SUBTITLE_CODEC" = "Choose the extension to handle video codec type ‘%@’";
+"SYSTEM_EXTENSIONS_DISABLED_INFO" = "%@ was installed by %@ and is currently disabled.
+Usage Description: %@";
+"OK_BUTTON" = "OK";
+"SECTION_TITLE_FORMATREADERS" = "Media Format Readers";
+"SYSTEM_EXTENSIONS_ENABLED_INFO_WITHOUT_USAGE" = "%@ was installed by %@ and is currently enabled.";
+"SYSTEM_EXTENSIONS_FAILED_TO_DISABLE" = "Failed to disable %@ : %@";
+"MEDIA_EXTENSIONS_CONTROLLER_TITLE" = "Media extensions allow applications to extend the native media decoding and playback capabilities of the system.";

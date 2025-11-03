@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enums</key>
+	<dict>
+		<key>AUDIO_UNIT_VERSION</key>
+		<dict>
+			<key>value</key>
+			<string>1070</string>
+		</dict>
+	</dict>
+	<key>loadPath</key>
+	<string>/System/Library/Frameworks/AudioUnit.framework/AudioUnit</string>
+</dict>
+</plist>

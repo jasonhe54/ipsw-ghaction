@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configuration</key>
+	<array>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<string>Trackpad Capture</string>
+		</dict>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>neutralW</key>
+			<real>0.96592582628906831</real>
+			<key>neutralX</key>
+			<real>0.25881904510252068</real>
+			<key>neutralY</key>
+			<real>0.0</real>
+			<key>neutralZ</key>
+			<real>0.0</real>
+			<key>pitchMax</key>
+			<real>1.570796326794897</real>
+			<key>rate</key>
+			<real>1.570796326794897</real>
+			<key>rollMax</key>
+			<real>1.570796326794897</real>
+			<key>sensitivity</key>
+			<real>0.94999999999999996</real>
+			<key>type</key>
+			<string>Tilt</string>
+		</dict>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<string>Click Drag</string>
+		</dict>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<string>Scroll Drag</string>
+		</dict>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyCode</key>
+			<integer>49</integer>
+			<key>modifier</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>Tap</string>
+			<key>x</key>
+			<real>0.5</real>
+			<key>y</key>
+			<real>0.5</real>
+		</dict>
+		<dict>
+			<key>distance</key>
+			<real>150</real>
+			<key>duration</key>
+			<real>0.033333333333333333</real>
+			<key>enabled</key>
+			<true/>
+			<key>type</key>
+			<string>Arrow Swipe</string>
+			<key>x</key>
+			<real>0.5</real>
+			<key>y</key>
+			<real>0.5</real>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Downlink</key>
+	<dict>
+		<key>Nodes</key>
+		<dict>
+			<key>Dynamics</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>Generic/Accessory/AID6001/VPVX/DSP/DL/downlink_dynamics_media.dspg</string>
+				<key>DSPGraphInputChannelCounts</key>
+				<dict>
+					<key>voice</key>
+					<integer>2</integer>
+				</dict>
+				<key>DSPGraphOutputChannelCounts</key>
+				<dict>
+					<key>mix</key>
+					<integer>2</integer>
+				</dict>
+				<key>DSPGraphPropertyStripFilePaths</key>
+				<array>
+					<string>Generic/Accessory/AID6001/VPVX/DSP/DL/downlink_dynamics_media.propstrip</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

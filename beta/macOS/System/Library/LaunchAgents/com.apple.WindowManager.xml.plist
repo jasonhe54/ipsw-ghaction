@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>AfterInitialDemand</key>
+		<true/>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.WindowManager.agent</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.windowmanager.dragserver</key>
+		<true/>
+		<key>com.apple.windowmanager.external</key>
+		<true/>
+		<key>com.apple.windowmanager.server</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager</string>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

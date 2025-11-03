@@ -1,0 +1,65 @@
+"Parametric curve reserved field is not zero. " = "Parametric curve reserved field is not zero. ";
+"Matrix should be linear. " = "Matrix should be linear. ";
+"Tag '%s': " = "Tag ‘%s’: ";
+"Header message digest (MD5) is missing. " = "Header message digest (MD5) is missing. ";
+"Curve reserved field is not zero. " = "Curve reserved field is not zero. ";
+"Description tag has a bad ASCII string. " = "Description tag has a bad ASCII string. ";
+"Tag reserved field is not zero. " = "Tag reserved field is not zero. ";
+"Header rendering intent is not correct. " = "Header rendering intent is not correct. ";
+"Verify stopped by user.
+" = "Verify stopped by user.
+";
+"Header version isn't correct. " = "Header version isn’t correct. ";
+"Description tag has a bad Macintosh string. " = "Description tag has a bad Macintosh string. ";
+"Header padding is not null. " = "Header padding is not null. ";
+"Data overruns tag length. " = "Data overruns tag length. ";
+"Number of input channels isn't correct. " = "Number of input channels isn’t correct. ";
+"Checking %@ profiles.
+" = "Checking %@ profiles…
+";
+"Reserved field not zero. " = "Reserved field not zero. ";
+"VERIFY_DONE" = "{'verify_done': {'one': 'Verify done. Found %@ bad profile.', 'zero': 'Verify done. No problems found.', 'other': 'Verify done. Found %@ bad profiles.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': '@'}, 'NSStringLocalizedFormatKey': '%1$#@verify_done@'}";
+"Identical text could share the same data. " = "Identical text could share the same data. ";
+"Header connection space is not correct. " = "Header connection space is not correct. ";
+"Header white point is not D50. " = "Header white point is not D50. ";
+"Tag type is not correct. " = "Tag type is not correct. ";
+"'B' curves are missing. " = "“B” curves are missing. ";
+"File length is not padded to a multiple of four. " = "File length is not padded to a multiple of four. ";
+"The profile is invalid. " = "The profile is invalid. ";
+"File length is different than length in profile header. " = "File length is different than length in profile header. ";
+"Text extends past end of tag. " = "Text extends past end of tag. ";
+"Header message digest (MD5) is not correct. " = "Header message digest (MD5) is not correct. ";
+"REPAIR_DONE" = "{'repair_done': {'one': 'Repair done. %@ profile fixed.', 'zero': 'Repair done. No problems found.', 'other': 'Repair done. %2$#@fixed@ of %@ profiles fixed.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': '@'}, 'fixed': {'other': '%@', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': '@'}, 'NSStringLocalizedFormatKey': '%1$#@repair_done@'}";
+"Description tag has a bad Unicode string. " = "Description tag has a bad Unicode string. ";
+"Parametric curve type isn't correct. " = "Parametric curve type isn’t correct. ";
+"Required tag is not present. " = "Required tag is not present. ";
+"CFBundleName" = "Profile First Aid";
+"Matrix is missing. " = "Matrix is missing. ";
+"Table entry size is not valid. " = "Table entry size is not valid. ";
+"Tag size is not correct. " = "Tag size is not correct. ";
+"'A' curves are missing. " = "“A” curves are missing. ";
+"Searching for profiles.
+" = "Searching for profiles…
+";
+"Repair stopped by user.
+" = "Repair stopped by user.
+";
+"Gridpoints value is not correct. " = "Gridpoints value is not correct. ";
+"error (%d). " = "error (%d). ";
+"'M' curves are missing. " = "“M” curves are missing. ";
+"The profile could not be saved. " = "The profile could not be saved. ";
+"Waiting for access to profiles.
+" = "Waiting for access to profiles…
+";
+"Tag length is incorrect - overruns subsequent tag. " = "Tag length is incorrect - overruns subsequent tag. ";
+"Header data space is not correct. " = "Header data space is not correct. ";
+"Curve data overruns tag length. " = "Curve data overruns tag length. ";
+"Could not be fixed." = "Could not be fixed.";
+"Fixed." = "Fixed.";
+"Text contains invalid characters. " = "Text contains invalid characters. ";
+"Header profile class is not correct. " = "Header profile class is not correct. ";
+"Text tag has an incorrect length. " = "Text tag has an incorrect length. ";
+"Curve type is not correct. " = "Curve type is not correct. ";
+"Header creator is not correct. " = "Header creator is not correct. ";
+"Number of output channels isn't correct. " = "Number of output channels isn’t correct. ";
+"The file is locked. " = "The file is locked. ";

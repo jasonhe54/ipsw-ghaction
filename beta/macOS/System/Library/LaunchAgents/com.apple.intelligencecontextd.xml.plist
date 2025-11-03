@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.intelligencecontextd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict/>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.intelligenceflow.context</key>
+		<true/>
+		<key>com.apple.intelligenceflow.contextIntelligence</key>
+		<true/>
+		<key>com.apple.intelligenceflow.uiContext</key>
+		<true/>
+		<key>com.apple.uiintelligencesupport.agent</key>
+		<dict>
+			<key>_ExperimentalNonLaunching</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/intelligencecontextd</string>
+	</array>
+</dict>
+</plist>

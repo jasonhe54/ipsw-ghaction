@@ -1,0 +1,11 @@
+"AMName" = "Encode Media";
+"AMDResult" = "";
+"AMDSummary" = "This action encodes the video files passed to it from the previous action in the workflow.";
+"AMDWebsite" = "";
+"AMDRequires" = "";
+"CFBundleName" = "Encode Media";
+"AMDInput" = "";
+"AMDNote" = "Video does not scale up from smaller sizes.";
+"NSHumanReadableCopyright" = "Copyright © 2004–2025 Apple Inc. All rights reserved.";
+"AMDAlert" = "";
+"AMDOptions" = "Encoding options include: AVC 480p, AVC 720p, AVC 1080p, AVC 2160p, HEVC 1080p, HEVC 2160p, HEVC 4320p, MV-HEVC 960p, MV-HEVC 1440p, MV-HEVC 4320p, MV-HEVC 7680p, Apple ProRes, and Audio Only.";

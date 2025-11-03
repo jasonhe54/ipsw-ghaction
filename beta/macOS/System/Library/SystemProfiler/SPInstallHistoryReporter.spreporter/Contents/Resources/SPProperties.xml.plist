@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>10</string>
+	</dict>
+	<key>install_date</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>30</string>
+	</dict>
+	<key>install_version</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>20</string>
+	</dict>
+	<key>package_source</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>25</string>
+	</dict>
+</dict>
+</plist>

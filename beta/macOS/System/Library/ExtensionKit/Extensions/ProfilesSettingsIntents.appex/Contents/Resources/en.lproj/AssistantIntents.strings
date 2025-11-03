@@ -1,0 +1,7 @@
+"#!SET#!_Open ${target} in ${applicationName}[1]" = "Go to ${target} in ${applicationName}";
+"#!SET#!_Open ${target} in ${applicationName}[0]" = "Open ${target} in ${applicationName}";
+"#!SET#!_Device Management[0]" = "Device Management";
+"#!SET#!_Device Management[1]" = "Profiles";
+"#!SET#!_Device Management[2]" = "Configuration Profiles";
+"#!SET#!_Device Management[3]" = "Provisioning Profiles";
+"#!SET#!_Open ${target} in ${applicationName}[2]" = "Show me ${target} in ${applicationName}";

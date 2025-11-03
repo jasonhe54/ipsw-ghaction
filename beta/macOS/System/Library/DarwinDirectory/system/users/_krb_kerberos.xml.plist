@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>233</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E9</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>Open Directory Kerberos</string>
+	<key>homeDirectory</key>
+	<string>/var/empty</string>
+	<key>memberships</key>
+	<array/>
+	<key>name</key>
+	<string>_krb_kerberos</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEFFFFFFFFE</string>
+	<key>shell</key>
+	<string>/usr/bin/false</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

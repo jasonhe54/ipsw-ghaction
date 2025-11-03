@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NewAuthController</key>
+	<dict>
+		<key>Description</key>
+		<string>Based in LAAuthentication interface instead of AHP</string>
+		<key>DisplayName</key>
+		<string>New implementation of AuthenticationController is used</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>oti</key>
+	<dict>
+		<key>Description</key>
+		<string>OTI support in the Authorization</string>
+		<key>DisplayName</key>
+		<string>OTI Authorization support</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+	<key>oti_sc</key>
+	<dict>
+		<key>Description</key>
+		<string>OTI support for SmartCard based login/unlock/auth in the Authorization</string>
+		<key>DisplayName</key>
+		<string>OTI SmartCard Authorization support</string>
+		<key>Enabled</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

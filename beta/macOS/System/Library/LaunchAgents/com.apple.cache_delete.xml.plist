@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cache_delete</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.dispatch.vfs</key>
+		<dict>
+			<key>Monitor Low Disk Conditions</key>
+			<dict>
+				<key>DesiredDisk</key>
+				<true/>
+				<key>LowDisk</key>
+				<integer>0</integer>
+				<key>NearLowDisk</key>
+				<true/>
+				<key>VeryLowDisk</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.finder.DeleteImmediately</key>
+			<dict>
+				<key>Name</key>
+				<string>DeleteImmediately</string>
+			</dict>
+			<key>com.apple.finder.EmptyTrash</key>
+			<dict>
+				<key>Name</key>
+				<string>EmptyingTrash</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.CacheDelete.daily</key>
+			<dict>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>PowerNap</key>
+				<true/>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cache_delete</key>
+		<true/>
+		<key>com.apple.cache_delete.public</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CacheDelete.framework/deleted</string>
+	</array>
+</dict>
+</plist>

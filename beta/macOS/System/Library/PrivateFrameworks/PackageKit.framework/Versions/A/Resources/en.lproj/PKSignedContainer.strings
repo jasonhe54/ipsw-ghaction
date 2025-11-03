@@ -1,0 +1,15 @@
+"ARCHIVING" = "Compressing items into “%@”";
+"ASSESSMENT_ERROR" = "The archive “%@” comes from an unidentified developer.";
+"OUT_OF_SPACE_ERROR" = "The archive “%@” can’t be expanded because the selected volume doesn’t have enough free space.";
+"ARCHIVE_KEY_ERROR" = "The archive can’t be written to “%@”, because there was a problem creating the signature.";
+"ASSESSMENT_RO_ERROR" = "The archive “%@” is on the disk “%@” which can’t be changed. Drag it to another disk and open it again.";
+"SHOVE_PAYLOAD_ERROR" = "The archive “%@” failed to be moved to the final destination due to the error: %@.";
+"CHECKING" = "Verifying digital signature…";
+"NO_SECURE_CONTAINER" = "The archive “%@” cannot be expanded because the process does not have access to its secure container.";
+"VERSION_ERROR" = "The archive “%@” uses features from a newer version of this software and can’t be expanded.";
+"EXPAND_ERROR" = "The archive “%@” is damaged and can’t be expanded.";
+"SANDBOX_CREATION_ERROR" = "A temporary directory could not be created for the archive “%@”.";
+"NON_APPLE_TRUST_ERROR" = "The archive “%@” does not come from Apple.";
+"EXPANDING" = "Expanding items from “%@”";
+"NO_TEMP_DIR_ERROR" = "A temporary directory could not be found for the archive “%@”.";
+"SYSTEM_POLICY_TRUST_ERROR" = "The archive “%@” cannot be expanded because it is no longer trusted by Apple.";

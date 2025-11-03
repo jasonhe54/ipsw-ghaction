@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WhatsApp</key>
+	<string>WhatsApp-Helper</string>
+	<key>com.google.Chrome</key>
+	<string>com.google.Chrome.helper</string>
+	<key>com.google.Chrome.canary</key>
+	<string>com.google.Chrome.helper</string>
+	<key>com.microsoft.edgemac</key>
+	<string>com.microsoft.edgemac.helper</string>
+	<key>com.operasoftware.Opera</key>
+	<string>com.operasoftware.Opera.helper</string>
+	<key>org.mozilla.firefox</key>
+	<string>org.mozilla.plugincontainer</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+"An error occurred while running the workflow." = "An error occurred while running the workflow.";
+"Options" = "Options";
+"Runs the specified workflow." = "Runs the specified workflow.";
+"An error occurred while loading the workflow." = "An error occurred while loading the workflow.";
+"Missing variable value." = "Missing variable value.";
+"Set variable NAME to VALUE for this run of WORKFLOW." = "Set variable NAME to VALUE for this run of WORKFLOW.";
+"automator Copyright 2003-2010, Apple Inc." = "automator Copyright 2003-2010, Apple Inc.";
+"The Automator workflow was stopped." = "The Automator workflow was stopped.";
+"No workflow file specified." = "No workflow file specified.";
+"No input specified." = "No input specified.";
+"Usage" = "Usage";
+"%@ is finished
+" = "%@ is finished
+";
+"The Automator workflow has completed." = "The Automator workflow has completed.";
+"Run in verbose mode." = "Run in verbose mode.";
+" " = " ";
+"Set INPUT as the input to WORKFLOW. If INPUT is - then the contents of standard input is used. Each newline (\n)-terminated line is treated as one text input item." = "Set INPUT as the input to WORKFLOW. If INPUT is - then the contents of standard input is used. Each newline (\n)-terminated line is treated as one text input item.";
+"Starting Automator\U2026" = "Starting Automator…";
+"%@ is running
+" = "%@ is running
+";
+"To enable third party actions, open Automator and choose Third Party Actions from the Automator menu." = "To enable third party actions, open Automator and choose Third Party Actions from the Automator menu.";

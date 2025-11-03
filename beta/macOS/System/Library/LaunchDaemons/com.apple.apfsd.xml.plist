@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.apfsd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>apfsd-published</key>
+			<dict>
+				<key>IOProviderClass</key>
+				<string>AppleAPFSContainer</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.apfsd.ca_stats_report</key>
+			<dict>
+				<key>Interval</key>
+				<integer>604800</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequiresDeviceInactivity</key>
+				<true/>
+			</dict>
+			<key>com.apple.apfsd.obj_cache_stats_report</key>
+			<dict>
+				<key>CPUIntensive</key>
+				<true/>
+				<key>DiskIntensive</key>
+				<true/>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequiresDeviceInactivity</key>
+				<true/>
+			</dict>
+			<key>com.apple.apfsd.splitter_telemetry_report</key>
+			<dict>
+				<key>DiskIntensive</key>
+				<true/>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<false/>
+				<key>RequiresDeviceInactivity</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/apfsd</string>
+	</array>
+</dict>
+</plist>

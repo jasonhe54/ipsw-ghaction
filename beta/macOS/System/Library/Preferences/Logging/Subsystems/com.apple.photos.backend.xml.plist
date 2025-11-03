@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AnalysisCoordinator</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>CPLSignpostsTelemetry</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>ImportantFetch</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

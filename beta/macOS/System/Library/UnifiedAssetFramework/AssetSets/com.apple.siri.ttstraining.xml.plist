@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AssetSetName</key>
+	<string>com.apple.siri.ttstraining</string>
+	<key>Assets</key>
+	<array>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.siri.tts.training</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.siri.tts.training.{training.language}.{training.mode}</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>training.language</string>
+						<string>training.mode</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.siri.tts.trainingscript</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.siri.tts.trainingscript.{training.language}.{trainingscript.mode}</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>training.language</string>
+						<string>trainingscript.mode</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>AutoAssetType</key>
+	<string>com.apple.MobileAsset.UAF.Siri.TTSDeviceTraining</string>
+	<key>FileType</key>
+	<string>AssetSetConfiguration</string>
+	<key>FileVersion</key>
+	<string>1.0.0</string>
+	<key>UsageTypes</key>
+	<array>
+		<string>training.language</string>
+		<string>training.mode</string>
+		<string>trainingscript.mode</string>
+	</array>
+</dict>
+</plist>

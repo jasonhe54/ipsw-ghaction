@@ -1,0 +1,3 @@
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'User Settings', 'other': '%lu User Settings', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'User Settings', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'User Settings', 'other': 'User Settings (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

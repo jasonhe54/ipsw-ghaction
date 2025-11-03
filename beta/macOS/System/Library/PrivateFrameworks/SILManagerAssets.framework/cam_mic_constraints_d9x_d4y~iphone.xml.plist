@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boundingBoxes</key>
+	<array>
+		<dict>
+			<key>Height</key>
+			<integer>1</integer>
+			<key>Width</key>
+			<integer>1</integer>
+			<key>X</key>
+			<integer>0</integer>
+			<key>Y</key>
+			<integer>0</integer>
+			<key>dynamic</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Height</key>
+			<real>0.10000000000000001</real>
+			<key>Width</key>
+			<real>0.59999999999999998</real>
+			<key>X</key>
+			<real>0.20000000000000001</real>
+			<key>Y</key>
+			<real>0.10000000000000001</real>
+			<key>dynamic</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>devices</key>
+	<array>
+		<string>iPhone17,1</string>
+		<string>iPhone17,2</string>
+		<string>iPhone17,3</string>
+		<string>iPhone17,4</string>
+	</array>
+	<key>fallbackInfo</key>
+	<dict>
+		<key>frame</key>
+		<integer>1000</integer>
+		<key>x</key>
+		<real>0.5373</real>
+		<key>y</key>
+		<real>0.0293</real>
+	</dict>
+	<key>noticeableFrameIndex</key>
+	<integer>20</integer>
+	<key>steadyFrameIndex</key>
+	<integer>28</integer>
+</dict>
+</plist>

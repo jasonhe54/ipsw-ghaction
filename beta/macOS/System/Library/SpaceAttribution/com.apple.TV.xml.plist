@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPACE_ATTRIBUTION_OWNER</key>
+	<string>com.apple.TV</string>
+	<key>SPACE_ATTRIBUTION_PATHS</key>
+	<array>
+		<string>~/Movies/TV</string>
+		<string>~/Music/iTunes/iTunes Media/Home Videos</string>
+		<string>~/Music/iTunes/iTunes Media/Movies</string>
+		<string>~/Music/iTunes/iTunes Media/TV Shows</string>
+		<string>~/Music/iTunes/iTunes Media/Downloads-TV</string>
+		<string>~/Music/iTunes/iTunes Media/Downloads-Videos</string>
+		<string>~/Music/iTunes/iTunes Media/Automatically Add to TV.localized</string>
+		<string>~/Music/iTunes/iTunes Media/Automatically Add to Videos.localized</string>
+	</array>
+	<key>SPACE_ATTRIBUTION_WRITERS</key>
+	<array>
+		<string>com.apple.AMPLibraryAgent</string>
+	</array>
+</dict>
+</plist>

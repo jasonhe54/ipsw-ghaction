@@ -1,0 +1,33 @@
+"BACK_BUTTON" = "Back";
+"QUIT_BUTTON" = "Quit";
+"TITLE_CONCLUSION" = "Conclusion";
+"TITLE_INTRODUCTION" = "Keyboard Setup Assistant";
+"EXTERNAL_WARNING_MESSAGE" = "You have pressed a key on your Apple keyboard. Please press the keys on the keyboard that can‘t be identified.";
+"INTRO_TEXT" = "Your %@ device cannot be identified and will not be usable until it is identified.
+
+If your keyboard is working properly and you have an additional USB input device connected to your computer that is not a keyboard, you may quit this application.";
+"WARNING_MESSAGE" = "The keys you pressed were not recognized. Click OK to select the keyboard type.";
+"RIGHT_SHIFT_TEXT" = "Press the key immediately to the left of the Shift key on the right side of the keyboard.";
+"WARNING_TITLE" = "Your keyboard cannot be identified.";
+"TITLE_IDENTIFYING" = "Identifying Your Keyboard";
+"UNKNOWN_TYPE" = "unknown";
+"PROGRESS_TEXT" = "Identifying your keyboard...";
+"EXTERNAL_LEFT_SHIFT_TEXT" = "Press the key immediately to the right of the Shift key on the left side of the keyboard that can‘t be identified.";
+"OK_BUTTON" = "OK";
+"ISO_HINT" = "ISO/IEC 9995 standard keyboard";
+"JIS_HINT" = "Japanese standard keyboard with input method keys";
+"FORCE_CONFIRM_TEXT" = "If you don’t know your keyboard’s type, contact the manufacturer of your keyboard and ask them to identify the type.";
+"SHIFT_SUB_TEXT" = "Press the key only once and do not hold down the key for a long time. When the key is recognized, the next panel will appear.";
+"TITLE_SELECT" = "Select the Keyboard Type";
+"JIS_TITLE" = "JIS (Japan)";
+"ANSI_HINT" = "Standard 101-key or 102-key keyboard and some other keyboards";
+"ISO_TITLE" = "ISO (International)";
+"EXTERNAL_RIGHT_SHIFT_TEXT" = "Press the key immediately to the left of the Shift key on the right side of the keyboard that can‘t be identified.";
+"ANSI_TITLE" = "ANSI (U.S.)";
+"CONFIRM_TEXT" = "Your keyboard has been identified. If this isn‘t the correct type for your keyboard, select the type and click Done.";
+"DONE_BUTTON" = "Done";
+"SKIP_BUTTON" = "Skip";
+"LEFT_SHIFT_TEXT" = "Press the key immediately to the right of the Shift key on the left side of the keyboard.";
+"MacISO_TITLE" = "ISO (International)";
+"MacISO_HINT" = "ISO/Macintosh keyboard";
+"CONTINUE_BUTTON" = "Continue";

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ACSPEnabled</string>
+	<string>AllowNetCreation</string>
+	<string>CommDisplayTerminalWindow</string>
+	<string>CommRedialEnabled</string>
+	<string>CommUseTerminalScript</string>
+	<string>DialOnDemand</string>
+	<string>DisconnectOnFastUserSwitch</string>
+	<string>DisconnectOnIdle</string>
+	<string>DisconnectOnLogout</string>
+	<string>DisconnectOnSleep</string>
+	<string>ExcludeSimpleHostnames</string>
+	<string>FTPPassive</string>
+	<string>FTPEnable</string>
+	<string>GopherEnable</string>
+	<string>IdleReminder</string>
+	<string>HTTPEnable</string>
+	<string>HTTPSEnable</string>
+	<string>IPCPCompressionVJ</string>
+	<string>IPCPUsePeerDNS</string>
+	<string>LCPEchoEnabled</string>
+	<string>OverridePrimary</string>
+	<string>ProxyAutoDiscoveryEnable</string>
+	<string>RTSPEnable</string>
+	<string>SOCKSEnable</string>
+	<string>VerboseLogging</string>
+</array>
+</plist>

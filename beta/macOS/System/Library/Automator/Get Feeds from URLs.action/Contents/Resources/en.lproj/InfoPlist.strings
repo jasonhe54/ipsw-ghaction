@@ -1,0 +1,11 @@
+"AMName" = "Get Feeds from URLs";
+"AMDRelatedActions" = "com.apple.Automator.Filter_Articles";
+"AMDSummary" = "This action retrieves the RSS feeds associated with the specified URLs.";
+"Safari" = "Safari";
+"AMDResult" = "If the URL is a webpage, the action passes RSS feeds from the webpage.  If the URL is a feed, the actions passes the RSS feed.";
+"Internet" = "Internet";
+"Feed" = "Feed";
+"Subscribe" = "Subscribe";
+"NSHumanReadableCopyright" = "Copyright © 2007–2012 Apple Inc.  All rights reserved.";
+"Atom" = "Atom";
+"RSS" = "RSS";

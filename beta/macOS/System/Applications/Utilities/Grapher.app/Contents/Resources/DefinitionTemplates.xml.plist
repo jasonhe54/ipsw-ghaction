@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2D</key>
+	<array>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Cartesian Curve</string>
+					<key>Expression</key>
+					<string>|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Polar Curve</string>
+					<key>Expression</key>
+					<string>|_matrix1x2_{{r};{|_theta_}}=|_matrix1x2_{{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Complex Curve</string>
+					<key>Expression</key>
+					<string>x+iy=|_ellipsis_, t=0|_ellipsis_10</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Parametric</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>1st Order Implicit</string>
+					<key>Expression</key>
+					<string>y'=|_ellipsis_, y(0)=|_ellipsis_</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>2nd Order Implicit</string>
+					<key>Expression</key>
+					<string>y''=|_ellipsis_, y(0)=|_ellipsis_, y'=|_ellipsis_</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>1st Order Explicit</string>
+					<key>Expression</key>
+					<string>|_frac_{{d};{dt}}|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}, |_blank_|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>2nd Order Explicit</string>
+					<key>Expression</key>
+					<string>|_frac_{{d^2};{dt^2}}|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}, |_blank_|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}, |_blank_|_frac_{{d};{dt}}|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Differential Equation</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Implicit Cartesian</string>
+					<key>Expression</key>
+					<string>|_Delta_y=|_ellipsis_</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Explicit Cartesian</string>
+					<key>Expression</key>
+					<string>|_Delta_|_matrix1x2_{{x};{y}}=|_matrix1x2_{{};{}}</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Vector Field</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Series</string>
+					<key>Expression</key>
+					<string>|_matrix1x2_{{x_{i+1}};{y_{i+1}}}=|_ellipsis_, |_blank_|_matrix1x2_{{x_{0}};{y_{0}}}=|_ellipsis_, |_blank_i=0|_ellipsis_10</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Other</string>
+		</dict>
+	</array>
+	<key>3D</key>
+	<array>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Cartesian Surface</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10, u=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Cylindrical Surface</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{r_0};{|_theta_};{z}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10, u=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Spherical Surface</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{r};{|_theta_};{|_phi_}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10, u=0|_ellipsis_10</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Parametric</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Cartesian</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Cylindrical</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{r_0};{|_theta_};{z}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>Spherical</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{r};{|_theta_};{|_phi_}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>1st Order Differential Equation</string>
+					<key>Expression</key>
+					<string>|_frac_{{d};{dt}}|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, |_blank_|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+				<dict>
+					<key>Description</key>
+					<string>2nd Order Differential Equation</string>
+					<key>Expression</key>
+					<string>|_frac_{{d^2};{dt^2}}|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, |_blank_|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, |_blank_|_frac_{{d};{dt}}|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}, t=0|_ellipsis_10</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Curves</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Explicit Cartesian</string>
+					<key>Expression</key>
+					<string>|_Delta_|_matrix1x3_{{x};{y};{z}}=|_matrix1x3_{{};{};{}}</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Vector Field</string>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<array>
+				<dict>
+					<key>Description</key>
+					<string>Series</string>
+					<key>Expression</key>
+					<string>|_matrix1x3_{{x_{i+1}};{y_{i+1}};{z_{i+1}}}=|_ellipsis_, |_blank_|_matrix1x3_{{x_{0}};{y_{0}};{z_{0}}}=|_ellipsis_, |_blank_i=0|_ellipsis_10</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>Other</string>
+		</dict>
+	</array>
+</dict>
+</plist>

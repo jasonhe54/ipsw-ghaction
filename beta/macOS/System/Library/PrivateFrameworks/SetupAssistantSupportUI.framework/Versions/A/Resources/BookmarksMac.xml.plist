@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>endTime</key>
+		<real>6.5700000000000003</real>
+		<key>identifier</key>
+		<string>INTRO</string>
+		<key>startTime</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>endTime</key>
+		<real>16.48</real>
+		<key>identifier</key>
+		<string>DOCK</string>
+		<key>startTime</key>
+		<real>7.6699999999999999</real>
+	</dict>
+	<dict>
+		<key>endTime</key>
+		<real>24.199999999999999</real>
+		<key>identifier</key>
+		<string>SPOTLIGHT</string>
+		<key>startTime</key>
+		<real>17.48</real>
+	</dict>
+	<dict>
+		<key>endTime</key>
+		<real>35.049999999999997</real>
+		<key>identifier</key>
+		<string>PHONE</string>
+		<key>startTime</key>
+		<real>25.199999999999999</real>
+	</dict>
+</array>
+</plist>

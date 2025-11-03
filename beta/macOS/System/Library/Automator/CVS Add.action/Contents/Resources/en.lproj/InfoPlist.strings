@@ -1,0 +1,10 @@
+"AMName" = "CVS Add";
+"AMDSummary" = "This action performs a CVS add, scheduling files to be added to the CVS repository.";
+"Development" = "Development";
+"Xcode" = "Xcode";
+"cvs" = "cvs";
+"CFBundleName" = "CVS Add";
+"AMDInput" = "Source files to be added";
+"AMDRequires" = "The files or directories specified with CVS add must already exist in the current directory.";
+"NSHumanReadableCopyright" = "Copyright © 2004–2012 Apple Inc.  All rights reserved.";
+"Developer" = "Developer";

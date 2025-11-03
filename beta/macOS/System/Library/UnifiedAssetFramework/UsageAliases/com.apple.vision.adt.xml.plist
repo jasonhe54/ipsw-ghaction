@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FileType</key>
+	<string>UsageAliasConfiguration</string>
+	<key>FileVersion</key>
+	<string>1.0.0</string>
+	<key>UsageAliasName</key>
+	<string>com.apple.vision.adt</string>
+	<key>UsageAliasValues</key>
+	<dict>
+		<key>default</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.Vision.ADT</key>
+			<dict>
+				<key>com.apple.vision.adt.detector.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.vision.adt.iphone_tracker.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

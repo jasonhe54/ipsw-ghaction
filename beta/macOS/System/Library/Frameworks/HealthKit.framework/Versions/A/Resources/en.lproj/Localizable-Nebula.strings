@@ -1,0 +1,25 @@
+"SLEEP_APNEA_EVENT_EMBEDDED" = "sleep apnea notifications";
+"SLEEP_BREATHING_DISTURBANCES_UNIT_CHANGE_CAUTIONARY_TEXT" = "";
+"SLEEP_APNEA_EVENT_UNIT_CHANGE_CAUTIONARY_TEXT" = "";
+"SLEEP_BREATHING_DISTURBANCES_TITLE_EMBEDDED" = "Breathing Disturbances";
+"SLEEP_APNEA_EVENT_SHORT" = "Notifications";
+"SLEEP_BREATHING_DISTURBANCES_KEYWORDS" = "breathing disturbances|breathing|disturbances";
+"SLEEP_BREATHING_DISTURBANCES_EMBEDDED" = "breathing disturbances";
+"SLEEP_BREATHING_DISTURBANCES_SUMMARY" = "Breathing disturbances are short, temporary interruptions of your breathing pattern while you’re asleep. They’re fairly common and people typically experience a few disturbances a night.
+Body position, alcohol intake, upper respiratory illnesses, and even some medications can lead to increased breathing disturbances on a night-to-night basis.
+An elevated number of disturbances for multiple nights may indicate a condition called sleep apnea.
+When turned on, Apple Watch can track your breathing disturbances each night and categorize them as Not Elevated or Elevated.
+If you’re diagnosed with sleep apnea, you should not make any changes to your treatments without talking to your doctor first.";
+"SLEEP_APNEA_EVENT" = "Sleep Apnea Notifications";
+"SLEEP_BREATHING_DISTURBANCES" = "Breathing Disturbances";
+"SLEEP_BREATHING_DISTURBANCES_NUMBERED_UNIT" = "{'unit': {'one': 'disturbance', 'other': 'disturbances', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@unit@'}";
+"SLEEP_BREATHING_DISTURBANCES_NUMBERLESS_UNIT" = "disturbances";
+"SLEEP_APNEA_EVENT_SUMMARY" = "Sleep apnea is a respiratory condition where you experience repeated disturbances in breathing while asleep.
+While a few disturbances on a given night can be common, an elevated level of breathing disturbances over multiple nights can indicate you have sleep apnea.
+When notifications are turned on, Apple Watch can track your breathing disturbances each night and categorize them as Not Elevated or Elevated.
+If those breathing disturbances over a 30 day period are suggestive of sleep apnea Apple Watch can notify you.
+Consistent measurements are needed to identify sleep apnea so you should wear your watch to sleep every night.";
+"SLEEP_APNEA_EVENT_CAUTIONARY_TEXT" = "";
+"SLEEP_APNEA_EVENT_KEYWORDS" = "sleep apnea notifications|sleep|apnea|notifications";
+"SLEEP_APNEA_EVENT_TITLE_EMBEDDED" = "Sleep Apnea Notifications";
+"SLEEP_BREATHING_DISTURBANCES_TEXT" = "";

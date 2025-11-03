@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-A</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>A Â</string>
+		<key>Strings</key>
+		<string>A Â</string>
+	</dict>
+	<key>Roman-Accent-C</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ç C Ć Č</string>
+		<key>Strings</key>
+		<string>Ç C Ć Č</string>
+	</dict>
+	<key>Roman-Accent-G</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ğ G</string>
+		<key>Strings</key>
+		<string>Ğ G</string>
+	</dict>
+	<key>Roman-Accent-O</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ö O Ô Œ Ò Ó Õ Ø Ō</string>
+		<key>Strings</key>
+		<string>Ö O Ô Œ Ò Ó Õ Ø Ō</string>
+	</dict>
+	<key>Roman-Accent-S</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ş S Ś Š</string>
+		<key>Strings</key>
+		<string>Ş S Ś Š</string>
+	</dict>
+	<key>Roman-Accent-U</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>Ü U Û Ù Ú Ū</string>
+		<key>Strings</key>
+		<string>Ü U Û Ù Ú Ū</string>
+	</dict>
+	<key>Roman-Accent-a</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>a â</string>
+		<key>Strings</key>
+		<string>a â</string>
+	</dict>
+	<key>Roman-Accent-c</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ç c ć č</string>
+		<key>Strings</key>
+		<string>ç c ć č</string>
+	</dict>
+	<key>Roman-Accent-g</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ğ g</string>
+		<key>Strings</key>
+		<string>ğ g</string>
+	</dict>
+	<key>Roman-Accent-i</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ı i î ï ì í į ī</string>
+		<key>Strings</key>
+		<string>ı i î ï ì í į ī</string>
+	</dict>
+	<key>Roman-Accent-o</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ö o ô œ ò ó õ ø ō</string>
+		<key>Strings</key>
+		<string>ö o ô œ ò ó õ ø ō</string>
+	</dict>
+	<key>Roman-Accent-s</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ş s ß ś š</string>
+		<key>Strings</key>
+		<string>ş s ß ś š</string>
+	</dict>
+	<key>Roman-Accent-u</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ü u û ù ú ū</string>
+		<key>Strings</key>
+		<string>ü u û ù ú ū</string>
+	</dict>
+	<key>Roman-Accent-İ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>I İ Î Ï Ì Í Į</string>
+		<key>Strings</key>
+		<string>I İ Î Ï Ì Í Į</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Bold</key>
+	<string>kalın</string>
+	<key>UI-Buy</key>
+	<string>Satın Al</string>
+	<key>UI-Cancel</key>
+	<string>Vazgeç</string>
+	<key>UI-Clear</key>
+	<string>Temizle</string>
+	<key>UI-Confirm</key>
+	<string>doğrula</string>
+	<key>UI-Continue</key>
+	<string>Sürdür</string>
+	<key>UI-Copy</key>
+	<string>kopyala</string>
+	<key>UI-Currency-₺</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>₺ $ € ¥ £ ₽ ₩</string>
+		<key>Strings</key>
+		<string>₺ $ € ¥ £ ₽ ₩</string>
+	</dict>
+	<key>UI-Cut</key>
+	<string>kes</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Delete</key>
+	<string>Sil</string>
+	<key>UI-Done</key>
+	<string>Bitti</string>
+	<key>UI-EmergencyCall</key>
+	<string>Acil Arama</string>
+	<key>UI-Go</key>
+	<string>Git</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>TR</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Italic</key>
+	<string>italik</string>
+	<key>UI-Join</key>
+	<string>Katıl</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Türkçe</string>
+	<key>UI-Next</key>
+	<string>İleri</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>ABC</string>
+	<key>UI-NumberPad-3</key>
+	<string>DEF</string>
+	<key>UI-NumberPad-4</key>
+	<string>GHI</string>
+	<key>UI-NumberPad-5</key>
+	<string>JKL</string>
+	<key>UI-NumberPad-6</key>
+	<string>MNO</string>
+	<key>UI-NumberPad-7</key>
+	<string>PQRS</string>
+	<key>UI-NumberPad-8</key>
+	<string>TUV</string>
+	<key>UI-NumberPad-9</key>
+	<string>WXYZ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Paste</key>
+	<string>yapıştır</string>
+	<key>UI-Pause</key>
+	<string>duraklat</string>
+	<key>UI-Prediction</key>
+	<string>Kapatmak için aşağı kaydırın</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>₺</string>
+	<key>UI-Recents</key>
+	<string>Geçmiş</string>
+	<key>UI-Redo</key>
+	<string>Yinele</string>
+	<key>UI-Return</key>
+	<string>Geç</string>
+	<key>UI-Route</key>
+	<string>Yol</string>
+	<key>UI-Search</key>
+	<string>Ara</string>
+	<key>UI-Select-First-Candidate</key>
+	<string>sonraki</string>
+	<key>UI-Select-Next-Candidate</key>
+	<string>sonraki</string>
+	<key>UI-Send</key>
+	<string>Gönder</string>
+	<key>UI-Space</key>
+	<string>Boşluk</string>
+	<key>UI-Speak</key>
+	<string>Seslendir</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .tr .org .edu .net</string>
+		<key>Strings</key>
+		<string>.com .tr .org .edu .net</string>
+	</dict>
+	<key>UI-Underline</key>
+	<string>altı çizgili</string>
+	<key>UI-Undo</key>
+	<string>Geri Al</string>
+	<key>UI-Wait</key>
+	<string>beklet</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.PremiumClassic-FoldedCard</string>
+	<key>CatalogVersion</key>
+	<integer>1</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:13:00Z</date>
+	<key>PremiumClassic-FoldedCard.keywords</key>
+	<array>
+		<string>CARDCategoryAll:100</string>
+	</array>
+	<key>PremiumClassic-FoldedCard.products</key>
+	<array>
+		<string>HorizontalPremiumCard</string>
+	</array>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>PremiumClassic-FoldedCard</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.uarppersonalizationd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>btlePersonalizationNeeded</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.uarp.BTLEServer.personalizationNeeded</string>
+			</dict>
+			<key>hidPersonalizationNeeded</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.uarp.UARPUpdaterServiceHID.personalizationNeeded</string>
+			</dict>
+		</dict>
+		<key>com.apple.uarp.personalization</key>
+		<dict>
+			<key>uarpd</key>
+			<dict>
+				<key>handleAppleConnect</key>
+				<true/>
+				<key>handleAuthListed</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/uarppersonalizationd</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+"%lld People reacted with %@" = "{'people': {'one': '1 person', 'other': '%lld people', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@people@ reacted with %@'}";
+"%lld People" = "{'people_count': {'one': '%lld Person', 'zero': '%lld People', 'other': '%lld People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@people_count@'}";
+"%lld People Waiting" = "{'people_pending_count': {'one': '%lld Person Waiting', 'other': '%lld People Waiting', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@people_pending_count@'}";
+"%@ and %lld People" = "{'people': {'one': '1 Person', 'other': '%lld People', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%@ and %#@people@'}";
+"%@ turned camera on" = "{'NSStringLocalizedFormatKey': '%@ turned camera on'}";
+"%@ and %lld people left" = "{'people': {'one': '1 person', 'other': '%lld people', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%@ and %#@people@ left'}";
+"Added %lld songs" = "{'songs_count': {'one': '1 song', 'other': '%lld songs', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': 'Added %#@songs_count@'}";
+"%lld Not Connected" = "{'not_connected_count': {'one': '%lld Not Connected', 'zero': 'Not Connected', 'other': '%lld Not Connected', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@not_connected_count@'}";
+"%@ reacted with %@" = "{'NSStringLocalizedFormatKey': '%@ reacted with %@'}";
+"%@ and %lld people joined" = "{'people': {'one': '1 person', 'other': '%lld people', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%@ and %#@people@ joined'}";
+"Added %lld Songs" = "{'songs_count': {'one': '1 Song', 'other': '%lld Songs', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': 'Added %#@songs_count@'}";
+"%@ left" = "{'NSStringLocalizedFormatKey': '%@ left'}";
+"%lld People Active" = "{'people_active_count': {'one': '%lld Person Active', 'zero': 'Waiting for Others', 'other': '%lld People Active', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@people_active_count@'}";
+"%@ and %lld people turned camera on" = "{'people': {'one': '1 person', 'other': '%lld people', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%@ and %#@people@ turned camera on'}";

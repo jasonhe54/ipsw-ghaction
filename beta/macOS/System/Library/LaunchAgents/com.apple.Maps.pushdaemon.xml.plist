@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.Maps.mapspushd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>AppleLanguagePreferencesChangedNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>AppleLanguagePreferencesChangedNotification</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.Maps.mapspushd</key>
+		<true/>
+		<key>com.apple.Maps.mapspushd.geoservices</key>
+		<true/>
+		<key>com.apple.Maps.mapspushd.icloud</key>
+		<true/>
+		<key>com.apple.Maps.xpc.MediaAPI</key>
+		<true/>
+		<key>com.apple.Maps.xpc.SharedTrip</key>
+		<true/>
+		<key>com.apple.private.alloy.maps-idswake</key>
+		<true/>
+		<key>com.apple.private.alloy.maps.eta-idswake</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/mapspushd</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/mapspushd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

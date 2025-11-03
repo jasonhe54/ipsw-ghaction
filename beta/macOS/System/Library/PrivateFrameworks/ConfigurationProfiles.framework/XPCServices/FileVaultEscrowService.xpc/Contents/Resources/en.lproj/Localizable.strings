@@ -1,0 +1,10 @@
+"str_FVE_Summary" = "Escrow recovery key to: %@";
+"str_FVE_PayloadAlreadyInstalled" = "A profile with a “%@” payload is already installed on the system.";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'FileVault Recovery Key Escrow', 'other': '%lu FileVault Recovery Key Escrows', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'FileVault Recovery Key Escrow', 'other': 'FileVault Recovery Key Escrows (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"str_FVE_NotSystemProfile" = "The profile is a user profile but contains a “%@” payload which is only valid in device profiles.";
+"str_FVE_Key_Location" = "Escrow location";
+"str_FVE_MissingEncryptionCert" = "The encryption certificate referenced by the %@ payload is missing.";
+"str_FVE_InvalidEncryptionCert" = "The encryption certificate referenced by the %@ payload is invalid or does not support encryption.";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'FileVault Recovery Key Escrow', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

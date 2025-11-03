@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StatusList</key>
+	<array>
+		<dict>
+			<key>ImageName</key>
+			<string>status-nostatus</string>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>StatusName</key>
+				<string>Unknown</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>status-offline</string>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>StatusName</key>
+				<string>Offline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>status-idle</string>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>StatusName</key>
+				<string>Idle</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>status-away</string>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>StatusName</key>
+				<string>Away</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>status-available</string>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>StatusName</key>
+				<string>Available</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>ImageName</key>
+			<string>status-nostatus</string>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>StatusName</key>
+				<string></string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

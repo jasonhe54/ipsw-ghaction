@@ -1,0 +1,4296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CoverCascade</key>
+	<dict>
+		<key>className</key>
+		<string>CoverCascade</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>hasMultiImageInput</key>
+		<true/>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<real>1.25</real>
+				<key>showTimeScript</key>
+				<string>0.,-1.</string>
+				<key>sizeScript</key>
+				<string>(layerWidth / 7.),(layerHeight / 4.)</string>
+			</dict>
+		</array>
+		<key>isAlphaFriendly</key>
+		<false/>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>20</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>Gradient</key>
+	<dict>
+		<key>className</key>
+		<string>Gradient</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array/>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>HyperGrid</key>
+	<dict>
+		<key>className</key>
+		<string>HyperGrid</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>hasMultiImageInput</key>
+		<true/>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<real>1</real>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<false/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>JustASlide</key>
+	<dict>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<integer>0</integer>
+				<key>sizeScript</key>
+				<string>layerWidth,layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<false/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<key>JustAText</key>
+	<dict>
+		<key>className</key>
+		<string>JustAText</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>isOpaque</key>
+		<false/>
+		<key>mainDuration</key>
+		<string>3</string>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>numberOfTexts</key>
+		<string>1</string>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>posterTime</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Bottom</key>
+			<dict>
+				<key>sizeAsMax</key>
+				<true/>
+				<key>verticalAlignment</key>
+				<string>Bottom</string>
+			</dict>
+			<key>Center</key>
+			<dict>
+				<key>sizeAsMax</key>
+				<true/>
+				<key>verticalAlignment</key>
+				<string>Center</string>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>sizeAsMax</key>
+				<true/>
+			</dict>
+			<key>Top</key>
+			<dict>
+				<key>sizeAsMax</key>
+				<true/>
+				<key>verticalAlignment</key>
+				<string>Top</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>JustATitle</key>
+	<dict>
+		<key>className</key>
+		<string>JustATitle</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>isOpaque</key>
+		<false/>
+		<key>mainDuration</key>
+		<string>3</string>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>numberOfTexts</key>
+		<string>1</string>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>posterTime</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Bottom</key>
+			<dict>
+				<key>text0Rect</key>
+				<string>{{0, 0},{2, 0}}</string>
+				<key>text0SizeAsMax</key>
+				<true/>
+				<key>text0VerticalAlignment</key>
+				<string>Bottom</string>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[0. 0. 0. 1.]</string>
+						<key>fontName</key>
+						<string>Helvetica</string>
+						<key>fontSize</key>
+						<integer>12</integer>
+						<key>kern</key>
+						<integer>-1</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Center</key>
+			<dict>
+				<key>text0Rect</key>
+				<string>{{0, 0},{2, 0}}</string>
+				<key>text0SizeAsMax</key>
+				<true/>
+				<key>text0VerticalAlignment</key>
+				<string>Center</string>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[0. 0. 0. 1.]</string>
+						<key>fontName</key>
+						<string>Helvetica</string>
+						<key>fontSize</key>
+						<integer>12</integer>
+						<key>kern</key>
+						<integer>-1</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>text0Rect</key>
+				<string>{{0, 0},{2, 0}}</string>
+				<key>text0SizeAsMax</key>
+				<true/>
+				<key>text0VerticalAlignment</key>
+				<string>Center</string>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[0. 0. 0. 1.]</string>
+						<key>fontName</key>
+						<string>Helvetica</string>
+						<key>fontSize</key>
+						<integer>12</integer>
+						<key>kern</key>
+						<integer>-1</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Top</key>
+			<dict>
+				<key>text0Rect</key>
+				<string>{{0, 0},{2, 0}}</string>
+				<key>text0SizeAsMax</key>
+				<true/>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[0. 0. 0. 1.]</string>
+						<key>fontName</key>
+						<string>Helvetica</string>
+						<key>fontSize</key>
+						<integer>12</integer>
+						<key>kern</key>
+						<integer>-1</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+				<key>verticalAlignment</key>
+				<string>Top</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine1Slide</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth,layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>5</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.20000000000000001</real>
+		<key>phaseOutDuration</key>
+		<real>0.20000000000000001</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, 2}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine1SlideBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>3</string>
+				<key>sizeScript</key>
+				<string>((layerWidth / layerHeight) &lt; 1) ? ((imageAspectRatio &lt; 1) ? layerHeight*.5 : layerWidth) : ((imageAspectRatio &lt; 1) ? layerHeight*(2/3) : layerWidth),((layerWidth / layerHeight) &lt; 1) ? ((imageAspectRatio &lt; 1) ? layerHeight : layerWidth/(3/2)) : ((imageAspectRatio &lt; 1) ? layerHeight : layerWidth/2)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>5</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.20000000000000001</real>
+		<key>phaseOutDuration</key>
+		<real>0.20000000000000001</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, 2}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine2Slides</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 1) ? layerWidth*.5 : layerWidth*.5,(layout == 1) ? layerHeight : (.5*layerHeight)</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 1) ? layerWidth*.5 : layerWidth*.5,(layout == 1) ? layerHeight : (.5*layerHeight)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>6</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<real>0.29999999999999999</real>
+		<key>phaseOutDuration</key>
+		<real>0.29999999999999999</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, 0}, {1, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, 0}, {1, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine2SlidesBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>1.5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>1</string>
+				<key>sizeScript</key>
+				<string>layerWidth,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>1.5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>1</string>
+				<key>sizeScript</key>
+				<string>layerWidth,layerHeight*.5</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>6</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<real>0.29999999999999999</real>
+		<key>phaseOutDuration</key>
+		<real>0.29999999999999999</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+			<key>Landscape</key>
+			<dict>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .5}, {2, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.5}, {2, 1}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .5}, {2, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.5}, {2, 1}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine2SlidesBreak2</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>0</string>
+				<key>sizeScript</key>
+				<string>layerWidth*66,layerHeight</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>.5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>2</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.33,layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>6</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<real>0.29999999999999999</real>
+		<key>phaseOutDuration</key>
+		<real>0.29999999999999999</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+			<key>Portrait</key>
+			<dict>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .66}, {2, .66}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.33}, {2, 1.33}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.33333, 0}, {1.333, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.66666, 0}, {.666, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine2SlidesPortrait</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth,(.5*layerHeight)</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth,(.5*layerHeight)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>6</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<real>0.29999999999999999</real>
+		<key>phaseOutDuration</key>
+		<real>0.29999999999999999</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .5}, {2, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.5}, {2, 1}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .5}, {2, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.5}, {2, 1}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine2SlidesPortraitBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>2</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>2</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>6</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<real>0.29999999999999999</real>
+		<key>phaseOutDuration</key>
+		<real>0.29999999999999999</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+			<key>Portrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, 0}, {1, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, 0}, {1, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine2SlidesPortraitBreak2</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>0</string>
+				<key>sizeScript</key>
+				<string>layerWidth,layerHeight*.66</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>1</string>
+				<key>sizeScript</key>
+				<string>layerWidth,layerHeight*.33</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>6</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<real>0.29999999999999999</real>
+		<key>phaseOutDuration</key>
+		<real>0.29999999999999999</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+			<key>Landscape</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .333}, {2, 1.333}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.666}, {2, .666}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.333, 0}, {1.333, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine3Slides</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout &gt;= 3) ? layerWidth * .333 : layerWidth*.5,(layout == 1) ? layerHeight : ((layout == 2) ? layerHeight*.44 : ((layout == 3) ? layerHeight : .5*layerHeight))</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout &gt;= 3) ? layerWidth * .333 : layerWidth*.5,(layout == 2) ? layerHeight*.44 : ((layout == 3) ? layerHeight : layerHeight*.5)</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 2) ? layerWidth : ((layout == 3) ? layerWidth * .333 : ((layout == 4) ? layerWidth*.666 : layerWidth*.5)), (layout == 1) ? layerHeight*.5 : ((layout == 2) ? layerHeight*.56 : layerHeight)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<real>0.40000000000000002</real>
+		<key>phaseOutDuration</key>
+		<real>0.40000000000000002</real>
+		<key>presets</key>
+		<dict>
+			<key>1P-2L</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .25}, {2, 1.5}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, -.75}, {1, .5}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, -.75}, {1, .5}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, 0}, {1, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, -.5}, {1, 1}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>2L-1P</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .75}, {1, .5}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .75}, {1, .5}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.25}, {2, 1.5}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, -.5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3L</key>
+			<dict>
+				<key>layout</key>
+				<integer>2</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .666}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.666}, {2, .666}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.44}, {2, 1.12}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3P</key>
+			<dict>
+				<key>layout</key>
+				<integer>3</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .666}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .666}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.333}, {2, 1.333}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.666, 0}, {.666, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3S</key>
+			<dict>
+				<key>layout</key>
+				<integer>4</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .666}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .666}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.333}, {2, 1.333}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.666, .5}, {.666, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, -.5}, {.666, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.333, 0}, {1.333, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine3SlidesBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>(layout == 2) ? 1.5 : .5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout &gt;= 3) ? layerWidth * .333 : layerWidth*.5,(layout == 1) ? layerHeight : ((layout == 2) ? layerHeight*.44 : ((layout == 3) ? layerHeight : .5*layerHeight))</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>(layout == 2) ? 1.5 : .5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout &gt;= 3) ? layerWidth * .333 : layerWidth*.5,(layout == 2) ? layerHeight*.44 : ((layout == 3) ? layerHeight : layerHeight*.5)</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>(layout == 2) ? 1.5 : .5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>3</string>
+				<key>sizeScript</key>
+				<string>(layout == 2) ? layerWidth : layerWidth * .333,((layout == 2) ? layerHeight*.56 : layerHeight)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<real>0.40000000000000002</real>
+		<key>phaseOutDuration</key>
+		<real>0.40000000000000002</real>
+		<key>presets</key>
+		<dict>
+			<key>3L</key>
+			<dict>
+				<key>layout</key>
+				<integer>2</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .666}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.666}, {2, .666}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.44}, {2, 1.12}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3P</key>
+			<dict>
+				<key>layout</key>
+				<integer>3</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, -.5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.666, 0}, {.666, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine3SlidesPortrait</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>((layout == 0) || (layout == 2)) ? layerWidth*.5 : layerWidth,(layout==0) ? (layerHeight * .5) : (layerHeight * .333) </string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>((layout == 0) || (layout == 2)) ? layerWidth*.5 : layerWidth,(layout==0) ? (layerHeight * .5) : (layerHeight * .333) </string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth,(layout==0) ? (layerHeight * .5) : ((layout == 1) ? (layerHeight * .333) : (layerHeight * .666))</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<real>0.40000000000000002</real>
+		<key>phaseOutDuration</key>
+		<real>0.40000000000000002</real>
+		<key>presets</key>
+		<dict>
+			<key>2P-1L</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.5}, {2, 1}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.75, .5}, {.5, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.75, -.5}, {.5, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.25, 0}, {1.5, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3L</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .666}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.666}, {2, .666}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.44}, {2, 1.12}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3S</key>
+			<dict>
+				<key>layout</key>
+				<integer>2</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .666}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .666}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.333}, {2, 1.333}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.666, .5}, {.666, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, -.5}, {.666, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.333, 0}, {1.333, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine3SlidesPortraitBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 0) ? layerWidth*.5 : layerWidth,(layout==0) ? (layerHeight * .5) : (layerHeight * .333) </string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 0) ? layerWidth*.5 : layerWidth,(layout==0) ? (layerHeight * .5) : (layerHeight * .333) </string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>3</string>
+				<key>sizeScript</key>
+				<string>(layout == 0) ? layerWidth*.5 : layerWidth,(layout==0) ? layerHeight : (layerHeight * .333)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<real>0.40000000000000002</real>
+		<key>phaseOutDuration</key>
+		<real>0.40000000000000002</real>
+		<key>presets</key>
+		<dict>
+			<key>3L</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .666}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.666}, {2, .666}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .56}, {1, .88}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.44}, {2, 1.12}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>3P</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, -.5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, 2}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{0, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.666, 0}, {.666, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine4Slides</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<real>0.5</real>
+		<key>phaseOutDuration</key>
+		<real>0.5</real>
+		<key>presets</key>
+		<dict>
+			<key>4L</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .666}, {2, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, 0}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, .5}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, 0}, {1, .666}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.666}, {2, .666}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, -.5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, -.5}, {1, 1}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Magazine4SlidesPortrait</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.5,layerHeight*.5</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<real>0.5</real>
+		<key>phaseOutDuration</key>
+		<real>0.5</real>
+		<key>presets</key>
+		<dict>
+			<key>4P</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>portraitSlideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{-.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, .5}}</string>
+						<key>rect</key>
+						<string>{{.5, .5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{0, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.5, -.5}, {1, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, .5}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.5, -.5}, {1, 1}}</string>
+					</dict>
+				</array>
+				<key>slideContainers</key>
+				<array>
+					<dict>
+						<key>border</key>
+						<string>{{0, 0}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{-.666, 0}, {.666, 2}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {.5, .5}}</string>
+						<key>rect</key>
+						<string>{{0, .5}, {.666, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, .5}, {.5, 0}}</string>
+						<key>rect</key>
+						<string>{{0, -.5}, {.666, 1}}</string>
+					</dict>
+					<dict>
+						<key>border</key>
+						<string>{{.5, 0}, {0, 0}}</string>
+						<key>rect</key>
+						<string>{{.666, 0}, {.666, 2}}</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>MagazineTitle</key>
+	<dict>
+		<key>className</key>
+		<string>Magazine</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>(layout==0)?1.5:.5</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 0)?layerWidth:layerWidth*.5,(layout == 0)?layerHeight*.75:layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>5</integer>
+		<key>numberOfTexts</key>
+		<integer>1</integer>
+		<key>phaseInDuration</key>
+		<real>0.40000000000000002</real>
+		<key>phaseOutDuration</key>
+		<real>0.40000000000000002</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>isMainTitle</key>
+				<true/>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[0.98 0.98 0.98 1.]</string>
+						<key>fontName</key>
+						<string>HelveticaNeue-Light</string>
+						<key>fontSize</key>
+						<integer>64</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>isMainTitle</key>
+				<true/>
+				<key>layout</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[0.98 0.98 0.98 1.]</string>
+						<key>fontName</key>
+						<string>HelveticaNeue-Light</string>
+						<key>fontSize</key>
+						<integer>64</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>isMainTitle</key>
+				<true/>
+				<key>layout</key>
+				<integer>1</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[0.98 0.98 0.98 1.]</string>
+						<key>fontName</key>
+						<string>HelveticaNeue-Light</string>
+						<key>fontSize</key>
+						<integer>64</integer>
+						<key>title</key>
+						<string>Title Text Here</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Map2Slides</key>
+	<dict>
+		<key>className</key>
+		<string>MapSlides</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 1) ? .9*(layerHeight*(2./3.)) : .5*(layerHeight*(3./2.))*.9,(layout == 1) ? .9*layerHeight : (.5*layerHeight)*.9</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 1) ? .9*(layerHeight*(2./3.)) : .5*(layerHeight*(3./2.))*.9,(layout == 1) ? .9*layerHeight : (.5*layerHeight)*.9</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>4.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.59999999999999998</real>
+		<key>phaseOutDuration</key>
+		<real>0.59999999999999998</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Map3Slides</key>
+	<dict>
+		<key>className</key>
+		<string>MapSlides</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.9*(layerHeight*(2./3.)),(.9*layerHeight)</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.5*(layerHeight*(3./2.))*.9,(.5*layerHeight)*.9</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.5*(layerHeight*(3./2.))*.9,(.5*layerHeight)*.9</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>4.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.59999999999999998</real>
+		<key>phaseOutDuration</key>
+		<real>0.59999999999999998</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>Map4Slides</key>
+	<dict>
+		<key>className</key>
+		<string>MapSlides</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.5*(layerHeight*(3./2.))*.9,(.5*layerHeight)*.9</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.5*(layerHeight*(3./2.))*.9,(.5*layerHeight)*.9</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.5*(layerHeight*(3./2.))*.9,(.5*layerHeight)*.9</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.5*(layerHeight*(3./2.))*.9,(.5*layerHeight)*.9</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>4.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.59999999999999998</real>
+		<key>phaseOutDuration</key>
+		<real>0.59999999999999998</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>MapSlide</key>
+	<dict>
+		<key>className</key>
+		<string>MapSlides</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>sizeScript</key>
+				<string>((imageAspectRatio &lt; 1) ? .9 : .8)*layerHeight*imageAspectRatio,((imageAspectRatio &lt; 1) ? .9 : .8) *layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.7000000000000002</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.59999999999999998</real>
+		<key>phaseOutDuration</key>
+		<real>0.59999999999999998</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>MapSlideBreak</key>
+	<dict>
+		<key>className</key>
+		<string>MapSlides</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>panoType</key>
+				<integer>3</integer>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ?  layerHeight*.65 : layerWidth,(imageAspectRatio &lt; 1) ? layerHeight : layerWidth/3.6</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.7000000000000002</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<real>0.59999999999999998</real>
+		<key>phaseOutDuration</key>
+		<real>0.59999999999999998</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>MapTitle</key>
+	<dict>
+		<key>className</key>
+		<string>MapTitle</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array/>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<string>5</string>
+		<key>numberOfTexts</key>
+		<string>1</string>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>posterTime</key>
+		<string>2</string>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura-Medium</string>
+						<key>fontSize</key>
+						<integer>72</integer>
+						<key>shadow</key>
+						<dict>
+							<key>blurRadius</key>
+							<string>3</string>
+							<key>color</key>
+							<string>[0. 0. 0. 1.]</string>
+							<key>offset</key>
+							<string>{3, -3}</string>
+						</dict>
+						<key>title</key>
+						<string>European Vacation</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>PhotoPrint</key>
+	<dict>
+		<key>className</key>
+		<string>Snapshot</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>fullImage</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Scale to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>showDisplayTime</key>
+				<real>1</real>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? (layerWidth * .5) : (layerHeight*.6)*imageAspectRatio,(imageAspectRatio &lt; 1) ? (layerWidth * .5)/imageAspectRatio : (layerHeight*.6)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<false/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>PhotoPrintOutro</key>
+	<dict>
+		<key>className</key>
+		<string>Snapshot</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>PhotoPrintSubtitle</key>
+	<dict>
+		<key>className</key>
+		<string>Snapshot</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>showDisplayTime</key>
+				<real>0.5</real>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; .5) ? (layerWidth * .5) : ((imageAspectRatio &lt; 1) ? (layerWidth * .375) : ((imageAspectRatio &gt; 2) ? (layerHeight*.6)*imageAspectRatio : layerWidth * .575)),(imageAspectRatio &lt; .5) ? (layerWidth * .5)/imageAspectRatio : ((imageAspectRatio &lt; 1) ?  (layerWidth * .5) : ((imageAspectRatio &gt; 2) ? (layerHeight*.6) : layerWidth * .375))</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<false/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>1</integer>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layoutStyle</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[.92 .92 .92 1.]</string>
+						<key>fontName</key>
+						<string>Georgia</string>
+						<key>fontSize</key>
+						<integer>56</integer>
+						<key>shadow</key>
+						<dict>
+							<key>blurRadius</key>
+							<string>3</string>
+							<key>color</key>
+							<string>[0. 0. 0. 1.]</string>
+							<key>offset</key>
+							<string>{3, -3}</string>
+						</dict>
+						<key>title</key>
+						<string>Subtitle Text Here</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections1Slide</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>.8*layerHeight*((imageAspectRatio&lt;1.7777778) ? imageAspectRatio : 1.7777778),layerHeight*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections1SlideBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>3</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerHeight*.8*(2 / 3) : (.8*layerHeight*((imageAspectRatio&lt;1.7777778) ? imageAspectRatio : 1.7777778)),layerHeight*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>13</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections2Slides</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 1) ? ((layerHeight*(2./3.)))*.8 : (.5*(layerHeight*(2.11)))*.8, (layout == 1) ? (layerHeight)*.8 : (.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 1) ? ((layerHeight*(2./3.)))*.8 : (.5*(layerHeight*(2.11)))*.8, (layout == 1) ? (layerHeight)*.8 : (.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>2</integer>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>layout</key>
+				<integer>2</integer>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections2SlidesBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layerHeight*(3./2.))*.8,(layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>2</string>
+				<key>sizeScript</key>
+				<string>(layerHeight*(2./3.))*.8,(layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.5</real>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>11</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections2SlidesBreak2</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>1</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*3))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>1</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*3))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.5</real>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>12</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections2SlidesPortrait</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*(1.56)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*(1.56)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections2SlidesPortraitBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.8,layerWidth*.8/.75</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>1</string>
+				<key>sizeScript</key>
+				<string>layerWidth*.8,layerWidth*.8/3</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.5</real>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>15</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections2SlidesPortraitBreak2</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>2</string>
+				<key>sizeScript</key>
+				<string>((layerHeight*(2./3.)))*.8,(layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<string>2</string>
+				<key>sizeScript</key>
+				<string>((layerHeight*(2./3.)))*.8,(layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>3.5</real>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>16</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections3Slides</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>((layerHeight*(2./3.)))*.8,(layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*(3./2.)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*(3./2.)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>4</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>3</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections3SlidesBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*1.5))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*1.5))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<integer>1</integer>
+				<key>sizeScript</key>
+				<string>(.5*(layerHeight*3))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>4</integer>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>14</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections3SlidesPortrait</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 9) ? (.5*(layerHeight*1.46))*.8 : (.5*(layerHeight*(2.28)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 9) ? (.5*(layerHeight*.72))*.8 : (.5*(layerHeight*(2.28)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 9) ? (.5*(layerHeight*.72))*.8 : layerWidth * .8,(layout == 9) ? (.5*layerHeight)*.8 : layerWidth * .8 / 2.28</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>4</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>9</integer>
+			</dict>
+			<key>OneLandscapeTwoPortrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>9</integer>
+			</dict>
+			<key>ThreeLandscape</key>
+			<dict>
+				<key>layout</key>
+				<integer>10</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections3SlidesPortraitBreak</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth * .8,(layerWidth * .8) / 2.28</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>layerWidth * .8,(layerWidth * .8) / 2.28</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>panoType</key>
+				<integer>1</integer>
+				<key>sizeScript</key>
+				<string>layerWidth * .8,(layerWidth * .8) / 2.28</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>4</integer>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>14</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections4Slides</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 5) ? (.5*(layerHeight*(3./2.)))*.8 : (.5*(layerHeight*(.875)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 5) ? (.5*(layerHeight*(3./2.)))*.8 : (.5*(layerHeight*(1.75)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 5) ? (.5*(layerHeight*(3./2.)))*.8 : (.5*(layerHeight*(1.75)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 5) ? (.5*(layerHeight*(3./2.)))*.8 : (.5*(layerHeight*(.875)))*.8,(.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>4</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>landscape</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>4</integer>
+			</dict>
+			<key>Mixed</key>
+			<dict>
+				<key>layout</key>
+				<integer>4</integer>
+			</dict>
+			<key>Square</key>
+			<dict>
+				<key>layout</key>
+				<integer>5</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>Reflections4SlidesPortrait</key>
+	<dict>
+		<key>className</key>
+		<string>Reflections</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 6) ? (.5*(layerHeight*1.46))*.8 : ((layout == 7) ? (.5*(layerHeight*(1.06)))*.8 : (.5*(layerHeight*(.72)))*.8),(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 6) ? (.5*(layerHeight*1.46))*.8 : ((layout == 7) ? (.5*(layerHeight*(.53)))*.8 : (.5*(layerHeight*(.72)))*.8),(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 6) ? (.5*(layerHeight*.72))*.8 : ((layout == 7) ? (.5*(layerHeight*(.53)))*.8 : (.5*(layerHeight*(.72)))*.8),(.5*layerHeight)*.8</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(layout == 6) ? (.5*(layerHeight*1.46))*.8 : ((layout == 7) ? (.5*(layerHeight*(1.06)))*.8 : (.5*(layerHeight*(.72)))*.8),(.5*layerHeight)*.8</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>4</integer>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>orientation</key>
+		<string>portrait</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>layout</key>
+				<integer>6</integer>
+			</dict>
+			<key>FourPortrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>8</integer>
+			</dict>
+			<key>ThreeLandscapeOnePortrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>6</integer>
+			</dict>
+			<key>TwoLandscapeTwoPortrait</key>
+			<dict>
+				<key>layout</key>
+				<integer>7</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>ReflectionsSubtitle</key>
+	<dict>
+		<key>className</key>
+		<string>ReflectionsSubtitle</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array/>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<string>2</string>
+		<key>numberOfTexts</key>
+		<string>1</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>posterTime</key>
+		<string>2</string>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[.49 .49 .49 1.]</string>
+						<key>fontName</key>
+						<string>Futura-Medium</string>
+						<key>fontSize</key>
+						<integer>62</integer>
+						<key>title</key>
+						<string>Our Australian Adventure</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>ReflectionsTitle</key>
+	<dict>
+		<key>className</key>
+		<string>ReflectionsTitle</string>
+		<key>durationPadding</key>
+		<string>3</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<real>6.5999999999999996</real>
+				<key>showTimeScript</key>
+				<string>phaseInDuration+2,-1</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; .5) ? layerHeight*.8*(2 / 3) : (.8*layerHeight*((imageAspectRatio&lt;1.7777778) ? imageAspectRatio : 1.7777778)),layerHeight*.8</string>
+			</dict>
+		</array>
+		<key>imageProviderInfo</key>
+		<dict>
+			<key>mask</key>
+			<dict>
+				<key>imageName</key>
+				<string>mask.png</string>
+				<key>imageSizeScript</key>
+				<string>layerWidth*.2,layerHeight*.2</string>
+			</dict>
+		</dict>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<string>7</string>
+		<key>minimumEffectDuration</key>
+		<integer>6</integer>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<string>1</string>
+		<key>panoramaScaleOffset</key>
+		<string>3</string>
+		<key>phaseInDuration</key>
+		<integer>1</integer>
+		<key>phaseOutDuration</key>
+		<integer>1</integer>
+		<key>posterTime</key>
+		<string>1.5</string>
+		<key>posterTimeIsStatic</key>
+		<true/>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[.49 .49 .49 1.]</string>
+						<key>fontName</key>
+						<string>Futura-Medium</string>
+						<key>fontSize</key>
+						<integer>62</integer>
+						<key>title</key>
+						<string>Our Australian Adventure</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>ShiftingTiles</key>
+	<dict>
+		<key>className</key>
+		<string>ShiftingTiles</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>hasMultiImageInput</key>
+		<true/>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<real>1</real>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth * (1/5) : layerWidth * (2/5),layerHeight*.5</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<false/>
+		<key>mainDuration</key>
+		<integer>3</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>TableTop</key>
+	<dict>
+		<key>className</key>
+		<string>TableTop</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&gt;=(layerWidth/layerHeight))?layerWidth:(layerHeight*imageAspectRatio))),(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&lt;(layerWidth/layerHeight))?layerHeight:(layerWidth/imageAspectRatio)))</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+		</array>
+		<key>isAlphaFriendly</key>
+		<false/>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>6.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfSecondarySlides</key>
+		<integer>5</integer>
+		<key>numberOfSlides</key>
+		<integer>1</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>TableTop2Slides</key>
+	<dict>
+		<key>className</key>
+		<string>TableTop</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&gt;=(layerWidth/layerHeight))?layerWidth:(layerHeight*imageAspectRatio))),(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&lt;(layerWidth/layerHeight))?layerHeight:(layerWidth/imageAspectRatio)))</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&gt;=(layerWidth/layerHeight))?layerWidth:(layerHeight*imageAspectRatio))),(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&lt;(layerWidth/layerHeight))?layerHeight:(layerWidth/imageAspectRatio)))</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+		</array>
+		<key>isAlphaFriendly</key>
+		<false/>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>6.5</real>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfSecondarySlides</key>
+		<integer>5</integer>
+		<key>numberOfSlides</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>TableTopBreak</key>
+	<dict>
+		<key>className</key>
+		<string>TableTop</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>fullImage</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>panoType</key>
+				<integer>3</integer>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? .4*layerWidth : layerHeight*.5*imageAspectRatio,(imageAspectRatio &lt; 1) ? .4*layerWidth/imageAspectRatio : layerHeight*.5</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>isMonochromatic</key>
+				<true/>
+				<key>isStill</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+			</dict>
+		</array>
+		<key>isAlphaFriendly</key>
+		<false/>
+		<key>isNative3D</key>
+		<true/>
+		<key>isOpaque</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>6.5</real>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfSecondarySlides</key>
+		<integer>5</integer>
+		<key>numberOfSlides</key>
+		<integer>1</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>TableTopTitle</key>
+	<dict>
+		<key>Fonts</key>
+		<array>
+			<string>BlairMdITC TT-Medium</string>
+		</array>
+		<key>className</key>
+		<string>TableTopTitle</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array/>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<string>4.75</string>
+		<key>needsRandomSeed</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<string>1</string>
+		<key>phaseInDuration</key>
+		<real>1.75</real>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>posterTime</key>
+		<real>3.25</real>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>BlairMdITCTT-Medium</string>
+						<key>fontSize</key>
+						<integer>64</integer>
+						<key>maxFontSize</key>
+						<integer>112</integer>
+						<key>shadow</key>
+						<dict>
+							<key>blurRadius</key>
+							<string>10</string>
+							<key>color</key>
+							<string>[0. 0. 0. .8]</string>
+							<key>offset</key>
+							<string>{5, -5}</string>
+						</dict>
+						<key>title</key>
+						<string>Our Family Vacation</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>WatercolorsPanels_Break</key>
+	<dict>
+		<key>className</key>
+		<string>WatercolorPanel</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>fullImage</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>panoType</key>
+				<integer>3</integer>
+				<key>showDisplayTime</key>
+				<real>3.5</real>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ?  layerHeight*.65 : layerWidth,(imageAspectRatio &lt; 1) ? layerHeight : layerWidth/3.6</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>needsPanoInformation</key>
+		<true/>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>WatercolorsPanels_Effect2</key>
+	<dict>
+		<key>className</key>
+		<string>WatercolorPanel</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<integer>6</integer>
+				<key>sizeScript</key>
+				<string>(layerHeight*(2./3.))*.95,layerHeight*.95</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<integer>6</integer>
+				<key>sizeScript</key>
+				<string>(layerHeight*(2./3.))*.95,layerHeight*.95</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>11.5</real>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>WatercolorsPanels_Effect3</key>
+	<dict>
+		<key>className</key>
+		<string>WatercolorPanel</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<real>3.5</real>
+				<key>sizeScript</key>
+				<string>(aspect == 0) ? (layerHeight*(3./2.))*.8 : layerHeight*(2./3.),(aspect == 0) ? layerHeight*.8 : layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>aspect</key>
+				<integer>0</integer>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>aspect</key>
+				<integer>0</integer>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>aspect</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>WatercolorsPanels_Effect4</key>
+	<dict>
+		<key>className</key>
+		<string>WatercolorPanel</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<integer>6</integer>
+				<key>sizeScript</key>
+				<string>(layerHeight*0.85),(layerHeight*0.85)</string>
+			</dict>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<integer>6</integer>
+				<key>sizeScript</key>
+				<string>(layerHeight*0.85),(layerHeight*0.85)</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<real>11.5</real>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>0</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>WatercolorsPanels_Subtitle</key>
+	<dict>
+		<key>className</key>
+		<string>WatercolorPanel</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>showDisplayTime</key>
+				<real>3.5</real>
+				<key>sizeScript</key>
+				<string>(aspect == 0) ? (layerHeight*(3./2.))*.8 : layerHeight*(2./3.),(aspect == 0) ? layerHeight*.8 : layerHeight</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>1</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>aspect</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura</string>
+						<key>fontSize</key>
+						<integer>38</integer>
+						<key>title</key>
+						<string>Sara &amp; David's Wedding</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>aspect</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura</string>
+						<key>fontSize</key>
+						<integer>38</integer>
+						<key>title</key>
+						<string>Sara &amp; David's Wedding</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>aspect</key>
+				<integer>1</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura</string>
+						<key>fontSize</key>
+						<integer>38</integer>
+						<key>title</key>
+						<string>Sara &amp; David's Wedding</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>WatercolorsPanels_SubtitleBreak</key>
+	<dict>
+		<key>className</key>
+		<string>WatercolorPanel</string>
+		<key>effectVersion</key>
+		<string>1.0</string>
+		<key>imageInputInfo</key>
+		<array>
+			<dict>
+				<key>aspectRatioHint</key>
+				<string>all</string>
+				<key>canHandleKenBurns</key>
+				<true/>
+				<key>fullImage</key>
+				<true/>
+				<key>kenBurnsType</key>
+				<string>Crop to Fit</string>
+				<key>needsImageSize</key>
+				<true/>
+				<key>panoType</key>
+				<string>(aspect == 0) ? 1 : 2</string>
+				<key>showDisplayTime</key>
+				<real>3.5</real>
+				<key>sizeScript</key>
+				<string>(imageAspectRatio &lt; 1) ?  layerHeight*.65 : layerWidth,(imageAspectRatio &lt; 1) ? layerHeight : layerWidth/3.6</string>
+			</dict>
+		</array>
+		<key>isNative3D</key>
+		<true/>
+		<key>mainDuration</key>
+		<integer>7</integer>
+		<key>marimbaVersion</key>
+		<string>1.0</string>
+		<key>minimumEffectDuration</key>
+		<integer>2</integer>
+		<key>numberOfTexts</key>
+		<integer>1</integer>
+		<key>phaseInDuration</key>
+		<integer>0</integer>
+		<key>phaseOutDuration</key>
+		<integer>0</integer>
+		<key>presets</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>aspect</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura</string>
+						<key>fontSize</key>
+						<integer>38</integer>
+						<key>title</key>
+						<string>Sara &amp; David's Wedding</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Landscape</key>
+			<dict>
+				<key>aspect</key>
+				<integer>0</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>0</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura</string>
+						<key>fontSize</key>
+						<integer>38</integer>
+						<key>title</key>
+						<string>Sara &amp; David's Wedding</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Portrait</key>
+			<dict>
+				<key>aspect</key>
+				<integer>1</integer>
+				<key>textSettings</key>
+				<array>
+					<dict>
+						<key>alignment</key>
+						<integer>1</integer>
+						<key>fontColor</key>
+						<string>[1. 1. 1. 1.]</string>
+						<key>fontName</key>
+						<string>Futura</string>
+						<key>fontSize</key>
+						<integer>38</integer>
+						<key>title</key>
+						<string>Sara &amp; David's Wedding</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

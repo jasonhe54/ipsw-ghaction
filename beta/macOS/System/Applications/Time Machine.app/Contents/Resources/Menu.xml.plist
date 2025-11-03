@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>command</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Open Time Machine Settings...</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Back Up Now</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Stop Backing Up</string>
+	</dict>
+	<dict>
+		<key>command</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Browse Other Time Machine Disks...</string>
+	</dict>
+</array>
+</plist>

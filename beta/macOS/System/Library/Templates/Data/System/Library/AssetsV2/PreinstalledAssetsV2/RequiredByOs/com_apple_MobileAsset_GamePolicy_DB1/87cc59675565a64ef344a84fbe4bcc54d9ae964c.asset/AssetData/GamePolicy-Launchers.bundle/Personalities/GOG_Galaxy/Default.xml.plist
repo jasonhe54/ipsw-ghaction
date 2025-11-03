@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompatibilityVersion</key>
+	<string>1.0.24</string>
+	<key>Model</key>
+	<dict>
+		<key>Launcher</key>
+		<dict>
+			<key>BundleIdentifier</key>
+			<string>com.gog.galaxy</string>
+			<key>Developer</key>
+			<string>GOG</string>
+			<key>Name</key>
+			<string>GOG Galaxy</string>
+		</dict>
+		<key>Policy</key>
+		<dict>
+			<key>Allow</key>
+			<dict>
+				<key>BundleIdentifiers</key>
+				<array/>
+				<key>ProcessNames</key>
+				<array/>
+			</dict>
+			<key>Block</key>
+			<dict>
+				<key>BundleIdentifiers</key>
+				<array>
+					<string>com.gog.galaxy</string>
+					<string>com.gog.galaxy.cef.renderer</string>
+				</array>
+				<key>ProcessNames</key>
+				<array>
+					<string>GOG Galaxy Over</string>
+					<string>GOGGalaxyOverla</string>
+					<string>GalaxyUpdater</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

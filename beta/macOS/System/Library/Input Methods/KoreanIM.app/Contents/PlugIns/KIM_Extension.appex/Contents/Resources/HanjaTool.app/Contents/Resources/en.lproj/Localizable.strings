@@ -1,0 +1,11 @@
+"Cancel" = "Cancel";
+"Hangul" = "Hangul";
+"AttemptToRegisterNonHanja" = "The Hanja field contains characters that are not Hanja. All characters must be Hanja.";
+"EntryTooLong" = "The word you entered is longer than what is allowed (seven syllables).";
+"HangulHanjaLengthMismatch" = "The number of Hanja does not match the number of Hangul. Make sure the Hanja and Hangul match.";
+"RegistrationFailedString" = "This word cannot be registered.";
+"DuplicateEntryString" = "This word was not added because it has already been added.";
+"Hanja" = "Hanja";
+"AttemptToRegisterNonHangul" = "The Hangul field contains characters that are not Hangul. All characters must be Hangul.";
+"NoMatchingHanjaForHangul" = "There is no corresponding Hanja for the Hangul. Check to make sure the Hangul is correct.";
+"RegistrationErrorAlert" = "There was an error adding to the Hanja Dictionary.";

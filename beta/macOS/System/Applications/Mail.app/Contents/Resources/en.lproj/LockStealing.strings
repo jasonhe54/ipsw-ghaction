@@ -1,0 +1,14 @@
+"LockStealingUnknownError" = "Rebuilding Mail...";
+"LockStealingLocalCopiesFormat%1$@" = "Mail cannot access your %1$@ information because another copy of Mail is using it.";
+"LockStealingDescriptionFormat%1$@" = "Another application on your computer or on your local network is using your %1$@ information. It may take a while to determine the problem. If you’re sure this is a temporary problem, click Quit and then open Mail again.";
+"LockStealingRemotelyLockedDescriptionFormat%1$@%1$@%2$@" = "Another application on your computer or on your local network is using your %1$@ information. Click Quit to quit Mail. Then log out of this computer and any other computer you’re using. After you log in again, open Mail on one computer only.
+
+If this message reappears, there may be a network server problem. Contact your system administrator to determine if it can be resolved by rebuilding your %1$@ information. Then click Rebuild %2$@ Information.";
+"LockStealingPopDB" = "POP";
+"LockStealingLocalCopiesDescription" = "Several copies of Mail are open on your computer. Quit all copies of Mail and then open Mail again once.";
+"LockStealingLibraryDB" = "mailbox";
+"LockStealingRemotelyLockedFormat%1$@" = "Mail cannot access your %1$@ information because it’s already in use.";
+"LockStealingTextFormat%1$@" = "Mail cannot access your %1$@ information because it’s already in use.";
+"LockStealingUnknownErrorDescription" = "Mail cannot access your mailbox information during this process. Your mailbox may appear empty until the rebuild is complete.";
+"LockStealingLibraryDBCapitalized" = "Mailbox";
+"LockStealingStealLockButtonLabelFormat%1$@" = "Rebuild %1$@ Information";

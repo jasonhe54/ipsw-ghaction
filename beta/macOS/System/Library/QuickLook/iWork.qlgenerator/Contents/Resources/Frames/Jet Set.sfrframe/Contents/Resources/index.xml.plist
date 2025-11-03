@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>Jet-Set_08.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>2</integer>
+	<key>Bottom Left</key>
+	<string>Jet-Set_07.png</string>
+	<key>Bottom Right</key>
+	<string>Jet-Set_09.png</string>
+	<key>Display</key>
+	<true/>
+	<key>Left</key>
+	<string>Jet-Set_04.png</string>
+	<key>Left Frame Inset</key>
+	<integer>2</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.25</real>
+	<key>Right</key>
+	<string>Jet-Set_06.png</string>
+	<key>Right Frame Inset</key>
+	<integer>2</integer>
+	<key>Stretch Tiles</key>
+	<integer>1</integer>
+	<key>Top</key>
+	<string>Jet-Set_02.png</string>
+	<key>Top Frame Inset</key>
+	<integer>2</integer>
+	<key>Top Left</key>
+	<string>Jet-Set_01.png</string>
+	<key>Top Right</key>
+	<string>Jet-Set_03.png</string>
+	<key>name</key>
+	<string>Jet Set</string>
+	<key>preview-image</key>
+	<string>Jet Set.tiff</string>
+</dict>
+</plist>

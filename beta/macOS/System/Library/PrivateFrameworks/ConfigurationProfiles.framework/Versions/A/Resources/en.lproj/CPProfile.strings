@@ -1,0 +1,18 @@
+"CPActionsDontRestartButton" = "Don’t Restart";
+"ConfirmMobileAccountCancelButton" = "Don’t Create";
+"ConfirmMobileAccountLogoutTitleText" = "Your computer must log out to complete the mobile account creation.";
+"ConfirmFileVaultRestartTitleNoRecoveryKey" = "Your computer must be restarted to complete the FileVault creation.";
+"ConfirmFileVaultRestartMsg" = "Click Restart to restart your computer now. Click Don’t Restart if you want to restart your computer later. FileVault will not be enabled until the computer is restarted and you log back in.";
+"CPActionsLogoutButton" = "Log Out";
+"ConfirmPHDLogoutTitleText" = "Your computer must log out to complete the Portable Home Directory creation.";
+"ConfirmFileVaultRestartTitleRecoveryKey" = "The FileVault recovery key is: ‘%@’. Write this information down in case you forget your password.
+
+Your computer must be restarted to complete the FileVault creation.";
+"ConfirmMobileAccountLoginMsgText" = "If you select Log Out, your computer will attempt to immediately log out after returning to the Profiles pane and you should log back in to finish the creation.
+
+If you don’t log out now, you should log out as soon as possible in order to complete the installation.";
+"CPActionsDontLogoutButton" = "Don’t Log Out";
+"CPActionsRestartButton" = "Restart";
+"ConfirmMobileAccountLogoutMsgText" = "If you select Log Out, your computer will attempt to immediately log out after returning to the Profiles pane to create the mobile account.
+
+If you don’t log out now, you should log out as soon as possible in order to complete the installation.";

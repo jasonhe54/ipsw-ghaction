@@ -1,0 +1,225 @@
+"On" = "On";
+"Paper Margins" = "Paper Margins";
+"%@ %@" = "%1$@ %2$@";
+"Dialing Prefix" = "Dialing Prefix";
+"Please enter a valid fax number." = "Please enter a valid fax number.";
+"standard" = "Standard";
+"Generic PostScript Printer" = "Generic PostScript Printer";
+"PDF Effects" = "PDF Effects";
+"Fax Information" = "Fax Information";
+"Message" = "Message";
+"Suggested Paper: " = "Suggested Paper: ";
+"Left" = "Left";
+"The value in the "Height" field is out of range." = "The value in the “Height” field is out of range.";
+"PPD for" = "PPD for";
+"All pages" = "All pages";
+"Urgent" = "Urgent";
+"Media Feed" = "Media Feed";
+"Portrait" = "Portrait";
+"cm" = "cm";
+"Even numbered pages" = "Even numbered pages";
+"Layout" = "Layout";
+" in" = " in";
+"%@ %d" = "%1$@ %2$d";
+"Text" = "Text";
+"Scale Down On" = "On";
+"Fax Modem Wait For Dial Tone On" = "On";
+"Fax Modem" = "Fax Modem";
+"confidential" = "Confidential";
+"Profile" = "Profile";
+"Tone" = "Tone";
+"%@ %@ %@ %@" = "%1$@ %2$@ %3$@ %4$@";
+"Two-Sided" = "Two-Sided";
+"The value in the "Copies" field is out of range." = "The value in the “Copies” field is out of range.";
+"Flip Horizontally" = "Flip Horizontally";
+"secret" = "Secret";
+"Copies" = "Copies";
+"Before Document" = "Before Document";
+"Wait for dial tone before dialing" = "Wait for dial tone before dialing";
+"%@ inch Roll" = "%@ inch Roll";
+"%@ mm Roll" = "%@ mm Roll";
+"Angle" = "Angle";
+"Layout Rev Orient On" = "On";
+"Recipient" = "Recipient";
+"Short-Edge Binding" = "Short-Edge Binding";
+"In printer" = "In printer";
+"Sound" = "Sound";
+"PIN" = "PIN";
+"On Hold" = "On Hold";
+" mm" = " mm";
+"in" = "in";
+"Vendor Matching" = "Vendor Matching";
+"Format for:" = "Format for:";
+"Unknown" = "Unknown";
+"Right" = "Right";
+"Paper Size" = "Paper Size";
+"Reverse" = "Reverse";
+"OTHER" = "OTHER";
+"%" = "%";
+"Other Profiles..." = "Other Profiles…";
+"Paper Dimensions" = "Paper Dimensions";
+"Destination Paper Size" = "Destination Paper Size";
+"Automatic" = "Automatic";
+"Scale Down Only" = "Scale Down Only";
+"unclassified" = "Unclassified";
+"Add a custom paper size" = "Add a custom paper size";
+"The allowed values in "%@" are numbers and the "%@" characters." = "The allowed values in “%@” are numbers and the “%@” characters.";
+"None" = "None";
+"Medium" = "Medium";
+"Color Matching" = "Color Matching";
+"Printers & Scanners Preferences..." = "Printers & Scanners Preferences…";
+"Double thin line" = "Double thin line";
+"Top-Bottom-Right-Left" = "Top-Bottom-Right-Left";
+"PIN Printing" = "PIN Printing";
+"Print Cover Page" = "Print Cover Page";
+"Untitled" = "Untitled";
+"Printer Features" = "Printer Features";
+"Low" = "Low";
+"Center" = "Diagonal";
+"After selecting "%@," the fields below are filled in with the values for "%@"'s margins" = "After selecting “%@,” the fields below are filled in with the values for “%@”’s margins";
+"Duplicate the selected paper size" = "Duplicate the selected paper size";
+"Display alert" = "Display alert";
+"classified" = "Classified";
+"Paper Handling" = "Paper Handling";
+"This value is not supported by the selected printer." = "This value is not supported by the selected printer.";
+"%@ is not a valid dialing prefix." = "“%@” is not a valid dialing prefix.";
+"Fax Modem Sound On" = "On";
+"Print with Account ID" = "Print with Account ID";
+"Error Handling" = "Error Handling";
+"The margins are too large." = "The margins are too large.";
+"Wait Until" = "Wait Until";
+"Flip Horizontally On" = "On";
+"Printer Options" = "Printer Options";
+"Priority" = "Priority";
+"Orientation" = "Orientation";
+"Any Printer" = "Any Printer";
+"To:" = "To:";
+"Date:" = "Date:";
+"Border" = "Border";
+"The page size limits as defined by the PPD are a minimum %@ of %@%@. and a maximum %@ of %@%@.
+
+%@" = "The page size limits as defined by the PPD are a minimum %@ of %@%@. and a maximum %@ of %@%@.
+
+%@";
+"OK" = "OK";
+"Please enter a value between %@ and %@.
+The value will be reset to its original value." = "Please enter a value between %@ and %@.
+The value will be reset to its original value.";
+"Please adjust the margins." = "Please adjust the margins.";
+"Now" = "Now";
+"Layout Direction" = "Layout Direction";
+"%@ is not a valid fax number." = "“%@” is not a valid fax number.";
+"No special reporting" = "No special reporting";
+"iPhoto" = "iPhoto";
+"topsecret" = "Top Secret";
+"width" = "width";
+"First Page From" = "First Page From";
+"The length of "%@" must be between %d and %d characters." = "The length of “%1$@” must be between %2$d and %3$d characters.";
+"Finishing Options" = "Finishing Options";
+"Collate On" = "On";
+"Collate Pages" = "Collate Pages";
+"Tray Switching" = "Tray Switching";
+"Use printer's default" = "Use printer’s default";
+"The value in the "From" field is out of range." = "The value in the “From” field is out of range.";
+"Switch to another cassette with same paper size" = "Switch to another cassette with same paper size";
+"Remove the selected paper size" = "Remove the selected paper size";
+"Scheduler" = "Scheduler";
+"Supply Levels" = "Supply Levels";
+"Cover Page Type" = "Cover Page Type";
+"Double hairline" = "Double hairline";
+"Reverse Page Orientation" = "Reverse Page Orientation";
+"Select a custom profile that matches your printer model and paper/media type." = "Select a custom profile that matches your printer model and paper/media type.";
+"Resetting to valid value..." = "Resetting to valid value…";
+"PostScript Errors" = "PostScript Errors";
+"The margin is too large." = "The margin is too large.";
+"All Pages From" = "All Pages From";
+"Auto Select" = "Auto Select";
+"Currently Selected" = "Currently Selected";
+"Page Attributes" = "Page Attributes";
+"Scale to fit" = "Scale to fit";
+"Left-Right-Top-Bottom" = "Left-Right-Top-Bottom";
+"All Pages" = "All Pages";
+"No PDF Effect" = "None";
+"Media Type" = "Media Type";
+"The values will be reset to their original values." = "The values will be reset to their original values.";
+"Subject:" = "Subject:";
+"Best" = "Best";
+"Subject" = "Subject";
+"Pulse" = "Pulse";
+"Account ID" = "Account ID";
+"The value in the "Scale" field is out of range." = "The value in the “Scale” field is out of range.";
+"Black and White" = "Black and White";
+"Location" = "Location";
+"The minimum margins as defined by the PPD are:
+top: %@%@
+left: %@%@
+right: %@%@
+bottom: %@%@
+
+%@" = "The minimum margins as defined by the PPD are:
+top: %@%@
+left: %@%@
+right: %@%@
+bottom: %@%@
+
+%@";
+"The length of "%@" must be %d characters." = "The length of “%1$@” must be %2$d characters.";
+"The value in the "Width" field is out of range." = "The value in the “Width” field is out of range.";
+"Pages Per Sheet" = "Pages Per Sheet";
+"	Left" = "	Left";
+"Print detailed report" = "Print detailed report";
+"Pages To Print" = "Pages To Print";
+"Draft" = "Draft";
+"Scale" = "Scale";
+"High" = "High";
+"Copies & Pages" = "Copies & Pages";
+"Simple Copies & Pages" = "Simple Copies & Pages";
+"Landscape" = "Landscape";
+"After selecting a printer, the fields below are filled in with the values for the driver's margins" = "After selecting a printer, the fields below are filled in with the values for the driver’s margins";
+"Top" = "Top";
+"Bottom" = "Bottom";
+"Paper Type:" = "Paper Type:";
+"Single thin line" = "Single thin line";
+"Print with PIN" = "Print with PIN";
+"Finished Booklet" = "Finished Booklet";
+"  Top %@  Bottom %@
+  Left %@  Right %@" = " Top %1$@ Bottom %2$@
+ Left %3$@ Right %4$@";
+"The value in the "PIN" field is invalid. A PIN must be 4 digits." = "The value in the “PIN” field is invalid. A PIN must be 4 digits.";
+"Paper Feed" = "Paper Feed";
+"Summary" = "Summary";
+"	Top" = "	Top";
+"height" = "height";
+"The value in the "to" field is out of range." = "The value in the “to” field is out of range.";
+"Off" = "Off";
+"Long-Edge Binding" = "Long-Edge Binding";
+"The allowed values in "%@" are numbers." = "The allowed values in “%@” are numbers.";
+"Media Quality" = "Media Quality";
+"Please enter a valid dialing prefix.
+Valid characters are #()*+,-.ABCDpw and the digits 0-9." = "Please enter a valid dialing prefix.
+Valid characters are #()*+,-.ABCDpw and the digits 0-9.";
+"ColorSync" = "ColorSync";
+"Black and White On" = "On";
+"Cover Page" = "Cover Page";
+"Page Order" = "Page Order";
+"Single hairline" = "Single hairline";
+"After Document" = "After Document";
+"PIN On" = "On";
+"Dialing" = "Dialing";
+"Remaining From" = "Remaining From";
+"	Right" = "	Right";
+"Odd numbered pages" = "Odd numbered pages";
+"	Bottom" = "	Bottom";
+"Sheets to follow:" = "Sheets to follow:";
+"From:" = "From:";
+"Normal" = "Normal";
+"Booklet" = "Booklet";
+"Right-Left-Top-Bottom" = "Right-Left-Top-Bottom";
+"Feature Sets:" = "Feature Sets:";
+"Scheduler On" = "On";
+"The value in "%@" must range between %@ and %@." = "The value in “%1$@” must range between %2$@ and %3$@.";
+"Media & Quality" = "Media & Quality";
+"Watermark" = "Watermark";
+"Manage Custom Sizes..." = "Manage Custom Sizes…";
+"Top-Bottom-Left-Right" = "Top-Bottom-Left-Right";
+"Document paper" = "Document paper";

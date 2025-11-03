@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>signing-identifier</key>
+	<dict>
+		<key>$in</key>
+		<array>
+			<string>com.apple.loginwindow</string>
+			<string>com.apple.mdmclient</string>
+			<string>com.apple.ManagedClient</string>
+			<string>com.apple.ManagedClientAgent</string>
+			<string>com.apple.createmobileaccount</string>
+			<string>com.apple.devicemanagementclient.cloudconfigd</string>
+			<string>com.apple.familycontrolsd</string>
+			<string>com.apple.profiles</string>
+			<string>com.apple.profiles_internal</string>
+			<string>com.apple.configprofileutil</string>
+			<string>com.apple.mcx.ProfileHelper</string>
+			<string>com.apple.taskgated-helper</string>
+			<string>com.apple.parentalcontrolsd</string>
+			<string>com.apple.mcxquery</string>
+			<string>com.apple.mcxrefresh</string>
+			<string>com.apple.mbsystemadministration</string>
+			<string>com.apple.sysadminctl</string>
+			<string>com.apple.xpc.launchd</string>
+		</array>
+	</dict>
+	<key>validation-category</key>
+	<integer>1</integer>
+</dict>
+</plist>

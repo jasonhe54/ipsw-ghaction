@@ -1,0 +1,10 @@
+"AMName" = "Export vCards";
+"AMDSummary" = "This action takes people from Contacts and exports them in vCard format. The action can create a vCard file containing all of the people or create an individual vCard file for each person.";
+"vcf" = "vcf";
+"AMDResult" = "Contacts items converted into vCard format";
+"Contacts" = "Contacts";
+"AMDWebsite" = "http://www.apple.com";
+"AMDRelatedActions" = "com.apple.Automator.GetSpecifiedAddressBookItems";
+"vcard" = "vcard";
+"export" = "export";
+"NSHumanReadableCopyright" = "Copyright © 2007–2012 Apple Inc.  All rights reserved.";

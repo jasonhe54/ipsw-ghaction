@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>com.apple.m4a-audio</string>
+			<key>MGPresetCategory</key>
+			<string>AudioOnly</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetHighQuality</string>
+			<key>MGPresetName</key>
+			<string>High</string>
+			<key>MGPresetSummary</key>
+			<string>High capture quality</string>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGHighQualityAACAudio</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>MGOutputFileType</key>
+			<string>public.aifc-audio</string>
+			<key>MGPresetCategory</key>
+			<string>AudioOnly</string>
+			<key>MGPresetIdentifier</key>
+			<string>MGCompressionPresetMaximumQuality</string>
+			<key>MGPresetName</key>
+			<string>Maximum</string>
+			<key>MGPresetSummary</key>
+			<string>Maximum capture quality</string>
+			<key>soun</key>
+			<dict>
+				<key>MGCompressionOptionsIdentifier</key>
+				<string>MGLPCMAudio</string>
+			</dict>
+		</dict>
+	</array>
+</array>
+</plist>

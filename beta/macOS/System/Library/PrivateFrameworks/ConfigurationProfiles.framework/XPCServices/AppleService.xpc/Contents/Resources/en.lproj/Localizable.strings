@@ -1,0 +1,9 @@
+"str_NotDeviceProfile" = "The profile is being installed as a user profile but contains a “%@” payload which is only valid in device profiles.";
+"str_NO" = "Disabled";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Sample Setting', 'other': '%lu Sample Settings', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_YES" = "Enabled";
+"str_AppleInternal" = "Apple Internal";
+"str_PayloadAlreadyInstalled" = "Only one payload of type “%@” may be installed on the system.";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Sample Setting', 'other': 'Sample Settings (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Sample Setting', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

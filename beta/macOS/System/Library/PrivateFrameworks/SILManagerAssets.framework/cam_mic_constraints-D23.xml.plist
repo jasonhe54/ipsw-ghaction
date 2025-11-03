@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boundingBoxes</key>
+	<array>
+		<dict>
+			<key>Height</key>
+			<real>0.0030000000000000001</real>
+			<key>Width</key>
+			<real>0.67000000000000004</real>
+			<key>X</key>
+			<real>0.32000000000000001</real>
+			<key>Y</key>
+			<real>0.035000000000000003</real>
+			<key>dynamic</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Height</key>
+			<real>0.10000000000000001</real>
+			<key>Width</key>
+			<real>0.59999999999999998</real>
+			<key>X</key>
+			<real>0.20000000000000001</real>
+			<key>Y</key>
+			<real>0.10000000000000001</real>
+			<key>dynamic</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>devices</key>
+	<array>
+		<string>iPhone18,4</string>
+	</array>
+	<key>fallbackInfo</key>
+	<dict>
+		<key>frame</key>
+		<integer>800</integer>
+		<key>x</key>
+		<real>0.42699999999999999</real>
+		<key>y</key>
+		<real>0.035000000000000003</real>
+	</dict>
+	<key>noticeableFrameIndex</key>
+	<integer>20</integer>
+	<key>steadyFrameIndex</key>
+	<integer>28</integer>
+	<key>steadyFrameSize</key>
+	<integer>10</integer>
+	<key>steadyOpacity</key>
+	<real>0.20000000000000001</real>
+	<key>timeAsSteadyAsSeconds</key>
+	<real>0.5</real>
+	<key>timeToSteadyAsSeconds</key>
+	<real>1</real>
+</dict>
+</plist>

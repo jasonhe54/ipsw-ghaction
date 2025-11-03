@@ -1,0 +1,16 @@
+"DGShadowHighlightOperation" = "Highlights & Shadows";
+"inputRadiusTooltip" = "The area that determines each pixel’s tonality";
+"inputShadowAmount" = "Shadows";
+"inputShadowAmountTooltip" = "The amount of brightness and contrast that is applied to the darkest areas of the image";
+"inputHighlightAmountTooltip" = "The amount of darkness and contrast that is applied to the brightest areas of the image";
+"inputColorCorrection" = "Color Correction";
+"DGShadowHighlightV1Operation" = "Highlights & Shadows";
+"inputHighlightTonalWidth" = "High Tonal Width";
+"inputShadowTonalWidth" = "Low Tonal Width";
+"inputShadowTonalWidthTooltip" = "The range of tones that are modified in the shadows";
+"inputHighlightTonalWidthTooltip" = "The range of tones that are modified in the highlights";
+"inputMidtoneContrast" = "Mid Contrast";
+"inputMidtoneContrastTooltip" = "The amount of contrast that is applied to midtones";
+"inputHighlightAmount" = "Highlights";
+"inputRadius" = "Radius";
+"inputColorCorrectionTooltip" = "The amount of saturation that is applied during a shadow or highlight adjustment";

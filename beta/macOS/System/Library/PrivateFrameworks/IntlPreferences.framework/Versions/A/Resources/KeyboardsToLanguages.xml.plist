@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2SetHangul</key>
+	<array>
+		<string>ko</string>
+	</array>
+	<key>Arabic</key>
+	<array>
+		<string>ar</string>
+	</array>
+	<key>British</key>
+	<array>
+		<string>en</string>
+		<string>en-GB</string>
+	</array>
+	<key>Bulgarian</key>
+	<array>
+		<string>bg</string>
+	</array>
+	<key>Canadian - CSA</key>
+	<array>
+		<string>fr</string>
+		<string>fr-CA</string>
+	</array>
+	<key>Croatian</key>
+	<array>
+		<string>hr</string>
+	</array>
+	<key>Croatian - Standard</key>
+	<array>
+		<string>hr</string>
+	</array>
+	<key>Czech</key>
+	<array>
+		<string>cs</string>
+	</array>
+	<key>Danish</key>
+	<array>
+		<string>da</string>
+	</array>
+	<key>French</key>
+	<array>
+		<string>fr</string>
+		<string>fr-BE</string>
+		<string>fr-FR</string>
+	</array>
+	<key>German</key>
+	<array>
+		<string>de</string>
+		<string>de-AT</string>
+		<string>de-DE</string>
+	</array>
+	<key>Greek</key>
+	<array>
+		<string>el</string>
+	</array>
+	<key>Hebrew</key>
+	<array>
+		<string>he</string>
+	</array>
+	<key>Hungarian</key>
+	<array>
+		<string>hu</string>
+	</array>
+	<key>Icelandic</key>
+	<array>
+		<string>is</string>
+	</array>
+	<key>Italian - Pro</key>
+	<array>
+		<string>it</string>
+	</array>
+	<key>Japanese Keyboard</key>
+	<array>
+		<string>ja</string>
+	</array>
+	<key>Norwegian</key>
+	<array>
+		<string>no</string>
+	</array>
+	<key>Portuguese</key>
+	<array>
+		<string>pt-PT</string>
+	</array>
+	<key>Romanian</key>
+	<array>
+		<string>ro</string>
+	</array>
+	<key>Russian</key>
+	<array>
+		<string>ru</string>
+	</array>
+	<key>Simplified Chinese Keyboard</key>
+	<array>
+		<string>zh-Hans</string>
+		<string>zh-Hant</string>
+	</array>
+	<key>Slovak</key>
+	<array>
+		<string>sk</string>
+	</array>
+	<key>Spanish - ISO</key>
+	<array>
+		<string>es</string>
+		<string>es-419</string>
+	</array>
+	<key>Swedish - Pro</key>
+	<array>
+		<string>sv</string>
+		<string>fi</string>
+	</array>
+	<key>Swiss Multilingual Keyboard</key>
+	<array>
+		<string>de</string>
+		<string>de-CH</string>
+		<string>fr</string>
+		<string>fr-CH</string>
+	</array>
+	<key>Thai</key>
+	<array>
+		<string>th</string>
+	</array>
+	<key>Turkish</key>
+	<array>
+		<string>tr</string>
+	</array>
+	<key>Turkish-QWERTY-PC</key>
+	<array>
+		<string>tr</string>
+	</array>
+	<key>Turkish-Standard</key>
+	<array>
+		<string>tr</string>
+	</array>
+	<key>U.S.</key>
+	<array/>
+	<key>US International Keyboard</key>
+	<array/>
+	<key>Zhuyin Bopomofo</key>
+	<array>
+		<string>zh-Hant</string>
+		<string>zh-Hant-TW</string>
+	</array>
+</dict>
+</plist>

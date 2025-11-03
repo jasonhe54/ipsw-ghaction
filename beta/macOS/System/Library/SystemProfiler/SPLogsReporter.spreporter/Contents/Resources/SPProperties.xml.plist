@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>0</string>
+	</dict>
+	<key>byteSize</key>
+	<dict>
+		<key>_isByteSize</key>
+		<true/>
+		<key>_isColumn</key>
+		<true/>
+		<key>_order</key>
+		<integer>2</integer>
+	</dict>
+	<key>description</key>
+	<dict>
+		<key>_detailLevel</key>
+		<integer>255</integer>
+	</dict>
+	<key>lastModified</key>
+	<dict>
+		<key>_dateFormat</key>
+		<string>%X</string>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>3</string>
+	</dict>
+	<key>path</key>
+	<dict>
+		<key>_detailLevel</key>
+		<integer>255</integer>
+		<key>_isURL</key>
+		<string>YES</string>
+	</dict>
+	<key>size</key>
+	<dict>
+		<key>_detailLevel</key>
+		<integer>255</integer>
+		<key>_isColumn</key>
+		<false/>
+	</dict>
+	<key>source</key>
+	<dict>
+		<key>_isColumn</key>
+		<true/>
+		<key>_isURL</key>
+		<string>YES</string>
+		<key>_openURLWhenOutlineViewDoubleClicked</key>
+		<true/>
+		<key>_order</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

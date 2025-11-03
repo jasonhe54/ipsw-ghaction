@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/db/.bootcamp_cleanup_windowsinstaller.plist</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.diskmanagementstartup</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.OpenDirectory.ODTrigger</key>
+		<dict>
+			<key>Record Deletion</key>
+			<dict>
+				<key>Events</key>
+				<string>Delete</string>
+				<key>Nodes</key>
+				<string>/Local/Default</string>
+				<key>RecordTypes</key>
+				<string>dsRecTypeStandard:Users</string>
+				<key>TriggerType</key>
+				<string>Records</string>
+			</dict>
+			<key>Record Modification</key>
+			<dict>
+				<key>Nodes</key>
+				<string>/Local/Default</string>
+				<key>RecordAttributes</key>
+				<array>
+					<string>dsAttrTypeStandard:GroupMembers</string>
+					<string>dsAttrTypeStandard:GroupMembership</string>
+					<string>dsAttrTypeStandard:AuthenticationHint</string>
+					<string>dsAttrTypeStandard:AuthenticationAuthority</string>
+					<string>dsAttrTypeStandard:RecordName</string>
+					<string>dsAttrTypeStandard:RealName</string>
+					<string>dsAttrTypeStandard:JPEGPhoto</string>
+					<string>dsAttrTypeStandard:Picture</string>
+					<string>dsAttrTypeStandard:Password</string>
+					<string>dsAttrTypeNative:smartCardSecureTokenUUID</string>
+					<string>dsAttrTypeNative:smartCardSecureTokenData</string>
+					<string>dsAttrTypeNative:SmartCardEnforcement</string>
+					<string>dsAttrTypeNative:FVTokenSecret</string>
+					<string>userAccountControl</string>
+				</array>
+				<key>RecordTypes</key>
+				<array>
+					<string>dsRecTypeStandard:Groups</string>
+					<string>dsRecTypeStandard:Users</string>
+				</array>
+				<key>TriggerType</key>
+				<string>RecordAttributes</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/diskmanagementstartup</string>
+	</array>
+</dict>
+</plist>

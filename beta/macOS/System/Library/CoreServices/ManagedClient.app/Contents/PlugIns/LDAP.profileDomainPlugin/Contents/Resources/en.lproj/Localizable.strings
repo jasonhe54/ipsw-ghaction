@@ -1,0 +1,10 @@
+"str_Missing_Password" = "Password:";
+"str_LDAP_Missing_PayloadHeaderNoServer" = "Enter settings for your LDAP server:";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'LDAP Account', 'other': 'LDAP Accounts (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_Missing_Username" = "Username:";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'LDAP Account', 'other': '%lu LDAP Accounts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_LDAP_Missing_PayloadHeader" = "Enter settings for the LDAP server “%@”:";
+"str_LDAP_Detail_Description" = "Description";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'LDAP Accounts', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_LDAP_Detail_Server" = "Server";
+"str_LDAP_PayloadType" = "LDAP Account";

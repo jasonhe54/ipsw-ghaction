@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BinaryOrderPreference</key>
+	<array>
+		<integer>16777228</integer>
+	</array>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cvmsCompAgent_arm64_1</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cvmsCompAgent_arm64_1</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/OpenGLES.framework/CVMCompiler</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

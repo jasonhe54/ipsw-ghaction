@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIntents</key>
+	<dict>
+		<key>MetadataAbsolutePaths</key>
+		<array>
+			<string>/System/Library/PrivateFrameworks/AppStoreComponentsDaemonKit.framework</string>
+		</array>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.appstorecomponentsd</string>
+	<key>LaunchEvents</key>
+	<dict/>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.appstorecomponentsd.xpc</key>
+		<true/>
+		<key>com.apple.private.appintents.delegate.com.apple.appstorecomponentsd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/AppStoreComponents.framework/Support/appstorecomponentsd</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/AppStoreComponents.framework/Support/appstorecomponentsd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

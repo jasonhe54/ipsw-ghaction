@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.mediastream.mstreamd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.photostream.idslaunchnotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.photostream.idslaunchnotification</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mediastream.mstreamd.sharing.push-dev</key>
+		<true/>
+		<key>com.apple.mediastream.mstreamd.sharing.push-prod</key>
+		<true/>
+		<key>com.apple.mediastream.sharing</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/MediaStream.framework/Versions/A/Support/mstreamd</string>
+</dict>
+</plist>

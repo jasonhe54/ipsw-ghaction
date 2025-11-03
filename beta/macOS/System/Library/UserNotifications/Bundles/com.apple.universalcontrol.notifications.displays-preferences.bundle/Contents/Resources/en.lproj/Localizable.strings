@@ -1,0 +1,5 @@
+"ERROR_NOTIFICATION_DISCONNECTED" = "“%@” disconnected.";
+"ERROR_NOTIFICATION_CONNECTION_FAILED" = "Unable to connect to “%@”.";
+"INFO_NOTIFICATION_CONTROLLED_DEVICE" = "Your keyboard and mouse are now used by “%@”.";
+"DISPLAYS_TITLE" = "Displays";
+"ERROR_NOTIFICATION_DISCONNECTED_FROM" = "{'devices': {'one': 'Disconnected from “%2$@” and %3$@ other device.', 'zero': 'Disconnected from “%2$@”.', 'other': 'Disconnected from “%2$@” and %3$@ other devices.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@devices@'}";

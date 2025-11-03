@@ -1,0 +1,11 @@
+"str_ACME_KeyHasBadValue" = "The “%@” payload contains an invalid value for the key “%@”.";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'ACME Certificate', 'other': 'ACME Certificates (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_ACME_KeyType" = "Key Type";
+"str_ACME_HardwareBound_Yes" = "Yes";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'ACME Certificate', 'other': '%lu ACME Certificates', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_ACME_HardwareBound" = "Hardware Bound Key";
+"str_ACME_ServerURL" = "Server";
+"str_ACME_HardwareBound_No" = "No";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'ACME Certificate', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_ACME_ConnectionFailed" = "Unable to contact ACME server at “%@”. (%@:%@)";
+"str_ACME_KeySize" = "Key Size";

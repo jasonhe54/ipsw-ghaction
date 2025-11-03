@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>ԱԲԳ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-Cancel</key>
+	<string>չեղարկել</string>
+	<key>UI-Currency-֏</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>֏ € $ £ ¥</string>
+		<key>Strings</key>
+		<string>֏ € $ £ ¥</string>
+	</dict>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>արված է</string>
+	<key>UI-EmergencyCall</key>
+	<string>Արտակարգ
+իրավիճակի կանչ</string>
+	<key>UI-Go</key>
+	<string>գնալ</string>
+	<key>UI-IconLabelScript</key>
+	<string>Ա</string>
+	<key>UI-Join</key>
+	<string>միանալ</string>
+	<key>UI-LanguageIndicator</key>
+	<string>հայերեն</string>
+	<key>UI-Next</key>
+	<string>Հաջորդ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>pause</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-Redo</key>
+	<string>վերարկել</string>
+	<key>UI-Return</key>
+	<string>Վերադառնալ</string>
+	<key>UI-Search</key>
+	<string>որոնում</string>
+	<key>UI-Send</key>
+	<string>ուղարկել</string>
+	<key>UI-Space</key>
+	<string>Բացատ</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .հայ .am</string>
+		<key>Strings</key>
+		<string>.com .հայ .am</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>հետարկել</string>
+	<key>UI-Wait</key>
+	<string>wait</string>
+	<key>UI-abc</key>
+	<string>աբգ</string>
+</dict>
+</plist>

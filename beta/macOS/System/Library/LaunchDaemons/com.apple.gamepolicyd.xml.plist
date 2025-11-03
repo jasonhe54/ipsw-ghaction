@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.gamepolicyd</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.gamepolicyd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.gamepolicy.daemon.launch</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.gamepolicy.daemon.launch</string>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.gamepolicy.mobileasset.DB.update</key>
+			<dict>
+				<key>GracePeriod</key>
+				<integer>172800</integer>
+				<key>Interval</key>
+				<integer>432000</integer>
+				<key>NetworkDownloadSize</key>
+				<integer>1048576</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+				<key>RequiresClassC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.gamepolicyd.app</key>
+		<true/>
+		<key>com.apple.gamepolicyd.app.privileged</key>
+		<true/>
+		<key>com.apple.gamepolicyd.mobile-asset</key>
+		<true/>
+		<key>com.apple.gamepolicyd.tool</key>
+		<true/>
+		<key>com.apple.gamepolicyd.tool.privileged</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/gamepolicyd</string>
+	</array>
+</dict>
+</plist>

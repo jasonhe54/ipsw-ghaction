@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.controlcenter</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.GameController.events.controllers-changed</key>
+		<dict>
+			<key>com.apple.GameController.events.controllers-changed</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.SystemBanner</key>
+		<dict/>
+		<key>com.apple.SystemBannerService</key>
+		<dict/>
+		<key>com.apple.controlcenter.ccutil</key>
+		<dict/>
+		<key>com.apple.controlcenter.controlcentermodule</key>
+		<dict/>
+		<key>com.apple.controlcenter.show.toggles</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+		</dict>
+		<key>com.apple.controlcenter.statusitems</key>
+		<dict/>
+		<key>com.apple.usernotifications.delegate.com.apple.controlcenter.notifications.airplay</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>App</string>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter</string>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

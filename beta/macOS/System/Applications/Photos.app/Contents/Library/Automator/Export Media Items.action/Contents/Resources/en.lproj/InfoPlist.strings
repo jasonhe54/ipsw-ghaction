@@ -1,0 +1,16 @@
+"AMDSummary" = "This action will export copies of the media items whose references are passed to this action as input.";
+"AMDNote" = "As a container for the exported files, a uniquely-named export folder is created in the user Pictures folder. The folder’s name is based on the time of export, like this: Photos Export 2015-03-05 at 16.53.00 PM";
+"ApplyButton" = "";
+"AMDOptions" = "There are options for:
+	1) File Naming • You can choose to export images with their original file names; exported with a shared name and numeric suffix; or renamed to their internal Photos IDs.
+	NOTE: if the file naming option is set for naming exports with original filenames, then the option becomes available to export the original full-resolution source files in place of standard JPEGs.
+	2) Setting the action results to be either references to the created files, or the export folder.
+	3) You can choose to have the action results revealed in the Finder.";
+"Message" = "";
+"NSHumanReadableCopyright" = "Copyright © 2015 Apple Inc. All rights reserved.";
+"AMDAlert" = "";
+"AMDResult" = "";
+"AMDInput" = "";
+"IgnoreButton" = "";
+"AMDRequires" = "";
+"AMName" = "Export Media Items";

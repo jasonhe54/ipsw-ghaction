@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.TextInputSwitcher</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.inputswitcher.running</key>
+		<dict>
+			<key>HideUntilCheckIn</key>
+			<true/>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.inputswitcher.startup</key>
+		<true/>
+		<key>com.apple.inputswitcher.stop</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher</string>
+	<key>_LimitLoadFromBootMode</key>
+	<string>fvunlock</string>
+</dict>
+</plist>

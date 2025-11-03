@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BentoBox-LD.keywords</key>
+	<array>
+		<string></string>
+	</array>
+	<key>BentoBox-LD.products</key>
+	<array>
+		<string>ExtraLargeHardcoverBook</string>
+		<string>HardcoverBook</string>
+		<string>MediumSoftcoverBook</string>
+	</array>
+	<key>BentoBox-SQ.keywords</key>
+	<array>
+		<string></string>
+	</array>
+	<key>BentoBox-SQ.products</key>
+	<array>
+		<string>SquareHardcoverBook</string>
+		<string>SquareMediumHardcoverBook</string>
+		<string>SquareMediumSoftcoverBook</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.BentoBox</string>
+	<key>CatalogVersion</key>
+	<integer>20</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:10:11Z</date>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>BentoBox-LD</string>
+		<string>BentoBox-SQ</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+"SCRDockList.dock.item.movedAbove" = " moved above ";
+"SCRDockList.interactEndCommand.description" = "Moves the VoiceOver cursor to the last item in the Dock.";
+"SCRDockList.interactEndCommand.failure" = "Already on last item in Dock";
+"SCRDockList.dockContent.description" = "Echos the contents of the Dock.";
+"SCRDockList.interactEndCommand.failure2" = "No Items in Dock";
+"SCRDockList.interactEndCommand.title" = "Last item in Dock";
+"SCRDockList.dockContent.title" = "Echo Dock contents";
+"SCRDockList.interactHomeCommand.failure" = "Already on first item in Dock";
+"SCRDockList.interactHomeCommand.success" = "To first item in Dock";
+"SCRDockList.dock.item.movedToLeftOf" = " moved to the left of ";
+"SCRDockList.interactHomeCommand.title" = "First item in Dock";
+"SCRDockList.interactEndCommand.success" = "To last item in Dock";
+"SCRDockList.dock.item.movedToRightOf" = " moved to the right of ";
+"SCRDockList.interactHomeCommand.description" = "Moves the VoiceOver cursor to the first item in the Dock.";
+"SCRDockList.interactHomeCommand.failure2" = "No items in Dock";
+"SCRDockList.dock.item.movedBelow" = " moved below ";

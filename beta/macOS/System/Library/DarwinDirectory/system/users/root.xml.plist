@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>0</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000000</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>System Administrator</string>
+	<key>homeDirectory</key>
+	<string>/var/root</string>
+	<key>memberships</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000008</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000005</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000050</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000004</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000003</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000000</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000002</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000001</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000014</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000001D</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000009</string>
+	</array>
+	<key>name</key>
+	<string>root</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000000</string>
+	<key>shell</key>
+	<string>/bin/sh</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

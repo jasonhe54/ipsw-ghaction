@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTTiming</key>
+	<dict>
+		<key>En</key>
+		<integer>1</integer>
+		<key>T3</key>
+		<integer>5</integer>
+		<key>T4</key>
+		<integer>100</integer>
+	</dict>
+	<key>ChannelCoexMode</key>
+	<dict>
+		<key>Channel</key>
+		<integer>0</integer>
+		<key>CoexMode</key>
+		<integer>1</integer>
+	</dict>
+	<key>PMProtectionMode</key>
+	<dict>
+		<key>PMProtectionMode</key>
+		<integer>1</integer>
+	</dict>
+	<key>RCU2Option</key>
+	<dict>
+		<key>RX</key>
+		<integer>2</integer>
+		<key>TX</key>
+		<integer>1</integer>
+	</dict>
+	<key>WiFiTiming</key>
+	<dict>
+		<key>En1</key>
+		<integer>1</integer>
+		<key>En2</key>
+		<integer>2</integer>
+		<key>T3</key>
+		<integer>5</integer>
+		<key>T4</key>
+		<integer>100</integer>
+	</dict>
+</dict>
+</plist>

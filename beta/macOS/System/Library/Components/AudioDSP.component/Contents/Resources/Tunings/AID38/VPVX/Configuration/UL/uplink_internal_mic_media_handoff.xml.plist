@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Uplink</key>
+	<dict>
+		<key>Nodes</key>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>DSPGraphAUStripFilePath</key>
+				<string>DSP/UL/uplink_content.austrip</string>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/UL/uplink_content.dspg</string>
+			</dict>
+			<key>Echo</key>
+			<dict>
+				<key>DSPGraphAUStripFilePath</key>
+				<string>Tuning/{REF_4CC}-imic-mped-ulnk.austrip</string>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/UL/uplink_echo_internal_mic_media_handoff.dspg</string>
+				<key>DSPGraphPropertyStripFilePath</key>
+				<string>DSP/UL/uplink_echo_internal_mic_media_handoff.propstrip</string>
+				<key>PreferredBlockDurationSeconds</key>
+				<real>0.01</real>
+				<key>PreferredSampleRateHz</key>
+				<integer>24000</integer>
+			</dict>
+			<key>Hardware</key>
+			<dict>
+				<key>DSPGraphFilePath</key>
+				<string>DSP/UL/uplink_hardware.dspg</string>
+			</dict>
+		</dict>
+		<key>Settings</key>
+		<dict>
+			<key>MicRefTimeDelayMilliseconds</key>
+			<integer>-6</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

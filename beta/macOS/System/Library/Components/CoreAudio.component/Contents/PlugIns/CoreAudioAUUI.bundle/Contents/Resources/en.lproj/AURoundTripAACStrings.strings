@@ -1,0 +1,55 @@
+"Base Bit Rate:" = "Base Bit Rate:";
+"Correct" = "Correct";
+"Results: %@/%@ (%@ Correct)
+
+" = "Results: %@/%@ (%@ Correct)
+
+";
+"Show Details" = "Show Details";
+"Hide Details" = "Hide Details";
+"Resume" = "Resume";
+"Stop" = "Stop";
+"Test Cycle: %@" = "Test Cycle: %@";
+"%d/%d- Test aborted" = "%d/%d- Test stopped";
+"Listening Test Results
+======================
+
+" = "Listening Test Results
+======================
+
+";
+"%d kbps AAC" = "%d kbps AAC";
+"Date: %@
+
+" = "Date: %@
+
+";
+"Streaming (HE-AAC %d kbps)" = "Streaming (HE-AAC %d kbps)";
+"%@ %@ Quality: %@" = "%@ %@ Quality: %@";
+"Test Cycle: %d of %d" = "Test Cycle: %d of %d";
+"Save Test Results" = "Save Test Results";
+"AAC" = "AAC";
+"ListeningTestResults-%@" = "ListeningTestResults-%@";
+"VBR" = "VBR";
+"Test Incomplete. You need to perform at least %d tests for your results to be statistically significant." = "Test Incomplete. You need to perform at least %d tests for your results to be statistically significant.";
+"You are currently performing a listening test. Would you like to stop the test?" = "You are currently performing a listening test. Would you like to stop the test?";
+"Learning Mode" = "Learning Mode";
+"successful identification" = "You successfully identified the encoded audio with a 95% confidence rating.";
+"Hot Key: %d" = "Hot Key: %d";
+"%@/%@ (%@ Correct)" = "%@/%@ (%@ Correct)";
+"Hot Key: %d, %d" = "Hot Key: %d, %d";
+"Encoder: %@
+" = "Encoder: %@
+";
+"HE-AAC" = "HE-AAC";
+"Incorrect" = "Incorrect";
+"%@ %@ %@ Kbps" = "%@ %@ %@ kbps";
+"VBRC" = "VBRC";
+"High Quality %d kHz" = "High Quality %d kHz";
+"HE-AACv2" = "HE-AACv2";
+"Bit Rate:" = "Bit Rate:";
+"not successful. You needed %@ correct" = "You were not successful in identifying the encoded audio in a statistically significant manner. You needed %@ correct answers to pass this test";
+"ABR" = "ABR";
+"Test Cycles: %@
+" = "Test Cycles: %@
+";

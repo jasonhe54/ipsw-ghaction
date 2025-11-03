@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>functions</key>
+	<dict>
+		<key>ioctl</key>
+		<dict>
+			<key>args</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>type</key>
+					<string>i</string>
+				</dict>
+				<key>1</key>
+				<dict>
+					<key>type</key>
+					<string>Q</string>
+				</dict>
+			</dict>
+			<key>retval</key>
+			<dict>
+				<key>type</key>
+				<string>i</string>
+			</dict>
+			<key>variadic</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>structTagsByName</key>
+	<dict>
+		<key>ttysize</key>
+		<string>ttysize</string>
+	</dict>
+	<key>structs</key>
+	<dict>
+		<key>ttysize</key>
+		<dict>
+			<key>type</key>
+			<string>{ttysize="ts_lines"S"ts_cols"S"ts_xxx"S"ts_yyy"S}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

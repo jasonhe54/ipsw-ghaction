@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.uninstalld</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.uninstall.service</key>
+		<true/>
+		<key>com.apple.uninstalld</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld</string>
+	</array>
+</dict>
+</plist>

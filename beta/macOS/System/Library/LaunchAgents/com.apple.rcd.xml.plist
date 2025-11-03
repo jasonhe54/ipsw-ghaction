@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.rcd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.rcdevent.matching</key>
+		<dict>
+			<key>Events</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.rcd</key>
+		<true/>
+		<key>com.apple.rcd.media.key.events</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Standard</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/rcd.app/Contents/MacOS/rcd</string>
+	</array>
+</dict>
+</plist>

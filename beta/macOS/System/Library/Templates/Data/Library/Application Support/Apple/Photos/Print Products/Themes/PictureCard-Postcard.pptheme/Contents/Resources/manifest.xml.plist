@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.PictureCard-Postcard</string>
+	<key>CatalogVersion</key>
+	<integer>4</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:12:50Z</date>
+	<key>PictureCard-Postcard-V.keywords</key>
+	<array>
+		<string>CARDCategoryAll:100</string>
+		<string>CARDCategoryBaby:3100</string>
+		<string>CARDCategoryBirthday:1400</string>
+		<string>CARDCategoryCongratulations:2400</string>
+		<string>CARDCategoryFathersDay:2400</string>
+		<string>CARDCategoryFormal:2100</string>
+		<string>CARDCategoryHoliday:100</string>
+		<string>CARDCategoryMothersDay:2200</string>
+		<string>CARDCategoryThankYou:100</string>
+	</array>
+	<key>PictureCard-Postcard-V.products</key>
+	<array>
+		<string>VerticalFlatCard</string>
+	</array>
+	<key>PictureCard-Postcard.keywords</key>
+	<array>
+		<string>CARDCategoryAll:100</string>
+		<string>CARDCategoryBaby:3100</string>
+		<string>CARDCategoryBirthday:1400</string>
+		<string>CARDCategoryCongratulations:2400</string>
+		<string>CARDCategoryFathersDay:2400</string>
+		<string>CARDCategoryFormal:2100</string>
+		<string>CARDCategoryHoliday:100</string>
+		<string>CARDCategoryMothersDay:2200</string>
+		<string>CARDCategoryThankYou:100</string>
+	</array>
+	<key>PictureCard-Postcard.products</key>
+	<array>
+		<string>HorizontalFlatCard</string>
+	</array>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>PictureCard-Postcard-V</string>
+		<string>PictureCard-Postcard</string>
+	</array>
+</dict>
+</plist>

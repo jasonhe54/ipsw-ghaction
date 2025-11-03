@@ -1,0 +1,31 @@
+"str_SPR_MissingVarTerm" = "Missing terminating “$” for key expansion “%@”.";
+"str_SPR_MissingCertKey" = "Missing certificate key “%@”.";
+"str_SPR_Expired" = "Expired";
+"str_SP_NotSystemProfile" = "The profile is a user profile but contains a “%@” payload which is only valid in device profiles.";
+"str_SPR_Requirement" = "Requirement";
+"str_SPR_InvalidRequirement" = "The System Policy payload “%@” contains an invalid requirement string:
+%@
+%@";
+"str_SPC_EnableXProtectMalwareUpload" = "XProtect Malware Upload";
+"str_SPC_Disabled" = "Disable";
+"str_SPM_OverrideUntrustedApps" = "Open untrusted apps via Finder";
+"str_SPC_AllowIdentifiedDevelopers" = "Identified Developers";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"str_SPR_PayloadRuleHasExpired" = "The System Policy payload “%@” contains a rule that has already expired.";
+"str_SPM_Allowed" = "Allow";
+"str_SPC_EnableStrictAssessment" = "Strict";
+"str_SPC_Allowed" = "Allow";
+"str_SPR_InvalidCert" = "Invalid certificate data in key “%@”.";
+"str_SPR_RuleTypeOpenDocument" = "Open Document";
+"str_SPR_RuleTypeExecute" = "Execute";
+"str_SPR_NotFoundInPolicyDatabase" = "Not found in System Policy database.";
+"str_SPR_RuleTypeInstall" = "Install";
+"str_SPR_OperationType" = "Type";
+"str_SPR_Expires" = "Expires";
+"str_SPM_Disallowed" = "Disallow";
+"str_SPR_Comment" = "Comment";
+"str_SPC_EnableAssessment" = "Policies";
+"str_SPR_Priority" = "Priority";
+"str_SPC_Enabled" = "Enable";
+"str_SPR_ActualRequirement" = "<Installed>";
+"str_SPC_Disallowed" = "Disallow";

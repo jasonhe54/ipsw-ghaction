@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0x0208</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Keyboard 1st gen (white) ANSI</string>
+	</dict>
+	<key>0x0209</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Keyboard 1st gen (white) ISO</string>
+	</dict>
+	<key>0x020A</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Keyboard 1st gen (white) JIS</string>
+	</dict>
+	<key>0x022C</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Keyboard.prefPane</string>
+		<key>ImageName</key>
+		<string>Keyboard.icns</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 1st gen ANSI</string>
+	</dict>
+	<key>0x022D</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 1st gen ISO</string>
+	</dict>
+	<key>0x022E</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 1st gen JIS</string>
+	</dict>
+	<key>0x0239</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ANSI</string>
+	</dict>
+	<key>0x023A</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ISO</string>
+	</dict>
+	<key>0x023B</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen JIS</string>
+	</dict>
+	<key>0x0255</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ANSI - new layout</string>
+	</dict>
+	<key>0x0256</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen ISO - new layout</string>
+	</dict>
+	<key>0x0257</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x022C</string>
+		<key>Name</key>
+		<string>Apple Wireless Slim Keyboard 2nd gen JIS - new layout</string>
+	</dict>
+	<key>0x0265</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Trackpad.prefPane</string>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>TrackpadIcon_2b.icns</string>
+		</dict>
+		<key>ImageName</key>
+		<string>TrackpadIcon_2.icns</string>
+		<key>Name</key>
+		<string>Magic Trackpad</string>
+	</dict>
+	<key>0x0267</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Keyboard.prefPane</string>
+		<key>ImageName</key>
+		<string>KeyboardIcon_2.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x0269</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Mouse.prefPane</string>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>Mouse_b.icns</string>
+		</dict>
+		<key>ImageName</key>
+		<string>Mouse.icns</string>
+		<key>Name</key>
+		<string>Magic Mouse</string>
+	</dict>
+	<key>0x026C</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Keyboard.prefPane</string>
+		<key>Color</key>
+		<dict>
+			<key>0x05</key>
+			<string>KeyboardIcon_3b.icns</string>
+		</dict>
+		<key>ImageName</key>
+		<string>KeyboardIcon_3-5EA3EDE802-5C29671E58.icns</string>
+		<key>Name</key>
+		<string>Magic Keyboard</string>
+	</dict>
+	<key>0x0309</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x030C</string>
+		<key>Name</key>
+		<string>Apple Wireless Mouse (no scrollball)</string>
+	</dict>
+	<key>0x030C</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>ImageName</key>
+		<string>MightyMouse.icns</string>
+		<key>Name</key>
+		<string>Apple Mighty Mouse (with scrollball)</string>
+	</dict>
+	<key>0x030D</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x0269</string>
+		<key>Name</key>
+		<string>Magic Mouse</string>
+	</dict>
+	<key>0x030E</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PreferencePanes/Trackpad.prefPane</string>
+		<key>ImageName</key>
+		<string>TrackpadPictureD.png</string>
+		<key>Name</key>
+		<string>Magic Trackpad</string>
+	</dict>
+	<key>0x1290</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone.icns</string>
+		<key>Name</key>
+		<string>iPhone</string>
+	</dict>
+	<key>0x1292</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-3g.icns</string>
+		<key>Name</key>
+		<string>iPhone 3G</string>
+	</dict>
+	<key>0x1294</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x1292</string>
+		<key>Name</key>
+		<string>iPhone 3Gs</string>
+	</dict>
+	<key>0x1297</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-4-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 4 GSM</string>
+	</dict>
+	<key>0x129A</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad.icns</string>
+		<key>Name</key>
+		<string>iPad</string>
+	</dict>
+	<key>0x129C</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x1297</string>
+		<key>Name</key>
+		<string>iPhone 4 CDMA</string>
+	</dict>
+	<key>0x129D</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.apple-tv-3.icns</string>
+		<key>Name</key>
+		<string>AppleTV</string>
+	</dict>
+	<key>0x129E</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x1297</string>
+		<key>Name</key>
+		<string>iPod touch 4th Generation</string>
+	</dict>
+	<key>0x129F</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad-2-black.icns</string>
+		<key>Name</key>
+		<string>iPad 2 WiFi</string>
+	</dict>
+	<key>0x12A0</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-4-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 4s</string>
+	</dict>
+	<key>0x12A2</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>Name</key>
+		<string>iPad 2 GSM</string>
+	</dict>
+	<key>0x12A3</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>Name</key>
+		<string>iPad 2 CDMA</string>
+	</dict>
+	<key>0x12A4</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>Name</key>
+		<string>iPad 3 WiFi</string>
+	</dict>
+	<key>0x12A5</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>Name</key>
+		<string>iPad 3 GSM</string>
+	</dict>
+	<key>0x12A6</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>Name</key>
+		<string>iPad 3 CDMA</string>
+	</dict>
+	<key>0x12A7</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.apple-tv-4.icns</string>
+		<key>Name</key>
+		<string>AppleTV</string>
+	</dict>
+	<key>0x12A8</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-5-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 5</string>
+	</dict>
+	<key>0x12A9</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x129F</string>
+		<key>Name</key>
+		<string>iPad 2 WiFi 2</string>
+	</dict>
+	<key>0x12AA</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.ipod-touch-5-silver.icns</string>
+		<key>Name</key>
+		<string>iPod touch 5th Generation</string>
+	</dict>
+	<key>0x12AB</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad-mini-black-wifi.icns</string>
+		<key>Name</key>
+		<string>iPad 4, iPad mini</string>
+	</dict>
+	<key>0x2002</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>ImageName</key>
+		<string>AirPods.png</string>
+		<key>Name</key>
+		<string>AirPods</string>
+	</dict>
+	<key>0x2003</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>Powerbeats3-B.png</string>
+		</dict>
+		<key>ImageName</key>
+		<string>Powerbeats3.png</string>
+		<key>Name</key>
+		<string>Powerbeats³</string>
+	</dict>
+	<key>0x2005</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>BeatsX-B.png</string>
+		</dict>
+		<key>ImageName</key>
+		<string>BeatsX.png</string>
+		<key>Name</key>
+		<string>Beatsˣ</string>
+	</dict>
+	<key>0x2006</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>BeatsSolo3-B.png</string>
+		</dict>
+		<key>ImageName</key>
+		<string>BeatsSolo3.png</string>
+		<key>Name</key>
+		<string>Beats Solo³</string>
+	</dict>
+	<key>0x2009</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>ImageName</key>
+		<string>BeatsStudio3.png</string>
+		<key>Name</key>
+		<string>Beats Studio³</string>
+	</dict>
+	<key>0x200B</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>Color</key>
+		<dict>
+			<key>0x01</key>
+			<string>Asset-B444-B.png</string>
+		</dict>
+		<key>ImageName</key>
+		<string>Asset-B444-W.png</string>
+		<key>Name</key>
+		<string>Powerbeats Pro</string>
+	</dict>
+	<key>0x200F</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/Frameworks/IOBluetoothUI.framework</string>
+		<key>ImageName</key>
+		<string>AirPods.png</string>
+		<key>Name</key>
+		<string>AirPods</string>
+	</dict>
+	<key>0x6D00</key>
+	<dict>
+		<key>Clone</key>
+		<string>0x12A8</string>
+		<key>Name</key>
+		<string>iPhone 5c</string>
+	</dict>
+	<key>0x6D01</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-5-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 5s GSM</string>
+	</dict>
+	<key>0x6D02</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-5-black.icns</string>
+		<key>Name</key>
+		<string>iPhone 5s GSM+CDMA</string>
+	</dict>
+	<key>0x6D07</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.ipad-air-99989b.icns</string>
+		<key>Name</key>
+		<string>iPad Air</string>
+	</dict>
+	<key>0x6E00</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-6-b4b5b9.icns</string>
+		<key>Name</key>
+		<string>iPhone 6</string>
+	</dict>
+	<key>0x6E01</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle/Contents/Library/MobileDevices.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-6-plus-b4b5b9.icns</string>
+		<key>Name</key>
+		<string>iPhone 6 plus</string>
+	</dict>
+	<key>0x710D</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/CoreServices/CoreTypes.bundle</string>
+		<key>ImageName</key>
+		<string>com.apple.iphone-x-1.icns</string>
+		<key>Name</key>
+		<string>iPhone X</string>
+	</dict>
+</dict>
+</plist>

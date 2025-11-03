@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OSADictionaryToolbar</key>
+	<dict>
+		<key>allowedItemIdentifiers</key>
+		<array>
+			<string>OSADictionaryNavigationItem</string>
+			<string>OSADictionaryTextSizeItem</string>
+			<string>OSADictionaryViewModeItem</string>
+			<string>OSADictionarySearchItem</string>
+			<string>NSToolbarSeparatorItem</string>
+			<string>NSToolbarSpaceItem</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>NSToolbarShowColorsItem</string>
+			<string>NSToolbarShowFontsItem</string>
+			<string>NSToolbarCustomizeToolbarItem</string>
+			<string>NSToolbarPrintItem</string>
+		</array>
+		<key>defaultItemIdentifiers</key>
+		<array>
+			<string>OSADictionaryNavigationItem</string>
+			<string>OSADictionaryTextSizeItem</string>
+			<string>OSADictionaryViewModeItem</string>
+			<string>NSToolbarPrintItem</string>
+			<string>NSToolbarFlexibleSpaceItem</string>
+			<string>OSADictionarySearchItem</string>
+		</array>
+		<key>itemInfoByIdentifier</key>
+		<dict>
+			<key>OSADictionaryNavigationItem</key>
+			<dict>
+				<key>action</key>
+				<string>goBackForward:</string>
+				<key>label</key>
+				<string>Back/Forward</string>
+				<key>paletteLabel</key>
+				<string>Back/Forward</string>
+				<key>toolTip</key>
+				<string>Back/Forward</string>
+				<key>view</key>
+				<string>navigationControl</string>
+			</dict>
+			<key>OSADictionarySearchItem</key>
+			<dict>
+				<key>action</key>
+				<string>search:</string>
+				<key>label</key>
+				<string>Search</string>
+				<key>paletteLabel</key>
+				<string>Search</string>
+				<key>toolTip</key>
+				<string>Search</string>
+				<key>view</key>
+				<string>searchField</string>
+			</dict>
+			<key>OSADictionaryTextSizeItem</key>
+			<dict>
+				<key>action</key>
+				<string>changeTextSize:</string>
+				<key>label</key>
+				<string>Text Size</string>
+				<key>paletteLabel</key>
+				<string>Text Size</string>
+				<key>toolTip</key>
+				<string>Text Size</string>
+				<key>view</key>
+				<string>textSizeControl</string>
+			</dict>
+			<key>OSADictionaryViewModeItem</key>
+			<dict>
+				<key>action</key>
+				<string>changeViewMode:</string>
+				<key>label</key>
+				<string>View</string>
+				<key>paletteLabel</key>
+				<string>View</string>
+				<key>toolTip</key>
+				<string>View by Suites, Containment, or Inheritance</string>
+				<key>view</key>
+				<string>viewModeControl</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

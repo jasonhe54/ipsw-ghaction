@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BinaryOrderPreference</key>
+	<array>
+		<integer>16777223</integer>
+	</array>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.speech.speechsynthesisd.x86_64</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>LoginWindow</string>
+		<string>Background</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.speech.speechsynthesisd.x86_64</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/Frameworks/ApplicationServices.framework/Frameworks/SpeechSynthesis.framework/Resources/com.apple.speech.speechsynthesisd</string>
+</dict>
+</plist>

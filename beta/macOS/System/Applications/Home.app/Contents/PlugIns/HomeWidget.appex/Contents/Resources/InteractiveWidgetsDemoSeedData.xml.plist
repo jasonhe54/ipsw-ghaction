@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>canBeToggled</key>
+		<true/>
+		<key>foregroundColor</key>
+		<string>.yellow</string>
+		<key>iconSymbol</key>
+		<string>lightbulb.fill</string>
+		<key>iconSymbolActivated</key>
+		<string>lightbulb.fill</string>
+		<key>id</key>
+		<string>A5CA4372-A5F3-5502-AAD5-D16B228022EE</string>
+		<key>isActivated</key>
+		<false/>
+		<key>isReachable</key>
+		<true/>
+		<key>name</key>
+		<string>Lightbulb</string>
+		<key>roomName</key>
+		<string>Kitchen</string>
+		<key>statusString</key>
+		<string>Off</string>
+		<key>statusStringActivated</key>
+		<string>On</string>
+	</dict>
+	<dict>
+		<key>canBeToggled</key>
+		<true/>
+		<key>foregroundColor</key>
+		<string>white</string>
+		<key>iconSymbol</key>
+		<string>lock.fill</string>
+		<key>iconSymbolActivated</key>
+		<string>lock.open.fill</string>
+		<key>id</key>
+		<string>A5CA4372-A5F3-5502-AAD5-D16B228022EE</string>
+		<key>isActivated</key>
+		<false/>
+		<key>isReachable</key>
+		<true/>
+		<key>name</key>
+		<string>Door Lock</string>
+		<key>roomName</key>
+		<string>Entrance</string>
+		<key>statusString</key>
+		<string>Locked</string>
+		<key>statusStringActivated</key>
+		<string>Unlocked</string>
+	</dict>
+</array>
+</plist>

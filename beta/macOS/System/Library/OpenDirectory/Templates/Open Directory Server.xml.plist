@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>description</key>
+	<string>Open Directory Server Node</string>
+	<key>identifier</key>
+	<string>com.apple.opendirectoryd.templates.Open Directory Server</string>
+	<key>mappings</key>
+	<dict>
+		<key>template</key>
+		<string>Open Directory</string>
+	</dict>
+	<key>modules</key>
+	<dict>
+		<key>authentication</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>AppleODClientLDAP</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>5F7FAD62-663E-43A9-930B-9B124D6B6A71</string>
+			</dict>
+			<dict>
+				<key>module</key>
+				<string>AppleODClientPWS</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>8B43DBDA-80A7-4A2A-BD63-7861C948DBCC</string>
+			</dict>
+		</array>
+		<key>default</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>ldap</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>235AD9F5-263C-4E89-A25B-B79F357CCF69</string>
+			</dict>
+		</array>
+		<key>discovery</key>
+		<array>
+			<dict>
+				<key>module</key>
+				<string>AppleODClientLDAP</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>5F7FAD62-663E-43A9-930B-9B124D6B6A71</string>
+			</dict>
+			<dict>
+				<key>module</key>
+				<string>AppleODClientPWS</string>
+				<key>options</key>
+				<dict/>
+				<key>uuid</key>
+				<string>8B43DBDA-80A7-4A2A-BD63-7861C948DBCC</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>spfirewall_applications</key>
+	<dict>
+		<key>_order</key>
+		<string>30</string>
+	</dict>
+	<key>spfirewall_globalstate</key>
+	<dict>
+		<key>_order</key>
+		<string>10</string>
+	</dict>
+	<key>spfirewall_services</key>
+	<dict>
+		<key>_order</key>
+		<string>20</string>
+	</dict>
+</dict>
+</plist>

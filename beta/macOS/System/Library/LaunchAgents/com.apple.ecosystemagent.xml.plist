@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.ecosystemagent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.ecosystem.agent.checkin</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.ecosystem.agent.checkin</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>LowPriorityIO</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.usernotifications.delegate.com.apple.ecosystem.notifications</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/Ecosystem.framework/Support/ecosystemagent</string>
+	</array>
+	<key>UNUserNotificationCenter</key>
+	<dict>
+		<key>UNAutomaticallyShowSettings</key>
+		<true/>
+		<key>UNDaemonShouldReceiveBackgroundResponses</key>
+		<true/>
+		<key>UNDefaultSettings</key>
+		<dict>
+			<key>UNSettingAlerts</key>
+			<true/>
+			<key>UNSettingAlwaysShowPreviews</key>
+			<false/>
+			<key>UNSettingLockScreen</key>
+			<true/>
+			<key>UNSettingModalAlertStyle</key>
+			<true/>
+			<key>UNSettingNotificationCenter</key>
+			<true/>
+		</dict>
+		<key>UNNotificationIcons</key>
+		<dict>
+			<key>UNNotificationIconDefault</key>
+			<string>notification-settings</string>
+			<key>UNNotificationIconSettings</key>
+			<string>notification-settings</string>
+		</dict>
+		<key>UNSuppressUserAuthorizationPrompt</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+"TCC_BUDDY_SERVICE_kTCCServiceDeveloperTool" = "Developer Tools";
+"TCC_BUDDY_SERVICE_kTCCServiceDeveloperTool_DESCRIPTION" = "{'developertool': {'one': 'App that can launch and run other apps locally', 'other': 'Apps that can launch and run other apps locally', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@developertool@'}";
+"TCC_BUDDY_SERVICE_kTCCServiceRemoteDesktop" = "Remote Desktop";
+"TCC_BUDDY_SERVICE_kTCCServiceAccessibility" = "Accessibility";
+"TCC_BUDDY_SERVICE_kTCCServiceScreenCapture" = "Screen Recording";
+"TCC_BUDDY_SERVICE_kTCCServiceListenEvent" = "Listen Event";
+"TCC_BUDDY_SERVICE_kTCCServiceAccessibility_DESCRIPTION" = "{'accessibility': {'one': 'App using Vision, Hearing, Mobility and Speech Accessibility features', 'other': 'Apps using Vision, Hearing, Mobility and Speech Accessibility features', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@accessibility@'}";
+"TCC_BUDDY_SERVICE_kTCCServiceRemoteDesktop_DESCRIPTION" = "{'remotedesktop': {'one': 'App that can access your screen remotely', 'other': 'Apps that can access your screen remotely', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@remotedesktop@'}";
+"TCC_BUDDY_SERVICE_kTCCServicePostEvent" = "Post Event";
+"TCC_BUDDY_SERVICE_kTCCServiceListenEvent_DESCRIPTION" = "{'listenevent': {'one': 'App that can access all your keyboard and mouse events', 'other': 'Apps that can access all your keyboard and mouse events', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@listenevent@'}";
+"TCC_BUDDY_SERVICE_kTCCServicePostEvent_DESCRIPTION" = "{'postevent': {'one': 'App that can post events like keyboard or mouse event', 'other': 'Apps that can post events like keyboard or mouse event', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@postevent@'}";
+"TCC_BUDDY_SERVICE_kTCCServiceSystemPolicyAllFiles" = "Full Disk Access";
+"TCC_BUDDY_SERVICE_kTCCServiceScreenCapture_DESCRIPTION" = "{'screencapture': {'one': 'App that can access and record the contents of your screen', 'other': 'Apps that can access and record the contents of your screen', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@screencapture@'}";
+"TCC_BUDDY_SERVICE_kTCCServiceSystemPolicyAllFiles_DESCRIPTION" = "{'allfiles': {'one': 'App that have access to full disk', 'other': 'Apps that have access to full disk', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@allfiles@'}";

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.backgroundtaskmanagement.agent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.LaunchServices.applicationRegistered</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.LaunchServices.applicationRegistered</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.backgroundtaskmanagement.notifications</key>
+		<true/>
+		<key>com.apple.backgroundtaskmanagementagent</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.BTMNotificationAgent</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Support/BackgroundTaskManagementAgent.app/Contents/MacOS/BackgroundTaskManagementAgent</string>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

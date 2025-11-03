@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.corekdld</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.corekdld.driver</key>
+			<dict>
+				<key>IOMatchAll</key>
+				<true/>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyExistsMatch</key>
+				<string>KDLUpdateRequest</string>
+				<key>IOProviderClass</key>
+				<string>CoreKDLDriver</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.MobileAsset.KextDenyList.ma.new-asset-installed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MobileAsset.KextDenyList.ma.new-asset-installed</string>
+			</dict>
+		</dict>
+		<key>com.apple.remoteservicediscovery.events</key>
+		<dict>
+			<key>com.apple.corekdld.bridge</key>
+			<dict>
+				<key>AvailableService</key>
+				<string>com.apple.CoreKDL.remoteXPC</string>
+				<key>DeviceType</key>
+				<string>bridge</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/CoreKDL.framework/Support/corekdld</string>
+</dict>
+</plist>

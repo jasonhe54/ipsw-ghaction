@@ -1,0 +1,60 @@
+"kBTUIServerMouseInformativeText" = "Would you like to use the Magic Mouse with this Mac?";
+"kBTUIServerTrackpadInformativeText" = "Would you like to use the Magic Trackpad with this Mac?";
+"kBTUIServerNumericComparisonTextField" = "To connect to the device, make sure the number below matches the number on that device.
+
+If the number matches, click Connect to complete the connection process.
+
+If the number doesn’t match, click Cancel.";
+"HID_CONFIRMATION_COUNTDOWN_NOTIFICATION_TEXT_SECONDS_PLURAL" = "seconds";
+"kBTUIServerInsecureHandlingInformativeText" = "%@ is trying to pair using an unsecured Bluetooth connection";
+"kBTUIServerTrackpadUSBInformativeText" = "Your trackpad is wirelessly connected to this Mac.";
+"kBTUIServerMouseUSBInformativeText" = "Your mouse is wirelessly connected to this Mac.";
+"kBTUIServerPasskeyFailedMessage" = "Connection to this device was unsuccessful. Try again and enter the correct passcode.";
+"kBTUIServerKeyboardUSBInformativeText" = "Your keyboard is wirelessly connected to this Mac.";
+"kBTUIServerPasskeyPairingRequestTextField" = "To connect to the device, click Connect to complete the connection process.
+
+To reject connection to the device, click Cancel.";
+"kBTUIServerInsecureHandlingOtherButtonTitle" = "Allow";
+"kBTUIServerAllowButton" = "Allow";
+"kBTUIServerTrackpadTitle" = "Magic Trackpad Found";
+"kUsersTrackpadKey" = "%@’s Trackpad";
+"HID_CONFIRMATION_NOTIFICATION_TEXT_FORMAT" = "Please click use in %@ %@ to continue using over Bluetooth.";
+"kBTUIServerUSBPairedWhileLoggedOffInformativeText" = "This device was wirelessly connected before you logged in. Forget it if you don't recognize it.";
+"kBTUIServerNumericComparisonFailedMessage" = "Connection to this device was unsuccessful. Try again and make sure the pass codes are the same on each device.";
+"kBTUIServerXboxXControllerFWInformativeText" = " This device needs a firmware update to resolve connectivity and performance issues.";
+"kUsersMouseKey" = "%@’s Mouse";
+"kFinishingDevicePairingKey" = "Finishing connection…";
+"kBTUIServerInsecureHandlingActionButtonTitle" = "Don’t Allow";
+"keyPairingRequest" = "Connection Request from:";
+"keyInsecureDeviceRequest" = "Unsecured Bluetooth Connection Request";
+"kUsersKeyboardKey" = "%@’s Keyboard";
+"kBTUIServerXboxXControllerFWButtonTitle" = "Learn More…";
+"kBTUIServerMouseTitle" = "Magic Mouse Found";
+"kBTUIServerInsecureDeviceTextField" = "%@ is trying to connect using an unsecured Bluetooth connection. Unsecured Bluetooth accessories can be used to control your computer or gain access to your data.";
+"kBTUIServerOtherButtonTitleIgnore" = "Ignore";
+"kBTUIServerPairButton" = "Connect";
+"kBTUIServerDenyButton" = "Don't Allow";
+"kBTUIServerOKButton" = "OK";
+"kBTUIServerInsecureHandlingTitle" = "Unsecured Bluetooth Pairing Request";
+"kBTUIServerKeyboardInformativeText" = "Would you like to use the Magic Keyboard with this Mac?";
+"kBTUIServerShowPasskey" = "To connect to the device, enter below passcode on remote Bluetooth device followed
+ by the Return key and then click Connect to complete the connection process.
+
+To reject connection to the device, click Cancel.";
+"kBTUIServerPasskeyKeyboardPairingTextField" = "Please type following passcode on the keyboard followed by the Return key:";
+"kBTUIServerXboxXControllerFWTitle" = "Xbox Wireless Controller";
+"kBTUIServerUSBPairedWhileLoggedOffActionButtonTitle" = "Forget";
+"kBTUIServerKeyboardTitle" = "Magic Keyboard Found";
+"HID_CONFIRMATION_COUNTDOWN_NOTIFICATION_TEXT_SECONDS_SINGULAR" = "second";
+"kBTUIServerXboxXControllerFWButtonURL" = "https://support.apple.com/HT211232";
+"kUsersDuplicateNameKey" = "%@ #%d";
+"kBTUIServerPasskeyPasscodeTextField" = "Please enter a passcode to use with this device.
+
+To complete connection to another Bluetooth device you need to enter a passcode. Passcodes are only used once, and they do not need to be remembered. The same passcode needs to be entered on both the computer and the remote Bluetooth device.";
+"kBTUIServerCancelButton" = "Cancel";
+"kBTUIServerJustWorksTextField" = "To connect to the device, click Connect to complete the connection process.
+
+To reject connection to the device, click Cancel.";
+"kFinalizeDevicePairingKey" = "Finalizing the device connection…";
+"kBTUIServerFailedTitle" = "Connection to this device was unsuccessful.";
+"kBTUIServerJustWorksFailedMessage" = "Connection to this device was unsuccessful. Wait a few minutes, then try again.";

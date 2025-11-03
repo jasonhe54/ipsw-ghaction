@@ -1,0 +1,79 @@
+"System Roots" = "System Roots";
+"Always trust \U201C%@\U201D when connecting to \U201C%@\U201D" = "Always trust “%1$@” when connecting to “%2$@”";
+"Create\U2026" = "Create…";
+"An error occurred when enabling syncing for keychain \U201C%1$@.\U201D" = "An error occurred when enabling syncing for keychain “%1$@.”";
+"When using this certificate:" = "When using this certificate:";
+"The data does not appear to be a valid certificate." = "The data does not appear to be a valid certificate.";
+"%1$@ Sync\U2026" = "%1$@ Sync…";
+"Action" = "Action";
+"%@, %@, %@" = "%1$@, %2$@, %3$@";
+"No keychains can be found. Please create a keychain." = "No keychains can be found. Please create a keychain.";
+"This certificate will be marked as trusted for all users of this computer. To change your decision later, open the certificate in Keychain Access and edit its Trust Settings." = "This certificate will be marked as trusted for all users of this computer. To change your decision later, open the certificate in Keychain Access and edit its Trust Settings.";
+"Synchronize this keychain using %1$@." = "Synchronize this keychain using %1$@.";
+"%1$@\U2019s Keychain" = "%1$@’s Keychain";
+"Directory Services" = "Directory Services";
+"Path" = "Path";
+"Hide Certificate" = "Hide Certificate";
+"Inherit Trust" = "Inherit Trust";
+"Use System Defaults" = "Use System Defaults";
+"\U2022 %@ issued this website's certificate" = "•	%@ issued this website's certificate";
+"Trust for this certificate could not be verified, or is explicitly not trusted. The operation will be denied." = "Trust for this certificate could not be verified, or is explicitly not trusted. The operation will be denied.";
+"Always trust these certificates" = "Always trust these certificates";
+"Please provide a name that is up to %1$@ characters." = "Please provide a name that is up to %1$@ characters.";
+"%@, %@" = "%1$@, %2$@";
+"X509Certificates" = "X509Certificates";
+"Always trust \U201C%@\U201D" = "Always trust “%@”";
+"Never Trust" = "Never Trust";
+"Always Trust" = "Always Trust";
+"<unknown identity name #%d>" = "<unknown identity name #%d>";
+"A failure occurred during certificate trust verification. One or more certificates are not valid." = "A failure occurred during certificate trust verification. One or more certificates are not valid.";
+"%@ has verified that:" = "%@ has verified that:";
+"Unable to display this certificate." = "Unable to display this certificate.";
+"no value specified" = "no value specified";
+"\U201C%1$@\U201D Keychain Settings" = "“%1$@” Keychain Settings";
+"iCloud" = "iCloud";
+"Do you want your computer to trust certificates signed by \U201C%@\U201D from now on?" = "Do you want your computer to trust certificates signed by “%@” from now on?";
+"Encryption with a digital certificate keeps information private as it's sent to or from %@." = "Encryption with a digital certificate keeps information private as it's sent to or from %@.";
+"login" = "login";
+"Deauthenticating\U2026" = "Deauthenticating…";
+"\U2022 %@ has identified %@ as being owned by %@ in %@" = "•	%1$@ has identified %2$@ as being owned by %3$@ in %4$@";
+"Ask Permission" = "Ask Permission";
+"Trust" = "Trust";
+"This keychain is not synchronizing with MobileMe." = "This keychain is not synchronizing with MobileMe.";
+"Trust for this certificate has not been established, and no user intent is known." = "Trust for this certificate has not been established, and no user intent is known.";
+"Show Certificate" = "Show Certificate";
+"A failure occurred during certificate trust verification. Please specify the trust settings for the certificates that need updating." = "A failure occurred during certificate trust verification. Please specify the trust settings for the certificates that need updating.";
+"\U2022 %@ is using an EU Qualified Web Authentication certificate" = "•	%@ is using an EU Qualified Web Authentication certificate";
+"Trust for this certificate has been verified, but requires user confirmation before proceeding." = "Trust for this certificate has been verified, but requires user confirmation before proceeding.";
+"Use Custom Settings" = "Use Custom Settings";
+"Don\U2019t Trust" = "Don’t Trust";
+"Details" = "Details";
+"Authenticating\U2026" = "Authenticating…";
+"Click the lock to prevent further changes." = "Click the lock to prevent further changes.";
+"Always trust this certificate" = "Always trust this certificate";
+"Local Items" = "Local Items";
+"This certificate will be marked as trusted for the current user only. To change your decision later, open the certificate in Keychain Access and edit its Trust Settings." = "This certificate will be marked as trusted for the current user only. To change your decision later, open the certificate in Keychain Access and edit its Trust Settings.";
+"Use System Policy" = "Use System Policy";
+"An error occurred. Unable to import \U201C%@\U201D.
+
+Error: %d" = "An error occurred. Unable to import “%1$@”.
+
+Error: %2$d";
+"New Keychain" = "New Keychain";
+"A system error occurred during trust verification." = "A system error occurred during trust verification.";
+"Trust for this certificate has been confirmed. The operation may proceed." = "Trust for this certificate has been confirmed. The operation may proceed.";
+"System" = "System";
+"An error occurred. Unable to import the certificate.
+
+Error: %d" = "An error occurred. Unable to import the certificate.
+
+Error: %d";
+"An internal error occurred during trust verification." = "An internal error occurred during trust verification.";
+"Messages from \U201C%@\U201D are valid if signed by \U201C%@\U201D" = "Messages from “%1$@” are valid if signed by “%2$@”";
+"Certificate Usage" = "Certificate Usage";
+"This keychain is synchronizing with MobileMe." = "This keychain is synchronizing with MobileMe.";
+"login (%@)" = "login (%@)";
+"Click the lock to make changes." = "Click the lock to make changes.";
+"Trust Policy" = "Trust Policy";
+"unknown" = "unknown";
+"Trust Policies" = "Trust Policies";

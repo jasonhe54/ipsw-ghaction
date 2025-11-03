@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>NSZombieEnabled</key>
+		<string>NO</string>
+		<key>com.apple.CoreData.CloudKitDebug</key>
+		<string>0</string>
+		<key>com.apple.CoreData.XPCDebug</key>
+		<string>0</string>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.voicememod</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.voicememod</key>
+		<true/>
+		<key>com.apple.voicememod.datastore.Cloud</key>
+		<true/>
+		<key>com.apple.voicememod.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/iOSSupport/System/Library/PrivateFrameworks/VoiceMemos.framework/Support/voicememod</string>
+</dict>
+</plist>

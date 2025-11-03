@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.mbuseragent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.mbuseragent.expressupdate</key>
+			<dict>
+				<key>AllowBattery</key>
+				<false/>
+				<key>GracePeriod</key>
+				<integer>86400</integer>
+				<key>Interval</key>
+				<real>604800</real>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mbuseragent</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/mbuseragent</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+</dict>
+</plist>

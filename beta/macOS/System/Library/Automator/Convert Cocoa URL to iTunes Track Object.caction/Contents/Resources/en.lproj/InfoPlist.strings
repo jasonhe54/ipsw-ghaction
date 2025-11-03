@@ -1,0 +1,14 @@
+"AMDSummary" = "(* AMDSummary text to explain what your action does goes here. *)";
+"AMDNote" = "(* AMDNote text goes here. (optional) *)";
+"AMDOptions" = "(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)";
+"ApplyButton" = "(* Button label for user to add proposed Action, e.g. Add. *)";
+"Message" = "(* Warning message presented to user goes here. *)";
+"AMDRequires" = "(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)";
+"IgnoreButton" = "(* Button label for user not to add proposed Action, e.g. Don't Add. *)";
+"AMDResult" = "(* AMDResult text to further explain the types provided as output goes here. (optional) *)";
+"AMDInput" = "(* AMDInput text to further explain the types accepted as input goes here. (optional) *)";
+"NSHumanReadableCopyright" = "Copyright 2007 Apple Inc.";
+"AMName" = "Convert Cocoa URL to Music Track Object";
+"AMDWebsite" = "(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)";
+"AMDAlert" = "(* AMDAlert text goes here. (optional) *)";
+"CFBundleName" = "Convert Cocoa URL to Music Track Object";

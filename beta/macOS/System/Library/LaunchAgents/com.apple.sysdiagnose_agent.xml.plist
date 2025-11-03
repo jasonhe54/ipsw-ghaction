@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.sysdiagnose_agent</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.sysdiagnose_agent</key>
+		<true/>
+	</dict>
+	<key>MultipleInstances</key>
+	<true/>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/sysdiagnose_helper</string>
+	</array>
+</dict>
+</plist>

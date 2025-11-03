@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Icon</key>
+	<string>PreferencesGeneralButton</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>MAC_PREF_AUTO_DOWNLOAD_TITLE</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Key</key>
+			<string>MTPodcastAutoDownloadStateDefaultKey</string>
+			<key>Title</key>
+			<string>MAC_PREF_ENABLE_WHEN_FOLLOWING</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>Playback</string>
+			<key>Title</key>
+			<string>Playback</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>Advanced</string>
+			<key>Title</key>
+			<string>Advanced</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>SystemSymbolIcon</key>
+	<string>gearshape</string>
+</dict>
+</plist>

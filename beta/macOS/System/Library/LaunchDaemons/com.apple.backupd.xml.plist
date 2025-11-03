@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.backup.launcher</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.backupd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.backupd</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.backupd-status</key>
+		<dict>
+			<key>HideUntilCheckin</key>
+			<true/>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.backupd.sandbox.xpc</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.backupd.session.xpc</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.backupd.status.xpc</key>
+		<dict>
+			<key>HideUntilCheckin</key>
+			<true/>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.backupd.xpc</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/CoreServices/TimeMachine/backupd</string>
+</dict>
+</plist>

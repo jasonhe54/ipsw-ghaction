@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>languages</key>
+	<dict>
+		<key>ja</key>
+		<array>
+			<string>jyom</string>
+		</array>
+		<key>ko</key>
+		<array>
+			<string>krpi</string>
+		</array>
+		<key>zh-Hans</key>
+		<array>
+			<string>spin</string>
+			<string>cbai</string>
+			<string>swbx</string>
+			<string>swbh</string>
+		</array>
+		<key>zh-Hant</key>
+		<array>
+			<string>tcan</string>
+			<string>tpin</string>
+			<string>tday</string>
+			<string>tzhu</string>
+		</array>
+	</dict>
+	<key>tags</key>
+	<dict>
+		<key>cbai</key>
+		<string>zh-Hans</string>
+		<key>jyom</key>
+		<string>ja</string>
+		<key>krpi</key>
+		<string>ko</string>
+		<key>sbix</key>
+		<string>zh-Hans</string>
+		<key>spin</key>
+		<string>zh-Hans</string>
+		<key>swbh</key>
+		<string>zh-Hans</string>
+		<key>swbx</key>
+		<string>zh-Hans</string>
+		<key>tcan</key>
+		<string>zh-Hant</string>
+		<key>tday</key>
+		<string>zh-Hant</string>
+		<key>tpin</key>
+		<string>zh-Hant</string>
+		<key>tzhu</key>
+		<string>zh-Hant</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.fairplayd</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>fairplayd</string>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>DYLD_PAGEIN_LINKING</key>
+		<string>0</string>
+	</dict>
+	<key>GroupName</key>
+	<string>_fpsd</string>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.fairplayd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.arcade.fpsd</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>31</integer>
+		</dict>
+		<key>com.apple.fairplayd</key>
+		<true/>
+		<key>com.apple.fairplayd.xpc</key>
+		<true/>
+		<key>com.apple.fpsd</key>
+		<true/>
+		<key>com.apple.fpsd.sim</key>
+		<true/>
+		<key>com.apple.unfreed</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/fairplayd</string>
+	<key>UserName</key>
+	<string>_fpsd</string>
+</dict>
+</plist>

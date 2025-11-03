@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>0</string>
+	</dict>
+	<key>spprefpane_bundlePath</key>
+	<dict>
+		<key>_order</key>
+		<string>6</string>
+	</dict>
+	<key>spprefpane_identifier</key>
+	<dict>
+		<key>_order</key>
+		<string>5</string>
+	</dict>
+	<key>spprefpane_info</key>
+	<dict>
+		<key>_order</key>
+		<string>7</string>
+	</dict>
+	<key>spprefpane_isEnabled</key>
+	<dict>
+		<key>_order</key>
+		<string>3</string>
+	</dict>
+	<key>spprefpane_isVisible</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>4</string>
+	</dict>
+	<key>spprefpane_kind</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<integer>8</integer>
+	</dict>
+	<key>spprefpane_support</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>2</string>
+	</dict>
+	<key>spprefpane_version</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>1</string>
+		<key>_suppressLocalization</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

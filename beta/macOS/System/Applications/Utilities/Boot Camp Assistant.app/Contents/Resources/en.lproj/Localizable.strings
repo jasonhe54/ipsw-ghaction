@@ -1,0 +1,175 @@
+"STATUS_SAVE_BOOTCAMP" = "Saving Windows support software…";
+"TITLE_SINGLE_DISK_PARTITION_WIN10_ONLY" = "Install Windows 10 or later version";
+"ERROR_TITLE_BOOTCAMP_INSTALLATION" = "Boot Camp installation failed.";
+"ERROR_MESSAGE_CREATE_USB_DRIVE_NO_SPACE" = "There is not enough space available on the disk.";
+"MULTIDISKSELECT_UNINSTALL_STRING" = "Uninstall Boot Camp";
+"DISK_NONE" = "No disk selected.";
+"STATUS_FORMAT_DRIVE" = "Formatting selected drive…";
+"ALERT_MESSAGE_SAVE_DOWNLOAD" = "Install this Windows support software after installing Windows.";
+"ERROR_MESSAGE_INSTALL_64BIT_WINDOWS10_OR_LATER" = "Boot Camp only supports 64-bit Windows 10 or later installation on this platform. Please use an ISO file for 64-bit Windows 10 or later installation.";
+"ERROR_TITLE_SYSTEM_DOES_NOT_SUPPORT_WINDOWS_SERVER" = "Windows Server is unsupported on this Mac.";
+"ERROR_TITLE_CANNOT_READ_DISK" = "Unable to read the Windows partition";
+"DISK_SPLIT_APFS" = "This disk has an APFS container and can be split to install Windows along side it.";
+"ERROR_TITLE_DOWNLOAD_INTERNAL" = "[Apple Internal]
+Fixing download problems";
+"ERROR_MESSAGE_USER_AUTH_UNINSTALL_REQUIRED" = "Boot Camp Assistant requires elevated user permission to uninstall Boot Camp.";
+"INSTALL_HERE" = "BOOTCAMP";
+"MESSAGE_SNAPSHOT_PURGE_TIME" = "Removing snapshots may take a few minutes. Please do not close Boot Camp Assistant until the operation completes.";
+"APFS_WINDOWS_SIZE" = "%@ GB";
+"BCA_REVERT_TO_SINGLE_APFS_DISK_MESSAGE" = "Click Restore to format the entire disk, “%@”, and create a single APFS Container.";
+"ALERT_MESSAGE_ERASE" = "The selected drive will be erased and all the data on it will be lost. Do you want to continue?";
+"MAC_PARTITION_DESCRIPTION_FREE" = "Mac partition, %@ GB, %@ GB free";
+"ERROR_MESSAGE_SYSTEM_UNSUITABLE" = "This Mac does not support Boot Camp.";
+"STATUS_FINAL" = "Finalizing installation…";
+"DOWNLOAD_TIME" = "{'minutes': {'one': 'Estimated download time: 1 minute remaining', 'zero': '', 'other': 'Estimated download time: %d minutes remaining', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"ERROR_TITLE_NEED_WINDOWS_ISO_FILES" = "Windows 10 installation files not detected";
+"ERROR_MESSAGE_CANNOT_READ_DISK" = "Boot Camp Assistant was unable to verify if the Windows partition contains a Windows installation. This may be because BitLocker is enabled on the partition. If so, disable BitLocker on the disk before removing Boot Camp.";
+"VOLUME_SEPARATOR" = ", ";
+"ERROR_MESSAGE_FORMAT_FAILED" = "An error occurred while formatting the disk.";
+"ERROR_MESSAGE_USB_DRIVE_ATTACH" = "Please remove any external storage device attached to this system before continuing.";
+"ALERT_TITLE_CREATE_USB_DRIVE" = "Your bootable USB drive has been created.";
+"ERROR_TITLE_DRIVE_UNSUITABLE_SPACE" = "The startup disk does not have enough space to be partitioned.";
+"ERROR_TITLE_ISO_TO_BIG" = "The Windows ISO file is too large.";
+"ERROR_MESSAGE_DOWNLOAD_INTERNAL" = "Ensure macOS is using the Production Catalog. Open CatalogInspector, select the latest macOS Production catalog, for instance, “macOS 11 Production Server”, copy the URL that appears, and run the following command in a terminal:
+
+sudo softwareupdate_internal -C CATALOG_URL_YOU_COPIED
+
+Then close and relaunch the app.";
+"ERROR_MESSAGE_FAILED_TO_MOUNT_ISO" = "Boot Camp Assistant was unable to mount the Windows ISO file.";
+"ERROR_MESSAGE_VOLUME_REMOVAL_FAILED" = "An error occurred while removing the Boot Camp partition. Please run First Aid from within Disk Utility to check and fix the error.";
+"MAC_PARTITION_DESCRIPTION" = "Mac partition, %@ GB";
+"ERROR_TITLE_ISO_MISSING" = "Could not find the selected ISO file.";
+"ERROR_TITLE_USB_DRIVE_NOT_SUPPORTED" = "The USB drive cannot be used.";
+"BOOTCAMP_DOWNLOAD" = "Windows Support Software";
+"DISK_UNPARTITIONED" = "This disk does not have an APFS container and must be formatted to be used for installing Windows.";
+"ERROR_MESSAGE_DRIVE_HAS_ENOUGH_SPACE_BUT_NOT_FOR_PARTITIONING" = "Your disk can only create a %@ GB partition. The Boot Camp partition requires at least %@ GB.";
+"TITLE_FORMAT_SELECTED_DISK_PAGE" = "Install Windows to Selected Disk";
+"ERROR_MESSAGE_USB_NOT_MOUNTED" = "The USB drive is not mounted.";
+"ERROR_MESSAGE_USB_TOO_LARGE" = "The USB drive is too large to be formatted. The largest supported size is %@ TB.";
+"ERROR_TITLE_ISO_PROBLEM" = "The Windows 10 ISO is not recognized.";
+"MESSAGE_DOWNLOAD_BOOTCAMP_WIIN10_ONLY" = "The support software, designed specifically for each Mac, is required to fully support Windows and includes Boot Camp drivers that let you use your Apple keyboard, mouse, trackpad, and built-in camera. If you create a Windows 10 or later version install disk from a USB flash drive, the support software is copied to it. Otherwise, you need an external drive formatted as MS-DOS (FAT).";
+"ERROR_TITLE_RESTART" = "Restart system.";
+"ERROR_MESSAGE_FAILED_TO_MOUNT_DMG" = "Boot Camp Assistant was unable to mount the Windows support software image.";
+"ALERT_TITLE_ERASE" = "The drive will be erased.";
+"REVERT_DRIVE_NAME" = "Storage";
+"MULTIDISKSELECT_UNINSTALLRESTORE_STRING" = "Uninstall Boot Camp and restore the disk to a single
+ APFS container";
+"ERROR_LEARN_MORE" = "Learn more";
+"ERROR_MESSAGE_FINALIZE_ERROR" = "An error occurred while finalizing the installation.";
+"ERROR_MESSAGE_RESTART_FDE_DISABLED" = "The system needs to be restarted once after FileVault has been turned off.";
+"ERROR_MESSAGE_ISO_PROBLEM" = "There was a problem reading the Windows 10 ISO file. Please use a different ISO.";
+"ALERT_MESSAGE_SECUREBOOT" = "Your Mac’s Boot Policy is currently not set to Full or Medium Security. If you install Boot Camp now and later change your Boot Policy to Full or Medium Security, you will no longer be able to boot into Windows.
+Click “Learn more” for information on changing your Boot Policy.
+";
+"ERROR_TITLE_DRIVE_FDE_IN_PROGRESS" = "Boot Camp can’t be set up at this time";
+"ALERT_TITLE_STOP" = "The task has been canceled";
+"ALERT_TITLE_SECUREBOOT" = "Secure Boot is not enabled";
+"DISK_PARTITIONED_STARTUP" = "This disk is your macOS startup disk and has a Windows partition.";
+"ERROR_MESSAGE_NEED_64BIT_WINDOWS10" = "Boot Camp only supports 64-bit Windows 10 installation. Please use a USB drive which contains 64-bit Windows 10.";
+"BUTTON_CANCEL" = "Cancel";
+"BCA_RESTORE_DISK_MESSAGE" = "Click Restore to remove the Windows partition and restore the space used back to macOS.
+Boot Camp Assistant will return %@ GB back to APFS Container “%@”.";
+"MAC_NAME" = "macOS";
+"ERROR_MESSAGE_UNPARTITION_FAILED" = "An error occurred while resizing the APFS Container. Please run First Aid from within Disk Utility to check and fix the error.";
+"STATUS_RESTORING" = "Status: Restoring disk…";
+"DISK_UNRECOGNIZED" = "This disk appears to have been partitioned by another utility. It must be erased before installing Windows.";
+"ERROR_MESSAGE_CORE_STORAGE_UNSUPPORTED" = "Core Storage formatted disks are not supported by Boot Camp Assistant";
+"ALERT_MESSAGE_CREATE_USB_DRIVE" = "The selected drive has been formatted and the Windows installation image has been copied.";
+"PLACE_HOLDER_ISO_STRING" = "Choose a Windows 10 ISO file…";
+"ERROR_TITLE_NEED_64BIT_WINDOWS10_OR_LATER" = "Need 64-bit Windows 10 or later ISO file.";
+"ALERT_TITLE_CANNOT_QUIT" = "Boot Camp Assistant cannot quit.";
+"ERROR_MESSAGE_DRIVE_UNSUITABLE_SPACE" = "You must have at least %@ GB of free space available.";
+"APFS_MESSAGE_VOLUME" = "APFS Container “%@” will be partitioned as:";
+"ERROR_TITLE_UNPARTITION_FAILED" = "Your disk could not be restored";
+"CAPACITY_GB_FREE" = "
+ %@ GB free";
+"CAPACITY_GB" = "
+ %@ GB";
+"ERROR_MESSAGE_EXTERNAL_BOOT" = "Your security settings prevent booting from external or removable media.
+To continue installing Boot Camp to your selected drive, start up your Mac from the Recovery mode (holding down the Command key and the R key until you see the Apple logo), click on Utilities from the top menu bar, select Startup Security Utility, then select the option “Allow booting from external media or removable media”.";
+"ERROR_MESSAGE_SPLIT_FUSION" = "Boot Camp cannot be installed to a split Fusion drive. In order to install Boot Camp please restore your drives to Fusion.";
+"ERROR_TITLE_NEED_64BIT_WINDOWS10" = "Need 64-bit Windows 10 installation USB drive";
+"ALERT_MESSAGE_STOP" = "The task has been canceled because you clicked the Stop button.";
+"ALERT_TITLE_DISKS_LOCKED" = "Locked APFS volumes detected.";
+"OTHER_PARTITION_DESCRIPTION" = "Windows partition, %@ GB";
+"ERROR_TITLE_NO_USB_DRIVE" = "No USB Drive.";
+"ERROR_MESSAGE_BLOCK_ON_19H1" = "This Mac does not support installing Windows 10 May 2019 Update. Please use a different Windows 10 ISO.";
+"ALERT_TITLE_SAVE_DOWNLOAD" = "The Windows support software has been saved.";
+"ERROR_MESSAGE_USER_AUTH_FORMAT_REQUIRED" = "Boot Camp Assistant requires elevated user permission to format your disk.";
+"ERROR_TITLE_NEED_RS5_OR_LATER" = "Unsupported version of Windows 10";
+"DISK_NO_SPACE" = "This disk does not have enough free space to be partitioned.";
+"ERROR_MESSAGE_DRIVE_UNSUITABLE_RAID" = "RAID is not supported.";
+"BUTTON_CONTINUE" = "Continue";
+"BUTTON_CONTINUE_ANYWAY" = "Continue Anyway";
+"TITLE_CREATE_USB_DRIVE_PAGE" = "Create Bootable USB Drive for Windows Installation";
+"TITLE_SINGLE_DISK_UNPARTITION_WIN10_ONLY" = "Remove Windows 10 or later version";
+"ERROR_TITLE_NEED_ESD" = "Windows support software not detected";
+"CONTAINER_NAME" = "macOS Container";
+"ERROR_MESSAGE_NEED_ESD" = "Boot Camp Assistant did not detect the presence of Windows support software. The support software is required to install Windows. Insert a USB drive containing the support software or select the option “Download the latest Windows support software from Apple” to download the required files to the USB drive.";
+"ERROR_MESSAGE_APFS_VOLUME_LOCKED" = "The disk you selected to remove Boot Camp is locked.";
+"ALERT_MESSAGE_DISKS_LOCKED" = "There are locked APFS volumes for the selected disk, “%@”. Please unlock these volumes before attempting to install Boot Camp to the selected disk.";
+"TITLE_CREATE_USB_DRIVE_WIN10_ONLY" = "Create a Windows 10 or later install disk";
+"ERROR_MESSAGE_USB_DRIVE_NOT_ENOUGH_SPACE" = "The drive doesn’t have enough free space. It needs to have at least %d GB free space available.";
+"DISK_WINDOWS_ONLY" = "This disk has a Windows partition.";
+"ERROR_TITLE_USB_DRIVE_ATTACHED" = "External storage device attached.";
+"ERROR_MESSAGE_NEED_RS5_OR_LATER" = "This system only supports Windows 10 October 2018 Update or later.";
+"ERROR_TITLE_DRIVE_UNSUITABLE_SPACE_KINDER" = "The disk does not have enough space to be successfully partitioned.";
+"ERROR_MESSAGE_SYSTEM_DOES_NOT_SUPPORT_WINDOWS_SERVER" = "This Mac does not support Windows Server. Please use the consumer version of Windows 10";
+"DISK_UNRECOGNIZED_NOERASE" = "This disk appears to have been partitioned by another utility and cannot be erased.";
+"TITLE_MULTIPLE_DISK_PARTITION_WIN10_ONLY" = "Install or remove Windows 10 or later version";
+"STATUS_SNAPSHOTS_CLEANUP" = "Removing old Time Machine Snapshots…";
+"BUTTON_NO" = "No";
+"ERROR_MESSAGE_USB_DRIVE_NOT_SUPPORTED" = "Please format the USB drive as single MS-DOS (FAT) partition with Master Boot Record scheme.";
+"ERROR_MESSAGE_GENERIC_ERROR" = "An internal error has occurred.";
+"ERROR_MESSAGE_ISO_TO_BIG" = "Boot Camp Assistant creates a 10 GB installer partition which will contain the files present on the Windows 10 ISO as well as the Boot Camp Support software. The supplied ISO is too large to fit on this installer partition.";
+"ERROR_MESSAGE_CREATE_USB_DRIVE_COPY_ERROR" = "An error occurred while copying the Windows installation files.";
+"ERROR_MESSAGE_DOWNLOAD" = "An error occurred while downloading Windows support software.";
+"DISK_PARTITIONED" = "This disk has a macOS partition and a Windows partition.";
+"DISK_UNPARTITIONED_STARTUP" = "This disk is your macOS startup disk.";
+"STATUS_VERIFY_ISO" = "Mounting and verifying the Windows 10 ISO…";
+"ALERT_MESSAGE_COMPLETED" = "The selected operations finished successfully.";
+"INTRODUCTION" = "Boot Camp Assistant helps install Microsoft Windows on an Intel-based Mac by downloading the necessary support software, creating a partition on your disk for Windows, and then starting the Windows installer. Refer to the Boot Camp Installation & Setup Guide to finish installing Windows and the support software you downloaded. 
+
+IMPORTANT:  Back up your disk before partitioning it or installing Windows. If you have a portable computer, make sure the power adapter is connected.";
+"ERROR_MESSAGE_NEED_WINDOWS_ISO_FILES" = "Boot Camp Assistant did not detect the presence of Windows 10 installation files on the USB drive. Create a Windows 10 bootable USB drive and download the Windows support software by selecting the options “Create a Windows 10 or later install disk” and “Download the latest Windows support software from Apple”.";
+"INSTALL_TIME" = "{'minutes': {'one': 'Estimated installation time: 1 minute remaining', 'zero': '', 'other': 'Estimated installation time: %d minutes remaining', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"OTHER_NAME" = "Windows";
+"STATUS_COPY_WINDOWS_FILES" = "Copying Windows files…";
+"ALERT_TITLE_COMPLETED" = "The tasks have been completed";
+"INSTALL_WINDOWS_REMOVE_MONITORS" = "To install Windows, please choose the Windows ISO file, select the partition size, then click Install.
+
+Please disconnect any external monitors attached to your MacBook.
+Your Mac will reboot automatically once the installation has completed.";
+"BOOT_CAMP_BUILD_VERSION" = "Boot Camp Windows support software version %@";
+"ERROR_TITLE_DRIVE_UNSUITABLE_PARTITIONING" = "The disk cannot be partitioned or restored to a single partition.";
+"ERROR_MESSAGE_ISO_MISSING" = "Please ensure the ISO file selected is present on your Mac";
+"ERROR_MESSAGE_NO_USB_DRIVE" = "There is no USB drive connected to the system. Please connect a USB drive to continue.";
+"ERROR_TITLE_DOWNLOAD" = "Download could not continue.";
+"ERROR_TITLE_BLOCK_ON_19H1" = "Unsupported version of Windows 10";
+"STATUS_PARTITIONING" = "Status: Partitioning disk…";
+"SLIDER_PARTITION_DESCRIPTION" = "Move the slider to adjust the Boot Camp partition size.";
+"ERROR_MESSAGE_DOWNLOAD_UPDATE_IN_PROGRESS" = "An existing software update is currently in progress. Please try installing Boot Camp later once all other software updates have completed.";
+"BCA_GENERIC_RESTORE_DISK_MESSAGE" = "Click Restore to remove the Windows partition and restore the space used back to APFS Container “%@”.";
+"ERROR_TITLE_GENERIC_ERROR" = "Boot Camp Assistant has encountered a problem";
+"MESSAGE_FORMAT_SELECTED_DISK_WIN10_ONLY" = "To install Windows, please choose the Windows ISO file, verify that the selected disk is where you want to install Windows to, then click Continue button.";
+"MESSAGE_CREATE_USB_DRIVE_WIN10_ONLY" = "You need a USB flash drive and a Windows 10 or later version ISO image downloaded from Microsoft.";
+"MESSAGE_CREATE_USB_DRIVE_PAGE_WIIN10_ONLY" = "To create a bootable USB drive for Windows 10 or later version installation, select the Windows ISO image, select a destination USB drive, and then click Continue.";
+"MULTIDISKSELECT_RESTORE_STRING" = "Restore disk to a single macOS APFS Container";
+"ERROR_TITLE_EXTERNAL_BOOT" = "Booting from external or removable media is not enabled.";
+"ERROR_MESSAGE_PARTITION_FAILED" = "An error occurred while partitioning the disk. Please run First Aid from within Disk Utility to check and fix the error.";
+"STATUS_PARTITION_DISK" = "Partitioning disk…";
+"MESSAGE_VOLUME" = "“%@” will be partitioned as:";
+"ALERT_MESSAGE_DISK_OPERATION_IN_PROGESS" = "The disk operation is in progress. Please wait until it completes.";
+"STATUS_PARTITIONING_SUBSTATUS" = "Your Mac will stop responding while resizing the startup volume; this may last for several minutes or hours. Please do not quit Boot Camp Assistant, power off the computer, or restart until the operation is complete.";
+"STATUS_DOWNLOAD_BOOTCAMP" = "Downloading Windows support software…";
+"DISK_UNRECOGNIZED_STARTUP" = "This disk is your macOS startup disk and appears to have been partitioned by another utility.";
+"BUTTON_QUIT" = "Quit";
+"STATUS_ICLOUD_CACHE_CLEANUP" = "Removing cached iCloud files to make space for Boot Camp…";
+"ERROR_TITLE_SYSTEM_UNSUITABLE" = "Boot Camp Assistant cannot be used.";
+"ERROR_TITLE_USER_AUTH_UNINSTALL_REQUIRED" = "Authentication Required.";
+"BUTTON_YES" = "Yes";
+"ERROR_TITLE_CREATE_USB_DRIVE" = "Your bootable USB drive could not be created.";
+"ERROR_MESSAGE_DRIVE_FDE_IN_PROGRESS" = "Boot Camp can’t be set up while FileVault is encrypting or decrypting your Mac. Please try again after FileVault has completed. You can view FileVault encryption progress in the Security & Privacy preference pane in System Settings.";
+"BUTTON_OKAY" = "OK";
+"ERROR_TITLE_DRIVE_UNSUITABLE" = "Boot Camp Assistant cannot be used.";
+"ERROR_TITLE_PARTITION_FAILED" = "Your disk could not be partitioned";

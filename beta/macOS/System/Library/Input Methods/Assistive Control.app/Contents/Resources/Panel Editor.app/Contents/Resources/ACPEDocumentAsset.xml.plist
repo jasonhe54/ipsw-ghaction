@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Image</key>
+	<dict>
+		<key>Switch</key>
+		<array>
+			<string>IconMaskDock</string>
+			<string>IconMaskElementWindowNavigation</string>
+			<string>IconMaskKeyboard</string>
+			<string>IconMaskLeftClick</string>
+			<string>IconMaskLeftClickHold</string>
+			<string>IconMaskLeftDoubleClick</string>
+			<string>IconMaskListOfPanels</string>
+			<string>IconMaskMenuBar</string>
+			<string>IconMaskCenter</string>
+			<string>IconMaskRightClick</string>
+			<string>IconMaskSystemControl</string>
+		</array>
+		<key>VirtualKeyboard</key>
+		<array>
+			<string>DoubleClick</string>
+			<string>DragDrop</string>
+			<string>IconMaskCenter</string>
+			<string>IconMaskKeyboard</string>
+			<string>IconMaskListOfPanels</string>
+			<string>IconMaskPause</string>
+			<string>IconMaskSystemControl</string>
+			<string>LeftClick</string>
+			<string>OptionsMenu</string>
+			<string>RightClick</string>
+			<string>ScrollMenu</string>
+		</array>
+	</dict>
+</dict>
+</plist>

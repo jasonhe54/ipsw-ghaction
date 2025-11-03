@@ -1,0 +1,8 @@
+"UnreadableDatabaseExplanation%1$@" = "The index file is located in %1$@. If this file is on your computer, use the Get Info window in the Finder to change your permissions for this file to “Read & Write.” If this file is located on a network server, contact the server administrator. After your permissions are changed, open Mail again.";
+"NotFolderExplanation%1$@" = "Mail stores information in %1$@. If the folder is on a network server, contact your network administrator. Otherwise, ensure the folder exists in the correct location on your computer before reopening Mail.";
+"ReadOnlyDatabaseExplanation%1$@" = "The index file is located in %1$@. If this file is on your computer, use the Get Info window in the Finder to change your permissions for this file to “Read & Write.” If this file is located on a network server, contact the server administrator. After your permissions are changed, open Mail again.";
+"ReadOnlyFolder" = "Mail can’t open because you don’t have the necessary permissions to change the folder where it saves information.";
+"NotFolder" = "Mail can’t continue because the folder where it stores information is unavailable. Please make sure the ~/Library/Mail folder exists.";
+"ReadOnlyFolderExplanation%1$@" = "Mail stores information in %1$@. If this folder is on your computer, use the Get Info window in the Finder to change your permissions for this folder to “Read & Write.” If this folder is located on a network server, contact the server administrator. After your permissions are changed, open Mail again.";
+"UnreadableDatabase" = "Mail can’t open because its index can’t be read.";
+"ReadOnlyDatabase" = "Mail can’t open because its index is read-only.";

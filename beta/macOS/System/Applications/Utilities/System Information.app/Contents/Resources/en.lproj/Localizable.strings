@@ -1,0 +1,11 @@
+"SENDING_REPORT" = "Sending System Report to Apple";
+"PREPARING_REPORT" = "Preparing System Report…";
+"UPLOAD_CONSENT" = "By clicking Send to Apple, you agree that Apple and its affiliates may collect and use the information contained in the system report as part of its support services, to improve products and to offer you additional products and services in accordance with the Apple Customer Privacy Policy, which is available at: https://www.apple.com/legal/privacy";
+"UPLOAD_PROBLEM" = "There was a problem connecting to Apple. Please check your network settings and try again.";
+"PCI_CARD_SLOTS" = "{'pci_slots': {'one': '1 PCI Card Slot', 'other': '%d PCI Card Slots', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@pci_slots@'}";
+"SHOW_LESS" = "Show Less Information";
+"UPLOAD_COMPLETE" = "Your report was received by Apple.";
+"OK" = "OK";
+"SHOW_MORE" = "Show More Information";
+"THANK_YOU" = "Thank you!";
+"UPLOAD_FAILED" = "Your report couldn’t be sent.";

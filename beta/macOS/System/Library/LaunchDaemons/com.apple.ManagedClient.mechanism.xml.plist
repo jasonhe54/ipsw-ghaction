@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.ManagedClient.mechanism</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ManagedClient.mechanism</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/ManagedClient.app/Contents/MacOS/ManagedClient</string>
+		<string>-x</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

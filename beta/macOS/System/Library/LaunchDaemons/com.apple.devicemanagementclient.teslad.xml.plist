@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.devicemanagementclient.teslad</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.managedconfiguration.teslad.deppush-prod</key>
+		<string>YES</string>
+		<key>com.apple.managedconfiguration.teslad</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/teslad</string>
+	<key>RunAtLoad</key>
+	<false/>
+</dict>
+</plist>

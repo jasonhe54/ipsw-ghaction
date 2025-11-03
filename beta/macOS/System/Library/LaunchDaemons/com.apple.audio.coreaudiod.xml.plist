@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>_coreaudiod</string>
+	<key>Label</key>
+	<string>com.apple.audio.coreaudiod</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.BTAudioHALPluginAccessories</key>
+		<true/>
+		<key>com.apple.audio.audiohald</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.audio.coreaudiod</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+		<key>com.apple.audio.driver-registrar</key>
+		<true/>
+		<key>com.apple.coremedia.systemcontroller.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/sbin/coreaudiod</string>
+	</array>
+	<key>UserName</key>
+	<string>_coreaudiod</string>
+</dict>
+</plist>

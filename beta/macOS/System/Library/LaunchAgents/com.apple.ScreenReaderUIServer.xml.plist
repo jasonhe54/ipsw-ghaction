@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.ScreenReaderUIServer</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+		<string>LoginWindow</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.ScreenReaderUIServer</key>
+		<dict>
+			<key>ResetAtClose</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/ScreenReader.framework/Resources/ScreenReaderUIServer.app/Contents/MacOS/ScreenReaderUIServer</string>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

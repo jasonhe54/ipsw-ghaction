@@ -1,0 +1,8 @@
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Font', 'other': 'Fonts (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Font', 'other': '%lu Fonts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_Font_Type_OpenType" = "Open Type";
+"str_Font_Type_TrueType" = "TrueType";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"error_Font_FontDataCorrupt" = "Unable to parse font data in payload: %@";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Font', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_Font_FontName" = "Font";

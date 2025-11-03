@@ -1,0 +1,8 @@
+"AMDResult" = "Output can be the input passed through, or can be the workflow's output (wait for the workflow to finish)";
+"Automator" = "Automator";
+"AMName" = "Run Workflow";
+"AMDSummary" = "This action runs another workflow document.  ";
+"Utility" = "Utility";
+"CFBundleName" = "Execute Workflow";
+"NSHumanReadableCopyright" = "Copyright © 2004–2012 Apple Inc.  All rights reserved.";
+"AMDOptions" = "Input can be processed all at once (workflow is run once), sequentially one at a time (workflow is run as many times as there are items in input), or in parallel one at a time (workflow is run as many times as there are items in input, in parallel)";

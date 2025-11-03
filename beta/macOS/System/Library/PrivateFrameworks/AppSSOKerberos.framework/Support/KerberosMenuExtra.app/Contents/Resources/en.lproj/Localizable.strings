@@ -1,0 +1,11 @@
+"PASSWORD_HAS_EXPIRED" = "Password has expired";
+"NO_CREDENTIAL" = "No credential available";
+"SIGNED_IN_AS_FORMAT" = "Signed in as %@";
+"PASSWORD_DOESNT_EXPIRE" = "Password doesn't expire";
+"NOT_SIGNED_IN" = "Not signed in";
+"NETWORK_AVAILABLE" = "Network available";
+"PASSWORD_NOT_AVAILABLE" = "Password expiration not available";
+"NETWORK_NOT_AVAILABLE" = "Network not available";
+"PASSWORD_EXPIRES_TODAY" = "Password expires today";
+"NETWORK_CREDENTIAL_AVAILABLE" = "Network and credential available";
+"TOOLTIP_PASSWORD_EXPIRES_IN_DAYS_SINGLE_LINE_FORMAT" = "{'days': {'one': 'Password expires in %d day', 'other': 'Password expires in %d days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@days@'}";

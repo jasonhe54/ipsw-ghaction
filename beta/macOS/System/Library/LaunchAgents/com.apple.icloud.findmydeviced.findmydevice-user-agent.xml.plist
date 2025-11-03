@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.icloud.findmydeviced.findmydevice-user-agent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.icloud.findmydeviced.fetch_additional_info</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.icloud.findmydeviced.fetch_additional_info</string>
+			</dict>
+			<key>com.apple.icloud.findmydeviced.fetch_guid</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.icloud.findmydeviced.fetch_guid</string>
+			</dict>
+			<key>com.apple.icloud.findmydeviced.fetch_spstats</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.icloud.findmydeviced.fetch_spstats</string>
+			</dict>
+			<key>com.apple.icloud.findmydeviced.update_auth</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.icloud.findmydeviced.update_auth</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.icloud.findmydeviced.findmydevice-user-agent</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/findmydevice-user-agent</string>
+	<key>Umask</key>
+	<integer>23</integer>
+</dict>
+</plist>

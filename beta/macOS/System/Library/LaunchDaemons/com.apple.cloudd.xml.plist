@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cloudd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cloudasset.cloudd.system</key>
+		<true/>
+		<key>com.apple.cloudd.system</key>
+		<true/>
+		<key>com.apple.cloudd.system.cache-delete</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd</string>
+		<string>--system</string>
+	</array>
+</dict>
+</plist>

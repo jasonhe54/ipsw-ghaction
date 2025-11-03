@@ -1,0 +1,4 @@
+"PHLivePhotoBadgeLabel" = "LIVE";
+"PHPhotosErrorProtocolMismatch" = "Principal object %1$@ of extension does not conform to protocol %2$@.";
+"PHPhotosErrorExtensionUnauthorized" = "The user has denied authorization for this extension to access the Photo Library.";
+"PHPhotosErrorClassMismatch" = "Principal object %@ of extension is not subclass of NSViewController.";

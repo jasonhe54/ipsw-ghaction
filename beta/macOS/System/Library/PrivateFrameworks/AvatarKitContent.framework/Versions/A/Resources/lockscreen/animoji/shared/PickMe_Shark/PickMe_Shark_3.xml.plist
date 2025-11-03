@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bakedAnimationBlendFactor</key>
+	<real>0.0</real>
+	<key>browInnerUp</key>
+	<real>0.67164299999999999</real>
+	<key>browOuterUp_L</key>
+	<real>1</real>
+	<key>browOuterUp_R</key>
+	<real>0.49985599999999997</real>
+	<key>cheekSquint_R</key>
+	<real>0.21798799999999999</real>
+	<key>eyeLookIn_L</key>
+	<real>0.002372</real>
+	<key>eyeLookOut_R</key>
+	<real>0.002372</real>
+	<key>eyeLookUp_L</key>
+	<real>0.102271</real>
+	<key>eyeLookUp_R</key>
+	<real>0.102271</real>
+	<key>eyeSquint_L</key>
+	<real>0.054496999999999997</real>
+	<key>eyeSquint_R</key>
+	<real>0.25895099999999999</real>
+	<key>eyeWide_L</key>
+	<real>0.79976999999999998</real>
+	<key>eyeWide_R</key>
+	<real>0.59982800000000014</real>
+	<key>jawLeft</key>
+	<real>0.04998600000000001</real>
+	<key>jawOpen</key>
+	<real>0.34989900000000002</real>
+	<key>mouthLeft</key>
+	<real>0.10899399999999999</real>
+	<key>mouthPress_L</key>
+	<real>1</real>
+	<key>mouthPress_R</key>
+	<real>0.70008599999999999</real>
+	<key>mouthSmile_L</key>
+	<real>0.24992799999999998</real>
+	<key>mouthSmile_R</key>
+	<real>0.14995700000000003</real>
+	<key>mouthStretch_L</key>
+	<real>0.19994299999999998</real>
+	<key>neckOrientation</key>
+	<array>
+		<real>-0.065623999999999988</real>
+		<real>0.016148000000000003</real>
+		<real>0.032006</real>
+		<real>0.99719999999999998</real>
+	</array>
+	<key>neckPosition</key>
+	<array>
+		<real>0.0</real>
+		<real>-0.048419000000000004</real>
+		<real>0.33505399999999996</real>
+	</array>
+</dict>
+</plist>

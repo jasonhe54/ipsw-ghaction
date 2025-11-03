@@ -1,0 +1,11 @@
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'CardDAV Account', 'other': 'CardDAV Accounts (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"strDetail_UserName" = "Username";
+"strDetail_Server" = "Server";
+"missing_CardDAV_Field_Username" = "Username:";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'CardDAV Account', 'other': '%lu CardDAV Accounts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"missing_CardDAV_HeaderWithHost" = "Enter settings for the CardDAV server “%@”:";
+"missing_CardDAV_Field_Server" = "Server:";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'CardDAV Account', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"missing_CardDAV_Header" = "Enter settings for the CardDAV account “%@”:";
+"missing_CardDAV_Field_Password" = "Password:";

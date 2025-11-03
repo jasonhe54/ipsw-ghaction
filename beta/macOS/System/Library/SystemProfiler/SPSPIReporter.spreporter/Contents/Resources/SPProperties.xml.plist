@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_name</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_isOutlineColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>0</string>
+	</dict>
+	<key>a_product_id</key>
+	<dict>
+		<key>_order</key>
+		<string>1</string>
+	</dict>
+	<key>b_vendor_id</key>
+	<dict>
+		<key>_order</key>
+		<string>2</string>
+	</dict>
+	<key>c_stfw_version</key>
+	<dict>
+		<key>_order</key>
+		<string>3</string>
+		<key>_suppressLocalization</key>
+		<string>YES</string>
+	</dict>
+	<key>d_serial_num</key>
+	<dict>
+		<key>_order</key>
+		<string>5</string>
+		<key>_suppressLocalization</key>
+		<string>YES</string>
+	</dict>
+	<key>e_device_speed</key>
+	<dict>
+		<key>_order</key>
+		<string>6</string>
+	</dict>
+	<key>f_manufacturer</key>
+	<dict>
+		<key>_order</key>
+		<string>7</string>
+	</dict>
+	<key>g_location_id</key>
+	<dict>
+		<key>_order</key>
+		<string>8</string>
+	</dict>
+	<key>h_mtfw_version</key>
+	<dict>
+		<key>_order</key>
+		<string>4</string>
+		<key>_suppressLocalization</key>
+		<string>YES</string>
+	</dict>
+</dict>
+</plist>

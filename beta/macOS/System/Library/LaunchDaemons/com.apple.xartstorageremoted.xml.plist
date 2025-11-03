@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisabledInSafeBoot</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>Crashed</key>
+		<true/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.xartstorageremoted</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.device-attach</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>name</key>
+					<string>APP7777</string>
+				</dict>
+				<key>IOProviderClass</key>
+				<string>IOACPIPlatformDevice</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/xartstorageremoted</string>
+	<key>ThrottleInterval</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.newsd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.alarm</key>
+		<true/>
+		<key>com.apple.nsurlsessiond-events</key>
+		<dict>
+			<key>LaunchOnDemand</key>
+			<dict>
+				<key>ClientIdentifier</key>
+				<string>com.apple.newsd</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.newsd</key>
+		<true/>
+		<key>com.apple.newsd.analytics</key>
+		<true/>
+		<key>com.apple.newsd.download</key>
+		<true/>
+		<key>com.apple.newsd.feed</key>
+		<true/>
+		<key>com.apple.newsd.today</key>
+		<true/>
+		<key>com.apple.newsd.today-feed</key>
+		<true/>
+		<key>com.apple.newsd.url-resolution</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/NewsDaemon.framework/newsd</string>
+</dict>
+</plist>

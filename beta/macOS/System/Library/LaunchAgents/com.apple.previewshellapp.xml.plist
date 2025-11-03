@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.previewshellapp</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>LoginWindow</string>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.preview-shell.host-agent-pipe-services</key>
+		<true/>
+		<key>com.apple.preview-shell.host-shell-pipe-services</key>
+		<true/>
+		<key>com.apple.preview-shell.shell-agent-pipe-services</key>
+		<true/>
+		<key>com.apple.preview-shell.system-services</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>App</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/PreviewShell.app/Contents/MacOS/PreviewShell</string>
+		<string>-ApplePersistenceIgnoreStateQuietly</string>
+		<string>YES</string>
+		<string>-UIMacCatalystCreateInitialScene</string>
+		<string>NO</string>
+		<string>-UIMacCatalystLifecycleIsManaged</string>
+		<string>NO</string>
+	</array>
+</dict>
+</plist>

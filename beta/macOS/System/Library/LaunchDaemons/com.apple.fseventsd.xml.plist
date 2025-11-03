@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>HopefullyExitsLast</key>
+	<true/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.fseventsd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.FSEvents</key>
+		<true/>
+	</dict>
+	<key>PosixSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.gamed</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.usernotificationcenter.matching</key>
+		<dict>
+			<key>gamed</key>
+			<dict>
+				<key>bundleid</key>
+				<string>com.apple.gamecenter</string>
+				<key>events</key>
+				<array>
+					<string>didDeliverNotification</string>
+					<string>didActivateNotification</string>
+					<string>didDismissAlert</string>
+					<string>didSnoozeAlert</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.gamed.CK</key>
+		<true/>
+		<key>com.apple.gamed</key>
+		<true/>
+		<key>com.apple.gamed.aps</key>
+		<true/>
+		<key>com.apple.gamed.apsdev</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.gamecenter</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/gamed</string>
+	</array>
+	<key>ServiceIPC</key>
+	<true/>
+	<key>Umask</key>
+	<integer>54</integer>
+</dict>
+</plist>

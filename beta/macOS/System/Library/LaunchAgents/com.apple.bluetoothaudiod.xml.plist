@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.bluetoothaudiod</string>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.bluetoothaudiod</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.bluetoothaudiod</key>
+		<true/>
+		<key>com.apple.bluetoothaudiod.cb</key>
+		<true/>
+		<key>com.apple.bluetoothaudiodtest</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/sbin/bluetoothaudiod</string>
+	</array>
+</dict>
+</plist>

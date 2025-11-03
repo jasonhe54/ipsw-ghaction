@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>220</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DC</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>Device Management Server</string>
+	<key>homeDirectory</key>
+	<string>/var/empty</string>
+	<key>memberships</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000D8</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000005E</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000046</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000DD</string>
+	</array>
+	<key>name</key>
+	<string>_devicemgr</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000DC</string>
+	<key>shell</key>
+	<string>/usr/bin/false</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>opaques</key>
+	<dict>
+		<key>kauth_cred_t</key>
+		<dict>
+			<key>type</key>
+			<string>^{ucred=}</string>
+		</dict>
+		<key>posix_cred_t</key>
+		<dict>
+			<key>type</key>
+			<string>^{posix_cred=}</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

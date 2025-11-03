@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.printproducts.theme.ModernLines-Calendar</string>
+	<key>CatalogVersion</key>
+	<integer>1</integer>
+	<key>CompileDate</key>
+	<date>2016-12-08T19:12:04Z</date>
+	<key>ModernLines-Calendar.keywords</key>
+	<array>
+		<string>CALENDARCategoryAll:400</string>
+	</array>
+	<key>ModernLines-Calendar.products</key>
+	<array>
+		<string>Calendar</string>
+	</array>
+	<key>ThemeIdentifiers</key>
+	<array>
+		<string>ModernLines-Calendar</string>
+	</array>
+</dict>
+</plist>

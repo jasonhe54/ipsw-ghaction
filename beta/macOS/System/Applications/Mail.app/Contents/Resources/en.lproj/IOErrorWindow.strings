@@ -1,0 +1,13 @@
+"IOErrorDatabaseFull" = "Mail cannot save information about your mailboxes because there isn’t enough space in your home folder.";
+"IOErrorCantWrite" = "Mail cannot save information about your mailboxes because of a network problem.";
+"IOErrorRebuildDatabase" = "Quit and Rebuild Index";
+"IOErrorText" = "There is a problem saving information about your mailboxes.";
+"IOErrorUnknownErrorDescription" = "Try clicking Quit and then opening Mail again. If this message reappears, click Quit and Rebuild index. The next time you open Mail, it will import your messages.";
+"IOErrorDatabaseFullDescription" = "Quit Mail and delete any files you don’t need. Then open Mail again.";
+"IOErrorDescription" = "It may take a while to determine the problem. If you know that this is a temporary problem, click Quit and then open Mail again";
+"IOErrorDatabaseCorruptDescription" = "Click Quit and then open Mail again. Mail will import your messages when you open it.";
+"IOErrorCantWriteDescription" = "Click Quit and check your network settings, and that you can still access your home folder. Then open Mail again.";
+"IOErrorUnknownError" = "There is a problem with your mailboxes.";
+"IOErrorQuitMail" = "Quit";
+"IOErrorOK" = "OK";
+"IOErrorDatabaseCorrupt" = "Mail needs to repair its information about your mailboxes.";

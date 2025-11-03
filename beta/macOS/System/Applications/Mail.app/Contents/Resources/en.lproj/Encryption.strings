@@ -1,0 +1,16 @@
+"CertValidationInProgressMessage" = "This message cannot be encrypted because Mail has not finished finding public keys for all participants. Do you want to send the message without encryption?";
+"SecurityHeaderSeparator" = ", ";
+"SecurityHeaderLabel" = "Security";
+"SecurityHeaderSigned" = "Signed";
+"SecurityHeaderSignersFormat%1$@" = "(%1$@)";
+"ManyRecipientsMissingCertMessageUponDelivery%1$lu" = "This message cannot be encrypted because you do not have the public keys for %1$lu recipients. Do you want to send the message without encryption?";
+"OneRecipientMissingCertMessage%1$@" = "This message cannot be encrypted because you do not have the public key for %1$@.";
+"TurnOnEncryptionToolTip" = "Click to encrypt this message";
+"NamedRecipientsMissingCertMessageUponDelivery%1$@" = "This message cannot be encrypted because you do not have the public keys for %1$@. Do you want to send the message without encryption?";
+"TurnOffEncryptionToolTip" = "Click to turn off encryption for this message";
+"NamedRecipientsMissingCertMessage%1$@" = "This message cannot be encrypted because you do not have the public keys for %1$@.";
+"OneRecipientMissingCertMessageUponDelivery%1$@" = "This message cannot be encrypted because you do not have the public key for %1$@. Do you want to send the message without encryption?";
+"TurnOffSigningToolTip" = "Click to turn off digital signing for this message";
+"SecurityHeaderEncrypted" = "Encrypted";
+"ManyRecipientsMissingCertMessage%1$d" = "This message cannot be encrypted because you do not have the public keys for %1$d recipients.";
+"TurnOnSigningToolTip" = "Click to digitally sign this message";

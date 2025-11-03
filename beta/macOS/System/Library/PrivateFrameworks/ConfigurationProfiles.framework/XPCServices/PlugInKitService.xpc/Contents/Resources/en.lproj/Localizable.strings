@@ -1,0 +1,13 @@
+"str_PayloadArrayValueNotString" = "The array “%@” in the payload “%@” must contain only strings.";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'NSExtension Restriction', 'other': 'NSExtension Restrictions (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_PK_AllowedExtensions" = "Allowed Extensions";
+"str_PK_DeniedExtensions" = "Denied Extensions";
+"str_PayloadKeyNotArray" = "The key “%@” in the payload “%@” must be an array.";
+"str_PK_DeniedExtensionPoints" = "Denied ExtensionPoints";
+"str_ShareKit_AllowList" = "Allowed Services";
+"str_NoUserLoggedIn" = "No user is currently logged in.";
+"str_PK_AllPublicExtensionPoints" = "<All public ExtensionPoints>";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'NSExtension Restriction', 'other': '%lu NSExtension Restrictions', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'NSExtension Restriction', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_PK_NameThenExtensionID" = "%@ (%@)";
+"str_ShareKit_DenyList" = "Denied Services";

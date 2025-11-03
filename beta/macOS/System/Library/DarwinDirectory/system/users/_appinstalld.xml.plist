@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>273</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000111</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>App Install Daemon</string>
+	<key>homeDirectory</key>
+	<string>/var/db/appinstalld</string>
+	<key>memberships</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000194</string>
+	</array>
+	<key>name</key>
+	<string>_appinstalld</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF00000194</string>
+	<key>shell</key>
+	<string>/usr/bin/false</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.UserPictureSyncAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.admin.userRecordChanged.userPicture</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.admin.userRecordChanged.userPicture</string>
+			</dict>
+			<key>com.apple.contacts.CNContactStoreMeContactDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.contacts.CNContactStoreMeContactDidChangeNotification</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/UserPictureSyncAgent</string>
+	</array>
+</dict>
+</plist>

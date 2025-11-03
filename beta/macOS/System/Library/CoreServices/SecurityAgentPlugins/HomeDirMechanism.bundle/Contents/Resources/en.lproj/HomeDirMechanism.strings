@@ -1,0 +1,12 @@
+"FILEVAULT_LOGIN_ERROR_INFO" = "Legacy FileVault is not supported on macOS 10.13 and above.";
+"DEFAULT_LOGIN_ERROR_OK_BUTTON" = "OK";
+"FILEVAULT_LOGIN_ERROR_OK_BUTTON" = "OK";
+"AFP_SMB_LOGIN_ERROR_OK_BUTTON" = "OK";
+"AFP_SMB_LOGIN_ERROR_MESSAGE_FORMAT" = "You are unable to log in to the user account “%@” at this time.";
+"DEFAULT_LOGIN_ERROR_MESSAGE_FORMAT" = "You are unable to log in to the user account “%@” at this time.";
+"AFP_SMB_LOGIN_ERROR_INFO" = "Logging in to the account failed because an error occurred. The home folder for the user account is located on an AFP or SMB server. Contact your system administrator for help.";
+"NETWORK_LOGIN_ERROR_OK_BUTTON" = "OK";
+"NETWORK_LOGIN_ERROR_INFO" = "Logging in to the account failed because an error occurred.";
+"DEFAULT_LOGIN_ERROR_INFO" = "Logging in to the account failed because an error occurred.";
+"NETWORK_LOGIN_ERROR_MESSAGE_FORMAT" = "You are unable to log in to the user account “%@” at this time.";
+"FILEVAULT_LOGIN_ERROR_MESSAGE_FORMAT" = "You are unable to log in to the FileVault user account “%@”.";

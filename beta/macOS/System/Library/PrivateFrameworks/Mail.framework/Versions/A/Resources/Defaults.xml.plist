@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoFetch</key>
+	<true/>
+	<key>BlockedSenderAction</key>
+	<integer>1</integer>
+	<key>ColorQuoterColorIncoming</key>
+	<true/>
+	<key>ExpandPrivateAliases</key>
+	<true/>
+	<key>MFAttachmentBehaviorKey</key>
+	<integer>98</integer>
+	<key>PollTime</key>
+	<integer>5</integer>
+	<key>SendFormat</key>
+	<string>MIME</string>
+	<key>SendWindowsFriendlyAttachments</key>
+	<true/>
+	<key>ShowActivityViewer</key>
+	<true/>
+	<key>junkMailEvaluationAfterRules</key>
+	<true/>
+	<key>junkMailTrustHeaders</key>
+	<true/>
+</dict>
+</plist>

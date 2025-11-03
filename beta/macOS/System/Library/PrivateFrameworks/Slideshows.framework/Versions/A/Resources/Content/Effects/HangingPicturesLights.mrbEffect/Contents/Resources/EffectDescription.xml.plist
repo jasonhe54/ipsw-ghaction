@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>className</key>
+	<string>HangingPicturesBackgroundLights</string>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>imageInputInfo</key>
+	<array/>
+	<key>imageProviderInfo</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>clampingMode</key>
+			<string>ClampToEdge</string>
+			<key>imageName</key>
+			<string>GrayBackground.jpg</string>
+			<key>imageSizeScript</key>
+			<string>layerWidth,layerHeight</string>
+		</dict>
+		<key>bokeh</key>
+		<dict>
+			<key>clampingMode</key>
+			<string>ClampToEdge</string>
+			<key>imageName</key>
+			<string>bokeh.png</string>
+			<key>imageSizeScript</key>
+			<string>layerWidth*.4318*.5,layerHeight*.4572*.5</string>
+		</dict>
+	</dict>
+	<key>isNative3D</key>
+	<true/>
+	<key>mainDuration</key>
+	<integer>5</integer>
+	<key>numberOfTexts</key>
+	<integer>0</integer>
+	<key>phaseInDuration</key>
+	<integer>0</integer>
+	<key>phaseOutDuration</key>
+	<integer>0</integer>
+	<key>presets</key>
+	<dict>
+		<key>Default</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

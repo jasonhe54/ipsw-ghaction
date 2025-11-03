@@ -1,0 +1,19 @@
+"EX_ERROR_REASON_CARD_TOO_LARGE-%@" = "The information on the card exceeds the size limits set for the account “%@”. To discard your changes and continue using the version of your data that’s on the server, click Revert to Server. To save your changes on your computer until you can delete some information and try again, click Go Offline.";
+"EX_ERROR_REASON_SYNC_FAILED" = "To use the version of your data that’s on the server, click Revert to Server. To work offline until until the problem is resolved, click Go Offline. If the problem persists, contact your server administrator.";
+"EX_ERROR_REASON_EXCEEDED_STORAGE_LIMITS-%@" = "The account “%@” has exceeded its storage limits. To discard your changes and continue using the version of your data that’s on the server, click Revert to Server. To save your changes on your computer until the server administrator can resolve the problem, click Go Offline.";
+"GO_ONLINE" = "Go Online";
+"EX_ERROR_ACTION_GO_OFFLINE" = "Go Offline";
+"NO_CARD_LABEL_SEARCH_FORMAT" = "Search %@
+Global Address List";
+"EX_ERROR_DESCRIPTION_CARD_SAVE_FAILED-%@" = "Contacts can’t save the card “%@” to the Exchange server.";
+"EX_ERROR_DESCRIPTION_CARD_SYNC_FAILED-%@" = "Contacts can’t refresh contacts in the account “%@”.";
+"EX_ERROR_ACTION_REVERT_TO_SERVER" = "Revert To Server";
+"EX_ERROR_DESCRIPTION_UNSUPPORTED_SERVER_VERSION" = "The Exchange server you’re trying to use doesn’t have the minimum required version installed.";
+"GAL_SEARCH_ITEM_NAME" = "%@";
+"GAL_LABEL_FORMAT" = "%@ Global Address List";
+"EX_ERROR_MESSAGE_UNSUPPORTED_SERVER_VERSION-%@" = "The Exchange Server “%@” doesn’t have the minimum required version installed. To use Contacts with Exchange, the server must be running Update Rollup 4 for Exchange Server 2007 Service Pack 1 or later. Contact your server administrator.";
+"EX_ERROR_API_VALIDATEVALUE_MULTIVALUE-%@-%@" = "The given value can’t be set on the card “%@” because the Exchange Server “%@” limits the number of values a card may have for this property type based on the associated labels.";
+"EX_ERROR_REASON_UNSUPPORTED_SERVER_VERSION" = "To use Contacts with Exchange, the server must be running Update Rollup 4 for Exchange Server 2007 Service Pack 1 or later. Contact your server administrator.";
+"EX_DEFAULT_ACCOUNT_DESCRIPTION" = "Exchange";
+"EX_ERROR_REASON_SAVE_FAILED-%@" = "The account “%@” currently can’t be modified. To discard your changes and continue using the version of your data that’s on the server, click Revert to Server. To save your changes on your computer until the problem is resolved, click Go Offline.";
+"GO_OFFLINE" = "Go Offline";

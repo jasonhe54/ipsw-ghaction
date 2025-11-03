@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CVCategoryData</key>
+	<dict>
+		<key>CVSkipNullGlyphs</key>
+		<true/>
+		<key>DataArray</key>
+		<array>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-Bopomofo</string>
+				<key>Data</key>
+				<string>ㄅ,ㄆ,ㄇ,ㄈ,ㄉ,ㄊ,ㄋ,ㄌ,ㄍ,ㄎ,ㄏ,ㄐ,ㄑ,ㄒ,ㄓ,ㄔ,ㄕ,ㄖ,ㄗ,ㄘ,ㄙ,ㄚ,ㄛ,ㄜ,ㄝ,ㄞ,ㄟ,ㄠ,ㄡ,ㄢ,ㄣ,ㄤ,ㄥ,ㄦ,ㄧ,ㄨ,ㄩ,ㄪ,ㄫ,ㄬ,ㄭ</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-Bopomofo Extended</string>
+				<key>Data</key>
+				<string>ㆠ,ㆡ,ㆢ,ㆣ,ㆤ,ㆥ,ㆦ,ㆧ,ㆨ,ㆩ,ㆪ,ㆫ,ㆬ,ㆭ,ㆮ,ㆯ,ㆰ,ㆱ,ㆲ,ㆳ,ㆴ,ㆵ,ㆶ,ㆷ,ㆸ,ㆹ,ㆺ</string>
+			</dict>
+			<dict>
+				<key>CVDataTitle</key>
+				<string>SectionTitle-Tone Marks</string>
+				<key>Data</key>
+				<string>ˊ,ˇ,ˋ,˙</string>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

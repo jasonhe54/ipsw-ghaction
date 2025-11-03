@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>countryCode</key>
+		<string>ZA</string>
+		<key>languageCode</key>
+		<string>en</string>
+		<key>name</key>
+		<string>LifeLine</string>
+		<key>resourceType</key>
+		<string>mental health</string>
+		<key>websearchQuery</key>
+		<string>mental health services</string>
+		<key>website</key>
+		<dict>
+			<key>relative</key>
+			<string>https://lifeline.co.za/i-need-help/</string>
+		</dict>
+	</dict>
+</array>
+</plist>

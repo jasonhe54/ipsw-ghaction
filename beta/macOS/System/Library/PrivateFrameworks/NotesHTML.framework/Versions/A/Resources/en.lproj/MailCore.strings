@@ -1,0 +1,124 @@
+"SSLGenericReadError" = "An SSL error occurred while trying to read data. Verify that this server supports SSL and that your account settings are correct.";
+"CheckingConnection" = "Checking connection";
+"ReplyAttributionSenderName%1$@%2$@" = "%1$@ <%2$@>";
+"PartialMessage%1$@%2$@%3$@" = "<b>This is part %1$@ of %2$@</b><br><br>The sender sent this message in %3$@ parts because it was too large to send as a single message. To view the raw source of each part, choose View > Message > Raw Source.";
+"SSLConnectionFailureFormat%1$@%2$ld" = "Mail was unable to connect to server “%1$@” using SSL on port %2$ld. Verify that this server supports SSL and that your account settings are correct.";
+"NoneMenuItem" = "None";
+"SMIMEMissingEncryptionCertMessage%1$@" = "You don’t have a certificate in your keychain that matches the email address “%1$@”. Without a certificate, you can’t encrypt messages sent to this address.";
+"AuthSchemeGSSAPI" = "Kerberos Version 5 (GSSAPI)";
+"ServerErrorFormat%1$@" = "The server returned the error: %1$@";
+"SSLCertNotYetValid" = "The certificate for this server is not yet valid.";
+"PluralSaveActivity" = "Saving Messages…";
+"To" = "To";
+"SingleInActivity" = "Incoming Message…";
+"HostUnreachableDefaultPorts%1$@" = "The server “%1$@” cannot be contacted on the default ports.";
+"Attachments" = "Attachments";
+"BadCharsetTitle" = "Invalid Text Encoding";
+"MailPluralType" = "Messages";
+"SSLGenericWriteError" = "An SSL error occurred while trying to write data. Verify that this server supports SSL and that your account settings are correct.";
+"SMIMECantEncryptTitle" = "Unable to encrypt message";
+"SSLErrorDialogText%1$@%2$@" = "%1$@ You might be connecting to a server that is pretending to be “%2$@” which could put your confidential information at risk. Do you want to connect to the server anyway?";
+"Date" = "Date";
+"SMIMECantSignTitle" = "Unable to sign message";
+"SingleSaveActivity" = "Saving Message…";
+"DisplayNameInfoListStart%1$@" = "%1$@";
+"ReplyAttribution%1$@%2$@%3$@" = "On %1$@, at %2$@, %3$@ wrote:
+
+";
+"MimeAttachmentFilename" = "Mail Attachment";
+"RemovedAttachment%1$@" = "
+
+[The attachment %1$@ has been manually removed]
+
+";
+"SingleOutActivity" = "Outgoing Message…";
+"RebuildingMailboxFormat" = "Rebuilding";
+"SMIMESignatureErrorFormat%1$@" = "An error occurred while trying to sign this message with a certificate from “%1$@”. Verify that your certificate for this address is correct, and that its private key is in your keychain.";
+"Reply-To" = "Reply-To";
+"AuthSchemeCramMd5" = "MD5 Challenge-Response";
+"ConnectionTimedOut%1$@%2$ld" = "The connection to the server “%1$@” on port %2$ld timed out.";
+"PluralInActivity" = "Incoming Messages…";
+"SMIMEMissingEncryptionCertMessages%1$@" = "You don’t have certificates in your keychain matching the following email addresses:
+
+%1$@
+
+Without certificates, you can’t encrypt messages sent to these addresses.";
+"AuthSchemeAPop" = "Authenticated POP (APOP)";
+"ManualSetupProgressText" = "Account must be manually configured";
+"DisplayNameInfoListEnd%1$@" = " & %1$@";
+"PluralOutActivity" = "Outgoing Messages…";
+"Bcc" = "Bcc";
+"CannotDecodeMultipartMessage%1$@%2$@" = "This message cannot be displayed because of the way it is formatted. Ask the sender to send it again using a different format or email program.
+
+%1$@/%2$@";
+"SMIMEEncryptionErrorMessage" = "An error occurred while trying to encrypt your message. Verify that you have valid certificates in your keychain for all of the recipients.";
+"SMIMEConfirmSignatureFormat%1$@" = "Mail was unable to verify the authenticity of the S/MIME certificate provided by “%1$@”. Messages signed by this user may be coming from a different source.";
+"Continue" = "Continue";
+"DisplayNameInfoListMiddle%1$@" = ", %1$@";
+"AuthNotSupportedFormat%1$@%2$@%3$@" = "The %1$@ server “%2$@” doesn’t support %3$@ authentication. Verify your account settings and try again.";
+"ConnectionTimedOutDefaultPorts%1$@" = "Connections to the server “%1$@” on the default ports timed out.";
+"SSLCertUntrusted" = "The certificate for this server is invalid.";
+"TLSNotSupportedFormat%1$@%2$@%3$ld" = "The %1$@ server “%2$@” doesn’t support TLS (SSL) on port %3$ld. Verify your account settings and try again.";
+"Cc" = "Cc";
+"ConnectionErrorDefaultPorts%1$@%2$ld%3$@" = "Connections to the server “%1$@” on the default ports failed (error %2$ld: %3$@)";
+"Subject" = "Subject";
+"SMIMEUntrustedCertificateMessage%1$@" = "You have chosen not to trust the S/MIME certificate used by “%1$@” to sign this message.";
+"ForwardSubjectPrefix" = "Fwd:";
+"ActivityCanceledStatus" = "Canceled";
+"HostUnreachable%1$@%2$ld" = "The server “%1$@” cannot be contacted on port %2$ld.";
+"TransferringMessages" = "Copying messages";
+"FailedLogin" = "The user name and password specified in Mail preferences were not accepted by the server.";
+"SASLDataDecryptionError%1$@%2$@" = "There was an unexpected problem decrypting data received from the server “%1$@” using “%2$@” authentication. Verify that your account settings are correct.";
+"SSLUnknownRootCert" = "The certificate for this server was signed by an unknown certifying authority.";
+"SMIMEMissingSigningCertMessage%1$@" = "You don’t have a trusted certificate in your keychain that matches the email address “%1$@”. Without a certificate, you can’t sign messages sent from this address.";
+"OpeningMailbox" = "Opening mailbox…";
+"GenericConnectFailed%1$@%2$ld" = "The connection to host %1$@ on port %2$ld failed.";
+"SSLConnectionFailureFormatDefaultPorts%1$@" = "Mail was unable to connect to server “%1$@” using SSL on the default ports. Verify that this server supports SSL and that your account settings are correct.";
+"SMIMEDamagedSignatureMessageFormat%1$@" = "The digital signature for this message is incorrect. The message may have been tampered with or corrupted since being signed by “%1$@”.";
+"ForwardedMessagePrefix" = "Begin forwarded message:
+
+";
+"MailType" = "Message";
+"GenericReadFailed%1$@" = "The attempt to read data from the server “%1$@” failed.";
+"BadCharsetFormat%1$@" = "Some characters in your message could not be converted to the “%1$@” text encoding. Choose a different encoding from the “Text Encoding” menu.";
+"ActivityStatusFormat%1$@%2$@" = "%1$@ of %2$@";
+"SSLGenericConnectError" = "An SSL error has occurred and a secure connection to the server cannot be made.";
+"Connect" = "Connect";
+"Resent-From" = "Resent-From";
+"SMIMECantDecryptMessage" = "There was a problem decrypting this message. Verify that you have a valid certificate in your keychain.";
+"SMIMEBadSignatureTitle" = "Unable to verify message signature";
+"FinishedActivityFormat" = "Done.";
+"InsecurePasswordDialogTitle%1$@" = "Password could not be sent to “%1$@” securely";
+"SMIMEBadSignatureMessage" = "There was a problem reading the digital signature for this message.";
+"POPLoggingInFormat%1$@" = "Logging in as user “%1$@”";
+"Resent-To" = "Resent-To";
+"NoSubject" = "No subject";
+"DeliveryMessage" = "Sending message";
+"HiddenGroup" = "Undisclosed-recipients";
+"SMIMECantDecryptTitle" = "Unable to decrypt message";
+"ConnectionError%1$@%2$ld%3$ld%4$@" = "The connection to the server “%1$@” on port %2$ld failed (error %3$ld: %4$@)";
+"InsecurePasswordDescription" = "Mail cannot send your password securely to the server. You can remove this restriction in the Accounts preferences by setting “Allow insecure authentication”, which could put your password at risk.";
+"DisplayNameInfoList2%1$@%2$@" = "%1$@ & %2$@";
+"ReplySubjectPrefix" = "Re:";
+"AdditionalAccountInfoRequiredProgressText" = "Additional account information required";
+"Flag" = "Flag";
+"ConnectionRefusedDefaultPorts%1$@" = "The server “%1$@” refused to allow a connection on the default ports.";
+"From" = "From";
+"ContactingServerProgressText" = "Contacting server";
+"SASLDataEncryptionError%1$@%2$@" = "There was an unexpected problem encrypting data to be sent to the server “%1$@” using “%2$@” authentication. Verify that your account settings are correct.";
+"AuthSchemeAppleToken" = "Apple Token";
+"ValidatingAccountInfoProgressText" = "Validating settings";
+"AuthSchemeExternal" = "External (TLS client Certificate)";
+"AuthSchemeClearText" = "Password";
+"FailedSASL%1$@%2$@%3$@" = "Mail was unable to log in to the %1$@ server “%2$@” using “%3$@” authentication. Verify that your account settings are correct.";
+"Cancel" = "Cancel";
+"SSLCertExpired" = "The certificate for this server has expired.";
+", " = ", ";
+"SSLAlertFormat%1$@" = "The identity of “%1$@” cannot be verified.";
+"ConnectionRefused%1$@%2$ld" = "The server “%1$@” refused to allow a connection on port %2$ld.";
+"SMIMENoRecipientsMessage" = "There are no recipients in this message.";
+"Resent-Cc" = "Resent-Cc";
+"GenericConnectFailedDefaultPorts%1$@" = "Connections to host %1$@ on the default ports failed.";
+"GenericWriteFailed%1$@" = "The attempt to send data to the server “%1$@” failed.";
+"AuthSchemeNTLM" = "NTLM";
+"ConnectingToServerFormat%1$@" = "Connecting to server “%1$@”";

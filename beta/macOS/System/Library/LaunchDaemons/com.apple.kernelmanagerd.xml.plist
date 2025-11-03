@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.kernelmanagerd</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>use_kernelmanagerd</key>
+		<array>
+			<integer>1</integer>
+		</array>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.KernelExtensionServer</key>
+		<true/>
+		<key>com.apple.KernelManagementPingServer</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>15</integer>
+		</dict>
+		<key>com.apple.kernelmanagerd.system-extensions</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/kernelmanagerd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/dev/console</string>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Library/Extensions</string>
+		<string>/AppleInternal/Library/Extensions</string>
+	</array>
+	<key>_PanicOnCrash</key>
+	<dict>
+		<key>PanicOnConsecutiveCrash</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

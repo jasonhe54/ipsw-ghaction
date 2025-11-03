@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>ExitTimeOut</key>
+	<integer>1</integer>
+	<key>Label</key>
+	<string>com.apple.noticeboard.agent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.usernotificationcenter.matching</key>
+		<dict>
+			<key>noticeboard</key>
+			<dict>
+				<key>bundleid</key>
+				<string>com.apple.noticeboard</string>
+				<key>delay registration</key>
+				<true/>
+				<key>events</key>
+				<array>
+					<string>didDismissAlert</string>
+					<string>didActivateNotification</string>
+					<string>didDeliverNotification</string>
+					<string>didSnoozeAlert</string>
+					<string>didRemoveDeliveredNotifications</string>
+					<string>didExpireNotifications</string>
+				</array>
+			</dict>
+		</dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.noticeboard.update</key>
+			<dict>
+				<key>Delay</key>
+				<integer>86400</integer>
+				<key>GracePeriod</key>
+				<integer>7200</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>LoginWindow</string>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.noticeboard.agent</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent</string>
+</dict>
+</plist>

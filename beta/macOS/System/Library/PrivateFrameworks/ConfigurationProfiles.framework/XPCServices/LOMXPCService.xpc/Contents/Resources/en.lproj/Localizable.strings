@@ -1,0 +1,10 @@
+"str_MustBeInstalledByUAMDM" = "“%@” : Profile must be installed by user approved MDM";
+"str_MustBeInSystemProfile" = "“%@” : Must be in system profile";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'LOM Configuration', 'other': 'LOM Configurations (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_UnsupportedProfile" = "“%@” : Profile not supported";
+"str_LOMCommandFailed" = "LOM Command failed";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'LOM Configuration', 'other': '%lu LOM Configurations', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_MissingRequiredKey" = "“%@” : Profile missing required key “%@”";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'LOM Configuration', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_LOMDeviceProfileInstallFailed" = "LOM Device profile failed to install";
+"str_LOMProfileRemoveFailed" = "LOM profile remove failed";

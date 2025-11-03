@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>ExitTimeOut</key>
+	<integer>1</integer>
+	<key>Label</key>
+	<string>com.apple.familynotificationd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.usernotificationcenter.matching</key>
+		<dict>
+			<key>FamilyAlert</key>
+			<dict>
+				<key>bundleid</key>
+				<string>com.apple.familyalert</string>
+				<key>delay registration</key>
+				<true/>
+				<key>events</key>
+				<array>
+					<string>didDismissAlert</string>
+					<string>didActivateNotification</string>
+					<string>didDeliverNotification</string>
+					<string>didSnoozeAlert</string>
+					<string>didRemoveDeliveredNotifications</string>
+					<string>didExpireNotifications</string>
+				</array>
+			</dict>
+			<key>FamilyNotification</key>
+			<dict>
+				<key>bundleid</key>
+				<string>com.apple.Family</string>
+				<key>delay registration</key>
+				<true/>
+				<key>events</key>
+				<array>
+					<string>didDismissAlert</string>
+					<string>didActivateNotification</string>
+					<string>didDeliverNotification</string>
+					<string>didSnoozeAlert</string>
+					<string>didRemoveDeliveredNotifications</string>
+					<string>didExpireNotifications</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>LoginWindow</string>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.familynotification.agent</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.familynotifications</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/FamilyNotification.framework/familynotificationd</string>
+</dict>
+</plist>

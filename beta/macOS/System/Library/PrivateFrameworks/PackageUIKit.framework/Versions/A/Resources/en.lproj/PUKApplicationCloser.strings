@@ -1,0 +1,30 @@
+"MUST_CLOSE_MULTIPLE_USERS_LIST" = "%@ and %@";
+"SINGLE_WILL_QUIT_CURRENT_USER_TITLE" = "%@ must be closed before the software can be installed.";
+"MUST_CLOSE_SWITCH_USER_BUTTON_TITLE" = "Switch User…";
+"MUST_CLOSE_CURRENT_USER_TITLE" = "These applications must be closed before the software can be installed:";
+"MUST_LOG_OUT_MULTIPLE_USERS_TITLE" = "The users %@ must be logged out before the software can be installed.";
+"SINGLE_WILL_QUIT_CONTINUE_BUTTON_TITLE" = "Close Application and Install";
+"MUST_CLOSE_SINGLE_PLUGIN_MSG" = "Close the %@ extension and try again. If you don’t want to close this extension now, choose Cancel.";
+"MUST_LOG_OUT_MULTIPLE_USERS_MSG" = "Switch users to log each user out and try again. If you can’t log these users out now, choose Cancel.";
+"MUST_CLOSE_MULTIPLE_PLUGINS_MSG" = "%@
+
+If you don’t want to close these extensions now, choose Cancel.";
+"WILL_QUIT_CONTINUE_BUTTON_TITLE" = "Close Applications and Install";
+"WILL_QUIT_CURRENT_USER_MSG" = "%@
+
+If you don’t want to close these applications now, choose Cancel.";
+"MUST_CLOSE_CANCEL_BUTTON_TITLE" = "Cancel";
+"WAITING_FOR_QUIT_BUTTON_TITLE" = "Closing Applications…";
+"WILL_QUIT_CURRENT_USER_TITLE" = "These applications must be closed before the software can be installed:";
+"MUST_CLOSE_CURRENT_USER_MSG" = "%@
+
+Close these applications and try again.";
+"MUST_LOG_OUT_SINGLE_USER_MSG" = "Switch users to log %@ out and try again. If you can’t log this user out now, choose Cancel.";
+"WILL_QUIT_CANCEL_BUTTON_TITLE" = "Cancel";
+"SINGLE_WAITING_FOR_QUIT_BUTTON_TITLE" = "Closing Application…";
+"MUST_CLOSE_CONTINUE_BUTTON_TITLE" = "Try Again";
+"MUST_CLOSE_MULTIPLE_PLUGINS_TITLE" = "%@ is using these extensions, which must be closed before the software can be installed:";
+"MUST_LOG_OUT_SINGLE_USER_TITLE" = "The user %@ must be logged out before the software can be installed.";
+"SINGLE_WILL_QUIT_CURRENT_USER_MSG" = "If you don’t want to close this application now, choose Cancel.";
+"MUST_CLOSE_MULTIPLE_USERS_SEPARATOR" = ", ";
+"MUST_CLOSE_SINGLE_PLUGIN_TITLE" = "%@ is using the %@ extension, which must be closed before the software can be installed.";

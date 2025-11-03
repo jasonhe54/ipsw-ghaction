@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>spdashcode_app</key>
+	<dict>
+		<key>_order</key>
+		<string>4</string>
+	</dict>
+	<key>spdevtools_additional_sdks</key>
+	<dict>
+		<key>_order</key>
+		<string>61</string>
+	</dict>
+	<key>spdevtools_apps</key>
+	<dict>
+		<key>_order</key>
+		<string>45</string>
+	</dict>
+	<key>spdevtools_path</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>10</string>
+		<key>_width</key>
+		<string>50</string>
+	</dict>
+	<key>spdevtools_sdks</key>
+	<dict>
+		<key>_order</key>
+		<string>49</string>
+	</dict>
+	<key>spdevtools_version</key>
+	<dict>
+		<key>_isColumn</key>
+		<string>YES</string>
+		<key>_order</key>
+		<string>0</string>
+		<key>_width</key>
+		<string>15</string>
+	</dict>
+	<key>spib_app</key>
+	<dict>
+		<key>_order</key>
+		<string>2</string>
+	</dict>
+	<key>spinstruments_app</key>
+	<dict>
+		<key>_order</key>
+		<string>3</string>
+	</dict>
+	<key>spxcode_app</key>
+	<dict>
+		<key>_order</key>
+		<string>1</string>
+	</dict>
+</dict>
+</plist>

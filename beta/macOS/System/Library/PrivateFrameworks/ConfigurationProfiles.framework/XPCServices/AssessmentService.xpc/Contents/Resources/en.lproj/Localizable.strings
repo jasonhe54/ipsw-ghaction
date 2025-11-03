@@ -1,0 +1,11 @@
+"str_ASAM_NotSystemProfile" = "The profile is a user profile but contains a “%@” payload which is only valid in device profiles.";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Assessment Mode', 'other': '%lu Assessment Modes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Assessment Mode', 'other': 'Assessment Modes (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_ASAM_BundleIDAppearsTwice" = "The “%@” payload lists the bundle “%@” twice in the key: “%@”.";
+"str_ASAM_MissingRequiredKey" = "The “%@” payload is missing the required key: “%@”.";
+"str_ASAM_FailedToGrantAccess" = "Unable to grant Accessibility access to application “%@”.";
+"str_ASAM_MalformedKey" = "The “%@” payload contains an improperly formatted key: “%@”.";
+"str_ASAM_AllowedApps" = "Allowed apps";
+"str_ASAM_PayloadAlreadyInstalled" = "A profile with a “%@” payload is already installed on the system.";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Assessment Mode', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_ASAM_RequiresUserApprovedMDM" = "The “%@” payload can only be installed from a user-approved MDM server.";

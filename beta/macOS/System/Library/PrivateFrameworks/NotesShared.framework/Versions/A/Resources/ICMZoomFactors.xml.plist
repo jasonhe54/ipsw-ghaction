@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Instructions</key>
+	<array>
+		<string>This list allows you to live upate the zoom factors.</string>
+		<string>The numbers represent what point size a 12 point font would be translated to after the zoom.  </string>
+		<string>IMPORTANT: the noteList array, checklist, attachmentBrick and the globalZoom array must have the same number or items, or the app will crash.</string>
+	</array>
+	<key>attachmentBrick</key>
+	<array>
+		<integer>12</integer>
+		<integer>12</integer>
+		<integer>13</integer>
+		<integer>14</integer>
+		<string>15</string>
+	</array>
+	<key>checklist</key>
+	<array>
+		<integer>12</integer>
+		<integer>12</integer>
+		<integer>14</integer>
+		<integer>16</integer>
+		<integer>18</integer>
+	</array>
+	<key>globalZoom</key>
+	<array>
+		<integer>10</integer>
+		<integer>12</integer>
+		<integer>14</integer>
+		<integer>18</integer>
+		<integer>24</integer>
+	</array>
+	<key>localZoom</key>
+	<array>
+		<integer>6</integer>
+		<integer>9</integer>
+		<integer>10</integer>
+		<integer>12</integer>
+		<integer>14</integer>
+		<integer>15</integer>
+		<integer>18</integer>
+		<integer>20</integer>
+		<integer>21</integer>
+		<integer>24</integer>
+		<integer>30</integer>
+		<string>36</string>
+	</array>
+	<key>maxAttachmentBrickZoomPtSize</key>
+	<integer>15</integer>
+	<key>noteList</key>
+	<array>
+		<integer>12</integer>
+		<integer>12</integer>
+		<integer>12</integer>
+		<integer>12</integer>
+		<integer>12</integer>
+	</array>
+</dict>
+</plist>

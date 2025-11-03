@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.thermalmonitord</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.thermalMonitor.1weekTask</key>
+			<dict>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>604800</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/thermalmonitord</string>
+	</array>
+</dict>
+</plist>

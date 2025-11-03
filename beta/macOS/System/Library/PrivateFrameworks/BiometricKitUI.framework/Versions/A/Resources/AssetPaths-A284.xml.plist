@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MagicKeyboardLong</key>
+	<dict>
+		<key>Bundle</key>
+		<string>/System/Library/PrivateFrameworks/BiometricKitUI.framework</string>
+		<key>Color</key>
+		<dict>
+			<key>0x20</key>
+			<string>Silver</string>
+			<key>0x21</key>
+			<string>White</string>
+			<key>0x22</key>
+			<string>Silver_Black</string>
+			<key>0x23</key>
+			<string>Silver</string>
+			<key>0x24</key>
+			<string>Yellow</string>
+			<key>0x25</key>
+			<string>Green</string>
+			<key>0x26</key>
+			<string>Blue</string>
+			<key>0x27</key>
+			<string>Pink</string>
+			<key>0x28</key>
+			<string>Purple</string>
+			<key>0x29</key>
+			<string>Orange</string>
+			<key>0x2A</key>
+			<string>Yellow</string>
+			<key>0x2B</key>
+			<string>Green</string>
+			<key>0x2C</key>
+			<string>Blue</string>
+			<key>0x2D</key>
+			<string>Pink</string>
+			<key>0x2E</key>
+			<string>Purple</string>
+			<key>0x2F</key>
+			<string>Orange</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

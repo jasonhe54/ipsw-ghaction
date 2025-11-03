@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MGAVExportPresetIdentifier</key>
+	<string>AVAssetExportPresetAppleM4A</string>
+	<key>MGExportOptionIdentifier</key>
+	<string>QTExportOptionsAppleM4A</string>
+	<key>MaximumBitRate</key>
+	<integer>256000</integer>
+	<key>QTExpComponentExtension</key>
+	<string>m4a</string>
+	<key>RFExportPresetName</key>
+	<string>M4A</string>
+	<key>RFExportTemplateName</key>
+	<string>AMFExport</string>
+</dict>
+</plist>

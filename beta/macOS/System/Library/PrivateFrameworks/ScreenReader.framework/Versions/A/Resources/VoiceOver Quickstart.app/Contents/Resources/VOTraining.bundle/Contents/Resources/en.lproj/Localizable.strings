@@ -1,0 +1,204 @@
+"DateTime.mainText" = "To change a date or time, first interact with the date or time field. To move to the setting you want to change, such as the month or hour, press VO-Right Arrow or VO-Left Arrow. To increase or decrease the setting’s value, press VO-Up Arrow or VO-Down Arrow. When you’re done, stop interacting with the field.
+
+Use VoiceOver now to select a date and time in the practice area below. 
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"MovingAround.title" = "Move Around the Screen";
+"Keyboard.mainText" = "VoiceOver provides Keyboard Help for learning about the keys on your keyboard.
+
+After you start Keyboard Help, just press a key to hear its name. If you press the VoiceOver modifier at the same time, you hear the name of the VoiceOver command assigned to that key, and a brief description of the command.
+
+Use VoiceOver now to start Keyboard Help. Press @VOCommand(SCRWorkspace.openKeyboardHelp).
+
+When you’re done, press the Escape key to exit Keyboard Help and return to the Quick Start. Then press the Right Arrow key to continue to the next panel.";
+"PracticeWhatYouLearn.playSound" = "(Play)";
+"HTMLPractice.mainText" = "Use VoiceOver now to navigate webpages in the practice area below. You can use VO and the arrow keys or the Rotor.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"HelloSetupText" = "Hello. To continue, press any key.";
+"Splash.extraSpokenText" = "If you already know how to use VoiceOver, press the @VOCommand(SCRWorkspace.verbosityRotor) key now. If you want to learn how to use VoiceOver, press the Space bar now.";
+"VOTrainingSA.title" = "The VoiceOver Quick Start";
+"LanguageChooserText" = "To use English as the main language, press the Return key.";
+"WelcomeBack.title" = "Welcome Back";
+"ModKey.secondaryFn" = "fn";
+"NavigatingTables.title" = "Navigate in Tables";
+"FinalPage.mainText" = "Congratulations! You have completed the VoiceOver Quick Start. Now you can use the VoiceOver commands you have learned to get more out of using your Mac.
+
+If you need help using VoiceOver, press @VOCommand(SCRWorkspace.openGuide) when VoiceOver is on.
+
+You can customize VoiceOver using VoiceOver Utility. VoiceOver Utility presents a list of ten categories, from General to Activities. To open VoiceOver Utility, press @VOCommand(SCRWorkspace.openUtility) when VoiceOver is on.
+
+To exit the VoiceOver Quick Start, press the Escape key or select the Done button. To revisit panels, select the Go Back button.";
+"HTMLPractice.title" = "Practice Webpage Navigation";
+"MenuBar.mainText" = "The Menu bar, located along the top edge of the screen, contains app menus. The menus change based on the active app, but typically include File, Edit, Format, Window, and Help. The Apple menu, at the left end of the menu bar, is always available.
+
+The right end of the menu bar contains Control Center, Spotlight, and various status menus, such as wi-fi or battery, depending on your computer and settings.
+
+To navigate to the menu bar, press @VOCommand(SCRWorkspace.menubar). To navigate to the status menus, press @VOCommand(SCRWorkspace.menuExtras). To move between items in each of these areas, press VO-Left Arrow or VO-Right Arrow. To open an item, press @VOCommand(Global.defaultAction).
+
+Continue to the next panel by pressing the Right Arrow key.";
+"Modifier.title" = "The VoiceOver Modifier";
+"Keyboard.title" = "Keyboard Help";
+"NavigatingWebpages.mainText" = "You can easily navigate a webpage using VoiceOver commands you have already learned (VO and the arrow keys).
+
+VoiceOver provides other ways to browse webpages, such as using the Rotor.
+
+Continue to the next panel by pressing the Right Arrow key.";
+"PracticeWhatYouLearn.startSound" = "When VoiceOver starts and is ready for practice, you will hear the following sound. ";
+"TextFields.mainText" = "You enter information in text fields. Most text fields have labels located above or beside them. Move the VoiceOver cursor to a label to learn about the text field and the type of information to enter in the field.
+
+When you type in a text field, you hear each letter as you type it. When you type in a secure text field, such as a password field, the characters are not spoken.
+
+Use VoiceOver now to read the labels for the text fields in the practice area below, and then move the cursor to the text fields to enter text. 
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"ModKey.command" = "Command";
+"Gestures.mainText" = "VoiceOver has detected a trackpad that supports gestures. With the VoiceOver Trackpad Commander enabled, you can use VoiceOver gestures, as well as VoiceOver commands.
+
+The surface of your trackpad represents the current window, document, or other area. When you drag your finger across the trackpad, the VoiceOver cursor moves across the area on the screen. Tap an edge of the trackpad, and the cursor moves to that edge of the area on the screen. To move the VoiceOver cursor to the next or previous item, flick a finger left or right.
+
+Continue to the next panel by pressing the Right Arrow key.";
+"keyDelimiter" = "-";
+"VOTrainingEMB.title" = "The VoiceOver Quick Start";
+"Splash.mainText" = "VoiceOver speaks descriptions of items on the screen and can be used to control the computer using only your keyboard.";
+"Practice.mainText" = "Take time now to review the VoiceOver commands you have learned by using them in the practice area below. If you need to revisit a lesson, use the Go Back button.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"Rotor.mainText" = "The VoiceOver Rotor provides a quick way to navigate the content of the window. In webpages, it provides lists of links, headers, and other common web items. You select an item from a list and jump directly to the item in the window.
+
+To open the Rotor, press @VOCommand(Global.showRotor). Move between the lists using the Right Arrow or Left Arrow key. Move between the items in a list using the Up Arrow or Down Arrow key. When you find the item you want to jump to, press the Space bar.
+
+Continue to the next panel by pressing the Right Arrow key.";
+"FinalPage.title" = "Get More from Your Mac";
+"continue" = "Continue";
+"ModKey.shift" = "Shift";
+"PracticeWhatYouLearn.intro" = "Many Quick Start panels include an area where you can use VoiceOver to practice the commands you just learned about on the panel. The Quick Start plays a sound to indicate when practice begins and ends.";
+"GesturesPractice.title" = "Practice Trackpad Gestures";
+"SetUp.mainText" = "You have learned how to use the VoiceOver commands you need to start setting up your computer.
+
+If you need help while setting up your computer, press @VOCommand(SCRWorkspace.openGuide) when VoiceOver is on.
+
+To set up your Mac, press the Right Arrow key.";
+"SelectingControls.mainText" = "You use the VoiceOver cursor to interact with checkboxes, radio buttons, pop-up menus, and other on-screen controls.
+
+To select a control press @VOCommand(Global.defaultAction). To show the items in a pop-up menu press @VOCommand(Global.defaultAction). To select an item in the menu, navigate to it, then press @VOCommand(Global.defaultAction).
+
+Use VoiceOver now to navigate and select controls in the practice area below.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"InteractingElements.title" = "Interact with Elements";
+"Gestures.title" = "Use a Multi-Touch Trackpad";
+"DateTime.title" = "Select a Date and Time";
+"PracticeWhatYouLearn.continue" = "Now continue to the next panel by pressing the Right Arrow key.";
+"Splash.title" = "Welcome to VoiceOver";
+"AdjustingVoice.title" = "Adjust the Voice";
+"PageNumber.formatter" = "Panel %1$@ of %2$@";
+"skip" = "Skip";
+"PracticeWhatYouLearn.title" = "Practice What You Learn";
+"beginning" = "Beginning";
+"TextFields.title" = "Type in Text Fields";
+"GesturesPractice2.mainText" = "Use VoiceOver gestures now to navigate the webpages in the practice area below. Enable VoiceOver gestures by pressing the VoiceOver modifier and rotate two fingers clockwise on the trackpad.
+
+To move to the next or previous item, flick right or left.
+
+To start or stop interacting with the current item, pinch open or closed with two fingers.
+
+To select the current item, double tap.
+
+When you’re done, disable VoiceOver gestures by pressing the VoiceOver modifier and rotating two fingers counter clockwise on the trackpad. Continue to the next panel by pressing the Right Arrow key.";
+"InteractingElements.mainText" = "Some elements can contain other elements, such as a toolbar that contains buttons. VoiceOver simplifies navigation by moving to these top-level elements, then letting you decide whether to explore the elements within. When you hear an element of interest, such as a table, you can stop and interact with it. When you do, the VoiceOver cursor stays within the element’s boundaries, until you stop interacting with it.
+
+To start interacting with an element, press VO-Shift-Down Arrow. Then to navigate within the element, use VO and the arrow keys. To stop interacting with it, press VO-Shift-Up Arrow.
+
+Use VoiceOver now to interact with the toolbar in the practice area below. 
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"Dock.title" = "The Dock";
+"VOTrainingEMB.mainText" = "VoiceOver speaks descriptions of items on the screen and can be used to control the computer using only your keyboard.
+
+In this Quick Start, you’ll learn the location of important keys on your keyboard and important VoiceOver commands.
+
+To advance through the Quick Start panels now, use the arrow keys located to the right of the main keyboard keys; on a portable computer they’re located in the bottom-right corner of the keyboard. The Up Arrow and Down Arrow keys are positioned one above the other, with the Left Arrow and Right Arrow keys on either side.
+
+Now continue to the next panel by pressing the Right Arrow key. To exit at any time and continue setting up your Mac, press the Escape key.";
+"BuddyIntroText" = "macOS contains a built-in screen reader called VoiceOver. If you know how to use VoiceOver, press command-F-5 now to turn it on and set up your Mac. If you would like to learn how to use VoiceOver to set up your Mac, press the Escape key.";
+"keyFormat" = "VO%@";
+"playStopSound" = "play stop sound";
+"Dock.mainText" = "The Dock, located along the edge of the screen, contains icons for Finder, Launchpad, and popular apps, such as Mail, Safari, and Music.
+
+To navigate to the Dock, press @VOCommand(SCRWorkspace.dock). To move between icons in the Dock, press VO-Left Arrow or VO-Right Arrow. To open an item, press @VOCommand(Global.defaultAction).
+
+Continue to the next panel by pressing the Right Arrow key.";
+"AdjustingVoice.mainText" = "You can choose a different voice to use in VoiceOver, or change the voice’s rate, pitch, and volume.
+
+To start, hold down VO-Command-Shift and press the Right Arrow several times until you hear the voice setting you want to change.
+
+To increase the setting’s value, hold down VO-Command-Shift and press the Up Arrow. To decrease the value, hold down VO-Command-Shift and press the Down Arrow.
+
+Use VoiceOver now to change the voice or adjust its settings.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"Adjusters.title" = "Use Steppers";
+"Adjusters.mainText" = "Steppers are on-screen controls for increasing or decreasing the value of a numeric setting.
+
+To use a stepper, first interact with it. Then to increase or decrease a value, press VO-Up Arrow or VO-Down Arrow. When you’re done, stop interacting with the stepper.
+
+Use VoiceOver now to use the steppers in the practice area below.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"playStartSound" = "play start sound";
+"VOTrainingSA.mainText" = "In this Quick Start, you’ll learn VoiceOver basics, as well as important VoiceOver commands to help you navigate on your Mac and use apps. You can exit the Quick Start at any time and finish it later.
+
+To advance through the Quick Start panels now, use the arrow keys located to the right of the main keyboard keys; on a portable computer they’re located in the bottom-right corner of the keyboard. The Up Arrow and Down Arrow keys are positioned one above the other, with the Left Arrow and Right Arrow keys on either side.
+
+Now continue to the next panel by pressing the Right Arrow key. To exit at any time, press the Escape key.";
+"MenuBar.title" = "The Menu Bar";
+"GesturesPractice.mainText" = "Use VoiceOver gestures now to navigate the webpages in the practice area below. First, you must enable the Trackpad Commander so you can use the gestures: press the VoiceOver modifier and rotate two fingers clockwise on the trackpad.
+
+To move to the next or previous item, flick right or left.
+
+To start or stop interacting with the current item, flick two fingers right or left.
+
+To select the current item, double tap.
+
+When you’re done, disable the Trackpad Commander by pressing the VoiceOver modifier and rotating two fingers counter clockwise on the trackpad. Continue to the next panel by pressing the Right Arrow key.";
+"Modifier.mainText" = "You enter VoiceOver commands by pressing the VoiceOver modifier and one or more other keys. You can set the VoiceOver modifier to be the Caps Lock key or the Control and Option keys pressed at the same time. By default, you can use either as the VoiceOver modifier. You can change the VoiceOver modifier in VoiceOver Utility.
+
+The Caps Lock key is the third key up from the bottom on the left edge of the keyboard. The Option key is the second key to the left of the Space bar. The Control key is immediately to the left of the Option key. On a keyboard with numeric keypad, the Option and Control keys are also available as the second and third keys to the right of the Space bar.
+
+During this Quick Start, when you need to enter a VoiceOver command, you will hear something like “Press VO-Right Arrow,” which means “Press and hold the VoiceOver modifier, then press the Right Arrow key”. For example, you press and hold the Caps Lock key, then press the Right Arrow key.
+
+Now continue to the next panel by pressing the Right Arrow key.";
+"UnicodeHex.00000020" = "Space bar";
+"WelcomeBack.mainText" = "Welcome back to the VoiceOver Quick Start.
+
+To resume where you left off, press the Right Arrow key.
+
+To start at the beginning, press the Left Arrow key.";
+"spokenStringAfterKeyboardPractice" = "Press the Right Arrow key to continue.";
+"SetUp.title" = "Congratulations";
+"finished" = "Done";
+"Practice.title" = "VoiceOver Review";
+"quit" = "Quit";
+"PracticeWhatYouLearn.stopSound" = "When VoiceOver stops, you will hear the following sound. ";
+"SelectingControls.title" = "Select Controls";
+"MovingAround.mainText" = "To move the VoiceOver cursor, press the VoiceOver modifier while pressing the Up, Down, Left, or Right Arrow key. As the cursor moves, you hear a description of the item it moves to. On screen, the VoiceOver cursor appears as a rectangular outline around the item.
+
+Use VoiceOver now to navigate around the practice area below.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"goBack" = "Go Back";
+"VoiceOver" = "VoiceOver";
+"NavigatingWebpages.title" = "Navigate Webpages";
+"TouchBarBuddyIntroText" = "macOS contains a built-in screen reader called VoiceOver. If you know how to use VoiceOver, press the command key while you press Touch ID three times at the right end of the Touch Bar. To learn how to use VoiceOver to set up your Mac, tap Escape at the left end of the Touch Bar.";
+"NavigatingTables.mainText" = "When you interact with tables in documents and webpages, you navigate vertically and horizontally using the VoiceOver commands you have already learned (VO and the arrow keys). To read tables by column, row, or cell, you use other VoiceOver commands.
+
+To read a table column, press @VOCommand(SCRTable.columnDescription).
+To read a row, press @VOCommand(SCRTable.rowDescription). 
+To read the column header, @VOCommand(SCRTable.columnHeader).
+To read the row header, @VOCommand(SCRTable.rowHeader).
+
+Use VoiceOver now to navigate and read the table in the practice area.
+
+When you’re done, continue to the next panel by pressing the Right Arrow key.";
+"Rotor.title" = "Use the Rotor";

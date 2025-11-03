@@ -1,0 +1,18 @@
+"GENERAL_ERROR" = "%@ firmware update could not be completed. Try again in an hour.
+ If the problem persists, contact Apple Support.";
+"INSTALLER_PROGRESS_DESCRIPTION" = "The screen may turn off for a few minutes during this firmware update.
+ Do not disconnect or power off your %@.";
+"CONSENT_DESCRIPTION" = "Firmware update available for %@. Update may apply to one or more of your connected displays.";
+"UPDATE_WARNING" = "Do not disconnect or power off your %@ during the update.";
+"NO_UPDATE_ERROR" = "%1$@ firmware update could not be completed. %1$@ firmware is up to date.";
+"DISK_SPACE_ERROR" = "There is not enough disk space available to complete the %@ firmware update. Update size is %@.";
+"SOFTWARE_UPDATE_PROMPT" = "A software update is required to update your %@ firmware.";
+"NETWORK_CONNECTION_ERROR" = "%@ firmware update could not be completed. Make sure %@ is connected to the internet and try again.
+ If the problem persists, contact Apple Support.";
+"DEVICE_CONNECTION_ERROR" = "%1$@ firmware update could not be completed. Make sure %1$@ is connected to %2$@ and try again.
+ If the problem persists, contact Apple Support.";
+"SOFTWARE_ERROR" = "Software Update Required
+ Your %2$@ requires a software update before you can install the %1$@ firmware update.
+ Install the update, restart your %2$@, then install the %1$@ firmware update.
+ If the problem persists, contact Apple Support.";
+"BOOT_ERROR" = "%@ firmware update could not be completed. Boot from your %@ startup disk and try again.";

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>baby_bottom.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>8</integer>
+	<key>Bottom Left</key>
+	<string>baby_ll.png</string>
+	<key>Bottom Right</key>
+	<string>baby_lr.png</string>
+	<key>Display</key>
+	<false/>
+	<key>Left</key>
+	<string>baby_left.png</string>
+	<key>Left Frame Inset</key>
+	<integer>90</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.29999999999999999</real>
+	<key>Right</key>
+	<string>baby_right.png</string>
+	<key>Right Frame Inset</key>
+	<integer>90</integer>
+	<key>Stretch Tiles</key>
+	<integer>1</integer>
+	<key>Top</key>
+	<string>baby_top.png</string>
+	<key>Top Frame Inset</key>
+	<integer>22</integer>
+	<key>Top Left</key>
+	<string>baby_ul.png</string>
+	<key>Top Right</key>
+	<string>baby_ur.png</string>
+	<key>name</key>
+	<string>Baby</string>
+	<key>preview-image</key>
+	<string>baby_thumbnail.png</string>
+</dict>
+</plist>

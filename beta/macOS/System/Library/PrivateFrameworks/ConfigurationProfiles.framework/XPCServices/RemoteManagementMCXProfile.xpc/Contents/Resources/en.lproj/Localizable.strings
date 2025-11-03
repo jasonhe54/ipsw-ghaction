@@ -1,0 +1,9 @@
+"str_Declarations" = "Declarations";
+"CPPayloadCountStringsDictKey_CountLast" = "{'PayloadType': {'one': 'Declarations', 'other': 'Declarations (%lu)', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"CPPayloadCountStringsDictKey_CountFirst" = "{'PayloadType': {'one': 'Declarations', 'other': '%lu Declarations', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";
+"str_Summary_Plural_%@" = "%@ Declarations";
+"str_Profiles" = "Profiles";
+"str_MissingRequiredKey" = "The payload “%@” is missing the required key “%@”.";
+"str_Summary_Singular_%@" = "%@ Declaration";
+"str_ActiveConfigurations" = "Active Configurations";
+"CPPayloadCountStringsDictKey_SingularOnly" = "{'PayloadType': {'one': 'Declarations', 'other': '', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@PayloadType@'}";

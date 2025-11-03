@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DropSIP</key>
+	<array>
+		<string>com.apple.pkg.GarageBand</string>
+		<string>com.apple.pkg.ProAudio</string>
+		<string>com.apple.pkg.JamPack</string>
+		<string>com.apple.pkg.FinalCutServer</string>
+		<string>com.apple.pkg.iTunesX</string>
+		<string>com.apple.pkg.HP_</string>
+		<string>com.apple.pkg.Canon</string>
+		<string>com.apple.pkg.RecoveryHDMetaDmg</string>
+		<string>com.apple.pkg.RecoveryHDUpdate</string>
+		<string>com.apple.pkg.iDVD</string>
+		<string>com.apple.pkg.XcodeSystemResources</string>
+		<string>com.apple.pkg.ImageStackPlugin</string>
+		<string>com.apple.pkg.AppleServer</string>
+		<string>com.apple.pkg.AppClipCodeGenerator</string>
+		<string>com.apple.pkg.AST</string>
+		<string>com.apple.pkg.AppleServiceToolkit</string>
+		<string>com.apple.pkg.FieldDiags</string>
+		<string>com.apple.pkg.AppleConnect</string>
+		<string>com.apple.pkg.iPhoneSystemComponents</string>
+		<string>com.apple.metal.mrdt</string>
+		<string>com.apple.pkg.MobileDeviceDevelopment</string>
+	</array>
+</dict>
+</plist>

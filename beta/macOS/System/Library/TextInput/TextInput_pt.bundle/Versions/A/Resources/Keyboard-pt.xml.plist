@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-N</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>N Ñ</string>
+		<key>Strings</key>
+		<string>N Ñ</string>
+	</dict>
+	<key>Roman-Accent-n</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>n ñ</string>
+		<key>Strings</key>
+		<string>n ñ</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>ABC</string>
+	<key>UI-Buy</key>
+	<string>comprar</string>
+	<key>UI-Cancel</key>
+	<string>cancelar</string>
+	<key>UI-Clear</key>
+	<string>limpar</string>
+	<key>UI-Continue</key>
+	<string>continuar</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Delete</key>
+	<string>apagar</string>
+	<key>UI-EmergencyCall</key>
+	<string>Chamada de
+emergência</string>
+	<key>UI-Go</key>
+	<string>ir</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>PT</string>
+	<key>UI-IconLabelScript</key>
+	<string>A</string>
+	<key>UI-Join</key>
+	<string>aceder</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Português</string>
+	<key>UI-Next</key>
+	<string>seguinte</string>
+	<key>UI-NumberPad-1</key>
+	<string> </string>
+	<key>UI-NumberPad-2</key>
+	<string>ABC</string>
+	<key>UI-NumberPad-3</key>
+	<string>DEF</string>
+	<key>UI-NumberPad-4</key>
+	<string>GHI</string>
+	<key>UI-NumberPad-5</key>
+	<string>JKL</string>
+	<key>UI-NumberPad-6</key>
+	<string>MNO</string>
+	<key>UI-NumberPad-7</key>
+	<string>PQRS</string>
+	<key>UI-NumberPad-8</key>
+	<string>TUV</string>
+	<key>UI-NumberPad-9</key>
+	<string>WXYZ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>pausar</string>
+	<key>UI-Prediction</key>
+	<string>Passe o dedo para baixo para fechar</string>
+	<key>UI-Recents</key>
+	<string>Recentes</string>
+	<key>UI-Redo</key>
+	<string>refazer</string>
+	<key>UI-Return</key>
+	<string>retorno</string>
+	<key>UI-Route</key>
+	<string>itinerário</string>
+	<key>UI-Search</key>
+	<string>pesquisar</string>
+	<key>UI-Send</key>
+	<string>enviar</string>
+	<key>UI-Space</key>
+	<string>espaço</string>
+	<key>UI-Speak</key>
+	<string>falar</string>
+	<key>UI-Undo</key>
+	<string>desfazer</string>
+	<key>UI-Wait</key>
+	<string>espera</string>
+	<key>UI-abc</key>
+	<string>abc</string>
+</dict>
+</plist>

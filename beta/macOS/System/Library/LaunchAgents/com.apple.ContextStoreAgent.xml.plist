@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>~/Library/Application Support/com.apple.ContextStoreAgent/screenTimeEnabled</key>
+			<true/>
+			<key>~/Library/Caches/com.apple.appstoreagent/arcadeEnabled</key>
+			<true/>
+			<key>~/Library/Caches/com.apple.appstoreagent/crossfireEnabled</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.ContextStoreAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.GameController.events.controllers-changed</key>
+		<dict>
+			<key>com.apple.GameController.events.controllers-changed</key>
+			<dict/>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.ScreenTimeAgent.SettingsDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ScreenTimeAgent.SettingsDidChangeNotification</string>
+			</dict>
+			<key>com.apple.iokit.hid.displayStatus</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.iokit.hid.displayStatus</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict/>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent</string>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>

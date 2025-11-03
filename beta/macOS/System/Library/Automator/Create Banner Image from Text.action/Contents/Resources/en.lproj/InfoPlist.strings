@@ -1,0 +1,10 @@
+"AMName" = "Create Banner Image from Text";
+"AMDResult" = "";
+"AMDSummary" = "This action renders text passed from the previous action to an alpha-channeled PNG image file using the chosen font, color and size.";
+"AMDWebsite" = "http://www.macosxautomation.com";
+"AMDRequires" = "";
+"AMDInput" = "";
+"AMDNote" = "";
+"NSHumanReadableCopyright" = "Copyright © 2011–2012 Apple Inc.  All rights reserved.";
+"AMDAlert" = "";
+"AMDOptions" = "Optionally, you can choose to use the text input as the image filename. If chosen, this option will automatically append “.png” to the filename.";

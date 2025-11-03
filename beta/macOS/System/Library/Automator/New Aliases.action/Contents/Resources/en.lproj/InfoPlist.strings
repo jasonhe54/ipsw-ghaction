@@ -1,0 +1,8 @@
+"AMName" = "New Aliases";
+"AMDSummary" = "This action creates aliases of files and folders, placing them in the folder selected in the action.";
+"AMDResult" = " Creates aliases of Finder items, passes the aliases to next action.";
+"ApplyButton" = "(* Button label for user to add proposed Action, e.g. Add. *)";
+"CFBundleName" = "New Aliases";
+"NSHumanReadableCopyright" = "Copyright © 2007–2012 Apple Inc.  All rights reserved.";
+"IgnoreButton" = "(* Button label for user not to add proposed Action, e.g. Don't Add. *)";
+"Message" = "(* Warning message presented to user goes here. *)";

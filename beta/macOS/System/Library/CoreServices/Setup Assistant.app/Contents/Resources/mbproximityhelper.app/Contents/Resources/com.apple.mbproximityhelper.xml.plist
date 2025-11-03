@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.mbproximityhelper</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bluetooth.discovery</key>
+		<dict>
+			<key>MacMigrate</key>
+			<dict>
+				<key>bleRSSIThresholdHint</key>
+				<integer>-45</integer>
+				<key>discoveryFlags</key>
+				<array>
+					<string>New</string>
+				</array>
+				<key>discoveryTypes</key>
+				<array>
+					<string>MacMigrate</string>
+				</array>
+				<key>label</key>
+				<string>MacMigrate</string>
+				<key>limitToDeviceClasses</key>
+				<array>
+					<string>Mac</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.mbproximityhelper</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.mbproximityhelper</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/mbproximityhelper.app/Contents/MacOS/mbproximityhelper</string>
+	</array>
+</dict>
+</plist>

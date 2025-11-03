@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.tccd.system</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.tccd.system</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/TCC.framework/Support/tccd</string>
+		<string>system</string>
+	</array>
+	<key>PublishesEvents</key>
+	<dict>
+		<key>com.apple.tccd.events</key>
+		<dict>
+			<key>DomainInternal</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

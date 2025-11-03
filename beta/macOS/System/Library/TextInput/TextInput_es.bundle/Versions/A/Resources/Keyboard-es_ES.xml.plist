@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-L</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>L·L L</string>
+		<key>Strings</key>
+		<string>L·L L</string>
+	</dict>
+	<key>Roman-Accent-l</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>l·l l</string>
+		<key>Strings</key>
+		<string>l·l l</string>
+	</dict>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>¥</string>
+	<key>UI-IconLabelLanguageVariant</key>
+	<string>ES</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Español (España)</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>€</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.com .es .org .edu .eu</string>
+		<key>Strings</key>
+		<string>.com .es .org .edu .eu</string>
+	</dict>
+</dict>
+</plist>
