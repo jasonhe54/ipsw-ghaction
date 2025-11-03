@@ -86,14 +86,23 @@ jobs:
           mkdir -p ./ipsw_files
           mkdir -p ./ipsw_files/out
 
-      - name: 8. Cache IPSW file
+      - name: 8. Normalize device identifier for cache key
+        id: normalize-key
+        run: |
+          # GitHub cache keys only allow alphanumeric, '-', and '_'
+          # Commas (like in 'iPhone18,1') are illegal and must be replaced.
+          NORMALIZED_ID=$(echo "${{ inputs.device_identifier }}" | tr ',' '_')
+          echo "Normalized device ID for cache: $NORMALIZED_ID"
+          echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
+
+      - name: 9. Cache IPSW file
         id: cache-ipsw
         uses: actions/cache@v4
         with:
           path: ./ipsw_files
-          key: ipsw-file-${{ inputs.os_type }}-${{ inputs.device_identifier }}-${{ inputs.beta_build }}
+          key: ipsw-file-${{ inputs.os_type }}-${{ steps.normalize-key.outputs.id }}-${{ inputs.beta_build }}
 
-      - name: 9. Download IPSW (if not cached)
+      - name: 10. Download IPSW (if not cached)
         run: |
           # Check the output of the cache step
           if [[ "${{ steps.cache-ipsw.outputs.cache-hit }}" == "true" ]]; then
@@ -117,7 +126,7 @@ jobs:
           echo "IPSW_FILE=${DOWNLOADED_FILE}" >> $GITHUB_ENV
           echo "Using IPSW: $DOWNLOADED_FILE"
 
-      - name: 10. Extract and Decrypt Filesystem DMG
+      - name: 11. Extract and Decrypt Filesystem DMG
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
           ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
@@ -150,7 +159,7 @@ jobs:
           echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
           echo "Decrypted DMG at: $DECRYPTED_DMG"
 
-      - name: 11. Mount Decrypted DMG
+      - name: 12. Mount Decrypted DMG
         run: |
           echo "Mounting DMG..."
           hdiutil attach "${{ env.DECRYPTED_DMG }}" -mountpoint ./mounted_dmg
@@ -158,12 +167,12 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 12. Clean old beta directory
+      - name: 13. Clean old beta directory
         run: |
           echo "Ensuring the 'beta' root directory exists..."
           mkdir -p beta
 
-      - name: 13. Run Python Analyzer Script and Log Stats
+      - name: 14. Run Python Analyzer Script and Log Stats
         run: |
           REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
           
@@ -225,7 +234,7 @@ jobs:
             run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
           fi
 
-      - name: 14. Sanitize File Paths
+      - name: 15. Sanitize File Paths
         run: |
           echo "Searching for and renaming files/directories with colons..."
           find ./beta -depth -name "*:*" -exec bash -c '
@@ -239,13 +248,13 @@ jobs:
           ' {} \;
           echo "Sanitization complete."
 
-      - name: 15. Unmount DMG
+      - name: 16. Unmount DMG
         if: always()
         run: |
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
 
-      - name: 16. Upload Analysis Artifact
+      - name: 17. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
           name: analysis-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}
