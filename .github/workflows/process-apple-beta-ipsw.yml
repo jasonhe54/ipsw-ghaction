@@ -188,10 +188,16 @@ jobs:
           }
 
           # --- Execute for each folder ---
-          run_and_log "Applications" "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
-          run_and_log "Library" "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
-          run_and_log "private" "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
-          run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          if [[ "${{ inputs.os_type }}" == "macOS" ]]; then
+            echo "macOS detected. Processing /System folder only..."
+            run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          else
+            echo "${{ inputs.os_type }} detected. Processing standard root folders..."
+            run_and_log "Applications" "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
+            run_and_log "Library" "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
+            run_and_log "private" "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
+            run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          fi
 
       - name: 11. Sanitize File Paths
         run: |
