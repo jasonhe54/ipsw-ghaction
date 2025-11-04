@@ -2,10 +2,10 @@ osBuildList:
   iOS:
     - deviceIdentifier: "iPhone18,1"
       builds:
-        - releaseName: "iOS 26.0"
-          releaseBuildIdentifier: "23A330"
-          releaseDate: "2025-09-19"
-          isBeta: false
+        # - releaseName: "iOS 26.0"
+        #   releaseBuildIdentifier: "23A330"
+        #   releaseDate: "2025-09-19"
+        #   isBeta: false
         - releaseName: "iOS 26.0"
           releaseBuildIdentifier: "23A341"
           releaseDate: "2025-09-15"
