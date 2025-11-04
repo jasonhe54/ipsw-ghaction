@@ -44,13 +44,13 @@ jobs:
     steps:
       - name: 1. Log Inputs to Job Summary
         run: |
-          echo "### 🚀 Workflow: 1. Process Apple Beta IPSW" >> $GITHUB_STEP_SUMMARY
+          echo "### 🚀 Workflow: 1. Process Apple Release IPSW" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
           echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Beta Version** | \`${{ inputs.beta_version }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Beta Build** | \`${{ inputs.beta_build }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Build** | \`${{ inputs.release_build }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Checkout Branch** | \`${{ inputs.checkout_branch }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Exclude Info.plist** | \`${{ inputs.exclude_info_plist }}\` |" >> $GITHUB_STEP_SUMMARY
@@ -89,8 +89,6 @@ jobs:
       - name: 8. Normalize device identifier for cache key
         id: normalize-key
         run: |
-          # GitHub cache keys only allow alphanumeric, '-', and '_'
-          # Commas (like in 'iPhone18,1') are illegal and must be replaced.
           NORMALIZED_ID=$(echo "${{ inputs.device_identifier }}" | tr ',' '_')
           echo "Normalized device ID for cache: $NORMALIZED_ID"
           echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
@@ -100,23 +98,21 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ./ipsw_files
-          key: ipsw-file-${{ inputs.os_type }}-${{ steps.normalize-key.outputs.id }}-${{ inputs.beta_build }}
+          key: ipsw-file-release-${{ inputs.os_type }}-${{ steps.normalize-key.outputs.id }}-${{ inputs.release_build }}
 
       - name: 10. Download IPSW (if not cached)
         run: |
-          # Check the output of the cache step
           if [[ "${{ steps.cache-ipsw.outputs.cache-hit }}" == "true" ]]; then
             echo "✅ IPSW cache hit. Skipping download."
           else
-            echo "Cache miss. Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.beta_build }} for device ${{ inputs.device_identifier }}"
+            echo "Cache miss. Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.release_build }} for device ${{ inputs.device_identifier }}"
             
             ipsw dl appledb --os "${{ inputs.os_type }}" \
-              --build "${{ inputs.beta_build }}" \
+              --build "${{ inputs.release_build }}" \
               --device "${{ inputs.device_identifier }}" \
               --output ./ipsw_files
           fi
           
-          # This part MUST run in both cases (cache hit or miss)
           DOWNLOADED_FILE=$(find ./ipsw_files -name "*.ipsw" | head -n 1)
           if [[ -z "$DOWNLOADED_FILE" ]]; then
             echo "::error::Failed to find IPSW file (from cache or download)."
@@ -167,14 +163,14 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 13. Clean old beta directory
+      - name: 13. Clean old release directory
         run: |
-          echo "Ensuring the 'beta' root directory exists..."
-          mkdir -p beta
+          echo "Ensuring the 'release' root directory exists..."
+          mkdir -p release
 
       - name: 14. Run Python Analyzer Script and Log Stats
         run: |
-          REPO_SAVE_PATH="beta/${{ inputs.os_type }}"
+          REPO_SAVE_PATH="release/${{ inputs.os_type }}"
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📊 Python Processing Stats" >> $GITHUB_STEP_SUMMARY
@@ -182,7 +178,6 @@ jobs:
           echo "| Folder | Duration | Files Found | Files Processed | Errors | Avg. Time (s) |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- | :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
 
-          # --- Define a helper function to run and log each folder ---
           run_and_log() {
             FOLDER_NAME=$1
             MOUNT_PATH=$2
@@ -192,7 +187,6 @@ jobs:
             
             START_TIME=$(date +%s)
             
-            # --- MODIFIED: Added ${{ inputs.exclude_info_plist }} as the 3rd argument ---
             JSON_OUTPUT=$(python py.py "$MOUNT_PATH" "$REPO_PATH" "${{ inputs.exclude_info_plist }}")
             
             END_TIME=$(date +%s)
@@ -211,10 +205,7 @@ jobs:
             ERROR_COUNT=$(echo "$JSON_SUMMARY" | jq .error_count)
             AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
 
-            # This log line is good confirmation *after* the python script's logs
             echo "Finished $FOLDER_NAME processing (Duration: $DURATION_FORMATTED)"
-
-            # Append to GitHub Job Summary
             echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | $FILES_FOUND | $FILES_PROCESSED | $ERROR_COUNT | $AVG_TIME |" >> $GITHUB_STEP_SUMMARY
             
             if [[ "$ERROR_COUNT" -gt 0 ]]; then
@@ -222,7 +213,6 @@ jobs:
             fi
           }
 
-          # --- Execute for each folder ---
           if [[ "${{ inputs.os_type }}" == "macOS" ]]; then
             echo "macOS detected. Processing /System folder only..."
             run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
@@ -237,7 +227,7 @@ jobs:
       - name: 15. Sanitize File Paths
         run: |
           echo "Searching for and renaming files/directories with colons..."
-          find ./beta -depth -name "*:*" -exec bash -c '
+          find ./release -depth -name "*:*" -exec bash -c '
             dir=$(dirname "$0")
             base=$(basename "$0")
             new_base=$(echo "$base" | tr ":" "_")
@@ -257,6 +247,7 @@ jobs:
       - name: 17. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: analysis-beta-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}
-          path: ./beta/${{ inputs.os_type }}
+          # --- CORRECTED: Artifact name is prefixed and uses release_build ---
+          name: analysis-release-${{ inputs.os_type }}-${{ inputs.release_build }}-${{ inputs.device_identifier }}
+          path: ./release/${{ inputs.os_type }}
           retention-days: 5
