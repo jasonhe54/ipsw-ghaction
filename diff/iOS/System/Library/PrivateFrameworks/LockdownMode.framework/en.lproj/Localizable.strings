@@ -1,0 +1,12 @@
+"TURN_ON_FAILED_ALERT_MESSAGE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'There was an issue turning on Lockdown Mode for this iPad. Try again or visit https://support.apple.com/HT212650 for more information.', 'iphone': 'There was an issue turning on Lockdown Mode for this iPhone. Try again or visit https://support.apple.com/HT212650 for more information.', 'mac': 'There was an issue turning on Lockdown Mode for this Mac. Try again or visit https://support.apple.com/HT212650 for more information.', 'applewatch': 'There was an issue turning on Lockdown Mode for this Apple Watch. Try again or visit https://support.apple.com/HT212650 for more information.'}}";
+"CONTINUE" = "Continue";
+"TURN_OFF_AND_RESTART" = "Turn Off and Restart";
+"LOCKDOWN_MODE" = "Lockdown Mode";
+"LATER" = "Later";
+"TURN_ON_AND_RESTART" = "Turn On and Restart";
+"ENTER_PASSCODE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Enter Passcode', 'iphone': 'Enter Passcode', 'mac': 'Enter Password', 'applewatch': 'Enter Passcode'}}";
+"TURN_ON_ALERT_MESSAGE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'For complete protection, Lockdown Mode has to be turned on for this iPad.', 'iphone': 'For complete protection, Lockdown Mode has to be turned on for this iPhone.', 'mac': 'For complete protection, Lockdown Mode has to be turned on for this Mac.', 'applewatch': 'For complete protection, Lockdown Mode has to be turned on for this Apple Watch.'}}";
+"TURN_OFF_ALERT_MESSAGE" = "Lockdown Mode was turned off on another device. For complete protection, Lockdown Mode has to be turned on for all of your devices.";
+"TURN_OFF_FAILED_ALERT_TITLE" = "Unable to turn off Lockdown Mode";
+"TURN_OFF_FAILED_ALERT_MESSAGE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'There was an issue turning off Lockdown Mode for this iPad. Try again or visit https://support.apple.com/HT212650 for more information.', 'iphone': 'There was an issue turning off Lockdown Mode for this iPhone. Try again or visit https://support.apple.com/HT212650 for more information.', 'mac': 'There was an issue turning off Lockdown Mode for this Mac. Try again or visit https://support.apple.com/HT212650 for more information.', 'applewatch': 'There was an issue turning off Lockdown Mode for this Apple Watch. Try again or visit https://support.apple.com/HT212650 for more information.'}}";
+"TURN_ON_FAILED_ALERT_TITLE" = "Unable to turn on Lockdown Mode";

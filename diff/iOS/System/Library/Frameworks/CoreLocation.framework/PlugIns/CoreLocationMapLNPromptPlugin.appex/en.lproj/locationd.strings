@@ -1,0 +1,72 @@
+"LOCATION_DISABLED_SETTINGS" = "Settings";
+"LOCATION_UNAVAILABLE" = "Location Services is Not Available for “%@”";
+"LOCATION_CLIENT_PERMISSION_UPGRADE_WHENINUSE_ALWAYS_TITLE_LOCKSCREEN" = "Location Authorization Request";
+"IMPROVE_LOCATION_ACCURACY_WIFI" = "Turning on Wi-Fi will improve location accuracy.";
+"LOCATION_CLIENT_PERMISSION_NEVER_BUTTON" = "Don’t Allow";
+"LOCATION_CLIENT_PERMISSION_KEEP_ALWAYS_BUTTON" = "Always Allow";
+"PRECISE_ON_PILL_BUTTON_TITLE" = "Precise: On";
+"PRECISE_TITLE_WATCHOS" = "Precise";
+"LOCATION_DISABLED_CANCEL" = "Cancel";
+"IMPROVE_LOCATION_ACCURACY_BLUETOOTH" = "Turning on Bluetooth will improve location accuracy.";
+"LOCATION_CLIENT_PERMISSION_KEEP_WHENINUSE_BUTTON" = "Keep Only While Using";
+"LOCATION_REPROMPT_ALWAYS_TITLE" = "“%@” has been using your location in the background over the past 3 days. Do you want to continue to allow background location use?";
+"LOCATION_PINNED_AUTHORIZE" = "Update";
+"LOCATION_CLIENT_PERMISSION_ALWAYS_BUTTON" = "Change to Always Allow";
+"LOCATION_CLIENT_PERMISSION_PLAIN_TITLE_FOR_LOCATION_BUTTONS" = "“%@” can only access your approximate location when you choose to share it";
+"LOCATION_CLIENT_ATTEMPTING_TO_RECEIVE_HEADER" = "Location Services";
+"PRECISE_OFF_PILL_BUTTON_TITLE" = "Precise: Off";
+"LOCATION_CLIENT_ATTEMPTING_TO_RECEIVE_TITLE" = "Background Location Usage";
+"LOCATION_CLIENT_PERMISSION_INCIDENTAL_USE_MODE_YES_BUTTON" = "Allow";
+"LOCATION_PINNED_AUTHORIZATION_TITLE" = "Update Location";
+"LOCATION_CLIENT_PERMISSION_DENY_VISIT_HISTORY_BUTTON" = "Don’t Allow";
+"LOCATION_ACCURACY" = "Location Accuracy";
+"LOCATION_CLIENT_PERMISSION_TITLE_FOR_VISIT_HISTORY_BUTTONS" = "Allow “%@” to access your visited places?";
+"LOCATION_PINNED_PERMISSION_EXPLANATION_FOR_LOCATION_BUTTONS" = "A new location was recently detected for your device. Update your location so your device can show the local weather, time, respond to Siri requests about your area, and more.";
+"LOCATION_CLIENT_PERMISSION_WHENINUSE_UNTIL_TOMORROW_BUTTON" = "Allow While Using Until Tomorrow";
+"LOCATION_DISABLED" = "Turn On Location Services to Allow “%@” to Determine Your Location";
+"ONLY_HERE_PILL_BUTTON_TITLE" = "Only Here";
+"LOCATION_CLIENT_PERMISSION_INCIDENTAL_USE_MODE_PURPOSE" = "This app’s widgets will be able to use your location on Apple Watch and iPhone.";
+"LOCATION_CLIENT_PERMISSION_WHENINUSE_ONLY_BUTTON" = "Change to Only While Using";
+"LOCATION_CLIENT_PERMISSION_INCIDENTAL_USE_MODE_TITLE" = "Allow widgets from “%@” to use your location?";
+"LOCATION_CLIENT_PERMISSION" = "Allow “%@” to use your location?";
+"LOCATION_CLIENT_PERMISSION_TEMPORARY_PRECISE_TITLE" = "Allow “%@” to use your precise location once?";
+"LOCATION_CLIENT_PERMISSION_VISIT_HISTORY_USAGE_DESCRIPTION" = "This gives the app access to places you visit throughout the day, such as restaurants or parks, starting from when you allow.
+
+Visited places are learned by and stored privately on your device. Only the apps you choose can access them.";
+"LOCATION_PINNED_NOT_AUTHORIZE" = "Don’t Update";
+"LOCATION_CLIENT_PERMISSION_DENY_LEARNED_ROUTES_BUTTON" = "Don’t Allow";
+"LOCATION_CLIENT_PERMISSION_MESSAGE" = "App explanation for always: “%@”
+
+App explanation for while using: “%@”";
+"LOCATION_CLIENT_PERMISSION_PLAIN_WHEN_IN_USE_TITLE" = "Allow “%@” to use your approximate location?";
+"LOCATION_CLIENT_PERMISSION_ALWAYS" = "Allow “%@” to use your location even when you are not using the app?";
+"LOCATION_CLIENT_PERMISSION_ALLOW_VISIT_HISTORY_BUTTON" = "Allow";
+"LOCATION_CLIENT_PERMISSION_DENY_LOCATION_BUTTONS" = "Not Now";
+"LOCATION_CLIENT_PERMISSION_TITLE_FOR_LOCATION_BUTTONS" = "“%@” can only access your location when you choose to share it";
+"LOCATION_CLIENT_ATTEMPTING_TO_RECEIVE" = "“%@” is attempting to receive information about your location while in the background. Tap to configure.";
+"IMPROVE_LOCATION_ACCURACY_WLAN" = "Turning on WLAN will improve location accuracy.";
+"COMPASS_CALIBRATION" = "Please Wave iPhone to Calibrate the Compass";
+"LOCATION_CLIENT_PERMISSION_UPGRADE_WHENINUSE_ALWAYS" = "Allow “%@” to also use your location even when you are not using the app?";
+"LOCATION_CLIENT_PERMISSION_INCIDENTAL_USE_MODE_NO_BUTTON" = "Don’t Allow";
+"LOCATION_CLIENT_PERMISSION_ALLOW_LOCATION_BUTTONS" = "OK";
+"LOCATION_CLIENT_PERMISSION_TEMPORARY_PRECISE_NO_BUTTON" = "Don’t Allow";
+"CONTINUE" = "Continue";
+"LOCATION_CLIENT_PERMISSION_EXPLANATION_FOR_LOCATION_BUTTONS" = "When you share your location with this app, a blue location indicator will appear in the status bar.";
+"LOCATION_CLIENT_PERMISSION_LEARNED_ROUTES_USAGE_DESCRIPTION" = "This gives the app access to the routes you take most frequently and destinations you’re likely to visit.
+
+Preferred routes and predicted destinations are learned by and stored privately on your device. Only the apps you choose can access them.";
+"LOCATION_CLIENT_PERMISSION_UPGRADE_WHENINUSE_ALWAYS_MESSAGE_LOCKSCREEN" = "“%@” would like to use your location even when you are not using the app.";
+"LOCATION_CLIENT_PERMISSION_WHENINUSE_BUTTON" = "Allow While Using App";
+"LOCATION_CLIENT_PERMISSION_MESSAGE_REDUCED" = "App explanation for always: “%@”
+
+If you only allow use of your location while you are using the app, some features may not work while this app is in the background.";
+"LOCATION_CLIENT_PERMISSION_TEMPORARY_PRECISE_YES_BUTTON" = "Allow Once";
+"LOCATION_CLIENT_PERMISSION_WHENINUSE" = "Allow “%@” to use your location?";
+"SETTINGS" = "Settings";
+"LOCATION_CLIENT_PERMISSION_CANCEL" = "Cancel";
+"DONT_ALLOW" = "Don’t Allow";
+"LOCATION_CLIENT_PERMISSION_ONETIME_BUTTON" = "Allow Once";
+"LOCATION_CLIENT_PERMISSION_OK" = "Allow";
+"LOCATION_CLIENT_PERMISSION_TITLE_FOR_LEARNED_ROUTES_BUTTONS" = "Allow “%@” to access your preferred routes and predicted destinations?";
+"LOCATION_CLIENT_PERMISSION_ALLOW_LEARNED_ROUTES_BUTTON" = "Allow";
+"OK" = "OK";

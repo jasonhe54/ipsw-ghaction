@@ -1,0 +1,12 @@
+"HOLD_DURATION_TRIPLE_CLICK_HELP_FORMAT_SUBTITLE" = "{'seconds': {'one': 'Touch the ‘Touch Accommodations’ button in the menu for at least %.1f second to disable.', 'other': 'Touch the ‘Touch Accommodations’ button in the menu for at least %.1f seconds to disable.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@seconds@'}";
+"TOUCH-ACCOMMODATIONS-DISABLED" = "Touch Accommodations Disabled";
+"TOUCH-ACCOMMODATIONS-ENABLED" = "Touch Accommodations Enabled";
+"TOGGLE-USING-TRIPLE-CLICK" = "Triple-click the Home Button to toggle Touch Accommodations";
+"TOGGLE-USING-TRIPLE-CLICK_WATCH" = "Triple-click the Digital Crown to toggle Touch Accommodations";
+"TOUCH-ACCOMMODATIONS-ZOOM-CONTROLLER-ENABLED" = "The Zoom Controller is displayed when Touch Accommodations are enabled.";
+"TOGGLE-USING-TRIPLE-CLICK_NHB_IPAD" = "Triple-click the Top Button to toggle Touch Accommodations";
+"HOLD_DURATION_TRIPLE_CLICK_HELP_FORMAT" = "Hold Duration is enabled.";
+"TOGGLE-USING-TRIPLE-CLICK_NHB" = "Triple-click the Side Button to toggle Touch Accommodations";
+"TOUCH-ACCOMMODATIONS-SUSPENEDED-DUE-TO-VOICEOVER-ON" = "Touch Accommodations are inactive while VoiceOver is on.";
+"HOLD-DURATION-HELP-SUBTITLE" = "{'seconds': {'one': 'Touch and hold for at least %.1f second before a touch is recognized.', 'other': 'Touch and hold for at least %.1f seconds before a touch is recognized.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@seconds@'}";
+"TOUCH-ACCOMMODATIONS-UNCONFIGURED" = "Enable Hold Duration, Ignore Repeat, or Tap Assistance to use Touch Accommodations";

@@ -1,0 +1,79 @@
+"REMOTE_SETUP_QR_AUTH_TITLE" = "Waiting for Technician’s Device…";
+"OTHER_NETWORK_PROMPT" = "Enter network information";
+"CHOOSE_WIFI_HEADER" = "Choose a Wi‑Fi
+Network";
+"REMOTE_SETUP_PIN_AUTH_DETAIL" = "Enter the authentication code below on the technician’s device.";
+"SELF_SERVICE_REPAIR_DESCRIPTION_IPHONE" = "Apple will verify that the parts used in your recent repair are functioning correctly and can be configured for this iPhone.";
+"THERMAL_ALERT_STRING_IPOD" = "iPod needs to cool down
+before you can use it.";
+"DIAGNOSTICS" = "Diagnostics & Repair";
+"OTHER_NETWORK_TITLE" = "Other Network";
+"REMOTE_SETUP_CONFIGURING_DETAIL" = "Keep this device near the technician’s device while settings are being transferred.";
+"OTHER_NETWORK_NAME" = "Name";
+"JOIN" = "Join";
+"REMOTE_SETUP_FAILED_TITLE" = "Unable to Configure";
+"EXIT_SELF_SERVICE_REPAIR" = "Cancel";
+"ARE_YOU_SURE" = "Are you sure you want to exit Diagnostics & Repair?";
+"WIFI_SETTINGS" = "Wi‑Fi Settings";
+"REMOTE_SETUP_QR_SCAN_TITLE" = "Scan Authentication Code";
+"SHUT_DOWN" = "Shut Down";
+"CANCEL" = "Cancel";
+"THERMAL_ALERT_STRING_IPHONE" = "iPhone needs to cool down
+before you can use it.";
+"NO_NETWORK_CONNECTION_MESSAGE_WIFI" = "The Wi‑Fi network you selected is not providing an Internet connection. Change your settings or choose a different network.";
+"DONE" = "Done";
+"JOINED_NETWORK_PROMPT" = "Joined network “%@”";
+"LANGUAGE_SELECTION" = "Language Selection";
+"VISION_NO_FACE_DETAIL_TEXT" = "Apple Vision Pro should not be worn while it is in Diagnostics Mode. Remove the device to continue. To exit, press and hold the top button.";
+"VISION_NO_FACE_SUBTEXT_DETAIL_TEXT" = "To avoid entering this mode by accident, do not connect the battery cable while pressing and holding the Digital Crown.";
+"WLAN_SETTINGS" = "WLAN Settings";
+"OS_VERSION" = "%@ %@ (%@)";
+"WPA2_ENTERPRISE" = "WPA2 Enterprise";
+"ENCRYPTED_NETWORK_TITLE" = "Enter Password";
+"WPA2" = "WPA2";
+"REMOTE_SETUP_QR_AUTH_DETAIL" = "Scan the QR code below with the technician’s device.";
+"VISION_NO_FACE_DETAIL_DIAGS_RUNNING_TEXT" = "Apple Vision Pro should not be worn while it is in Diagnostics Mode. Remove the device to continue.";
+"ENCRYPTED_NETWORK_PROMPT" = "Enter the password for “%@”";
+"OTHER_NETWORK_PLACEHOLDER" = "Network Name";
+"PASSWORD_REQUIRED" = "Requires Password";
+"WPA_ENTERPRISE" = "WPA Enterprise";
+"NONE" = "None";
+"UNABLE_TO_JOIN_TITLE" = "Unable to join “%@”";
+"REMOTE_SETUP_FAILED_DETAIL" = "An error occurred when attempting to configure this device. Please try again.";
+"SELF_SERVICE_REPAIR" = "Repair Assistant";
+"SELF_SERVICE_REPAIR_DESCRIPTION_IPAD" = "Apple will verify that the parts used in your recent repair are functioning correctly and can be configured for this iPad.";
+"THERMAL_ALERT_STRING_IPAD" = "iPad needs to cool down
+before you can use it.";
+"FAILED_NETWORK_PROMPT" = "Failed to join “%@”";
+"TEMPERATURE" = "Temperature";
+"UNABLE_TO_JOIN_NETWORK_TITLE" = "Unable to join the network
+“%@”";
+"WEP" = "WEP";
+"BACK" = "Back";
+"INCORRECT_PASSWORD_TITLE" = "Incorrect password for “%@”";
+"PASSWORD" = "Password";
+"REMOTE_SETUP_ACC_SCAN_DETAIL" = "Scan the App Clip Code shown on the technician’s device.";
+"DISMISS" = "Dismiss";
+"CHOOSE_OTHER_FOOTER" = "Choose Another Network";
+"REMOTE_SETUP_CONFIGURING_TITLE" = "Configuring Device";
+"CONTINUE" = "Continue";
+"EXIT_DIAGNOSTICS" = "Exit";
+"DIAGNOSTICS_DESCRIPTION" = "Diagnostics allow Apple to identify potential hardware and software issues with this device.
+
+To complete a repair, a configuration step may be required.";
+"CHOOSE_WLAN_HEADER" = "Choose a WLAN
+Network";
+"SECURITY" = "Security";
+"EMERGENCY_CALL" = "Emergency Call";
+"COULD_NOT_FIND_NETWORK_TITLE" = "Could not find the network “%@”";
+"NO_NETWORK_CONNECTION_TITLE" = "No Network Connection";
+"WPA" = "WPA";
+"REMOTE_SETUP_PIN_AUTH_TITLE" = "Enter Authentication Code";
+"REMOTE_SETUP_AUTH_FALLBACK_PIN" = "Authenticate Manually";
+"TRY_AGAIN_MESSAGE" = "Please try again later.";
+"VISION_NO_FACE_TITLE_TEXT" = "Diagnostics Mode";
+"REMOTE_SETUP_QR_SCAN_DETAIL" = "Scan the QR code shown on the technician’s device to authenticate.";
+"NO_NETWORK_CONNECTION_MESSAGE_WLAN" = "The WLAN network you selected is not providing an Internet connection. Change your settings or choose a different network.";
+"JOINING_NETWORK_PROMPT" = "Joining “%@”…";
+"START_DIAGNOSTICS" = "Continue";
+"OK" = "OK";

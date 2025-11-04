@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>atium</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>special</key>
+				<array>
+					<string>gold</string>
+					<string>natural</string>
+					<string>graphite</string>
+					<string>rosegold</string>
+					<string>silver</string>
+					<string>jetblack</string>
+					<string>threecolor3</string>
+					<string>threecolor2</string>
+					<string>threecolor1</string>
+					<string>threecolor4</string>
+					<string>threecolor5</string>
+					<string>threecolor6</string>
+					<string>unity.red &amp; unity.green</string>
+					<string>special.rainbow</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>threecolor3</string>
+				<key>default-family14-clhs19</key>
+				<string>silver</string>
+				<key>default-family14-clhs20</key>
+				<string>gold</string>
+				<key>default-family14-clhs21</key>
+				<string>jetblack</string>
+				<key>default-family14-clhs22</key>
+				<string>natural</string>
+				<key>default-family14-clhs23</key>
+				<string>graphite</string>
+				<key>default-family14-clhs24</key>
+				<string>silver</string>
+				<key>default-family14-clhs8</key>
+				<string>rosegold</string>
+				<key>exclusions</key>
+				<array>
+					<string>seasons.fall2024.silver</string>
+					<string>seasons.fall2024.roseGold</string>
+					<string>seasons.fall2024.natural</string>
+					<string>seasons.fall2024.gold</string>
+					<string>seasons.fall2024.slate</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>atium.special</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

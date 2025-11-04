@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.shazamkit.exception.view-modules</key>
+	<dict>
+		<key>com.apple.Maps</key>
+		<dict>
+			<key>modules</key>
+			<dict>
+				<key>location</key>
+				<dict>
+					<key>appearance</key>
+					<string>compact</string>
+				</dict>
+			</dict>
+			<key>presentationStyle</key>
+			<string>modal</string>
+		</dict>
+		<key>com.apple.Music</key>
+		<dict>
+			<key>modules</key>
+			<dict>
+				<key>music</key>
+				<dict>
+					<key>appearance</key>
+					<string>compact</string>
+				</dict>
+				<key>setlist</key>
+				<dict>
+					<key>appearance</key>
+					<string>compact</string>
+				</dict>
+			</dict>
+			<key>presentationStyle</key>
+			<string>modal</string>
+		</dict>
+		<key>com.apple.Spotlight</key>
+		<dict>
+			<key>modules</key>
+			<dict/>
+			<key>presentationStyle</key>
+			<string>app</string>
+		</dict>
+		<key>com.apple.music.classical</key>
+		<dict>
+			<key>modules</key>
+			<dict>
+				<key>music</key>
+				<dict>
+					<key>appearance</key>
+					<string>compact</string>
+				</dict>
+				<key>setlist</key>
+				<dict>
+					<key>appearance</key>
+					<string>compact</string>
+				</dict>
+			</dict>
+			<key>presentationStyle</key>
+			<string>modal</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

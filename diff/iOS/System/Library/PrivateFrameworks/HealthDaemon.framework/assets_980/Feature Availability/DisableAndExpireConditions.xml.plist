@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DisableElectrocardiogramRecording</key>
+	<dict>
+		<key>ruleIdentifier</key>
+		<string>WatchRegionInfoEquals</string>
+		<key>userInfo</key>
+		<dict>
+			<key>RegionInfo</key>
+			<string>LM/A</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

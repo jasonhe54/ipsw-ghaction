@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>crosswind</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>special</key>
+				<array>
+					<string>hero-iris</string>
+					<string>hero-emerald</string>
+					<string>hero-azure</string>
+					<string>hero-marigold</string>
+					<string>hero-wisteria</string>
+					<string>hero-dandelion</string>
+					<string>hero-stormBlue</string>
+					<string>special.rainbow</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>crosswind.special.hero-iris</string>
+				<key>gallery-default</key>
+				<array>
+					<string>crosswind.special.hero-iris</string>
+					<string>crosswind.special.hero-emerald</string>
+					<string>crosswind.special.hero-azure</string>
+					<string>crosswind.special.hero-marigold</string>
+					<string>crosswind.special.hero-wisteria</string>
+					<string>crosswind.special.hero-dandelion</string>
+					<string>crosswind.special.hero-stormBlue</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>crosswind.special</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UI-ABC</key>
+	<string>アイウ</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>$</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Cancel</key>
+	<string>キャンセル</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>完了</string>
+	<key>UI-EmergencyCall</key>
+	<string>緊急電話</string>
+	<key>UI-Go</key>
+	<string>開く</string>
+	<key>UI-IconLabel</key>
+	<string>ア</string>
+	<key>UI-JapaneseAIU</key>
+	<string>アイウ</string>
+	<key>UI-Join</key>
+	<string>接続</string>
+	<key>UI-LanguageIndicator</key>
+	<string>アイヌ・イタㇰ</string>
+	<key>UI-Next</key>
+	<string>次へ</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>一時停止</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>¥</string>
+	<key>UI-Redo</key>
+	<string>やり直す</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>経路</string>
+	<key>UI-Search</key>
+	<string>検索</string>
+	<key>UI-Send</key>
+	<string>送信</string>
+	<key>UI-Space</key>
+	<string>スペース</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.jp .co.jp .com .net</string>
+		<key>Strings</key>
+		<string>.jp .co.jp .com .net</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>取り消す</string>
+	<key>UI-Wait</key>
+	<string>待機</string>
+	<key>UI-abc</key>
+	<string>アイウ</string>
+</dict>
+</plist>

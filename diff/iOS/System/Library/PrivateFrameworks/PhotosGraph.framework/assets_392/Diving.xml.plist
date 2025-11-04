@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criteria</key>
+	<array>
+		<dict>
+			<key>Interestingness</key>
+			<dict>
+				<key>mustBeInteresting</key>
+				<true/>
+			</dict>
+			<key>Location</key>
+			<dict>
+				<key>excludeFrequentLocations</key>
+				<true/>
+			</dict>
+			<key>ROI</key>
+			<dict>
+				<key>minimumNumberOfROIs</key>
+				<integer>1</integer>
+				<key>positiveROIs</key>
+				<array>
+					<string>Water</string>
+				</array>
+			</dict>
+			<key>Scene</key>
+			<dict>
+				<key>minimumNumberOfNegativeScenes</key>
+				<integer>1</integer>
+				<key>minimumNumberOfPositiveScenes</key>
+				<integer>1</integer>
+				<key>negativeScenes</key>
+				<array>
+					<string>snowmobile</string>
+					<string>skiing</string>
+					<string>winter_sport</string>
+					<string>ski_boot</string>
+					<string>snowshoe</string>
+					<string>ski_equipment</string>
+					<string>sledding</string>
+					<string>snowboard</string>
+					<string>snowboarding</string>
+					<string>hiking</string>
+					<string>canyon</string>
+					<string>volcano</string>
+					<string>cliff</string>
+					<string>waterfall</string>
+				</array>
+				<key>positiveScenes</key>
+				<array>
+					<string>diving</string>
+					<string>underwater</string>
+					<string>submarine_water</string>
+					<string>scuba</string>
+					<string>wetsuit</string>
+					<string>coral_reef</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

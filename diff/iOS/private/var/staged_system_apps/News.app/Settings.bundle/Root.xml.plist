@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationGroupContainerIdentifier</key>
+	<string>com.apple.newscore</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Description</key>
+			<string>Only stories from channels you follow will appear in Today. All other sources will be blocked.</string>
+			<key>Key</key>
+			<string>show_stories_only_from_favorites</string>
+			<key>Title</key>
+			<string>Restrict stories in Today</string>
+			<key>TrueConfirmationPrompt</key>
+			<dict>
+				<key>ConfirmText</key>
+				<string>Turn On</string>
+				<key>DenyText</key>
+				<string>Cancel</string>
+				<key>Prompt</key>
+				<string>Turning on this setting will limit the stories shown in Today. Top Stories, Trending Stories, and Featured Stories will be removed.</string>
+				<key>Title</key>
+				<string>Restrict Stories?</string>
+				<key>Type</key>
+				<string>PSConfirmationPrompt</string>
+			</dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Description</key>
+			<string>Apple News won’t show stories marked as explicit.</string>
+			<key>Key</key>
+			<string>restrict_explicit_content</string>
+			<key>Title</key>
+			<string>Restrict stories with explicit content</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Description</key>
+			<string>Follow your teams and other sports interests across Apple News, Apple TV, and other Apple apps. For more information, choose Help &gt; See how your data is managed…</string>
+			<key>Key</key>
+			<string>sports_favorites_sync_setting</string>
+			<key>Title</key>
+			<string>Sync My Sports</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<true/>
+			<key>Description</key>
+			<string>Send your results to Game Center to see how you rank among friends and other solvers on today’s puzzles. For more information, choose Help &gt; See how your data is managed…</string>
+			<key>Key</key>
+			<string>puzzles_settings_game_center_enabled</string>
+			<key>Title</key>
+			<string>Game Center</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>File</key>
+			<string>Internal</string>
+			<key>Title</key>
+			<string>Internal Settings</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

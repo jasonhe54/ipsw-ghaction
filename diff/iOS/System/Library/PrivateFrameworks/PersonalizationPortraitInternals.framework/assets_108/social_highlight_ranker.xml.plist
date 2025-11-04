@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>*</key>
+	<array>
+		<string>isManuallySyndicated</string>
+		<string>creationDateSecondsBeforeNow</string>
+		<string>highlightDateSecondsBeforeNow</string>
+		<string>earliestEngagementSecondsBeforeNow</string>
+		<string>countOfferedInInterval:720.0</string>
+		<string>countHiddenInInterval:8760.0</string>
+		<string>sentFromMe</string>
+		<string>highlightDateInInterval:0.083</string>
+		<string>highlightDateInInterval:1.0</string>
+		<string>lastMessagesInteractionWithSenderSecondsBeforeNow</string>
+		<string>lastNonMessagesInteractionWithSenderSecondsBeforeNow</string>
+		<string>countManualHighlightsFromSender</string>
+		<string>countManualHighlightsFromThread</string>
+		<string>countThreadsWithResourceURL</string>
+		<string>messagesThreadHasDisplayName</string>
+		<string>messagesThreadHasGroupPhoto</string>
+		<string>isContactSignificant</string>
+		<string>countStartedConsumptionInInterval:168.0</string>
+		<string>countFinishedConsumptionInInterval:336.0</string>
+		<string>countAppButtonInInterval:24.0</string>
+		<string>countActivityButtonInInterval:24.0</string>
+		<string>countOfferedInInterval:168.0</string>
+		<string>countEngagedInInterval:720.0</string>
+		<string>meanTopicScore</string>
+		<string>minTopicScore</string>
+		<string>maxTopicScore</string>
+		<string>medianTopicScore</string>
+		<string>countEngagedMatchingDomain</string>
+		<string>countOfferedMatchingDomain</string>
+		<string>countHiddenMatchingDomain</string>
+		<string>countEngagedMatchingDomainFromSender</string>
+		<string>countOfferedMatchingDomainFromSender</string>
+		<string>countHiddenMatchingDomainFromSender</string>
+		<string>countEngagedFromSender</string>
+		<string>countOfferedFromSender</string>
+		<string>countHiddenFromSender</string>
+		<string>countDistinctHighlights</string>
+		<string>fractionEngagedToOfferedFromSender</string>
+		<string>isCollaboration</string>
+	</array>
+</dict>
+</plist>

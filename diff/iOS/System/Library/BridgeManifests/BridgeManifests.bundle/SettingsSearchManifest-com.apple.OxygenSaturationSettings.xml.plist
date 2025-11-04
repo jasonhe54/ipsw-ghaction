@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>BLOOD_OXYGEN_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>BLOOD_OXYGEN_KEYWORDS</string>
+			<key>label</key>
+			<string>BLOOD_OXYGEN</string>
+			<key>searchSectionID</key>
+			<string>com.apple.OxygenSaturationSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.OxygenSaturationSettings</string>
+		</dict>
+	</array>
+</dict>
+</plist>

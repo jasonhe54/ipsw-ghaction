@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CrossProcessPerformance</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>System</string>
+	</dict>
+	<key>HF_Performance</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>HF_PerformanceInfo</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<false/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>PerfSignposts</key>
+	<dict>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+	<key>Performance</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+		<key>Signpost-Scope</key>
+		<string>Process</string>
+	</dict>
+</dict>
+</plist>

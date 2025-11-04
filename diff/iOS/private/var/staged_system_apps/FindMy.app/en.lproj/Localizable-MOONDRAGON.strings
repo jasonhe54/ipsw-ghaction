@@ -1,0 +1,106 @@
+"ITEM_ONBOARDING_DETAIL_MULTI_ITEM_DESCRIPTION" = "%1$@ items were left behind at %2$@ around %3$@. 
+
+Notify When Left Behind lets you know every time you separate from your items or devices. 
+
+You can add locations where you don’t want to be notified, or you can disable this feature in Find My.";
+"ITEM_DETAIL_LEFT_BEHIND_ACTION_TITLE" = "Don’t Notify Me Here…";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_DESCRIPTION" = "This means you will not be notified when you leave your devices or items at this location.";
+"DEVICE_LIST_AIRPODS_BOTH" = "%@ • Right and Left";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_REMOVE_CANCEL_BUTTON" = "Cancel";
+"ITEM_ONBOARDING_DETAIL_CONTINUE" = "Continue";
+"DEVICE_DETAIL_AIRPODS_RIGHT" = "Right AirPod";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_SAFE_LOCATION_ADD_LOCATION" = "Add Location…";
+"ITEM_SAFE_LOCATIONS_HOME" = "Home";
+"ITEM_NOTIFICATIONS_SEPARATION_NOTIFICATION_NOT_NOW" = "Not Now";
+"ITEM_DETAIL_LEFT_BEHIND_TITLE" = "Left at %@";
+"ITEM_SAFE_LOCATIONS_TRUSTED_LOCATION_LIST_TITLE" = "Trusted Locations";
+"ITEM_ONBOARDING_DETAIL_SINGLE_ITEM_DESCRIPTION" = "This item was left behind at %1$@ around %2$@. 
+
+Notify When Left Behind lets you know every time you separate from your items or devices. 
+
+You can add locations where you don’t want to be notified, or you can disable this feature in Find My.";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_OPTION_2_ITEM" = "For this Item";
+"DEVICE_LIST_AIRPODS_LEFT" = "%@ • Left";
+"TRUSTED_LOCATION_UNABLE_TO_REMOVE" = "Unable to Remove Location";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_OPTION_1" = "For all Items and Devices";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_OPTION_3_DEVICES" = "{'these': {'one': 'For this Device', 'other': 'For these %lu Devices', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': '%#@these@'}";
+"AIRPODS_DIRECTIONS_TITLE" = "Select Earbud";
+"DEVICE_OR_ITEM_NOTIFICATIONS_ENABLED_FOR_APPLE_WATCH" = "Enabled for your Apple Watch";
+"ITEM_NOTIFICATIONS_LEFT_BEHIND_FEATURE_DESCRIPTION" = "Receive a notification when you leave “%@” behind. This can be helpful when taking this item with you.";
+"TRUSTED_LOCATION_UNABLE_TO_EDIT_DESCRIPTION" = "There was an error editing this location.";
+"ITEM_DETAIL_NOTIFY_WHEN_LEFT_BEHIND_PAUSED_TITLE" = "Notify When Left Behind is Temporarily Paused";
+"SEPARATION_LEFT_AT_LOCATION_AT_TIME" = "At %1$@ at %2$@.";
+"AIRPODS_DIRECTIONS_CANCEL" = "Cancel";
+"ITEM_SAFE_LOCATIONS_TRUSTED_LOCATION_DESCRIPTION" = "Trusted Locations are places where you leave your items frequently, and where you don’t want to be notified every time.";
+"TRUSTED_LOCATION_UNABLE_TO_EDIT" = "Unable to Edit Location";
+"DEVICE_NOTIFICATIONS_LEFT_BEHIND_FEATURE_DESCRIPTION" = "Receive a notification when you leave “%@” behind. This can be helpful when taking this device with you.";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_SAFE_LOCATION_FOOTER" = "You will not be notified if this Tag is left at these locations.";
+"DEVICE_ONBOARDING_DETAIL_MULTI_DEVICE_TITLE" = "{'value': {'one': '1 Device Was Left Behind', 'other': '%lu Devices Were Left Behind', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"ITEM_DETAIL_NOTIFY_WHEN_LEFT_BEHIND_UNSUPPORTED" = "Not supported";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_SAFE_LOCATION_EDIT_HOME" = "Edit Home Location";
+"DEVICE_OR_ITEM_NOTIFICATIONS_DISABLED_FOR_APPLE_WATCH" = "Disabled for your Apple Watch";
+"SEPARATION_DONT_NOTIFY_FOR_THIS_ITEM_OR_DEVICE" = "Don’t Notify for %@";
+"ITEM_SAFE_LOCATIONS_SUGGESTION_TITLE" = "SUGGESTIONS";
+"ITEM_ONBOARDING_DETAIL_MULTI_ITEM_TITLE" = "{'value': {'one': '1 Item Was Left Behind', 'other': '%lu Items Were Left Behind', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"DEVICE_DETAIL_AIRPODS_BOTH" = "Right and Left AirPods";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_UPDATES" = "Notify if Left Behind";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_REMOVE_ACTION_BUTTON" = "Remove";
+"ITEM_NOTIFICATIONS_SEPARATION_NOTIFICATION_BODY" = "This Tag is no longer with you.";
+"TRUSTED_LOCATION_UNABLE_TO_ADD" = "Unable to Add Location";
+"ITEM_NOTIFICATIONS_SEPARATION_WELCOME_SAFE_LOCATION_DESCRIPTION" = "“Notify When Left Behind” uses Home in your contact card as a Trusted Location. 
+
+Trusted Locations are places where you leave your items frequently, and where you don’t want to be notified every time.";
+"DEVICE_ONBOARDING_DETAIL_SINGLE_DEVICE_DESCRIPTION" = "This device was left behind at %1$@ around %2$@. 
+
+Notify When Left Behind lets you know every time you separate from your items or devices. 
+
+You can add locations where you don’t want to be notified, or you can disable this feature in Find My.";
+"ITEM_DETAIL_MAX_NUM_TRUSTED_SUBTITLE" = "You may not add more than 20 locations.";
+"ITEM_DETAIL_NOTIFY_WHEN_LEFT_BEHIND_PAUSED_MESSAGE" = "You have not connected to your AirPods recently. This feature is temporarily paused to save battery life. To resume using this feature, reconnect to your AirPods.";
+"ITEM_DETAIL_LEFT_BEHIND_ACTION_TITLE_ADDED" = "Edit Notify When Left Behind";
+"ITEM_ONBOARDING_SECONDARY_ACTION" = "Don’t Notify Me";
+"ITEM_NOTIFICATIONS_LEFT_BEHIND_TRUSTED_LOCATION_DESCRIPTION" = "“%@” will receive notifications for this item, and some locations can only be modified from that device.";
+"TRUSTED_LOCATION_UNABLE_TO_ADD_DESCRIPTION" = "There was an error adding this location.";
+"DEVICE_LIST_AIRPODS_RIGHT" = "%@ • Right";
+"ITEM_NOTIFICATIONS_SEPARATION_NOTIFICATION_ADD" = "Add safe location";
+"ITEM_DETAIL_NOTIFY_WHEN_LEFT_BEHIND_PAUSED" = "Paused";
+"TRUSTED_LOCATION_UNABLE_TO_REMOVE_DESCRIPTION" = "There was an error removing this location.";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_OPTION_2_DEVICE" = "For this Device";
+"ITEM_DETAIL_TRUSTED_LOCATION_ACTION" = "Edit Locations";
+"SEPARATION_DONT_NOTIFY_FOR_THIS_LOCATION_INFO" = "This will stop notifying you when any of your devices or items are left at %@";
+"ITEM_DETAIL_NOTIFY_WHEN_LEFT_BEHIND_UNAVAILABLE" = "Temporarily unavailable";
+"ITEM_NOTIFICATIONS_SEPARATION_WELCOME_DESCRIPTION" = "“Notify When Left Behind” lets you know every time you separate from your items at an unknown location. 
+
+This can be helpful for items or devices you take with you while traveling or visiting public locations.";
+"SEPARATION_DONT_NOTIFY_FOR_THIS_LOCATION" = "Don’t Notify for This Location";
+"ITEM_DETAIL_MAX_NUM_TRUSTED_TITLE" = "Unable to Add Location";
+"ITEM_DETAIL_TRUSTED_LOCATION_TITLE" = "Trusted Locations";
+"ITEM_NOTIFICATIONS_LEFT_BEHIND_TRUSTED_LOCATION_SECTION" = "NOTIFY ME, EXCEPT AT:";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_REMOVE_MESSAGE" = "Are you sure you want to remove this location?";
+"ITEM_NOTIFICATIONS_EDIT_TITLE" = "Notifications";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_UPDATES_BACK" = "Back";
+"ITEM_DETAIL_DONT_NOTIFY_AT" = "Don’t Notify At…";
+"DEVICE_DETAIL_AIRPODS_LEFT_TIMESTAMP" = "Left: %1$@";
+"AIRPODS_DIRECTIONS_MESSAGE" = "It seems your earbuds are separated from each other. To which earbud do you want to receive directions?";
+"ITEM_NOTIFICATIONS_SEPARATION_TITLE" = "Notify if Left Behind";
+"ITEM_ONBOARDING_DETAIL_SINGLE_ITEM_TITLE" = "%@ Was Left Behind";
+"ITEM_DETAIL_LEFT_BEHIND_SUBTITLE_ADDED" = "At %@";
+"SEPARATION_DONT_NOTIFY_FOR_THIS_ITEM_OR_DEVICE_INFO" = "This will disable Notify When Left Behind for %@";
+"ITEM_DETAIL_LEFT_BEHIND_SUBTITLE" = "Notifications enabled.";
+"DEVICE_ONBOARDING_DETAIL_MULTI_DEVICE_DESCRIPTION" = "%1$@ devices were left behind at %2$@ around %3$@. 
+
+Notify When Left Behind lets you know every time you separate from your items or devices. 
+
+You can add locations where you don’t want to be notified, or you can disable this feature in Find My.";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_TITLE" = "Don’t notify at %@?";
+"ITEM_DETAIL_DONT_NOTIFY_CONFIRMATION_OPTION_3_ITEMS" = "{'these': {'one': 'For this Item', 'other': 'For these %lu Items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': '%#@these@'}";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_SAFE_LOCATION_HEADER" = "EXCEPT AT THESE LOCATIONS";
+"DEVICE_DETAIL_AIRPODS_RIGHT_TIMESTAMP" = "Right: %1$@";
+"ITEM_NOTIFICATIONS_EDIT_SEPARATION_UPDATES_FOOTER" = "You will receive a notification when you and this Tag are no longer in the same location.";
+"DEVICE_NOTIFICATIONS_LEFT_BEHIND_TRUSTED_LOCATION_DESCRIPTION" = "“%@” will receive notifications for this device, and some locations can only be modified from that device.";
+"ITEM_DETAIL_NOTIFY_WHEN_LEFT_BEHIND" = "Notify When Left Behind";
+"ITEM_ONBOARDING_DETAIL_SINGLE_ITEM_DEFAULT_TITLE" = "Item";
+"ITEM_DETAIL_LEFT_BEHIND_TITLE_ADDED" = "You will not be notified";
+"DEVICE_DETAIL_AIRPODS_LEFT" = "Left AirPod";
+"DEVICE_ONBOARDING_DETAIL_SINGLE_DEVICE_TITLE" = "%@ Was Left Behind";
+"ITEM_SAFE_LOCATIONS_NEW_LOCATION" = "New Location";

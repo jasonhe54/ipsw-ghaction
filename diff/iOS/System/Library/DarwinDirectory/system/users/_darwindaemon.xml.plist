@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>284</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011C</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>Darwin Daemon</string>
+	<key>homeDirectory</key>
+	<string>/var/db/darwindaemon</string>
+	<key>memberships</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012B</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011C</string>
+	</array>
+	<key>name</key>
+	<string>_darwindaemon</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011C</string>
+	<key>shell</key>
+	<string>/usr/bin/false</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

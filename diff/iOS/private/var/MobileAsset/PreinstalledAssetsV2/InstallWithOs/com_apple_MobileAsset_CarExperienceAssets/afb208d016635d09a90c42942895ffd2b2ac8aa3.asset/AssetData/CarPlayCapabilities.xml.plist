@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>features</key>
+	<dict>
+		<key>dashboardRoundedCorners</key>
+		<string>{{13, 0}, {0, 0}}</string>
+		<key>nowPlayingAlbumArt</key>
+		<string>2</string>
+		<key>rightHandDriveFlip</key>
+		<string>0</string>
+		<key>userInfo</key>
+		<dict/>
+		<key>userInterfaceStyle</key>
+		<string>2</string>
+		<key>viewAreaInsets</key>
+		<string>{{0, 0}, {0, 0}}</string>
+		<key>zoomFactor</key>
+		<string></string>
+	</dict>
+	<key>properties</key>
+	<array>
+		<string>PPID</string>
+		<string>infoResponse.sourceVersion</string>
+		<string>modelName</string>
+		<string>numberOfScreens</string>
+		<string>primaryDisplayFirstViewAreaSize</string>
+		<string>primaryDisplayPhysicalSize</string>
+		<string>secondaryDisplayFirstViewAreaSize</string>
+		<string>vehicleFirmwareVersion</string>
+		<string>vehicleHardwareVersion</string>
+		<string>vehicleManufacturer</string>
+		<string>vehicleModelName</string>
+		<string>vehicleName</string>
+	</array>
+	<key>vehicles</key>
+	<array>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>0</string>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Toyota Multimedia</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>TOYOTA MOTOR CORPORATION</string>
+			<key>vehicleModelName</key>
+			<string>*172611125*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Harman</string>
+			<key>vehicleModelName</key>
+			<string>TAS500</string>
+			<key>vehicleName</key>
+			<string>Car Multimedia</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Harman</string>
+			<key>vehicleModelName</key>
+			<string>Toyota 86</string>
+			<key>vehicleName</key>
+			<string>Car Multimedia</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Harman</string>
+			<key>vehicleModelName</key>
+			<string>YARIS</string>
+			<key>vehicleName</key>
+			<string>Toyota Play+</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>0</string>
+				<key>viewAreaInsets</key>
+				<string>{{14, 0}, {14, 0}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Panasonic</string>
+			<key>vehicleModelName</key>
+			<string>Chrysler Pacifica</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>ALPINE</string>
+			<key>vehicleModelName</key>
+			<string>MIB2+</string>
+			<key>vehicleName</key>
+			<string>AUDI MMI</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>0</string>
+				<key>viewAreaInsets</key>
+				<string>{{6, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleHardwareVersion</key>
+			<string>E2</string>
+			<key>vehicleManufacturer</key>
+			<string>Chevrolet</string>
+			<key>vehicleModelName</key>
+			<string>MyLink</string>
+			<key>vehicleName</key>
+			<string>Chevrolet MyLink</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>0</string>
+				<key>viewAreaInsets</key>
+				<string>{{4, 4}, {4, 4}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Volvo Car Corporation</string>
+			<key>vehicleModelName</key>
+			<string>Volvo XC40</string>
+			<key>vehicleName</key>
+			<string>My Volvo Car</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>0</string>
+				<key>viewAreaInsets</key>
+				<string>{{4, 4}, {4, 4}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Volvo Car Corporation</string>
+			<key>vehicleModelName</key>
+			<string>VCC SPA</string>
+			<key>vehicleName</key>
+			<string>My Volvo Car</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>MINI</string>
+			<key>vehicleModelName</key>
+			<string>*-NBTEvo-*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>MINI</string>
+			<key>vehicleModelName</key>
+			<string>*-EntryEVO-*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>BMW</string>
+			<key>vehicleModelName</key>
+			<string>*-NBTEvo-*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>BMW</string>
+			<key>vehicleModelName</key>
+			<string>*-EntryEVO-*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>ACURA/0B</string>
+			<key>vehicleName</key>
+			<string>*Acura*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Ford Motor Company</string>
+			<key>vehicleName</key>
+			<string>SYNC 3</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>*SBX-12.1*</string>
+			<key>vehicleManufacturer</key>
+			<string>Panasonic</string>
+			<key>vehicleModelName</key>
+			<string>*RAM*</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Delphi</string>
+			<key>vehicleModelName</key>
+			<string>GTC4Lusso</string>
+			<key>vehicleName</key>
+			<string>Ferrari GTC4Lusso</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Delphi</string>
+			<key>vehicleModelName</key>
+			<string>GTC4Portofino</string>
+			<key>vehicleName</key>
+			<string>Ferrari GTC4Portofino</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{136, 82}</string>
+			<key>vehicleManufacturer</key>
+			<string>Ford Motor Company</string>
+			<key>vehicleModelName</key>
+			<string>Ford Explorer</string>
+			<key>vehicleName</key>
+			<string>SYNC 3</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>*MIB3*</string>
+			<key>vehicleModelName</key>
+			<string>*PORSCHE*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{147, 128}</string>
+			<key>vehicleManufacturer</key>
+			<string>Renault</string>
+			<key>vehicleName</key>
+			<string>Easylink</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>cb870e9f</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>0</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>Mercedes-Benz</string>
+			<key>vehicleModelName</key>
+			<string>*MB_C*</string>
+			<key>vehicleName</key>
+			<string>*MB*</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>478f2178</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>23c89abf</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>63598e8b</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{171, 94}</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+				<key>zoomFactor</key>
+				<string>85</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{144, 156}</string>
+			<key>vehicleManufacturer</key>
+			<string>DENSO</string>
+			<key>vehicleName</key>
+			<string>SUBARU</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleModelName</key>
+			<string>CV-RT29N04J</string>
+			<key>vehicleName</key>
+			<string>TOYOTA Highlander</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>82623fa3</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>86a6561b</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{6, 4}, {0, 0}}</string>
+			</dict>
+			<key>vehicleModelName</key>
+			<string>MIB2+</string>
+			<key>vehicleName</key>
+			<string>PORSCHE</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {8, 8}}</string>
+			</dict>
+			<key>vehicleModelName</key>
+			<string>*NTG5.1_HUE_CY15.2*</string>
+			<key>vehicleName</key>
+			<string>MB Infotainment</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>40b26c13</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{182, 109}</string>
+			<key>vehicleManufacturer</key>
+			<string>TOYOTA MOTOR CORPORATION</string>
+			<key>vehicleModelName</key>
+			<string>172611252</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>c23db236</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>vehicleModelName</key>
+			<string>RG3</string>
+			<key>vehicleName</key>
+			<string>GENESIS</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>8f5adf3b</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>vehicleHardwareVersion</key>
+			<string>X30</string>
+			<key>vehicleManufacturer</key>
+			<string>Seat</string>
+			<key>vehicleName</key>
+			<string>My SEAT</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>a5c86c11</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>f0c91b32</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>76bb33d0</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>a81595de</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>a9d51e4f</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>95b35e7</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>842d017a</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>690b8542</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>e2c77d4b</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>e2c77d4b</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>vehicleManufacturer</key>
+			<string>SKODA</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>1c0a1678</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>38c4c9a3</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>e34d04db</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>6616348</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>80f9efc3</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>401cfd46</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>e8b6c0aa</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>96ce4d0</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{177, 99}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>86986000000</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>bb7c77c8</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>2996b8f6</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>0ae0c8ed</string>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>44296f26</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>abf2c997</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>545731e7</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>*CL32_MIB3H*</string>
+			<key>vehicleManufacturer</key>
+			<string>DELPHI</string>
+			<key>vehicleName</key>
+			<string>*Audi*</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>6203d5a1</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>4dbed3ea</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>be680ad9884e477c</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>8359b1b3</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>9669b1b681564f85</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>fd92cef2</string>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>5cd68fa4</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>194e1001</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{162, 91}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>068ba756</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>060db220</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>5df4d65a</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>a49db2f2</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>6fbaff7b</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>6b0bb1d6</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{152, 76}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>6b0bb1d6</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{170, 94}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>12c99c81</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {0, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{226, 117}</string>
+			<key>vehicleManufacturer</key>
+			<string>General Motors</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>ea664732</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>2436c56d</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>98af313f544f4e54</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{227, 91}</string>
+			<key>vehicleManufacturer</key>
+			<string>Land Rover</string>
+			<key>vehicleName</key>
+			<string>Range Rover Velar</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>dddad6634a12411c</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 0}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>40e01112deb24eec</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>0df914a9</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 0}, {8, 0}}</string>
+			</dict>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{213, 120}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>c83d1336d12341e0</string>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>41aefada5b474e9e</string>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>e743c8fd6efe4144</string>
+			<key>features</key>
+			<dict>
+				<key>rightHandDriveFlip</key>
+				<string>1</string>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>d43a70db</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{0, 8}, {0, 8}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {8, 8}}</string>
+			</dict>
+			<key>infoResponse.sourceVersion</key>
+			<string>*210.*</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {8, 8}}</string>
+			</dict>
+			<key>infoResponse.sourceVersion</key>
+			<string>*280.*</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {8, 8}}</string>
+			</dict>
+			<key>infoResponse.sourceVersion</key>
+			<string>*320.*</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>fc496624</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>9c3136d2dc394502</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>98e2fa52</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>f826c6ee2014455d</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>b7347a21</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>dc8886fc0425486c</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>latencyCorrectionSeconds</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>infoResponse.sourceVersion</key>
+			<string>*210.*</string>
+			<key>vehicleManufacturer</key>
+			<string>*HYUNDAI MOBIS*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>latencyCorrectionSeconds</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>infoResponse.sourceVersion</key>
+			<string>*210.*</string>
+			<key>vehicleManufacturer</key>
+			<string>Volvo Car Corporation</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>latencyCorrectionSeconds</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>infoResponse.sourceVersion</key>
+			<string>*210.*</string>
+			<key>vehicleManufacturer</key>
+			<string>*MITSUBISHI MOTORS*</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>latencyCorrectionSeconds</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>1.F196.34</string>
+			<key>vehicleHardwareVersion</key>
+			<string>11.100</string>
+			<key>vehicleManufacturer</key>
+			<string>HONDA/09</string>
+			<key>vehicleModelName</key>
+			<string>HMCTBA</string>
+			<key>vehicleName</key>
+			<string>HONDA</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>c7290754b340458f</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>*1452*</string>
+			<key>vehicleManufacturer</key>
+			<string>Toyota Multimedia</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>39ea0365b04746c2</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>5bec6cc28dd347d5</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>24d0addb470849cb</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>389dc196ad4d473b</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>e967faf9b0fd4323</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>13d7ca1d</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>4e88ccad</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>c7290754b340458f</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+				<key>userInterfaceStyle</key>
+				<string>0</string>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>*1564*</string>
+			<key>vehicleManufacturer</key>
+			<string>Toyota Multimedia</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>f72eaac393bd4fea</string>
+			<key>features</key>
+			<dict>
+				<key>viewAreaInsets</key>
+				<string>{{8, 8}, {0, 0}}</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>dd86e4e6</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>vehicleFirmwareVersion</key>
+			<string>*ISH.11.07.29*</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>efdaa50fb2ba411f</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>fc8bc3fb0e104e52</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1792, 718}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>6d2b84f957b64d16</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1792, 718}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>5bec6cc28dd347d5</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1792, 718}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>fc8bc3fb0e104e52</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{2240, 896}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>fc8bc3fb0e104e52</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150d</string>
+				</dict>
+			</dict>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{964, 964}</string>
+		</dict>
+		<dict>
+			<key>PPID</key>
+			<string>5bec6cc28dd347d5</string>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+					<key>showsInstrumentsIdentifier</key>
+					<string>dd44b566-fa53-4893-b573-b6344b262958</string>
+				</dict>
+			</dict>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1920, 900}</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>numberOfScreens</key>
+			<string>3</string>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{1920, 834}</string>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1792, 718}</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>numberOfScreens</key>
+			<string>3</string>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{1910, 834}</string>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1792, 718}</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>disableFlexibleFollowup</key>
+					<true/>
+					<key>showsInstrumentsIdentifier</key>
+					<string>dd44b566-fa53-4893-b573-b6344b262958</string>
+				</dict>
+			</dict>
+			<key>numberOfScreens</key>
+			<string>3</string>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{2736, 798}</string>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{1920, 900}</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>numberOfScreens</key>
+			<string>3</string>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{2880, 840}</string>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{2240, 896}</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>userInfo</key>
+				<dict>
+					<key>showsInstrumentsIdentifier</key>
+					<string>e5f7a68d-7b0f-4305-984b-974f677a150c</string>
+				</dict>
+			</dict>
+			<key>numberOfScreens</key>
+			<string>3</string>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{2544, 742}</string>
+			<key>secondaryDisplayFirstViewAreaSize</key>
+			<string>{2240, 896}</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>zoomFactor</key>
+				<string>101</string>
+			</dict>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{1228, 614}</string>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{200, 100}</string>
+			<key>vehicleManufacturer</key>
+			<string>Volkswagen</string>
+			<key>vehicleModelName</key>
+			<string>Magotan B8L PA</string>
+			<key>vehicleName</key>
+			<string>Head Unit CNS3 Optionsinfotainment</string>
+		</dict>
+		<dict>
+			<key>features</key>
+			<dict>
+				<key>zoomFactor</key>
+				<string>101</string>
+			</dict>
+			<key>primaryDisplayFirstViewAreaSize</key>
+			<string>{800, 1050}</string>
+			<key>primaryDisplayPhysicalSize</key>
+			<string>{161, 211}</string>
+			<key>vehicleName</key>
+			<string>Uconnect</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>25</string>
+</dict>
+</plist>

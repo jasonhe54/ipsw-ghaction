@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>45B6920D-B93B-4A91-815B-874312410EFB</key>
+	<dict>
+		<key>resources</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/System/Library/PrivateFrameworks/TextGeneration.framework/nogithub_commercial_49k_instructlm_code</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>e5FunctionName</key>
+				<string>ane_extend_1024</string>
+				<key>path</key>
+				<string>/System/Library/PrivateFrameworks/TextGeneration.framework/extend_ane_lut4.bundle</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

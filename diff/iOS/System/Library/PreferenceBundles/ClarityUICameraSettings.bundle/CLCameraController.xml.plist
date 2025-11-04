@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>CAPTURE_OPTIONS</string>
+			<key>label</key>
+			<string>CAPTURE_OPTIONS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>isCapturePhotosEnabled:</string>
+			<key>id</key>
+			<string>UI_OPTION_CAPTURE_PHOTO</string>
+			<key>label</key>
+			<string>CAPTURE_PHOTO</string>
+			<key>set</key>
+			<string>setCapturePhotosEnabled:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>isCaptureSelfieEnabled:</string>
+			<key>id</key>
+			<string>UI_OPTION_CAPTURE_SELFIE</string>
+			<key>label</key>
+			<string>CAPTURE_SELFIE</string>
+			<key>set</key>
+			<string>setCaptureSelfieEnabled:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>isCaptureVideosEnabled:</string>
+			<key>id</key>
+			<string>UI_OPTION_CAPTURE_VIDEO</string>
+			<key>label</key>
+			<string>CAPTURE_VIDEO</string>
+			<key>set</key>
+			<string>setCaptureVideosEnabled:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>isCaptureSelfieVideoEnabled:</string>
+			<key>id</key>
+			<string>UI_OPTION_CAPTURE_VIDEO_SELFIE</string>
+			<key>label</key>
+			<string>CAPTURE_VIDEO_SELFIE</string>
+			<key>set</key>
+			<string>setCaptureSelfieVideoEnabled:specifier:</string>
+		</dict>
+	</array>
+</dict>
+</plist>

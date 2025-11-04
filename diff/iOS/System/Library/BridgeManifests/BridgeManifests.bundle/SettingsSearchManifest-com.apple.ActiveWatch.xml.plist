@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>APPLE_WATCH_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>APPLE_WATCH_KEYWORDS</string>
+			<key>label</key>
+			<string>APPLE_WATCH</string>
+			<key>searchSectionID</key>
+			<string>ActiveWatch</string>
+			<key>searchURL</key>
+			<string>bridge:root=ActiveWatch</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>UNPAIR_WATCH_DESCRIPTION</string>
+			<key>label</key>
+			<string>UNPAIR_WATCH</string>
+			<key>searchSectionID</key>
+			<string>ActiveWatch</string>
+			<key>searchURL</key>
+			<string>bridge:root=ActiveWatch</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>MARK_AS_MISSING</string>
+			<key>searchSectionID</key>
+			<string>ActiveWatch</string>
+			<key>searchURL</key>
+			<string>bridge:root=ActiveWatch</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>FIND_MY_APPLE_WATCH</string>
+			<key>searchSectionID</key>
+			<string>ActiveWatch</string>
+			<key>searchURL</key>
+			<string>bridge:root=ActiveWatch</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>PAIR_NEW_WATCH_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>PAIR_NEW_WATCH_KEYWORDS</string>
+			<key>label</key>
+			<string>PAIR_NEW_WATCH</string>
+			<key>searchSectionID</key>
+			<string>ActiveWatch</string>
+			<key>searchURL</key>
+			<string>bridge:root=ActiveWatch&amp;path=Pair%20New%20Watch</string>
+		</dict>
+	</array>
+</dict>
+</plist>

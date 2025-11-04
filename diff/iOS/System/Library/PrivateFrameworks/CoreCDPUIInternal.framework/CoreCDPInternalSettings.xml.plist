@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>UI Test Setup</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>ForeceInLine</string>
+			<key>label</key>
+			<string>Use Inline (Buddy) UI</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>DidUseSMS</string>
+			<key>label</key>
+			<string>Signed in using SMS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>OfferRemoteApproval</string>
+			<key>label</key>
+			<string>Offer Remote Approval</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>OfferAccountReset</string>
+			<key>label</key>
+			<string>Offer Account Reset</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>OfferCustodianRecovery</string>
+			<key>label</key>
+			<string>Offer Custodian Recovery</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>OfferRecoveryKey</string>
+			<key>label</key>
+			<string>Offer Recovery Key</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>ContextTypeRepair</string>
+			<key>label</key>
+			<string>Context Repair</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>NumberOfDevices</string>
+			<key>label</key>
+			<string>Number of Devices</string>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>Single</string>
+				<string>Multiple</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>DevicePlatforms</string>
+			<key>label</key>
+			<string>Platforms</string>
+			<key>validTitles</key>
+			<array>
+				<string>All iOS</string>
+				<string>All OS X</string>
+				<string>Mix</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Local Secret UI Tests</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptForLocalSecret:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for Local Secret (Passcode)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Remote Secret UI Tests</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptFor4DigitRemoteSecret:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for 4 Digit Numeric Remote Secret</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptFor6DigitRemoteSecret:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for 6 Digit Numeric Remote Secret</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptForCustomNumericRemoteSecret:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for Custom Numeric Remote Secret</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptForCustomAlphanumericRemoteSecret:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for Custom Alphanumeric Remote Secret</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Single-ICSC UI Tests</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptFor4DigitICSC:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for 4 Digit Numeric ICSC (1234)</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptFor6DigitICSC:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for 6 Digit Numeric ICSC (123456)</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptForComplexICSC:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for Complex ICSC (Chuck)</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>promptForRandomICSC:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Prompt for Random ICSC</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>iCSC as Recovery Tests</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginIDMSRecoveryPrimary:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Begin IDMS Recovery Flow for Primary Account</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginIDMSRecovery:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Begin IDMS Recovery Flow</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginIDMSRecoveryRK:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Begin IDMS Recovery Flow - RK</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginFMIPRecovery:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Begin FMIP Recovery Flow</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Recovery Key Tests</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Account Upgrade Flow UI Tests</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>deviceToDeviceAccountUpgradeCardUI:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Account Upgrade Flow - Card UI</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Beneficiary UI</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>startBeneficiaryFlow:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Start Access Key Entry Flow</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.corecdp</string>
+			<key>key</key>
+			<string>AccountRecoveryRKMandate</string>
+			<key>label</key>
+			<string>Set RKMandate</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginIDMSRecoveryWithRKSkip:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Begin IDMS Recovery Flow with RK Skip</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>EDP Token</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>openEDPTokenSettingsPane:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>EDP Token Pane</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginEDPTokenEntryFlowForHSA2User:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>HSA2 Recovery With EDP Token</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginEDPTokenEntryFlowForNonHSA2User:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>SA Recovery With EDP Token</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginDirectFallbackToEDPToken:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Direct Fallback to EDP Token</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>beginEventualFallbackToEDPToken:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Eventual Fallback to EDP Token</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>iCDP</string>
+</dict>
+</plist>

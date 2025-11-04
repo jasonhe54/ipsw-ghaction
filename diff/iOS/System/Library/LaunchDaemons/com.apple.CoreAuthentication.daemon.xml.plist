@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>Label</key>
+	<string>com.apple.CoreAuthentication.daemon</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.BiometricKit.matchOperationStartAttempted</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.BiometricKit.matchOperationStartAttempted</string>
+			</dict>
+			<key>com.apple.springboard.lockstate</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.springboard.lockstate</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.CoreAuthentication.daemon</key>
+		<dict/>
+		<key>com.apple.CoreAuthentication.daemon.libxpc</key>
+		<dict/>
+		<key>com.apple.LocalAuthentication.RemoteUIHost</key>
+		<dict/>
+		<key>com.apple.usernotifications.delegate.com.apple.CoreAuthUI</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.LocalAuthenticationUIService</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

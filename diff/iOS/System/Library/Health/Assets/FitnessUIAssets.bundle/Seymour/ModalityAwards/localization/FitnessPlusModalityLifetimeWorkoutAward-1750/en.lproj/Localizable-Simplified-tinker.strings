@@ -1,0 +1,10 @@
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I’m going to earn this award by completing 1750 Fitness+ {{seymour_workout_modality}} workouts.'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I just did my {{1750:ordinal}} Fitness+ {{seymour_workout_modality}} workout!'}";
+"ACHIEVEMENT_UNACHIEVED_DESCRIPTION" = "{'goal_value': {'one': '%ld Fitness+ {{seymour_workout_modality}} workout', 'other': '%ld Fitness+ {{seymour_workout_modality}} workouts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'progress_value': {'one': '%ld workout', 'other': '%ld workouts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'Earn this award by completing %#@goal_value@. You’ve completed %#@progress_value@ so far.'}";
+"ACHIEVEMENT_ACHIEVED_FRIEND_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{user_first_name}} earned this award for their {{1750:ordinal}} Fitness+ {{seymour_workout_modality}} workout on {{earned_date:date}}.'}";
+"ACHIEVEMENT_YESTERDAY_DESC" = "{'NSStringLocalizedFormatKey': 'Yesterday marked 1750 {{seymour_workout_modality}} workouts on Fitness+. 🎉'}";
+"ACHIEVEMENT_ACHIEVED_ALERT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You’ve done 1750 Fitness+ {{seymour_workout_modality}} workouts. Amazing!'}";
+"ACHIEVEMENT_TITLE" = "{'NSStringLocalizedFormatKey': '1750 Fitness+ {{seymour_workout_modality}} Workouts'}";
+"ACHIEVEMENT_UNACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{progress_value}} of {{goal_value}}'}";
+"ACHIEVEMENT_ACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{earned_date:date}}'}";
+"ACHIEVEMENT_ACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You earned this award for your {{1750:ordinal}} Fitness+ {{seymour_workout_modality}} workout on {{earned_date:date}}.'}";

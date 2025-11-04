@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>UPCOMING_EVENTS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoCalendarBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Upcoming%20Events</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>INVITATIONS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoCalendarBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Invitations</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>INVITEE_RESPONSES</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoCalendarBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Invitee%20Responses</string>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>SHARED_CALENDAR_ALERTS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoCalendarBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoCalendarBridgeSettings&amp;path=Shared%20Calendar%20Alerts</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>SettingsSearchManifest</string>
+</dict>
+</plist>

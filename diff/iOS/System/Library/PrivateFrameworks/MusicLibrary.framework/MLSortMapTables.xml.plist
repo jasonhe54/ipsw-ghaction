@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>container</key>
+	<dict>
+		<key>name_order</key>
+		<array>
+			<string>container.name</string>
+		</array>
+	</dict>
+	<key>item</key>
+	<dict>
+		<key>album_artist_order</key>
+		<array>
+			<string>(SELECT IFNULL(sort_album_artist, ML3SortString(album_artist)) AS name, album_artist_pid AS pid FROM album_artist)</string>
+			<string>item.album_artist_pid</string>
+		</array>
+		<key>album_order</key>
+		<array>
+			<string>(SELECT (CASE WHEN season_number &gt; 0 THEN season_number ELSE IFNULL(sort_album, ML3SortString(album)) END) AS name, album_pid AS pid FROM album)</string>
+			<string>item.album_pid</string>
+		</array>
+		<key>composer_order</key>
+		<array>
+			<string>(SELECT IFNULL(sort_composer, ML3SortString(composer)) AS name, composer_pid AS pid FROM composer)</string>
+			<string>item.composer_pid</string>
+		</array>
+		<key>genre_order</key>
+		<array>
+			<string>(SELECT genre AS name, genre_id AS pid FROM genre)</string>
+			<string>item.genre_id</string>
+		</array>
+		<key>item_artist_order</key>
+		<array>
+			<string>(SELECT IFNULL(sort_item_artist, ML3SortString(item_artist)) AS name, item_artist_pid AS pid FROM item_artist)</string>
+			<string>item.item_artist_pid</string>
+		</array>
+		<key>series_name_order</key>
+		<array>
+			<string>(SELECT IFNULL(IFNULL(sort_series_name, ML3SortString(series_name)), IFNULL(sort_item_artist, ML3SortString(item_artist))) AS name, item_artist_pid AS pid FROM item_artist)</string>
+			<string>item.item_artist_pid</string>
+		</array>
+		<key>title_order</key>
+		<array>
+			<string>(SELECT IFNULL(sort_title, ML3SortString(title)) AS name, item_pid AS pid FROM item_extra)</string>
+			<string>item.item_pid</string>
+		</array>
+	</dict>
+</dict>
+</plist>

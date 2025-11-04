@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>DYLD_PAGEIN_LINKING</key>
+		<string>0</string>
+	</dict>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>Label</key>
+	<string>com.apple.fairplaydeviceidentityd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.fairplaydeviceidentityd.baa-prefetch</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Interval</key>
+				<integer>43200</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>RandomInitialDelay</key>
+				<integer>21600</integer>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+				<key>RequiresClassC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.fairplaydeviceidentityd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/fairplaydeviceidentityd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Queries</key>
+	<array>
+		<string>PRAGMA foreign_keys = OFF</string>
+		<string>PRAGMA synchronous = OFF</string>
+		<string>DROP TABLE IF EXISTS APDBAdSignalTrack</string>
+		<string>DROP TABLE IF EXISTS APDBExperimentationReport</string>
+		<string>PRAGMA foreign_keys = ON</string>
+		<string>PRAGMA synchronous = NORMAL</string>
+		<string>CREATE TABLE IF NOT EXISTS APDBExperimentationReport (rowid INTEGER PRIMARY KEY, triggerRowId INTERGER NOT NULL, source INTEGER NOT NULL, adFormatType INTEGER NOT NULL, slot INTEGER DEFAULT NULL, day INTEGER NOT NULL, slotVisibleAdCount INTEGER DEFAULT 0, slotVisibleNoAdCount INTEGER DEFAULT 0, impressionCount INTEGER DEFAULT 0, clickCount INTEGER DEFAULT 0, downloadCount INTEGER DEFAULT 0, redownloadCount INTEGER DEFAULT 0, preOrderPlacedCount INTEGER DEFAULT 0, viewDownloadCount INTEGER DEFAULT 0, viewRedownloadCount INTEGER DEFAULT 0, viewPreorderPlacedCount INTEGER DEFAULT 0, FOREIGN KEY (triggerRowId) REFERENCES APDBTrigger(rowid) ON DELETE CASCADE)</string>
+		<string>CREATE INDEX IF NOT EXISTS idx_ExperimentationReport_AdFormat_day ON APDBExperimentationReport (triggerRowId, source, adFormatType, day) WHERE slot IS NULL</string>
+		<string>CREATE INDEX IF NOT EXISTS idx_ExperimentationReport_AdFormat_day_slot ON APDBExperimentationReport (triggerRowId, source, adFormatType, day, slot) WHERE slot IS NOT NULL</string>
+		<string>CREATE INDEX IF NOT EXISTS idx_ExperimentationReport_day_source ON APDBExperimentationReport (day, source)</string>
+		<string>CREATE TABLE IF NOT EXISTS APDBAdSignalTrack (rowid INTEGER PRIMARY KEY, triggerRowId INTEGER NOT NULL, impressionId TEXT NOT NULL, source INTEGER DEFAULT NULL, adFormatType INTEGER DEFAULT NULL, slot INTEGER DEFAULT NULL, slotVisibleAd INTEGER DEFAULT 0, slotVisibleNoAd INTEGER DEFAULT 0, impression INTEGER DEFAULT 0, click INTEGER DEFAULT 0, download INTEGER DEFAULT 0, redownload INTEGER DEFAULT 0, preOrderPlaced INTEGER DEFAULT 0, viewDownload INTEGER DEFAULT 0, viewRedownload INTEGER DEFAULT 0, viewPreorderPlaced INTEGER DEFAULT 0, updateTimestamp REAL NOT NULL, FOREIGN KEY (triggerRowId) REFERENCES APDBTrigger(rowid))</string>
+		<string>CREATE INDEX IF NOT EXISTS idx_AdSignalTrack_triggerRowId ON APDBAdSignalTrack (triggerRowId)</string>
+	</array>
+</dict>
+</plist>

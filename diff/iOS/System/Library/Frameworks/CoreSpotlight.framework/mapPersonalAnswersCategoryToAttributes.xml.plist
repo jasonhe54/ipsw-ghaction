@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CAT_Breakfast</key>
+	<array>
+		<string>kMDItemEventRestaurantReservationId</string>
+		<string>kMDItemEventRestaurantReservationForName</string>
+		<string>kMDItemEventRestaurantReservationForAddress</string>
+	</array>
+	<key>CAT_Dinner</key>
+	<array>
+		<string>kMDItemEventRestaurantReservationId</string>
+		<string>kMDItemEventRestaurantReservationForName</string>
+		<string>kMDItemEventRestaurantReservationForAddress</string>
+	</array>
+	<key>CAT_Flight</key>
+	<array>
+		<string>kMDItemEventFlightConfirmationNumber</string>
+		<string>kMDItemEventFlightDesignator</string>
+		<string>kMDItemEventFlightDepartureAirportName</string>
+		<string>kMDItemEventFlightArrivalAirportName</string>
+		<string>kMDItemEventFlightPassengerSeatNumbers</string>
+		<string>kMDItemEventFlightDepartureTerminal</string>
+		<string>kMDItemEventFlightArrivalTerminal</string>
+	</array>
+	<key>CAT_Hotel</key>
+	<array>
+		<string>kMDItemEventHotelReservationId</string>
+		<string>kMDItemEventHotelReservationForName</string>
+		<string>kMDItemEventHotelReservationForAddress</string>
+	</array>
+	<key>CAT_Lunch</key>
+	<array>
+		<string>kMDItemEventRestaurantReservationId</string>
+		<string>kMDItemEventRestaurantReservationForName</string>
+		<string>kMDItemEventRestaurantReservationForAddress</string>
+	</array>
+	<key>CAT_Restaurant</key>
+	<array>
+		<string>kMDItemEventRestaurantReservationId</string>
+		<string>kMDItemEventRestaurantReservationForName</string>
+		<string>kMDItemEventRestaurantReservationForAddress</string>
+	</array>
+</dict>
+</plist>

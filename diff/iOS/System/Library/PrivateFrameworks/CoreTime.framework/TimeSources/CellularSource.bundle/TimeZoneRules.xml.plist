@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CDMA-1</key>
+	<dict>
+		<key>AvailabilityTimeout</key>
+		<real>86400</real>
+		<key>Order</key>
+		<integer>100</integer>
+		<key>UnavailableDelay</key>
+		<integer>900</integer>
+	</dict>
+	<key>CDMA-1-Non-Olson</key>
+	<dict>
+		<key>Order</key>
+		<integer>900</integer>
+	</dict>
+	<key>CDMA-2</key>
+	<dict>
+		<key>AvailabilityTimeout</key>
+		<real>86400</real>
+		<key>Order</key>
+		<integer>100</integer>
+		<key>UnavailableDelay</key>
+		<integer>900</integer>
+	</dict>
+	<key>CDMA-2-Non-Olson</key>
+	<dict>
+		<key>Order</key>
+		<integer>900</integer>
+	</dict>
+	<key>LocationAndNetwork</key>
+	<dict>
+		<key>Order</key>
+		<integer>50</integer>
+	</dict>
+	<key>NITZ-1</key>
+	<dict>
+		<key>AvailabilityTimeout</key>
+		<real>28800</real>
+		<key>Order</key>
+		<integer>100</integer>
+		<key>UnavailableDelay</key>
+		<integer>900</integer>
+	</dict>
+	<key>NITZ-1-Non-Olson</key>
+	<dict>
+		<key>Order</key>
+		<integer>900</integer>
+	</dict>
+	<key>NITZ-2</key>
+	<dict>
+		<key>AvailabilityTimeout</key>
+		<real>28800</real>
+		<key>Order</key>
+		<integer>100</integer>
+		<key>UnavailableDelay</key>
+		<integer>900</integer>
+	</dict>
+	<key>NITZ-2-Non-Olson</key>
+	<dict>
+		<key>Order</key>
+		<integer>900</integer>
+	</dict>
+</dict>
+</plist>

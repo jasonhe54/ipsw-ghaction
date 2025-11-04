@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FED_STATS_BIOME_AD_ATTRIBUTION_KIT</key>
+	<dict>
+		<key>needsDnU</key>
+		<false/>
+	</dict>
+	<key>FED_STATS_BIOME_AI_SAFETY_FIRST</key>
+	<dict>
+		<key>needsCNAI</key>
+		<true/>
+		<key>needsDnU</key>
+		<true/>
+	</dict>
+	<key>FED_STATS_BIOME_AI_SAFETY_THIRD</key>
+	<dict>
+		<key>needsCNAI</key>
+		<true/>
+		<key>needsDnU</key>
+		<false/>
+	</dict>
+	<key>FED_STATS_BIOME_CELLULAR</key>
+	<dict>
+		<key>needsLocation</key>
+		<true/>
+	</dict>
+	<key>FED_STATS_BIOME_HEALTH</key>
+	<dict>
+		<key>needsIHA</key>
+		<true/>
+	</dict>
+	<key>FED_STATS_BIOME_MEAD</key>
+	<dict>
+		<key>needsDnU</key>
+		<false/>
+		<key>needsIDV</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

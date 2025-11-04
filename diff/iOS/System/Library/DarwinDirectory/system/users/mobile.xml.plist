@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ID</key>
+	<integer>501</integer>
+	<key>UUID</key>
+	<string>FFFFEEEE-DDDD-CCCC-BBBB-AAAA000001F5</string>
+	<key>aliases</key>
+	<array/>
+	<key>fullName</key>
+	<string>Mobile User</string>
+	<key>homeDirectory</key>
+	<string>/var/mobile</string>
+	<key>memberships</key>
+	<array>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012B</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011E</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FA</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000001F5</string>
+	</array>
+	<key>name</key>
+	<string>mobile</string>
+	<key>primaryGroupUUID</key>
+	<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000001F5</string>
+	<key>shell</key>
+	<string>/bin/sh</string>
+	<key>version</key>
+	<integer>3</integer>
+</dict>
+</plist>

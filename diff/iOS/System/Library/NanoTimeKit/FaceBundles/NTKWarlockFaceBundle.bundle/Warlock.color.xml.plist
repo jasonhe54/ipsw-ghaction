@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>warlock</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>hero01</string>
+				<key>default-clhs19</key>
+				<string>silver</string>
+				<key>default-clhs21</key>
+				<string>jetblack</string>
+				<key>default-clhs25</key>
+				<string>natural</string>
+				<key>default-clhs8</key>
+				<string>rosegold</string>
+			</dict>
+			<key>exclusions</key>
+			<array>
+				<string>seasons.fall2024.silver</string>
+				<string>seasons.fall2024.roseGold</string>
+				<string>seasons.fall2024.natural</string>
+				<string>seasons.fall2024.gold</string>
+				<string>seasons.fall2024.slate</string>
+			</array>
+			<key>imports</key>
+			<array>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+			<key>items</key>
+			<array>
+				<string>natural</string>
+				<string>silver</string>
+				<string>rosegold</string>
+				<string>jetblack</string>
+				<string>hero01</string>
+				<string>hero02</string>
+				<string>hero03</string>
+				<string>hero04</string>
+				<string>hero05</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

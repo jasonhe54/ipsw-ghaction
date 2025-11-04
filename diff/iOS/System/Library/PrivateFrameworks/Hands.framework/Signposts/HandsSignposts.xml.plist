@@ -1,0 +1,3518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Children</key>
+		<array>
+			<dict>
+				<key>KTraceCode</key>
+				<string>0x342679F8</string>
+				<key>Name</key>
+				<string>pnp_measurement_window_started</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>KTraceCode</key>
+				<string>0x34266310</string>
+				<key>Name</key>
+				<string>pnp_measurement_window_ended</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>ArgNames</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypes</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCode</key>
+				<string>0x3426CC3C</string>
+				<key>Name</key>
+				<string>Camera Frame Received</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>ArgNames</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypes</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCode</key>
+				<string>0x3426D290</string>
+				<key>Name</key>
+				<string>Controller Camera Frame Received</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>ArgNames</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypes</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCode</key>
+				<string>0x34261D4C</string>
+				<key>Name</key>
+				<string>Detection Camera Frame Received</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>ArgNames</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+					<key>Arg2</key>
+					<string>Mid-Exposure Timestamp</string>
+				</dict>
+				<key>ArgValueTypes</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+					<key>Arg2</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCode</key>
+				<string>0x342644FC</string>
+				<key>Name</key>
+				<string>Pose Camera Frame Received</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>ArgNames</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypes</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCode</key>
+				<string>0x3426CC34</string>
+				<key>Name</key>
+				<string>HandsKit Output Written</string>
+				<key>Type</key>
+				<string>Impulse</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x34264E94</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x342674F8</string>
+				<key>Name</key>
+				<string>Frame Wait Time</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x34261734</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426C144</string>
+				<key>Name</key>
+				<string>Polaris Resource Management</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Frame Dropped</string>
+					<key>Arg2</key>
+					<string>Algorithm Name</string>
+					<key>Arg3</key>
+					<string>MappingID</string>
+					<key>Arg4</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Frame Dropped</string>
+					<key>Arg2</key>
+					<string>Algorithm Name</string>
+					<key>Arg3</key>
+					<string>MappingID</string>
+					<key>Arg4</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>UInt32</string>
+					<key>Arg2</key>
+					<string>String</string>
+					<key>Arg3</key>
+					<string>UInt32</string>
+					<key>Arg4</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>UInt32</string>
+					<key>Arg2</key>
+					<string>String</string>
+					<key>Arg3</key>
+					<string>UInt32</string>
+					<key>Arg4</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426BDC4</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x342648DC</string>
+				<key>Name</key>
+				<string>frame_boundary</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x34268A30</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F22C</string>
+						<key>Name</key>
+						<string>Enrollment Update</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426EF80</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F5C8</string>
+						<key>Name</key>
+						<string>Enrollment Loading</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x34264FC8</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426BE98</string>
+						<key>Name</key>
+						<string>Enrollment Storing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x34265F24</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x342669D4</string>
+				<key>Name</key>
+				<string>Enrollment</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Grpah Index</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Grpah Index</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Integer</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Integer</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426167C</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34266690</string>
+						<key>Name</key>
+						<string>Detection Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426E074</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426C178</string>
+						<key>Name</key>
+						<string>Tracking Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426A27C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426C114</string>
+								<key>Name</key>
+								<string>Pose Model Reload</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>KTraceCodeBegin</key>
+						<string>0x34265B4C</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34260940</string>
+						<key>Name</key>
+						<string>Pose Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x34266538</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426C7A8</string>
+						<key>Name</key>
+						<string>Tracking Update Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x342694C0</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426D1D8</string>
+								<key>Name</key>
+								<string>LSTM Reload</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426CC2C</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F958</string>
+						<key>Name</key>
+						<string>Gesture Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426C4D0</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34268FF8</string>
+						<key>Name</key>
+						<string>Post Processing Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x34264AE0</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F3C0</string>
+						<key>Name</key>
+						<string>Hands ROI Reconfig</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>EventsMatchedBy</key>
+				<string>Arg1</string>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426E824</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x34268D2C</string>
+				<key>Name</key>
+				<string>Reconfig</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426FCD8</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426480C</string>
+						<key>Name</key>
+						<string>2DDetection Controller</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Camera Id</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Camera Id</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x342699D8</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x342695B0</string>
+						<key>Name</key>
+						<string>Full 2DDetection PreProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Camera Id</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Camera Id</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Camera Id</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Camera Id</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x34267124</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x342687D4</string>
+								<key>Name</key>
+								<string>Full Set Network Input</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Camera Id</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Camera Id</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x34269500</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426A4A0</string>
+								<key>Name</key>
+								<string>Full Run Unbatched Network</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Camera Id</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Camera Id</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426FB18</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426DB20</string>
+								<key>Name</key>
+								<string>Full Get Network Output</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x34262480</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426DE78</string>
+						<key>Name</key>
+						<string>Full 2DDetection ModelProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Camera Id</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Camera Id</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426FCE4</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426C31C</string>
+						<key>Name</key>
+						<string>Full 2DDetection PostProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426A7B8</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x34266128</string>
+				<key>Name</key>
+				<string>2DDetection</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426F36C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34268F08</string>
+								<key>Name</key>
+								<string>Detection Result Sync</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>KTraceCodeBegin</key>
+						<string>0x34267EA0</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426CCF8</string>
+						<key>Name</key>
+						<string>3DTracking Update</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426B194</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426EAEC</string>
+								<key>Name</key>
+								<string>Filter hands By FOV</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x34264A6C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426FF4C</string>
+								<key>Name</key>
+								<string>CleanUp Hand By Two Hands Occlusion</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426DD84</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x342670CC</string>
+						<key>Name</key>
+						<string>Pose Result Update</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x34269AC0</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426A9AC</string>
+				<key>Name</key>
+				<string>3DTracking</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426587C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426C3C4</string>
+								<key>Name</key>
+								<string>Pose Pipeline initialization</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426BA68</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426E6A0</string>
+						<key>Name</key>
+						<string>Pose Controller</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426F680</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426286C</string>
+						<key>Name</key>
+						<string>Pose PreProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+							<key>Arg3</key>
+							<string>Prewired</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+							<key>Arg3</key>
+							<string>Prewired</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+							<key>Arg3</key>
+							<string>Bool</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+							<key>Arg3</key>
+							<string>Bool</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426656C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x342654FC</string>
+								<key>Name</key>
+								<string>Pose Set Network Input</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426A99C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426627C</string>
+								<key>Name</key>
+								<string>Pose Run Network</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426F320</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426F8D0</string>
+								<key>Name</key>
+								<string>Pose Get Network Output</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426D8E4</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F2C4</string>
+						<key>Name</key>
+						<string>Pose ModelProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>Children</key>
+								<array>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426D620</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426B228</string>
+										<key>Name</key>
+										<string>Set Input Images</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426E6D0</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x342677E4</string>
+										<key>Name</key>
+										<string>Set Warper Mesh</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426EE94</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34267D3C</string>
+										<key>Name</key>
+										<string>Prepare Rectified Crops Inputs</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x342639BC</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34265854</string>
+										<key>Name</key>
+										<string>Prepare Pose Inputs</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426F2B4</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426F874</string>
+										<key>Name</key>
+										<string>Prepare Pinch Inputs</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+								</array>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x34264C4C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426BC10</string>
+								<key>Name</key>
+								<string>Uber Pose Set Network Input</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x34268670</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34264900</string>
+								<key>Name</key>
+								<string>Uber Pose Run Network</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x342657A4</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426DD54</string>
+								<key>Name</key>
+								<string>Uber Pose Get Network Output</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426B944</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x342647BC</string>
+								<key>Name</key>
+								<string>Middle Double Tap</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x34267140</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34268F2C</string>
+								<key>Name</key>
+								<string>Middle Double Tap Post Process</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x34268E98</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34265748</string>
+						<key>Name</key>
+						<string>Uber Pose ModelProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>Children</key>
+								<array>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x342698DC</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426FBB4</string>
+										<key>Name</key>
+										<string>Mono Set Input Image</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34266E58</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34265C94</string>
+										<key>Name</key>
+										<string>Mono Set Warper Mesh</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34266450</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426C478</string>
+										<key>Name</key>
+										<string>Mono Prepare Rectified Crops Input</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426CDC0</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426C36C</string>
+										<key>Name</key>
+										<string>Mono Prepare Pose Input</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+								</array>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426AA88</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34260604</string>
+								<key>Name</key>
+								<string>Mono Pose Set Network Input</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426DEF8</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34266AE0</string>
+								<key>Name</key>
+								<string>Mono Pose Run Network</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x34265CC0</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F288</string>
+						<key>Name</key>
+						<string>Mono Pose ModelProcessing</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426A228</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34268030</string>
+						<key>Name</key>
+						<string>Output Dequantize</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426C274</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34269C30</string>
+								<key>Name</key>
+								<string>Pose Estimator Build Inputs</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x342664D4</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426629C</string>
+								<key>Name</key>
+								<string>Pose Estimator Add Inputs</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x342622E8</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426C3D0</string>
+								<key>Name</key>
+								<string>Pose Estimator Compute</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x342682E0</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34266768</string>
+						<key>Name</key>
+						<string>Pose Estimator</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426782C</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34264894</string>
+								<key>Name</key>
+								<string>Pinch Model Controller</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x34266150</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x342653D0</string>
+								<key>Name</key>
+								<string>Pinch Model Preprocessing</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>Children</key>
+								<array>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426E768</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426C684</string>
+										<key>Name</key>
+										<string>Pinch Model Set Input</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426E28C</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426C000</string>
+										<key>Name</key>
+										<string>Pinch Model Initialization</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426DF9C</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426BE90</string>
+										<key>Name</key>
+										<string>Run Pinch Model Network</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34265014</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426F64C</string>
+										<key>Name</key>
+										<string>Pinch Model Get Output</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+								</array>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426AC14</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34267814</string>
+								<key>Name</key>
+								<string>Pinch Model Inference</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>Children</key>
+								<array>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34266EF4</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426C68C</string>
+										<key>Name</key>
+										<string>Pinch Gestures Process</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34268AFC</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34267F84</string>
+										<key>Name</key>
+										<string>Pinch Postprocess Pipeline Process</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34265C7C</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34267F10</string>
+										<key>Name</key>
+										<string>Pinch Gestures Process After Post Processing</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34266100</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426CFF0</string>
+										<key>Name</key>
+										<string>Repetitive Pinch Recovery Pipeline Process</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426A6F8</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x342662E0</string>
+										<key>Name</key>
+										<string>Double Pinch Recovery Process</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>Children</key>
+										<array>
+											<dict>
+												<key>ArgNamesBegin</key>
+												<dict>
+													<key>Arg1</key>
+													<string>Input Data Timestamp</string>
+													<key>Arg2</key>
+													<string>Hand Chirality</string>
+												</dict>
+												<key>ArgNamesEnd</key>
+												<dict>
+													<key>Arg1</key>
+													<string>Input Data Timestamp</string>
+													<key>Arg2</key>
+													<string>Hand Chirality</string>
+												</dict>
+												<key>ArgValueTypesBegin</key>
+												<dict>
+													<key>Arg1</key>
+													<string>Double</string>
+													<key>Arg2</key>
+													<string>Int</string>
+												</dict>
+												<key>ArgValueTypesEnd</key>
+												<dict>
+													<key>Arg1</key>
+													<string>Double</string>
+													<key>Arg2</key>
+													<string>Int</string>
+												</dict>
+												<key>EventsMatchedBy</key>
+												<string>Arg2</string>
+												<key>KTraceCodeBegin</key>
+												<string>0x3426C6DC</string>
+												<key>KTraceCodeEnd</key>
+												<string>0x3426C664</string>
+												<key>Name</key>
+												<string>Pinch Cancellation LSTM</string>
+												<key>Type</key>
+												<string>Interval</string>
+											</dict>
+										</array>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426A7F0</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34265CAC</string>
+										<key>Name</key>
+										<string>Pinch Cancellation</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426D1D0</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34268F50</string>
+										<key>Name</key>
+										<string>Update Internal TnT States</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34268574</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34265F34</string>
+										<key>Name</key>
+										<string>Frame Features Adapter Update Previous FrameData</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x34269838</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x34264B5C</string>
+										<key>Name</key>
+										<string>Selection Recovery In Break Processing Process</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426CA00</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426EA98</string>
+										<key>Name</key>
+										<string>Non Causal Pipeline Process</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+									<dict>
+										<key>ArgNamesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgNamesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Input Data Timestamp</string>
+											<key>Arg2</key>
+											<string>Hand Chirality</string>
+										</dict>
+										<key>ArgValueTypesBegin</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>ArgValueTypesEnd</key>
+										<dict>
+											<key>Arg1</key>
+											<string>Double</string>
+											<key>Arg2</key>
+											<string>Int</string>
+										</dict>
+										<key>EventsMatchedBy</key>
+										<string>Arg2</string>
+										<key>KTraceCodeBegin</key>
+										<string>0x3426F644</string>
+										<key>KTraceCodeEnd</key>
+										<string>0x3426DA0C</string>
+										<key>Name</key>
+										<string>Pinch Model Postprocessing Misc</string>
+										<key>Type</key>
+										<string>Interval</string>
+									</dict>
+								</array>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426D4F4</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426DC34</string>
+								<key>Name</key>
+								<string>Pinch Model Postprocessing</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+									<key>Arg2</key>
+									<string>Hand Chirality</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+									<key>Arg2</key>
+									<string>Int</string>
+								</dict>
+								<key>EventsMatchedBy</key>
+								<string>Arg2</string>
+								<key>KTraceCodeBegin</key>
+								<string>0x3426E7B4</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x3426EDD4</string>
+								<key>Name</key>
+								<string>Pinch Memory</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x34269924</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34264884</string>
+								<key>Name</key>
+								<string>Pinch Model Sync</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+							<dict>
+								<key>ArgNames</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypes</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCode</key>
+								<string>0x3426AC24</string>
+								<key>Name</key>
+								<string>Pinch Make Event</string>
+								<key>Type</key>
+								<string>Impulse</string>
+							</dict>
+							<dict>
+								<key>ArgNames</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypes</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCode</key>
+								<string>0x34260634</string>
+								<key>Name</key>
+								<string>Pinch Break Event</string>
+								<key>Type</key>
+								<string>Impulse</string>
+							</dict>
+						</array>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426B9FC</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426A4FC</string>
+						<key>Name</key>
+						<string>Pinch Model</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>Children</key>
+						<array>
+							<dict>
+								<key>ArgNamesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgNamesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Input Data Timestamp</string>
+								</dict>
+								<key>ArgValueTypesBegin</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>ArgValueTypesEnd</key>
+								<dict>
+									<key>Arg1</key>
+									<string>Double</string>
+								</dict>
+								<key>KTraceCodeBegin</key>
+								<string>0x342629C4</string>
+								<key>KTraceCodeEnd</key>
+								<string>0x34269408</string>
+								<key>Name</key>
+								<string>Pose Filter Initialization</string>
+								<key>Type</key>
+								<string>Interval</string>
+							</dict>
+						</array>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426F034</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426F648</string>
+						<key>Name</key>
+						<string>Pose Filtering</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426F8C4</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426BB40</string>
+						<key>Name</key>
+						<string>Pose Sync</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426F8F8</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426D538</string>
+				<key>Name</key>
+				<string>Pose</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426716C</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426D4A4</string>
+				<key>Name</key>
+				<string>PostTrackingUpdateTask</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>Hand Chirality</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x34265D44</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34266F64</string>
+						<key>Name</key>
+						<string>ObjectInteractionState</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426F3F0</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426A830</string>
+				<key>Name</key>
+				<string>GesturePipeline</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Input Data Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x34267B40</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426BBB0</string>
+				<key>Name</key>
+				<string>SceneSegmentationProcessing</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426B920</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x342642D0</string>
+						<key>Name</key>
+						<string>Pipeline Statistices</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x34269F10</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34269D88</string>
+						<key>Name</key>
+						<string>Missing Finger Reconstruction</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426D7BC</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34260A10</string>
+						<key>Name</key>
+						<string>Debug Data to File</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426BF50</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x3426B178</string>
+						<key>Name</key>
+						<string>Hand Event Debug Output</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x342689F0</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34267980</string>
+						<key>Name</key>
+						<string>Serialize Graph Output</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+						</dict>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426D2C4</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34265DE4</string>
+						<key>Name</key>
+						<string>Populate CropBBox</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426B4E0</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426F9C0</string>
+				<key>Name</key>
+				<string>PostProcessing</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Sequence Name</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>String</string>
+				</dict>
+				<key>Children</key>
+				<array>
+					<dict>
+						<key>ArgNamesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>CameraKey</string>
+						</dict>
+						<key>ArgNamesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Input Data Timestamp</string>
+							<key>Arg2</key>
+							<string>CameraKey</string>
+						</dict>
+						<key>ArgValueTypesBegin</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>ArgValueTypesEnd</key>
+						<dict>
+							<key>Arg1</key>
+							<string>Double</string>
+							<key>Arg2</key>
+							<string>Int</string>
+						</dict>
+						<key>EventsMatchedBy</key>
+						<string>Arg2</string>
+						<key>KTraceCodeBegin</key>
+						<string>0x3426DF4C</string>
+						<key>KTraceCodeEnd</key>
+						<string>0x34265DBC</string>
+						<key>Name</key>
+						<string>CameraImageLoad</string>
+						<key>Type</key>
+						<string>Interval</string>
+					</dict>
+				</array>
+				<key>KTraceCodeBegin</key>
+				<string>0x342692D8</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426A058</string>
+				<key>Name</key>
+				<string>ImageRead</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Sequence Name</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>String</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x34267910</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x3426F588</string>
+				<key>Name</key>
+				<string>Sequence Playback</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426D2D8</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x34266674</string>
+				<key>Name</key>
+				<string>Cache Sequence</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Repeat Count</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Integer</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x342666A8</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x34267060</string>
+				<key>Name</key>
+				<string>Dataset Playback</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+			<dict>
+				<key>ArgNamesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Timestamp</string>
+				</dict>
+				<key>ArgNamesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Timestamp</string>
+				</dict>
+				<key>ArgValueTypesBegin</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>ArgValueTypesEnd</key>
+				<dict>
+					<key>Arg1</key>
+					<string>Double</string>
+				</dict>
+				<key>KTraceCodeBegin</key>
+				<string>0x3426EA24</string>
+				<key>KTraceCodeEnd</key>
+				<string>0x34265D28</string>
+				<key>Name</key>
+				<string>Copy to Prewire Buffer</string>
+				<key>Type</key>
+				<string>Interval</string>
+			</dict>
+		</array>
+		<key>ChildrenGroupedBy</key>
+		<string>Process</string>
+		<key>Name</key>
+		<string>Hands</string>
+	</dict>
+</array>
+</plist>

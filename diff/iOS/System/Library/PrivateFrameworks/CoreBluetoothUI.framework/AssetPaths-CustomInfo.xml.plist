@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0x045E/0x0B13</key>
+	<dict>
+		<key>ActionButtonResKey</key>
+		<string>kBTUIServerXboxXControllerFWButtonTitle</string>
+		<key>ActionButtonURLResKey</key>
+		<string>kBTUIServerXboxXControllerFWButtonURL</string>
+		<key>ImageURLName</key>
+		<string>Generic-GameController.png</string>
+		<key>InfoTextResKey</key>
+		<string>kBTUIServerXboxXControllerFWInformativeText</string>
+		<key>MinFWVersion</key>
+		<string>5.5.2641</string>
+		<key>NameResKey</key>
+		<string>kBTUIServerXboxXControllerFWTitle</string>
+	</dict>
+</dict>
+</plist>

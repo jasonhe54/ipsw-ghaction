@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-Е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ё Е</string>
+		<key>Strings</key>
+		<string>Ё Е</string>
+	</dict>
+	<key>Roman-Accent-Ш</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ш Щ</string>
+		<key>Strings</key>
+		<string>Ш Щ</string>
+	</dict>
+	<key>Roman-Accent-Ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>Ь Ъ Ы</string>
+		<key>Strings</key>
+		<string>Ь Ъ Ы</string>
+	</dict>
+	<key>Roman-Accent-е</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ё е</string>
+		<key>Strings</key>
+		<string>ё е</string>
+	</dict>
+	<key>Roman-Accent-ш</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ш щ</string>
+		<key>Strings</key>
+		<string>ш щ</string>
+	</dict>
+	<key>Roman-Accent-ь</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ь ъ ы</string>
+		<key>Strings</key>
+		<string>ь ъ ы</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>АВD</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>£</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>₽</string>
+	<key>UI-Cancel</key>
+	<string>Бекор қилмоқ</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>Бажарилди</string>
+	<key>UI-EmergencyCall</key>
+	<string>фавқулодда
+қўнғироғи</string>
+	<key>UI-Go</key>
+	<string>Олға</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>ЎЗ</string>
+	<key>UI-Join</key>
+	<string>Қўшилмоқ</string>
+	<key>UI-LanguageIndicator</key>
+	<string>Ўзбек</string>
+	<key>UI-Next</key>
+	<string>Кейингиси</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>тўхтамоқ</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>такрорламоқ</string>
+	<key>UI-Return</key>
+	<string>⮐</string>
+	<key>UI-Route</key>
+	<string>Йўналишлар</string>
+	<key>UI-Search</key>
+	<string>Қидирмоқ</string>
+	<key>UI-Send</key>
+	<string>Юбормоқ</string>
+	<key>UI-Space</key>
+	<string>бўшлиқ</string>
+	<key>UI-TopLevelDomain</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>.uz .com .org .net</string>
+		<key>Strings</key>
+		<string>.uz .com .org .net</string>
+	</dict>
+	<key>UI-Undo</key>
+	<string>бекор қилмоқ</string>
+	<key>UI-Wait</key>
+	<string>кутмоқ</string>
+	<key>UI-abc</key>
+	<string>авd</string>
+</dict>
+</plist>

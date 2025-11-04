@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Description</key>
+		<string>Valid carrier bundle</string>
+		<key>KeyName</key>
+		<string>ValidCarrierBundle</string>
+		<key>LatestFailure</key>
+		<string>The current carrier bundle does not have the minimum keys required to begin setting up Visual Voicemail.
+
+In order to be valid for VisualVoicemail, a carrier bundle must have at minumum a "VisualVoicemailServiceName" key set to "IMAP" and a "com.apple.imap.voicemail" key with a dictionary containing at least a valid "BeaconAddress" key.</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Registered with network</string>
+		<key>KeyName</key>
+		<string>TelephonyRegistered</string>
+		<key>LatestFailure</key>
+		<string>The baseband has not yet associated with a cell network.</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>SMSC Available</string>
+		<key>KeyName</key>
+		<string>SMSCAvailable</string>
+		<key>LatestFailure</key>
+		<string>The baseband reports that no SMSC is currently available.  If the carrier is C2K, then they are missing the "BypassSMSCAvailabilityCheck" carrier bundle string.</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Initial STATE beacon sent out</string>
+		<key>KeyName</key>
+		<string>BeaconSent</string>
+		<key>LatestFailure</key>
+		<string>The initial STATE beacon could not be sent out.  The beacon address specified by the carrier bundle could be invalid, or the beacon could have been rejected by the device's baseband.
+
+Please consult VVM and CSI logs for more information.</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>STATE response received</string>
+		<key>KeyName</key>
+		<string>BeaconResponseReceived</string>
+		<key>LatestFailure</key>
+		<string>A STATE beacon was sent from the handset, but no response has yet been received from the server.
+
+Please check that the VVM server received the STATE beacon from the handset and has sent out a STATE response.  Consult the Apple VVM Protocol specification for more information.</string>
+	</dict>
+	<dict>
+		<key>Description</key>
+		<string>Logged into IMAP server</string>
+		<key>KeyName</key>
+		<string>ServerLogin</string>
+		<key>LatestFailure</key>
+		<string>Unable to login to the IMAP server with the information provided.  See logs for details.</string>
+	</dict>
+</array>
+</plist>

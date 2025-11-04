@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleValueCell</string>
+			<key>cellClass</key>
+			<string>WirelessModemSettings.PersonalHotspotPlacardCell</string>
+			<key>id</key>
+			<string>PHS_PLACARD</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerCellClass</key>
+			<string>TetheringSwitchFooterView</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>get</key>
+			<string>internetTethering:</string>
+			<key>id</key>
+			<string>TETHERING_ID</string>
+			<key>label</key>
+			<string>TETHERING_SWITCH</string>
+			<key>set</key>
+			<string>setInternetTethering:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>WiFiPasswordController</string>
+			<key>get</key>
+			<string>wifiPassword:</string>
+			<key>id</key>
+			<string>WIFI_PASSWORD</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>TetheringSetupView</string>
+			<key>id</key>
+			<string>SETUPVIEW</string>
+		</dict>
+	</array>
+</dict>
+</plist>

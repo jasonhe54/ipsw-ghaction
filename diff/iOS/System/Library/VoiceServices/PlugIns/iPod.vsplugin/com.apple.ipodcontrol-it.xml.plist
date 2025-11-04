@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>riproduci</string>
+				<string>riproduci musica</string>
+				<string>riproduci la musica</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pausa</string>
+				<string>metti in pausa</string>
+				<string>interrompi</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>riproduci</string>
+				<string>suona</string>
+				<string>seleziona</string>
+				<string>metti</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>successivo</string>
+				<string>successiva</string>
+				<string>prossimo</string>
+				<string>prossima</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>precedente</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>casuale</string>
+				<string>riproduzione casuale</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>traccia</string>
+				<string>brano</string>
+				<string>canzone</string>
+				<string>pezzo</string>
+				<string>pezzo musicale</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>playlist</string>
+				<string>elenco riproduzione</string>
+				<string>elenco di riproduzione</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>canzone di</string>
+				<string>brano di</string>
+				<string>pezzo di</string>
+				<string>pezzo musicale di</string>
+				<string>canzoni di</string>
+				<string>brani di</string>
+				<string>pezzi di</string>
+				<string>pezzi musicale di</string>
+				<string>artista</string>
+				<string>cantante</string>
+				<string>interprete</string>
+				<string>interprete musicale</string>
+				<string>gruppo</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>album</string>
+				<string>album discografico</string>
+				<string>album musicale</string>
+				<string>album di canzoni</string>
+				<string>raccolta</string>
+				<string>raccolta musicale</string>
+				<string>raccolta di brani</string>
+				<string>raccolta di brani musicali</string>
+				<string>raccolta discografica</string>
+				<string>LP</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>artist</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>playlist</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>riproduci più brani come questo</string>
+				<string>riproduci più canzoni come questa</string>
+				<string>riproduci più pezzi come questo</string>
+				<string>suona più brani come questo</string>
+				<string>suona più canzoni come questa</string>
+				<string>suona più pezzi come questo</string>
+				<string>suona altri brani come questo</string>
+				<string>suona altri pezzi come questo</string>
+				<string>suona altre canzoni come questa</string>
+				<string>riproduci altri brani come questo</string>
+				<string>riproduci altri pezzi come questo</string>
+				<string>riproduci altre canzoni come questa</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>che canzone è questa?</string>
+				<string>come si chiama questa canzone?</string>
+				<string>come si chiama questo brano?</string>
+				<string>chi canta questa canzone?</string>
+				<string>chi canta questo brano?</string>
+				<string>che canzone è?</string>
+				<string>che brano è?</string>
+				<string>di chi è questa canzone?</string>
+				<string>di quale gruppo è questa canzone?</string>
+				<string>di chi è questo brano?</string>
+				<string>di quale gruppo è questo brano?</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>che canzone è questa?</string>
+			<string>come si chiama questa canzone?</string>
+			<string>come si chiama questo brano?</string>
+			<string>chi canta questa canzone?</string>
+			<string>chi canta questo brano?</string>
+			<string>che canzone è?</string>
+			<string>che brano è?</string>
+			<string>di chi è questa canzone?</string>
+			<string>di quale gruppo è questa canzone?</string>
+			<string>di chi è questo brano?</string>
+			<string>di quale gruppo è questo brano?</string>
+		</array>
+		<array>
+			<string>pausa</string>
+			<string>metti in pausa</string>
+			<string>interrompi</string>
+		</array>
+		<array>
+			<string>riproduci playlist</string>
+		</array>
+		<array>
+			<string>riproduci artista</string>
+			<string>riproduci brani di</string>
+			<string>riproduci canzoni di</string>
+		</array>
+		<array>
+			<string>riproduci album</string>
+		</array>
+		<array>
+			<string>casuale</string>
+			<string>riproduci in ordine casuale</string>
+			<string>ordine casuale</string>
+		</array>
+		<array>
+			<string>brano precedente</string>
+			<string>traccia precedente</string>
+			<string>canzone precedente</string>
+		</array>
+		<array>
+			<string>brano successivo</string>
+			<string>traccia successiva</string>
+			<string>canzone successiva</string>
+		</array>
+		<array>
+			<string>metti in pausa</string>
+			<string>interrompi</string>
+			<string>interrompi musica</string>
+			<string>metti musica in pausa</string>
+		</array>
+		<array>
+			<string>riproduci</string>
+			<string>riproduci musica</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>artist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>playlist</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

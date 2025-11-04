@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.apple.keyboard.preferences</string>
+			<key>get</key>
+			<string>readRomanCapsLockPreferenceValue:</string>
+			<key>id</key>
+			<string>HWKeyboardCapsLockRomanSwitch</string>
+			<key>key</key>
+			<string>HWKeyboardCapsLockRomanSwitch</string>
+			<key>label</key>
+			<string>CAPS_LOCK_LATIN_TITLE</string>
+			<key>set</key>
+			<string>setRomanCapsLockPreferenceValue:forSpecifier:</string>
+		</dict>
+	</array>
+</dict>
+</plist>

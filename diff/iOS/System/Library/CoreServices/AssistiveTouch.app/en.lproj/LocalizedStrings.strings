@@ -1,0 +1,648 @@
+"NAVIGATION_MODE_POINT_PICKER" = "Point Picker";
+"Settings-Scan-By-Eyes" = "Eye Tracking";
+"CAMERA_MOVEMENT_DOWN" = "Down";
+"NAVIGATION_MODE_SYSTEM_POINTER" = "System Pointer";
+"HAND_POINTER" = "Hand Pointer";
+"ALERT_CANCEL" = "Cancel";
+"SOUND_ACTION_KK" = "K-sound";
+"AUTOSCROLL" = "Autoscroll";
+"MEDIA_CONTROLS" = "Media Controls";
+"DWELL_UNLOCK_FULL_WIDTH" = "Enable Fallback";
+"VOICE_CONTROL" = "Classic Voice Control";
+"SOUND_ACTION_EH" = "Eh";
+"VOLUME_UP_FULL_WIDTH" = "Increase Volume";
+"EYE_TRACKING" = "Eye Tracking";
+"PIN_APP_LEFT" = "Pin New App
+on Left";
+"RECIPE_DEACTIVATED" = "Your switches are configured to their default actions.";
+"FACE_GUIDANCE_TURN_RIGHT" = "Turn your head to the right";
+"FREEHAND_BEND_LEFT_TWO_LINES" = "Bend
+Left";
+"ACCESSIBILITY_MENU_ACCESSIBILITY_MENU" = "Accessibility Menu";
+"Settings-Grouping-Off" = "Groups
+Off";
+"pressTopButton" = "Press Top Button";
+"CANCEL_LINE_GESTURE" = "Cancel";
+"EYE_TRACKING_AUTO_HIDE_TOGGLE" = "Auto-Hide";
+"SCREENSHOT_FULL_WIDTH" = "Screenshot";
+"FLOAT_ERROR" = "Unable to open app with Slide Over.";
+"COMMAND_AND_CONTROL" = "Voice Control";
+"FREEHAND_MOVE_MENU" = "Move Menu";
+"SOUND_ACTION_POP" = "Pop";
+"PERFORM_DROP" = "Perform Drop";
+"SIRI_SHORTCUTS_SETTINGS_NAME" = "Shortcut: %@";
+"Remote-Menu" = "Menu";
+"Position-Bottom" = "Bottom";
+"PASS_THROUGH" = "Pass Through to App";
+"ORIENTATION-LANDSCAPE-LEFT" = "Left";
+"DIM_FLASHING_LIGHTS_FULL_WIDTH" = "Dim Flashing Lights";
+"GesturePerformArea" = "Gesture control";
+"element.link" = "Link";
+"SWITCH_CONTROL" = "Switch
+Control";
+"ORIENTATION-UPSIDE-DOWN" = "Upside Down";
+"pressCrownAfterInsertsRemoved" = "Confirm Inserts Removed";
+"EXIT" = "Done";
+"HAPTIC_MUSIC_FULL_WIDTH" = "Music Haptics";
+"PLANE_VERTICAL" = "Plane
+Vertical";
+"EDIT_ENABLE_SELECT" = "Enable
+Selection";
+"ACCESSIBILITY_MENU_ZOOM" = "Zoom Controller";
+"APPLE_PAY_CONFIRM" = "Confirm with
+AssistiveTouch";
+"TAP_AND_HOLD" = "Tap and Hold";
+"FREEHAND_AUTO_PRESS_STATE" = "Auto Press:
+%@";
+"element.off.state" = "Off";
+"FREEHAND_PATH" = "Path";
+"MOVE_SCENE" = "App Movement";
+"pressCrownToOpenHome" = "Open Home";
+"SCROLL_TO_BOTTOM" = "Scroll to
+Bottom";
+"element.on.state" = "On";
+"element.image" = "Image";
+"HARDWARE_NONE" = "Unknown device error.";
+"ASSSISTIVETOUCH" = "AssistiveTouch";
+"DOCK_INSTRUCTIONS" = "Choose an app from the Dock.";
+"CAMERA_MOVEMENT_ROTATE_RIGHT" = "Rotate Right";
+"DOCK" = "Dock";
+"HAND_GESTURES_NONE" = "Cannot detect your hands.";
+"pressTopButtonToReplayVideo" = "Replay Video";
+"COLOR_FILTERS_FULL_WIDTH" = "Color Filters";
+"UNMUTE" = "Unmute";
+"ENTERED_GLIDING_CURSOR_MODE" = "Gliding Cursor";
+"REMOTE_SCREEN_FULL_WIDTH" = "Apple Watch Mirroring";
+"CAMERA_MOVEMENT_RESET" = "Reset";
+"HARDWARE_DEVICE_NOT_FOUND" = "External switch not found.";
+"SOUND_ACTION_MUH" = "Muh";
+"SCROLL_TO_TOP" = "Scroll to
+Top";
+"ORIENTATION-PORTRAIT" = "Portrait";
+"DWELL_KEYBOARD_CONTINUOUS_PATH" = "Slide to
+Type";
+"Position-Top-Right" = "Top Right";
+"Remote-Play" = "Play";
+"HOME_FULL_WIDTH" = "Home";
+"FREEHAND_BEND_RIGHT_TWO_LINES" = "Bend
+Right";
+"FLICK_DOWN" = "Flick Down";
+"ACCESSIBILITY_MENU_DWELL" = "Dwell Menu";
+"FREEHAND_ROTATE_90_CW_SPOKEN" = "Rotate %@ Degrees Clockwise";
+"FACE_GUIDANCE_TILT_DOWN" = "Tilt your head down";
+"SETTINGS" = "Settings";
+"element.selected" = "Selected";
+"KEYBOARD" = "Keyboard";
+"Settings-Scan-ATV-Remote" = "Remote";
+"EYE_TRACKING_BUBBLE_MODE_TOGGLE_FULL_WIDTH" = "Toggle Snap to Item";
+"SOUND_ACTION_LA" = "La";
+"CHOOSE_HOLD_AND_DRAG_END_POINT" = "Select the destination for dragging.";
+"FREEHAND_ROTATE_ONE_LINE" = "Rotate";
+"INPUT_RECOVERY" = "Input
+Recovery";
+"doublePressCrownToErase" = "Erase";
+"Position-Bottom-Right" = "Bottom Right";
+"CALIBRATE_ON_DEVICE_EYE_TRACKING" = "Calibrate Eye
+Tracking";
+"triplePressLock" = "Triple Press Top Button";
+"ORIENTATION_LOCKED" = "Lock
+Rotation";
+"SCAT_QUICK_ITEM_SIRI" = "Siri";
+"CONTROL_CENTER" = "Control
+Center";
+"DWELL_LOCK_TOGGLE" = "Enable/Disable Fallback";
+"doublePressCrownToContinueWithoutiPhoneOriPad" = "Continue";
+"FACE_GUIDANCE_TURN_LEFT" = "Turn your head to the left";
+"SHUT_DOWN_FULL_WIDTH" = "Shut Down";
+"LIVE_TRANSCRIPTIONS_FULL_WIDTH" = "Live Captions";
+"ROTATE_COUNTERCLOCKWISE" = "Rotate CCW";
+"pressCrownForMoreOptions" = "More Options";
+"ACTIVATE" = "Activate";
+"SMART_INVERT" = "Smart
+Invert";
+"DWELL_TIME_INCREASE" = "Increase Time";
+"SWITCH_DISPLAY" = "Switch Display";
+"HAPTIC_MUSIC" = "Music
+Haptics";
+"SCROLL_CONTINUOUS_HORIZONTAL" = "Continuous
+ Horizontal Scroll";
+"TAP_AND_HOLD_DISABLED" = "Stopped Dragging";
+"FREEHAND_BEND_TWO_LINES" = "Bend
+Path";
+"EXIT_GROUP" = "Exit Group";
+"FREEHAND_ROTATE_90" = "%@ Degree";
+"SOUND_ACTION_CLICK" = "Click";
+"Remote-Siri" = "Siri";
+"Settings-Scan-By-Axis" = "Axis";
+"ZOOM_SCREEN_ON_DEVICE_EYE_TRACKING" = "Eye Tracking
+Zoom";
+"CAMERA_FACE_TOO_CLOSE" = "Your face is too close.";
+"FACE_GUIDANCE_TILT_UP" = "Tilt your head up";
+"TOP_BUTTON_FULL_WIDTH" = "Top Button";
+"doublePressCrown" = "Double Press Crown";
+"CAMERA_NONE" = "Cannot detect your face.";
+"CANCEL_DRAG" = "Cancel Drag";
+"SOUND_ACTION_CLUCK" = "Cluck";
+"SPEAK_SCREEN" = "Speak Screen";
+"CONNECT_TO_RECEIVER" = "Use Other Device";
+"ORIENTATION_LOCKED_FULL_WIDTH" = "Lock Rotation";
+"APPLE_PAY" = "Pay";
+"pressCrown" = "Press Crown";
+"CLASSIC_INVERT_FULL_WIDTH" = "Classic Invert";
+"FREEHAND_BEND_ONE_LINE" = "Bend";
+"LOCK" = "Lock
+Screen";
+"Settings-Sound-Off" = "Sound
+Off";
+"MediaControls-PlayPause" = "Play / Pause";
+"SCREENSHOT" = "Screenshot";
+"CHOOSE_ACTIVE_DRAG_END_POINT" = "Select the location to stop dragging.";
+"Scroll-Auto" = "Auto";
+"REDO_LINE_GESTURE" = "Redo";
+"CONFIRM_DRAG" = "Drag";
+"ASSISTIVE_ACCESS" = "Assistive
+Access";
+"Position-Top" = "Top";
+"CAMERA_MOVEMENT_LEFT" = "Left";
+"FACE_GUIDANCE_MOVE_AWAY" = "Move away from the camera";
+"MOVE_SCENE_CENTER" = "Center";
+"SCROLL" = "Scroll";
+"MOTION_CUES_FULL_WIDTH" = "Vehicle Motion Cues";
+"Remote-VolumeUp" = "Increase Volume";
+"Scroll-Next" = "Next Page";
+"CONFIRM_HOLD_AND_DRAG" = "Hold and Drag";
+"empty.favorite.gesture.button" = "Add custom gesture";
+"PROFILES" = "Switch Sets";
+"DrawingRotate90" = "%@°";
+"PINCH_ROTATE" = "Pinch and Rotate";
+"HOME" = "Home";
+"INPUT_RECOVERY_FULL_WIDTH" = "Input Recovery";
+"SCROLL_CONTINUOUS_VERTICAL_FULL_WIDTH" = "Continuous Vertical Scroll";
+"SEARCHING" = "Searching…";
+"MediaControls-Pause" = "Pause";
+"Device-Notification-Center" = "Older Notifications";
+"HOVERTEXT_TYPING_FULL_WIDTH" = "Hover Typing";
+"Position-Orig" = "Original";
+"FREEHAND_OFF" = "OFF";
+"FREEHAND_MOVING" = "Moving";
+"PAN_UP" = "Pan Up";
+"MUTE" = "Mute";
+"ESCAPE" = "Escape";
+"PAN_DOWN" = "Pan Down";
+"VOLUME_UP_ASSISTIVE_TOUCH" = "Volume
+Up";
+"DrawingAutoPress" = "Auto Press";
+"CREATE_RECIPE_FROM_POINT" = "Create for Tap";
+"DROP_HERE" = "Drop Here";
+"MediaControls-Play" = "Play";
+"CONNECTED_TO_RECEIVER_FORMAT" = "Now controlling %@. Press switch for 10 seconds to cancel.";
+"EDIT-SELECT-ALL" = "Select All";
+"DIGITAL_CROWN_ROTATE_COUNTERCLOCKWISE_FULL_WIDTH" = "Turn Digital Crown Counterclockwise";
+"FREEHAND_ROTATE_CW_ONE_LINE" = "CW";
+"MediaControls-FastForward" = "Forward";
+"CAMERA_MOVEMENT_RIGHT" = "Right";
+"pressCrownToBegin" = "Begin";
+"EDIT_BACKWARD_CHAR" = "Previous
+Character";
+"SWITCH_CONTROL_PROFILE_ALERT_TITLE" = "Using %@ Switch Set.";
+"TARGET_PICKER_RIGHT" = "Right";
+"SOUND_ACTION_SH" = "Sh";
+"SCAT_QUICK_ITEM_VOICE_CONTROL" = "Voice Control";
+"TYPING_SHORTCUTS" = "Typing Shortcuts";
+"FREEHAND_ROTATE_CCW_TWO_LINES" = "Rotate
+CCW";
+"CAMERA_FACE_TOO_FAR" = "Your face is too far away.";
+"CAMERA_MOVEMENT_ROTATE_LEFT" = "Rotate Left";
+"doublePressCrownToSkip" = "Skip";
+"DISCONNECTED_FROM_RECEIVER_FORMAT" = "No longer controlling %@.";
+"LOCK_SHORT_FULL_WIDTH" = "Lock";
+"FREEHAND_STRAIGHTEN_TWO_LINES" = "Straighten
+Path";
+"Remote-Title" = "Remote";
+"CHOOSE_DRAG_END_POINT" = "Select the destination for dragging.";
+"DIGITAL_CROWN_ROTATE_CLOCKWISE_FULL_WIDTH" = "Turn Digital Crown Clockwise";
+"ACTIONS" = "Actions";
+"BACKGROUND_SOUNDS_FULL_WIDTH" = "Background Sounds";
+"MediaControls-SkipBackward" = "Seek Frame Backward";
+"SWITCH_CONTROL_FULL_WIDTH" = "Switch Control";
+"Scroll-Down" = "Scroll Down";
+"FREEHAND_ROTATE_TWO_LINES" = "Rotate
+Path";
+"TOP" = "Top";
+"EDIT-PASTE" = "Paste";
+"FREEHAND_ROTATE_CCW_ONE_LINE" = "CCW";
+"FREEHAND_ROTATE_CW_TWO_LINES" = "Rotate
+CW";
+"FREEHAND_BENDING" = "Bending";
+"Scroll-Up" = "Scroll Up";
+"SCAT_QUICK_ITEM_ELEMENT_ACTIONS" = "Actions";
+"Settings-Sound-On" = "Sound
+On";
+"REACHABILITY" = "Reachability";
+"EDIT-COPY" = "Copy";
+"FREEHAND_BEND_RIGHT_ONE_LINE" = "Bend Right";
+"EDIT_SHOW_CALLOUT_BAR" = "Show Edit Bar";
+"HEAD_MOVEMENT_SWITCHES_PREVENTING_HEAD_TRACKING" = "Head Movement switches cannot be used with Head Tracking.";
+"MediaControls-SkipForward" = "Seek Frame Forward";
+"FREEHAND_TOUCH" = "Touch";
+"SCAT_QUICK_ITEM_DEVICE" = "Device";
+"FLICK_LEFT" = "Flick Left";
+"LONG_PRESS" = "Long Press";
+"DWELL_KEYBOARD_CONTINUOUS_PATH_FULL_WIDTH" = "Slide to Type";
+"REBOOT_DEVICE_FULL_WIDTH" = "Restart";
+"FREEHAND_STRAIGHT_TWO_LINES" = "Straight
+Path";
+"EXIT_MENU" = "Exit Menu";
+"SHAKE" = "Shake";
+"Position-Left" = "Left";
+"doublePressCrownToContinueWithoutLenses" = "Continue Without Lenses";
+"EDIT_SELECT_NONE" = "Select None";
+"MOVE_SCENE_DOWN" = "Down";
+"CHOOSE_CANDIDATE" = "Choose Candidate";
+"element.scrollable" = "Scrollable";
+"COMMAND_AND_CONTROL_FULL_WIDTH" = "Voice Control";
+"FingersFormat" = "Fingers (%@)";
+"OPEN_MENU" = "Open Menu";
+"EYE_TRACKING_AUTO_HIDE_TOGGLE_FULL_WIDTH" = "Toggle Auto-Hide";
+"SCAT_QUICK_ITEM_SETTINGS" = "Settings";
+"CONTROL_CENTER_FULL_WIDTH" = "Control Center";
+"MediaControls-PreviousTrack" = "Previous Chapter";
+"FREEHAND_STRAIGHT_ONE_LINE" = "Straight";
+"DWELL_PAUSE" = "Pause
+Dwell";
+"FREEHAND_MORE_ONE_LINE" = "More";
+"SCROLL_TOP" = "Beginning";
+"PLANE_DEPTH" = "Plane
+Depth";
+"PINCH_IN" = "Pinch In";
+"Settings-Scan-By-Grid" = "Grid";
+"REMOTE_SCREEN" = "Apple Watch
+Mirroring";
+"SOUND_ACTION_ALERT_TITLE" = "Sound Action Detected";
+"FORCE_QUIT_FULL_WIDTH" = "Force Quit";
+"CAMERA_FACE_NOT_FOUND" = "Cannot locate your face.";
+"DWELL_RESUME" = "Resume
+Dwell";
+"MORE" = "More";
+"FREEHAND_TOUCH_STATE_TWO_LINES" = "Touch:
+%@";
+"MOVE_SCENE_RIGHT" = "Right";
+"SCROLL_CONTINUOUS_HORIZONTAL_FULL_WIDTH" = "Continuous Horizontal Scroll";
+"Device-App-Switcher" = "App Switcher";
+"PanMenu" = "Pan";
+"Remote-NavigationGroup" = "Navigation";
+"APPLE_PAY_CONFIRM_FULL_WIDTH" = "Confirm with AssistiveTouch";
+"ACCESSIBILITY_READER_FULL_WIDTH" = "Accessibility Reader";
+"LOCK_SHORT" = "Lock";
+"Scroll-Left" = "Scroll Left";
+"DIGITAL_CROWN_FULL_WIDTH" = "Digital Crown";
+"SOS_FULL_WIDTH" = "SOS";
+"FACE_GUIDANCE_MOVE_CLOSE" = "Move closer to the camera";
+"VOLUME_DOWN_FULL_WIDTH" = "Decrease Volume";
+"FULL_KEYBOARD_ACCESS" = "Full Keyboard
+Access";
+"STOP" = "Stop";
+"DRAG_AND_DROP" = "Drag";
+"PAN_RIGHT" = "Pan Right";
+"Settings-Speech-On" = "Speech
+On";
+"DEVICE" = "Device";
+"Settings-Speech-Off" = "Speech
+Off";
+"KEYBOARD_SLIDE" = "Slide To Type";
+"TYPE_TO_SIRI" = "Type to
+Siri";
+"BACKGROUND_SOUNDS" = "Background
+Sounds";
+"Remote-Up" = "Up";
+"DWELL" = "Dwell";
+"DWELL_CLICK" = "Click";
+"SOUND_ACTION_UH" = "Uh";
+"FORCE_TOUCH" = "3D Touch";
+"EDIT_BACKWARD_LINE" = "Previous Line";
+"FLOAT_APP" = "Open New App
+with Slide Over";
+"MENU_BAR" = "Menu Bar";
+"NOTIFICATION_CENTER_FULL_WIDTH" = "Notification Center";
+"DWELL_FALLBACK" = "Fallback";
+"PLANE_HORIZONTAL" = "Plane
+Horizontal";
+"Position-Top-Left" = "Top Left";
+"RECIPES" = "Recipes";
+"EDIT_SELECT_WORD" = "Select Word";
+"EDIT_FORWARD_CHAR" = "Next
+Character";
+"SOS" = "SOS";
+"DrawingLift" = "Lift";
+"Position-Right" = "Right";
+"RECIPE_VALIDATION_FAILED_FORMAT" = "Failed to validate recipe “%@.” Verify that it is set up correctly in Settings.";
+"SPOTLIGHT_SEARCH" = "Spotlight Search";
+"NextPageLabel_Spoken" = "Next Page";
+"FREEHAND_STRAIGHTEN_ONE_LINE" = "Straighten";
+"COLOR_FILTERS" = "Color Filters";
+"BACK_TO_GESTURES" = "Back to Gestures";
+"GESTURES" = "Gestures";
+"EDIT_FORWARD_LINE" = "Next Line";
+"EDIT_DISABLE_SELECT" = "Disable
+Selection";
+"SCAT_QUICK_ITEM_HOME" = "Home";
+"PAUSE" = "Pause";
+"MOVE_SCENE_BACKWARD" = "Backward";
+"STOP_DICTATION" = "Stop
+Dictation";
+"NAVIGATION_MODE" = "Navigation Mode";
+"EDIT_FORWARD_WORD" = "Next Word";
+"INCREASE_ZOOM" = "Increase
+Zoom";
+"ON_DEVICE_EYE_TRACKING_CALIBRATION_INTRO" = "Follow the dot with your eyes as it moves around the screen.";
+"FREEHAND_ROTATE_90_CW" = "%@° Rotate
+CW";
+"SCREEN_INVALID" = "Invalid Configuration
+Triple-click the home button to stop Switch Control.";
+"MediaControls-NextTrack" = "Next Chapter";
+"TARGET_PICKER_BACKWARD" = "Backward";
+"FLICK_RIGHT" = "Flick Right";
+"DECREASE_ZOOM" = "Decrease
+Zoom";
+"element.dimmed" = "Dimmed";
+"SCAT_TYPE_TO_SIRI" = "Type to Siri";
+"Scroll-Previous" = "Previous Page";
+"SYSDIAGNOSE" = "Analytics";
+"ENTERED_EYE_TRACKING_MODE" = "Eye Tracking";
+"DOUBLE_TAP_FULL_WIDTH" = "Double Tap";
+"TRIPLE_CLICK_FULL_WIDTH" = "Accessibility Shortcut";
+"SCROLL_TO_BOTTOM_FULL_WIDTH" = "Scroll to Bottom";
+"TAP" = "Tap";
+"BACK" = "Back";
+"VOLUME_UP" = "Increase
+Volume";
+"REFINE-SELECTION" = "Refine Selection";
+"NO_ITEMS" = "No Items";
+"MENU_GROUP_ROW" = "Row %@";
+"Remote-Exit" = "Exit Remote";
+"CREATE_RECIPE_FROM_HOLD_POINT" = "Create for Hold";
+"DISCONNECT_FROM_FORWARDER" = "Stop Using Device";
+"MOTION_CUES" = "Vehicle
+Motion Cues";
+"FREEHAND_ON" = "ON";
+"FREEHAND_ROTATE_90_CCW_SPOKEN" = "Rotate %@ Degrees Counterclockwise";
+"FREEHAND_ROTATE_CCW_SPOKEN" = "Rotate Counterclockwise";
+"ScrollUpDownContainer" = "Scroll Up / Down";
+"CAMERA_MOVEMENT_UP" = "Up";
+"GoBackGroupHighlightLabel" = "Back";
+"RECIPE_ACTIVATED_FORMAT" = "Your switches are configured to use the “%@” recipe.";
+"SOUND_ACTION_EE" = "E-sound";
+"MOVE_SCENE_UP" = "Up";
+"pressCrownToContinue" = "Continue";
+"VOLUME_DOWN" = "Decrease
+Volume";
+"DIGITAL_CROWN" = "Digital
+Crown";
+"Settings-Last" = "Last";
+"CALIBRATE_ON_DEVICE_EYE_TRACKING_FULL_WIDTH" = "Calibrate Eye Tracking";
+"TARGET_PICKER_DOWN" = "Down";
+"RECENTER_APPS_FULL_WIDTH" = "Recenter Apps";
+"Remote-Down" = "Down";
+"DWELL_LOCK" = "Disable
+Fallback";
+"MOVE_MENU" = "Move Menu";
+"NAVIGATION_MODE_ITEM_MODE" = "Item Mode";
+"WILL_QUIT_FRONTMOST_APP" = "Eye tracking signal has been lost. You will be taken to the Home Screen to recover it.";
+"DISMISS_AUTOCORRECTION" = "Dismiss Correction";
+"ACCESSIBILITY_MENU_ASSISTIVETOUCH" = "AssistiveTouch";
+"HEAD_TRACKING_BUBBLE_MODE_TOGGLE" = "Snap to Item";
+"NEARBY_DEVICE_CONTROL_FULL_WIDTH" = "Control Nearby Devices";
+"Device-Control-Center" = "Control
+Center";
+"ScrollLeftRightContainer" = "Scroll Left / Right";
+"ZOOM_OUT" = "Zoom Out";
+"SWITCH_CONTROL_TITLE" = "Switch Control";
+"PAN_LEFT" = "Pan Left";
+"FACE_GUIDANCE_ALIGNMENT_TIMEOUT" = "Continuing…";
+"pressCrownToSelect" = "Select";
+"PinchMenu" = "Pinch";
+"TRIPLE_CLICK_ASSISTIVE_ACCESS" = "Triple Click";
+"CONFIRM_FLICK" = "Flick";
+"MENU_BAR_FULL_WIDTH" = "Menu Bar";
+"CHOOSE_SCROLL_VIEW" = "Choose where to scroll.";
+"DWELL_PAUSE_FULL_WIDTH" = "Pause Dwell";
+"SIRI_SHORTCUTS" = "Shortcuts";
+"DIGITAL_CROWN_ROTATE_COUNTERCLOCKWISE" = "Turn Crown
+Counterclockwise";
+"ZOOM_CONTROLLER" = "Zoom Controller";
+"FREEHAND_TOUCH_STATE_ONE_LINE" = "Touch: %@";
+"NAVIGATION_MODE_RAY_PICKER" = "Ray Picker";
+"FULL_KEYBOARD_ACCESS_FULL_WIDTH" = "Full Keyboard Access";
+"FREEHAND_ROTATING" = "Rotating";
+"element.heading" = "Heading";
+"SCREEN_INVALID_NHB" = "Invalid Configuration
+Triple-click the side button to stop Switch Control.";
+"ADD_RECENT" = "Add
+Recent";
+"TARGET_PICKER_UP" = "Up";
+"MOVE_SCENE_FORWARD" = "Forward";
+"SHUT_DOWN" = "Shut
+Down";
+"ALT_KEYS" = "Alt Keys";
+"Position-Bottom-Left" = "Bottom Left";
+"FORCE_QUIT" = "Force
+Quit";
+"Settings-First" = "First";
+"NEARBY_DEVICE_CONTROL" = "Control Nearby
+Devices";
+"APP_SWITCHER" = "App Switcher";
+"SOUND_ACTION_TT" = "T-sound";
+"DWELL_TIME_DECREASE" = "Decrease Time";
+"VOICEOVER" = "VoiceOver";
+"KEYBOARD_CONTINUOUS_SLIDE" = "Continuous
+Slide To Type";
+"FREEHAND_AUTO_LIFT_STATE" = "Auto Lift:
+%@";
+"FACE_GUIDANCE_ROLL_LEFT" = "Straighten your head (roll to the left)";
+"nubbit.hint" = "Double tap to open the menu";
+"ZOOM_SCREEN_ON_DEVICE_EYE_TRACKING_FULL_WIDTH" = "Eye Tracking Zoom";
+"DrawingPress" = "Touch";
+"Settings-Scan-By-Point" = "Gliding Cursor";
+"TRIPLE_CLICK" = "Accessibility
+Shortcut";
+"DWELL_QUICK_SCROLL" = "Quick Scroll";
+"SOUND_ACTION_PP" = "P-sound";
+"CAMERA_MOVEMENT" = "Move Around";
+"DOCK_FULL_WIDTH" = "Dock";
+"Remote-Home" = "Home";
+"UNTITLED_DEVICE" = "Untitled";
+"Remote-Left" = "Left";
+"DOUBLE_TAP" = "Double Tap";
+"FREEHAND_ROTATE_90_CCW" = "%@° Rotate
+CCW";
+"ZOOM" = "Zoom";
+"Settings-Move" = "Move
+Menu";
+"triplePressLockToShowAccessibilityOptions" = "Accessibility Options";
+"FREEHAND_MOVE_TWO_LINES" = "Move
+Cursor";
+"TARGET_PICKER_FORWARD" = "Forward";
+"ASSISTIVE_ACCESS_FULL_WIDTH" = "Assistive Access";
+"LOCK_ITEM_SPECIFIC_MENU" = "Lock Item Menu";
+"UNLOCK_ITEM_SPECIFIC_MENU" = "Unlock Item Menu";
+"VOLUME_DOWN_ASSISTIVE_TOUCH_FULL_WIDTH" = "Volume Down";
+"FACE_GUIDANCE_CENTER_FACE" = "Center face in camera";
+"FREEHAND_BACK_TWO_LINES" = "Back to Menu";
+"ROTATE" = "Rotate";
+"DWELL_PAUSE_TOGGLE" = "Pause/Resume
+Dwell";
+"CAMERA_MOVEMENT_FORWARD" = "Forward";
+"ORIENTATION" = "Rotate
+Screen";
+"MadeForIphone_HardwareSwitch_MoveToNextItem" = "Next";
+"FREEHAND_MOVE_ONE_LINE" = "Move";
+"DWELL_DRAG" = "Drag";
+"FLICK_ARBITRARY" = "Custom Flick";
+"CAPTURE" = "Capture";
+"ACCESSIBILITY_READER" = "Accessibility
+Reader";
+"SLOWER" = "Slower";
+"MOVE_SCENE_LEFT" = "Left";
+"MediaControls-Rewind" = "Rewind";
+"GROUP" = "Group";
+"EDIT" = "Edit";
+"ROTATE_CLOCKWISE" = "Rotate CW";
+"PIN_ERROR" = "Unable to open app in Split View.";
+"ORIENTATION-LANDSCAPE-RIGHT" = "Right";
+"CLASSIC_INVERT" = "Classic
+Invert";
+"DrawingGesture" = "Freehand";
+"RECENTER_APPS" = "Recenter
+Apps";
+"Settings-Scan-By-Head" = "Head Tracking";
+"FASTER" = "Faster";
+"CHOOSE_KEYBOARD_SLIDE_POINT" = "Continue to select letters, tap outside the keyboard or a candidate to finish gesture.";
+"EYE_TRACKING_BUBBLE_MODE_TOGGLE" = "Snap to Item";
+"DIGITAL_CROWN_ROTATE_CLOCKWISE" = "Turn Crown Clockwise";
+"GAME_MODE_DISABLED" = "Game Mode Disabled";
+"APPLE_PAY_FULL_WIDTH" = "Pay";
+"ACTIVE_DRAG" = "Direct Touch";
+"PRESS_MENU" = "Press Menu";
+"VIRTUAL_TRACKPAD" = "Virtual Trackpad";
+"SYSDIAGNOSE_FULL_WIDTH" = "Analytics";
+"APPLE_WATCH_REMOTE_SCREEN" = "Apple Watch Mirroring";
+"FingersMenu" = "Fingers";
+"NOTIFICATION_CENTER" = "Notification
+Center";
+"Remote-Right" = "Right";
+"SIRI" = "Siri";
+"CUSTOM" = "Custom";
+"INCREMENT" = "Increment";
+"DECREMENT" = "Decrement";
+"DrawingAutoLift" = "Auto Lift";
+"CustomGesturesMenu" = "Saved";
+"element.mixed.state" = "Mixed";
+"DWELL_CLICK_AND_HOLD" = "Click and Hold";
+"SMART_INVERT_FULL_WIDTH" = "Smart Invert";
+"doublePressCrownToContinue" = "Continue";
+"FREEHAND_STOP_TWO_LINES" = "Stop
+%@";
+"CAMERA_MOVEMENT_BACKWARD" = "Backward";
+"TOP_BUTTON" = "Top
+Button";
+"ORIENTATION_UNLOCKED_FULL_WIDTH" = "Unlock Rotation";
+"GAME_MODE_ENABLED" = "Game Mode Enabled";
+"SCROLL_TO_TOP_FULL_WIDTH" = "Scroll to Top";
+"CHOOSE_FLICK_END_POINT" = "Select the place where the flick will end.";
+"pressCrownToSkip" = "Skip";
+"pressCrownToTryAgain" = "Try Again";
+"DELETE" = "Delete";
+"TRIPLE_CLICK_ASSISTIVE_ACCESS_FULL_WIDTH" = "Triple Click";
+"PINCH" = "Pinch";
+"RESUME" = "Resume";
+"FREEHAND_MORE_TWO_LINES" = "More
+Options";
+"ORIENTATION_UNLOCKED" = "Unlock
+Rotation";
+"DWELL_PAUSE_TOGGLE_FULL_WIDTH" = "Toggle Pause/Resume Dwell";
+"VOLUME_UP_ASSISTIVE_TOUCH_FULL_WIDTH" = "Volume Up";
+"ORIENTATION_FULL_WIDTH" = "Rotate Screen";
+"START_DICTATION" = "Start
+Dictation";
+"DRAWING" = "Freehand";
+"SCAT_QUICK_ITEM_GESTURES" = "Gestures";
+"Remote-Select" = "Select";
+"FREEHAND_ROTATE_CW_SPOKEN" = "Rotate Clockwise";
+"EDIT-CUT" = "Cut";
+"ZOOM_IN" = "Zoom In";
+"VOLUME_DOWN_ASSISTIVE_TOUCH" = "Volume
+Down";
+"doublePressCrownToSetUpManually" = "Set Up Manually";
+"HAND_GESTURES_NO_HANDS_DETECTED" = "Hands are not in view.";
+"Device-Notification-Center_WATCH" = "Notification Center";
+"INDIRECT_PINCH" = "Tap";
+"Remote-VolumeDown" = "Decrease Volume";
+"GROUP_DESCRIPTION" = "%1$@ through %2$@";
+"ADD_IN_SETTINGS" = "New
+Gesture";
+"TAP_AND_HOLD_ENABLED" = "Started Dragging";
+"CAMERA" = "Camera";
+"DWELL_RESUME_FULL_WIDTH" = "Resume Dwell";
+"ITEM_SPECIFIC_MENU" = "Item Menu";
+"LOCK_FULL_WIDTH" = "Lock Screen";
+"doublePressCrownToSkipAppleConfigurator" = "Skip";
+"CONFIRM_CONTROL_DEVICE" = "Connect";
+"LIVE_TRANSCRIPTIONS" = "Live
+Captions";
+"CAMERA_FRONT" = "Front Camera";
+"LIVE_SPEECH_FULL_WIDTH" = "Live Speech";
+"SOUND_ACTION_SS" = "S-sound";
+"TORCH" = "Flashlight";
+"Settings-Speed-Up" = "Speed
+Up";
+"Scroll-Right" = "Scroll Right";
+"MOUSE_PRIMARY_CLICK" = "Single-Tap";
+"TYPE_TO_SIRI_FULL_WIDTH" = "Type to Siri";
+"ASSISTIVE_TOUCH" = "AssistiveTouch";
+"HEAD_TRACKING_BUBBLE_MODE_TOGGLE_FULL_WIDTH" = "Toggle Snap to Item";
+"REBOOT_DEVICE" = "Restart";
+"TARGET_PICKER_LEFT" = "Left";
+"HOVERTEXT_TYPING" = "Hover Typing";
+"Remote-VolumeGroup" = "Volume";
+"FACE_GUIDANCE_ALIGNED" = "Face is aligned!";
+"ALWAYS_TAP_MENU" = "Switch Control Menu";
+"Settings-Slow-Down" = "Slow
+Down";
+"Settings-Scan-By-Elements" = "Item
+Mode";
+"MadeForIphone_HardwareSwitch_Select" = "Select";
+"PIN_APP_RIGHT" = "Pin New App
+on Right";
+"element.adjustable" = "Adjustable";
+"pressCrownAfterInsertsAttached" = "Confirm Inserts Attached";
+"nubbit.label" = "AssistiveTouch menu";
+"FREEHAND_BEND_LEFT_ONE_LINE" = "Bend Left";
+"DWELL_UNLOCK" = "Enable
+Fallback";
+"FACE_GUIDANCE_HOLD_STILL" = "Hold still…";
+"FACE_GUIDANCE_ROLL_RIGHT" = "Straighten your head (roll to the right)";
+"SPOTLIGHT" = "Spotlight";
+"SCAT_QUICK_ITEM_ASSISTIVE_TOUCH" = "AssistiveTouch";
+"ENTERED_HEAD_TRACKING_MODE" = "Head Tracking";
+"SOUND_ACTION_OO" = "Oo";
+"FLICK_UP" = "Flick Up";
+"MENU" = "Menu";
+"PINCH_OUT" = "Pinch Out";
+"LIVE_SPEECH" = "Live
+Speech";
+"MAGNIFIER" = "Magnifier";
+"doublePressCrownToCancel" = "Cancel";
+"Settings-Grouping-On" = "Groups
+On";
+"POTENTIAL_RECEIVER_MESSAGE_FORMAT" = "Ready to be controlled by %@.";
+"element.button" = "Button";
+"DIM_FLASHING_LIGHTS" = "Dim Flashing
+Lights";
+"DWELL_LOCK_FULL_WIDTH" = "Disable Fallback";
+"EDIT_BACKWARD_WORD" = "Previous Word";
+"HOLD_AND_DRAG" = "Hold and Drag";
+"FlickMenu" = "Flick";
+"back.button" = "Back";
+"NUMBER_OF_FINGERS" = "{'fingers': {'one': '%d Finger', 'other': '%d Fingers', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@fingers@'}";
+"SCROLL_CONTINUOUS_VERTICAL" = "Continuous
+ Vertical Scroll";

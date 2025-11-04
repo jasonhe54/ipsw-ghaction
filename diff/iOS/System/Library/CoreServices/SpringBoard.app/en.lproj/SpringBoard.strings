@@ -1,0 +1,573 @@
+"LOW_BATT_TITLE" = "Low Battery";
+"GENERIC_DEVICE_CONNECTED_SUGGESTION" = "Device connected";
+"LOST_MODE_BIO_AUTHENTICATION_TITLE" = "%@ Required";
+"ARRIVED_AT_WORK_SUGGESTION" = "Arrived at work";
+"POWER_DOWN_FIND_MY_IPAD" = "Find My helps you locate this iPad when it is lost or stolen, even when in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can change “Find My network” functionality by going to Find My in Settings.";
+"DISPLAY_BRIGHTNESS" = "Display";
+"TOP_AFFORDANCE_MENU_TITLE_MAXIMIZATION_ZOOM" = "Enter Full Screen";
+"SLEEP_ALARM_BEDTIME_SNOOZE" = "Remind in 10 Min";
+"POWER_DOWN_FIND_MY_DISABLE_BUTTON" = "Temporarily Turn Off Finding";
+"MEDUSA_BANNER_EDUCATION_DESCRIPTION" = "Choose another app";
+"LOGOUT_TEMPORARY_SESSION_LOGOUT_ALERT_MESSAGE" = "Your data will be deleted and you will be signed out.";
+"SIGNATURE_VERSION_UNSUPPORTED_ERROR_BODY" = "The developer of this app needs to update it to work with this version of iOS.";
+"SLEEP_ALARM_BEDTIME_STOP" = "Going to Bed Now";
+"PASSCODE_ALERT_CANCEL" = "Cancel";
+"TOP_AFFORDANCE_MENU_TITLE_ARRANGE_THIRDS" = "Thirds";
+"PREVIOUS_SLIDE_OVER_DISCOVERABILITY" = "Previous Slide Over Window";
+"DATA_PLAN_FAILED_ACTIVATE_CARRIER_BODY" = "Your %@ cellular data plan did not successfully activate.";
+"LOCATION_DONATED_IN_APP_SUGGESTION_FORMAT" = "Recently viewed in %@";
+"DOCK_SHORTCUT_DISCOVERABILITY" = "Show Dock";
+"DEPRECATED_32_BIT_APP_SECONDARY_UPDATE_AVAILABLE" = "App Store";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_AUTO_VERTICAL_SPLIT_TWO" = "Make Vertical Split";
+"ARRANGE_LEFT_RIGHT_DISCOVERABILITY" = "Left & Right";
+"NETWORK_LOST_LOCK_LABEL_SHORT" = "choose";
+"NON_COMPLIANT_PASSCODE_LATER" = "Later";
+"DEPRECATED_32_BIT_APP_BODY_NO_UPDATE_NO_SYSTEM_VERSION" = "The developer of this app needs to update it to work with this version of iOS.";
+"ARRANGE_TOP_BOTTOM_DISCOVERABILITY" = "Top & Bottom";
+"NO_NAME" = "Unknown";
+"EMPTY_MENU_PLACEHOLDER" = "No Menu Items";
+"PRODUCTIVITY_GESTURE_EDUCATION_SWIPE_APPS_OFF" = "Swipe Between Apps Off";
+"IPOD_ONLY" = "iPod";
+"MULTIPLE_UPCOMING_ALARMS_SET" = "You have an alarm set for %@.";
+"DISPLAY_BRIGHTNESS_DECREASE_DISCOVERABILITY" = "Decrease Brightness";
+"PROACTIVE_HIDDEN_APPS_LOCALIZED_CATEGORY_NAME" = "Hidden";
+"IN_CALL_NO_DATA_SWITCHING_LAUNCH_ALERT_BODY_FORMAT" = "“%@” cannot provide cellular data during this call. Switch cellular data to “%@”?";
+"LOW_DISK_SPACE_DISMISS" = "Done";
+"TTY" = "TTY";
+"LOST_MODE_BIO_AUTHENTICATION_CANCEL" = "Cancel";
+"UNHANDLED_URL_TITLE" = "Unsupported URL";
+"SINGLE_LINE_SUGGESTION_FORMAT" = " - %@";
+"TURN_ON" = "Turn On";
+"IPHOTO_LAUNCH_ALERT_TITLE_PREMIGRATION" = "Migrate data from iPhoto to Photos";
+"CHAR_REMAINING" = "%@ character remaining";
+"LOW_BATT_FIND_MY_IPOD" = "Find My helps you locate this iPod when it is lost or stolen, even when in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can change this “Find My network” functionality by going to Find My in Settings.";
+"FACE_ID_DISABLED_BODY" = "A problem has been detected with Face ID. Go to Settings for more information.";
+"RELATIVE_DATE_NOW" = "now";
+"LOW_DISK_SPACE_TITLE" = "Storage Almost Full";
+"PHONE_ACTIVATED" = "iPhone is activated";
+"CONFERENCE_CALL" = "Conference";
+"POWER_DOWN_FIND_MY_DISABLE_IPAD" = "Find My helps you locate this iPad when it is lost or stolen, even in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can temporarily turn off Find My network and it will resume when this iPad is powered on again.";
+"IN_CALL_NO_DATA_SWITCHING_LAUNCH_ALERT_TITLE" = "Cellular Data Not Available";
+"DATA_PLAN_ACTIVATED_CARRIER_BODY" = "Your %@ cellular data plan has been successfully activated.";
+"AIRPLANE_DATA_GO_TO_SETTINGS" = "Open Settings";
+"NOTIFICATION_MANAGEMENT_SUGGESTION_KEEP_MENU" = "Keep…";
+"PASSCODE_ALERT_EMERGENCY" = "Emergency";
+"FAIRPLAY_FAMILY_LEAVE_ALERT_MESSAGE" = "To use it, you must buy it from the App Store.";
+"SHOW_KEYBOARD_SHORTCUTS_DISCOVERABILITY" = "Show Keyboard Shortcuts";
+"BLUETOOTH_WATCH_CONFIRMATION_MESSAGE" = "Apple Watch uses Bluetooth to connect to iPhone and receive notifications";
+"INSECURE_DRAWING_RADAR_DESCRIPTION" = "PRIVACY WARNING! A process without proper privilege has attempted to display content on the screen while locked. (Or there is a bug in SpringBoard‘s detection of that). To help diagnose the problem this radar includes an archive of your screen contents at the time of the violation. This can include the contents of the app behind the lockscreen. If that could expose private or sensitive information PLEASE DELETE THE FOLLOWING files before submitting the radar:";
+"FAIRPLAY_FAMILY_LEAVE_ALERT_TITLE" = "This app is no longer shared with you.";
+"TOP_AFFORDANCE_MENU_TITLE_SPLIT_VIEW" = "Split View";
+"POWER_DOWN_FIND_MY_DISABLE_IPHONE" = "Find My helps you locate this iPhone when it is lost or stolen, even in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can temporarily turn off Find My network and it will resume when this iPhone is powered on again.";
+"RINGER_OFF" = "Off";
+"SYSTEM_ATTRIBUTION_STRING" = "System";
+"APP_REPAIR_REQUIRES_NETWORK_OK" = "OK";
+"CONTROL_OFF" = "Off";
+"REDIAL" = "Redial";
+"WARNING_HOUR_FORMAT" = "You have %@ hour to watch “%@” and then it will be deleted";
+"FIRST_WAKE_SUGGESTION_NONAME" = "Often used on first pickup";
+"CAPTURE_APPLICATION_TERMINATION_ALERT_TITLE_WITH_PROCESS_REASON" = "%@ - Capture Application Launch Requirements Not Met - %@";
+"TOP_AFFORDANCE_MENU_TITLE_REMOVE_FROM_SET" = "Minimize";
+"PRODUCTIVITY_GESTURE_EDUCATION_CORNER_GESTURE_QUICK_NOTE_OFF" = "Quick Note Gesture Off";
+"CHARGING" = "Charging";
+"AWAY_LOCK_EMERGENCY_LABEL" = "slide for emergency";
+"ACTIVATION_REQUIRED" = "Activation Required";
+"DATA_PLAN_NEW_ACCOUNT_BODY" = "You have not signed up for a data plan. Would you like to set up a new account? If you don’t, you can do it later in Settings.";
+"DATA_PLAN_DISABLE_TITLE" = "Cellular Data";
+"APP_PROFILE_EXPIRED_TITLE_WITH_NAME_FORMAT" = "“%@” Is No Longer Available";
+"ORIENTATION_LOCK_LANDSCAPE_LOCKED" = "Landscape Orientation Locked";
+"RESTORE_FAILURE_ALERT_BODY_TEXT" = "There was a problem during restore. Please restart your %@ and try restoring again.";
+"ARRANGE_RIGHT_LEFT_DISCOVERABILITY" = "Right & Left";
+"THERMAL_ALERT_STRING_IPOD" = "iPod needs to cool down
+before you can use it.";
+"FACE_ID_DISABLED_GO_TO_SETTINGS" = "Open Settings";
+"UNHANDLED_URL_BODY" = "This URL wasn’t loaded:
+%@";
+"APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_BODY_IPOD" = "Your device management settings do not allow using apps from developer “%@” on this iPod. You can allow using these apps in Settings.";
+"SETTINGS" = "Settings";
+"CONTINUITY_LOCATION_BASED_SUGGESTION" = "Based on your current location";
+"TILE_BOTTOM_LEFT_DISCOVERABILITY" = "Bottom Left";
+"NEXT_APP_WINDOW_DISCOVERABILITY" = "Next App Window";
+"REOPEN_CLOSED_WINDOW" = "Reopen Closed Window";
+"FAIRPLAY_FAMILY_LEAVE_APP_STORE" = "View in App Store";
+"RADAR_REQUEST_MESSAGE_BODY_HOME_BUTTON" = "A problem has been detected with Touch ID. Please submit feedback using Feedback Assistant. Your fingerprint data will not be collected.";
+"TODAY_VIEW_TOGGLE_DESCRIPTION" = "Keep the Today View on the Home Screen next to your apps";
+"AUTO_WIFI_SYNC_LOW_POWER" = "Automatic iTunes Wi-Fi Sync will resume when charged.";
+"ORIENTATION_LOCK_PORTRAIT_UNLOCKED" = "Portrait Orientation Unlocked";
+"DATA_PLAN_DISABLE_BODY" = "If you do not want to be asked about a cellular data plan, you can turn off Cellular Data in Settings.";
+"DATA_PLAN_ADD_TITLE" = "Cellular Data Plan Usage";
+"AIRPLANE_DATA_PROMPT_NO_WIFI" = "Turn Off Airplane Mode to Access Data";
+"IPHOTO_LAUNCH_BUTTON_CANCEL" = "Cancel";
+"FLASHLIGHT_TITLE" = "Flashlight";
+"DATA_PLAN_UPDATED_TITLE" = "Cellular Data Plan Updated";
+"APPLE_INTERNAL_ICON_CATEGORY_DESCRIPTION" = "Apple Internal";
+"MUTE_ON" = "Mute On";
+"DEVICE_CONNECTED_SUGGESTION_NAME_FORMAT" = "“%@” connected";
+"TOP_AFFORDANCE_MENU_TITLE_ADD_TO_SET" = "Add Another Window";
+"TOP_AFFORDANCE_MENU_TITLE_MOVE_TO_EXTERNAL_DISPLAY" = "Move to Display";
+"HELP_MENU_SEARCH_PLACEHOLDER" = "Search";
+"SIGNATURE_VERSION_UNSUPPORTED_ERROR_TITLE" = "“%@” Needs to Be Updated";
+"FACE_ID_DISABLED_TITLE" = "Face ID Has Been Disabled";
+"NON_COMPLIANT_PASSCODE_CONTINUE" = "Continue";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_MANUAL" = "Move & Resize";
+"NEXT_SLIDE_OVER_DISCOVERABILITY" = "Next Slide Over Window";
+"AWAY_ALERT_ALTERNATE_LABEL_FORMAT" = "Tap to %@";
+"NO" = "No";
+"TIMER_REPEAT" = "Repeat";
+"LOW_BATT_MSG_LEVEL" = "%@ battery remaining.";
+"RESTORE_FAILURE_ALERT_RESTART_BUTTON_TITLE" = "Restart";
+"INSECURE_DRAWING_ALERT_TITLE_WITH_PROCESS" = "%@ - View Security Bug";
+"KEYBOARD_SHORTCUT_MENU_TITLE" = "More Keyboard Shortcuts";
+"CARRIER_DEBUGGING_TITLE" = "Configured for Diagnostics";
+"RADAR_REQUEST_CANCEL" = "Cancel";
+"WLAN_SYNC_LOW_POWER" = "iTunes WLAN Sync will resume when charged.";
+"APPLE_ICON_CATEGORY_DESCRIPTION" = "Apple";
+"PHONE_LOW_BATT_TITLE" = "iPhone Battery is Low";
+"TILE_DOWN_DISCOVERABILITY" = "Bottom";
+"SINGLE_APP_MENU_TITLE" = "Full Screen Apps";
+"APP_REPAIR_REQUIRES_NETWORK_MESSAGE" = "An internet connection is required to verify and open “%@”. Connect to the internet and try again.";
+"DONE" = "Done";
+"ALARM_SNOOZING" = "Snoozing:";
+"AWAY_LOCK_LABEL_SHORT" = "unlock";
+"BLUETOOTH_DEVICE_CONNECTED_SUGGESTION" = "Often used with Bluetooth device connected";
+"DATA_PLAN_ADD_LOW_BODY" = "Only %@ of your data plan remains. Would you like to add more data to your plan now? If you don’t add now, you can do it later in Settings.";
+"DATA_PLAN_FAILED_UPDATE_CARRIER_BODY" = "Your %@ cellular data plan did not successfully update.";
+"CAPTURE_APPLICATION_TERMINATION_RADAR_DESCRIPTION" = "Capture application is terminated because one of the launch requirements is not met. Termination Reason: %@";
+"HELP_MENU_TIPS" = "%@ Help";
+"SPLIT_HOME_SCREEN_DISCOVERABILITY" = "Replace App";
+"CLEANING_ICON_LABEL" = "Cleaning…";
+"TILE_TOP_RIGHT_DISCOVERABILITY" = "Top Right";
+"WARNING_DAYS_FORMAT" = "You have %@ days to watch “%@” and then it will be deleted";
+"IPHOTO_LAUNCH_ALERT_MESSAGE_PREMIGRATION" = "iPhoto is not supported on iOS 8. Your photos and image adjustments will be preserved in Photos.";
+"RINGER_SILENT" = "Silent Mode";
+"SHELF_PLUS_CONTROL_TITLE" = "New Window";
+"DATA_PLAN_FAILED_TITLE" = "Data Plan Activation Failure";
+"STATUS_BAR_BACKGROUND_ACTIVITY_SINGLE_APP_WITH_NAME_FORMAT" = "Touch to return to %@";
+"RINGER_COMPACT_OFF" = "Silent";
+"MOVE_RESIZE_MENU_TITLE" = "Move & Resize";
+"BATTERY_PERCENTAGE" = "%@ Battery";
+"iPhone" = "iPhone";
+"ALPHANUMERIC_PASSCODE_CANCEL" = "Cancel";
+"AIRPLANE_DATA_PROMPT_WLAN" = "Turn Off Airplane Mode or Use WLAN to Access Data";
+"IPOD" = "iPod";
+"LOW_BATT_FIND_MY_IPHONE" = "Find My helps you locate this iPhone when it is lost or stolen, even when in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can change this “Find My network” functionality by going to Find My in Settings.";
+"NOTIFICATION_CENTER_MODE_ALL" = "Notifications";
+"NOTIFICATION_MANAGEMENT_SUGGESTION_KEEP" = "Keep";
+"LOGOUT_TEMPORARY_SESSION_LOGOUT_ALERT_TITLE" = "End Session?";
+"ACTIVATION_FAILED_IGNORE_BUTTON" = "Ignore";
+"CAPTURE_APPLICATION_TERMINATION_ALERT_TITLE_NO_PROCESS_WITH_REASON" = "Capture Application Termination";
+"DEPRECATED_32_BIT_APP_SECONDARY_NO_UPDATE" = "Learn More";
+"TILE_TOP_LEFT_DISCOVERABILITY" = "Top Left";
+"PASSCODE_ALERT_INCORRECT_PASSCODE" = "Incorrect passcode. Enter your current passcode.";
+"BRIGHTNESS" = "Brightness";
+"ACCEPT" = "Accept";
+"DIAL" = "Dial";
+"REMOVE_WINDOW_DISCOVERABILITY" = "Minimize";
+"SYSTEM_ACTION_COACHING_MUSIC_RECOGNITION" = "Hold to
+Recognize Music";
+"ARRANGE_IN_GRID_DISCOVERABILITY" = "Quarters";
+"CONTROL_OPEN" = "Open";
+"LOW_BATT_SUBTITLE_LOW_POWER_MODE_DISABLED" = "Tap to turn on Low Power Mode";
+"INSECURE_DRAWING_ALERT_TITLE_NO_PROCESS" = "View Security Bug";
+"GAME_OVERLAY_SHORTCUT_DISCOVERABILITY" = "Show Game Overlay";
+"POWER_DOWN_FIND_MY_IPOD" = "Find My helps you locate this iPod when it is lost or stolen, even when in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can change “Find My network” functionality by going to Find My in Settings.";
+"APP_PROFILE_NOT_TRUSTED_BODY_IPHONE" = "“%@” has not been trusted on this iPhone. Until this developer has been trusted, their enterprise apps will not be available for use.";
+"AIRPLANE_DISABLE" = "Disable";
+"MUSIC" = "Music";
+"LOW_DISK_SPACE_MESSAGE" = "You can manage your storage in Settings.";
+"REORDER_INFO_TITLE" = "Edit Home Screen";
+"DATA_PLAN_ACTIVATED_FALLBACK_BODY" = "Your cellular data plan has been successfully activated.";
+"SYSTEM_ACTION_COACHING_STOP" = "Hold to
+Stop";
+"ACTIVATION_FAILED_BODY_SUPPORT" = "Contact your carrier at %@ from another phone if this problem continues to occur.";
+"NEXT_WINDOW_IN_SPACE_DISCOVERABILITY" = "Next Window";
+"DISPLAY_BRIGHTNESS_INCREASE_DISCOVERABILITY" = "Increase Brightness";
+"POWER_DOWN_FIND_MY_TITLE_IPHONE" = "iPhone Remains Findable After Power Off";
+"NOTIFICATION_CENTER_DISCOVERABILITY" = "Notification Center";
+"RADAR_REQUEST_BUTTON" = "Provide Feedback";
+"SYSTEM_ACTION_COACHING_ACCESSIBILITY_FALLBACK" = "Press and Hold";
+"DEVELOPER_MODE_REQUIRED_ERROR_TITLE" = "Developer Mode Required";
+"CONTROL_ON" = "On";
+"MULTIPLE_CALLS" = "Multiple Calls";
+"RELATIVE_DATE_PAST_HOUR" = "%@h ago";
+"MEDUSA_BANNER_EDUCATION_TITLE_SPLIT" = "Split View";
+"OK" = "OK";
+"ALARM_STOP" = "Stop";
+"DATA_PLAN_UPDATED_CARRIER_BODY" = "Your %@ cellular data plan has been successfully updated.";
+"ALARM_TITLE" = "Alarm";
+"TOP_AFFORDANCE_MENU_TITLE_MAXIMIZATION_UNZOOM" = "Exit Full Screen";
+"APP_PROFILE_NOT_TRUSTED_BODY_IPOD" = "“%@” has not been trusted on this iPod. Until this developer has been trusted, their enterprise apps will not be available for use.";
+"EXPIRED_FORMAT" = "Your rental period for “%@” has expired";
+"IN_CALL_NO_DATA_SWITCHING_LAUNCH_ALERT_CANCEL" = "Not Now";
+"REGIONALLY_RESTRICTION_TITLE" = "%@ Not Available";
+"WARNING_HOURS_FORMAT" = "You have %@ hours to watch “%@” and then it will be deleted";
+"DATA_PLAN_NOW" = "Now";
+"IPHOTO_LAUNCH_BUTTON_MIGRATE" = "Migrate";
+"REORDER_INFO_BODY" = "To rearrange icons, touch and hold any icon until it starts to wiggle, then drag icons to desired locations.
+Drag an icon to the far right to create additional Home screens.
+Press the Home button when done.";
+"DATA_PLAN_UPDATED_FALLBACK_BODY" = "Your cellular data plan has been successfully updated.";
+"DATA_PLAN_ADD_EMPTY_BODY" = "There is no data remaining on your current plan. Would you like to add more data now? If you don’t add now, you can do it later in Settings.";
+"PASSCODE_REMINDER_CANCEL" = "Not Now";
+"CARPLAY_CONNECTED_SUGGESTION" = "Often used while driving";
+"PREVIOUS_WINDOW_IN_SPACE_DISCOVERABILITY" = "Previous Window";
+"REPLY" = "Reply";
+"AUTO_WLAN_SYNC_LOW_POWER" = "Automatic iTunes WLAN Sync will resume when charged.";
+"MOVE_TO_LEFT_SLIDE_OVER_DISCOVERABILITY" = "Move to Left Slide Over";
+"YES" = "Yes";
+"RINGER_VOLUME" = "Ringer";
+"SIGNATURE_VERSION_UNSUPPORTED_ERROR_LEARN_MORE" = "Learn More";
+"RELATIVE_DATE_PAST_SEC" = "%@s ago";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_AUTO_GRID_EVEN_FOUR" = "Make Grid";
+"THERMAL_ALERT_STRING_IPHONE" = "iPhone needs to cool down
+before you can use it.";
+"COUNT_DOWN_TIMER_MMSS_FORMAT" = "%1$@min %2$@sec";
+"FLASHLIGHT_ON" = "On";
+"CLOSE" = "Close";
+"PREVIOUS_APP_WINDOW_DISCOVERABILITY" = "Previous App Window";
+"PASSCODE_ALERT_TITLE" = "Passcode Requirement";
+"ARRANGE_MENU_TITLE" = "Arrange";
+"POWER_DOWN_FIND_MY_DISABLE_IPOD" = "Find My helps you locate this iPod when it is lost or stolen, even in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can temporarily turn off Find My network and it will resume when this iPod is powered on again.";
+"PRODUCTIVITY_GESTURE_EDUCATION_ACTION_TEXT" = "Turn On in Settings";
+"SYSTEM_ACTION_COACHING_TURN_OFF" = "Hold to
+Turn Off";
+"EXTERNAL_DISPLAY_EXTENDING_IPAD_DISPLAY" = "Extending iPad Display";
+"ARRANGE_BOTTOM_TOP_DISCOVERABILITY" = "Bottom & Top";
+"ALARM_SNOOZE_TIME_REMAINING" = "%@ remaining";
+"CALLING" = "calling…";
+"LOCATION_DIRECTION_LAUNCH_SUGGESTION_FORMAT" = "Get Directions to “%@” in %@";
+"EMERGENCY_CALL" = "Emergency call";
+"APP_PROFILE_NOT_TRUSTED_BODY_IPAD" = "“%@” has not been trusted on this iPad. Until this developer has been trusted, their enterprise apps will not be available for use.";
+"NOTIFICATION_MANAGEMENT_SUGGESTION_MANAGE" = "Manage…";
+"APP_PROFILE_NEEDS_VALIDATION_CANCEL" = "Cancel";
+"TOP_AFFORDANCE_MENU_TITLE_MOVE_TO_MAIN_DISPLAY" = "Move to iPad";
+"NETWORK_LOST_LOCK_LABEL" = "slide to choose";
+"CHARS_REMAINING" = "%@ characters remaining";
+"DEVELOPER_BUILD_EXPIRATION" = "A new iOS update is now available. Please update from the iOS %d beta.";
+"IN_CALL_LAUNCH_ALERT" = "Cellular Data is Not Available During This Call";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_MANUAL_LEADING" = "Tile Left";
+"CALL_BACK" = "Call Back";
+"SYSTEM_ACTION_COACHING_OPEN" = "Hold to
+Open";
+"LOW_BATT_SUBTITLE_LOW_POWER_MODE_ENABLED" = "Low Power Mode enabled";
+"ALARM_SNOOZE" = "Snooze";
+"RELATIVE_DATE_FUTURE_SEC" = "in %@s";
+"CENTER_DISCOVERABILITY" = "Center";
+"DATA_PLAN_ACTIVATED_TITLE" = "Data Plan Activated";
+"CALL_FAILURE" = "Call Failure";
+"DATA_PLAN_FAILED_TRY_AGAIN" = "Try Again";
+"COUNT_DOWN_TIMER_HMMSS_FORMAT" = "%1$@hr %2$@min %3$@sec";
+"NOTIFICATION_MANAGEMENT_SUGGESTION_OFF" = "Turn off…";
+"ACCESSORY_LOW_POWER_TITLE" = "%@: Battery is Low";
+"DISMISS_ALERT" = "Dismiss";
+"LOGOUT_GOODBYE_USER" = "Goodbye, %@";
+"WARNING_MINUTES_FORMAT" = "You have %@ minutes to watch “%@” and then it will be deleted";
+"APP_LIBRARY_SHORTCUT_DISCOVERABILITY" = "Show App Library";
+"QUARTERS_MENU_TITLE" = "Quarters";
+"NETWORK_LOST" = "Network Lost";
+"RELATIVE_DATE_PAST_DAYS" = "%@d ago";
+"SIGNATURE_VERSION_UNSUPPORTED_REPAIR_TITLE" = "“%@” Needs to Be Updated";
+"SYSTEM_SEARCH_TITLE" = "Search";
+"SYSTEM_ACTION_COACHING_CONTROL_FALLBACK" = "Hold for
+Control";
+"DEPRECATED_32_BIT_APP_ACKNOWLEDGE" = "OK";
+"WAITING_FOR_ACTIVATION_TITLE" = "Waiting for Activation";
+"WARNING_DAY_FORMAT" = "You have %@ day to watch “%@” and then it will be deleted";
+"ALPHANUMERIC_PASSCODE_OK" = "OK";
+"Call Failure
+%@
+%@" = "Call Failure
+%@
+%@";
+"AIRPLANE_CELL_PROMPT" = "You must disable Airplane Mode to access data.";
+"NOTIFICATION_MANAGEMENT_SUGGESTION_EXPLANATION" = "Keep receiving notifications from the %@ app?";
+"LEGACY_TVREMOTEAPP_LAUNCH_ALERT_TITLE" = "TV Remote Has Moved to Control Center";
+"BATTERY_CHARGING" = "Battery Charging";
+"SMS_READ" = "Read";
+"SYSTEM_ACTION_COACHING_CONTROL_DEFAULT_FORMAT" = "Hold for
+%@";
+"CARRIER_DEBUGGING_BODY" = "This device is configured to send diagnostic information to Apple.
+All usage information, including your personal information, will appear in the reports sent to Apple. Testers of this pre-release software are expected to submit this data.
+Should you have a business need to disable this feature please contact your employer for instructions.";
+"COMMAND_TAB_DISCOVERABILITY" = "Switch App";
+"DEVELOPER_MODE_REQUIRED_ERROR_BODY" = "“%@” requires Developer Mode to run. Until Developer Mode has been enabled this app will not be available for use.";
+"IPHOTO_LAUNCH_ALERT_MESSAGE_POSTMIGRATION" = "iPhoto is not supported on iOS 8. Launch Photos to access your photos and videos.";
+"IPHONE_TOO_HOT" = "Temperature";
+"LEGACY_TVREMOTEAPP_LAUNCH_ALERT_MESSAGE" = "You can continue using TV Remote in Control Center to control Apple TV and AirPlay-enabled TVs.";
+"HIDE_SLIDE_OVER_DISCOVERABILITY" = "Hide Slide Over";
+"DATA_PLAN_FAILED_TRY_LATER" = "Cancel";
+"AIRPLANE_DATA_PROMPT" = "Turn Off Airplane Mode or Use Wi-Fi to Access Data";
+"ENTER_NEW_PASSCODE" = "New Passcode";
+"NEXT_WINDOW_SET_DISCOVERABILITY" = "Next Window Set";
+"LOCATION_COPIED_IN_APP_SUGGESTION_FORMAT" = "Recently copied in %@";
+"SIGNATURE_VERSION_UNSUPPORTED_REPAIR_ACKNOWLEDGE" = "Update";
+"MEDUSA_BANNER_ERROR_TITLE_MULTIPLE_WINDOWS" = "Multiple Windows";
+"BACK" = "Back";
+"LEGACY_TVREMOTEAPP_LAUNCH_BUTTON_LEARN_MORE" = "Learn More";
+"APP_PROFILE_NOT_TRUSTED_TITLE" = "Untrusted Enterprise Developer";
+"ORIENTATION_LOCK_UNLOCKED" = "Orientation Unlocked";
+"SYSTEM_ACTION_COACHING_SHORTCUT_FORMAT" = "Hold for
+“%@”";
+"SIGNATURE_VERSION_UNSUPPORTED_ERROR_ACKNOWLEDGE" = "OK";
+"OPEN_WINDOWS_MENU_TITLE" = "Open Windows";
+"EXTERNAL_DISPLAY_SCREEN_MIRRORING_ON" = "Screen Mirroring On";
+"LOGOUT_GOODBYE_USER_NAME_FORMAT" = "<firstname>";
+"RESTRICTED_URL_BODY" = "This URL wasn’t loaded:
+%@";
+"BATTERY_CHARGE_REMAINING" = "%@ Remaining";
+"UNKNOWN_ATTRIBUTION_STRING" = "Unknown";
+"ENTER_FULL_SCREEN_DISCOVERABILITY" = "Enter Full Screen";
+"PREVIOUS_SPACE_DISCOVERABILITY" = "Previous App";
+"DATA_PLAN_FAILED_ACTIVATE_FALLBACK_BODY" = "Your cellular data plan did not successfully activate.";
+"SLIDE_TO_CALL_BACK" = "slide to call back";
+"SYSTEM_ACTION_COACHING_SHOW_FOCUS_LIST" = "Hold for
+Focus List";
+"TILE_RIGHT_DISCOVERABILITY" = "Right";
+"NO_SEARCH_RESULTS" = "No Search Results";
+"DEPRECATED_32_BIT_APP_TITLE" = "“%@” Needs to Be Updated";
+"CONFIRM_NEW_PASSCODE" = "Re-enter your new passcode";
+"POWER_DOWN_FIND_MY_TITLE_IPAD" = "iPad Remains Findable After Power Off";
+"REORDER_INFO_TEXT" = "Tap and hold an icon to enter reorder mode. Click the menu button to stop.";
+"ALARM_DEFAULT_TITLE" = "Alarm";
+"FAIRPLAY_FAMILY_LEAVE_CANCEL" = "Cancel";
+"CAPTURE_APPLICATION_TERMINATION_ALERT_MESSAGE" = "Please file a radar to "%@ | %@" with a sysdiagnose attached";
+"iPad" = "iPad";
+"MUTE_OFF" = "Mute Off";
+"EXIT_FULL_SCREEN_DISCOVERABILITY" = "Exit Full Screen";
+"LOST_MODE_BIO_AUTHENTICATION_SUBTITLE" = "%@ is required to confirm
+your identity and exit lost mode";
+"CALLING_LABEL_FORMAT" = "calling %@…";
+"SPOTLIGHT_SHORTCUT_DISCOVERABILITY" = "Search";
+"MOVE_TO_IPAD_DISCOVERABILITY" = "Move to iPad";
+"WIFI_SYNC_LOW_POWER" = "iTunes Wi-Fi Sync will resume when charged.";
+"BATTERY_CHARGE_PERCENTAGE" = "%@ Charged";
+"AIRPLANE_DATA_SETTINGS" = "Settings";
+"WALLET_ACTION_SHOW_PASS" = "Show Pass";
+"LOW_BATT_FIND_MY_TITLE_IPAD" = "iPad Remains Findable After Power Off";
+"RELATIVE_DATE_FUTURE_HOUR" = "in %@h";
+"SYSTEM_ACTION_COACHING_SHORTCUT_FALLBACK" = "Hold to
+Run Shortcut";
+"POWER_DOWN_FIND_MY_DISABLE_PASSCODE_TITLE" = "Enter passcode";
+"QUICK_NOTE_DISCOVERABILITY" = "Quick Note";
+"SIMULATOR_CARRIER_STRING" = "Carrier";
+"SLIDE_TO_CALL_BACK_SHORT" = "call back";
+"ACTIVATION_FAILED_BODY" = "Contact your carrier if this problem continues to occur.";
+"BLUETOOTH_WATCH_CONFIRMATION_TITLE" = "Turn off Bluetooth?";
+"SYNC_LOW_POWER" = "iTunes Sync will resume when charged.";
+"CONFIRM_NEW_PASSCODE_MISMATCH" = "The new passcodes did not match. %@";
+"PIN_ENTRY_SUCCESS" = "PIN Entry Succeeded";
+"STATUS_BAR_BACKGROUND_LOCATION_SINGLE_APP_WITH_NAME_FORMAT" = "%@ is Actively Using Your Location";
+"DEVELOPER_MODE_REQUIRED_ERROR_ACKNOWLEDGE" = "OK";
+"MUTE_VOLUME" = "Mute";
+"TOP_AFFORDANCE_MENU_TITLE_FULL_SCREEN" = "Full Screen";
+"NETWORK_RESTRICTED" = "Restricted Network";
+"UNSUPPORTED_CHARGING_ACCESSORY" = "This accessory may
+not be supported.";
+"CANCEL" = "Cancel";
+"POWER_DOWN_FIND_MY_TITLE_IPOD" = "iPod Remains Findable After Power Off";
+"REGULATORY_INFO_BUTTON_LABEL" = "Regulatory";
+"AIRPLANE_CELL_PROMPT_SMS" = "You must disable Airplane Mode to send or receive messages.";
+"TODAY_VIEW_TOGGLE_TITLE" = "Keep On Home Screen";
+"ENABLE_LOW_POWER" = "Low Power Mode";
+"PASSCODE_ALERT_DONE" = "Save";
+"NEXT_SPACE_DISCOVERABILITY" = "Next App";
+"POWER_DOWN_FIND_MY_IPHONE" = "Find My helps you locate this iPhone when it is lost or stolen, even when in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can change “Find My network” functionality by going to Find My in Settings.";
+"INTERNET_TETHERING_SINGLE_HOST" = "Personal Hotspot: %@ Connection";
+"TIMER_STOP" = "Stop";
+"LOGOUT_BUTTON_TITLE" = "Sign Out";
+"TOP_AFFORDANCE_MENU_TITLE_LEFT_SPLIT" = "Left Split";
+"APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_BODY_IPHONE" = "Your device management settings do not allow using apps from developer “%@” on this iPhone. You can allow using these apps in Settings.";
+"MEDUSA_BANNER_ERROR_SUBTITLE" = "Not Supported";
+"APP_PROFILE_NOT_TRUSTED_CANCEL" = "Cancel";
+"ARRIVED_AT_HOME_SUGGESTION" = "Arrived at home";
+"REMOVE_FROM_HOME_SCREEN" = "Remove from Home Screen";
+"UNLOCK" = "Unlock";
+"PROACTIVE_RECENT_APPS_LOCALIZED_CATEGORY_NAME" = "Recently Added";
+"SCREEN_SHARING" = "Screen Sharing";
+"TILE_BOTTOM_RIGHT_DISCOVERABILITY" = "Bottom Right";
+"PRODUCTIVITY_GESTURE_EDUCATION_PRODUCTIVITY_GESTURES_OFF" = "Productivity Gestures Off";
+"BULLETIN_LIST_CLEAR" = "Clear";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_MANUAL_BOTTOM" = "Tile Bottom";
+"NOTIFICATION_CENTER_CONTENT_UNAVAILABLE_ALL" = "No Notifications";
+"PLEASE_WAIT" = "Please Wait…";
+"DATA_PLAN_LATER" = "Later";
+"BOOKMARK_FOLDER_NAME" = "Bookmarks";
+"TOP_AFFORDANCE_MENU_TITLE_RIGHT_SPLIT" = "Right Split";
+"IPHOTO_LAUNCH_BUTTON_LEARN_MORE" = "Learn More";
+"IPHOTO_LAUNCH_ALERT_TITLE_POSTMIGRATION" = "Your iPhoto data has been migrated to Photos";
+"RELATIVE_DATE_PAST_DAY" = "%@d ago";
+"SYSTEM_ACTION_COACHING_RECORD" = "Hold to
+Record";
+"LOGOUT_SAVING_DOCUMENTS_FROM" = "Saving documents from";
+"COMMAND_TAB_SPRINGBOARD_DISPLAY_NAME" = "Home Screen";
+"APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_TITLE" = "Untrusted Developer";
+"VOD_OK" = "OK";
+"PROACTIVE_SUGGESTED_APPS_LOCALIZED_CATEGORY_NAME" = "Suggestions";
+"APP_BETA_EXPIRED_TITLE_WITH_NAME_FORMAT" = "“%@” Beta Has Expired";
+"MOVE_TO_RIGHT_SLIDE_OVER_DISCOVERABILITY" = "Move to Right Slide Over";
+"SYSTEM_ACTION_COACHING_OPEN_APP_FORMAT" = "Hold to
+Open %@";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_MANUAL_TOP" = "Tile Top";
+"RINGER_ON" = "On";
+"RESTRICTED_URL_TITLE" = "Restricted URL";
+"PREVIOUS_WINDOW_SET_DISCOVERABILITY" = "Previous Window Set";
+"APPLICATION_ICON_LONG_FORM_DESCRIPTION_FORMAT_STRING" = "%@ ⸱ %@";
+"LOW_BATT_FIND_MY_IPAD" = "Find My helps you locate this iPad when it is lost or stolen, even when in power reserve mode or after power off.
+
+The location is visible in Find My on your other devices, and to people in Family Sharing you share location with.
+
+You can change this “Find My network” functionality by going to Find My in Settings.";
+"CALL" = "Call";
+"AWAY_LOCK_LABEL" = "slide to unlock";
+"APP_PROFILE_EXPIRED_OK" = "OK";
+"SOUND_EFFECTS_VOLUME" = "Sound Effects";
+"HEADPHONES_CONNECTED_SUGGESTION" = "Often used with headphones connected";
+"PRODUCTIVITY_GESTURE_EDUCATION_CORNER_GESTURE_SCREENSHOT_OFF" = "Screenshot Gesture Off";
+"CONTINUITY_ORIGINATOR_NAME_FORMAT" = "From “%@”";
+"LOCATION_RIDE_LAUNCH_SUGGESTION_FORMAT" = "Get a Ride to “%@” with %@";
+"LOGOUT_SAVING_DOCUMENTS" = "Saving documents";
+"AIRPLANE_CANCEL" = "Cancel";
+"ALARM_SNOOZING_TITLE" = "Snoozing";
+"SYSTEM_MENU_TITLE" = "System";
+"LOST_MODE_BIO_AUTHENTICATION_TOUCH_ID" = "Touch ID";
+"APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_CANCEL" = "Cancel";
+"PASSCODE_ALERT_NEXT" = "Continue";
+"APP_REPAIR_REQUIRES_NETWORK_TITLE" = "Unable to Verify App";
+"CALL_WITH" = "Call with %@: %@";
+"INTERACTIVE_SCREENSHOT_GESTURE_TITLE" = "New Markup";
+"ADD_FOLDER_TO_LIBRARY_ALERT_MESSAGE" = "Removing from Home Screen will keep all apps from the folder in your App Library. Bookmarks will be moved out of the folder.";
+"APP_SWITCHER_DISCOVERABILITY" = "App Switcher";
+"SEND" = "Send";
+"EXTERNAL_DISPLAY_BANNER_TITLE" = "External Display";
+"DATA_PLAN_FAILED_UPDATE_FALLBACK_BODY" = "Your cellular data plan did not successfully update.";
+"SYSTEM_NOTIFICATION_HEADER" = "System";
+"RELATIVE_DATE_PAST_MIN" = "%@m ago";
+"SIRI" = "Siri";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_AUTO" = "Arrange";
+"LOGOUT_GOODBYE_USER_NO_NAME" = "Goodbye";
+"CONTROL_CENTER_DISCOVERABILITY" = "Control Center";
+"LOW_DISK_SPACE_SETTINGS" = "Settings";
+"VIEW" = "View";
+"SHOW_SLIDE_OVER_DISCOVERABILITY" = "Show Slide Over";
+"RADAR_REQUEST_TITLE" = "Touch ID Feedback Requested";
+"ENTER_CURRENT_PASSCODE" = "To change your passcode, first enter your current passcode.";
+"THERMAL_ALERT_STRING_IPAD" = "iPad needs to cool down
+before you can use it.";
+"ALARM_OTHER_TIMEZONE_FORMAT" = "%1$@ (%2$@)";
+"NETWORK_RESTRICTED_TEXT" = "Your selected cellular network is restricted. You can choose a different network in Settings.";
+"ONE_UPCOMING_ALARM_SET" = "Your alarm is set for %@.";
+"TODAY_VIEW_FAVORITES_LIST_INSTRUCTION" = "Drag your favorite widgets here to pin them on the Home Screen.";
+"PASSCODE_REMINDER_CONTINUE" = "Continue";
+"TOP_AFFORDANCE_MENU_TITLE_ARRANGE_LEFT_AND_QUARTERS" = "Left and Quarters";
+"ACTIVATION_FAILED_RETRY_BUTTON" = "Try Again";
+"PUK_ENTRY_SUCCESS" = "PUK Entry Succeeded";
+"POWER_DOWN_FIND_MY_DISABLE_PASSCODE_SUBTITLE" = "Your passcode is required to temporarily disable Find My for the next power off";
+"LOW_BATT_FIND_MY_TITLE_IPHONE" = "iPhone Remains Findable After Power Off";
+"PREVIOUS_WINDOW_ON_STAGE_DISCOVERABILITY" = "Previous Window on Stage";
+"APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_BODY_IPAD" = "Your device management settings do not allow using apps from developer “%@” on this iPad. You can allow using these apps in Settings.";
+"SYSTEM_ACTION_COACHING_ACCESSIBILITY_FORMAT" = "Hold for
+%@";
+"WAITING_FOR_ACTIVATION_BODY" = "This may take some time.";
+"MEDUSA_BANNER_EDUCATION_TITLE_SLIDE_OVER" = "Slide Over";
+"ACTIVATION_FAILED_TITLE" = "iPhone is not Activated";
+"NEXT_WINDOW_ON_STAGE_DISCOVERABILITY" = "Next Window on Stage";
+"RELATIVE_DATE_FUTURE_MIN" = "in %@m";
+"NEW_TEXT_MESSAGE" = "New Text Message";
+"SETTING_LANGUAGE" = "Setting Language…";
+"SIGNATURE_VERSION_UNSUPPORTED_REPAIR_CANCEL" = "Cancel";
+"SYSTEM_ACTION_COACHING_RING" = "Hold for
+Ring";
+"HOME_SCREEN_SHORTCUT_DISCOVERABILITY" = "Go to Home Screen";
+"IN_CALL_NO_DATA_SWITCHING_LAUNCH_ALERT_ENABLE" = "Allow Cellular Data Switching";
+"RINGER_COMPACT_ON" = "Ring";
+"BLOCKED" = "No Caller ID";
+"STATUS_BAR_DATE_FORMAT_SEPARATOR_TO_STRIP" = ",";
+"TOP_AFFORDANCE_MENU_TITLE_SLIDE_OVER" = "Slide Over";
+"APP_PROFILE_NEEDS_VALIDATION_TITLE" = "Unable to Verify App";
+"STATUS_BAR_DATE_FORMAT_STRING" = "EEEMMMd";
+"LOST_MODE_BIO_AUTHENTICATION_EMERGENCY" = "Emergency";
+"iPod" = "iPod";
+"LOW_BATT_FIND_MY_TITLE_IPOD" = "iPod Remains Findable After Power Off";
+"EMERGENCY_CALL_TITLE" = "Emergency
+Call";
+"DATA_PLAN_NEW_ACCOUNT_TITLE" = "Cellular Data Account";
+"ACCESSORY_LOW_POWER_MESSAGE" = "%@ battery remaining.";
+"ORIENTATION_LOCK_PORTRAIT_LOCKED" = "Portrait Orientation Locked";
+"SLIDE_TO_CANCEL" = "slide to cancel";
+"SYSTEM_ACTION_COACHING_TURN_ON" = "Hold to
+Turn On";
+"APP_PROFILE_NEEDS_VALIDATION_BODY" = "An Internet connection is required to verify trust of the developer “%@”. This app will not be available until verified.";
+"REGIONALLY_RESTRICTION_EMBEDDED_BROWSER_ENGINE_BODY" = "This app has in-app browser functions that are not available in your identified region. Your account billing address and the physical location of your device are used to determine your identified region over time.";
+"UNKNOWN" = "Unknown";
+"TILE_UP_DISCOVERABILITY" = "Top";
+"WARNING_MINUTE_FORMAT" = "You have %@ minute to watch “%@” and then it will be deleted";
+"SLIDE_TO_ANSWER" = "slide to answer";
+"SYSTEM_ACTION_COACHING_OPEN_APP_FALLBACK" = "Hold to
+Open";
+"LOW_BATT_TITLE_COMPACT" = "Low Battery";
+"VOICE" = "Voice";
+"MOVE_TO_OTHER_DISPLAY_DISCOVERABILITY" = "Move to Display";
+"SIGNATURE_VERSION_UNSUPPORTED_REPAIR_BODY" = "This app needs to be updated to work with this version of iOS.";
+"REGIONALLY_RESTRICTION_BROWSER_ENGINE_BODY" = "This browser app is not available in your identified region. Your account billing address and the physical location of your device are used to determine your identified region over time.";
+"INSECURE_DRAWING_ALERT_MESSAGE" = "Please file a radar to "%@ | %@" with a sysdiagnose attached.";
+"SHARE_DEVICE_IDENTIFIERS_LABEL" = "Share Device Identifiers";
+"REOPEN_CLOSED_WINDOWS" = "Reopen Closed Windows";
+"HALVES_MENU_TITLE" = "Halves";
+"LOST_MODE_BIO_AUTHENTICATION_FACE_ID" = "Face ID";
+"NETWORK_LOST_TEXT" = "Your selected cellular network is no longer available. You can choose a different network in Settings.";
+"TURN_OFF" = "Turn Off";
+"INTERNET_TETHERING_MULTIPLE_HOSTS" = "Personal Hotspot: %@ Connections";
+"SYSTEM_ACTION_COACHING_SILENT" = "Hold for
+Silent";
+"CHARGING_COMPACT" = "Charging";
+"ADD_FOLDER_TO_LIBRARY_ALERT_TITLE" = "Remove “%@”?";
+"SNOOZE_STOP" = "Stop";
+"KEYBOARD_BRIGHTNESS" = "Keyboard";
+"MEDUSA_BANNER_ERROR_TITLE_SPLIT_VIEW" = "Split View";
+"TOP_AFFORDANCE_MENU_TITLE_TILE_MANUAL_TRAILING" = "Tile Right";
+"FLASHLIGHT_OFF" = "Off";
+"TOP_AFFORDANCE_MENU_TITLE_CLOSE" = "Close";
+"AIRPLANE_DATA_OK" = "OK";
+"FLASHLIGHT_UNAVAILABLE_TITLE" = "Flashlight Unavailable";
+"TILE_LEFT_DISCOVERABILITY" = "Left";
+"SYSTEM_ACTION_COACHING_TRANSLATE" = "Hold to
+Translate";
+"IN_CALL_LAUNCH_OK" = "OK";
+"NUMBER_OF_DEVICES_CHARGING" = "%@ Devices";
+"SLIDE_OVER_MENU_TITLE" = "Slide Over";
+"FACE_ID_DISABLED_CLOSE" = "Close";
+"SYSTEM_ACTION_COACHING_CONTROL_VERB_FORMAT" = "Hold to
+%@";
+"CARDND_EXIT_NOT_DRIVING" = "I’m Not Driving";
