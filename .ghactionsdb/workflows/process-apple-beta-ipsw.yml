@@ -5,59 +5,39 @@ type: ipsw
 ipsw:
   osField: os_type
   deviceIdentifierField: device_identifier
-  versionNameField: release_version
-  buildIdentifierField: release_build
+  versionNameField: beta_version
+  buildIdentifierField: beta_build
   deviceOptions:
     iOS:
-      # https://appledb.dev/device/iPhone-17-Pro-series.html
       - name: "iPhone 17 Pro"
         identifier: "iPhone18,1"
         builds:
-          - releaseName: "iOS 26.0"
-            releaseBuildIdentifier: "23A330"
-            releaseDate: "2025-09-19"
-          - releaseName: "iOS 26.0"
-            releaseBuildIdentifier: "23A341"
-            releaseDate: "2025-09-15"
-          - releaseName: "iOS 26.0"
-            releaseBuildIdentifier: "23A345"
-            releaseDate: "2025-09-18"
-          - releaseName: "iOS 26.0.1"
-            releaseBuildIdentifier: "23A355"
-            releaseDate: "2025-09-24"
-          - releaseName: "iOS 26.1"
-            releaseBuildIdentifier: "23B85"
-            releaseDate: "2025-11-03"
+          - releaseName: "iOS 26.1 Beta 4"
+            releaseBuildIdentifier: "23B5073a"
+            releaseDate: "2025-10-20"
+          - releaseName: "iOS 26.1 RC"
+            releaseBuildIdentifier: "23B82"
+            releaseDate: "2025-10-28"
     iPadOS:
-      # https://appledb.dev/device/iPad-Pro-11-inch-(M5).html
       - name: "iPad Pro 11-inch (M5)"
         identifier: "iPad17,1"
         builds:
-          - releaseName: "iPadOS 26.0"
-            releaseBuildIdentifier: "23A8330"
-            releaseDate: "2025-10-22"
-          - releaseName: "iPadOS 26.0.1"
-            releaseBuildIdentifier: "23A8464"
-            releaseDate: "2025-10-15"
-          - releaseName: "iPadOS 26.0.1"
-            releaseBuildIdentifier: "23A8466"
-            releaseDate: "2025-10-21"
-          - releaseName: "iPadOS 26.1"
-            releaseBuildIdentifier: "23B85"
-            releaseDate: "2025-11-03"
+          - releaseName: "iPadOS 26.1 Beta 4"
+            releaseBuildIdentifier: "23B5073a"
+            releaseDate: "2025-10-20"
+          - releaseName: "iPadOS 26.1 RC"
+            releaseBuildIdentifier: "23B82"
+            releaseDate: "2025-10-28"
     macOS:
       - name: "MacBook Pro 14-inch (M5)"
         identifier: "Mac17,2"
         builds:
-          - releaseName: "macOS 26.0"
-            releaseBuildIdentifier: "25A8353"
-            releaseDate: "2025-10-22"
-          - releaseName: "macOS 26.0.1"
-            releaseBuildIdentifier: "25A8364"
-            releaseDate: "2025-10-15"
-          - releaseName: "macOS 26.1"
-            releaseBuildIdentifier: "25B78"
-            releaseDate: "2025-11-03"
+          - releaseName: "macOS 26.1 Beta 4"
+            releaseBuildIdentifier: "25B5072a"
+            releaseDate: "2025-10-20"
+          - releaseName: "macOS 26.1 RC"
+            releaseBuildIdentifier: "25B77"
+            releaseDate: "2025-10-28"
     visionOS:
       - name: "Apple Vision Pro (M5)"
         identifier: "RealityDevice17,1"
@@ -65,9 +45,6 @@ ipsw:
           - releaseName: "visionOS 26.1 Beta 4"
             releaseBuildIdentifier: "23N5042a"
             releaseDate: "2025-10-20"
-          - releaseName: "visionOS 26.0.1"
-            releaseBuildIdentifier: "23M8340"
-            releaseDate: "2025-10-15"
-          - releaseName: "visionOS 26.1"
-            releaseBuildIdentifier: "23N49"
-            releaseDate: "2025-11-03"
+          - releaseName: "visionOS 26.1 RC"
+            releaseBuildIdentifier: "23N48"
+            releaseDate: "2025-10-28"
