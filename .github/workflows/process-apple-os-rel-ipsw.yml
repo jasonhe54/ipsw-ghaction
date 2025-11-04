@@ -48,7 +48,7 @@ jobs:
     runs-on: macos-latest
     
     steps:
-      - name: 1. Log Inputs to Job Summary
+      - name: 1. Log Inputs to Job Summary for ${{ inputs.device_identifier }} on ${{ inputs.release_version }} (${{ inputs.release_build }})
         run: |
           echo "### 🚀 Workflow: 1. Process Apple Release IPSW" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
