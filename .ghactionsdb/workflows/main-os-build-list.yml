@@ -81,7 +81,7 @@ osBuildList:
           releaseDate: "2025-11-03"
           isBeta: false
   visionOS:
-    - identifier: "RealityDevice17,1"
+    - deviceIdentifier: "RealityDevice17,1"
       builds:
         - releaseName: "visionOS 26.0"
           releaseBuildIdentifier: "23M8335"
