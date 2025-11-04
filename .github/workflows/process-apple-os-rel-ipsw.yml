@@ -68,17 +68,29 @@ jobs:
         with:
           ref: ${{ inputs.checkout_branch }}
 
-      - name: 3. Get brew cache directory
-        id: brew-cache
-        run: echo "dir=$(brew --cache)" >> $GITHUB_OUTPUT
+      - name: 3. Get brew prefix and latest ipsw version
+        id: brew-info
+        run: |
+          echo "brew_prefix=$(brew --prefix)" >> $GITHUB_OUTPUT
+          
+          IPSW_LATEST_TAG=$(curl -s "https://api.github.com/repos/blacktop/ipsw/releases/latest" | jq -r .tag_name)
+          
+          if [[ -z "$IPSW_LATEST_TAG" || "$IPSW_LATEST_TAG" == "null" ]]; then
+            echo "::warning::Could not fetch latest ipsw tag. Using 'latest' as fallback."
+            IPSW_LATEST_TAG="latest"
+          fi
+          
+          echo "Latest ipsw tag: $IPSW_LATEST_TAG"
+          echo "ipsw_version=${IPSW_LATEST_TAG}" >> $GITHUB_OUTPUT
 
-      - name: 4. Cache Homebrew downloads
+      - name: 4. Cache Homebrew Installation
         uses: actions/cache@v4
         with:
-          path: ${{ steps.brew-cache.outputs.dir }}
-          key: ${{ runner.os }}-brew-cache-v1
+          # Cache the entire Homebrew installation directory
+          path: ${{ steps.brew-info.outputs.brew_prefix }}
+          key: ${{ runner.os }}-brew-ipsw-${{ steps.brew-info.outputs.ipsw_version }}
           restore-keys: |
-            ${{ runner.os }}-brew-cache-v1
+            ${{ runner.os }}-brew-ipsw-v3.1.634
 
       - name: 5. Install blacktop/ipsw
         run: brew install blacktop/tap/ipsw
