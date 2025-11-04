@@ -1,4 +1,4 @@
-name: 2. Commit and PR Analysis
+name: "[AVOID] Commit and PR Analysis to Specified Branch"
 
 on:
   workflow_dispatch:

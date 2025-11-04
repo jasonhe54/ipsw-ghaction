@@ -1,9 +1,0 @@
-branchFields:
-- checkout_branch
-
-type: ipsw
-ipsw:
-  osField: os_type
-  deviceIdentifierField: device_identifier
-  versionNameField: beta_version
-  buildIdentifierField: beta_build

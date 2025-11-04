@@ -1,4 +1,4 @@
-name: 1. Process Apple Release IPSW
+name: 1. Process Apple OS Release IPSW
 
 on:
   workflow_dispatch:
@@ -18,6 +18,12 @@ on:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
         type: string
+      release_type:
+        description: 'Type of release (beta or release)'
+        required: true
+        type: choice
+        options: [beta, release]
+        default: beta
       release_version:
         description: 'Version (e.g., 26.0). Used for the version tag.'
         required: true
@@ -49,6 +55,7 @@ jobs:
           echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
           echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Type** | \`${{ inputs.release_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Release Build** | \`${{ inputs.release_build }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
@@ -163,14 +170,15 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 13. Clean old release directory
+      - name: 13. Clean and create output directory
         run: |
-          echo "Ensuring the 'release' root directory exists..."
-          mkdir -p release
+          echo "Cleaning and ensuring target directory exists: ${{ inputs.release_type }}"
+          rm -rf "./${{ inputs.release_type }}"
+          mkdir -p "./${{ inputs.release_type }}"
 
       - name: 14. Run Python Analyzer Script and Log Stats
         run: |
-          REPO_SAVE_PATH="release/${{ inputs.os_type }}"
+          REPO_SAVE_PATH="${{ inputs.release_type }}/${{ inputs.os_type }}"
           
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📊 Python Processing Stats" >> $GITHUB_STEP_SUMMARY
@@ -202,7 +210,7 @@ jobs:
 
             FILES_FOUND=$(echo "$JSON_OUTPUT" | jq .files_found)
             FILES_PROCESSED=$(echo "$JSON_OUTPUT" | jq .valid_files_processed)
-            ERROR_COUNT=$(echo "$JSON_SUMMARY" | jq .error_count)
+            ERROR_COUNT=$(echo "$JSON_OUTPUT" | jq .error_count)
             AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
 
             echo "Finished $FOLDER_NAME processing (Duration: $DURATION_FORMATTED)"
@@ -226,8 +234,9 @@ jobs:
 
       - name: 15. Sanitize File Paths
         run: |
-          echo "Searching for and renaming files/directories with colons..."
-          find ./release -depth -name "*:*" -exec bash -c '
+          TARGET_DIR="./${{ inputs.release_type }}"
+          echo "Searching for and renaming files/directories with colons in $TARGET_DIR..."
+          find $TARGET_DIR -depth -name "*:*" -exec bash -c '
             dir=$(dirname "$0")
             base=$(basename "$0")
             new_base=$(echo "$base" | tr ":" "_")
@@ -247,7 +256,6 @@ jobs:
       - name: 17. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
-          # --- CORRECTED: Artifact name is prefixed and uses release_build ---
-          name: analysis-release-${{ inputs.os_type }}-${{ inputs.release_build }}-${{ inputs.device_identifier }}
-          path: ./release/${{ inputs.os_type }}
+          name: analysis-${{ inputs.release_type }}-${{ inputs.os_type }}-${{ inputs.release_build }}-${{ inputs.device_identifier }}
+          path: ./${{ inputs.release_type }}/${{ inputs.os_type }}
           retention-days: 5
