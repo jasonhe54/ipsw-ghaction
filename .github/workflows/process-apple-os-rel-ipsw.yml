@@ -112,7 +112,7 @@ jobs:
           echo "Normalized device ID for cache: $NORMALIZED_ID"
           echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
 
-      - name: 9. Cache IPSW file
+      - name: 9. Check for cached IPSW file
         id: cache-ipsw
         uses: actions/cache@v4
         with:
