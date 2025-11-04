@@ -90,13 +90,13 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
-			<string>com.apple.accessibility.cursor.Copy</string>
+			<string>com.apple.accessibility.cursor.Arrow</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
 			<key>cursorType</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>extent</key>
-			<integer>40</integer>
+			<integer>160</integer>
 			<key>format</key>
 			<dict>
 				<key>fill</key>
@@ -109,21 +109,105 @@
 			<key>frames</key>
 			<array/>
 			<key>hotx</key>
-			<integer>5</integer>
+			<integer>20</integer>
 			<key>hoty</key>
-			<integer>5</integer>
+			<integer>20</integer>
 			<key>name</key>
-			<string>com.apple.cursor.5</string>
+			<string>com.apple.coregraphics.ArrowS</string>
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>56000</integer>
+				<integer>176000</integer>
 				<key>outline</key>
-				<integer>54400</integer>
+				<integer>150400</integer>
 				<key>overlay</key>
 				<integer>48000</integer>
 			</dict>
 			<key>readableName</key>
+			<string>arrow</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.Arrow</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>0</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>30</integer>
+			<key>hoty</key>
+			<integer>30</integer>
+			<key>name</key>
+			<string>com.apple.coregraphics.ArrowS</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>489600</integer>
+				<key>outline</key>
+				<integer>432000</integer>
+				<key>overlay</key>
+				<integer>201600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>arrow</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.Copy</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>1</integer>
+			<key>extent</key>
+			<integer>40</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>5</integer>
+			<key>hoty</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string>com.apple.cursor.5</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>555200</integer>
+				<key>outline</key>
+				<integer>553600</integer>
+				<key>overlay</key>
+				<integer>547200</integer>
+			</dict>
+			<key>readableName</key>
 			<string>copy</string>
 			<key>scale</key>
 			<integer>1</integer>
@@ -159,16 +243,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>89600</integer>
+				<integer>588800</integer>
 				<key>outline</key>
-				<integer>83200</integer>
+				<integer>582400</integer>
 				<key>overlay</key>
-				<integer>57600</integer>
+				<integer>556800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>copy</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.Copy</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>1</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>20</integer>
+			<key>hoty</key>
+			<integer>20</integer>
+			<key>name</key>
+			<string>com.apple.cursor.5</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>723200</integer>
+				<key>outline</key>
+				<integer>697600</integer>
+				<key>overlay</key>
+				<integer>595200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>copy</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.Copy</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>1</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>30</integer>
+			<key>hoty</key>
+			<integer>30</integer>
+			<key>name</key>
+			<string>com.apple.cursor.5</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>1036800</integer>
+				<key>outline</key>
+				<integer>979200</integer>
+				<key>overlay</key>
+				<integer>748800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>copy</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -201,11 +369,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>104000</integer>
+				<integer>1102400</integer>
 				<key>outline</key>
-				<integer>102400</integer>
+				<integer>1100800</integer>
 				<key>overlay</key>
-				<integer>96000</integer>
+				<integer>1094400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>cross</string>
@@ -243,16 +411,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>137600</integer>
+				<integer>1136000</integer>
 				<key>outline</key>
-				<integer>131200</integer>
+				<integer>1129600</integer>
 				<key>overlay</key>
-				<integer>105600</integer>
+				<integer>1104000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>cross</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.Cross</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>2</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.20</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>1270400</integer>
+				<key>outline</key>
+				<integer>1244800</integer>
+				<key>overlay</key>
+				<integer>1142400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>cross</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.Cross</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>2</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.20</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>1584000</integer>
+				<key>outline</key>
+				<integer>1526400</integer>
+				<key>overlay</key>
+				<integer>1296000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>cross</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -285,11 +537,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>152000</integer>
+				<integer>1649600</integer>
 				<key>outline</key>
-				<integer>150400</integer>
+				<integer>1648000</integer>
 				<key>overlay</key>
-				<integer>144000</integer>
+				<integer>1641600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>hand</string>
@@ -327,11 +579,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>185600</integer>
+				<integer>1683200</integer>
 				<key>outline</key>
-				<integer>179200</integer>
+				<integer>1676800</integer>
 				<key>overlay</key>
-				<integer>153600</integer>
+				<integer>1651200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>hand</string>
@@ -342,6 +594,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.cursor.13</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>3</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>52</integer>
+			<key>hoty</key>
+			<integer>32</integer>
+			<key>name</key>
+			<string>com.apple.cursor.13</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>1817600</integer>
+				<key>outline</key>
+				<integer>1792000</integer>
+				<key>overlay</key>
+				<integer>1689600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>hand</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.cursor.13</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>3</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>78</integer>
+			<key>hoty</key>
+			<integer>48</integer>
+			<key>name</key>
+			<string>com.apple.cursor.13</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>2131200</integer>
+				<key>outline</key>
+				<integer>2073600</integer>
+				<key>overlay</key>
+				<integer>1843200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>hand</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.ClosedHand</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -369,11 +705,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>200000</integer>
+				<integer>2196800</integer>
 				<key>outline</key>
-				<integer>198400</integer>
+				<integer>2195200</integer>
 				<key>overlay</key>
-				<integer>192000</integer>
+				<integer>2188800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>handClosed</string>
@@ -411,16 +747,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>233600</integer>
+				<integer>2230400</integer>
 				<key>outline</key>
-				<integer>227200</integer>
+				<integer>2224000</integer>
 				<key>overlay</key>
-				<integer>201600</integer>
+				<integer>2198400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>handClosed</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ClosedHand</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>4</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>64</integer>
+			<key>hoty</key>
+			<integer>68</integer>
+			<key>name</key>
+			<string>com.apple.cursor.11</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>2364800</integer>
+				<key>outline</key>
+				<integer>2339200</integer>
+				<key>overlay</key>
+				<integer>2236800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>handClosed</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ClosedHand</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>4</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>96</integer>
+			<key>hoty</key>
+			<integer>102</integer>
+			<key>name</key>
+			<string>com.apple.cursor.11</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>2678400</integer>
+				<key>outline</key>
+				<integer>2620800</integer>
+				<key>overlay</key>
+				<integer>2390400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>handClosed</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -453,11 +873,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>248000</integer>
+				<integer>2744000</integer>
 				<key>outline</key>
-				<integer>246400</integer>
+				<integer>2742400</integer>
 				<key>overlay</key>
-				<integer>240000</integer>
+				<integer>2736000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>handOpened</string>
@@ -495,16 +915,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>281600</integer>
+				<integer>2777600</integer>
 				<key>outline</key>
-				<integer>275200</integer>
+				<integer>2771200</integer>
 				<key>overlay</key>
-				<integer>249600</integer>
+				<integer>2745600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>handOpened</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.OpenHand</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>5</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>64</integer>
+			<key>hoty</key>
+			<integer>68</integer>
+			<key>name</key>
+			<string>com.apple.cursor.12</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>2912000</integer>
+				<key>outline</key>
+				<integer>2886400</integer>
+				<key>overlay</key>
+				<integer>2784000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>handOpened</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.OpenHand</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>5</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>96</integer>
+			<key>hoty</key>
+			<integer>102</integer>
+			<key>name</key>
+			<string>com.apple.cursor.12</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>3225600</integer>
+				<key>outline</key>
+				<integer>3168000</integer>
+				<key>overlay</key>
+				<integer>2937600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>handOpened</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -537,11 +1041,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>296000</integer>
+				<integer>3291200</integer>
 				<key>outline</key>
-				<integer>294400</integer>
+				<integer>3289600</integer>
 				<key>overlay</key>
-				<integer>288000</integer>
+				<integer>3283200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>iBeam</string>
@@ -579,16 +1083,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>329600</integer>
+				<integer>3324800</integer>
 				<key>outline</key>
-				<integer>323200</integer>
+				<integer>3318400</integer>
 				<key>overlay</key>
-				<integer>297600</integer>
+				<integer>3292800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>iBeam</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.IBeam</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>6</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.coregraphics.IBeamS</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>3459200</integer>
+				<key>outline</key>
+				<integer>3433600</integer>
+				<key>overlay</key>
+				<integer>3331200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>iBeam</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.IBeam</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>6</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.coregraphics.IBeamS</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>3772800</integer>
+				<key>outline</key>
+				<integer>3715200</integer>
+				<key>overlay</key>
+				<integer>3484800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>iBeam</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -621,11 +1209,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>344000</integer>
+				<integer>3838400</integer>
 				<key>outline</key>
-				<integer>342400</integer>
+				<integer>3836800</integer>
 				<key>overlay</key>
-				<integer>336000</integer>
+				<integer>3830400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>iBeamVertical</string>
@@ -663,16 +1251,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>377600</integer>
+				<integer>3872000</integer>
 				<key>outline</key>
-				<integer>371200</integer>
+				<integer>3865600</integer>
 				<key>overlay</key>
-				<integer>345600</integer>
+				<integer>3840000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>iBeamVertical</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.IBeamVertical</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>7</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>40</integer>
+			<key>name</key>
+			<string>com.apple.cursor.26</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>4006400</integer>
+				<key>outline</key>
+				<integer>3980800</integer>
+				<key>overlay</key>
+				<integer>3878400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>iBeamVertical</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.IBeamVertical</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>7</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>60</integer>
+			<key>name</key>
+			<string>com.apple.cursor.26</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>4320000</integer>
+				<key>outline</key>
+				<integer>4262400</integer>
+				<key>overlay</key>
+				<integer>4032000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>iBeamVertical</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -705,11 +1377,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>392000</integer>
+				<integer>4385600</integer>
 				<key>outline</key>
-				<integer>390400</integer>
+				<integer>4384000</integer>
 				<key>overlay</key>
-				<integer>384000</integer>
+				<integer>4377600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>makeAlias</string>
@@ -747,11 +1419,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>425600</integer>
+				<integer>4419200</integer>
 				<key>outline</key>
-				<integer>419200</integer>
+				<integer>4412800</integer>
 				<key>overlay</key>
-				<integer>393600</integer>
+				<integer>4387200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>makeAlias</string>
@@ -762,6 +1434,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.MakeAlias</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>8</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>12</integer>
+			<key>name</key>
+			<string>com.apple.cursor.2</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>4553600</integer>
+				<key>outline</key>
+				<integer>4528000</integer>
+				<key>overlay</key>
+				<integer>4425600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>makeAlias</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.MakeAlias</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>8</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>18</integer>
+			<key>name</key>
+			<string>com.apple.cursor.2</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>4867200</integer>
+				<key>outline</key>
+				<integer>4809600</integer>
+				<key>overlay</key>
+				<integer>4579200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>makeAlias</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowMove</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -789,11 +1545,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>440000</integer>
+				<integer>4932800</integer>
 				<key>outline</key>
-				<integer>438400</integer>
+				<integer>4931200</integer>
 				<key>overlay</key>
-				<integer>432000</integer>
+				<integer>4924800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>move</string>
@@ -831,16 +1587,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>473600</integer>
+				<integer>4966400</integer>
 				<key>outline</key>
-				<integer>467200</integer>
+				<integer>4960000</integer>
 				<key>overlay</key>
-				<integer>441600</integer>
+				<integer>4934400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>move</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowMove</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>9</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>48</integer>
+			<key>name</key>
+			<string>com.apple.coregraphics.Move</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>5100800</integer>
+				<key>outline</key>
+				<integer>5075200</integer>
+				<key>overlay</key>
+				<integer>4972800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>move</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowMove</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>9</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>72</integer>
+			<key>name</key>
+			<string>com.apple.coregraphics.Move</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>5414400</integer>
+				<key>outline</key>
+				<integer>5356800</integer>
+				<key>overlay</key>
+				<integer>5126400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>move</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -873,11 +1713,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>488000</integer>
+				<integer>5480000</integer>
 				<key>outline</key>
-				<integer>486400</integer>
+				<integer>5478400</integer>
 				<key>overlay</key>
-				<integer>480000</integer>
+				<integer>5472000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>notAllowed</string>
@@ -915,16 +1755,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>521600</integer>
+				<integer>5513600</integer>
 				<key>outline</key>
-				<integer>515200</integer>
+				<integer>5507200</integer>
 				<key>overlay</key>
-				<integer>489600</integer>
+				<integer>5481600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>notAllowed</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.NotAllowed</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>10</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>20</integer>
+			<key>hoty</key>
+			<integer>20</integer>
+			<key>name</key>
+			<string>com.apple.cursor.3</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>5648000</integer>
+				<key>outline</key>
+				<integer>5622400</integer>
+				<key>overlay</key>
+				<integer>5520000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>notAllowed</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.NotAllowed</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>10</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>30</integer>
+			<key>hoty</key>
+			<integer>30</integer>
+			<key>name</key>
+			<string>com.apple.cursor.3</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>5961600</integer>
+				<key>outline</key>
+				<integer>5904000</integer>
+				<key>overlay</key>
+				<integer>5673600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>notAllowed</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -957,11 +1881,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>536000</integer>
+				<integer>6027200</integer>
 				<key>outline</key>
-				<integer>534400</integer>
+				<integer>6025600</integer>
 				<key>overlay</key>
-				<integer>528000</integer>
+				<integer>6019200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeDown</string>
@@ -999,11 +1923,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>569600</integer>
+				<integer>6060800</integer>
 				<key>outline</key>
-				<integer>563200</integer>
+				<integer>6054400</integer>
 				<key>overlay</key>
-				<integer>537600</integer>
+				<integer>6028800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeDown</string>
@@ -1014,6 +1938,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeDown</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>11</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.22</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>6195200</integer>
+				<key>outline</key>
+				<integer>6169600</integer>
+				<key>overlay</key>
+				<integer>6067200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeDown</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeDown</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>11</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.22</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>6508800</integer>
+				<key>outline</key>
+				<integer>6451200</integer>
+				<key>overlay</key>
+				<integer>6220800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeDown</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeEast</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1041,11 +2049,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>584000</integer>
+				<integer>6574400</integer>
 				<key>outline</key>
-				<integer>582400</integer>
+				<integer>6572800</integer>
 				<key>overlay</key>
-				<integer>576000</integer>
+				<integer>6566400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeEast</string>
@@ -1083,16 +2091,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>617600</integer>
+				<integer>6608000</integer>
 				<key>outline</key>
-				<integer>611200</integer>
+				<integer>6601600</integer>
 				<key>overlay</key>
-				<integer>585600</integer>
+				<integer>6576000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeEast</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>12</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>36</integer>
+			<key>name</key>
+			<string>com.apple.cursor.27</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>6742400</integer>
+				<key>outline</key>
+				<integer>6716800</integer>
+				<key>overlay</key>
+				<integer>6614400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeEast</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>12</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>54</integer>
+			<key>name</key>
+			<string>com.apple.cursor.27</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>7056000</integer>
+				<key>outline</key>
+				<integer>6998400</integer>
+				<key>overlay</key>
+				<integer>6768000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeEast</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -1125,11 +2217,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>632000</integer>
+				<integer>7121600</integer>
 				<key>outline</key>
-				<integer>630400</integer>
+				<integer>7120000</integer>
 				<key>overlay</key>
-				<integer>624000</integer>
+				<integer>7113600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeEastWest</string>
@@ -1167,16 +2259,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>665600</integer>
+				<integer>7155200</integer>
 				<key>outline</key>
-				<integer>659200</integer>
+				<integer>7148800</integer>
 				<key>overlay</key>
-				<integer>633600</integer>
+				<integer>7123200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeEastWest</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeEastWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>13</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>36</integer>
+			<key>name</key>
+			<string>com.apple.cursor.28</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>7289600</integer>
+				<key>outline</key>
+				<integer>7264000</integer>
+				<key>overlay</key>
+				<integer>7161600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeEastWest</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeEastWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>13</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>54</integer>
+			<key>name</key>
+			<string>com.apple.cursor.28</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>7603200</integer>
+				<key>outline</key>
+				<integer>7545600</integer>
+				<key>overlay</key>
+				<integer>7315200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeEastWest</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -1209,11 +2385,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>680000</integer>
+				<integer>7668800</integer>
 				<key>outline</key>
-				<integer>678400</integer>
+				<integer>7667200</integer>
 				<key>overlay</key>
-				<integer>672000</integer>
+				<integer>7660800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeLeft</string>
@@ -1251,16 +2427,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>713600</integer>
+				<integer>7702400</integer>
 				<key>outline</key>
-				<integer>707200</integer>
+				<integer>7696000</integer>
 				<key>overlay</key>
-				<integer>681600</integer>
+				<integer>7670400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeLeft</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeLeft</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>14</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>48</integer>
+			<key>name</key>
+			<string>com.apple.cursor.17</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>7836800</integer>
+				<key>outline</key>
+				<integer>7811200</integer>
+				<key>overlay</key>
+				<integer>7708800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeLeft</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeLeft</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>14</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>72</integer>
+			<key>name</key>
+			<string>com.apple.cursor.17</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>8150400</integer>
+				<key>outline</key>
+				<integer>8092800</integer>
+				<key>overlay</key>
+				<integer>7862400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeLeft</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -1293,11 +2553,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>728000</integer>
+				<integer>8216000</integer>
 				<key>outline</key>
-				<integer>726400</integer>
+				<integer>8214400</integer>
 				<key>overlay</key>
-				<integer>720000</integer>
+				<integer>8208000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeLeftRight</string>
@@ -1335,11 +2595,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>761600</integer>
+				<integer>8249600</integer>
 				<key>outline</key>
-				<integer>755200</integer>
+				<integer>8243200</integer>
 				<key>overlay</key>
-				<integer>729600</integer>
+				<integer>8217600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeLeftRight</string>
@@ -1350,6 +2610,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeLeftRight</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>15</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>60</integer>
+			<key>hoty</key>
+			<integer>48</integer>
+			<key>name</key>
+			<string>com.apple.cursor.19</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>8384000</integer>
+				<key>outline</key>
+				<integer>8358400</integer>
+				<key>overlay</key>
+				<integer>8256000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeLeftRight</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeLeftRight</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>15</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>90</integer>
+			<key>hoty</key>
+			<integer>72</integer>
+			<key>name</key>
+			<string>com.apple.cursor.19</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>8697600</integer>
+				<key>outline</key>
+				<integer>8640000</integer>
+				<key>overlay</key>
+				<integer>8409600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeLeftRight</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeNorth</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1377,11 +2721,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>776000</integer>
+				<integer>8763200</integer>
 				<key>outline</key>
-				<integer>774400</integer>
+				<integer>8761600</integer>
 				<key>overlay</key>
-				<integer>768000</integer>
+				<integer>8755200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorth</string>
@@ -1419,11 +2763,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>809600</integer>
+				<integer>8796800</integer>
 				<key>outline</key>
-				<integer>803200</integer>
+				<integer>8790400</integer>
 				<key>overlay</key>
-				<integer>777600</integer>
+				<integer>8764800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorth</string>
@@ -1434,6 +2778,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorth</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>16</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>36</integer>
+			<key>hoty</key>
+			<integer>56</integer>
+			<key>name</key>
+			<string>com.apple.cursor.31</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>8931200</integer>
+				<key>outline</key>
+				<integer>8905600</integer>
+				<key>overlay</key>
+				<integer>8803200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorth</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorth</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>16</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>54</integer>
+			<key>hoty</key>
+			<integer>84</integer>
+			<key>name</key>
+			<string>com.apple.cursor.31</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>9244800</integer>
+				<key>outline</key>
+				<integer>9187200</integer>
+				<key>overlay</key>
+				<integer>8956800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorth</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeNorthEast</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1461,11 +2889,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>824000</integer>
+				<integer>9310400</integer>
 				<key>outline</key>
-				<integer>822400</integer>
+				<integer>9308800</integer>
 				<key>overlay</key>
-				<integer>816000</integer>
+				<integer>9302400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthEast</string>
@@ -1503,11 +2931,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>857600</integer>
+				<integer>9344000</integer>
 				<key>outline</key>
-				<integer>851200</integer>
+				<integer>9337600</integer>
 				<key>overlay</key>
-				<integer>825600</integer>
+				<integer>9312000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthEast</string>
@@ -1518,6 +2946,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>17</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.29</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>9478400</integer>
+				<key>outline</key>
+				<integer>9452800</integer>
+				<key>overlay</key>
+				<integer>9350400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthEast</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>17</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.29</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>9792000</integer>
+				<key>outline</key>
+				<integer>9734400</integer>
+				<key>overlay</key>
+				<integer>9504000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthEast</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeNorthEastSouthWest</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1545,11 +3057,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>872000</integer>
+				<integer>9857600</integer>
 				<key>outline</key>
-				<integer>870400</integer>
+				<integer>9856000</integer>
 				<key>overlay</key>
-				<integer>864000</integer>
+				<integer>9849600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthEastSouthWest</string>
@@ -1587,11 +3099,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>905600</integer>
+				<integer>9891200</integer>
 				<key>outline</key>
-				<integer>899200</integer>
+				<integer>9884800</integer>
 				<key>overlay</key>
-				<integer>873600</integer>
+				<integer>9859200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthEastSouthWest</string>
@@ -1602,6 +3114,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthEastSouthWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>18</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.30</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>10025600</integer>
+				<key>outline</key>
+				<integer>10000000</integer>
+				<key>overlay</key>
+				<integer>9897600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthEastSouthWest</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthEastSouthWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>18</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.30</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>10339200</integer>
+				<key>outline</key>
+				<integer>10281600</integer>
+				<key>overlay</key>
+				<integer>10051200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthEastSouthWest</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeNorthSouth</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1629,11 +3225,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>920000</integer>
+				<integer>10404800</integer>
 				<key>outline</key>
-				<integer>918400</integer>
+				<integer>10403200</integer>
 				<key>overlay</key>
-				<integer>912000</integer>
+				<integer>10396800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthSouth</string>
@@ -1671,11 +3267,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>953600</integer>
+				<integer>10438400</integer>
 				<key>outline</key>
-				<integer>947200</integer>
+				<integer>10432000</integer>
 				<key>overlay</key>
-				<integer>921600</integer>
+				<integer>10406400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthSouth</string>
@@ -1686,6 +3282,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthSouth</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>19</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>36</integer>
+			<key>hoty</key>
+			<integer>56</integer>
+			<key>name</key>
+			<string>com.apple.cursor.32</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>10572800</integer>
+				<key>outline</key>
+				<integer>10547200</integer>
+				<key>overlay</key>
+				<integer>10444800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthSouth</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthSouth</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>19</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>54</integer>
+			<key>hoty</key>
+			<integer>84</integer>
+			<key>name</key>
+			<string>com.apple.cursor.32</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>10886400</integer>
+				<key>outline</key>
+				<integer>10828800</integer>
+				<key>overlay</key>
+				<integer>10598400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthSouth</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeNorthWest</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1713,11 +3393,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>968000</integer>
+				<integer>10952000</integer>
 				<key>outline</key>
-				<integer>966400</integer>
+				<integer>10950400</integer>
 				<key>overlay</key>
-				<integer>960000</integer>
+				<integer>10944000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthWest</string>
@@ -1755,11 +3435,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1001600</integer>
+				<integer>10985600</integer>
 				<key>outline</key>
-				<integer>995200</integer>
+				<integer>10979200</integer>
 				<key>overlay</key>
-				<integer>969600</integer>
+				<integer>10953600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthWest</string>
@@ -1770,6 +3450,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>20</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.33</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>11120000</integer>
+				<key>outline</key>
+				<integer>11094400</integer>
+				<key>overlay</key>
+				<integer>10992000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthWest</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>20</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.33</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>11433600</integer>
+				<key>outline</key>
+				<integer>11376000</integer>
+				<key>overlay</key>
+				<integer>11145600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthWest</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeNorthWestSouthEast</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -1797,11 +3561,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1016000</integer>
+				<integer>11499200</integer>
 				<key>outline</key>
-				<integer>1014400</integer>
+				<integer>11497600</integer>
 				<key>overlay</key>
-				<integer>1008000</integer>
+				<integer>11491200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthWestSouthEast</string>
@@ -1839,16 +3603,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1049600</integer>
+				<integer>11532800</integer>
 				<key>outline</key>
-				<integer>1043200</integer>
+				<integer>11526400</integer>
 				<key>overlay</key>
-				<integer>1017600</integer>
+				<integer>11500800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeNorthWestSouthEast</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthWestSouthEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>21</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.34</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>11667200</integer>
+				<key>outline</key>
+				<integer>11641600</integer>
+				<key>overlay</key>
+				<integer>11539200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthWestSouthEast</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeNorthWestSouthEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>21</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.34</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>11980800</integer>
+				<key>outline</key>
+				<integer>11923200</integer>
+				<key>overlay</key>
+				<integer>11692800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeNorthWestSouthEast</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -1881,11 +3729,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1064000</integer>
+				<integer>12046400</integer>
 				<key>outline</key>
-				<integer>1062400</integer>
+				<integer>12044800</integer>
 				<key>overlay</key>
-				<integer>1056000</integer>
+				<integer>12038400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeRight</string>
@@ -1923,16 +3771,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1097600</integer>
+				<integer>12080000</integer>
 				<key>outline</key>
-				<integer>1091200</integer>
+				<integer>12073600</integer>
 				<key>overlay</key>
-				<integer>1065600</integer>
+				<integer>12048000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeRight</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeRight</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>22</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>48</integer>
+			<key>name</key>
+			<string>com.apple.cursor.18</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>12214400</integer>
+				<key>outline</key>
+				<integer>12188800</integer>
+				<key>overlay</key>
+				<integer>12086400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeRight</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeRight</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>22</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>72</integer>
+			<key>name</key>
+			<string>com.apple.cursor.18</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>12528000</integer>
+				<key>outline</key>
+				<integer>12470400</integer>
+				<key>overlay</key>
+				<integer>12240000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeRight</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -1965,11 +3897,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1112000</integer>
+				<integer>12593600</integer>
 				<key>outline</key>
-				<integer>1110400</integer>
+				<integer>12592000</integer>
 				<key>overlay</key>
-				<integer>1104000</integer>
+				<integer>12585600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeSouth</string>
@@ -2007,11 +3939,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1145600</integer>
+				<integer>12627200</integer>
 				<key>outline</key>
-				<integer>1139200</integer>
+				<integer>12620800</integer>
 				<key>overlay</key>
-				<integer>1113600</integer>
+				<integer>12595200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeSouth</string>
@@ -2022,6 +3954,90 @@
 		</dict>
 		<dict>
 			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeSouth</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>23</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>36</integer>
+			<key>hoty</key>
+			<integer>56</integer>
+			<key>name</key>
+			<string>com.apple.cursor.36</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>12761600</integer>
+				<key>outline</key>
+				<integer>12736000</integer>
+				<key>overlay</key>
+				<integer>12633600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeSouth</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeSouth</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>23</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>54</integer>
+			<key>hoty</key>
+			<integer>84</integer>
+			<key>name</key>
+			<string>com.apple.cursor.36</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>13075200</integer>
+				<key>outline</key>
+				<integer>13017600</integer>
+				<key>overlay</key>
+				<integer>12787200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeSouth</string>
+			<key>scale</key>
+			<integer>6</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
 			<string>com.apple.accessibility.cursor.WindowResizeSouthEast</string>
 			<key>blobName</key>
 			<string>cursor.bin</string>
@@ -2049,11 +4065,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1160000</integer>
+				<integer>13140800</integer>
 				<key>outline</key>
-				<integer>1158400</integer>
+				<integer>13139200</integer>
 				<key>overlay</key>
-				<integer>1152000</integer>
+				<integer>13132800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeSouthEast</string>
@@ -2091,16 +4107,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1193600</integer>
+				<integer>13174400</integer>
 				<key>outline</key>
-				<integer>1187200</integer>
+				<integer>13168000</integer>
 				<key>overlay</key>
-				<integer>1161600</integer>
+				<integer>13142400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeSouthEast</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeSouthEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>24</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.35</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>13308800</integer>
+				<key>outline</key>
+				<integer>13283200</integer>
+				<key>overlay</key>
+				<integer>13180800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeSouthEast</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeSouthEast</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>24</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.35</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>13622400</integer>
+				<key>outline</key>
+				<integer>13564800</integer>
+				<key>overlay</key>
+				<integer>13334400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeSouthEast</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -2133,11 +4233,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1208000</integer>
+				<integer>13688000</integer>
 				<key>outline</key>
-				<integer>1206400</integer>
+				<integer>13686400</integer>
 				<key>overlay</key>
-				<integer>1200000</integer>
+				<integer>13680000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeSouthWest</string>
@@ -2175,16 +4275,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1241600</integer>
+				<integer>13721600</integer>
 				<key>outline</key>
-				<integer>1235200</integer>
+				<integer>13715200</integer>
 				<key>overlay</key>
-				<integer>1209600</integer>
+				<integer>13689600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeSouthWest</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeSouthWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>25</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>44</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.37</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>13856000</integer>
+				<key>outline</key>
+				<integer>13830400</integer>
+				<key>overlay</key>
+				<integer>13728000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeSouthWest</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeSouthWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>25</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>66</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.37</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>14169600</integer>
+				<key>outline</key>
+				<integer>14112000</integer>
+				<key>overlay</key>
+				<integer>13881600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeSouthWest</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -2217,11 +4401,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1256000</integer>
+				<integer>14235200</integer>
 				<key>outline</key>
-				<integer>1254400</integer>
+				<integer>14233600</integer>
 				<key>overlay</key>
-				<integer>1248000</integer>
+				<integer>14227200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeUp</string>
@@ -2259,16 +4443,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1289600</integer>
+				<integer>14268800</integer>
 				<key>outline</key>
-				<integer>1283200</integer>
+				<integer>14262400</integer>
 				<key>overlay</key>
-				<integer>1257600</integer>
+				<integer>14236800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeUp</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeUp</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>26</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>52</integer>
+			<key>name</key>
+			<string>com.apple.cursor.21</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>14403200</integer>
+				<key>outline</key>
+				<integer>14377600</integer>
+				<key>overlay</key>
+				<integer>14275200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeUp</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeUp</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>26</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>78</integer>
+			<key>name</key>
+			<string>com.apple.cursor.21</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>14716800</integer>
+				<key>outline</key>
+				<integer>14659200</integer>
+				<key>overlay</key>
+				<integer>14428800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeUp</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -2301,11 +4569,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1304000</integer>
+				<integer>14782400</integer>
 				<key>outline</key>
-				<integer>1302400</integer>
+				<integer>14780800</integer>
 				<key>overlay</key>
-				<integer>1296000</integer>
+				<integer>14774400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeUpDown</string>
@@ -2343,16 +4611,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1337600</integer>
+				<integer>14816000</integer>
 				<key>outline</key>
-				<integer>1331200</integer>
+				<integer>14809600</integer>
 				<key>overlay</key>
-				<integer>1305600</integer>
+				<integer>14784000</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeUpDown</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeUpDown</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>27</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>56</integer>
+			<key>name</key>
+			<string>com.apple.cursor.23</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>14950400</integer>
+				<key>outline</key>
+				<integer>14924800</integer>
+				<key>overlay</key>
+				<integer>14822400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeUpDown</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ResizeUpDown</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>27</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>84</integer>
+			<key>name</key>
+			<string>com.apple.cursor.23</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>15264000</integer>
+				<key>outline</key>
+				<integer>15206400</integer>
+				<key>overlay</key>
+				<integer>14976000</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeUpDown</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -2385,11 +4737,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1352000</integer>
+				<integer>15329600</integer>
 				<key>outline</key>
-				<integer>1350400</integer>
+				<integer>15328000</integer>
 				<key>overlay</key>
-				<integer>1344000</integer>
+				<integer>15321600</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeWest</string>
@@ -2427,16 +4779,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1385600</integer>
+				<integer>15363200</integer>
 				<key>outline</key>
-				<integer>1379200</integer>
+				<integer>15356800</integer>
 				<key>overlay</key>
-				<integer>1353600</integer>
+				<integer>15331200</integer>
 			</dict>
 			<key>readableName</key>
 			<string>resizeWest</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>28</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>48</integer>
+			<key>hoty</key>
+			<integer>36</integer>
+			<key>name</key>
+			<string>com.apple.cursor.38</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>15497600</integer>
+				<key>outline</key>
+				<integer>15472000</integer>
+				<key>overlay</key>
+				<integer>15369600</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeWest</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.WindowResizeWest</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>28</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>72</integer>
+			<key>hoty</key>
+			<integer>54</integer>
+			<key>name</key>
+			<string>com.apple.cursor.38</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>15811200</integer>
+				<key>outline</key>
+				<integer>15753600</integer>
+				<key>overlay</key>
+				<integer>15523200</integer>
+			</dict>
+			<key>readableName</key>
+			<string>resizeWest</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>
@@ -2469,11 +4905,11 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1400000</integer>
+				<integer>15876800</integer>
 				<key>outline</key>
-				<integer>1398400</integer>
+				<integer>15875200</integer>
 				<key>overlay</key>
-				<integer>1392000</integer>
+				<integer>15868800</integer>
 			</dict>
 			<key>readableName</key>
 			<string>screenshotWindow</string>
@@ -2511,16 +4947,100 @@
 			<key>offset</key>
 			<dict>
 				<key>fill</key>
-				<integer>1433600</integer>
+				<integer>15910400</integer>
 				<key>outline</key>
-				<integer>1427200</integer>
+				<integer>15904000</integer>
 				<key>overlay</key>
-				<integer>1401600</integer>
+				<integer>15878400</integer>
 			</dict>
 			<key>readableName</key>
 			<string>screenshotWindow</string>
 			<key>scale</key>
 			<integer>2</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ScreenshotWindow</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>29</integer>
+			<key>extent</key>
+			<integer>160</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>56</integer>
+			<key>hoty</key>
+			<integer>44</integer>
+			<key>name</key>
+			<string>com.apple.cursor.9</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>16044800</integer>
+				<key>outline</key>
+				<integer>16019200</integer>
+				<key>overlay</key>
+				<integer>15916800</integer>
+			</dict>
+			<key>readableName</key>
+			<string>screenshotWindow</string>
+			<key>scale</key>
+			<integer>4</integer>
+			<key>type</key>
+			<integer>11</integer>
+		</dict>
+		<dict>
+			<key>accessibilityCursorName</key>
+			<string>com.apple.accessibility.cursor.ScreenshotWindow</string>
+			<key>blobName</key>
+			<string>cursor.bin</string>
+			<key>cursorType</key>
+			<integer>29</integer>
+			<key>extent</key>
+			<integer>240</integer>
+			<key>format</key>
+			<dict>
+				<key>fill</key>
+				<string>kCIFormatA8</string>
+				<key>outline</key>
+				<string>kCIFormatA8</string>
+				<key>overlay</key>
+				<string>kCIFormatARGB8</string>
+			</dict>
+			<key>frames</key>
+			<array/>
+			<key>hotx</key>
+			<integer>84</integer>
+			<key>hoty</key>
+			<integer>66</integer>
+			<key>name</key>
+			<string>com.apple.cursor.9</string>
+			<key>offset</key>
+			<dict>
+				<key>fill</key>
+				<integer>16358400</integer>
+				<key>outline</key>
+				<integer>16300800</integer>
+				<key>overlay</key>
+				<integer>16070400</integer>
+			</dict>
+			<key>readableName</key>
+			<string>screenshotWindow</string>
+			<key>scale</key>
+			<integer>6</integer>
 			<key>type</key>
 			<integer>11</integer>
 		</dict>

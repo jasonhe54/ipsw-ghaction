@@ -154,14 +154,14 @@ Streak";
 "widget_start_writing_prompt_rp_ho_w_07" = "What were the highlights of your week?";
 "No Entries" = "No Entries";
 "true" = "true";
-"widget_start_writing_prompt_rp_li_w_05" = "Reflect on your week.";
 "Theater" = "Theater";
-"Conversations" = "Conversations";
 "No Internet Connection
 
 Connect to WLAN or cellular to download support for transcription." = "No Internet Connection
 
 Connect to WLAN or cellular to download support for transcription.";
+"Conversations" = "Conversations";
+"widget_start_writing_prompt_rp_li_w_05" = "Reflect on your week.";
 "recordingInProgress" = "Cannot create a new recording. There is already a recording in progress.";
 "Record" = "Record";
 "Write about different parts of your life, and keep entries organized in separate journals." = "Write about different parts of your life, and keep entries organized in separate journals.";
@@ -380,6 +380,7 @@ Transcription will begin once you start recording.";
 ^[Photos](measure: 'unit')" = "{'value': {'one': "^[%lld](measure: 'value')\n^[Photo](measure: 'unit')", 'other': "^[%lld](measure: 'value')\n^[Photos](measure: 'unit')", 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "widget_streaks_count_plus_uom_day_format" = "{'value': {'one': '%lld Day', 'other': '%lld Days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "Don’t show suggestions" = "Don’t show suggestions";
+"The export has been canceled." = "The export has been canceled.";
 "widget_start_writing_prompt_rp_li_d_02" = "What matters today?";
 "Use Touch ID to View Journal" = "Use Touch ID to View Journal";
 "Photos" = "Photos";
@@ -695,14 +696,15 @@ A one-time download of 100 MB is required for iPhone to create transcripts for y
 "Connect to WLAN or Cellular to Play Music" = "Connect to WLAN or Cellular to Play Music";
 "Very pleasant day" = "A Very Pleasant Day";
 "Search ${criteria} in Journal" = "Search ${criteria} in Journal";
+"Not now" = "Not now";
 "Location Map Preview" = "Location Map Preview";
 "Export Journal Data" = "Export Journal Data";
-"{country/city/state 1}, {country/city/state 2}, and more" = "%1$@, %2$@, and more";
 "title" = "title";
 "To access your journal entries on all your devices, turn on iCloud for Journal." = "To access your journal entries on all your devices, turn on iCloud for Journal.";
 "Stressed feeling" = "Stressed";
 "New title" = "New title";
 "Mailbox icon" = "mailbox";
+"{country/city/state 1}, {country/city/state 2}, and more" = "%1$@, %2$@, and more";
 "^[%lld](measure: 'value')
 ^[Words](measure: 'unit') ^[This Month](measure: 'timespan')" = "{'value': {'one': "^[%lld](measure: 'value')\n^[Word](measure: 'unit') ^[This Month](measure: 'timespan')", 'other': "^[%lld](measure: 'value')\n^[Words](measure: 'unit') ^[This Month](measure: 'timespan')", 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "Show Suggested Moments Setting" = "Show Suggested Moments Setting";

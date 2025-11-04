@@ -46,6 +46,20 @@
 			<true/>
 		</dict>
 	</dict>
+	<key>Location</key>
+	<dict>
+		<key>EmergencyLocation</key>
+		<dict>
+			<key>AugmentedEmergencyAction</key>
+			<dict>
+				<key>AML</key>
+				<dict>
+					<key>SupportsAML</key>
+					<false/>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
 	<key>MMS</key>
 	<dict>
 		<key>GroupModeEnabled</key>

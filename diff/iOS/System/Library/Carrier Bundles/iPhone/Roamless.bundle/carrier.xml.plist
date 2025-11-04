@@ -29,6 +29,8 @@
 		<key>DataOnlySubscription</key>
 		<true/>
 	</dict>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
 	<key>GlobalMVNO</key>
 	<true/>
 	<key>IntlDataRoamingAllowed</key>
@@ -2700,13 +2702,6 @@
 	</array>
 	<key>MaxBluetoothModemConnections</key>
 	<integer>5</integer>
-	<key>OTASoftwareUpdate</key>
-	<dict>
-		<key>MaxBytesOverCellular</key>
-		<integer>100</integer>
-		<key>SoftwareUpdateOptInRequired</key>
-		<false/>
-	</dict>
 	<key>OverrideOperatorName</key>
 	<string>Roamless</string>
 	<key>StatusBarImages</key>
@@ -2730,11 +2725,11 @@
 	</array>
 	<key>SupportedSIMs</key>
 	<array>
-		<string>20601_GID1-4D</string>
-		<string>20628_GID1-4D</string>
-		<string>732123_GID1-4D</string>
-		<string>310840_GID1-4D</string>
-		<string>45400_GID1-4D</string>
+		<string>20601_GID1-4D2E3F1A6B7C8D9E</string>
+		<string>20628_GID1-4D2E3F1A6B7C8D9E</string>
+		<string>732123_GID1-4D2E3F1A6B7C8D9E</string>
+		<string>310840_GID1-4D2E3F1A6B7C8D9E</string>
+		<string>45400_GID1-4D2E3F1A6B7C8D9E</string>
 	</array>
 	<key>SupportsNITZ</key>
 	<true/>

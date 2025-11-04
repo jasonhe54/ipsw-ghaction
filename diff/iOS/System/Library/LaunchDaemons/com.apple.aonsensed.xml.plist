@@ -40,6 +40,8 @@
 	<string>Adaptive</string>
 	<key>Program</key>
 	<string>/usr/libexec/aonsensed</string>
+	<key>PublishesEvents</key>
+	<string>com.apple.proximity.launch</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>UserName</key>

@@ -2316,6 +2316,19 @@
 		<key>SessionSeconds</key>
 		<real>86400</real>
 	</dict>
+	<key>fedstats.com.apple.insights.events-you-might-like-stats</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>20</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>3</integer>
+		<key>SessionChunks</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
 	<key>fedstats.com.apple.insights.genmoji</key>
 	<dict>
 		<key>RefillAmount</key>
@@ -2503,6 +2516,19 @@
 		<key>SessionSeconds</key>
 		<real>86400</real>
 	</dict>
+	<key>fedstats.com.apple.insights.quantum-tls</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>20</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>3</integer>
+		<key>SessionChunks</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
 	<key>fedstats.com.apple.insights.safari.highlights</key>
 	<dict>
 		<key>RefillAmount</key>
@@ -2511,6 +2537,19 @@
 		<real>3600</real>
 		<key>SessionAmount</key>
 		<integer>6</integer>
+		<key>SessionChunks</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
+	<key>fedstats.com.apple.insights.shortcuts-topic</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>20</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>3</integer>
 		<key>SessionChunks</key>
 		<integer>1</integer>
 		<key>SessionSeconds</key>

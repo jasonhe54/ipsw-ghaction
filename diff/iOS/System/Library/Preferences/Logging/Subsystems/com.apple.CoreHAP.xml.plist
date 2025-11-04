@@ -4,8 +4,6 @@
 <dict>
 	<key>DEFAULT-OPTIONS</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -13,6 +11,8 @@
 			<key>Persist</key>
 			<string>Info</string>
 		</dict>
+		<key>Privacy-Enable-Level</key>
+		<string>Private</string>
 	</dict>
 </dict>
 </plist>

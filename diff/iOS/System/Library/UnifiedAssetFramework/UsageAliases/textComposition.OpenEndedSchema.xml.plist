@@ -9,27 +9,6 @@
 	<key>UsageAliasName</key>
 	<string>textComposition.OpenEndedSchema</string>
 	<key>UsageAliasValues</key>
-	<dict>
-		<key>language_en</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.safety_deny.input.open_ended_schema.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.open_ended_schema.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_zh</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.safety_deny.input.open_ended_schema.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.open_ended_schema.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

@@ -827,20 +827,22 @@
 	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+447786205094</string>
-	<key>PreferCarrierNameFromMetadata</key>
-	<true/>
 	<key>Show3GSwitchWith4G</key>
 	<true/>
 	<key>ShowLTEWarningUnsupportedCarrier</key>
 	<false/>
 	<key>ShowVolteSwitch</key>
 	<false/>
+	<key>SupportedPLMNs</key>
+	<array>
+		<string>45435</string>
+	</array>
 	<key>SupportedSIMs</key>
 	<array>
 		<string>90161_ID-8985235</string>
 		<string>72418_ID-8985235</string>
 		<string>20404_ID-8985235</string>
-		<string>45435</string>
+		<string>45435_ID-8985235</string>
 		<string>42402_ID-8985235</string>
 		<string>45412_ID-8985235</string>
 		<string>45403_ID-8985235</string>

@@ -4,6 +4,8 @@
 <dict>
 	<key>AllowAttachAPNEditing</key>
 	<false/>
+	<key>AllowSAOnWiFiAssociation</key>
+	<true/>
 	<key>AllowedServicesTypeMaskOnInternet</key>
 	<integer>32768</integer>
 	<key>AttachAPN</key>
@@ -22,12 +24,14 @@
 			<string></string>
 		</dict>
 	</dict>
+	<key>DataIndicatorOverrideForNRMmwave</key>
+	<string>NRUC</string>
 	<key>DefaultWhenImsSwitchOff</key>
 	<integer>0</integer>
 	<key>DerPriFileName</key>
 	<string>overrides_V53_V54_V57.der.pri</string>
 	<key>DerPriFileVersion</key>
-	<string>0.1.162</string>
+	<string>5.2.161</string>
 	<key>Enable5GAutoByDefault</key>
 	<true/>
 	<key>Enable5GStandaloneByDefault</key>
@@ -608,7 +612,7 @@
 		<key>SupportContextSwitchOver</key>
 		<true/>
 		<key>SuppressSAInOverCellHandover</key>
-		<true/>
+		<false/>
 		<key>TechPolicies</key>
 		<array>
 			<dict>
@@ -692,7 +696,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>32785</integer>
+					<integer>32769</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -763,6 +767,26 @@
 					<integer>262144</integer>
 					<key>type-mask</key>
 					<integer>262144</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>2</integer>
+					<key>AllowedProtocolMaskInDomesticRoaming</key>
+					<integer>1</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>1</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>apn</key>
+					<string>hotspot</string>
+					<key>enableXLAT464</key>
+					<true/>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>16</integer>
 					<key>username</key>
 					<string></string>
 				</dict>

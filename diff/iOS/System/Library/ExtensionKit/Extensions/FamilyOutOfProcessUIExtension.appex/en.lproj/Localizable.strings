@@ -1,34 +1,44 @@
-"CHILD_AGE_RANGE_SHARING_CHOICE_FEATURE_TITLE" = "Sharing Age Range Is Your Choice";
+"AGE_SHARING_DEFAULT_SETUP_FEATURE_TITLE" = "Easy Default Setup";
 "AGE_RANGE_UNCONFIGURED_ALERT_SECONDARY_BUTTON" = "OK";
-"TEEN_AGE_RANGE_STAYS_PRIVATE_FEATURE_DESCRIPTION" = "Apps can only ask for your age range, not age. Apps set the ranges, and Apple determines which is accurate.";
+"CHILD_AGE_RANGE_SHARING_CHOICE_FEATURE_TITLE" = "Sharing Age Range Is Your Choice";
 "ADULT_AGE_RANGE_STAYS_PRIVATE_FEATURE_DESCRIPTION" = "Apps will only know that you’re at least 18 years old.";
-"SELF_ADULT_AGE_RANGE_SHARING_DESCRIPTION" = "Share that you’re an adult so you’re not limited to child and teen content in apps. 
-
-By default, you’ll always be asked if you want to share your age range. You can change this in Age Range for Apps settings.";
+"REGIONAL_CUSTOM_AGE_SHARING_DESCRIPTION" = "%@ law requires everyone's age range to be shared with apps that ask. Age range will be automatically updated with apps once a year.";
+"TEEN_AGE_RANGE_STAYS_PRIVATE_FEATURE_DESCRIPTION" = "Apps can only ask for your age range, not age. Apps set the ranges, and Apple determines which is accurate.";
+"SHARE_AGE_OPTION_ASKFIRST_TITLE" = "Ask First";
+"AGE_FOR_CONFIRMATION_SCREEN" = "Age %d";
+"REGIONAL_GUIDELINES_COMPLIANCE_FEATURE_DESCRIPTION" = "Age sharing settings will be configured to comply with your region's privacy and data protection guidelines.";
+"REGIONAL_DEFAULT_AGE_SHARING_TITLE" = "Your Age Range Will Be Shared With Apps";
 "ADULT_AGE_RANGE_SYNC_FEATURE_TITLE" = "Syncs Across Devices";
 "AGE_RANGE_UNCONFIGURED_ALERT_PRIMARY_BUTTON" = "Learn More";
+"AUTOMATIC_CONFIGURATION_FEATURE_DESCRIPTION" = "Your device will automatically configure appropriate settings based on regional guidelines.";
+"REGIONAL_DEFAULT_CONTINUE_BUTTON_TITLE" = "Continue";
 "CHILD_AGE_RANGE_SHARING_DESCRIPTION" = "Help your child get appropriate experiences in apps by sharing their age range.";
+"REGIONAL_DEFAULT_LEARN_MORE_BUTTON" = "Learn More";
 "ADULT_AGE_RANGE_SYNC_FEATURE_DESCRIPTION" = "Sharing syncs to any iPhone, iPad or Mac signed in with your account.";
 "AGE_RANGE_UNCONFIGURED_ALERT_TITLE" = "Age Range For Apps";
+"AGE_RANGE_ONBOARDING_LOADING" = "AGE_RANGE_ONBOARDING_LOADING";
 "CHILD_AGE_RANGE_STAYS_PRIVATE_FEATURE_DESCRIPTION" = "Apps can only ask for age ranges, not ages. Apps set the ranges, and Apple determines which is accurate.";
 "SELF_TEEN_AGE_RANGE_SHARING_DESCRIPTION" = "Share your age range so you’re not limited to content for kids in apps.
 
 By default, you’ll always be asked if you want to share your age range. You can change this in Age Range for App settings.";
-"SHARE_AGE_OPTION_ALWAYS_SHARE_SUBTITLE" = "Age range will be shared when an app requests it.";
 "AGE_RANGE_UNCONFIGURED_ALERT_MESSAGE" = "Your parent or guardian will need to help you set up Age Range for Apps. This will help you get experiences that are appropriate for your age.";
 "AGE_RANGE_UPDATE_BDAY_BUTTON" = "Update Birthday";
+"SHARE_AGE_OPTION_ALWAYS_SHARE_SUBTITLE" = "Age range will be shared when an app requests it.";
 "TEEN_AGE_RANGE_SYNC_FEATURE_TITLE" = "Syncs Across Devices";
 "UPDATE_CHILD_BIRTHDAY_MESSAGE_AND_LINK" = "See how to update your child’s birth date…";
+"AUTOMATIC_CONFIGURATION_FEATURE_TITLE" = "Automatic Configuration";
 "ADULT_AGE_RANGE_STAYS_PRIVATE_FEATURE_TITLE" = "Age and Birthday Stay Private";
 "TEEN_AGE_RANGE_STAYS_PRIVATE_FEATURE_TITLE" = "Age and Birthday Stay Private";
 "CHILD_AGE_RANGE_NOT_NOW_BUTTON" = "Not Now";
 "SHARE_AGE_OPTION_ALWAYS_SHARE_TITLE" = "Always";
 "CHILD_AGE_RANGE_FOR_APPS_TITLE" = "Age-Appropriate Experiences in Apps";
 "CHILD_AGE_RANGE_SYNC_FEATURE_TITLE" = "Syncs Across Devices";
-"SHARE_AGE_OPTION_ASKFIRST_SUBTITLE" = "Children will be able to choose if they want to share their age range when an app requests it.";
+"REGIONAL_DEFAULT_AGE_SHARING_DESCRIPTION" = "Your region's law requires everyone's age range to be shared with apps that ask. Age range will be automatically updated with apps once a year.";
 "SHARE_AGE_HOWTO_SHARE_DONE_BUTTON" = "Done";
-"SHARE_AGE_HOW_TO_SHARE_AGE_RANGE_TITLE" = "Choose How to Share Age Range";
+"SHARE_AGE_OPTION_ASKFIRST_SUBTITLE" = "Children will be able to choose if they want to share their age range when an app requests it.";
 "SELF_AGE_RANGE_FOR_APPS_TITLE" = "Age-Appropriate Experiences in Apps";
+"SHARE_AGE_HOW_TO_SHARE_AGE_RANGE_TITLE" = "Choose How to Share Age Range";
+"REGIONAL_GUIDELINES_COMPLIANCE_FEATURE_TITLE" = "Regional Guidelines Compliance";
 "SHARE_AGE_HOW_TO_SHARE_AGE_RANGE_DESCRIPTION" = "You can change how child age ranges are shared at any time in Family settings. 
 
 Children with managed Screen Time settings are not allowed to change how their age range is shared. iOS 26 or later is required to share an age range.";
@@ -37,9 +47,11 @@ Children with managed Screen Time settings are not allowed to change how their a
 "CHILD_AGE_RANGE_CONTINUE_BUTTON_TITLE" = "Continue";
 "SHARE_AGE_OPTION_NEVER_SHARE_SUBTITLE" = "Age range will not be shared when an app requests it.";
 "TEEN_AGE_RANGE_SYNC_FEATURE_DESCRIPTION" = "Sharing syncs to any iPhone, iPad or Mac signed in with your account.";
+"AGE_SHARING_DEFAULT_SETUP_FEATURE_DESCRIPTION" = "Set up default age sharing preferences for your family members.";
 "HOW_TO_UPDATE_CHILDS_BIRTHDAY" = "See how to update your child’s birth date…";
-"AGE_FOR_CONFIRMATION_SCREEN" = "Age %d";
 "AGE_RANGE_CONTINUE_BUTTON_TITLE" = "Continue";
-"SHARE_AGE_OPTION_ASKFIRST_TITLE" = "Ask First";
 "CHILD_AGE_RANGE_STAYS_PRIVATE_FEATURE_TITLE" = "Age and Birthday Stay Private";
+"SELF_ADULT_AGE_RANGE_SHARING_DESCRIPTION" = "Share that you’re an adult so you’re not limited to child and teen content in apps. 
+
+By default, you’ll always be asked if you want to share your age range. You can change this in Age Range for Apps settings.";
 "CHILD_AGE_RANGE_SHARING_CHOICE_FEATURE_DESCRIPTION" = "Always share your child’s age range, let apps ask them, or never share.";

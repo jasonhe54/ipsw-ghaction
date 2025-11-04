@@ -64,13 +64,13 @@
 "PHOTOS" = "Photos and Videos";
 "PROGRESS_ESTIMATING" = "Estimating time to transfer…";
 "%llu IMPORT_ERROR_DESC_WALLET" = "{'value': {'one': 'There was %llu card or pass that did not transfer. Back up any data that wasn’t transferred from your Android device before erasing it.', 'other': 'There were %llu cards and passes that did not transfer. Back up any data that wasn’t transferred from your Android device before erasing it.', 'zero': 'There were %llu cards and passes that did not transfer. Back up any data that wasn’t transferred from your Android device before erasing it.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'llu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
-"UPDATE_TITLE" = "Android Device Update";
+"UPDATE_TITLE" = "Continue on Android Device";
 "FAILURE_DESC" = "The transfer of your data failed.";
 "%llu %@ IMPORT_DESC_MUSIC" = "{'value': {'one': '%llu %@ was transferred. You can view this in Music.', 'other': '%llu %@ were transferred. You can view these in Music.', 'zero': '%llu %@ were transferred.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'llu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "CLOUD_PHOTOS_TITLE" = "iCloud Photos";
 "%llu VOICE_MEMOS" = "{'value': {'one': '%llu Voice Memo', 'other': '%llu Voice Memos', 'zero': '%llu Voice Memos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'llu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "ENTER_TITLE" = "Enter Session ID and Pairing Code";
-"UPDATE_DESC" = "You can continue the transfer when your Android device update is complete.";
+"UPDATE_DESC" = "The transfer will continue after you finish the necessary steps on your Android device.";
 "AUTH_DESC" = "Pairing code is required to start the transfer.";
 "%llu PHOTOS" = "{'value': {'one': '%llu Photo or Video', 'other': '%llu Photos and Videos', 'zero': '%llu Photos and Videos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'llu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "%llu %@ IMPORT_DESC_CALL_HISTORY" = "{'value': {'one': '%llu %@ was transferred. You can view this in Phone.', 'other': '%llu %@ were transferred. You can view these in Phone.', 'zero': '%llu %@ were transferred.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'llu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";

@@ -374,6 +374,7 @@ Not verified for macOS.";
 "PLATFORMS_TV_PHONE_PAD_MAC_VISION_WATCH_MESSAGES_FACETIME" = "Apple TV, iPhone, iPad, Mac, Apple Vision, Apple Watch, iMessage, FaceTime";
 "INFO_LIST_LOCATION_DESCRIPTION" = "This app may use your location even when it isn’t open, which can decrease device battery life.";
 "SEARCH_RESULTS_IN_STORIES" = "%@ in Stories";
+"AX_DESCRIPTION_CARD" = "Description";
 "PLATFORMS_MAC_PHONE_TV" = "Mac, iPhone, Apple TV";
 "PLATFORMS_PAD_MAC_VISION_TV_MESSAGES" = "iPad, Mac, Apple Vision, Apple TV, iMessage";
 "PLATFORMS_MAC_PHONE_PAD_VISION_TV_MESSAGES" = "Mac, iPhone, iPad, Apple Vision, Apple TV, iMessage";
@@ -1032,8 +1033,8 @@ Apple does not track you across apps and websites owned by other companies or sh
 "PLATFORMS_WATCH_PAD" = "Apple Watch, iPad";
 "ARCADE_SUBSCRIBE_FREE_TRIAL_DURATION_WEEKS" = "{'duration': {'one': 'Free for %d week.', 'other': 'Free for %d weeks.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@duration@'}";
 "ACCOUNT_DESCRIPTION" = "An Apple ID is the login you use for just about everything you do with Apple.";
-"REVIEW_SUMMARY_REPORT_CONCERN_REASON_TITLE" = "WHY DO YOU WANT TO REPORT THIS REVIEW SUMMARY?";
 "PLATFORMS_MAC_PAD_WATCH_MESSAGES" = "Mac, iPad, Apple Watch, iMessage";
+"REVIEW_SUMMARY_REPORT_CONCERN_REASON_TITLE" = "WHY DO YOU WANT TO REPORT THIS REVIEW SUMMARY?";
 "PLATFORMS_PHONE_VISION_WATCH" = "iPhone, Apple Vision, Apple Watch";
 "TV_PREORDER_TERMS_REBRAND" = "This content may change without notice and the final product may be different.
 

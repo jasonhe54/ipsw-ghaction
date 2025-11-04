@@ -40,6 +40,8 @@
 	<string>com.apple.SaudiArabia</string>
 	<key>IMSConfig</key>
 	<dict>
+		<key>AllowWiFiCallingInAirplaneMode</key>
+		<false/>
 		<key>Media</key>
 		<dict>
 			<key>InactivityTimerRTPSeconds</key>
@@ -54,7 +56,13 @@
 				<key>REGISTER,INVITE,INVITE:*</key>
 				<string>+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting</string>
 			</dict>
+			<key>AllowPCNIInAirplaneMode</key>
+			<false/>
+			<key>DropRegistrationOnAirplaneModeToggle</key>
+			<true/>
 			<key>EarlyMediaNeedsHeader</key>
+			<true/>
+			<key>EnableCellularNetworkInfo</key>
 			<true/>
 			<key>IncomingCallEndReasons</key>
 			<dict>

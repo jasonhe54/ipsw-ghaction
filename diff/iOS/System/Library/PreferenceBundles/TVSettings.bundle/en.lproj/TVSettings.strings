@@ -12,8 +12,8 @@
 
 High Dynamic Range videos will take full advantage of your device’s screen, but will not play via the Digital AV Adapter.";
 "DOWNLOAD_QUALITY_FOOTER" = "Add or remove languages and change the size of the video you download.";
-"CONTINUE_WATCHING_ART_TITLE" = "Continue Watching Display";
 "UNDO_AUDIO_LANGUAGE_OPERATION" = "Modify Audio Languages";
+"CONTINUE_WATCHING_ART_TITLE" = "Continue Watching Display";
 "SD_LONG" = "Standard Definition";
 "UNDO_CONTINUE_WATCHING_DISPLAY" = "Change Continue Watching Display Selection";
 "AUTO_DOWNLOADS" = "Automatic Downloads";
@@ -25,15 +25,14 @@ High Dynamic Range videos will take full advantage of your device’s screen, bu
 "DOWNLOAD_SUBTITLE_LANGUAGES_TITLE" = "Subtitle Languages";
 "PLAYBACK_QUALITY_AUTO_SUBTITLE" = "Optimized based on your data plan";
 "UNDO_USE_CELLULAR_DOWNLOADS" = "Toggle Use Cellular Data for Downloads";
-"HOME_SHARING_SIGN_IN" = "Sign In";
 "UNDO_WIFI_QUALITY_DOWNLOADS" = "Change Download Wi-Fi Quality";
+"HOME_SHARING_SIGN_IN" = "Sign In";
 "PLAYBACK_MODE_SELECTOR_TITLE" = "Video Format";
 "VIDEO_DEFINITION_SETTING" = "Video Definition";
 "ADD_SUBTITLE_DOWNLOAD_LANGUAGE_ACTION" = "Add Language";
 "DOWNLOAD_QUALITY_HIGH_SUBTITLE" = "Slower download, uses more storage";
 "ADD_AUDIO_LANGUAGE_PAGE_TITLE" = "Add Audio Language";
 "UNDO_WIFI_QUALITY_PLAYBACK" = "Change Streaming Wi-Fi Quality";
-"AUTO_DOWNLOADS_SWITCH_TEXT" = "Use Automatic Downloads";
 "HD_SHORT" = "HD";
 "PLAYBACK_QUALITY_WLAN" = "WLAN";
 "HOME_SHARING_APPLE_ID_BUTTON" = "Apple Account:";
@@ -57,7 +56,6 @@ High Dynamic Range videos will take full advantage of your device’s screen, bu
 "OK" = "OK";
 "PLAYBACK_QUALITY_WIFI" = "Wi-Fi";
 "PLAYBACK_QUALITY_GROUP" = "Streaming Options";
-"AUTO_DOWNLOADS_EPISODE_COUNT_FOOTER" = "Number of upcoming episodes to download after watching";
 "POST_PLAY_AUTO_PLAY_NEXT_VIDEO_DESCRIPTION" = "Automatically start the next episode or trailer on this device.";
 "DOWNLOAD_DEFAULT_SUBTITLE_LANGUAGES_SWITCH_TITLE" = "Default Languages";
 "SETTINGS_TITLE_TV" = "TV";
@@ -69,7 +67,6 @@ If enabled in Accessibility, audio descriptions will be downloaded when availabl
 "PRIVATE_SPORTS_GROUP_NAME" = "Device Preferences";
 "UNDO_SELECTED_AUDIO_LANGUAGE" = "Change Audio Language";
 "UNDO_USE_CELLULAR_PLAYBACK" = "Toggle Use Cellular Data for Streaming";
-"AUTO_DOWNLOADS_STORAGE_LIMIT_TITLE" = "Storage Limit";
 "UP_NEXT_ART_POSTER_ART" = "Poster Art";
 "LOADING" = "Loading…";
 "PLAYBACK_QUALITY_SELECTION_FOOTER" = "Tap Best to watch videos in the highest quality based on your Internet connection.";
@@ -77,7 +74,6 @@ If enabled in Accessibility, audio descriptions will be downloaded when availabl
 "ORIGINAL_AUDIO_LANGUAGE" = "Original Audio Language";
 "WIFI_QUALITY_DOWNLOAD_SELECTION_TITLE" = "Wi-Fi Downloads";
 "APP_APPEARANCE_SYSTEM" = "System Appearance";
-"AUTO_DOWNLOADS_EPISODE_COUNT_TITLE" = "Episode Count";
 "UP_NEXT_ART_STILL_FRAME" = "Still Frame";
 "CONTINUE_WATCHING_ART_DESCRIPTION" = "Choose the show or movie art displayed in Continue Watching. Still frame shows a paused image from what's playing. Poster Art will show the promotional title images.";
 "PREFERRED_PURCHASE_RESOLUTION" = "Purchases and Rentals";
@@ -110,7 +106,6 @@ If enabled in Accessibility, audio descriptions will be downloaded when availabl
 "UNDO_DOWNLOADS_COMPATIBLE_WITH_AV" = "Toggle Downloads Compatible With AV Adapter";
 "UNDO_WLAN_QUALITY_PLAYBACK" = "Change Streaming WLAN Quality";
 "AUDIO_GROUP_TITLE" = "Audio";
-"AUTO_DOWNLOADS_STORAGE_LIMIT_FOOTER" = "Storage space(GB) used for automatic downloads";
 "UNDO_AUTOPLAY_NEXT_VIDEO" = "Toggle Auto Play Next Video";
 "DOWNLOAD_AUDIO_LANGUAGES_TITLE" = "Audio Languages";
 "PRIVATE_MODE" = "Use Play History";
@@ -121,9 +116,9 @@ If enabled in Accessibility, audio descriptions will be downloaded when availabl
 "PLAYBACK_QUALITY_LOW_WIFI_SUBTITLE" = "Stream up to 1GB/hour";
 "DOWNLOADS_COMPATIBLE_WITH_AV_ADAPTER" = "Downloads for AV Adapter";
 "DOWNLOAD_QUALITY_WLAN" = "WLAN";
+"UNDO_SUBTITLE_LANGUAGE_OPERATION" = "Modify Subtitle Languages";
 "SD_SHORT" = "SD";
 "HOME_SHARING_APPLE_ID_PLACEHOLDER" = "example@icloud.com";
-"UNDO_SUBTITLE_LANGUAGE_OPERATION" = "Modify Subtitle Languages";
 "PLAYBACK_MODE_3D" = "3D When Available";
 "PLAYBACK_MODE_CONTROLLER_TITLE" = "Video Format";
 "PRIVACY_FOOTER_FORMAT" = "Allow TV shows and movies played on this device to influence your “For You“ recommendations and update your “Continue Watching“ across your devices. %@";

@@ -1,5 +1,5 @@
 "MERCHANT_TOKEN_TRANSACTION_MANAGE_PAYMENT_METHOD" = "Manage Payments";
-"MERCHANT_TOKEN_DETAIL_FOOTER_TEXT_IF_DISALLOW_REVOKE" = "To stop payment authorization, contact [%@](%@). The terms of your service are between you and each service provider.";
+"MERCHANT_TOKEN_DETAIL_DELETE_LOADING_TEXT" = "Revoking Payment Authorization…";
 "MERCHANT_TOKEN_PREAUTH_SUBTITLE_MORE" = "{'Comment': '$1: label of first payment, $2: number of other payments (> 0)', 'more': {'other': '%1$@ and %2$d more', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%2$#@more@'}";
 "DELETE_MERCHANT_TOKEN_CARD_APPLE_CASH_FAMILY_SHEET_TITLE" = "Turn Off Apple Cash On %@’s Apple Watch?";
 "DELETE_MERCHANT_TOKEN_CARD_APPLE_CARD_SHEET_MESSAGE" = "This card will be removed from Wallet, but will remain as your payment method for merchants you’ve preauthorized for payment.
@@ -55,6 +55,7 @@ This does not cancel your services.";
 "MERCHANT_TOKEN_RECURRING_FREQUENCY_TITLE_MINUTE" = "{'minutes': {'one': 'Every minute', 'other': 'Every %d minutes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
 "MERCHANT_TOKEN_TRANSACTION_REQUEST_FAILED_SHEET_TITLE" = "Unable to Get Payment Information";
 "MERCHANT_TOKEN_RECURRING_FREQUENCY_TITLE_WEEK" = "{'weeks': {'one': 'Every week', 'other': 'Every %d weeks', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@weeks@'}";
+"MERCHANT_TOKENS_LIST_CHECKING_FOR_UPDATES" = "Checking for Updates…";
 "MERCHANT_TOKEN_DETAIL_DELETE_DEFERRED_FOOTER" = "This will stop %@ from using your Apple Pay payment method for future charges. It may not prevent charges that are already in progress under your terms with %@.";
 "MERCHANT_TOKEN_TRANSACTION_REQUEST_FAILED_SHEET_DISMISS" = "OK";
 "MERCHANT_TOKEN_DETAIL_DELETE_SHEET_MESSAGE" = "%@ will no longer be able to charge this card. This does not cancel your service.";
@@ -67,4 +68,4 @@ This does not cancel your services.";
 "MERCHANT_TOKEN_DETAIL_MANAGE_APPLE_PAYMENT_METHOD" = "Manage Payments";
 "MERCHANT_TOKEN_DETAIL_DELETE_FAILED_SHEET_TITLE" = "Unable to Revoke";
 "MERCHANT_TOKEN_DETAIL_DELETE_FOOTER" = "Revoking payment authorization does not cancel your service, but prevents %@ from automatically charging this card.";
-"MERCHANT_TOKEN_DETAIL_DELETE_LOADING_TEXT" = "Revoking Payment Authorization…";
+"MERCHANT_TOKEN_DETAIL_FOOTER_TEXT_IF_DISALLOW_REVOKE" = "To stop payment authorization, contact [%@](%@). The terms of your service are between you and each service provider.";

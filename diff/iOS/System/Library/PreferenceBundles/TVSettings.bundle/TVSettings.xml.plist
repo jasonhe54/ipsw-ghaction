@@ -156,6 +156,20 @@
 		</dict>
 		<dict>
 			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>get</key>
+			<string>useAutomaticDownloads:</string>
+			<key>id</key>
+			<string>com.apple.videos:AutoDownloads</string>
+			<key>label</key>
+			<string>AUTO_DOWNLOADS</string>
+			<key>set</key>
+			<string>setUseAutomaticDownloads:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
 			<string>PSLinkListCell</string>
 			<key>detail</key>
 			<string>TVSettingsLanguageSettingsController</string>
@@ -165,16 +179,6 @@
 			<string>com.apple.videos:TopLevelAudioAndSubtitleLanguages</string>
 			<key>label</key>
 			<string>LANGUAGE_SETTINGS_TITLE</string>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSLinkListCell</string>
-			<key>detail</key>
-			<string>TVSettingsAutoDownloadsController</string>
-			<key>id</key>
-			<string>com.apple.videos:AutoDownloads</string>
-			<key>label</key>
-			<string>AUTO_DOWNLOADS</string>
 		</dict>
 		<dict>
 			<key>cell</key>

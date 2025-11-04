@@ -57,6 +57,19 @@
 			<key>Username</key>
 			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
 		</dict>
+		<key>ExtraEndPoints</key>
+		<array>
+			<dict>
+				<key>ServerAddress</key>
+				<string>https://steam01.kddi.com/ENT/servlet/EntServlet5</string>
+				<key>SupportedAuthorizationTokens</key>
+				<integer>2</integer>
+				<key>SupportedEntitlements</key>
+				<integer>4194304</integer>
+				<key>UpdatePeriod</key>
+				<integer>360</integer>
+			</dict>
+		</array>
 		<key>ServerAddress</key>
 		<string>https://station01.ezweb.ne.jp/ENT/servlet/EntServlet3</string>
 		<key>SupportPhysicalSIMtoESIMTransfer</key>
@@ -720,6 +733,22 @@ aq9HLi3hH+ocrZMIHk3MTM2K3Oz8wr7XNSk8jmYO/kkgn84/vQ11T3c4A8k=</string>
 	<dict>
 		<key>AutoCallPickupTimer</key>
 		<integer>20</integer>
+	</dict>
+	<key>RCS</key>
+	<dict>
+		<key>EnableBusinessMessagingByDefault</key>
+		<true/>
+		<key>EnableRCSByDefault</key>
+		<true/>
+		<key>ProvisioningData</key>
+		<dict>
+			<key>ServerURL</key>
+			<string>config.rcs.mnc$mnc.mcc$mcc.jibecloud.net</string>
+		</dict>
+		<key>RefetchRCSStateIfDisabled</key>
+		<true/>
+		<key>ShowBusinessMessagingSwitch</key>
+		<true/>
 	</dict>
 	<key>RemoteCardProvisioningSettings</key>
 	<dict>

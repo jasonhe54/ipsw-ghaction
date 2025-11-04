@@ -66,13 +66,19 @@
 	<dict>
 		<key>Signaling</key>
 		<dict>
+			<key>AllowRTTControlInSipUpdate</key>
+			<true/>
 			<key>CountryOfOriginationFormat</key>
 			<string>PANI</string>
+			<key>UseCIDUrlInPIDF</key>
+			<true/>
 			<key>UseIPSec</key>
 			<true/>
 		</dict>
 		<key>Voice</key>
 		<dict>
+			<key>EmergencyRTTSupported</key>
+			<true/>
 			<key>EnableVolteByDefault</key>
 			<true/>
 		</dict>

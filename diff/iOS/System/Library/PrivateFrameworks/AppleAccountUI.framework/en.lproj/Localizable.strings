@@ -30,6 +30,7 @@
 "SIGN_IN_DATACLASS_ACTION_OFFER_SUBTITLE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'There is data stored on this iPad not associated with your Apple Account.\n\nAll previous data from apps that you sync with iCloud, will be removed from this iPad and replaced with your iCloud data.', 'applevision': 'There is data stored on this Apple Vision Pro not associated with your Apple Account.\n\nAll previous data from apps that you sync with iCloud, will be removed from this Apple Vision Pro and replaced with your iCloud data.', 'iphone': 'There is data stored on this iPhone not associated with your Apple Account.\n\nAll previous data from apps that you sync with iCloud, will be removed from this iPhone and replaced with your iCloud data.', 'other': 'There is data stored on this device not associated with your Apple Account.\n\nAll previous data from apps that you sync with iCloud, will be removed from this device and replaced with your iCloud data.'}}";
 "BACKUP_CELL_LABEL" = "iCloud Backup";
 "SIGN_OUT_SUBTITLE_APPLE_PAY_VISION" = "Data removed from this Apple Vision Pro will still be available in iCloud. All items will be removed from Wallet.";
+"PRIVACY_CONSENT_TITLE" = "About Apple Account & Privacy";
 "SIGN_OUT_LINK_IPAD" = "Giving away or selling this iPad?";
 "SENDER_REQUEST_SENT_SUBTITLE" = "Waiting to be accepted";
 "READ_ONLY_CALENDARS_WILL_BE_DELETED" = "(Server-based calendars %@ will be removed.)";
@@ -157,6 +158,7 @@
 "SIGN_OUT_SUBTITLE_APPLE_PAY_UNKNOWN" = "Data removed from this device will still be available in iCloud. All items will be removed from Wallet. Car keys are also permanently removed and you will need to manually add them again.";
 "BATCH_MERGE_FORMAT_IPHONE" = "Your %1$@ on this iPhone will be uploaded and merged with %2$@.";
 "RC_SETTINGS_PRIMARY_BUTTON_NO_SUGGESTIONS" = "Choose a Recovery Contact";
+"PRIVACY_CONSENT_BODY" = "Apple Account & Privacy has been updated to better explain how Apple collects, uses, and protects your personal information.";
 "MOBILEME_CREATE_UNAVAILABLE_DYNAMIC_TITLE" = "Cannot Sign In";
 "SIGN_OUT_CANCEL_BUTTON" = "Cancel";
 "SIGN_OUT_LINK_UNKNOWN" = "Giving away or selling this device?";
@@ -299,6 +301,7 @@
 "WALLET" = "Wallet";
 "Last Name" = "Last Name";
 "SIGN_OUT_ADD_DATA_RECOVERY_SERVICE_BUTTON" = "Turn off Advanced Data Protection";
+"PRIVACY_CONSENT_SYMBOL_ACCESSIBILITY_LABEL" = "Apple Account";
 "com.apple.Dataclass.Notifications" = "Notifications";
 "SIGN_OUT_REMOVED_DETAIL_TEXT" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'As a reminder, even though most data will remain on this iPad, the data listed here will be removed.', 'applevision': 'As a reminder, even though most data will remain on this Apple Vision Pro, the data listed here will be removed.', 'iphone': 'As a reminder, even though most data will remain on this iPhone, the data listed here will be removed.', 'other': 'As a reminder, even though most data will remain on this device, the data listed here will be removed.'}}";
 "RC_UPSELL_SUBTITLE" = "If you ever forget your password or device passcode, you can have a trusted friend or family member help you regain access to your account.";
@@ -323,6 +326,7 @@
 "SIGN_OUT_REMAIN_INFORMATION_DETAIL_TEXT" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'To make signing back in faster, most data will remain on this iPad, including any data that hasn’t been synced with iCloud.', 'applevision': 'To make signing back in faster, most data will remain on this Apple Vision Pro, including any data that hasn’t been synced with iCloud.', 'iphone': 'To make signing back in faster, most data will remain on this iPhone, including any data that hasn’t been synced with iCloud.', 'other': 'To make signing back in faster, most data will remain on this device, including any data that hasn’t been synced with iCloud.'}}";
 "SIGN_IN_SUBTITLE_GAMECENTER" = "Sign in with an email or phone number to use Game Center.";
 "HSA2_CODE_GENERATOR_BODY_WITH_DISCLAIMER" = "Enter this verification code on your other device to sign in. Don’t share this code with anyone. Apple will never call or text you for this code.";
+"PRIVACY_CONSENT_CONTINUE" = "OK";
 "com.apple.Dataclass.SharedStreams" = "Shared Albums";
 "DEVICE_LOCATOR_MESSAGE_REBRAND_UNKNOWN" = "Find My allows you to locate, lock, or erase your device if it’s lost or stolen. It will also be enabled on any supported accessory that uses your Apple Account.";
 "CUSTODIAN_RECOVERY_CODE_PROMPT_ESCAPE_TITLE" = "Can’t Get Recovery Code?";
@@ -379,11 +383,11 @@
 "RC_UPSELL_SECONDARY_BUTTON_SETTINGS" = "Choose Someone Else";
 "SIGN_OUT_ICLOUD_DRIVE_VISION" = "Any documents and data stored in iCloud Drive will be removed from this Apple Vision Pro.";
 "SIGN_OUT_PASSES_ORDERS" = "{'NSStringDeviceSpecificRuleType': {'other': 'Payment cards will be removed from Wallet.', 'iphone': 'Payment cards, keys, and orders will be removed from Wallet.', 'ipad': 'Payment cards and orders will be removed from Wallet.'}}";
-"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_IPAD" = "Can’t Remove Recovery Contact on this iPad";
+"SIGN_OUT_LAST_DEVICE_RECOVERY_CONTACT_MESSAGE" = "You are about to sign out of the last device on your account. To sign in again, you’ll need your device passcode or recovery contact to access your data. If your recovery contacts aren’t up-to-date, you can add a new recovery contact or turn off Advanced Data Protection before signing out.";
 "SIGN_IN_ERROR_UNREACHABLE_TITLE" = "Could not sign in.";
 "SIGN_IN_ERROR_UNREACHABLE_MESSAGE" = "An Internet connection is required to sign in.";
+"RATCHET_RC_DELETE_NOT_ALLOWED_ALERT_TITLE_IPAD" = "Can’t Remove Recovery Contact on this iPad";
 "HSA2_CODE_GENERATOR_TITLE_REBRAND" = "Apple Account Verification Code";
-"SIGN_OUT_LAST_DEVICE_RECOVERY_CONTACT_MESSAGE" = "You are about to sign out of the last device on your account. To sign in again, you’ll need your device passcode or recovery contact to access your data. If your recovery contacts aren’t up-to-date, you can add a new recovery contact or turn off Advanced Data Protection before signing out.";
 "SIGN_IN_DATACLASS_MERGE_ALERT_MESSAGE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Some data on this iPad is associated with another Apple Account previously used with this device.\nThis can’t be undone and may lead to unexpected data in your Apple Account on all your devices.', 'applevision': 'Some data on this Apple Vision Pro is associated with another Apple Account previously used with this device.\nThis can’t be undone and may lead to unexpected data in your Apple Account on all your devices.', 'iphone': 'Some data on this iPhone is associated with another Apple Account previously used with this device.\nThis can’t be undone and may lead to unexpected data in your Apple Account on all your devices.', 'other': 'Some data on this device is associated with another Apple Account previously used with this device.\nThis can’t be undone and may lead to unexpected data in your Apple Account on all your devices.'}}";
 "ALREADY_EXISTING_ACCOUNT_DESC_IPAD" = "This %@ account has already been added to your iPad.";
 "LEGACY_CONTACTS_VIEW_HEADER_TEXT" = "Legacy Contact";

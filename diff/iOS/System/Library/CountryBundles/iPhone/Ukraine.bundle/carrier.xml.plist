@@ -99,31 +99,41 @@
 				<key>Number</key>
 				<string>101</string>
 				<key>PreferredEmergencyNumber</key>
-				<true/>
+				<false/>
 				<key>SupportsEmergencySetup</key>
 				<false/>
-				<key>Title</key>
-				<string>EMERGENCY_DISAMBIGUATION_FIRE</string>
 			</dict>
 			<dict>
 				<key>Number</key>
 				<string>102</string>
 				<key>PreferredEmergencyNumber</key>
-				<true/>
+				<false/>
 				<key>SupportsEmergencySetup</key>
 				<false/>
-				<key>Title</key>
-				<string>EMERGENCY_DISAMBIGUATION_POLICE</string>
 			</dict>
 			<dict>
 				<key>Number</key>
 				<string>103</string>
 				<key>PreferredEmergencyNumber</key>
-				<true/>
+				<false/>
 				<key>SupportsEmergencySetup</key>
 				<false/>
-				<key>Title</key>
-				<string>EMERGENCY_DISAMBIGUATION_AMBULANCE</string>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>104</string>
+				<key>PreferredEmergencyNumber</key>
+				<false/>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>112</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+				<key>SupportsEmergencySetup</key>
+				<true/>
 			</dict>
 		</array>
 	</dict>

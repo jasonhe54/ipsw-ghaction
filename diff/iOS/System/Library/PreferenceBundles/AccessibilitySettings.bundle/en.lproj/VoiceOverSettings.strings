@@ -215,8 +215,8 @@ VoiceOver Recognition should not be relied upon in circumstances where you could
 "ADD_NEW_BRAILLE_LANGUAGE_BUTTON" = "Add Braille Table…";
 "CAPITAL_LETTER" = "Capital Letters";
 "AUDIO_DUCKING_VOLUME_FOOTER_IPHONE" = "Adjust the volume of other audio compared to VoiceOver on your iPhone.";
-"VO_LIVE_RECOGNITION_CUSTOMIZATION_VISION" = "Using on-device intelligence, your Apple Vision Pro can detect people, scenes, text, and furniture around you. Your Apple Vision Pro can also detect text that is near your finger with Point and Speak. You can select which of these detectors appear in the Live Recognition Rotor.";
 "ACTIVITIES_INTERACTION" = "Interaction";
+"VO_LIVE_RECOGNITION_CUSTOMIZATION_VISION" = "Using on-device intelligence, your Apple Vision Pro can detect people, scenes, text, and furniture around you. Your Apple Vision Pro can also detect text that is near your finger with Point and Speak. You can select which of these detectors appear in the Live Recognition Rotor.";
 "NAV_IMG_W_DESCRIPTIONS_SHORT" = "Descriptions";
 "VOICEOVER_GESTURE_HELP_HINT_PART2_VISION" = "Press the Digital Crown and use a left index or right ring pinch to select the done button to exit.";
 "VO_REAL_WORLD_DETECTION_FOOTER_SHORT_VISION" = "Your Apple Vision Pro will describe objects and the environment around you.";
@@ -317,6 +317,7 @@ VoiceOver Recognition should not be relied upon in circumstances where you could
 "PUNCTUATION_CONTEXT_AUTO_SWITCH_NONE" = "None";
 "ACTION_CONFIRMATION" = "Speak Confirmation";
 "FEEDBACK_SPEAK_BEFORE" = "Speak Before";
+"SINGLE_LETTER_QUICK_NAV_TITLE" = "Single Letter Quick Nav";
 "DELETION_FEEDBACK" = "Deleting Text";
 "SOUND_CURTAIN" = "Sound Curtain";
 "NUMBER_FEEDBACK_WORDS" = "Words";
@@ -450,6 +451,7 @@ VoiceOver Recognition should not be relied upon in circumstances where you could
 "PUNCTUATION_NONE" = "None";
 "CUSTOMIZE_COMMANDS" = "Commands";
 "IMAGE_DESCRIPTIONS_TITLE" = "Image Descriptions";
+"QUICK_NAV_TITLE" = "Arrow Key Quick Nav";
 "SPEECH_TITLE" = "Speech";
 "vo.play.haptic" = "Haptic";
 "VO_LIVE_RECOGNITION_TIP_HINT_IPAD" = "Using on-device intelligence, your iPad can detect people, doors, scenes, text, and furniture around you. Four finger triple-tap to start Live Recognition or use the Live Recognition Rotor.";

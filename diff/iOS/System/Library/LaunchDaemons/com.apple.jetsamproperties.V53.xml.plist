@@ -6625,6 +6625,19 @@
 					<key>JetsamPriority</key>
 					<integer>100</integer>
 				</dict>
+				<key>com.apple.web-browser-engine.networking.development</key>
+				<dict>
+					<key>ActiveHardMemoryLimit</key>
+					<integer>-1</integer>
+					<key>ActiveSoftMemoryLimit</key>
+					<integer>840</integer>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>-1</integer>
+					<key>InactiveSoftMemoryLimit</key>
+					<integer>840</integer>
+					<key>JetsamPriority</key>
+					<integer>100</integer>
+				</dict>
 				<key>com.apple.web-browser-engine.rendering</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
@@ -6638,7 +6651,31 @@
 					<key>JetsamPriority</key>
 					<integer>100</integer>
 				</dict>
+				<key>com.apple.web-browser-engine.rendering.development</key>
+				<dict>
+					<key>ActiveHardMemoryLimit</key>
+					<integer>-1</integer>
+					<key>ActiveSoftMemoryLimit</key>
+					<integer>600</integer>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>-1</integer>
+					<key>InactiveSoftMemoryLimit</key>
+					<integer>400</integer>
+					<key>JetsamPriority</key>
+					<integer>100</integer>
+				</dict>
 				<key>com.apple.web-browser-engine.webcontent</key>
+				<dict>
+					<key>ActiveHardMemoryLimit</key>
+					<integer>2048</integer>
+					<key>FreezerEligible</key>
+					<true/>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>2048</integer>
+					<key>JetsamPriority</key>
+					<integer>100</integer>
+				</dict>
+				<key>com.apple.web-browser-engine.webcontent.development</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
 					<integer>2048</integer>

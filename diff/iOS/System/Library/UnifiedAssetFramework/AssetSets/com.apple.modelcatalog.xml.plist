@@ -1643,6 +1643,36 @@
 		</dict>
 		<dict>
 			<key>AssetName</key>
+			<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.draft.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.draft.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.draft.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
 			<string>com.apple.fm.language.instruct_3b.reminders_suggest_action_items.generic</string>
 			<key>Expansions</key>
 			<array>
@@ -3801,6 +3831,8 @@
 		<string>com.apple.fm.language.instruct_3b.professional_tone.generic</string>
 		<string>com.apple.fm.language.instruct_3b.proofreading_review.draft.generic</string>
 		<string>com.apple.fm.language.instruct_3b.proofreading_review.generic</string>
+		<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.draft.generic</string>
+		<string>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.generic</string>
 		<string>com.apple.fm.language.instruct_3b.reminders_suggest_action_items.draft.generic</string>
 		<string>com.apple.fm.language.instruct_3b.reminders_suggest_action_items.generic</string>
 		<string>com.apple.fm.language.instruct_3b.response_generation_v4.draft.generic</string>

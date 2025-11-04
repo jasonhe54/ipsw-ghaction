@@ -106,12 +106,15 @@
 			<string>eventsandorders</string>
 			<key>optionalAttributes</key>
 			<array>
+				<string>kMDItemAccountHandles</string>
 				<string>kMDItemContentCreationDate</string>
 				<string>kMDItemAuthorEmailAddresses</string>
 				<string>kMDItemAuthors</string>
 				<string>kMDItemRecipientEmailAddresses</string>
+				<string>kMDItemPrimaryRecipientEmailAddresses</string>
+				<string>kMDItemAdditionalRecipientEmailAddresses</string>
+				<string>kMDItemHiddenAdditionalRecipientEmailAddresses</string>
 				<string>kMDItemRecipients</string>
-				<string>kMDItemPrimaryRecipients</string>
 				<string>kMDItemUserCreated</string>
 				<string>com_apple_mail_read</string>
 				<string>kMDItemSubject</string>
@@ -266,12 +269,15 @@
 			<string>eventsandorders</string>
 			<key>optionalAttributes</key>
 			<array>
+				<string>kMDItemAccountHandles</string>
 				<string>kMDItemContentCreationDate</string>
 				<string>kMDItemAuthorEmailAddresses</string>
 				<string>kMDItemAuthors</string>
 				<string>kMDItemRecipientEmailAddresses</string>
+				<string>kMDItemPrimaryRecipientEmailAddresses</string>
+				<string>kMDItemAdditionalRecipientEmailAddresses</string>
+				<string>kMDItemHiddenAdditionalRecipientEmailAddresses</string>
 				<string>kMDItemRecipients</string>
-				<string>kMDItemPrimaryRecipients</string>
 				<string>kMDItemUserCreated</string>
 				<string>com_apple_mail_read</string>
 				<string>kMDItemSubject</string>

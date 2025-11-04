@@ -289,7 +289,7 @@ The logs could collect the following information: heart rate measurements, wrist
 "GO_BACK" = "Go Back";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WIFI_IPHONE" = "This may take a few minutes. Keep this iPhone connected to Wi-Fi until the configuration is finished.";
 "ENHANCED_LOGGING_MEGAWIFI_SENSITIVE_INFORMATION_WAPI" = "WLAN network communications content and identifiers of nearby WLAN connected devices.";
-"ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY_WLAN" = "The following diagnostic logs will be sent to Apple over WLAN. Though your issue did not occur, the logs will be used to improve our products. Thank you for helping to make our products even better.";
+"ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY_WLAN" = "The following diagnostic logs will be sent to Apple over WLAN. Though your issue did not occur, the logs will be used to improve our products. By sending the generated logs to Apple, you consent to Apple using the contents of these files to improve Apple products. Thank you for helping to make our products even better.";
 "EXIT_DIAGNOSTICS_CANCEL_MESSAGE" = "This will end your diagnostic session with Apple Support.";
 "ENHANCED_LOGGING_BODY_HOURS" = "To better understand the issue you are experiencing, we need to collect additional diagnostic logs over the next %@. You will be able to turn off logging at any time by exiting the logging session. When we are done, the diagnostics logs will not leave the device unless you choose to send the results to Apple.";
 "ENHANCED_LOGGING_MOBILEMAIL" = "Mail Logging";
@@ -492,7 +492,7 @@ By agreeing to this consent, you are consenting to Apple’s and its subsidiarie
 
 At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
 "CONTINUE" = "Continue";
-"ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY" = "The following diagnostic logs will be sent to Apple over Wi-Fi. Though your issue did not occur but by sending the generated logs to Apple, you consent to Apple using the contents of these files to improve Apple products. Thank you for helping to make our products even better.";
+"ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY" = "The following diagnostic logs will be sent to Apple over Wi-Fi. Though your issue did not occur, the logs will be used to improve our products. By sending the generated logs to Apple, you consent to Apple using the contents of these files to improve Apple products. Thank you for helping to make our products even better.";
 "ENHANCED_LOGGING_HID_ECG_SENSITIVE_INFORMATION" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your ECG measurements are established on your Watch. The generated files may include data such as the raw sensor data for your ECG readings and algorithm results related to your measurement.
 
 The log collection period is approximately 10 minutes. The logs will include current and historic log data dating from when you first began using the logs related to your use of this feature. Your data will be retained for as long as necessary to troubleshoot issues with the features and to comply with applicable legal and regulatory obligations, but no longer than the life of the device plus 10 years.

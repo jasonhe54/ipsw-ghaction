@@ -1055,6 +1055,21 @@
 			<key>name</key>
 			<string>DeviceRecoveryEnvironmentDiagnostics</string>
 		</dict>
+		<key>245</key>
+		<dict>
+			<key>comment</key>
+			<string>DRE OS logs</string>
+			<key>ext</key>
+			<string>ips</string>
+			<key>gm</key>
+			<true/>
+			<key>limit</key>
+			<integer>87031808</integer>
+			<key>macOS</key>
+			<true/>
+			<key>name</key>
+			<string>DeviceRecoveryEnvironmentSystemCapture</string>
+		</dict>
 		<key>248</key>
 		<dict>
 			<key>gm</key>

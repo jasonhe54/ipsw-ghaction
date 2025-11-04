@@ -30,6 +30,8 @@
 		<integer>5</integer>
 		<key>ServerAddress</key>
 		<string>https://ent.telus.com/acmegw</string>
+		<key>SupportedAuthorizationTokens</key>
+		<integer>2</integer>
 		<key>SupportedEntitlements</key>
 		<integer>33</integer>
 		<key>UpdatePeriod</key>
@@ -160,7 +162,7 @@
 		<key>ShowBusinessMessagingSwitch</key>
 		<true/>
 		<key>ShowRCSSwitch</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>ResetBasebandAfterExitingAirplaneMode</key>
 	<true/>

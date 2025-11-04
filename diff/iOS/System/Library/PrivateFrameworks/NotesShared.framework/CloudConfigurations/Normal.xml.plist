@@ -67,6 +67,18 @@
 	<false/>
 	<key>resultsLimitPerSyncOperation</key>
 	<integer>50</integer>
+	<key>saveDelayFastSyncMaxDebounceTime</key>
+	<integer>2</integer>
+	<key>saveDelayFastSyncMaxTime</key>
+	<integer>5</integer>
+	<key>saveDelayFastSyncMinDebounceTime</key>
+	<real>0.10000000000000001</real>
+	<key>saveDelayMaxDebounceTime</key>
+	<integer>5</integer>
+	<key>saveDelayMaxTime</key>
+	<integer>10</integer>
+	<key>saveDelayMinDebounceTime</key>
+	<real>0.5</real>
 	<key>searchSubstringMatchingEnabled</key>
 	<true/>
 	<key>serverSideUpdateTaskMaxFailureCount</key>

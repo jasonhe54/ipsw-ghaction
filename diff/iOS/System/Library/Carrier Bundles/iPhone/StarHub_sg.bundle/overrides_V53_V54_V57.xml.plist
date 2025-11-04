@@ -27,8 +27,10 @@
 		</dict>
 		<key>ServerAddress</key>
 		<string>https://fapi.starhub.com/esbapi/es/rest/businessapi/apple/action</string>
+		<key>SupportSecureIntent</key>
+		<true/>
 		<key>SupportedEntitlements</key>
-		<integer>3073</integer>
+		<integer>11265</integer>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>

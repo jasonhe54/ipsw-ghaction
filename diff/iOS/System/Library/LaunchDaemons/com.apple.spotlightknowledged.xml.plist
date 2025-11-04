@@ -162,19 +162,24 @@
 			</dict>
 			<key>com.apple.corespotlight.knowledge.report</key>
 			<dict>
-				<key>Priority</key>
-				<string>Utility</string>
-				<key>RepeatingTask</key>
+				<key>#IfFeatureFlagDisabled</key>
+				<string>SpotlightKnowledge/MetricsJobRefactor</string>
+				<key>#Then</key>
 				<dict>
-					<key>Interval</key>
-					<integer>86400</integer>
+					<key>Priority</key>
+					<string>Utility</string>
+					<key>RepeatingTask</key>
+					<dict>
+						<key>Interval</key>
+						<integer>86400</integer>
+					</dict>
+					<key>RequiresExternalPower</key>
+					<true/>
+					<key>RequiresNetworkConnectivity</key>
+					<false/>
+					<key>RequiresProtectionClass</key>
+					<string>C</string>
 				</dict>
-				<key>RequiresExternalPower</key>
-				<true/>
-				<key>RequiresNetworkConnectivity</key>
-				<false/>
-				<key>RequiresProtectionClass</key>
-				<string>C</string>
 			</dict>
 		</dict>
 		<key>com.apple.notifyd.matching</key>

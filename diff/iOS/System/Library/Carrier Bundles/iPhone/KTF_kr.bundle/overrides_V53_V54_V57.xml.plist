@@ -20,17 +20,6 @@
 			<string></string>
 		</dict>
 	</dict>
-	<key>CarrierEntitlements</key>
-	<dict>
-		<key>SupportPhysicalSIMtoESIMTransfer</key>
-		<true/>
-		<key>SupportSecureIntent</key>
-		<true/>
-		<key>SupportedEntitlements</key>
-		<integer>9217</integer>
-		<key>SupportsOnDevicePhysicalSIMConvert</key>
-		<true/>
-	</dict>
 	<key>DefaultWhenImsSwitchOff</key>
 	<integer>0</integer>
 	<key>DerPriFileName</key>
@@ -351,45 +340,6 @@
 		<true/>
 		<key>EnableEarlyReturnDuringEmergencyMode</key>
 		<true/>
-	</dict>
-	<key>PhoneAccountTransfer</key>
-	<dict>
-		<key>LocalInstallSMDPURL</key>
-		<string>kt.prod.ondemandconnectivity.com</string>
-	</dict>
-	<key>RemoteCardProvisioningSettings</key>
-	<dict>
-		<key>ActivatingStateSubscriptionCheckTimerIntervals</key>
-		<array>
-			<integer>60</integer>
-			<integer>120</integer>
-			<integer>120</integer>
-		</array>
-		<key>CellularTrialPlan</key>
-		<dict>
-			<key>SupportsTrialPlan</key>
-			<false/>
-			<key>TrialEndPeriod</key>
-			<string>0000-00-00T00:00:00Z</string>
-			<key>TrialStartPeriod</key>
-			<string>0000-00-00T00:00:00Z</string>
-		</dict>
-		<key>MatchingICCIDPrefixes</key>
-		<array>
-			<string>898230</string>
-		</array>
-		<key>MinCompatibleWatchOS</key>
-		<string>5.1</string>
-		<key>ProvisioningMethod</key>
-		<string>CarrierFlow</string>
-		<key>ServerURL</key>
-		<string>kt.prod.ondemandconnectivity.com</string>
-		<key>SupportedSKUs</key>
-		<array>
-			<string>SKU_EU</string>
-		</array>
-		<key>SupportsFauxCard</key>
-		<false/>
 	</dict>
 	<key>Show5GSwitch</key>
 	<true/>

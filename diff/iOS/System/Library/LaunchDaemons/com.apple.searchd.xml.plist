@@ -68,6 +68,20 @@
 				<key>RequiresProtectionClass</key>
 				<string>A</string>
 			</dict>
+			<key>com.apple.searchd.heartbeat</key>
+			<dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>7200</integer>
+				</dict>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>A</string>
+			</dict>
 			<key>com.apple.searchd.reportAppUsage</key>
 			<dict>
 				<key>Priority</key>
@@ -194,23 +208,6 @@
 				<key>Repeating</key>
 				<true/>
 				<key>RequiresClassA</key>
-				<true/>
-			</dict>
-			<key>com.apple.searchd.heartbeat</key>
-			<dict>
-				<key>AllowBattery</key>
-				<true/>
-				<key>Delay</key>
-				<integer>7200</integer>
-				<key>GracePeriod</key>
-				<integer>300</integer>
-				<key>Interval</key>
-				<integer>7200</integer>
-				<key>PowerNap</key>
-				<true/>
-				<key>Priority</key>
-				<string>Utility</string>
-				<key>Repeating</key>
 				<true/>
 			</dict>
 			<key>com.apple.searchd.loadtrial</key>

@@ -515,6 +515,46 @@
 			<string>setAvailabilityEndOverrideInSeconds:specifier:</string>
 		</dict>
 		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.apple.tv</string>
+			<key>get</key>
+			<string>autoDownloadsEpisodeCount</string>
+			<key>id</key>
+			<string>com.apple.videosInternal:AutoDownloadsEpisodeCount</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>key</key>
+			<string>AutoDownloadsEpisodeCount</string>
+			<key>label</key>
+			<string>Number of episodes per show for auto download</string>
+			<key>set</key>
+			<string>setAutoDownloadsEpisodeCount:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.apple.tv</string>
+			<key>get</key>
+			<string>autoDownloadsStorageLimit</string>
+			<key>id</key>
+			<string>com.apple.videosInternal:AutoDownloadsStorageLimit</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>key</key>
+			<string>AutoDownloadsStorageLimit</string>
+			<key>label</key>
+			<string>Storage limit for auto download(GB)</string>
+			<key>set</key>
+			<string>setAutoDownloadsStorageLimit:specifier:</string>
+		</dict>
+		<dict>
 			<key>action</key>
 			<string>killTVApp:</string>
 			<key>cell</key>

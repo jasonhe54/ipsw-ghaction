@@ -38,7 +38,6 @@
 "Apple News recommends stories based on your reading habits. You can’t undo these actions." = "Apple News recommends stories based on your reading habits. You can’t undo these actions.";
 "Bracket" = "Bracket";
 "All Sports" = "All Sports";
-"Apply" = "Apply";
 "Personalize Your Sports" = "Personalize Your Sports";
 "Welcome to" = "Welcome to";
 "Unplayed" = "Unplayed";
@@ -48,6 +47,7 @@
 "Remove Downloads" = "Remove Downloads";
 "Issues aren’t available in newsletters in your current region." = "Issues aren’t available in newsletters in your current region.";
 "Reset Identifier" = "Reset Identifier";
+"Play All" = "Play All";
 "Would you like to follow %@?" = "Would you like to follow %@?";
 "Thank You" = "Thank You";
 "Close Search In Article" = "Close Search In Article";
@@ -96,6 +96,7 @@
 "Find Next" = "Find Next";
 "Get News in Your Inbox" = "Get News in Your Inbox";
 "Off" = "Off";
+"Go to Issue" = "Go to Issue";
 "Discover News+ Library" = "Discover News+ Library";
 "My Magazines" = "My Magazines";
 "Choose which channels send notifications to all your iCloud devices." = "Choose which channels send notifications to all your iCloud devices.";
@@ -118,7 +119,6 @@
 "For You" = "For You";
 "More %@" = "More %@";
 "Today Feed" = "Today Feed";
-"TAShortcutsTooltipTitle" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Customize Your Favorites', 'applevision': 'Customize Your Favorites', 'iphone': 'Customize Your Favorites', 'ipod': 'Customize Your Favorites', 'mac': 'About Favorites'}}";
 "Played" = "Played";
 "Follow Topic" = "Follow Topic";
 "About Apple News & Privacy…" = "About Apple News & Privacy…";
@@ -144,15 +144,16 @@
 "TASportsOnboardingSignInRequiredRejectButtonTitle" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'OK', 'applevision': 'OK', 'iphone': 'OK', 'ipod': 'OK', 'mac': 'OK'}}";
 "Vision Pro" = "Vision Pro";
 "TASportsOnboardingSignInRequiredAcceptButtonTitle" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Go to Settings', 'applevision': 'Go to Settings', 'iphone': 'Go to Settings', 'ipod': 'Go to Settings', 'mac': 'Go to System Settings'}}";
-"Get More Coverage" = "Get More Coverage";
+"No Recent Searches" = "No Recent Searches";
 "min left" = "min left";
 "Done" = "Done";
-"News will show more stories about this race." = "News will show more stories about this race.";
+"Get More Coverage" = "Get More Coverage";
 "Narrated" = "Narrated";
 "Recently Played" = "Recently Played";
-"loading" = "loading";
+"News will show more stories about this race." = "News will show more stories about this race.";
 "Blocked Channels & Topics" = "Blocked Channels & Topics";
 "TATopicUnavailableAlertTitle" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Topic Unavailable', 'applevision': 'Topic Unavailable', 'iphone': 'Topic Unavailable', 'ipod': 'Topic Unavailable', 'mac': 'This topic is unavailable.'}}";
+"loading" = "loading";
 "No Internet Connection" = "No Internet Connection";
 "Showing:" = "Showing:";
 "Double tap to remove this channel or topic from shortcuts" = "Double tap to remove this channel or topic from shortcuts";
@@ -195,6 +196,7 @@
 "Allow notifications to find out about important stories from the channels you follow and the Apple News editors." = "Allow notifications to find out about important stories from the channels you follow and the Apple News editors.";
 "This content is no longer available in Apple News." = "This content is no longer available in Apple News.";
 "Discover Channels…" = "Discover Channels…";
+"Next Recipe" = "Next Recipe";
 "Internal Debug" = "Internal Debug";
 "Subscribed" = "Subscribed";
 "Follow %@" = "Follow %@";
@@ -294,7 +296,6 @@
 "TASetUpOfflineModeAlertMessageLPM" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'News downloads content for Offline Mode at night when iPad is charging with Wi-Fi on. Background App Refresh and Automatic Downloads must also be turned on in Settings. Low Power Mode must be off in order to turn on Background App Refresh.', 'applevision': 'News downloads content for Offline Mode at night when Apple Vision Pro is charging with Wi-Fi on. Background App Refresh and Automatic Downloads must also be turned on in Settings. Low Power Mode must be off in order to turn on Background App Refresh.', 'iphone': 'News downloads content for Offline Mode at night when iPhone is charging with Wi-Fi on. Background App Refresh and Automatic Downloads must also be turned on in Settings. Low Power Mode must be off in order to turn on Background App Refresh.', 'ipod': 'News downloads content for Offline Mode at night when iPod is charging with Wi-Fi on. Background App Refresh and Automatic Downloads must also be turned on in Settings. Low Power Mode must be off in order to turn on Background App Refresh.', 'mac': 'News downloads content for Offline Mode at night when your Mac is charging with Wi-Fi on. Background App Refresh and Automatic Downloads must also be turned on in Settings. Low Power Mode must be off in order to turn on Background App Refresh.'}}";
 "Continue" = "Continue";
 "Topics" = "Topics";
-"Suggest Fewer" = "Suggest Fewer";
 "Filtering by play state" = "Filtering by play state";
 "Continue Reading" = "Continue Reading";
 "Downloads" = "Downloads";
@@ -415,8 +416,9 @@
 "Sorry, Apple News isn’t available right now. Please try again later." = "Sorry, Apple News isn’t available right now. Please try again later.";
 "Turn Off Notifications" = "Turn Off Notifications";
 "Weekly" = "Weekly";
-"Your choice affects all your iCloud devices." = "Your choice affects all your iCloud devices.";
+"%@—%@" = "%1$@—%2$@";
 "Clear" = "Clear";
+"Your choice affects all your iCloud devices." = "Your choice affects all your iCloud devices.";
 "Zoom Out" = "Zoom Out";
 "TASetUpOfflineModeAlertRejectButtonTitle" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Cancel', 'applevision': 'Cancel', 'iphone': 'Cancel', 'ipod': 'Cancel', 'mac': 'Cancel'}}";
 "TAManageWebSubscriptionAlertMessage" = "{'NSStringDeviceSpecificRuleType': {'mac': 'You can manage this subscription on the publisher’s website.', 'other': 'TAManageWebSubscriptionAlertMessage', 'ipad': 'Your subscription won’t be canceled if you stop following this channel. You can manage this subscription on the publisher’s website.', 'applevision': 'Your subscription won’t be canceled if you stop following this channel. You can manage this subscription on the publisher’s website.', 'iphone': 'Your subscription won’t be canceled if you stop following this channel. You can manage this subscription on the publisher’s website.', 'ipod': 'Your subscription won’t be canceled if you stop following this channel. You can manage this subscription on the publisher’s website.'}}";
@@ -447,6 +449,7 @@
 "Sorry, you need to update your device in order to see this content." = "Sorry, you need to update your device in order to see this content.";
 "Athletes" = "Athletes";
 "Tap this button to view recipes in a beautiful and easy-to-use format." = "Tap this button to view recipes in a beautiful and easy-to-use format.";
+" News+" = " News+";
 "%@ will start sending you notifications about important stories." = "%@ will start sending you notifications about important stories.";
 "Read in " = "Read in ";
 "No Recipes" = "No Recipes";
@@ -467,6 +470,7 @@
 "TAMagazineContentUnavailableInStoreFrontAlertTitle" = "{'NSStringDeviceSpecificRuleType': {'mac': 'This content is unavailable in your current region.', 'other': 'TAMagazineContentUnavailableInStoreFrontAlertTitle', 'ipad': 'Content Unavailable', 'applevision': 'Content Unavailable', 'iphone': 'Content Unavailable', 'ipod': 'Content Unavailable'}}";
 "Select" = "Select";
 "Apple News recommends stories based on your reading habits. Your choice affects all your iCloud devices." = "Apple News recommends stories based on your reading habits. Your choice affects all your iCloud devices.";
+"Checking for stories…" = "Checking for stories…";
 "Searching Apple News" = "Searching Apple News";
 "No Results" = "No Results";
 "Read story in Apple News" = "Read story in Apple News";
@@ -482,9 +486,12 @@
 "Up Next" = "Up Next";
 "TAUnMuteAlertTitle" = "{'NSStringDeviceSpecificRuleType': {'mac': 'You blocked this.', 'other': 'TAUnMuteAlertTitle', 'ipad': 'Allow in Today?', 'applevision': 'Allow in Today?', 'iphone': 'Allow in Today?', 'ipod': 'Allow in Today?'}}";
 "My Sports" = "My Sports";
+"This channel isn't currently available in your region." = "This channel isn't currently available in your region.";
+"Previous Recipe" = "Previous Recipe";
 "Read Issue" = "Read Issue";
 "Last Month" = "Last Month";
 "Subscribe" = "Subscribe";
+"You are already following %@." = "You are already following %@.";
 "TATopicNoLongerAvailableAlertTitle" = "{'NSStringDeviceSpecificRuleType': {'mac': 'This topic is no longer available in Apple News.', 'other': 'TATopicNoLongerAvailableAlertTitle', 'ipad': 'Topic Unavailable', 'applevision': 'Topic Unavailable', 'iphone': 'Topic Unavailable', 'ipod': 'Topic Unavailable'}}";
 "Get News+ in Your Inbox" = "Get News+ in Your Inbox";
 "Previous Page" = "Previous Page";
@@ -509,11 +516,13 @@
 "TAPuzzleLoadFailureNeedsUpgradeMessage" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'You’ll need the latest version of iPadOS.', 'applevision': 'You’ll need the latest version of visionOS.', 'iphone': 'You’ll need the latest version of iOS.', 'ipod': 'You’ll need the latest version of iOS.', 'mac': 'You’ll need the latest version of macOS.'}}";
 "Unblock" = "Unblock";
 "Discover" = "Discover";
+"Saved Recipes Filter" = "Saved Recipes Filter";
 "Magazine Feed" = "Magazine Feed";
 "Make Text Bigger" = "Make Text Bigger";
 "Notifications Now Available" = "Notifications Now Available";
 "Special Coverage" = "Special Coverage";
 "TATopicNotAvailableInStoreFrontAlertMessage" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'This topic isn’t currently available in your region.', 'applevision': 'This topic isn’t currently available in your region.', 'iphone': 'This topic isn’t currently available in your region.', 'ipod': 'This topic isn’t currently available in your region.', 'mac': 'If you recently signed in to your Apple\xa0Account in System Settings, try signing in to your Apple\xa0Account in the App Store as well.'}}";
+"Suggest Less" = "Suggest Less";
 "TASectionUnavailableAlertTitle" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Section Unavailable', 'applevision': 'Section Unavailable', 'iphone': 'Section Unavailable', 'ipod': 'Section Unavailable', 'mac': 'This section is unavailable.'}}";
 "Sign Up" = "Sign Up";
 "Choose Category" = "Choose Category";
@@ -552,6 +561,7 @@
 "the %@" = "the %@";
 "Favorites now display at the top of the feed for News+ subscribers." = "Favorites now display at the top of the feed for News+ subscribers.";
 "Hosted" = "Hosted";
+"Your recent searches will appear here." = "Your recent searches will appear here.";
 "Not Signed In" = "Not Signed In";
 "Collapsed" = "Collapsed";
 "sports" = "sports";
@@ -561,6 +571,7 @@
 "Notifications & Email" = "Notifications & Email";
 "Manage Notifications & Email…" = "Manage Notifications & Email…";
 "Go to Channel" = "Go to Channel";
+"Suggest More" = "Suggest More";
 "This story is not available in Apple News." = "This story is not available in Apple News.";
 "No matching recipes found." = "No matching recipes found.";
 "Best of News+" = "Best of News+";

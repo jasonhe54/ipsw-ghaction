@@ -21,8 +21,12 @@
 		<integer>3</integer>
 		<key>ServerAddress</key>
 		<string>https://api.econovation.co.kr/adcb/rest/getEapAKA</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
 		<key>SupportedEntitlements</key>
-		<integer>1025</integer>
+		<integer>9217</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -158,6 +162,11 @@
 	</dict>
 	<key>OverrideVMPilotNumberWhenOutsideHome</key>
 	<true/>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>kt.prod.ondemandconnectivity.com</string>
+	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+447786205094</string>
 	<key>PhoneRecentsDialsAddressBookNumber</key>
@@ -182,6 +191,40 @@
 		<true/>
 		<key>ShowRCSSwitch</key>
 		<true/>
+	</dict>
+	<key>RemoteCardProvisioningSettings</key>
+	<dict>
+		<key>ActivatingStateSubscriptionCheckTimerIntervals</key>
+		<array>
+			<integer>60</integer>
+			<integer>120</integer>
+			<integer>120</integer>
+		</array>
+		<key>CellularTrialPlan</key>
+		<dict>
+			<key>SupportsTrialPlan</key>
+			<false/>
+			<key>TrialEndPeriod</key>
+			<string>0000-00-00T00:00:00Z</string>
+			<key>TrialStartPeriod</key>
+			<string>0000-00-00T00:00:00Z</string>
+		</dict>
+		<key>MatchingICCIDPrefixes</key>
+		<array>
+			<string>898230</string>
+		</array>
+		<key>MinCompatibleWatchOS</key>
+		<string>5.1</string>
+		<key>ProvisioningMethod</key>
+		<string>CarrierFlow</string>
+		<key>ServerURL</key>
+		<string>kt.prod.ondemandconnectivity.com</string>
+		<key>SupportedSKUs</key>
+		<array>
+			<string>SKU_EU</string>
+		</array>
+		<key>SupportsFauxCard</key>
+		<false/>
 	</dict>
 	<key>SMSSettings</key>
 	<dict>

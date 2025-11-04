@@ -66,6 +66,16 @@
 				<key>Notification</key>
 				<string>com.apple.SoftwareUpdate.SUPreferencesChanged</string>
 			</dict>
+			<key>com.apple.ap.adprivacyd.iTunesActiveStorefrontDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ap.adprivacyd.iTunesActiveStorefrontDidChangeNotification</string>
+			</dict>
+			<key>com.apple.ap.bucketIdRotated</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ap.bucketIdRotated</string>
+			</dict>
 			<key>com.apple.crashreporter.auto_submit_preference_changed</key>
 			<dict>
 				<key>Notification</key>

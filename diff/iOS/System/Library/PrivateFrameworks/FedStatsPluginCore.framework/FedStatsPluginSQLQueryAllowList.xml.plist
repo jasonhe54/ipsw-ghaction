@@ -26,6 +26,7 @@
 	<key>FED_STATS_BIOME_AI_SAFETY_SHORTCUTS</key>
 	<array>
 		<string>^.*Shortcuts.UseModel.Safety.*$</string>
+		<string>^.*GenerativeExperiences.PromptTags.*usecaseId = 'useModelShortcuts'.*$</string>
 	</array>
 	<key>FED_STATS_BIOME_AI_SAFETY_THIRD</key>
 	<array>
@@ -43,6 +44,10 @@
 		<string>^.*WalletPaymentsCommerce.FinancialInsights.Search.*$</string>
 		<string>^.*WalletPaymentsCommerce.FinancialInsights.PaymentRingSuggestions.*$</string>
 		<string>^.*WalletPaymentsCommerce.FinancialInsights.RecurringSendSuggestions.*$</string>
+	</array>
+	<key>FED_STATS_BIOME_APPSTORE_EVENTS</key>
+	<array>
+		<string>^.*App.EventEngagement.*$</string>
 	</array>
 	<key>FED_STATS_BIOME_AUTONAMING</key>
 	<array>
@@ -174,6 +179,10 @@
 		<string>^.*AeroML.Insights.PhotosSearchInsights.*$</string>
 		<string>^.*AeroML.LabeledData.PhotosSearchLabeledData.*$</string>
 		<string>^.*AeroML.DataCorrelations.PhotosSearchDataCorrelations.*$</string>
+	</array>
+	<key>FED_STATS_BIOME_QUANTUM_TLS</key>
+	<array>
+		<string>^.*Device.Networking.TLS.*$</string>
 	</array>
 	<key>FED_STATS_BIOME_REMINDERS</key>
 	<array>

@@ -35,6 +35,21 @@
 				<key>Notification</key>
 				<string>com.apple.devicemanagementclient.devicePostureChanged</string>
 			</dict>
+			<key>com.apple.mobile.keybagd.lock_status</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.mobile.keybagd.lock_status</string>
+			</dict>
+			<key>com.apple.os-eligibility-domain.change.adult-age-verification-required</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.os-eligibility-domain.change.adult-age-verification-required</string>
+			</dict>
+			<key>com.apple.os-eligibility-domain.change.teen-attached-to-family-required</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.os-eligibility-domain.change.teen-attached-to-family-required</string>
+			</dict>
 			<key>com.apple.rapport.CompanionLinkDeviceAdded</key>
 			<dict>
 				<key>Notification</key>

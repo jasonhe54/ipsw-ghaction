@@ -62,6 +62,8 @@
 		<true/>
 		<key>com.apple.sharing.handoff.scanning</key>
 		<true/>
+		<key>com.apple.sharing.pinpairing</key>
+		<true/>
 		<key>com.apple.sharing.remote-text-editing</key>
 		<true/>
 		<key>com.apple.sharing.sharesheet</key>
@@ -77,6 +79,8 @@
 		<key>com.apple.sharingd.b332setup</key>
 		<true/>
 		<key>com.apple.sharingd.nsxpc</key>
+		<true/>
+		<key>com.apple.sharingd.pairedcontactmanager</key>
 		<true/>
 		<key>com.apple.sharingd.paireddevice</key>
 		<true/>

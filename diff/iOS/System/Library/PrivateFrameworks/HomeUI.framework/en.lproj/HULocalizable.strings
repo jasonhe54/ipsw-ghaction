@@ -1374,6 +1374,7 @@ People, accessories, scenes, and automations will need to be set up again.";
 "HUServiceDetailsGroupTitle" = "Group";
 "HUUsersPersonalContentHomePodsSectionTitle" = "Use Personal Content On";
 "HULinkedApplicationInstalled" = "INSTALLED";
+"HUAddMenu" = "Add";
 "HUBannerSymptom_Description_ProfileExpired_ThreeObjects_NetworkName" = "The profiles installed on %1$@, %2$@, and one other HomePod that allow them to access “%3$@” have expired.";
 "HUGridScenesSectionTitle" = "Scenes";
 "HUMediaServiceListeningHistoryFooter" = "Allow media you play from %@ on devices in this home to update your listening history.";
@@ -1576,7 +1577,6 @@ The default account is used to play media when this HomePod does not recognize t
 "HUSoftwareUpdateFetchMessageRequested_One" = "The requested update will be installed when the accessory is ready.";
 "HUDropIn_ErrorAlert_FailedToStart_Description" = "An error occurred connecting to %@.";
 "HUTriggerSummaryEnableSwitchTitle" = "Enable This Automation";
-"HUHomeEnergyEducationPanelTitle" = "Grid Forecast";
 "HUUserManagementUserFooterTitle" = "You can invite people with an iCloud account to share control of HomeKit accessories in your home. All people in a shared home can control accessories, see when they are used, and receive notifications about them.";
 "HULanguageCanRecognizeMultipleVoices_FinePrint_IPHONE" = "Your Siri voice profile from this iPhone will be associated with this home so Siri can recognize your voice, play your music, and more.";
 "HUEditRoomNameTitle" = "Room Name";

@@ -45,8 +45,14 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://hotmes.hotmobile.co.il/entitlement/</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportSecureIntent</key>
+		<true/>
 		<key>SupportedEntitlements</key>
-		<integer>1025</integer>
+		<integer>9217</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -71,6 +77,38 @@
 	<string>http://www.hotmobile.co.il</string>
 	<key>MyAccountURLTitle</key>
 	<string>HOT mobile Portal</string>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://hotmobile.validereachdpplus.com</string>
+		<key>MinCompatibleOS</key>
+		<string>26.2</string>
+		<key>SupportsFallbackToLegacyFlow</key>
+		<false/>
+		<key>TransferErrorCodes</key>
+		<dict>
+			<key>BillingErrors</key>
+			<array>
+				<string>902</string>
+			</array>
+			<key>BlockedAccountErrors</key>
+			<array>
+				<string>904</string>
+			</array>
+			<key>CarrierDefaultErrors</key>
+			<array>
+				<string>906</string>
+			</array>
+			<key>IneligibleAccountErrors</key>
+			<array>
+				<string>901</string>
+			</array>
+			<key>MaintenanceErrors</key>
+			<array>
+				<string>903</string>
+			</array>
+		</dict>
+	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+ 447786205094</string>
 	<key>PreferCarrierNameFromMetadata</key>
@@ -79,6 +117,8 @@
 	<dict>
 		<key>MultiSIMTopic</key>
 		<string>il.co.hotmobile.hotmes</string>
+		<key>msisdn-event</key>
+		<string>il.co.hotmobile.msisdn-changed</string>
 	</dict>
 	<key>RegistrationOptInRequired</key>
 	<true/>
@@ -173,7 +213,7 @@
 		<string>20809_ID-8997207</string>
 	</array>
 	<key>SupportsNITZ</key>
-	<false/>
+	<true/>
 	<key>SuppressSimToolkitSendShortMessageNotifications</key>
 	<true/>
 	<key>VVMIgnoresIntlDataRoaming</key>

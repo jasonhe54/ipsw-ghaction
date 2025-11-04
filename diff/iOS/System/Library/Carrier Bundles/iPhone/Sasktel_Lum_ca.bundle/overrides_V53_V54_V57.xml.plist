@@ -159,7 +159,7 @@
 	<key>ShowHighDataModeSwitch</key>
 	<true/>
 	<key>ShowVolteSwitch</key>
-	<true/>
+	<false/>
 	<key>ShowVolteWarningUnsupportedCarrier</key>
 	<false/>
 	<key>ShowWiFiCallingWarningUnsupportedCarrier</key>
@@ -182,7 +182,7 @@
 				<array>
 					<dict>
 						<key>DHGroup</key>
-						<integer>1</integer>
+						<integer>14</integer>
 						<key>EncryptionAlgorithm</key>
 						<array>
 							<string>AES-256</string>
@@ -245,7 +245,7 @@
 					<key>AuthenticationMethod</key>
 					<string>None</string>
 					<key>DHGroup</key>
-					<integer>1</integer>
+					<integer>14</integer>
 					<key>EAPMethod</key>
 					<string>EAP-AKA</string>
 					<key>EncryptionAlgorithm</key>

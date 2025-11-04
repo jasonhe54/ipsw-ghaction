@@ -11,18 +11,10 @@
 		<string>mobile</string>
 		<key>Value</key>
 		<array>
-			<string>151</string>
 			<string>156</string>
-			<string>298</string>
 			<string>166</string>
-			<string>185</string>
-			<string>385</string>
-			<string>142</string>
 			<string>288</string>
-			<string>301</string>
-			<string>155</string>
-			<string>146</string>
-			<string>221</string>
+			<string>385</string>
 		</array>
 	</dict>
 	<dict>
@@ -39,33 +31,7 @@
 		<string>mobile</string>
 		<key>Value</key>
 		<array>
-			<string>151</string>
 			<string>156</string>
-			<string>185</string>
-			<string>385</string>
-			<string>288</string>
-			<string>301</string>
-			<string>155</string>
-			<string>146</string>
-		</array>
-	</dict>
-	<dict>
-		<key>Domain</key>
-		<string>com.apple.da</string>
-		<key>Key</key>
-		<string>disabledLogs</string>
-		<key>Sample</key>
-		<array>
-			<integer>0</integer>
-			<integer>100</integer>
-		</array>
-		<key>User</key>
-		<string>mobile</string>
-		<key>Value</key>
-		<array>
-			<string>156</string>
-			<string>155</string>
-			<string>146</string>
 			<string>385</string>
 		</array>
 	</dict>
@@ -77,16 +43,42 @@
 		<key>Sample</key>
 		<array>
 			<integer>0</integer>
-			<integer>100000</integer>
+			<integer>20</integer>
 		</array>
 		<key>User</key>
 		<string>mobile</string>
 		<key>Value</key>
 		<array>
-			<string>155</string>
-			<string>146</string>
+			<string>156</string>
 			<string>385</string>
 		</array>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.da</string>
+		<key>Key</key>
+		<string>disabledLogs</string>
+		<key>Sample</key>
+		<array>
+			<integer>0</integer>
+			<integer>5000</integer>
+		</array>
+		<key>User</key>
+		<string>mobile</string>
+		<key>Value</key>
+		<array>
+			<string>385</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Domain</key>
+		<string>com.apple.da</string>
+		<key>Key</key>
+		<string>fastLane</string>
+		<key>User</key>
+		<string>mobile</string>
+		<key>Value</key>
+		<integer>1</integer>
 	</dict>
 </array>
 </plist>

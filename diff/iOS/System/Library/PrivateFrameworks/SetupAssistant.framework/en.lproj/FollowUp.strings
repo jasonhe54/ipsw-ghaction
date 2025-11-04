@@ -1,10 +1,13 @@
 "FOLLOWUP_ACTION_LABEL.touchID" = "{'NSStringLocalizedFormatKey': 'Set Up Touch\xa0ID'}";
+"appleIntelligence" = "{'NSStringLocalizedFormatKey': 'Apple\xa0Intelligence'}";
 "appleID" = "{'NSStringLocalizedFormatKey': 'Apple\xa0Account'}";
-"FOLLOWUP_ACTION_LABEL_ALL" = "{'NSStringLocalizedFormatKey': 'Finish Setting Up'}";
 "FOLLOWUP_DETAIL_TOUCHID" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Get the most out of your iPhone with features like Apple\xa0Account, Siri, Touch\xa0ID, and Apple\xa0Pay.', 'ipad': 'Get the most out of your iPad with features like Apple\xa0Account, Siri, Touch\xa0ID, and Apple\xa0Pay.'}}";
+"FOLLOWUP_ACTION_LABEL_ALL" = "{'NSStringLocalizedFormatKey': 'Finish Setting Up'}";
 "FOLLOWUP_TITLE" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Finish Setting Up Your iPod\xa0touch', 'iphone': 'Finish Setting Up Your iPhone', 'ipad': 'Finish Setting Up Your iPad', 'applevision': 'Finish Setting Up Your Apple\xa0Vision\xa0Pro'}}";
 "FOLLOWUP_ACTION_LABEL.appleID" = "{'NSStringLocalizedFormatKey': 'Set Up Apple\xa0Account'}";
 "FOLLOWUP_DETAIL_FACEID" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Get the most out of your iPhone with features like Apple\xa0Account, Siri, Face\xa0ID, and Apple\xa0Pay.', 'ipad': 'Get the most out of your iPad with features like Apple\xa0Account, Siri, Face\xa0ID, and Apple\xa0Pay.'}}";
+"FOLLOWUP_DETAIL_FACEID_APPLEINTELLIGENCE" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Get the most out of your iPhone with features like Apple\xa0Intelligence, Apple\xa0Account, Siri, Face\xa0ID, and Apple\xa0Pay.', 'ipad': 'Get the most out of your iPad with features like Apple\xa0Intelligence, Apple\xa0Account, Siri, Face\xa0ID, and Apple\xa0Pay.'}}";
+"FOLLOWUP_ACTION_LABEL.appleIntelligence" = "{'NSStringLocalizedFormatKey': 'Enable Apple\xa0Intelligence'}";
 "applePay" = "{'NSStringLocalizedFormatKey': 'Apple\xa0Pay'}";
 "FOLLOWUP_DETAIL" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Get the most out of your iPod\xa0touch with features like Apple\xa0Account, iCloud, and Siri.', 'iphone': 'Get the most out of your iPhone with features like Apple\xa0Account, Siri, and Apple\xa0Pay.', 'ipad': 'Get the most out of your iPad with features like Apple\xa0Account, Siri, and Apple\xa0Pay.', 'applevision': 'Get the most out of your Apple\xa0Vision\xa0Pro with features like Apple\xa0Account, Siri, Optic\xa0ID, and Apple\xa0Pay.'}}";
 "touchID" = "{'NSStringLocalizedFormatKey': 'Touch\xa0ID'}";
@@ -15,7 +18,9 @@
 "oysterEnrollment" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Optic\xa0ID'}}";
 "siri" = "{'NSStringLocalizedFormatKey': 'Siri'}";
 "faceID" = "{'NSStringLocalizedFormatKey': 'Face\xa0ID'}";
+"FOLLOWUP_DETAIL_APPLE_INTELLIGENCE_EXCLUSIVE" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Get the most out of your iPhone with Apple\xa0Intelligence.', 'ipad': 'Get the most out of your iPad with Apple\xa0Intelligence.'}}";
 "FOLLOWUP_ACTION_LABEL.passcode" = "{'NSStringLocalizedFormatKey': 'Set Up Passcode'}";
 "passcode" = "{'NSStringLocalizedFormatKey': 'Passcode'}";
 "NOTIFICATION_DETAIL_FLOWS" = "{'NSStringLocalizedFormatKey': '%@ are ready to be set up in Settings.'}";
+"FOLLOWUP_DETAIL_TOUCHID_APPLEINTELLIGENCE" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Get the most out of your iPhone with features like Apple\xa0Intelligence, Apple\xa0Account, Siri, Touch\xa0ID, and Apple\xa0Pay.', 'ipad': 'Get the most out of your iPad with features like Apple\xa0Intelligence, Apple\xa0Account, Siri, Touch\xa0ID, and Apple\xa0Pay.'}}";
 "NOTIFICATION_TITLE" = "{'NSStringDeviceSpecificRuleType': {'ipod': 'Finish Setting Up iPod\xa0touch', 'iphone': 'Finish Setting Up iPhone', 'ipad': 'Finish Setting Up iPad', 'applevision': 'Finish Setting Up Your Apple\xa0Vision\xa0Pro'}}";

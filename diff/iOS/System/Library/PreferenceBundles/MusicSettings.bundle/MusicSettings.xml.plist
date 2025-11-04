@@ -406,22 +406,96 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>id</key>
-			<string>com.apple.Music:AudioGroup</string>
-			<key>label</key>
-			<string>AUDIO</string>
+			<string>com.apple.Music:LibraryImportGroup</string>
 			<key>musicOverrides</key>
 			<dict>
-				<key>footerText</key>
+				<key>musicDynamicFooterText</key>
 				<dict>
-					<key>CROSS_FADE_ON_FOOTER</key>
+					<key>libraryImportEntryPointFooter</key>
 					<dict>
 						<key>musicRequiredCapabilities</key>
 						<array>
-							<string>crossFadeFeatureOn</string>
+							<string>isSubscribed</string>
+							<string>isLibraryImportEnabled</string>
 						</array>
 					</dict>
 				</dict>
 			</dict>
+			<key>musicRequiredCapabilities</key>
+			<array>
+				<string>isSubscribed</string>
+				<string>isLibraryImportEnabled</string>
+			</array>
+		</dict>
+		<dict>
+			<key>allowMultilineTitleKey</key>
+			<string>YES</string>
+			<key>buttonAction</key>
+			<string>libraryImportEntryPointClicked:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>id</key>
+			<string>com.apple.Music:LibraryImport</string>
+			<key>musicDynamicLabel</key>
+			<string>libraryImportEntryPointText</string>
+			<key>musicRequiredCapabilities</key>
+			<array>
+				<string>isSubscribed</string>
+				<string>isLibraryImportEnabled</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>com.apple.Music:LibraryImportReviewGroup</string>
+			<key>musicOverrides</key>
+			<dict>
+				<key>musicDynamicFooterText</key>
+				<dict>
+					<key>libraryImportReviewTitle</key>
+					<dict>
+						<key>musicRequiredCapabilities</key>
+						<array>
+							<string>isSubscribed</string>
+							<string>isLibraryImportEnabled</string>
+							<string>isLibraryImportReviewEnabled</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>musicRequiredCapabilities</key>
+			<array>
+				<string>isSubscribed</string>
+				<string>isLibraryImportEnabled</string>
+				<string>isLibraryImportReviewEnabled</string>
+			</array>
+		</dict>
+		<dict>
+			<key>allowMultilineTitleKey</key>
+			<string>YES</string>
+			<key>buttonAction</key>
+			<string>libraryImportReviewClicked:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>id</key>
+			<string>com.apple.Music:libraryImportReview</string>
+			<key>musicDynamicLabel</key>
+			<string>libraryImportReviewCTA</string>
+			<key>musicRequiredCapabilities</key>
+			<array>
+				<string>isSubscribed</string>
+				<string>isLibraryImportEnabled</string>
+				<string>isLibraryImportReviewEnabled</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>com.apple.Music:AudioGroup</string>
+			<key>label</key>
+			<string>AUDIO</string>
 		</dict>
 		<dict>
 			<key>PostNotification</key>
@@ -564,42 +638,15 @@
 			<key>allowMultilineTitleKey</key>
 			<string>YES</string>
 			<key>cell</key>
-			<string>PSSwitchCell</string>
-			<key>default</key>
-			<false/>
-			<key>defaults</key>
-			<string>com.apple.mobileipod</string>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>MusicSongTransitionsSettingsController</string>
+			<key>get</key>
+			<string>songTransitionsDescription:</string>
 			<key>id</key>
-			<string>com.apple.Music:CrossFadeEnabled</string>
-			<key>key</key>
-			<string>CrossFadeEnabled</string>
-			<key>label</key>
-			<string>CROSS_FADE</string>
-			<key>musicRequiredCapabilities</key>
-			<array>
-				<string>crossFadeFeatureOn</string>
-			</array>
-		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSTableCell</string>
-			<key>default</key>
-			<integer>4</integer>
-			<key>defaults</key>
-			<string>com.apple.mobileipod</string>
-			<key>id</key>
-			<string>com.apple.Music:CrossFadeDurationSlider</string>
-			<key>key</key>
-			<string>CrossFadeDuration</string>
-			<key>max</key>
-			<integer>12</integer>
-			<key>min</key>
-			<integer>1</integer>
-			<key>musicRequiredCapabilities</key>
-			<array>
-				<string>crossFadeEnabled</string>
-				<string>crossFadeFeatureOn</string>
-			</array>
+			<string>com.apple.Music:SongTransitions</string>
+			<key>musicDynamicLabel</key>
+			<string>songTransitionsTitle</string>
 		</dict>
 		<dict>
 			<key>cell</key>

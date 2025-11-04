@@ -11,6 +11,26 @@
 	</dict>
 	<key>CarrierEntitlements</key>
 	<dict>
+		<key>ExtraEndPoints</key>
+		<array>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ServerAddress</key>
+				<string>https://steam01.kddi.com/ENT/servlet/EntServlet5</string>
+				<key>SupportedAuthorizationTokens</key>
+				<integer>2</integer>
+				<key>SupportedEntitlements</key>
+				<integer>4194304</integer>
+				<key>UpdatePeriod</key>
+				<integer>360</integer>
+			</dict>
+		</array>
 		<key>ServerAddress</key>
 		<string>https://station01.ezweb.ne.jp/ENT/servlet/EntServlet3</string>
 		<key>SupportedEntitlements</key>
@@ -331,6 +351,22 @@
 	<dict>
 		<key>AutoCallPickupTimer</key>
 		<integer>20</integer>
+	</dict>
+	<key>RCS</key>
+	<dict>
+		<key>EnableBusinessMessagingByDefault</key>
+		<true/>
+		<key>EnableRCSByDefault</key>
+		<true/>
+		<key>ProvisioningData</key>
+		<dict>
+			<key>ServerURL</key>
+			<string>config.rcs.mnc$mnc.mcc$mcc.jibecloud.net</string>
+		</dict>
+		<key>RefetchRCSStateIfDisabled</key>
+		<true/>
+		<key>ShowBusinessMessagingSwitch</key>
+		<true/>
 	</dict>
 	<key>RemoteDiagnosticsWWANAllowed</key>
 	<true/>

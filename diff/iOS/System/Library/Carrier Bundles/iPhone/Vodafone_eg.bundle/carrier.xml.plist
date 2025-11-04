@@ -24,24 +24,6 @@
 	<string>Vodafone</string>
 	<key>DataIndicatorOverrideForLTE</key>
 	<string>4G</string>
-	<key>EmergencyCalling</key>
-	<dict>
-		<key>EmergencyNumbers</key>
-		<array>
-			<dict>
-				<key>Number</key>
-				<string>112</string>
-				<key>PreferredEmergencyNumber</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Category</key>
-				<integer>0</integer>
-				<key>Number</key>
-				<string>122</string>
-			</dict>
-		</array>
-	</dict>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.Egypt</string>
 	<key>OTASoftwareUpdate</key>

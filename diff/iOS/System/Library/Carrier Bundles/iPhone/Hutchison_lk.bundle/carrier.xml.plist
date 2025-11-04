@@ -37,6 +37,24 @@
 	<string>4G</string>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.SriLanka</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Signaling</key>
+		<dict>
+			<key>IncomingCallEndReasons</key>
+			<dict>
+				<key>TemporarilyUnavailable</key>
+				<dict>
+					<key>StatusCode</key>
+					<integer>480</integer>
+					<key>TerminationEvent</key>
+					<string>RemoteHangup</string>
+				</dict>
+			</dict>
+			<key>InviteErrorResponsesToTriggerCSFB</key>
+			<string>-480</string>
+		</dict>
+	</dict>
 	<key>MandatoryVerify</key>
 	<dict>
 		<key>SIMs</key>

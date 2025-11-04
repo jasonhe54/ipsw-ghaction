@@ -53,33 +53,13 @@
 		<key>com.apple.aps.homeenergyd</key>
 		<true/>
 		<key>com.apple.energykit.localStore</key>
-		<dict>
-			<key>#IfFeatureFlagEnabled</key>
-			<string>HomeEnergy/xpcStore2025</string>
-			<key>#Then</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>com.apple.energykit.privateStore</key>
-		<dict>
-			<key>#IfFeatureFlagEnabled</key>
-			<string>HomeEnergy/xpcStore2025</string>
-			<key>#Then</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>com.apple.energykit.sharedStore</key>
-		<dict>
-			<key>#IfFeatureFlagEnabled</key>
-			<string>HomeEnergy/xpcStore2025</string>
-			<key>#Then</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>com.apple.energykit.store</key>
-		<dict>
-			<key>#IfFeatureFlagEnabled</key>
-			<string>HomeEnergy/xpcStore2025</string>
-			<key>#Then</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>com.apple.homeenergyd.xpc</key>
 		<true/>
 	</dict>

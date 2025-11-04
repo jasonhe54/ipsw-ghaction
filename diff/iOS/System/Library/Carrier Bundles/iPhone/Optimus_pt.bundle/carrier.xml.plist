@@ -143,6 +143,8 @@
 			<true/>
 			<key>EnableCellularNetworkInfo</key>
 			<true/>
+			<key>EnableRingbackAudioForTextCalls</key>
+			<true/>
 			<key>ForcedFeatureTags</key>
 			<string>voice,sms</string>
 			<key>InviteErrorResponsesToTriggerCSFB</key>
@@ -184,6 +186,8 @@
 			<key>E911OverCSIfNoIMSReg</key>
 			<true/>
 			<key>E911OverITechSupported</key>
+			<false/>
+			<key>EnableHoldForRTT</key>
 			<true/>
 			<key>EnableVolteByDefault</key>
 			<true/>
@@ -192,8 +196,30 @@
 		</dict>
 		<key>XCAP</key>
 		<dict>
-			<key>supported</key>
+			<key>BsfPort</key>
+			<integer>8081</integer>
+			<key>ContentType</key>
+			<string>application/xcap-el+xml</string>
+			<key>DisableOnNetworkError</key>
+			<true/>
+			<key>ForbiddenHttpErrorCodes</key>
+			<string>404,501,502,503,504</string>
+			<key>NafHost</key>
+			<string>xcap.ims.mnc003.mcc268.pub.3gppnetwork.org</string>
+			<key>NafPort</key>
+			<integer>8080</integer>
+			<key>SupportsCFErasure</key>
 			<false/>
+			<key>SupportsCLIR</key>
+			<true/>
+			<key>SupportsCW</key>
+			<false/>
+			<key>imsFeatureDependency</key>
+			<true/>
+			<key>imsRegistrationDependency</key>
+			<true/>
+			<key>supported</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>MMS</key>
@@ -237,6 +263,7 @@
 			<array>
 				<string>268032000</string>
 				<string>268031001</string>
+				<string>26803_GID1-02</string>
 			</array>
 		</dict>
 	</dict>
@@ -323,7 +350,7 @@
 	<array>
 		<dict>
 			<key>ServiceCode</key>
-			<string>+351931699300</string>
+			<string>+351931699000</string>
 			<key>ServiceName</key>
 			<string>Apoio ao Cliente</string>
 		</dict>
@@ -479,6 +506,12 @@
 				<string>TRUE</string>
 				<key>serviceMask</key>
 				<integer>1048576</integer>
+			</dict>
+			<dict>
+				<key>policy</key>
+				<string>TRUE</string>
+				<key>serviceMask</key>
+				<integer>262144</integer>
 			</dict>
 		</array>
 		<key>WiFiCallingControlsAlliWLanServices</key>

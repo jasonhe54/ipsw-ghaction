@@ -127,15 +127,17 @@
 					<key>SampleRate</key>
 					<integer>16000</integer>
 					<key>br</key>
-					<string>13.2</string>
+					<string>5.9-24.4</string>
 					<key>bw</key>
-					<string>nb-wb</string>
+					<string>nb-swb</string>
 					<key>ch-aw-recv</key>
 					<string>3</string>
 				</dict>
 			</dict>
 			<key>DTMFInterDigitIntervalMilliseconds</key>
 			<integer>540</integer>
+			<key>EVSHardBwLimit</key>
+			<string>nb-swb</string>
 			<key>EnableBandwidthSpecifiers</key>
 			<true/>
 			<key>EnableIncomingDTMF</key>
@@ -467,6 +469,8 @@
 	<string>78517</string>
 	<key>RCS</key>
 	<dict>
+		<key>EnableBusinessMessagingByDefault</key>
+		<true/>
 		<key>EnableRCSByDefault</key>
 		<true/>
 		<key>ProvisioningData</key>
@@ -474,6 +478,8 @@
 			<key>ServerURL</key>
 			<string>config.rcs.mnc$mnc.mcc$mcc.jibecloud.net</string>
 		</dict>
+		<key>ShowBusinessMessagingSwitch</key>
+		<true/>
 		<key>ShowRCSSwitch</key>
 		<true/>
 	</dict>

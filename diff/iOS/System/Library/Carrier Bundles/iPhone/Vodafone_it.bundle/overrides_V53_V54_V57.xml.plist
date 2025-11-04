@@ -75,7 +75,7 @@
 		<key>SMS</key>
 		<dict>
 			<key>allowCSFBInVolteMode</key>
-			<false/>
+			<true/>
 			<key>enableInNonVoLTEMode</key>
 			<false/>
 		</dict>

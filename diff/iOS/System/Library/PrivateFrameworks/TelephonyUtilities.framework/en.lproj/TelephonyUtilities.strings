@@ -140,6 +140,7 @@ or %@";
 "ALERT_HOST_DEVICE_BUSY_MESSAGE" = "Phone calls cannot be made on this device while your iPhone is already on a call.";
 "ADDED_%@" = "Added “%@”";
 "DIAL_CALL_RELAY_OSX" = "Call Using iPhone";
+"SILENCED_SPAM_CALL" = "Silenced Spam Call";
 "ALERT_CLIENT_DEVICE_BUSY_MESSAGE_MAC" = "Another device is already on a call.";
 "THUMPER_PIN_EXCHANGE_REQUEST_FAILED_TITLE_WIFI" = "Unable to upgrade to Wi-Fi Calling";
 "NEW_VOICEMAIL_FORMAT" = "{'new_voicemail': {'one': 'New voicemail', 'zero': 'New voicemail', 'other': '%u New voicemails', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@new_voicemail@'}";

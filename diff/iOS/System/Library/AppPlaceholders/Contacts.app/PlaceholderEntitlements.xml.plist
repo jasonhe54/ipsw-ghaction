@@ -154,6 +154,8 @@
 	<array>
 		<string>kTCCServicePhotos</string>
 	</array>
+	<key>com.apple.rapport.Client</key>
+	<true/>
 	<key>com.apple.runningboard.posterkit.host</key>
 	<true/>
 	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
@@ -195,6 +197,7 @@
 		<string>com.apple.appprotectiond.read</string>
 		<string>com.apple.safetycheckd</string>
 		<string>com.apple.contacts.poster.api</string>
+		<string>com.apple.sharingd.pairedcontactmanager</string>
 	</array>
 	<key>com.apple.security.exception.process-info</key>
 	<true/>

@@ -13,7 +13,7 @@
 "#!SET#!_UV Index[15]" = "Sleet";
 "#!SET#!_hot is it[2]" = "hot does it feel";
 "#!SET#!_UV Index[12]" = "Rain Level";
-"#!SET#!_When is the next full moon?[6]" = "When will the moon rise ${date} in ${location}?";
+"#!SET#!_When is the next full moon?[6]" = "Show moon details.";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[12]" = "${applicationName} pollutant table.";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[1]" = "Open ${applicationName} to today’s air pollution.";
 "#!SET#!_Pressure[0]" = "Pressure";
@@ -53,11 +53,11 @@
 "#!SET#!_UV Index[6]" = "Wind gust";
 "#!SET#!_How foggy is it?[7]" = "How much smoke is there in ${location} ${date}?";
 "#!SET#!_UV Index[8]" = "Breeze";
-"#!SET#!_When is the next full moon?[3]" = "What is the moon phase ${date} in ${location}?";
+"#!SET#!_When is the next full moon?[3]" = "When will the moon rise in ${location}?";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[6]" = "How good is the air quality index?";
 "#!SET#!_Open ${applicationName} to configure notifications[3]" = "Set up rain alerts";
 "#!SET#!_UV Index[22]" = "Atmospheric Pressure";
-"#!SET#!_When is the next full moon?[8]" = "Open the moon details in Weather.";
+"#!SET#!_When is the next full moon?[8]" = "Moon.";
 "#!SET#!_In the ${applicationName} app, show ${location}'s Benzene level.[9]" = "Show me the Nitrogen Monoxide level.";
 "#!SET#!_How foggy is it?[10]" = "Is there haze ${date}?";
 "#!SET#!_How much pressure is there?[0]" = "How much pressure is there?";
@@ -66,7 +66,6 @@
 "#!SET#!_What is the ${specificCondition}?[6]" = "How bad is the ${specificCondition} ${date}?";
 "#!SET#!_Pollutant Details[0]" = "Pollutant Details";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[3]" = "What is the air quality in ${location}?";
-"#!SET#!_When is the next full moon?[11]" = "Moon.";
 "#!SET#!_Yesterday[2]" = "Tomorrow";
 "#!SET#!_In the ${applicationName} app, show ${location}'s Benzene level.[12]" = "What is the level of Non-Methane Hydrocarbons in the air?";
 "#!SET#!_What is the ${specificCondition}?[0]" = "What is the ${specificCondition}?";
@@ -92,7 +91,7 @@
 "#!SET#!_How foggy is it?[8]" = "Is there haze?";
 "#!SET#!_How ${temperatureKind}?[2]" = "How ${temperatureKind} in ${location}?";
 "#!SET#!_What time is sunset?[1]" = "When is sunrise?";
-"#!SET#!_When is the next full moon?[5]" = "When will the moon rise ${date}?";
+"#!SET#!_When is the next full moon?[5]" = "Open the moon details in Weather.";
 "#!SET#!_In the ${applicationName} app, show ${location}'s Benzene level.[7]" = "Show me how much Coarse Particulates is in the air.";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[11]" = "Show me the air quality in ${location}.";
 "#!SET#!_Open ${applicationName} to configure notifications[1]" = "Set up severe weather notifications";
@@ -116,7 +115,7 @@
 "#!SET#!_Do I need sunscreen?[2]" = "Do I need sunscreen ${date}?";
 "#!SET#!_How humid is it?[3]" = "How humid is it in ${location} ${date}?";
 "#!SET#!_Open ${applicationName} to configure notifications[0]" = "Open ${applicationName} to configure notifications";
-"#!SET#!_When is the next full moon?[2]" = "What is the moon phase ${date}?";
+"#!SET#!_When is the next full moon?[2]" = "When will the moon rise?";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[5]" = "Show me the AQI.";
 "#!SET#!_What time is sunset?[7]" = "Sunrise and sunset in Weather ${applicationName}.";
 "#!SET#!_UV Index[20]" = "Pressure";
@@ -132,7 +131,7 @@
 "#!SET#!_Yesterday[3]" = "Next Wednesday";
 "#!SET#!_What is the ${specificCondition}?[2]" = "What is the ${specificCondition} ${date}?";
 "#!SET#!_Yesterday[0]" = "Yesterday";
-"#!SET#!_When is the next full moon?[7]" = "What time is moonset?";
+"#!SET#!_When is the next full moon?[7]" = "Show moon details for ${location}.";
 "#!SET#!_Do I need sunscreen?[6]" = "Is the UV over 3?";
 "#!SET#!_What is the ${temperatureKind} in ${location}?[1]" = "What is the ${temperatureKind} in ${location} ${date}?";
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[2]" = "Open ${applicationName} to air quality.";
@@ -159,13 +158,12 @@
 "#!SET#!_Rain[0]" = "Rain";
 "#!SET#!_What is the ${temperatureKind} in ${location}?[12]" = "How is the ${temperatureKind} in ${location} ${date}?";
 "#!SET#!_Open ${applicationName} to configure notifications[7]" = "Open notifications configuration panel in ${applicationName}";
-"#!SET#!_When is the next full moon?[10]" = "Show moon details for ${location}.";
 "#!SET#!_In the ${applicationName} app, show ${location}'s Benzene level.[3]" = "Show me how much PM10 is in the air.";
 "#!SET#!_How ${temperatureKind}?[3]" = "How ${temperatureKind} ${date}?";
 "#!SET#!_What is the temperature ${temperatureKind}?[4]" = "How is the temperature ${temperatureKind}?";
 "#!SET#!_What is the ${specificCondition}?[9]" = "Open ${applicationName} to ${location}'s ${specificCondition}.";
 "#!SET#!_In the ${applicationName} app, show ${location}'s Benzene level.[15]" = "How much Ozone is in the atmosphere in ${location}?";
-"#!SET#!_When is the next full moon?[4]" = "When will the moon rise?";
+"#!SET#!_When is the next full moon?[4]" = "What time is moonset?";
 "#!SET#!_What is the ${temperatureKind} in ${location}?[11]" = "How is the ${temperatureKind} in ${location}?";
 "#!SET#!_What is the ${specificCondition}?[3]" = "What is the ${specificCondition} in ${location} ${date}?";
 "#!SET#!_Is it going to be windy?[0]" = "Is it going to be windy?";
@@ -184,7 +182,6 @@
 "#!SET#!_What is the ${temperatureKind} in ${location}?[0]" = "What is the ${temperatureKind} in ${location}?";
 "#!SET#!_actual temperature[1]" = "feels like temperature";
 "#!SET#!_Open ${applicationName} to configure notifications[6]" = "Open notifications panel in ${applicationName}";
-"#!SET#!_When is the next full moon?[9]" = "Show moon details.";
 "#!SET#!_How humid is it?[0]" = "How humid is it?";
 "#!SET#!_What time is sunset?[0]" = "What time is sunset?";
 "#!SET#!_Is it going to be windy?[2]" = "Is it going to be windy ${date}?";
@@ -196,7 +193,7 @@
 "#!SET#!_Open ${applicationName} and show me the air quality for ${location}[4]" = "What is the air pollution for ${location}?";
 "#!SET#!_Rain[2]" = "Sleet";
 "#!SET#!_What time is sunset?[2]" = "Show sunrise and sunset for ${location}.";
-"#!SET#!_When is the next full moon?[1]" = "When is the next full moon?";
+"#!SET#!_When is the next full moon?[1]" = "What is the moon phase in ${location}?";
 "#!SET#!_Open ${applicationName} to configure units[3]" = "Open units configuration panel in ${applicationName}";
 "#!SET#!_In the ${applicationName} app, show ${location}'s Benzene level.[16]" = "How much Sulfur Dioxide is there in ${location}?";
 "#!SET#!_How foggy is it?[6]" = "How much smoke is there ${date}?";

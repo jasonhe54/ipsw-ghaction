@@ -303,6 +303,8 @@
 	<dict>
 		<key>AllowVVMSMSWhileIntlRoaming</key>
 		<false/>
+		<key>SMSCarrierReportJunkAddress</key>
+		<string>7726</string>
 		<key>TransportFallback</key>
 		<true/>
 	</dict>

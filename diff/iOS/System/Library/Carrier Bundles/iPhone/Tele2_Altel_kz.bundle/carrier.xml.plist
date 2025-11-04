@@ -36,6 +36,24 @@
 	<string>4G</string>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.Kazakhstan</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Signaling</key>
+		<dict>
+			<key>AdditionalContactParams</key>
+			<dict>
+				<key>REGISTER,INVITE,INVITE:*</key>
+				<string>+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting</string>
+			</dict>
+			<key>UseIPSec</key>
+			<true/>
+		</dict>
+		<key>Voice</key>
+		<dict>
+			<key>EnableVolteByDefault</key>
+			<true/>
+		</dict>
+	</dict>
 	<key>MandatoryVerify</key>
 	<dict>
 		<key>SIMs</key>
@@ -54,6 +72,8 @@
 	<true/>
 	<key>ShowDialAssist</key>
 	<true/>
+	<key>ShowVolteWarningUnsupportedCarrier</key>
+	<false/>
 	<key>StatusBarImages</key>
 	<array>
 		<dict>

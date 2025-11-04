@@ -708,6 +708,33 @@
 			<true/>
 		</dict>
 		<dict>
+			<key>bundle</key>
+			<string>SpatialAccessorySettings</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>SpatialAccessorySettingsController</string>
+			<key>icon</key>
+			<string>SpatialAccessory</string>
+			<key>id</key>
+			<string>SPATIAL_ACCESSORY</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>SPATIAL_ACCESSORY</string>
+			<key>overridePrincipalClass</key>
+			<true/>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>retail-kiosk-mode</key>
+					<true/>
+				</dict>
+			</array>
+			<key>useLazyIcons</key>
+			<true/>
+		</dict>
+		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>id</key>

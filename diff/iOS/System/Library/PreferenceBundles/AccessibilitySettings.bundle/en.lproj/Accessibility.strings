@@ -216,9 +216,11 @@ RTT (Real-time Text) is a service offering more reliability, better text support
 "KEYBOARDS" = "Keyboard";
 "PreferActionSliderAlternativeFooter" = "Prefers that user interface items require a single touch instead of a sliding action.";
 "SmartInvertColorsFooter" = "Smart Invert reverses the colors of the display, except for images, media and some apps that use dark color styles.";
+"FLASH_FOR_ALERTS" = "Flash for Alerts";
 "HEADPHONE_NOTIFICATIONS_TITLE" = "Headphone Notifications";
 "SOUND_ACTION_LEARN_PAGE_DESC_TT" = "Open your lips, with jaw closed, and say the “t” in teeth.";
 "DescriptiveVideoFooterText" = "When available, automatically play audio descriptions.";
+"VISUAL_ALERT_TYPE_LED" = "LED Flash";
 "UPWARDS_HUD_POSITION_MAXIMUM_LABEL" = "Higher";
 "TEXT_COLORS_DARKEN" = "Increase Contrast";
 "LIVE_SPEECH_SHORTCUT" = "Shortcut";
@@ -448,6 +450,7 @@ RTT is a service offering more reliability, better text support, and the ability
 "TripleClick_SOS_Conflict_Message" = "Triple-click is already being used by Emergency SOS. If you continue, Emergency SOS will no longer work with triple-click. To use Emergency SOS, press and hold the side button and either volume button.";
 "ZOOM_TITLE" = "Zoom";
 "ADAPTIVE_VOICE_SHORTCUTS_TITLE" = "Vocal Shortcuts";
+"VISUAL_ALERT_TYPE_SCREEN" = "Screen";
 "DWELL_TARGET_AUTOMATIC" = "Automatic";
 "DOUBLE_TAP" = "Double Tap";
 "DISPLAY_FILTER_PREVIEW_RED_COLOR" = "Red";
@@ -502,7 +505,6 @@ RTT is a service offering more reliability, better text support, and the ability
 "LIVE_LISTEN_TITLE" = "Live Listen";
 "REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS" = "Prefer Cross-Fade Transitions";
 "EXTENDED_VOICE_ISOLATON_DETAILS" = "Adds Isolate as an additional option to Enhance Dialogue. When used, dialogue is completely isolated for people who need maximum clarity. Other elements of the audio mix will be substantially reduced.";
-"FLASH_LED" = "LED Flash for Alerts";
 "SOUND_RECOGNITION_TITLE" = "Sound Recognition";
 "Pearl_Unlock_Attention_Title" = "Require Attention for Face ID";
 "PERSONAL_AUDIO_TRANSPARENCY_TONE_BRIGHT_VALUE" = "%@ brighter";
@@ -626,9 +628,10 @@ When a call is connected, voice input is processed on Apple Vision Pro and not s
 "AVSLearnMoreHeader1" = "Setup";
 "DISPLAY_FILTER_HUE_BLUE" = "Blue";
 "FORCE_TOUCH_SENSITIVITY_FIRM" = "Firm";
+"VISUAL_ALERT_TYPE_BOTH" = "Both";
 "PERSONAL_AUDIO_APPLY_TRANSPARENCY_FOOTER" = "You can customize Transparency mode for AirPods Pro.";
-"LiveSpeechWhatsNewLink" = "What’s new in Live Speech…";
 "AVS_REMOVE" = "Remove Vocal Shortcuts";
+"LiveSpeechWhatsNewLink" = "What’s new in Live Speech…";
 "DISPLAY_AND_TEXT" = "Display & Text Size";
 "AXHoverTextDisplayModeDockedBottomTitle" = "Bottom";
 "REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS_FOOTER" = "Reduces the movement of onscreen elements and screen actions, such as launching or moving between apps, to help with motion sensitivity.";
@@ -652,7 +655,7 @@ When a call is connected, voice input is processed on Apple Vision Pro and not s
 "SIRI_SETTINGS_VOICE_ACTIVATION_ALWAYS_ALLOW_FOOTER_IPAD" = "Listen for “Siri” or “Hey Siri” when your iPad is facing down or covered.";
 "RedColor" = "Red";
 "DISPLAY_FILTER_PREVIEW_PURPLE_COLOR" = "Purple";
-"LED_RINGER_SWITCH_CONTROL_FOOTER" = "Control LED Flash for Alerts when the ring switch is set to silent or the device is unlocked.";
+"LED_RINGER_SWITCH_CONTROL_FOOTER" = "Control Flash for Alerts when the device is unlocked or set to silent.";
 "RTT_SHOW_NOTIFICATIONS_LABEL" = "Show Notifications";
 "PROTECTED_APPS_SHOW_HIDDEN_TITLE" = "Show Hidden Apps";
 "LIVE_LISTEN_WHATS_NEW_LINK" = "What's new in Live Listen…";

@@ -8,6 +8,33 @@
 	<true/>
 	<key>Label</key>
 	<string>com.apple.spotlightknowledged.updater</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.corespotlight.knowledge.report</key>
+			<dict>
+				<key>#IfFeatureFlagEnabled</key>
+				<string>SpotlightKnowledge/MetricsJobRefactor</string>
+				<key>#Then</key>
+				<dict>
+					<key>Priority</key>
+					<string>Utility</string>
+					<key>RepeatingTask</key>
+					<dict>
+						<key>Interval</key>
+						<integer>86400</integer>
+					</dict>
+					<key>RequiresExternalPower</key>
+					<true/>
+					<key>RequiresNetworkConnectivity</key>
+					<false/>
+					<key>RequiresProtectionClass</key>
+					<string>C</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
 	<key>MachServices</key>
 	<dict>
 		<key>com.apple.spotlightknowledged</key>

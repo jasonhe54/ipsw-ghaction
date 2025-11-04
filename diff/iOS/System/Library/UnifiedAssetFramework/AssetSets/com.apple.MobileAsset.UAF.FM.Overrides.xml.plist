@@ -38,6 +38,21 @@
 		</dict>
 		<dict>
 			<key>AssetName</key>
+			<string>com.apple.gm.safety_deny.input.accessibility_magnifier.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.gm.safety_deny.input.accessibility_magnifier.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.gm.safety_deny.input.accessibility_magnifier.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
 			<string>com.apple.gm.safety_deny.input.adm_background_prompt.generic</string>
 			<key>Expansions</key>
 			<array>
@@ -827,6 +842,21 @@
 					<key>RequiredUsageTypes</key>
 					<array>
 						<string>com.apple.gm.safety_deny.input.writing_tools.compose_recents_summaries.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
+			<string>com.apple.gm.safety_deny.output.accessibility_magnifier.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.gm.safety_deny.output.accessibility_magnifier.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.gm.safety_deny.output.accessibility_magnifier.generic</string>
 					</array>
 				</dict>
 			</array>
@@ -1714,6 +1744,7 @@
 	<array>
 		<string>com.apple.gm.overrides.model_config.all.generic</string>
 		<string>com.apple.gm.safety.disabledusecases.generic</string>
+		<string>com.apple.gm.safety_deny.input.accessibility_magnifier.generic</string>
 		<string>com.apple.gm.safety_deny.input.adm_background_prompt.generic</string>
 		<string>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</string>
 		<string>com.apple.gm.safety_deny.input.bullets_transform.generic</string>
@@ -1767,6 +1798,7 @@
 		<string>com.apple.gm.safety_deny.input.visual_intelligence.structured_extraction.add_to_contacts.generic</string>
 		<string>com.apple.gm.safety_deny.input.writing_tools.compose.generic</string>
 		<string>com.apple.gm.safety_deny.input.writing_tools.compose_recents_summaries.generic</string>
+		<string>com.apple.gm.safety_deny.output.accessibility_magnifier.generic</string>
 		<string>com.apple.gm.safety_deny.output.adm_background_prompt.generic</string>
 		<string>com.apple.gm.safety_deny.output.ask_generative_model_action.generic</string>
 		<string>com.apple.gm.safety_deny.output.bullets_transform.generic</string>

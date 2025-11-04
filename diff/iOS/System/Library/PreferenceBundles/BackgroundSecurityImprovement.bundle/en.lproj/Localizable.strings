@@ -2,13 +2,14 @@
 "Cancel" = "Cancel";
 "Security Improvements" = "Security Improvements";
 "Today" = "Today";
-"Background Security Updates cannot be managed while software update is in progress." = "Background Security Updates cannot be managed while software update is in progress.";
+"This security improvement requires at least %lld%% battery." = "This security improvement requires at least %lld%% battery.";
 "Remove failed" = "Remove failed";
 "Use Cellular Data to Download?" = "Use Cellular Data to Download?";
 "Remove Background Security Improvement?" = "Remove Background Security Improvement?";
 "Downloading" = "Downloading";
 "Installed %@" = "Installed %@";
 "Yesterday" = "Yesterday";
+"This security improvement requires at least %lld%% battery while connected to a power source." = "This security improvement requires at least %lld%% battery while connected to a power source.";
 "Available" = "Available";
 "Privacy & Security" = "Privacy & Security";
 "Removing this will reduce the security of your ProductFamilyName and data. Your ProductFamilyName will restart." = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Removing this will reduce the security of your iPad and data. Your iPad will restart.', 'applevision': 'Removing this will reduce the security of your Apple Vision Pro and data. Your Apple Vision Pro will restart.', 'iphone': 'Removing this will reduce the security of your iPhone and data. Your iPhone will restart.', 'other': 'Removing this will reduce the security of your device and data. Your device will restart.'}}";
@@ -21,6 +22,7 @@
 "Continue" = "Continue";
 "Your ProductFamilyName will restart to install this Background Security Improvement." = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Your iPad will restart to install this Background Security Improvement.', 'applevision': 'Your Apple Vision Pro will restart to install this Background Security Improvement.', 'iphone': 'Your iPhone will restart to install this Background Security Improvement.', 'other': 'Your ProductFamilyName will restart to install this Background Security Improvement.'}}";
 "Go to Software Update" = "Go to Software Update";
+"Background Security Improvements cannot be managed while software update is in progress." = "Background Security Improvements cannot be managed while software update is in progress.";
 "Download failed" = "Download failed";
 "Turn Off" = "Turn Off";
 "Turn On" = "Turn On";

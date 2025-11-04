@@ -38,6 +38,24 @@
 			<string>PANI</string>
 			<key>EnableCellularNetworkInfo</key>
 			<true/>
+			<key>IncomingCallEndReasons</key>
+			<dict>
+				<key>NoAnswerFromUser</key>
+				<dict>
+					<key>Protocol</key>
+					<string>Q.850</string>
+					<key>ReasonHeaderCause</key>
+					<integer>19</integer>
+					<key>StatusCode</key>
+					<integer>480</integer>
+					<key>TerminationEvent</key>
+					<string>RemoteHangup</string>
+				</dict>
+			</dict>
+			<key>RingbackTimerSeconds</key>
+			<integer>100</integer>
+			<key>RingingTimerSeconds</key>
+			<integer>100</integer>
 		</dict>
 	</dict>
 	<key>MandatoryVerify</key>

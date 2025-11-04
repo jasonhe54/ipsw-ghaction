@@ -35,9 +35,9 @@
 "MANAGED_DEVICE_DELAY_EXPIRED_AVAILABLE_IPOD" = "Your iPod is showing the latest software update allowed by your administrator.";
 "OFF" = "Off";
 "INSTALL_NOW" = "Install Now";
-"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WLAN_IPOD" = "Automatically install iOS software updates when this iPod is connected to WLAN, charging, and locked.";
+"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WLAN_IPOD" = "Automatically install iOS software updates when this iPod is connected to WLAN, sufficiently charged, and locked.";
 "INSTALLED" = "Ready to Reboot";
-"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WIFI_IPHONE" = "Automatically install iOS software updates when this iPhone is connected to Wi-Fi, charging, and locked.";
+"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WIFI_IPHONE" = "Automatically install iOS software updates when this iPhone is connected to Wi-Fi, sufficiently charged, and locked.";
 "BETA_UPDATES_APPLE_ACCOUNT_PREFIX" = "Apple Account: %@";
 "AUTOMATIC_UPDATES_INSTALL_UPTODATE_IPAD" = "iPad will automatically install updates.";
 "UP_TO_DATE_WITH_ALTERNATE_IPAD" = "iPadOS %@ is up to date.";
@@ -50,7 +50,7 @@
 "SPLOMBO_UPDATE_INFO" = "The latest available Background Security Improvement will also be installed.";
 "RSR_CELLULAR_DOWNLOAD_ACCEPT_POSSIBLE_FEES" = "If you download the security response over your cellular network, additional usage fees may apply.";
 "NETWORK_SCAN_ERROR" = "Checking for a software update failed because you are not connected to the internet.";
-"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WIFI_IPAD" = "Automatically install iPadOS software updates when this iPad is connected to Wi-Fi, charging, and locked.";
+"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WIFI_IPAD" = "Automatically install iPadOS software updates when this iPad is connected to Wi-Fi, sufficiently charged, and locked.";
 "OK" = "OK";
 "AUTOMATIC_UPDATES_INSTALL_TONIGHT_MINOR_IPOD" = "Your iPod is running %@. This security update will try to install later tonight.";
 "ALSO_AVAILABLE" = "ALSO AVAILABLE";
@@ -114,7 +114,7 @@
 "DISAGREE" = "Disagree";
 "RSR_BATTERY_WIRELESS_INSTALL_ERROR" = "This security response requires at least %@ battery while wirelessly charging.";
 "INSTALL_ONCE_DOWNLOADED" = "Install Once Downloaded";
-"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WIFI_IPOD" = "Automatically install iOS software updates when this iPod is connected to Wi-Fi, charging, and locked.";
+"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WIFI_IPOD" = "Automatically install iOS software updates when this iPod is connected to Wi-Fi, sufficiently charged, and locked.";
 "APP_INTENT_ENTITY_SU_AVAILABLE_NO_UPDATE_FOUND_IPOD" = "iOS is up to date";
 "CANCEL_OTHER_DOWNLOAD" = "Cancel %@ Download";
 "AGREE_ALERT_1TERMS_PRIVACY" = "I agree to the %@ Terms and Conditions and the Apple Privacy Policy";
@@ -181,7 +181,7 @@
 You can sign in with a different Apple Account that is enrolled in the Apple Beta Software Program or Apple Developer Program.";
 "AGREE_ALERT_4TERMS" = "I agree to the %@, %@, %@, and %@ Terms and Conditions";
 "BETA_UPDATES_APPLE_ACCOUNT_AUTHENTICATION_TITLE" = "Apple Account for Beta Updates";
-"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WLAN_IPHONE" = "Automatically install iOS software updates when this iPhone is connected to WLAN, charging, and locked.";
+"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WLAN_IPHONE" = "Automatically install iOS software updates when this iPhone is connected to WLAN, sufficiently charged, and locked.";
 "PERSONALIZATION_FAILED" = "Verification of the %@ update failed because you are no longer connected to the internet.";
 "AGREE_ALERT_4TERMS_PRIVACY" = "I agree to the %@, %@, %@, and %@ Terms and Conditions and the Apple Privacy Policy";
 "SELF_SERVICES_STORAGE_TITLE" = "Storage Status: Unknown";
@@ -257,7 +257,7 @@ You can sign in with a different Apple Account that is enrolled in the Apple Bet
 "MANAGED_DEVICE_DELAY_EXPIRED_AVAILABLE_IPHONE" = "Your iPhone is showing the latest software update allowed by your administrator.";
 "AGREE_ALERT_3TERMS_PRIVACY" = "I agree to the %@, %@, and %@ Terms and Conditions and the Apple Privacy Policy";
 "OS_PLATFORM_IPOD" = "iOS";
-"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WLAN_IPAD" = "Automatically install iPadOS software updates when this iPad is connected to WLAN, charging, and locked.";
+"AUTOMATIC_UPDATES_AUTO_INSTALL_EXPLANATION_WLAN_IPAD" = "Automatically install iPadOS software updates when this iPad is connected to WLAN, sufficiently charged, and locked.";
 "GET_BETA_UPDATES" = "Beta Updates";
 "RSR_VERIFICATION_FAILED_IPOD" = "The security response could not be installed. Connect your iPod touch to your computer to install.";
 "ALTERNATE_UPDATE_FOOTER_NOT_LATEST_IPOD" = "Your iPod is running iOS %@";

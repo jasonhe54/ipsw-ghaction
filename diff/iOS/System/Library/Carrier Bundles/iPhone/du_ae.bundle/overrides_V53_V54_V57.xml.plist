@@ -55,6 +55,11 @@
 			<key>EarlyMediaNeedsHeader</key>
 			<false/>
 		</dict>
+		<key>Voice</key>
+		<dict>
+			<key>EnableVoNRByDefault</key>
+			<true/>
+		</dict>
 		<key>XCAP</key>
 		<dict>
 			<key>BsfHost</key>
@@ -96,11 +101,15 @@
 	<false/>
 	<key>ShowHighDataModeSwitch</key>
 	<true/>
+	<key>ShowVoNRSwitch</key>
+	<true/>
 	<key>ShowVolteSwitch</key>
 	<false/>
 	<key>ShowVolteWarningUnsupportedCarrier</key>
 	<false/>
 	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+	<key>SupportsVoNR</key>
 	<true/>
 	<key>apns</key>
 	<array>

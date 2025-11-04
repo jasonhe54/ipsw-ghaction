@@ -100,10 +100,20 @@
 			</dict>
 			<key>InviteErrorResponsesToTriggerCSFB</key>
 			<string>3XX,5XX,6XX,-504</string>
+			<key>MaxReRegistrationAttempts</key>
+			<integer>0</integer>
+			<key>NetworkTerminationRetryIntervalSeconds</key>
+			<integer>1</integer>
 			<key>PreconditionUpdateDelayTimerMilliseconds</key>
 			<integer>10000</integer>
 			<key>Preconditions</key>
 			<string>Supported</string>
+			<key>ReRegisterOnErrorCodes</key>
+			<string>REGISTER:504;INVITE:504</string>
+			<key>ReRegisterOnInternalRequestTimeout</key>
+			<true/>
+			<key>RegistrationRetryIntervals</key>
+			<string>0</string>
 			<key>RequirePreconditionsWhenMandatory</key>
 			<false/>
 			<key>RequireQoSBeforeRinging</key>
@@ -114,6 +124,25 @@
 			<integer>120</integer>
 			<key>SendLocalTimeZoneInformation</key>
 			<true/>
+			<key>SipTimers</key>
+			<dict>
+				<key>AckReceiveTimeout</key>
+				<integer>32000</integer>
+				<key>AckRetransmitTimer</key>
+				<integer>32000</integer>
+				<key>B</key>
+				<integer>32000</integer>
+				<key>D</key>
+				<integer>32000</integer>
+				<key>F</key>
+				<integer>32000</integer>
+				<key>H</key>
+				<integer>32000</integer>
+				<key>InviteResponseTimeout</key>
+				<integer>0</integer>
+				<key>J</key>
+				<integer>32000</integer>
+			</dict>
 			<key>SupportPEarlyMediaHeader</key>
 			<true/>
 			<key>TriggerCSFBOnSDPError</key>

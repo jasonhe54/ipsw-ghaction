@@ -32,6 +32,8 @@
 	<true/>
 	<key>com.apple.attributionkitd.impression-intake</key>
 	<true/>
+	<key>com.apple.attributionkitd.trusted-publisher-intake</key>
+	<true/>
 	<key>com.apple.authkit.client.internal</key>
 	<true/>
 	<key>com.apple.authkit.client.private</key>
@@ -134,6 +136,15 @@
 	<true/>
 	<key>com.apple.private.coreservices.canopenactivity</key>
 	<true/>
+	<key>com.apple.private.fairplay.FPDI</key>
+	<dict>
+		<key>capabilities</key>
+		<array>
+			<integer>4014732562</integer>
+		</array>
+		<key>client-identifier</key>
+		<string>com.apple.AppStore</string>
+	</dict>
 	<key>com.apple.private.familycircle</key>
 	<true/>
 	<key>com.apple.private.game-center</key>
@@ -227,6 +238,8 @@
 	</array>
 	<key>com.apple.security.exception.mach-lookup.global-name</key>
 	<array>
+		<string>com.apple.attributionkitd.xpc.trusted-publisher-intake</string>
+		<string>com.apple.fairplaydeviceidentityd</string>
 		<string>com.apple.attributionkitd.xpc.impression-intake</string>
 		<string>com.apple.ap.promotedcontent.pcinterface</string>
 		<string>com.apple.ap.promotedcontent.mescalinterface</string>
@@ -302,6 +315,8 @@
 	<true/>
 	<key>com.apple.trial.client</key>
 	<array>
+		<string>AD_PLATFORMS_SEARCH_RESULTS_PAGE</string>
+		<string>AD_PLATFORMS_APPSTORE_ALL_PLACEMENTS</string>
 		<string>511</string>
 		<string>512</string>
 	</array>

@@ -13,13 +13,6 @@
 				<key>Vibration</key>
 				<string>Default</string>
 			</dict>
-			<key>Configuration_eq</key>
-			<dict>
-				<key>Sound</key>
-				<string>cbs_alert_us.caf</string>
-				<key>Vibration</key>
-				<string>cbs_vibe_ca.plist</string>
-			</dict>
 			<key>Configuration_us</key>
 			<dict>
 				<key>Sound</key>
@@ -47,25 +40,6 @@
 			<dict>
 				<key>CustomPreferences</key>
 				<array>
-					<dict>
-						<key>AlertConfiguration</key>
-						<string>Configuration_eq</string>
-						<key>AlertType</key>
-						<dict>
-							<key>EnabledByDefault</key>
-							<false/>
-							<key>NotificationTitle</key>
-							<string>Emergency Alert</string>
-							<key>SoundAlertDeviceInMute</key>
-							<false/>
-							<key>SwitchName</key>
-							<string>Advanced Earthquake Alert</string>
-							<key>UserConfigurable</key>
-							<true/>
-						</dict>
-						<key>EnableEnhancedDelivery</key>
-						<true/>
-					</dict>
 					<dict>
 						<key>EnableAlwaysDeliverByDefault</key>
 						<true/>

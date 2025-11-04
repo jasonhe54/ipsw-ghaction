@@ -35,13 +35,6 @@
 			<key>EVSHardBwLimit</key>
 			<string>nb-swb</string>
 		</dict>
-		<key>Signaling</key>
-		<dict>
-			<key>EarlyMediaNeedsHeader</key>
-			<false/>
-			<key>SupportPEarlyMediaHeader</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>Show5GSwitch</key>
 	<true/>

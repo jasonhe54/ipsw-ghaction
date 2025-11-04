@@ -2,22 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AttachAPN</key>
-	<dict>
-		<key>3GPP</key>
-		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>1</integer>
-			<key>PcscfAddressRequired</key>
-			<false/>
-			<key>apn</key>
-			<string>o2internet</string>
-			<key>password</key>
-			<string></string>
-			<key>username</key>
-			<string></string>
-		</dict>
-	</dict>
 	<key>DerPriFileName</key>
 	<string>overrides_V53_V54_V57.der.pri</string>
 	<key>DerPriFileVersion</key>
@@ -148,11 +132,6 @@
 			<true/>
 		</dict>
 	</dict>
-	<key>SMSSettings</key>
-	<dict>
-		<key>TransportFallback</key>
-		<true/>
-	</dict>
 	<key>Show5GSwitch</key>
 	<true/>
 	<key>Show5GWarningUnsupportedCarrier</key>
@@ -167,76 +146,5 @@
 	<true/>
 	<key>SupportsNRNSAInboundRoaming</key>
 	<true/>
-	<key>apns</key>
-	<array>
-		<dict>
-			<key>apn</key>
-			<string>o2internet</string>
-			<key>password</key>
-			<string></string>
-			<key>type-mask</key>
-			<integer>32817</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>AllowNoDNS</key>
-			<integer>1</integer>
-			<key>apn</key>
-			<string>o2mms</string>
-			<key>password</key>
-			<string></string>
-			<key>tech-type-mask</key>
-			<integer>4</integer>
-			<key>type-mask</key>
-			<integer>4</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>2</integer>
-			<key>SupportSwitchOver</key>
-			<true/>
-			<key>apn</key>
-			<string>ims</string>
-			<key>password</key>
-			<string></string>
-			<key>tech-type-mask</key>
-			<integer>131072</integer>
-			<key>type-mask</key>
-			<integer>131072</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>2</integer>
-			<key>apn</key>
-			<string>xcap</string>
-			<key>password</key>
-			<string></string>
-			<key>tech-type-mask</key>
-			<integer>1048576</integer>
-			<key>type-mask</key>
-			<integer>1048576</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>2</integer>
-			<key>apn</key>
-			<string>sos</string>
-			<key>password</key>
-			<string></string>
-			<key>tech-type-mask</key>
-			<integer>262144</integer>
-			<key>type-mask</key>
-			<integer>262144</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-	</array>
 </dict>
 </plist>

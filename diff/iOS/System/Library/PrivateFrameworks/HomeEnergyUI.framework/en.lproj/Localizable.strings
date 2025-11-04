@@ -17,7 +17,6 @@
 "• Electric vehicle charging" = "• Electric vehicle charging";
 "%@ Account Connected" = "%@ Account Connected";
 "Viewing Electricity Usage" = "Viewing Electricity Usage";
-"Your energy provider has been disconnected from this home." = "Your energy provider has been disconnected from this home.";
 "Heating warm and hot water consumes around %@ of the energy used to run a washing machine. Try using cold water for your laundry as much as possible. This will help you save energy and protect fabrics." = "Heating warm and hot water consumes around %@ of the energy used to run a washing machine. Try using cold water for your laundry as much as possible. This will help you save energy and protect fabrics.";
 "Unknown Error" = "Unknown Error";
 "Cleaner until %@" = "Cleaner until %@";
@@ -29,7 +28,6 @@
 "Your electricity data may take a few hours to appear." = "Your electricity data may take a few hours to appear.";
 "Notify Me" = "Notify Me";
 "Surplus [Title]" = "Surplus";
-"Remove %@?" = "Remove %@?";
 "Grid Forecast highlights cleaner times to use electricity in your home’s area." = "Grid Forecast highlights cleaner times to use electricity in your home’s area.";
 "• Ceiling fans" = "• Ceiling fans";
 "Peak" = "Peak";
@@ -105,6 +103,7 @@ If you want to easily track how much electricity your home is using, add the Ele
 "WatchUsage-PrefixAndUsage" = "%1$@ %2$@";
 "Dry Clothes Back-to-Back" = "Dry Clothes Back-to-Back";
 "Total" = "Total";
+"Account Disconnected" = "Account Disconnected";
 "%@ (%@)" = "%1$@ (%2$@)";
 "%@ %@" = "%1$@ %2$@";
 "Rate information is unavailable because you’re currently on a plan that isn’t supported by Home Electricity." = "Rate information is unavailable because you’re currently on a plan that isn’t supported by Home Electricity.";
@@ -129,7 +128,6 @@ If you want to easily track how much electricity your home is using, add the Ele
 "Usage Data" = "Usage Data";
 "Dryers use a lot of energy heating to temperatures warm enough to dry clothes. When you dry laundry loads back-to-back, your dryer will spend less time and energy heating up." = "Dryers use a lot of energy heating to temperatures warm enough to dry clothes. When you dry laundry loads back-to-back, your dryer will spend less time and energy heating up.";
 "D" = "D";
-"%@ Disconnected" = "%@ Disconnected";
 "Your home electricity comes from energy sources that change throughout the day and over time. Depending on the energy source, a period of time is considered cleaner or less clean." = "Your home electricity comes from energy sources that change throughout the day and over time. Depending on the energy source, a period of time is considered cleaner or less clean.";
 "About Electricity Rates" = "About Electricity Rates";
 "• LED or fluorescent lighting" = "• LED or fluorescent lighting";
@@ -191,6 +189,7 @@ If you want to easily track how much electricity your home is using, add the Ele
 "Rates and demand are lower than peak times." = "Rates and demand are lower than peak times.";
 "Cupertino" = "Cupertino";
 "Highest Consumers" = "Highest Consumers";
+"Your energy account was disconnected from the Home app." = "Your energy account was disconnected from the Home app.";
 "Usage Data Not Available" = "Usage Data Not Available";
 "Strain Usage" = "Strain Usage";
 "Rate Plan [Title]" = "Rate Plan";

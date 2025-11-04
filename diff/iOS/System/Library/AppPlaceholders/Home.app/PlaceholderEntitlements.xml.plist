@@ -80,6 +80,8 @@
 	<true/>
 	<key>com.apple.developer.homekit.background-mode</key>
 	<true/>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array/>
 	<key>com.apple.developer.icloud-services</key>
 	<array>
 		<string>CloudKit</string>
@@ -87,6 +89,8 @@
 	<key>com.apple.developer.usernotifications.critical-alerts</key>
 	<true/>
 	<key>com.apple.dropin</key>
+	<true/>
+	<key>com.apple.dropin.audiomanagement</key>
 	<true/>
 	<key>com.apple.energykit.client</key>
 	<true/>
@@ -106,6 +110,8 @@
 	<key>com.apple.frontboard.launchapplications</key>
 	<true/>
 	<key>com.apple.frontboardservices.display-layout-monitor</key>
+	<true/>
+	<key>com.apple.home.home-extension</key>
 	<true/>
 	<key>com.apple.homekit.private-spi-access</key>
 	<true/>
@@ -330,9 +336,17 @@
 	<array>
 		<string>kTCCServiceAddressBook</string>
 	</array>
+	<key>com.apple.private.tcc.manager.access.modify</key>
+	<array>
+		<string>kTCCServiceWillow</string>
+	</array>
 	<key>com.apple.private.tcc.manager.access.read</key>
 	<array>
 		<string>kTCCServiceEnergyKitGuidance</string>
+	</array>
+	<key>com.apple.private.tcc.manager.check-by-audit-token</key>
+	<array>
+		<string>kTCCServiceWillow</string>
 	</array>
 	<key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
 	<array>
@@ -374,6 +388,12 @@
 		<string>/private/var/preferences/SystemConfiguration/</string>
 		<string>/private/var/tmp/siriBC</string>
 	</array>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Containers/Data/Application/</string>
+		<string>/private/var/mobile/Library/Caches/</string>
+		<string>/private/var/mobile/home_ecosystems_liveon/</string>
+	</array>
 	<key>com.apple.security.exception.files.home-relative-path.read-only</key>
 	<array>
 		<string>/Containers/Shared/AppGroup/</string>
@@ -412,6 +432,7 @@
 		<string>com.apple.appconduitd.device-connection</string>
 		<string>com.apple.appprotectiond.guard</string>
 		<string>com.apple.appprotectiond.read</string>
+		<string>com.apple.apsd</string>
 		<string>com.apple.assistant.settings</string>
 		<string>com.apple.biome.PublicStreamAccessService</string>
 		<string>com.apple.cdp.daemon</string>
@@ -558,6 +579,7 @@
 		<string>com.apple.appconduitd.device-connection</string>
 		<string>com.apple.appprotectiond.guard</string>
 		<string>com.apple.appprotectiond.read</string>
+		<string>com.apple.apsd</string>
 		<string>com.apple.assistant.settings</string>
 		<string>com.apple.biome.PublicStreamAccessService</string>
 		<string>com.apple.cdp.daemon</string>

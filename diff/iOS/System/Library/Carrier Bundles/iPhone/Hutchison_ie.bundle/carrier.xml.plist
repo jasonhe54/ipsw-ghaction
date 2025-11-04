@@ -117,6 +117,8 @@
 		<dict>
 			<key>E911OverITechSupported</key>
 			<false/>
+			<key>EmergencyRTTSupported</key>
+			<true/>
 			<key>EnableVolteByDefault</key>
 			<true/>
 			<key>endNonEmergencyCalls</key>
@@ -185,6 +187,25 @@
 		<string>26.0</string>
 		<key>SupportsFallbackToLegacyFlow</key>
 		<false/>
+		<key>TransferErrorCodes</key>
+		<dict>
+			<key>BillingErrors</key>
+			<array>
+				<string>501</string>
+			</array>
+			<key>BlockedAccountErrors</key>
+			<array>
+				<string>503</string>
+			</array>
+			<key>CarrierDefaultErrors</key>
+			<array>
+				<string>505</string>
+			</array>
+			<key>IneligibleAccountErrors</key>
+			<array>
+				<string>502</string>
+			</array>
+		</dict>
 	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+447786205094</string>

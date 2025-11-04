@@ -4,8 +4,6 @@
 <dict>
 	<key>BLEBrowser</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -16,8 +14,6 @@
 	</dict>
 	<key>BLEServer2x</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -28,8 +24,6 @@
 	</dict>
 	<key>BLEWiProx</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -40,8 +34,6 @@
 	</dict>
 	<key>DEFAULT-OPTIONS</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -49,11 +41,11 @@
 			<key>Persist</key>
 			<string>Info</string>
 		</dict>
+		<key>Privacy-Enable-Level</key>
+		<string>Private</string>
 	</dict>
 	<key>HAPAuthSession</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -64,8 +56,6 @@
 	</dict>
 	<key>HAPWACBrowser</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -76,8 +66,6 @@
 	</dict>
 	<key>HAPWACClient</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -88,8 +76,6 @@
 	</dict>
 	<key>HMDAuthServer</key>
 	<dict>
-		<key>Enable-Oversize-Messages</key>
-		<true/>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>
@@ -98,10 +84,22 @@
 			<string>Debug</string>
 		</dict>
 	</dict>
-	<key>HTTP.Client</key>
+	<key>HMDHome</key>
 	<dict>
 		<key>Enable-Oversize-Messages</key>
 		<true/>
+		<key>Level</key>
+		<dict>
+			<key>Enable</key>
+			<string>Info</string>
+			<key>Persist</key>
+			<string>Info</string>
+		</dict>
+		<key>Privacy-Enable-Level</key>
+		<string>Private</string>
+	</dict>
+	<key>HTTP.Client</key>
+	<dict>
 		<key>Level</key>
 		<dict>
 			<key>Enable</key>

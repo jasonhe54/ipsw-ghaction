@@ -3,14 +3,15 @@
 "New Assignment" = "New Assignment";
 "Event will occur every month." = "Event will occur every month.";
 "Stop" = "Stop";
+"urgentReminder" = "urgentReminder";
 "15th-XX02" = "15th";
 "Shared by %@" = "Shared by %@";
 "New List" = "New List";
-"Stop an alert" = "Stop an alert";
 "last" = "last";
 "New in %@" = "New in %@";
-"Every year on the first day %@" = "Every year on the first day %@";
 "Daily" = "Daily";
+"Every year on the first day %@" = "Every year on the first day %@";
+"Stop an alert" = "Stop an alert";
 "Invited by %@" = "Invited by %@";
 "Event will occur every year." = "Event will occur every year.";
 "joined" = "joined";
@@ -68,6 +69,7 @@
 "Every %u months on the first day" = "Every %u months on the first day";
 "Remind Me Tomorrow" = "Remind Me Tomorrow";
 "of August%@" = "of August%@";
+"Complete a Reminder" = "Complete a Reminder";
 "of December%@" = "of December%@";
 "Every %u months on the first weekend day" = "Every %u months on the first weekend day";
 "10th-XX02" = "10th";
@@ -132,6 +134,7 @@
 "4th-XX01" = "4th";
 "14th-XX01" = "14th";
 "25th-XX02" = "25th";
+"Complete" = "Complete";
 "23rd-XX02" = "23rd";
 "TIME_OF_DAY_CREATION_MORNING" = "9";
 "of October%@" = "of October%@";
@@ -164,7 +167,6 @@
 "of April%@" = "of April%@";
 "48th-XX02" = "48th";
 "Later" = "Later";
-"alarmID" = "alarmID";
 "of September%@" = "of September%@";
 "Event will occur every year in %@." = "Event will occur every year in %@.";
 "Every month, each %@" = "Every month, each %@";
@@ -224,6 +226,7 @@
 "Every %u months, each %@" = "Every %1$u months, each %2$@";
 "“%@” list is no longer shared." = "“%@” list is no longer shared.";
 "CUSTOM_SMART_LIST_AFTERNOON_START_HOUR" = "12";
+"dueDate" = "dueDate";
 "Every %u months on the last weekend day" = "Every %u months on the last weekend day";
 "Recurrence rule last item format for a list with three or more items.  The last part of a list: X, Y, and Z. Here %@ is 'Z'" = ", and %@";
 "Custom Repeat" = "Custom Repeat";

@@ -8,8 +8,6 @@
 	<dict>
 		<key>3GPP</key>
 		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>1</integer>
 			<key>PcscfAddressRequired</key>
 			<false/>
 			<key>apn</key>

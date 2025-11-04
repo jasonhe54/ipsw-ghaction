@@ -161,6 +161,8 @@
 			<false/>
 			<key>E911OverITechSupported</key>
 			<true/>
+			<key>EnableVoNRByDefault</key>
+			<false/>
 			<key>EnableVolteByDefault</key>
 			<true/>
 		</dict>
@@ -219,6 +221,8 @@
 			<integer>249</integer>
 			<integer>32</integer>
 		</array>
+		<key>SupportsLLPHS</key>
+		<true/>
 	</dict>
 	<key>OverrideOperatorWiFiName</key>
 	<string>Singtel WiFi Calling</string>
@@ -269,6 +273,8 @@
 	<false/>
 	<key>ShowHighDataModeSwitch</key>
 	<true/>
+	<key>ShowVoNRSwitch</key>
+	<true/>
 	<key>ShowVolteSwitch</key>
 	<false/>
 	<key>ShowVolteWarningUnsupportedCarrier</key>
@@ -278,6 +284,8 @@
 	<key>SupportsImsCapability</key>
 	<true/>
 	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+	<key>SupportsVoNR</key>
 	<true/>
 	<key>apns</key>
 	<array>

@@ -136,6 +136,8 @@
 			<true/>
 			<key>ValidateSipMessageRecipient</key>
 			<false/>
+			<key>ussdEnabled</key>
+			<true/>
 		</dict>
 		<key>Voice</key>
 		<dict>

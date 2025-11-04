@@ -24,6 +24,20 @@
 	<string>4G</string>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.FrenchWestIndies</string>
+	<key>Location</key>
+	<dict>
+		<key>EmergencyLocation</key>
+		<dict>
+			<key>AugmentedEmergencyAction</key>
+			<dict>
+				<key>AML</key>
+				<dict>
+					<key>SupportsAML</key>
+					<false/>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
 	<key>MMS</key>
 	<dict>
 		<key>MMSC</key>

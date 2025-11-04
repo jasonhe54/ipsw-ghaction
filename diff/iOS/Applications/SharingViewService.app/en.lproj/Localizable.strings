@@ -36,6 +36,8 @@
 "TRY_ASKING_ME" = "Try asking me:";
 "IOS_SETUP_START_INFO_APPLE_ACCOUNT_IPHONE" = "Use your Apple Account <BOLD_APPLE_ID> to set up your new iPhone.";
 "IOS_SETUP_SCANNER_SUBTITLE" = "Position the pattern in the circle";
+"PIN_PAIRING_COMPLETE_TITLE_FORMAT" = "AirDrop
+with %@";
 "EXIT_SETUP_MESSAGE_AIRTAG_IPHONE" = "Are you sure you want to exit setup? Bring your iPhone close to your AirTag to restart setup later.";
 "IOS_SETUP_BACKUP_INFO_IPAD_IPOD_GT" = "This iPad has started a new backup so your new iPod touch will use up-to-date apps and data. Stay connected to WLAN and power to make sure the backup can be completed.";
 "WHA_SUCCESS_TITLE" = "AirPlay 2 Is Ready";
@@ -91,6 +93,8 @@ AirTag is designed to be detected by victims and to enable law enforcement to re
 "CONNECT_GREEN_TEA" = "Connect with iCloud";
 "SET_UP_LATER" = "Set Up Later";
 "CHECKING_LOST" = "Checking if this tag is lost…";
+"PIN_DISPLAY_TITLE_FORMAT" = "AirDrop
+with %@";
 "PROX_AUTOFILL_PIN_INFO_TV" = "Enter the authentication code shown on the Apple TV.";
 "WIFI_SHARING_DETAIL_FORMAT_WLAN_DEVICE" = "Do you want to share the WLAN password for “%@” with “%@”?";
 "HOTSPOT_SHARING_BUTTON" = "Share Hotspot";
@@ -278,6 +282,8 @@ Up to the iPad";
 "SIRI_LANGUAGE_UPDATE_FORMAT" = "We’ll update you when %@ is supported.";
 "CONNECTING" = "Connecting…";
 "APPLEID_TITLE" = "Sign in with your Apple ID";
+"TRANSFER_PROGRESS_RECEIVING_FORMAT" = "Receiving
+from %@";
 "IOS_SETUP_START_INFO_APPLE_ID_DEPENDENT_IPOD" = "Use your Apple ID <BOLD_APPLE_ID> to set up your new iPod touch for yourself or a child in your family.";
 "IOS_SETUP_FAILURE_SUBTITLE_IPOD" = "Could not complete setup of your new iPod touch. Wait a few minutes and try again.";
 "PROX_AUTOFILL_SUCCESS_DESCRIPTION_IPAD" = "Successfully shared password with the iPad.";
@@ -374,6 +380,7 @@ Up to the Mac";
 "IOS_SETUP_FINISH_INFO_IPHONE" = "Your Apple ID can now be used to set up your new iPhone.";
 "IOS_SETUP_SYNC_INFO" = "Stay connected to Wi-Fi to make sure syncing can be completed.";
 "ANNOUNCE_NOTIFICATIONS_TIME_SENSITIVE_APP_HEADER" = "Announce Time Sensitive Notifications From:";
+"PIN_DISPLAY_SUBTITLE_FORMAT" = "Ask %@ to enter this code on their device.";
 "IOS_SETUP_FINISH_INFO_NEW_IPHONE" = "When you’re ready, come back to get this iPhone ready to be traded in, sold, or given away.";
 "AUTHENTICATE_ACCOUNTS_USER_ADDED_TITLE" = "User Added";
 "IOS_SETUP_ENTER_PIN_TITLE" = "Authentication";
@@ -388,7 +395,10 @@ Up to the Mac";
 "APPLE_WATCH_SETUP_TITLE" = "Apple Watch";
 "WIFI_TURN_ON" = "Wi-Fi will be turned on to continue setting up.";
 "LIMIT_REACHED" = "To add this AirTag, open Find My and remove one or more AirTags or AirPods currently paired to your Apple ID.";
+"TRANSFER_PROGRESS_RECEIVED_FORMAT" = "Received
+from %@";
 "PROX_AUTOFILL_PIN_INCORRECT" = "Unrecognized PIN code. Please try again.";
+"VIEW" = "View";
 "HSA2_MESSAGE" = "AirTag uses end to end encryption to keep your location information private.";
 "WIFI_SHARING_SUCCESS_DETAIL" = "Successfully shared your Wi‑Fi password.";
 "WIFI_INFO_HIDE_BUTTON_GT" = "Hide WLAN Info";
@@ -439,6 +449,7 @@ Up to the iPhone";
 "WIFI_SHARING_DETAIL_FORMAT_DEVICE" = "Do you want to share the Wi‑Fi password for “%@” with “%@”?";
 "SET_UP_BUTTON" = "Set Up";
 "HOLD_NEAR_READER" = "Hold Near Reader";
+"PIN_PAIRING_COMPLETE_MESSAGE_FORMAT" = "You and %@ will be able to find each other in AirDrop when nearby for the next 30 days. You can change this at any time in Settings.";
 "MULTI_DETECTED" = "More than one AirTag detected.";
 "IOS_SETUP_FINISH_INFO_NO_ID_IPOD" = "Your settings can now be used on your new iPod touch.";
 "NOT_YOUR_AIRPODS_INFO_IPOD" = "AirPods not connected to this iPod touch.";

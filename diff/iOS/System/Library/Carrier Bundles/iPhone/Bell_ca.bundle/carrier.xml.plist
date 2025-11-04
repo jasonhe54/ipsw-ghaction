@@ -122,6 +122,8 @@
 	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>49988</string>
+	<key>PreferCarrierNameFromMetadata</key>
+	<true/>
 	<key>RCS</key>
 	<dict>
 		<key>EnableBusinessMessagingByDefault</key>

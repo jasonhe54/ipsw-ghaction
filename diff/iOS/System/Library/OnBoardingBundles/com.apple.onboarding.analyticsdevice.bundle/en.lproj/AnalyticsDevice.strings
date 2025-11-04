@@ -11,17 +11,22 @@ You may also choose to disable the sharing of Device Analytics altogether. To do
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
-"FOOTER_TEXT_WLAN_APPLEVISION" = "visionOS Device Analytics
+"FOOTER_TEXT_WLAN_APPLEVISION" = "visionOS Developer Analytics may include details about how you use your device, such as:
 
-Apple Vision Pro Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. Analytics may also include information such as hand position, hand and eye input errors, and limited information about your surroundings such as room size and lighting quality.
+• Hardware and operating system specifications, performance statistics, and data about how you use your devices and applications
+• Hand measurements and movements
+• Eye calibration measurements and errors
+• Your surroundings, such as room size, lighting quality, and nearby objects detected by the device
 
-This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your visionOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
+Developer Analytics do not include identifiable information, health data, raw images recorded by the device’s cameras, or information about race, ethnicity or skin tone.
 
-If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off Analytics.
+This information is used to help Apple improve and develop its products and services. The information collected is not tied to your Apple Account, and Apple applies privacy-preserving techniques such as differential privacy to protect your data. You can review this information on your visionOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
 
-If you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.
+If you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off Analytics.
 
-You may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and turn off Share Apple Vision Pro Analytics.
+If you send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.
+
+You may also choose to disable the sharing of visionOS Developer Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and turn off Share Apple Vision Pro Developer Analytics.
 
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
@@ -52,6 +57,20 @@ You may also choose to disable the sharing of Device Analytics altogether. To do
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"FOOTER_TEXT_WLAN_IPAD" = "iPadOS Device Analytics
+
+iPad Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iPadOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
+
+If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off iPad Analytics.
+
+If you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.
+
+You may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and tap to turn off Share iPad Analytics.
+
+By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"BUTTON_TITLE_APPLETV" = "About Device Analytics & Privacy";
 "FOOTER_TEXT_WIFI_APPLEWATCH" = "Watch Analytics
 
 Watch Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your Watch by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
@@ -63,7 +82,6 @@ You may also choose to disable the sharing of Watch Analytics altogether. To do 
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
-"BUTTON_TITLE_APPLETV" = "About Device Analytics & Privacy";
 "FOOTER_TEXT_WIFI_IPAD" = "iPadOS Device Analytics
 
 iPad Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iPadOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
@@ -77,29 +95,23 @@ You may also choose to disable the sharing of Device Analytics altogether. To do
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
-"FOOTER_TEXT_WLAN_APPLEWATCH" = "Watch Analytics
-
-Watch Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your Watch by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
-
-If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Watch Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off Apple Watch Analytics.
-
-You may also choose to disable the sharing of Watch Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and tap to turn off Share iPhone & Watch Analytics.
-
-By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
-
-At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
 "BUTTON_TITLE" = "About Device Analytics & Privacy…";
-"FOOTER_TEXT_WIFI_APPLEVISION" = "visionOS Device Analytics
+"FOOTER_TEXT_WIFI_APPLEVISION" = "visionOS Developer Analytics may include details about how you use your device, such as:
 
-Apple Vision Pro Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. Analytics may also include information such as hand position, hand and eye input errors, and limited information about your surroundings such as room size and lighting quality.
+• Hardware and operating system specifications, performance statistics, and data about how you use your devices and applications
+• Hand measurements and movements
+• Eye calibration measurements and errors
+• Your surroundings, such as room size, lighting quality, and nearby objects detected by the device
 
-This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your visionOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
+Developer Analytics do not include identifiable information, health data, raw images recorded by the device’s cameras, or information about race, ethnicity or skin tone.
 
-If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off Analytics.
+This information is used to help Apple improve and develop its products and services. The information collected is not tied to your Apple Account, and Apple applies privacy-preserving techniques such as differential privacy to protect your data. You can review this information on your visionOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
 
-If you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.
+If you have Location Services turned on, the location of your device may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a Wi-Fi signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off Analytics.
 
-You may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and turn off Share Apple Vision Pro Analytics.
+If you send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.
+
+You may also choose to disable the sharing of visionOS Developer Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and turn off Share Apple Vision Pro Developer Analytics.
 
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
@@ -115,20 +127,19 @@ If you agree to send Analytics information to Apple from multiple devices that u
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
-"SPLASH_SHORT_TITLE" = "Device Analytics";
-"FOOTER_TEXT_WLAN_IPAD" = "iPadOS Device Analytics
+"FOOTER_TEXT_WLAN_APPLEWATCH" = "Watch Analytics
 
-iPad Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iPadOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
+Watch Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your Watch by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.
 
-If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off iPad Analytics.
+If you have consented to provide Apple with this information, and you have Location Services turned on, the location of your devices may also be sent to help Apple analyze performance issues (for example, the strength or weakness of a mobile or WLAN signal in a particular location). This analytics location data may include locations such as the location where a call ends or the location of a failed in-store transaction. You may choose to disable Location Services for Watch Analytics at any time. To do so, go to Settings > Privacy & Security > Location Services > System Services and tap to turn off Apple Watch Analytics.
 
-If you agree to send Analytics information to Apple from multiple devices that use the same iCloud account, we may correlate some usage data about Apple apps across those devices by syncing using end-to-end encryption. We do this in a manner that does not identify you to Apple.
-
-You may also choose to disable the sharing of Device Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and tap to turn off Share iPad Analytics.
+You may also choose to disable the sharing of Watch Analytics altogether. To do so, go to Settings > Privacy & Security > Analytics & Improvements, and tap to turn off Share iPhone & Watch Analytics.
 
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"SPLASH_SHORT_TITLE" = "Device Analytics";
+"BUTTON_TITLE_APPLEVISION" = "About visionOS Developer Analytics & Privacy…";
 "SPLASH_TITLE" = "Device Analytics & Privacy";
 "FOOTER_TEXT_WIFI_IPOD" = "iOS Device Analytics
 
@@ -215,6 +226,7 @@ By using these features, you agree and consent to Apple’s and its subsidiaries
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
 "SPLASH_SUMMARY" = "Analytics is designed to protect your information and enable you to choose what you share.";
+"SPLASH_SHORT_TITLE_APPLEVISION" = "visionOS Developer Analytics";
 "FOOTER_TEXT_WIFI_MAC" = "With your permission, macOS can automatically collect analytics information from your Mac and send it to Apple to help improve and develop its products and services. This information is sent only with your consent and is submitted anonymously to Apple.
 
 Further Details
@@ -262,6 +274,7 @@ All analytics information is sent to Apple anonymously.
 By using these features, you agree and consent to Apple’s and its subsidiaries’ and agents’ transmission, collection, maintenance, processing, and use of this information as described above.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"SPLASH_TITLE_APPLEVISION" = "visionOS Developer Analytics & Privacy";
 "FOOTER_TEXT_WIFI_IPHONE" = "iOS Device Analytics
 
 iPhone Analytics may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. This information is used to help Apple improve and develop its products and services. None of the collected information identifies you personally. Personal data is not logged at all, is subject to privacy-preserving techniques such as differential privacy, or is removed from any reports before they’re sent to Apple. You can review this information on your iOS device by going to Settings > Privacy & Security > Analytics & Improvements and tapping Analytics Data.

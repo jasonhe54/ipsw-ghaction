@@ -119,6 +119,11 @@
 	<dict>
 		<key>EnableWiFiCallingWithoutEntitlement</key>
 		<false/>
+		<key>Signaling</key>
+		<dict>
+			<key>AllowRTTControlInSipUpdate</key>
+			<true/>
+		</dict>
 		<key>Voice</key>
 		<dict>
 			<key>RTTSupported</key>

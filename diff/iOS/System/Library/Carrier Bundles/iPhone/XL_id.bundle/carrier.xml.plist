@@ -10,6 +10,14 @@
 	<string>XL Axiata</string>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.Indonesia</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Signaling</key>
+		<dict>
+			<key>ussdEnabled</key>
+			<true/>
+		</dict>
+	</dict>
 	<key>MMS</key>
 	<dict>
 		<key>GroupModeEnabled</key>

@@ -18,6 +18,8 @@
 			<integer>3</integer>
 			<key>PcscfAddressRequired</key>
 			<false/>
+			<key>UseNetworkMTU</key>
+			<true/>
 			<key>apn</key>
 			<string>internet</string>
 			<key>enableXLAT464</key>
@@ -254,6 +256,8 @@
 			<integer>1</integer>
 			<key>DefaultProtocolMask</key>
 			<integer>3</integer>
+			<key>UseNetworkMTU</key>
+			<true/>
 			<key>apn</key>
 			<string>internet</string>
 			<key>enableXLAT464</key>

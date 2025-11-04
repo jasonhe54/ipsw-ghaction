@@ -18,6 +18,7 @@
 	<key>FED_STATS_BIOME_AI_SAFETY_SHORTCUTS</key>
 	<array>
 		<string>com.apple.insights.content-safety-shortcuts</string>
+		<string>com.apple.insights.shortcuts-topic</string>
 	</array>
 	<key>FED_STATS_BIOME_AI_SAFETY_THIRD</key>
 	<array>
@@ -33,6 +34,10 @@
 	<array>
 		<string>com.apple.insights.apple-card-analytics</string>
 		<string>com.apple.insights.apple-cash</string>
+	</array>
+	<key>FED_STATS_BIOME_APPSTORE_EVENTS</key>
+	<array>
+		<string>com.apple.insights.events-you-might-like-stats</string>
 	</array>
 	<key>FED_STATS_BIOME_AUTONAMING</key>
 	<array>
@@ -149,6 +154,10 @@
 	<key>FED_STATS_BIOME_PHOTOS_SEARCH</key>
 	<array>
 		<string>com.apple.insights.photos.search-l2-ranker</string>
+	</array>
+	<key>FED_STATS_BIOME_QUANTUM_TLS</key>
+	<array>
+		<string>com.apple.insights.quantum-tls</string>
 	</array>
 	<key>FED_STATS_BIOME_REMINDERS</key>
 	<array>

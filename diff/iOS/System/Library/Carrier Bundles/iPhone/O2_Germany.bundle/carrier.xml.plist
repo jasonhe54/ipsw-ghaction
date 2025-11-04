@@ -186,6 +186,8 @@
 			</dict>
 			<key>EnableCellularNetworkInfo</key>
 			<true/>
+			<key>IgnoreFromHeaderForSenderName</key>
+			<false/>
 			<key>InviteErrorResponsesToTriggerCSFB</key>
 			<string>3XX,5XX</string>
 			<key>MaxUdpMessageSize</key>
@@ -211,6 +213,8 @@
 		</dict>
 		<key>Voice</key>
 		<dict>
+			<key>DialAsEmergencyOverIMSForUndetectedEmergency</key>
+			<true/>
 			<key>E911OverITechSupported</key>
 			<false/>
 			<key>EnableVoLTEWithVoWiFi</key>

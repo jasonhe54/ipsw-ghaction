@@ -154,7 +154,7 @@
 				</dict>
 			</dict>
 			<key>InviteErrorResponsesToTriggerCSFB</key>
-			<string>3XX,4XX,5XX</string>
+			<string>3XX,4XX,5XX,-380</string>
 			<key>Preconditions</key>
 			<string>Supported</string>
 			<key>RequirePreconditionsWhenMandatory</key>
@@ -187,6 +187,8 @@
 		</dict>
 		<key>Voice</key>
 		<dict>
+			<key>DialAsEmergencyOverIMSForUndetectedEmergency</key>
+			<true/>
 			<key>E911OverITechSupported</key>
 			<false/>
 			<key>EnableVolteByDefault</key>

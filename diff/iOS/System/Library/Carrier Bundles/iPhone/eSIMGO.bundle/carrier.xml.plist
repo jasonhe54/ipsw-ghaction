@@ -30,10 +30,17 @@
 		<key>EnableAttachMonitorMode</key>
 		<false/>
 	</dict>
+	<key>DataIndicatorOverrideForLTE</key>
+	<string>4G</string>
 	<key>Enable4GByDefault</key>
 	<true/>
 	<key>GlobalMVNO</key>
 	<true/>
+	<key>IMSConfig</key>
+	<dict>
+		<key>EnableWiFiCallingWithoutEntitlement</key>
+		<false/>
+	</dict>
 	<key>IntlDataRoamingAllowed</key>
 	<array>
 		<string>24414</string>
@@ -428,6 +435,12 @@
 		<string>23201</string>
 		<string>22803</string>
 		<string>64501</string>
+		<string>52510</string>
+		<string>60704</string>
+		<string>52004</string>
+		<string>70603</string>
+		<string>732103</string>
+		<string>73009</string>
 	</array>
 	<key>MandatoryVerify</key>
 	<dict>
@@ -458,6 +471,7 @@
 		<string>20628_GID1-0409</string>
 		<string>23457_GID1-0409</string>
 		<string>27225_GID1-0409</string>
+		<string>20809_GID1-0409</string>
 	</array>
 	<key>SupportsImsCapability</key>
 	<false/>

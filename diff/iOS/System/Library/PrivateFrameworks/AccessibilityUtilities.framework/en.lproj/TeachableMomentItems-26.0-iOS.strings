@@ -16,7 +16,7 @@
 "SOUND_RECOGNITION_NAME_TITLE" = "Name Recognition";
 "SCAT_SWITCH_SETS_TITLE" = "Switch Sets";
 "SINGLE_HAND_BSI_DESCRIPTION" = "Use Braille Screen Input in Portrait orientation with single-hand mode. Double-tap and hold with three fingers to start single-hand mode and type a column of dots at a time.";
-"LL_LIVE_CAPTIONS_DESCRIPTION" = "View captions of a Live Listen session in real time.";
+"LL_LIVE_CAPTIONS_DESCRIPTION" = "View captions of a Live Listen session in real time. Supported languages include English (Australia), English (United Kingdom), English (India), English (Singapore), German (Germany), Spanish (Spain), Spanish (Mexico), Spanish (United States), French (Canada), French (France), Japanese (Japan), Korean (South Korea), Cantonese (China), Chinese (China), Cantonese (Hong Kong).";
 "VC_VOCAB_SYNCING_TITLE" = "Vocabulary Syncing";
 "LC_ADDITIONAL_LANGUAGES_TITLE" = "Additional Languages";
 "LC_PRIVACY_DESCRIPTION" = "• Take screenshots or screen recordings.
@@ -69,6 +69,7 @@
 "VC_REPITITION_TITLE" = "Specify Repetition For Commands";
 "LL_LIVE_LISTEN_REWIND_DESCRIPTION" = "Jump back in a Live Listen session to catch something that may have been missed.";
 "AA_TIME_STATUS_BAR_DESCRIPTION" = "Show the time in the status bar. You can add this option to Assistive Access in Settings > Accessibility > Assistive Access > Show Time in Status Bar.";
+"VO_QUICK_NAV_DESCRIPTION" = "New settings in VoiceOver > Typing to control Arrow Key Quick Nav and Single Letter Quick Nav.";
 "EYE_TRACKING_FACE_POSE_TITLE" = "Face Pose Guidance";
 "VO_COPIED_SPEECH_TITLE" = "Copied Speech Rotor";
 "LL_LIVE_LISTEN_NEARBY_DEVICES_TITLE" = "Control a Live Listen Session with Nearby Devices";
@@ -86,9 +87,10 @@
 "AA_BACK_BUTTON_TITLE" = "Hide Back Button for Unoptimized Apps";
 "HOVER_TEXT_CONTENT_TITLE" = "Color Content";
 "VC_VOCAB_SYNCING_DESCRIPTION" = "Support for vocabulary syncing across devices.";
-"SCAT_MOVE_TO_AT_DESCRIPTION" = "Quickly switch between Switch Control and AssistiveTouch anytime by selecting “AssistiveTouch” in the Switch Control Menu.";
+"VO_QUICK_NAV_TITLE" = "Quick Nav Settings";
 "AA_BACK_BUTTON_DESCRIPTION" = "Hide the back button for apps that have not been optimized for Assistive Access. You can add this option to Assistive Access in Settings > Accessibility > Assistive Access > Hide Back Button for Unoptimized Apps.";
 "VO_COPIED_SPEECH_DESCRIPTION" = "Manage recently-copied speech phrases and choose what to paste.";
+"SCAT_MOVE_TO_AT_DESCRIPTION" = "Quickly switch between Switch Control and AssistiveTouch anytime by selecting “AssistiveTouch” in the Switch Control Menu.";
 "AA_ONE_TAP_TITLE" = "Unlock with One Tap";
 "BUTTON_SHAPES_CHANGE" = "Button Shapes and Show Borders";
 "BRAILLE_DOT_POSITION_TITLE" = "Dot Position Learning";

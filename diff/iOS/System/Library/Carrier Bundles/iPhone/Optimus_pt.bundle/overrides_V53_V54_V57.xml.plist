@@ -106,6 +106,26 @@
 			<key>username</key>
 			<string></string>
 		</dict>
+		<dict>
+			<key>AllowNoDNS</key>
+			<integer>1</integer>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>UseNetworkMTU</key>
+			<true/>
+			<key>apn</key>
+			<string>sos</string>
+			<key>password</key>
+			<string></string>
+			<key>tech-type-mask</key>
+			<integer>262144</integer>
+			<key>type-mask</key>
+			<integer>262144</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
 	</array>
 </dict>
 </plist>

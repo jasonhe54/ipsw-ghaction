@@ -104,6 +104,8 @@
 	<true/>
 	<key>com.apple.media.ringtones.read-only</key>
 	<true/>
+	<key>com.apple.mediaanalysisd.client</key>
+	<true/>
 	<key>com.apple.mobilemail.mailservices</key>
 	<true/>
 	<key>com.apple.nano.nanoregistry.generalaccess</key>
@@ -335,6 +337,7 @@
 		<string>com.apple.biome.compute.source</string>
 		<string>com.apple.ScreenTimeAgent.communication</string>
 		<string>com.apple.safetycheckd</string>
+		<string>com.apple.mediaanalysisd.analysis</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-only</key>
 	<array>
@@ -398,6 +401,7 @@
 	<key>com.apple.usersafety.service</key>
 	<array>
 		<string>contacts</string>
+		<string>videoVoiceMail</string>
 	</array>
 	<key>com.apple.videoconference.allow-conferencing</key>
 	<true/>

@@ -17,7 +17,7 @@
 			<key>PcscfAddressRequired</key>
 			<false/>
 			<key>apn</key>
-			<string>gprs.is</string>
+			<string>internet</string>
 			<key>password</key>
 			<string></string>
 			<key>username</key>
@@ -48,7 +48,7 @@
 		<integer>24</integer>
 	</dict>
 	<key>CarrierName</key>
-	<string>Vodafone</string>
+	<string>SYN</string>
 	<key>DataIndicatorOverrideForLTE</key>
 	<string>4G</string>
 	<key>HomeBundleIdentifier</key>
@@ -132,7 +132,7 @@
 		<key>GroupModeEnabled</key>
 		<false/>
 		<key>MMSC</key>
-		<string>http://mmsc.vodafone.is</string>
+		<string>http://mmsc.c.is</string>
 		<key>MaxMessageSize</key>
 		<integer>1048576</integer>
 		<key>Proxy</key>
@@ -199,7 +199,7 @@
 			<key>CarrierName</key>
 			<string>Vodafone</string>
 			<key>StatusBarCarrierName</key>
-			<string>Vodafone</string>
+			<string>SYN</string>
 		</dict>
 	</array>
 	<key>SupportedSIMs</key>
@@ -207,7 +207,7 @@
 		<string>27402</string>
 	</array>
 	<key>SupportsNITZ</key>
-	<false/>
+	<true/>
 	<key>TechSettings</key>
 	<dict>
 		<key>EmergencyRemoteIdRequired</key>
@@ -246,11 +246,13 @@
 	<string>none</string>
 	<key>VoicemailPilotNumber</key>
 	<string>1415</string>
+	<key>WiFiOperatorNameSuffix</key>
+	<string>VoWiFi</string>
 	<key>apns</key>
 	<array>
 		<dict>
 			<key>apn</key>
-			<string>gprs.is</string>
+			<string>internet</string>
 			<key>password</key>
 			<string></string>
 			<key>type-mask</key>
@@ -267,16 +269,6 @@
 			<integer>4</integer>
 			<key>type-mask</key>
 			<integer>4</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>apn</key>
-			<string>gprs.is</string>
-			<key>password</key>
-			<string></string>
-			<key>type-mask</key>
-			<integer>48</integer>
 			<key>username</key>
 			<string></string>
 		</dict>

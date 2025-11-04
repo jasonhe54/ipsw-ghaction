@@ -124,6 +124,14 @@
 				<key>REGISTER,INVITE,INVITE:*</key>
 				<string>+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting</string>
 			</dict>
+			<key>AllowGeolocationForEmergencyCallsWhileInboundRoaming</key>
+			<true/>
+			<key>AlwaysAddGeolocationForEmergencyCalls</key>
+			<true/>
+			<key>AlwaysAddGeolocationToInviteForNormalSetupEmergencyCall</key>
+			<true/>
+			<key>AlwaysAddGeolocationToUpdateForNormalSetupEmergencyCall</key>
+			<true/>
 			<key>AlwaysAddPrivacyHeader</key>
 			<true/>
 			<key>AlwaysSendSessionProgress</key>
@@ -142,9 +150,13 @@
 			<integer>120</integer>
 			<key>RingingTimerSeconds</key>
 			<integer>125</integer>
+			<key>SendEmergencyLocationUpdates</key>
+			<true/>
 			<key>SupportPEarlyMediaHeader</key>
 			<true/>
 			<key>TriggerCSFBOnSDPError</key>
+			<true/>
+			<key>UseCIDUrlInPIDF</key>
 			<true/>
 			<key>UseFakeSAsForDeregistration</key>
 			<true/>

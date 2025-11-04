@@ -6,6 +6,7 @@
 "ENABLE_UI_AUTOMATION" = "Enable UI Automation";
 "ARKIT_ACCESSORY_TRACKING_DEBUG_VIEW" = "Debug View";
 "SIRI_EVENT_SUGGESTIONS_TESTING_ALLOW_ANY_DOMAIN" = "Allow Any Domain";
+"ACCESSORY_TESTING_GROUP_TITLE" = "Accessory Setup Testing";
 "BLUETOOTH_TESTING_HRM_LOGGING_ENABLE" = "Heart Rate Logging";
 "SIRI_ACTIONS_FOOTER_UPCOMING_MEDIA" = "When turned on, Siri Suggestions in Search will show Upcoming Media Intents donated via INUpcomingMediaManager.";
 "NEWS_TESTING" = "News Testing";
@@ -28,6 +29,7 @@
 "HEALTHKIT_WORKOUT_SERIES_AGGREGATION_FOOTER" = "Allow workout data to be saved into live series.";
 "THROUGHPUT" = "Throughput";
 "DISABLE_RATE_LIMITING" = "Disable Rate Limiting";
+"AUTHENTICATION_SERVICES_TESTING_FOOTER_FORMAT" = "%@ %@";
 "STATE_RESTORATION_TESTING" = "State Restoration Testing";
 "SIRI_ACTIONS_FOOTER_SPOTLIGHT" = "When turned on, the Siri Suggestions Widget & Siri Watch Face show the most recently provided shortcuts rather than current predictions.";
 "SIRI_ACTIONS_FOOTER_LOCKSCREEN" = "When turned on, the most recently donated shortcuts will be shown on the Lock Screen.";
@@ -46,6 +48,7 @@
 "THROUGHPUT_ALERT_CONTINUE" = "Continue";
 "ADATTRIBUTIONKIT_GROUP_FOOTER" = "Shortens the time window in which AdAttributionKit and SKAdNetwork send postbacks. Enabling developer mode reduces the privacy protections the system provides; use this mode only during development or testing. This setting automatically turns off after 2 weeks.";
 "CHECK_FOR_OBJECTS" = "Reset Surroundings Awareness Alert";
+"AUTHENTICATION_SERVICES_TESTING_LEARN_MORE" = "Learn more…";
 "APPEARANCE_DARK" = "Dark Appearance";
 "OK" = "OK";
 "REALITYKIT_SHADER_CACHE_MANAGEMENT_FOOTER" = "RealityKit caches your app's shaders across reboots to improve load times. You can clear this cache on reboot to better profile the load times of your app on its first installation.";
@@ -65,6 +68,7 @@
 "ALLOW_HTTP_SERVICES" = "Allow HTTP Services";
 "MANAGE_ACCOUNT" = "Manage";
 "PREFERRED_AUDIO_ROUTE_FOOTER" = "Allow Siri to change audio route in a bluetooth vehicle. Go to Settings -> Siri & Search -> Siri Responses -> "When Connected to Car Bluetooth" to change the audio route.";
+"AUTHENTICATION_SERVICES_TESTING_FOOTER" = "Password AutoFill, saving, and generating makes use of app and website-specific rules in the Password Manager Resources open source project. Apple periodically ingests the latest updates and delivers to devices.";
 "GRAPHICS_HUD_FOOTER" = "The graphics performance HUD shows framerate, GPU time, memory usage, and can log performance data for later analysis.";
 "SIRI_ACTIONS_TESTING" = "Shortcuts Testing";
 "DISPLAY_ZOOM_DESCRIPTION" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Choose a view for Apple\xa0Vision\xa0Pro. Zoomed shows larger controls. Standard shows more content.', 'iphone': 'Choose a view for iPhone. Zoomed shows larger controls. Standard shows more content.', 'ipad': 'Choose a view for iPad. Zoomed shows larger controls. Standard shows more content.'}}";
@@ -109,6 +113,7 @@
 "HEALTHKIT_WORKOUT_SERIES_AGGREGATION_ENABLED" = "Enable Workout Series Aggregation";
 "FINDMY_TESTING" = "Find My Network Testing";
 "DISPLAY_UPCOMING_MEDIA" = "Display Upcoming Media";
+"AUTHENTICATION_SERVICES_QUIRK_IMPORT_COMMIT_BUTTON_FORMAT" = "Open Commit %@";
 "MIDI_CI_API_BETA_ENABLE" = "Enable MIDI-CI";
 "ADATTRIBUTIONKIT_DEVELOPMENT_POSTBACKS" = "Development Postbacks";
 "OFF" = "Off";
@@ -122,6 +127,7 @@
 "VIEW" = "View";
 "DISPLAY_ZOOM" = "Display Zoom";
 "ALLOW_VIRTUAL_DISPLAY" = "Allow Mac Virtual Display";
+"AUTHENTICATION_SERVICES_TESTING" = "Authentication Services Testing";
 "REALITYKIT_SHADER_CACHE_SHOULD_CLEAR_CACHE" = "Clear RealityKit shader cache on reboot";
 "AIRPLAY_TESTING" = "AirPlay Testing";
 "ADATTRIBUTIONKIT_DEVELOPER_MODE_ENABLED" = "AdAttributionKit Developer Mode";
@@ -134,11 +140,11 @@
 "SHOW_GRAPHICS_HUD" = "Show Graphics HUD";
 "LOG_GRAPHICS_PERFORMANCE" = "Log Graphics Performance";
 "PREFERRED_AUDIO_ROUTE_TITLE" = "Siri in Bluetooth Car Testing";
+"START_THROUGHPUT_TEST" = "Start test";
 "PERFORMANCE_GROUP" = "Performance";
-"HANGTRACER_EXTERNAL_CONFIGURE" = "Hang Detection";
 "THROUGHPUT_ALERT_CANCEL" = "Cancel";
 "APP_CLIPS_CLEAR_CACHES" = "Clear Experience Cache";
-"START_THROUGHPUT_TEST" = "Start test";
+"HANGTRACER_EXTERNAL_CONFIGURE" = "Hang Detection";
 "REALITYKIT_SHADER_CACHE_MANAGEMENT" = "RealityKit Shader Cache Management";
 "AIRPODS_TESTING" = "AirPods Testing";
 "DEVICE_MANAGEMENT_TESTING" = "Device Management Testing";

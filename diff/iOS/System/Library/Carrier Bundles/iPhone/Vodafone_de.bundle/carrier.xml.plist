@@ -62,6 +62,14 @@
 	<string>4G</string>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.Germany</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Signaling</key>
+		<dict>
+			<key>AllowRTTControlInSipUpdate</key>
+			<true/>
+		</dict>
+	</dict>
 	<key>Location</key>
 	<dict>
 		<key>EmergencyLocation</key>

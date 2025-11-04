@@ -222,6 +222,8 @@
 	</dict>
 	<key>SMSSettings</key>
 	<dict>
+		<key>SMSCarrierReportJunkAddress</key>
+		<string>7226</string>
 		<key>TransportFallback</key>
 		<true/>
 	</dict>

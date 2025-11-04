@@ -75,6 +75,11 @@
 			<key>EnableVolteByDefault</key>
 			<true/>
 		</dict>
+		<key>XCAP</key>
+		<dict>
+			<key>ContentType</key>
+			<string>application/xcap-el+xml</string>
+		</dict>
 	</dict>
 	<key>MandatoryVerify</key>
 	<dict>

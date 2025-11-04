@@ -30,6 +30,7 @@
 "photos.asset.media.type.image" = "Image";
 "bold" = "Bold";
 "photos.asset.media.type.video" = "Video";
+"table.columns.count" = "{'arg1': {'one': '%lld column', 'other': '%lld columns', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%1$#@arg1@'}";
 "ruler.unit.p" = "{'count': {'one': '%.0f pica', 'other': '%.1f picas', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
 "moving.object.right" = "{'points': {'one': '%.0f point', 'other': '%.1f points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': 'Right %#@points@'}";
 "minutes.format" = "%1$.0f minutes";
@@ -49,6 +50,7 @@
 "vertical.align.top" = "Vertical align top";
 "formula.input.key.functionbrowser" = "Function Browser";
 "moving.object.left" = "{'points': {'one': '%.0f point', 'other': '%.1f points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': 'Left %#@points@'}";
+"table.rows.count" = "{'arg1': {'one': '%lld row', 'other': '%lld rows', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%1$#@arg1@'}";
 "gear.button" = "Configure";
 "photos.asset.media.subtype.hdr" = "HDR";
 "line.spacing.minimum" = "{'points': {'one': '%.0g point', 'other': '%.2g points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'g'}, 'NSStringLocalizedFormatKey': 'at least %#@points@'}";

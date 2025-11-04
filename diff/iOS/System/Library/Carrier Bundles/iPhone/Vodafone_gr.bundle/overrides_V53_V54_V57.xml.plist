@@ -84,7 +84,7 @@
 				<key>GSM</key>
 				<false/>
 				<key>LTE</key>
-				<false/>
+				<true/>
 				<key>UMTS</key>
 				<false/>
 			</dict>
@@ -191,7 +191,7 @@
 	<key>TechSettings</key>
 	<dict>
 		<key>5wiServiceMask</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>ChildSAs</key>
 		<dict>
 			<key>FirstChild</key>

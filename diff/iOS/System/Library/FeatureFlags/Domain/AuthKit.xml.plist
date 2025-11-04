@@ -7,6 +7,11 @@
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>
 	</dict>
+	<key>AgeAssurance</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
 	<key>AgeAttestationPhase1</key>
 	<dict>
 		<key>DevelopmentPhase</key>
@@ -123,6 +128,11 @@
 		<string>FeatureComplete</string>
 	</dict>
 	<key>SilentAuthenticationRequestSerialization</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>SimpleProfiles</key>
 	<dict>
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>

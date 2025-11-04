@@ -232,6 +232,11 @@
 		<key>PropertiesName</key>
 		<string>InsightsEntityRelevance</string>
 	</dict>
+	<key>fedstats:com.apple.insights.events-you-might-like-stats</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>EventsYouMightLikeStats</string>
+	</dict>
 	<key>fedstats:com.apple.insights.genmoji</key>
 	<dict>
 		<key>PropertiesName</key>
@@ -357,6 +362,11 @@
 		<key>PropertiesName</key>
 		<string>PhotosSearch</string>
 	</dict>
+	<key>fedstats:com.apple.insights.quantum-tls</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>QuantumTls</string>
+	</dict>
 	<key>fedstats:com.apple.insights.safari.analytics</key>
 	<dict>
 		<key>PropertiesName</key>
@@ -441,6 +451,11 @@
 	<dict>
 		<key>PropertiesName</key>
 		<string>InsightsSafari</string>
+	</dict>
+	<key>fedstats:com.apple.insights.shortcuts-topic</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>ShortcutsTopic</string>
 	</dict>
 	<key>fedstats:com.apple.insights.siri-music-apps-selection</key>
 	<dict>

@@ -217,8 +217,6 @@
 	<integer>5</integer>
 	<key>OTASoftwareUpdate</key>
 	<dict>
-		<key>MaxBytesOverCellular</key>
-		<integer>62914560</integer>
 		<key>SoftwareUpdateOptInRequired</key>
 		<true/>
 	</dict>

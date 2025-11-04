@@ -131,6 +131,8 @@
 			<string>from</string>
 			<key>RequirePreconditionsWhenMandatory</key>
 			<false/>
+			<key>ResetSocketWhenNetworkChange</key>
+			<false/>
 			<key>RingbackTimerSeconds</key>
 			<integer>90</integer>
 			<key>RingingTimerSeconds</key>

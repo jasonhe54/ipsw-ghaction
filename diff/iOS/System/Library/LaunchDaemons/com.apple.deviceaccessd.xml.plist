@@ -23,6 +23,16 @@
 				<string>com.apple.Preferences.ResetPrivacyWarningsNotification</string>
 			</dict>
 		</dict>
+		<key>com.apple.proximity.launch</key>
+		<dict>
+			<key>NearbyProximity</key>
+			<dict>
+				<key>Region</key>
+				<string>Immediate</string>
+				<key>ServiceOfInterest</key>
+				<string>FE25</string>
+			</dict>
+		</dict>
 		<key>com.apple.tccd.events</key>
 		<dict>
 			<key>com.apple.deviceaccess.tccd.events</key>

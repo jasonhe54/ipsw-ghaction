@@ -126,7 +126,7 @@
 	<key>SMSSettings</key>
 	<dict>
 		<key>TransportFallback</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>Services</key>
 	<array>

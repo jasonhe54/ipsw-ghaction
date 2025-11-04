@@ -1,7 +1,5 @@
-"Progress" = "Progress";
-"ActivityProgressMultipleTasksSubtitle" = "{'value': {'one': 'Working on %1$d task…', 'other': 'Working on %1$d tasks…', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"APKActivityProgressEventSlowProgressText" = "%@ is %@ complete. Do you want to continue running this task in the background?";
 "Showing Progress Circle UI" = "Showing Progress Circle UI";
-"ActivityProgressUnknownAppName" = "Unknown";
 "Start Photo Session" = "Start Photo Session";
 "+%lld" = "+%lld";
 "0" = "0";
@@ -12,12 +10,12 @@
 "Start Safari Session" = "Start Safari Session";
 "Slow Progress" = "Slow Progress";
 "APKActivityProgressEventButtonStop" = "Stop";
-"Thermal Expiration" = "Thermal Expiration";
 "APKActivityProgressEventButtonContinue" = "Continue";
 "100" = "100";
+"Thermal Expiration" = "Thermal Expiration";
 "End activity" = "End activity";
 "Start Document Session" = "Start Document Session";
 "Change Text" = "Change Text";
 "ActivityProgressCanceling" = "Canceling…";
 "Play Haptic When Changing Text" = "Play Haptic When Changing Text";
-"APKActivityProgressEventSlowProgressText" = "%@ is %@ complete. Do you want to continue running this task in the background?";
+"Progress" = "Progress";

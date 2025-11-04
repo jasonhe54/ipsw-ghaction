@@ -46,10 +46,12 @@
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
+	<key>DataIndicatorOverrideForNRMmwave</key>
+	<string>NRPlus</string>
 	<key>DerPriFileName</key>
 	<string>overrides_V53_V54_V57.der.pri</string>
 	<key>DerPriFileVersion</key>
-	<string>5.0.161</string>
+	<string>5.2.161</string>
 	<key>IMSConfig</key>
 	<dict>
 		<key>AllowHandoverWithoutIMSVoiceService</key>
@@ -205,7 +207,7 @@
 		<key>LocalInstallSMDPURL</key>
 		<string>https://SM-V4-050-A-GTM.PR.GO-ESIM.COM</string>
 	</dict>
-	<key>Show4GSwitchWith5G</key>
+	<key>Show5GSwitch</key>
 	<true/>
 	<key>ShowVolteSwitch</key>
 	<false/>

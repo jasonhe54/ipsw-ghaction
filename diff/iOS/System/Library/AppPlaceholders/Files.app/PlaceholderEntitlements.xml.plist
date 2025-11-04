@@ -124,6 +124,8 @@
 	<true/>
 	<key>com.apple.private.personas.propagate</key>
 	<true/>
+	<key>com.apple.private.security.storage.FileProvider</key>
+	<true/>
 	<key>com.apple.private.security.system-application</key>
 	<true/>
 	<key>com.apple.private.shortcuts.IntentsAvailableDuringBuddy</key>

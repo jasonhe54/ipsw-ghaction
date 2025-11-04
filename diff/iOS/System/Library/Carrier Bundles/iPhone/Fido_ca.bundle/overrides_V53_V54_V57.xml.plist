@@ -65,6 +65,8 @@
 			<key>conferenceServer</key>
 			<string>sip:mmtel@conf-factory.ims.mnc720.mcc302.3gppnetwork.org</string>
 		</dict>
+		<key>EnableBrandedCallingByDefault</key>
+		<true/>
 		<key>EnableWiFiCallingWithoutEntitlement</key>
 		<false/>
 		<key>Media</key>
@@ -115,6 +117,8 @@
 			<key>enableInNonVoLTEMode</key>
 			<false/>
 		</dict>
+		<key>ShowBrandedCallingSwitch</key>
+		<true/>
 		<key>Signaling</key>
 		<dict>
 			<key>AccessNetworkRefreshDelayMilliseconds</key>
@@ -143,6 +147,17 @@
 			<true/>
 			<key>AlwaysEmergencyRegister</key>
 			<false/>
+			<key>BrandedCallingAssetServersAllowList</key>
+			<array>
+				<dict>
+					<key>Certificate</key>
+					<string>8Rw90Ej3Ttt8RRkrg+WYDS9n7IS03bk5bjP/UXPtaY8=</string>
+					<key>Server</key>
+					<string>rci.i.hiya.com</string>
+				</dict>
+			</array>
+			<key>BrandedCallingImageFetchingTimeoutMilliseconds</key>
+			<integer>2000</integer>
 			<key>ClearRegistrationCallIdOnDeinitialization</key>
 			<true/>
 			<key>CountryOfOriginationFormat</key>
@@ -151,6 +166,8 @@
 			<true/>
 			<key>EmergencyLocationLookupRequired</key>
 			<false/>
+			<key>EnableBrandedCalling</key>
+			<true/>
 			<key>EnableCellularNetworkInfo</key>
 			<true/>
 			<key>IgnoreRegNotificationContactExpires</key>

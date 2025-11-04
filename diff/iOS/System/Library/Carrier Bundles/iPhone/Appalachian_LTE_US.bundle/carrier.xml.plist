@@ -127,6 +127,8 @@
 			<string>PANI</string>
 			<key>FastEmergencyLocationEnabled</key>
 			<true/>
+			<key>LocationForShortCodeCalls</key>
+			<string>BOTH</string>
 			<key>PIDFConfidence</key>
 			<integer>90</integer>
 		</dict>

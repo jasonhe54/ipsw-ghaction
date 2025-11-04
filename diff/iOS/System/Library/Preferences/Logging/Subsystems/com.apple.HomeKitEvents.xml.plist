@@ -11,6 +11,15 @@
 			<key>Persist</key>
 			<string>Info</string>
 		</dict>
+		<key>TTL</key>
+		<dict>
+			<key>Debug</key>
+			<integer>0</integer>
+			<key>Default</key>
+			<integer>7</integer>
+			<key>Info</key>
+			<integer>7</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

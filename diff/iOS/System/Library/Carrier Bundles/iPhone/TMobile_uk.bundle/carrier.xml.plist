@@ -25,6 +25,8 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://se.sim.ct.ee.co.uk:8443</string>
+		<key>SupportCrossPlatformSIMTransfer</key>
+		<true/>
 		<key>SupportPhysicalSIMtoESIMTransfer</key>
 		<true/>
 		<key>SupportSecureIntent</key>
@@ -273,6 +275,8 @@
 	<dict>
 		<key>LocalInstallSMDPURL</key>
 		<string>sm-v4-010-a-gtm.pr.go-esim.com</string>
+		<key>RequiresPasscodeForCrossPlatformTransfer</key>
+		<true/>
 		<key>TransferPageURL</key>
 		<string>https://se.sim.ct.ee.co.uk:3000/websheet/esim/transfer/6006/</string>
 	</dict>

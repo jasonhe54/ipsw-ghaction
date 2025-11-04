@@ -4,9 +4,9 @@
 "HomeButtonAssistantVoiceControlFooter" = "Classic Voice Control will respond when you press and hold the Home button.";
 "HomeButtonAssistantVoiceControlFooter_NHB" = "Classic Voice Control will respond when you press and hold the side button.";
 "HOME_CLICK_SPEED_SLOWEST" = "Slowest";
-"APPLE_PAY_FOOTER_PASSCODE" = "Use AssistiveTouch or Switch Control to confirm payments with your Passcode or any time double-clicking the side button is required.";
 "HomeButtonAssistantOffFooter" = "There will be no response when you press and hold the Home button.";
 "APPLE_PAY_CONFIRM_WITH_AST" = "Enable Confirm with AssistiveTouch";
+"APPLE_PAY_FOOTER_PASSCODE" = "Use AssistiveTouch or Switch Control to confirm payments with your Passcode or any time double-clicking the side button is required.";
 "APPLE_PAY_CONFIRM_WITH_SC" = "Enable Confirm with Switch Control";
 "HomeButtonAssistantSiri" = "Siri";
 "HOME_CLICK_SPEED_SLOW" = "Slow";
@@ -15,6 +15,7 @@
 "HOME_CLICK_TITLE" = "Home Button";
 "HomeButtonAssistantOffFooter_NHB" = "There will be no response when you press and hold the side button.";
 "HomeButtonAssistantTitle" = "Press and hold to speak";
+"HomeButtonAssistantNotAvailableFooter" = "This setting is unavailable when Side Button is set to an app.";
 "APPLE_PAY_FOOTER" = "Use AssistiveTouch or Switch Control to confirm payments with Face ID or any time double-clicking the side button is required.";
 "HOME_CLICK_INSTRUCTIONS" = "Adjust the speed required to double or triple-click the Home button.";
 "HOME_SPEED_HEADER" = "Click Speed";

@@ -98,7 +98,7 @@
 			<key>RequiredMonthlyTestAlerts</key>
 			<dict>
 				<key>EnabledByDefault</key>
-				<true/>
+				<false/>
 				<key>NotificationTitle</key>
 				<string>Required Monthly Test Alert</string>
 				<key>SoundAlertDeviceInMute</key>

@@ -26,6 +26,7 @@
 "books_AudiobookEntity_1.0.0_entity_type_display_representation" = "Audiobook";
 "books_UpdateBookLineSpacingIntent_1.0.0_intent_description" = "Updates the line spacing for a book.";
 "mail_UpdateDraftIntent_1.0.0_intent_parameter_attachments_description" = "Attachments of the email message";
+"assistant_ActivateAssistantIntent_1.0.0_intent_title" = "Activate Assistant";
 "photos_SearchMediaIntent_1.0.0_intent_parameter_criteria_description" = "Criteria for the search";
 "photos_RemoveMediaAssetsFromAlbumIntent_1.0.0_intent_parameter_assets_title" = "Photos";
 "mail_UpdateMailIntent_1.0.0_intent_parameter_target_description" = "Email messages to update";
@@ -629,6 +630,7 @@
 "whiteboard_OpenCanvasBoardIntent_1.0.0_intent_parameter_target_description" = "Board to open";
 "browser_DeleteBookmarksIntent_1.0.0_intent_description" = "Deletes the selected bookmarks.";
 "reader_ReaderDeletePagesIntent_1.0.0_intent_parameter_entities_title" = "Pages";
+"assistant_ActivateAssistantIntent_1.0.0_intent_template_parameter_summary_0" = "Activate Assistant";
 "photos_SetMediaExposureIntent_1.0.0_intent_parameter_target_description" = "Photo to apply exposure to";
 "photos_PhotoPersonEntity_1.0.0_entity_property_name_title" = "Name";
 "browser_DeleteBookmarksIntent_1.0.0_intent_parameter_entities_description" = "Bookmarks to delete";
@@ -943,6 +945,7 @@
 "wordProcessor_AddImageToWordProcessorPageIntent_1.0.0_intent_description" = "Adds an image to a page.";
 "presentation_StopPlaybackPresentationIntent_1.0.0_intent_parameter_presentation_title" = "Presentation";
 "presentation_AddTextBoxToPresentationSlideIntent_1.0.0_intent_parameter_target_title" = "Slide";
+"assistant_ActivateAssistantIntent_1.0.0_intent_description" = "Activates the assistant";
 "spreadsheet_SpreadsheetTemplateEntity_1.0.0_entity_property_name_title" = "Name";
 "reader_ReaderInsertPagesIntent_1.0.0_intent_parameter_isAfter_description" = "Whether the new pages are inserted before or after the specified page";
 "journal_UpdateJournalEntryIntent_1.0.0_intent_title" = "Update Journal";

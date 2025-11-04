@@ -22,6 +22,8 @@
 	</dict>
 	<key>CarrierEntitlements</key>
 	<dict>
+		<key>AllowCurrentLocation</key>
+		<true/>
 		<key>Authentication</key>
 		<dict>
 			<key>Type</key>
@@ -33,11 +35,20 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://aes.mnc002.mcc452.pub.3gppnetwork.org</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
 		<key>SupportedEntitlements</key>
-		<integer>1025</integer>
+		<integer>9233</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 	</dict>
 	<key>CarrierName</key>
 	<string>VinaPhone</string>
+	<key>CellularPlanProvisioningSettings</key>
+	<dict>
+		<key>WaitForPhoneNumberDuringActivation</key>
+		<true/>
+	</dict>
 	<key>DataIndicatorOverrideForLTE</key>
 	<string>4G</string>
 	<key>HomeBundleIdentifier</key>
@@ -263,6 +274,15 @@
 	</dict>
 	<key>OverrideOperatorWiFiName</key>
 	<string>VinaPhone WiFi</string>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://rsp.truphone.com</string>
+		<key>MinCompatibleOS</key>
+		<string>26.2</string>
+		<key>OneTimeCodeForTransfer</key>
+		<true/>
+	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>1529</string>
 	<key>RemoteCardProvisioningSettings</key>

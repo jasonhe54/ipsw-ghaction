@@ -396,6 +396,22 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>AUTHENTICATION_SERVICES_GROUP</string>
+			<key>label</key>
+			<string>AUTHENTICATION_SERVICES_TESTING</string>
+		</dict>
+		<dict>
+			<key>buttonAction</key>
+			<string>tappedOnQuirksButton:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>id</key>
+			<string>AUTHENTICATION_SERVICES_QUIRKS_BUTTON</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
 			<key>footerText</key>
 			<string>ADATTRIBUTIONKIT_GROUP_FOOTER</string>
 			<key>id</key>
@@ -1149,6 +1165,33 @@
 			<array>
 				<dict>
 					<key>IsSimulator</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>ACCESSORY_SETUP_GROUP</string>
+			<key>label</key>
+			<string>ACCESSORY_TESTING_GROUP_TITLE</string>
+		</dict>
+		<dict>
+			<key>bundle</key>
+			<string>AccessorySetupDeveloperSettings</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>id</key>
+			<string>ACCESSORY_SETUP_TESTING</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Accessory Setup</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>retail-kiosk-mode</key>
 					<false/>
 				</dict>
 			</array>

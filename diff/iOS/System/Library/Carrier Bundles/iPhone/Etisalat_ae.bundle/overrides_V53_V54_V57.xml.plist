@@ -230,6 +230,8 @@
 		<dict>
 			<key>E911OverITechSupported</key>
 			<true/>
+			<key>EnableVoNRByDefault</key>
+			<true/>
 			<key>EnableVolteByDefault</key>
 			<true/>
 		</dict>
@@ -326,6 +328,8 @@
 	<false/>
 	<key>ShowHighDataModeSwitch</key>
 	<true/>
+	<key>ShowVoNRSwitch</key>
+	<true/>
 	<key>ShowVolteSwitch</key>
 	<false/>
 	<key>ShowVolteWarningUnsupportedCarrier</key>
@@ -335,6 +339,8 @@
 	<key>SupportsImsCapability</key>
 	<true/>
 	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+	<key>SupportsVoNR</key>
 	<true/>
 	<key>TechSettings</key>
 	<dict>

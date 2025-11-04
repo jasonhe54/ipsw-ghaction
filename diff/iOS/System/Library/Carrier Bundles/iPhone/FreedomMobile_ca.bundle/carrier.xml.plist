@@ -198,8 +198,10 @@
 			<string>Freedom Mobile My Account</string>
 		</dict>
 	</array>
+	<key>Show3GSwitch</key>
+	<false/>
 	<key>Show4GSwitch</key>
-	<true/>
+	<false/>
 	<key>ShowDialAssist</key>
 	<true/>
 	<key>ShowTTY</key>

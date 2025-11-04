@@ -115,6 +115,7 @@
 		<string>com.apple.appstorecomponentsd.xpc</string>
 		<string>com.apple.private.corewifi-xpc</string>
 		<string>com.apple.cdp.daemon</string>
+		<string>com.apple.ak.privateemail.xpc</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-write</key>
 	<array>
@@ -159,6 +160,8 @@
 		<string>com.apple.password-manager.personal-recently-deleted.testing</string>
 		<string>com.apple.password-manager.generated-passwords</string>
 		<string>com.apple.password-manager.generated-passwords.testing</string>
+		<string>com.apple.password-manager.password-evaluations</string>
+		<string>com.apple.password-manager.password-evaluations.testing</string>
 	</array>
 </dict>
 </plist>

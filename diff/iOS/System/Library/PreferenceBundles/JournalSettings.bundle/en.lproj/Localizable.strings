@@ -380,6 +380,7 @@ Transcription will begin once you start recording.";
 "Post Office" = "Post Office";
 "widget_start_writing_prompt_rp_ho_d_04" = "Describe one or two things you do to relax.";
 "Don’t show suggestions" = "Don’t show suggestions";
+"The export has been canceled." = "The export has been canceled.";
 "widget_start_writing_prompt_rp_li_d_02" = "What matters today?";
 "Use Touch ID to View Journal" = "Use Touch ID to View Journal";
 "Photos" = "Photos";
@@ -695,9 +696,9 @@ A one-time download of 100 MB is required for iPhone to create transcripts for y
 "Connect to WLAN or Cellular to Play Music" = "Connect to WLAN or Cellular to Play Music";
 "Very pleasant day" = "A Very Pleasant Day";
 "Search ${criteria} in Journal" = "Search ${criteria} in Journal";
+"Not now" = "Not now";
 "Location Map Preview" = "Location Map Preview";
 "Export Journal Data" = "Export Journal Data";
-"{country/city/state 1}, {country/city/state 2}, and more" = "%1$@, %2$@, and more";
 "title" = "title";
 "To access your journal entries on all your devices, turn on iCloud for Journal." = "To access your journal entries on all your devices, turn on iCloud for Journal.";
 "Stressed feeling" = "Stressed";
@@ -705,6 +706,7 @@ A one-time download of 100 MB is required for iPhone to create transcripts for y
 ^[Words](measure: 'unit') ^[This Month](measure: 'timespan')" = "{'value': {'one': "^[%lld](measure: 'value')\n^[Word](measure: 'unit') ^[This Month](measure: 'timespan')", 'other': "^[%lld](measure: 'value')\n^[Words](measure: 'unit') ^[This Month](measure: 'timespan')", 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "New title" = "New title";
 "Mailbox icon" = "mailbox";
+"{country/city/state 1}, {country/city/state 2}, and more" = "%1$@, %2$@, and more";
 "Show Suggested Moments Setting" = "Show Suggested Moments Setting";
 "Music & Podcasts" = "Music & Podcasts";
 "widget_start_writing_prompt_im_ho_d_03" = "What’s an activity that gives you joy?";

@@ -319,7 +319,7 @@
 				</dict>
 			</dict>
 			<key>InviteErrorResponsesToTriggerCSFB</key>
-			<string>503,580</string>
+			<string>-380</string>
 			<key>MaxForbiddenErrors</key>
 			<string>100</string>
 			<key>MaxUdpMessageSize</key>
@@ -343,7 +343,7 @@
 			<key>SupportPEarlyMediaHeader</key>
 			<true/>
 			<key>TriggerCSFBOnSDPError</key>
-			<true/>
+			<false/>
 			<key>UseFakeSAsForDeregistration</key>
 			<true/>
 			<key>UseIPSec</key>
@@ -353,6 +353,8 @@
 		<dict>
 			<key>CellularE911SearchTimeout</key>
 			<integer>2</integer>
+			<key>DialAsEmergencyOverIMSForUndetectedEmergency</key>
+			<true/>
 			<key>E911OverITechSupported</key>
 			<true/>
 			<key>E911SearchTimer</key>

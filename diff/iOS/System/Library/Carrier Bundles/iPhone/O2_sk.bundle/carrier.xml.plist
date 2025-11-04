@@ -143,7 +143,7 @@
 	<key>SMSSettings</key>
 	<dict>
 		<key>TransportFallback</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>ShowDialAssist</key>
 	<true/>
@@ -286,20 +286,26 @@
 	<key>apns</key>
 	<array>
 		<dict>
+			<key>UseNetworkMTU</key>
+			<true/>
 			<key>apn</key>
 			<string>o2internet</string>
 			<key>password</key>
 			<string></string>
 			<key>type-mask</key>
-			<integer>49</integer>
+			<integer>32817</integer>
 			<key>username</key>
 			<string></string>
 		</dict>
 		<dict>
+			<key>AllowNoDNS</key>
+			<integer>1</integer>
 			<key>apn</key>
 			<string>o2mms</string>
 			<key>password</key>
 			<string></string>
+			<key>tech-type-mask</key>
+			<integer>4</integer>
 			<key>type-mask</key>
 			<integer>4</integer>
 			<key>username</key>
@@ -332,6 +338,20 @@
 			<integer>1048576</integer>
 			<key>type-mask</key>
 			<integer>1048576</integer>
+			<key>username</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>2</integer>
+			<key>apn</key>
+			<string>sos</string>
+			<key>password</key>
+			<string></string>
+			<key>tech-type-mask</key>
+			<integer>262144</integer>
+			<key>type-mask</key>
+			<integer>262144</integer>
 			<key>username</key>
 			<string></string>
 		</dict>

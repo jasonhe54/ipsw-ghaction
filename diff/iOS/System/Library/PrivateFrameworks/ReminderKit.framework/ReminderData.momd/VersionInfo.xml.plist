@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSManagedObjectModel_CurrentVersionName</key>
-	<string>ReminderData_v2025_A</string>
+	<string>ReminderData_v2025_C</string>
 	<key>NSManagedObjectModel_VersionChecksums</key>
 	<dict>
 		<key>ReminderData_v1</key>
@@ -25,9 +25,11 @@
 		<key>ReminderData_v2024_minorC_Migrating_to_REMCDList_sharedOwnerIdentifier</key>
 		<string>9cYSbDcCgeKG3Gg8GamothXUk7U2A3g92WToAkO9sfE=</string>
 		<key>ReminderData_v2025_A</key>
-		<string>ZXsme/+tTpmImuJ/qrLr+k2KoD4c60J3kECkbFKO9Cg=</string>
+		<string>Tdh+HgywOYfq+hBFjWCGSWukf6HiCTxDkDDvy69WCsU=</string>
 		<key>ReminderData_v2025_A_Migrating_to_REMCDOperationQueueItem</key>
 		<string>nxtaLF5OWYxQZPNMx/eu4AWyP//2qvq8jF2fNUgerHg=</string>
+		<key>ReminderData_v2025_C</key>
+		<string>JJTjRW2k0U4bM5bV6bTqvre8Pn0mtQG862VEArcfkuc=</string>
 		<key>ReminderData_v2_DefaultValues</key>
 		<string>RTQ/I+7LGEBQbttG2kyJN+fwC0f1L1cpTJbMpPXqS5I=</string>
 		<key>ReminderData_v3_Release_2021</key>
@@ -1770,7 +1772,7 @@
 			</data>
 			<key>REMCDReminder</key>
 			<data>
-			c4UyGoVOLWqw57RQBe3vN0FiL8PfxijJn2V4AkUgqtA=
+			GzHjBnQ4l/OHvW3lWkGASftBFtm9TYWq9hUhmUxXa8E=
 			</data>
 			<key>REMCDReplicaManager</key>
 			<data>
@@ -2010,6 +2012,201 @@
 			<key>REMCDTemplateSection</key>
 			<data>
 			NMCeZyMauyeQ5cNdoLhFko4EN9jtW4BeDCpQYpyThJA=
+			</data>
+			<key>REMCDURLAttachment</key>
+			<data>
+			QsNkQK88wx80UAuEbOk+zC9TEWtSDbSmVsqHvVTx6Rs=
+			</data>
+			<key>REMCKCloudState</key>
+			<data>
+			Zk84MFQzz6BAkxcNVzrIZa6KR2yyUjW5Z4V2486jWBU=
+			</data>
+			<key>REMCKServerChangeToken</key>
+			<data>
+			9LbyB6UkHeoqo04v6KTfiMnP3STuo0WEeH+m3QalFNY=
+			</data>
+			<key>REMCKSharedEntitySyncActivity</key>
+			<data>
+			iROiTFbhSMggXqaUw6aK1oqqIXxUYPRmRH3A7VG/ZsI=
+			</data>
+			<key>REMCKSharedObjectOwnerName</key>
+			<data>
+			OOsasvqkTZ/3HJiCeiLSApq+rlfG441WxVpdC/34Vvo=
+			</data>
+		</dict>
+		<key>ReminderData_v2025_C</key>
+		<dict>
+			<key>REMCDAccount</key>
+			<data>
+			1L1BMIzizuQW9RZGOT7lrnyU833RIIPbgHc29zpSzuE=
+			</data>
+			<key>REMCDAccountListData</key>
+			<data>
+			NOiJ0qTBKY3XIaqaXRQ119yf4rR35E+Y3UhY3oeMfwc=
+			</data>
+			<key>REMCDAlarm</key>
+			<data>
+			8VrbKBQYI3hxKU3ype8JP0bVNXqc4mgSJsimFSCcL0s=
+			</data>
+			<key>REMCDAlarmDateTrigger</key>
+			<data>
+			MzpjxV2cnLa4jfxRclIOrbiF1Fh1i1HENS8mnPr3u1A=
+			</data>
+			<key>REMCDAlarmLocationTrigger</key>
+			<data>
+			mAAcpAdnl7Y80bYa0MzpKaTDvFXDBEOjaEnGEXO8Xi8=
+			</data>
+			<key>REMCDAlarmTimeIntervalTrigger</key>
+			<data>
+			mtHzFOOC1TTZp5cqWRzCrKNvlOD0EzX0FIELpNsB7K0=
+			</data>
+			<key>REMCDAlarmTrigger</key>
+			<data>
+			Hkvw6mDIaEhrr1v9mGcHlTm9xYDB1fWJiP27amr31uA=
+			</data>
+			<key>REMCDAlarmVehicleTrigger</key>
+			<data>
+			3JSBRAQ15/z8VJoM8D/t/9sAXAq6vv5r7Cj8zgIts5k=
+			</data>
+			<key>REMCDAssignment</key>
+			<data>
+			FzlioYhwkX8OqSfmLuvIHpb15I5tQbHBnhQZEnteQ6g=
+			</data>
+			<key>REMCDAttachment</key>
+			<data>
+			FqQ24nxnhPv30028MwR19GGR/CcnYRAbVmKPnz+lFcM=
+			</data>
+			<key>REMCDAudioAttachment</key>
+			<data>
+			yxS+EUPCtGxiJnte0iOuy6ab1FOsMIgtdKWxeAMEK0c=
+			</data>
+			<key>REMCDAuxiliaryChangeInfo</key>
+			<data>
+			G+CFAsSJyw+csiDuI+XNG+XrhqmJ8NQreb4gy14jtts=
+			</data>
+			<key>REMCDAuxiliaryReminderChangeDeleteInfo</key>
+			<data>
+			h3Jz8bxKBOboVHzEYUo0d6mzcFR3Yj+fJ3ehanhH1+k=
+			</data>
+			<key>REMCDAuxiliaryReminderChangeInfo</key>
+			<data>
+			sPdhvbeAi7+GJqcAlyORdat0SILXUxDFaaTnZy5/Tfg=
+			</data>
+			<key>REMCDAuxiliaryReminderChangeMoveInfo</key>
+			<data>
+			l9JKji27zmwBYlWSB2qx17FNjq/PzNUwQAKocKFnEUU=
+			</data>
+			<key>REMCDBaseList</key>
+			<data>
+			kKoWyGFgmM/kNZanLTqMGQk55qksamUgKIGHPQfi2QA=
+			</data>
+			<key>REMCDBaseSection</key>
+			<data>
+			Xy+OI60Bkueo4BJLTdgIDoGrBY8jUReKkvG6WeoDu4E=
+			</data>
+			<key>REMCDCalDAVNotification</key>
+			<data>
+			XzLEO1DGUjhgc9J6mt7bp7wA9+iFAx4AQuC4+9OCCfc=
+			</data>
+			<key>REMCDChangeTrackingState</key>
+			<data>
+			JkxETMzLehiziDeuBB4hA9np9upNl65n8mKwttFQ9Wc=
+			</data>
+			<key>REMCDDueDateDeltaAlert</key>
+			<data>
+			7X8v/fQhVOfOVTQ+m3npzp3nJozUyNjjnnrIHRbixIU=
+			</data>
+			<key>REMCDFileAttachment</key>
+			<data>
+			UCFB3H7k+dzKTx5Yo9LF8GpcSBYtqh04bSC41Dfsh2g=
+			</data>
+			<key>REMCDHashtag</key>
+			<data>
+			yPlr6CiOmL9tCGm1sS09U/0Zb0+qvUcGcAfUaPmcEaw=
+			</data>
+			<key>REMCDHashtagLabel</key>
+			<data>
+			n//rhhctK/smt0f9KjwjirLc+NF+IJUnXDiO5Lq42Hs=
+			</data>
+			<key>REMCDImageAttachment</key>
+			<data>
+			xkCTRtO1Bz+gFkIXVImZv3whiOIz4Gl9EnxzN3cw638=
+			</data>
+			<key>REMCDList</key>
+			<data>
+			A3hZKf7nwXkocCcw+lQuUqM6sFolHxehlbNuD7MgZCs=
+			</data>
+			<key>REMCDListSection</key>
+			<data>
+			wWeMbIm8+OZsFey8VR3WykUqrm6VDjflb4DkoeB8x/8=
+			</data>
+			<key>REMCDManualSortHint_v1</key>
+			<data>
+			dbECIp757sPWvEqeZa427ovepfaYFkf0bOE73LkAGj4=
+			</data>
+			<key>REMCDMigrationState</key>
+			<data>
+			uercpndP8DNAIxPHxej74tNi6FvLwHUjdTN2R5O+qSk=
+			</data>
+			<key>REMCDObject</key>
+			<data>
+			Wg3b0YJDTGP1HqWhq9NgrJM2jJT0YxMtIF7GJtqsY08=
+			</data>
+			<key>REMCDOperationQueueItem</key>
+			<data>
+			iB0K6CrVOJFqgTFmzxKlC7Ek4Wu/C6KESs9/yqvltnw=
+			</data>
+			<key>REMCDPublicTemplate</key>
+			<data>
+			JxvbwOSiyWMMF8vkVlVmW7v5OBfawiToraX5BQW9lQs=
+			</data>
+			<key>REMCDRecurrenceRule</key>
+			<data>
+			5bJOTwPwEGg3fGrhf4b7r/jLNXVzr6YXXYo61cHjxOM=
+			</data>
+			<key>REMCDReminder</key>
+			<data>
+			ZIGd8ZSbOb32Zttit3PmTt9hvenrg/Gx3u0oIxnBMA8=
+			</data>
+			<key>REMCDReplicaManager</key>
+			<data>
+			0f2TFA1rU55n2WqFSXH39AAkNsNykw2KyDCUV3tdg4s=
+			</data>
+			<key>REMCDSavedAttachment</key>
+			<data>
+			IeKoBbELBtbC5s49hRyc9mieUs0n6XbfHIWqwdoLbm8=
+			</data>
+			<key>REMCDSavedReminder</key>
+			<data>
+			S5ZBhqtZm82ExDTdRCnzNRyjAQePAylM0YOH512NtVk=
+			</data>
+			<key>REMCDSharedToMeReminderPlaceholder</key>
+			<data>
+			1HdtMA6GLdr5DYjOL0KEcrgOjIo0pR9wTqTAfjbsPqI=
+			</data>
+			<key>REMCDSharee</key>
+			<data>
+			Rez5XvWhj4uTgqfHmAtoVhS/Se7iPa7xmhFLdJ2w9G8=
+			</data>
+			<key>REMCDSmartList</key>
+			<data>
+			FcC7I0tHr7vg6p0elVV6nU2YvQlQkXeB6RrFOeqYZ4Q=
+			</data>
+			<key>REMCDSmartListSection</key>
+			<data>
+			yKQW8sgUv/PQhKaQSsqo1pn/zIGOgu+w4GUbh+myR08=
+			</data>
+			<key>REMCDTemplate</key>
+			<data>
+			G1jQNCa1PUZhPALnC93uuFlm55WswUAKRkBr3ZwAZaI=
+			</data>
+			<key>REMCDTemplateOperationQueueItem</key>
+			<data>
+			B5celQ6zKg+Tl8sCcXxOHQFwI0VXRu02Z/vPouDGoxQ=
+			</data>
+			<key>REMCDTemplateSection</key>
+			<data>
+			Nd6yWQyK2lClXu4Bo+TJIgiDzUYDWk8E5s52kDarW1Q=
 			</data>
 			<key>REMCDURLAttachment</key>
 			<data>

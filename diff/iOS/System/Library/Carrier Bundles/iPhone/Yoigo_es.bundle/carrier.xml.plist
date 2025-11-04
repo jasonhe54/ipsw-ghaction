@@ -106,9 +106,9 @@
 			<key>SupportsCW</key>
 			<false/>
 			<key>imsFeatureDependency</key>
-			<false/>
+			<true/>
 			<key>imsRegistrationDependency</key>
-			<false/>
+			<true/>
 			<key>supported</key>
 			<true/>
 		</dict>

@@ -80,6 +80,10 @@
 	<true/>
 	<key>com.apple.developer.networking.HotspotConfiguration</key>
 	<true/>
+	<key>com.apple.developer.networking.slicing.appcategory</key>
+	<string>Browser-9003</string>
+	<key>com.apple.developer.networking.slicing.trafficcategory</key>
+	<string>video-2</string>
 	<key>com.apple.developer.web-browser</key>
 	<true/>
 	<key>com.apple.diagnosticpipeline.request</key>
@@ -294,6 +298,8 @@
 	<true/>
 	<key>com.apple.private.parsec.default-client</key>
 	<string>com.apple.mobilesafari</string>
+	<key>com.apple.private.rating-rank-eligibility-domain</key>
+	<integer>8</integer>
 	<key>com.apple.private.rsr-cryptex-access</key>
 	<true/>
 	<key>com.apple.private.safari.can-use-bookmarks-sync-agent</key>
@@ -385,8 +391,8 @@
 		<string>/private/var/containers/Bundle/Application/</string>
 		<string>/private/var/db/eligibilityd/eligibility.plist</string>
 		<string>/Applications/</string>
-		<string>/private/var/MobileDevice/ProvisioningProfiles/</string>
 		<string>/private/var/db/os_eligibility/</string>
+		<string>/private/var/MobileDevice/ProvisioningProfiles/</string>
 		<string>/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/</string>
 		<string>/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.parsec.sba/shared_locks/</string>
 		<string>/private/var/MobileAsset/AssetsV2/com_apple_MobileAsset_UAF_SafariBrowsingAssistant/purpose_auto/</string>
@@ -459,6 +465,7 @@
 		<string>com.apple.generativeexperiences.availabilityService</string>
 		<string>com.apple.BrowserEngineKit.Intermediary</string>
 		<string>com.apple.timed.xpc</string>
+		<string>com.apple.securityd.xpc</string>
 		<string>com.apple.Safari.History.Service</string>
 		<string>com.apple.Safari.PasswordBreachHelper</string>
 		<string>com.apple.proactive.PersonalizationPortrait.SocialHighlight</string>
@@ -529,6 +536,8 @@
 	<true/>
 	<key>com.apple.springboard.appbackgroundstyle</key>
 	<true/>
+	<key>com.apple.springboard.homeScreenIconStyle</key>
+	<true/>
 	<key>com.apple.springboard.opensensitiveurl</key>
 	<true/>
 	<key>com.apple.springboard.statusbarstyleoverrides</key>
@@ -581,6 +590,7 @@
 		<string>com.apple.webkit.webauthn</string>
 		<string>apple</string>
 		<string>lockdown-identities</string>
+		<string>com.apple.Safari.WBSDevice</string>
 		<string>com.apple.password-manager</string>
 		<string>com.apple.password-manager.personal</string>
 		<string>com.apple.cfnetwork-recently-deleted</string>

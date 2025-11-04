@@ -193,6 +193,8 @@
 					<integer>480</integer>
 				</dict>
 			</dict>
+			<key>EarlyMediaNeedsHeader</key>
+			<false/>
 			<key>IncomingCallEndReasons</key>
 			<dict>
 				<key>TemporarilyUnavailable</key>
@@ -203,10 +205,14 @@
 					<string>RemoteHangup</string>
 				</dict>
 			</dict>
+			<key>SupportPEarlyMediaHeader</key>
+			<false/>
 			<key>UseIPSec</key>
 			<true/>
 			<key>ValidateSipMessageRecipient</key>
 			<false/>
+			<key>ussdEnabled</key>
+			<true/>
 		</dict>
 		<key>Voice</key>
 		<dict>

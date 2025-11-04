@@ -61,7 +61,7 @@
 				<key>RepeatingTask</key>
 				<dict>
 					<key>Interval</key>
-					<integer>86400</integer>
+					<integer>3600</integer>
 				</dict>
 				<key>RequiresExternalPower</key>
 				<false/>
@@ -110,6 +110,8 @@
 		<key>com.apple.attributionkitd.xpc.postback-update-testing</key>
 		<true/>
 		<key>com.apple.attributionkitd.xpc.token-handoff</key>
+		<true/>
+		<key>com.apple.attributionkitd.xpc.trusted-publisher-intake</key>
 		<true/>
 	</dict>
 	<key>POSIXSpawnType</key>

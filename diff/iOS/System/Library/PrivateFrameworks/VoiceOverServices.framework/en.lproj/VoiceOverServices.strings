@@ -236,7 +236,7 @@
 "VOSOutputEvent.BSIDidEnterSpace" = "Braille Screen Input Entered Space";
 "VOSGestureCategory.LeftIndexModifierRightHandPinches" = "Right Hand Pinches Modified by Left Index Finger";
 "VOSGesture.RightRingDoubleLongPinch" = "Right Ring Double Long Pinch";
-"VOSOutputEvent.DidDisableQuickNav" = "Quick Nav Disabled";
+"VOSOutputEvent.DidDisableQuickNav" = "Arrow Key Quick Nav Disabled";
 "VOSCommand.MoveToStatusBar" = "Move to Status Bar";
 "VOSBrailleGesture.previous" = "During text input, choose the previous spelling suggestion. On the web, select the previous item. On the Home Screen, choose the previous app";
 "VOSCommand.ToggleQuickNote" = "Quick Note";
@@ -470,7 +470,7 @@
 "VOSKey.option" = "Option";
 "VOSGesture.ThreeFingerFlickLeft" = "Three finger swipe left";
 "VOSGesture.LeftRingDoubleLongPinch" = "Left Ring Double Long Pinch";
-"VOSKey.quickNav" = "Quick Nav";
+"VOSKey.quickNav" = "Arrow Key Quick Nav";
 "VOSOutputEvent.BSIDidDisable" = "Braille Screen Input Stopped";
 "VOSSettingsItem.AudioDestination" = "Audio Destination";
 "VOSScreenReaderMode.Default" = "Default";
@@ -775,7 +775,7 @@
 "VOSGesture.OneFingerFlickRight" = "One finger swipe right";
 "VOSCommand.NextKeyboardLanguage" = "Next Keyboard";
 "VOSGesture.RightMiddleModifierLeftIndexPinchSwipeLeft" = "Right Middle Modifier with Left Index Pinch and Slide Left";
-"VOSOutputEvent.DidEnableQuickNav" = "Quick Nav Enabled";
+"VOSOutputEvent.DidEnableQuickNav" = "Arrow Key Quick Nav Enabled";
 "VOSGestureCategory.RightHandPinches" = "Right Hand Pinches";
 "VOSGesture.LeftIndexModifierRightRingQuadruplePinch" = "Left Index Modifier with Right Ring Quadruple Pinch";
 "VOSGesture.LeftIndexPinch" = "Left Index Pinch";

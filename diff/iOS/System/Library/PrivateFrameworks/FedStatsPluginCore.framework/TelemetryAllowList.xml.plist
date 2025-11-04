@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FED_STATS_BIOME_AD_ATTRIBUTION_KIT</key>
+	<dict/>
+	<key>FED_STATS_BIOME_AI_SAFETY_SHORTCUTS</key>
+	<dict/>
+	<key>FED_STATS_BIOME_APPLAUNCH</key>
+	<dict/>
+	<key>FED_STATS_BIOME_CELLULAR</key>
+	<dict/>
+	<key>FED_STATS_BIOME_COMM_SAFETY</key>
+	<dict>
+		<key>blockedStages</key>
+		<array>
+			<string>recording</string>
+		</array>
+	</dict>
+	<key>FED_STATS_BIOME_GENMOJI</key>
+	<dict/>
+	<key>FED_STATS_BIOME_HOLD_ASSIST</key>
+	<dict/>
+	<key>FED_STATS_BIOME_MAIL_TAGS</key>
+	<dict/>
+	<key>FED_STATS_BIOME_MEAD</key>
+	<dict/>
+	<key>FED_STATS_BIOME_MESSAGE_SPAM_DETECTION</key>
+	<dict/>
+	<key>FED_STATS_BIOME_NETWORKING</key>
+	<dict/>
+	<key>FED_STATS_BIOME_PHOTOS</key>
+	<dict/>
+	<key>FED_STATS_BIOME_QUANTUM_TLS</key>
+	<dict/>
+	<key>FED_STATS_BIOME_WIRELESS</key>
+	<dict/>
+	<key>FED_STATS_BIOME_WRITING_TOOLS</key>
+	<dict/>
+</dict>
+</plist>

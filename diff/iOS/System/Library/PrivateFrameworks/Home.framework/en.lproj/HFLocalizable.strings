@@ -648,6 +648,7 @@
 "HFCharacteristicGroupTitleFanSpeed" = "Fan Speed";
 "HFError_HFOperationCheckForSoftwareUpdates_withName_title" = "Unable to check for update on “%@”";
 "HFCameraReachabilityOfflineDurationMultiDayMondayTuesdayFormat" = "Offline from %@ on Monday until %@ on Tuesday.";
+"HFHomeEnergyEducationPanelTitle" = "Grid Forecast";
 "HFVacuumArea_SteamRoom" = "Steam Room";
 "HFVacuumAreaLandmark_BarStool_On" = "On the Bar Stool";
 "HFCharacteristicTriggerDescriptionSensorCO2Detected_Sentence_withRoom" = "When High Carbon Dioxide Detected in %@";
@@ -2355,9 +2356,9 @@ Setup Code: %@";
 "HFAccessoryDetails_ManageAccess_Title" = "Manage Access";
 "HFVacuumAreaLandmark_Nightstand_Under" = "Under the Nightstand";
 "HFCameraReachabilityOfflineDurationSameDayFridaySingularFormat" = "Offline from %@ until %@ on Friday.";
-"HFVacuumAreaLandmark_Unknown_NextTo" = "Next to an Unnamed Area";
 "HFNaturalLanguage_Action_ChangeVolume_Named" = "Adjust Volume on %@";
 "HFStatusDescriptionGarageDoor_OneClosing" = "Closing…";
+"HFVacuumAreaLandmark_Unknown_NextTo" = "Next to an Unnamed Area";
 "HFError_HFOperationAddHome_NameDoesNotStartWithValidCharacters_description" = "Home names cannot contain special characters or emoji. Try a new name.";
 "HFActionSelectionUnsupportedResidentMessage_trigger" = "To use this accessory in an automation, make sure your home hub software is up to date.";
 "HFVacuumAreaLandmark_Table_FrontOf" = "In Front of the Table";

@@ -45,6 +45,15 @@
 		<key>MultiSIMTopic</key>
 		<string>br.com.tim.entitlement.apple</string>
 	</dict>
+	<key>RCS</key>
+	<dict>
+		<key>EnableBusinessMessagingByDefault</key>
+		<true/>
+		<key>EnableRCSByDefault</key>
+		<true/>
+		<key>ShowBusinessMessagingSwitch</key>
+		<true/>
+	</dict>
 	<key>RemoteCardProvisioningSettings</key>
 	<dict>
 		<key>ActivatingStateSubscriptionCheckTimerIntervals</key>

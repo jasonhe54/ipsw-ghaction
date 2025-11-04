@@ -1,2 +1,4 @@
 "HORoomTileStatus_NoActivity" = "No Activity";
+"HOError_UpdateApplicationData_HMErrorCodeOperationTimedOut_description" = "Make sure your home hubs are connected to the internet and powered on, then try again.";
 "HORoomTileStatus_Accessories" = "{'accessories': {'one': '%lu Accessory', 'other': '%lu Accessories', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@accessories@'}";
+"HOError_UpdateApplicationData_title" = "Could not change settings";

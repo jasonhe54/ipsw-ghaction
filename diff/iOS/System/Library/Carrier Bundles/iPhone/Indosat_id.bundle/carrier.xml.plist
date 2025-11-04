@@ -24,8 +24,31 @@
 	<string>INDOSAT</string>
 	<key>DataIndicatorOverrideForLTE</key>
 	<string>4G</string>
+	<key>EnableLTEAfterUpgrade</key>
+	<true/>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.Indonesia</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Signaling</key>
+		<dict>
+			<key>IncomingCallEndReasons</key>
+			<dict>
+				<key>TemporarilyUnavailable</key>
+				<dict>
+					<key>StatusCode</key>
+					<integer>480</integer>
+					<key>TerminationEvent</key>
+					<string>RemoteHangup</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>Voice</key>
+		<dict>
+			<key>EnableVolteByDefault</key>
+			<true/>
+		</dict>
+	</dict>
 	<key>MMS</key>
 	<dict>
 		<key>GroupModeEnabled</key>

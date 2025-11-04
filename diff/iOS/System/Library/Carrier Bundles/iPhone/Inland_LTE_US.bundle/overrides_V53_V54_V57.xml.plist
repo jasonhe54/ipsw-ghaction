@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AllowedServicesTypeMaskOnInternet</key>
+	<integer>32768</integer>
 	<key>AttachAPN</key>
 	<dict>
 		<key>3GPP</key>
@@ -47,9 +49,9 @@
 		<key>ProvisioningRecheckPeriod</key>
 		<integer>24</integer>
 		<key>ServerAddress</key>
-		<string>https://entitlements-inland@iot1.com</string>
+		<string>https://inland.dcc.entitlements.io3.com</string>
 		<key>SupportedEntitlements</key>
-		<integer>17</integer>
+		<integer>145</integer>
 		<key>UpdatePeriod</key>
 		<integer>72</integer>
 		<key>UserAgent</key>
@@ -315,7 +317,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>32775</integer>
+					<integer>32771</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -326,10 +328,14 @@
 					<integer>3</integer>
 					<key>DefaultProtocolMask</key>
 					<integer>3</integer>
+					<key>SupportSwitchOver</key>
+					<true/>
 					<key>apn</key>
 					<string>ims</string>
 					<key>password</key>
 					<string></string>
+					<key>tech-type-mask</key>
+					<integer>131072</integer>
 					<key>type-mask</key>
 					<integer>131072</integer>
 					<key>username</key>
@@ -348,6 +354,8 @@
 					<string>sos</string>
 					<key>password</key>
 					<string></string>
+					<key>tech-type-mask</key>
+					<integer>262144</integer>
 					<key>type-mask</key>
 					<integer>262144</integer>
 					<key>username</key>
@@ -394,8 +402,10 @@
 					<string>hos</string>
 					<key>password</key>
 					<string></string>
+					<key>tech-type-mask</key>
+					<integer>1048582</integer>
 					<key>type-mask</key>
-					<integer>1048576</integer>
+					<integer>1048580</integer>
 					<key>username</key>
 					<string></string>
 				</dict>

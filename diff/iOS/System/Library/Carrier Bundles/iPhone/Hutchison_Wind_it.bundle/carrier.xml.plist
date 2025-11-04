@@ -67,7 +67,7 @@
 			<key>AdditionalContactParams</key>
 			<dict>
 				<key>REGISTER,INVITE,INVITE:*</key>
-				<string>+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting</string>
+				<string>+g.3gpp.mid-call;+g.3gpp.srvcc-alerting;+g.3gpp.ps2cs-srvcc-orig-pre-alerting;text</string>
 			</dict>
 			<key>AllowPCNIInAirplaneMode</key>
 			<false/>
@@ -84,6 +84,8 @@
 			<key>EarlyMediaNeedsHeader</key>
 			<true/>
 			<key>EnableCellularNetworkInfo</key>
+			<true/>
+			<key>EnableRingbackAudioForTextCalls</key>
 			<true/>
 			<key>InviteErrorResponsesToTriggerCSFB</key>
 			<string>3XX,4XX,5XX,6XX</string>
@@ -118,7 +120,11 @@
 			<true/>
 			<key>E911OverITechSupported</key>
 			<false/>
+			<key>EnableHoldForRTT</key>
+			<true/>
 			<key>EnableVolteByDefault</key>
+			<true/>
+			<key>RTTSupported</key>
 			<true/>
 			<key>endNonEmergencyCalls</key>
 			<true/>

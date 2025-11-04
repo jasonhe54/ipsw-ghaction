@@ -39,6 +39,8 @@
 		<string>modelVersion</string>
 		<string>instanceType</string>
 		<string>systemLocale</string>
+		<string>modelName</string>
+		<string>userSetDeviceRegion</string>
 	</array>
 	<key>FED_STATS_BIOME_AI_SAFETY_THIRD</key>
 	<array>
@@ -57,6 +59,8 @@
 	<array>
 		<string>locale</string>
 	</array>
+	<key>FED_STATS_BIOME_APPSTORE_EVENTS</key>
+	<array/>
 	<key>FED_STATS_BIOME_AUTONAMING</key>
 	<array>
 		<string>locale</string>
@@ -259,6 +263,10 @@
 	<array>
 		<string>locale</string>
 	</array>
+	<key>FED_STATS_BIOME_QUANTUM_TLS</key>
+	<array>
+		<string>tlsVersion</string>
+	</array>
 	<key>FED_STATS_BIOME_REMINDERS</key>
 	<array>
 		<string>locale</string>
@@ -288,6 +296,13 @@
 	<array>
 		<string>cardShownOrEngaged</string>
 		<string>bitsOfURL</string>
+	</array>
+	<key>FED_STATS_BIOME_SIRI_ASR</key>
+	<array>
+		<string>locale</string>
+		<string>invocationType</string>
+		<string>deviceClass</string>
+		<string>deviceType</string>
 	</array>
 	<key>FED_STATS_BIOME_SIRI_EDUCATION</key>
 	<array>

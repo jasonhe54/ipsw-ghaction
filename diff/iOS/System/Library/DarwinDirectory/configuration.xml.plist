@@ -8,15 +8,15 @@
 	<array/>
 	<key>defaultGroupMembershipsForLocalUsers</key>
 	<array>
-		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FA</string>
-		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011E</string>
 		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012B</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011E</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FA</string>
 	</array>
 	<key>mutableSystemGroups</key>
 	<array>
-		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012B</string>
 		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000011E</string>
 		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF000000FA</string>
+		<string>ABCDEFAB-CDEF-ABCD-EFAB-CDEF0000012B</string>
 	</array>
 </dict>
 </plist>

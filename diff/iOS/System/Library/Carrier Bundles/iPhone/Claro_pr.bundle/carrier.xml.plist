@@ -57,6 +57,8 @@
 			<key>conferenceServer</key>
 			<string>sip:mmtel@conf-factory.ims.mnc${MNC}.mcc${MCC}.3gppnetwork.org</string>
 		</dict>
+		<key>EnableWiFiCallingByDefault</key>
+		<true/>
 		<key>EnableWiFiCallingWithoutEntitlement</key>
 		<true/>
 		<key>Media</key>

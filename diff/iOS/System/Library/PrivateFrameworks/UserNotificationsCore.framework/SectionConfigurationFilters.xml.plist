@@ -35,6 +35,8 @@
 		<key>DenyListedCategories</key>
 		<array>
 			<string>CDUserNotificationCategoryGeneric</string>
+			<string>CDUserNotificationCategoryUnrecognizedUser</string>
+			<string>CDUserNotificationCategoryLocalStorePurchase</string>
 		</array>
 	</dict>
 	<key>com.apple.DigitalTouch</key>
@@ -221,6 +223,13 @@
 	<dict>
 		<key>OptOutOfCoordination</key>
 		<true/>
+	</dict>
+	<key>com.apple.coreidv.CoreIDVUserNotifications</key>
+	<dict>
+		<key>DenyListedCategories</key>
+		<array>
+			<string>com.apple.coreidv.user-notification-category.identity-presentment.handoff</string>
+		</array>
 	</dict>
 	<key>com.apple.crossdevicearbitration.feedback.notification</key>
 	<dict>

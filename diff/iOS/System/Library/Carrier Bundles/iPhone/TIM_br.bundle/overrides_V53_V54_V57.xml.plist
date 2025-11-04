@@ -38,8 +38,10 @@
 			<key>Item 1</key>
 			<string>TransferSIMService</string>
 		</dict>
+		<key>SupportedAuthorizationTokens</key>
+		<integer>2</integer>
 		<key>SupportedEntitlements</key>
-		<integer>9233</integer>
+		<integer>4203537</integer>
 		<key>SupportsOnDevicePhysicalSIMConvert</key>
 		<true/>
 		<key>UpdatePeriod</key>

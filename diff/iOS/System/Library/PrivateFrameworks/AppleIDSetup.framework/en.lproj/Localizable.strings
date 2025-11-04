@@ -53,6 +53,7 @@ Edit this in Settings > Users and Accounts > %@.";
 "DISCOVERED_VIEW_CLIENT_REPAIR_DESCRIPTION_MAC" = "Use your Apple Account to update settings for the user on this Mac.";
 "DONE_BUTTON_TITLE" = "Done";
 "PROX_CARD_VIEW_JOIN_TITLE_MAC" = "Join This Mac?";
+"PROFILE_UPGRADE_FAILED_TITLE" = "Profile Upgrade Failed";
 "REPAIR_VIEW_COMPLETE_CLIENT_TITLE" = "Update Complete";
 "DISCOVERED_VIEW_JOIN_DESCRIPTION_IPHONE" = "Add yourself as a new user on this iPhone.";
 "AUTHENTICATE_VIEW_ALERT_KEEP_USING_MESSAGE" = "Want to keep using %@?";
@@ -140,6 +141,7 @@ Edit this in Settings > Users and Accounts > %@.";
 "APPLE_ACCOUNT_ALREADY_IN_USE_VISION_PRO" = "The Apple Account is already associated with iCloud or Game Center for “%@” on this Apple Vision Pro.
 
 Edit this in Settings > Users and Accounts > %@.";
+"PROFILE_UPGRADE_FAILED_MESSAGE" = "Unable to upgrade your profile. Please try again later.";
 "DISCOVERED_VIEW_CLIENT_REPAIR_DESCRIPTION_DEVICE" = "Use your Apple Account to update settings for the user on this device.";
 "AUTHENTICATE_VIEW_PROGRESS_STATE_AUTHENTICATING" = "Authenticating…";
 "AUTHENTICATE_VIEW_ALERT_KEEP_USING_NO" = "No";
@@ -298,6 +300,7 @@ Edit this in Settings > Users and Accounts > %@.";
 3. Turn on Bluetooth.
 4. Hold the device close to this iPad.";
 "SETUP_VIEW_DESCRIPTION_FAILED_MISSING_ACCOUNT" = "Go to Settings to sign in, then try again.";
+"PROFILE_UPGRADE_FAILED_BUTTON_OK" = "OK";
 "DISCOVERED_VIEW_CLIENT_REPAIR_DESCRIPTION_WATCH" = "Use your Apple Account to update settings for the user on this Apple Watch.";
 "QR_CODE_SCANNING_DEVICE_INSTRUCT_IPAD" = "Scan the QR code shown on the nearby iPad.";
 "PROX_CARD_VIEW_JOIN_BUTTON_CONNECT" = "Connect";

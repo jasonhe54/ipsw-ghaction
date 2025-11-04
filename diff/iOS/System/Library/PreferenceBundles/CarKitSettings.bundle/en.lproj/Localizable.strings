@@ -1,9 +1,9 @@
-"WIDGET_SCREEN_RESET_CONFIRM" = "Reset to default Widgets?";
 "AVAILABLE_CARS" = "Available Cars";
+"WIDGET_SCREEN_RESET_CONFIRM" = "Reset to default Widgets?";
 "SETTINGS_GENERAL" = "General";
-"DEBUG_BLUETOOTH_CONNECTING" = "Bluetooth Connecting";
+"ROUTE_SHARING_SWITCH" = "Share My Route";
 "CARPLAY_FOOTER_TEXT_WIRED_ON_FACEID" = "CarPlay can connect to your car without requiring Face ID or a passcode.";
-"DNL_INTERNAL_NOTES_FOOTER" = "Custom text notes will be included in radars you file from this vehicle.";
+"DEBUG_BLUETOOTH_CONNECTING" = "Bluetooth Connecting";
 "CARPLAY_OPTIONS_CARPLAY" = "CarPlay";
 "SET_UP_WIRELESS_CARPLAY" = "Set up Wireless CarPlay";
 "CARPLAY_OPTIONS_PROMPT_CARPLAY_TITLE" = "CarPlay";
@@ -12,6 +12,7 @@
 "WIDGET_SCREEN_RESET" = "Reset";
 "CUSTOMIZE_HIDDEN_APPS_SECTION_TITLE" = "More Apps";
 "DEBUG_BLUETOOTH_CONNECTED" = "Bluetooth Connected";
+"DNL_INTERNAL_NOTES_FOOTER" = "Custom text notes will be included in radars you file from this vehicle.";
 "HOME_SCREEN_RESET_CONFIRM" = "Reset to default Apps?";
 "CUSTOMIZE_SECTION_TITLE" = "Customize";
 "WIDGET_SCREEN_RESET_CANCEL" = "Cancel";
@@ -44,25 +45,26 @@ Enable this setting to allow CarPlay to connect without requiring Touch ID or a 
 "DEBUG_BLUETOOTH_PAIRED" = "Bluetooth Paired";
 "FORGET_BUTTON" = "Forget This Car";
 "HOME_SCREEN_RESET" = "Reset";
+"ROUTE_SHARING_FOOTER" = "Sharing your route information including the route line, and information about the start and end points, to be used with driver assistance systems in this car.";
 "CARPLAY_NAVIGATION_TITLE" = "CarPlay";
-"CARPLAY_OPTIONS_CARPLAY_ULTRA" = "CarPlay Ultra";
 "CARPLAY_OPTIONS_PROMPT_CARPLAY_ULTRA_TITLE" = "CarPlay Ultra";
 "CUSTOMIZE_WIDGETS_TITLE" = "Widgets";
 "CARPLAY_FOOTER_TEXT_WIRED_OFF_TOUCHID" = "Unlocking your iPhone will be required every time, and your device will remain unlocked as long as CarPlay is active. Enable this setting to allow CarPlay to connect without requiring Touch ID or a passcode.";
-"CUSTOMIZE_ENABLED_WIDGETS_FOOTER" = "You can customize a stack with up to five widgets.";
+"CARPLAY_OPTIONS_CARPLAY_ULTRA" = "CarPlay Ultra";
 "CARPLAY_ENHANCED_INTEGRATION_SWITCH" = "Enhanced Integration";
 "CARPLAY_OPTIONS_PROMPT_CARPLAY_ULTRA_MESSAGE" = "CarPlay Ultra arranges your apps, widgets, instrument cluster, and other controls across multiple displays in your car. Some instruments and controls may appear in a different position than they are on your car’s built-in system.
 
 Vehicle functions, such as radio and climate, will be controlled using CarPlay Ultra.";
-"CARPLAY_OPTIONS_CARPLAY_SUMMARY" = "CarPlay";
+"CUSTOMIZE_ENABLED_WIDGETS_FOOTER" = "You can customize a stack with up to five widgets.";
 "CARPLAY_OPTIONS_CARPLAY_FOOTER" = "CarPlay will only appear on the main display. Vehicle functions will be controlled using your car’s built-in system.";
+"CARPLAY_OPTIONS_CARPLAY_SUMMARY" = "CarPlay";
 "CUSTOMIZE_ENABLED_APPS_SECTION_TITLE" = "Included Apps";
-"DEBUG_ACCESSORY_CONNECTED" = "Accessory Connected";
 "OTHER_CARS" = "Other Cars";
 "ALLOW_LOCKED_CARPLAY_SWITCH" = "Allow CarPlay While Locked";
-"DEBUG_NOT_CONNECTED" = "Not Connected";
+"DEBUG_ACCESSORY_CONNECTED" = "Accessory Connected";
 "CARPLAY_OPTIONS_PROMPT_CANCEL" = "Cancel";
 "WIDGET_SUGGESTION" = "Widget Suggestion";
+"DEBUG_NOT_CONNECTED" = "Not Connected";
 "MY_CARS_PLURAL" = "My Cars";
 "CARPLAY_FOOTER_TEXT_WIRED_AND_WIRELESS_ON_FACEID" = "When your iPhone is nearby and you start your car, CarPlay will start automatically. You can use CarPlay over a wired or wireless connection without requiring Face ID or a passcode.";
 "CARPLAY_OPTIONS_PROMPT_CARPLAY_MESSAGE" = "Your car’s built-in system will provide vehicle functions including the instrument cluster, radio, and climate.

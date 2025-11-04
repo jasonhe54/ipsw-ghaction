@@ -311,7 +311,7 @@
 			<key>MMS</key>
 			<dict>
 				<key>MMSC</key>
-				<string>http://mms.np.fr</string>
+				<string>http://mms.np.fr:80</string>
 				<key>Proxy</key>
 				<string>10.4.65.10:8080</string>
 			</dict>
@@ -457,7 +457,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -617,6 +617,29 @@
 			<string>20839</string>
 		</array>
 	</dict>
+	<key>Configuration_214003</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet.movil.es</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>214003</string>
+		</array>
+	</dict>
 	<key>Configuration_21402</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -629,7 +652,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -667,8 +690,25 @@
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
+			<key>MMS</key>
+			<dict>
+				<key>MMSC</key>
+				<string>http://lobstermms:8081</string>
+				<key>Proxy</key>
+				<string>mms.lobster.es:8080</string>
+			</dict>
 			<key>apns</key>
 			<array>
+				<dict>
+					<key>apn</key>
+					<string>lobstermms</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
 				<dict>
 					<key>apn</key>
 					<string>lobster</string>
@@ -767,7 +807,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -942,7 +982,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -957,6 +997,8 @@
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
+			<key>AllowedServicesTypeMaskOnInternet</key>
+			<integer>32768</integer>
 			<key>AttachAPN</key>
 			<dict>
 				<key>3GPP</key>
@@ -970,6 +1012,39 @@
 					<key>username</key>
 					<string></string>
 				</dict>
+			</dict>
+			<key>CarrierEntitlements</key>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ProcessPNRAvailabilityStatus</key>
+				<true/>
+				<key>ProtocolVersion</key>
+				<string>2</string>
+				<key>ServerAddress</key>
+				<string>https://ios.mf.nexphone.ch</string>
+				<key>SupportPhysicalSIMtoESIMTransfer</key>
+				<true/>
+				<key>SupportSecureIntent</key>
+				<true/>
+				<key>SupportedActions</key>
+				<array>
+					<string>TransferSIMService</string>
+				</array>
+				<key>SupportedEntitlements</key>
+				<integer>8193</integer>
+				<key>SupportsOnDevicePhysicalSIMConvert</key>
+				<true/>
+			</dict>
+			<key>PushSettings</key>
+			<dict>
+				<key>CellularPlanTransferTopic</key>
+				<string>ch.nexphone.mf.transfer</string>
 			</dict>
 			<key>apns</key>
 			<array>
@@ -1062,6 +1137,29 @@
 			<string>22865</string>
 		</array>
 	</dict>
+	<key>Configuration_22869</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>web.mtel.ch</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>22869</string>
+		</array>
+	</dict>
 	<key>Configuration_22871</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -1128,6 +1226,78 @@
 			<string>22871</string>
 		</array>
 	</dict>
+	<key>Configuration_22872</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AllowedServicesTypeMaskOnInternet</key>
+			<integer>32768</integer>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>solnet</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>CarrierEntitlements</key>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ProcessPNRAvailabilityStatus</key>
+				<true/>
+				<key>ProtocolVersion</key>
+				<string>2</string>
+				<key>ServerAddress</key>
+				<string>https://ios.mobes.solnet.ch</string>
+				<key>SupportPhysicalSIMtoESIMTransfer</key>
+				<true/>
+				<key>SupportSecureIntent</key>
+				<true/>
+				<key>SupportedActions</key>
+				<array>
+					<string>TransferSIMService</string>
+				</array>
+				<key>SupportedEntitlements</key>
+				<integer>8193</integer>
+				<key>SupportsOnDevicePhysicalSIMConvert</key>
+				<true/>
+			</dict>
+			<key>PushSettings</key>
+			<dict>
+				<key>CellularPlanTransferTopic</key>
+				<string>ch.solnet.mobes.transfer</string>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>solnet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>22872</string>
+		</array>
+	</dict>
 	<key>Configuration_22873</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -1163,6 +1333,43 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>22873</string>
+		</array>
+	</dict>
+	<key>Configuration_22874</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>22874</string>
 		</array>
 	</dict>
 	<key>Configuration_23103</key>
@@ -1214,7 +1421,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1289,6 +1496,29 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>23217</string>
+		</array>
+	</dict>
+	<key>Configuration_23220</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>web.mtel.at</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>23220</string>
 		</array>
 	</dict>
 	<key>Configuration_23405</key>
@@ -1508,7 +1738,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1519,7 +1749,7 @@
 			<string>23812</string>
 		</array>
 	</dict>
-	<key>Configuration_24006</key>
+	<key>Configuration_24006_GID1-0E</key>
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
@@ -1576,7 +1806,7 @@
 		</dict>
 		<key>SupportedSIMs</key>
 		<array>
-			<string>24006</string>
+			<string>24006_GID1-0E</string>
 		</array>
 	</dict>
 	<key>Configuration_24012</key>
@@ -1599,7 +1829,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1765,7 +1995,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1811,7 +2041,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1882,6 +2112,64 @@
 			<string>26220</string>
 		</array>
 	</dict>
+	<key>Configuration_26221</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AllowedServicesTypeMaskOnInternet</key>
+			<integer>32768</integer>
+			<key>CarrierEntitlements</key>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ProcessPNRAvailabilityStatus</key>
+				<true/>
+				<key>ProtocolVersion</key>
+				<string>2</string>
+				<key>ServerAddress</key>
+				<string>https://ios-de.spusu-entitlements.com</string>
+				<key>SupportPhysicalSIMtoESIMTransfer</key>
+				<true/>
+				<key>SupportSecureIntent</key>
+				<true/>
+				<key>SupportedActions</key>
+				<array>
+					<string>TransferSIMService</string>
+				</array>
+				<key>SupportedEntitlements</key>
+				<integer>8193</integer>
+				<key>SupportsOnDevicePhysicalSIMConvert</key>
+				<true/>
+			</dict>
+			<key>PushSettings</key>
+			<dict>
+				<key>CellularPlanTransferTopic</key>
+				<string>com.spusu-entitlement.es.transfer</string>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>web</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>26221</string>
+		</array>
+	</dict>
 	<key>Configuration_26222</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -1905,6 +2193,87 @@
 			<string>26222</string>
 		</array>
 	</dict>
+	<key>Configuration_26224</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AllowedServicesTypeMaskOnInternet</key>
+			<integer>32768</integer>
+			<key>CarrierEntitlements</key>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ProcessPNRAvailabilityStatus</key>
+				<true/>
+				<key>ProtocolVersion</key>
+				<string>2</string>
+				<key>ServerAddress</key>
+				<string>https://ios.es.telcovillage.net</string>
+				<key>SupportPhysicalSIMtoESIMTransfer</key>
+				<true/>
+				<key>SupportSecureIntent</key>
+				<true/>
+				<key>SupportedActions</key>
+				<array>
+					<string>TransferSIMService</string>
+				</array>
+				<key>SupportedEntitlements</key>
+				<integer>8193</integer>
+				<key>SupportsOnDevicePhysicalSIMConvert</key>
+				<true/>
+			</dict>
+			<key>PushSettings</key>
+			<dict>
+				<key>CellularPlanTransferTopic</key>
+				<string>net.telcovillage.es.transfer</string>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>26224</string>
+		</array>
+	</dict>
+	<key>Configuration_26225</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>web.mtel.de</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>26225</string>
+		</array>
+	</dict>
 	<key>Configuration_26243</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -1917,7 +2286,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1940,7 +2309,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -1963,7 +2332,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -2037,10 +2406,41 @@
 			<string>28613</string>
 		</array>
 	</dict>
+	<key>Configuration_28622</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>28622</string>
+		</array>
+	</dict>
 	<key>Configuration_302150</key>
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
+			<key>IMSConfig</key>
+			<dict>
+				<key>Voice</key>
+				<dict>
+					<key>EnableVolteByDefault</key>
+					<true/>
+				</dict>
+			</dict>
 			<key>MMS</key>
 			<dict>
 				<key>MMSC</key>
@@ -2075,6 +2475,58 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>302150</string>
+		</array>
+	</dict>
+	<key>Configuration_302340</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>internet.execulink</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>MMS</key>
+			<dict>
+				<key>MMSC</key>
+				<string>http://mms.execulink.com</string>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet.execulink</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms.execulink</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>302340</string>
 		</array>
 	</dict>
 	<key>Configuration_302480_GID1-01</key>
@@ -2211,15 +2663,65 @@
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
+			<key>AllowedServicesTypeMaskOnInternet</key>
+			<integer>32768</integer>
+			<key>CarrierEntitlements</key>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ProcessPNRAvailabilityStatus</key>
+				<true/>
+				<key>ProtocolVersion</key>
+				<string>2</string>
+				<key>ServerAddress</key>
+				<string>https://ios.prod-es.icewireless.net</string>
+				<key>SupportPhysicalSIMtoESIMTransfer</key>
+				<true/>
+				<key>SupportSecureIntent</key>
+				<true/>
+				<key>SupportedActions</key>
+				<array>
+					<string>TransferSIMService</string>
+				</array>
+				<key>SupportedEntitlements</key>
+				<integer>8193</integer>
+				<key>SupportsOnDevicePhysicalSIMConvert</key>
+				<true/>
+			</dict>
+			<key>MMS</key>
+			<dict>
+				<key>MMSC</key>
+				<string>http://mmsc.icew.ca</string>
+			</dict>
+			<key>PushSettings</key>
+			<dict>
+				<key>CellularPlanTransferTopic</key>
+				<string>net.icewireless.prod-es.transfer</string>
+			</dict>
 			<key>apns</key>
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>net</string>
+					<string>net.icew.ca</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
 					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -2389,21 +2891,21 @@
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>mobi MMS</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>4</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>apn</key>
 					<string>4g.mobi.net</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
 					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms.mobi.net</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -2592,7 +3094,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>49</integer>
+					<integer>1</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -2839,21 +3341,21 @@
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>mobi MMS</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>4</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>apn</key>
 					<string>4g.mobi.net</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
 					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms.mobi.net</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -3127,21 +3629,21 @@
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>mobi MMS</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>4</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>apn</key>
 					<string>4g.mobi.net</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
 					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms.mobi.net</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -3203,7 +3705,7 @@
 			<key>MMS</key>
 			<dict>
 				<key>MMSC</key>
-				<string>http://mms.popocorn.space</string>
+				<string>http://mms.popcorn.space</string>
 			</dict>
 			<key>PushSettings</key>
 			<dict>
@@ -3310,6 +3812,79 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>311670</string>
+		</array>
+	</dict>
+	<key>Configuration_312720</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AllowedServicesTypeMaskOnInternet</key>
+			<integer>32768</integer>
+			<key>CarrierEntitlements</key>
+			<dict>
+				<key>Authentication</key>
+				<dict>
+					<key>Type</key>
+					<integer>1</integer>
+					<key>Username</key>
+					<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+				</dict>
+				<key>ProcessPNRAvailabilityStatus</key>
+				<true/>
+				<key>ProtocolVersion</key>
+				<string>2</string>
+				<key>ServerAddress</key>
+				<string>https://ios.es.southernlinc.com</string>
+				<key>SupportPhysicalSIMtoESIMTransfer</key>
+				<true/>
+				<key>SupportSecureIntent</key>
+				<true/>
+				<key>SupportedActions</key>
+				<array>
+					<string>TransferSIMService</string>
+				</array>
+				<key>SupportedEntitlements</key>
+				<integer>8193</integer>
+				<key>SupportsOnDevicePhysicalSIMConvert</key>
+				<true/>
+			</dict>
+			<key>MMS</key>
+			<dict>
+				<key>MMSC</key>
+				<string>http://mmsc.epc.southernlinc.com</string>
+			</dict>
+			<key>PushSettings</key>
+			<dict>
+				<key>CellularPlanTransferTopic</key>
+				<string>com.southernlinc.es.transfer</string>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>312720</string>
 		</array>
 	</dict>
 	<key>Configuration_313260</key>
@@ -3559,21 +4134,21 @@
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>mobi MMS</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>4</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>apn</key>
 					<string>4g.mobi.net</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
 					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string>mms.mobi.net</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>4</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -3635,7 +4210,7 @@
 			<key>MMS</key>
 			<dict>
 				<key>MMSC</key>
-				<string>http://mms.popocorn.space</string>
+				<string>http://mms.popcorn.space</string>
 			</dict>
 			<key>PushSettings</key>
 			<dict>
@@ -4028,46 +4603,6 @@
 			<string>346007</string>
 		</array>
 	</dict>
-	<key>Configuration_350007</key>
-	<dict>
-		<key>OverrideConfiguration</key>
-		<dict>
-			<key>MMS</key>
-			<dict>
-				<key>MMSC</key>
-				<string>http://mmsc.paradisemobile.com</string>
-				<key>Proxy</key>
-				<string>10.10.83.66:10021</string>
-			</dict>
-			<key>apns</key>
-			<array>
-				<dict>
-					<key>apn</key>
-					<string>internet</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>49</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-				<dict>
-					<key>apn</key>
-					<string>mms</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>4</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-		<key>SupportedSIMs</key>
-		<array>
-			<string>350007</string>
-		</array>
-	</dict>
 	<key>Configuration_37005</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -4112,6 +4647,66 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>41750</string>
+		</array>
+	</dict>
+	<key>Configuration_41892</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>41892</string>
+		</array>
+	</dict>
+	<key>Configuration_41909</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>41909</string>
 		</array>
 	</dict>
 	<key>Configuration_42005</key>
@@ -4164,19 +4759,10 @@
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
-			<key>AttachAPN</key>
+			<key>MMS</key>
 			<dict>
-				<key>3GPP</key>
-				<dict>
-					<key>AllowedProtocolMask</key>
-					<integer>1</integer>
-					<key>apn</key>
-					<string>SPHONE</string>
-					<key>password</key>
-					<string></string>
-					<key>username</key>
-					<string></string>
-				</dict>
+				<key>MMSC</key>
+				<string>http://mms.we4g.co.il</string>
 			</dict>
 			<key>apns</key>
 			<array>
@@ -4186,7 +4772,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>5</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -4232,6 +4818,29 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>425019</string>
+		</array>
+	</dict>
+	<key>Configuration_42521</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>42521</string>
 		</array>
 	</dict>
 	<key>Configuration_42526</key>
@@ -4329,6 +4938,29 @@
 			<string>42833</string>
 		</array>
 	</dict>
+	<key>Configuration_44024_GID1-9424</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>dm.jplat.net</string>
+					<key>password</key>
+					<string>jci</string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string>jci@jci</string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>44024_GID1-9424</string>
+		</array>
+	</dict>
 	<key>Configuration_441216</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -4375,6 +5007,43 @@
 			<string>45707</string>
 		</array>
 	</dict>
+	<key>Configuration_502150</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>tunetalk</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>tunetalk</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>1</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>502150</string>
+		</array>
+	</dict>
 	<key>Configuration_50588</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -4408,7 +5077,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -4456,15 +5125,29 @@
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>internet</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
 			<key>apns</key>
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>TPG</string>
+					<string>internet</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -4543,7 +5226,7 @@
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>PMCI</string>
+					<string>pmci</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
@@ -4655,7 +5338,7 @@
 			<string>60600</string>
 		</array>
 	</dict>
-	<key>Configuration_61801</key>
+	<key>Configuration_61908</key>
 	<dict>
 		<key>OverrideConfiguration</key>
 		<dict>
@@ -4663,7 +5346,7 @@
 			<array>
 				<dict>
 					<key>apn</key>
-					<string>internetlcc</string>
+					<string>internet</string>
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
@@ -4671,21 +5354,11 @@
 					<key>username</key>
 					<string></string>
 				</dict>
-				<dict>
-					<key>apn</key>
-					<string>internet</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>48</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
 			</array>
 		</dict>
 		<key>SupportedSIMs</key>
 		<array>
-			<string>61801</string>
+			<string>61908</string>
 		</array>
 	</dict>
 	<key>Configuration_63517</key>
@@ -4786,7 +5459,7 @@
 					<key>password</key>
 					<string></string>
 					<key>type-mask</key>
-					<integer>1</integer>
+					<integer>49</integer>
 					<key>username</key>
 					<string></string>
 				</dict>
@@ -4970,43 +5643,6 @@
 			<string>72417</string>
 		</array>
 	</dict>
-	<key>Configuration_72418_GID1-636F6E6E65637431</key>
-	<dict>
-		<key>OverrideConfiguration</key>
-		<dict>
-			<key>AttachAPN</key>
-			<dict>
-				<key>3GPP</key>
-				<dict>
-					<key>AllowedProtocolMask</key>
-					<integer>1</integer>
-					<key>apn</key>
-					<string>globaldata</string>
-					<key>password</key>
-					<string></string>
-					<key>username</key>
-					<string></string>
-				</dict>
-			</dict>
-			<key>apns</key>
-			<array>
-				<dict>
-					<key>apn</key>
-					<string>globaldata</string>
-					<key>password</key>
-					<string></string>
-					<key>type-mask</key>
-					<integer>1</integer>
-					<key>username</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-		<key>SupportedSIMs</key>
-		<array>
-			<string>72418_GID1-636F6E6E65637431</string>
-		</array>
-	</dict>
 	<key>Configuration_72429</key>
 	<dict>
 		<key>OverrideConfiguration</key>
@@ -5042,6 +5678,43 @@
 		<key>SupportedSIMs</key>
 		<array>
 			<string>72429</string>
+		</array>
+	</dict>
+	<key>Configuration_72451</key>
+	<dict>
+		<key>OverrideConfiguration</key>
+		<dict>
+			<key>AttachAPN</key>
+			<dict>
+				<key>3GPP</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>apn</key>
+					<string>em</string>
+					<key>password</key>
+					<string></string>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</dict>
+			<key>apns</key>
+			<array>
+				<dict>
+					<key>apn</key>
+					<string>em</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>49</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<key>SupportedSIMs</key>
+		<array>
+			<string>72451</string>
 		</array>
 	</dict>
 	<key>Configuration_72477</key>

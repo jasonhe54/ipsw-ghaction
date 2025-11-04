@@ -66,6 +66,8 @@
 		<true/>
 		<key>com.apple.GameController.gamecontrollerd.driver</key>
 		<true/>
+		<key>com.apple.GameController.gamecontrollerd.fastpathproxy</key>
+		<true/>
 		<key>com.apple.GameController.gamecontrollerd.haptics</key>
 		<true/>
 		<key>com.apple.GameController.system-button-service</key>

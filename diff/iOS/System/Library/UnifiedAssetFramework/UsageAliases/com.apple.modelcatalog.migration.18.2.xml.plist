@@ -388,6 +388,8 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.safety_deny.input.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.adm_background_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -491,6 +493,8 @@
 				<key>com.apple.gm.safety_deny.input.writing_tools.compose.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.writing_tools.compose_recents_summaries.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.safety_deny.output.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.output.adm_background_prompt.generic</key>
 				<string>ENABLED</string>
@@ -793,6 +797,10 @@
 				<key>com.apple.fm.language.instruct_3b.proofreading_review.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.proofreading_review.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.reminders_auto_categorized_list_on_device.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.reminders_suggest_action_items.draft.generic</key>
 				<string>ENABLED</string>

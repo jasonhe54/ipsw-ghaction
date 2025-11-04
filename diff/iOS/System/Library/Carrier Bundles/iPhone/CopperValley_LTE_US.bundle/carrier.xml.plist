@@ -117,6 +117,26 @@
 	<integer>2</integer>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.UnitedStates</string>
+	<key>IMSConfig</key>
+	<dict>
+		<key>Signaling</key>
+		<dict>
+			<key>AdditionalHeaders</key>
+			<dict>
+				<key>INVITE[wifi,911]</key>
+				<array>
+					<string>P-Emergency-Info: IEEE-802.11b;i-wlan-node-id=${DEVICE_REF_ID}</string>
+					<string>Supported: geolocation</string>
+				</array>
+			</dict>
+			<key>AlwaysAddGeolocationForEmergencyCalls</key>
+			<true/>
+			<key>PIDFConfidence</key>
+			<integer>90</integer>
+			<key>UseCIDUrlInPIDF</key>
+			<true/>
+		</dict>
+	</dict>
 	<key>Location</key>
 	<dict>
 		<key>EmergencyLocation</key>

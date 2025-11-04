@@ -15,6 +15,7 @@
 "Reminders" = "Reminders";
 "Adding a language will require an additional download." = "Adding a language will require an additional download.";
 "Set the time zone used to display and create reminders." = "Set the time zone used to display and create reminders.";
+"Complete from Alarm" = "Complete from Alarm";
 "By default, reminders automatically use the time zone of your current location.
 
 Alternatively, you can set a time zone to display and create reminders. This won’t impact the timing of notifications for existing reminders." = "By default, reminders automatically use the time zone of your current location.
@@ -32,6 +33,8 @@ Alternatively, you can set a time zone to display and create reminders. This won
 "Time Zone" = "Time Zone";
 "Add an additional language to automatically place grocery items into categories." = "Add an additional language to automatically place grocery items into categories.";
 "LEARN_MORE_ELLIPSIS" = "Learn more…";
+"Instead of Snooze, display a Complete button to stop the alarm and immediately mark it as complete." = "Instead of Snooze, display a Complete button to stop the alarm and immediately mark it as complete.";
+"Urgent Reminders" = "Urgent Reminders";
 "Reminders Accounts" = "Reminders Accounts";
 "Set Automatically" = "Set Automatically";
 "Set Manually" = "Set Manually";

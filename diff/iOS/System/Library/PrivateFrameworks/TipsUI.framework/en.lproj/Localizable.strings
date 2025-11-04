@@ -1,3 +1,4 @@
+"REPLAY_BUTTON_TEXT" = "Replay";
 "SEARCH_RESULT_STEP_BY_STEP_HELP_TEXT" = "Step-by-Step Help";
 "CONTENT_MESSAGE_UNKNOWN_MESSAGE" = "Try opening the Tips app later.";
 "SEARCH_RESULT_TOPICS_SECTION_HEADER_TITLE" = "Topics";
@@ -9,13 +10,16 @@
 "CONTENT_MESSAGE_NETWORK_MESSAGE" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'To connect your Apple Vision Pro to the internet, join a network.', 'iphone': 'To connect your iPhone to the internet, join a network.', 'ipad': 'To connect your iPad to the internet, join a network.'}}";
 "SUMMARIZED_EYEBROW_TITLE" = "SUMMARIZED";
 "SIRI SUGGESTION" = "SIRI SUGGESTION";
+"APP_NAME" = "Tips";
 "ORDERED_LIST_FORMAT" = "^[%1$lld](formatNumber: true).";
 "CONTENT_MESSAGE_NO_SEARCH_RESULTS_TITLE" = "No Results for “%@”";
 "CONTENT_MESSAGE_NO_SEARCH_RESULTS_MESSAGE" = "Try a new search, or check the spelling.";
 "CONTENT_MESSAGE_NO_TIPS_TITLE" = "No Tips";
 "SEARCH_RESULT_TIPS_SECTION_HEADER_TITLE" = "Tips";
 "SEARCH_RESULT_SEE_ALL_SECTION_HEADER_TITLE" = "See All";
+"VIEW_IN_TIPS" = "View in Tips";
 "CONTENT_MESSAGE_NETWORK_TITLE" = "No Internet Connection";
 "CONTENT_MESSAGE_NETWORK_ACTION_BUTTON" = "Open Settings";
 "CONTENT_MESSAGE_UNKNOWN_TITLE" = "Content is Unavailable";
+"%@" = "%@";
 "%@%@" = "%1$@%2$@";

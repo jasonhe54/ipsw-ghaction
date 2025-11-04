@@ -1,5 +1,10 @@
 "NOTIFICATION_LIST_DISPLAY_STYLE_FOOTER" = "Choose the default for how notifications appear.";
 "SPOKEN_NOTIFICATIONS_APP_OPTIONS_TIME_SENSITIVE" = "Time Sensitive Notifications";
+"SAFETY_ALERTS_PRIVACY_PAGE_TEXT" = "Safety Alerts are wireless emergency alerts issued by authorized government agencies. When enabled, your device will receive alerts about imminent threats to safety or life.
+
+Your location data is not collected or shared when you receive safety alerts. These alerts are broadcast to all devices in the affected area.
+
+You can manage which types of safety alerts you receive in these settings.";
 "EMPTY" = "Empty";
 "SPOKEN_NOTIFICATIONS_CARPLAY_ANNOUNCE_MESSAGES_FOOTER_DISABLED" = "Siri can announce and read new messages.";
 "PI_RM_FM_GROUP_FOOTER_TEXT" = "Remind Me, Favorites and Primary Inbox Settings will override all other Mail notification settings.";
@@ -7,6 +12,7 @@
 "PERSISTENT_BANNER_EXPLANATION" = "Persistent banners require an action before proceeding.";
 "SCHEDULED_DELIVERY_ONBOARDING_DEFER_SETUP" = "Set Up Later";
 "RM_FM_GROUP_FOOTER_TEXT" = "Remind Me and Favorites Settings will override all other Mail notification settings.";
+"SAFETY_ALERTS_LEARN_MORE" = "Learn More…";
 "FM_VIT_GROUP_FOOTER_TEXT" = "You can receive Favorite Mailboxes and Thread Notifications even if other Mail notifications are turned off.";
 "CALENDARS" = "Calendars";
 "NOTIFICATION_VIEW_TITLE" = "Notifications View";
@@ -21,6 +27,7 @@
 "PRIORITIZE_NOTIFICATIONS_FOOTER_IPAD" = "iPad uses on-device processing to analyze the content of notifications for importance while protecting your privacy.";
 "TEMPORARY_BANNER_EXPLANATION" = "Temporary banners appear at the top of the screen and go away automatically.";
 "ALERT_5_TIMES" = "5 Times";
+"SAFETY_ALERTS_EMPTY_SCREEN_SWITCH_NONE" = "None";
 "PI_RM_VIP_VIT_GROUP_FOOTER_TEXT" = "Remind Me, VIP, Primary Inbox and Threaded Notifications Settings will override all other Mail notification settings.";
 "RM_VIP_VIT_GROUP_FOOTER_TEXT" = "Remind Me, VIP, and Threaded Notifications Settings will override all other Mail notification settings.";
 "NOTIFICATION_GROUPING" = "Notification Grouping";
@@ -127,8 +134,9 @@ You can still swipe up to view all notifications.";
 "ALLOW_NOTIFICATIONS" = "Allow Notifications";
 "SCHEDULED_DELIVERY_NINTH_SUMMARY" = "9th Summary";
 "NOTIFICATION_DELIVERY_SCHEDULED_FOOTER" = "Notifications are delivered as a summary and sent at scheduled times.";
-"SPOKEN_NOTIFICATIONS_ANNOUNCE_DESTINATIONS_GROUP" = "Announce When Connected To";
+"SAFETY_ALERTS_ABOUT_PRIVACY" = "About Safety Features & Privacy";
 "BANNER_ALERTS" = "Banners";
+"SPOKEN_NOTIFICATIONS_ANNOUNCE_DESTINATIONS_GROUP" = "Announce When Connected To";
 "APP_CLIPS" = "App Clips";
 "ALERT_SETTINGS_GROUP" = "Alerts";
 "SPOKEN_NOTIFICATIONS_APP_OPTIONS_TIME_SENSITIVE_AND_MESSAGES" = "Time Sensitive and Direct Messages";
@@ -153,12 +161,12 @@ Apps you use with Siri may send information like your contacts and other data to
 "PI_VIT_GROUP_FOOTER_TEXT" = "Thread Notification and Primary Inbox Settings will override all other Mail notification settings.";
 "SPOKEN_NOTIFICATIONS_APP_FOOTER" = "Have Siri read out notifications from “%@“. Siri will avoid interrupting you and will listen for responses after reading notifications.";
 "SCHEDULED_DELIVERY_SHOW_NEXT_SUMMARY_FOOTER" = "Show the next summary in Notification Center before the scheduled time.";
-"SCHEDULED_DELIVERY_SORT_ALPHABETICAL" = "A to Z";
-"NOTIFICATION_STYLE" = "Notification Style";
 "SPOKEN_NOTIFICATIONS_CARPLAY_ANNOUNCE_MESSAGES_FOOTER_SILENCE_NEW_MESSAGES" = "Message announcements are currently silenced.";
+"NOTIFICATION_STYLE" = "Notification Style";
+"SCHEDULED_DELIVERY_SORT_ALPHABETICAL" = "A to Z";
 "CALENDAR_FOOTER" = "Only these Calendars will receive Notifications.";
-"SCHEDULED_DELIVERY_TWELFTH_SUMMARY" = "12th Summary";
 "SCHEDULED_DELIVERY_THIRD_SUMMARY" = "3rd Summary";
+"SCHEDULED_DELIVERY_TWELFTH_SUMMARY" = "12th Summary";
 "NONE_LABEL" = "None";
 "PRIORITIZE_NOTIFICATIONS_FOOTER_IPHONE" = "iPhone uses on-device processing to analyze the content of notifications for importance while protecting your privacy.";
 "ALL_CALENDAR" = "All";

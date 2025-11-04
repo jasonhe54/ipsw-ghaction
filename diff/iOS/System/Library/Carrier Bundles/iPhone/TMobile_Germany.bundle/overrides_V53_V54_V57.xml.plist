@@ -376,6 +376,8 @@
 	<integer>131072</integer>
 	<key>NRSlicing</key>
 	<dict>
+		<key>CallKitSupported</key>
+		<false/>
 		<key>EntitlementGenres</key>
 		<true/>
 		<key>ManagedSliceApps</key>
@@ -400,7 +402,7 @@
 			<integer>32</integer>
 		</array>
 		<key>SupportsLLPHS</key>
-		<false/>
+		<true/>
 		<key>TechnologyMask</key>
 		<integer>25</integer>
 	</dict>
