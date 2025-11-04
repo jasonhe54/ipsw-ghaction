@@ -7,7 +7,8 @@
 "VOICE_FEEDBACK" = "Voice Feedback";
 "MORE_CONTROLS_WATCH_WORKOUT_SETTINGS_FOOTER" = "Configure your settings for workouts on Apple Watch in the Watch app.";
 "AUTOPAUSE" = "Auto-Pause";
-"VOICE_FEEDBACK_DESCRIPTION" = "Siri can read out your workout alerts. If this is turned off, Workout Buddy can still make announcements about your workouts.";
+"VOICE_FEEDBACK_DESCRIPTION_NO_WORKOUT_BUDDY" = "Siri can read out your workout alerts. If Siri is turned off on a device, voice feedback will be unavailable when playing audio from that device.";
+"VOICE_FEEDBACK_DESCRIPTION" = "Siri can read out your workout alerts. If Siri is turned off on a device, voice feedback will be unavailable when playing audio from that device. Workout Buddy can still make announcements if this is turned off.";
 "AUTOPAUSE_CYCLING" = "Outdoor Cycling";
 "WORKOUT_CONTROLS" = "Workout";
 "END_WORKOUT_CONFIRMATION_DESCRIPTION" = "Include a confirmation when ending your workout.";

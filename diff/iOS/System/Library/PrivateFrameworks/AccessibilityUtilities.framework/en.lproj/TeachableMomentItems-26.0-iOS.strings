@@ -1,5 +1,5 @@
 "HOVER_TEXT_TOUCH_SUPPORT_DESCRIPTION" = "Use a new on-screen control to display large-text view of items using touch.";
-"LC_ADDITIONAL_LANGUAGES_DESCRIPTION" = "Expanded language support including English (Australia), English (United Kingdom), English (India), English (Singapore), German (Germany), Spanish (Spain), Spanish (Mexico), Spanish (United States), French (Canada), French (France), Japanese (Japan), Korean (South Korea), Cantonese (China), Chinese (China), Chinese (Hong Kong).";
+"LC_ADDITIONAL_LANGUAGES_DESCRIPTION" = "Expanded language support including English (Australia), English (United Kingdom), English (India), English (Singapore), German (Germany), Spanish (Spain), Spanish (Mexico), Spanish (United States), French (Canada), French (France), Japanese (Japan), Korean (South Korea), Cantonese (China), Chinese (China), Cantonese (Hong Kong).";
 "ZOOM_OUT_TITLE" = "Item Overview";
 "APPLE_KOREAN_TABLE_DESCRIPTION" = "A new Korean (2024, Uncontracted English) table is available to input Korean in Braille.";
 "MUSIC_HAPTICS_CUSTOMIZE_MODE_DESCRIPTION" = "Customize the haptics mode by choosing between full mix or vocals only.";
@@ -24,6 +24,7 @@
 • Copy, paste, or clear transcriptions.
 • Toggle "Save Call Captions" to make phone call captions available for copying and screenshotting.";
 "VC_MORE_LANGUAGES_DESCRIPTION_LIST" = "Expanded language support including %@.";
+"BUTTON_SHAPES_CHANGE_DESCRIPTION" = "Button Shapes has been renamed to Show Borders and will show outlines around prominent UI.";
 "AA_ONE_TAP_DESCRIPTION" = "In devices that do not have Face ID or Touch ID enrolled, Assistive Access can now be unlocked with a single tap. You can turn this on in Settings > Accessibility > Assistive Access > Unlock with One Tap.";
 "APPLE_KOREAN_TABLE_TITLE" = "Korean Braille Input";
 "CAR_PLAY_LARGE_TEXT_TITLE" = "CarPlay Large Text";
@@ -60,7 +61,7 @@
 "LL_LIVE_CAPTIONS_TITLE" = "Live Captions";
 "PV_SPANISH_DESCRIPTION" = "Create a Spanish (Mexico) Personal Voice.";
 "BRAILLE_CUSTOMIZE_COMMANDS_TITLE" = "Customize Commands";
-"AA_TV_OPTIMIZED_DESCRIPTION" = "In devices that do not have Face ID or Touch ID enrolled, Assistive Access can now be unlocked with a single tap. You can turn this on in Settings > Accessibility > Assistive Access > Unlock with One Tap.";
+"AA_TV_OPTIMIZED_DESCRIPTION" = "Downloaded TV shows and movies are available for playback in Assistive Access.";
 "LL_LIVE_LISTEN_NEARBY_DEVICES_DESCRIPTION" = "Use other devices, such as an Apple Watch, to serve as a remote control to start, stop, or rewind Live Listen sessions.";
 "MOTION_CUES_CUSTOMIZATION_DESCRIPTION" = "Customize Motion Cues appearance by changing color, size, spacing, and motion.";
 "SCAT_EYE_TRACKING_DESCRIPTION" = "Use Eye Tracking as a cursor within Switch Control.";
@@ -89,6 +90,7 @@
 "AA_BACK_BUTTON_DESCRIPTION" = "Hide the back button for apps that have not been optimized for Assistive Access. You can add this option to Assistive Access in Settings > Accessibility > Assistive Access > Hide Back Button for Unoptimized Apps.";
 "VO_COPIED_SPEECH_DESCRIPTION" = "Manage recently-copied speech phrases and choose what to paste.";
 "AA_ONE_TAP_TITLE" = "Unlock with One Tap";
+"BUTTON_SHAPES_CHANGE" = "Button Shapes and Show Borders";
 "BRAILLE_DOT_POSITION_TITLE" = "Dot Position Learning";
 "LL_LIVE_LISTEN_REWIND_TITLE" = "Live Listen Rewind";
 "BRAILLE_UI_DESCRIPTION" = "Quickly access Braille Notes, BRF files, and more anytime using your Braille display.";

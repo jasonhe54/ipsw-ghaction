@@ -151,7 +151,6 @@
 "%@ removed a dislike from a movie" = "%@ removed a dislike from a movie";
 "You reacted with a sticker to a movie" = "You reacted with a sticker to a movie";
 "%@ laughed at a contact" = "%@ laughed at a contact";
-"%@ added %@ to the conversation. %lu scheduled messages" = "{'lu_scheduled_messages': {'one': '%@ added %@ to the conversation. You have a scheduled message in this group.', 'other': '%@ added %@ to the conversation. You have scheduled messages in this group.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@lu_scheduled_messages@'}";
 "%@ removed a like from a Photo Message" = "%@ removed a like from a Photo Message";
 "FILTERHANDLE_FOLDER_NAME_OTHERS" = "Others";
 "%@, %@ and %@ other people (%@)" = "%@, %@ and %@ other people (%@)";
@@ -367,13 +366,14 @@
 "Removed a sticker from an attachment" = "Removed a sticker from an attachment";
 "Questioned a Photo Message" = "Questioned a Photo Message";
 "TAN_DISPLAY" = "%1$@ (%2$@)";
-"You removed a heart from a Handwritten Message" = "You removed a heart from a Handwritten Message";
+"POLL_VOTE_MESSAGE" = "Sent a vote";
 "IMPACT_GENTLE" = "(sent with Gentle Effect)";
 "Digital Touch Message" = "Digital Touch Message";
+"You removed a heart from a Handwritten Message" = "You removed a heart from a Handwritten Message";
 "Message sent with Echo" = "Message sent with Echo";
-"You laughed at an image" = "You laughed at an image";
 "You removed a sticker from an attachment" = "You removed a sticker from an attachment";
 "You removed %@ from an attachment" = "You removed %@ from an attachment";
+"You laughed at an image" = "You laughed at an image";
 "SMS_FULL_WARNING" = "Your SMS mailbox is full. New messages cannot be received until you delete some messages.";
 "Removed a heart from an image" = "Removed a heart from an image";
 "You disliked an audio message" = "You disliked an audio message";
@@ -389,6 +389,7 @@
 "You laughed at "%@"" = "You laughed at “%@”";
 "Removed %@ from 1 %@ Message" = "Removed %@ from 1 %@ Message";
 "%@ loved a Digital Touch Message" = "%@ loved a Digital Touch Message";
+"POLL_VOTE_SELF_MESSAGE" = "You sent a vote";
 "You removed a question mark from %@" = "You removed a question mark from %@";
 "You liked an image" = "You liked an image";
 "FSM_SENT_WITH_SHOOTING_STAR" = "(sent with Shooting Star)";
@@ -398,6 +399,7 @@
 "%@ loved a contact" = "%@ loved a contact";
 "Removed a like from a Digital Touch Message" = "Removed a like from a Digital Touch Message";
 "%@ questioned a Wallet pass" = "%@ questioned a Wallet pass";
+"NOTIFICATION_PARTICIPANT_CHANGE_SCHEDULED_MESSAGE_SINGULAR" = "%@ added %@ to the conversation. You have a scheduled message in this group.";
 "%@ removed a like from an audio message" = "%@ removed a like from an audio message";
 "Reacted with a sticker to an image" = "Reacted with a sticker to an image";
 "Removed a question mark from a movie" = "Removed a question mark from a movie";
@@ -594,6 +596,7 @@
 "%lu Images" = "{'lu_images': {'one': '%lu Image', 'other': '%lu Images', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@lu_images@'}";
 "%@ liked a Digital Touch Message" = "%@ liked a Digital Touch Message";
 "FILTERHANDLE_FOLDER_NAME_OFFERS" = "Offers";
+"POLL_VOTE_OTHER_MESSAGE" = "$(%@) sent a vote";
 "Loved a Wallet pass" = "Loved a Wallet pass";
 "You removed a question mark from 1 %@ Message" = "You removed a question mark from 1 %@ Message";
 "You disliked 1 %@ Message" = "You disliked 1 %@ Message";
@@ -779,8 +782,9 @@
 "You removed a dislike from "%@"" = "You removed a dislike from “%@”";
 "You removed a like from a movie" = "You removed a like from a movie";
 "Disliked %@" = "Disliked %@";
-"%@ questioned a Handwritten Message" = "%@ questioned a Handwritten Message";
+"NOTIFICATION_PARTICIPANT_CHANGE_SCHEDULED_MESSAGE_PLURAL" = "%@ added %@ to the conversation. You have scheduled messages in this group.";
 "You removed a like from a Wallet pass" = "You removed a like from a Wallet pass";
+"%@ questioned a Handwritten Message" = "%@ questioned a Handwritten Message";
 "You disliked a movie" = "You disliked a movie";
 "Questioned %@" = "Questioned %@";
 "Removed an exclamation from 1 %@ Message" = "Removed an exclamation from 1 %@ Message";

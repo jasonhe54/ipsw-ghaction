@@ -385,6 +385,7 @@
 		<string>/private/var/containers/Bundle/Application/</string>
 		<string>/private/var/db/eligibilityd/eligibility.plist</string>
 		<string>/Applications/</string>
+		<string>/private/var/MobileDevice/ProvisioningProfiles/</string>
 		<string>/private/var/db/os_eligibility/</string>
 		<string>/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/</string>
 		<string>/private/var/MobileAsset/AssetsV2/locks/com.apple.UnifiedAssetFramework/com.apple.parsec.sba/shared_locks/</string>
@@ -457,6 +458,7 @@
 		<string>com.apple.trial.status</string>
 		<string>com.apple.generativeexperiences.availabilityService</string>
 		<string>com.apple.BrowserEngineKit.Intermediary</string>
+		<string>com.apple.timed.xpc</string>
 		<string>com.apple.Safari.History.Service</string>
 		<string>com.apple.Safari.PasswordBreachHelper</string>
 		<string>com.apple.proactive.PersonalizationPortrait.SocialHighlight</string>

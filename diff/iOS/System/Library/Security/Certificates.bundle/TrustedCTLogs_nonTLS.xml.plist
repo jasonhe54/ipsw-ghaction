@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGoAaFRkZI3m0+qB5jo3VwdzC
@@ -18,11 +18,11 @@
 		<key>operator</key>
 		<string>Cloudflare</string>
 		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
+		<date>2025-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2FxhT6xq0iCATopC9gStS9Sx
@@ -36,29 +36,29 @@
 		<key>operator</key>
 		<string>Cloudflare</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2028-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIIKh+WdoqOTblJji4WiH5Alt
-		IDUzODyvFKrXCBjw/Rab0/98J4LUh7dOJEY7+66+yCNSICuqRAX+VPnV8R1F
-		mg==
+		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYjd/jE0EoAhNBbfcNhrTb7F0
+		x10KZK8r2SDjx1GdjJ75hJrHx2OCQ+BXRjXi+czoREN1u0j9cWl8d6OoPMPo
+		gQ==
 		</data>
 		<key>log_id</key>
 		<data>
-		TnWjJ1yaEMM4W2zU3z9S6x3w4I4bjWnAsfpksWKaOd8=
+		TGPcmOWcHauI9h6KPd6uj6tEozd7X5uUw/uhnPzBviY=
 		</data>
 		<key>operator</key>
-		<string>Google</string>
+		<string>Cloudflare</string>
 		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEr+TzlCzfpie1/rJhgxnIIToj
@@ -72,29 +72,11 @@
 		<key>operator</key>
 		<string>Google</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
-		<key>key</key>
-		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEguLOkEA/gQ7f6uEgK14uMFRG
-		gblY7a+9/zanngtfamuRpcGY4fLN6xcgcMoqEuZUeFDc/239HKe2Oh/5Jqkb
-		vQ==
-		</data>
-		<key>log_id</key>
-		<data>
-		zxFW7tUufK/zh1vZaS6b6RpxZ0qwF+ysAdJbd87MOwg=
-		</data>
-		<key>operator</key>
-		<string>Google</string>
-		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
-	</dict>
-	<dict>
-		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEa+Cv7QZ8Pe/ZDuRYSwTYKkeZ
@@ -108,11 +90,11 @@
 		<key>operator</key>
 		<string>Google</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB/we6GOO/xwxivy4HhkrYFAA
@@ -126,11 +108,11 @@
 		<key>operator</key>
 		<string>Google</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKjpni/66DIYrSlGK6Rf+e6F2
@@ -144,11 +126,11 @@
 		<key>operator</key>
 		<string>Google</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOh/Iu87VkEc0ysoBBCchHOIp
@@ -162,11 +144,11 @@
 		<key>operator</key>
 		<string>Google</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5Xd4lXEos5XJpcx6TOgyA5Z7
@@ -180,13 +162,49 @@
 		<key>operator</key>
 		<string>Google</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2027-07-01T00:00:00Z</date>
+		<key>key</key>
+		<data>
+		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE/6WcA4VRSljIfTdY48+pFRLL
+		tLrmTb88cGDdl8Gv3E2LduG4jgJ3AK5iNMFGhpbRRLi5B3rPlBaXVywuR5IF
+		Dg==
+		</data>
+		<key>log_id</key>
+		<data>
+		RMK9DOkUDmSlyUoBkwpaobs1lw4A7hEWiWgqHETXtWY=
+		</data>
+		<key>operator</key>
+		<string>Google</string>
+		<key>start_inclusive</key>
+		<date>2027-01-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>end_exclusive</key>
+		<date>2027-07-01T00:00:00Z</date>
+		<key>key</key>
+		<data>
+		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKHRm0H/zUaFA6Idz5cGvGO3t
+		CPQyfGMgJmVBOPyKAP6mGM1IiNXi4CLomOUyYj0YN74p+eGVApFMsM4h/jzC
+		sA==
+		</data>
+		<key>log_id</key>
+		<data>
+		1tWNqdAXU/NqSqDHV0kCr+vH3CzTjNn3ZMgMiRkenwI=
+		</data>
+		<key>operator</key>
+		<string>Google</string>
+		<key>start_inclusive</key>
+		<date>2027-01-01T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>end_exclusive</key>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>expiry</key>
-		<date>2025-07-24T08:00:00Z</date>
+		<date>2025-07-24T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE35UAXhDBAfc34xB00f+yypDt
@@ -200,13 +218,13 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
+		<date>2025-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>expiry</key>
-		<date>2025-04-16T07:00:00Z</date>
+		<date>2025-04-15T23:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8vDwp4uBLgk5O59C2jhEX7TM
@@ -220,31 +238,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
+		<date>2025-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-07T08:00:00Z</date>
-		<key>expiry</key>
-		<date>2025-04-15T06:33:20Z</date>
-		<key>key</key>
-		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEp8uAYYYbH7WrKyB2WYNmDs6u
-		uG87iALrQ/SHkMuL2qwOGVDg+SQOqyaTjD+eDZZYRJ07ioDFyL7hiUZrSEzW
-		CQ==
-		</data>
-		<key>log_id</key>
-		<data>
-		cyAiDwgWivnzxKaLCrJqmkoA7vV3hYoITQUA1KVCRFk=
-		</data>
-		<key>operator</key>
-		<string>DigiCert</string>
-		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
-	</dict>
-	<dict>
-		<key>end_exclusive</key>
-		<date>2026-01-07T08:00:00Z</date>
+		<date>2026-01-07T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4NtB7+QEvctrLkzM8WzeQVh/
@@ -258,11 +256,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7Lw0OeKajbeZepHxBXJS2pOJ
@@ -276,11 +274,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEenPbSvLeT+zhFBu+pqk8IbhF
@@ -294,31 +292,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-07T08:00:00Z</date>
-		<key>expiry</key>
-		<date>2025-04-15T06:33:20Z</date>
-		<key>key</key>
-		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4y8fTYkFdSl4uyI9B2JRFHCU
-		5zzq9e6upkiahlJOnlzjlZcou1JLKv3IyYlORTEX043y584YEViYLGBvWCA2
-		bg==
-		</data>
-		<key>log_id</key>
-		<data>
-		3oWB11AkfGvNy69WN8XngcZM5G7WF2OfjzSnJsnivTc=
-		</data>
-		<key>operator</key>
-		<string>DigiCert</string>
-		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
-	</dict>
-	<dict>
-		<key>end_exclusive</key>
-		<date>2026-01-07T08:00:00Z</date>
+		<date>2026-01-07T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQYxQE1SxGQW3f0ogbqN1Y8o0
@@ -332,11 +310,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEq4S++DyHokIlmmacritS51r5
@@ -350,11 +328,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEquD0JkRQT/2inuaA4HC1sc6U
@@ -368,29 +346,11 @@
 		<key>operator</key>
 		<string>DigiCert</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
-		<key>key</key>
-		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEzxBtTB9LkqhqGvSxVdrmP5+
-		79Uh4rpdsLqFEW6U4D2ojm1WjUQCnrCDzFTfm05yYks8DDLdhvvrPmbNd1hb
-		5Q==
-		</data>
-		<key>log_id</key>
-		<data>
-		E0rfGrWYQgl4DG/vTHqRpBa3I0nOWFdq367ap8Kr4CI=
-		</data>
-		<key>operator</key>
-		<string>Sectigo</string>
-		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
-	</dict>
-	<dict>
-		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEiOLHs9c3o5HXs8XaB1EEK4Ht
@@ -404,29 +364,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
-		<key>key</key>
-		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfi858egjjrMyBK9NV/bbxXSk
-		em07B1EMWvuAMAXGWgzEdtYGqFdN+9/kgpDCQa5wszGi4/o9XyxdBM20nVWr
-		QQ==
-		</data>
-		<key>log_id</key>
-		<data>
-		4JKz/AwdyOdoNh/eYbmWTQpSeBmKctZyxLBNpW1vVAQ=
-		</data>
-		<key>operator</key>
-		<string>Sectigo</string>
-		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
-	</dict>
-	<dict>
-		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhRMRLXvzk4HkuXzZZDvntYOZ
@@ -440,11 +382,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnssMilHMiuILzoXmr00x2xtq
@@ -458,11 +400,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7INh8te0u+TkO+vIY3WYz2GQ
@@ -476,11 +418,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhCa8Nr3YjTyHnuAQr82U2de5
@@ -494,11 +436,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzjXK7DkHgtp3J4bk8n7F3Djy
@@ -512,11 +454,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0OlLeGW2qUZGUoQERydw3Gla
@@ -530,11 +472,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEU0lqnPHoXuU9Fc9dJv1HQZCv
@@ -548,11 +490,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEO/t4Uwkoou78zkCchh9tfAKb
@@ -566,11 +508,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-07-01T08:00:00Z</date>
+		<date>2027-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4fu36JygUwaaVO+ddWJ97FJZ
@@ -584,11 +526,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2028-01-01T08:00:00Z</date>
+		<date>2028-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECTPhpJnRFroRRpP/1DdAns+P
@@ -602,11 +544,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2027-07-01T08:00:00Z</date>
+		<date>2027-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFUl5keBbWVckXMv6WSWToTeG
@@ -620,11 +562,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2025-07-01T08:00:00Z</date>
+		<date>2025-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE73eDJyszDbzsWcgI0nbtU0+y
@@ -638,11 +580,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfJFUD/FRkonvZIA9ZT1J3yvA
@@ -656,11 +598,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2026-07-01T08:00:00Z</date>
+		<date>2026-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-07-01T08:00:00Z</date>
+		<date>2027-07-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmMQofpsDjCVYzF4jXdFWM/io
@@ -674,11 +616,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2027-01-01T08:00:00Z</date>
+		<date>2027-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2028-01-01T08:00:00Z</date>
+		<date>2028-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEb0AgkemhsPmYe1goCSy5ncf2
@@ -692,29 +634,11 @@
 		<key>operator</key>
 		<string>Sectigo</string>
 		<key>start_inclusive</key>
-		<date>2027-07-01T08:00:00Z</date>
+		<date>2027-07-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2025-07-20T08:00:00Z</date>
-		<key>key</key>
-		<data>
-		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKeBpU9ejnCaIZeX39EsdF5vD
-		vf8ELTHdLPxikl4y4EiROIQfS4ercpnMHfh8+TxYVFs3ELGr2IP7hPGVPy4v
-		HA==
-		</data>
-		<key>log_id</key>
-		<data>
-		ouMK5EXvva2bfjjtR2d3U9eCW4SU1yteGyzEuVCkR+c=
-		</data>
-		<key>operator</key>
-		<string>Let's Encrypt</string>
-		<key>start_inclusive</key>
-		<date>2024-12-20T08:00:00Z</date>
-	</dict>
-	<dict>
-		<key>end_exclusive</key>
-		<date>2026-01-20T08:00:00Z</date>
+		<date>2026-01-20T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEtXYwB63GyNLkS9L1vqKNnP10
@@ -728,11 +652,11 @@
 		<key>operator</key>
 		<string>Let's Encrypt</string>
 		<key>start_inclusive</key>
-		<date>2025-06-20T08:00:00Z</date>
+		<date>2025-06-20T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-07-20T08:00:00Z</date>
+		<date>2026-07-20T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmdRhcCL6d5MNs8eAliJRvyV5
@@ -746,11 +670,11 @@
 		<key>operator</key>
 		<string>Let's Encrypt</string>
 		<key>start_inclusive</key>
-		<date>2025-12-20T08:00:00Z</date>
+		<date>2025-12-20T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-20T08:00:00Z</date>
+		<date>2027-01-20T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEanCds5bj7IU2lcNPnIvZfMnV
@@ -764,11 +688,11 @@
 		<key>operator</key>
 		<string>Let's Encrypt</string>
 		<key>start_inclusive</key>
-		<date>2026-06-20T08:00:00Z</date>
+		<date>2026-06-20T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEcOWxpAl5K534o6DfGO+VXQNs
@@ -782,11 +706,11 @@
 		<key>operator</key>
 		<string>TrustAsia</string>
 		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
+		<date>2025-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2026-01-01T08:00:00Z</date>
+		<date>2026-01-01T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqqCL22cUXZeJHQiNBtfBlI6w
@@ -800,11 +724,11 @@
 		<key>operator</key>
 		<string>TrustAsia</string>
 		<key>start_inclusive</key>
-		<date>2025-01-01T08:00:00Z</date>
+		<date>2025-01-01T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-08T08:00:00Z</date>
+		<date>2027-01-08T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEp056yaYH+f907JjLSeEAJLNZ
@@ -818,11 +742,11 @@
 		<key>operator</key>
 		<string>TrustAsia</string>
 		<key>start_inclusive</key>
-		<date>2025-12-24T08:00:00Z</date>
+		<date>2025-12-24T00:00:00Z</date>
 	</dict>
 	<dict>
 		<key>end_exclusive</key>
-		<date>2027-01-08T08:00:00Z</date>
+		<date>2027-01-08T00:00:00Z</date>
 		<key>key</key>
 		<data>
 		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDxKMqebj7GLu31jIUOYmcHYQ
@@ -836,7 +760,25 @@
 		<key>operator</key>
 		<string>TrustAsia</string>
 		<key>start_inclusive</key>
-		<date>2025-12-24T08:00:00Z</date>
+		<date>2025-12-24T00:00:00Z</date>
+	</dict>
+	<dict>
+		<key>end_exclusive</key>
+		<date>2028-01-08T00:00:00Z</date>
+		<key>key</key>
+		<data>
+		MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE14jG8D9suqIVWPtTNOL33uXK
+		Z4mUnnOMrIwOWeZU7GtoDRCWIXfy/9/SC8lTAbtP2NOP4wjIufAk6f64sY4D
+		Wg==
+		</data>
+		<key>log_id</key>
+		<data>
+		7drrgVxjITRJtHvlB3kFq9DZMUfCesUUazvFjkPptsc=
+		</data>
+		<key>operator</key>
+		<string>TrustAsia</string>
+		<key>start_inclusive</key>
+		<date>2026-12-25T00:00:00Z</date>
 	</dict>
 </array>
 </plist>

@@ -72,7 +72,7 @@ Sign into Messages with %@?
 "FAMILY_CHECKLIST_CUSTODIAN_CONTACT_DESCRIPTION" = "Add a family member as a recovery contact. They can help you get back into your account if you forget your password.";
 "FAMILY_SETUP_APPLE_ID_EXPLANATION_FOR_INVITEE" = "Family Sharing requires everyone to use their own Apple Account. This ensures purchases, photos, comments, and more are attributed to the right people.
 
-To switch to your personal Apple Account, go to iCloud Settings, sign out, and then sign in with the correct Apple Account. Then open the Family Invitation email you received and select Join Family.";
+To switch to your personal Apple Account, go to iCloud settings, sign out, and then sign in with the correct Apple Account. Then open the Family Invitation email you received and select Join Family.";
 "FOLLOWUP_INVITE_PRIMARY" = "View Invitation";
 "CONFIRM_AGE" = "{'CONFIRM_AGE': {'one': 'Confirm Age', 'other': 'Confirm Ages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@CONFIRM_AGE@'}";
 "FAMILY_CHECKLIST_BENEFICIARY_ADD_CONTACT_BUTTON" = "Add a Legacy Contact";
@@ -121,7 +121,7 @@ photo";
 "FAMILY_CHECKLIST_CUSTODIAN_ALTERNATE_TITLE" = "Recovery Contacts Added";
 "FAMILY_SETUP_APPLE_ID_EXPLANATION_FOR_INVITEE_REBRAND" = "Family Sharing requires everyone to use their own Apple Account. This ensures purchases, photos, comments, and more are attributed to the right people.
 
-To switch to your personal Apple Account, go to iCloud Settings, sign out, and then sign in with the correct Apple Account. Then open the Family Invitation email you received and select Join Family.";
+To switch to your personal Apple Account, go to iCloud settings, sign out, and then sign in with the correct Apple Account. Then open the Family Invitation email you received and select Join Family.";
 "FAMILY_FULL_MESSAGE" = "A Family Sharing group can have up to 6 family members, including you.
 
 Remove a current family member before adding a new one.";
@@ -135,7 +135,7 @@ Remove a current family member before adding a new one.";
 "CHILD_TRANSFER_SUCCESSFUL_MESSAGE" = "Child transfer request successfully sent";
 "FAMILY_SETUP_APPLE_ID_EXPLANATION" = "Family Sharing requires everyone to use their own Apple Account. This ensures purchases, photos, comments, and more are attributed to the right people.
 
-To switch to your personal Apple Account, go to iCloud Settings, sign out, and then sign in with the correct Apple Account.";
+To switch to your personal Apple Account, go to iCloud settings, sign out, and then sign in with the correct Apple Account.";
 "AGE_RANGE_SHARING_LIST" = "Apps that have requested your age range appear here.";
 "INVITE_ERROR_ALERT_TITLE" = "Server Error Loading Invitation";
 "FAMILY_INVITATIONS_TITLE" = "Invitations";
@@ -503,7 +503,7 @@ and enable
 "FAMILY_CHECKLIST_MESSAGES_HANDLES_NO_APPLEID" = "Apple Account not signed in, but reachable at %@";
 "FAMILY_SETUP_APPLE_ID_EXPLANATION_REBRAND" = "Family Sharing requires everyone to use their own Apple Account. This ensures purchases, photos, comments, and more are attributed to the right people.
 
-To switch to your personal Apple Account, go to iCloud Settings, sign out, and then sign in with the correct Apple Account.";
+To switch to your personal Apple Account, go to iCloud settings, sign out, and then sign in with the correct Apple Account.";
 "FAMILY_CHECKLIST_SUBTITLE" = "Suggestions for getting the most out of Family Sharing.";
 "FAMILY_MEMBER_GUARDIAN_SECTION_ACCESS_FOOTER" = "Guardians have access to this information of the children in the family.";
 "FAMILY_SETUP_USE_DIFFERENT_ID_BUTTON" = "Not %@ or want to use a different ID?";

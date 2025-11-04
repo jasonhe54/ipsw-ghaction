@@ -186,6 +186,28 @@
 				<key>ResourceIntensive</key>
 				<true/>
 			</dict>
+			<key>com.apple.duetexpertd.notificationmetrics</key>
+			<dict>
+				<key>GroupConcurrencyLimit</key>
+				<integer>1</integer>
+				<key>GroupName</key>
+				<string>com.apple.duetexpertd.defaultGroup</string>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>86400</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<true/>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>kBGSTProtectionClassC</string>
+				<key>ResourceIntensive</key>
+				<false/>
+			</dict>
 		</dict>
 		<key>com.apple.distnoted.matching</key>
 		<dict>
@@ -792,29 +814,6 @@
 				<key>RequiresClassC</key>
 				<true/>
 			</dict>
-			<key>com.apple.duetexpertd.blendingfeedbackmetricslogging</key>
-			<dict>
-				<key>ActivityGroupConcurrencyLimit</key>
-				<integer>1</integer>
-				<key>ActivityGroupName</key>
-				<string>com.apple.duetexpertd.defaultGroup</string>
-				<key>AllowBattery</key>
-				<false/>
-				<key>CPUIntensive</key>
-				<false/>
-				<key>DiskIntensive</key>
-				<false/>
-				<key>Interval</key>
-				<integer>86400</integer>
-				<key>MemoryIntensive</key>
-				<false/>
-				<key>Priority</key>
-				<string>Maintenance</string>
-				<key>Repeating</key>
-				<true/>
-				<key>RequiresClassC</key>
-				<true/>
-			</dict>
 			<key>com.apple.duetexpertd.cardSuggestionClientCacheCleanup</key>
 			<dict>
 				<key>ActivityGroupConcurrencyLimit</key>
@@ -1174,29 +1173,6 @@
 				<false/>
 				<key>Interval</key>
 				<integer>1209600</integer>
-				<key>MemoryIntensive</key>
-				<false/>
-				<key>Priority</key>
-				<string>Maintenance</string>
-				<key>Repeating</key>
-				<true/>
-				<key>RequiresClassC</key>
-				<true/>
-			</dict>
-			<key>com.apple.duetexpertd.periodiclog</key>
-			<dict>
-				<key>ActivityGroupConcurrencyLimit</key>
-				<integer>1</integer>
-				<key>ActivityGroupName</key>
-				<string>com.apple.duetexpertd.defaultGroup</string>
-				<key>AllowBattery</key>
-				<false/>
-				<key>CPUIntensive</key>
-				<false/>
-				<key>DiskIntensive</key>
-				<false/>
-				<key>Interval</key>
-				<integer>86400</integer>
 				<key>MemoryIntensive</key>
 				<false/>
 				<key>Priority</key>

@@ -7,6 +7,16 @@
 		<key>Enabled</key>
 		<true/>
 	</dict>
+	<key>LanguageAwareStringAutoAdjustWritingDirectionUITextView</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>LanguageAwareStringAutoAdjustWritingDirectionUsingKeyboardAsEffective</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
 	<key>Pegasus</key>
 	<dict>
 		<key>Enabled</key>
@@ -28,6 +38,11 @@
 		<string>FeatureComplete</string>
 	</dict>
 	<key>bidi_copy_paste</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>bidi_undo</key>
 	<dict>
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>

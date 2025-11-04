@@ -6,6 +6,7 @@
 "ENERGY_UNITS_KILOJOULES_LABEL" = "Kilojoules";
 "CYCLING_POWER_CONFIGURATION_POWER_ZONES_SIZE_TITLE" = "Zones";
 "HEART_RATE_CONFIGURATION_RESTING_TITLE" = "Resting";
+"MIRROR_WORKOUTS_AUTOMATICALLY" = "Automatic";
 "CYCLING_POWER_CONFIGURATION_FTP_TITLE" = "Functional Threshold Power";
 "METRIC_CURRENT_PACE" = "Current Pace";
 "WALKING_RUNNING_WORKOUTS_TITLE_WHEELCHAIR" = "WHEELCHAIR, WALKING, AND RUNNING WORKOUTS";
@@ -33,16 +34,16 @@
 "WORKOUT_VOICE_FEEDBACK_LABEL" = "Voice Feedback";
 "MUSIC_ENABLED" = "Enabled";
 "ROWING_WORKOUTS_TITLE" = "ROWING WORKOUTS";
-"COMPASS_INTEGRATION_LABEL" = "Compass";
+"METRIC_ELEVATION" = "Elevation Gain";
 "DOUBLE_TAP_TO_SCROLL_WORKOUT_VIEWS_ENABLED_GESTURE_LINK" = "Gestures";
 "UNITS_OF_MEASURE_PANE_TITLE" = "Units of Measure";
-"METRIC_ELEVATION" = "Elevation Gain";
+"METRIC_DURATION" = "Duration";
 "CYCLING_POWER_CONFIGURATION_ZONE_PERCENTAGE_RANGE" = "%1$@–%2$@%%";
 "POOL_LENGTH_METERS_LABEL" = "Meters";
 "MIRROR_WORKOUTS_ENABLED_LABEL" = "View Metrics on iPhone";
 "METRIC_TOTAL_ENERGY_KCAL" = "Total Kilocalories";
 "HEART_RATE_CONFIGURATION_LAST_ZONE_MANUAL_VALUE" = "%@+";
-"METRIC_DURATION" = "Duration";
+"COMPASS_INTEGRATION_LABEL" = "Compass";
 "CYCLING_POWER_CONFIGURATION_AUTOMATIC_FOOTER" = "Your Functional Threshold Power (FTP) is estimated based on your heart rate and power output during recent activities. This estimated FTP is validated for users 20 and older. You can also enter a custom FTP as well as your own power zones.";
 "CYCLING_POWER_CONFIGURATION_FTP_AVAILABLE_FORMAT" = "%1$@%2$@";
 "ENERGY_UNITS_KILOCALORIES_LABEL" = "Kilocalories";
@@ -69,7 +70,6 @@
 "BACKTRACK_FOOTER" = "Start a Backtrack session when a workout begins in a remote location.";
 "PACE_VIEW_LABEL" = "Pace/Speed View";
 "METRIC_LAPS" = "Laps";
-"WORKOUT_VOICE_FEEDBACK_FOOTER_SIRI_DISABLED" = "Siri needs to be enabled to read out your workout alerts.";
 "ENABLED_METRICS_TITLE" = "METRICS";
 "NFC_ENABLED_FOOTER" = "Quickly connect and start workouts by holding Apple Watch near compatible gym equipment. When this is off, you can connect by opening the Workout app, then holding Apple Watch near the gym equipment.";
 "DOUBLE_TAP_TO_SCROLL_WORKOUT_VIEWS_ENABLED_FOOTER" = "Tap your index finger and thumb together twice to scroll to the next workout view. Double tap must be turned on in Gestures.";
@@ -90,7 +90,7 @@
 "METRIC_AVERAGE_PACE" = "Average Pace";
 "END_REMINDERS_ENABLED_LABEL" = "End Workout";
 "METRIC_HEART_RATE" = "Heart Rate";
-"WORKOUT_VOICE_FEEDBACK_FOOTER" = "Siri can read out your workout alerts. If this is turned off, Workout Buddy can still make announcements about your workouts.";
+"WORKOUT_VOICE_FEEDBACK_FOOTER" = "Siri can read out your workout alerts. If Siri is turned off on a device, voice feedback will be unavailable when playing audio from that device. Workout Buddy can still make announcements if this is turned off.";
 "AUTO_START_WORKOUT_NOTIFICATIONS_ENABLED_LABEL" = "Start Workout";
 "WALKING_RUNNING_WORKOUTS_TITLE" = "WALKING AND RUNNING WORKOUTS";
 "HEART_RATE_CONFIGURATION_BEATS_PER_MINUTE" = "Beats per Minute";
@@ -142,6 +142,7 @@
 "CYCLING_POWER_ZONES_BUTTON_TITLE" = "Cycling Power";
 "NFC_ENABLED_WITH_NFC_SWITCH_FOOTER" = "Quickly connect and start workouts by holding Apple Watch near compatible gym equipment. When this is off, you can connect by opening the Workout app, then holding Apple Watch near the gym equipment. GymKit cannot be used without near field communication (NFC). You can turn on NFC in settings on your Apple Watch.";
 "HEART_RATE_CONFIGURATION_START_OF_ZONE_TITLE" = "LOWER LIMIT";
+"WORKOUT_VOICE_FEEDBACK_FOOTER_NO_WORKOUT_BUDDY" = "Siri can read out your workout alerts. If Siri is turned off on a device, voice feedback will be unavailable when playing audio from that device.";
 "CYCLING_POWER_CONFIGURATION_FIRST_ZONE_WATTS_RANGE" = "<%1$@%2$@";
 "AUTO_PAUSE_ENABLED_FOOTER_WITHOUT_SPARTAN" = "Apple Watch can automatically pause certain workouts when you stop moving and resume when you start again.";
 "POWER_SAVING_MODE_ENABLED_LABEL" = "Power Saving Mode";

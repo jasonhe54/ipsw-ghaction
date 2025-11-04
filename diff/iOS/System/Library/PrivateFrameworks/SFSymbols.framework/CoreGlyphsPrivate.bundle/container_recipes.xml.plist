@@ -15423,7 +15423,7 @@
 					<key>26</key>
 					<dict>
 						<key>pointsize_to_shape_mul</key>
-						<string>1.8431111111111111</string>
+						<string>1.914</string>
 						<key>symbol_size</key>
 						<string>Medium</string>
 						<key>symbol_weight</key>
@@ -15436,7 +15436,7 @@
 					<key>29</key>
 					<dict>
 						<key>pointsize_to_shape_mul</key>
-						<string>1.8431111111111111</string>
+						<string>1.951529411764706</string>
 						<key>symbol_size</key>
 						<string>Medium</string>
 						<key>symbol_weight</key>
@@ -18979,9 +18979,9 @@
 						<key>symbol_weight</key>
 						<string>Regular</string>
 						<key>x_offset</key>
-						<string>0.007873297665369702</string>
+						<string>0.0078</string>
 						<key>y_offset</key>
-						<string>0.01130836575875483</string>
+						<string>0.0113</string>
 					</dict>
 					<key>20</key>
 					<dict>
@@ -18992,9 +18992,9 @@
 						<key>symbol_weight</key>
 						<string>Regular</string>
 						<key>x_offset</key>
-						<string>0.007873297665369702</string>
+						<string>0.0078</string>
 						<key>y_offset</key>
-						<string>0.01130836575875483</string>
+						<string>0.0113</string>
 					</dict>
 					<key>26</key>
 					<dict>
@@ -19005,9 +19005,9 @@
 						<key>symbol_weight</key>
 						<string>Regular</string>
 						<key>x_offset</key>
-						<string>0.002766293774319065</string>
+						<string>0.0026</string>
 						<key>y_offset</key>
-						<string>0.01130836575875483</string>
+						<string>0.0037666666666666664</string>
 					</dict>
 					<key>29</key>
 					<dict>
@@ -19017,10 +19017,6 @@
 						<string>Medium</string>
 						<key>symbol_weight</key>
 						<string>Regular</string>
-						<key>x_offset</key>
-						<string>0.0002127918287937458</string>
-						<key>y_offset</key>
-						<string>0.01130836575875483</string>
 					</dict>
 					<key>enclosure_sizes</key>
 					<array>
@@ -28577,7 +28573,7 @@
 					<key>default</key>
 					<dict>
 						<key>pointsize_to_shape_mul</key>
-						<string>1.7649812593516583</string>
+						<string>1.6262745098039215</string>
 						<key>symbol_size</key>
 						<string>Medium</string>
 						<key>symbol_weight</key>
@@ -28586,49 +28582,15 @@
 				</dict>
 				<key>rounded_rect</key>
 				<dict>
-					<key>14</key>
+					<key>default</key>
 					<dict>
 						<key>pointsize_to_shape_mul</key>
-						<string>1.508</string>
+						<string>1.405762711864407</string>
 						<key>symbol_size</key>
 						<string>Medium</string>
 						<key>symbol_weight</key>
 						<string>Regular</string>
 					</dict>
-					<key>20</key>
-					<dict>
-						<key>pointsize_to_shape_mul</key>
-						<string>1.508</string>
-						<key>symbol_size</key>
-						<string>Medium</string>
-						<key>symbol_weight</key>
-						<string>Regular</string>
-					</dict>
-					<key>26</key>
-					<dict>
-						<key>pointsize_to_shape_mul</key>
-						<string>1.6510948905109486</string>
-						<key>symbol_size</key>
-						<string>Medium</string>
-						<key>symbol_weight</key>
-						<string>Regular</string>
-					</dict>
-					<key>29</key>
-					<dict>
-						<key>pointsize_to_shape_mul</key>
-						<string>1.7333333333333332</string>
-						<key>symbol_size</key>
-						<string>Medium</string>
-						<key>symbol_weight</key>
-						<string>Regular</string>
-					</dict>
-					<key>enclosure_sizes</key>
-					<array>
-						<string>14</string>
-						<string>20</string>
-						<string>26</string>
-						<string>29</string>
-					</array>
 				</dict>
 			</dict>
 		</dict>

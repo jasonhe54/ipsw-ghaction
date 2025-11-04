@@ -124,6 +124,7 @@
 "InfoMessage.ShowNamesPromptWithCommandAsArgument" = "Say “%@” to press.";
 "CommandImportExport.failedToCreateURL" = "Failed to create URL from file path.";
 "Overlays.DisplayName" = "Overlays";
+"UserNotification.SensitiveLogging.Body" = "Transcriptions of recognized speech are being saved to system logs.";
 "InfoMessage.ClosestMatchingMultipleCommands" = "Suggested Commands %@";
 "CustomCommand.RunUserActionFlow" = "Playback Recorded Commands";
 "CommandImportExport.importOverflowFailNoNewAlertDescription" = "No new custom commands can be imported.";
@@ -151,6 +152,7 @@
 "Frame.TopRight" = "Top right of screen";
 "Onboarding.Description_AppleVision" = "Use your voice to do things on Apple Vision Pro, even when you are on calls or when you’re not connected to the internet.";
 "InfoMessage.DisambiguationPrompt" = "Say number of desired item.";
+"UserNotification.SensitiveLogging.Title" = "Sensitive Logging Enabled";
 "CommonStrings.Allow" = "Allow";
 "ErrorMessage.MicrophoneCannotBeObtained" = "The microphone is already being used by another application. Voice Control will quit.";
 "CustomCommand.RunShortcutsWorkflowSetupShortcuts" = "Shortcuts can be created in the Shortcuts app";

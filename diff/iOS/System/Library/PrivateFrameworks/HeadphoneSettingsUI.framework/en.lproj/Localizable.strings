@@ -1,12 +1,8 @@
 "" = "";
 "On" = "On";
-"Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this iPhone.
-
-The AirPods firmware update is a pre-release software update. Your participation in this program is subject to and licensed under the terms and conditions of the Developer Program License Agreement (“DPLA”) %@" = "Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this iPhone.
-
-The AirPods firmware update is a pre-release software update. Your participation in this program is subject to and licensed under the terms and conditions of the Developer Program License Agreement (“DPLA”) %@";
 "Important Message" = "Important Message";
 "AirPods Pro" = "AirPods Pro";
+"Loud Sound Reduction" = "Loud Sound Reduction";
 "Enabling this AirPods setting automatically installs the AirPods firmware update, which is pre-release software. Your use is subject to and licensed only under the terms and conditions of the Apple Developer Agreement (“ADA”), Developer Program License Agreement (“DPLA”), and/or Apple Beta Software Agreement, including any applicable consent to collect diagnostic data set forth therein. If you have not agreed to the ADA, DPLA, and/or Apple Beta Software Agreement, then you are not permitted to use this AirPods firmware. Enabling this AirPods setting may provide you with access to Apple tools so that you may help Apple troubleshoot issues with your device and help Apple to improve AirPods and related products and services.
 
 Please be sure to backup your devices and archive that backup prior to enabling this AirPods setting. Once the firmware is installed, it cannot be removed and the AirPods cannot be restored to previously-released OS versions. After installation of the AirPods firmware, do not insert any un-updated earbuds into the charging case, because they may be updated with the firmware. Attempting to install this version of the AirPods firmware in an unauthorized manner could put your device in an unusable state, which could necessitate an out of warranty repair. If you need assistance restoring your device, please contact AppleCare by visiting https://support.apple.com.
@@ -20,7 +16,6 @@ Please be sure to backup your devices and archive that backup prior to enabling 
 By installing the AirPods firmware, you may send certain personal information to Apple if you provide sysdiagnose or submit feedback through Feedback Assistant. The personal information may include information found on your device or associated with your iCloud accounts, including but not limited to your name, serial numbers of your device, your device name, your device’s location over the last one to two days, your attached peripheral devices, your user name, your email address and email settings, file paths, file names, Siri suggestions, your computer’s IP addresses, and network connection information.
 
 By installing the AirPods firmware and submitting sysdiagnose or feedback through Feedback Assistant, you consent to Apple’s use of your information in accordance with its privacy policy (http://www.apple.com/legal/privacy).";
-"Loud Sound Reduction" = "Loud Sound Reduction";
 "Test the Fit of Your Ear Tips" = "Test the Fit of Your Ear Tips";
 "Legal Consent" = "Legal Consent";
 "Not Now" = "Not Now";
@@ -38,13 +33,13 @@ By installing the AirPods firmware and submitting sysdiagnose or feedback throug
 "A good seal will improve overall audio quality with deeper bass and richer low frequencies." = "A good seal will improve overall audio quality with deeper bass and richer low frequencies.";
 "Optimized Charge Limit" = "Optimized Charge Limit";
 "This allows you to individually locate your %@ on a map whenever they are lost." = "This allows you to individually locate your %@ on a map whenever they are lost.";
-"Your hearing is not protected when listening mode is set to Off" = "Your hearing is not protected when listening mode is set to Off";
+"Unable to change listening mode." = "Unable to change listening mode.";
 "Turn on pre-release beta updates to test new AirPods features." = "Turn on pre-release beta updates to test new AirPods features.";
-"Always Left %@" = "Always Left %@";
+"Volume Down" = "Volume Down";
 "Press And Hold %@" = "Press And Hold %@";
 "Noise Control" = "Noise Control";
 "REMEMBER_THIS_DEVICE" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Remember this iPad', 'applevision': 'Remember this Vision Pro', 'iphone': 'Remember this iPhone', 'other': 'Remember this Device'}}";
-"Volume Down" = "Volume Down";
+"Always Left %@" = "Always Left %@";
 "support.apple.com" = "support.apple.com";
 "AirPods 4 (ANC)" = "AirPods 4 (ANC)";
 "Forget "%@"" = "Forget "%@"";
@@ -52,7 +47,6 @@ By installing the AirPods firmware and submitting sysdiagnose or feedback throug
 "To help reduce your exposure to loud sounds, set your %@ listening mode to Noise Cancellation, Adaptive, or Transparency." = "To help reduce your exposure to loud sounds, set your %@ listening mode to Noise Cancellation, Adaptive, or Transparency.";
 "Volume Up" = "Volume Up";
 "These headphones could not be verified as genuine Beats and may not behave as expected." = "These headphones could not be verified as genuine Beats and may not behave as expected.";
-"Off Listening Mode is not Available in PPE Mode." = "Off Listening Mode is not Available in PPE Mode.";
 "Ear Tip Fit Test" = "Ear Tip Fit Test";
 "Transparency" = "Transparency";
 "Press Once" = "Press Once";
@@ -94,7 +88,6 @@ By installing the AirPods firmware and submitting sysdiagnose or feedback throug
 "Learn More" = "Learn More";
 "End Call" = "End Call";
 "Privacy" = "Privacy";
-"Ear Tip Fit" = "Ear Tip Fit";
 "Optimized Battery Charging helps reduce battery aging." = "Optimized Battery Charging helps reduce battery aging.";
 "To reduce battery aging, iPhone and %@ learn from your daily charging routine so %@ can wait to finish charging past 80%% until you need to use them." = "To reduce battery aging, iPhone and %1$@ learn from your daily charging routine so %2$@ can wait to finish charging past 80%% until you need to use them.";
 "Show in Find My" = "Show in Find My";
@@ -117,7 +110,6 @@ By installing the AirPods firmware and submitting sysdiagnose or feedback throug
 "For the best acoustic performance, %@ ear tips should create a complete seal when placed in your ears." = "For the best acoustic performance, %@ ear tips should create a complete seal when placed in your ears.";
 "Press and hold the stem to cycle between the selected listening modes." = "Press and hold the stem to cycle between the selected listening modes.";
 "Model Name" = "Model Name";
-"I Need Replacement Ear Tips…" = "I Need Replacement Ear Tips…";
 "When Last Connected to This %@" = "When Last Connected to This %@";
 "%@ batteries, like all rechargeable batteries, have a limited lifespan and may eventually need to be serviced or recycled." = "%@ batteries, like all rechargeable batteries, have a limited lifespan and may eventually need to be serviced or recycled.";
 "Optimized Battery Charging" = "Optimized Battery Charging";
@@ -127,8 +119,8 @@ By installing the AirPods firmware and submitting sysdiagnose or feedback throug
 "OK" = "OK";
 "Noise Management" = "Noise Management";
 "More details available at %@" = "More details available at %@";
-"Enable Charging Case Sounds" = "Enable Charging Case Sounds";
 "Volume Control" = "Volume Control";
+"Enable Charging Case Sounds" = "Enable Charging Case Sounds";
 "Internal" = "Internal";
 "Camera Control" = "Camera Control";
 "Camera Remote" = "Camera Remote";
@@ -138,18 +130,17 @@ By installing the AirPods firmware and submitting sysdiagnose or feedback throug
 "An %@ diagnostics check is needed before you can test your hearing. It will run automatically after you close the case and you can try to test your hearing again in a few minutes." = "An %@ diagnostics check is needed before you can test your hearing. It will run automatically after you close the case and you can try to test your hearing again in a few minutes.";
 "AirPods Analytics Data" = "AirPods Analytics Data";
 "%@ temporarily connected" = "%@ temporarily connected";
-"Press and hold the stem of %@ to cycle between the selected listening modes." = "Press and hold the stem of %@ to cycle between the selected listening modes.";
 "Adaptive" = "Adaptive";
 "Right Earbud" = "Right Earbud";
 "Accessibility" = "Accessibility";
 "See & Hear How It Works…" = "See & Hear How It Works…";
 "Answer Call" = "Answer Call";
 "To use %@ to protect your hearing, set the listening mode to Noise Cancellation, Adaptive, or Transparency." = "To use %@ to protect your hearing, set the listening mode to Noise Cancellation, Adaptive, or Transparency.";
+"Place %@ in both ears to use Noise Cancellation." = "Place %@ in both ears to use Noise Cancellation.";
 "Charging Notifications" = "Charging Notifications";
 "Done" = "Done";
 "🅛 " = "🅛 ";
 "A good seal will keep noise from leaking in or out and results in better noise cancellation." = "A good seal will keep noise from leaking in or out and results in better noise cancellation.";
-"Fit" = "Fit";
 "When this is On, %@ listening modes will include an Off option. Your hearing is not protected when the listening mode is set to Off." = "When this is On, %@ listening modes will include an Off option. Your hearing is not protected when the listening mode is set to Off.";
 "AirPods Pro 3" = "AirPods Pro 3";
 "Place %@ in both ears to use Adaptive Audio." = "Place %@ in both ears to use Adaptive Audio.";
@@ -183,8 +174,12 @@ Apple Confidential Profile. Do not distribute. Not to be used or disclosed witho
 "Off" = "Off";
 "Hear audio rendered immersively in three dimensions. You can set up Personalized Spatial Audio for improved audio. %@" = "Hear audio rendered immersively in three dimensions. You can set up Personalized Spatial Audio for improved audio. %@";
 "Adaptive Audio" = "Adaptive Audio";
-"Rotate AirPods Pro when placing them in your ear until they feel secure." = "Rotate AirPods Pro when placing them in your ear until they feel secure.";
 "Dynamically adjust external noise" = "Dynamically adjust external noise";
+"Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this %@.
+
+The AirPods firmware update is a pre-release software update. Your participation in this program is subject to and licensed under the terms and conditions of the Developer Program License Agreement (“DPLA”) %@" = "Enable pre-release beta firmware updates. Firmware updates will be installed when your AirPods are in their charging case and nearby this %1$@.
+
+The AirPods firmware update is a pre-release software update. Your participation in this program is subject to and licensed under the terms and conditions of the Developer Program License Agreement (“DPLA”) %2$@";
 "Turn Off" = "Turn Off";
 "Receive notifications reminding you to charge your AirPods when the battery is low and when your %@ have fully charged." = "Receive notifications reminding you to charge your AirPods when the battery is low and when your %@ have fully charged.";
 "About" = "About";

@@ -137,6 +137,11 @@
 			<true/>
 		</dict>
 	</dict>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>MinCompatibleOS</key>
+		<string>18.6</string>
+	</dict>
 	<key>Show5GSwitch</key>
 	<true/>
 	<key>Show5GWarningUnsupportedCarrier</key>

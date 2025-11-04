@@ -16,6 +16,7 @@
 	<array>
 		<string>com.apple.mobileslideshow</string>
 		<string>com.apple.Photos</string>
+		<string>com.apple.Stickers</string>
 	</array>
 	<key>com.apple.duet.activityscheduler.allow</key>
 	<true/>
@@ -59,6 +60,10 @@
 		<string>GenerativeModels.GenerativeFunctions.Instrumentation</string>
 	</array>
 	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.private.corespotlight.internal</key>
+	<true/>
+	<key>com.apple.private.corespotlight.search.internal</key>
 	<true/>
 	<key>com.apple.private.feedback.drafting</key>
 	<true/>
@@ -274,6 +279,7 @@
 		<string>com.apple.generativepartnerservicesettings</string>
 		<string>com.apple.siri.generativeassistantsettings</string>
 		<string>com.apple.anvil</string>
+		<string>com.apple.EmojiPreferences</string>
 	</array>
 	<key>com.apple.spotlight.photos.entitledattributes</key>
 	<true/>

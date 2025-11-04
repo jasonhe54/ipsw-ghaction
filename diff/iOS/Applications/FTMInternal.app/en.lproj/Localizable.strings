@@ -15,13 +15,17 @@
 "SS-RSRQ" = "RSRP";
 "kCTCellMonitorRSRP" = "RSRP";
 "narfcn_nr" = "NARFCN";
+"kCTCellMonitorARFCN" = "ARFCN";
 "max_dl_mod" = "max dl mod";
 "rsrq_heartbeat_nr" = "RSRQ";
 "snr_heartbeat_nr" = "SNR";
 "freq_band_ind" = "Band";
 "cell_id" = "Cell Id";
+"rscp_ct" = "RSCP";
+"kCTCellMonitorSCN" = "SCN";
 "aggregated_dl_bw" = "Bandwidth";
 "dl_bw" = "Bandwidth";
+"kCTCellMonitorUARFCN_UMTS" = "UARFCN";
 "rsrq" = "RSRQ";
 "sinr1" = "SINR1";
 "kCTCellMonitorRSRQ" = "RSRQ";
@@ -35,6 +39,7 @@
 "kCTCellMonitorCellId" = "Cell Id";
 "rsrq_lte" = "RSRQ";
 "kCTCellMonitorUARFCN" = "EARFCN";
+"kCTCellMonitorLAC" = "LAC";
 "kCTRegistrationRadioAccessTechnologyTDSCDMA" = "TDSCDMA";
 "kCTCellMonitorSCS" = "SCS";
 "kCTCellMonitorMCC" = "MCC";
@@ -44,6 +49,7 @@
 "cell_pci" = "PCI";
 "repeated_nr_cell_invalidation_arfcn" = "nr invalidation arfcn";
 "snr" = "SNR";
+"ecn0_ct" = "ECN0";
 "snr_ct" = "SNR";
 "cell_rsrp" = "RSRP";
 "kCTCellMonitorNRARFCN" = "NRARFCN";

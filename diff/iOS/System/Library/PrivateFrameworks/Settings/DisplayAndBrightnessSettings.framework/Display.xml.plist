@@ -56,6 +56,31 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>LIQUID_GLASS_ROOT_FOOTER</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>DBSLiquidGlassController</string>
+			<key>get</key>
+			<string>liquidGlassLegibilitySettingForSpecifier:</string>
+			<key>id</key>
+			<string>LIQUID_GLASS</string>
+			<key>label</key>
+			<string>LIQUID_GLASS</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>retail-kiosk-mode</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
 		</dict>
 		<dict>
 			<key>cell</key>

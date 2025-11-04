@@ -732,17 +732,17 @@
 				<key>segfusion.additiveMaxBlur.brightLightExposureLevel</key>
 				<real>2</real>
 				<key>segfusion.additiveMaxBlur.brightLightFarValue</key>
-				<real>0.070000000000000007</real>
+				<real>1</real>
 				<key>segfusion.additiveMaxBlur.brightLightNearValue</key>
-				<real>0.070000000000000007</real>
+				<real>0.014999999999999999</real>
 				<key>segfusion.additiveMaxBlur.farSubjectDistanceRatio</key>
 				<real>1</real>
 				<key>segfusion.additiveMaxBlur.lowLightExposureLevel</key>
 				<real>5</real>
 				<key>segfusion.additiveMaxBlur.lowLightFarValue</key>
-				<real>0.070000000000000007</real>
+				<real>1</real>
 				<key>segfusion.additiveMaxBlur.lowLightNearValue</key>
-				<real>0.070000000000000007</real>
+				<real>0.014999999999999999</real>
 				<key>segfusion.additiveMaxBlur.nearSubjectDistanceRatio</key>
 				<real>0.0</real>
 				<key>segfusion.additiveUpperAlpha</key>
@@ -754,7 +754,7 @@
 				<key>segfusion.subtractiveMaxBlur.brightLightFarValue</key>
 				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.brightLightNearValue</key>
-				<real>0.01</real>
+				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.farSubjectDistanceRatio</key>
 				<real>1</real>
 				<key>segfusion.subtractiveMaxBlur.lowLightExposureLevel</key>
@@ -762,7 +762,7 @@
 				<key>segfusion.subtractiveMaxBlur.lowLightFarValue</key>
 				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.lowLightNearValue</key>
-				<real>0.01</real>
+				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.nearSubjectDistanceRatio</key>
 				<real>0.0</real>
 				<key>segfusion.subtractiveUpperAlpha</key>
@@ -850,17 +850,17 @@
 				<key>disparityScalingFactor.brightLightExposureLevel</key>
 				<real>2</real>
 				<key>disparityScalingFactor.brightLightFarValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.brightLightNearValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.farSubjectDistanceRatio</key>
 				<real>1</real>
 				<key>disparityScalingFactor.lowLightExposureLevel</key>
 				<real>5</real>
 				<key>disparityScalingFactor.lowLightFarValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.lowLightNearValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.nearSubjectDistanceRatio</key>
 				<real>0.0</real>
 				<key>fallbackFocusROI_height</key>
@@ -878,7 +878,7 @@
 				<key>minimumSimulatedAperture</key>
 				<real>1.3999999999999999</real>
 				<key>shiftDeadZone</key>
-				<real>1.1499999999999999</real>
+				<real>1.5</real>
 				<key>simulatedAperture</key>
 				<real>4.5</real>
 				<key>zeroShiftPercentile</key>
@@ -997,7 +997,7 @@
 				<key>hairnetMaskHairBlurSigma</key>
 				<real>0.040000000000000001</real>
 				<key>hairnetMaskHairThreshold</key>
-				<real>0.0089999999999999993</real>
+				<real>0.0001</real>
 			</dict>
 			<key>MattingV7</key>
 			<dict>
@@ -1615,17 +1615,17 @@
 				<key>segfusion.additiveMaxBlur.brightLightExposureLevel</key>
 				<real>2</real>
 				<key>segfusion.additiveMaxBlur.brightLightFarValue</key>
-				<real>0.070000000000000007</real>
+				<real>1</real>
 				<key>segfusion.additiveMaxBlur.brightLightNearValue</key>
-				<real>0.070000000000000007</real>
+				<real>0.014999999999999999</real>
 				<key>segfusion.additiveMaxBlur.farSubjectDistanceRatio</key>
 				<real>1</real>
 				<key>segfusion.additiveMaxBlur.lowLightExposureLevel</key>
 				<real>5</real>
 				<key>segfusion.additiveMaxBlur.lowLightFarValue</key>
-				<real>0.070000000000000007</real>
+				<real>1</real>
 				<key>segfusion.additiveMaxBlur.lowLightNearValue</key>
-				<real>0.070000000000000007</real>
+				<real>0.014999999999999999</real>
 				<key>segfusion.additiveMaxBlur.nearSubjectDistanceRatio</key>
 				<real>0.0</real>
 				<key>segfusion.additiveUpperAlpha</key>
@@ -1637,7 +1637,7 @@
 				<key>segfusion.subtractiveMaxBlur.brightLightFarValue</key>
 				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.brightLightNearValue</key>
-				<real>0.01</real>
+				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.farSubjectDistanceRatio</key>
 				<real>1</real>
 				<key>segfusion.subtractiveMaxBlur.lowLightExposureLevel</key>
@@ -1645,7 +1645,7 @@
 				<key>segfusion.subtractiveMaxBlur.lowLightFarValue</key>
 				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.lowLightNearValue</key>
-				<real>0.01</real>
+				<real>0.001</real>
 				<key>segfusion.subtractiveMaxBlur.nearSubjectDistanceRatio</key>
 				<real>0.0</real>
 				<key>segfusion.subtractiveUpperAlpha</key>
@@ -1733,17 +1733,17 @@
 				<key>disparityScalingFactor.brightLightExposureLevel</key>
 				<real>2</real>
 				<key>disparityScalingFactor.brightLightFarValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.brightLightNearValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.farSubjectDistanceRatio</key>
 				<real>1</real>
 				<key>disparityScalingFactor.lowLightExposureLevel</key>
 				<real>5</real>
 				<key>disparityScalingFactor.lowLightFarValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.lowLightNearValue</key>
-				<real>1.25</real>
+				<real>1.5</real>
 				<key>disparityScalingFactor.nearSubjectDistanceRatio</key>
 				<real>0.0</real>
 				<key>fallbackFocusROI_height</key>
@@ -1761,7 +1761,7 @@
 				<key>minimumSimulatedAperture</key>
 				<real>1.3999999999999999</real>
 				<key>shiftDeadZone</key>
-				<real>1.1499999999999999</real>
+				<real>1.5</real>
 				<key>simulatedAperture</key>
 				<real>4.5</real>
 				<key>zeroShiftPercentile</key>

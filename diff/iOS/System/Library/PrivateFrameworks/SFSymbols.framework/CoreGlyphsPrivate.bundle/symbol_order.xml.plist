@@ -3,6 +3,7 @@
 <plist version="1.0">
 <array>
 	<string>pencil.and.sparkles</string>
+	<string>pencil.and.sparkles.badge.apple.journal</string>
 	<string>eraser.line.dotted</string>
 	<string>eraser.line.dotted.fill</string>
 	<string>line.line.dotted.line.dashed.horizontal</string>
@@ -357,6 +358,8 @@
 	<string>list.portrait.on.rectangle.portrait.angled.fill</string>
 	<string>checkmark.capsule</string>
 	<string>checkmark.capsule.fill</string>
+	<string>capsule.on.rectangle.liquid.glass</string>
+	<string>capsule.on.rectangle.liquid.glass.fill</string>
 	<string>digitaltouch</string>
 	<string>digitaltouch.fill</string>
 	<string>arrow.up.left.arrow.up.right.arrow.down.heart</string>
@@ -401,6 +404,10 @@
 	<string>message.and.message.fill</string>
 	<string>message.and.video</string>
 	<string>message.and.video.fill</string>
+	<string>bubble.badge.sparkles</string>
+	<string>bubble.badge.sparkles.fill</string>
+	<string>bubble.badge.sparkles.rtl</string>
+	<string>bubble.badge.sparkles.fill.rtl</string>
 	<string>photo.bubble</string>
 	<string>bubble.wave.2</string>
 	<string>bubble.wave.2.fill</string>
@@ -557,6 +564,10 @@
 	<string>person.filled.and.apple.support.fill</string>
 	<string>cart.badge</string>
 	<string>cart.badge.fill</string>
+	<string>cart.badge.location</string>
+	<string>cart.badge.location.fill</string>
+	<string>cart.badge.location.rtl</string>
+	<string>cart.badge.location.fill.rtl</string>
 	<string>creditcard.and.nfc</string>
 	<string>creditcard.and.nfc.fill</string>
 	<string>applecard</string>
@@ -579,6 +590,8 @@
 	<string>wallet.badge.plus.fill</string>
 	<string>person.crop.rectangle.landscape.rotate</string>
 	<string>person.crop.rectangle.landscape.rotate.slash</string>
+	<string>person.crop.rectangle.portrait.rotate</string>
+	<string>person.crop.rectangle.portrait.rotate.slash</string>
 	<string>nosign.badge.shield.half.filled</string>
 	<string>dots.needle.bottom.0percent</string>
 	<string>dots.needle.bottom.50percent</string>
@@ -737,10 +750,12 @@
 	<string>iphone.and.applewatch</string>
 	<string>vision.pro.badge.arrow.trianglehead.counterclockwise</string>
 	<string>vision.pro.badge.arrow.trianglehead.counterclockwise.fill</string>
+	<string>vision.pro.dot.radiowaves.up.forward</string>
+	<string>vision.pro.dot.radiowaves.up.forward.fill</string>
 	<string>vision.pro.eyesight</string>
 	<string>vision.pro.eyesight.fill</string>
 	<string>vision.pro.and.headband</string>
-	<string>vision.pro.and.headband.arrow.trianglehead.forward.and.arrow.trianglehead.backward</string>
+	<string>vision.pro.and.headband.fit.adjust</string>
 	<string>vision.pro.developer.strap</string>
 	<string>vision.pro.button.arrow.down</string>
 	<string>vision.pro.main.camera</string>
@@ -937,6 +952,8 @@
 	<string>multiview.lefthalf.topright.bottomright</string>
 	<string>multiview.lefthalf.topright.middleright.bottomright</string>
 	<string>multiview.leftthird.topleft.bottomleft.middlethird.rightthird.topright.bottomright</string>
+	<string>person.crop.pip</string>
+	<string>person.crop.pip.fill</string>
 	<string>fitness.edit.video.metrics</string>
 	<string>sailboat.regatta</string>
 	<string>sailboat.regatta.fill</string>
@@ -993,6 +1010,8 @@
 	<string>vaccination.card.badge.checkmark.fill</string>
 	<string>capsule.cross</string>
 	<string>capsule.cross.fill</string>
+	<string>dinosaur</string>
+	<string>dinosaur.fill</string>
 	<string>face.baby</string>
 	<string>face.baby.inverse</string>
 	<string>face.baby.bow</string>
@@ -1043,6 +1062,12 @@
 	<string>ratio.4.to.3.viewfinder</string>
 	<string>ratio.1.to.1.viewfinder</string>
 	<string>ratio.16.to.9.viewfinder</string>
+	<string>ratio.4.to.3.viewfinder.ar</string>
+	<string>ratio.1.to.1.viewfinder.ar</string>
+	<string>ratio.16.to.9.viewfinder.ar</string>
+	<string>ratio.4.to.3.viewfinder.hi</string>
+	<string>ratio.1.to.1.viewfinder.hi</string>
+	<string>ratio.16.to.9.viewfinder.hi</string>
 	<string>person.fill.viewfinder.slash</string>
 	<string>person.fill.viewfinder.badge.record</string>
 	<string>camera.overcapture</string>
@@ -1070,6 +1095,11 @@
 	<string>location.bottomleft.forward.to.point.topright.scurvepath</string>
 	<string>location.bottomleft.forward.to.point.topright.scurvepath.dotted</string>
 	<string>location.bottomleft.forward.to.point.topright.scurvepath.dashed</string>
+	<string>slider.horizontal.0percent</string>
+	<string>slider.horizontal.25percent</string>
+	<string>slider.horizontal.50percent</string>
+	<string>slider.horizontal.75percent</string>
+	<string>slider.horizontal.100percent</string>
 	<string>camera.lightcontrol</string>
 	<string>xsan</string>
 	<string>spatial</string>
@@ -1117,6 +1147,12 @@
 	<string>3.timer.enclosure</string>
 	<string>5.timer.enclosure</string>
 	<string>10.timer.enclosure</string>
+	<string>3.timer.enclosure.ar</string>
+	<string>5.timer.enclosure.ar</string>
+	<string>10.timer.enclosure.ar</string>
+	<string>3.timer.enclosure.hi</string>
+	<string>5.timer.enclosure.hi</string>
+	<string>10.timer.enclosure.hi</string>
 	<string>timer.monolinear</string>
 	<string>downtime</string>
 	<string>apple.sleep.score</string>
@@ -1335,10 +1371,32 @@
 	<string>character.and.ellipsis.ta</string>
 	<string>character.and.ellipsis.te</string>
 	<string>textformat.characters.arrow.left.and.right.wide</string>
+	<string>textformat.characters.arrow.left.and.right.wide.el</string>
+	<string>textformat.characters.arrow.left.and.right.wide.ru</string>
+	<string>textformat.characters.arrow.left.and.right.wide.ar</string>
+	<string>textformat.characters.arrow.left.and.right.wide.he</string>
+	<string>textformat.characters.arrow.left.and.right.wide.th</string>
+	<string>textformat.characters.arrow.left.and.right.wide.zh</string>
+	<string>textformat.characters.arrow.left.and.right.wide.ja</string>
+	<string>textformat.characters.arrow.left.and.right.wide.ko</string>
+	<string>textformat.characters.arrow.left.and.right.wide.hi</string>
+	<string>textformat.characters.arrow.left.and.right.wide.bn</string>
+	<string>textformat.characters.arrow.left.and.right.wide.mr</string>
+	<string>textformat.characters.arrow.left.and.right.wide.gu</string>
+	<string>textformat.characters.arrow.left.and.right.wide.pa</string>
+	<string>textformat.characters.arrow.left.and.right.wide.kn</string>
+	<string>textformat.characters.arrow.left.and.right.wide.ml</string>
+	<string>textformat.characters.arrow.left.and.right.wide.mni</string>
+	<string>textformat.characters.arrow.left.and.right.wide.or</string>
+	<string>textformat.characters.arrow.left.and.right.wide.sat</string>
+	<string>textformat.characters.arrow.left.and.right.wide.si</string>
+	<string>textformat.characters.arrow.left.and.right.wide.ta</string>
+	<string>textformat.characters.arrow.left.and.right.wide.te</string>
 	<string>apple.math.notes</string>
 	<string>apple.math.notes.ar</string>
 	<string>math.operators</string>
 	<string>math.operators.ar</string>
+	<string>info.and.sparkles</string>
 	<string>info.circle.badge.sparkles</string>
 	<string>info.circle.badge.sparkles.fill</string>
 	<string>pawprint.circle.badge.sparkles</string>

@@ -35,6 +35,8 @@
 		<false/>
 		<key>ServerAddress</key>
 		<string>https://sentitlement2.mobile.att.net</string>
+		<key>SupportCrossPlatformSIMTransfer</key>
+		<true/>
 		<key>SupportPhysicalSIMtoESIMTransfer</key>
 		<true/>
 		<key>SupportSecureIntent</key>
@@ -295,6 +297,8 @@
 		<key>LocalInstallSMDPURL</key>
 		<string>https://cust-001-v4-prod-atl2.gdsb.net</string>
 		<key>RequiresDeleteAfterTransfer</key>
+		<true/>
+		<key>RequiresPasscodeForCrossPlatformTransfer</key>
 		<true/>
 		<key>SupportsFallbackToLegacyFlow</key>
 		<false/>

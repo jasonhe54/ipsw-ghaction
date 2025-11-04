@@ -177,6 +177,14 @@
 	<array>
 		<string>kr</string>
 	</array>
+	<key>RCS</key>
+	<dict>
+		<key>ProvisioningData</key>
+		<dict>
+			<key>SupportsPush</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>SupportedCountryIds</key>
 	<array>
 		<string>450</string>

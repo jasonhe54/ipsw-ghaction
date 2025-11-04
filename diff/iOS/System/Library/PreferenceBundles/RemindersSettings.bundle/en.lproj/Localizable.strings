@@ -1,6 +1,7 @@
 "Add Language" = "Add Language";
 "If you manually moved items in your grocery or auto-categorized lists, you can clear the learned categorization for new items you add. Lists shared with you won’t be affected." = "If you manually moved items in your grocery or auto-categorized lists, you can clear the learned categorization for new items you add. Lists shared with you won’t be affected.";
 "Reset Grocery Categories" = "Reset Grocery Categories";
+"Add or remove accounts, manage Siri & Search and location access, and customize how your reminders work. [Learn more…](%@)" = "Add or remove accounts, manage Siri & Search and location access, and customize how your reminders work. [Learn more…](%@)";
 "Cancel" = "Cancel";
 "Clear Categorization History" = "Clear Categorization History";
 "Show as Overdue" = "Show as Overdue";
@@ -12,21 +13,20 @@
 "Reset Categories" = "Reset Categories";
 "When Adding Reminders" = "When Adding Reminders";
 "Reminders" = "Reminders";
-"Set the time zone used to display and create reminders." = "Set the time zone used to display and create reminders.";
 "Adding a language will require an additional download." = "Adding a language will require an additional download.";
+"Set the time zone used to display and create reminders." = "Set the time zone used to display and create reminders.";
 "By default, reminders automatically use the time zone of your current location.
 
 Alternatively, you can set a time zone to display and create reminders. This won’t impact the timing of notifications for existing reminders." = "By default, reminders automatically use the time zone of your current location.
 
 Alternatively, you can set a time zone to display and create reminders. This won’t impact the timing of notifications for existing reminders.";
-"Mute Notifications" = "Mute Notifications";
 "Badge Count" = "Badge Count";
+"Mute Notifications" = "Mute Notifications";
 "Clearing manual categorization for your grocery lists applies to all of your devices and grocery lists you’ve shared. Lists shared with you will not be affected" = "Clearing manual categorization for your grocery lists applies to all of your devices and grocery lists you’ve shared. Lists shared with you will not be affected";
 "Assigned Reminders" = "Assigned Reminders";
 "Set a time to show a notification when there are all-day reminders (with no specified time)." = "Set a time to show a notification when there are all-day reminders (with no specified time).";
-"SETTINGS_PLACARD_DESCRIPTION_TEXT" = "Add or remove accounts, manage Siri & Search and location access, and customize how your reminders work. [Learn more…](%@)";
-"Reminders created outside of a specific list are placed in this list." = "Reminders created outside of a specific list are placed in this list.";
 "Grocery Categorization" = "Grocery Categorization";
+"Reminders created outside of a specific list are placed in this list." = "Reminders created outside of a specific list are placed in this list.";
 "Default List" = "Default List";
 "Time" = "Time";
 "Time Zone" = "Time Zone";

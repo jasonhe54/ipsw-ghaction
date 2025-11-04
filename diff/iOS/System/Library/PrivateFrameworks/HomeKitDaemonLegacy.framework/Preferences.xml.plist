@@ -87,12 +87,22 @@
 	<integer>0</integer>
 	<key>HMDHomeWalletKeyAccessoryManagerDisableAddingDeviceKeys</key>
 	<false/>
+	<key>HMDIDSMessageTransportSendMessageDefaultTimeoutKey</key>
+	<real>120</real>
+	<key>HMDIDSMessageTransportSendMessageNumberOfRetriesKey</key>
+	<integer>2</integer>
 	<key>HMDLocationPredictedLocationTimeIntervalSeconds</key>
 	<integer>14400</integer>
 	<key>HMDPreferenceAllowedToAcceptRemoteMessagesIntervalInHoursKey</key>
 	<integer>12</integer>
 	<key>HMDPreferenceSessionCheckPeriod</key>
 	<integer>60</integer>
+	<key>HMDRemoteMessageTransportSendMessageDefaultTimeoutKey</key>
+	<real>60</real>
+	<key>HMDRemoteMessageTransportSendMessageNumberOfRetriesKey</key>
+	<integer>0</integer>
+	<key>HMDRemoteMessageTransportSendMessageRetryIntervalKey</key>
+	<real>3.5</real>
 	<key>HMDSecureClassBulletinUserAttributionTime</key>
 	<integer>300</integer>
 	<key>HMDWatchSyncInitialRetryInterval</key>
@@ -101,6 +111,8 @@
 	<integer>7</integer>
 	<key>HMDisableResidentSelection</key>
 	<false/>
+	<key>MatterThreadCredentialsRetrievalTimeout</key>
+	<real>3</real>
 	<key>MemoryDiagnosticLimitOverride</key>
 	<integer>0</integer>
 	<key>NotifyOwnersOfFrameworkSwitchDelayInterval</key>
@@ -146,7 +158,7 @@
 	<key>backgroundLoggingPeriod</key>
 	<integer>10800</integer>
 	<key>bulkSendSessionReadTimeoutFactor</key>
-	<integer>2</integer>
+	<integer>4</integer>
 	<key>cachedResponsesCleanupTimeoutSeconds</key>
 	<string>60</string>
 	<key>cameraClipRecordingEnabled</key>
@@ -229,6 +241,8 @@
 	<integer>1800</integer>
 	<key>memoryTriggerSize</key>
 	<real>62914560</real>
+	<key>migrationInvitationExpirationInterval</key>
+	<integer>2592000</integer>
 	<key>mobileCatalogUpdatePeriodSeconds</key>
 	<integer>86400</integer>
 	<key>naturalLightingCurveUpdateAccessoryTimeDifferenceThreshold</key>

@@ -10,6 +10,8 @@
 		<integer>100</integer>
 		<key>HTTPConnectionEvent</key>
 		<integer>100</integer>
+		<key>HardcodedAnchorEvent</key>
+		<integer>10</integer>
 		<key>PinningEvent</key>
 		<integer>100</integer>
 		<key>SystemRootUsageEvent</key>

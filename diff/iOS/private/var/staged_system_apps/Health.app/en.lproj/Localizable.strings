@@ -5,7 +5,7 @@
 "NOTIFICATION_STATE_OF_MIND_DAILY_BODY" = "Take a second to log how you’ve felt today.";
 "buddy_notification_detail" = "The Health app can notify you when there’s something you need to know.";
 "downloading_health_data" = "Downloading Health Data…";
-"SLEEP_SCORE_LEVEL_NOTIFICATION_TITLE_LOW" = "Poor Sleep Score";
+"SLEEP_SCORE_LEVEL_NOTIFICATION_TITLE_LOW" = "Low Sleep Score";
 "buddy_healthkit_sync_title" = "iCloud Health Data on iPad";
 "buddy_headphone_data_title" = "Headphone Hearing Data do not loc";
 "AFIB_BURDEN_SINGLE_WEEK_NOTIFICATION_BODY_CLAMPED" = "Over the last week, your heart rhythm showed signs of AFib %1$@%% of the time or less.";
@@ -46,7 +46,7 @@ You can use your iPad or browse the Health app while downloading finishes.";
 "buddy_enable_health_disable_cloud_sync_button_title" = "Don’t Turn On";
 "HEALTH_APP" = "Health";
 "SHOW_ALL_HIGHLIGHTS" = "Show All Highlights";
-"SLEEP_SCORE_LEVEL_NOTIFICATION_TITLE_VERY_LOW" = "Poor Sleep Score";
+"SLEEP_SCORE_LEVEL_NOTIFICATION_TITLE_VERY_LOW" = "Very Low Sleep Score";
 "SLEEP_APNEA_RESCINDED_NOTIFICATION_BODY_UNSUPPORTED_REGION" = "This feature is no longer available. Learn more in the Health app.";
 "summary_all_segment_title" = "All";
 "MEDICATIONS_NOTIFICATION_BODY_BEFORE_FIRST_UNLOCK" = "Health app requires your attention.";
@@ -118,6 +118,7 @@ You can manage this device’s access in iCloud settings.";
 "SHARED_ALERT_NOTIFICATION_NOISE_DESCRIPTION_%@" = "%@ received a Noise notification.";
 "MEDICATIONS_NOTIFICATION_TIMEZONE_TITLE" = "Time Zone Changed";
 "HEALTH_RECORDS_NOTIF_LABS_TITLE" = "New Lab Results";
+"SLEEP_SCORE_LEVEL_NOTIFICATION_ACTION_ADJUST" = "Adjust Notification Settings";
 "buddy_headphone_data_opt_in" = "Opt In do not loc";
 "AFIB_BURDEN_RESCINDED_NOTIFICATION_TITLE" = "AFib History Turned Off";
 "NOTIFICATION_MENTAL_HEALTH_PERIODIC_PROMPTED_ASSESSMENTS_BODY_WATCHOS" = "Reflecting on how you’ve been feeling lately can be an important part of caring for your mental health.";
@@ -146,7 +147,6 @@ You can manage this device’s access in iCloud settings.";
 You can use your iPad or browse the Health app while downloading finishes.";
 "buddy_healthkit_sync_failed_message" = "iCloud was unable to set up Health Data Sync at this time. Try again later.";
 "buddy_notification_unknown_error_alert_description" = "These notifications could not be turned on at this time. You can try again by tapping on your Profile and going to Notifications.";
-"SHARED_ALERT_HYPERTENSIVE_PATTERN_EVENT_DESCRIPTION_%@" = "%@ received a Hypertension notification.";
 "summary_health_records_segment_title" = "Health Records";
 "buddy_privacy_info_detail_ce2e_passcode" = "To protect your privacy, health data is encrypted on your device when it’s locked.
 
@@ -154,6 +154,7 @@ This data cannot be read by anyone, including Apple, without your permission and
 
 You’re always in control of the apps and people you share health data with and you can turn off sharing at any time.";
 "summary_navigation_header_title" = "All Health Data";
+"SHARED_ALERT_HYPERTENSIVE_PATTERN_EVENT_DESCRIPTION_%@" = "%@ received a Hypertension notification.";
 "WALKING_STEADINESS_NOTIFICATION_BODY_REPEAT_VERY_LOW_PREGNANCY" = "Impact related to pregnancy. Your Walking Steadiness continues to be very low and you may be at high risk of falling in the next 12 months.";
 "All Health Data" = "All Health Data";
 "SLEEP_APNEA_RESCINDED_NOTIFICATION_BODY" = "This feature is no longer available. Learn more in the Health app.";

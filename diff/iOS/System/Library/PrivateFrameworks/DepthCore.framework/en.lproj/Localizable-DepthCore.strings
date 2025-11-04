@@ -7,7 +7,7 @@
 "CHARON_BEYOND_M" = "BEYOND 40 M";
 "CHARON_NOTIFICATION_UNSAVED_DIVE_TITLE" = "Unsaved Dive";
 "CHARON_VALUE_UNIT_FORMAT_NO_SPACE" = "%1$@%2$@";
-"CHARON_COMPLICATION_NUMBER_OF_DIVES" = "{'value': {'one': '%lld DIVE', 'other': '%lld DIVES', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"CHARON_COMPLICATION_NUMBER_OF_DIVES" = "{'value': {'one': '%d DIVE', 'other': '%d DIVES', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "CHARON_COMPLICATION_TIME_UNIT_M" = "MINUTES";
 "CHARON_INVALID_TIME" = "--";
 "CHARON_EXCEEDING_VALUE_ONLY" = "%1$@+";

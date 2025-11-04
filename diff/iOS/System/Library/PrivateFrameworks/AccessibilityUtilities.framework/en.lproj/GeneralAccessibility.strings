@@ -14,7 +14,7 @@
 "Shaanxi_CN" = "Chinese (Shaanxi, China mainland)";
 "ChannelLayout_Right" = "Right";
 "FLOAT_APP_SPLIT_VIEW" = "Create Split View";
-"ask.sheet.option.detection.mode" = "Live Recognition";
+"ask.sheet.option.detection.mode" = "Detection Mode";
 "SIDE_APP_SHRINK_RIGHT_APP" = "Shrink Right App";
 "magnification.factor.format" = "%@x";
 "PREMIUM_VOICE_NAME" = "%@ (Premium)";
@@ -145,6 +145,7 @@
 "Sichuanese_CN" = "Chinese (Sichuan, China mainland)";
 "ask.sheet.option.Accessibility.Reader" = "Accessibility Reader";
 "miles.format" = "{'miles': {'one': '%.0f mile', 'other': '%.1f miles', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@miles@'}";
+"ask.sheet.option.live.recognition" = "Live Recognition";
 "yards.format" = "{'yards': {'one': '%.0f yard', 'other': '%.0f yards', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@yards@'}";
 "described.media.none" = "Off";
 "HAND_GESTURES_TITLE" = "Hand Gestures";

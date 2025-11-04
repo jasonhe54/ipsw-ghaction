@@ -9,11 +9,13 @@
 		<key>ar</key>
 		<array>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>en_GB</string>
 		</array>
 		<key>ar_DJ</key>
 		<array>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>fr_FR</string>
 		</array>
 		<key>ar_DZ</key>
@@ -26,24 +28,66 @@
 			<string>ar</string>
 			<string>en_GB</string>
 		</array>
+		<key>ar_IQ</key>
+		<array>
+			<string>ar</string>
+			<string>en_GB</string>
+		</array>
+		<key>ar_KM</key>
+		<array>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>fr_FR</string>
+		</array>
+		<key>ar_KW</key>
+		<array>
+			<string>ar</string>
+			<string>en_GB</string>
+		</array>
 		<key>ar_MA</key>
 		<array>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>fr_FR</string>
 		</array>
 		<key>ar_MR</key>
 		<array>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>fr_FR</string>
+		</array>
+		<key>ar_OM</key>
+		<array>
+			<string>ar</string>
+			<string>en_GB</string>
+		</array>
+		<key>ar_SA</key>
+		<array>
+			<string>ar</string>
+			<string>en_GB</string>
+		</array>
+		<key>ar_TD</key>
+		<array>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>fr_FR</string>
 		</array>
 		<key>ar_TN</key>
 		<array>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>fr_FR</string>
 		</array>
 	</dict>
 	<key>UIKeyboardSuggestedDefaultLanguageInputModes</key>
 	<dict>
+		<key>ar</key>
+		<array>
+			<string>ar</string>
+			<string>ar-Translit</string>
+			<string>en_GB</string>
+			<string>emoji</string>
+		</array>
 		<key>ar_SA</key>
 		<array>
 			<string>ar</string>
@@ -53,9 +97,17 @@
 	</dict>
 	<key>UIKeyboardSuggestedLanguageInputModes</key>
 	<dict>
+		<key>ar</key>
+		<array>
+			<string>ar</string>
+			<string>ar-Translit</string>
+			<string>en_GB</string>
+			<string>emoji</string>
+		</array>
 		<key>ar_SA</key>
 		<array>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>ars</string>
 			<string>en_GB</string>
 			<string>emoji</string>
@@ -184,6 +236,7 @@
 			<key>SWLayouts</key>
 			<array>
 				<string>QWERTY-Arabic</string>
+				<string>AZERTY-Arabic</string>
 			</array>
 			<key>UIKeyboardAutocorrectionLocaleIdentifier</key>
 			<string>ar_Latn</string>

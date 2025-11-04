@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>New item</key>
-	<string>kMDItemAuthors</string>
 	<key>com.apple.calendar</key>
 	<dict>
 		<key>ACTIONS</key>
@@ -44485,7 +44483,9 @@
 						<string>com_apple_mail_dateReceived</string>
 						<string>com_apple_mail_dateSent</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemUsedDates</string>
 						<string>kMDItemUserSharedReceivedDate</string>
 						<string>kMDItemEventEstimatedStartDate</string>
@@ -44498,12 +44498,16 @@
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlight</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>FLIGHTARRIVAL</key>
@@ -44511,15 +44515,19 @@
 					<key>ActionArrived</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlightArrived</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>FLIGHTARRIVING</key>
@@ -44527,15 +44535,19 @@
 					<key>ActionArrived</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlightArrived</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>FLIGHTARRIVINGDEPARTING</key>
@@ -44543,12 +44555,16 @@
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlight</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>FLIGHTDEPARTING</key>
@@ -44556,15 +44572,19 @@
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionDeparted</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlightDeparted</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>FLIGHTDEPARTURE</key>
@@ -44572,15 +44592,19 @@
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionDeparted</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlightDeparted</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>FLIGHTINTENT</key>
@@ -44588,12 +44612,16 @@
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionFlight</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>HOTELACTION</key>
@@ -44601,20 +44629,26 @@
 					<key>ActionCheckIn</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionCheckOut</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionHotel</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>HOTELCHECKIN</key>
@@ -44622,10 +44656,12 @@
 					<key>ActionCheckIn</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>HOTELCHECKOUT</key>
@@ -44633,10 +44669,12 @@
 					<key>ActionCheckOut</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>HOTELINTENT</key>
@@ -44644,20 +44682,26 @@
 					<key>ActionCheckIn</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionCheckOut</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 					<key>ActionHotel</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>MAILACTION</key>
@@ -44720,7 +44764,9 @@
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>RESTAURANTACTION</key>
@@ -44728,16 +44774,21 @@
 					<key>ActionCheckIn</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionRestaurant</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 					</array>
 				</dict>
 				<key>RESTAURANTCHECKIN</key>
@@ -44745,10 +44796,12 @@
 					<key>ActionCheckIn</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 					<key>ActionDefault</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>STATUSACTION</key>
@@ -44840,6 +44893,7 @@
 						<string>kMDItemFilename</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -44853,6 +44907,39 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -44924,6 +45011,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -45012,6 +45110,17 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -45084,6 +45193,28 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -45098,6 +45229,28 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemHashtags</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -45276,6 +45429,7 @@
 						<string>kMDItemDisplayName</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -45295,6 +45449,97 @@
 						<string>kMDItemContentCreationDate</string>
 						<string>kMDItemContentModificationDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_CALENDAR_EVENT</key>
@@ -45318,6 +45563,7 @@
 					<array>
 						<string>kMDItemContentCreationDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_CONTACT</key>
@@ -45383,6 +45629,37 @@
 						<string>com_apple_mail_dateReceived</string>
 						<string>kMDItemContentCreationDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
@@ -45505,6 +45782,36 @@
 					<array>
 						<string>_kMDItemExtractedDatesValues</string>
 						<string>kMDItemContentCreationDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
@@ -45594,6 +45901,66 @@
 						<string>kMDItemContentCreationDate</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -45616,6 +45983,66 @@
 						<string>kMDItemContentCreationDate</string>
 						<string>kMDItemContentModificationDate</string>
 						<string>kMDItemDueDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComment</string>
+						<string>kMDItemExtractedDates</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>_kMDItemContentCreationDateDay</string>
+						<string>_kMDItemContentCreationDateMonth</string>
+						<string>_kMDItemContentCreationDateWeekday</string>
+						<string>_kMDItemContentCreationDateYear</string>
+						<string>com_apple_mail_dateReceived</string>
+						<string>kMDItemContentCreationDate</string>
+						<string>kMDItemContentModificationDate</string>
+						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_VOICE_MAIL</key>
@@ -45690,7 +46117,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_APPOINTMENT</key>
@@ -45707,7 +46136,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_CAR_RENTAL</key>
@@ -45724,7 +46155,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_FLIGHT</key>
@@ -45740,7 +46173,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_HOTEL</key>
@@ -45757,7 +46192,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_PARTY</key>
@@ -45774,7 +46211,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_RESTAURANT</key>
@@ -45791,6 +46230,7 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_SHIPPING_ORDER</key>
@@ -45811,7 +46251,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_TICKET_SHOW</key>
@@ -45828,7 +46270,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 				<key>QUPP_ARG_EVENT_TYPE_TICKET_TRANSPORT</key>
@@ -45845,7 +46289,9 @@
 					<key>ImpactTargeted</key>
 					<array>
 						<string>kMDItemEndDate</string>
+						<string>kMDItemEventEndDate</string>
 						<string>kMDItemStartDate</string>
+						<string>kMDItemEventStartDate</string>
 					</array>
 				</dict>
 			</dict>
@@ -45864,6 +46310,7 @@
 						<string>kMDItemFullyFormattedAddress</string>
 						<string>kMDItemExtractedAddressesLabels</string>
 						<string>kMDItemExtractedAddressesSynonyms</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -45871,7 +46318,41 @@
 					<array>
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
+						<string>kMDItemCreator</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -45941,6 +46422,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -46014,6 +46506,17 @@
 					<array>
 						<string>kMDItemExtractedAddressesLabels</string>
 					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
@@ -46095,6 +46598,28 @@
 						<string>kMDItemDescription</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -46111,6 +46636,28 @@
 					<array>
 						<string>kMDItemComment</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -46412,6 +46959,7 @@
 						<string>kMDItemFilename</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -46425,6 +46973,39 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -46496,6 +47077,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -46584,6 +47176,17 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -46656,6 +47259,28 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -46670,6 +47295,28 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemHashtags</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -46862,6 +47509,7 @@
 						<string>kMDItemFilename</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -46875,6 +47523,39 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -46946,6 +47627,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47034,6 +47726,17 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -47106,6 +47809,28 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -47120,6 +47845,28 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemHashtags</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47312,6 +48059,7 @@
 						<string>kMDItemFilename</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -47325,6 +48073,39 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47396,6 +48177,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47484,6 +48276,17 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -47556,6 +48359,28 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -47570,6 +48395,28 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemHashtags</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47762,6 +48609,7 @@
 						<string>kMDItemFilename</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -47775,6 +48623,39 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47846,6 +48727,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -47934,6 +48826,17 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -48006,6 +48909,28 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -48020,6 +48945,28 @@
 						<string>kMDItemComment</string>
 						<string>kMDItemHashtags</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -48214,6 +49161,7 @@
 						<string>kMDItemTitle</string>
 						<string>kMDItemCreator</string>
 						<string>kMDItemCardSubType</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -48228,6 +49176,69 @@
 						<string>kMDItemTextContent</string>
 						<string>kMDItemArtist</string>
 						<string>kMDItemComposer</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+						<string>kMDItemAlbum</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemArtist</string>
+						<string>kMDItemComposer</string>
+						<string>kMDItemMusicalGenre</string>
+						<string>kMDItemGenre</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+						<string>kMDItemArtist</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemComposer</string>
+						<string>kMDItemAlbum</string>
+						<string>kMDItemMusicalGenre</string>
+						<string>kMDItemGenre</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemGenre</string>
+						<string>kMDItemContributors</string>
 					</array>
 					<key>ImpactTargeted</key>
 					<array/>
@@ -48299,6 +49310,27 @@
 					<key>ImpactMedium</key>
 					<array>
 						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemInformation</string>
+						<string>kMDItemAppEntitySubtitle</string>
+						<string>kMDItemContainerTitle</string>
+						<string>kMDItemAuthors</string>
 					</array>
 					<key>ImpactTargeted</key>
 					<array/>
@@ -48393,6 +49425,29 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+						<string>kMDItemAlbum</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemArtist</string>
+						<string>kMDItemComposer</string>
+						<string>kMDItemMusicalGenre</string>
+						<string>kMDItemGenre</string>
+						<string>kMDItemInformation</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -48465,6 +49520,42 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemInformation</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemInformation</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -48478,6 +49569,46 @@
 					<array>
 						<string>kMDItemComment</string>
 						<string>kMDItemHashtags</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemInformation</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemAlternateNames</string>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemArtist</string>
+						<string>kMDItemComposer</string>
+						<string>kMDItemAlbum</string>
+						<string>kMDItemMusicalGenre</string>
+						<string>kMDItemGenre</string>
 					</array>
 					<key>ImpactTargeted</key>
 					<array/>
@@ -48861,6 +49992,7 @@
 						<string>kMDItemFullyFormattedAddress</string>
 						<string>kMDItemExtractedAddressesLabels</string>
 						<string>kMDItemExtractedAddressesSynonyms</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -48868,7 +50000,41 @@
 					<array>
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
+						<string>kMDItemCreator</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -48938,6 +50104,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -49011,6 +50188,17 @@
 					<array>
 						<string>kMDItemExtractedAddressesLabels</string>
 					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
@@ -49092,6 +50280,28 @@
 						<string>kMDItemDescription</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -49108,6 +50318,28 @@
 					<array>
 						<string>kMDItemComment</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -49451,6 +50683,76 @@
 						<string>kMDItemRecipients</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -49539,6 +50841,29 @@
 						<string>kMDItemAuthors</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -49612,6 +50937,29 @@
 					</array>
 					<key>ImpactTargeted</key>
 					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
@@ -49689,6 +51037,52 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -49704,6 +51098,52 @@
 					</array>
 					<key>ImpactTargeted</key>
 					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorEmailAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_VOICE_MAIL</key>
 				<dict>
@@ -49963,6 +51403,76 @@
 						<string>kMDItemRecipients</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -50009,6 +51519,8 @@
 					<array>
 						<string>kMDItemUserSharedReceivedRecipient</string>
 						<string>kMDItemUserSharedReceivedRecipientHandle</string>
+						<string>kMDItemUserSharedSentRecipient</string>
+						<string>kMDItemUserSharedSentRecipientHandle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -50042,6 +51554,29 @@
 						<string>kMDItemRecipients</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -50067,7 +51602,12 @@
 				<key>QUPP_ARG_APP_ENTITY_TYPE_KEYNOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
-					<array/>
+					<array>
+						<string>kMDItemUserSharedReceivedRecipient</string>
+						<string>kMDItemUserSharedReceivedRecipientHandle</string>
+						<string>kMDItemUserSharedSentRecipient</string>
+						<string>kMDItemUserSharedSentRecipientHandle</string>
+					</array>
 					<key>ImpactLow</key>
 					<array/>
 					<key>ImpactMedium</key>
@@ -50109,6 +51649,29 @@
 						<string>kMDItemRecipients</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -50132,7 +51695,12 @@
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NUMBERS</key>
 				<dict>
 					<key>ImpactHigh</key>
-					<array/>
+					<array>
+						<string>kMDItemUserSharedReceivedRecipient</string>
+						<string>kMDItemUserSharedReceivedRecipientHandle</string>
+						<string>kMDItemUserSharedSentRecipient</string>
+						<string>kMDItemUserSharedSentRecipientHandle</string>
+					</array>
 					<key>ImpactLow</key>
 					<array/>
 					<key>ImpactMedium</key>
@@ -50151,7 +51719,12 @@
 				<key>QUPP_ARG_APP_ENTITY_TYPE_PAGES</key>
 				<dict>
 					<key>ImpactHigh</key>
-					<array/>
+					<array>
+						<string>kMDItemUserSharedReceivedRecipient</string>
+						<string>kMDItemUserSharedReceivedRecipientHandle</string>
+						<string>kMDItemUserSharedSentRecipient</string>
+						<string>kMDItemUserSharedSentRecipientHandle</string>
+					</array>
 					<key>ImpactLow</key>
 					<array/>
 					<key>ImpactMedium</key>
@@ -50181,6 +51754,52 @@
 						<string>kMDItemRecipients</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -50196,6 +51815,52 @@
 					</array>
 					<key>ImpactTargeted</key>
 					<array>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
+						<string>kMDItemRecipients</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemRecipients</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAdditionalRecipientEmailAddresses</string>
+						<string>kMDItemPrimaryRecipientEmailAddresses</string>
 						<string>kMDItemRecipients</string>
 					</array>
 				</dict>
@@ -50445,6 +52110,61 @@
 						<string>kMDItemDisplayName</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -50525,6 +52245,24 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -50589,6 +52327,24 @@
 						<string>kMDItemPrimaryRecipientEmailAddresses</string>
 						<string>kMDItemRecipientAddresses</string>
 						<string>kMDItemRecipients</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -50673,6 +52429,42 @@
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -50685,6 +52477,42 @@
 					<key>ImpactMedium</key>
 					<array>
 						<string>kMDItemComment</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemTextContent</string>
 					</array>
 					<key>ImpactTargeted</key>
 					<array/>
@@ -50944,6 +52772,73 @@
 						<string>kMDItemDisplayName</string>
 						<string>kMDItemSubject</string>
 						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -50988,8 +52883,11 @@
 				<dict>
 					<key>ImpactHigh</key>
 					<array>
+						<string>kMDItemUserSharedSentSender</string>
+						<string>kMDItemUserSharedSentSenderHandle</string>
 						<string>kMDItemUserSharedReceivedSender</string>
 						<string>kMDItemUserSharedReceivedSenderHandle</string>
+						<string>kMDItemOwnerName</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -51022,6 +52920,28 @@
 						<string>kMDItemAuthors</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -51047,7 +52967,13 @@
 				<key>QUPP_ARG_APP_ENTITY_TYPE_KEYNOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
-					<array/>
+					<array>
+						<string>kMDItemUserSharedSentSender</string>
+						<string>kMDItemUserSharedSentSenderHandle</string>
+						<string>kMDItemUserSharedReceivedSender</string>
+						<string>kMDItemUserSharedReceivedSenderHandle</string>
+						<string>kMDItemOwnerName</string>
+					</array>
 					<key>ImpactLow</key>
 					<array/>
 					<key>ImpactMedium</key>
@@ -51090,6 +53016,28 @@
 						<string>kMDItemAuthors</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -51113,7 +53061,13 @@
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NUMBERS</key>
 				<dict>
 					<key>ImpactHigh</key>
-					<array/>
+					<array>
+						<string>kMDItemUserSharedSentSender</string>
+						<string>kMDItemUserSharedSentSenderHandle</string>
+						<string>kMDItemUserSharedReceivedSender</string>
+						<string>kMDItemUserSharedReceivedSenderHandle</string>
+						<string>kMDItemOwnerName</string>
+					</array>
 					<key>ImpactLow</key>
 					<array/>
 					<key>ImpactMedium</key>
@@ -51132,7 +53086,13 @@
 				<key>QUPP_ARG_APP_ENTITY_TYPE_PAGES</key>
 				<dict>
 					<key>ImpactHigh</key>
-					<array/>
+					<array>
+						<string>kMDItemUserSharedSentSender</string>
+						<string>kMDItemUserSharedSentSenderHandle</string>
+						<string>kMDItemUserSharedReceivedSender</string>
+						<string>kMDItemUserSharedReceivedSenderHandle</string>
+						<string>kMDItemOwnerName</string>
+					</array>
 					<key>ImpactLow</key>
 					<array/>
 					<key>ImpactMedium</key>
@@ -51165,6 +53125,50 @@
 						<string>kMDItemPhoneNumbers</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -51180,6 +53184,50 @@
 					</array>
 					<key>ImpactTargeted</key>
 					<array>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
+						<string>kMDItemAuthors</string>
+					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array>
+						<string>kMDItemDisplayName</string>
+						<string>kMDItemSubject</string>
+						<string>kMDItemTitle</string>
+						<string>kMDItemAppEntityTitle</string>
+					</array>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array>
+						<string>kMDItemLastEditorName</string>
+						<string>kMDItemTextContent</string>
+					</array>
+					<key>ImpactTargeted</key>
+					<array>
+						<string>kMDItemAuthorAddresses</string>
 						<string>kMDItemAuthors</string>
 					</array>
 				</dict>
@@ -51436,6 +53484,7 @@
 						<string>kMDItemFullyFormattedAddress</string>
 						<string>kMDItemExtractedAddressesLabels</string>
 						<string>kMDItemExtractedAddressesSynonyms</string>
+						<string>kMDItemAppEntityTitle</string>
 					</array>
 					<key>ImpactLow</key>
 					<array/>
@@ -51443,7 +53492,41 @@
 					<array>
 						<string>kMDItemComment</string>
 						<string>kMDItemTextContent</string>
+						<string>kMDItemCreator</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ALBUM</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -51513,6 +53596,17 @@
 					<array>
 						<string>kMDItemTextContent</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -51586,6 +53680,17 @@
 					<array>
 						<string>kMDItemExtractedAddressesLabels</string>
 					</array>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
 				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE</key>
 				<dict>
@@ -51667,6 +53772,28 @@
 						<string>kMDItemDescription</string>
 					</array>
 				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PLAYLIST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_PODCAST</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
 				<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 				<dict>
 					<key>ImpactHigh</key>
@@ -51683,6 +53810,28 @@
 					<array>
 						<string>kMDItemComment</string>
 					</array>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SHOW</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
+					<key>ImpactTargeted</key>
+					<array/>
+				</dict>
+				<key>QUPP_ARG_APP_ENTITY_TYPE_SONG</key>
+				<dict>
+					<key>ImpactHigh</key>
+					<array/>
+					<key>ImpactLow</key>
+					<array/>
+					<key>ImpactMedium</key>
+					<array/>
 					<key>ImpactTargeted</key>
 					<array/>
 				</dict>
@@ -61086,13 +63235,13 @@
 			<key>DEFAULT_APP_ENTITY</key>
 			<dict>
 				<key>ImpactHigh</key>
-				<real>1</real>
+				<real>1.1000000000000001</real>
 				<key>ImpactLow</key>
 				<real>1</real>
 				<key>ImpactMedium</key>
 				<real>1</real>
 				<key>ImpactTargeted</key>
-				<real>1</real>
+				<real>1.1000000000000001</real>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_CALENDAR_EVENT</key>
 			<dict>
@@ -61130,13 +63279,13 @@
 			<key>QUPP_ARG_APP_ENTITY_TYPE_EMAIL</key>
 			<dict>
 				<key>ImpactHigh</key>
-				<real>1</real>
+				<real>1.1000000000000001</real>
 				<key>ImpactLow</key>
 				<real>1</real>
 				<key>ImpactMedium</key>
 				<real>1</real>
 				<key>ImpactTargeted</key>
-				<real>1</real>
+				<real>1.1000000000000001</real>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
 			<dict>
@@ -61552,6 +63701,11 @@
 				<key>kQPBookmarkedAction</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_CALL_MISSED</key>
+			<dict>
+				<key>kQPCallMissedAction</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_COMPLETED</key>
 			<dict>
 				<key>kQPCompletedAction</key>
@@ -61565,6 +63719,11 @@
 			<key>QUPP_ARG_APP_ENTITY_STATUS_DELETED</key>
 			<dict>
 				<key>kQPDeletedAction</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_DISABLED</key>
+			<dict>
+				<key>kQPDisabledAction</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_DRAFT</key>
@@ -61582,9 +63741,19 @@
 				<key>kQPUserModifiedAction</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_ENABLED</key>
+			<dict>
+				<key>kQPEnabledAction</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_FAVORITED</key>
 			<dict>
 				<key>kQPFavoritedAction</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_FIRING</key>
+			<dict>
+				<key>kQPFiringAction</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_FLAGGED</key>
@@ -61595,6 +63764,11 @@
 			<key>QUPP_ARG_APP_ENTITY_STATUS_JUNK</key>
 			<dict>
 				<key>kQPJunkAction</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_PAUSED</key>
+			<dict>
+				<key>kQPPausedAction</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_PRINTED</key>
@@ -61617,6 +63791,11 @@
 				<key>kQPRepliedAction</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_RUNNING</key>
+			<dict>
+				<key>kQPRunningAction</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_SENT</key>
 			<dict>
 				<key>kQPSentAction</key>
@@ -61625,6 +63804,11 @@
 			<key>QUPP_ARG_APP_ENTITY_STATUS_SHARED</key>
 			<dict>
 				<key>kQPSharedAction</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_STATUS_SNOOZING</key>
+			<dict>
+				<key>kQPSnoozingAction</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_STATUS_TAGGED</key>
@@ -61651,6 +63835,11 @@
 				<key>kQPKindPhotoAlbum</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_APP</key>
+			<dict>
+				<key>kQPKindApp</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_ARTICLE</key>
 			<dict>
 				<key>kQPKindArticle</key>
@@ -61659,6 +63848,11 @@
 			<key>QUPP_ARG_APP_ENTITY_TYPE_ARTIST</key>
 			<dict>
 				<key>kQPKindArtist</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_AUDIOBOOK</key>
+			<dict>
+				<key>kQPKindAudioBook</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_BOOK</key>
@@ -61691,6 +63885,16 @@
 				<key>kQPKindConversation</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_DEVICE</key>
+			<dict>
+				<key>kQPKindDevice</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_DISPLAY</key>
+			<dict>
+				<key>kQPKindDisplay</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_DOCUMENT</key>
 			<dict>
 				<key>kQPKindDocument</key>
@@ -61704,6 +63908,11 @@
 			<key>QUPP_ARG_APP_ENTITY_TYPE_EMAIL</key>
 			<dict>
 				<key>kQPKindEmail</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_EPISODE</key>
+			<dict>
+				<key>kQPKindEpisode</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_FREEFORM_BOARD</key>
@@ -61761,6 +63970,11 @@
 				<key>kQPKindMovie</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC</key>
+			<dict>
+				<key>kQPKindMusic</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_MUSIC_ALBUM</key>
 			<dict>
 				<key>kQPKindAlbum</key>
@@ -61779,6 +63993,11 @@
 			<key>QUPP_ARG_APP_ENTITY_TYPE_NOTE_FOLDER</key>
 			<dict>
 				<key>kQPKindNotesFolder</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_NOTIFICATION</key>
+			<dict>
+				<key>kQPKindNotification</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_NUMBERS</key>
@@ -61831,6 +64050,11 @@
 				<key>kQPKindRadioStation</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_READING_LIST</key>
+			<dict>
+				<key>kQPKindReadingList</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_REMINDER</key>
 			<dict>
 				<key>kQPKindReminder</key>
@@ -61871,6 +64095,11 @@
 			<key>QUPP_ARG_APP_ENTITY_TYPE_SPATIAL_VIDEO</key>
 			<dict>
 				<key>kQPKindSpatialVideo</key>
+				<array/>
+			</dict>
+			<key>QUPP_ARG_APP_ENTITY_TYPE_SPEAKER</key>
+			<dict>
+				<key>kQPKindSpeaker</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_APP_ENTITY_TYPE_TAB</key>
@@ -62117,6 +64346,11 @@
 				<key>kQPFlagColorAction</key>
 				<array/>
 			</dict>
+			<key>QUPP_ARG_INFERRED_APP_ENTITY_TYPE_APP</key>
+			<dict>
+				<key>kQPKindApp</key>
+				<array/>
+			</dict>
 			<key>QUPP_ARG_INFERRED_APP_ENTITY_TYPE_CALENDAR_EVENT</key>
 			<dict>
 				<key>kQPKindCalendarEvent</key>
@@ -62278,11 +64512,15 @@
 			</dict>
 			<key>QUPP_ARG_LOCATION_ARRIVAL</key>
 			<dict>
+				<key>kQPArrivalLocation</key>
+				<array/>
 				<key>kQPFlightArrivalLocation</key>
 				<array/>
 			</dict>
 			<key>QUPP_ARG_LOCATION_DEPARTURE</key>
 			<dict>
+				<key>kQPDepartureLocation</key>
+				<array/>
 				<key>kQPFlightDepartureLocation</key>
 				<array/>
 			</dict>
@@ -63488,6 +65726,14 @@
 			<array>
 				<string>kMDItemMailboxes="*archive"</string>
 			</array>
+			<key>kQPArrivalLocation</key>
+			<array>
+				<string>kMDItemEventEndLocationAddress="%@v"cwd</string>
+				<string>kMDItemEventEndLocationAddressLocality="%@v"cwd</string>
+				<string>kMDItemEventEndLocationAddressRegion="%@v"cwd</string>
+				<string>kMDItemEventEndLocationAddressCountry="%@v"cwd</string>
+				<string>kMDItemEvenEndLocationName="%@v"cwd</string>
+			</array>
 			<key>kQPAttachedFileExtension</key>
 			<array>
 				<string>kMDItemAttachmentTypes="*.%@e"</string>
@@ -63515,6 +65761,10 @@
 			<key>kQPBrowsedAction</key>
 			<array>
 				<string>kMDItemContentTypeTree="com.apple.safari.history"</string>
+			</array>
+			<key>kQPCallMissedAction</key>
+			<array>
+				<string>com_apple_mobilephone_callStatus="Incoming Missed"</string>
 			</array>
 			<key>kQPCarRental</key>
 			<array>
@@ -63755,13 +66005,25 @@
 			<array>
 				<string>kMDItemIsTrashed=1</string>
 			</array>
+			<key>kQPDepartureLocation</key>
+			<array>
+				<string>kMDItemEventStartLocationAddress="%@v"cwd</string>
+				<string>kMDItemEventStartLocationAddressLocality="%@v"cwd</string>
+				<string>kMDItemEventStartLocationAddressRegion="%@v"cwd</string>
+				<string>kMDItemEventStartLocationAddressCountry="%@v"cwd</string>
+				<string>kMDItemEventStartLocationName="%@v"cwd</string>
+			</array>
+			<key>kQPDisabledAction</key>
+			<array>
+				<string>Clock_alarmEnabled!=1</string>
+			</array>
 			<key>kQPDraftAction</key>
 			<array>
 				<string>kMDItemMailboxes="*drafts"</string>
 			</array>
 			<key>kQPDueAction</key>
 			<array>
-				<string>kMDItemCompletionDate!=*</string>
+				<string>(kMDItemCompletionDate!=* &amp;&amp; _kMDItemAppEntityTypeIdentifier!="ListEntity")</string>
 			</array>
 			<key>kQPDuration</key>
 			<array>
@@ -63770,6 +66032,7 @@
 			<key>kQPEarliestAction</key>
 			<array>
 				<string>kMDItemEndDate&gt;=$time.iso(%@v)</string>
+				<string>kMDItemEventEndDate&gt;=$time.iso(%@v)</string>
 			</array>
 			<key>kQPEmailAddress</key>
 			<array>
@@ -63779,6 +66042,10 @@
 				<string>kMDItemRecipientEmailAddresses="%@v"cwd</string>
 				<string>kMDItemPrimaryRecipientEmailAddresses="%@v"cwd</string>
 				<string>(kMDItemExtractedEmailLabels[]="%@v"cwd || kMDItemExtractedEmailSynonyms[]="%@v"cwd)</string>
+			</array>
+			<key>kQPEnabledAction</key>
+			<array>
+				<string>Clock_alarmEnabled=1</string>
 			</array>
 			<key>kQPEventKind</key>
 			<array>
@@ -63817,6 +66084,10 @@
 			<array>
 				<string>kMDItemPhysicalSize&lt;=%@n</string>
 			</array>
+			<key>kQPFiringAction</key>
+			<array>
+				<string>Clock_state="firing"</string>
+			</array>
 			<key>kQPFlagColorAction</key>
 			<array>
 				<string>com_apple_mail_flagColor=%@s</string>
@@ -63837,6 +66108,7 @@
 			<key>kQPFlightArrival</key>
 			<array>
 				<string>InRange(kMDItemEndDate,0,2147483647)</string>
+				<string>InRange(kMDItemEventEndDate,0,2147483647)</string>
 			</array>
 			<key>kQPFlightArrivalLocation</key>
 			<array>
@@ -63855,6 +66127,7 @@
 			<key>kQPFlightDeparture</key>
 			<array>
 				<string>InRange(kMDItemStartDate,0,2147483647)</string>
+				<string>InRange(kMDItemEventStartDate,0,2147483647)</string>
 			</array>
 			<key>kQPFlightDepartureLocation</key>
 			<array>
@@ -63902,10 +66175,12 @@
 			<key>kQPHotelCheckin</key>
 			<array>
 				<string>InRange(kMDItemStartDate,0,2147483647)</string>
+				<string>InRange(kMDItemEventStartDate,0,2147483647)</string>
 			</array>
 			<key>kQPHotelCheckout</key>
 			<array>
 				<string>InRange(kMDItemEndDate,0,2147483647)</string>
+				<string>InRange(kMDItemEventEndDate,0,2147483647)</string>
 			</array>
 			<key>kQPHotelLocation</key>
 			<array>
@@ -63968,7 +66243,12 @@
 			</array>
 			<key>kQPKindAlbum</key>
 			<array>
-				<string>kMDItemLinkType="link_album"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="AlbumSiriEntity"</string>
+			</array>
+			<key>kQPKindApp</key>
+			<array>
+				<string>(kMDItemContentType="com.apple.application-bundle" &amp;&amp; kMDItemExecutableArchitectures=*)</string>
+				<string>(_kMDItemBundleID="com.apple.application" &amp;&amp; kMDItemKind="application")</string>
 			</array>
 			<key>kQPKindArticle</key>
 			<array>
@@ -63977,7 +66257,12 @@
 			</array>
 			<key>kQPKindArtist</key>
 			<array>
-				<string>kMDItemLinkType="link_artist"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="ArtistSiriEntity"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="ArtistEntity"</string>
+			</array>
+			<key>kQPKindAudioBook</key>
+			<array>
+				<string>_kMDItemAppEntityTypeIdentifier="AudiobookEntity"</string>
 			</array>
 			<key>kQPKindBook</key>
 			<array>
@@ -64010,6 +66295,15 @@
 				<string>kMDItemContentTypeTree="public.email-message"</string>
 				<string>kMDItemContentTypeTree="public.message"</string>
 				<string>_kMDItemAppEntityTypeIdentifier="ConversationEntity"</string>
+			</array>
+			<key>kQPKindDevice</key>
+			<array>
+				<string>_kMDItemAppEntityTypeIdentifier="HomeDeviceEntity"</string>
+			</array>
+			<key>kQPKindDisplay</key>
+			<array>
+				<string>HomeKit_deviceType="appleTV"</string>
+				<string>HomeKit_deviceType="television"</string>
 			</array>
 			<key>kQPKindDocument</key>
 			<array>
@@ -64044,7 +66338,13 @@
 				<string>kMDItemContentTypeTree="public.email-message"</string>
 				<string>_kMDItemAppEntityTypeIdentifier="MailMessageEntity"</string>
 				<string>kMDItemEventSourceBundleIdentifier="com.apple.mobilemail"</string>
+				<string>kMDItemEventSourceBundleIdentifier="com.apple.email.SearchIndexer"</string>
 				<string>kMDItemEventSourceBundleIdentifier="com.apple.mail"</string>
+			</array>
+			<key>kQPKindEpisode</key>
+			<array>
+				<string>_kMDItemAppEntityTypeIdentifier="EpisodeEntity"</string>
+				<string>kMDItemContentTypeTree="com.apple.podcasts.episode"</string>
 			</array>
 			<key>kQPKindFreeformBoard</key>
 			<array>
@@ -64112,6 +66412,12 @@
 			<array>
 				<string>kMDItemLinkType="link_movie"</string>
 			</array>
+			<key>kQPKindMusic</key>
+			<array>
+				<string>_kMDItemAppEntityTypeIdentifier="SongSiriEntity"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="AlbumSiriEntity"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="PlaylistSiriEntity"</string>
+			</array>
 			<key>kQPKindMusicVideo</key>
 			<array>
 				<string>kMDItemLinkType="link_music_video"</string>
@@ -64128,6 +66434,10 @@
 			<key>kQPKindNotesFolder</key>
 			<array>
 				<string>(kMDItemContentTypeTree="com.apple.notes.spotlightrecord" &amp;&amp; _kMDItemAppEntityTypeIdentifier="FolderEntity")</string>
+			</array>
+			<key>kQPKindNotification</key>
+			<array>
+				<string>_kMDItemAppEntityTypeIdentifier="UserNotificationEntity"</string>
 			</array>
 			<key>kQPKindNumbers</key>
 			<array>
@@ -64150,6 +66460,7 @@
 			<key>kQPKindPhoneCall</key>
 			<array>
 				<string>kMDItemContentTypeTree="kSpotlightItemTypeCall"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="CallRecord"</string>
 			</array>
 			<key>kQPKindPhoto</key>
 			<array>
@@ -64165,11 +66476,13 @@
 			</array>
 			<key>kQPKindPlaylist</key>
 			<array>
-				<string>kMDItemLinkType="link_playlist"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="PlaylistSiriEntity"</string>
+				<string>kMDItemContentTypeTree="public.playlist"</string>
 			</array>
 			<key>kQPKindPodcast</key>
 			<array>
-				<string>kMDItemLinkType="link_podcast"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="ShowEntity"</string>
+				<string>kMDItemContentTypeTree="com.apple.podcasts.show"</string>
 			</array>
 			<key>kQPKindPortrait</key>
 			<array>
@@ -64178,6 +66491,10 @@
 			<key>kQPKindRadioStation</key>
 			<array>
 				<string>kMDItemLinkType="link_radio_station"</string>
+			</array>
+			<key>kQPKindReadingList</key>
+			<array>
+				<string>_kMDItemAppEntityTypeIdentifier="ReadingListItemEntity"</string>
 			</array>
 			<key>kQPKindReminder</key>
 			<array>
@@ -64198,7 +66515,7 @@
 			</array>
 			<key>kQPKindShow</key>
 			<array>
-				<string>kMDItemLinkType="link_show"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="ShowEntity"</string>
 			</array>
 			<key>kQPKindSlomo</key>
 			<array>
@@ -64206,11 +66523,17 @@
 			</array>
 			<key>kQPKindSong</key>
 			<array>
-				<string>kMDItemLinkType="link_song"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="SongSiriEntity"</string>
 			</array>
 			<key>kQPKindSpatialVideo</key>
 			<array>
 				<string>kMDItemPhotosMediaTypes="Spatial" &amp;&amp; kMDItemPhotosMediaTypes="Video"</string>
+			</array>
+			<key>kQPKindSpeaker</key>
+			<array>
+				<string>HomeKit_deviceType="speaker"</string>
+				<string>HomeKit_deviceType="homePod"</string>
+				<string>HomeKit_deviceType="sidekick"</string>
 			</array>
 			<key>kQPKindTab</key>
 			<array>
@@ -64234,7 +66557,7 @@
 			<key>kQPKindVoiceMail</key>
 			<array>
 				<string>kMDItemContentTypeTree="kSpotlightItemTypeVoicemail"</string>
-				<string>kMDItemContentTypeTree="com.apple.m4a-audio"</string>
+				<string>_kMDItemAppEntityTypeIdentifier="CallMessage"</string>
 			</array>
 			<key>kQPKindVoiceMemo</key>
 			<array>
@@ -64253,6 +66576,7 @@
 			<key>kQPLatestAction</key>
 			<array>
 				<string>kMDItemStartDate&lt;=$time.iso(%@v)</string>
+				<string>kMDItemEventStartDate&lt;=$time.iso(%@v)</string>
 			</array>
 			<key>kQPLink</key>
 			<array>
@@ -64313,6 +66637,10 @@
 			<array>
 				<string>kMDItemEventType="party"</string>
 			</array>
+			<key>kQPPausedAction</key>
+			<array>
+				<string>Clock_state="paused"</string>
+			</array>
 			<key>kQPPerson</key>
 			<array>
 				<string>kMDItemContactKeywords="%@v*"cwd</string>
@@ -64340,6 +66668,7 @@
 			<key>kQPReadAction</key>
 			<array>
 				<string>com_apple_mail_read=%@s</string>
+				<string>_kMDItemMessageRead=%@s</string>
 				<string>kMDItemContentTypeTree="com.apple.safari.history"</string>
 			</array>
 			<key>kQPReadingListAction</key>
@@ -64377,12 +66706,17 @@
 			<array>
 				<string>kMDItemEventStartLocationName="%@v*"cwd</string>
 			</array>
+			<key>kQPRunningAction</key>
+			<array>
+				<string>Clock_state="running"</string>
+			</array>
 			<key>kQPSender</key>
 			<array>
 				<string>kMDItemAuthors="%@v"%@b</string>
 				<string>kMDItemAuthorAddresses="%@v*"%@b</string>
 				<string>kMDItemUserSharedSentSender="%@v"%@b</string>
 				<string>kMDItemUserSharedReceivedSender="%@v"%@b</string>
+				<string>(kMDItemOwnerName="%@v*"%@b &amp;&amp; kMDItemIsShared=1)</string>
 			</array>
 			<key>kQPSenderHandle</key>
 			<array>
@@ -64407,6 +66741,10 @@
 			<key>kQPShippingOrder</key>
 			<array>
 				<string>kMDItemEventType="shipping_order"</string>
+			</array>
+			<key>kQPSnoozingAction</key>
+			<array>
+				<string>Clock_state="snoozed"</string>
 			</array>
 			<key>kQPSourceTypeCalendarEvent</key>
 			<array>
@@ -64440,10 +66778,13 @@
 			<key>kQPSourceTypeEmail</key>
 			<array>
 				<string>_kMDItemBundleID="com.apple.mobilemail"</string>
+				<string>_kMDItemBundleID="com.apple.email.SearchIndexer"</string>
 				<string>_kMDItemBundleID="com.apple.mail"</string>
 				<string>kMDItemPhotosSavedFromAppBundleIdentifier="com.apple.mobilemail"</string>
+				<string>kMDItemPhotosSavedFromAppBundleIdentifier="com.apple.email.SearchIndexer"</string>
 				<string>kMDItemPhotosSavedFromAppBundleIdentifier="com.apple.mail"</string>
 				<string>kMDItemEventSourceBundleIdentifier="com.apple.mobilemail"</string>
+				<string>kMDItemEventSourceBundleIdentifier="com.apple.email.SearchIndexer"</string>
 				<string>kMDItemEventSourceBundleIdentifier="com.apple.mail"</string>
 			</array>
 			<key>kQPSourceTypeFreeformBoard</key>
@@ -64639,6 +66980,7 @@
 			<key>kQPUnreadAction</key>
 			<array>
 				<string>com_apple_mail_read=%@s</string>
+				<string>_kMDItemMessageRead=%@s &amp;&amp; _kMDItemIsFromMe=0</string>
 			</array>
 			<key>kQPUserCreatedAction</key>
 			<array>

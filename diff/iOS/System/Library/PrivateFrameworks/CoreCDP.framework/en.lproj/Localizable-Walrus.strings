@@ -107,10 +107,9 @@ Advanced Data Protection offers an additional layer of security by using your iP
 "ACCESS_DATACLASS_VALIDATION_FAILED_MESSAGE" = "Please try again later.";
 "ADVANCED_DATA_PROTECTION_DISABLE_PASSCODE_DEVICE" = "To turn off Advanced Data Protection, enter the passcode you use to unlock this device.";
 "ADP_DETAILS_SCREEN_DATACLASS_NOTES" = "Notes";
-"ADP_DETAILS_SCREEN_DATACLASS_SIRI_SHORTCUTS" = "Siri Shortcuts";
+"ADP_OFFER_GENERIC_ERROR_TITLE" = "Unable to Turn On Advanced Data Protection";
 "WALRUS_DEVICE_PICKER_FORGOT_ALL_PASSCODE" = "Forgot all passcodes?";
 "ADVANCED_DATA_PROTECTION_DISABLE_NO_PASSCODE_ALERT_PRIMARY_BUTTON" = "Turn Off";
-"ADP_OFFER_GENERIC_ERROR_TITLE" = "Unable to Turn On Advanced Data Protection";
 "WALRUS_ICLOUD_DELETED_CONFIRM_GOTO_SETTINGS_BUTTON_TITLE" = "Go to Settings";
 "FOLLOWUP_JOIN_CDP_BUTTON_DISMISS" = "Not Now";
 "FOLLOWUP_JOIN_CDP" = "Resume Data Sync";
@@ -150,6 +149,7 @@ The data that would be deleted includes device backups, photos, notes, files, an
 "ADVANCED_DATA_PROTECTION_DISABLE_PASSCODE_MACBOOK" = "To turn off Advanced Data Protection, enter the password you use to unlock this Mac.";
 "ENABLE_WEB_ACCESS_PROMPT_TITLE" = "Access iCloud Data on the Web";
 "ADP_DETAILS_SCREEN_W_TURN_OFF_BUTTON_TITLE_OSX" = "Turn Off...";
+"ADP_DETAILS_SCREEN_DATACLASS_SHORTCUTS" = "Shortcuts";
 "WALRUS_ALERT_MESSAGE_NO_RECOVERY_KEY" = "If you don’t have your recovery key, you won’t be able to recover your iCloud data.";
 "FOLLOWUP_VERIFY_PASSCODE_NOTIFICATION_TITLE" = "Security Settings Verification Required";
 "RPD_CONFIRMATION_STEP_2_MESSAGE" = "The data that you have stored in iCloud will be permanently deleted. This can’t be undone.
@@ -170,7 +170,7 @@ iCloud Mail, Calendar, and Contacts data won’t be deleted.";
 "FOLLOWUP_VERIFY_PASSCODE_TITLE" = "Security Settings Verification Required";
 "ADD_DATA_RECOVERY_SERVICE_PROMPT_MESSAGE" = "iCloud Data Recovery Service can help you recover your data. The service requires Apple to maintain access to your data to help you recover it.";
 "WALRUS_ALERT_BUTTON_TITLE_ASK_SOMEONE_ELSE" = "Ask Someone Else";
-"WALRUS_ALERT_BUTTON_TITLE_MORE_INFORMATION" = "More Information";
+"WALRUS_ALERT_BUTTON_TITLE_MORE_INFORMATION" = "More Options";
 "ADP_UPSELL_DETAILS_SCREEN_HEADER_TEXT" = "Advanced Data Protection for iCloud";
 "REMOTE_SECRET_ENTRY_FORGOT_CODE_DIALOG_MESSAGE_WALRUS_BUDDY_BACKUP_PASSCODE_MACBOOK_PRO" = "If you can’t remember the passcode for “%@”, you can still sign in but you won’t be able to restore this MacBook Pro from iCloud Backup and access other end-to-end encrypted data stored in iCloud.";
 "SET_UP_ELLIPSIS" = "Set Up";

@@ -116,6 +116,13 @@
 	<array>
 		<string>Discoverability.Signals</string>
 	</array>
+	<key>com.apple.private.biome.writer</key>
+	<array>
+		<string>SensitiveContentAnalysis.UIInteraction</string>
+		<string>SensitiveContentAnalysis.MediaAnalysis</string>
+		<string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+		<string>SensitiveContentAnalysis.ResourcesInteraction</string>
+	</array>
 	<key>com.apple.private.canGetAppLinkInfo</key>
 	<true/>
 	<key>com.apple.private.contacts</key>

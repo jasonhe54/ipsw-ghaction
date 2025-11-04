@@ -83,6 +83,8 @@
 	<true/>
 	<key>com.apple.developer.associated-domains</key>
 	<array/>
+	<key>com.apple.developer.carp</key>
+	<true/>
 	<key>com.apple.developer.corelocation.learned-routes-access</key>
 	<true/>
 	<key>com.apple.developer.corelocation.visit-history-access</key>
@@ -258,6 +260,8 @@
 	<key>com.apple.private.canModifyAppLinkPermissions</key>
 	<true/>
 	<key>com.apple.private.carkit</key>
+	<true/>
+	<key>com.apple.private.carp</key>
 	<true/>
 	<key>com.apple.private.communicationsfilter</key>
 	<true/>
@@ -494,6 +498,7 @@
 		<string>com.apple.kvsd</string>
 		<string>com.apple.aa.daemon.xpc</string>
 		<string>com.apple.MFAAuthentication.MFAANetwork</string>
+		<string>com.apple.caraccessoryframework.cardata</string>
 	</array>
 	<key>com.apple.security.exception.process-info</key>
 	<true/>

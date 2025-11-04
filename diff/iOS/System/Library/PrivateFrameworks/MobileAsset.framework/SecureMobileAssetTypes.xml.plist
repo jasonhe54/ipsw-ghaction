@@ -7,9 +7,18 @@
 		<key>SupportsDarwin</key>
 		<true/>
 	</dict>
+	<key>com.apple.MobileAsset.CN.GuardrailFramework</key>
+	<dict>
+		<key>SupportsDarwin</key>
+		<true/>
+		<key>SupportsLoadableTrustCache</key>
+		<true/>
+	</dict>
 	<key>com.apple.MobileAsset.DeviceRecoveryBrain</key>
 	<dict>
 		<key>SupportsDarwin</key>
+		<true/>
+		<key>SupportsLoadableTrustCache</key>
 		<true/>
 	</dict>
 	<key>com.apple.MobileAsset.PKITrustStore</key>
@@ -194,6 +203,8 @@
 			<integer>100</integer>
 			<key>com.apple.siri.sp.invocation.pt_BR</key>
 			<integer>100</integer>
+			<key>com.apple.siri.sp.invocation.pt_PT</key>
+			<integer>100</integer>
 			<key>com.apple.siri.sp.invocation.ru_RU</key>
 			<integer>100</integer>
 			<key>com.apple.siri.sp.invocation.sv_SE</key>
@@ -281,6 +292,8 @@
 			<key>com.apple.siri.sp.mitigation.nl_NL</key>
 			<integer>102</integer>
 			<key>com.apple.siri.sp.mitigation.pt_BR</key>
+			<integer>102</integer>
+			<key>com.apple.siri.sp.mitigation.pt_PT</key>
 			<integer>102</integer>
 			<key>com.apple.siri.sp.mitigation.ru_RU</key>
 			<integer>102</integer>

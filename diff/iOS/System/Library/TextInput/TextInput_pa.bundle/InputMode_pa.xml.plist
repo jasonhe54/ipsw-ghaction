@@ -13,6 +13,14 @@
 			<string>pa-Translit@ml=105</string>
 		</array>
 	</dict>
+	<key>UIKeyboardDefaultLanguageInputModes-TV</key>
+	<dict>
+		<key>pa</key>
+		<array>
+			<string>pa</string>
+			<string>en_IN</string>
+		</array>
+	</dict>
 	<key>UIKeyboardSuggestedDefaultLanguageInputModes</key>
 	<dict>
 		<key>pa</key>
@@ -90,6 +98,10 @@
 				<string>Punjabi-Phonetic</string>
 				<string>Punjabi</string>
 				<string>Punjabi-Alphabetic</string>
+			</array>
+			<key>SWLayouts-Monolith</key>
+			<array>
+				<string>Punjabi</string>
 			</array>
 			<key>UIKeyboardComposesText</key>
 			<true/>

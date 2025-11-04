@@ -10,6 +10,10 @@
 	<string>com.apple.wifid</string>
 	<key>MachServices</key>
 	<dict>
+		<key>com.apple.developer.wifi-infrastructure.WiFiNetworkSharingApp</key>
+		<true/>
+		<key>com.apple.developer.wifi-infrastructure.WiFiNetworkSharingExtension</key>
+		<true/>
 		<key>com.apple.private.corewifi-xpc</key>
 		<true/>
 		<key>com.apple.private.corewifi.internal-xpc</key>
@@ -21,6 +25,10 @@
 		<key>com.apple.private.corewifi.unrestricted-xpc</key>
 		<true/>
 		<key>com.apple.private.corewifi.user-agent-xpc</key>
+		<true/>
+		<key>com.apple.private.corewifi.wifi-network-sharing-ui-xpc</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.corewifi.usernotifications</key>
 		<true/>
 		<key>com.apple.usernotifications.delegate.com.apple.wifid.usernotification</key>
 		<true/>

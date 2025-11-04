@@ -71,6 +71,7 @@
 "CALLS_COUNT" = "%d calls";
 "VOICEMAIL_DELETE_AND_REPORT_SPAM_TITLE" = "Report Spam and Delete";
 "SNAP_MENU_ITEM" = "Name and Photo Sharing";
+"CLEAR_ALL_DELETED_VOICEMAILS" = "These voicemails will be deleted from all of your devices. This action cannot be undone.";
 "CLEAR_ALL_CONFIRMATION" = "All recent calls will be deleted from all of your devices.";
 "ADD_FAVORITE" = "Add Favorite";
 "CLEAR_ALL_RECENTS" = "Clear All Recents";
@@ -86,10 +87,11 @@
 "MARK_AS_KNOWN" = "Mark as Known";
 "CLEAR_ALL_VOICEMAILS_CONFIRMATION" = "All recent voicemails will be deleted from all of your devices.";
 "COUNT_SELECTED" = "{'value': {'one': '%1$i Selected', 'other': '%1$i Selected', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'i'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
-"VOICEMAIL_REPORT_SPAM" = "Report Spam";
+"CLEAR_VOICEMAILS_PROMPT" = "Are you sure you want to clear these voicemails?";
 "AUDIO_ROUTE_SPEAKER" = "Speaker";
 "REMOVE_ALL_RECENTS_DELETE_CALLS" = "Delete Calls";
 "JOIN_LINK" = "Join";
+"VOICEMAIL_REPORT_SPAM" = "Report Spam";
 "LAYOUT_TIP_KEEP" = "Keep As Is";
 "OUTGOING" = "Outgoing";
 "UNDELETE" = "Undelete";

@@ -16,7 +16,7 @@
 		<string>com.apple.mobilecal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarUpNextWidget</string>
 		<string>com.apple.reminders.WidgetExtension:com.apple.reminders.widget</string>
 	</array>
-	<key>carPlayAnyCalendarWidget</key>
+	<key>anyCalendarWidget</key>
 	<array>
 		<string>com.apple.mobilecal:com.apple.mobilecal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarUpNextWidget</string>
 		<string>com.google.calendar:com.google.calendar.WidgetKitExtension:com.google.calendar.upcoming_events</string>
@@ -29,7 +29,24 @@
 		<string>com.cozi.icozi-free:com.cozi.icozi-free.CoziWidgets:CalendarWidget</string>
 		<string>24me:24me.Widget:TFMWidget</string>
 	</array>
-	<key>carPlayAnyMedia_MusicBooksPodcast_Widget</key>
+	<key>anyElectricCarAppWidget</key>
+	<array>
+		<string>com.ford.fordpass:com.ford.fordpass.widgetExtension:Vehicle_Widget</string>
+		<string>com.lucidmotors.mobile.prod:com.lucidmotors.mobile.prod.HomeWidget:HomeWidgetSmall</string>
+		<string>com.mbusa.mma.ios:com.mbusa.mma.ios.widget:MercedesMeStatusWidget</string>
+		<string>de.bmw.connected.mobile20.na:de.bmw.connected.mobile20.na.Wid-Ext:VehicleStatusWidget</string>
+		<string>com.porsche.one:com.porsche.one.widget-extension:PorscheWidget</string>
+		<string>com.nissan.mynissan:com.nissan.mynissan.widgetKitapp:VehicleStatusWidgetSmall</string>
+		<string>com.rivian.ios.consumer:com.rivian.ios.consumer.extension-widget:TellTalesWidget</string>
+		<string>com.teslamotors.TeslaApp:com.teslamotors.TeslaApp.TeslaWidgets:VehicleStatusWidget</string>
+	</array>
+	<key>anyHomeMonitoringAppWidget</key>
+	<array>
+		<string>com.ring:com.ring.RingWidgetExtension:LVWidgetViewExtension</string>
+		<string>com.simplisafe.mobile:com.simplisafe.mobile.SimpliWidgets:CamerasWidget</string>
+		<string>com.alarm.Alarm:com.alarm.Alarm.homescreenwidgetext:CommandWidget</string>
+	</array>
+	<key>anyMedia_MusicBooksPodcast_Widget</key>
 	<array>
 		<string>com.apple.Music:com.apple.Music.MusicWidgets:Music.RecentlyPlayedWidget</string>
 		<string>com.spotify.client:com.spotify.client.widgetnowplaying:NowPlaying</string>
@@ -45,7 +62,7 @@
 		<string>fm.overcast.overcast:fm.overcast.overcast.widget:Recents</string>
 		<string>au.com.shiftyjelly.podcasts:au.com.shiftyjelly.podcasts.WidgetExtension:Now_Playing_Widget</string>
 	</array>
-	<key>carPlayAnyToDoWidget</key>
+	<key>anyToDoWidget</key>
 	<array>
 		<string>com.apple.reminders:com.apple.reminders.WidgetExtension:com.apple.reminders.widget</string>
 		<string>com.culturedcode.ThingsiPhone:com.culturedcode.ThingsiPhone.WidgetExtension:ShowListWidget</string>
@@ -62,21 +79,21 @@
 	<array>
 		<string>com.apple.mobiletimer.WorldClockWidget:com.apple.mobiletimer.nonumeral</string>
 		<string>com.apple.mobilecal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarDateWidget</string>
-		<string>carPlayAnyCalendarWidget</string>
-		<string>carPlayAnyMedia_MusicBooksPodcast_Widget</string>
+		<string>anyCalendarWidget</string>
+		<string>anyMedia_MusicBooksPodcast_Widget</string>
 	</array>
 	<key>carPlayOnboardingRequiredWidgetsForDefaultStack1-only</key>
 	<array>
 		<string>com.apple.mobiletimer.WorldClockWidget:com.apple.mobiletimer.nonumeral</string>
-		<string>carPlayAnyCalendarWidget</string>
+		<string>anyCalendarWidget</string>
 		<string>com.apple.weather.widget:com.apple.weather.widget.dataDense</string>
-		<string>carPlayAnyMedia_MusicBooksPodcast_Widget</string>
+		<string>anyMedia_MusicBooksPodcast_Widget</string>
 	</array>
 	<key>carPlayOnboardingRequiredWidgetsForDefaultStack2</key>
 	<array>
 		<string>com.apple.weather.widget:com.apple.weather.widget.dataDense</string>
 		<string>com.apple.Home.HomeWidget.Interactive:com.apple.Home.widget.interactive</string>
-		<string>carPlayAnyToDoWidget</string>
+		<string>anyToDoWidget</string>
 	</array>
 	<key>carPlayOnboardingRequiredWidgetsForDefaultStack3</key>
 	<array>
@@ -98,27 +115,29 @@
 	<key>dayZeroDefaultStackTvOS</key>
 	<array>
 		<string>com.apple.weather.nonPersonal.widget:com.apple.weather</string>
-		<string>com.apple.mobilecal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarUpNextWidget</string>
-		<string>com.apple.mobileslideshow.PhotosReliveWidget:com.apple.mobileslideshow.PhotosReliveWidget</string>
-		<string>com.apple.Maps.GeneralMapsWidget:com.apple.Maps</string>
-		<string>com.apple.Music.MusicWidgets:Music.RecentlyPlayedWidget</string>
-		<string>suggestions</string>
-		<string>com.apple.tv.TVWidgetExtension:com.apple.tv</string>
-		<string>com.apple.gamecenter.widgets.extension:ContinuePlayingWidget</string>
+		<string>com.apple.CalendarExtensionPlaceholder.nonPersonal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarDateWidget</string>
+		<string>com.apple.podcasts.nonPersonal.widget:com.apple.podcasts.widget.upnext</string>
+		<string>com.apple.Home.HomeWidget.Interactive:com.apple.Home.widget.interactive</string>
+		<string>anyElectricCarAppWidget</string>
+		<string>anyMedia_MusicBooksPodcast_Widget</string>
+		<string>anyHomeMonitoringAppWidget</string>
+		<string>com.apple.Batteries.BatteriesAvocadoWidgetExtension:BatteriesAvocadoWidget</string>
 	</array>
 	<key>dayZeroDefaultWidgetsTvOS</key>
 	<array>
-		<string>com.apple.mobileslideshow.PhotosReliveWidget:com.apple.mobileslideshow.PhotosReliveWidget</string>
-		<string>com.apple.Maps.GeneralMapsWidget:com.apple.Maps</string>
-		<string>com.apple.Music.MusicWidgets:Music.RecentlyPlayedWidget</string>
-		<string>com.apple.podcasts.widget:com.apple.podcasts.widget.upnext</string>
-		<string>com.apple.mobilenotes.WidgetExtension:com.apple.mobilenotes.FolderWidget</string>
 		<string>com.apple.weather.nonPersonal.widget:com.apple.weather</string>
+		<string>com.apple.CalendarExtensionPlaceholder.nonPersonal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarUpNextWidget</string>
+		<string>com.apple.Music.nonPersonal.MusicWidgets:Music.RecentlyPlayedWidget</string>
+		<string>com.apple.podcasts.nonPersonal.widget:com.apple.podcasts.widget.upnext</string>
 		<string>com.apple.reminders.WidgetExtension:com.apple.reminders.widget</string>
-		<string>com.apple.Fitness.FitnessWidget:com.apple.Fitness</string>
-		<string>com.apple.mobiletimer.WorldClockWidget:com.apple.mobiletimer.WorldClock</string>
+		<string>com.apple.mobiletimer.WorldClockWidget:com.apple.mobiletimer.nonumeral</string>
+		<string>com.apple.mobileslideshow.PhotosReliveWidget:com.apple.mobileslideshow.PhotosReliveWidget</string>
+		<string>com.apple.Home.HomeWidget.Interactive:com.apple.Home.widget.interactive</string>
+		<string>anyMedia_MusicBooksPodcast_Widget</string>
+		<string>com.apple.CalendarExtensionPlaceholder.nonPersonal.CalendarWidgetExtension:com.apple.CalendarWidget.CalendarDateWidget</string>
+		<string>anyElectricCarAppWidget</string>
+		<string>anyHomeMonitoringAppWidget</string>
 		<string>com.apple.Batteries.BatteriesAvocadoWidgetExtension:BatteriesAvocadoWidget</string>
-		<string>com.apple.stocks.widget:detail</string>
 	</array>
 	<key>dayZeroDefaultWidgetsiPad</key>
 	<array>
@@ -183,6 +202,7 @@
 	<key>denyListWidgetsTvOS</key>
 	<array>
 		<string>com.apple.news</string>
+		<string>com.apple.stocks</string>
 	</array>
 	<key>personalizedOnboardingDefaultStack1ConditionalWidgetsiPad</key>
 	<array>

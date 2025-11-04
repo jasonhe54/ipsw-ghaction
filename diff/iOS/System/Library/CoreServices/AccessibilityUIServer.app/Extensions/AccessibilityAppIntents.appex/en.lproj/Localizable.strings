@@ -16,11 +16,11 @@
 "INCREASE_CONTRAST_DESCRIPTION" = "Increase color contrast between app foreground and background colors.";
 "ZOOM_DESCRIPTION" = "Zoom magnifies the entire screen.";
 "VOICEOVER_DESCRIPTION" = "VoiceOver speaks items on the screen.";
-"MAGNIFIER_DETECTION_MODE_DESCRIPTION" = "Start Detection Mode on the Magnifier app.";
+"MAGNIFIER_DETECTION_MODE_DESCRIPTION" = "Start accessibility detectors.";
 "LAUNCH_MAGNIFIER" = "Magnifier";
 "GUIDED_ACCESS_DESCRIPTION" = "Keep iPhone in a single app and control which features are available.";
 "LIVE_SPEECH_DESCRIPTION" = "Type phrases for your iPhone to speak aloud.";
-"MAG_SERVICE_DESCRIBE_SCENE_DESCRIPTION" = "Have iPhone speak a description of your current surroundings.";
+"MAG_SERVICE_DESCRIBE_SCENE_DESCRIPTION" = "Get a description of your current surroundings.";
 "APPLE_WATCH_MIRRORING_DESCRIPTION" = "Share and control your Apple Watch screen from a paired iPhone.";
 "SMART_INVERT_DESCRIPTION" = "Smart Invert reverses the colors of the display, except for images, media and some apps that use dark color styles.";
 "TOGGLE_${feature}" = "Toggle ${feature}";

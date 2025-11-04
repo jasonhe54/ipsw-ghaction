@@ -19,12 +19,16 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://es.aes.mnc004.mcc420.pub.3gppnetwork.org</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
 		<key>SupportedActions</key>
 		<array>
 			<string>TransferSIMService</string>
 		</array>
 		<key>SupportedEntitlements</key>
-		<integer>5121</integer>
+		<integer>13313</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -57,6 +61,15 @@
 	<dict>
 		<key>SoftwareUpdateOptInRequired</key>
 		<true/>
+	</dict>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>zsa.prod.smdpplus.stc.com.sa</string>
+		<key>MinCompatibleOS</key>
+		<string>26.0</string>
+		<key>TransferSupportedOverCloud</key>
+		<false/>
 	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<array>

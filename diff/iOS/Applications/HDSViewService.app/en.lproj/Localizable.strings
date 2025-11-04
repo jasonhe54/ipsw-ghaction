@@ -81,7 +81,7 @@ The middle characters must be alphanumeric, whitespace, control, or a select gro
 "UNREACHABLE_NETWORK_SUBTITLE" = "HomePod may not work properly while connected to “%@”. Choose a preferred network to ensure the best experience for setting up and using HomePod.";
 "EXIT_BUTTON_TITLE" = "Exit";
 "UNLOCK_TO_CONNECT_GREEN_TEA" = "Unlock to Connect with iCloud";
-"AS_ICLOUD_INCOMPATIBLE_DETAIL" = "You must have Two-Factor Authentication enabled on your iCloud account to set up a HomePod.";
+"AS_ICLOUD_INCOMPATIBLE_DETAIL" = "You must have Two-Factor Authentication enabled on your Apple Account to set up a HomePod.";
 "HOMEPOD_SETUP_NO_ACCOUNTS_DETAIL1" = "For added iCloud security";
 "NO" = "No";
 "HOMEPOD_SETUP_NO_ACCOUNTS_DETAIL2" = "To play music";
@@ -97,6 +97,7 @@ The middle characters must be alphanumeric, whitespace, control, or a select gro
 "WIFI_INCOMPATIBLE_DETAIL_ENTERPRISE_IPOD_HOMEPOD_GT" = "The current WLAN from this iPod touch cannot be used to set up your HomePod. This enterprise network is not supported.";
 "WIFI_JOIN_FAILED_INFO_FORMAT_HOMEPOD" = "HomePod could not connect to the Wi‑Fi network “%@”.";
 "HOMEPOD_SETUP_NO_ICLOUDHSA2_BODY" = "To set up HomePod, review and upgrade your Apple Account security.";
+"DATA_AND_PRIVACY_TITLE" = "Data & Privacy";
 "HOMEPOD_SU_NO_SETUP_CANCEL_SU" = "Cancel Software Update";
 "DONE" = "Done";
 "HOMEPOD_SOFTWARE_UPDATE_DONE_TITLE2" = "HomePod Update in Progress";
@@ -150,7 +151,7 @@ Apple Confidential Profile. Do not distribute. Not to be used or disclosed witho
 "SIGN_IN_TO_IPOD" = "Sign in to iPod touch";
 "HOMEPOD_SETUP_ITUNES_SETTINGS" = "Apple Music Settings";
 "PERSONAL_REQUESTS_DONT_USE" = "Don’t Use Personal Content";
-"CONNECTION_FAILED" = "Connection Failed";
+"CONNECTION_FAILED" = "Unable to Connect";
 "ACTIVE_SESSION_ERROR" = "Someone is already setting up this HomePod.";
 "ME_DEVICE_SWITCH_MESSAGE_FORMAT_IPAD_HOMEPOD" = "To enable personal content on HomePod you have to use this iPad “%1$@” when sharing your location. You are currently using “%2$@” to share location.";
 "WIFI_CAPTIVE_NETWORK_DETAIL_HOMEPOD" = "“%@” requires additional information to connect.";
@@ -173,7 +174,7 @@ Apple Confidential Profile. Do not distribute. Not to be used or disclosed witho
 "HOMEPOD_SU_NO_SETUP_CANCEL_ACK_ALERT_UNAVAILABLE_SUBTITLE" = "The HomePod has already applied the Software Update and cannot be cancelled anymore.";
 "HH2UPSELL_TITLE" = "Apple Home Update Required";
 "EXIT_SETUP_MESSAGE_HOMEPOD_IPAD_HOMEPOD" = "Are you sure you want to exit setup? Bring your iPad close to HomePod to restart setup later.";
-"HOMEPOD_SETUP_TRY_AGAIN_TITLE" = "Connection Failed";
+"HOMEPOD_SETUP_TRY_AGAIN_TITLE" = "Unable to Connect";
 "WIFI_NOT_CONNECTED_DETAIL_WHA" = "You must be connected to Wi‑Fi to set up AirPlay 2.";
 "USE_THIS_DEVICE_BUTTON_IPHONE" = "Use This iPhone";
 "HOMEPOD_UPDATE_TITLE_IPOD" = "Update Your iPod touch";
@@ -187,10 +188,10 @@ Apple Confidential Profile. Do not distribute. Not to be used or disclosed witho
 "WIFI_NOT_CONNECTED_TITLE_GT" = "WLAN Not Connected";
 "AS_AUTH_INSTRUCTIONS_SIRI_INCORRECT" = "Incorrect code. Enter the four digits that Siri speaks to continue setup.";
 "NON_OWNER_HOME_FORMAT_HOMEPOD" = "Only the owner of %@ can set up HomePod for this home. Ask them to complete setup on their iPhone.";
-"ICLOUD_INCOMPATIBLE_DETAIL_WHA" = "You must have Two-Factor Authentication enabled on your iCloud account to set up AirPlay 2.";
+"ICLOUD_INCOMPATIBLE_DETAIL_WHA" = "You must have Two-Factor Authentication enabled on your Apple Account to set up AirPlay 2.";
 "HH2UPSELL_BUTTON1" = "Update Now";
 "WIFI_INCOMPATIBLE_DETAIL_ENTERPRISE_IPAD_HOMEPOD_GT" = "The current WLAN from this iPad cannot be used to set up your HomePod. This enterprise network is not supported.";
-"AS_SHARE_SETTINGS_INFO_IPAD_HOMEPOD_GT" = "Use your iCloud account, WLAN, and settings on this iPad to configure your HomePod. You can change them later in the Home app.";
+"AS_SHARE_SETTINGS_INFO_IPAD_HOMEPOD_GT" = "Use your Apple Account, WLAN, and settings on this iPad to configure your HomePod. You can change them later in the Home app.";
 "HOMEPOD_SETUP_TRY_AGAIN_SUBTITLE" = "Your iPhone is listening for an audio code. Make sure it is near the HomePod and unobstructed.";
 "SETTING_UP_WIFI_GT" = "Setting Up WLAN";
 "HOMEPOD_SETUP_ACCOUNT_LABEL_MUSIC" = "Music";
@@ -238,7 +239,7 @@ the viewfinder…";
 "AS_AUTH_INSTRUCTIONS_HOMEPOD" = "Enter the last 4 digits of the HomePod serial number.";
 "HOMEPOD_SETUP_STEREO_PAIR_SUBTITLE" = "For enhanced sound quality, use these speakers as a stereo pair.";
 "WIFI_NOT_CONNECTED_TITLE" = "Wi‑Fi Not Connected";
-"AUDIO_PASSCODE_FAIL_IPAD_HOMEPOD" = "Your iPad is listening for an audio code. Make sure it is near the HomePod and unobstructed.";
+"AUDIO_PASSCODE_FAIL_IPAD_HOMEPOD" = "Hold this iPad near your HomePod. There shouldn’t be anything between the devices.";
 "APPLE_ID_REPAIR_MINOR_HOMEPOD_AA" = "To set up HomePod, your Apple Account settings need attention.";
 "HOMEPOD_SETUP_HOMEPOD_SU_ACK_SUBTITLE" = "The HomePod you are attempting to setup requires a Software Update.";
 "WIFI_NOT_CONNECTED_DETAIL_APPLETV" = "You must be connected to Wi‑Fi to set up your Apple TV.";
@@ -263,8 +264,8 @@ the viewfinder…";
 "HOMEPOD_SETUP_PSG_SUBTITLE" = "Group this speaker with the others in the room to treat them like one speaker.";
 "HOME_DEVICE_SETUP_CUSTOMER_NAME" = "HomePod Setup";
 "ME_DEVICE_SWITCH_TITLE" = "Use This Device When Sharing Your Location?";
-"ALIGN_CAMERA_TO_HOMEPOD" = "Center the HomePod
- in the frame.";
+"ALIGN_CAMERA_TO_HOMEPOD" = "Center Your HomePod
+ in the Frame";
 "CONNECT" = "Connect";
 "SYSDROP_EXIT_TITLE" = "Cancel Error Info Collection?";
 "ENTER_WIFI_PASSWORD" = "Enter Wi‑Fi Password";
@@ -285,15 +286,13 @@ the viewfinder…";
 "SYSDROP_FILETRANSFER_COMPLETE_SUBTITLE_INTERNAL_IPHONE" = "Your iPhone now has all the information about the HomePod error. Share this with the HomePod team by filing a radar.";
 "WIFI_INCOMPATIBLE_TITLE_GT" = "WLAN Incompatible";
 "WIFI_NOT_CONNECTED_DETAIL_APPLETV_GT" = "You must be connected to WLAN to set up your Apple TV.";
-"HOMEPOD_SETUP_INTERNAL_HOW_USE_LIVE_ON" = "Living On";
 "USE_HOMEPOD_AS_APPLETV_SPEAKER_BUTTON" = "Use as Apple TV Speaker";
 "HOMEPOD_UPDATE_INFO_IPHONE" = "To set up your HomePod, your iPhone needs to be upgraded to a newer version of iOS.";
-"HOMEPOD_SETUP_INTERNAL_HOW_USE_BODY" = "By selecting Living On, you’re agreeing to use this HomePod as an end user would, not for testing or development.";
 "USE_HOMEPOD_AS_APPLETV_SPEAKER_TITLE" = "Use HomePod as Apple TV Speaker?";
 "LOCATION_SERVICES_USAGE_HOMEPOD_IPHONE" = "Location Services is used to determine where your HomePod and other Siri-enabled accessories in your home are located.
 
 You can manage Home Location Services at any time in the Home app on this iPhone.";
-"AUDIO_PASSCODE_FAIL_IPHONE_HOMEPOD" = "Your iPhone is listening for an audio code. Make sure it is near the HomePod and unobstructed.";
+"AUDIO_PASSCODE_FAIL_IPHONE_HOMEPOD" = "Hold this iPhone near your HomePod. There shouldn’t be anything between the devices.";
 "HOMEPOD_SETUP_CREATE_HOME_BODY" = "Enter a name that is easily identifiable and unique.";
 "HOMEPOD_SETUP_SYSDROP_TERMS_OF_USE_SUBTITLE" = "Please read and agree to the Terms and Conditions before continuing.";
 "USE_THIS_DEVICE_BUTTON_IPAD" = "Use This iPad";
@@ -316,11 +315,10 @@ You can manage Home Location Services at any time in the Home app on this iPhone
 "NOT_NOW" = "Not Now";
 "AS_HOMEPOD" = "HomePod";
 "OK_BUTTON_TITLE" = "OK";
-"HOMEPOD_SETUP_INTERNAL_HOW_USE_DEVELOPMENT" = "Development";
 "INVALID_HOME_NAME_SUBTITLE_DEFAULT" = "Initial character must be alphanumeric, terminal character can be alphanumeric or “.”, and middle characters must be alphanumeric, whitespace, control, or a select group of punctuation.";
 "PERSONAL_REQUESTS_USE" = "Use Personal Content";
 "HOMEPOD_SETUP_NO_ITUNES_BODY_AA" = "To set up HomePod, sign in to your Apple Account to use iCloud, Apple Music, Siri, Home, and more.";
-"AS_SHARE_SETTINGS_INFO_IPOD_HOMEPOD_GT" = "Use your iCloud account, WLAN, and settings on this iPod touch to configure your HomePod. You can change them later in the Home app.";
+"AS_SHARE_SETTINGS_INFO_IPOD_HOMEPOD_GT" = "Use your Apple Account, WLAN, and settings on this iPod touch to configure your HomePod. You can change them later in the Home app.";
 "CANCEL" = "Cancel";
 "MODEL" = "Model";
 "AS_AUTH_INSTRUCTIONS_SIRI_HOMEPOD" = "Enter the four digits that Siri speaks to continue setup.";
@@ -365,7 +363,7 @@ You can manage Home Location Services at any time in the Home app on this iPad."
 "SIRI_OFF_TITLE_IPAD" = "Siri is Turned Off On This iPad";
 "HOMEPOD_SETUP_SHARED_SETTINGS_TITLE" = "Accounts and Settings";
 "USE_HOMEPOD_AS_APPLETV_SPEAKERS_BUTTON" = "Use as Apple TV Speakers";
-"HOMEPOD_SETUP_LED_PASSCODE_TITLE" = "Center the HomePod in the frame.";
+"HOMEPOD_SETUP_LED_PASSCODE_TITLE" = "Center Your HomePod in the Frame";
 "HOMEPOD_SETUP_TRY_AGAIN_BUTTON1" = "Try Again";
 "AS_WIFI_INCOMPATIBLE_DETAIL_GT" = "You must be connected to a WPA/WPA2/WPA3 Personal WLAN to set up your HomePod.";
 "SIRI_ON_HOMEPOD" = "Siri on HomePod";
@@ -374,15 +372,15 @@ You can manage Home Location Services at any time in the Home app on this iPad."
 "SYSDROP_AIRDROP_IN_PROGRESS_SUBTITLE" = "";
 "HOMEPOD_SETUP_PICK_ROOM_TITLE" = "Where will you use this HomePod?";
 "PROGRESS_WIFI" = "Setting Up Wi‑Fi";
-"AS_SHARE_SETTINGS_INFO_IPHONE_HOMEPOD" = "Use your iCloud account, Wi‑Fi, and settings on this iPhone to configure your HomePod. You can change them later in the Home app.";
+"AS_SHARE_SETTINGS_INFO_IPHONE_HOMEPOD" = "Use your Apple Account, Wi‑Fi, and settings on this iPhone to configure your HomePod. You can change them later in the Home app.";
 "CHOOSE_ANOTHER_NETWORK" = "Choose Another network";
 "HOMEPOD_SU_NO_SETUP_INSTALLING" = "Installing";
 "CREATE_HOME_LOCATION_MISMATCH_TITLE" = "Is this the right home?";
 "CREATE_HOME_SAME_LOCATION_SUBTITLE" = "It appears that you are in the known location for “%@”. If you continue to create a new Home in this location, accessories in this new home may not be able to work with the accessories in the existing one.";
 "ME_DEVICE_SWITCH_MESSAGE_FORMAT_NO_CURRENT_IPHONE_HOMEPOD" = "To enable personal content on HomePod you have to use this iPhone “%1$@” when sharing your location.";
 "WIFI_SUMMARY_TITLE_GT" = "WLAN";
-"AS_SHARE_SETTINGS_INFO_IPAD_HOMEPOD" = "Use your iCloud account, Wi‑Fi, and settings on this iPad to configure your HomePod. You can change them later in the Home app.";
-"AS_SHARE_SETTINGS_INFO_IPOD_HOMEPOD" = "Use your iCloud account, Wi‑Fi, and settings on this iPod touch to configure your HomePod. You can change them later in the Home app.";
+"AS_SHARE_SETTINGS_INFO_IPAD_HOMEPOD" = "Use your Apple Account, Wi‑Fi, and settings on this iPad to configure your HomePod. You can change them later in the Home app.";
+"AS_SHARE_SETTINGS_INFO_IPOD_HOMEPOD" = "Use your Apple Account, Wi‑Fi, and settings on this iPod touch to configure your HomePod. You can change them later in the Home app.";
 "WIFI_TURN_ON_TITLE" = "Turn On Wi‑Fi";
 "WIFI_TURN_ON" = "Wi‑Fi will be turned on to continue setting up.";
 "HOMEPOD_SETUP_ENTER_PINCODE_ACTIVITY" = "Speaking";
@@ -414,7 +412,7 @@ You can manage Home Location Services at any time in the Home app on this iPad."
 "HOMEPOD_UPDATE_INFO_IPOD" = "To set up your HomePod, your iPod touch needs to be upgraded to a newer version of iOS.";
 "WIFI_INCOMPATIBLE_DETAIL_IPOD_HOMEPOD" = "The current Wi‑Fi network from this iPod touch cannot be used to set up your HomePod.";
 "IOS_SETUP_CONTINUE" = "Continue";
-"AS_ICLOUD_KEYCHAIN_DETAIL_HOMEPOD" = "You must have Keychain enabled on your iCloud account to set up a HomePod.";
+"AS_ICLOUD_KEYCHAIN_DETAIL_HOMEPOD" = "You must have Keychain enabled on your Apple Account to set up a HomePod.";
 "ME_DEVICE_SWITCH_MESSAGE_FORMAT_IPHONE_HOMEPOD" = "To enable personal content on HomePod you have to use this iPhone “%1$@” when sharing your location. You are currently using “%2$@” to share location.";
 "HOMEPOD_SETUP_NO_ACCOUNTS_FEATURE2" = "Sign in to Apple Music";
 "HOMEPOD_SOFTWARE_UPDATE_AND_CONTINUE" = "Update and Continue";
@@ -436,7 +434,7 @@ You can manage Home Location Services at any time in the Home app on this iPad."
 "HOMEPOD" = "HomePod";
 "USE_THIS_DEVICE_BUTTON_IPOD" = "Use This iPod touch";
 "SYSDROP_AIRDROP_SUBTITLE" = "HomePod has finished collecting logs and will now send them to this iPhone.";
-"HOMEPOD_SETUP_TERMS_OF_USE_DISCLAIMER" = "By using your HomePod you agree to be bound by the HomePod Terms and Conditions, iCloud Terms and Conditions, Apple’s Privacy Policy, and Warranty for this HomePod and all other HomePod speakers you may set up with the same iCloud account.";
+"HOMEPOD_SETUP_TERMS_OF_USE_DISCLAIMER" = "By using your HomePod you agree to be bound by the HomePod Terms and Conditions, iCloud Terms and Conditions, Apple’s Privacy Policy, and Warranty for this HomePod and all other HomePod speakers you may set up with the same Apple Account.";
 "HEY_SIRI" = "Hey Siri";
 "HOMEPOD_SETUP_SIRI_RECOGNIZE_BUTTON2" = "Don’t Recognize My Voice";
 "RETRY" = "Retry";
@@ -458,7 +456,7 @@ Apple Confidential Profile. Do not distribute. Not to be used or disclosed witho
 "CONTINUE" = "Continue";
 "SYSDROP_AIRDROP_SUCCESS_TITLE" = "Transfer Logs";
 "HOMEPOD_SOFTWARE_UPDATE_DONE_SUBTITLE" = "HomePod is updating to the latest software. Some features won’t be ready until it completes. Check status in the Home app.";
-"AUDIO_PASSCODE_FAIL_IPOD_HOMEPOD" = "Your iPod touch is listening for an audio code. Make sure it is near the HomePod and unobstructed.";
+"AUDIO_PASSCODE_FAIL_IPOD_HOMEPOD" = "Hold this iPod touch near your HomePod. There shouldn’t be anything between the devices.";
 "WIFI_INFO_SHOW_BUTTON" = "Show Wi‑Fi Info";
 "WIFI_NO_P2P_INFO_FORMAT_HOMEPOD" = "HomePod features like AirPlay and Personal Content may not work on “%@” because it does not support peer-to-peer connections.";
 "HOMEPOD_SETUP_ABOUT_LOCATION_LINK_TITLE" = "About Location Services & Privacy…";
@@ -483,5 +481,4 @@ Apple Confidential Profile. Do not distribute. Not to be used or disclosed witho
 "HH2UPSELL_SUBTITLE" = "Your current version of Apple Home is no longer supported. Update now to continue setting up your HomePod.";
 "HOMEPOD_SU_NO_SETUP_TIME_TWENTYMIN" = "About 20 minutes remaining…";
 "USE_HOMEPOD_AS_APPLETV_SPEAKERS_TITLE" = "Use HomePod Speakers with Apple TV?";
-"AS_SHARE_SETTINGS_INFO_IPHONE_HOMEPOD_GT" = "Use your iCloud account, WLAN, and settings on this iPhone to configure your HomePod. You can change them later in the Home app.";
-"HOMEPOD_SETUP_INTERNAL_HOW_USE_TITLE" = "How will you be using this HomePod?";
+"AS_SHARE_SETTINGS_INFO_IPHONE_HOMEPOD_GT" = "Use your Apple Account, WLAN, and settings on this iPhone to configure your HomePod. You can change them later in the Home app.";

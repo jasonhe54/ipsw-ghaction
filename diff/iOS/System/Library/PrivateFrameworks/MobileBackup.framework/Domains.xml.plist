@@ -342,6 +342,7 @@
 				<string>Library/Preferences/com.apple.announce.announcements.plist</string>
 				<string>Library/Stickers/stickers.stickerdb</string>
 				<string>Library/ContactsMetadata</string>
+				<string>Library/wwpm</string>
 			</array>
 			<key>RelativePathsNotToBackupToDrive</key>
 			<array>
@@ -371,6 +372,7 @@
 				<string>Library/Application Support/FileProvider</string>
 				<string>Library/Application Support/FileProvider/backup</string>
 				<string>Library/ContactsMetadata</string>
+				<string>Library/wwpm</string>
 			</array>
 			<key>RelativePathsNotToMigrate</key>
 			<array>
@@ -558,6 +560,7 @@
 				<string>Library/Weather/weather_data_protection_info</string>
 				<string>Library/FinanceBackup/finance.plist</string>
 				<string>Library/ContactsMetadata</string>
+				<string>Library/wwpm</string>
 			</array>
 			<key>RelativePathsToBackupLive</key>
 			<array>
@@ -1100,6 +1103,7 @@
 				<string>SystemConfiguration</string>
 				<string>com.apple.networkextension.plist</string>
 				<string>com.apple.networkextension.control.plist</string>
+				<string>com.apple.osintelligence.iblm.state.plist</string>
 			</array>
 			<key>RelativePathsToOnlyBackupEncrypted</key>
 			<array>

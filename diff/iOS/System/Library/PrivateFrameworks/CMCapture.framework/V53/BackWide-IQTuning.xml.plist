@@ -21813,6 +21813,12 @@
 								<real>0.0</real>
 								<key>ShadowVal</key>
 								<real>0.00020000000949949029</real>
+								<key>SkipHardGainLumaHD</key>
+								<true/>
+								<key>UseHardGainAverageLTM</key>
+								<true/>
+								<key>UseIspDGainSoftLog</key>
+								<true/>
 							</dict>
 						</dict>
 						<key>MIWBParameters</key>

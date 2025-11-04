@@ -42,6 +42,7 @@
 "hints.disabled" = "Hints off";
 "braille.translate.event" = "Translated";
 "lift.hint.home" = "Lift for Home";
+"radiogroup.count" = "{'count': {'one': '%d radio group', 'other': '%d radio groups', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
 "element.status.bar.item" = "Status bar item";
 "neuralvision.on" = "Screen Recognition, on";
 "web.interactive.video.play.action" = "Play video";
@@ -93,7 +94,7 @@
 "end.call.button" = "End Call";
 "braille.status.text.dot.6" = "color";
 "text.operation.share" = "share";
-"radiobutton.notfound" = "Radio button not found";
+"radiobutton.notfound" = "Radio group not found";
 "search.rotor.toggle.live.regions.off" = "Live Regions and Announcements off for %@";
 "scrollstatus.selected.text" = "Selected Text: %@";
 "search.rotor.audio.ducking.amount.visual" = "Ducking Amount";
@@ -137,7 +138,6 @@
 "search.rotor.searchfield" = "Search Fields";
 "column.change" = "Column %@";
 "enter.search.text.mode" = "Enter search text";
-"radiobutton.count.high" = "many radio buttons";
 "repeat.filter.no.spaces" = "%@ %@";
 "TYPING_MODE_OFF" = "Typing mode off.";
 "italic.on" = "Italic, on";
@@ -246,6 +246,8 @@
 "bsi.command.mode.hint" = "Enter chords to activate Braille display commands. Swipe with one finger to adjust the rotor.";
 "statictext.notfound" = "Static text not found";
 "delete.text.prefix" = "Delete %@";
+"cursor.blank" = "Blank";
+"active.window" = "Active";
 "search.rotor.image" = "Images";
 "list.count.high" = "many lists";
 "option.off" = "Option off";
@@ -516,7 +518,6 @@
 "braille.text.mode.reading" = "Reading mode";
 "checkbox.count.high" = "many checkboxes";
 "element.is.read.only" = "Read-only";
-"radiobutton.count" = "{'count': {'one': '%d radio button', 'other': '%d radio buttons', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@count@'}";
 "mathequation.element.text" = "Math";
 "quick.nav.off" = "Quick Nav Off";
 "tab.button.element.text" = "Tab";
@@ -542,10 +543,11 @@
 "screen.curtain.on" = "screen curtain on";
 "element.has.popup" = "Has pop up";
 "data-detector.tel" = "Phone number detected";
-"braille.calibrate.instructions.fallback" = "At any time, you can calibrate the dot positions by touching and lifting the three right hand fingers, then touching and lifting the three left hand fingers immediately afterwards.";
+"radiogroup.count.high" = "many radio groups";
 "started.gesture.keyboard" = "Gesture Keyboard";
-"number.of.alerts" = "{'alertscount': {'one': '%d notification', 'other': '%d notifications', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@alertscount@'}";
+"braille.calibrate.instructions.fallback" = "At any time, you can calibrate the dot positions by touching and lifting the three right hand fingers, then touching and lifting the three left hand fingers immediately afterwards.";
 "DIRECT_GESTURES_END" = "Direct gestures disabled";
+"number.of.alerts" = "{'alertscount': {'one': '%d notification', 'other': '%d notifications', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@alertscount@'}";
 "perkins.keyboard.input.on" = "Braille Keyboard Input On";
 "search.rotor.navigation.direction.visual" = "Gesture Direction";
 "extended.display" = "On Extended Display";
@@ -557,6 +559,7 @@
 "braille.status.text.dot.5" = "underline";
 "element.map.item" = "Map";
 "control" = "Control";
+"search.rotor.radiogroup" = "Radio Groups";
 "row.count" = "{'rowcount': {'one': '%u row', 'other': '%u rows', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'u'}, 'NSStringLocalizedFormatKey': '%#@rowcount@'}";
 "search.rotor.audiograph.axis.y" = "y";
 "text.operation.writing.tools" = "writing tools";
@@ -652,6 +655,7 @@
 "search.rotor.navigation.direction.settings" = "Gesture Direction";
 "text.operation.cut" = "cut";
 "search.rotor.volume.visual" = "Speech Volume";
+"search.rotor.radiogroup.settings" = "Radio Groups";
 "drops.available.hint.singular" = "drop available";
 "search.rotor.select.character" = "Character Selection";
 "starting.help.mode.help" = "To stop help, perform a four finger double tap or two finger scrub, or press escape on the keyboard.";

@@ -188,6 +188,35 @@
 			<key>version</key>
 			<real>1</real>
 		</dict>
+		<dict>
+			<key>category</key>
+			<string>IBLMFeatureNotificationState</string>
+			<key>datatype</key>
+			<integer>7</integer>
+			<key>dmaCompliant</key>
+			<integer>0</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>mode</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>FeatureState</string>
+			<key>privacyClassification</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>2</integer>
+			<key>subsystem</key>
+			<string>OSIPrediction</string>
+			<key>timeToLive</key>
+			<integer>1</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<real>1</real>
+		</dict>
 	</array>
 </dict>
 </plist>

@@ -86,13 +86,13 @@
 			<key>default</key>
 			<string>NO</string>
 			<key>get</key>
-			<string>quickTypeWordFeedbackEnabled:</string>
+			<string>quickTypePredictionFeedbackEnabled:</string>
 			<key>key</key>
 			<string>WordFeedbackEnabled</string>
 			<key>label</key>
 			<string>QUICKTYPE_WORD_FEEDBACK</string>
 			<key>set</key>
-			<string>setQuickTypeWordFeedbackEnabled:specifier:</string>
+			<string>setQuickTypePredictionFeedbackEnabled:specifier:</string>
 		</dict>
 	</array>
 	<key>title</key>

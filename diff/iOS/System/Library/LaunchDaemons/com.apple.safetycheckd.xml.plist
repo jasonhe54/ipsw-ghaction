@@ -8,51 +8,9 @@
 	<true/>
 	<key>Label</key>
 	<string>com.apple.safetycheckd</string>
-	<key>LaunchEvents</key>
-	<dict>
-		<key>com.apple.bg.system.task</key>
-		<dict>
-			<key>com.apple.sc_reminder_task_scheduler</key>
-			<dict>
-				<key>Priority</key>
-				<string>Maintenance</string>
-				<key>RepeatingTask</key>
-				<dict>
-					<key>Interval</key>
-					<integer>86400</integer>
-					<key>MinDurationBetweenInstances</key>
-					<integer>86400</integer>
-				</dict>
-				<key>RequiresExternalPower</key>
-				<false/>
-				<key>RequiresNetworkConnectivity</key>
-				<false/>
-			</dict>
-		</dict>
-		<key>com.apple.notifyd.matching</key>
-		<dict>
-			<key>com.apple.mobile.lockdown.host_paired</key>
-			<dict>
-				<key>Notification</key>
-				<string>com.apple.mobile.lockdown.host_paired</string>
-			</dict>
-			<key>com.apple.mobile.lockdown.trusted_host_attached</key>
-			<dict>
-				<key>Notification</key>
-				<string>com.apple.mobile.lockdown.trusted_host_attached</string>
-			</dict>
-			<key>com.apple.remotepairingdevice.host_paired</key>
-			<dict>
-				<key>Notification</key>
-				<string>com.apple.remotepairingdevice.host_paired</string>
-			</dict>
-		</dict>
-	</dict>
 	<key>MachServices</key>
 	<dict>
 		<key>com.apple.safetycheckd</key>
-		<true/>
-		<key>com.apple.usernotifications.delegate.com.apple.safetycheckd.notifications</key>
 		<true/>
 	</dict>
 	<key>POSIXSpawnType</key>

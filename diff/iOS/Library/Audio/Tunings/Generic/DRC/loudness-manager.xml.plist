@@ -23,6 +23,8 @@
 							<dict>
 								<key>Default</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>8</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -30,7 +32,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>12</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -44,10 +48,12 @@
 									<key>MomentaryLoudnessLimit</key>
 									<real>-10</real>
 									<key>NormalizationGainLimit</key>
-									<real>9</real>
+									<real>12</real>
 								</dict>
 								<key>LateNightMode</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>0.0</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -55,7 +61,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>12</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -65,11 +73,11 @@
 									<key>LoudnessTarget</key>
 									<real>-12</real>
 									<key>MaxPeakLevel</key>
-									<real>3</real>
+									<real>6</real>
 									<key>MomentaryLoudnessLimit</key>
 									<real>-10</real>
 									<key>NormalizationGainLimit</key>
-									<real>9</real>
+									<real>12</real>
 								</dict>
 							</dict>
 							<key>iPad</key>
@@ -234,6 +242,8 @@
 							<dict>
 								<key>Default</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>8</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -241,13 +251,15 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
 									<real>9</real>
 									<key>CompressionProfile</key>
-									<real>6</real>
+									<integer>6</integer>
 									<key>LoudnessTarget</key>
 									<real>-12</real>
 									<key>MaxPeakLevel</key>
@@ -451,6 +463,8 @@
 							<dict>
 								<key>Default</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>8</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -458,7 +472,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -476,6 +492,8 @@
 								</dict>
 								<key>LateNightMode</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>0.0</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -483,7 +501,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -497,10 +517,12 @@
 									<key>MomentaryLoudnessLimit</key>
 									<real>-10</real>
 									<key>NormalizationGainLimit</key>
-									<real>12</real>
+									<real>9</real>
 								</dict>
 								<key>LateNightMode+SoundCheck</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>0.0</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -508,7 +530,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -522,7 +546,7 @@
 									<key>MomentaryLoudnessLimit</key>
 									<real>-10</real>
 									<key>NormalizationGainLimit</key>
-									<real>12</real>
+									<real>9</real>
 									<key>SC_LoudnessTarget</key>
 									<real>-12</real>
 									<key>SC_MaxPeakLevel</key>
@@ -530,6 +554,8 @@
 								</dict>
 								<key>SoundCheck</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>8</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -537,7 +563,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>0.0</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -545,13 +573,13 @@
 									<key>CompressionProfile</key>
 									<integer>6</integer>
 									<key>LoudnessTarget</key>
-									<real>-12</real>
+									<real>-13</real>
 									<key>MaxPeakLevel</key>
 									<real>6</real>
 									<key>MomentaryLoudnessLimit</key>
 									<real>-10</real>
 									<key>NormalizationGainLimit</key>
-									<real>12</real>
+									<real>9</real>
 									<key>SC_LoudnessTarget</key>
 									<real>-12</real>
 									<key>SC_MaxPeakLevel</key>
@@ -838,42 +866,6 @@
 								</dict>
 							</dict>
 						</dict>
-						<key>Default</key>
-						<dict>
-							<key>Default</key>
-							<dict>
-								<key>Default</key>
-								<dict/>
-								<key>LateNightMode</key>
-								<dict/>
-								<key>LateNightMode+SoundCheck</key>
-								<dict>
-									<key>CompressionProfile</key>
-									<integer>0</integer>
-									<key>LoudnessTarget</key>
-									<real>-16</real>
-									<key>MaxPeakLevel</key>
-									<real>-1</real>
-									<key>MomentaryLoudnessLimit</key>
-									<real>-10</real>
-									<key>NormalizationGainLimit</key>
-									<real>12</real>
-								</dict>
-								<key>SoundCheck</key>
-								<dict>
-									<key>CompressionProfile</key>
-									<integer>0</integer>
-									<key>LoudnessTarget</key>
-									<real>-16</real>
-									<key>MaxPeakLevel</key>
-									<real>-1</real>
-									<key>MomentaryLoudnessLimit</key>
-									<real>-10</real>
-									<key>NormalizationGainLimit</key>
-									<real>12</real>
-								</dict>
-							</dict>
-						</dict>
 					</dict>
 				</dict>
 			</dict>
@@ -902,6 +894,8 @@
 							<dict>
 								<key>Default</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>8</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -909,7 +903,9 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
+									<key>AULN_PeakLevelOffset</key>
+									<real>1</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -927,6 +923,8 @@
 								</dict>
 								<key>LateNightMode</key>
 								<dict>
+									<key>AULN_DownwardCompressionRange</key>
+									<real>0.0</real>
 									<key>AULN_LookaheadDelayMS</key>
 									<real>3</real>
 									<key>AULN_LoudnessAfterReset</key>
@@ -934,7 +932,7 @@
 									<key>AULN_LoudnessTarget</key>
 									<real>-12</real>
 									<key>AULN_MaxGain</key>
-									<real>5</real>
+									<real>6</real>
 									<key>AULN_SideChainHighPassFrequency</key>
 									<real>70</real>
 									<key>AULN_UpwardCompressionRange</key>
@@ -1133,6 +1131,9 @@
 	</dict>
 	<key>Supported_Hardware</key>
 	<array>
+		<string>AID44</string>
+		<string>AID49</string>
+		<string>AID50</string>
 		<string>AID10001</string>
 		<string>AID10002</string>
 		<string>AID10003</string>

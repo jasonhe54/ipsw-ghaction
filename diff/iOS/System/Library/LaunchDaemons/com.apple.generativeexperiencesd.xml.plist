@@ -158,6 +158,16 @@
 		<dict/>
 		<key>com.apple.notifyd.matching</key>
 		<dict>
+			<key>AppleLanguagePreferencesChangedNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>AppleLanguagePreferencesChangedNotification</string>
+			</dict>
+			<key>NSCurrentLocaleDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>NSCurrentLocaleDidChangeNotification</string>
+			</dict>
 			<key>com.apple.CloudSubscriptionFeature.Changed</key>
 			<dict>
 				<key>Notification</key>
@@ -167,6 +177,11 @@
 			<dict>
 				<key>Notification</key>
 				<string>com.apple.CloudSubscriptionFeatures.OptIn.Changed</string>
+			</dict>
+			<key>com.apple.RegulatoryDomain.MontaraUpdateNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.RegulatoryDomain.MontaraUpdateNotification</string>
 			</dict>
 			<key>com.apple.family.family_updated</key>
 			<dict>

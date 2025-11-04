@@ -76,7 +76,7 @@
 "OUTBOX_COMPRESSING" = "Compressing…";
 "FBA_ADD_TO_HOME_QUESTION_ANSWER_NEGATIVE" = "No";
 "SURVEY_LOAD_ERROR_MESSAGE" = "An error occurred while loading this survey. Please try again at a later time.";
-"SUBMISSION_PII_TITLE" = "Sending Feedback to Apple";
+"SUBMISSION_PII_TITLE" = "Sending information to Apple";
 "SAVE_DRAFT_CHOICE" = "Save Draft";
 "SAVE_DRAFT" = "Save Draft";
 "MISSING_ANSWERS_TITLE" = "Missing Answers";
@@ -175,9 +175,8 @@
 "SURVEY_COMPLETED" = "Survey Completed";
 "FEEDBACK_MOVE_ERROR_TITLE" = "Could Not Move Feedback";
 "ADD_COMMENTS_OPTIONAL" = "Add comments… (optional)";
-"SUBMISSION_PII_MESSAGE" = "The logs gathered by Feedback Assistant and attached to your submission may contain personal information. Press Cancel if you would like to view, edit or delete these logs before submission. By pressing Submit, you agree that Apple may use your submission to improve its products and services.";
-"CLOSE" = "Close";
 "FOLLOWUP_SENDING_ATTACHMENTS" = "Sending attachments…";
+"CLOSE" = "Close";
 "ANNOUNCEMENTS_INBOX" = "Announcements";
 "PAIRING_VIEW_TITLE" = "My Devices";
 "GENERIC_DRAFT_LOAD_ERROR_MESSAGE" = "Feedback Assistant encountered an error while starting your feedback. Please try again at a later time.";

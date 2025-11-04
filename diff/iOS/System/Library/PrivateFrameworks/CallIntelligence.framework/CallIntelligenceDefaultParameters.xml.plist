@@ -11,7 +11,11 @@
 	<key>maxUtteranceCacheSize</key>
 	<integer>100</integer>
 	<key>minCountForPartialUtterance</key>
-	<integer>8</integer>
+	<integer>10</integer>
+	<key>modelResultBufferSize</key>
+	<integer>5</integer>
+	<key>modelYesResultThreshold</key>
+	<integer>1</integer>
 	<key>musicDetectionBufferSize</key>
 	<integer>5</integer>
 	<key>musicThreshold</key>

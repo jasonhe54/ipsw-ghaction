@@ -315,7 +315,7 @@
 "ERASE_RECORDINGS" = "{'value': {'one': 'Are you sure you want to permanently delete this recording?', 'other': 'Are you sure you want to permanently delete %lu recordings?', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "RECORDING_COPY_FORMAT" = "%@ copy";
 "ENTER_NEW_FOLDER_NAME" = "Enter a name for this folder.";
-"AX_RESET_PLAYBACK_SETTINGS_BUTTON" = "Reset playback settings";
+"AX_RESET_PLAYBACK_SETTINGS_BUTTON" = "Reset playback options";
 "TRANSCRIPTION_NO_TRANSCRIBABLE_CONTENT_EMPTY_STATE_TITLE" = "Couldn’t Transcribe Audio";
 "ERASE_MEMO_CONFIRMATION_ALERT_TITLE_IPHONE_ONE_SELECTION" = "This recording will be deleted. This action cannot be undone.";
 "DELETE_FOLDER_INTENT_ENTITIES_PARAMETER_REQUEST_VALUE_DIALOG" = "Which folder would you like to delete?";
@@ -349,7 +349,7 @@
 "GENERIC_ERROR_RETRIEVE_ENTITY_CASE" = "Cannot find matching element.";
 "DEMO_TIME_LIMIT_REACHED_BODY-%@" = "In store demo mode, recordings are limited to ";
 "DELETE_MEMO_NO_LABEL" = "Delete Memo";
-"CHANGE_PLAYBACK_SETTINGS_ERROR_CANNOT_APPLY_SPATIAL_RECORDING_CASE" = "Enhance Recording and Skip Silence can not be enabled for Spatial Audio recordings.";
+"CHANGE_PLAYBACK_SETTINGS_ERROR_CANNOT_APPLY_SPATIAL_RECORDING_CASE" = "Enhance Recording and Skip Silence cannot be enabled for Spatial Audio recordings.";
 "POST_WELCOME_ICLOUD_CONFIRMATION_ALERT_TITLE" = "iCloud Syncing";
 "IDEA_LABEL" = "Idea";
 "SHARING_SEND_AS_OPTION_EDITABLE" = "Editable";
@@ -410,6 +410,7 @@
 "RESUME" = "RESUME";
 "RECORDING_ENTITY_TITLE_PROPERTY" = "Recording Title";
 "UNTITLED_NEW_RECORDING_LABEL" = "New Recording";
+"TRANSCRIPT_VIEW" = "Transcript View";
 "SEARCH_RECORDINGS_INTENT_SEARCH_PHRASE_PARAMETER" = "Search Phrase";
 "AX_ENHANCE_OFF_ANNOUNCE" = "Enhance mode off.";
 "LIBRARY_TEXT_WATCH_ICLOUD_INCOMPLETE" = "Recordings will also be in Voice Memos on your iPhone, iPad and Mac.";

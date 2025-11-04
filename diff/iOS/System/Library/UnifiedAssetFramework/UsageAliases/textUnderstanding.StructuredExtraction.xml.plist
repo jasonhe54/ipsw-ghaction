@@ -14,11 +14,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -28,11 +34,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -42,11 +54,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -56,11 +74,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -70,11 +94,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -84,11 +114,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -98,11 +134,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -112,11 +154,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -126,11 +174,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -140,11 +194,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -154,11 +214,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -168,11 +234,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -182,11 +254,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -196,11 +274,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -210,11 +294,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -224,11 +314,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
@@ -238,11 +334,17 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.text_understanding.draft.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>

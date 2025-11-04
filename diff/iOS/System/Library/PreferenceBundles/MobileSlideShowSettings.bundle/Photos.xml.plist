@@ -59,10 +59,18 @@
 			<string>ICLOUDPHOTOS_GROUP_TITLE_DESCRIPTION</string>
 		</dict>
 		<dict>
+			<key>appIDForLazyIcon</key>
+			<string>com.apple.mobileslideshow</string>
 			<key>cell</key>
 			<string>PSDefaultCell</string>
+			<key>cellClass</key>
+			<string>PESettingsFeatureDescriptionCell</string>
+			<key>cellSubtitleText</key>
+			<string>SETTINGS_ICLOUDPHOTOS_HEADER_DESCRIPTION_WITH_LEARN_MORE</string>
 			<key>id</key>
 			<string>iCloudPhotosHeader</string>
+			<key>label</key>
+			<string>SETTINGS_ICLOUDPHOTOS_HEADER_TITLE</string>
 		</dict>
 		<dict>
 			<key>cell</key>

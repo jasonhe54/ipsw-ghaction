@@ -59,7 +59,33 @@
 		</dict>
 		<key>com.apple.xpc.activity</key>
 		<dict>
-			<key>com.apple.biome.prune-expired-events</key>
+			<key>com.apple.biome.prune-expired-events.A</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequiresClassA</key>
+				<true/>
+			</dict>
+			<key>com.apple.biome.prune-expired-events.B</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>Interval</key>
+				<integer>86400</integer>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequiresClassB</key>
+				<true/>
+			</dict>
+			<key>com.apple.biome.prune-expired-events.C</key>
 			<dict>
 				<key>AllowBattery</key>
 				<false/>

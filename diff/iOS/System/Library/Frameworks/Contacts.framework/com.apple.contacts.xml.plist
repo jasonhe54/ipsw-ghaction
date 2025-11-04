@@ -80,5 +80,17 @@
 			<integer>14</integer>
 		</dict>
 	</dict>
+	<key>data-loss-triage</key>
+	<dict>
+		<key>Enabled</key>
+		<string>Default</string>
+		<key>TTL</key>
+		<dict>
+			<key>Default</key>
+			<integer>14</integer>
+			<key>Error</key>
+			<integer>14</integer>
+		</dict>
+	</dict>
 </dict>
 </plist>

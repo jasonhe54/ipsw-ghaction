@@ -34,6 +34,7 @@
 ".f(Rename)" = "Can’t Rename “%@”";
 "UnsafeDisconnect-R.f(*)" = "“%@” couldn’t be disconnected. Do you want to force the disconnection?";
 "OlderItemExists-R.f(Move)" = "An older item named “%@” already exists in this location. Do you want to replace it with the one you’re moving?";
+"ItemNotReadable(*)" = "Cannot upload item. To view permissions, select the item in the Finder and choose File > Get Info.";
 "NewerItemExists-C(*)" = "A newer version of the file already exists in this location.";
 "Disconnect-Force" = "Force Disconnect";
 "ItemExists-R(*)" = "Do you want to replace it?";
@@ -44,9 +45,11 @@
 "ItemExists-R.f(Copy)" = "The file “%@” already exists in this location. Do you want to replace it with the one you’re copying?";
 "NoSuchItem-C.f(Remove)" = "The file “%@” couldn’t be removed because it doesn’t exist.";
 "ItemExists.f" = "The file “%@” already exists in this location.";
+"ItemNotReadable(Folder)" = "Cannot upload folder. To view permissions, select the item in the Finder and choose File > Get Info.";
 "Preflight-Continue" = "Continue";
 "NoSuchItem-C.f(Rename)" = "The file “%@” couldn’t be renamed because it doesn’t exist.";
 "ItemExists-C.f(*)" = "The file “%@” already exists in this location.";
+"ItemNotReadable(File)" = "Cannot upload file. To view permissions, select the item in the Finder and choose File > Get Info.";
 "OlderItemExists-R(Move)" = "An older version of the file already exists in this location. Do you want to replace it with the one you’re moving?";
 "OlderItemExists" = "An older version of the file already exists in this location.";
 "NewerItemExists-R(Copy)" = "A newer version of the file already exists in this location. Do you want to replace it with the one you’re copying?";

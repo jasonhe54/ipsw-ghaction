@@ -48,6 +48,7 @@
 	<true/>
 	<key>com.apple.private.tcc.allow</key>
 	<array>
+		<string>kTCCServiceEnergyKitGuidance</string>
 		<string>kTCCServiceWillow</string>
 	</array>
 	<key>com.apple.runningboard.launchprocess</key>

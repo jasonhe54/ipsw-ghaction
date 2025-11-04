@@ -45,6 +45,7 @@
 "List to move the reminders to" = "List to move the reminders to";
 "Delete reminders and their subtasks" = "Delete reminders and their subtasks";
 "SmartList Contents List Type <no loc>" = "SmartList Contents List Type <no loc>";
+"Open Multiple Reminders" = "Open Multiple Reminders";
 "Running person" = "Running person";
 "UpdateReminderAppIntent_Target <no loc>" = "Reminder";
 "Lists <no loc>" = "Lists <no loc>";
@@ -54,6 +55,7 @@
 "Month <no loc>" = "Month <no loc>";
 "Red" = "Red";
 "Siri Open Accounts Lists <no loc>" = "Siri Open Accounts Lists <no loc>";
+"Reminders to open" = "Reminders to open";
 "completed list" = "completed list";
 "Name <no loc>" = "Name <no loc>";
 "Open Details" = "Open Details";
@@ -188,7 +190,6 @@
 "Incomplete <no loc>" = "Incomplete <no loc>";
 "Least important first" = "Least important first";
 "Auto-Categorize a reminders list." = "Auto-Categorize a reminders list.";
-"initial" = "initial";
 "Color to set to the reminders list" = "Color to set to the reminders list";
 "Reminder Lite Entities <no loc>" = "Reminder Lite Entities <no loc>";
 "Airplane" = "Airplane";
@@ -205,9 +206,10 @@
 "Entity UUID <no loc>" = "Entity UUID <no loc>";
 "Smart List <no loc>" = "Smart List <no loc>";
 "Show/Hide Reminders System Smart List" = "Show/Hide Reminders System Smart List";
+"Opens multiple reminders." = "Opens multiple reminders.";
 "View ${entity} as ${property}" = "View ${entity} as ${property}";
-"Subtitle <no loc>" = "Subtitle <no loc>";
 "Oldest creation date at the top" = "Oldest creation date at the top";
+"Subtitle <no loc>" = "Subtitle <no loc>";
 "Invalid id type for the given action" = "Invalid id type for the given action";
 "supportsHandoff <no loc>" = "supportsHandoff <no loc>";
 "Ascending order of due date" = "Ascending order of due date";
@@ -387,7 +389,6 @@
 "Update reminders list name." = "Update reminders list name.";
 "Please specify the reminders to edit tags from." = "Please specify the reminders to edit tags from.";
 "SectionEntityName" = "Section";
-"all" = "all";
 "Open Group" = "Open Group";
 "Top" = "Top";
 "Book" = "Book";
@@ -611,7 +612,6 @@
 "The list to fetch <no loc>" = "The list to fetch <no loc>";
 "List Contents <no loc>" = "List Contents <no loc>";
 "Shopping bag" = "Shopping bag";
-"updatedInserted" = "updatedInserted";
 "Update reminders list color" = "Update reminders list color";
 "Star" = "Star";
 "Priority" = "Priority";

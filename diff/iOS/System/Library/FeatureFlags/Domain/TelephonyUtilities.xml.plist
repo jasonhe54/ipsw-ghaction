@@ -42,11 +42,6 @@
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>
 	</dict>
-	<key>CallEndSpamUIEnhancement</key>
-	<dict>
-		<key>DevelopmentPhase</key>
-		<string>FeatureComplete</string>
-	</dict>
 	<key>CallExperiencePhoneApp</key>
 	<dict>
 		<key>DevelopmentPhase</key>
@@ -141,6 +136,16 @@
 		<string>9afd0505-c054-6ea2-7553-2da07a51aa9f</string>
 	</dict>
 	<key>GreenTeaLaguna</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>IMAVSunset</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
+	<key>ImageBadgeRenderer</key>
 	<dict>
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>
@@ -340,11 +345,6 @@
 		<string>FeatureComplete</string>
 	</dict>
 	<key>UninstalledAppStoreLockup</key>
-	<dict>
-		<key>DevelopmentPhase</key>
-		<string>FeatureComplete</string>
-	</dict>
-	<key>UnknownInitiatorReport</key>
 	<dict>
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>

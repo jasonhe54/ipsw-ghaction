@@ -10,19 +10,43 @@
 	<string>VisualGeneration.GenerativePlayground:sketch:personalized_sketch</string>
 	<key>UsageAliasValues</key>
 	<dict>
-		<key>useDefault_false</key>
+		<key>language_en</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_en_useDefault_false</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
-		<key>useDefault_true</key>
+		<key>language_zh</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_zh_useDefault_false</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>

@@ -6,6 +6,8 @@
 	<dict>
 		<key>Privacy-Enable-Level</key>
 		<string>Private</string>
+		<key>Signpost-Persisted</key>
+		<true/>
 	</dict>
 	<key>PolicyManager</key>
 	<dict>

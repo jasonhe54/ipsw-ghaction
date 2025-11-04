@@ -18,8 +18,8 @@
 "Do you want to connect the USB accessory to this %@?" = "Do you want to connect the USB accessory to this %@?";
 "Serial Boot-Arg Detected" = "Serial Boot-Arg Detected";
 "Airplane Mode" = "Airplane Mode";
-"The accessory “%@” uses an app you do not have installed. Would you like to get it from the App Store?" = "The accessory “%@” uses an app you do not have installed. Would you like to get it from the App Store?";
 "Don’t Trust" = "Don’t Trust";
+"The accessory “%@” uses an app you do not have installed. Would you like to get it from the App Store?" = "The accessory “%@” uses an app you do not have installed. Would you like to get it from the App Store?";
 "The accessory %@ may request your contacts, phone favorites, and recent phone calls over Bluetooth. Do you wish to allow this?" = "The accessory %@ may request your contacts, phone favorites, and recent phone calls over Bluetooth. Do you wish to allow this?";
 "Accessory Connected" = "Accessory Connected";
 "%@ would like to communicate with the %@ %@." = "%1$@ would like to communicate with the %2$@ %3$@.";
@@ -27,6 +27,7 @@
 "“%@” Would Like to Communicate With Your %@" = "“%1$@” Would Like to Communicate With Your %2$@";
 "This network’s settings are not available for sharing with accessories." = "This network’s settings are not available for sharing with accessories.";
 "An Accessory Would Like to Communicate With Your %@" = "An Accessory Would Like to Communicate With Your %@";
+"Plug battery in while using external devices." = "Plug battery in while using external devices.";
 "Connector Wrong Orientation" = "Connector Wrong Orientation";
 "“%@” would like to pair with your %@." = "“%1$@” would like to pair with your %2$@.";
 "Charging with this accessory is not supported by Apple Device." = "Charging with this accessory is not supported by Apple Device.";
@@ -50,6 +51,7 @@
 "Do you want to connect the Thunderbolt accessory to this %@?" = "Do you want to connect the Thunderbolt accessory to this %@?";
 "This accessory would like to use a WLAN network. Connect this %@ to WLAN if you want to share WLAN settings with this accessory." = "This accessory would like to use a WLAN network. Connect this %@ to WLAN if you want to share WLAN settings with this accessory.";
 "Share Wi-Fi Settings?" = "Share Wi-Fi Settings?";
+"Connect to Power" = "Connect to Power";
 "Do you want to connect the accessory to this %@?" = "Do you want to connect the accessory to this %@?";
 "Unlock %@ to use accessories" = "Unlock %@ to use accessories";
 "This connector orientation is wrong and must be inverted." = "This connector orientation is wrong and must be inverted.";

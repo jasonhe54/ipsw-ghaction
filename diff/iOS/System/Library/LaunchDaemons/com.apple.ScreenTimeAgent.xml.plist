@@ -116,14 +116,7 @@
 		<key>com.apple.ScreenTimeAgent.organization-status</key>
 		<true/>
 		<key>com.apple.ScreenTimeAgent.persistence</key>
-		<dict>
-			<key>#Else</key>
-			<true/>
-			<key>#IfFeatureFlagEnabled</key>
-			<string>ScreenTime/simplified_agent</string>
-			<key>#Then</key>
-			<false/>
-		</dict>
+		<true/>
 		<key>com.apple.ScreenTimeAgent.private</key>
 		<true/>
 		<key>com.apple.ScreenTimeAgent.reactor-tool</key>

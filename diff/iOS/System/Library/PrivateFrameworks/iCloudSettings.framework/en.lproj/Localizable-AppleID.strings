@@ -15,8 +15,7 @@ What would you like to do with the currently synced data on your iPad?";
 "CHANGE_PASSWORD_LINK_SECONDARY_ACCOUNT" = "the Apple Account Website.";
 "MOBILEME_ACCOUNT_MISSING_INFO_TITLE" = "Account Update Required";
 "APPLEID_DEVICES_SHOW_MORE" = "Show All";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. This data is encrypted on your iPhone as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. This data is encrypted on your iPhone as well as when stored in iCloud. %@";
 "BACKUP_CELL_LABEL" = "iCloud Backup";
 "DATACLASS_CELL_TITLE_WATCH" = "Sync this Watch";
 "MOBILEME_TERMS_OF_SERVICE_UPDATE_TITLE" = "Terms of Service";
@@ -38,8 +37,7 @@ What would you like to do with the currently synced data on your iPad?";
 "MOBILEME_APPLEID_EXPLANATION" = "Start using MobileMe with your MobileMe email address.";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_WITH_DATA_FORMAT_IPHONE" = "Syncing with this account will turn off sync for “%@” and remove its synced data.
 What would you like to do with the currently synced data on your iPhone?";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "MULTIPLE_SERVICES_CANCEL" = "Cancel";
 "UPGRADING" = "Upgrading";
 "EDIT_PROFILE_FIRST_NAME_PLACEHOLDER" = "First Name";
@@ -57,8 +55,7 @@ What would you like to do with the currently synced data on your iPhone?";
 "APPLEID_ALERT_VERIFY_EMAIL_MSG" = "Check your email at %@ for instructions to verify this account.";
 "UPGRADE_ACCOUNT_SECURITY_FEATURE_MESSAGES" = "Messages in iCloud";
 "PASSWORD_AND_SECURITY_CELL" = "Password & Security";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud. %@";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_AOSLOCATOR_ON_FORMAT_IPAD" = "Enabling Find My iPad on this account will turn off sync and Find My iPad for “%@”.";
 "DELETE_EXISTING_MOBILEME_DATA_IPOD" = "Delete From My iPod touch";
 "NEW_ICLOUD_TOS_MESSAGE_IPHONE" = "To use iCloud on this iPhone you must accept the new Terms and Conditions.";
@@ -70,8 +67,7 @@ What would you like to do with the currently synced data on your iPhone?";
 "CONFIRM_SWITCH_DATACLASS_TITLE" = "Turn On %@";
 "NEXT" = "Next";
 "PERSNAL_INFO_CELL" = "Contact Information";
-"DATACLASS_LIST_INFO_TEXT_IPAD" = "Manage how apps and features on this iPad sync to iCloud.
-%@";
+"DATACLASS_LIST_INFO_TEXT_IPAD" = "Manage how apps and features on this iPad sync to iCloud. %@";
 "COULD_NOT_LAUNCH_MAIL" = "Could not launch Mail.";
 "ACCOUNT_PAGE_TITLE" = "Apple Account";
 "PHOTOS_ICLOUD_STORAGE_TEXT" = "Photos";
@@ -80,12 +76,9 @@ What would you like to do with the currently synced data on your iPhone?";
 "KEYCHAIN_DATACLASS_SUBTITLE" = "Securely store passwords, credit cards, and more in iCloud. Share passwords with people you trust. AutoFill your information in Safari and other web browsers on your devices. %@";
 "APPLE_ID" = "Apple Account";
 "UPDATE_FAILED_TITLE" = "Update account failed";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud.
-%@";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. This data is encrypted on your iPod as well as when stored in iCloud.
-%@";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. This data is encrypted on your iPad as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. %@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. This data is encrypted on your iPod as well as when stored in iCloud. %@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. This data is encrypted on your iPad as well as when stored in iCloud. %@";
 "SYNC_WITH_ICLOUD_SPECIFIER" = "Show All";
 "NEVER_BACKED_UP" = "Never";
 "APPLEID_ALERT_LOW_STORAGE_ACTION" = "Upgrade iCloud Storage";
@@ -93,21 +86,18 @@ What would you like to do with the currently synced data on your iPhone?";
 "NOT_AN_ICLOUD_ACCOUNT_MESSAGE" = "Go to icloud.com on your computer to move your information to iCloud.";
 "ICLOUD_SERVICE_GROUP_APPS" = "Apps Using iCloud";
 "APPLEID_SECURITY_CELL_TITLE" = "Password & Security";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud. %@";
 "STORAGE_CELL_LABEL" = "Storage";
 "KEYCHAIN_SYNC" = "Keychain";
 "DEVICE_LOCATOR_TITLE_IPOD" = "Find My iPod Enabled";
 "APPLEID_DEVICES_NOT_AVAILABLE" = "Trusted devices list is not available";
 "TURN_ON_NOTES_TITLE" = "Turn On Notes";
 "NOTES_DATACLASS_SUBTITLE" = "{'NSStringDeviceSpecificRuleType': {'mac': 'Automatically sync your notes to iCloud, so you’ll be able to see, edit, share and collaborate from any of your devices.', 'other': 'Automatically sync your notes to iCloud, so you’ll be able to see, edit, share and collaborate from any of your devices. %@'}}";
-"DATACLASS_LIST_INFO_TEXT_UNKNOWN" = "Manage how apps and features on this Device sync to iCloud.
-%@";
+"DATACLASS_LIST_INFO_TEXT_UNKNOWN" = "Manage how apps and features on this Device sync to iCloud. %@";
 "UNABLE_TO_VALIDATE" = "Unable to validate account";
 "DEVICE_LOCATOR_IPAD" = "Find My iPad";
 "TURN_OFF_DEVICE_LOCATOR_IPAD" = "Turning Off Find My iPad…";
-"DATACLASS_LIST_INFO_TEXT_IPOD" = "Manage how apps and features on this iPod sync to iCloud.
-%@";
+"DATACLASS_LIST_INFO_TEXT_IPOD" = "Manage how apps and features on this iPod sync to iCloud. %@";
 "SHOW_IN_FMIP" = "Show in Find My";
 "RESET_KEYCHAIN_BUTTON_TITLE" = "Reset iCloud Keychain";
 "HEALTH_LEARN_MORE_LINK" = "https://support.apple.com/HT204351";
@@ -117,15 +107,13 @@ What would you like to do with the currently synced data on your iPhone?";
 "DELETE_ACCOUNT_WARNING_FORMAT_IPOD" = "Deleting this account will remove its data from your iPod touch.";
 "NON_MAIN_ACCOUNT_MESSAGE_IPHONE" = "Only your main account can use Bookmarks, Photo Stream, iCloud Drive, Backup, and Find My iPhone.";
 "NOTES_DATACLASS_TITLE" = "Notes";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_HSA2_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Apple Vision Pro as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_HSA2_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Apple Vision Pro as well as when stored in iCloud and cannot be read by Apple. %@";
 "ICLOUD_SERVICE_SWAP_ACCOUNT_ACTION" = "Change %@ Account";
 "DEVICE_LOCATOR_IPOD" = "Find My iPod touch";
 "APP_LIST_VIEW_TITLE" = "Saved to iCloud";
 "DELETE_ACCOUNT_ICLOUD_SPECIFIC_WARNING_FORMAT_IPOD" = "If you sign out of your account, all %1$@ stored in iCloud will be removed from this iPod touch.";
 "DEVICE_LOCATOR_DESCRIPTION_IPAD" = "Find My iPad helps you locate this iPad on a map and remotely lock or erase it.";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. %@";
 "DRIVE_CELLULAR_LINK_SPECIFIER_FOOTER" = "Set options for using cellular data to sync with iCloud Drive.";
 "ALREADY_EXISTING_ACCOUNT_TITLE" = "“%@” is Already Added";
 "ADDING_ACCOUNT" = "Adding Account";
@@ -156,8 +144,7 @@ What would you like to do with the currently synced data on your iPhone?";
 "KEEP_DATACLASS_FORMAT" = "Keep %@";
 "ON" = "On";
 "COPY_EXISTING_MOBILEME_DATA_IPHONE" = "Keep on My iPhone";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud. %@";
 "APPS_SYNCING_TO_ICLOUD_DESC" = "These apps on this device use iCloud Drive to store data and keep up to date on all your devices. Information stored can include documents, creative projects, notes, game progress, favorites and more.";
 "ENABLE_DEVICE_LOCATOR_MESSAGE_VISION" = "Activation Lock has been turned on for this Apple Vision Pro";
 "TURN_OFF_DEVICE_LOCATOR_IPHONE" = "Turning Off Find My iPhone…";
@@ -177,10 +164,8 @@ What would you like to do with the currently synced data on your iPad?";
 "ICLOUD_UNREACHABLE_TITLE" = "Cannot Connect to iCloud";
 "TURN_OFF_DEVICE_LOCATOR_IPOD" = "Turning Off Find My iPod touch…";
 "KEYCHAIN_INFO" = "Keychain";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud.
-%@";
-"DATACLASS_LIST_INFO_TEXT_IPHONE" = "Manage how apps and features on this iPhone sync to iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. %@";
+"DATACLASS_LIST_INFO_TEXT_IPHONE" = "Manage how apps and features on this iPhone sync to iCloud. %@";
 "MOBILEME_ACCOUNT_DISABLED_TITLE" = "%@ Disabled";
 "APPROVE_BUTTON_TITLE_IPOD" = "Approve with Security Code";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_AOSLOCATOR_ON_FORMAT_IPOD" = "Enabling Find My iPod touch on this account will turn off sync and Find My iPod touch for “%@”.";
@@ -189,8 +174,7 @@ What would you like to do with the currently synced data on your iPad?";
 "REQUIRED" = "required";
 "APPS_THAT_USE_ICLOUD_SECTION_TITLE" = "Apps That Use iCloud";
 "PHOTOSTREAM" = "Photo Stream";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. %@";
 "DEVICE_LOCATOR_VISION" = "Find My Apple Vision Pro";
 "ADD_ANYWAY" = "Add Anyway";
 "MANAGED_BY_APPLE_ID" = "Configured by managed account.";
@@ -210,13 +194,11 @@ What would you like to do with the currently synced data on your iPhone?";
 "UPDATE_NAME_FAILED_INVALID_MESSAGE" = "Invalid first or last name.";
 "DEVICE_LOCATOR_DESCRIPTION_IPHONE" = "Find My iPhone helps you locate this iPhone on a map and remotely lock or erase it.";
 "LOADING_LABEL" = "Loading…";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_DEFAULT_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_DEFAULT_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. %@";
 "COULD_NOT_CONNECT_TO_ICLOUD" = "Cannot Connect to iCloud";
 "ACTIVATION_LOCK_DESCRIPTION_IPHONE" = "Link this iPhone to your Apple Account to prevent another person from activating it.";
 "NEW_ICLOUD_TOS_TITLE" = "New iCloud Terms and Conditions";
-"DATACLASS_LIST_INFO_TEXT_VISION" = "Manage how apps and features on this Apple Vision Pro sync to iCloud.
-%@";
+"DATACLASS_LIST_INFO_TEXT_VISION" = "Manage how apps and features on this Apple Vision Pro sync to iCloud. %@";
 "MULTIPLE_SERVICES_SIGN_OUT_STORE" = "Sign Out of Store";
 "MAX_TIER_AND_INSUFFICIENT_STORAGE_ALERT_MESSAGE" = "%1$@ could not be turned on because you do not have enough iCloud storage available. Reduce the amount of storage you are using to turn on %1$@.";
 "ENTER_PASSWORD_PROMPT_USERNAME" = "“%@”";
@@ -225,8 +207,7 @@ What would you like to do with the currently synced data on your iPhone?";
 "ICLOUD_MAIL_TITLE" = "iCloud Mail";
 "SHOEBOX" = "Wallet";
 "COPY_EXISTING_MOBILEME_DATA_IPOD" = "Keep on My iPod touch";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. %@";
 "ACCOUNT_NOT_VERIFIED" = "Account Not Verified";
 "DEVICES_SECTION_TITLE" = "My Devices";
 "PAYMENT_METHOD_CELL" = "Payment";
@@ -242,8 +223,7 @@ What would you like to do with the currently synced data on your iPhone?";
 "SYNC_WITH_ICLOUD_GROUP_NAME" = "Apps Using iCloud";
 "PENDING" = "Pending";
 "MOBILEME_REGION_DENIED_TITLE" = "Unavailable";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. %@";
 "STORAGE_USED" = "Manage Storage";
 "UPDATE_NAME_FAILED_TITLE" = "Could Not Update Name";
 "APPLEID_TITLE" = "Apple Account";
@@ -258,8 +238,7 @@ What would you like to do with the currently synced data on your iPhone?";
 "LEARN_MORE_URL" = "https://www.apple.com/icloud";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_AOSLOCATOR_ON_FORMAT_IPHONE" = "Enabling Find My iPhone on this account will turn off sync and Find My iPhone for “%@”.";
 "MAIL_NOT_AVAILABLE_TITLE" = "Mail Not Available";
-"DATACLASS_LIST_INFO_TEXT_WATCH" = "Manage how apps and features on this Apple Watch sync to iCloud.
-%@";
+"DATACLASS_LIST_INFO_TEXT_WATCH" = "Manage how apps and features on this Apple Watch sync to iCloud. %@";
 "APPS_SYNCING_TO_DRIVE_SPECIFIER_NAME" = "Apps Syncing to iCloud Drive";
 "ICLOUD_SERVICE_STORAGE_TITLE" = "iCloud";
 "APPS_USING_ICLOUD_HEADER_TITLE" = "Saved to iCloud";
@@ -270,19 +249,16 @@ What would you like to do with the currently synced data on your iPod touch?";
 "DRIVE_CELLULAR_TOGGLE_FOOTER_WIFI" = "Turn off cellular data to use only Wi-Fi to sync with iCloud Drive.";
 "TURN_ON_NOTES_MESSAGE" = "Create a free @icloud.com email address to turn on Notes.";
 "EDIT_PROFILE_LAST_NAME_PLACEHOLDER" = "Last Name";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. This data is encrypted on your Apple Watch as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. This data is encrypted on your Apple Watch as well as when stored in iCloud. %@";
 "ACTIVATION_LOCK_DESCRIPTION_IPAD" = "Link this iPad to your Apple Account to prevent another person from activating it.";
 "DONT_ADD" = "Don’t Add";
 "APPLEID_CONTACT_CELL_TITLE_MAID" = "Name & Email";
 "UPDATE_NAME_LOADING_TITLE" = "Updating…";
 "DEVICE_LOCATOR_DESCRIPTION_IPOD" = "Find My iPod touch helps you locate this iPod touch on a map and remotely lock or erase it.";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "SERVER_UNREACHABLE_MESSAGE" = "Unable to connect to server.";
 "DEVICE_LOCATOR_TITLE_IPHONE" = "Find My iPhone Enabled";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_NO_PASSCODE_HSA2_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_NO_PASSCODE_HSA2_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "MANAGE_STORAGE" = "Manage Storage";
 "WAITING_FOR_APPROVAL_MESSAGE_NO_SECURITY_CODE_IPAD" = "To use iCloud Keychain on this iPad, approve it from another device that uses iCloud Keychain.
 
@@ -303,14 +279,12 @@ If you are unable to access another device, you can reset your keychain.";
 "ACCOUNT_DETAILS_UNAVAILABLE_MESSAGE" = "If you are signing in to iCloud on another device or at iCloud.com, you can get a verification code while offline.";
 "LEARN_MORE" = "Learn More";
 "DELETE_ACCOUNT_WARNING_FORMAT_IPHONE" = "Deleting this account will remove its data from your iPhone.";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. This data is encrypted on your iPad as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_IPAD" = "Your health and fitness information on this iPad can be automatically stored in iCloud. This data is encrypted on your iPad as well as when stored in iCloud and cannot be read by Apple. %@";
 "ENTER_PASSWORD_PROMPT" = "Enter the password for your Apple Account,
 ";
 "ICLOUD_PLUS_GROUP_NAME" = "iCloud+";
 "NON_MAIN_ACCOUNT_TITLE" = "Secondary iCloud Account";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_NO_PASSCODE_HSA2_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_NO_PASSCODE_HSA2_VISION" = "Your health information on this Apple Vision Pro can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "ACCOUNT_BENEFICIARY_TITLE" = "Legacy Contact";
 "MULTIPLE_SERVICES_MESSAGE" = "You’re currently signed in with two accounts. Do you want to sign out of iCloud, the iTunes & App Store, or both?";
 "ICLOUD_SIGNOUT_PASSBOOK_AND_MORE_WARNING_FORMAT_IPHONE" = "Signing out of your iCloud account will disable Apple Pay and will remove your cards and keys. %@ stored in iCloud will be removed from this iPhone.";
@@ -329,20 +303,17 @@ If you are unable to access another device, you can reset your keychain.";
 "NON_MAIN_ACCOUNT_MESSAGE_NOTES_MIGRATED_IPOD" = "Only your main account can use Bookmarks, Photos, iCloud Drive, Notes, Backup, and Find My iPod touch.";
 "ICLOUD_KEYCHAIN_LABEL" = "iCloud Keychain";
 "NOT_AN_ICLOUD_ACCOUNT_TITLE" = "Move Your MobileMe Account to iCloud";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "DELETE_ACCOUNT" = "Sign Out";
 "TAGLINE_LABEL" = "Get the most out of iOS.";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_DEFAULT_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_DEFAULT_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. %@";
 "EDIT" = "Edit";
 "ICLOUD_DRIVE_DATACLASS_TITLE" = "iCloud Drive";
 "ALREADY_EXISTING_ACCOUNT_DESC_IPHONE" = "This %@ account has already been added to your iPhone.";
 "CHANGE_PASSWORD_LINK" = "appleid.apple.com";
 "ICLOUD_SIGNOUT_PASSBOOK_AND_MORE_WARNING_FORMAT_IPOD" = "Signing out of your iCloud account will disable Apple Pay and will remove your cards and keys. %@ stored in iCloud will be removed from this iPod touch.";
 "DELETE_ACCOUNT_ICLOUD_SPECIFIC_WARNING_FORMAT_IPHONE" = "If you sign out of your account, all %1$@ stored in iCloud will be removed from this iPhone.";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. This data is encrypted on your Mac as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. This data is encrypted on your Mac as well as when stored in iCloud and cannot be read by Apple. %@";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_AOSLOCATOR_ON_WITH_DATA_FORMAT_IPOD" = "Enabling Find My iPod touch on this account will turn off sync and Find My iPod touch for “%@”.
 What would you like to do with the currently synced data on your iPod touch?";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_AOSLOCATOR_OFF_FORMAT_IPAD" = "Enabling Find My iPad on this account will turn off sync for “%@”.";
@@ -353,18 +324,15 @@ What would you like to do with the currently synced data on your iPod touch?";
 "NON_MAIN_ACCOUNT_MESSAGE_NOTES_MIGRATED_IPHONE" = "Only your main account can use Bookmarks, Photos, iCloud Drive, Notes, Backup, and Find My iPhone.";
 "TURN_ON_MAIL_MESSAGE" = "Create a free @icloud.com email address to turn on iCloud Mail.";
 "PHOTOSTREAM_DELETE_WARNING_TITLE_IPAD" = "This will delete all Photo Stream photos from your iPad";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_HSA2_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_HSA2_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud and cannot be read by Apple. %@";
 "TURN_ON_SHOEBOX_MESSAGE_CD" = "Do you want to turn on
 iCloud Drive?";
 "HSA2_UPGRADE_FAILURE_ARTICLE_PATH" = "https://support.apple.com/HT204915";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "WAITING_FOR_APPROVAL_MESSAGE_IPAD" = "To use iCloud Keychain on this iPad, approve it from another device that uses iCloud Keychain or use your iCloud Security Code.";
 "TRUSTED_DEVICES_CELL" = "Devices";
 "OFF" = "Off";
-"DATACLASS_LIST_INFO_TEXT_MAC" = "Manage how apps and features on this Mac sync to iCloud.
-%@";
+"DATACLASS_LIST_INFO_TEXT_MAC" = "Manage how apps and features on this Mac sync to iCloud. %@";
 "PRIVATE_EMAIL_ADDRESSES" = "Hide My Email";
 "EXAMPLE_ID" = "example@icloud.com";
 "NEW_ICLOUD_TOS_MESSAGE_IPAD" = "To use iCloud on this iPad you must accept the new iCloud Terms and Conditions.";
@@ -379,8 +347,7 @@ iCloud Drive?";
 "SET_UP" = "Set Up";
 "CLOUD_DRIVE_PRIVACY_INFO" = "Look Me Up";
 "AVAILABLE_STORAGE_VALUE" = "%@ Available";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. This data is encrypted on your iPhone as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. This data is encrypted on your iPhone as well as when stored in iCloud and cannot be read by Apple. %@";
 "ALREADY_EXISTING_ACCOUNT_DESC_IPAD" = "This %@ account has already been added to your iPad.";
 "APPLEID_ALERT_LOW_STORAGE_MSG" = "%@ Remaining. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut dolor nec quam tempor interdum.";
 "DELETE_ACCOUNT_RESTORE_WARNING_IPOD" = "You cannot sign out of your Apple Account because your iPod is being restored.";
@@ -391,8 +358,7 @@ iCloud Drive?";
 "CREATE_ACCOUNT" = "Get a Free Apple Account";
 "FAILED_TO_LOAD_CELL" = "Not available.";
 "SET_UP_WITH_NAME" = "Your Apple Watch was set up by %@.";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "DRIVE_UNLIMITED_CELLULAR_TOGGLE_NAME" = "Unlimited Data";
 "UPGRADE_ACCOUNT_SECURITY_FEATURE_KEYCHAIN" = "iCloud Keychain";
 "NAME" = "Name";
@@ -410,36 +376,31 @@ If you are unable to access another device, you can reset your keychain.";
 "SIGN_IN" = "Sign In";
 "MESSAGES_DATACLASS_SUBTITLE" = "Sync your messages to iCloud so you can continue your conversations from all your devices. %@";
 "DESCRIPTION" = "Description";
-"KEYCHAIN_SPECIFIER_NAME" = "Passwords and Keychain";
+"KEYCHAIN_SPECIFIER_NAME" = "Passwords & Keychain";
 "DEVICE_LOCATOR_UNKNOWN" = "Find My Device";
 "ICLOUD_SERVICE_GROUP_STORAGE" = "Storage";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Apple Vision Pro as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. This data is encrypted on your Apple Vision Pro as well as when stored in iCloud and cannot be read by Apple. %@";
 "ICLOUD_SERVICE_UBIQUITY_UPGRAGE_BUTTON_TITLE" = "Upgrade";
 "RETRY" = "Retry";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. This data is encrypted on your iPod as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. This data is encrypted on your iPod as well as when stored in iCloud and cannot be read by Apple. %@";
 "ICLOUD_MAIL_SETUP" = "Set Up";
 "NOT_A_MOBILEME_ACCOUNT_TITLE" = "Not a MobileMe Account";
 "APPLEID_SERVICES_ICLOUD_CELL_TITLE" = "iCloud";
 "UPDATE_NAME_FAILED_LAST_NAME_EMPTY_MESSAGE" = "No last name was provided.";
 "LEARN_MORE_LINK" = "Learn More about iCloud";
 "PASSWORD" = "Password";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_UNKNOWN" = "Your health and fitness information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud and cannot be read by Apple. %@";
 "SAVED_TO_ICLOUD_LEARN_MORE_LINK" = "https://support.apple.com/guide/icloud/mm203ae070a2";
 "UNKNOWN" = "Unknown";
 "MAIL_ACCOUNT_INFO" = "Mail";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. This data is encrypted on your Mac as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_MAC" = "Your health and fitness information on this Mac can be automatically stored in iCloud. This data is encrypted on your Mac as well as when stored in iCloud. %@";
 "CONTINUE" = "Continue";
 "KEYCHAIN_NOT_AVAILABLE_IN_DEMO_MODE" = "iCloud Keychain is not enabled for this demo.";
 "DEVICE_LOCATOR_TITLE_IPAD" = "Find My iPad Enabled";
 "COPY_EXISTING_MOBILEME_DATA_IPAD" = "Keep on My iPad";
 "PASSWORD_CHANGE_LABEL" = "To change the password for this account, go to";
 "APPLEID_SPLIT_CLOUD" = "iCloud: %@";
-"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_WITHOUT_FITNESS_PASSCODE_UNKNOWN" = "Your health information on this Device can be automatically stored in iCloud. This data is encrypted on your Device as well as when stored in iCloud. %@";
 "TURN_OFF" = "Turn Off";
 "DELETE_ACCOUNT_RESTORE_WARNING_VISION" = "You cannot sign out of your Apple Account because your Apple Vision Pro is being restored.";
 "GET_VERIFICATION_CODE_BUTTON" = "Get Verification Code";
@@ -449,21 +410,17 @@ If you are unable to access another device, you can reset your keychain.";
 "ICLOUD_SIGNOUT_PASSBOOK_AND_MORE_WARNING_FORMAT_IPAD" = "Signing out of your iCloud account will disable Apple Pay and will remove your cards and keys. %@ stored in iCloud will be removed from this iPad.";
 "TURN_ON_SHOEBOX_TITLE_CD" = "Wallet Data in iCloud
 Requires iCloud Drive";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_IPOD" = "Your health and fitness information on this iPod can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "CONFIRM_CHANGE_SYNC_ACCOUNT_AOSLOCATOR_FORMAT_TITLE" = "Turn On %@";
 "DRIVE_CELLULAR_TOGGLE_FOOTER_WLAN" = "Turn off cellular data to use only WLAN to sync with iCloud Drive.";
-"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. This data is encrypted on your Apple Watch as well as when stored in iCloud and cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_PASSCODE_HSA2_WATCH" = "Your health and fitness information on this Apple Watch can be automatically stored in iCloud. This data is encrypted on your Apple Watch as well as when stored in iCloud and cannot be read by Apple. %@";
 "MAX_TIER_AND_INSUFFICIENT_STORAGE_ALERT_MESSAGE_NO_FEATURE" = "You do not have enough iCloud storage available. Reduce the amount of storage you are using.";
 "DEVICE_BACKUP_GROUP_NAME" = "Device Backups";
 "ICLOUD_KEYCHAIN_SYNC_DESCRIPTION_SPYGLASS_WLAN" = "iCloud Keychain keeps information like your Safari usernames and passwords, credit cards, and WLAN passwords up to date on any device that you approve. Your information is encrypted and cannot be read by Apple.";
 "MESSAGES_DATACLASS_TITLE" = "Messages";
 "HEALTH_DATACLASS_TITLE" = "Health";
-"HEALTH_DATACLASS_SUBTITLE_DEFAULT_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud.
-%@";
-"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple.
-%@";
+"HEALTH_DATACLASS_SUBTITLE_DEFAULT_VISION" = "Your health and fitness information on this Apple Vision Pro can be automatically stored in iCloud. %@";
+"HEALTH_DATACLASS_SUBTITLE_NO_PASSCODE_HSA2_IPHONE" = "Your health and fitness information on this iPhone can be automatically stored in iCloud. Data stored in iCloud cannot be read by Apple. %@";
 "ICLOUD_MAIL_WARNING" = "iCloud Mail";
 "EDIT_PROFILE_PHOTO_BUTTON" = "edit";
 "DATE_AT_TIME" = "%@ at %@";

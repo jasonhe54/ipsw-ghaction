@@ -14,6 +14,8 @@
 	<true/>
 	<key>com.apple.aned.private.ANEAccess.allow</key>
 	<true/>
+	<key>com.apple.appprotectiond.read.access</key>
+	<true/>
 	<key>com.apple.assistant.cdm.client</key>
 	<true/>
 	<key>com.apple.assistant.dictation.prerecorded</key>
@@ -33,8 +35,6 @@
 		<string>com.apple.reminders</string>
 		<string>com.apple.mobileslideshow</string>
 	</array>
-	<key>com.apple.developer.hardened-process</key>
-	<true/>
 	<key>com.apple.developer.icloud-container-environment</key>
 	<string>Production</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
@@ -345,6 +345,7 @@
 		<string>com.apple.feedbackd.centralized-feedback</string>
 		<string>com.apple.mobileassetd.v2</string>
 		<string>com.apple.feedbacklogger</string>
+		<string>com.apple.appprotectiond.read</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-only</key>
 	<array>
@@ -360,6 +361,10 @@
 		<string>com.apple.mobilenotes</string>
 		<string>com.apple.siri.generativeassistantsettings</string>
 	</array>
+	<key>com.apple.security.hardened-process</key>
+	<true/>
+	<key>com.apple.security.hardened-process.checked-allocations.soft-mode</key>
+	<true/>
 	<key>com.apple.security.iokit-user-client-class</key>
 	<array>
 		<string>IOSurfaceRootUserClient</string>

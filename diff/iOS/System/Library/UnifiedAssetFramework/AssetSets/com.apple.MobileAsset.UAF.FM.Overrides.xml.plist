@@ -23,21 +23,6 @@
 		</dict>
 		<dict>
 			<key>AssetName</key>
-			<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
-			<key>Expansions</key>
-			<array>
-				<dict>
-					<key>AutoAssetSpecifierTemplate</key>
-					<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
-					<key>RequiredUsageTypes</key>
-					<array>
-						<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
-					</array>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>AssetName</key>
 			<string>com.apple.gm.safety.disabledusecases.generic</string>
 			<key>Expansions</key>
 			<array>
@@ -1728,7 +1713,6 @@
 	<key>UsageTypes</key>
 	<array>
 		<string>com.apple.gm.overrides.model_config.all.generic</string>
-		<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
 		<string>com.apple.gm.safety.disabledusecases.generic</string>
 		<string>com.apple.gm.safety_deny.input.adm_background_prompt.generic</string>
 		<string>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</string>

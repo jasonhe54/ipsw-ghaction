@@ -2031,36 +2031,36 @@
 			<key>_LOCALIZABLE_</key>
 			<dict>
 				<key>genmojiNonSubjectDescription</key>
-				<string></string>
+				<string>with hearts on eyes</string>
 				<key>genmojiNonSubjectPersonalizationDescription</key>
 				<string></string>
 				<key>genmojiShouldAutomatchPersonalization</key>
 				<string></string>
 				<key>genmojiSubjectDescription</key>
-				<string>winking smiley with stuck-out tongue</string>
+				<string>smiley with hearts on eyes</string>
 				<key>isDisplayed</key>
 				<string>1</string>
 				<key>localizedDisplayName</key>
-				<string>Playful</string>
+				<string>Love</string>
 				<key>nonSubjectDescription</key>
-				<string>with a winking expression</string>
+				<string>with heart shaped sunglasses and dark lenses</string>
 				<key>nonSubjectPersonalizationDescription</key>
-				<string>with a winking expression</string>
+				<string>with heart shaped sunglasses and dark lenses</string>
 				<key>subjectDescription</key>
-				<string>with a winking expression</string>
+				<string>with heart shaped sunglasses and dark lenses</string>
 			</dict>
 			<key>categoryID</key>
 			<integer>2</integer>
 			<key>emojiRepresentation</key>
-			<string>😉</string>
+			<string>😍</string>
 			<key>forcesPersonalization</key>
 			<true/>
 			<key>iconFilename</key>
-			<string>Playful</string>
+			<string>LoveExpression</string>
 			<key>id</key>
 			<integer>5006</integer>
 			<key>unlocalizedName</key>
-			<string>Playful</string>
+			<string>Love</string>
 		</dict>
 		<dict>
 			<key>_LOCALIZABLE_</key>
@@ -2134,6 +2134,6 @@
 		</dict>
 	</array>
 	<key>version</key>
-	<string>202507281529</string>
+	<string>202509120917</string>
 </dict>
 </plist>

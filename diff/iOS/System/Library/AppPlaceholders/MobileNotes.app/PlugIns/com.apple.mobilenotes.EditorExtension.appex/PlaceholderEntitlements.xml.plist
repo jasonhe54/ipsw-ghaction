@@ -6,6 +6,8 @@
 	<string>com.apple.mobilenotes.EditorExtension</string>
 	<key>com.apple.PencilKit.allowsSnapToShape</key>
 	<true/>
+	<key>com.apple.appprotectiond.read.access</key>
+	<true/>
 	<key>com.apple.authkit.client.internal</key>
 	<true/>
 	<key>com.apple.chronoservices</key>
@@ -84,6 +86,7 @@
 		<string>com.apple.chronoservices</string>
 		<string>com.apple.systemstatus.activityattribution</string>
 		<string>com.apple.LinkPresentation.LinkSnapshotGeneratorService</string>
+		<string>com.apple.appprotectiond.read</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-write</key>
 	<array>

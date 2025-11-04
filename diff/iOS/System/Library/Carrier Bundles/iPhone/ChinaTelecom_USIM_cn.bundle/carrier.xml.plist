@@ -134,6 +134,13 @@
 		<key>TokenURL</key>
 		<string>https://ct.crm.189.cn:86/pubPortal/appleAuth/initback</string>
 	</dict>
+	<key>CellularPlanProvisioningSettings</key>
+	<dict>
+		<key>AdditionalRejectCauseCodesForAttachMonitorMode</key>
+		<array>
+			<integer>15</integer>
+		</array>
+	</dict>
 	<key>DataIndicatorOverrideForLTE</key>
 	<string>4G</string>
 	<key>DefaultPhoneNumberPrefixes</key>

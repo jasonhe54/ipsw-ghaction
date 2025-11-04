@@ -25,6 +25,11 @@
 				<key>Notification</key>
 				<string>com.apple.bluetooth.connection</string>
 			</dict>
+			<key>com.apple.osi.iblm.engagedNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.osi.iblm.engagedNotification</string>
+			</dict>
 			<key>com.apple.powerlog.batteryServiceNotification</key>
 			<dict>
 				<key>Notification</key>
@@ -157,6 +162,8 @@
 		<key>com.apple.powerui.smartChargeManager</key>
 		<true/>
 		<key>com.apple.thermalMonitor.displayMitigationsEnabledNote</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.osintelligence.notifications</key>
 		<true/>
 		<key>com.apple.usernotifications.delegate.com.apple.powerui.chargeawareness</key>
 		<true/>

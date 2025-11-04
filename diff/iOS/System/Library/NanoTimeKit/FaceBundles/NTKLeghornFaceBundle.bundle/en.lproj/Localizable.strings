@@ -17,6 +17,7 @@
 "LEGHORN_LABEL_NORTH" = "N";
 "EDIT_OPTION_LABEL_LEGHORN_HIVIZ_STYLE_NONE" = "NONE";
 "LEGHORN_DISTANCE_METERS_SECONDS_AGO" = "^[%@](attributes: 'distance')^[M](attributes: 'distanceUnit')^[ • %@](attributes: 'duration')^[s](attributes: 'durationUnit')^[ AGO](attributes: 'duration')";
+"LEGHORN_DISTANCE_LABEL_VSPACING_PIXELS" = "0";
 "LEGHORN_SW_DIRECTION_ACCESSIBILITY" = "Southwest";
 "POI_FILTER_SECTION_MAPS" = "Maps";
 "LEGHORN_DISTANCE_METERS" = "^[%@](attributes: 'radius')^[M](attributes: 'radiusUnit')";
@@ -27,7 +28,7 @@
 "LEGHORN_RADIUS_CUSTOM_ACTION_ACCESSIBILITY" = "Set compass radius";
 "LEGHORN_E_DIRECTION" = "^[E](attributes: 'cardinal')^[%@°](attributes: 'direction')";
 "POI_FILTER_ITEM_PINNED" = "Pinned";
-"POI_FILTER_SECTION_MAPS_SUGGESTIONS" = "Maps Suggestions";
+"POI_FILTER_SECTION_MAPS_SUGGESTIONS" = "Suggestions";
 "LEGHORN_COMPASS_RADIUS_FORMAT_ACCESSIBILITY" = "Radius: %@";
 "LEGHORN_TARGET_MODE_LEFT_ACCESSIBILITY" = "%@ to the left";
 "LEGHORN_POI_LABEL_MARINA" = "Marina";
@@ -41,6 +42,7 @@
 "LEGHORN_DISTANCE_FEET_HOURS_AGO" = "^[%@](attributes: 'distance')^[FT](attributes: 'distanceUnit')^[ • %@](attributes: 'duration')^[h](attributes: 'durationUnit')^[ AGO](attributes: 'duration')";
 "LEGHORN_LABEL_EAST" = "E";
 "LEGHORN_DISTANCE_KILOMETERS_MINUTES_AGO" = "^[%@](attributes: 'distance')^[KM](attributes: 'distanceUnit')^[ • %@](attributes: 'duration')^[M](attributes: 'durationUnit')^[ AGO](attributes: 'duration')";
+"POI_FILTER_SECTION_MAPS_FAVORITES" = "Favorites";
 "LEGHORN_POI_LABEL_TRAIL" = "Hiking Trail";
 "LEGHORN_POI_LABEL_PARKEDCAR" = "Parked Car";
 "LEGHORN_NW_DIRECTION" = "^[NW](attributes: 'cardinal')^[%@°](attributes: 'direction')";
@@ -67,7 +69,7 @@
 "LEGHORN_POI_LABEL_TENT" = "TENT";
 "LEGHORN_RADIUS_METERS" = "^[R %@](attributes: 'radius')^[M](attributes: 'radiusUnit')";
 "EDIT_MODE_LABEL_LEGHORN_HIVIZ_STYLE" = "DIAL STYLE";
-"POI_FILTER_ITEM_PLACES" = "Places";
+"POI_FILTER_ITEM_PLACES" = "Saved Places";
 "LEGHORN_DISTANCE_KILOMETERS_DATE" = "^[%@](attributes: 'distance')^[KM](attributes: 'distanceUnit')^[ • %@](attributes: 'duration')";
 "EDIT_MODE_LABEL_LEGHORN_TIME_STYLE" = "TIME STYLE";
 "LEGHORN_DISTANCE_METERS_DAYS_AGO" = "^[%@](attributes: 'distance')^[M](attributes: 'distanceUnit')^[ • %@](attributes: 'duration')^[d](attributes: 'durationUnit')^[ AGO](attributes: 'duration')";
@@ -102,6 +104,7 @@
 "LEGHORN_W_DIRECTION" = "^[W](attributes: 'cardinal')^[%@°](attributes: 'direction')";
 "LEGHORN_TARGET_CUSTOM_ACTION_ACCESSIBILITY" = "Set target waypoint";
 "LEGHORN_NE_DIRECTION" = "^[NE](attributes: 'cardinal')^[%@°](attributes: 'direction')";
+"LEGHORN_DISTANCE_LABEL_VSPACING" = "0";
 "POI_FILTER_SECTION_MAPS_GUIDES" = "Maps Guides";
 "EDIT_OPTION_LABEL_LEGHORN_TIME_STYLE_ANALOG" = "ANALOG";
 "LEGHORN_E_DIRECTION_ACCESSIBILITY" = "East";

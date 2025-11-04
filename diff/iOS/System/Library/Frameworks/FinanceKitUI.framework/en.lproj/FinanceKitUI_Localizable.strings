@@ -62,6 +62,7 @@
 "ORDER_PAYMENT_TRANSACTION_REFUND_TO" = "Refund to %@";
 "ORDER_DETAILS_NOTES_PICKUP" = "Pickup Instructions";
 "ORDER_DETAILS_CUSTOM_STATUS_MORE" = "more";
+"RELATED_MERCHANT_EMAIL_REFUND_UPDATED" = "There is an update to your refund.";
 "RELATED_MERCHANT_EMAIL_ORDER_UPDATED" = "There is an update to your order.";
 "ORDER_DETAILS_SHARE_SHEET_SUBTITLE" = "Order ‧ %@";
 "ORDER_CONTACT_MERCHANT_MAIL_LINK_ONLY_OPTION" = "Email This Merchant";
@@ -102,6 +103,7 @@
 "ORDER_DELETE_ACTION_TITLE" = "Delete";
 "RELATED_MERCHANT_EMAIL_ORDER_OUT_FOR_DELIVERY" = "Your order is out for delivery.";
 "RELATED_MERCHANT_EMAIL_ORDER_CONFIRMED" = "Your order has been confirmed.";
+"RELATED_MERCHANT_EMAIL_RETURN_UPDATED" = "There is an update to your return.";
 "RELATED_MERCHANT_EMAIL_ORDER_PROCESSING" = "Your order is processing.";
 "RELATED_CARRIER_EMAIL_DELIVERED" = "Your shipment has been delivered.";
 "ORDER_ADD_INVALID" = "Error reading order file.";

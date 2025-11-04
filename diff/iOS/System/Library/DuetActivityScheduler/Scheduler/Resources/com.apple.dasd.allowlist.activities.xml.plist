@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>com.apple.FitnessFriends.PeriodicUpdateActivity</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>1</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
 	<key>com.apple.ReplicatorEngine.DuetHandshakeScheduler</key>
 	<dict>
 		<key>LimitationOverrides</key>
@@ -9,6 +21,18 @@
 			<string>ActivityRate</string>
 			<string>ProcessRate</string>
 		</array>
+	</dict>
+	<key>com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>1</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
 	</dict>
 	<key>com.apple.assetsd.backgroundjobservice.discretionaryresource</key>
 	<dict>
@@ -42,6 +66,18 @@
 			<string>DynamicRuntime</string>
 			<string>ThroughputReporting</string>
 		</array>
+	</dict>
+	<key>com.apple.biomesyncd.periodic-sync</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>4</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
 	</dict>
 	<key>com.apple.cloudphotod.initialdownload.fastpass</key>
 	<dict>
@@ -87,6 +123,30 @@
 			<string>ThroughputReporting</string>
 		</array>
 	</dict>
+	<key>com.apple.dastestd.foobar</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>1</integer>
+			<key>Threshold</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+	<key>com.apple.eventkitsync.retrysync</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>1</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
 	<key>com.apple.eyereliefd.distanceSampling</key>
 	<dict>
 		<key>LimitationOverrides</key>
@@ -95,6 +155,30 @@
 			<string>ActivityRate</string>
 			<string>ProcessRate</string>
 		</array>
+	</dict>
+	<key>com.apple.healthd.healthrecords.opt-in-data-upload</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>1</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
+	<key>com.apple.healthd.sleep.breathingdisturbanceanalysisactivity</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>1</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
 	</dict>
 	<key>com.apple.healthd.sync.cloud.periodic</key>
 	<dict>
@@ -105,6 +189,41 @@
 		</array>
 		<key>Runtime</key>
 		<integer>1800</integer>
+	</dict>
+	<key>com.apple.idleStack_high</key>
+	<dict>
+		<key>LimitationOverrides</key>
+		<array>
+			<string>Configuration</string>
+		</array>
+	</dict>
+	<key>com.apple.idleStack_low</key>
+	<dict>
+		<key>LimitationOverrides</key>
+		<array>
+			<string>Configuration</string>
+		</array>
+	</dict>
+	<key>com.apple.idleStack_lowNoDI</key>
+	<dict>
+		<key>LimitationOverrides</key>
+		<array>
+			<string>Configuration</string>
+		</array>
+	</dict>
+	<key>com.apple.idleStack_lowNoSUI</key>
+	<dict>
+		<key>LimitationOverrides</key>
+		<array>
+			<string>Configuration</string>
+		</array>
+	</dict>
+	<key>com.apple.idleStack_med</key>
+	<dict>
+		<key>LimitationOverrides</key>
+		<array>
+			<string>Configuration</string>
+		</array>
 	</dict>
 	<key>com.apple.intelligenceplatform.IntelligencePlatformCore.FullPipeline.LongRunning</key>
 	<dict>
@@ -274,6 +393,54 @@
 		</array>
 		<key>Runtime</key>
 		<integer>2700</integer>
+	</dict>
+	<key>com.apple.searchd.expirations</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>4</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
+	<key>com.apple.searchd.indexmaintenance.NSFileProtectionComplete</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>4</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
+	<key>com.apple.searchd.indexmaintenance.NSFileProtectionCompleteUnlessOpen</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>4</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
+	</dict>
+	<key>com.apple.searchd.restartAttachmentImport.NSFileProtectionCompleteUntilFirstUserAuthentication</key>
+	<dict>
+		<key>SuspensionDelayMitigations</key>
+		<dict>
+			<key>Major</key>
+			<integer>26</integer>
+			<key>Minor</key>
+			<integer>4</integer>
+			<key>Threshold</key>
+			<integer>600</integer>
+		</dict>
 	</dict>
 	<key>com.apple.spotlightknowledged.task</key>
 	<dict>

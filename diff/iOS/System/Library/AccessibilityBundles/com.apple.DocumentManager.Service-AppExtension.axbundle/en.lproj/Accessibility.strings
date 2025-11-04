@@ -7,6 +7,7 @@
 "download.button" = "Download";
 "display.mode.icons" = "Icons";
 "open.button" = "Open";
+"add.tag.text.field" = "Tag name";
 "column.view" = "Column View";
 "folder.name" = "Folder Name";
 "progress" = "Progress";
@@ -19,6 +20,10 @@
 "more" = "More";
 "grid.view" = "Grid View";
 "badge.unread.count" = "{'items': {'one': '%d item', 'other': '%d items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@items@'}";
+"mixed.selected" = "Mixed";
+"add.tag.button" = "Add tag";
+"choose.tag.color.button" = "Choose tag color";
 "file.name" = "File Name";
+"tag.no.color" = "No color";
 "ejectable" = "Ejectable";
 "drop.into.folder" = "Drop into folder";

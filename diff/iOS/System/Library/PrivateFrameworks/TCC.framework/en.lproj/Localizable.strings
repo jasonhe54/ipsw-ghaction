@@ -46,6 +46,7 @@
 "REQUEST_ACCESS_INFO_SERVICE_kTCCServiceSiri" = "Some of your %@ data will be sent to Apple to process your requests.";
 "REQUEST_ACCESS_SERVICE_kTCCServiceFinancialData" = "“%@” would like to access your Financial Account Data.";
 "REQUEST_ACCESS_ALLOW_kTCCServiceUserTracking" = "Allow";
+"REQUEST_ACCESS_SERVICE_PRIMARY_kTCCServiceEnergyKitGuidance" = "Allow “%@” to access Grid Forecast and electricity rate information from “Home”?";
 "REQUEST_ACCESS_SERVICE_kTCCServiceBluetoothPeripheral" = "“%@” would like to make data available to nearby Bluetooth devices even when you’re not using the app.";
 "REQUEST_ACCESS_DENY_kTCCServiceFallDetection" = "Don’t Share Data";
 "REQUEST_ACCESS_INFO_SERVICE_kTCCServiceContactlessAccess" = "This allows “%@” to initiate Contactless Transactions.";
@@ -77,6 +78,7 @@
 "REQUEST_ACCESS_SERVICE_kTCCServiceGameCenterFriends" = "Allow “%@” to connect you with your Game Center friends?";
 "REQUEST_ACCESS_ADD_kTCCServiceCalendar_ADD" = "Allow";
 "REQUEST_LIMITED_AUTHORIZATION_BUTTON_TITLE_SERVICE_kTCCServicePrototype4Rights" = "Limited Proto4";
+"REQUEST_ACCESS_SERVICE_SECONDARY_kTCCServiceEnergyKitGuidance" = "Allow “%@” to access Grid Forecast from “Home”?";
 "REQUEST_ACCESS_DENY_kTCCServicePoplar" = "Don’t Allow";
 "REQUEST_ACCESS_DENY_kTCCServicePrototype4RightsWolf" = "Don’t Allow";
 "REQUEST_ACCESS_INFO_SERVICE_kTCCServiceFallDetection" = "If you choose to share, “%@” can receive data from Apple Watch if a fall is detected and follow up in case help is needed.";
@@ -85,6 +87,7 @@
 "REQUEST_ACCESS_SERVICE_kTCCServiceCottonwood" = "Allow “%@” to access Hand Structure & Movements? ";
 "REQUEST_ACCESS_SERVICE_kTCCServiceAccessoryTracking" = "Allow “%@” to access your accessory movements?";
 "REQUEST_ACCESS_SERVICE_kTCCServiceSecureElementAccess" = "“%@” would like to access the Secure Element on your iPhone.";
+"REQUEST_ACCESS_INFO_SERVICE_SECONDARY_kTCCServiceEnergyKitGuidance" = "This will allow “%@“ to know when to use electricity based on Grid Forecast and, if you have an energy account connected, rates. Information also includes your home's name.";
 "REQUEST_ACCESS_SERVICE_kTCCServiceExternalCameraMedia" = "“%@” would like to access files on connected cameras and Storage.";
 "REQUEST_ACCESS_INFO_EXTENSION_SERVICE_kTCCServiceBluetoothAlways" = "Information from Bluetooth devices can be used to determine your location and create a profile of you.";
 "REQUEST_ACCESS_INFO_SERVICE_kTCCServiceExposureNotification" = "Your iPhone can securely collect and share random IDs with nearby devices. The app can use these IDs to notify you if you may have been exposed to COVID-19. The date, duration, and signal strength of an exposure will be shared with “%@”.";
@@ -96,6 +99,7 @@
 "REQUEST_ACCESS_UPGRADE_kTCCServiceExternalCameraMedia" = "“%@” would like to get write access to external storage device.";
 "REQUEST_ACCESS_DONT_ALLOW_kTCCServiceAddressBook_DONT_ALLOW" = "Don't Allow";
 "REQUEST_ACCESS_INFO_SERVICE_kTCCServiceWebBrowserPublicKeyCredential" = "This allows “%@” to see a list of your accounts using Passkeys for websites and apps, to help you sign in to them.";
+"REQUEST_ACCESS_INFO_SERVICE_PRIMARY_kTCCServiceEnergyKitGuidance" = "This will create a home in the Home app for you and allow “%@“ to know when to use electricity based on Grid Forecast and, if you connect an energy account later, rates. Information also includes your home's name.";
 "REQUEST_ACCESS_FULL_kTCCServiceAddressBook_FULL" = "Allow";
 "REQUEST_ACCESS_SERVICE_kTCCServiceExposureNotification" = "Enable COVID-19 Exposure Logging and Notifications.";
 "REQUEST_ACCESS_INFO_SERVICE_kTCCServiceExternalCameraMedia" = "You can change this in Privacy settings.";

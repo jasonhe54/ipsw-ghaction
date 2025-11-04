@@ -53,7 +53,7 @@
 			<key>Enable</key>
 			<string>Debug</string>
 			<key>Persist</key>
-			<string>Debug</string>
+			<string>Info</string>
 		</dict>
 		<key>Signpost-Enabled</key>
 		<true/>
@@ -62,13 +62,13 @@
 		<key>TTL</key>
 		<dict>
 			<key>Debug</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Default</key>
-			<integer>2</integer>
+			<integer>7</integer>
 			<key>Info</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>Notice</key>
-			<integer>2</integer>
+			<integer>5</integer>
 		</dict>
 	</dict>
 	<key>Debug</key>

@@ -1,7 +1,9 @@
-"CALL_RECORDING_EXPLANATION_WITH_TRANSCRIPTION" = "This allows you to use the Phone app to record a conversation during the call, then transcribe in the Notes app. An audio notification will automatically play before a recording begins.";
 "CALL_RECORDING_TOGGLE_TITLE" = "Audio Call Recording";
-"CALL_RECORDING_OFF" = "Off";
+"CALL_RECORDING_EXPLANATION_WITH_TRANSCRIPTION_AND_SUMMARIZATION_NO_APP" = "This allows you to record conversations during calls, then transcribe and summarize in the Notes app. An audio notification will automatically play before a recording begins.";
 "CALL_RECORDING_LIST_TITLE" = "Call Recording";
-"CALL_RECORDING_EXPLANATION_WITH_TRANSCRIPTION_AND_SUMMARIZATION" = "This allows you to use the Phone app to record a conversation during the call, then transcribe and summarize in the Notes app. An audio notification will automatically play before a recording begins.";
+"CALL_RECORDING_EXPLANATION_WITH_TRANSCRIPTION_NO_APP" = "This allows you to record conversations during calls, then transcribe in the Notes app. An audio notification will automatically play before a recording begins.";
+"CALL_RECORDING_EXPLANATION_WITH_TRANSCRIPTION_%@" = "This allows you to use the %@ app to record a conversation during the call, then transcribe in the Notes app. An audio notification will automatically play before a recording begins.";
+"CALL_RECORDING_EXPLANATION_WITH_TRANSCRIPTION_AND_SUMMARIZATION_%@" = "This allows you to use the %@ app to record a conversation during the call, then transcribe and summarize in the Notes app. An audio notification will automatically play before a recording begins.";
+"CALL_RECORDING_EXPLANATION_%@" = "This allows you to use the %@ app to record a conversation during the call, then save to the Notes app. An audio notification will automatically play before a recording begins.";
 "CALL_RECORDING_ON" = "On";
-"CALL_RECORDING_EXPLANATION" = "This allows you to use the Phone app to record a conversation during the call, then save to the Notes app. An audio notification will automatically play before a recording begins.";
+"CALL_RECORDING_OFF" = "Off";

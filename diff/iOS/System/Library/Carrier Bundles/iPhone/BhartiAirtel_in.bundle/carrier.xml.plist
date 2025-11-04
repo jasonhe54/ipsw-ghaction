@@ -47,23 +47,6 @@
 	<true/>
 	<key>HomeBundleIdentifier</key>
 	<string>com.apple.India</string>
-	<key>MMS</key>
-	<dict>
-		<key>GroupModeEnabled</key>
-		<false/>
-		<key>MMSC</key>
-		<string>http://100.1.201.171:10021/mmsc</string>
-		<key>MaxImageDimension</key>
-		<integer>1024</integer>
-		<key>MaxMessageSize</key>
-		<integer>307200</integer>
-		<key>MaxRecipients</key>
-		<integer>25</integer>
-		<key>MaxVideoBitrate</key>
-		<integer>131072</integer>
-		<key>Proxy</key>
-		<string>100.001.201.172:8799</string>
-	</dict>
 	<key>ManagedHours</key>
 	<dict>
 		<key>ExpirationDate</key>
@@ -315,20 +298,6 @@
 			<string></string>
 			<key>type-mask</key>
 			<integer>32817</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>3</integer>
-			<key>DefaultProtocolMask</key>
-			<integer>3</integer>
-			<key>apn</key>
-			<string>airtelmms.com</string>
-			<key>password</key>
-			<string></string>
-			<key>type-mask</key>
-			<integer>4</integer>
 			<key>username</key>
 			<string></string>
 		</dict>

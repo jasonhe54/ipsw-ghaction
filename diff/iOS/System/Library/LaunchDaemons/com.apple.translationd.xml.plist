@@ -8,6 +8,22 @@
 	<true/>
 	<key>Label</key>
 	<string>com.apple.translationd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.siri.uaf.com.apple.sequoia.asset</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.siri.uaf.com.apple.sequoia.asset</string>
+			</dict>
+			<key>com.apple.siri.uaf.com.apple.speech.automaticspeechrecognition</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.siri.uaf.com.apple.speech.automaticspeechrecognition</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>MachServices</key>
 	<dict>
 		<key>com.apple.translation.text</key>

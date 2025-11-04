@@ -14,6 +14,24 @@
 	<dict>
 		<key>com.apple.bg.system.task</key>
 		<dict>
+			<key>com.apple.modelcatalog.strictavailability.classcunlock</key>
+			<dict>
+				<key>NonRepeatingTask</key>
+				<dict>
+					<key>ScheduleAfter</key>
+					<integer>0</integer>
+					<key>TrySchedulingBefore</key>
+					<integer>300</integer>
+				</dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>C</string>
+			</dict>
 			<key>com.apple.modelcatalog.subscriptionevaluation.nightly</key>
 			<dict>
 				<key>Priority</key>
@@ -27,6 +45,26 @@
 				<false/>
 				<key>RequiresNetworkConnectivity</key>
 				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>C</string>
+			</dict>
+			<key>com.apple.modelcatalog.subscriptionevaluation.postboot</key>
+			<dict>
+				<key>NonRepeatingTask</key>
+				<dict>
+					<key>ScheduleAfter</key>
+					<integer>0</integer>
+					<key>TrySchedulingBefore</key>
+					<integer>0</integer>
+				</dict>
+				<key>Priority</key>
+				<string>Maintenance</string>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>C</string>
 			</dict>
 		</dict>
 		<key>com.apple.biome.compute.publisher</key>

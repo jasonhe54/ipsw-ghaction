@@ -45,12 +45,16 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://ses.mobily.com.sa</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
 		<key>SupportedActions</key>
 		<array>
 			<string>TransferSIMService</string>
 		</array>
 		<key>SupportedEntitlements</key>
-		<integer>5121</integer>
+		<integer>13313</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -181,6 +185,15 @@
 	<string>mobily</string>
 	<key>OverrideOperatorWiFiName</key>
 	<string>Mobily WiFiCall</string>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://esim.mobily.com.sa</string>
+		<key>MinCompatibleOS</key>
+		<string>26.0</string>
+		<key>TransferSupportedOverCloud</key>
+		<false/>
+	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<array>
 		<string>+447537410203</string>
@@ -196,6 +209,8 @@
 	</array>
 	<key>PushSettings</key>
 	<dict>
+		<key>CellularPlanTransferTopic</key>
+		<string>com.mobily.eSIM.apns</string>
 		<key>MultiSIMTopic</key>
 		<string>com.mobily.eSIM.apns</string>
 	</dict>

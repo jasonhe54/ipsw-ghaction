@@ -29,8 +29,10 @@
 		<true/>
 		<key>SupportSecureIntent</key>
 		<true/>
+		<key>SupportedAuthorizationTokens</key>
+		<integer>2</integer>
 		<key>SupportedEntitlements</key>
-		<integer>641</integer>
+		<integer>4194945</integer>
 		<key>SupportsOnDevicePhysicalSIMConvert</key>
 		<true/>
 		<key>TempFailureBackoffDelay</key>
@@ -298,8 +300,6 @@
 			<key>ServerURL</key>
 			<string>config.rcs.mnc$mnc.mcc$mcc.jibecloud.net</string>
 		</dict>
-		<key>ShowRCSSwitch</key>
-		<true/>
 	</dict>
 	<key>RemoteDiagnosticsWWANAllowed</key>
 	<true/>

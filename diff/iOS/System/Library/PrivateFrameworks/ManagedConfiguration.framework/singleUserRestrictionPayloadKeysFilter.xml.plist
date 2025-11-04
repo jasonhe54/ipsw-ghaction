@@ -11,6 +11,7 @@
 		<string>allowedExternalIntelligenceAccountDomains</string>
 		<string>allowedExternalIntelligenceWorkspaceIDs</string>
 		<string>allowedCameraRestrictionBundleIDs</string>
+		<string>ratingAppsExemptedBundleIDs</string>
 	</array>
 	<key>restrictedBool</key>
 	<array>

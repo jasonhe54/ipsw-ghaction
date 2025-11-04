@@ -49,7 +49,7 @@
 "KEEP_MESSAGES_1MONTH" = "30 Days";
 "RCS_FOOTER_TEXT" = "Sending and receiving messages with RCS uses wireless data. Cellular network identifiers may be shared with your carrier and its partners.";
 "PERSONAL_LABEL" = "Personal";
-"NOTIFICATIONS_FOOTER" = "Notifications are hidden for most screened messages. Selected message types will show notifications and appear in the Messages list for 8 hours.";
+"NOTIFICATIONS_FOOTER" = "Notifications are hidden for most screened messages. Selected message types will show notifications and appear in the Messages list for %lld hours.";
 "GENERAL_ON" = "On";
 "JUNK_FILTERING_RECEIPTS" = "Send Spam Filtering Receipts";
 "MADRID_FILTER_LABEL" = "Filter Unknown Senders";
@@ -168,7 +168,7 @@ Videos sent as attachments will not expire.";
 "RCS_FOOTER_ACTIVATION_FAILURE_TEXT" = "To activate RCS messaging, switch your cellular data line to “%@” in %@.";
 "MADRID_UPDATE_APPLEID_APPLEACCOUNT" = "Update Apple Account Settings";
 "AU_ONLINE_SAFETY_URL" = "https://www.apple.com/au/legal/online-safety/";
-"OTHER_NOTIFICATIONS_LABEL" = "Other";
+"OTHER_NOTIFICATIONS_LABEL" = "Other Unknown";
 "KEEP_MESSAGES_1YEAR" = "1 Year";
 "UNKNOWN_SENDERS_MESSAGES_HEADER" = "Unknown Senders";
 "NAME_AND_PHOTO_SHARING_CONTACTS_ONLY_LABEL" = "Contacts Only";

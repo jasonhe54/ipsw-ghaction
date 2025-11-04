@@ -43,6 +43,7 @@
 "Natural Log" = "Natural Log";
 "Shift value by a number of bits to the right" = "Shift value by a number of bits to the right";
 "Are you sure you want to delete %lld calculations?" = "{'value': {'one': 'Are you sure you want to delete this calculation?', 'other': 'Are you sure you want to delete %lld calculations?', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Reciprocal" = "Reciprocal";
 "Scientific" = "Scientific";
 "Byte Flip" = "Byte Flip";
 "Yesterday" = "Yesterday";
@@ -136,8 +137,8 @@
 "Shift value by 1 bit to the right" = "Shift value by 1 bit to the right";
 "Swap" = "Swap";
 "0" = "0";
+"Hexadecimal" = "Hexadecimal";
 "Change angular units to degrees" = "Change angular units to degrees";
-"Toggle to show ASCII or Unicode value" = "Toggle to show ASCII or Unicode value";
 "1" = "1";
 "Delete All" = "Delete All";
 "Calculate the hyperbolic sine of a value" = "Calculate the hyperbolic sine of a value";
@@ -148,6 +149,7 @@
 "Shift Right" = "Shift Right";
 "Clear Memory" = "Clear Memory";
 "4" = "4";
+"Toggle to show ASCII or Unicode value" = "Toggle to show ASCII or Unicode value";
 "Updated %@" = "Updated %@";
 "5" = "5";
 "Open parenthesis" = "Open parenthesis";
@@ -162,9 +164,10 @@
 "9" = "9";
 "Today" = "Today";
 "Done" = "Done";
-"Result, %@" = "Result, %@";
+"Byte On" = "Byte On";
 "Equals" = "Equals";
 "Copied" = "Copied";
+"Result, %@" = "Result, %@";
 "Shift Right by Y Bits" = "Shift Right by Y Bits";
 "Divide" = "Divide";
 "drop" = "drop";
@@ -174,8 +177,8 @@
 "A" = "A";
 "No History" = "No History";
 "Number Format from Locale" = "Number Format from Locale";
-"Rotate the contents of the stack up" = "Rotate the contents of the stack up";
 "B" = "B";
+"Rotate the contents of the stack up" = "Rotate the contents of the stack up";
 "C" = "C";
 "Enter" = "Enter";
 "D" = "D";
@@ -193,6 +196,7 @@
 "Programmer" = "Programmer";
 "Arabic Math" = "Arabic Math";
 "Clear all (or press Escape)" = "Clear all (or press Escape)";
+"Point Separator" = "Point Separator";
 "Calculate the logarithm to base 2 of a value" = "Calculate the logarithm to base 2 of a value";
 "Input, %@ %@, result %@ %@" = "Input, %1$@ %2$@, result %3$@ %4$@";
 "Shift Left" = "Shift Left";
@@ -207,6 +211,7 @@
 "0 0" = "0 0";
 "ASCII value" = "ASCII value";
 "Square Root of x" = "Square Root of x";
+"Byte Off" = "Byte Off";
 "enter" = "enter";
 "Open Parenthesis" = "Open Parenthesis";
 "Copy “%@”" = "Copy “%@”";
@@ -241,9 +246,9 @@
 "Log Base 2" = "Log Base 2";
 "Units" = "Units";
 "Change sign of a value" = "Change sign of a value";
+"1 over x" = "1 over x";
 "Rotate the contents of the stack down" = "Rotate the contents of the stack down";
 "Rotate the contents of the stack up (or press Command-Up Arrow)" = "Rotate the contents of the stack up (or press Command-Up Arrow)";
-"1 over x" = "1 over x";
 "Enter pi (3.14159…)" = "Enter pi (3.14159…)";
 "Bitwise XOR" = "Bitwise XOR";
 "Install" = "Install";
@@ -262,11 +267,12 @@
 "Change Mode" = "Change Mode";
 "FF" = "FF";
 "Show alternate functions for some buttons" = "Show alternate functions for some buttons";
+"%@ root of X" = "%@ root of X";
 "Calculate the hyperbolic tangent of a value" = "Calculate the hyperbolic tangent of a value";
-"Rotate left" = "Rotate left";
 "Are you sure you want to delete all calculations?" = "Are you sure you want to delete all calculations?";
-"XOR" = "XOR";
+"Rotate left" = "Rotate left";
 "Sine" = "Sine";
+"XOR" = "XOR";
 "Y to the X" = "Y to the X";
 "Category" = "Category";
 "Math Notes…" = "Math Notes…";
@@ -274,6 +280,7 @@
 "Copy Result" = "Copy Result";
 "Calculate the factorial of a value (or press !)" = "Calculate the factorial of a value (or press !)";
 "X Squared" = "X Squared";
+"Scientific Notation" = "Scientific Notation";
 "Unit Conversion Unavailable" = "Unit Conversion Unavailable";
 "Close parenthesis" = "Close parenthesis";
 "Arabic_Toggle_Title" = "Arabic Math";
@@ -287,6 +294,7 @@
 "Unable to connect to the App Store. Please check your connection and try again." = "Unable to connect to the App Store. Please check your connection and try again.";
 "Calculate the hyperbolic cosine of a value" = "Calculate the hyperbolic cosine of a value";
 "Percent (or press %)" = "Percent (or press %)";
+"Log Base %@" = "Log Base %@";
 "To use Math Notes, you must review and accept the Privacy Disclosure for Notes." = "To use Math Notes, you must review and accept the Privacy Disclosure for Notes.";
 "Negate value (2’s complement)" = "Negate value (2’s complement)";
 "Calculate the cube of a value" = "Calculate the cube of a value";
@@ -300,6 +308,7 @@
 "Close Parenthesis" = "Close Parenthesis";
 "Delete (%lld)" = "Delete (%lld)";
 "Inverse Cosine" = "Inverse Cosine";
+"X to the %@" = "X to the %@";
 "Hide Thousands Separator" = "Hide Thousands Separator";
 "Negate" = "Negate";
 "Hyperbolic Cosine" = "Hyperbolic Cosine";
@@ -308,8 +317,10 @@
 "Memory" = "Memory";
 "Mode Menu" = "Mode Menu";
 "Recall Memory" = "Recall Memory";
+"Exponential" = "Exponential";
 "Subtract the displayed value from the memory" = "Subtract the displayed value from the memory";
 "No Internet Connection" = "No Internet Connection";
+"Parentheses" = "Parentheses";
 "Swap Units" = "Swap Units";
 "Copy expression to clipboard" = "Copy expression to clipboard";
 "Calculate a first value to the power of a second value (or press ^)" = "Calculate a first value to the power of a second value (or press ^)";

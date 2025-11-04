@@ -518,6 +518,21 @@
 		</dict>
 		<dict>
 			<key>AssetName</key>
+			<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
 			<string>com.apple.fm.visual.uaf.metadata</string>
 			<key>Expansions</key>
 			<array>
@@ -532,6 +547,15 @@
 	</array>
 	<key>AutoAssetType</key>
 	<string>com.apple.MobileAsset.UAF.FM.Visual</string>
+	<key>ExperimentalAssets</key>
+	<dict>
+		<key>TrialFactor</key>
+		<string>ExperimentAssetsDirectory</string>
+		<key>TrialNamespace</key>
+		<string>SIML_ADM_PERSONALIZATION</string>
+		<key>TrialProject</key>
+		<string>SIML</string>
+	</dict>
 	<key>FileType</key>
 	<string>AssetSetConfiguration</string>
 	<key>FileVersion</key>
@@ -574,6 +598,7 @@
 		<string>com.apple.fm.visual.imagescaler.upscaler.generic</string>
 		<string>com.apple.fm.visual.understanding.conditioning.generic</string>
 		<string>com.apple.fm.visual.understanding.conditioning.generic_alternate</string>
+		<string>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</string>
 	</array>
 </dict>
 </plist>

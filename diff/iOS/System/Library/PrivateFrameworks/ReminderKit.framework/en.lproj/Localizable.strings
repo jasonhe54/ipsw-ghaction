@@ -2,17 +2,19 @@
 ", %@-XX02" = ", %@";
 "New Assignment" = "New Assignment";
 "Event will occur every month." = "Event will occur every month.";
+"Stop" = "Stop";
 "15th-XX02" = "15th";
 "Shared by %@" = "Shared by %@";
 "New List" = "New List";
+"Stop an alert" = "Stop an alert";
 "last" = "last";
 "New in %@" = "New in %@";
-"Daily" = "Daily";
 "Every year on the first day %@" = "Every year on the first day %@";
-"View" = "View";
+"Daily" = "Daily";
 "Invited by %@" = "Invited by %@";
 "Event will occur every year." = "Event will occur every year.";
 "joined" = "joined";
+"View" = "View";
 "20th-XX01" = "20th";
 "Event will occur every month on the %@ %@." = "Event will occur every month on the %1$@ %2$@.";
 "Arrived at location: %@" = "Arrived at location: %@";
@@ -86,6 +88,7 @@
 "6th-XX02" = "6th";
 "Weekly" = "Weekly";
 "You have overdue reminders" = "You have overdue reminders";
+"Alert Title <no loc>" = "Alert Title <no loc>";
 "Every %u months on the last day" = "Every %u months on the last day";
 "Every %u months" = "Every %u months";
 "52nd-XX02" = "52nd";
@@ -161,6 +164,7 @@
 "of April%@" = "of April%@";
 "48th-XX02" = "48th";
 "Later" = "Later";
+"alarmID" = "alarmID";
 "of September%@" = "of September%@";
 "Event will occur every year in %@." = "Event will occur every year in %@.";
 "Every month, each %@" = "Every month, each %@";
@@ -244,6 +248,7 @@
 "16th-XX01" = "16th";
 "Yearly" = "Yearly";
 "27th-XX02" = "27th";
+"Snooze" = "Snooze";
 "Weekdays" = "Weekdays";
 "Every %u years on the first weekend day %@" = "Every %1$u years on the first weekend day %2$@";
 "24th-XX01" = "24th";

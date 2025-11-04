@@ -495,6 +495,14 @@
 	<array>
 		<string>zoom</string>
 	</array>
+	<key>dinosaur</key>
+	<array>
+		<string>animals</string>
+	</array>
+	<key>dinosaur.fill</key>
+	<array>
+		<string>animals</string>
+	</array>
 	<key>dot.dot.grid.app</key>
 	<array>
 		<string>style</string>
@@ -1373,6 +1381,14 @@
 		<string>arrow</string>
 	</array>
 	<key>person.crop.rectangle.landscape.rotate.slash</key>
+	<array>
+		<string>arrow</string>
+	</array>
+	<key>person.crop.rectangle.portrait.rotate</key>
+	<array>
+		<string>arrow</string>
+	</array>
+	<key>person.crop.rectangle.portrait.rotate.slash</key>
 	<array>
 		<string>arrow</string>
 	</array>

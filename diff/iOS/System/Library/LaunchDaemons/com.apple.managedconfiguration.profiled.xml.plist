@@ -20,6 +20,39 @@
 	<string>com.apple.managedconfiguration.profiled</string>
 	<key>LaunchEvents</key>
 	<dict>
+		<key>com.apple.ManagedSettings.effective-settings.changed</key>
+		<dict>
+			<key>com.apple.managedconfiguration.ManagedSettings-effective-settings-changed</key>
+			<dict>
+				<key>SettingsGroups</key>
+				<array>
+					<string>account</string>
+					<string>airDrop</string>
+					<string>allowedClient</string>
+					<string>application</string>
+					<string>appStore</string>
+					<string>calculator</string>
+					<string>camera</string>
+					<string>carPlay</string>
+					<string>cellular</string>
+					<string>dateAndTime</string>
+					<string>faceTime</string>
+					<string>findMy</string>
+					<string>gameCenter</string>
+					<string>intelligence</string>
+					<string>keyboard</string>
+					<string>media</string>
+					<string>messages</string>
+					<string>news</string>
+					<string>notification</string>
+					<string>passcode</string>
+					<string>privacy</string>
+					<string>safari</string>
+					<string>siri</string>
+					<string>webContent</string>
+				</array>
+			</dict>
+		</dict>
 		<key>com.apple.notifyd.matching</key>
 		<dict>
 			<key>FirstUnlock</key>

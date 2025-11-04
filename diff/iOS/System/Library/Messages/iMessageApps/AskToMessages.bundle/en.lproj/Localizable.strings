@@ -9,6 +9,7 @@
 "CommLimitsReviewSheetExplanationEmailPlural" = "%@ will be able to communicate with people at these emails.";
 "ResponseTitleUnknownAnswerKind" = "“%@” chosen by %@";
 "CommLimitsReviewSheetExplanationYourChildHandlePlural" = "Your child will be able to communicate with people at these handles.";
+"You can approve or decline this request in Messages on other Apple devices." = "You can approve or decline this request in Messages on other Apple devices.";
 "YouResponseTitleDeclinedAnswerKind" = "Declined by You";
 "CommLimitsReviewSheetExplanationYourChildHandleAppName" = "Your child will be able to communicate with this handle on %@.";
 "Review" = "Review";
@@ -35,6 +36,7 @@
 "CommLimitsReviewSheetExplanationYourChildEmailPlural" = "Your child will be able to communicate with people at these emails.";
 "An unknown error occurred." = "An unknown error occurred.";
 "CommLimitsReviewSheetExplanationContactNameAppName" = "%@ will be able to communicate with “%@” on %@.";
+"Review the request" = "Review the request";
 "CommLimitsReviewSheetExplanationYourChildHandlePluralAppName" = "Your child will be able to communicate with people at these handles on %@.";
 "Decline" = "Decline";
 "CommLimitsReviewSheetExplanationYourChildEmailPluralAppName" = "Your child will be able to communicate with people at these emails on %@.";
@@ -51,9 +53,9 @@
 "AskForTimeActionApproveHour" = "Approve for an hour";
 "CommLimitsReviewSheetExplanationHandlePlural" = "%@ will be able to communicate with people at these handles.";
 "Create a new contact or add this number to an existing contact." = "Create a new contact or add this number to an existing contact.";
-"Open Screen Time Contacts" = "Open Screen Time Contacts";
 "Open in %@" = "Open in %@";
 "Open in Messages" = "Open in Messages";
+"Learn More" = "Learn More";
 "CommLimitsReviewSheetExplanationYourChildPhoneNumberAppName" = "Your child will be able to communicate with this number on %@.";
 "CommLimitsReviewSheetExplanationPhoneNumberPlural" = "%@ will be able to communicate with people at these numbers.";
 "AskForTimeActionApproveDay" = "Approve all day";
@@ -62,6 +64,7 @@
 "YouResponseTitleUnknownAnswerKind" = "“%@” chosen by you";
 "Name" = "Name";
 "Add to Your Child’s Contacts" = "Add to Your Child’s Contacts";
+"Manage Contacts" = "Manage Contacts";
 "CommLimitsReviewSheetExplanationYourChildHandle" = "Your child will be able to communicate with this handle.";
 "AskForTimeActionDontApprove" = "Don’t Approve";
 "CommLimitsReviewSheetExplanationPhoneNumberPluralAppName" = "%@ will be able to communicate with people at these numbers on %@.";

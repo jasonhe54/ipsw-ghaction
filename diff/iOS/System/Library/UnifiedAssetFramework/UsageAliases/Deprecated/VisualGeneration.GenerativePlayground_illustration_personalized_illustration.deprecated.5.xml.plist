@@ -14,6 +14,28 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_en_useDefault_true</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_zh_useDefault_true</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic</key>
 				<string>ENABLED</string>
 			</dict>

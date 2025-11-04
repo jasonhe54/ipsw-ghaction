@@ -1771,22 +1771,33 @@
 	<key>com.apple.CommunicationSafetyMedia</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>3</integer>
 		<key>RefillInterval</key>
 		<integer>3600</integer>
 		<key>SessionAmount</key>
-		<integer>1</integer>
+		<integer>3</integer>
+		<key>SessionSeconds</key>
+		<integer>86400</integer>
+	</dict>
+	<key>com.apple.CommunicationSafetyResource</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>3</integer>
+		<key>RefillInterval</key>
+		<integer>3600</integer>
+		<key>SessionAmount</key>
+		<integer>3</integer>
 		<key>SessionSeconds</key>
 		<integer>86400</integer>
 	</dict>
 	<key>com.apple.CommunicationSafetyUI</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>3</integer>
 		<key>RefillInterval</key>
 		<integer>3600</integer>
 		<key>SessionAmount</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>SessionSeconds</key>
 		<integer>86400</integer>
 	</dict>
@@ -1936,7 +1947,7 @@
 	<key>com.apple.Wallet</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>1</integer>
 		<key>RefillInterval</key>
 		<real>3600</real>
 		<key>SessionAmount</key>
@@ -2180,7 +2191,7 @@
 	<key>fedstats.com.apple.insights.ad-attribution-kit</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>10</integer>
 		<key>RefillInterval</key>
 		<real>3600</real>
 		<key>SessionAmount</key>
@@ -2232,7 +2243,7 @@
 	<key>fedstats.com.apple.insights.content-safety-data</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>3</integer>
 		<key>RefillInterval</key>
 		<real>3600</real>
 		<key>SessionAmount</key>
@@ -2245,7 +2256,7 @@
 	<key>fedstats.com.apple.insights.content-safety-shortcuts</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>3</integer>
 		<key>RefillInterval</key>
 		<real>3600</real>
 		<key>SessionAmount</key>
@@ -2334,11 +2345,24 @@
 	<key>fedstats.com.apple.insights.health.medications</key>
 	<dict>
 		<key>RefillAmount</key>
-		<integer>20</integer>
+		<integer>1</integer>
 		<key>RefillInterval</key>
 		<real>3600</real>
 		<key>SessionAmount</key>
 		<integer>1</integer>
+		<key>SessionChunks</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
+	<key>fedstats.com.apple.insights.hold-assist</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>3</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>3</integer>
 		<key>SessionChunks</key>
 		<integer>1</integer>
 		<key>SessionSeconds</key>

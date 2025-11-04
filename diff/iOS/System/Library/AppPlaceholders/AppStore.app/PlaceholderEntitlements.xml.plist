@@ -107,6 +107,7 @@
 	<true/>
 	<key>com.apple.private.appstored</key>
 	<array>
+		<string>Ocelot</string>
 		<string>Purchase</string>
 		<string>Library</string>
 		<string>IAPHistory</string>
@@ -177,6 +178,10 @@
 	<true/>
 	<key>com.apple.private.security.system-application</key>
 	<true/>
+	<key>com.apple.private.storekit</key>
+	<array>
+		<string>AdvancedPurchase</string>
+	</array>
 	<key>com.apple.private.swc.additional-service-details-consumer</key>
 	<true/>
 	<key>com.apple.private.swc.system-app</key>

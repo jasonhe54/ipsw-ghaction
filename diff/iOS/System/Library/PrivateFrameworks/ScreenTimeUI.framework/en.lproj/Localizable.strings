@@ -1,3 +1,4 @@
+"Re-enter Screen Time Passcode" = "Re-enter Screen Time Passcode";
 "BlockedEmailAddressMessageFormat" = "{'value': {'one': '“%2$@” and %1$lu other are not in your contacts. Your Screen Time settings only allow you to communicate with contacts.', 'other': '“%2$@” and %1$lu others are not in your contacts. Your Screen Time settings only allow you to communicate with contacts.', 'zero': '“%2$@” is not in your contacts. Your Screen Time settings only allow you to communicate with contacts.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "ContactEditingUnavailableMessage" = "Your Screen Time settings do not allow you to edit your contacts.";
 "RestrictedContactTitle" = "Communication Limit";
@@ -12,6 +13,7 @@
 "IgnoreLimitButtonTitle" = "Ignore Limit";
 "RequestSentTitle" = "Request Sent";
 "BlockedEmailAddressMessageNewLineFormat" = "{'value': {'one': '%2$@\nand %1$lu other are not in your contacts. Your Screen Time settings only allow you to communicate with contacts.', 'other': '%2$@\nand %1$lu others are not in your contacts. Your Screen Time settings only allow you to communicate with contacts.', 'zero': '%2$@\nis not in your contacts. Your Screen Time settings only allow you to communicate with contacts.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Passcodes did not match. Try Again." = "Passcodes did not match. Try Again.";
 "IgnoreLimitForTodayButtonTitle" = "Ignore Limit For Today";
 "ReachedWebsiteLimitMessageFormat" = "You’ve reached your limit on %@.";
 "OKButtonTitle" = "OK";
@@ -26,9 +28,9 @@
 "ApproveForHourButtonTitle" = "Approve for an hour";
 "BlockedEmailAddressDowntimeMessageFormat" = "{'value': {'one': 'You are not allowed to communicate with “%2$@” and %1$lu other during downtime.', 'other': 'You are not allowed to communicate with “%2$@” and %1$lu others during downtime.', 'zero': 'You are not allowed to communicate with “%2$@” during downtime.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "AddContactButtonFormat" = "Add “%@” to Contacts";
-"AllApps" = "All Apps";
 "Communication Limit" = "Communication Limit";
 "RemindMeIn15MinutesButtonTitle" = "Remind Me in 15 Minutes";
+"AllApps" = "All Apps";
 "RestrictedWebDomainMessageFormat" = "You cannot browse “%@” because it is restricted.";
 "Add to Contacts" = "Add to Contacts";
 "CategoryDowntimeMessageFormat" = "%@ is not available during Downtime.";
@@ -53,6 +55,7 @@
 "Preview Message" = "Preview Message";
 "Ask to Approve" = "Ask to Approve";
 "Downtime" = "Downtime";
+"Set a Screen Time Passcode" = "Set a Screen Time Passcode";
 "AllCategories" = "All Categories";
 "Your Screen Time settings only allow you to communicate with contacts. The following %lld person(s) is not in your contacts:" = "{'numPeople': {'one': 'Your Screen Time settings only allow you to communicate with contacts. The following person is not in your contacts:', 'other': 'Your Screen Time settings only allow you to communicate with contacts. The following people are not in your contacts:', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%1$#@numPeople@'}";
 "ReachedCategoryLimitMessageFormat" = "You’ve reached your limit on %@.";

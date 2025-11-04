@@ -10,6 +10,7 @@
 "%ld files" = "{'files': {'one': '%ld file', 'zero': 'No files', 'other': '%ld files', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@files@'}";
 "ProRes RAW" = "ProRes RAW";
 "Leave %@ and open this link?" = "Leave %@ and open this link?";
+"Share" = "Share";
 "Copy to %@" = "Copy to %@";
 "Last modified %@ at %@" = "Last modified %1$@ at %2$@";
 "Show Original" = "Show Original";
@@ -41,6 +42,7 @@
 "Enter Full Screen" = "Enter Full Screen";
 "Rotate Right" = "Rotate Right";
 "Previous Preview" = "Previous Preview";
+"Rotate right" = "Rotate right";
 "Set Font" = "Set Font";
 "PDFReEnterPassword" = "re-enter password";
 "Error saving image." = "Error saving image.";
@@ -62,6 +64,7 @@
 "Choose Text Size" = "Choose Text Size";
 "Received from %@ Yesterday" = "Received from %@ Yesterday";
 "Received from %@ %@" = "Received from %1$@ %2$@";
+"Trim" = "Trim";
 "AudioCustom events cannot be played in QuickLook." = "AudioCustom events cannot be played in QuickLook.";
 "Received from %@ at %@" = "Received from %1$@ at %2$@";
 "asset" = "asset";

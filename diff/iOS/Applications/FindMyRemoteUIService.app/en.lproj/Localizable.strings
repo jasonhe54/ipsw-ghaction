@@ -9,9 +9,9 @@
 "ME_DEVICE_SWITCH_TITLE_IPAD" = "Enable Additional AirTag Features by Sharing This iPad’s Location";
 "USE_THIS_DEVICE_BUTTON_IPAD" = "Use This iPad";
 "ME_DEVICE_SWITCH_MESSAGE_FORMAT_IPHONE" = "To improve AirTag location accuracy, switch your location sharing from “%1$@” to this iPhone.";
-"MULTI_BRING_NEAR_IPHONE" = "Bring first AirTag near iPhone to begin.";
-"PRECISE_FINDING_SUBTITLE" = "When AirTag is nearby, an arrow will point to its precise location.";
 "AIRTAG_INSTALL_FIND_MY_TITLE" = "Install Find My";
+"PRECISE_FINDING_SUBTITLE" = "When AirTag is nearby, an arrow will point to its precise location.";
+"MULTI_BRING_NEAR_IPHONE" = "Bring first AirTag near iPhone to begin.";
 "HSA2_MESSAGE" = "AirTag uses end to end encryption to keep your location information private.";
 "SEPARATION_ALERTS" = "Notify When Left Behind";
 "AIRTAG_INSTALL_FIND_MY_SUBTITLE" = "This will allow you to locate this AirTag on a map and help you access all functionality.";
@@ -24,6 +24,7 @@
 "LIMIT_REACHED" = "To add this AirTag, open Find My and remove one or more AirTags or AirPods currently paired to your Apple Account.";
 "CONNECT_GREEN_TEA" = "Connect with iCloud";
 "FIND_WITH_SIRI_SUBTITLE_FALLBACK_VALUE" = "Hey Siri, where is my AirTag?";
+"WATCH_PING" = "Ping from Apple Watch";
 "ME_DEVICE_SWITCH_MESSAGE_FORMAT_IPAD" = "To improve AirTag location accuracy, switch your location sharing from “%1$@” to this iPad.";
 "PERSONALIZE" = "Personalize Your AirTag";
 "AIRTAG_INSTALL_FIND_MY_BUTTON" = "Install Find My App";
@@ -46,8 +47,8 @@
 "PAIR_LOCKED_MESSAGE" = "This AirTag is connected to another Apple Account.";
 "ME_DEVICE_SWITCH_TITLE_KHA_IPHONE" = "Make This iPhone Your Active Device?";
 "AIRTAG_CANNOT_SET_UP_TITLE" = "Cannot Set Up AirTag";
-"WAIT_A_FEW_MINUTES_TRY_AGAIN" = "Wait a few minutes and try again.";
 "HAWKEYE_PAIRING_UPSELL_PROX_CARD_TITLE" = "Add to Find My?";
+"WAIT_A_FEW_MINUTES_TRY_AGAIN" = "Wait a few minutes and try again.";
 "ME_DEVICE_SWITCH_TITLE_KHA_IPAD" = "Make This iPad Your Active Device?";
 "HAWKEYE_PAIRING_UPSELL_PROX_CARD_SUBTITLE" = "This will allow you to locate this item on a map and help you finding it if it happens to get lost.";
 "LOST_MODE_CONTACT_OWNER_ACTION" = "Contact Owner";
@@ -60,6 +61,7 @@
 "CHOOSE_EMOJI_SUBTITLE" = "Select an emoji to represent this AirTag.";
 "ME_DEVICE_SWITCH_MESSAGE_FORMAT_NO_CURRENT_KHA_IPHONE" = "To use AirTag features, switch your active device to this iPhone.";
 "UNLOCK_TO_CONNECT_GREEN_TEA" = "Unlock to Connect with iCloud";
+"WATCH_PING_SUBTITLE" = "Ping your AirTag from control center if you have a paired Apple Watch.";
 "LINKING" = "AirTag is Linked To Your Apple Account";
 "CUSTOM_NAME_PLACEHOLDER" = "Enter Name";
 "SOFTWARE_UPDATE_SUBTITLE_IPADOS" = "Some features of this accessory require a newer version of iPadOS.";

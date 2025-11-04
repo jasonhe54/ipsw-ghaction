@@ -328,52 +328,6 @@
 			<key>label</key>
 			<string>Begin IDMS Recovery Flow with RK Skip</string>
 		</dict>
-		<dict>
-			<key>cell</key>
-			<string>PSGroupCell</string>
-			<key>label</key>
-			<string>EDP Token</string>
-		</dict>
-		<dict>
-			<key>buttonAction</key>
-			<string>openEDPTokenSettingsPane:</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>EDP Token Pane</string>
-		</dict>
-		<dict>
-			<key>buttonAction</key>
-			<string>beginEDPTokenEntryFlowForHSA2User:</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>HSA2 Recovery With EDP Token</string>
-		</dict>
-		<dict>
-			<key>buttonAction</key>
-			<string>beginEDPTokenEntryFlowForNonHSA2User:</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>SA Recovery With EDP Token</string>
-		</dict>
-		<dict>
-			<key>buttonAction</key>
-			<string>beginDirectFallbackToEDPToken:</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>Direct Fallback to EDP Token</string>
-		</dict>
-		<dict>
-			<key>buttonAction</key>
-			<string>beginEventualFallbackToEDPToken:</string>
-			<key>cell</key>
-			<string>PSButtonCell</string>
-			<key>label</key>
-			<string>Eventual Fallback to EDP Token</string>
-		</dict>
 	</array>
 	<key>title</key>
 	<string>iCDP</string>

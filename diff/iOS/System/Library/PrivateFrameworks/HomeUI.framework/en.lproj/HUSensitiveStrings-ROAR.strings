@@ -33,7 +33,6 @@ To update Home, make sure this device is charged to at least 20%, connected to W
 "HUSoftwareUpdatePersonalDeviceWarningCaption_PluralDevices" = "If some of these devices can no longer receive updates, they won't be able to be used with your home.";
 "HUSoftwareUpdateMigrationUpdateHomeDescription" = "Apple Home will be updated to the latest version, which includes support for your Apple devices and other accessories.";
 "HUSoftwareUpdateHomeKitUpdateRecommended" = "Apple Home Update Recommended";
-"HUAppleTVSoftwareUpdateRequiredCaption_WLAN" = "Make sure each Apple TV is connected to WLAN before continuing.";
 "HUSoftwareUpdateMigrationFailedRetryButtonTitle" = "Retry";
 "HUSoftwareUpdateMigrationUpdateHomeTitle" = "Apple Home Update";
 "HUSoftwareUpdateMigrationFailedDueToLowBatteryAlertMessageWLAN_UNKNOWN" = "This device battery charge is too low to complete update.
@@ -47,6 +46,7 @@ To update Home, make sure this Mac is charged to at least 20%, connected to Wi-F
 "HUSoftwareUpdateMigrationFailedDueToLowBatteryAlertMessageWLAN_IPAD" = "iPad battery charge is too low to complete update.
 
 To update Home, make sure this iPad is charged to at least 20%, connected to a WLAN, and not in Low Power Mode.";
+"HUSoftwareUpdateMigrationFailedDescription_AfterMultipleAttempts" = "You can try to update again in a few moments, but you may need to reset Apple Home since this error has occurred more than once. If you reset Apple Home, your accessories, automations, and scenes will have to be set up again.";
 "HUSoftwareUpdateMigrationNoResidentTitle" = "Home Hub Recommended";
 "HUSoftwareUpdateAppleTVDeviceWarningMessage" = "Your Apple TV requires a software update before your home can be updated.";
 "HUAppleTVSoftwareUpdateLearnMoreMessage" = "How to Update Apple TV…";
@@ -95,11 +95,11 @@ After this home has been updated, you will also need to update your device.";
 To update Home, make sure this iPad is charged to at least 20%, connected to Wi-Fi, and not in Low Power Mode.";
 "HUSoftwareUpdateMigrationAppleTVConfirmationDescriptionSingular" = "Until your Apple TV software has been updated, your Apple TV will be unavailable for use in the Home app.";
 "HUHomePodSoftwareUpdateRequiredDescriptionMultipleHomePodsMultipleHomes" = "Your HomePod speakers require a software update before your homes can be updated.";
-"HUAppleTVSoftwareUpdateRequiredDescription" = "Each Apple TV will be updated to the latest software available. Apple TV updates are required as part of the Apple Home update.";
+"HUAppleTVSoftwareUpdateRequiredDescription" = "Each Apple TV in your home must be updated to the latest software before you can continue.";
 "HUSoftwareUpdateMigrationFailedsignIniCloudMessage_IPHONE" = "To update to the latest version of Apple Home, you'll need to sign in with your Apple Account on this iPhone. You can do this in Apple Account settings.";
 "HUSoftwareUpdateHomeKitUpdateTitleRequired" = "Apple Home Update Required";
 "HUSoftwareUpdateMigrationInProgressTitleSingluar" = "Updating Home";
-"HUSoftwareUpdateHomeKitUpdateRequiredDescription" = "Support for your current version of Apple Home will end this fall. Some homes will be automatically updated at that time, but others may need to be updated manually. You can update now to avoid interruptions with your accessories, automations, and critical alerts.";
+"HUSoftwareUpdateHomeKitUpdateRequiredDescription" = "Support for your current version of Apple Home will end in February. Update now to avoid interruptions with your Apple TV, HomePod, automations, critical alerts, and accessories with features such as AirPlay.";
 "HUSoftwareUpdateMigrationFailedDueToLowBatteryAlertMessageWiFi_IPHONE" = "iPhone battery charge is too low to complete update.
 
 To update Home, make sure this iPhone is charged to at least 20%, connected to Wi-Fi, and not in Low Power Mode.";
@@ -121,7 +121,6 @@ To update Home, make sure this device is charged to at least 20%, connected to a
 "HUHomePodSoftwareUpdateRequiredUpdateNowButton" = "Update Now";
 "HUHomePodSoftwareUpdateRequiredErrorMessage" = "An error occurred while updating HomePod software.";
 "HUSoftwareUpdateMigrationFailedsignIniCloudMessage" = "To update to the latest version of Apple Home, you'll need to sign in with your Apple Account on this device. You can do this in Apple Account settings.";
-"HUAppleTVSoftwareUpdateRequiredCaption_WIFI" = "Make sure each Apple TV is connected to Wi-Fi before continuing.";
 "HUROARRequired_Details_SupplementaryDescription_forOwner" = "The members of your home will also need to update on their devices.";
 "HUSoftwareUpdateMigrationSharedHomeConfirmationDescriptionSingular" = "This home will be unavailable to you until it has been updated.";
 "HUSoftwareUpdateMigrationSharedUserConfirmationDescription" = "Home member’s devices that are unable to update will lose access to your home.";
@@ -145,7 +144,7 @@ To update Home, make sure this Mac is charged to at least 20%, connected to Wi-F
 
 To update Home, make sure this iPhone is charged to at least 20%, connected to a WLAN, and not in Low Power Mode.";
 "HUSoftwareUpdateMigrationSharedHomeConfirmationDescriptionPlural" = "These homes will be unavailable to you until they have been updated.";
-"HUSoftwareUpdateHomeKitUpdateRequiredDescription_accessoriesOnly" = "Support for your current version of Apple Home will end this fall. Some homes will be automatically updated at that time, but others may need to be updated manually. You can update now to avoid interruptions with your accessories and critical alerts.";
+"HUSoftwareUpdateHomeKitUpdateRequiredDescription_accessoriesOnly" = "Support for your current version of Apple Home will end in February. Update now to avoid interruptions with critical alerts, and accessories with features such as AirPlay.";
 "HUSoftwareUpdatePersonalDeviceWarningCaptionPluralHomes_PluralDevices" = "If some of these devices can no longer receive updates, they won't be able to be used with your homes.";
 "HUSoftwareUpdateMigrationPersonalDeviceConfirmationDescriptionPluralHomes" = "If some of these devices can no longer receive updates, they won't be able to be used with your homes.";
 "HUSoftwareUpdateMigrationFailedDueToiPadHomeHubAlertMessage" = "iPad is no longer supported as a home hub. A home hub is required to invite shared users, create automations, and use HomeKit Secure Video.";
@@ -155,7 +154,7 @@ To update Home, make sure this iPhone is charged to at least 20%, connected to a
 
 To update Home, make sure this device is charged to at least 20%, connected to a WLAN, and not in Low Power Mode.";
 "HUUnsupportedHomeHub_Title" = "Unable to View Home";
-"HUSoftwareUpdateMigrationFailedTitle" = "Unable to Complete Home Update";
+"HUSoftwareUpdateMigrationFailedTitle" = "Unable to Update Apple Home";
 "HUSoftwareUpdatePersonalDeviceWarningDescriptionPluralHomes" = "You won't be able to view your homes using the Apple device that appears here until it is updated to the latest software available.";
 "HUHomePodSoftwareUpdateAlreadyInProgressAlertDescription" = "You can update Apple Home after your HomePod software update completes.";
 "HUSoftwareUpdateMigrationFailedDueToNoHomeHubAlertMessageMultipleHomes" = "A home hub is required to allow shared users continued access to your homes.";

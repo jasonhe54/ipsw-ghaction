@@ -210,6 +210,11 @@
 				<key>Notification</key>
 				<string>com.apple.system.timezone</string>
 			</dict>
+			<key>com.apple.workflow.remotewidgets</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.workflow.remotewidgets</string>
+			</dict>
 			<key>kAFPreferencesDidChangeDarwinNotification</key>
 			<dict>
 				<key>Notification</key>

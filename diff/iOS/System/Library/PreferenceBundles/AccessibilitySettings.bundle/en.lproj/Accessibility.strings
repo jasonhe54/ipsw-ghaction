@@ -214,6 +214,7 @@ RTT (Real-time Text) is a service offering more reliability, better text support
 "SOUND_ACTION_OO" = "Oo";
 "TTY_SOFTWARE_FOOTER_PHONE" = "Software TTY can be accessed from the Phone app and allows you to make and receive TTY phone calls.";
 "KEYBOARDS" = "Keyboard";
+"PreferActionSliderAlternativeFooter" = "Prefers that user interface items require a single touch instead of a sliding action.";
 "SmartInvertColorsFooter" = "Smart Invert reverses the colors of the display, except for images, media and some apps that use dark color styles.";
 "HEADPHONE_NOTIFICATIONS_TITLE" = "Headphone Notifications";
 "SOUND_ACTION_LEARN_PAGE_DESC_TT" = "Open your lips, with jaw closed, and say the “t” in teeth.";
@@ -406,6 +407,7 @@ RTT (Real-time Text) is a service offering more reliability, better text support
 "RTT_SOFTWARE_FOOTER_PHONE" = "Software Real-time Text (RTT) can be accessed from the Phone app to make and receive RTT phone calls when available for a call and based on carrier support.
 
 RTT is a service offering more reliability, better text support, and the ability to speak and hear during a call.";
+"PreferActionSliderAlternative" = "Prefer Single-Touch Actions";
 "SOUND_ACTION_LEARN_PAGE_DESC_OO" = "Form an “O” with your lips and say the “oo” in boo.";
 "CONTROL_NEARBY_DEVICES_FOOTER" = "Control Nearby Devices allows you to use another device on the same iCloud account from this iPhone. For example, you can start and stop media, activate buttons or interact with Siri.";
 "CLASSIC_INVERT_SHORT" = "Classic";
@@ -506,7 +508,6 @@ RTT is a service offering more reliability, better text support, and the ability
 "PERSONAL_AUDIO_TRANSPARENCY_TONE_BRIGHT_VALUE" = "%@ brighter";
 "STATIC_FOVEATION_TEXT" = "Ignore Eye Movements to Stabilize";
 "LOCK_BUTTON_IGNORE_FOOTER_SIDE" = "Prevent the side button from ending the current call.";
-"PLACARD_LEARN_MORE" = "Learn more…";
 "SOUND_ACTION_MM" = "Mmm";
 "HEARING_AID_TITLE" = "Hearing Devices";
 "HEAD_GESTURES_LEFT_SHAKE" = "Left Shake";
@@ -560,7 +561,7 @@ When a call is connected, voice input is processed on Apple Vision Pro and not s
 "MOTION_TITLE" = "Motion";
 "HAPTIC_TOUCH_TIMING_TEST_FOOTER_TEXT" = "Touch and hold the image above to test the touch duration.";
 "REACHABILITY_FOOTER_TEXT_NHB" = "Swipe down on the bottom edge of the screen to bring the top into reach.";
-"PLACARD_SUBTITLE_IPHONE" = "Personalize iPhone in ways that work best for you with accessibility features for vision, mobility, hearing, speech, and cognition.";
+"PLACARD_SUBTITLE_IPHONE" = "Personalize iPhone in ways that work best for you with accessibility features for vision, mobility, hearing, speech, and cognition. [Learn more…](%@)";
 "LIVE_SPEECH_PHRASES_FOOTER" = "Create phrases that you can quickly speak with Live Speech.";
 "LIVE_TRANSCRIPTION_TRIPLE_CLICK_IPAD" = "Triple-click the home button to quickly start and stop Live Captions.";
 "SOUND_ACTION_LEARN_PAGE_DESC_KK" = "Touch the middle of your tongue to the roof of your mouth, towards the center, and exhale. For example: Say the “k” in keep.";
@@ -606,7 +607,7 @@ When a call is connected, voice input is processed on Apple Vision Pro and not s
 "Pearl_Unlock_Attention_Footer_IPHONE" = "TrueDepth camera will provide an additional level of security by verifying that you are looking at iPhone before unlocking. Some sunglasses may block attention detection.";
 "SOUND_EFFECTS" = "Sound Effects";
 "PERSONAL_AUDIO_TRANSPARENCY_TONE_BRIGHT" = "Brighter";
-"PLACARD_SUBTITLE_IPAD" = "Personalize iPad in ways that work best for you with accessibility features for vision, mobility, hearing, speech, and cognition.";
+"PLACARD_SUBTITLE_IPAD" = "Personalize iPad in ways that work best for you with accessibility features for vision, mobility, hearing, speech, and cognition. [Learn more…](%@)";
 "HOVER_TEXT_BACKGROUND_COLOR" = "Background Color";
 "TTY_SOFTWARE" = "Software TTY";
 "HOVER_TEXT_ACITVATOR_KEY_CONTROL" = "⌃ Control";
@@ -630,7 +631,7 @@ When a call is connected, voice input is processed on Apple Vision Pro and not s
 "AVS_REMOVE" = "Remove Vocal Shortcuts";
 "DISPLAY_AND_TEXT" = "Display & Text Size";
 "AXHoverTextDisplayModeDockedBottomTitle" = "Bottom";
-"REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS_FOOTER" = "Reduce the motion for user interface controls that slide in when appearing and disappearing.";
+"REDUCE_MOTION_REDUCE_SLIDE_ANIMATIONS_FOOTER" = "Reduces the movement of onscreen elements and screen actions, such as launching or moving between apps, to help with motion sensitivity.";
 "DISPLAY_FILTER_HUE_ORANGE" = "Orange";
 "VOICE_FEEDBACK_TITLE_AUTOMATIC" = "Automatic";
 "TOP_CLICK_TITLE" = "Top Button";
@@ -663,7 +664,7 @@ When a call is connected, voice input is processed on Apple Vision Pro and not s
 "SIRI_SETTINGS_TITLE" = "Siri";
 "FOREVER_TIME_BRAILLE_ALERTS" = "Until Dismissed";
 "TTY_HARDWARE" = "Hardware TTY";
-"BUTTON_SHAPES" = "Button Shapes";
+"BUTTON_SHAPES" = "Show Borders";
 "DOMINANT_EYE" = "Eye Input";
 "HOVER_TYPING_AUTOCORRECTED_WORD_COLOR" = "Autocorrected Word Color";
 "DWELL_CONTROL_TITLE" = "Dwell Control";

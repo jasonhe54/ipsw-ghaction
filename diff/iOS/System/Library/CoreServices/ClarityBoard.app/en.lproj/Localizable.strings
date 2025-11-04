@@ -21,6 +21,7 @@ Passcode to Exit";
 "TRIPLE_CLICK_INSTRUCTIONS_MARKDOWN" = "__Triple-Click__
 to exit Assistive Access";
 "EMERGENCY_TITLE" = "Emergency";
+"ALERT_OK" = "OK";
 "MUTED" = "Muted";
 "FORGOT_ADMIN_PASSCODE" = "Forgot Assistive Access passcode?";
 "UNLOCK_TITLE" = "Unlock";
@@ -37,6 +38,8 @@ to exit Assistive Access";
 "TAP_TITLE" = "Tap";
 "ADMIN_PANEL_HEADER_APPEARANCE" = "Appearance";
 "ADMIN_PASSCODE_RECOVERY_ERROR_NO_NETWORK_WLAN" = "Make sure you are connected to WLAN or the internet and try again.";
+"NO_INTERNET" = "No Internet";
+"UNABLE_TO_LOAD" = "Unable to Load";
 "UNLOCK_HINT" = "Use the keypad to type in your passcode.";
 "INCORRECT_PASSCODE" = "Incorrect Passcode";
 "ADMIN_PASSCODE_RECOVERY_ALERT_REASON" = "Enter the Apple Account you provided to reset the Assistive Access passcode.";
@@ -50,6 +53,7 @@ to exit Assistive Access";
 "VOLUME" = "Volume";
 "ADMIN_PASSCODE_RECOVERY_ERROR_NO_NETWORK_WIFI" = "Make sure you are connected to Wi-Fi or the internet and try again.";
 "KEYPAD_LETTERS_2" = "A B C";
+"LINK" = "Link";
 "KEYPAD_LETTERS_3" = "D E F";
 "ADMIN_EXIT_PASSCODE_TITLE" = "Enter Assistive Access
 Passcode to Exit";

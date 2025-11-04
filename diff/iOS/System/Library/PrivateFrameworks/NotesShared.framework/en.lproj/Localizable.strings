@@ -483,6 +483,7 @@ iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to v
 "One or more notes are locked. Enter the password for “%@” to delete these notes." = "One or more notes are locked. Enter the password for “%@” to delete these notes.";
 "Fill Out Form" = "Fill Out Form";
 "Lock this note." = "Lock this note.";
+"Summary Provider" = "Summary Provider";
 "Shared with %@" = "Shared with %@";
 "%lu_TAGS" = "{'tags': {'one': '%lu Tag', 'other': '%lu Tags', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@tags@'}";
 "All errors resolved" = "All errors resolved";
@@ -770,6 +771,7 @@ iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to v
 "Use your fingerprint or enter your notes password to view this note." = "Use your fingerprint or enter your notes password to view this note.";
 "Your note wasn’t moved." = "Your note wasn’t moved.";
 "**Somebody** mentioned **%@** and **%lld others**." = "{'count': {'one': '**1 other**', 'other': '**%lld others**', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '**Somebody** mentioned **%@** and %#@count@.'}";
+"My Notes" = "My Notes";
 "Forgetting your notes password can cause you to lose access to your locked notes, even if Touch ID is enabled.
 
 If you have forgotten your notes password, click Learn More for next steps." = "Forgetting your notes password can cause you to lose access to your locked notes, even if Touch ID is enabled.
@@ -1164,8 +1166,8 @@ Set a passcode to protect locked notes on this device.";
 "Activity" = "Activity";
 "**You** deleted %lld notes" = "{'count': {'one': 'a note', 'other': '%lld notes', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '**You** deleted %#@count@'}";
 "SORT_BY_DATE_EDITED_TITLE" = "Date Edited";
-"Use iPhone Passcode" = "Use iPhone Passcode";
 "**Somebody** created a subfolder" = "**Somebody** created a subfolder";
+"Use iPhone Passcode" = "Use iPhone Passcode";
 "TAG_OPERATOR_ANY" = "any";
 "Forgot Password" = "Forgot Password";
 "**Everyone** was mentioned by **you**." = "**Everyone** was mentioned by **you**.";

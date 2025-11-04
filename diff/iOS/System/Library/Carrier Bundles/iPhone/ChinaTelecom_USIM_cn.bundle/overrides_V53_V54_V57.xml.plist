@@ -70,6 +70,8 @@
 			<true/>
 			<key>InactivityTimerRTCPSeconds</key>
 			<integer>20</integer>
+			<key>InactivityTimerRTPSeconds</key>
+			<integer>20</integer>
 			<key>PreferredAMRWBMode</key>
 			<string>8</string>
 			<key>RTCPIntervalSeconds</key>
@@ -264,6 +266,8 @@
 		</array>
 		<key>MinCompatibleWatchOS</key>
 		<string>5.1</string>
+		<key>OneNumberRequireLiveIDCheck</key>
+		<true/>
 		<key>ProvisioningMethod</key>
 		<string>CarrierFlow</string>
 		<key>RequireLiveIDCheck</key>

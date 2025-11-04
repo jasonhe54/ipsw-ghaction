@@ -202,8 +202,6 @@
 	<dict>
 		<key>LocalInstallSMDPURL</key>
 		<string>https://consumer.rsp.global</string>
-		<key>MinCompatibleOS</key>
-		<string>26.0</string>
 		<key>SupportsFallbackToLegacyFlow</key>
 		<false/>
 		<key>TransferErrorCodes</key>

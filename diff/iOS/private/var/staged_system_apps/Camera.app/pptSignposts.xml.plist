@@ -1538,6 +1538,32 @@
 				<string>UITakeVideoDefault</string>
 			</array>
 		</dict>
+		<dict>
+			<key>aggregateStatistics</key>
+			<array>
+				<string>Mean</string>
+				<string>SD</string>
+				<string>Min</string>
+				<string>Max</string>
+				<string>Count</string>
+			</array>
+			<key>category</key>
+			<string></string>
+			<key>description</key>
+			<string>CameraCaptureTrueVideoExitAnimationDelay</string>
+			<key>listAll</key>
+			<true/>
+			<key>name</key>
+			<string>CameraCaptureTrueVideoExitAnimationDelay</string>
+			<key>resultLabel</key>
+			<string>CameraCaptureTrueVideoExitAnimationDelay</string>
+			<key>subsystem</key>
+			<string>com.apple.coremedia</string>
+			<key>targetTests</key>
+			<array>
+				<string>UITakeVideoDefault</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

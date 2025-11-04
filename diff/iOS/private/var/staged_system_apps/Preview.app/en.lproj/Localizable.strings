@@ -6,7 +6,6 @@
 "The orientation to use when flipping the documents." = "The orientation to use when flipping the documents.";
 "Create Linearized PDF" = "Create Linearized PDF";
 "Forward" = "Forward";
-"Unable to Open File" = "Unable to Open File";
 "The documents to flip." = "The documents to flip.";
 "PDF" = "PDF";
 "Estimated file size: %@" = "Estimated file size: %@";
@@ -25,7 +24,7 @@
 "Save to Photos" = "Save to Photos";
 "Alpha" = "Alpha";
 "Current version" = "Current version";
-"Unexpected error while opening %@." = "Unexpected error while opening %@.";
+"Downloading…" = "Downloading…";
 "Previous & Next" = "Previous & Next";
 "Format" = "Format";
 "Versions" = "Versions";
@@ -84,6 +83,7 @@
 "Export Image" = "Export Image";
 "Flip ${documents} ${horizontally}" = "Flip ${documents} ${horizontally}";
 "Cancel" = "Cancel";
+"Error" = "Error";
 "Lock" = "Lock";
 "Single Page" = "Single Page";
 "The image has been saved to your photos library…" = "The image has been saved to your photos library…";

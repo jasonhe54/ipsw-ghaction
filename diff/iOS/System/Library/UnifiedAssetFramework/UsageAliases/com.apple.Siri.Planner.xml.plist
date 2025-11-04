@@ -10,13 +10,31 @@
 	<string>com.apple.Siri.Planner</string>
 	<key>UsageAliasValues</key>
 	<dict>
+		<key>language_da</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
 		<key>language_de</key>
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -34,6 +52,8 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
@@ -49,6 +69,10 @@
 				<key>com.apple.fm.language.instruct_3b.planner_v6.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.planner_v6.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -66,9 +90,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -86,9 +116,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -106,9 +142,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -126,9 +168,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -146,11 +194,41 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_nb</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_nl</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -158,9 +236,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -174,13 +258,55 @@
 				<string>ENABLED</string>
 			</dict>
 		</dict>
+		<key>language_sv</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_tr</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_vi</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
 		<key>language_zh</key>
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -190,9 +316,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>
@@ -202,9 +334,15 @@
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.lw_planner_v1.generic</key>
 				<string>ENABLED</string>

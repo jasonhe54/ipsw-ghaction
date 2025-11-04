@@ -347,6 +347,8 @@
 		<true/>
 		<key>com.apple.siri.ssrvtuitrainingservice.xpc</key>
 		<true/>
+		<key>com.apple.siri.voiceprofilemanager.xpc</key>
+		<true/>
 		<key>com.apple.ssr.rpisamplingservice</key>
 		<true/>
 	</dict>

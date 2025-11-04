@@ -10,6 +10,11 @@
 	<string>com.apple.Siri.Planner.migration.18.4</string>
 	<key>UsageAliasValues</key>
 	<dict>
+		<key>language_da</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict/>
+		</dict>
 		<key>language_de</key>
 		<dict>
 			<key>com.apple.modelcatalog</key>
@@ -45,7 +50,32 @@
 			<key>com.apple.modelcatalog</key>
 			<dict/>
 		</dict>
+		<key>language_nb</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict/>
+		</dict>
+		<key>language_nl</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict/>
+		</dict>
 		<key>language_pt</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict/>
+		</dict>
+		<key>language_sv</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict/>
+		</dict>
+		<key>language_tr</key>
+		<dict>
+			<key>com.apple.modelcatalog</key>
+			<dict/>
+		</dict>
+		<key>language_vi</key>
 		<dict>
 			<key>com.apple.modelcatalog</key>
 			<dict/>

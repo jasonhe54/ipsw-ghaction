@@ -75,6 +75,7 @@
 "Date and time" = "Date and time";
 "Shortcut stopped" = "Shortcut stopped";
 "Select All" = "Select All";
+"Daily Limit Reached" = "Daily Limit Reached";
 "Add actions from below to create a shortcut." = "Add actions from below to create a shortcut.";
 "Show Output" = "Show Output";
 "Date Format" = "Date Format";
@@ -180,6 +181,7 @@
 "Open Settings" = "Open Settings";
 "ChooseFromMenuTextPlaceholder" = "Text";
 "URL" = "URL";
+"Share" = "Share";
 "%d actions would be deleted. (Pluralization)" = "{'format_key': {'one': '%d action would be deleted.', 'other': '%d actions would be deleted.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@format_key@'}";
 "an email address" = "an email address";
 "Deselect All" = "Deselect All";
@@ -190,15 +192,17 @@
 "Run the workflow to see the output of this action." = "Run the workflow to see the output of this action.";
 "Delete Actions" = "Delete Actions";
 "Subtitle" = "Subtitle";
+"You've reached your daily limit for %@. Using %@ in Shortcuts will be limited for up to 24 hours." = "You've reached your daily limit for %@. Using %@ in Shortcuts will be limited for up to 24 hours.";
 "Enter a key to extract its value from the dictionary, or leave blank to get the entire dictionary." = "Enter a key to extract its value from the dictionary, or leave blank to get the entire dictionary.";
 "Cancel" = "Cancel";
 "Closed variables tray" = "Closed variables tray";
 "hours (Pluralization)" = "{'format_key': {'one': 'hour', 'other': 'hours', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@format_key@'}";
-"added %1$@ to shortcut above %2$@" = "added %1$@ to shortcut above %2$@";
+"Upgrade to ChatGPT Plus" = "Upgrade to ChatGPT Plus";
 "LIST_HEADER_KEY" = "Key";
-"Colors" = "Colors";
+"added %1$@ to shortcut above %2$@" = "added %1$@ to shortcut above %2$@";
 "Copy" = "Copy";
 "Edit Item" = "Edit Item";
+"Colors" = "Colors";
 "Media picker" = "Music";
 "Return (Variable Editor)" = "Return";
 "Searching" = "Searching";

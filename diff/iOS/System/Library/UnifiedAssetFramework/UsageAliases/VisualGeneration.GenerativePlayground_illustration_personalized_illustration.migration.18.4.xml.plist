@@ -10,12 +10,22 @@
 	<string>VisualGeneration.GenerativePlayground:illustration:personalized_illustration.migration.18.4</string>
 	<key>UsageAliasValues</key>
 	<dict>
-		<key>useDefault_false</key>
+		<key>language_en</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict/>
 		</dict>
-		<key>useDefault_true</key>
+		<key>language_en_useDefault_false</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict/>
+		</dict>
+		<key>language_zh</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict/>
+		</dict>
+		<key>language_zh_useDefault_false</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict/>

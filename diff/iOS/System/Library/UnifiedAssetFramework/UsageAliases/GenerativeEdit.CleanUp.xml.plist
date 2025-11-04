@@ -10,7 +10,15 @@
 	<string>GenerativeEdit.CleanUp</string>
 	<key>UsageAliasValues</key>
 	<dict>
-		<key>default</key>
+		<key>language_en</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.Photos.MagicCleanup</key>
+			<dict>
+				<key>com.apple.fm.photos.genedit.magiccleanup.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_zh</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.Photos.MagicCleanup</key>
 			<dict>

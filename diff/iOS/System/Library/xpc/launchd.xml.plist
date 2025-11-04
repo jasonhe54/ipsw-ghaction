@@ -2189,6 +2189,10 @@
 						<string>AirPods Connectivity Logs</string>
 						<key>DKDiagnosticRequiresUnlock</key>
 						<true/>
+						<key>DKDiagnosticSupportedDevices</key>
+						<array>
+							<string>AirPods</string>
+						</array>
 					</dict>
 					<key>NSExtensionContextClass</key>
 					<string>DKDiagnosticContext</string>
@@ -4446,7 +4450,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>389.100.1.2.1</string>
+				<string>389.200.11</string>
 				<key>MSMessagesExtensionStoreIconName</key>
 				<string>JellyfishIcon</string>
 				<key>MSMessagesOverlayAppearanceDisableInsetsForGrabber</key>
@@ -4897,7 +4901,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>32</string>
+				<string>32.2</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -4980,7 +4984,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.0.1</string>
+				<string>605.1.19.101</string>
 				<key>CHSNominatedContainerBundleIdentifiers</key>
 				<array>
 					<string>com.apple.Preferences</string>
@@ -5007,7 +5011,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.0.1</string>
+				<string>605.1.19.101</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -5039,7 +5043,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>373</string>
+				<string>374.2</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>NSCameraUsageDescription</key>
@@ -5103,7 +5107,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>373</string>
+				<string>374.2</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>NSExtension</key>
@@ -5139,7 +5143,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>373</string>
+				<string>374.2</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -5164,7 +5168,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>373</string>
+				<string>374.2</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -5189,7 +5193,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>373</string>
+				<string>374.2</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -5752,6 +5756,31 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>/System/Library/ExtensionKit/Extensions/ADAskForExceptionExtension.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/System/Library/ExtensionKit/Extensions/ADAskForExceptionExtension.appex/ADAskForExceptionExtension</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>ADAskForExceptionExtension</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.AppDistribution.ADAskForExceptionExtension</string>
+				<key>CFBundleName</key>
+				<string>ADAskForExceptionExtension</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>ATRequestingProcessBundleID</key>
+					<string>com.apple.AppDistribution.ADAskForExceptionExtension</string>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.askto.responseUI</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>/System/Library/ExtensionKit/Extensions/ADFollowUpExtension.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -5919,7 +5948,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>52.102</string>
+				<string>57.101</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -5967,7 +5996,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1230.0.1</string>
+				<string>1230.1.9</string>
 				<key>CHSDisableImplicitWidgetDiscovery</key>
 				<true/>
 				<key>NSExtension</key>
@@ -6017,7 +6046,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6296,7 +6325,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6496,7 +6525,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6529,7 +6558,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4097.6.9.0.3</string>
+				<string>4097.40.19</string>
 				<key>MSHideInAppDrawer</key>
 				<true/>
 				<key>MSMessagesExtensionStoreIconName</key>
@@ -6724,7 +6753,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2133.100</string>
+				<string>2135</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6803,7 +6832,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6958,10 +6987,20 @@
 						<string>SUBQUERY(extensionItems, $extensionItem,
 	SUBQUERY($extensionItem.attachments, $attachment,
 		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.audio"
-		OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.content"
-		OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.item"
-		AND NOT (ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.windows-media-wma")
 	).@count == 1
+).@count == 1
+AND
+SUBQUERY(extensionItems, $extensionItem,
+	SUBQUERY($extensionItem.attachments, $attachment,
+		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.content"
+		OR ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "public.item"
+	).@count == 1
+).@count == 1
+AND
+SUBQUERY(extensionItems, $extensionItem,
+	SUBQUERY($extensionItem.attachments, $attachment,
+		ANY $attachment.registeredTypeIdentifiers UTI-CONFORMS-TO "com.microsoft.windows-media-wma"
+	).@count == 0
 ).@count == 1</string>
 						<key>NSExtensionServiceAllowsFinderPreviewItem</key>
 						<true/>
@@ -7019,7 +7058,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>14</string>
+				<string>14.1.3</string>
 				<key>CHSDisableImplicitWidgetDiscovery</key>
 				<true/>
 				<key>NSExtension</key>
@@ -7136,7 +7175,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>468</string>
+				<string>468.1.13</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7408,6 +7447,27 @@
 				</array>
 			</dict>
 		</dict>
+		<key>/System/Library/ExtensionKit/Extensions/FedAutoEvalPlugin.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/System/Library/ExtensionKit/Extensions/FedAutoEvalPlugin.appex/FedAutoEvalPlugin</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>FedAutoEvalPlugin</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.priml.PFLMLHostPlugins.FedAutoEvalPlugin</string>
+				<key>CFBundleName</key>
+				<string>FedAutoEvalPlugin</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.mlhost.worker</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>/System/Library/ExtensionKit/Extensions/FedStatsMLHostPlugin.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -7557,7 +7617,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>442.30.6.9.28</string>
+				<string>442.31.7.14.13</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -7651,7 +7711,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7703,7 +7763,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>140.1</string>
+				<string>148.1.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7724,7 +7784,7 @@
 				<key>CFBundleName</key>
 				<string>GPUExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.1.22.10.9</string>
+				<string>8622.2.11.10.8</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>EXAppExtensionAttributes</key>
@@ -7755,7 +7815,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>140.1</string>
+				<string>148.1.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7842,7 +7902,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1230.0.1</string>
+				<string>1230.1.9</string>
 				<key>CHSDisableImplicitWidgetDiscovery</key>
 				<true/>
 				<key>NSExtension</key>
@@ -7913,7 +7973,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>209.3.2</string>
+				<string>209.21.0.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8248,7 +8308,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8260,6 +8320,29 @@
 						<string>com.apple.private.live-photo-bundle</string>
 						<string>com.apple.live-photo-bundle</string>
 					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>/System/Library/ExtensionKit/Extensions/InferenceExtension.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/System/Library/ExtensionKit/Extensions/InferenceExtension.appex/InferenceExtension</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>InferenceExtension</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.lighthouse.InferenceExtension</string>
+				<key>CFBundleName</key>
+				<string>InferenceExtension</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.mlhost.worker</string>
 				</dict>
 			</dict>
 		</dict>
@@ -8303,7 +8386,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1083</string>
+				<string>1083.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8326,7 +8409,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3500.32.1</string>
+				<string>3505.5.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8613,6 +8696,29 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>/System/Library/ExtensionKit/Extensions/LocalCaptureAppIntents.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/System/Library/ExtensionKit/Extensions/LocalCaptureAppIntents.appex/LocalCaptureAppIntents</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>LocalCaptureAppIntents</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.LocalCaptureAppIntents</string>
+				<key>CFBundleName</key>
+				<string>LocalCaptureAppIntents</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.appintents-extension</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>/System/Library/ExtensionKit/Extensions/MADViewServiceExtension.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -8703,7 +8809,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3864.100.1.2.9</string>
+				<string>3864.200.81.2.5</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8905,7 +9011,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3500.111.2</string>
+				<string>3505.13.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8974,7 +9080,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3864.100.1.2.9</string>
+				<string>3864.200.81.2.5</string>
 				<key>DELocalizedConsentFilename</key>
 				<string>MailConsent.txt</string>
 				<key>DELocalizedDataCollectedExplanationFileName</key>
@@ -9179,7 +9285,7 @@
 				<key>CFBundleName</key>
 				<string>NetworkingExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.1.22.10.9</string>
+				<string>8622.2.11.10.8</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9317,7 +9423,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9691,7 +9797,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>14</string>
+				<string>17.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9850,7 +9956,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -9883,7 +9989,7 @@
 				<key>CFBundleName</key>
 				<string>PhotosAppIntentsExtension</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9908,7 +10014,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -9931,7 +10037,7 @@
 				<key>CFBundleName</key>
 				<string>PhotosEngagementExtension</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -9956,7 +10062,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionFileProviderDocumentGroup</key>
@@ -10020,7 +10126,7 @@
 				<key>CFBundleName</key>
 				<string>PhotosPFLPlugin</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10047,7 +10153,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -10082,7 +10188,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10207,7 +10313,7 @@
 				<key>CFBundleName</key>
 				<string>PhotosTCCNotificationExtension</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -10278,7 +10384,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4025.110.3</string>
+				<string>4025.210.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10331,7 +10437,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1238</string>
+				<string>1238.1.9</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10391,6 +10497,8 @@
 			<string>/System/Library/ExtensionKit/Extensions/ProductPageExtension.appex/ProductPageExtension</string>
 			<key>_infoPlist</key>
 			<dict>
+				<key>APSystemPlugInEffectiveContainer</key>
+				<string>com.apple.AppStore</string>
 				<key>CFBundleExecutable</key>
 				<string>ProductPageExtension</string>
 				<key>CFBundleIdentifier</key>
@@ -10551,7 +10659,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3500.111.2</string>
+				<string>3505.13.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10595,7 +10703,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.0.1</string>
+				<string>605.1.19.101</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10641,7 +10749,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3500.111.2</string>
+				<string>3505.13.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10742,7 +10850,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1353.0.1</string>
+				<string>1353.1.11.100</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10835,27 +10943,6 @@
 				<string>SiriCoreMetricsWorker</string>
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>EXAppExtensionAttributes</key>
-				<dict>
-					<key>EXExtensionPointIdentifier</key>
-					<string>com.apple.mlhost.worker</string>
-				</dict>
-			</dict>
-		</dict>
-		<key>/System/Library/ExtensionKit/Extensions/SiriMASPFLCK.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/ExtensionKit/Extensions/SiriMASPFLCK.appex/SiriMASPFLCK</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>SiriMASPFLCK</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.priml.PFLMLHostPlugins.SiriMASPFLCK</string>
-				<key>CFBundleName</key>
-				<string>SiriMASPFLCK</string>
 				<key>CFBundleVersion</key>
 				<string>1</string>
 				<key>EXAppExtensionAttributes</key>
@@ -10993,7 +11080,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1114</string>
+				<string>1114.1.6</string>
 				<key>CHSDisableImplicitWidgetDiscovery</key>
 				<true/>
 				<key>NSExtension</key>
@@ -11275,7 +11362,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11549,7 +11636,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>91</string>
+				<string>92.13.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11616,7 +11703,7 @@
 				<key>CFBundleName</key>
 				<string>WebContentCaptivePortalExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.1.22.10.9</string>
+				<string>8622.2.11.10.8</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11639,7 +11726,7 @@
 				<key>CFBundleName</key>
 				<string>WebContentExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8622.1.22.10.9</string>
+				<string>8622.2.11.10.8</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11662,7 +11749,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -12814,7 +12901,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>207.100</string>
+				<string>208.1.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -12886,7 +12973,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3860.100.1</string>
+				<string>3860.200.71</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -13362,7 +13449,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2393.100</string>
+				<string>2400.14.100</string>
 				<key>CSExtensionLabel</key>
 				<string>TestImporter</string>
 				<key>NSExtension</key>
@@ -13397,7 +13484,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2393.100</string>
+				<string>2400.14.100</string>
 				<key>CSExtensionLabel</key>
 				<string>TextImporter</string>
 				<key>NSExtension</key>
@@ -13594,7 +13681,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1217</string>
+				<string>1221.42.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -13619,7 +13706,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1217</string>
+				<string>1221.42.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -13777,6 +13864,8 @@
 				<array>
 					<string>com.apple.HealthKit</string>
 				</array>
+				<key>DERequiresClassBDataClass</key>
+				<true/>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -14025,7 +14114,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>140.1</string>
+				<string>148.1.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -14341,9 +14430,9 @@
 				<key>CFBundleVersion</key>
 				<string>1</string>
 				<key>DELocalizedConsentText</key>
-				<string>The attached logging may contain the time and location of recent transactions you’ve made with Apple Pay. These logs greatly assist diagnosing and resolving issues.</string>
+				<string>The attached logging may contain the time and location of your recent flights or Apple Pay transactions. These logs greatly assist diagnosing and resolving issues.</string>
 				<key>DELocalizedDataCollectedExplanationText</key>
-				<string>The generated files may contain some of your personal information, including passes, transaction details, location when using Wallet &amp; Apple Pay, hardware identifiers, contact information associated with passes, and similar.</string>
+				<string>The generated files may contain some of your personal information, including passes, transaction details, location when using Wallet &amp; Apple Pay, hardware identifiers, contact information associated with passes, recent flights from your boarding passes, and similar.</string>
 				<key>DELocalizedDataCollectedSummaryText</key>
 				<string></string>
 				<key>DELoggingPreferenceSubsystems</key>
@@ -14618,7 +14707,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.0.1</string>
+				<string>605.1.19.101</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionMainStoryboard</key>
@@ -14845,7 +14934,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>392.1</string>
+				<string>392.1.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -14981,6 +15070,7 @@
 							<string>AXToggleGuidedAccessIntent</string>
 							<string>AXToggleLEDFlashIntent</string>
 							<string>AXToggleLiveCaptionsIntent</string>
+							<string>AXToggleLiveSpeechIntent</string>
 							<string>AXToggleMonoAudioIntent</string>
 							<string>AXToggleNameRecognitionIntent</string>
 							<string>AXToggleReduceMotionIntent</string>
@@ -15158,7 +15248,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4033.0.3.5</string>
+				<string>4042.0.4</string>
 				<key>INDisplayableApplicationBundleIdentifier</key>
 				<string>com.apple.shortcuts</string>
 				<key>NSExtension</key>
@@ -15840,7 +15930,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>533.2.1</string>
+				<string>533.40.3</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -15876,7 +15966,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>533.2.1</string>
+				<string>533.40.3</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>NSExtension</key>
@@ -16141,7 +16231,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1031.7</string>
+				<string>1032.1.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -16184,7 +16274,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1031.7</string>
+				<string>1032.1.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -16556,7 +16646,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>151.0.10</string>
+				<string>151.1.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -23297,8 +23387,6 @@
 			<dict>
 				<key>CFBundleExecutable</key>
 				<string>CreateiCloudLinkExtension</string>
-				<key>CFBundleIconName</key>
-				<string>ShareSheetIcon</string>
 				<key>CFBundleIdentifier</key>
 				<string>com.apple.CloudSharingUI.CreateiCloudLinkExtension</string>
 				<key>CFBundleName</key>
@@ -23306,7 +23394,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>215</string>
+				<string>215.1.7</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -23351,7 +23439,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>215</string>
+				<string>215.1.7</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -23387,7 +23475,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>215</string>
+				<string>215.1.7</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -23552,7 +23640,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>281</string>
+				<string>281.1.5</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -23721,7 +23809,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>597</string>
+				<string>599</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -23891,6 +23979,8 @@
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
 				<string>1</string>
+				<key>DELocalizedCustomerConsentText</key>
+				<string>Bluetooth logs included in this report may contain sensitive data like phone call history, shared notification content, paired Bluetooth device names, and recently connected or nearby devices. It may also contain Wi-Fi Logs that include personal information about your Wi-Fi connections, including transferred content and nearby Wi-Fi router hardware addresses. If you're concerned about the included information, you can go back to review or remove it.</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -23907,6 +23997,8 @@
 					<key>NSExtensionPrincipalClass</key>
 					<string>ConnectivityDE</string>
 				</dict>
+				<key>WLAN_DELocalizedCustomerConsentText</key>
+				<string>Bluetooth logs included in this report may contain sensitive data like phone call history, shared notification content, paired Bluetooth device names, and recently connected or nearby devices. It may also contain WLAN Logs that include personal information about your WLAN connections, including transferred content and nearby WLAN router hardware addresses. If you're concerned about the included information, you can go back to review or remove it.</string>
 			</dict>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ConnectivityWiFiDE.appex</key>
@@ -23958,7 +24050,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>9100.26</string>
+				<string>9110.1</string>
 				<key>ComponentDirectoryPatterns</key>
 				<dict/>
 				<key>DELocalizedConsentFilename</key>
@@ -24331,6 +24423,42 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ScreenTimeDiagnosticExtension.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ScreenTimeDiagnosticExtension.appex/ScreenTimeDiagnosticExtension</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>ScreenTimeDiagnosticExtension</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.DiagnosticExtensions.ScreenTime</string>
+				<key>CFBundleName</key>
+				<string>ScreenTimeDiagnosticExtension</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>605.1.19.101</string>
+				<key>DELocalizedConsentText</key>
+				<string>Collected logs may include Screen Time settings as well as app and website activity data.</string>
+				<key>DELocalizedDataCollectedSummaryText</key>
+				<string>Diagnostic information for Screen Time.</string>
+				<key>NSExtension</key>
+				<dict>
+					<key>NSExtensionAttributes</key>
+					<dict>
+						<key>DEAttachmentsLoggingEnabled</key>
+						<true/>
+						<key>DEAttachmentsName</key>
+						<string>Screen Time Diagnostics</string>
+					</dict>
+					<key>NSExtensionPointIdentifier</key>
+					<string>com.apple.diagnosticextensions-service</string>
+					<key>NSExtensionPrincipalClass</key>
+					<string>STScreenTimeDiagnosticExtension</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ShortcutsDiagnosticExtension.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -24412,6 +24540,38 @@
 					<string>com.apple.diagnosticextensions-service</string>
 					<key>NSExtensionPrincipalClass</key>
 					<string>TUDiagnosticExtension.TUDiagnosticExtension</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ToolKitDiagnosticExtension.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ToolKitDiagnosticExtension.appex/ToolKitDiagnosticExtension</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>ToolKitDiagnosticExtension</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.DiagnosticExtensions.ToolKit.shortcuts</string>
+				<key>CFBundleName</key>
+				<string>ToolKitDiagnosticExtension</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>NSExtension</key>
+				<dict>
+					<key>NSExtensionAttributes</key>
+					<dict>
+						<key>DEAttachmentsLoggingEnabled</key>
+						<true/>
+						<key>DEAttachmentsName</key>
+						<string>ToolKit Logs</string>
+					</dict>
+					<key>NSExtensionPointIdentifier</key>
+					<string>com.apple.diagnosticextensions-service</string>
+					<key>NSExtensionPrincipalClass</key>
+					<string>WFToolKitDiagnosticExtension</string>
 				</dict>
 			</dict>
 		</dict>
@@ -24570,7 +24730,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>AppleBasebandServices_Manager-1391</string>
+				<string>AppleBasebandServices_Manager-1397</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -25062,7 +25222,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>AppleBasebandServices_Manager-1391</string>
+				<string>AppleBasebandServices_Manager-1397</string>
 				<key>DELoggingPreferenceSubsystems</key>
 				<array>
 					<string>com.apple.telephony.abm</string>
@@ -25175,7 +25335,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1335.1</string>
+				<string>1349</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -25208,6 +25368,8 @@
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
 				<string>1</string>
+				<key>DELocalizedCustomerConsentText</key>
+				<string>Wi-Fi Logs included in this report may contain personal information about your Wi-Fi connections, including transferred content and nearby Wi-Fi router hardware addresses. It may also contain Bluetooth logs that include sensitive data like phone call history, shared notification content, paired Bluetooth device names, and recently connected or nearby devices. If you're concerned about the included information, you can go back to review or remove it.</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -25222,6 +25384,8 @@
 					<key>NSExtensionPrincipalClass</key>
 					<string>WiFiDiagnosticsExtension</string>
 				</dict>
+				<key>WLAN_DELocalizedCustomerConsentText</key>
+				<string>WLAN Logs included in this report may contain personal information about your WLAN connections, including transferred content and nearby WLAN router hardware addresses. It may also contain Bluetooth logs that include sensitive data like phone call history, shared notification content, paired Bluetooth device names, and recently connected or nearby devices. If you're concerned about the included information, you can go back to review or remove it.</string>
 			</dict>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex</key>
@@ -25435,7 +25599,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>191.2.1</string>
+				<string>191.40.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -25511,7 +25675,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>367.0.3</string>
+				<string>367.1.9</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -25624,17 +25788,17 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>367.0.3</string>
+				<string>367.1.9</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
-					<string>com_apple_DocumentManager_Service.DOCServiceContext</string>
+					<string>DocumentManagerExecutables.DOCServiceContext</string>
 					<key>NSExtensionContextHostClass</key>
 					<string>DOCRemoteContext</string>
 					<key>NSExtensionPointIdentifier</key>
 					<string>com.apple.DocumentManager.Service</string>
 					<key>NSExtensionPrincipalClass</key>
-					<string>com_apple_DocumentManager_Service.DOCServiceViewController</string>
+					<string>DocumentManagerExecutables.DOCServiceViewController</string>
 					<key>NSExtensionViewControllerHostClass</key>
 					<string>DOCRemoteViewController</string>
 				</dict>
@@ -25936,7 +26100,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>191</string>
+				<string>191.6</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -26014,7 +26178,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>468</string>
+				<string>468.1.13</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -26254,7 +26418,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>383</string>
+				<string>385</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -26543,7 +26707,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>25.1</string>
+				<string>26</string>
 				<key>DELocalizedConsentFilename</key>
 				<string>consent.txt</string>
 				<key>DELocalizedDataCollectedExplanationFilename</key>
@@ -26623,7 +26787,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1349.1.3.1.1</string>
+				<string>1371.2.9</string>
 				<key>DELocalizedConsentText</key>
 				<string>Diagnostics may include up to 30 days of details about the times and manner in which home members interact with accessories</string>
 				<key>DELocalizedDataCollectedSummaryText</key>
@@ -26722,7 +26886,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3500.32.1</string>
+				<string>3505.5.1</string>
 				<key>DELocalizedConsentFilename</key>
 				<string>legal.txt</string>
 				<key>DELocalizedDataCollectedExplanationFilename</key>
@@ -26956,32 +27120,7 @@
 					<key>NSExtensionAttributes</key>
 					<dict>
 						<key>SettingsGroups</key>
-						<array>
-							<string>account</string>
-							<string>airDrop</string>
-							<string>allowedClient</string>
-							<string>application</string>
-							<string>appStore</string>
-							<string>calculator</string>
-							<string>camera</string>
-							<string>carPlay</string>
-							<string>cellular</string>
-							<string>dateAndTime</string>
-							<string>faceTime</string>
-							<string>findMy</string>
-							<string>gameCenter</string>
-							<string>intelligence</string>
-							<string>keyboard</string>
-							<string>media</string>
-							<string>messages</string>
-							<string>news</string>
-							<string>notification</string>
-							<string>passcode</string>
-							<string>privacy</string>
-							<string>safari</string>
-							<string>siri</string>
-							<string>webContent</string>
-						</array>
+						<array/>
 					</dict>
 					<key>NSExtensionPointIdentifier</key>
 					<string>com.apple.ManagedSettings.service</string>
@@ -27009,7 +27148,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>554</string>
+				<string>560</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -27472,7 +27611,7 @@
 				<key>CFBundleName</key>
 				<string>NetworkInfoDiagnosticExtension.NetworkInfoDiagnosticExtension</string>
 				<key>CFBundleVersion</key>
-				<string>194.0.3</string>
+				<string>194.40.3</string>
 				<key>DELocalizedConsentText</key>
 				<string>Collected logs may include network activity including IP addresses.</string>
 				<key>DELocalizedDataCollectedSummaryText</key>
@@ -27513,7 +27652,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>194.0.3</string>
+				<string>194.40.3</string>
 				<key>DELocalizedConsentText</key>
 				<string>Measuring your Network Quality consumes network traffic for which data rates may apply.</string>
 				<key>DELocalizedDataCollectedSummaryText</key>
@@ -27614,7 +27753,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>5739.4</string>
+				<string>5762</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -27783,7 +27922,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>802.43.254</string>
+				<string>812.40.117</string>
 				<key>MLRuntimeTaskPrincipalClass</key>
 				<string>PhotoAnalysisLighthousePlugin</string>
 				<key>NSExtension</key>
@@ -28103,7 +28242,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3799.12</string>
+				<string>3810</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28150,7 +28289,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3799.12</string>
+				<string>3810</string>
 				<key>CTIgnoreUserFonts</key>
 				<true/>
 				<key>NSExtension</key>
@@ -28354,7 +28493,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.0.1</string>
+				<string>605.1.19.101</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28392,7 +28531,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2393.100</string>
+				<string>2400.14.100</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28559,7 +28698,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2093.10.1.2.17</string>
+				<string>2094.20.72.2.3</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28619,7 +28758,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2093.10.1.2.17</string>
+				<string>2094.20.72.2.3</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -29202,7 +29341,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>116.3</string>
+				<string>116.7.5</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -29286,7 +29425,7 @@
 				<key>CFBundlePackageType</key>
 				<string>APPL</string>
 				<key>CFBundleVersion</key>
-				<string>25110.25.31.601</string>
+				<string>25210.25.44.201</string>
 				<key>DERequiresClassBDataClass</key>
 				<true/>
 				<key>NSExtension</key>
@@ -30009,7 +30148,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>593.0.2</string>
+				<string>593.10.1</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>NSExtension</key>
@@ -30533,7 +30672,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4033.0.3.5</string>
+				<string>4042.0.4</string>
 				<key>INDisplayableApplicationBundleIdentifier</key>
 				<string>com.apple.shortcuts</string>
 				<key>NSExtension</key>
@@ -30611,7 +30750,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4033.0.3.5</string>
+				<string>4042.0.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30640,7 +30779,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4033.0.3.5</string>
+				<string>4042.0.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30671,7 +30810,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4033.0.3.5</string>
+				<string>4042.0.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30702,7 +30841,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4033.0.3.5</string>
+				<string>4042.0.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30729,7 +30868,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4257.2.1</string>
+				<string>4257.40.69</string>
 				<key>DELoggingPreferenceSubsystems</key>
 				<array>
 					<string>com.apple.clouddocs</string>
@@ -31071,7 +31210,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1335.1</string>
+				<string>1349</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31094,7 +31233,7 @@
 				<key>CFBundlePackageType</key>
 				<string>BNDL</string>
 				<key>CFBundleVersion</key>
-				<string>630.0.0.0.1</string>
+				<string>630.40.7</string>
 				<key>XPCService</key>
 				<dict>
 					<key>RunLoopType</key>
@@ -31119,7 +31258,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>6476</string>
+				<string>6523</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31165,7 +31304,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3864.100.1.2.9</string>
+				<string>3864.200.81.2.5</string>
 				<key>XPCService</key>
 				<dict>
 					<key>RunLoopType</key>
@@ -31190,7 +31329,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2952.2.1</string>
+				<string>2952.40.13</string>
 				<key>XPCService</key>
 				<dict>
 					<key>RunLoopType</key>
@@ -31215,7 +31354,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>5739.4</string>
+				<string>5762</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31238,7 +31377,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4025.110.3</string>
+				<string>4025.210.1</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31307,7 +31446,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>948.2</string>
+				<string>982</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -32877,6 +33016,17 @@
 			<string>mobile</string>
 			<key>Label</key>
 			<string>com.apple.AppSSODaemon</string>
+			<key>LaunchEvents</key>
+			<dict>
+				<key>com.apple.distnoted.matching</key>
+				<dict>
+					<key>com.apple.LaunchServices.pluginsregistered</key>
+					<dict>
+						<key>Name</key>
+						<string>com.apple.LaunchServices.pluginsregistered</string>
+					</dict>
+				</dict>
+			</dict>
 			<key>MachServices</key>
 			<dict>
 				<key>com.apple.AppSSO.service-xpc</key>
@@ -33698,6 +33848,8 @@
 				<key>com.apple.CellularPlanDaemon.xpc</key>
 				<true/>
 				<key>com.apple.aps.CommCenter</key>
+				<true/>
+				<key>com.apple.aps.CommCenter.webpush</key>
 				<true/>
 				<key>com.apple.basebandd.xpc</key>
 				<true/>
@@ -34763,7 +34915,7 @@
 				<string>/usr/libexec/misd</string>
 			</array>
 			<key>RunAtLoad</key>
-			<true/>
+			<false/>
 			<key>WorkingDirectory</key>
 			<string>/var/run</string>
 		</dict>
@@ -34994,6 +35146,11 @@
 						<key>Notification</key>
 						<string>com.apple.bluetooth.connection</string>
 					</dict>
+					<key>com.apple.osi.iblm.engagedNotification</key>
+					<dict>
+						<key>Notification</key>
+						<string>com.apple.osi.iblm.engagedNotification</string>
+					</dict>
 					<key>com.apple.powerlog.batteryServiceNotification</key>
 					<dict>
 						<key>Notification</key>
@@ -35126,6 +35283,8 @@
 				<key>com.apple.powerui.smartChargeManager</key>
 				<true/>
 				<key>com.apple.thermalMonitor.displayMitigationsEnabledNote</key>
+				<true/>
+				<key>com.apple.usernotifications.delegate.com.apple.osintelligence.notifications</key>
 				<true/>
 				<key>com.apple.usernotifications.delegate.com.apple.powerui.chargeawareness</key>
 				<true/>
@@ -35653,14 +35812,7 @@
 				<key>com.apple.ScreenTimeAgent.organization-status</key>
 				<true/>
 				<key>com.apple.ScreenTimeAgent.persistence</key>
-				<dict>
-					<key>#Else</key>
-					<true/>
-					<key>#IfFeatureFlagEnabled</key>
-					<string>ScreenTime/simplified_agent</string>
-					<key>#Then</key>
-					<false/>
-				</dict>
+				<true/>
 				<key>com.apple.ScreenTimeAgent.private</key>
 				<true/>
 				<key>com.apple.ScreenTimeAgent.reactor-tool</key>
@@ -37910,6 +38062,8 @@
 			<dict>
 				<key>com.apple.aps.amsengagementd</key>
 				<true/>
+				<key>com.apple.usernotifications.delegate.com.apple.AppleMediaServicesUI.engagement.notifications</key>
+				<true/>
 				<key>com.apple.xpc.amsengagementd</key>
 				<true/>
 				<key>com.apple.xpc.amsmediacatalogsync</key>
@@ -38699,6 +38853,14 @@
 						<true/>
 					</dict>
 				</dict>
+				<key>com.apple.notifyd.matching</key>
+				<dict>
+					<key>com.apple.ap.adprivacyd.iTunesActiveStorefrontDidChangeNotification</key>
+					<dict>
+						<key>Notification</key>
+						<string>com.apple.ap.adprivacyd.iTunesActiveStorefrontDidChangeNotification</string>
+					</dict>
+				</dict>
 				<key>com.apple.xpc.activity</key>
 				<dict>
 					<key>com.apple.ap.promotedcontentd.gc</key>
@@ -39211,8 +39373,6 @@
 			</array>
 			<key>RunAtLoad</key>
 			<false/>
-			<key>com.apple.private.security.storage.os_eligibility.readonly</key>
-			<true/>
 		</dict>
 		<key>/System/Library/LaunchDaemons/com.apple.appprotectiond.plist</key>
 		<dict>
@@ -39373,11 +39533,6 @@
 						<key>Name</key>
 						<string>com.apple.ReportCrash.beta.bulletin</string>
 					</dict>
-					<key>com.apple.StorageSettings.AppMayUninstall</key>
-					<dict>
-						<key>Name</key>
-						<string>com.apple.StorageSettings.AppMayUninstall</string>
-					</dict>
 					<key>com.apple.appstored.ASDAppleIDDidChangeNotification</key>
 					<dict>
 						<key>Name</key>
@@ -39392,11 +39547,6 @@
 					<dict>
 						<key>Name</key>
 						<string>com.apple.appstored.ASDSandboxAccountDidChangeNotification</string>
-					</dict>
-					<key>com.apple.installcoordination.AppMayUninstall</key>
-					<dict>
-						<key>Name</key>
-						<string>com.apple.installcoordination.AppMayUninstall</string>
 					</dict>
 					<key>com.apple.managedconfiguration.effectivesettingschanged</key>
 					<dict>
@@ -39719,6 +39869,8 @@
 				<key>com.apple.aps.askpermission</key>
 				<true/>
 				<key>com.apple.askpermissiond</key>
+				<true/>
+				<key>com.apple.askto.client.com.apple.AskPermission.AltDistro.AgeException</key>
 				<true/>
 				<key>com.apple.usernotifications.delegate.com.apple.askpermission.notifications</key>
 				<true/>
@@ -41884,7 +42036,33 @@
 				</dict>
 				<key>com.apple.xpc.activity</key>
 				<dict>
-					<key>com.apple.biome.prune-expired-events</key>
+					<key>com.apple.biome.prune-expired-events.A</key>
+					<dict>
+						<key>AllowBattery</key>
+						<true/>
+						<key>Interval</key>
+						<integer>86400</integer>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>Repeating</key>
+						<true/>
+						<key>RequiresClassA</key>
+						<true/>
+					</dict>
+					<key>com.apple.biome.prune-expired-events.B</key>
+					<dict>
+						<key>AllowBattery</key>
+						<true/>
+						<key>Interval</key>
+						<integer>86400</integer>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>Repeating</key>
+						<true/>
+						<key>RequiresClassB</key>
+						<true/>
+					</dict>
+					<key>com.apple.biome.prune-expired-events.C</key>
 					<dict>
 						<key>AllowBattery</key>
 						<false/>
@@ -44693,6 +44871,16 @@
 			<string>com.apple.companiond</string>
 			<key>LaunchEvents</key>
 			<dict>
+				<key>com.apple.bluetooth.connections</key>
+				<dict>
+					<key>CompanionServices</key>
+					<dict>
+						<key>label</key>
+						<string>CompanionServices</string>
+						<key>psm</key>
+						<integer>136</integer>
+					</dict>
+				</dict>
 				<key>com.apple.bluetooth.discovery</key>
 				<dict>
 					<key>PhotoSetup</key>
@@ -44715,6 +44903,13 @@
 				</dict>
 				<key>com.apple.rapport.matching</key>
 				<dict>
+					<key>CPSRemoteLLM</key>
+					<dict>
+						<key>serviceType</key>
+						<string>CPSRemoteLLM</string>
+						<key>type</key>
+						<string>server</string>
+					</dict>
 					<key>CompanionAuthenticationDiscovery</key>
 					<dict>
 						<key>serviceType</key>
@@ -44733,6 +44928,8 @@
 			</dict>
 			<key>MachServices</key>
 			<dict>
+				<key>com.apple.CompanionServices</key>
+				<true/>
 				<key>com.apple.DistributedTimers</key>
 				<true/>
 				<key>com.apple.companiond.xpc</key>
@@ -46180,6 +46377,8 @@
 				<true/>
 				<key>com.apple.siri.ssrvtuitrainingservice.xpc</key>
 				<true/>
+				<key>com.apple.siri.voiceprofilemanager.xpc</key>
+				<true/>
 				<key>com.apple.ssr.rpisamplingservice</key>
 				<true/>
 			</dict>
@@ -47043,6 +47242,14 @@
 						<string>com.apple.Preferences.ResetPrivacyWarningsNotification</string>
 					</dict>
 				</dict>
+				<key>com.apple.tccd.events</key>
+				<dict>
+					<key>com.apple.deviceaccess.tccd.events</key>
+					<dict>
+						<key>kTCCServiceAccessoryWiFiNetworkSharing</key>
+						<true/>
+					</dict>
+				</dict>
 			</dict>
 			<key>MachServices</key>
 			<dict>
@@ -47396,6 +47603,10 @@
 							<array>
 								<integer>1</integer>
 								<integer>3</integer>
+							</array>
+							<key>Dataclasses</key>
+							<array>
+								<string>com.apple.Dataclass.DeviceEnrollments</string>
 							</array>
 						</dict>
 					</dict>
@@ -48761,6 +48972,28 @@
 						<key>ResourceIntensive</key>
 						<true/>
 					</dict>
+					<key>com.apple.duetexpertd.notificationmetrics</key>
+					<dict>
+						<key>GroupConcurrencyLimit</key>
+						<integer>1</integer>
+						<key>GroupName</key>
+						<string>com.apple.duetexpertd.defaultGroup</string>
+						<key>Priority</key>
+						<string>Utility</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>86400</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<true/>
+						<key>RequiresNetworkConnectivity</key>
+						<false/>
+						<key>RequiresProtectionClass</key>
+						<string>kBGSTProtectionClassC</string>
+						<key>ResourceIntensive</key>
+						<false/>
+					</dict>
 				</dict>
 				<key>com.apple.distnoted.matching</key>
 				<dict>
@@ -49367,29 +49600,6 @@
 						<key>RequiresClassC</key>
 						<true/>
 					</dict>
-					<key>com.apple.duetexpertd.blendingfeedbackmetricslogging</key>
-					<dict>
-						<key>ActivityGroupConcurrencyLimit</key>
-						<integer>1</integer>
-						<key>ActivityGroupName</key>
-						<string>com.apple.duetexpertd.defaultGroup</string>
-						<key>AllowBattery</key>
-						<false/>
-						<key>CPUIntensive</key>
-						<false/>
-						<key>DiskIntensive</key>
-						<false/>
-						<key>Interval</key>
-						<integer>86400</integer>
-						<key>MemoryIntensive</key>
-						<false/>
-						<key>Priority</key>
-						<string>Maintenance</string>
-						<key>Repeating</key>
-						<true/>
-						<key>RequiresClassC</key>
-						<true/>
-					</dict>
 					<key>com.apple.duetexpertd.cardSuggestionClientCacheCleanup</key>
 					<dict>
 						<key>ActivityGroupConcurrencyLimit</key>
@@ -49749,29 +49959,6 @@
 						<false/>
 						<key>Interval</key>
 						<integer>1209600</integer>
-						<key>MemoryIntensive</key>
-						<false/>
-						<key>Priority</key>
-						<string>Maintenance</string>
-						<key>Repeating</key>
-						<true/>
-						<key>RequiresClassC</key>
-						<true/>
-					</dict>
-					<key>com.apple.duetexpertd.periodiclog</key>
-					<dict>
-						<key>ActivityGroupConcurrencyLimit</key>
-						<integer>1</integer>
-						<key>ActivityGroupName</key>
-						<string>com.apple.duetexpertd.defaultGroup</string>
-						<key>AllowBattery</key>
-						<false/>
-						<key>CPUIntensive</key>
-						<false/>
-						<key>DiskIntensive</key>
-						<false/>
-						<key>Interval</key>
-						<integer>86400</integer>
 						<key>MemoryIntensive</key>
 						<false/>
 						<key>Priority</key>
@@ -53046,6 +53233,16 @@
 				<dict/>
 				<key>com.apple.notifyd.matching</key>
 				<dict>
+					<key>AppleLanguagePreferencesChangedNotification</key>
+					<dict>
+						<key>Notification</key>
+						<string>AppleLanguagePreferencesChangedNotification</string>
+					</dict>
+					<key>NSCurrentLocaleDidChangeNotification</key>
+					<dict>
+						<key>Notification</key>
+						<string>NSCurrentLocaleDidChangeNotification</string>
+					</dict>
 					<key>com.apple.CloudSubscriptionFeature.Changed</key>
 					<dict>
 						<key>Notification</key>
@@ -53055,6 +53252,11 @@
 					<dict>
 						<key>Notification</key>
 						<string>com.apple.CloudSubscriptionFeatures.OptIn.Changed</string>
+					</dict>
+					<key>com.apple.RegulatoryDomain.MontaraUpdateNotification</key>
+					<dict>
+						<key>Notification</key>
+						<string>com.apple.RegulatoryDomain.MontaraUpdateNotification</string>
 					</dict>
 					<key>com.apple.family.family_updated</key>
 					<dict>
@@ -56348,8 +56550,32 @@
 			<dict>
 				<key>com.apple.bg.system.task</key>
 				<dict>
+					<key>com.apple.jetpackassetd.maintenance.cleanup</key>
+					<dict>
+						<key>GroupConcurrencyLimit</key>
+						<integer>1</integer>
+						<key>GroupName</key>
+						<string>com.apple.jetpackassetd.task-group</string>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>604800</integer>
+							<key>RandomInitialDelay</key>
+							<integer>86400</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<false/>
+						<key>RequiresNetworkConnectivity</key>
+						<false/>
+					</dict>
 					<key>com.apple.jetpackassetd.maintenance.refresh</key>
 					<dict>
+						<key>GroupConcurrencyLimit</key>
+						<integer>1</integer>
+						<key>GroupName</key>
+						<string>com.apple.jetpackassetd.task-group</string>
 						<key>Priority</key>
 						<string>Maintenance</string>
 						<key>RepeatingTask</key>
@@ -57670,6 +57896,39 @@
 			<string>com.apple.managedconfiguration.profiled</string>
 			<key>LaunchEvents</key>
 			<dict>
+				<key>com.apple.ManagedSettings.effective-settings.changed</key>
+				<dict>
+					<key>com.apple.managedconfiguration.ManagedSettings-effective-settings-changed</key>
+					<dict>
+						<key>SettingsGroups</key>
+						<array>
+							<string>account</string>
+							<string>airDrop</string>
+							<string>allowedClient</string>
+							<string>application</string>
+							<string>appStore</string>
+							<string>calculator</string>
+							<string>camera</string>
+							<string>carPlay</string>
+							<string>cellular</string>
+							<string>dateAndTime</string>
+							<string>faceTime</string>
+							<string>findMy</string>
+							<string>gameCenter</string>
+							<string>intelligence</string>
+							<string>keyboard</string>
+							<string>media</string>
+							<string>messages</string>
+							<string>news</string>
+							<string>notification</string>
+							<string>passcode</string>
+							<string>privacy</string>
+							<string>safari</string>
+							<string>siri</string>
+							<string>webContent</string>
+						</array>
+					</dict>
+				</dict>
 				<key>com.apple.notifyd.matching</key>
 				<dict>
 					<key>FirstUnlock</key>
@@ -59828,6 +60087,76 @@
 				<integer>60</integer>
 			</dict>
 		</dict>
+		<key>/System/Library/LaunchDaemons/com.apple.mobile_diagnostics_relay.plist</key>
+		<dict>
+			<key>EnableTransactions</key>
+			<true/>
+			<key>Label</key>
+			<string>com.apple.mobile_diagnostics_relay</string>
+			<key>LaunchEvents</key>
+			<dict>
+				<key>com.apple.iokit.matching</key>
+				<dict>
+					<key>com.apple.usbhub.attach.4110</key>
+					<dict>
+						<key>IOMatchLaunchStream</key>
+						<true/>
+						<key>IOProviderClass</key>
+						<string>IOUSBHostDevice</string>
+						<key>idProduct</key>
+						<integer>4110</integer>
+						<key>idVendor</key>
+						<integer>1452</integer>
+					</dict>
+					<key>com.apple.usbhub.attach.4111</key>
+					<dict>
+						<key>IOMatchLaunchStream</key>
+						<true/>
+						<key>IOProviderClass</key>
+						<string>IOUSBHostDevice</string>
+						<key>idProduct</key>
+						<integer>4111</integer>
+						<key>idVendor</key>
+						<integer>1452</integer>
+					</dict>
+					<key>com.apple.usbhub.attach.4119</key>
+					<dict>
+						<key>IOMatchLaunchStream</key>
+						<true/>
+						<key>IOProviderClass</key>
+						<string>IOUSBHostDevice</string>
+						<key>idProduct</key>
+						<integer>4119</integer>
+						<key>idVendor</key>
+						<integer>1452</integer>
+					</dict>
+					<key>com.apple.usbhub.attach.4120</key>
+					<dict>
+						<key>IOMatchLaunchStream</key>
+						<true/>
+						<key>IOProviderClass</key>
+						<string>IOUSBHostDevice</string>
+						<key>idProduct</key>
+						<integer>4120</integer>
+						<key>idVendor</key>
+						<integer>1452</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>MachServices</key>
+			<dict>
+				<key>com.apple.mobile.diagnostics_relay.lockdown</key>
+				<true/>
+				<key>com.apple.mobile_diagnostics_relay</key>
+				<true/>
+			</dict>
+			<key>ProcessType</key>
+			<string>Adaptive</string>
+			<key>ProgramArguments</key>
+			<array>
+				<string>/usr/libexec/mobile_diagnostics_relay</string>
+			</array>
+		</dict>
 		<key>/System/Library/LaunchDaemons/com.apple.mobile_installation_proxy.plist</key>
 		<dict>
 			<key>EnablePressuredExit</key>
@@ -60662,6 +60991,24 @@
 			<dict>
 				<key>com.apple.bg.system.task</key>
 				<dict>
+					<key>com.apple.modelcatalog.strictavailability.classcunlock</key>
+					<dict>
+						<key>NonRepeatingTask</key>
+						<dict>
+							<key>ScheduleAfter</key>
+							<integer>0</integer>
+							<key>TrySchedulingBefore</key>
+							<integer>300</integer>
+						</dict>
+						<key>Priority</key>
+						<string>Utility</string>
+						<key>RequiresExternalPower</key>
+						<false/>
+						<key>RequiresNetworkConnectivity</key>
+						<false/>
+						<key>RequiresProtectionClass</key>
+						<string>C</string>
+					</dict>
 					<key>com.apple.modelcatalog.subscriptionevaluation.nightly</key>
 					<dict>
 						<key>Priority</key>
@@ -60675,6 +61022,26 @@
 						<false/>
 						<key>RequiresNetworkConnectivity</key>
 						<false/>
+						<key>RequiresProtectionClass</key>
+						<string>C</string>
+					</dict>
+					<key>com.apple.modelcatalog.subscriptionevaluation.postboot</key>
+					<dict>
+						<key>NonRepeatingTask</key>
+						<dict>
+							<key>ScheduleAfter</key>
+							<integer>0</integer>
+							<key>TrySchedulingBefore</key>
+							<integer>0</integer>
+						</dict>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RequiresExternalPower</key>
+						<false/>
+						<key>RequiresNetworkConnectivity</key>
+						<false/>
+						<key>RequiresProtectionClass</key>
+						<string>C</string>
 					</dict>
 				</dict>
 				<key>com.apple.biome.compute.publisher</key>
@@ -60838,6 +61205,11 @@
 				<dict>
 					<key>com.apple.momentsd.eventRefresh</key>
 					<dict>
+						<key>InvolvedProcesses</key>
+						<array>
+							<string>MomentsUIService</string>
+							<string>MapKit.SnapshotService</string>
+						</array>
 						<key>Priority</key>
 						<string>Utility</string>
 						<key>RepeatingTask</key>
@@ -60856,6 +61228,11 @@
 					</dict>
 					<key>com.apple.momentsd.eventRefresh.first</key>
 					<dict>
+						<key>InvolvedProcesses</key>
+						<array>
+							<string>MomentsUIService</string>
+							<string>MapKit.SnapshotService</string>
+						</array>
 						<key>NonRepeatingTask</key>
 						<dict>
 							<key>ScheduleAfter</key>
@@ -60991,6 +61368,14 @@
 		</dict>
 		<key>/System/Library/LaunchDaemons/com.apple.nand_task_scheduler.plist</key>
 		<dict>
+			<key>BGTaskSchedulerPermittedIdentifiers</key>
+			<array>
+				<string>com.apple.idleStack_low</string>
+				<string>com.apple.idleStack_lowNoDI</string>
+				<string>com.apple.idleStack_lowNoSUI</string>
+				<string>com.apple.idleStack_med</string>
+				<string>com.apple.idleStack_high</string>
+			</array>
 			<key>EnablePressuredExit</key>
 			<true/>
 			<key>EnableTransactions</key>
@@ -60999,6 +61384,103 @@
 			<string>com.apple.nand_task_scheduler</string>
 			<key>LaunchEvents</key>
 			<dict>
+				<key>com.apple.bg.system.task</key>
+				<dict>
+					<key>com.apple.idleStack_high</key>
+					<dict>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>3600</integer>
+							<key>MinDurationBetweenInstances</key>
+							<integer>2400</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<false/>
+						<key>RequiresSignificantUserInactivity</key>
+						<false/>
+						<key>ResourceIntensive</key>
+						<true/>
+						<key>Resources</key>
+						<integer>4</integer>
+					</dict>
+					<key>com.apple.idleStack_low</key>
+					<dict>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>86400</integer>
+							<key>MinDurationBetweenInstances</key>
+							<integer>69120</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<true/>
+						<key>RequiresSignificantUserInactivity</key>
+						<true/>
+						<key>ResourceIntensive</key>
+						<true/>
+						<key>Resources</key>
+						<integer>4</integer>
+					</dict>
+					<key>com.apple.idleStack_lowNoDI</key>
+					<dict>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>86460</integer>
+							<key>MinDurationBetweenInstances</key>
+							<integer>69120</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<true/>
+						<key>RequiresSignificantUserInactivity</key>
+						<true/>
+					</dict>
+					<key>com.apple.idleStack_lowNoSUI</key>
+					<dict>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>86460</integer>
+							<key>MinDurationBetweenInstances</key>
+							<integer>69120</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<true/>
+						<key>ResourceIntensive</key>
+						<true/>
+						<key>Resources</key>
+						<integer>4</integer>
+					</dict>
+					<key>com.apple.idleStack_med</key>
+					<dict>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>RepeatingTask</key>
+						<dict>
+							<key>Interval</key>
+							<integer>21600</integer>
+							<key>MinDurationBetweenInstances</key>
+							<integer>16200</integer>
+						</dict>
+						<key>RequiresExternalPower</key>
+						<true/>
+						<key>RequiresSignificantUserInactivity</key>
+						<false/>
+						<key>ResourceIntensive</key>
+						<true/>
+						<key>Resources</key>
+						<integer>4</integer>
+					</dict>
+				</dict>
 				<key>com.apple.xpc.activity</key>
 				<dict>
 					<key>com.apple.nand_task_scheduler</key>
@@ -61220,28 +61702,6 @@
 					<dict>
 						<key>Notification</key>
 						<string>com.apple.nanotimekit.replicator.library.record</string>
-					</dict>
-				</dict>
-				<key>com.apple.xpc.activity</key>
-				<dict>
-					<key>com.apple.nanotimekitcompanion.snapshots.prewarm</key>
-					<dict>
-						<key>CPUIntensive</key>
-						<true/>
-						<key>ExpectedDuration</key>
-						<string>300</string>
-						<key>GracePeriod</key>
-						<integer>60</integer>
-						<key>PostInstall</key>
-						<true/>
-						<key>Priority</key>
-						<string>Utility</string>
-						<key>RandomInitialDelay</key>
-						<string>10</string>
-						<key>RequiresClassC</key>
-						<true/>
-						<key>ShouldWakeDevice</key>
-						<true/>
 					</dict>
 				</dict>
 			</dict>
@@ -62368,6 +62828,11 @@
 					<dict>
 						<key>Notification</key>
 						<string>com.apple.system.console_mode_changed</string>
+					</dict>
+					<key>kPLTaskingStartNotificationGlobal</key>
+					<dict>
+						<key>Notification</key>
+						<string>kPLTaskingStartNotificationGlobal</string>
 					</dict>
 				</dict>
 				<key>com.apple.xpc.activity</key>
@@ -63817,7 +64282,7 @@
 				<true/>
 			</dict>
 			<key>POSIXSpawnType</key>
-			<string>Adaptive</string>
+			<string>Interactive</string>
 			<key>Program</key>
 			<string>/usr/libexec/powerexperienced</string>
 		</dict>
@@ -65644,51 +66109,9 @@
 			<true/>
 			<key>Label</key>
 			<string>com.apple.safetycheckd</string>
-			<key>LaunchEvents</key>
-			<dict>
-				<key>com.apple.bg.system.task</key>
-				<dict>
-					<key>com.apple.sc_reminder_task_scheduler</key>
-					<dict>
-						<key>Priority</key>
-						<string>Maintenance</string>
-						<key>RepeatingTask</key>
-						<dict>
-							<key>Interval</key>
-							<integer>86400</integer>
-							<key>MinDurationBetweenInstances</key>
-							<integer>86400</integer>
-						</dict>
-						<key>RequiresExternalPower</key>
-						<false/>
-						<key>RequiresNetworkConnectivity</key>
-						<false/>
-					</dict>
-				</dict>
-				<key>com.apple.notifyd.matching</key>
-				<dict>
-					<key>com.apple.mobile.lockdown.host_paired</key>
-					<dict>
-						<key>Notification</key>
-						<string>com.apple.mobile.lockdown.host_paired</string>
-					</dict>
-					<key>com.apple.mobile.lockdown.trusted_host_attached</key>
-					<dict>
-						<key>Notification</key>
-						<string>com.apple.mobile.lockdown.trusted_host_attached</string>
-					</dict>
-					<key>com.apple.remotepairingdevice.host_paired</key>
-					<dict>
-						<key>Notification</key>
-						<string>com.apple.remotepairingdevice.host_paired</string>
-					</dict>
-				</dict>
-			</dict>
 			<key>MachServices</key>
 			<dict>
 				<key>com.apple.safetycheckd</key>
-				<true/>
-				<key>com.apple.usernotifications.delegate.com.apple.safetycheckd.notifications</key>
 				<true/>
 			</dict>
 			<key>POSIXSpawnType</key>
@@ -67378,6 +67801,11 @@
 					<dict>
 						<key>Notification</key>
 						<string>com.apple.system.timezone</string>
+					</dict>
+					<key>com.apple.workflow.remotewidgets</key>
+					<dict>
+						<key>Notification</key>
+						<string>com.apple.workflow.remotewidgets</string>
 					</dict>
 					<key>kAFPreferencesDidChangeDarwinNotification</key>
 					<dict>
@@ -69703,6 +70131,21 @@
 						<key>RequireScreenSleep</key>
 						<true/>
 					</dict>
+					<key>com.apple.symptomsd-distributed.task.db-telemetry</key>
+					<dict>
+						<key>AllowBattery</key>
+						<false/>
+						<key>Delay</key>
+						<integer>86400</integer>
+						<key>Interval</key>
+						<integer>86400</integer>
+						<key>Priority</key>
+						<string>Maintenance</string>
+						<key>Repeating</key>
+						<true/>
+						<key>RequireScreenSleep</key>
+						<true/>
+					</dict>
 				</dict>
 			</dict>
 			<key>MachServices</key>
@@ -71056,6 +71499,22 @@
 			<true/>
 			<key>Label</key>
 			<string>com.apple.translationd</string>
+			<key>LaunchEvents</key>
+			<dict>
+				<key>com.apple.notifyd.matching</key>
+				<dict>
+					<key>com.apple.siri.uaf.com.apple.sequoia.asset</key>
+					<dict>
+						<key>Notification</key>
+						<string>com.apple.siri.uaf.com.apple.sequoia.asset</string>
+					</dict>
+					<key>com.apple.siri.uaf.com.apple.speech.automaticspeechrecognition</key>
+					<dict>
+						<key>Notification</key>
+						<string>com.apple.siri.uaf.com.apple.speech.automaticspeechrecognition</string>
+					</dict>
+				</dict>
+			</dict>
 			<key>MachServices</key>
 			<dict>
 				<key>com.apple.translation.text</key>
@@ -73139,6 +73598,10 @@
 			<string>com.apple.wifid</string>
 			<key>MachServices</key>
 			<dict>
+				<key>com.apple.developer.wifi-infrastructure.WiFiNetworkSharingApp</key>
+				<true/>
+				<key>com.apple.developer.wifi-infrastructure.WiFiNetworkSharingExtension</key>
+				<true/>
 				<key>com.apple.private.corewifi-xpc</key>
 				<true/>
 				<key>com.apple.private.corewifi.internal-xpc</key>
@@ -73150,6 +73613,10 @@
 				<key>com.apple.private.corewifi.unrestricted-xpc</key>
 				<true/>
 				<key>com.apple.private.corewifi.user-agent-xpc</key>
+				<true/>
+				<key>com.apple.private.corewifi.wifi-network-sharing-ui-xpc</key>
+				<true/>
+				<key>com.apple.usernotifications.delegate.com.apple.corewifi.usernotifications</key>
 				<true/>
 				<key>com.apple.usernotifications.delegate.com.apple.wifid.usernotification</key>
 				<true/>
@@ -75030,7 +75497,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1270.77.1.11</string>
+						<string>1300.10.1.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -75120,6 +75587,11 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
+		<key>/System/Library/Frameworks/AppMigrationKit.framework/AppMigrationKit</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
 		<key>/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -75183,6 +75655,32 @@
 							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>_executablePath</key>
+					<string>/System/Library/Frameworks/AudioToolbox.framework/XPCServices/AudioConverterHardenedService.xpc/AudioConverterHardenedService</string>
+					<key>_infoPlist</key>
+					<dict>
+						<key>CFBundleExecutable</key>
+						<string>AudioConverterHardenedService</string>
+						<key>CFBundleIdentifier</key>
+						<string>com.apple.audio.AudioConverterService.Hardened</string>
+						<key>CFBundleName</key>
+						<string>AudioConverterHardenedService</string>
+						<key>CFBundlePackageType</key>
+						<string>XPC!</string>
+						<key>CFBundleVersion</key>
+						<string>1</string>
+						<key>XPCService</key>
+						<dict>
+							<key>JoinExistingSession</key>
+							<true/>
+							<key>ServiceType</key>
+							<string>Application</string>
+							<key>_MultipleInstances</key>
+							<true/>
 						</dict>
 					</dict>
 				</dict>
@@ -76181,7 +76679,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1</string>
+						<string>2020.1.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -76205,7 +76703,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1</string>
+						<string>2020.1.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -76351,7 +76849,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>288</string>
+						<string>288.1.4</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -76594,7 +77092,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>370.63</string>
+						<string>370.63.7</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -76813,7 +77311,32 @@
 		<key>/System/Library/Frameworks/PassKit.framework/PassKit</key>
 		<dict>
 			<key>_serviceBundles</key>
-			<array/>
+			<array>
+				<dict>
+					<key>_executablePath</key>
+					<string>/System/Library/Frameworks/PassKit.framework/XPCServices/PassKitWrapperXPCServiceUI.xpc/PassKitWrapperXPCServiceUI</string>
+					<key>_infoPlist</key>
+					<dict>
+						<key>CFBundleExecutable</key>
+						<string>PassKitWrapperXPCServiceUI</string>
+						<key>CFBundleIdentifier</key>
+						<string>com.apple.PassKitWrapperXPCServiceUI</string>
+						<key>CFBundleName</key>
+						<string>PassKitWrapperXPCServiceUI</string>
+						<key>CFBundlePackageType</key>
+						<string>XPC!</string>
+						<key>CFBundleVersion</key>
+						<string>1</string>
+						<key>XPCService</key>
+						<dict>
+							<key>RunLoopType</key>
+							<string>NSRunLoop</string>
+							<key>ServiceType</key>
+							<string>Application</string>
+						</dict>
+					</dict>
+				</dict>
+			</array>
 		</dict>
 		<key>/System/Library/Frameworks/PencilKit.framework/PencilKit</key>
 		<dict>
@@ -76908,7 +77431,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.1.22.10.9</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -77250,7 +77773,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>13091.1.14</string>
+						<string>13114.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -77340,7 +77863,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>593.0.2</string>
+						<string>593.10.1</string>
 						<key>NSPrincipalClass</key>
 						<string>VSDeveloperService</string>
 						<key>XPCService</key>
@@ -77370,7 +77893,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>593.0.2</string>
+						<string>593.10.1</string>
 						<key>NSPrincipalClass</key>
 						<string>VSPrivacyService</string>
 						<key>XPCService</key>
@@ -77434,7 +77957,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>948.2</string>
+						<string>982</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -77584,32 +78107,7 @@
 		<key>/System/Library/Frameworks/_PassKit_SwiftUI.framework/_PassKit_SwiftUI</key>
 		<dict>
 			<key>_serviceBundles</key>
-			<array>
-				<dict>
-					<key>_executablePath</key>
-					<string>/System/Library/Frameworks/_PassKit_SwiftUI.framework/XPCServices/PassKitWrapperXPCServiceUI.xpc/PassKitWrapperXPCServiceUI</string>
-					<key>_infoPlist</key>
-					<dict>
-						<key>CFBundleExecutable</key>
-						<string>PassKitWrapperXPCServiceUI</string>
-						<key>CFBundleIdentifier</key>
-						<string>com.apple.PassKitWrapperXPCServiceUI</string>
-						<key>CFBundleName</key>
-						<string>PassKitWrapperXPCServiceUI</string>
-						<key>CFBundlePackageType</key>
-						<string>XPC!</string>
-						<key>CFBundleVersion</key>
-						<string>1</string>
-						<key>XPCService</key>
-						<dict>
-							<key>RunLoopType</key>
-							<string>NSRunLoop</string>
-							<key>ServiceType</key>
-							<string>Application</string>
-						</dict>
-					</dict>
-				</dict>
-			</array>
+			<array/>
 		</dict>
 		<key>/System/Library/Frameworks/_PermissionKit_SwiftUI.framework/_PermissionKit_SwiftUI</key>
 		<dict>
@@ -77707,6 +78205,11 @@
 			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/AAAFoundationSwift.framework/AAAFoundationSwift</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/AAAFoundationUI.framework/AAAFoundationUI</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -78409,7 +78912,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.100.1.2.9</string>
+						<string>3864.200.81.2.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -78872,7 +79375,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>40.0.3</string>
+						<string>40.1.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>JoinExistingSession</key>
@@ -78883,11 +79386,6 @@
 					</dict>
 				</dict>
 			</array>
-		</dict>
-		<key>/System/Library/PrivateFrameworks/AppMigrationKit.framework/AppMigrationKit</key>
-		<dict>
-			<key>_serviceBundles</key>
-			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/AppNotificationsLoggingClient.framework/AppNotificationsLoggingClient</key>
 		<dict>
@@ -78922,7 +79420,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>619.1.0.2</string>
+						<string>619.10</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -79255,6 +79753,11 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
+		<key>/System/Library/PrivateFrameworks/AppleLatticeSupport.framework/AppleLatticeSupport</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
 		<key>/System/Library/PrivateFrameworks/AppleMSG.framework/AppleMSG</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -79470,7 +79973,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>139</string>
+						<string>140.1.2</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -79824,7 +80327,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>389.100.1.2.1</string>
+						<string>389.200.11</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -79937,7 +80440,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1031.7</string>
+						<string>1032.1.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -79959,7 +80462,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1031.7</string>
+						<string>1032.1.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -80052,7 +80555,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>200.1</string>
+						<string>200.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -80412,7 +80915,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2393.100</string>
+						<string>2400.14.100</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -80700,7 +81203,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>200.1</string>
+						<string>200.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81091,7 +81594,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>802.43.254</string>
+						<string>812.40.117</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81145,13 +81648,23 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>215</string>
+						<string>215.1.7</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
 							<string>NSRunLoop</string>
 							<key>ServiceType</key>
 							<string>Application</string>
+							<key>_AdditionalProperties</key>
+							<dict>
+								<key>RunningBoard</key>
+								<dict>
+									<key>Managed</key>
+									<false/>
+									<key>Reported</key>
+									<false/>
+								</dict>
+							</dict>
 						</dict>
 					</dict>
 				</dict>
@@ -81185,7 +81698,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2300.108</string>
+						<string>2320.10</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81999,6 +82512,28 @@
 				</dict>
 				<dict>
 					<key>_executablePath</key>
+					<string>/System/Library/PrivateFrameworks/CoreMLOdie.framework/XPCServices/CostModelSegmenter.xpc/CostModelSegmenter</string>
+					<key>_infoPlist</key>
+					<dict>
+						<key>CFBundleExecutable</key>
+						<string>CostModelSegmenter</string>
+						<key>CFBundleIdentifier</key>
+						<string>com.apple.ggml.CostModelSegmenter</string>
+						<key>CFBundleName</key>
+						<string>CostModelSegmenter</string>
+						<key>CFBundlePackageType</key>
+						<string>XPC!</string>
+						<key>CFBundleVersion</key>
+						<string>1</string>
+						<key>XPCService</key>
+						<dict>
+							<key>ServiceType</key>
+							<string>Application</string>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>_executablePath</key>
 					<string>/System/Library/PrivateFrameworks/CoreMLOdie.framework/XPCServices/E5MLCompiler.xpc/E5MLCompiler</string>
 					<key>_infoPlist</key>
 					<dict>
@@ -82630,7 +83165,7 @@
 							<string>Application</string>
 							<key>_AllowedClients</key>
 							<array>
-								<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "Luck"</string>
+								<string>identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
 							</array>
 						</dict>
 					</dict>
@@ -82675,17 +83210,17 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>64572.189.1</string>
+						<string>64572.193.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_AllowedClients</key>
 							<array>
-								<string> identifier = com.apple.dt.Instruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "Luck"</string>
-								<string> identifier = com.apple.dt.InstrumentsCLI and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "Luck"</string>
-								<string> identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "Luck"</string>
-								<string> identifier = com.apple.dt.instruments.backgroundinstruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "Luck"</string>
+								<string> identifier = com.apple.dt.Instruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
+								<string> identifier = com.apple.dt.InstrumentsCLI and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
+								<string> identifier = com.apple.DTServiceHub and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
+								<string> identifier = com.apple.dt.instruments.backgroundinstruments and (anchor apple or (anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9])) and info[DTXPCServiceClientToken] = "LuckB"</string>
 							</array>
 							<key>_RoleAccount</key>
 							<string>root</string>
@@ -82802,7 +83337,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>818</string>
+						<string>821.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -82835,7 +83370,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>597</string>
+						<string>599</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -83015,7 +83550,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1827</string>
+						<string>1827.1.10</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -83256,7 +83791,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>372</string>
+						<string>373</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -83494,7 +84029,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>367.0.3</string>
+						<string>367.1.9</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -83964,6 +84499,11 @@
 			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/FamilyControlsObjC.framework/FamilyControlsObjC</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/FamilyControlsSlotSupport.framework/FamilyControlsSlotSupport</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -84841,7 +85381,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>310.33</string>
+						<string>311.2</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -84948,7 +85488,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>13.0.39</string>
+						<string>13.1.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -84976,6 +85516,11 @@
 			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/GamePolicy.framework/GamePolicy</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/GamePolicyFoundation.framework/GamePolicyFoundation</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -85271,6 +85816,11 @@
 					</dict>
 				</dict>
 			</array>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/HRTFEnrollmentPlaceholder.framework/HRTFEnrollmentPlaceholder</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/HSAAuthentication.framework/HSAAuthentication</key>
 		<dict>
@@ -86151,8 +86701,6 @@
 								<key>MallocProbGuard</key>
 								<string>1</string>
 							</dict>
-							<key>ReslideSharedCache</key>
-							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_ExponentialThrottling</key>
@@ -86537,6 +87085,11 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
+		<key>/System/Library/PrivateFrameworks/ImageCaptureDevices.framework/ImageCaptureDevices</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
 		<key>/System/Library/PrivateFrameworks/ImageHarmonizationKit.framework/ImageHarmonizationKit</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -86695,7 +87248,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>200.1</string>
+						<string>200.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -87625,8 +88178,6 @@
 								<key>MallocProbGuard</key>
 								<string>1</string>
 							</dict>
-							<key>ReslideSharedCache</key>
-							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_ExponentialThrottling</key>
@@ -87702,7 +88253,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>4025.110.5</string>
+						<string>4025.210.2</string>
 						<key>RunLoopType</key>
 						<string>dispatch_main</string>
 						<key>XPCService</key>
@@ -87962,7 +88513,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.100.1.2.9</string>
+						<string>3864.200.81.2.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -88020,8 +88571,6 @@
 						<string>1</string>
 						<key>XPCService</key>
 						<dict>
-							<key>ReslideSharedCache</key>
-							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_ExponentialThrottling</key>
@@ -88058,8 +88607,6 @@
 								<key>MallocProbGuard</key>
 								<string>1</string>
 							</dict>
-							<key>ReslideSharedCache</key>
-							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_ExponentialThrottling</key>
@@ -88091,8 +88638,6 @@
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
 						<string>1</string>
-						<key>ReslideSharedCache</key>
-						<true/>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -88626,7 +89171,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1837.2.1</string>
+						<string>1837.40.71</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -88811,7 +89356,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.1.22.10.9</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -88969,7 +89514,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>297</string>
+						<string>302.0.13</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89409,7 +89954,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>360.40</string>
+						<string>361.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89431,7 +89976,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>360.40</string>
+						<string>361.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89453,7 +89998,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>360.40</string>
+						<string>361.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89475,7 +90020,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>360.40</string>
+						<string>361.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89609,7 +90154,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>194.0.3</string>
+						<string>194.40.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89707,7 +90252,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>5739.4</string>
+						<string>5762</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89800,7 +90345,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>5739.4</string>
+						<string>5762</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89822,7 +90367,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>5739.4</string>
+						<string>5762</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89905,7 +90450,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2952.2.1</string>
+						<string>2952.40.13</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -89949,7 +90494,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2952.2.1</string>
+						<string>2952.40.13</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -89973,7 +90518,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2952.2.1</string>
+						<string>2952.40.13</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -90579,7 +91124,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>297</string>
+						<string>302.0.13</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -91229,11 +91774,11 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>32</string>
+						<string>32.2</string>
 						<key>XPCService</key>
 						<dict>
 							<key>Bundel version</key>
-							<string>32</string>
+							<string>32.2</string>
 							<key>RunLoopType</key>
 							<string>dispatch_main</string>
 							<key>ServiceType</key>
@@ -91422,6 +91967,11 @@
 			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/ProductKit.framework/ProductKit</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/ProductKitCore.framework/ProductKitCore</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -92746,7 +93296,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.1.22.10.9</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -92768,7 +93318,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8622.1.22.10.9</string>
+						<string>8622.2.11.10.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -93005,6 +93555,11 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
+		<key>/System/Library/PrivateFrameworks/SensingAlgsPadHostServiceJ8xx.framework/SensingAlgsPadHostServiceJ8xx</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
 		<key>/System/Library/PrivateFrameworks/SensingAlgsService.framework/SensingAlgsService</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -93102,11 +93657,6 @@
 			<array/>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/SensorKitWriting.framework/SensorKitWriting</key>
-		<dict>
-			<key>_serviceBundles</key>
-			<array/>
-		</dict>
-		<key>/System/Library/PrivateFrameworks/SentencePiece.framework/SentencePiece</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -93346,7 +93896,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2093.10.1.2.17</string>
+						<string>2094.20.72.2.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -93381,7 +93931,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2093.10.1.2.17</string>
+						<string>2094.20.72.2.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -94584,6 +95134,11 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
+		<key>/System/Library/PrivateFrameworks/SpotlightDiagnostics.framework/SpotlightDiagnostics</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
 		<key>/System/Library/PrivateFrameworks/SpotlightEmbedding.framework/SpotlightEmbedding</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -95095,6 +95650,11 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
+		<key>/System/Library/PrivateFrameworks/SymptomNetworkDiagnosticsCommon.framework/SymptomNetworkDiagnosticsCommon</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
 		<key>/System/Library/PrivateFrameworks/SymptomNetworkDiagnosticsCore.framework/SymptomNetworkDiagnosticsCore</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -95265,11 +95825,6 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
-		<key>/System/Library/PrivateFrameworks/Tabi.framework/Tabi</key>
-		<dict>
-			<key>_serviceBundles</key>
-			<array/>
-		</dict>
 		<key>/System/Library/PrivateFrameworks/TailspinSymbolication.framework/TailspinSymbolication</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -95367,8 +95922,6 @@
 								<key>MallocProbGuard</key>
 								<string>1</string>
 							</dict>
-							<key>ReslideSharedCache</key>
-							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_ExponentialThrottling</key>
@@ -95646,6 +96199,45 @@
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/ThumbnailsBlastDoorSupport.framework/ThumbnailsBlastDoorSupport</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array>
+				<dict>
+					<key>_executablePath</key>
+					<string>/System/Library/PrivateFrameworks/ThumbnailsBlastDoorSupport.framework/XPCServices/ThumbnailsBlastDoorService.xpc/ThumbnailsBlastDoorService</string>
+					<key>_infoPlist</key>
+					<dict>
+						<key>CFBundleAllowMixedLocalizations</key>
+						<true/>
+						<key>CFBundleExecutable</key>
+						<string>ThumbnailsBlastDoorService</string>
+						<key>CFBundleIdentifier</key>
+						<string>com.apple.ThumbnailsBlastDoorService</string>
+						<key>CFBundleName</key>
+						<string>ThumbnailsBlastDoorService</string>
+						<key>CFBundlePackageType</key>
+						<string>XPC!</string>
+						<key>CFBundleVersion</key>
+						<string>1</string>
+						<key>XPCService</key>
+						<dict>
+							<key>ReslideSharedCache</key>
+							<true/>
+							<key>ServiceType</key>
+							<string>Application</string>
+							<key>_ExponentialThrottling</key>
+							<true/>
+							<key>_UrgentLogSubmission</key>
+							<dict>
+								<key>CheckedAllocations</key>
+								<true/>
+							</dict>
+						</dict>
+					</dict>
+				</dict>
+			</array>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/Tightbeam.framework/Tightbeam</key>
 		<dict>
@@ -95964,7 +96556,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1014</string>
+						<string>1015.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -95986,7 +96578,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1014</string>
+						<string>1015.6</string>
 						<key>NSPrincipalClass</key>
 						<string>_NSAttributedStringAgentService</string>
 						<key>XPCService</key>
@@ -96086,11 +96678,6 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
-		<key>/System/Library/PrivateFrameworks/UIKitSwiftUIComponents.framework/UIKitSwiftUIComponents</key>
-		<dict>
-			<key>_serviceBundles</key>
-			<array/>
-		</dict>
 		<key>/System/Library/PrivateFrameworks/UITriggerVC.framework/UITriggerVC</key>
 		<dict>
 			<key>_serviceBundles</key>
@@ -96139,7 +96726,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>23.1.31</string>
+						<string>23.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -96591,7 +97178,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>294.100.1.2.1</string>
+						<string>295.200.71.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -96599,8 +97186,6 @@
 								<key>MallocProbGuard</key>
 								<string>1</string>
 							</dict>
-							<key>ReslideSharedCache</key>
-							<true/>
 							<key>ServiceType</key>
 							<string>Application</string>
 							<key>_ExponentialThrottling</key>
@@ -96940,7 +97525,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>4033.0.3.5</string>
+						<string>4042.0.4</string>
 						<key>NSHealthShareUsageDescription</key>
 						<string>Shortcuts needs access to your health data in order to run health-related actions.</string>
 						<key>NSHealthUpdateUsageDescription</key>
@@ -97174,7 +97759,12 @@
 			<key>_serviceBundles</key>
 			<array/>
 		</dict>
-		<key>/System/Library/PrivateFrameworks/_OnDeviceStorage_JavaScriptCore.framework/_OnDeviceStorage_JavaScriptCore</key>
+		<key>/System/Library/PrivateFrameworks/_OnDeviceStorage_JetEngine.framework/_OnDeviceStorage_JetEngine</key>
+		<dict>
+			<key>_serviceBundles</key>
+			<array/>
+		</dict>
+		<key>/System/Library/PrivateFrameworks/_PhotosUIPrivate_SwiftUI.framework/_PhotosUIPrivate_SwiftUI</key>
 		<dict>
 			<key>_serviceBundles</key>
 			<array/>
@@ -97237,7 +97827,7 @@
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>4257.2.1</string>
+						<string>4257.40.69</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>

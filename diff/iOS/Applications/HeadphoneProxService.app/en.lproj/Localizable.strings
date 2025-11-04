@@ -21,6 +21,7 @@
 "CHARGING_AIRPODS_TITLE_SUBTITLE" = "The AirPods charging case now more clearly indicates charging status and AirPods will remind you when it's time to charge.";
 "MISMATCH_AIRPODS_SUBTITLE" = "The AirPods in the charging case are different generations and do not work together.";
 "CONNECT_TO_IPAD" = "Connect to iPad";
+"CHARGING" = "CHARGING";
 "TEMP_PAIRING_SUBTITLE" = "%@ temporarily connected";
 "TRACK_WORKOUT_PRIMARY_BUTTON" = "Continue";
 "CHARGING_CASE" = "Charging Case";
@@ -46,7 +47,7 @@
 "NOW_SHARING_SUBTITLE" = "You can now listen to music, watch video, or play games together.";
 "CONNECTING_PRIVACY_DISCLAIMER" = "Apple collects hardware identifiers from your AirPods to provide your warranty, to protect you and Apple from fraud, and to improve relevant products.";
 "SPATIAL_AUDIO" = "Spatial Audio";
-"TRACK_WORKOUT_TITLE" = "Track a Workout with Heart Rate";
+"TRACK_WORKOUT_TITLE" = "Track a Workout with Heart Rate";
 "AIRPOD_INSTALL_FIND_MY_TITLE" = "Install Find My";
 "SOFTWARE_UPDATE" = "Software Update";
 "AIRPODS_LINKING_TITLE_v2" = "AirPods are Linked to Your Apple Account";
@@ -81,6 +82,7 @@
 "OBC_TURN_OFF" = "Charge to Full Now";
 "OBC_LABEL" = "Optimized Battery Charging
 AirPods scheduled to finish charging by %@";
+"CHARGE_CASE" = "CHARGE CASE";
 "SPATIAL_AUDIO_PROFILE_BUTTON_TITLE" = "Get Started";
 "AIRPODS_LINKING_WARNING" = "Your AirPods will be associated with your Apple ID account information.";
 "NOT_YOUR_AIRPODS_INFO_IPAD" = "AirPods not connected to this iPad.";
@@ -89,6 +91,7 @@ AirPods scheduled to finish charging by %@";
 "SPATIAL_AUDIO_PROFILE_SUBTITLE" = "Use your iPhone to scan your ear geometry for improved spatial audio.";
 "NOT_NOW" = "Not Now";
 "SET_UP_LATER" = "Set Up Later";
+"CHARGED" = "CHARGED";
 "CONTINUE" = "Continue";
 "CONNECT_TO_IPHONE" = "Connect to iPhone";
 "REPAIR_INSTRUCTIONS_INSIDE" = "Press and hold the button inside the charging case for 5 seconds.";

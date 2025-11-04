@@ -21,6 +21,7 @@
 		<string>^.*RegionalSafetyAnalysis\.Disablement.*$</string>
 		<string>^.*RegionalSafetyAnalysis\.KeywordID.*$</string>
 		<string>^.*RegionalSafetyAnalysis\.Eligibility.*$</string>
+		<string>^.*RegionalSafetyAnalysis\.LiteViolationData.*$</string>
 	</array>
 	<key>FED_STATS_BIOME_AI_SAFETY_SHORTCUTS</key>
 	<array>
@@ -63,8 +64,9 @@
 	</array>
 	<key>FED_STATS_BIOME_COMM_SAFETY</key>
 	<array>
-		<string>^WITH mainTable AS \(SELECT ((action|clientBundleID|interactionType|CASE WHEN contentType THEN contentType ELSE ABS\(RANDOM\(\)\) % 3 END AS contentType|CASE WHEN ageGroup THEN ageGroup ELSE ABS\(RANDOM\(\)\) % 4 END AS ageGroup|CASE WHEN eventDirection THEN eventDirection ELSE ABS\(RANDOM\(\)\) % 4 END AS eventDirection), )*(action|clientBundleID|interactionType|CASE WHEN contentType THEN contentType ELSE ABS\(RANDOM\(\)\) % 3 END AS contentType|CASE WHEN ageGroup THEN ageGroup ELSE ABS\(RANDOM\(\)\) % 4 END AS ageGroup|CASE WHEN eventDirection THEN eventDirection ELSE ABS\(RANDOM\(\)\) % 3 END AS eventDirection) FROM 'SensitiveContentAnalysis\.UIInteraction' FULL OUTER JOIN \(SELECT COUNT\(eventTimestamp\) != 0 AS hasMediaEvent FROM 'SensitiveContentAnalysis\.MediaAnalysis'\) WHERE hasMediaEvent\) SELECT (COUNT\(\*\) AS eventCount, )?(((action|clientBundleID|interactionType|contentType|ageGroup|eventDirection), )*(action|clientBundleID|interactionType|contentType|ageGroup|eventDirection)) FROM mainTable( GROUP BY \5)?$</string>
-		<string>^SELECT (((isSensitive|contentType|ageGroup|clientBundleID), )*)(isSensitive|contentType|ageGroup|clientBundleID)(, COUNT\(eventTimestamp\) AS eventCount)? FROM 'SensitiveContentAnalysis.MediaAnalysis' FULL OUTER JOIN \(SELECT COUNT\(eventTimestamp\) != 0 AS hasMediaEvent FROM 'SensitiveContentAnalysis.MediaAnalysis'\) WHERE hasMediaEvent( GROUP BY \1\4)?$</string>
+		<string>^.*SensitiveContentAnalysis.MediaAnalysis.*$</string>
+		<string>^.*SensitiveContentAnalysis.ContentInteractionFlow.*$</string>
+		<string>^.*SensitiveContentAnalysis.ResourcesInteraction.*$</string>
 	</array>
 	<key>FED_STATS_BIOME_CORE_MOTION</key>
 	<array>
@@ -84,6 +86,10 @@
 	<key>FED_STATS_BIOME_HEALTH</key>
 	<array>
 		<string>^.*Health.Medications.AddedMed.*$</string>
+	</array>
+	<key>FED_STATS_BIOME_HOLD_ASSIST</key>
+	<array>
+		<string>^.*CommApps.CallIntelligence.HoldAssistFedStats.*$</string>
 	</array>
 	<key>FED_STATS_BIOME_KEYBOARD</key>
 	<array>

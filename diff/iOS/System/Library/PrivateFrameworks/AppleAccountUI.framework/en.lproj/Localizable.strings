@@ -238,7 +238,6 @@
 "com.apple.Dataclass.Notes" = "Notes";
 "com.apple.Dataclass.Siri" = "Siri";
 "GO_BACK" = "Go Back";
-"RC_SETUP_UPGRADE_DEVICE_MESSAGE" = "Before you can add a recovery contact, all of your devices must be running iOS 15, iPadOS 15, watchOS 8, or macOS Monterey or later.";
 "SIGN_OUT_CONFIRMATION_BUTTON" = "Sign Out";
 "DEVICE_LOCATOR_TITLE" = "Find My iPhone Enabled";
 "SIGN_OUT_TITLE_VISION" = "Keep a copy of your data on this Apple Vision Pro?";
@@ -400,6 +399,7 @@
 "SIGN_IN_CONTINUE_USING_TITLE" = "Set up %@ as %@?";
 "First Name" = "First Name";
 "SIGN_IN_SUBTITLE_ICLOUD" = "Sign in with an email or phone number to use iCloud.";
+"SIGN_OUT" = "Sign Out";
 "CONTACT_PHOTO_ACCESSIBILITY_LABEL" = "Contact Photo";
 "SERVER_NO_CREDENTIALS_TITLE" = "Authentication Failed";
 "RECOVERY_CONTACTS_VIEW_DESCRIPTION_TEXT" = "If you lose access to your account, a recovery contact can help get your account and data back. Your device passcodes can be used to recover end-to-end encrypted data. If you forget your passcode, you’ll need a recovery contact or recovery key.";
@@ -414,6 +414,7 @@
 "SIGN_IN" = "Sign In";
 "SIGN_IN_SUBTITLE" = "Sign in with an email or phone number to use iCloud, the App Store, Messages, or other Apple services.";
 "Continue Anyway and Merge" = "Continue Anyway and Merge";
+"BIRTHDAY_PICKER_WARNING" = "Warning";
 "BIOMETRIC_RATCHET_COUNTDOWN_TEXT_DELETE_RC" = "You will get a notification when the security delay ends. You will then be able to remove your recovery contact.";
 "DEVICE_LOCATOR_UNKNOWN" = "Find My Device";
 "LEARN_MORE_ELLIPSIS" = "Learn more…";

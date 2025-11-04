@@ -55,7 +55,7 @@ App explanation for while using: “%@”";
 "LOCATION_CLIENT_PERMISSION_EXPLANATION_FOR_LOCATION_BUTTONS" = "When you share your location with this app, a blue location indicator will appear in the status bar.";
 "LOCATION_CLIENT_PERMISSION_LEARNED_ROUTES_USAGE_DESCRIPTION" = "This gives the app access to the routes you take most frequently and destinations you’re likely to visit.
 
-Preferred routes and predicted destinations are learned by and stored privately on your device. Only the apps you choose can access them.";
+Preferred routes and predicted destinations are learned by and stored privately on your device. Only the apps you choose can access them.";
 "LOCATION_CLIENT_PERMISSION_UPGRADE_WHENINUSE_ALWAYS_MESSAGE_LOCKSCREEN" = "“%@” would like to use your location even when you are not using the app.";
 "LOCATION_CLIENT_PERMISSION_WHENINUSE_BUTTON" = "Allow While Using App";
 "LOCATION_CLIENT_PERMISSION_MESSAGE_REDUCED" = "App explanation for always: “%@”
@@ -68,6 +68,6 @@ If you only allow use of your location while you are using the app, some feature
 "DONT_ALLOW" = "Don’t Allow";
 "LOCATION_CLIENT_PERMISSION_ONETIME_BUTTON" = "Allow Once";
 "LOCATION_CLIENT_PERMISSION_OK" = "Allow";
-"LOCATION_CLIENT_PERMISSION_TITLE_FOR_LEARNED_ROUTES_BUTTONS" = "Allow “%@” to access your preferred routes and predicted destinations?";
+"LOCATION_CLIENT_PERMISSION_TITLE_FOR_LEARNED_ROUTES_BUTTONS" = "Allow “%@” to access your preferred routes and predicted destinations?";
 "LOCATION_CLIENT_PERMISSION_ALLOW_LEARNED_ROUTES_BUTTON" = "Allow";
 "OK" = "OK";

@@ -17,8 +17,8 @@ At all times, information received by Apple will be treated in accordance with A
 "END_TESTING" = "End Testing";
 "ENHANCED_LOGGING_UPLOADING_INFO_PERCENTAGE" = "%d%% Complete";
 "ENHANCED_LOGGING_FACETIME_DESCRIPTION" = "The generated files allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including device identifiers; contact names; phone numbers used in FaceTime and Messages, third-party CallKit apps, third-party CallKit extensions using Messages, and calls made with Siri; Apple IDs of the accounts on the device; and logs of incoming and outgoing calls and audio routes.";
-"ENHANCED_LOGGING_RUNNING_SUBTITLE_VISION" = "You can use your Apple Vision Pro as you normally would. You’ll get an alert when it’s finished.";
 "ENHANCED_LOGGING_UPLOADING_SUBTITLE_WLAN_IPOD" = "You can use your iPod as you normally would. Uploading will continue in the background when connected to WLAN.";
+"ENHANCED_LOGGING_RUNNING_SUBTITLE_VISION" = "You can use your Apple Vision Pro as you normally would. You’ll get an alert when it’s finished.";
 "SSD_SUITE_PICKER_SUBTITLE_IPOD" = "Choose a diagnostic to help identify potential hardware or software issues with this iPod.";
 "DIAGNOSTICS_COMPLETE_SUBTITLE_IPOD" = "Your session with Apple Support is now complete. You may return to using your iPod as normal.";
 "ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_IPAD" = "You can use your iPad as you normally would. Uploading will continue in the background when connected to Wi-Fi.";
@@ -60,8 +60,8 @@ At all times, information received by Apple will be treated in accordance with A
 "ENHANCED_LOGGING_BODY_IMMEDIATE" = "To better understand the issue you are experiencing, we need to collect additional diagnostic logs. When we are done, the diagnostic logs will be sent to Apple.";
 "ENHANCED_LOGGING_TYPOLOGY" = "Typology Logs";
 "ENHANCED_LOGGING_DIAGNOSTICS_DESCRIPTION" = "The analytics data may include details about hardware and operating system specifications, performance statistics, and data about how you use your devices and applications. If you have Location Services turned on, the data may include locations such as the location of your devices once per day, the location where a call ends, or the location of a failed in-store transaction.";
-"TERMS_AND_CONDITIONS_MULTI" = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time, for the purposes described in this consent and related consents, the following diagnostic data from this device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; performance data from the device, parts, and paired accessories; device name; connected wireless and wired networks; daily count of call attempts; call duration; and app usage data. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services. If the device is being inspected for trade-in, Apple will additionally collect photos of the device’s physical condition, which may be linked to the device serial number and diagnostic data, to determine the device's trade-in value and to improve Apple products and services. You may also send diagnostic logs to Apple to troubleshoot issues with applications and features on your device and to help improve Apple products and services.
-For information on Apple's Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
+"TERMS_AND_CONDITIONS_MULTI" = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time, for the purposes described in this consent and related consents, the following diagnostic data from this device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; performance data from the device, parts, and paired accessories; device name; connected wireless and wired networks; daily count of call attempts; call duration; and app usage data. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services. If the device is being inspected for trade-in, Apple will additionally collect photos of the device’s physical condition, which may be linked to the device serial number and diagnostic data, to determine the device’s trade-in value and to improve Apple products and services. You may also send diagnostic logs to Apple to troubleshoot issues with applications and features on your device and to help improve Apple products and services.
+For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
 "ENHANCED_LOGGING_UPLOAD_FAILED_SUBTITLE" = "Your enhanced logging session was unable to send logs due to an error. Please contact Apple Support to try again.";
 "ENHANCED_LOGGING_MEGAWIFI_WAPI" = "WLAN Diagnostics Logs";
 "ELS_HEALTH_CONSENT_MINDFULNESS_TITLE" = "Mindfulness app: Follow Your Breathing";
@@ -76,7 +76,7 @@ For information on Apple's Privacy Policy, see https://www.apple.com/legal/priva
 "ENHANCED_LOGGING_NEBULA_PHONE_SENSITIVE_INFORMATION" = "Sleep apnea detection state, breathing disturbance value, start and end date used to compute the breathing disturbance value…";
 "ENHANCED_LOGGING_AUTHKIT" = "Accounts and Authentication Logging";
 "TERMS_AND_CONDITIONS_CB" = "By tapping “Agree,” you agree that Apple may collect and retain for a limited time the following diagnostic data from this device: identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; and performance data from the device, parts, and paired accessories. Apple and its partners may use the diagnostic data to: troubleshoot issues; verify, calibrate, and link parts to your device to optimize part performance, provide part information to you, and prevent fraud against you or Apple; ensure security of your device and parts; determine warranty coverage; and improve Apple products and services.
-For information on Apple's Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
+For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
 "NEXT" = "Next";
 "DISMISS" = "Dismiss";
 "HOW_CAN_WE_HELP_YOU" = "How can we help you?";
@@ -99,23 +99,23 @@ By agreeing to this consent, you are consenting to Apple’s and its subsidiarie
 
 At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
 "ENHANCED_LOGGING_NEBULA_PHONE" = "Sleep Apnea / Breathing Disturbances";
-"ENHANCED_LOGGING_WALLET_DESCRIPTION" = "The Wallet and Apple Pay logs generate files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including information about your Wallet and Apple Pay usage, such as the names of the passes in your Wallet, your location when using Wallet, transaction data, unique identifiers which are used to push Wallet notifications to your device, the number of payment cards, passes, or digital keys set up on your account, transaction status or error information, a unique hardware identifier for your device, any devices you pair your device with (digital car key), actions you perform (such as locking or sharing keys for digital car key), and personal information including email addresses or phone numbers about persons with whom you’ve shared your passes (digital car key). The generated files will not otherwise contain any of the content of your cards and passes. At all times, information received by Apple will be treated in accordance with Apple's Privacy Policy, which can be found at www.apple.com/privacy";
+"ENHANCED_LOGGING_WALLET_DESCRIPTION" = "The Wallet and Apple Pay logs generate files that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including information about your Wallet and Apple Pay usage, such as the names of the passes in your Wallet, your location when using Wallet, transaction data, unique identifiers which are used to push Wallet notifications to your device, the number of payment cards, passes, or digital keys set up on your account, transaction status or error information, a unique hardware identifier for your device, any devices you pair your device with (digital car key), actions you perform (such as locking or sharing keys for digital car key), and personal information including email addresses or phone numbers about persons with whom you’ve shared your passes (digital car key). The generated files will not otherwise contain any of the content of your cards and passes. At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy";
 "NETWORK_UNAVAILABLE_WIFI_MESSAGE_CB" = "You must connect to a Wi‑Fi network to continue your session.";
-"ELS_HEALTH_CONSENT_SIGN_SUBTITLE" = "Enter your full name, sign using your finger, and then tap "Consent"";
-"ENHANCED_LOGGING_LOCATION_AND_MOTION_SENSITIVE_INFORMATION_WAPI" = "Precise location information, motion data including raw motion sensor data…";
 "SSD_SUITE_PICKER_SUBTITLE_IPAD" = "Choose a diagnostic to help identify potential hardware or software issues with this iPad.";
-"SUITE_COMPLETED_TITLE" = "Completed";
+"ELS_HEALTH_CONSENT_SIGN_SUBTITLE" = "Enter your full name, sign using your finger, and then tap "Consent"";
+"ABOUT_THIS_TEST" = "About This Test";
+"ENHANCED_LOGGING_LOCATION_AND_MOTION_SENSITIVE_INFORMATION_WAPI" = "Precise location information, motion data including raw motion sensor data…";
 "ALREADY_IN_SESSION_ALERT_TITLE" = "Could Not Start Diagnostics";
 "ENHANCED_LOGGING_PERFORMANCE" = "Performance Logs";
 "ELS_HEALTH_CONSENT_KALI_TITLE" = "Wrist Temperature Consent";
-"ABOUT_THIS_TEST" = "About This Test";
+"SUITE_COMPLETED_TITLE" = "Completed";
 "ENHANCED_LOGGING_UPLOADING_SUBTITLE_WLAN_IPHONE" = "You can use your iPhone as you normally would. Uploading will continue in the background when connected to WLAN.";
 "41_CASE" = "41mm Case";
 "NO" = "No";
 "ELS_HEALTH_CONSENT_OPTICAL_TITLE" = "Optical Features Consent";
 "ENHANCED_LOGGING_MINDFULNESS_SENSITIVE_INFORMATION" = "Respiration time series data and Mindfulness playback state information";
-"ENHANCED_LOGGING_CELLULAR_WARNING_TITLE" = "Send Using Cellular";
 "SSD_SUITE_PICKER_SUITE_DURATION" = "Approximately %@";
+"ENHANCED_LOGGING_CELLULAR_WARNING_TITLE" = "Send Using Cellular";
 "ENHANCED_LOGGING_COMPLETE_SUBTITLE_ERROR" = "An enhanced logging session was recently completed, and the logs were successfully sent. Thank you for helping to make our products even better.";
 "ENHANCED_LOGGING_RUNNING_SUBTITLE_GENERIC" = "You can use your device as you normally would. You’ll get an alert when it’s finished.";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WIFI_VISION" = "This may take a few minutes. Keep this Apple Vision Pro connected to Wi-Fi until the configuration is finished.";
@@ -124,7 +124,7 @@ At all times, information received by Apple will be treated in accordance with A
 "EXIT_DIAGNOSTICS_TITLE" = "Exit Diagnostics?";
 "DIAGNOSTICS_COMPLETE_SUBTITLE_IPHONE" = "Your session with Apple Support is now complete. You may return to using your iPhone as normal.";
 "DONE" = "Done";
-"ELS_HEALTH_CONSENT_CYCLE_TRACKING_CONTENT" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your menstrual cycle and fertility window estimates are established on your iPhone / Apple Watch. The generated data includes the details of your cycle information logged on device and other details including, for example, birthdate, menstrual flow, spotting, cycle factors (pregnancy, lactation, and contraceptive use), ovulation test results, period predictions, fertile window predictions, and menstrual deviations. In addition, if you have used Apple Watch, the data may include heart rate measurements, the details of your wrist temperature on device, associated system state changes such as bluetooth, WiFi, and cellular activity data; wrist temperature measurements; system power; sleep state; and wrist state changes. These logs may include data that could personally identify you.
+"ELS_HEALTH_CONSENT_CYCLE_TRACKING_CONTENT" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your menstrual cycle and fertility window estimates are established on your iPhone / Apple Watch. The generated data includes the details of your cycle information logged on device and other details including, for example, birthdate, menstrual flow, spotting, cycle factors (pregnancy, lactation, and contraceptive use), ovulation test results, period predictions, fertile window predictions, and menstrual deviations. In addition, if you have used Apple Watch, the data may include heart rate measurements, the details of your wrist temperature on device, associated system state changes such as bluetooth, Wi‑Fi, and cellular activity data; system power; sleep state; and wrist state changes. These logs may include data that could personally identify you.
 
 The logs will include current and historic log data dating from when you first began using the logs related to your use of this feature. You will be able to turn off logging at any time while the logs are being collected by tapping the close icon (x) and selecting “End Upload” to exit the logging session. You can also turn off logging by navigating to Settings > Privacy & Security > Analytics & Improvements > View Enhanced Logging Session > tap the close icon (x) > and select “End Upload”. You will be able to review the log files prior to sending them to Apple. Your data will be retained for as long as necessary to troubleshoot issues with the features and to comply with applicable legal and regulatory obligations, but no longer than the life of the device plus 10 years.
 
@@ -194,11 +194,12 @@ The logs could collect the following information: ECG sensor data, ECG waveform 
 "ENHANCED_LOGGING_SEND_WIFI" = "Send to Apple";
 "ENHANCED_LOGGING_AUTHKIT_DESCRIPTION" = "The generated log files include information about your accounts and device and may contain information that could be considered your personal information. This may include information of your configured accounts, such as the username and email address associated with the account; your device information, such as the serial number, phone number, other unique identifiers associated with the device, and user device metadata; Apple Account authentication information, such as when you are asked to authenticate, whether the authentication succeeded or failed, and your authentication activity on other devices; Apple Account URL traffic information, such as the URLs of requests going to iCloud, Game Center and other Apple Account-based services; timestamps; app identifiers; and iCloud record identifiers.";
 "ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_IPHONE" = "You can use your iPhone as you normally would. Uploading will continue in the background when connected to Wi-Fi.";
-"UNKNOWN_ERROR" = "An unknown error occurred.";
 "ENHANCED_LOGGING_CELLULAR_WARNING_BODY" = "This option will use cellular data to send logs when you are not connected to Wi-Fi. This may cause you to exceed your cellular data plan. Contact your carrier for more information about possible charges.";
+"UNKNOWN_ERROR" = "An unknown error occurred.";
 "EXIT_DIAGNOSTICS_SUSPEND_MESSAGE" = "This may interrupt your diagnostic session with Apple Support.";
 "44_CASE" = "44mm Case";
 "RUNNING_DIAGNOSTICS" = "Running Diagnostics";
+"ELS_DEVICE_SELECTOR_DEVICE_NO_DEVICES_FOUND" = "No devices found";
 "ELS_HEALTH_CONSENT_SIGN_CLEAR" = "Clear";
 "ENHANCED_LOGGING_WALLET" = "Wallet & Apple Pay Logs";
 "ENHANCED_LOGGING_FAILED_ALERT_TITLE" = "Enhanced Logging Failed";
@@ -211,7 +212,7 @@ The logs could collect the following information: ECG sensor data, ECG waveform 
 "ENHANCED_LOGGING_CELLULAR_DESCRIPTION" = "The generated files may contain some of your personal information, including contents of SMS’s, device identifiers and names, phone numbers of the registering device, Apple Accounts into which you are signed, and logs of incoming and outgoing calls and audio routes.";
 "THANK_YOU" = "Thank You";
 "ENHANCED_LOGGING_COSYSDIAGNOSE_SENSITIVE_INFORMATION" = "IP address, file names, recent system activity…";
-"ELS_HEALTH_CONSENT_CYCLE_TRACKING_CONTENT_WAPI" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your menstrual cycle and fertility window estimates are established on your iPhone / Apple Watch. The generated data includes the details of your cycle information logged on device and other details including, for example, birthdate, menstrual flow, spotting, cycle factors (pregnancy, lactation, and contraceptive use), ovulation test results, period predictions, fertile window predictions, and menstrual deviations. In addition, if you have used Apple Watch, the data may include heart rate measurements, the details of your wrist temperature on device, associated system state changes such as bluetooth, WLAN, and cellular activity data; wrist temperature measurements; system power; sleep state; and wrist state changes. These logs may include data that could personally identify you.
+"ELS_HEALTH_CONSENT_CYCLE_TRACKING_CONTENT_WAPI" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your menstrual cycle and fertility window estimates are established on your iPhone / Apple Watch. The generated data includes the details of your cycle information logged on device and other details including, for example, birthdate, menstrual flow, spotting, cycle factors (pregnancy, lactation, and contraceptive use), ovulation test results, period predictions, fertile window predictions, and menstrual deviations. In addition, if you have used Apple Watch, the data may include heart rate measurements, the details of your wrist temperature on device, associated system state changes such as bluetooth, WLAN, and cellular activity data; system power; sleep state; and wrist state changes. These logs may include data that could personally identify you.
 
 The logs will include current and historic log data dating from when you first began using the logs related to your use of this feature. You will be able to turn off logging at any time while the logs are being collected by tapping the close icon (x) and selecting “End Upload” to exit the logging session. You can also turn off logging by navigating to Settings > Privacy & Security > Analytics & Improvements > View Enhanced Logging Session > tap the close icon (x) > and select “End Upload”. You will be able to review the log files prior to sending them to Apple. Your data will be retained for as long as necessary to troubleshoot issues with the features and to comply with applicable legal and regulatory obligations, but no longer than the life of the device plus 10 years.
 
@@ -227,11 +228,11 @@ At all times, information received by Apple will be treated in accordance with A
 "ENHANCED_LOGGING_COSYSDIAGNOSE_DESCRIPTION" = "The generated files may contain personal information found on your device or associated with your iCloud accounts, including but not limited to your name, serial numbers of your device, your device name, your attached peripheral devices, your user name, your email address and email settings, file paths, file names, your device’s IP addresses, and network connection information.";
 "SSD_RUN_DIAGNOSTICS_DETAILS_VISION" = "Tap to identify potential hardware or software issues with this Apple Vision Pro.";
 "ENHANCED_LOGGING_HID_CYCLE_DESCRIPTION" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your menstrual cycle and fertility window estimates are established on your iPhone / Apple Watch. The generated data includes the details of your cycle information logged on device including, for example, heart rate measurements, wrist temperature measurements, birthdate, menstrual flow, spotting, cycle factors (pregnancy, lactation, and contraceptive use), ovulation test results, period predictions, and fertile window predictions.";
-"ENHANCED_LOGGING_WRIST_DETECT_STATE_ARCHIVE" = "Wrist State History";
+"SSR_IN_PROGRESS_SCREEN_TITLE" = "Configuring…";
 "ENHANCED_LOGGING_NEBULA_WATCH" = "Sleep Apnea / Breathing Disturbances";
+"ENHANCED_LOGGING_WRIST_DETECT_STATE_ARCHIVE" = "Wrist State History";
 "ALL_TESTS_COMPLETE" = "All Tests Completed";
 "ENHANCED_LOGGING_LOCATION_AND_MOTION_SENSITIVE_INFORMATION" = "Precise location information, motion data including raw motion sensor data…";
-"SSR_IN_PROGRESS_SCREEN_TITLE" = "Configuring…";
 "ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_MINUTES" = "Did the reported issue occur within the last %@?";
 "YES" = "Yes";
 "ENHANCED_LOGGING_POWER_WAPI" = "Power Logs";
@@ -247,13 +248,13 @@ At all times, information received by Apple will be treated in accordance with A
 Data Collected
 
 The logs could collect the following information: heart rate measurements, wrist state changes, workout data, blood oxygen saturation level, barometric pressure, Breathe sessions, beat-to-beat heart rate measurements, optical sensor data (such as indicative of heart rate and wrist detection), heart rate notification settings, sleep related settings and results, respiration rate data, beat-to-beat measurements for the past 30 days, logs indicating motion";
-"SKIP_SUITE" = "Are you sure you want to skip “%@”?";
 "ENHANCED_LOGGING_UPLOADING_TITLE" = "Sending Logs to Apple";
+"SKIP_SUITE" = "Are you sure you want to skip “%@”?";
 "SSR_RUN_REPAIR" = "Finish Repair";
 "ENHANCED_LOGGING_WILL_COMPLETE_AROUND" = "Your logging will complete around: %@";
 "CLOSE" = "Close";
-"ENHANCED_LOGGING_WRIST_DETECT_STATE_ARCHIVE_DESCRIPTION" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with the performance of features that rely on the wrist status of the Apple Watch and helps Apple to improve its products and services. The generated files may include wrist and charger state history generated on the Apple Watch in the past 7 days.";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WLAN_IPHONE" = "This may take a few minutes. Keep this iPhone connected to WLAN until the configuration is finished.";
+"ENHANCED_LOGGING_WRIST_DETECT_STATE_ARCHIVE_DESCRIPTION" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with the performance of features that rely on the wrist status of the Apple Watch and helps Apple to improve its products and services. The generated files may include wrist and charger state history generated on the Apple Watch in the past 7 days.";
 "DIAGNOSTICS_CB" = "Diagnostics & Repair";
 "START_DIAGNOSTICS_TV" = "Select Agree below to start diagnostics on Apple TV.";
 "ENHANCED_LOGGING_HID_ECG" = "ECG";
@@ -286,12 +287,12 @@ The logs could collect the following information: heart rate measurements, wrist
 "AIRPODS_CONNECTION_LOST_IPOD" = "Disconnected from iPod.";
 "ENHANCED_LOGGING_UPLOADING_SUBTITLE_WIFI_GENERIC" = "You can use your device as you normally would. Uploading will continue in the background when connected to Wi-Fi.";
 "GO_BACK" = "Go Back";
-"EXIT_DIAGNOSTICS_CANCEL_MESSAGE" = "This will end your diagnostic session with Apple Support.";
+"SSR_IN_PROGRESS_SCREEN_SUBTITLE_WIFI_IPHONE" = "This may take a few minutes. Keep this iPhone connected to Wi-Fi until the configuration is finished.";
 "ENHANCED_LOGGING_MEGAWIFI_SENSITIVE_INFORMATION_WAPI" = "WLAN network communications content and identifiers of nearby WLAN connected devices.";
 "ENHANCED_LOGGING_READY_SEND_NO_OCCUR_BODY_WLAN" = "The following diagnostic logs will be sent to Apple over WLAN. Though your issue did not occur, the logs will be used to improve our products. Thank you for helping to make our products even better.";
-"ENHANCED_LOGGING_MOBILEMAIL" = "Mail Logging";
+"EXIT_DIAGNOSTICS_CANCEL_MESSAGE" = "This will end your diagnostic session with Apple Support.";
 "ENHANCED_LOGGING_BODY_HOURS" = "To better understand the issue you are experiencing, we need to collect additional diagnostic logs over the next %@. You will be able to turn off logging at any time by exiting the logging session. When we are done, the diagnostics logs will not leave the device unless you choose to send the results to Apple.";
-"SSR_IN_PROGRESS_SCREEN_SUBTITLE_WIFI_IPHONE" = "This may take a few minutes. Keep this iPhone connected to Wi-Fi until the configuration is finished.";
+"ENHANCED_LOGGING_MOBILEMAIL" = "Mail Logging";
 "ELS_HEALTH_CONSENT_SIGN_REQUIRED" = "Required";
 "ENHANCED_LOGGING_FOLLOWUP_QUESTION_BODY_MINUTE" = "Did the reported issue occur within the last minute?";
 "ENHANCED_LOGGING_FACETIME" = "Phone/FaceTime";
@@ -333,14 +334,13 @@ Visit www.apple.com/support";
 "UNSUPPORTED" = "Unsupported";
 "ENHANCED_LOGGING_SEND_AUTOMATICALLY" = "Collect and Send Logs";
 "ENHANCED_LOGGING_CELLULAR_SENSITIVE_INFORMATION" = "Call history, SMS contents, Apple Account information…";
-"WLAN_REQUIRED" = "%@ requires a WLAN connection. Connect to WLAN to continue.";
 "ENHANCED_LOGGING_HID_CYCLE_SENSITIVE_INFORMATION" = "birthdate, menstrual flow, spotting, cycle factors (pregnancy, lactation, contraceptive use), ovulation test results, period predictions, fertile window predictions, heart rate measurements, wrist temperature measurements…";
 "ENHANCED_LOGGING_HID_KALI" = "Wrist Temperature";
+"WLAN_REQUIRED" = "%@ requires a WLAN connection. Connect to WLAN to continue.";
 "TESTING_FINAL_ERROR" = "An error occurred while running Diagnostics.";
-"TEST_IN_PROGRESS" = "Test In Progress";
 "ENHANCED_LOGGING_POWER" = "Power Logs";
+"TEST_IN_PROGRESS" = "Test In Progress";
 "ENHANCED_LOGGING_HEALTHKIT_DESCRIPTION" = "The generated files may contain some of your personal information, including sensitive health information entered in the Health app (such as information you log in Cycle Tracking, health data you choose to share with others through the Health app Health Sharing features, and information related to your usage of the ECG app on Watch), your settings for certain health features you enable (such as settings for the Heart Rate functionality), your workout activity, and whether Apple Watch was worn on your wrist at particular times.";
-"TITANIUM_CERAMIC" = "Titanium & Ceramic";
 "ELS_HEALTH_CONSENT_IRN_CONTENT" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your beat-to-beat heart rate is established on your Watch. The generated files may include data such as logs indicating motion, algorithms results related to the computation and classification of the beat-to-beat measurements, heart rate measurements, wrist state changes, workout data, blood oxygen saturation level, barometric pressure, Breathe sessions, beat-to-beat heart rate measurements, optical sensor data (such as indicative of heart rate and wrist detection), heart rate notification settings, sleep related settings and results, respiration rate data and beat-to-beat measurements for the past 30 days. These logs may include data that could personally identify you.
 
 The logs will include current and historic log data dating from when you first began using the logs related to your use of this feature. You will be able to turn off logging at any time while the logs are being collected by tapping the close icon (x) and selecting “End Upload” to exit the logging session. You can also turn off logging by navigating to Settings > Privacy & Security > Analytics & Improvements > View Enhanced Logging Session > tap the close icon (x) > and select “End Upload”. You will be able to review the log files prior to sending them to Apple.  Your data will be retained for as long as necessary to troubleshoot issues with the features and to comply with applicable legal and regulatory obligations, but no longer than the life of the device plus 10 years.
@@ -348,6 +348,7 @@ The logs will include current and historic log data dating from when you first b
 By agreeing to this consent, you are consenting to Apple’s and its subsidiaries and agent’s collection, use, transmissions, and processing of the content of data as necessary to identify and troubleshoot issues with this feature, as well as needed to comply with applicable regulatory requirements. Your data may be transferred to and stored in the United States. You may revoke consent at any time by exiting the application during logging.
 
 At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"TITANIUM_CERAMIC" = "Titanium & Ceramic";
 "ENHANCED_LOGGING_EXCHANGE_SYNC" = "Exchange Mail Logging";
 "ENHANCED_LOGGING_POWER_DESCRIPTION_WAPI" = "Tapping the Send Logs button will send power logs on the device’s app, accessory, and battery usage to Apple.
 
@@ -355,7 +356,7 @@ The power logs, which were generated in the past 30 days, and 7 day period befor
 
 By tapping Send Logs to send the power logs to Apple, you consent to Apple using the power logs to better understand your issue and improve Apple’s products, services, and technologies. At all times, your data will be treated in accordance with Apple’s privacy policy, which is available at https://www.apple.com/legal/privacy/en-ww/.";
 "CONNECT_TO_WIFI_ON_PHONE" = "Connect your iPhone to Wi‑Fi to continue diagnostics.";
-"WATCH_CONNECTION_ALERT_MESSAGE" = "Make sure your Apple Watch is nearby, powered on, and not in Airplane Mode.";
+"ELS_DEVICE_SELECTOR_DEVICE_IS_PRIMARY_HOME_HUB" = "Primary Home Hub";
 "NOT_ENOUGH_FREE_SPACE" = "Not Enough Free Space";
 "ELS_HEALTH_CONSENT_NEBULA_CONTENT" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with how your sleep apnea is detected and breathing disturbances are established on your iPhone and Apple Watch. The generated files may include information such as sleep apnea detection state, breathing disturbance value, the start and end date used to compute the value, historical accelerometer data, user motion history, system time zone history, wrist state history, charger state history, sleep focus and sleep schedule history, app launch history for certain health-related apps (such as the Health app or the Sleep app), sleep samples, and respiration rate samples, present on your watch and phone that were generated in the last 7 days. In addition, if you agree to this consent, Apple Watch sysdiagnose logging will be enabled on your device. The sysdiagnose logs may include information such as your name, your username, your email address and email settings, features enabled on your Apple Watch, the apps you use while logging is enabled, file paths, file names, downloads, network connection information, and other details including health feature availability, state (e.g., whether you onboarded or enabled the feature), settings for certain Health features (e.g., Heart Rate settings), limited Cycle Tracking data, and ECG app usage data. These logs may include data that could personally identify you.
 
@@ -364,6 +365,7 @@ The logs will include current and historic log data dating from when you first b
 By agreeing to this consent, you are consenting to Apple’s and its subsidiaries and agent’s collection, use, transmission, and processing of the content of data as necessary to identify and troubleshoot issues with this feature, as well as needed to comply with applicable regulatory requirements. Your data may be transferred to and stored in the United States. You may revoke consent at any time by exiting the application during logging.
 
 At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"WATCH_CONNECTION_ALERT_MESSAGE" = "Make sure your Apple Watch is nearby, powered on, and not in Airplane Mode.";
 "ELS_HEALTH_CONSENT_SIGN_FIRST_NAME" = "First Name";
 "SERIAL_NUMBER" = "Serial Number";
 "EXIT_DIAGNOSTICS_TITLE_CB" = "Exit Diagnostics & Repair?";
@@ -405,14 +407,14 @@ At all times, information received by Apple will be treated in accordance with A
 "SSD_SSR_EXIT_DIAGNOSTICS_ACTION" = "Exit Diagnostics";
 "ELS_HEALTH_CONSENT_SIGN_TITLE" = "Sign to Consent";
 "DIAGNOSTICS_ERROR" = "Diagnostics Error";
-"ENHANCED_LOGGING_COSYSDIAGNOSE" = "Watch and Phone Diagnostics";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WIFI_IPAD" = "This may take a few minutes. Keep this iPad connected to Wi-Fi until the configuration is finished.";
+"ENHANCED_LOGGING_COSYSDIAGNOSE" = "Watch and Phone Diagnostics";
 "ENHANCED_LOGGING_RESPIRATION_TRACKING_SENSITIVE_INFORMATION" = "Respiration time series data and data related to your body position";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WLAN_IPAD" = "This may take a few minutes. Keep this iPad connected to WLAN until the configuration is finished.";
 "COULD_NOT_START_TITLE" = "Could Not Start Diagnostics Session";
-"ENHANCED_LOGGING_TYPOLOGY_DESCRIPTION" = "This Enhanced Logging Typology session generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products, services, and technologies. Tapping the "Send to Apple" button will send typology logs on the device’s keyboard usage to Apple.
+"ENHANCED_LOGGING_TYPOLOGY_DESCRIPTION" = "This Enhanced Logging Typology session generates files that allow Apple to troubleshoot issues with your device and help Apple to improve its products, services, and technologies. Tapping the “Send to Apple” button will send typology logs on the device’s keyboard usage to Apple.
 
-The generated files may contain some of your personal information, including any information you type on the keyboard and text predictions made by the keyboard which may include words stored in your personalized dictionary. If you edit text that was previously typed on the keyboard, the generated files may contain the line of text you edited during the Enhanced Logging Typology session. If you enable the Enhanced Logging Typology session, it will automatically turn the logging on, and this data will be captured for 10 minutes. You can repeat the Enhanced Logging Typology session up to 5 times if the issue did not occur. The data will not leave the device unless you tap the "Send to Apple" button and send the log results. Do not type any personal, sensitive or confidential information while the Enhanced Logging Typology session is active. You will be able to review the typology logs at the end of the Enhanced Logging Typology session. You can turn off the Enhanced Logging Typology session by going to Settings > Privacy & Security > Analytics & Improvements > View Enhanced Logging Session and tapping "X". Alternatively, you can tap the blue diagnostics icon in the status bar in the top left corner of your screen, and then tap "X".
+The generated files may contain some of your personal information, including any information you type on the keyboard and text predictions made by the keyboard which may include words stored in your personalized dictionary. If you edit text that was previously typed on the keyboard, the generated files may contain the line of text you edited during the Enhanced Logging Typology session. If you enable the Enhanced Logging Typology session, it will automatically turn the logging on, and this data will be captured for 10 minutes. You can repeat the Enhanced Logging Typology session up to 5 times if the issue did not occur. The data will not leave the device unless you tap the “Send to Apple” button and send the log results. Do not type any personal, sensitive or confidential information while the Enhanced Logging Typology session is active. You will be able to review the typology logs at the end of the Enhanced Logging Typology session. You can turn off the Enhanced Logging Typology session by going to Settings > Privacy & Security > Analytics & Improvements > View Enhanced Logging Session and tapping “X”. Alternatively, you can tap the blue diagnostics icon in the status bar in the top left corner of your screen, and then tap “X”.
 
 By enabling the Enhanced Logging Typology session and sending the typology logs to Apple, you consent to Apple’s use of the content of such files in accordance with Apple’s privacy policy, which is available at https://www.apple.com/legal/privacy/.";
 "ENHANCED_LOGGING_SLEEP_ALGORITHMS_DESCRIPTION" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with the performance of sleep tracking and/or respiratory rates generated on your Apple Watch and helps Apple to improve its products and services. The generated files may include information such as user motion history, system time zone history, wrist state history, charger state history, sleep focus and sleep schedule history, app launch history for certain health-related apps (such as the Health app or the Sleep app), sleep samples, and respiration rate samples, present on your watch and phone that were generated in the last 7 days.  In addition, if you agree to this consent, Apple Watch sysdiagnose logging will be enabled on your device. The sysdiagnose logs may include information such as your name, your username, your email address and email settings, features enabled on your Apple Watch, the apps you use while logging is enabled, file paths, file names, downloads, network connection information, and other details including health feature availability, your settings for certain Health features (e.g., your Heart Rate settings), and ECG app usage data. These logs may include data that could personally identify you.";
@@ -435,16 +437,16 @@ At all times, information received by Apple will be treated in accordance with A
 "40_CASE" = "40mm Case";
 "ELS_HEALTH_CONSENT_SLEEP_TITLE" = "Sleep Algorithms";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WIFI_IPOD" = "This may take a few minutes. Keep this iPod connected to Wi-Fi until the configuration is finished.";
-"START" = "Start";
-"DOUBLE_HEIGHT_BANNER_TEXT" = "Touch to return to Diagnostics";
 "EXIT_DIAGNOSTICS_SESSION_BODY" = "Closing Diagnostics will end this session with Apple.";
-"ENHANCED_LOGGING_SYSDIAGNOSE" = "System Diagnostics";
+"DOUBLE_HEIGHT_BANNER_TEXT" = "Touch to return to Diagnostics";
+"START" = "Start";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WLAN_IPOD" = "This may take a few minutes. Keep this iPod connected to WLAN until the configuration is finished.";
+"ENHANCED_LOGGING_SYSDIAGNOSE" = "System Diagnostics";
 "ENHANCED_LOGGING_END_TITLE" = "Are you sure you want to end enhanced logging?";
 "ENHANCED_LOGGING_TYPOLOGY_SENSITIVE_INFORMATION" = "Text you type on the keyboard, text near the cursor, words from your personalized dictionary…";
+"ENHANCED_LOGGING_CELLULAR_WARNING_BODY_WLAN" = "This option will use cellular data to send logs when you are not connected to WLAN. This may cause you to exceed your cellular data plan. Contact your carrier for more information about possible charges.";
 "TERMS_AND_CONDITIONS_TV" = "By selecting “Agree” you agree that Apple may collect diagnostic data from this device, including the device serial number, device name, information about wireless and wired networks you connect to, and information about app usage data. The data collected will be used by Apple and its partners to troubleshoot issues with your device, to improve our products and services, and for anti-fraud purposes.
 For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
-"ENHANCED_LOGGING_CELLULAR_WARNING_BODY_WLAN" = "This option will use cellular data to send logs when you are not connected to WLAN. This may cause you to exceed your cellular data plan. Contact your carrier for more information about possible charges.";
 "ENHANCED_LOGGING_SYSDIAGNOSE_SENSITIVE_INFORMATION" = "IP address, file names, recent system activity…";
 "ENHANCED_LOGGING_ACCEL_ARCHIVE_SENSITIVE_INFORMATION" = "Historical accelerometer data";
 "ENHANCED_LOGGING_SYSDIAGNOSE_DESCRIPTION" = "The generated files may contain personal information found on your device or associated with your iCloud accounts, including but not limited to your name, serial numbers of your device, your device name, your attached peripheral devices, your user name, your email address and email settings, file paths, file names, your computer’s IP addresses, and network connection information.";
@@ -518,10 +520,10 @@ At all times, information received by Apple will be treated in accordance with A
 Data Collected
 
 The logs could collect the following information: heart rate measurements, wrist state changes, workout data, blood oxygen saturation level, barometric pressure, Breathe sessions, beat-to-beat heart rate measurements, optical sensor data (such as indicative of heart rate and wrist detection), heart rate notification settings, sleep related settings and results, respiration rate data, beat-to-beat measurements for the past 30 days, logs indicating motion";
-"ENHANCED_LOGGING_ICLOUDDRIVE_DESCRIPTION" = "The generated files may contain some of your personal information, including full path names of your stored documents, full path names of your files accessed, your iCloud username, computer name, and the names of other computers registered with your iCloud account.";
-"AGREE" = "Agree";
-"ENHANCED_LOGGING_CELLULAR" = "Baseband and Telephony Logs";
 "SSR_IN_PROGRESS_SCREEN_SUBTITLE_WLAN_GENERIC" = "This may take a few minutes. Keep this device connected to WLAN until the configuration is finished.";
+"ENHANCED_LOGGING_ICLOUDDRIVE_DESCRIPTION" = "The generated files may contain some of your personal information, including full path names of your stored documents, full path names of your files accessed, your iCloud username, computer name, and the names of other computers registered with your iCloud account.";
+"ENHANCED_LOGGING_CELLULAR" = "Baseband and Telephony Logs";
+"AGREE" = "Agree";
 "ENHANCED_LOGGING_MEGAWIFI_DESCRIPTION" = "This diagnostic session collects logs that allow Apple to troubleshoot issues with your device and help Apple to improve its products and services. The generated files may contain some of your personal information, including about your Wi‑Fi connections, such as content you transfer over Wi‑Fi networks, the hardware addresses of nearby Wi‑Fi routers, and the routers you connected to. At all times, information received by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy";
 "ENHANCED_LOGGING_POWER_DESCRIPTION" = "Tapping the Send Logs button will send power logs on the device’s app, accessory, and battery usage to Apple.
 

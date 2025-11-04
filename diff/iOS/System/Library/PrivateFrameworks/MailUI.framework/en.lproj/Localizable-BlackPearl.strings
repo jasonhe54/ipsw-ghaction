@@ -11,14 +11,13 @@
 "Categorize all messages from “%@”" = "Categorize all messages from “%@”";
 "No Sender" = "No Sender";
 "All current and future messages from “%@” will appear in %@." = "All current and future messages from “%1$@” will appear in %2$@.";
-"An Error Occured" = "An Error Occured";
 "UPDATES_CATEGORY_ONBOARDING_DESCRIPTION_3_SENDER_FORMAT" = "{'senders': {'one': 'from %lu sender', 'other': 'from %lu senders', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'messages': {'one': '%lu message', 'other': '%lu messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messages@ %#@senders@, including news headlines, newsletters, and alerts from %3$@, %4$@ and %5$@.'}";
+"PROMOTIONS_CATEGORY_ONBOARDING_DESCRIPTION_3_SENDER_FORMAT" = "{'senders': {'one': 'from %lu sender', 'other': 'from %lu senders', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'messages': {'one': '%lu message', 'other': '%lu messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messages@ %#@senders@, including coupons and sales from %3$@, %4$@ and %5$@.'}";
 "None" = "None";
 "New Messages" = "New Messages";
 "Transaction" = "Transaction";
 "If you manually categorize messages based on the sender, you can reset categorization at anytime." = "If you manually categorize messages based on the sender, you can reset categorization at anytime.";
 "Yes" = "Yes";
-"PROMOTIONS_CATEGORY_ONBOARDING_DESCRIPTION_3_SENDER_FORMAT" = "{'senders': {'one': 'from %lu sender', 'other': 'from %lu senders', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'messages': {'one': '%lu message', 'other': '%lu messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messages@ %#@senders@, including coupons and sales from %3$@, %4$@ and %5$@.'}";
 "RESET_USER_OVERRIDE_FORMAT" = "{'value': {'one': 'This will reset your manual categorization preferences. All messages from 1 sender will be automatically categorized as Primary, Transactions, Updates, and Promotions.', 'other': 'This will reset your manual categorization preferences. All messages from %lu senders will be automatically categorized as Primary, Transactions, Updates, and Promotions.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "UPDATES_CATEGORY_ONBOARDING_DESCRIPTION_0_SENDER_FORMAT" = "{'senders': {'one': 'from %lu sender', 'other': 'from %lu senders', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'messages': {'one': '%lu message', 'other': '%lu messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messages@ %#@senders@, including news headlines, newsletters, and alerts.'}";
 "0" = "0";
@@ -30,6 +29,7 @@
 "No" = "No";
 "Receipts, Orders, and Deliveries" = "Receipts, Orders, and Deliveries";
 "Browse special offers, events and more from the businesses and organizations you might recognize." = "Browse special offers, events and more from the businesses and organizations you might recognize.";
+"An Error Occurred" = "An Error Occurred";
 "PROMOTIONS_CATEGORY_ONBOARDING_DESCRIPTION_1_SENDER_FORMAT" = "{'senders': {'one': 'from %lu sender', 'other': 'from %lu senders', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'messages': {'one': '%lu message', 'other': '%lu messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messages@ %#@senders@, including coupons and sales from %3$@.'}";
 "Unread Messages in Primary" = "Unread Messages in Primary";
 "TRANSACTIONS_CATEGORY_ONBOARDING_DESCRIPTION_1_SENDER_FORMAT" = "{'senders': {'one': 'from %lu sender', 'other': 'from %lu senders', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'messages': {'one': '%lu message', 'other': '%lu messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messages@ %#@senders@, including purchase receipts, shipping, and delivery notices from %3$@.'}";

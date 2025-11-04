@@ -21,6 +21,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -28,6 +36,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -42,6 +52,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -49,6 +67,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -63,6 +83,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -70,6 +98,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -84,6 +114,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -91,6 +129,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -105,6 +145,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -112,6 +160,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -126,6 +176,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -133,6 +191,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -147,6 +207,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -154,6 +222,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -168,6 +238,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -175,6 +253,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -189,6 +269,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -196,6 +284,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -210,6 +300,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -217,6 +315,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -231,6 +331,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -238,6 +346,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -252,6 +362,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -259,6 +377,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -273,6 +393,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -280,6 +408,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -294,6 +424,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -301,6 +439,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -315,6 +455,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -322,6 +470,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -336,6 +486,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -343,6 +501,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -357,6 +517,14 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b.generic</key>
@@ -364,6 +532,8 @@
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.shortcuts_ask_afm_action_3b_v2.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>

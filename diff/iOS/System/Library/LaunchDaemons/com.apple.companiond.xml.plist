@@ -10,6 +10,16 @@
 	<string>com.apple.companiond</string>
 	<key>LaunchEvents</key>
 	<dict>
+		<key>com.apple.bluetooth.connections</key>
+		<dict>
+			<key>CompanionServices</key>
+			<dict>
+				<key>label</key>
+				<string>CompanionServices</string>
+				<key>psm</key>
+				<integer>136</integer>
+			</dict>
+		</dict>
 		<key>com.apple.bluetooth.discovery</key>
 		<dict>
 			<key>PhotoSetup</key>
@@ -32,6 +42,13 @@
 		</dict>
 		<key>com.apple.rapport.matching</key>
 		<dict>
+			<key>CPSRemoteLLM</key>
+			<dict>
+				<key>serviceType</key>
+				<string>CPSRemoteLLM</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
 			<key>CompanionAuthenticationDiscovery</key>
 			<dict>
 				<key>serviceType</key>
@@ -50,6 +67,8 @@
 	</dict>
 	<key>MachServices</key>
 	<dict>
+		<key>com.apple.CompanionServices</key>
+		<true/>
 		<key>com.apple.DistributedTimers</key>
 		<true/>
 		<key>com.apple.companiond.xpc</key>

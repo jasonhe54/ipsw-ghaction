@@ -1,6 +1,6 @@
 "AXMT_MODE_HID" = "HID";
 "AXMT_ON_DEVICE_EYE_TRACKING_FAILURE_REASON_FACE_TOO_FAR_FROM_CAMERA" = "Place iPhone 1 foot from your face.";
-"MAP_CLOCK_DIRECTION" = "%i o'clock";
+"MAP_CLOCK_DIRECTION" = "{'mainstring': {'one': "%d o'clock", 'other': "%d o'clock", 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@mainstring@'}";
 "UNTITLED_DEVICE" = "Untitled";
 "MAP_NEARBY_PLACE_DESC" = "Nearby significant points of interest include:";
 "POI_DISTANCE_FT" = "{'mainstring': {'one': '%.1f foot away', 'other': '%.1f feet away', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@mainstring@'}";

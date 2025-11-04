@@ -93,6 +93,8 @@
 	<dict>
 		<key>com.apple.aps.amsengagementd</key>
 		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.AppleMediaServicesUI.engagement.notifications</key>
+		<true/>
 		<key>com.apple.xpc.amsengagementd</key>
 		<true/>
 		<key>com.apple.xpc.amsmediacatalogsync</key>

@@ -298,6 +298,7 @@ You can turn on background access in Settings > General > Background App Refresh
 "GOAL_LINE_AXIS_LABEL %@" = "Goal
 %@";
 "ACTIVITY_PAUSED_SELECTION_DAY" = "Your Activity Rings were paused on this day.";
+"%lld_%@_VALUE_LEVEL_FORMAT" = "%1$lld, %2$@";
 "EVENT_DETAILS" = "Event Details";
 "DAYS_PAIR_MEDIUM" = "%@ d";
 "UNPIN_FROM_SUMMARY" = "Unpin from Summary";

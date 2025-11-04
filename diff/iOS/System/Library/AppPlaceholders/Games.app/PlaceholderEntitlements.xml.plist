@@ -14,9 +14,13 @@
 	<true/>
 	<key>com.apple.authkit.client.private</key>
 	<true/>
+	<key>com.apple.cdp.recovery</key>
+	<true/>
 	<key>com.apple.developer.associated-domains</key>
 	<array/>
 	<key>com.apple.frontboard.launchapplications</key>
+	<true/>
+	<key>com.apple.launchservices.receivereferrerrurl</key>
 	<true/>
 	<key>com.apple.mobileactivationd.spi</key>
 	<true/>
@@ -44,6 +48,7 @@
 	<true/>
 	<key>com.apple.private.appstored</key>
 	<array>
+		<string>Ocelot</string>
 		<string>Purchase</string>
 		<string>Library</string>
 		<string>IAPHistory</string>
@@ -95,12 +100,18 @@
 	</array>
 	<key>com.apple.private.network.system-token-fetch</key>
 	<true/>
+	<key>com.apple.private.screen-time</key>
+	<true/>
 	<key>com.apple.private.security.container-required</key>
 	<true/>
 	<key>com.apple.private.security.storage.os_eligibility.readonly</key>
 	<true/>
 	<key>com.apple.private.security.system-application</key>
 	<true/>
+	<key>com.apple.private.storekit</key>
+	<array>
+		<string>AdvancedPurchase</string>
+	</array>
 	<key>com.apple.private.swc.additional-service-details-consumer</key>
 	<true/>
 	<key>com.apple.private.swc.system-app</key>
@@ -156,6 +167,7 @@
 		<string>com.apple.passd.payment</string>
 		<string>com.apple.payment.all-access</string>
 		<string>com.apple.xpc.amsaccountsd</string>
+		<string>com.apple.ScreenTimeAgent.exception</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-write</key>
 	<array>

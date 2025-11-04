@@ -14,8 +14,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -80,8 +78,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -146,8 +142,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -212,8 +206,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -278,8 +270,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -350,8 +340,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -422,8 +410,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -488,8 +474,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -554,8 +538,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -620,8 +602,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -686,8 +666,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -752,8 +730,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -818,8 +794,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -884,8 +858,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -950,8 +922,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1016,8 +986,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1082,8 +1050,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1148,8 +1114,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1214,8 +1178,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1280,8 +1242,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1346,8 +1306,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1412,8 +1370,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1478,8 +1434,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1544,8 +1498,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1610,8 +1562,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1676,8 +1626,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1742,8 +1690,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1808,8 +1754,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1874,8 +1818,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1940,8 +1882,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -2006,8 +1946,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -2072,8 +2010,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -2138,8 +2074,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -2204,8 +2138,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>

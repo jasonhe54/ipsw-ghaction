@@ -18,9 +18,9 @@
 "black" = "black";
 "Copying as Text…" = "Copying as Text…";
 "Marker" = "Marker";
+"magenta pink hue" = "magenta pink";
 "red orange hue" = "red orange";
 "Handwriting Feedback" = "Handwriting Feedback";
-"magenta pink hue" = "magenta pink";
 "Ended sketching" = "Ended sketching";
 "Translating Text…" = "Translating Text…";
 "Pen" = "Pen";
@@ -29,6 +29,7 @@
 "ax.color.format.lightness.saturation.hue" = "%1$@ %2$@ %3$@";
 "pink hue" = "pink";
 "white" = "white";
+"Image Wand is unavailable at this time." = "Image Wand is unavailable at this time.";
 "Auto-Refine Handwriting" = "Auto-Refine Handwriting";
 "Surrounding text to include:" = "Surrounding text to include:";
 "grayish" = "grayish";
@@ -68,17 +69,17 @@
 "Do you want to include only your current selection or all drawings from this note?" = "Do you want to include only your current selection or all drawings from this note?";
 "blue hue" = "blue";
 "Duplicate strokes" = "Duplicate strokes";
-"Pixel Eraser" = "Pixel Eraser";
-"Include Selection Only" = "Include Selection Only";
 "Copy strokes" = "Copy strokes";
+"Include Selection Only" = "Include Selection Only";
+"Pixel Eraser" = "Pixel Eraser";
 "Excluded" = "Excluded";
 "Reed" = "Reed";
 "Lasso" = "Lasso";
 "Support for improving handwriting legibility will download when connected to WLAN." = "Support for improving handwriting legibility will download when connected to WLAN.";
 "Convert to tag" = "Convert to tag";
 "dark shade" = "dark";
-"Scribble" = "Scribble";
 "Apple Drawing Format data is malformed." = "Apple Drawing Format data is malformed.";
+"Scribble" = "Scribble";
 "Paste" = "Paste";
 "Cancel converting to handwriting" = "Cancel";
 "green hue" = "green";
@@ -135,6 +136,7 @@
 "Transcribing Text…" = "Transcribing Text…";
 "Straighten Strokes" = "Straighten Strokes";
 "Report a Problem…" = "Report a Problem…";
+"Image Wand Unavailable" = "Image Wand Unavailable";
 "brown" = "brown";
 "Auto-Minimize" = "Auto-Minimize";
 "Ended erasing" = "Ended erasing";

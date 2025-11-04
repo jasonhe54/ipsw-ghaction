@@ -10,6 +10,17 @@
 	<string>mobile</string>
 	<key>Label</key>
 	<string>com.apple.AppSSODaemon</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>com.apple.LaunchServices.pluginsregistered</key>
+			<dict>
+				<key>Name</key>
+				<string>com.apple.LaunchServices.pluginsregistered</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>MachServices</key>
 	<dict>
 		<key>com.apple.AppSSO.service-xpc</key>

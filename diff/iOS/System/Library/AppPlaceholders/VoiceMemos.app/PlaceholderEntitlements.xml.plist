@@ -147,6 +147,10 @@
 	</array>
 	<key>fairplay-client</key>
 	<string>511712240</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>group.com.apple.VoiceMemos.shared</string>
+	</array>
 	<key>platform-application</key>
 	<true/>
 </dict>

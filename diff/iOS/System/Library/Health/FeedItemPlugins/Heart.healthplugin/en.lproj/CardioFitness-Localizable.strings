@@ -16,7 +16,7 @@ Apple Watch can keep track of your cardio fitness level and notify you if it’s
 "ONBOARDING_FACTORS_ITEM_4_BODY" = "Some heart conditions make it hard for your heart to pump blood thus lowering cardio fitness. If you have heart failure, your cardio fitness may be estimated as higher than it actually is.";
 "ONBOARDING_SETUP_COMPLETE_TITLE" = "Notifications Are Enabled";
 "ONBOARDING_ABOUT_HEALTH_DETAILS_TITLE" = "About Cardio Fitness Health Details";
-"CARDIO_FITNESS_RETROCOMPUTE_UPDATE_TILE_ACTION" = "Update…";
+"CARDIO_FITNESS_RETROCOMPUTE_UPDATE_TILE_ACTION" = "Update Estimates";
 "ONBOARDING_CONFIRM_DETAILS_BETA_BLOCKER_TITLE" = "Beta Blockers";
 "ONBOARDING_WRIST_DETECT_ALERT_DETAIL" = "Cardio fitness can be assessed outside of a workout if you turn Wrist Detection on in Passcode settings.";
 "CARDIO_FITNESS_RETROCOMPUTE_UPDATE_COMPLETE_TILE_TITLE" = "Cardio Fitness Data Updated";
@@ -48,7 +48,7 @@ As you age past 60, cardio fitness declines more rapidly, increasing the likelih
 "CARDIO_FITNESS_RETROCOMPUTE_ALERT_BODY" = "Health can review your existing cardio fitness estimates and make them more accurate. These estimates only use Apple Watch data and will replace your existing estimates. This can’t be undone.";
 "CARDIO_FITNESS_DETECTION_SETUP_BUTTON_TITLE" = "Set Up";
 "CARDIO_FITNESS_RETROCOMPUTE_UPDATE_COMPLETE_TILE_BODY_DECREASE_%@" = "Your cardio fitness estimates were updated and the affected measurements decreased by an average of %@ mL/kg/min.";
-"CARDIO_FITNESS_RETROCOMPUTE_ALERT_LEARN_ACTION" = "Learn More…";
+"CARDIO_FITNESS_RETROCOMPUTE_ALERT_LEARN_ACTION" = "Learn More";
 "CARDIO_FITNESS_FEATURE_UNAVAILABLE_WATCH" = "Cardio Fitness Notifications are not available on your Apple Watch.";
 "CARDIO_FITNESS_RETROCOMPUTE_ALERT_CANCEL" = "Cancel";
 "CARDIO_FITNESS_ADVERTISEMENT_DESCRIPTION" = "Receive a notification if your cardio fitness is at a low level.";
@@ -63,7 +63,7 @@ As you age past 60, cardio fitness declines more rapidly, increasing the likelih
 "ONBOARDING_ABOUT_HEALTH_DETAILS_ITEM_3_DETAILS" = "Cardiovascular efficiency is tied to your height and weight. Health takes these into account when estimating your VO₂ max.";
 "CARDIO_FITNESS_RETROCOMPUTE_UPDATING_TITLE" = "Updating…";
 "CARDIO_FITNESS_RETROCOMPUTE_UPDATE_COMPLETE_TILE_BODY" = "Your cardio fitness estimates were updated.";
-"CARDIO_FITNESS_RETROCOMPUTE_UPDATE_TILE_BODY" = "Health can review your Cardio Fitness data and make updates to past estimates so they’re more accurate.";
+"CARDIO_FITNESS_RETROCOMPUTE_UPDATE_TILE_BODY" = "With the recent improvements to Cardio Fitness, Health can review your last two years of estimates and adjust them up or down so they’re more accurate.";
 "ONBOARDING_CONFIRM_DETAILS_TITLE" = "Confirm Your Details";
 "ONBOARDING_CONFIRM_DETAILS_DETAIL" = "Any changes you make will be saved to your Health Details in Settings.";
 "CARDIO_FITNESS_FEATURE_UNAVAILABLE_AGE_GATING" = "Cardio Fitness Notifications are available for those 20 and older.";

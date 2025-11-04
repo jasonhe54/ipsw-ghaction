@@ -90,8 +90,8 @@
 "INBOXES" = "Inboxes";
 "NO_MESSAGE_SELECTED" = "No Message Selected";
 "MAIL_DROP_BANNER_DOWNLOADING_NONIMAGE_PLURAL" = "Downloading Attachments";
-"SEARCH_SECTION_TITLE_SERVER" = "Server Results";
 "ADD_VIP" = "Add to VIP";
+"SEARCH_SECTION_TITLE_SERVER" = "Server Results";
 "OTHER_SIGNERS_TITLE" = "Other";
 "BCC" = "Bcc:";
 "SWIPE_MORE" = "More";
@@ -178,6 +178,7 @@
 "REPLY_ANNOTATION_FORMAT" = "Reply to: %@";
 "NO_MESSAGES_WITH_ATTACHMENTS" = "No Mail with Attachments";
 "SEARCH_MAILBOX_SEPARATOR" = " › ";
+"OPEN" = "Open";
 "TO_HEADER" = "To:";
 "CHECKING_FOR_MAIL" = "Checking for Mail…";
 "ATTACHMENT_UNKNOWN_TYPE_TITLE" = "Mail cannot open this attachment.";
@@ -188,6 +189,7 @@
 "MAIL_DROP_BANNER_NOT_AVAILABLE" = "No longer available as of %@";
 "BROWSER_INDEX %@ %@" = "%@ of %@";
 "OVERWRITE_CERTIFICATE_DESCRIPTION_FORMAT" = "You already have an encryption certificate for “%@”. Do you want to use this certificate instead?";
+"OPEN_IN_%@" = "Open in “%@”?";
 "MULTI_MAILDROP_ATTACHMENT_LARGE_MESSAGE" = "Please connect to Wi-Fi to download these attachments.";
 "ORANGE_MAILBOX" = "Orange";
 "FOUND_IN_MAILBOX_FORMAT_WITH_ACCOUNT" = "Found in %@ %@ Mailbox";

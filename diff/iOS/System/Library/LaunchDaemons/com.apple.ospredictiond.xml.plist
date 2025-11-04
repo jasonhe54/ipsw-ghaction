@@ -23,6 +23,11 @@
 				<key>Notification</key>
 				<string>com.apple.system.console_mode_changed</string>
 			</dict>
+			<key>kPLTaskingStartNotificationGlobal</key>
+			<dict>
+				<key>Notification</key>
+				<string>kPLTaskingStartNotificationGlobal</string>
+			</dict>
 		</dict>
 		<key>com.apple.xpc.activity</key>
 		<dict>

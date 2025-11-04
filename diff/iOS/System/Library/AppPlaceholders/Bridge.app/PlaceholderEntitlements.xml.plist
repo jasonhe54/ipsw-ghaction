@@ -180,6 +180,8 @@
 	<true/>
 	<key>com.apple.keystore.device</key>
 	<true/>
+	<key>com.apple.keystore.device.verify</key>
+	<true/>
 	<key>com.apple.keystore.lockassertion</key>
 	<true/>
 	<key>com.apple.launchservices.receivereferrerrurl</key>
@@ -208,6 +210,10 @@
 	<array>
 		<string>MDMInfo</string>
 	</array>
+	<key>com.apple.mkb.usersession.info</key>
+	<true/>
+	<key>com.apple.mkb.usersession.keybagopaquedata</key>
+	<true/>
 	<key>com.apple.mobileactivationd.device-identifiers</key>
 	<true/>
 	<key>com.apple.mobileactivationd.spi</key>
@@ -301,6 +307,8 @@
 	<true/>
 	<key>com.apple.private.LocalAuthentication.DTO.FallbackToNoAuth</key>
 	<true/>
+	<key>com.apple.private.LocalAuthentication.PasscodeServices</key>
+	<true/>
 	<key>com.apple.private.LocalAuthentication.RGBCapture</key>
 	<true/>
 	<key>com.apple.private.MobileContainerManager.otherIdLookup</key>
@@ -373,6 +381,13 @@
 	<key>com.apple.private.biome.read-write</key>
 	<array>
 		<string>Discoverability.Signals</string>
+	</array>
+	<key>com.apple.private.biome.writer</key>
+	<array>
+		<string>SensitiveContentAnalysis.UIInteraction</string>
+		<string>SensitiveContentAnalysis.MediaAnalysis</string>
+		<string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+		<string>SensitiveContentAnalysis.ResourcesInteraction</string>
 	</array>
 	<key>com.apple.private.bmk.allow</key>
 	<true/>
@@ -757,6 +772,7 @@
 		<string>com.apple.ManagedSettingsAgent</string>
 		<string>com.apple.ManagedSettingsAgent.publisher</string>
 		<string>com.apple.seserviced.storage-management-presentation</string>
+		<string>com.apple.mobile.usermanagerd.xpc</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-only</key>
 	<array>

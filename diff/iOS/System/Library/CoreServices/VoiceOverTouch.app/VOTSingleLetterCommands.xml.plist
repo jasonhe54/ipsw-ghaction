@@ -27,17 +27,21 @@
 	<key>B</key>
 	<string>PreviousButton</string>
 	<key>C</key>
-	<string>PreviousControl</string>
+	<string>PreviousCheckbox</string>
+	<key>F</key>
+	<string>PreviousTextfield</string>
 	<key>H</key>
 	<string>PreviousHeading</string>
 	<key>I</key>
 	<string>PreviousImage</string>
+	<key>J</key>
+	<string>PreviousControl</string>
 	<key>L</key>
 	<string>PreviousLink</string>
 	<key>M</key>
 	<string>PreviousSame</string>
 	<key>R</key>
-	<string>PreviousTextfield</string>
+	<string>PreviousRadioGroup</string>
 	<key>S</key>
 	<string>PreviousStaticText</string>
 	<key>T</key>
@@ -51,17 +55,21 @@
 	<key>b</key>
 	<string>NextButton</string>
 	<key>c</key>
-	<string>NextControl</string>
+	<string>NextCheckbox</string>
+	<key>f</key>
+	<string>NextTextfield</string>
 	<key>h</key>
 	<string>NextHeading</string>
 	<key>i</key>
 	<string>NextImage</string>
+	<key>j</key>
+	<string>NextControl</string>
 	<key>l</key>
 	<string>NextLink</string>
 	<key>m</key>
 	<string>NextSame</string>
 	<key>r</key>
-	<string>NextTextfield</string>
+	<string>NextRadioGroup</string>
 	<key>s</key>
 	<string>NextStaticText</string>
 	<key>t</key>

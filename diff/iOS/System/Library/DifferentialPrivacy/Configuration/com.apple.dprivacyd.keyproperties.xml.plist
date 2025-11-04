@@ -541,6 +541,34 @@
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
+	<key>HoldAssist</key>
+	<dict>
+		<key>AlgorithmParameters</key>
+		<dict>
+			<key>dynamicVectorSize</key>
+			<true/>
+			<key>p</key>
+			<integer>10000000</integer>
+		</dict>
+		<key>BudgetKeyName</key>
+		<string>fedstats.com.apple.insights.hold-assist</string>
+		<key>DataAlgorithm</key>
+		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
+		<key>PrivacyParameter</key>
+		<integer>8</integer>
+		<key>PrivatizationAlgorithm</key>
+		<string>PrioPiRappor</string>
+		<key>ServerAlgorithmString</key>
+		<string>PrioPiRappor</string>
+		<key>SubmissionPriority</key>
+		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
+		<key>Transport</key>
+		<string>Dedisco</string>
+	</dict>
 	<key>ImagePlayground</key>
 	<dict>
 		<key>AlgorithmParameters</key>
@@ -792,22 +820,50 @@
 		<key>AlgorithmParameters</key>
 		<dict>
 			<key>DefaultMinBatchSize</key>
-			<integer>462</integer>
-			<key>dynamicVectorSize</key>
-			<true/>
-			<key>p</key>
-			<integer>100000</integer>
+			<integer>16561</integer>
 		</dict>
+		<key>ApprovedForNonDNU</key>
+		<true/>
 		<key>BudgetKeyName</key>
 		<string>com.apple.CommunicationSafetyMedia</string>
 		<key>DataAlgorithm</key>
 		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
 		<key>PrivacyParameter</key>
-		<integer>3</integer>
+		<integer>6</integer>
 		<key>PrivatizationAlgorithm</key>
-		<string>Prio</string>
+		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>ServerAlgorithmString</key>
-		<string>Prio</string>
+		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
+		<key>SubmissionPriority</key>
+		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
+		<key>Transport</key>
+		<string>Dedisco</string>
+	</dict>
+	<key>InsightsCommunicationSafetyResource</key>
+	<dict>
+		<key>AlgorithmParameters</key>
+		<dict>
+			<key>DefaultMinBatchSize</key>
+			<integer>16561</integer>
+		</dict>
+		<key>ApprovedForNonDNU</key>
+		<true/>
+		<key>BudgetKeyName</key>
+		<string>com.apple.CommunicationSafetyResource</string>
+		<key>DataAlgorithm</key>
+		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
+		<key>PrivacyParameter</key>
+		<integer>6</integer>
+		<key>PrivatizationAlgorithm</key>
+		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
+		<key>ServerAlgorithmString</key>
+		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
 		<key>TelemetryAllowed</key>
@@ -820,22 +876,22 @@
 		<key>AlgorithmParameters</key>
 		<dict>
 			<key>DefaultMinBatchSize</key>
-			<integer>462</integer>
-			<key>dynamicVectorSize</key>
-			<true/>
-			<key>p</key>
-			<integer>100000</integer>
+			<integer>16561</integer>
 		</dict>
+		<key>ApprovedForNonDNU</key>
+		<true/>
 		<key>BudgetKeyName</key>
 		<string>com.apple.CommunicationSafetyUI</string>
 		<key>DataAlgorithm</key>
 		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
 		<key>PrivacyParameter</key>
-		<integer>3</integer>
+		<integer>6</integer>
 		<key>PrivatizationAlgorithm</key>
-		<string>Prio</string>
+		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>ServerAlgorithmString</key>
-		<string>Prio</string>
+		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
 		<key>TelemetryAllowed</key>

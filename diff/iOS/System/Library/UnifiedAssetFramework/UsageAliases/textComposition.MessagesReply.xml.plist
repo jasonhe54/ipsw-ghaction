@@ -49,6 +49,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -91,6 +93,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -141,6 +145,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_85m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -183,6 +189,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -227,6 +235,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -269,6 +279,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -313,6 +325,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -355,6 +369,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -399,6 +415,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -441,6 +459,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -485,6 +505,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -527,6 +549,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -571,6 +595,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -613,6 +639,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
@@ -657,6 +685,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -700,6 +730,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 			</dict>
@@ -742,6 +774,8 @@
 				<key>com.apple.fm.language.instruct_3b.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.personalized_smart_reply.generic</key>
 				<string>ENABLED</string>

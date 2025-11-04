@@ -4,8 +4,9 @@
 "Show Battery Percentage" = "Show Battery Percentage";
 "battery capacity" = "battery capacity";
 "Low Power Mode to update" = "Low Power Mode to update";
-"charging settings" = "charging settings";
+"%@ charge limit" = "%@ charge limit";
 "Power Mode Setting" = "Power Mode Setting";
+"charging settings" = "charging settings";
 "Provides a list of top apps and other important factors impacting battery usage over a period of time" = "Provides a list of top apps and other important factors impacting battery usage over a period of time";
 "Off" = "Off";
 "A specific setting in the battery health settings page" = "A specific setting in the battery health settings page";
@@ -38,6 +39,7 @@
 "Battery Setting" = "Battery Setting";
 "Toggles visibility of current battery percentage in status bar" = "Toggles visibility of current battery percentage in status bar";
 "clean energy charging mode" = "clean energy charging mode";
+"charge limit" = "charge limit";
 "Navigates to a particular charging setting in Battery Health & Charging Settings" = "Navigates to a particular charging setting in Battery Health & Charging Settings";
 "Top factors impacting battery drain" = "Top factors impacting battery drain";
 "Show Battery Percentage to update on Show Battery Percentage" = "Show Battery Percentage to update on Show Battery Percentage";
@@ -82,12 +84,13 @@
 "ApplicationEntries Entries" = "ApplicationEntries Entries";
 "adaptive power mode" = "adaptive power mode";
 "Open Battery Health Settings" = "Open Battery Health Settings";
+"%@ Limit" = "%@ Limit";
 "Charging Setting" = "Charging Setting";
-"battery percentage toggle" = "battery percentage toggle";
 "Maximum Capacity" = "Maximum Capacity";
 "Battery Health and Charging Settings" = "Battery Health and Charging Settings";
 "Top apps using battery" = "Top apps using battery";
 "Change the Low Power Mode value of Low Power Mode" = "Change the Low Power Mode value of Low Power Mode";
+"battery percentage toggle" = "battery percentage toggle";
 "Significant battery usage information" = "Significant battery usage information";
 "battery" = "battery";
 "charge cycle count" = "charge cycle count";
@@ -100,10 +103,10 @@
 "Battery Usage Information Time Range" = "Battery Usage Information Time Range";
 "Open Show Battery Percentage Toggle" = "Open Show Battery Percentage Toggle";
 "Battery Percentage Toggle Entity" = "Battery Percentage Toggle Entity";
-"This is the number of times this device has used your battery's capacity" = "This is the number of times this device has used your battery's capacity";
 "Adaptive Power" = "Adaptive Power";
 "In your region, this device will try to reduce your carbon footprint by selectively charging when lower carbon emission electricity is available. This device learns from your daily charging routine so it can reach full charge before you need to use it." = "In your region, this device will try to reduce your carbon footprint by selectively charging when lower carbon emission electricity is available. This device learns from your daily charging routine so it can reach full charge before you need to use it.";
 "Navigates to a particular setting in Battery Settings" = "Navigates to a particular setting in Battery Settings";
+"This is the number of times this device has used your battery's capacity" = "This is the number of times this device has used your battery's capacity";
 "Battery Health & Charging" = "Battery Health & Charging";
 "Optimized Battery Charging" = "Optimized Battery Charging";
 "Battery Health Settings" = "Battery Health Settings";

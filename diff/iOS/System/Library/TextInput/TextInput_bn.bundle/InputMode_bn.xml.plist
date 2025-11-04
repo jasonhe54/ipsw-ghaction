@@ -19,6 +19,14 @@
 			<string>bn-Translit@ml=101</string>
 		</array>
 	</dict>
+	<key>UIKeyboardDefaultLanguageInputModes-TV</key>
+	<dict>
+		<key>bn</key>
+		<array>
+			<string>bn</string>
+			<string>en_GB</string>
+		</array>
+	</dict>
 	<key>UIKeyboardSuggestedDefaultLanguageInputModes</key>
 	<dict>
 		<key>bn</key>

@@ -134,6 +134,8 @@
 	<array>
 		<string>SensitiveContentAnalysis.UIInteraction</string>
 		<string>SensitiveContentAnalysis.MediaAnalysis</string>
+		<string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+		<string>SensitiveContentAnalysis.ResourcesInteraction</string>
 	</array>
 	<key>com.apple.private.bmk.allow</key>
 	<true/>

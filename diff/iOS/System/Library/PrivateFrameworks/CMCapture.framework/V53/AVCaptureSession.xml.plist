@@ -803,6 +803,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-Crop-ProResRaw-120</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>2240</integer>
 						<key>PixelFormatType</key>
@@ -815,8 +821,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -824,6 +846,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-Crop-ProResRaw-120</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>2240</integer>
 						<key>MaxFrameRateOverride</key>
@@ -838,8 +866,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -847,6 +891,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-FullFOV-ProResRaw-120</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Experimental</key>
 						<true/>
 						<key>Height</key>
@@ -861,8 +911,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -870,6 +936,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-FullFOV-ProResRaw-120</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>3024</integer>
 						<key>MaxFrameRateOverride</key>
@@ -884,8 +956,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -1829,6 +1917,8 @@
 					</dict>
 					<key>Video-Crop-ProResRaw-120</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>2240</integer>
 						<key>CropWidthForFES</key>
@@ -1909,6 +1999,8 @@
 					</dict>
 					<key>Video-FullFOV-ProResRaw-120</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>MaxFrameRate</key>
 						<integer>120</integer>
 						<key>SIFRBinningFactor</key>
@@ -2171,6 +2263,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-Crop-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>2240</integer>
 						<key>PixelFormatType</key>
@@ -2179,12 +2277,30 @@
 						<integer>1120</integer>
 						<key>PreferredPreviewWidth</key>
 						<integer>2112</integer>
+						<key>PreviewStabilizationSupported</key>
+						<false/>
 						<key>SmartStyleRenderingSupported</key>
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -2197,6 +2313,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-FullFOV-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>3024</integer>
 						<key>PixelFormatType</key>
@@ -2205,12 +2327,30 @@
 						<integer>1260</integer>
 						<key>PreferredPreviewWidth</key>
 						<integer>1760</integer>
+						<key>PreviewStabilizationSupported</key>
+						<false/>
 						<key>SmartStyleRenderingSupported</key>
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -2368,6 +2508,8 @@
 					</dict>
 					<key>Video-Crop-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>2240</integer>
 						<key>CropWidthForFES</key>
@@ -2405,6 +2547,8 @@
 					</dict>
 					<key>Video-FullFOV-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>MaxFrameRate</key>
 						<integer>60</integer>
 						<key>SIFRBinningFactor</key>
@@ -2684,6 +2828,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-Crop-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>2240</integer>
 						<key>PixelFormatType</key>
@@ -2696,8 +2846,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -2710,6 +2876,12 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-FullFOV-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>3024</integer>
 						<key>PixelFormatType</key>
@@ -2722,8 +2894,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -2890,6 +3078,8 @@
 					</dict>
 					<key>Video-Crop-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>2240</integer>
 						<key>CropWidthForFES</key>
@@ -2940,6 +3130,8 @@
 					</dict>
 					<key>Video-FullFOV-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>MaxFrameRate</key>
 						<integer>60</integer>
 						<key>SIFRBinningFactor</key>
@@ -4191,8 +4383,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-2240x4224-ProResRaw-30</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>4224</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4205,8 +4405,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>2240</integer>
 					</dict>
@@ -4214,8 +4430,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-2240x4224-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>4224</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4228,8 +4452,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>2240</integer>
 					</dict>
@@ -4237,8 +4477,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-3024x4224-ProResRaw-30</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>4224</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4251,8 +4499,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>3024</integer>
 					</dict>
@@ -4260,8 +4524,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-3024x4224-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>4224</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4274,8 +4546,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>3024</integer>
 					</dict>
@@ -4283,8 +4571,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-4224x2240-ProResRaw-30</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>2240</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4297,8 +4593,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -4306,8 +4618,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-4224x2240-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>2240</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4320,8 +4640,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2036</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -4329,8 +4665,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-4032x3024-ProResRaw-30</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>3024</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4343,8 +4687,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -4352,8 +4712,16 @@
 					<dict>
 						<key>CaptureStreamFormat</key>
 						<string>Video-4032x3024-ProResRaw-60</string>
+						<key>CinematicVideoStabilizationExtendedEnhancedSupported</key>
+						<true/>
+						<key>CinematicVideoStabilizationExtendedLookAheadDuration</key>
+						<real>1</real>
+						<key>CinematicVideoStabilizationSupported</key>
+						<true/>
 						<key>Height</key>
 						<integer>3024</integer>
+						<key>LowLatencyStabilizationSupported</key>
+						<false/>
 						<key>PixelFormatType</key>
 						<string>btp2</string>
 						<key>PreferredPreviewHeight</key>
@@ -4366,8 +4734,24 @@
 						<false/>
 						<key>TemporalNoiseReductionRawEnabled</key>
 						<true/>
-						<key>VideoStabilizationSupported</key>
+						<key>VideoSTFSupported</key>
 						<false/>
+						<key>VideoStabilizationGeneratedTransformsOutputHeightOverride</key>
+						<integer>2750</integer>
+						<key>VideoStabilizationGeneratedTransformsOutputWidthOverride</key>
+						<integer>3840</integer>
+						<key>VideoStabilizationMaxStrength</key>
+						<string>Medium</string>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematic</key>
+						<real>15</real>
+						<key>VideoStabilizationOverscanPercentageOverrideForCinematicExtendedEnhanced</key>
+						<real>23</real>
+						<key>VideoStabilizationSupported</key>
+						<true/>
+						<key>VideoStabilizationTypeOverrideForCinematic</key>
+						<integer>2</integer>
+						<key>VideoStabilizationTypeOverrideForStandard</key>
+						<integer>2</integer>
 						<key>Width</key>
 						<integer>4224</integer>
 					</dict>
@@ -4376,6 +4760,8 @@
 				<dict>
 					<key>Video-2240x4224-ProResRaw-30</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>4224</integer>
 						<key>CropWidthForFES</key>
@@ -4407,6 +4793,8 @@
 					</dict>
 					<key>Video-2240x4224-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>4224</integer>
 						<key>CropWidthForFES</key>
@@ -4434,6 +4822,8 @@
 					</dict>
 					<key>Video-3024x4224-ProResRaw-30</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>4224</integer>
 						<key>CropWidthForFES</key>
@@ -4465,6 +4855,8 @@
 					</dict>
 					<key>Video-3024x4224-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>4224</integer>
 						<key>CropWidthForFES</key>
@@ -4492,6 +4884,8 @@
 					</dict>
 					<key>Video-4032x3024-ProResRaw-30</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>3024</integer>
 						<key>CropWidthForFES</key>
@@ -4523,6 +4917,8 @@
 					</dict>
 					<key>Video-4032x3024-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>3024</integer>
 						<key>CropWidthForFES</key>
@@ -4550,6 +4946,8 @@
 					</dict>
 					<key>Video-4224x2240-ProResRaw-30</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>2240</integer>
 						<key>CropWidthForFES</key>
@@ -4581,6 +4979,8 @@
 					</dict>
 					<key>Video-4224x2240-ProResRaw-60</key>
 					<dict>
+						<key>AutoFocusSystem</key>
+						<integer>2</integer>
 						<key>CropHeightForFES</key>
 						<integer>2240</integer>
 						<key>CropWidthForFES</key>

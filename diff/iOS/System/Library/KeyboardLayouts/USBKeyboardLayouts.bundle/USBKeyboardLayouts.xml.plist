@@ -2046,6 +2046,21 @@
 		<key>ScriptCode</key>
 		<integer>126</integer>
 	</dict>
+	<key>Nez Perce</key>
+	<dict>
+		<key>KeyLayoutBase</key>
+		<string>QWERTY</string>
+		<key>KeyLayoutFileName</key>
+		<string>NezPerce.uchr</string>
+		<key>KeyLayoutName</key>
+		<string>Nez Perce</string>
+		<key>KeyLayoutNumber</key>
+		<integer>-26105</integer>
+		<key>Locale</key>
+		<string>nez</string>
+		<key>ScriptCode</key>
+		<integer>126</integer>
+	</dict>
 	<key>Northern Sami</key>
 	<dict>
 		<key>KeyLayoutFileName</key>

@@ -25,6 +25,7 @@
 "VEHICLE_ICON" = "Vehicle Icon";
 "WEATHER" = "Weather";
 "GEOManeuverType_EXIT_FERRY" = "Exit Ferry";
+"VEHICLE_POWER_TYPE_EV" = "Electric";
 "LOOK_AROUND_MAXIMIZE" = "Enter full screen mode";
 "GEOManeuverType_ARRIVE_AT_DESTINATION_LEFT" = "Arrive at Destination on the Left";
 "navigation.turnbyturn.announcement" = "Turn-by-turn mode active";
@@ -70,6 +71,7 @@
 "location.refinement.business" = "Business location";
 "play.pause.button.image.label" = "play/pause";
 "GEOManeuverType_ENTER_ROUNDABOUT" = "Enter Roundabout";
+"VEHICLE_POWER_TYPE_PHEV" = "Plug-in hybrid";
 "WALKING_DIRECTIONS" = "Walking directions";
 "GEOManeuverType_HIGHWAY_OFF_RAMP_RIGHT" = "Highway Off Ramp to the Right";
 "REVIEWS_COUNT_FORMAT" = "{'mainstring': {'one': '%d Review', 'zero': 'No Reviews', 'other': '%d Reviews', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@mainstring@'}";
@@ -133,6 +135,7 @@
 "DIRECTIONS_TRANSPORT_TYPE_TRANSIT" = "Transit";
 "location.refinement.home" = "Home location";
 "LOOK_AROUND_OPTIONS" = "Options";
+"VEHICLE_POWER_TYPE_FUEL" = "Fuel";
 "GEOManeuverType_CHANGE_HIGHWAY_LEFT" = "Change Highway on the Left";
 "MORE_INFO_BUTTON" = "More Info";
 "FROM_FIELD" = "Start location";

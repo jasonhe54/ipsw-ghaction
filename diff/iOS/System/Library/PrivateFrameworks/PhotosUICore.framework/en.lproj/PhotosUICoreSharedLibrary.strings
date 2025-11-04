@@ -30,21 +30,20 @@
 "PXSharedLibraryAssistant_Rules_Subtitle" = "Choose existing photos and videos to move out of your Personal Library and into the Shared Library.";
 "PXSharedLibraryAssistant_LegacyDevices_Body" = "Photos and videos in the Shared Library will not be available on these devices until they're updated to the latest software.";
 "PXSharedLibraryAssistant_CustomizeRules_IncludeAll" = "Include All";
-"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_%@_Items" = "Some items were merged after being added by you and %@. Moving them to your Personal Library will remove them from the Shared Library for all participants.";
 "PXSharedLibrarySetupAssistant_Participants_SearchLabel" = "Add:";
 "PXSharedLibrary_MoveToPersonalLibraryFromPreviewConfirmationMessage_Item" = "Moving this item to your Personal Library will remove it from the Shared Library.";
 "PXSharedLibraryPreviewTitle_iOS" = "PREVIEWING SHARED LIBRARY";
-"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_%@_Photos" = "Some photos were merged after being added by you and %@. Moving them to your Personal Library will remove them from the Shared Library for all participants.";
 "PXSharedLibrarySuggestionsBannerActionReview" = "Review";
 "PXSharedLibraryAssistant_PeopleSelection_Alert_CancelButton" = "Cancel";
 "PXSharedLibrary_InvitationAlertMessage_NotSystemLibrary" = "iCloud Shared Photo Library is only available when using the System Photo Library with iCloud Photos enabled. Please switch to the System Library.";
 "PXMoveToLibraryNumberOfItems" = "{'Comment': 'This format will be used as the last element of a list of people, formatted with NSListFormatter. For example: "John, Jane and 3 others."', 'format': {'one': '%lu Item', 'other': '%lu Items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': 'Move %#@format@…'}";
 "PXSharedLibraryPreviewTitle_macOS" = "Previewing Shared Library";
-"PXSharedLibrary_FilterMenu_Header" = "Library View:";
+"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_Video" = "This video was merged after being added by you and %@. Moving it to your Personal Library will remove it from the Shared Library for all participants.";
 "PXSharedLibraryPreferences_RemoveParticipantAlertRemoveButtonTitle" = "Remove from Shared Library";
+"PXSharedLibrary_FilterMenu_Header" = "Library View:";
 "PXSharedLibrary_MoveToPersonalLibraryNumberOfItems" = "Move to Personal Library (%lu)";
-"PXSharedLibraryReplyAssistant_Intro_Title" = "Shared Library Invitation";
 "PXCPLStatus_SharedLibraryMove_Paused_%lu_Items" = "{'variant': {'one': '%lu Item', 'other': '%lu Items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': 'Syncing Paused for %#@variant@'}";
+"PXSharedLibraryReplyAssistant_Intro_Title" = "Shared Library Invitation";
 "PXCPLStatus_SharedLibraryMoveToPersonal_%lu_Items" = "{'Comment': 'There is a non-breaking space in Personal Library', 'variant': {'one': '%lu Item', 'other': '%lu Items', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': 'Moving %#@variant@ to Personal\xa0Library'}";
 "PXSharedLibraryAddParticipantsFailureAlertMessageFormat_%lu_TooManyParticipants" = "You can add up to %lu participants.";
 "PXSharedLibrarySetupAssistant_Participants_LimitReachedAlertTitle" = "Too Many Participants";
@@ -80,6 +79,7 @@ You can only have one Shared Library, and %2$@ will provide iCloud storage for a
 "PXSharedLibraryReplyAssistant_Intro_ReviewSubtitle_NoCount_Email_Format" = "You will join as %@.
 
 All participants will have access to any photos or videos you add later, and anyone in the Shared Library can edit or delete any items.";
+"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_Videos" = "Some videos were merged after being added by you and %@. Moving them to your Personal Library will remove them from the Shared Library for all participants.";
 "PXSharedLibrary_Action_OneUp_SharedBadge" = "SHARED";
 "PXSharedLibrary_EmptyDuplicatesAlbum_Message_macOS" = "Duplicates are not available when viewing the Shared Library or Personal Library only. From the (_BUTTON_SYMBOL_PLACEHOLDER_) button, change your library view to Both Libraries to show Duplicates.";
 "PXSharedLibrary_EmptyPeopleAlbum_Message_iOS" = "People and pets are not available when viewing the Shared Library or Personal Library only. Change your library view to Both Libraries to show People & Pets.";
@@ -171,7 +171,6 @@ All participants will have access to any photos or videos you add later, and any
 "PXCPLStatus_SharedLibraryIsLeaving_Paused" = "Leaving Shared Library Paused";
 "PXSharedLibraryPreferences_RemovePendingParticipantAlertMessage" = "You will need to invite %@ again in order for ^[them](referentConcept: 1) to join.";
 "PXSharedLibraryInfoPanelTitle_YouAndTwoContributors_Video" = "Added by <b>You</b>, <b>%@</b>, and <b>%@</b> to the <i>Shared Library</i>";
-"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_%@_Photo" = "This photo was merged after being added by you and %@. Moving it to your Personal Library will remove it from the Shared Library for all participants.";
 "PXSharedLibrary_FilterFooter_Preview" = "Shared Library Preview";
 "PXSharedLibrary_SuggestionsToggle_Footer" = "Receive suggestions for photos and videos of selected people that you may want to add to the Shared Library.";
 "PXSharedLibraryAssistant_Rules_Footer_AlbumsNotIncluded_And_PreviewBefore" = "Hidden and Recently Deleted items will not be included, as well as screenshots. You will be able to preview your Shared Library before sharing.";
@@ -202,7 +201,6 @@ All participants will have access to any photos or videos you add later, and any
 "PXInternalPhotosChallengeSharedLibraryAnswerYesReasonOtherText" = "Relevant for other reasons";
 "PXSharedLibrary_SearchResultSectionTitle_SharedBy" = "Shared By";
 "PXSharedLibraryAssistant_ReviewRecipients_GenericParticipants_Subtitle_PhotosAndVideos_Format" = "{'videos': {'one': '%lu video', 'other': '%lu videos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': 'Participants will have access to the %#@photos@ and %#@videos@ you’ve added, as well as any new items.\n\nAll participants can edit or delete any photos or videos in the Shared\xa0Library.', 'photos': {'one': '%lu photo', 'other': '%lu photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}}";
-"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_%@_Item" = "This item was merged after being added by you and %@. Moving it to your Personal Library will remove it from the Shared Library for all participants.";
 "PXSharedLibraryFetchInvitationProgressTitle" = "Opening Invitation…";
 "PXSharedLibraryCameraSharingBannerTitle" = "SHARED LIBRARY";
 "PXSharedLibrarySetupAssistant_Cancel_ExitButton" = "Exit Setup";
@@ -247,6 +245,7 @@ All participants will have access to any photos or videos you add later, and any
 "PXSharedLibraryInfoPanelTitle_YouAndTwoContributors_Item" = "Added by <b>You</b>, <b>%@</b>, and <b>%@</b> to the <i>Shared Library</i>";
 "PXSharedLibraryPreferences_Description_iCloudExiting" = "iCloud Photos has been turned off.";
 "PXSharedLibrary_Participant_InvitationAlertMessage_HasSharedLibrary" = "To accept this invitation, go to Settings to leave your current Shared Library.";
+"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_Item" = "This item was merged after being added by you and %@. Moving it to your Personal Library will remove it from the Shared Library for all participants.";
 "PXSharedLibrary_MoveToPersonalLibraryFromPreviewConfirmationMessage_Video" = "Moving this video to your Personal Library will remove it from the Shared Library.";
 "PXSharedLibraryExit_Confirmation_Message_%lu_Videos" = "{'videos': {'one': '%lu video', 'other': '%lu videos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@videos@ will be added to your Personal Library.'}";
 "PXSharedLibraryAssistant_Summary_ButtonTitle_SkipPreview" = "Skip";
@@ -291,6 +290,7 @@ You can only have one Shared Library, and whoever creates it will provide iCloud
 "PXSharedLibrary_RestoreInvitationAlert_Message" = "To join this Shared Library, open the invitation that you previously declined.";
 "PXSharedLibraryPreferences_RemoveParticipantActionButtonTitle" = "Remove from Shared Library";
 "PXSharedLibrary_Action_MoveToLibrary_Message" = "Move selected items.";
+"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_Photos" = "Some photos were merged after being added by you and %@. Moving them to your Personal Library will remove them from the Shared Library for all participants.";
 "PXSharedLibraryInfoPanelTitle_YouContributor_Photo" = "Added by <b>You</b> to the <i>Shared Library</i>";
 "PXSharedLibraryAssistant_DateSelection_FooterFormat_MultiplePeople_Suggested_Videos" = "{'Comment': '%@ refers to a list of names of people. Example: "Jane, John and Maria"', 'videos': {'one': '%lu video', 'other': '%lu videos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%@ first appear in your library on this date. Found %#@videos@ from any moments with them.'}";
 "PXSharedLibraryAssistant_CustomizeRules_IncludingPersonFormat" = "{'messageFormat': {'one': '%lu Included Person', 'other': '%lu Included Persons', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@messageFormat@'}";
@@ -362,7 +362,6 @@ You can only have one Shared Library, and whoever creates it will provide iCloud
 "PXSharedLibraryAssistant_DateSelection_FooterFormat_SingleUnnamed_Suggested_Photos" = "{'Comment': 'The first parameter (%lu) will only be used for one (1) person.', 'photos': {'one': '%lu photo', 'other': '%lu photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%lu person first appears in your library on this date. Found %#@photos@ from moments with that person.'}";
 "PXSharedLibraryAddingParticipantsProgressTitle_Singular" = "Adding Participant…";
 "PXSharedLibraryFetchInvitationFailureAlertTitle_Permanent" = "Unable to Open Shared Library Invitation";
-"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_%@_Videos" = "Some videos were merged after being added by you and %@. Moving them to your Personal Library will remove them from the Shared Library for all participants.";
 "PXSharedLibraryCameraSharingBannerActionButtonTitle" = "Set Up";
 "PXSharedLibrary_RemoveFromSuggestions_Action_Button_Title" = "Remove from Suggestions";
 "PXInternalPhotosChallengeSharedLibraryAnswerNoReasonLocationText" = "I don’t want to share at that location";
@@ -489,6 +488,7 @@ Manage these options in Settings.";
 "PXSharedLibraryExit_Confirmation_Owner_Title" = "Are you sure you want to delete the Shared Library?";
 "PXSharedLibraryInfoPanelTitle_YouAndOtherContributors_Item" = "{'format': {'other': 'Added by <b>You</b> and <b>%lu more</b> to the <i>Shared\xa0Library</i>', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@format@'}";
 "PXSharedLibrary_FilterMenu_Subtitle_FromAllLibraries" = "From Both Libraries";
+"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_Items" = "Some items were merged after being added by you and %@. Moving them to your Personal Library will remove them from the Shared Library for all participants.";
 "PXSharedLibrary_RemoveSharedLibrarySuggestionConfirmationMessage_%lu_Items" = "{'format': {'other': 'These %lu items will be removed from Shared Library Suggestions, but will not be deleted from your Personal Library.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@format@'}";
 "PXSharedLibraryExitAssistant_Participant_ButtonTitle" = "Leave Shared Library";
 "PXSharedLibraryAssistant_DateSelection_FooterFormat_TwoPeopleAndCount_Photos" = "{'others': {'one': '%lu other', 'other': '%lu others', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'photos': {'one': '%lu photo', 'other': '%lu photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': 'Found %#@photos@ with %@, %@, and %#@others@ starting from this date.'}";
@@ -545,7 +545,7 @@ You can only have one Shared Library, and whoever creates it will provide iCloud
 "PXSharedLibrary_MoveToPersonalLibraryConfirmationMessage_Items" = "{'format': {'other': 'Moving these %lu items to your Personal Library will remove them from the Shared Library. Shared Library participants will no longer have access to these items.', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@format@'}";
 "PXSharedLibraryReplyAssistant_HowTo_LibraryView_Subtitle" = "Switch between your Personal Library, the Shared Library, or both.";
 "PXSharedLibrary_FilterFooter_Previewing" = "Previewing Shared Library";
-"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_%@_Video" = "This video was merged after being added by you and %@. Moving it to your Personal Library will remove it from the Shared Library for all participants.";
+"PXSharedLibrary_MoveToPersonalLibrary_MC_ConfirmationMessage_For_Contributor_Photo" = "This photo was merged after being added by you and %@. Moving it to your Personal Library will remove it from the Shared Library for all participants.";
 "PXSharedLibraryAssistant_ButtonTitle_Continue" = "Next";
 "PXSharedLibraryAssistant_ReviewRecipients_MultipleParticipants_Subtitle_Photos_Format" = "{'Comment': '%@ refers to a list of 2 or more contacts, which is built using NSListFormatter', 'photos': {'one': '%lu photo', 'other': '%lu photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%@ will have access to the %#@photos@ you’ve added, as well as items you share later.\n\t\t\nAll participants can edit or delete any photos or videos in the Shared\xa0Library.'}";
 "PXSharedLibraryReplyAssistant_Intro_Subtitle_NameAndEmail_Format" = "<b>%1$@</b> (%2$@) has invited you to join a Shared Library.

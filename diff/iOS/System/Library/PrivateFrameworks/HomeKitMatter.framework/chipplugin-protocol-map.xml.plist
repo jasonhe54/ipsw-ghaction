@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AlwaysSecondaryHAPServices</key>
+	<array>
+		<string>CC</string>
+		<string>3E</string>
+		<string>A2</string>
+		<string>239</string>
+		<string>701</string>
+	</array>
 	<key>CHIPDeviceTypes</key>
 	<dict>
 		<key>10</key>
@@ -3374,9 +3382,24 @@
 		<integer>116</integer>
 		<integer>144</integer>
 	</array>
+	<key>PotentialSecondaryHAPServices</key>
+	<array>
+		<string>80</string>
+		<string>85</string>
+		<string>86</string>
+		<string>87</string>
+		<string>8D</string>
+		<string>97</string>
+		<string>7F</string>
+		<string>82</string>
+		<string>83</string>
+		<string>84</string>
+		<string>8A</string>
+		<string>96</string>
+	</array>
 	<key>SchemaVersion</key>
 	<integer>1</integer>
 	<key>Version</key>
-	<integer>124</integer>
+	<integer>125</integer>
 </dict>
 </plist>

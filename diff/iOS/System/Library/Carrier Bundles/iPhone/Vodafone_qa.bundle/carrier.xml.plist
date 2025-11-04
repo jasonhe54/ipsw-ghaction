@@ -201,8 +201,6 @@
 	<dict>
 		<key>LocalInstallSMDPURL</key>
 		<string>https://sm-v4-040-a-gtm.pr.go-esim.com</string>
-		<key>MinCompatibleOS</key>
-		<string>26.0</string>
 		<key>TransferErrorCodes</key>
 		<dict>
 			<key>CarrierDefaultErrors</key>

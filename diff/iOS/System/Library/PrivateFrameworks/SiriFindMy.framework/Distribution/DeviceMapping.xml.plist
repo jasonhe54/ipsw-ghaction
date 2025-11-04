@@ -25,6 +25,7 @@
 			<string>AirPods_8212</string>
 			<string>AirPods_8217</string>
 			<string>AirPods_8219</string>
+			<string>AirPods_8231</string>
 		</array>
 	</dict>
 	<key>airpods_case</key>
@@ -69,6 +70,7 @@
 			<string>AirPods_8228</string>
 			<string>AirPods_8206</string>
 			<string>AirPods_8212</string>
+			<string>AirPods_8231</string>
 		</array>
 	</dict>
 	<key>airpods_pro_case</key>
@@ -178,6 +180,15 @@
 			<string>Watch7,9</string>
 			<string>Watch7,10</string>
 			<string>Watch7,11</string>
+			<string>Watch7,13</string>
+			<string>Watch7,14</string>
+			<string>Watch7,15</string>
+			<string>Watch7,16</string>
+			<string>Watch7,17</string>
+			<string>Watch7,18</string>
+			<string>Watch7,19</string>
+			<string>Watch7,20</string>
+			<string>Watch7,12</string>
 		</array>
 	</dict>
 	<key>apple_watch_ultra</key>
@@ -192,6 +203,7 @@
 		<array>
 			<string>Watch6,18</string>
 			<string>Watch7,5</string>
+			<string>Watch7,12</string>
 		</array>
 	</dict>
 	<key>backpack</key>
@@ -467,6 +479,7 @@
 			<string>AirPods_8206</string>
 			<string>AirPods_8211</string>
 			<string>AirPods_8212</string>
+			<string>AirPods_8231</string>
 		</array>
 		<key>semanticAliases</key>
 		<array>
@@ -500,6 +513,7 @@
 			<string>AirPods_8206</string>
 			<string>AirPods_8211</string>
 			<string>AirPods_8212</string>
+			<string>AirPods_8231</string>
 		</array>
 		<key>semanticAliases</key>
 		<array>
@@ -946,6 +960,33 @@
 		<key>officialName</key>
 		<string>iPhone 16 Pro Max</string>
 	</dict>
+	<key>iphone17</key>
+	<dict>
+		<key>deviceClass</key>
+		<string>IPHONE</string>
+		<key>deviceClassSemantic</key>
+		<string>iphone</string>
+		<key>officialName</key>
+		<string>iPhone 17</string>
+	</dict>
+	<key>iphone17Pro</key>
+	<dict>
+		<key>deviceClass</key>
+		<string>IPHONE</string>
+		<key>deviceClassSemantic</key>
+		<string>iphone</string>
+		<key>officialName</key>
+		<string>iPhone 17 Pro</string>
+	</dict>
+	<key>iphone17ProMax</key>
+	<dict>
+		<key>deviceClass</key>
+		<string>IPHONE</string>
+		<key>deviceClassSemantic</key>
+		<string>iphone</string>
+		<key>officialName</key>
+		<string>iPhone 17 Pro Max</string>
+	</dict>
 	<key>iphone3g</key>
 	<dict>
 		<key>deviceClass</key>
@@ -1156,6 +1197,15 @@
 		<string>ACCESSORIES</string>
 		<key>isNotFindable</key>
 		<true/>
+	</dict>
+	<key>iphoneair</key>
+	<dict>
+		<key>deviceClass</key>
+		<string>IPHONE</string>
+		<key>deviceClassSemantic</key>
+		<string>iphone</string>
+		<key>officialName</key>
+		<string>iPhone Air</string>
 	</dict>
 	<key>iphonese</key>
 	<dict>

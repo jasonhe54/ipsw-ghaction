@@ -63,9 +63,9 @@
 		<key>cs-CZ</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.040000000000000001</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -91,9 +91,9 @@
 		<key>da-DK</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.050000000000000003</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -233,7 +233,7 @@
 		<key>id-ID</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
 			<real>0.014999999999999999</real>
 			<key>lmFiltering</key>
@@ -349,9 +349,9 @@
 		<key>ms-MY</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.01</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -377,9 +377,9 @@
 		<key>nb-NO</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.029999999999999999</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -405,9 +405,9 @@
 		<key>nl-NL</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.050000000000000003</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -433,9 +433,9 @@
 		<key>nn-NO</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.029999999999999999</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -461,9 +461,9 @@
 		<key>no-NO</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.029999999999999999</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -489,9 +489,9 @@
 		<key>pl-PL</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.040000000000000001</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -545,9 +545,9 @@
 		<key>ro-RO</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.02</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -601,9 +601,9 @@
 		<key>sv-SE</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.050000000000000003</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>
@@ -657,9 +657,9 @@
 		<key>tr-TR</key>
 		<dict>
 			<key>charlm</key>
-			<real>0.22500000000000001</real>
+			<integer>0</integer>
 			<key>lexicon</key>
-			<real>0.014999999999999999</real>
+			<real>0.040000000000000001</real>
 			<key>lmFiltering</key>
 			<dict>
 				<key>activationThreshold</key>

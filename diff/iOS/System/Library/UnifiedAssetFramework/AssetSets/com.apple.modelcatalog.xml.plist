@@ -2348,6 +2348,21 @@
 		</dict>
 		<dict>
 			<key>AssetName</key>
+			<string>com.apple.gm.server.instruct_server_v1.autograder.generic</string>
+			<key>Expansions</key>
+			<array>
+				<dict>
+					<key>AutoAssetSpecifierTemplate</key>
+					<string>com.apple.gm.server.instruct_server_v1.autograder.generic</string>
+					<key>RequiredUsageTypes</key>
+					<array>
+						<string>com.apple.gm.server.instruct_server_v1.autograder.generic</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>AssetName</key>
 			<string>com.apple.gm.server.instruct_server_v1.base.generic</string>
 			<key>Expansions</key>
 			<array>
@@ -3833,6 +3848,7 @@
 		<string>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</string>
 		<string>com.apple.gm.server.instruct_server_v1.answer_synthesis.generic</string>
 		<string>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</string>
+		<string>com.apple.gm.server.instruct_server_v1.autograder.generic</string>
 		<string>com.apple.gm.server.instruct_server_v1.base.generic</string>
 		<string>com.apple.gm.server.instruct_server_v1.bullets_transform.generic</string>
 		<string>com.apple.gm.server.instruct_server_v1.concise_tone.generic</string>

@@ -61,8 +61,9 @@
 "DEFAULT_PLACEHOLDER_AUTHENTICATION_REASON_NO_ACCOUNT" = "Confirm your Apple Account password to authorize this purchase.";
 "ENTER_VERIFICATION_CODE" = "A message with a verification code has been sent to your other devices running iOS 9 or OS X El Capitan or later. Enter the code to continue.";
 "SIGN_IN_BUTTON_TITLE_ROS" = "Sign In";
-"APPLE_ID_ALERT_PLACEHOLDER_REBRAND" = "Apple Account";
+"OTHER_OPTIONS" = "Other Options";
 "KEEP_USING_DESCRIPTION" = "You're signed in to this Mac as “%@”. You can use this account with %@ or choose a different one.";
+"APPLE_ID_ALERT_PLACEHOLDER_REBRAND" = "Apple Account";
 "PASSWORD_REQUEST_VIEW_SAVED_FROM" = "Saved password from %@";
 "AUTHORIZE_EXISTING_ACCOUNT_LOGIN_CHOICE_SUBTITLE" = "Your account";
 "SIGN_IN_MESSAGE_NO_CREATE_REBRAND_NO_SERVICE" = "Enter your password to continue using your Apple Account on this Mac.";
@@ -78,6 +79,7 @@
 "ENROLL_FORGOT_CODE" = "Forgot Code?";
 "AUTHORIZE_BUTTON_TITLE_SIGN_IN_PASSCODE" = "Sign In with Passcode";
 "PASSWORD_PLACEHOLDER" = "Password";
+"DIDNT_GET_A_CODE_BODY" = "If you didn’t get a code, you can send another code to another device signed in with your Apple Account.";
 "SPYGLASS_BODY" = "Sign in to securely access your personal data stored in iCloud, set up the App Store, and use all Apple services on this Mac.";
 "PROXIMITY_AUTH_CHILD_SETUP_DESCRIPTION_IPHONE" = "If you’re the parent or guardian of the child using this iPhone, you can use your own iPhone or iPad to set things up.
 
@@ -185,6 +187,7 @@ Hold your unlocked device running iOS or iPadOS 18.4 or later near this iPad…"
 "HEADER_ICON_ACCESSIBILITY_LABEL" = "Login Header Icon";
 "ENROLL_FORGOT_MORE_DEVICES_CHOSSE_BUTTON" = "Choose Device";
 "ENROLL_CURRENT_MACHINE_LABEL" = "Your iCloud data is protected by your user password.";
+"NEXT" = "Next";
 "PASSCODE_ALERT_PLACEHOLDER" = "Passcode";
 "SERVER_ERROR" = "There was a problem connecting to the server.";
 "AUTHORIZATION_PASSWORD_VIEWCONTROLLER_TITLE" = "Sign In";
@@ -200,6 +203,7 @@ Hold your unlocked device running iOS or iPadOS 18.4 or later near this iPad…"
 "PASSWORD_REQUEST_VIEW_SINGLE_FOR_APP_QUESTION" = "Do you want to sign in to %@ with your saved password?";
 "PROXIMITY_AUTH_SETUP_IN_PROGRESS_DESCRIPTION_IPAD" = "Please continue on your other iPad.";
 "ENROLL_FORGOT_NO_DEVICES_TITLE" = "If you can‘t remember the password for %@ “%@”, you can approve this Mac using another device.";
+"PIGGYBACK_INSTRUCTIONS" = "Your Apple Account can only be used from devices you approve.";
 "SIGN_IN_MESSAGE_REBRAND_SERVICE_ITUNES" = "Sign in to Apple Media Services using your Apple Account. Don’t have an account? You can create one for free.";
 "PASSCODE_AUTHENTICATION_REASON" = "Enter your device passcode to authorize this transaction";
 "SIGN_IN_HEADER_REBRAND_SERVICE_ICLOUD" = "Sign in to iCloud with your Apple Account";
@@ -218,6 +222,7 @@ Hold your unlocked device running iOS or iPadOS 18.4 or later near this iPad…"
 "DEPLETED_ATTEMPTS_ERROR_MSG_PASSCODE" = "Choose a device to enter its passcode.";
 "SIGN_IN_HEADER_REBRAND_SERVICE_IMESSAGE" = "Sign in to iMessage with your Apple Account";
 "SIGN_IN_HEADER_REBRAND_SERVICE_ITUNES" = "Sign in to your Apple Account";
+"PIGGYBACK_TITLE" = "Enter the verification code sent to your other devices.";
 "ENROLL_PASSWORD_ENTRY_IFORGOT_BUTTON" = "Forgot?";
 "ENROLL_GENERIC_MACHINE_MESSAGE_PASSCODE" = "Your passcode is encrypted and cannot be read by Apple.";
 "AUTHORIZE_USE_DEVICE_FOOTER" = "Didn’t get a notification? Make sure your iOS device has Wi-Fi and Bluetooth turned on.
@@ -313,6 +318,7 @@ Requires iOS 13.0 or later.";
 "AUTHORIZE_APPLE_ACCOUNT_1ST_PARTY_LOG_BACK_IN" = "Sign in to %@ with your existing account.";
 "AUTHORIZE_MANAGED_APPLE_ACCOUNT_WELCOME_BACK" = "Sign in to this application with your existing Managed Apple Account?";
 "SIGN_IN_LATER" = "Sign in Later";
+"REMEMBER_PASSWORD" = "Remember Password";
 "APPROVAL_REQUEST_BUTTON" = "Send";
 "IFORGOT_BUTTON_TITLE" = "Forgot password?";
 "AUTHORIZE_BUTTON_TITLE_SIGN_IN_DEFAULT" = "Sign In";
@@ -326,6 +332,7 @@ Requires iOS 13.0 or later.";
 "AUTHORIZE_BUTTON_TITLE_SIGN_IN_TOUCH_ID" = "Sign In with Touch ID";
 "AUTHORIZATION_VIEWCONTROLLER_DONE" = "Done";
 "AUTHORIZE_MANAGED_APPLE_ACCOUNT_WELCOME_BACK_APPNAME_ORGNAME_FORMAT" = "Do you want to sign in to %@ with your existing Managed Apple Account from %@?";
+"PIGGYBACK_DIDNT_GET_A_CODE" = "Didn’t receive a verification code?";
 "AUTHORIZE_BUTTON_TITLE_LOGIN_OPTION_CREATE_NEW_ACCOUNT" = "Create New Account";
 "AUTHORIZE_APPLE_ACCOUNT_CREATE_FORMAT" = "Create an account for %@ using your Apple Account (%@).";
 "CONTINUE_WITH_APPLE" = "Continue with Apple";
@@ -337,6 +344,7 @@ Requires iOS 13.0 or later.";
 "PROXIMITY_AUTH_ERROR_TITLE" = "Could Not Sign In";
 "AUTHORIZE_FIRST_TIME_MESSAGE_2" = "Apple wonߴt track you. Apps can only ask for name and email.";
 "BIOMETRIC_RATCHET_FALLBACK_TEXT" = "Authentication is required before you can continue.";
+"SEND_ANOTHER_CODE" = "Send Another Code";
 "SIGN_IN_MESSAGE_NO_CREATE_REBRAND_SERVICE_IMESSAGE" = "Enter your password to continue using iMessage on this Mac.";
 "ENROLL_FORGOT_MORE_DEVICES_TITLE_PASSCODE" = "If you can‘t remember the passcode for %@ “%@”, you can enter the password for one of your other devices.";
 "ENROLL_GENERIC_ICSC_TITLE" = "To access your iCloud data, enter the iCloud Security Code.";

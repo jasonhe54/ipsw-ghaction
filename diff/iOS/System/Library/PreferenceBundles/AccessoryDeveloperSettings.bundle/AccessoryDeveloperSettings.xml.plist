@@ -674,6 +674,22 @@
 			<key>label</key>
 			<string>Enable CarPlay Video Playback</string>
 		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.airplay</string>
+			<key>key</key>
+			<string>enableCarPlayRouteSharing</string>
+			<key>label</key>
+			<string>Vehicle state</string>
+		</dict>
 	</array>
 	<key>title</key>
 	<string>Accessory Developer</string>

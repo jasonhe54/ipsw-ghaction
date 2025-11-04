@@ -23,8 +23,16 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://api.stc.com.sa/a-iot/degEntlMgmt/gateway?apiKey=VGMLrNXbSwFfhy4Z8sZa16hsryu7x0bU76KsH8O</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportedActions</key>
+		<array>
+			<string>TransferSIMService</string>
+		</array>
 		<key>SupportedEntitlements</key>
-		<integer>1024</integer>
+		<integer>9216</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -67,6 +75,15 @@
 		<key>SoftwareUpdateOptInRequired</key>
 		<true/>
 	</dict>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>stc.prod.smdpplus.stc.com.sa</string>
+		<key>MinCompatibleOS</key>
+		<string>26.0</string>
+		<key>TransferSupportedOverCloud</key>
+		<false/>
+	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<array>
 		<string>+447860015060</string>
@@ -82,6 +99,8 @@
 	</array>
 	<key>PushSettings</key>
 	<dict>
+		<key>CellularPlanTransferTopic</key>
+		<string>com.stc.eSIMTransfer</string>
 		<key>MultiSIMTopic</key>
 		<string>com.stc.multiSIM-prod</string>
 	</dict>

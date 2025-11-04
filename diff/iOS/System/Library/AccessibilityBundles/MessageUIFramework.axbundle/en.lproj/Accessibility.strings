@@ -18,7 +18,7 @@
 "text.style.button.decrease.quote" = "Decrease quote level";
 "indentation.level.stack.view" = "Indentation Level";
 "message.area" = "Message";
-"address.atom.hint" = "Double-tap to show more info, Double-tap and hold, then drag up or down to move to other address fields.";
+"address.atom.hint" = "Double-tap to show contact options, Double-tap and hold, then drag up or down to move to other address fields.";
 "insert.photo.label" = "Insert photo";
 "format.toolbar.button" = "Text format";
 "attachment.count.singular" = "%@ attachment";
@@ -52,8 +52,9 @@
 "from.text" = "From: ";
 "add.attachment" = "Add attachment";
 "text.style.button.justify.right" = "Right justified";
-"text.style.button.indent.right" = "Indent right";
+"address.atom.expand.hint" = "Double-tap to expand header, Double-tap and hold, then drag up or down to move to other address fields.";
 "combined.header.hint" = "Double tap to show more info";
+"text.style.button.indent.right" = "Indent right";
 "remove.item.announce" = "Removed %@";
 "add.contact.button" = "Add contact";
 "text.style.button.justify.left" = "Left justified";

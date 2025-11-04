@@ -23,6 +23,14 @@
 				<string>com.apple.Preferences.ResetPrivacyWarningsNotification</string>
 			</dict>
 		</dict>
+		<key>com.apple.tccd.events</key>
+		<dict>
+			<key>com.apple.deviceaccess.tccd.events</key>
+			<dict>
+				<key>kTCCServiceAccessoryWiFiNetworkSharing</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
 	<key>MachServices</key>
 	<dict>

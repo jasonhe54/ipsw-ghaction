@@ -2387,6 +2387,49 @@
 			<key>mode</key>
 			<integer>1</integer>
 			<key>name</key>
+			<string>DiskIOWrites</string>
+			<key>obfuscation</key>
+			<integer>1</integer>
+			<key>privacyClassification</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>5</integer>
+			<key>subsystem</key>
+			<string>BackgroundProcessing</string>
+			<key>timeToLive</key>
+			<integer>24</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>cadence</key>
+			<dict>
+				<key>cadences</key>
+				<array>
+					<dict>
+						<key>type</key>
+						<integer>5</integer>
+						<key>value</key>
+						<integer>3</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>category</key>
+			<string>TaskInstanceData</string>
+			<key>datatype</key>
+			<integer>8</integer>
+			<key>directionality</key>
+			<integer>4</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>mode</key>
+			<integer>1</integer>
+			<key>name</key>
 			<string>BilledEnergy</string>
 			<key>obfuscation</key>
 			<integer>1</integer>

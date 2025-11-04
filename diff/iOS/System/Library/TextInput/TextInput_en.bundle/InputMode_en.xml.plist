@@ -116,6 +116,7 @@
 		<key>en_AE</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_AF</key>
@@ -156,12 +157,19 @@
 		<key>en_BH</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_BT</key>
 		<array>
 			<string>en_GB</string>
 			<string>dz</string>
+			<string>emoji</string>
+		</array>
+		<key>en_DJ</key>
+		<array>
+			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_DZ</key>
@@ -249,12 +257,19 @@
 		<key>en_JO</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_JP</key>
 		<array>
 			<string>en_JP</string>
 			<string>ja_JP-Kana</string>
+			<string>emoji</string>
+		</array>
+		<key>en_KM</key>
+		<array>
+			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_KW</key>
@@ -265,6 +280,7 @@
 		<key>en_LB</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_LT</key>
@@ -280,16 +296,24 @@
 		<key>en_LY</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MA</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MK</key>
 		<array>
 			<string>en_US</string>
+			<string>emoji</string>
+		</array>
+		<key>en_ML</key>
+		<array>
+			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MO</key>
@@ -301,6 +325,7 @@
 		<key>en_MR</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MY</key>
@@ -338,11 +363,13 @@
 		<key>en_PS</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_QA</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_RS</key>
@@ -358,6 +385,7 @@
 		<key>en_SD</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_SE</key>
@@ -376,14 +404,22 @@
 			<string>en_GB</string>
 			<string>emoji</string>
 		</array>
+		<key>en_SO</key>
+		<array>
+			<string>en_US</string>
+			<string>ar-Translit</string>
+			<string>emoji</string>
+		</array>
 		<key>en_SY</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_TN</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_US</key>
@@ -401,6 +437,7 @@
 		<key>en_YE</key>
 		<array>
 			<string>en_US</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_ZA</key>
@@ -415,6 +452,7 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_AF</key>
@@ -466,12 +504,20 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_BT</key>
 		<array>
 			<string>en_GB</string>
 			<string>dz</string>
+			<string>emoji</string>
+		</array>
+		<key>en_DJ</key>
+		<array>
+			<string>en_US</string>
+			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_DZ</key>
@@ -602,6 +648,7 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_JP</key>
@@ -610,6 +657,13 @@
 			<string>ja_JP-Kana</string>
 			<string>ja_JP-Romaji</string>
 			<string>ja_JP-HWR</string>
+			<string>emoji</string>
+		</array>
+		<key>en_KM</key>
+		<array>
+			<string>en_US</string>
+			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_KW</key>
@@ -622,6 +676,7 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_LT</key>
@@ -640,18 +695,27 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MA</key>
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MK</key>
 		<array>
 			<string>en_US</string>
 			<string>mk_MK</string>
+			<string>emoji</string>
+		</array>
+		<key>en_ML</key>
+		<array>
+			<string>en_US</string>
+			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MO</key>
@@ -671,6 +735,7 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_MY</key>
@@ -720,12 +785,14 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_QA</key>
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_RS</key>
@@ -746,6 +813,7 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_SE</key>
@@ -773,16 +841,32 @@
 			<string>sl_SI</string>
 			<string>emoji</string>
 		</array>
+		<key>en_SO</key>
+		<array>
+			<string>en_US</string>
+			<string>ar</string>
+			<string>ar-Translit</string>
+			<string>emoji</string>
+		</array>
 		<key>en_SY</key>
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
+			<string>emoji</string>
+		</array>
+		<key>en_TD</key>
+		<array>
+			<string>en_US</string>
+			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_TN</key>
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_US</key>
@@ -801,6 +885,7 @@
 		<array>
 			<string>en_US</string>
 			<string>ar</string>
+			<string>ar-Translit</string>
 			<string>emoji</string>
 		</array>
 		<key>en_ZA</key>

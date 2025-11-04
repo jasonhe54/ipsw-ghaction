@@ -104,6 +104,8 @@
 			<true/>
 			<key>InactivityTimerRTCPSeconds</key>
 			<integer>20</integer>
+			<key>InactivityTimerRTPSeconds</key>
+			<integer>20</integer>
 			<key>IncludeSDPMaxRed</key>
 			<true/>
 			<key>IncludeSDPModeChangeCapability</key>

@@ -2,11 +2,13 @@
 "TEMPERATURE_VOICEOVER" = "Water temperature.";
 "DEPTH_DIVE_PAUSED" = "DIVE PAUSED";
 "DEPTH_VOICEOVER_FORMAT" = "Depth %@.";
-"TEMPERATURE_VOICEOVER_FORMAT" = "Water temperature %@.";
 "DEPTH_VOICEOVER" = "Depth.";
+"DEPTH" = "Depth";
 "DEPTH_DIVE_TO_CONTINUE" = "DIVE TO CONTINUE";
 "TEMPERATURE" = "Water Temperature";
-"DEPTH" = "Depth";
+"TEMPERATURE_VOICEOVER_FORMAT" = "Water temperature %@.";
 "DEPTH_LIMIT_EXCEEDED_VOICEOVER_FORMAT" = "Depth exceeding %@.";
+"SESSION_LABEL" = "SESSION";
 "DEPTH_UNAVAILABLE_VOICEOVER" = "Depth unavailable.";
 "TEMPERATURE_UNAVAILABLE_VOICEOVER" = "Water temperature unavailable.";
+"DIVING_LABEL" = " DIVING";

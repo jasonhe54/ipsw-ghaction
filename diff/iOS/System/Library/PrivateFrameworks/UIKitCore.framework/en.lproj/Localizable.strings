@@ -17,6 +17,7 @@
 "Role Playing Games" = "Role Playing Games";
 "Find" = "Find";
 "Done" = "Done";
+"KEYSHORTCUTHUDITEM_FILE_CLOSE_ALL" = "Close All";
 "FONT_PICKER_RECENTS" = "Recents";
 "Show Inspector" = "Show Inspector";
 "Show Sidebar" = "Show Sidebar";
@@ -71,7 +72,6 @@
 "Red" = "Red";
 "MACMENUBAR_FILE" = "File";
 "UIMENU_FORMAT_MENU_TEXT_JUSTIFY" = "Justify";
-"TEXT_FORMATTING_SELECTED_STATE_YES" = "Selected";
 "MACMENUITEM_FORMAT_TEXT" = "Text";
 "Select All" = "Select All";
 "Card Games" = "Card Games";
@@ -89,7 +89,6 @@
 "Full" = "Full";
 "DROPPED_DOCUMENT_N" = "Dropped Document %d";
 "Edit" = "Edit";
-"TEXT_FORMATTING_SELECTED_STATE_NO" = "Not selected";
 "TEXT_FORMATTING_COLOR_PICKER" = "Color Picker";
 "MACMENUITEM_FILE_PRINT" = "Print…";
 "Type both Arabic and English on the same keyboard" = "Type both Arabic and English on the same keyboard";
@@ -687,6 +686,7 @@ using Dictation.";
 "EDIT_MENU_SUBST_LINKS_STRING" = "Smart Links";
 "PASTE_CONFIRMATION_LABEL_TEXT" = "This application is trying to read the clipboard.";
 "MACMENUITEM_EDIT_SUBST_DATA_DETECTORS" = "Data Detectors";
+"Close All Windows" = "Close All Windows";
 "KEYSHORTCUTHUDITEM_EDIT_FIND_MENU" = "Find";
 "com.apple.documents.empty.message" = "Select a document by tapping the “Documents” button.";
 "Dictation Soon OK" = "OK";

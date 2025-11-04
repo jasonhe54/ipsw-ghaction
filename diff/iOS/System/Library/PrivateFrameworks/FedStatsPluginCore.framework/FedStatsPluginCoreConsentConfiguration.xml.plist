@@ -26,6 +26,13 @@
 		<key>needsLocation</key>
 		<true/>
 	</dict>
+	<key>FED_STATS_BIOME_COMM_SAFETY</key>
+	<dict>
+		<key>needsCommSafety</key>
+		<true/>
+		<key>needsDnU</key>
+		<false/>
+	</dict>
 	<key>FED_STATS_BIOME_HEALTH</key>
 	<dict>
 		<key>needsIHA</key>

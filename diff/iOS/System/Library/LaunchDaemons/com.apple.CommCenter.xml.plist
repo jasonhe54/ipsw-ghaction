@@ -18,6 +18,8 @@
 		<true/>
 		<key>com.apple.aps.CommCenter</key>
 		<true/>
+		<key>com.apple.aps.CommCenter.webpush</key>
+		<true/>
 		<key>com.apple.basebandd.xpc</key>
 		<true/>
 		<key>com.apple.commcenter.ari.rt.xpc</key>

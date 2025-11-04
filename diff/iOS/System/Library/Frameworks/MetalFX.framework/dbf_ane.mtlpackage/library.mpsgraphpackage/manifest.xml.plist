@@ -4,7 +4,7 @@
 <dict>
 	<key>Package Version</key>
 	<dict>
-		<key>6.0.10</key>
+		<key>6.0.12</key>
 		<dict>
 			<key>Binary File Resources</key>
 			<dict/>
@@ -13,138 +13,13 @@
 			<key>Data File Names</key>
 			<array/>
 			<key>Optimized Modules</key>
-			<dict>
-				<key>[
-  "{\n  \"deviceDescriptor\" : [\n    0,\n    38,\n    \"h14g\"\n  ],\n  \"compilationDescriptor\" : {\n    \"enableParallelEncode\" : false,\n    \"aneCompilerSpatialSplitting\" : 3,\n    \"preferredDevice\" : 0,\n    \"enableANECValidationWorkflow\" : false,\n    \"compilerOptions\" : 1423,\n    \"printANEPlacementAnalysis\" : false,\n    \"optimizationProfile\" : 0,\n    \"optimizationLevel\" : 1,\n    \"maximumNumberOfParallelEncodingRegions\" : 4,\n    \"reducedPrecisionFastMath\" : 0,\n    \"enableANELateLatch\" : false,\n    \"entryFunctionName\" : \"\",\n    \"minimumNumberOfOpsInParallelRegion\" : 5,\n    \"enableShapeEquivalence\" : false,\n    \"enableANEFWToFWSignal\" : false,\n    \"enableMLIRDiagnostics\" : false,\n    \"enableCompileResourcesForPackage\" : false,\n    \"enableANECHWRankPromotion\" : false,\n    \"allowedComputeDevices\" : 7\n  },\n  \"inputShapesCount\" : 6,\n  \"inputShapes\" : [\n    268435472,\n    4,\n    1,\n    13,\n    544,\n    960\n  ],\n  \"callablesDescriptor\" : {\n\n  }\n}"
-]</key>
-				<dict>
-					<key>File Name</key>
-					<string>model_1.mpsgraph</string>
-					<key>Key to Symbol Name</key>
-					<dict>
-						<key>{
-  "deviceDescriptor" : [
-    0,
-    38,
-    "h14g"
-  ],
-  "compilationDescriptor" : {
-    "enableParallelEncode" : false,
-    "aneCompilerSpatialSplitting" : 3,
-    "preferredDevice" : 0,
-    "enableANECValidationWorkflow" : false,
-    "compilerOptions" : 1423,
-    "printANEPlacementAnalysis" : false,
-    "optimizationProfile" : 0,
-    "optimizationLevel" : 1,
-    "maximumNumberOfParallelEncodingRegions" : 4,
-    "reducedPrecisionFastMath" : 0,
-    "enableANELateLatch" : false,
-    "entryFunctionName" : "",
-    "minimumNumberOfOpsInParallelRegion" : 5,
-    "enableShapeEquivalence" : false,
-    "enableANEFWToFWSignal" : false,
-    "enableMLIRDiagnostics" : false,
-    "enableCompileResourcesForPackage" : false,
-    "enableANECHWRankPromotion" : false,
-    "allowedComputeDevices" : 7
-  },
-  "inputShapesCount" : 6,
-  "inputShapes" : [
-    268435472,
-    4,
-    1,
-    13,
-    544,
-    960
-  ],
-  "callablesDescriptor" : {
-
-  }
-}</key>
-						<string>main</string>
-					</dict>
-					<key>Used In Cache</key>
-					<array>
-						<string>{
-  "deviceDescriptor" : [
-    0,
-    38,
-    "h14g"
-  ],
-  "compilationDescriptor" : {
-    "enableParallelEncode" : false,
-    "aneCompilerSpatialSplitting" : 3,
-    "preferredDevice" : 0,
-    "enableANECValidationWorkflow" : false,
-    "compilerOptions" : 1423,
-    "printANEPlacementAnalysis" : false,
-    "optimizationProfile" : 0,
-    "optimizationLevel" : 1,
-    "maximumNumberOfParallelEncodingRegions" : 4,
-    "reducedPrecisionFastMath" : 0,
-    "enableANELateLatch" : false,
-    "entryFunctionName" : "",
-    "minimumNumberOfOpsInParallelRegion" : 5,
-    "enableShapeEquivalence" : false,
-    "enableANEFWToFWSignal" : false,
-    "enableMLIRDiagnostics" : false,
-    "enableCompileResourcesForPackage" : false,
-    "enableANECHWRankPromotion" : false,
-    "allowedComputeDevices" : 7
-  },
-  "inputShapesCount" : 6,
-  "inputShapes" : [
-    268435472,
-    4,
-    1,
-    13,
-    544,
-    960
-  ],
-  "callablesDescriptor" : {
-
-  }
-}</string>
-					</array>
-				</dict>
-			</dict>
+			<dict/>
 			<key>Optimized No Device Modules</key>
 			<dict/>
 			<key>Optimized No Device Resources Used</key>
 			<dict/>
 			<key>Optimized Resources Used</key>
-			<dict>
-				<key>[
-  "{\n  \"deviceDescriptor\" : [\n    0,\n    38,\n    \"h14g\"\n  ],\n  \"compilationDescriptor\" : {\n    \"enableParallelEncode\" : false,\n    \"aneCompilerSpatialSplitting\" : 3,\n    \"preferredDevice\" : 0,\n    \"enableANECValidationWorkflow\" : false,\n    \"compilerOptions\" : 1423,\n    \"printANEPlacementAnalysis\" : false,\n    \"optimizationProfile\" : 0,\n    \"optimizationLevel\" : 1,\n    \"maximumNumberOfParallelEncodingRegions\" : 4,\n    \"reducedPrecisionFastMath\" : 0,\n    \"enableANELateLatch\" : false,\n    \"entryFunctionName\" : \"\",\n    \"minimumNumberOfOpsInParallelRegion\" : 5,\n    \"enableShapeEquivalence\" : false,\n    \"enableANEFWToFWSignal\" : false,\n    \"enableMLIRDiagnostics\" : false,\n    \"enableCompileResourcesForPackage\" : false,\n    \"enableANECHWRankPromotion\" : false,\n    \"allowedComputeDevices\" : 7\n  },\n  \"inputShapesCount\" : 6,\n  \"inputShapes\" : [\n    268435472,\n    4,\n    1,\n    13,\n    544,\n    960\n  ],\n  \"callablesDescriptor\" : {\n\n  }\n}"
-]</key>
-				<array>
-					<string>tmp_23</string>
-					<string>tmp_19</string>
-					<string>tmp_14</string>
-					<string>tmp_4</string>
-					<string>tmp_9</string>
-					<string>tmp_20</string>
-					<string>tmp_16</string>
-					<string>tmp_11</string>
-					<string>tmp_22</string>
-					<string>tmp_8</string>
-					<string>tmp_3</string>
-					<string>tmp_18</string>
-					<string>tmp</string>
-					<string>tmp_13</string>
-					<string>tmp_2</string>
-					<string>tmp_7</string>
-					<string>tmp_15</string>
-					<string>tmp_1</string>
-					<string>tmp_10</string>
-					<string>tmp_21</string>
-					<string>tmp_6</string>
-					<string>tmp_17</string>
-					<string>tmp_12</string>
-					<string>tmp_5</string>
-				</array>
-			</dict>
+			<dict/>
 			<key>Original</key>
 			<string>model_0.mpsgraph</string>
 			<key>Original Resources Used</key>

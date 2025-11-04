@@ -14,6 +14,11 @@
 		<dict>
 			<key>com.apple.momentsd.eventRefresh</key>
 			<dict>
+				<key>InvolvedProcesses</key>
+				<array>
+					<string>MomentsUIService</string>
+					<string>MapKit.SnapshotService</string>
+				</array>
 				<key>Priority</key>
 				<string>Utility</string>
 				<key>RepeatingTask</key>
@@ -32,6 +37,11 @@
 			</dict>
 			<key>com.apple.momentsd.eventRefresh.first</key>
 			<dict>
+				<key>InvolvedProcesses</key>
+				<array>
+					<string>MomentsUIService</string>
+					<string>MapKit.SnapshotService</string>
+				</array>
 				<key>NonRepeatingTask</key>
 				<dict>
 					<key>ScheduleAfter</key>

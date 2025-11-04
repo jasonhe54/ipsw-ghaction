@@ -34,13 +34,13 @@
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>get</key>
-			<string>getBlueLightReductionEnabled:</string>
+			<string>getBlueLightReductionManualEnabled:</string>
 			<key>id</key>
 			<string>MANUAL</string>
 			<key>label</key>
 			<string>MANUAL</string>
 			<key>set</key>
-			<string>setBlueLightReductionEnabled:forSpecifier:</string>
+			<string>setBlueLightReductionManualEnabled:forSpecifier:</string>
 		</dict>
 		<dict>
 			<key>cell</key>

@@ -296,6 +296,11 @@
 	<string>922</string>
 	<key>TosSupported</key>
 	<false/>
+	<key>TravelSettings</key>
+	<dict>
+		<key>EnableEnhancedTravelEducation</key>
+		<false/>
+	</dict>
 	<key>UserCanReinitiateActivation</key>
 	<false/>
 	<key>VVMIgnoresIntlDataRoaming</key>

@@ -40,6 +40,8 @@
 			</array>
 			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
 			<false/>
+			<key>UIKeyboardFontFallbacksRequired</key>
+			<true/>
 			<key>UIKeyboardSupportsASCIIToggleKey</key>
 			<true/>
 		</dict>

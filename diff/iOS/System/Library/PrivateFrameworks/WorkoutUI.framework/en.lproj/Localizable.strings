@@ -13,7 +13,7 @@ HR";
 "RANGED_ALERT_STYLE_OFF" = "Off";
 "INTERVAL_STEP_DISTANCE_REMAINING_FORMAT_IOS_METERS" = "{'meters': {'one': 'LEFT', 'other': 'LEFT', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%@ %#@meters@'}";
 "PACER_DESCRIPTION_PACE" = "Pace: %1$@/%2$@";
-"UNIT_SETTINGS_ROWING_WORKOUTS_TITLE" = "ROWING WORKOUTS";
+"UNIT_SETTINGS_ROWING_WORKOUTS_TITLE" = "Rowing Workouts";
 "ACTIVITY_RING_COMPLETION_LINE_3_EXERCISE" = "Closed";
 "VERTICAL_DESCENT_METRIC_DESCRIPTION_ONE_LINE_FULL" = "VERTICAL DESCENT";
 "WORKOUT_CONFIGURATION_SHORT_GOAL_TIME" = "Time";
@@ -33,6 +33,7 @@ DESCENT";
 "ADD_AX_TITLE" = "Add";
 "MUTE_WORKOUT_BUDDY_BUTTON" = "Mute";
 "SUMMARY_RACE_TIME_TITLE" = "Race Time";
+"WEATHER_CHANNEL_AX_LABEL" = "The Weather Channel";
 "AX_WORKOUT_BUDDY_DISCONNECTED" = "Disconnected";
 "WORKOUT_BUDDY_SIRI_VEGA_DISABLED_ERROR" = "Siri must be turned on in Settings to use Workout Buddy.";
 "OUTDOOR_RUN_WRAPPED" = "Outdoor
@@ -41,6 +42,8 @@ Run";
 "RACE_ALERT_ROUTE_COMPLETE_LOST" = "Race
 Complete";
 "AX_WORKOUT_GOAL_DISTANCE_AND_TIME" = "Distance and Time Goal";
+"AX_INTERVAL_DISTANCE_BASED_TIME_METRIC_LABEL" = "Time for distance";
+"AX_REMAINING_LEGS_LABEL" = "{'legs': {'one': '%d leg remaining', 'other': '%d legs remaining', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@legs@'}";
 "TODAY_TITLE_HEADER" = "Today";
 "LOAD_ASSESSMENT_CATEGORY_DESCRIPTION_CONSISTENT" = "Steady";
 "INTERVAL_STEP_DISTANCE_REMAINING_USE_LONG_UNITS" = "1";
@@ -77,6 +80,7 @@ Outdoor Walk";
 "ALERT_CONFIGURATION_RACE_ALERTS_TITLE" = "Race Position";
 "RACE_METRIC_DISTANCE_REMAINING" = "Remaining";
 "GOAL_CONFIGURATION_ROOM_TITLE" = "Goals and Targets";
+"AX_INTERVAL_TIME_METRIC_LABEL" = "Interval duration";
 "MEDIA_PLAYBACK_APP_ICON_FALLBACK" = "Media App";
 "INTERVAL_STEP_DISTANCE_REMAINING_FORMAT_KILOMETERS" = "{'kilometers': {'one': 'LEFT', 'other': 'LEFT', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%@\n%#@kilometers@'}";
 "WORKOUT_TIME_LEFT" = "TIME LEFT";
@@ -115,6 +119,8 @@ Complete";
 "LAP_NOTIFICATION_TITLE" = "LAP";
 "TRAINING_LOAD_ONBOARDING_EFFORT_EXPLANATION_MESSAGE" = "Training Load is made up of the length of your workouts and the rating of the effort you put in. For most cardio workouts, you’ll automatically get an estimated effort you can adjust. For other workouts, you will need to add your own.";
 "WORKOUT_CONFIGURATION_GOAL_ENERGY_CAL" = "Calorie Goal";
+"AX_CURRENT_POWER_ZONE_METRIC_LABEL" = "Current power zone";
+"AX_NO_POWER_ZONE_DATA" = "No power zone data";
 "UPDATE_AX_TITLE" = "Update";
 "SAVE_WORKOUT_CONFIRMED_BUTTON_TITLE" = "Added to Workout App";
 "ALERTS_AX_TITLE" = "Alerts";
@@ -125,6 +131,8 @@ Complete";
 "METRIC_GROUP_STRIDE_LENGTH" = "Stride Length";
 "RACE_PLATTER_DESCRIPTION_FORMAT" = "%@ · ";
 "AX_AT_BASELINE" = "At baseline";
+"AX_ACTIVITY_RINGS_METRIC_LABEL" = "Activity Rings";
+"AX_EMPTY_SLOT_LABEL" = "Empty slot";
 "CURRENT_SPEED" = "SPEED";
 "CURRENT_VERTICAL_OSCILLATION_DESCRIPTION" = "
 VERT OSC";
@@ -173,6 +181,7 @@ Run";
 "ELEVATION_METRIC_DESCRIPTION_FULL" = "ELEVATION";
 "COMPARED_TO_RECENT_AVG" = "· 7-DAY vs. 28-DAY LOAD";
 "METRIC_GROUP_POWER" = "Power";
+"AX_ELEVATION_CHART_LABEL" = "Elevation chart";
 "FIRST_MOTION_CALORIMETRY_FLOOR_ALERT_MESSAGE_KJ" = "In this type of workout, you earn the kilojoule equivalent of a brisk walk at a minimum whenever you’re moving. You can earn more based on sensor data.";
 "INTERVAL_STEP_DISTANCE_REMAINING_FORMAT_IOS_FEET" = "{'feet': {'one': 'LEFT', 'other': 'LEFT', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%@ %#@feet@'}";
 "PACE_ALERT_DESCRIPTION_IMPERIAL" = "Alerts you when you’re ahead or behind a set pace after one mile.";
@@ -183,6 +192,7 @@ Zone %@";
 Power";
 "MOVE_RING_TITLE" = "Move";
 "MIRRORED_ALERT_STACK_CANCEL_BUTTON_TITLE" = "Cancel";
+"AX_TIME_METRIC_LABEL" = "Elapsed time";
 "ABOVE_TARGET_POWER" = "Above
 Target
 Power";
@@ -203,13 +213,14 @@ Off Route";
 "GOAL_CONFIG_DESCRIPTION_ACTIVE_ENERGY_KCAL" = "Active Kilocalories";
 "CURRENT_GCT_METRIC_DESCRIPTION" = "
 GCT";
-"UNIT_SETTINGS_POOL_LENGTH_TITLE" = "POOL LENGTH UNITS";
+"UNIT_SETTINGS_POOL_LENGTH_TITLE" = "Pool Length Units";
 "AX_NO_POWER_DATA" = "No power data";
 "UNMUTE_WORKOUT_BUDDY_BUTTON" = "Unmute";
 "AX_OPEN_GOAL_WORKOUT" = "Open Goal";
 "ABOVE_ZONE" = "Above Zone";
 "OFF" = "Off";
 "AX_HIGHER_THAN_PREVIOUS_DAY" = "Higher than previous day";
+"AX_POWER_CHART_LABEL" = "Power chart";
 "ADD_REPEAT_INTERVAL_BUTTON_TITLE" = "Add Repeat";
 "SECONDS" = "Seconds";
 "ALERT_CONFIGURATION_TIME_TITLE" = "Time";
@@ -248,6 +259,7 @@ Target";
 "COUNTDOWN_READY" = "Ready";
 "CURRENT_POWER_SHORT_DESCRIPTION" = "Watts";
 "GOAL_CONFIG_BUTTON_TITLE_OPEN" = "Open";
+"AX_INTERVAL_ACTIVE_ENERGY_BURNED_METRIC_LABEL" = "Interval active energy burned";
 "ALERT_CONFIGURATION_ROW_RANGE" = "%@–%@";
 "SEGMENT_DISTANCE_METRIC_DETAIL" = "
 SEGMENT";
@@ -258,6 +270,7 @@ SEGMENT";
 "BELOW_TARGET_PACE" = "Behind
 Target Pace";
 "WORKOUT_CONFIGURATION_GOAL_ENERGY_KJ" = "Kilojoule Goal";
+"AX_MOVE_UP" = "Move up";
 "GOAL_CONFIG_DESCRIPTION_NO_GOAL" = "No Goal";
 "RACE_PLATTER_RACE_EXPIRED" = "You Left
 the Race";
@@ -297,6 +310,7 @@ VERT OSC";
 "AX_SCROLL_STATUS_LABEL" = "%1$d of %2$d";
 "MULTISPORT_TRANSITION_TIME" = "Transitioning Time";
 "POWER_ZONE_PLATTER_NO_CONFIGURATION" = "Automatic FTP is not available yet, create manual cycling power zones in Settings.";
+"AX_NEXT_STEP_DETAILS_METRIC_LABEL" = "Next interval details";
 "INTERVAL_STEP_DELETE_BUTTON_LABEL" = "Delete Interval";
 "PACER_METRIC_POSITION_BEHIND" = "Behind";
 "FIRST_OTHER_VULCAN_ALERT_MESSAGE_CAL" = "In this type of workout, you earn the calorie equivalent of brisk pushing at a minimum. You can earn more based on sensor data.";
@@ -309,6 +323,7 @@ Pool Swim";
 "OVERNIGHT_METRICS_REQUIRES_NO_DATA_DESCRIPTION" = "No Data";
 "ABOVE_RANGE_PACE" = "Ahead of
 Range";
+"AX_RACE_CHART_LABEL" = "Race chart";
 "ABOVE_RANGE_METRIC_DESCRIPTION" = "Above
 %@";
 "SPEEDOMETER_PLATTER" = "Cycling";
@@ -346,7 +361,7 @@ Cadence";
 "ALERT_CONFIGURATION_ROW_UPPER_BOUND" = "<%@";
 "GOAL_PROGRESS_COMPLETION" = "Goal
 Achieved";
-"UNIT_SETTINGS_WALKING_RUNNING_WORKOUTS_TITLE" = "WALKING AND RUNNING WORKOUTS";
+"UNIT_SETTINGS_WALKING_RUNNING_WORKOUTS_TITLE" = "Walking and Running Workouts";
 "MULTISPORT_MANUAL_NOT_TRACKING" = "Manual without Transitions";
 "INTERVAL_ALERT_PREVIOUS" = "PREVIOUS";
 "WORKOUT_ONBOARDING_BUDDY_DESCRIPTION" = "Workout Buddy helps you stay motivated with generative audio built with voice data from Fitness+ trainers. Get encouragement during your workout with a pep talk to kick things off, highlights along the way, and a summary.";
@@ -384,6 +399,7 @@ Off Route";
 "HEART_RATE_MAXIMUM_DESCRIPTION_ONE_LINE_FULL" = "MAX HEART RATE";
 "PREDICTED_ACTIVITY_UNKNOWN" = "Record
 Other workout";
+"AX_OVERNIGHT_METRICS_REQUIRES_SET_UP_LABEL" = "Set up";
 "METRIC_GROUP_GROUND_CONTACT_TIME" = "Ground Contact Time";
 "CUSTOM_WORKOUT_ADDED_BUTTON" = "Workout Added to Watch";
 "RACE_EFFORT_FASTEST" = "Personal Best";
@@ -397,7 +413,7 @@ Cadence";
 "WORKOUT_CONFIGURATION_SHORT_GOAL_OPEN" = "Quick Start";
 "OVERNIGHT_METRICS_CHANGES_DETECTED" = "{'number_of_changes': {'one': '%ld Outlier', 'other': '%ld Outliers', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@number_of_changes@'}";
 "WORKOUT_BUDDY_MUTE_IN_SESSION_BUTTON" = "Mute";
-"UNIT_SETTINGS_CYCLING_WORKOUTS_TITLE" = "CYCLING WORKOUTS";
+"UNIT_SETTINGS_CYCLING_WORKOUTS_TITLE" = "Cycling Workouts";
 "HEART_RATE_AVERAGE_DESCRIPTION" = "AVERAGE
 HR";
 "MULTISPORT_MANUAL_TRACKING" = "Manual with Transitions";
@@ -424,10 +440,12 @@ Ahead";
 "INTERVAL_STEP_SKIP" = "Skip";
 "METRIC_PLATTER_INCLUDE_TOGGLE" = "Include";
 "VERTICAL_DESCENT_METRIC_DESCRIPTION" = "VERT";
+"AX_CURRENT_HEART_RATE_ZONE_METRIC_LABEL" = "Current heart rate zone";
 "WORKOUT_CONFIGURATION_INTERVAL_SHORT_GOAL_OPEN" = "Open";
 "PACER_ALERT_ON" = "Pacer Alert On";
 "AX_PREVIOUS_GOAL" = "Previous goal: %@";
 "UNIT_SETTINGS_TRACK_WORKOUTS_METERS_LABEL" = "Meters";
+"AX_FINISH_TIME_METRIC_LABEL" = "Finish time";
 "BELOW_TARGET_CADENCE_CYCLING" = "Below
 Target
 Cadence";
@@ -443,6 +461,7 @@ Outdoor Cycle";
 "MIGRATED_USER_ONBOARDING_MESSAGE" = "You have a playlist selected for all workout types. You can now make a specific selection for each workout type, or select Picked For You.";
 "ABOVE_RANGE_METRIC_DESCRIPTION_PACE" = "Ahead of
 %@";
+"AX_LAYOUT_PREVIEW_LABEL" = "Layout preview";
 "SPLIT_AVERAGE_POWER_DESCRIPTION" = "Split
 Power";
 "WORKOUT_ONBOARDING_BUDDY_DESCRIPTION_FOOTER_NO_TOGGLE" = "You can turn on Workout Buddy for each available workout type. AirPods or other wireless headphones must be connected to use Workout Buddy.";
@@ -577,9 +596,11 @@ Cadence";
 Elliptical Workout";
 "WORKOUT_NEXT_INTERVAL" = "NEXT INTERVAL";
 "UNIT_SETTINGS_ENERGY_UNITS_KILOCALORIES_LABEL" = "Kilocalories";
+"UNABLE_TO_OPEN_APP" = "Unable to Open App";
 "RACE_ALERT_RACE_RESULT_TITLE" = "Race Result";
 "BELOW_RANGE_CADENCE_CYCLING" = "Below
 Range";
+"AX_MULTISPORT_TIME_METRIC_LABEL" = "Leg duration";
 "RACE_ALERT_EXPIRED" = "You Left
 the Race";
 "DISMISS_BUTTON" = "Dismiss";
@@ -616,7 +637,7 @@ Result";
 "PREVIOUS_TITLE_HEADER" = "Previous";
 "SUMMARY_ADD_EFFORT_SHORTENED_LABEL" = "Effort";
 "SESSION_CHART_NOW" = "Now";
-"UNIT_SETTINGS_PADDLE_SPORTS_WORKOUTS_TITLE" = "PADDLING WORKOUTS";
+"UNIT_SETTINGS_PADDLE_SPORTS_WORKOUTS_TITLE" = "Paddling Workouts";
 "AVERAGE_STRIDE_LENGTH_METRIC_DESCRIPTION" = "AVERAGE
 STRIDE";
 "SUMMARY_WORKOUT_VOICE_OUTRO_TRANSCRIPT_TITLE" = "Workout Buddy";
@@ -627,11 +648,13 @@ STRIDE";
 "INTERVAL_STEP_TIME_REMAINING" = "TIME
 LEFT";
 "SAFETY_CHECK_IN_TIP_DETAIL_MESSAGE_BOTTOM" = "You can choose to always be prompted to Check In in Workout settings.";
+"AX_CURRENT_ZONE_METRIC_LABEL" = "Current zone";
 "CURRENT_CADENCE_DESCRIPTION_ONE_LINE_CYCLING" = "CADENCE";
 "INTERVAL_STEP_TIME_REST" = "REST
 LEFT";
 "ACTIVITY_RING_COMPLETION_LINE_1_EXERCISE" = "Exercise";
 "WORKOUT_CONFIGURATION_SHORT_GOAL_UNKNOWN" = "Unknown";
+"AX_CURRENT_STEP_DETAILS_METRIC_LABEL" = "Current interval details";
 "ALERT_CONFIGURATION_HEART_RATE_TITLE" = "Heart Rate";
 "INTERVAL_TIME_METRIC_DETAIL" = "INTERVAL
 TIME";
@@ -659,7 +682,7 @@ Hiking";
 "CUSTOM_WORKOUT_ADDED_FOOTER" = "You can start this workout from the Workout app on %@.";
 "RACE_PLATTER_PROCEED_TO_ROUTE" = "Proceed
 To Route";
-"UNIT_SETTINGS_DOWNHILL_SNOW_SPORTS_WORKOUTS_TITLE" = "DOWNHILL SNOW SPORTS WORKOUTS";
+"UNIT_SETTINGS_DOWNHILL_SNOW_SPORTS_WORKOUTS_TITLE" = "Downhill Snow Sports Workouts";
 "PREFERENCES" = "Preferences";
 "ALERT_CONFIGURATION_DISTANCE_TITLE" = "Splits";
 "METRIC_GROUP_VERTICAL_OSCILLATION" = "Vertical Oscillation";
@@ -672,7 +695,8 @@ To Route";
 "FIRST_OTHER_VULCAN_ALERT_MESSAGE_KCAL" = "In this type of workout, you earn the kilocalorie equivalent of brisk pushing at a minimum. You can earn more based on sensor data.";
 "MIRRORED_CANNOT_END_WORKOUT_TITLE" = "Cannot End Workout";
 "TRAINING_LOAD_ONBOARDING_WORKOUTS_ADD_UP_EXPLANATION_MESSAGE_7_DAY_LOAD" = "7-day load";
-"UNIT_SETTINGS_ENERGY_UNITS_TITLE" = "ENERGY UNITS";
+"UNIT_SETTINGS_ENERGY_UNITS_TITLE" = "Energy Units";
+"CONTINUE_AX_TITLE" = "Continue";
 "LIVE_ACTIVITY_WORKOUT_BUDDY_TRANSCRIPT_TITLE" = "Workout Buddy";
 "MULTISPORT_AUTOMATIC" = "Automatic";
 "RACE_CONFIG_VIEW_NEXT_TITLE" = "Next";
@@ -697,6 +721,7 @@ To Route";
 "WORKOUT_BUDDY" = "Workout Buddy";
 "MULTISPORT_ELAPSED_TIME_FORMAT_ONE_LINE" = "%@ TIME";
 "ALERT_CONFIGURATION_HEART_RATE_RANGE_TITLE" = "Range";
+"AX_MOVE_DOWN" = "Move down";
 "LOAD_ASSESSMENT_CATEGORY_DESCRIPTION_WELL_ABOVE" = "Well Above";
 "AX_SEGMENT_NUMBER_METRIC_DETAIL" = "Segment %d";
 "AX_BELOW_BASELINE" = "%@ below baseline";
@@ -706,11 +731,12 @@ TIME";
 "TRACK_TRAINING_LOAD_PROMPT_DESCRIPTION" = "Track your training through recording your Effort after each workout, resulting in a graph that shows how your activity is changing week over week";
 "TRAINER_VOICE_NUMBER" = "Voice %lld";
 "CANCEL_BUTTON" = "Cancel";
-"UNIT_SETTINGS_SKATING_SPORTS_WORKOUTS_TITLE" = "SKATING SPORTS WORKOUTS";
+"AX_SPEEDOMETER_METRIC_LABEL" = "Speedometer";
 "FIRST_OTHER_ALERT_MESSAGE_KCAL" = "In this type of workout, you earn the kilocalorie equivalent of a brisk walk at a minimum. You can earn more based on sensor data.";
 "SAFETY_CHECK_IN_TIP_DETAIL_TITLE" = "Check In";
+"UNIT_SETTINGS_SKATING_SPORTS_WORKOUTS_TITLE" = "Skating Sports Workouts";
 "SKIPPED" = "Skipped";
-"UNIT_SETTINGS_WALKING_RUNNING_WORKOUTS_TITLE_WHEELCHAIR" = "WHEELCHAIR, WALKING, AND RUNNING WORKOUTS";
+"UNIT_SETTINGS_WALKING_RUNNING_WORKOUTS_TITLE_WHEELCHAIR" = "Wheelchair, Walking, and Running Workouts";
 "METRIC_DISTANCE" = "Distance";
 "MULTISPORT_SWIM" = "SWIM";
 "DONE_BUTTON" = "Done";
@@ -723,21 +749,22 @@ TIME";
 "POWER_ZONES_TYPE_TARGET" = "Value";
 "PREDICTED_ACTIVITY_RUNNING" = "Record
 Indoor Run";
+"AX_REMAINING_DISTANCE_METRIC_LABEL" = "Remaining distance";
 "MEDIA_CONFIGURATION_BUTTON_TITLE" = "Music and Media";
 "INTERVAL_ALERT_OPEN" = "Open";
 "DISTANCE_SPLITS_ALERT_DESCRIPTION" = "You’ll receive an alert each time you record the distance you set below during your workout. Your splits will be represented in your Workout Summary.";
 "RANGED_ALERT_STYLE_TARGET" = "Value";
 "STOP_VIEWING_ALERT_MESSAGE" = "You can start again by swiping right from the workout view on your Apple Watch.";
 "INTERVAL_STEP_DISTANCE_REMAINING_FORMAT_MILES" = "{'miles': {'one': 'LEFT', 'other': 'LEFT', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%@\n%#@miles@'}";
+"ALERT_CONFIGURATION_TITLE_SINGLE_ALERT" = "Target";
 "ELEVATION_GAIN_METRIC_DESCRIPTION" = "ELEV
 GAINED";
 "ALERT_CONFIGURATION_CUSTOM_WORKOUT_SECTION_HEADER" = "%@ Custom Workouts";
-"ALERT_CONFIGURATION_TITLE_SINGLE_ALERT" = "Target";
 "ABOVE_TARGET_PACE" = "Ahead of
 Target Pace";
-"GYM_KIT_NFC_DISABLED_TIP_TITLE" = "This Apple Watch will no longer automatically detect gym equipment.";
-"INTERVAL_STEP_SELECTION_TITLE" = "Select Intervals";
 "SKIP_EFFORT_DESCRIPTION" = "Skipping this workout will remove it from your Training Load.";
+"INTERVAL_STEP_SELECTION_TITLE" = "Select Intervals";
+"GYM_KIT_NFC_DISABLED_TIP_TITLE" = "This Apple Watch will no longer automatically detect gym equipment.";
 "GOAL_CONFIG_BUTTON_TITLE_ENERGY_CAL" = "Calories";
 "AX_MOVING_PERCENTAGE" = "Moving: %@";
 "METRIC_GROUP_DOWNHILL_RUNS" = "Downhill Runs";
@@ -746,6 +773,7 @@ Target Pace";
 "WORKOUT_BUDDY_UNMUTE_IN_SESSION_BUTTON" = "Unmute";
 "GYM_KIT_NFC_DISABLED_TIP_MESSAGE" = "You can connect by opening the Workout app, then holding Apple Watch near compatible gym equipment. You can turn on gym equipment detection in Settings to automatically connect when the Workout app is not open.";
 "WORKOUT_VOICE_ASSETS_DOWLOADING" = "You may not be able to use Workout Buddy until the download is complete.";
+"AX_MOVED_ABOVE" = "Moved above %@";
 "ALERT_CONFIGURATION_HEART_RATE_DEFAULT_RESTING" = "Heart rate zones are calculated using a default resting heart rate of 72 BPM. Your resting heart rate will update when you wear your watch for about 14 days. It will continue to update as you wear your watch.";
 "START_WORKOUT_BUTTON_TITLE" = "Start Workout";
 "AX_STEP_DETAIL_TARGET_LABEL" = "%1$@: %2$@, Target: %3$@";
@@ -757,19 +785,21 @@ GAINED";
 "GOAL_CONFIG_BUTTON_TITLE_ENERGY_KJ" = "Kilojoules";
 "HEART_RATE_AVERAGE_DESCRIPTION_ONE_LINE_FULL" = "AVERAGE HEART RATE";
 "SPLITS_SECTION_HEADER_METERS" = "{'meters': {'one': '%.0f Meter', 'other': '%.0f Meter', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'f'}, 'NSStringLocalizedFormatKey': '%#@meters@'}";
-"CHOOSE_MEDIA_FOOTER" = "Selected media will automatically play when you start %@ workouts.";
-"INTERVAL_ALERT_NEXT" = "NEXT";
 "AVERAGE_GCT_METRIC_DESCRIPTION" = "AVERAGE
 GCT";
+"CHOOSE_MEDIA_FOOTER" = "Selected media will automatically play when you start %@ workouts.";
+"INTERVAL_ALERT_NEXT" = "NEXT";
 "METRIC_GROUP_ENERGY_KJ" = "Kilojoules";
+"AX_MOVED_BELOW" = "Moved below %@";
 "GYM_KIT_NFC_DISABLED_TIP_OPEN_SETTINGS" = "Open Settings";
+"AX_SECONDS_AHEAD_OF_GHOST_METRIC_LABEL" = "Seconds ahead";
 "AX_WORKOUT_BUDDY_MUTED" = "Muted";
 "HEART_RATE_CURRENT_DESCRIPTION" = "HR";
-"PACER_TIME_PICKER_TITLE" = "Time";
-"INDOOR_CYCLE_WRAPPED" = "Indoor
-Cycle";
 "SPLIT_NUMBER_METRIC_DETAIL" = "SPLIT
 %d";
+"INDOOR_CYCLE_WRAPPED" = "Indoor
+Cycle";
+"PACER_TIME_PICKER_TITLE" = "Time";
 "WORKOUT_VOICE_CONFIGURATION_TOGGLE_ONBOARDING_TITLE" = "Use Workout Buddy";
 "SAFETY_CHECK_IN_TIP_DETAIL_MESSAGE" = "You can use Check In to automatically notify a friend when your workout has ended, and choose what details they can see if your workout is interrupted.
 
@@ -780,7 +810,7 @@ To start a Check In, swipe right during a workout to your Workout Controls and s
 "HEART_RATE_LONG_DESCRIPTION" = "Heart Rate";
 "MEDIA_SOURCES" = "Sources";
 "HEART_RATE_SHORT_DESCRIPTION" = "BPM";
-"UNIT_SETTINGS_CROSS_COUNTRY_SKIING_WORKOUTS_TITLE" = "CROSS COUNTRY SKIING WORKOUTS";
+"UNIT_SETTINGS_CROSS_COUNTRY_SKIING_WORKOUTS_TITLE" = "Cross Country Skiing Workouts";
 "POWER_ZONES_TYPE_CUSTOM_OFF" = "Off";
 "ALERT_CONFIGURATION_CADENCE_TITLE_PEDOMETER" = "Cadence";
 "RACE_ALERT_ON_ROUTE" = "You’re Back
@@ -796,19 +826,20 @@ Target";
 "WORKOUT_NEXT_LEG_PILL_NUMBER_OF_LEGS_LABEL" = "+%d";
 "TRAINING_LOAD_ONBOARDING_INSIGHTS_DAILY_EXPLANATION_TITLE" = "Get Personalized Insights";
 "SHARE_WORKOUT_MESSAGE" = "Here’s a workout you can add to your watch: %@.";
-"INTERVAL_REORDER_ITEM" = "Step";
+"ALERT_CONFIGURATION_TITLE_ALERTS_AND_WORKOUT_BUDDY" = "Workout Buddy and Alerts";
 "MIRRORED_CANNOT_END_WORKOUT_MESSAGE" = "Due to a connection error, this workout cannot be ended on your iPhone. You can end your workout on Apple Watch.";
 "CREATE_CUSTOM_WORKOUT_HEADER" = "Create a New Custom Workout";
 "UNIT_SETTINGS_POOL_LENGTH_YARDS_LABEL" = "Yards";
 "METRICS_PLATTER" = "Metrics";
 "PREDICTED_ACTIVITY_STARTED_TIME" = "Started %@";
 "ALERT_CONFIGURATION_POWER_TITLE" = "Power";
-"ALERT_CONFIGURATION_TITLE_ALERTS_AND_WORKOUT_BUDDY" = "Workout Buddy and Alerts";
+"INTERVAL_REORDER_ITEM" = "Step";
 "ALERTS_SET" = "Set";
-"UNIT_SETTINGS_TRACK_WORKOUTS_TITLE" = "AUTOMATIC TRACK DETECTION";
+"UNIT_SETTINGS_TRACK_WORKOUTS_TITLE" = "Automatic Track Detection";
 "MEDIA_CONFIGURATION_OFF" = "Off";
 "VIEW_CURRENT_WORKLOAD" = "View Current Training Load";
 "MIRRORED_CANNOT_END_WORKOUT_BUTTON_TITLE" = "Stop Viewing";
+"AX_PACER_METRIC_LABEL" = "Pacer";
 "REORDER_ITEM_POSITION_FORMAT" = "%1$@ %2$@";
 "ALERT_LOWER_LIMIT" = "Lower Limit";
 "SAVE_WORKOUT_BUTTON_TITLE" = "Add to Workout App";

@@ -32,6 +32,7 @@
 "Links" = "Links";
 "SEARCH_SUGGESTION_CATEGORY_PEOPLE" = "People";
 "·" = "·";
+"External Provider" = "External Provider";
 "blocked sender" = "blocked sender";
 "Continue" = "Continue";
 "(No Sender)" = "(No Sender)";
@@ -47,7 +48,6 @@
 "Try Categories" = "Try Categories";
 "OK" = "OK";
 "Smart Replies" = "Smart Replies";
-"External Summary" = "External Summary";
 "Only unread messages categorized as Primary will appear on the Mail icon." = "Only unread messages categorized as Primary will appear on the Mail icon.";
 "Looks Good" = "Looks Good";
 "Sort by Relevance" = "Sort by Relevance";
@@ -67,6 +67,7 @@
 "Photos" = "Photos";
 "Find the messages that matter most at the top of your Primary inbox." = "Find the messages that matter most at the top of your Primary inbox.";
 "Report a Concern" = "Report a Concern";
+"You have %1$lld in Primary and %2$lld in other categories." = "{'arg1': {'one': '1 unread message', 'other': '%1$lld unread messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': 'You have %1$#@arg1@ in Primary and %2$lld in other categories.'}";
 "Account" = "Account";
 "Keep track of your orders, including shipping and delivery notices, bundled by sender." = "Keep track of your orders, including shipping and delivery notices, bundled by sender.";
 "SuggestionsMenuItemTitle" = "SuggestionsMenuItemTitle";
@@ -91,7 +92,6 @@
 "All Mail" = "All Mail";
 "Sort by Date" = "Sort by Date";
 "Delete" = "Delete";
-"You have %lld unread messages in Primary and %lld in other categories." = "You have %1$lld unread messages in Primary and %2$lld in other categories.";
 "Update" = "Update";
 "Message Summaries" = "Message Summaries";
 "Contacts" = "Contacts";
@@ -115,8 +115,8 @@
 "Apple Intelligence in Mail" = "Apple Intelligence in Mail";
 "Sender" = "Sender";
 "Unable to summarize these messages." = "Unable to summarize these messages.";
-"News, Subscriptions, and Social" = "News, Subscriptions, and Social";
 "attachment" = "attachment";
+"News, Subscriptions, and Social" = "News, Subscriptions, and Social";
 "Receipts, Orders, and Deliveries" = "Receipts, Orders, and Deliveries";
 "high priority" = "high priority";
 "Suggested Searches" = "Suggested Searches";

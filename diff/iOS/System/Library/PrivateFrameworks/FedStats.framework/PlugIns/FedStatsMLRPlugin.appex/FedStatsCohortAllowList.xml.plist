@@ -92,6 +92,9 @@
 		<string>contentType</string>
 		<string>ageGroup</string>
 		<string>eventDirection</string>
+		<string>clientBundleID</string>
+		<string>origin</string>
+		<string>region</string>
 	</array>
 	<key>FED_STATS_BIOME_CORE_MOTION</key>
 	<array>
@@ -123,6 +126,10 @@
 	<key>FED_STATS_BIOME_HEALTH</key>
 	<array>
 		<string>locale</string>
+	</array>
+	<key>FED_STATS_BIOME_HOLD_ASSIST</key>
+	<array>
+		<string>remotePhoneNumberCountryCode</string>
 	</array>
 	<key>FED_STATS_BIOME_INTERSTELLAR</key>
 	<array>

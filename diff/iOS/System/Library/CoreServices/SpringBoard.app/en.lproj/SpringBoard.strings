@@ -12,6 +12,7 @@ You can change “Find My network” functionality by going to Find My in Settin
 "SLEEP_ALARM_BEDTIME_SNOOZE" = "Remind in 10 Min";
 "POWER_DOWN_FIND_MY_DISABLE_BUTTON" = "Temporarily Turn Off Finding";
 "MEDUSA_BANNER_EDUCATION_DESCRIPTION" = "Choose another app";
+"RIGHT_SLIDE_OVER_DISCOVERABILITY" = "Move to Right Slide Over";
 "LOGOUT_TEMPORARY_SESSION_LOGOUT_ALERT_MESSAGE" = "Your data will be deleted and you will be signed out.";
 "SIGNATURE_VERSION_UNSUPPORTED_ERROR_BODY" = "The developer of this app needs to update it to work with this version of iOS.";
 "SLEEP_ALARM_BEDTIME_STOP" = "Going to Bed Now";
@@ -27,6 +28,7 @@ You can change “Find My network” functionality by going to Find My in Settin
 "NETWORK_LOST_LOCK_LABEL_SHORT" = "choose";
 "NON_COMPLIANT_PASSCODE_LATER" = "Later";
 "DEPRECATED_32_BIT_APP_BODY_NO_UPDATE_NO_SYSTEM_VERSION" = "The developer of this app needs to update it to work with this version of iOS.";
+"UNSTASH_SLIDE_OVER_DISCOVERABILITY" = "Reveal Slide Over";
 "ARRANGE_TOP_BOTTOM_DISCOVERABILITY" = "Top & Bottom";
 "NO_NAME" = "Unknown";
 "EMPTY_MENU_PLACEHOLDER" = "No Menu Items";
@@ -82,6 +84,7 @@ You can temporarily turn off Find My network and it will resume when this iPhone
 "REDIAL" = "Redial";
 "WARNING_HOUR_FORMAT" = "You have %@ hour to watch “%@” and then it will be deleted";
 "FIRST_WAKE_SUGGESTION_NONAME" = "Often used on first pickup";
+"LEFT_SLIDE_OVER_DISCOVERABILITY" = "Move to Left Slide Over";
 "CAPTURE_APPLICATION_TERMINATION_ALERT_TITLE_WITH_PROCESS_REASON" = "%@ - Capture Application Launch Requirements Not Met - %@";
 "TOP_AFFORDANCE_MENU_TITLE_REMOVE_FROM_SET" = "Minimize";
 "PRODUCTIVITY_GESTURE_EDUCATION_CORNER_GESTURE_QUICK_NOTE_OFF" = "Quick Note Gesture Off";
@@ -174,6 +177,7 @@ You can change this “Find My network” functionality by going to Find My in S
 "NOTIFICATION_CENTER_MODE_ALL" = "Notifications";
 "NOTIFICATION_MANAGEMENT_SUGGESTION_KEEP" = "Keep";
 "LOGOUT_TEMPORARY_SESSION_LOGOUT_ALERT_TITLE" = "End Session?";
+"STASH_SLIDE_OVER_DISCOVERABILITY" = "Hide Slide Over";
 "ACTIVATION_FAILED_IGNORE_BUTTON" = "Ignore";
 "CAPTURE_APPLICATION_TERMINATION_ALERT_TITLE_NO_PROCESS_WITH_REASON" = "Capture Application Termination";
 "DEPRECATED_32_BIT_APP_SECONDARY_NO_UPDATE" = "Learn More";
@@ -301,13 +305,14 @@ Control";
 "DEPRECATED_32_BIT_APP_ACKNOWLEDGE" = "OK";
 "WAITING_FOR_ACTIVATION_TITLE" = "Waiting for Activation";
 "WARNING_DAY_FORMAT" = "You have %@ day to watch “%@” and then it will be deleted";
-"ALPHANUMERIC_PASSCODE_OK" = "OK";
+"HIDE_DISCOVERABILITY" = "Hide";
 "Call Failure
 %@
 %@" = "Call Failure
 %@
 %@";
 "AIRPLANE_CELL_PROMPT" = "You must disable Airplane Mode to access data.";
+"ALPHANUMERIC_PASSCODE_OK" = "OK";
 "NOTIFICATION_MANAGEMENT_SUGGESTION_EXPLANATION" = "Keep receiving notifications from the %@ app?";
 "LEGACY_TVREMOTEAPP_LAUNCH_ALERT_TITLE" = "TV Remote Has Moved to Control Center";
 "BATTERY_CHARGING" = "Battery Charging";
@@ -333,6 +338,7 @@ Should you have a business need to disable this feature please contact your empl
 "BACK" = "Back";
 "LEGACY_TVREMOTEAPP_LAUNCH_BUTTON_LEARN_MORE" = "Learn More";
 "APP_PROFILE_NOT_TRUSTED_TITLE" = "Untrusted Enterprise Developer";
+"CLOSE_ALL_WINDOW_DISCOVERABILITY" = "Close All";
 "ORIENTATION_LOCK_UNLOCKED" = "Orientation Unlocked";
 "SYSTEM_ACTION_COACHING_SHORTCUT_FORMAT" = "Hold for
 “%@”";
@@ -406,6 +412,7 @@ The location is visible in Find My on your other devices, and to people in Famil
 You can change “Find My network” functionality by going to Find My in Settings.";
 "INTERNET_TETHERING_SINGLE_HOST" = "Personal Hotspot: %@ Connection";
 "TIMER_STOP" = "Stop";
+"CLOSE_WINDOW_DISCOVERABILITY" = "Close";
 "LOGOUT_BUTTON_TITLE" = "Sign Out";
 "TOP_AFFORDANCE_MENU_TITLE_LEFT_SPLIT" = "Left Split";
 "APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_BODY_IPHONE" = "Your device management settings do not allow using apps from developer “%@” on this iPhone. You can allow using these apps in Settings.";
@@ -414,14 +421,16 @@ You can change “Find My network” functionality by going to Find My in Settin
 "ARRIVED_AT_HOME_SUGGESTION" = "Arrived at home";
 "REMOVE_FROM_HOME_SCREEN" = "Remove from Home Screen";
 "UNLOCK" = "Unlock";
+"EXIT_SLIDE_OVER_DISCOVERABILITY" = "Exit Slide Over";
 "PROACTIVE_RECENT_APPS_LOCALIZED_CATEGORY_NAME" = "Recently Added";
-"SCREEN_SHARING" = "Screen Sharing";
 "TILE_BOTTOM_RIGHT_DISCOVERABILITY" = "Bottom Right";
-"PRODUCTIVITY_GESTURE_EDUCATION_PRODUCTIVITY_GESTURES_OFF" = "Productivity Gestures Off";
+"SCREEN_SHARING" = "Screen Sharing";
 "BULLETIN_LIST_CLEAR" = "Clear";
 "TOP_AFFORDANCE_MENU_TITLE_TILE_MANUAL_BOTTOM" = "Tile Bottom";
+"PRODUCTIVITY_GESTURE_EDUCATION_PRODUCTIVITY_GESTURES_OFF" = "Productivity Gestures Off";
 "NOTIFICATION_CENTER_CONTENT_UNAVAILABLE_ALL" = "No Notifications";
 "PLEASE_WAIT" = "Please Wait…";
+"HIDE_OTHERS_DISCOVERABILITY" = "Hide Others";
 "DATA_PLAN_LATER" = "Later";
 "BOOKMARK_FOLDER_NAME" = "Bookmarks";
 "TOP_AFFORDANCE_MENU_TITLE_RIGHT_SPLIT" = "Right Split";
@@ -495,6 +504,7 @@ before you can use it.";
 "PUK_ENTRY_SUCCESS" = "PUK Entry Succeeded";
 "POWER_DOWN_FIND_MY_DISABLE_PASSCODE_SUBTITLE" = "Your passcode is required to temporarily disable Find My for the next power off";
 "LOW_BATT_FIND_MY_TITLE_IPHONE" = "iPhone Remains Findable After Power Off";
+"HIDE_APP_DISCOVERABILITY" = "Hide %@";
 "PREVIOUS_WINDOW_ON_STAGE_DISCOVERABILITY" = "Previous Window on Stage";
 "APP_FREE_DEVELOPER_PROFILE_NOT_TRUSTED_BODY_IPAD" = "Your device management settings do not allow using apps from developer “%@” on this iPad. You can allow using these apps in Settings.";
 "SYSTEM_ACTION_COACHING_ACCESSIBILITY_FORMAT" = "Hold for

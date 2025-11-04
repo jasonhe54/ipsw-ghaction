@@ -334,6 +334,11 @@
 	<string>https://m.tracfone.com</string>
 	<key>TosSupported</key>
 	<false/>
+	<key>TravelSettings</key>
+	<dict>
+		<key>EnableEnhancedTravelEducation</key>
+		<false/>
+	</dict>
 	<key>UseTetheringAuthenticationOnCDMA</key>
 	<false/>
 	<key>UserCanReinitiateActivation</key>

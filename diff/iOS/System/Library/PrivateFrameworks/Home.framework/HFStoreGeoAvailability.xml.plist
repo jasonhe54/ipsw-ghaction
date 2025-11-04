@@ -414,6 +414,25 @@
 			<string>ru</string>
 		</dict>
 	</dict>
+	<key>SA</key>
+	<dict>
+		<key>ar-sa</key>
+		<dict>
+			<key>region</key>
+			<string>e</string>
+			<key>storefront</key>
+			<string>sa-ar</string>
+		</dict>
+		<key>default_language</key>
+		<string>ar-sa</string>
+		<key>en-sa</key>
+		<dict>
+			<key>region</key>
+			<string>e</string>
+			<key>storefront</key>
+			<string>sa-en</string>
+		</dict>
+	</dict>
 	<key>SE</key>
 	<dict>
 		<key>default_language</key>

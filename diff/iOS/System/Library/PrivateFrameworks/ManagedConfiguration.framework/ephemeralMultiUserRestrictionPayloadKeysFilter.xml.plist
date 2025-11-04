@@ -8,6 +8,7 @@
 		<string>allowListedAppBundleIDs</string>
 		<string>whitelistedAppBundleIDs</string>
 		<string>autonomousSingleAppModePermittedAppIDs</string>
+		<string>ratingAppsExemptedBundleIDs</string>
 	</array>
 	<key>restrictedBool</key>
 	<array>

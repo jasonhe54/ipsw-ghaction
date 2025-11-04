@@ -7,8 +7,10 @@
 "braille.notes.context.menu.pin.label" = "Pin";
 "finder.viewer.context.menu.find" = "Find:";
 "nemeth.calculator.label" = "Nemeth Calculator";
-"braille.notes.context.menu.rename.label" = "Rename";
+"finder.file.too.big" = "BRF file too large";
 "live.captions.context.menu.listen.to.microphone" = "Listen to microphone";
+"braille.notes.context.menu.rename.label" = "Rename";
+"live.captions.context.menu.copy" = "Copy";
 "braille.notes.context.menu.unpin.label" = "Unpin";
 "finder.viewer.loading" = "Loading";
 "nemeth.calculator.label.ueb" = "UEB Calculator";
@@ -54,6 +56,6 @@
 "finder.delete.confirm.delete" = "Delete";
 "finder.viewer.context.menu.previous.find" = "Previous find:";
 "finder.find.field.enter.search.text" = "Find:";
-"live.captions.context.menu.summarize" = "Summarize";
 "live.captions.type.to.speak.label" = "Type to speak";
 "choose.item.label" = "Choose Item";
+"live.captions.context.menu.summarize" = "Summarize";

@@ -249,6 +249,8 @@
 		<dict>
 			<key>ServerURL</key>
 			<string>acs.nonhome.sarcs.jio.com</string>
+			<key>SupportsPush</key>
+			<false/>
 		</dict>
 		<key>ShowBusinessMessagingSwitch</key>
 		<true/>

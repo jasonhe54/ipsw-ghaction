@@ -241,6 +241,7 @@
 "REMOTE_SECRET_ENTRY_SAME_DEVICE_SUBTITLE_OLD_PASSCODE_IPOD_TOUCH" = "The passcode that previously unlocked this iPod touch also gives you access to your protected iCloud data.";
 "REMOTE_SECRET_ENTRY_TITLE_OLD_PASSCODE" = "Enter Old Passcode";
 "REMOTE_SECRET_ENTRY_INCORRECT_MESSAGE_MACBOOK_PASSWORD" = "Enter the MacBook password again.";
+"DEVICE_PICKER_SUBTITLE_ALL_MAC_ATV" = "Choose a device and enter its password to access your protected iCloud data on this Apple TV.";
 "REMOTE_SECRET_ENTRY_SAME_DEVICE_SUBTITLE_OLD_PASSWORD_MACBOOK" = "The password that previously unlocked this MacBook also gives you access to your protected iCloud data.";
 "OSX_RESET_CONFIRMATION_DIALOGUE_BUTTON_LEARN_MORE_URL" = "https://support.apple.com/ht202303?cid=mc-ols-icloud-article_ht202303-macos_ui-09302022#encryption";
 "REMOTE_SECRET_ENTRY_INCORRECT_MESSAGE_OTHER_DEVICE_PASSCODE_DEVICE_PASSCODE_IPHONE" = "Enter the passcode for your other device, not the passcode for this iPhone";
@@ -309,7 +310,6 @@ When you're signed in with your legacy contact Apple Account on this %2$@, feat
 "REMOTE_SECRET_ENTRY_SOFT_LIMIT_ALERT_SUBTITLE_TRUSTED_DEVICES_PASSCODE" = "If you can’t remember the passcode that unlocks “%@”, you can access your data by verifying a code sent to your nearby Apple devices.";
 "COOLDOWN_REPAIR_ALERT_RESET_DATA" = "Reset Encrypted Data";
 "REMOTE_SECRET_ENTRY_SYSTEM_ERROR_ALERT_DIFFERENT_DEVICE_TYPE_SUBTITLE_PASSWORD_IPOD_TOUCH" = "Enter your iPod touch password again.";
-"DONT_HAVE_RECOVERY_KEY_SENTENCE_CASE" = "Don’t have recovery key?";
 "D2DENCRYPTION_CREATE_SECRET_MESSAGE_PASSWORD_IPOD_TOUCH" = "A password protects your sensitive data. It is used to unlock this iPod touch and access your end-to-end encrypted data.";
 "REMOTE_SECRET_PASSPHRASE_ENTRY_PLACEHOLDER_IPHONE" = "iPhone Password";
 "RECOVERY_FORGOT_ALL_PASSCODE_ALERT_MSG_REBRAND" = "If you can’t remember the passcode for any of your devices, you can still regain access to your Apple Account with account recovery.";
@@ -978,16 +978,17 @@ When you're signed in with your legacy contact Apple Account on this %2$@, feat
 "REMOTE_SECRET_ENTRY_FORGOT_CODE_DIALOG_MESSAGE_FORGOT_ALL_RESET_PASSWORD_MACBOOK_PRO" = "If you can’t remember the password for any of your devices, you will need to reset your end-to-end encrypted data.";
 "LOCAL_SECRET_ENTRY_TITLE_IPAD_PASSCODE" = "Enter iPad Passcode";
 "D2DENCRYPTION_FOLLOWUP_TOUCHID_INFOTEXT_PASSWORD_MAC_PRO" = "Use Touch ID in place of your password to unlock Mac Pro, approve purchases, and sign in to apps.";
+"DEVICE_PICKER_SUBTITLE_VISION" = "Choose a device and enter its passcode to access your protected iCloud data on this Apple Vision Pro.";
 "REMOTE_SECRET_ENTRY_INCORRECT_MESSAGE_OTHER_DEVICE_PASSCODE_WATCH_PASSWORD_MACBOOK" = "Enter the passcode for your other Apple Watch, not the password for this MacBook";
 "RECOVERY_REMOTE_SECRET_ENTRY_SAME_DEVICE_SUBTITLE_CURRENT_PASSCODE_ATV" = "The passcode that unlocks this Apple TV also helps you regain access to your Apple Account.";
 "UPDATING_APPLE_ID_LABEL_REBRAND" = "Updating Apple Account settings…";
 "REMOTE_SECRET_ENTRY_SYSTEM_ERROR_ALERT_SAME_DEVICE_TYPE_SUBTITLE_PASSWORD_MAC_PRO" = "Enter the password for your other Mac Pro again.";
 "WAITING_APPROVAL_RESET_DIALOG_MESSAGE_IPOD_TOUCH" = "If you can’t approve this iPod touch from another device, you can still sign in, but you won’t be able to access any passwords or other end-to-end encrypted data stored in iCloud.";
-"CDP_VERIFY_RECOVERY_KEY_FOOTER_LABEL_REBRAND" = "Print a copy or write down your recovery key. Keep it in a safe place so you always have access to your Apple Account.";
+"CDP_VERIFY_RECOVERY_KEY_FOOTER_LABEL_REBRAND" = "Write down your recovery key. Keep it in a safe place so you always have access to your Apple Account.";
 "D2DENCRYPTION_CREATE_SECRET_MESSAGE_PASSCODE_VISION" = "A passcode protects your sensitive data. It is used to unlock this Apple Vision Pro and access your end-to-end encrypted data.";
 "REMOTE_SECRET_ENTRY_HARD_LIMIT_ALERT_SUBTITLE_NO_RECOVERY_METHOD_PASSWORD" = "You have entered an incorrect password for “%@” too many times.";
 "WAITING_APPROVAL_RESET_DIALOG_MESSAGE_VISION" = "If you can’t approve this Apple Vision Pro from another device, you can still sign in, but you won’t be able to access any passwords or other end-to-end encrypted data stored in iCloud.";
-"DONT_HAVE_RECOVERY_KEY" = "Don’t Have Recovery Key?";
+"DONT_HAVE_RECOVERY_KEY" = "Don’t have recovery key?";
 "REMOTE_SECRET_PASSPHRASE_ENTRY_PLACEHOLDER_IPOD_TOUCH" = "iPod Touch Password";
 "REMOTE_SECRET_ENTRY_TITLE_SPECIFIC_OTHER_PASSCODE_DEVICE" = "Enter Passcode for Other Device";
 "LOCAL_SECRET_ENTRY_TITLE_IPOD_TOUCH_PASSCODE" = "Enter iPod touch Passcode";
@@ -1644,8 +1645,9 @@ When you're signed in with your legacy contact Apple Account on this %2$@, feat
 "WATCH_REMOTE_SECRET_ENTRY_TITLE_FORMAT_PASSWORD" = "Enter Password for “%@”";
 "SINGLE_ICSC_RESET_MESSAGE" = "All passwords stored in iCloud Keychain will be deleted.";
 "D2DENCRYPTION_UPGRADE_TITLE_UPGRADE_MISSING_SECRET_DEVICE_PASSCODE" = "This Feature Requires a device passcode";
+"DEVICE_PICKER_SUBTITLE_ATV" = "Choose a device and enter its passcode to access your protected iCloud data on this Apple TV";
 "REMOTE_SECRET_ENTRY_FORGOT_CODE_DIALOG_MESSAGE_ANOTHER_DEVICE_RK_PASSCODE_MACBOOK_PRO_PASSCODE" = "If you can’t remember the passcode for the MacBook Pro “%@”, you can enter the passcode for one of your other devices, or use your 28-character recovery key.";
-"DEVICE_PICKER_SUBTITLE_ALL_MAC_MAC" = "Choose a device and enter its password to access your protected iCloud data on this MAC.";
+"DEVICE_PICKER_SUBTITLE_ALL_MAC_MAC" = "Choose a device and enter its password to access your protected iCloud data on this Mac.";
 "REMOTE_SECRET_ENTRY_MULTIPLE_INCORRECT_MESSAGE_OTHER_RECORD_PASSCODE_PASSCODE" = "The passcode for “%@” was entered incorrectly too many times. Choose another device to enter its passcode.";
 "WAITING_APPROVAL_RESET_DIALOG_MESSAGE_REPAIR_IPOD_TOUCH" = "If you can’t approve this iPod touch from another device, you can reset your end-to-end encrypted data to finish setting up iCloud.";
 "REMOTE_SECRET_ENTRY_INCORRECT_MESSAGE_OTHER_DEVICE_PASSCODE_VISION_PASSCODE_MAC_PRO" = "Enter the passcode for your other Apple Vision Pro, not the passcode for this Mac Pro";
@@ -1658,6 +1660,7 @@ When you're signed in with your legacy contact Apple Account on this %2$@, feat
 "REMOTE_SECRET_ENTRY_INCORRECT_MESSAGE_OTHER_DEVICE_PASSWORD_DEVICE_PASSWORD_IPHONE" = "Enter the password for your other device, not the password for this iPhone";
 "WATCH_REMOTE_SECRET_ENTRY_FORGOT_CODE_DIALOG_MESSAGE_FORGOT_ALL_PASSWORD" = "If you can't enter a password for any of these devices, you can still sign in but you won’t be able to access any passwords or other end-to-end encrypted data stored in iCloud.";
 "WATCH_REMOTE_SECRET_ENTRY_FORGOT_CODE_DIALOG_MESSAGE_FORGOT_ALL_RESET_FORMAT_PASSCODE" = "If you can't enter a passcode for any of these devices, you can reset %@'s end-to-end encrypted data.";
+"DEVICE_PICKER_SUBTITLE_ALL_MAC_VISION" = "Choose a device and enter its password to access your protected iCloud data on this Apple Vision Pro.";
 "REMOTE_SECRET_ENTRY_DEPLETED_ALL_ATTEMPTS_ALL_RECORDS_FOLLOWUP_WATCH_PASSCODE" = "Enter Apple Watch Passcode";
 "DEPLETED_ATTEMPTS_ERROR_MSG" = "Choose a device to enter its password.";
 "FOLLOWUP_SOS_COMPATIBILITY_MESSAGE_WATCH" = "This Apple Watch isn’t syncing your end-to-end encrypted data across all of your devices. It includes saved passwords and data from Health and Maps. Verify your account information to resume syncing.";

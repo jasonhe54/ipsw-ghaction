@@ -63,6 +63,14 @@
 				<true/>
 			</dict>
 		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.ap.adprivacyd.iTunesActiveStorefrontDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.ap.adprivacyd.iTunesActiveStorefrontDidChangeNotification</string>
+			</dict>
+		</dict>
 		<key>com.apple.xpc.activity</key>
 		<dict>
 			<key>com.apple.ap.promotedcontentd.gc</key>

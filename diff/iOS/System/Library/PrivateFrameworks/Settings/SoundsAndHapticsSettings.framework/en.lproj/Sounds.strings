@@ -95,7 +95,7 @@ Classifying your Bluetooth devices can ensure your headphone audio measurements 
 "HEADPHONE_LEVEL_LIMIT_100_INFO" = "As loud as an ambulance siren";
 "ALTERNATE_1" = "Chime";
 "RING_VOLUME" = "Ring Volume";
-"HAPTICS_HEADER" = "HAPTICS FOR RINGTONES AND ALERTS";
+"HAPTICS_HEADER" = "Haptics for Ringtones and Alerts";
 "ALWAYS_PLAY" = "Always Play";
 "HEADPHONE_LEVEL_NOTIFICATIONS_GROUP" = "Headphone Notifications";
 "HEADPHONE_LEVEL_NOTIFICATIONS_VOICE_OVER_DESCRIPTION" = "{'notifications': {'one': '%d notification', 'few': '%d notifications', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'two': '%d notifications', 'many': '%d notifications', 'NSStringFormatValueTypeKey': 'd', 'other': '%d notifications', 'zero': 'No notifications'}, 'NSStringLocalizedFormatKey': '%#@notifications@'}";
@@ -135,4 +135,4 @@ These notifications inform you if youʼve been listening to loud headphone audio
 "BOTH" = "Both";
 "SOUNDS_ALERT_GROUP" = "Sounds and Haptic Patterns";
 "ALTERNATE_3" = "Horn";
-"LATE_NIGHT_MODE_FOOTER" = "Reduces audio volume range and creates softer sound effects, while maintaining the quiet details of the original audio.";
+"LATE_NIGHT_MODE_FOOTER" = "Reduces audio volume range and creates softer sound effects, while maintaining the quiet details of the original audio from songs, movies, and other media.";

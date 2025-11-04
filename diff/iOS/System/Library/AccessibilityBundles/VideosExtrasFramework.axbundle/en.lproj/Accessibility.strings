@@ -36,7 +36,7 @@
 "multiview.arrange.featured" = "Arrange featured";
 "download.button.download" = "Download";
 "download.button.start.action" = "Start Download";
-"season.picker.button.hint" = "Double-tap to select a season";
+"season.picker.button.hint" = "Select to change seasons";
 "sports.audio.current" = "Current Audio";
 "lockup.attribute.CC" = "Closed Captioned";
 "multiview.removePlayer" = "Remove from Multi view";
@@ -52,12 +52,14 @@
 "lockup.attribute.dolby.vision" = "Dolby Vision";
 "multiview.hint.max.cells.reached" = "Maximum videos reached. Remove one before selecting another.";
 "advisories.title" = "Advisories";
-"content.percentage.complete" = "%@ complete";
+"download.button.enqueued" = "Enqueued";
 "download.button.connecting" = "Connecting";
 "download.button.stop.action" = "Stop Download";
-"rating.stars" = "%f stars";
 "lockup.attribute.HD" = "High Definition";
+"content.percentage.complete" = "%@ complete";
+"rating.stars" = "%f stars";
 "RTCertified" = "Certified Fresh";
+"tv.show.season" = "Season";
 "download.button.remove.hint" = "Activate to remove download";
 "offer.cell.purchase" = "Purchase";
 "play" = "Play";

@@ -170,6 +170,7 @@ You can change your schedule and Sleep Focus settings at any time in Health.";
 NO ALARM";
 "EVENING2_GREETING_NAME" = "Good Evening
 %@";
+"SLEEP_SCORE_NOTIFICATIONS_WONT_FIRE_ALERT_TITLE" = "Sleep score notifications require Health notifications to be turned on.";
 "SCHEDULE_OCCURRENCE_VIEW_WAKE_UP_ALARM_SNOOZED_TITLE_CASED" = "Wake Up – Snoozing";
 "ONBOARDING_RECEIPT_SLEEP_FOCUS_MODE_WIND_DOWN_TEXT" = "Turns on at Wind Down";
 "NOON_GREETING" = "Good Afternoon";
@@ -193,8 +194,8 @@ NO ALARM";
 "NIGHT2_GREETING_NAME" = "Good Evening
 %@";
 "ONBOARDING_SET_SCHEDULE_HEADER" = "Schedule";
-"UPCOMING_ALARM_FORMAT" = "Your alarm is set for %@";
 "EDIT_SLEEP_SCHEDULE_SECTION_TITLE" = "Your Sleep Schedule";
+"UPCOMING_ALARM_FORMAT" = "Your alarm is set for %@";
 "ONBOARDING_SET_UP_CANCEL_MESSAGE" = "If you leave before finishing setup, you’ll have to go through it again to turn on Sleep.";
 "SCHEDULE_OCCURRENCE_EDIT_TITLE" = "Edit Your Schedule";
 "ONBOARDING_SET_SCHEDULE_ADD_NONE_TITLE" = "No Days Are Scheduled";

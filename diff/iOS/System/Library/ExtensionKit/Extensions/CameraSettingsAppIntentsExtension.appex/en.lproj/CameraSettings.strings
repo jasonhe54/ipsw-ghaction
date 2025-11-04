@@ -1,5 +1,6 @@
 "CAM_PRESERVE_CAMERA_MODE_SWITCH" = "Camera Mode";
 "CAM_RECORD_SLOMO_1080p_240" = "1080p HD at 240 fps";
+"CAM_SECONDARY_PHOTO_FORMAT_FOOTER_RAW12" = "• 25 MB for ProRAW at 12 MP";
 "IDC_FOOTER_FRONT_ONLY" = "Correct lens distortion on the front camera.";
 "AUTO_MACRO_SWITCH" = "Macro Control";
 "CAM_PRO_RES_RESOLUTION" = "ProRAW Resolution";
@@ -62,6 +63,7 @@ ProRAW is a 10-bit file that uses the Linear DNG format to retain more informati
 "CAM_RECORD_VIDEO_4K_24_SHORT" = "4K at 24 fps";
 "CAMERA_CONTROL_QUIET_UI_TITLE" = "Clean Preview";
 "CAM_PRESERVE_PRO_RAW_48MP_FOOTER" = "Preserve the ProRAW & Resolution Control setting, rather than automatically reset.";
+"LOCK_SCREEN_SWIPE_SWITCH" = "Lock Screen Swipe to Open Camera";
 "CAM_RECORD_SLOMO_720p_240_FOOTER" = "• 300 MB with 720p HD at 240 fps";
 "CAM_RECORD_VIDEO_1080p_25_HEVC_FOOTER" = "• 60 MB with 1080p HD at 25 fps (PAL TV)";
 "CAM_PRESERVE_PRO_RES_SWITCH" = "Apple ProRes";
@@ -76,6 +78,7 @@ ProRAW is a 10-bit file that uses the Linear DNG format to retain more informati
 
 ProRes capture is supported for up to 30 fps at 4K and up to 60 fps at 1080p.";
 "Grid" = "Grid";
+"LOCK_SCREEN_SWIPE_%@_FOOTER" = "Swipe %@ on the Lock Screen to quickly access the Camera.";
 "CAM_CONFIRM_HIGH_EFFICIENCY_VIDEO" = "1080p HD at 120 fps and 4K at 60 or higher fps video will only play on macOS High Sierra (10.13) or later.";
 "CAM_PRO_RAW_48MP_FOOTER_24MP" = "Show control for ProRAW and maximum resolution, up to 48 MP.
 
@@ -93,6 +96,7 @@ ProRAW is a 10-bit file that uses the Linear DNG format to retain more informati
 "COMPOSITION_GROUP_TITLE" = "Composition";
 "CAM_RECORD_VIDEO_4K_FOOTER" = "• 350 MB with 4K (higher resolution)";
 "CAM_RECORD_VIDEO_1080p_30_MOST_COMPATIBLE" = "1080p HD at 30 fps (High Efficiency)";
+"CAM_SECONDARY_PHOTO_FORMAT_FOOTER_FILE_SIZES_TITLE" = "File sizes are approximately:";
 "CAM_CONFIRM_HIGH_EFFICIENCY_VIDEO_LEARN_MORE_URL" = "https://support.apple.com/HT207022";
 "CAM_RECORD_VIDEO_1080P_120_HEVC_DOLBY_FOOTER" = "• 190 MB with 1080p HD at 120 fps";
 "CAM_ACTION_MODE_LOW_LIGHT" = "Action Mode Lower Light";
@@ -135,6 +139,7 @@ ProRAW is a 10-bit file that uses the Linear DNG format to retain more informati
 
 ProRes capture is supported for up to 30 fps at 1080p.";
 "CAM_PRESERVE_CREATIVE_CONTROLS_SWITCH" = "Creative Controls";
+"SMUDGE_DETECTION_SWITCH" = "Lens Cleaning Hints";
 "CAM_RECORD_VIDEO_1080P_120_HEVC_FOOTER" = "• 170 MB with 1080p HD at 120 fps";
 "CAM_RECORD_SLOMO_720p_120" = "720p HD at 120 fps";
 "CAM_RECORD_VIDEO_FOOTER_QUICKTAKE" = "QuickTake video will always record with 1080p HD at 30 fps.";
@@ -160,6 +165,7 @@ ProRes capture is supported for up to 30 fps at 1080p.";
 "CAM_AUDIO_CONFIGURATION_MONO" = "Mono";
 "FOCAL_LENGTH_ROW_TITLE" = "Main Camera";
 "CAM_RECORD_SLOMO_1080p_120" = "1080p HD at 120 fps";
+"SMUDGE_DETECTION_FOOTER" = "Displays a suggestion when the camera lens should be cleaned to improve image quality.";
 "CAM_CONFIRM_HIGH_EFFICIENCY_HDR_VIDEO_LEARN_MORE_URL" = "https://support.apple.com/kb/HT211798";
 "CAM_RECORD_VIDEO_1080P_120_MOST_COMPATIBLE" = "1080p HD at 120 fps (High Efficiency)";
 "CAM_PRESERVE_PHOTO_LIGHTING_ASPECT_FOOTER" = "Preserve the last used aspect ratio or light setting, rather than automatically reset.";
@@ -267,6 +273,7 @@ ProRes capture is supported for up to 30 fps at 1080p on internal storage or up 
 "CAM_RECORD_VIDEO_4K_30_HEVC_DOLBY_FOOTER" = "• 190 MB with 4K at 30 fps (higher resolution)";
 "ENHANCED_RAW_RESOLUTION_SIZE_FOOTER" = "A ProRAW file will be approximately:";
 "CAM_RECORD_SLOMO_1080p_240_FOOTER_DEFAULT" = "• 480 MB with 1080p HD at 240 fps (default)";
+"SWIPE_LEFT" = "left";
 "CAM_RECORD_SLOMO_1080p_120_MOST_COMPATIBLE" = "1080p HD at 120 fps (High Efficiency)";
 "CAM_RECORD_SLOMO_1080p_120_FOOTER" = "• 350 MB with 1080p HD at 120 fps";
 "CAM_FORMATS_TITLE" = "Formats";
@@ -284,6 +291,7 @@ ProRes capture is supported for up to 30 fps at 1080p on internal storage or up 
 48 MP can be captured on the Main camera at 1× or Ultra Wide camera at 0.5×. Night mode, flash, and macro photos will always be saved at 12 MP. Live Photos can be saved at 12 or 24 MP.
 
 ProRAW is a 10-bit file that uses the Linear DNG format to retain more information and dynamic range in the file, providing additional flexibility when editing exposure and white balance.";
+"CAM_SECONDARY_PHOTO_FORMAT_FOOTER_RAW48" = "• 75 MB for ProRAW at 48 MP";
 "CAM_MODERN_HDR_SMART_HDR_AUTO_HDR_FOOTER" = "Smart HDR intelligently blends the best parts of separate exposures into a single photo. The front camera will always use Auto HDR.";
 "CAM_RECORD_VIDEO_1080p_60_SHORT" = "1080p at 60 fps";
 "CAM_CONFIRM_HIGH_EFFICIENCY_HDR_VIDEO" = "HDR video requires macOS Catalina (10.15) or later.";
@@ -325,6 +333,7 @@ ProRAW is a 10-bit file that uses the Linear DNG format to retain more informati
 "CAM_AUDIO_WIND_REMOVAL_FOOTER" = "Wind noise is automatically reduced in recorded video.";
 "CAM_PRESERVE_PHOTO_ASPECT_FOOTER" = "Preserve the last used aspect ratio, rather than automatically reset.";
 "CAM_RECORD_SLOMO_4k_100_SHORT" = "4K at 100 fps";
+"SWIPE_RIGHT" = "right";
 "CAM_RECORD_VIDEO_1080p_25_FOOTER" = "• 130 MB with 1080p HD at 25 fps (PAL TV)";
 "CAM_RECORD_VIDEO_720p_30_MOST_COMPATIBLE" = "720p HD at 30 fps (High Efficiency)";
 "CAM_RECORD_VIDEO_4K_25_HEVC_FOOTER" = "• 170 MB with 4K at 25 fps (PAL TV)";

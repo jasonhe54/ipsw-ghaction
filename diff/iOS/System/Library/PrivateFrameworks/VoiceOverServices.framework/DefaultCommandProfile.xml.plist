@@ -291,6 +291,11 @@
 				<key>KeyChord</key>
 				<string>⇧_→</string>
 			</dict>
+			<key>MoveToNextCheckbox</key>
+			<dict>
+				<key>KeyChord</key>
+				<string>⌘_c</string>
+			</dict>
 			<key>MoveToNextColorChange</key>
 			<dict>
 				<key>KeyChord</key>
@@ -385,6 +390,11 @@
 				<key>KeyChord</key>
 				<string>⌘_p</string>
 			</dict>
+			<key>MoveToNextRadioGroup</key>
+			<dict>
+				<key>KeyChord</key>
+				<string>⌘_r</string>
+			</dict>
 			<key>MoveToNextSameBlockquote</key>
 			<dict>
 				<key>KeyChord</key>
@@ -444,6 +454,11 @@
 			<dict>
 				<key>KeyChord</key>
 				<string>⇧_←</string>
+			</dict>
+			<key>MoveToPreviousCheckbox</key>
+			<dict>
+				<key>KeyChord</key>
+				<string>⌘_C</string>
 			</dict>
 			<key>MoveToPreviousColorChange</key>
 			<dict>
@@ -533,6 +548,11 @@
 			<dict>
 				<key>KeyChord</key>
 				<string>⌘_P</string>
+			</dict>
+			<key>MoveToPreviousRadioGroup</key>
+			<dict>
+				<key>KeyChord</key>
+				<string>⌘_R</string>
 			</dict>
 			<key>MoveToPreviousSameBlockquote</key>
 			<dict>

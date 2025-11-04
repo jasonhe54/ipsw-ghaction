@@ -912,9 +912,50 @@ Autopay has been canceled because your last payment was returned. Check your pay
 "ACCOUNT_DASHBOARD_DAILY_CASH_FINALIZED_FOOTER" = "You receive Daily Cash once transactions are cleared. %@";
 "ACCOUNT_MAKE_DEFAULT_TITLE" = "Use as Default Card";
 "TRANSACTION_DETAIL_INTEREST_CHARGED_LINK_TEXT" = "Learn More About Interest";
-"VERIFY_SSN_MORE_INFO_BODY" = "To opt in to credit reporting, you must provide your complete Social Security Number to Goldman Sachs Bank USA. If you are married to an account owner, the Equal Credit Opportunity Act requires you to be credit reported.
+"VERIFY_SSN_MORE_INFO_BODY" = "If you are married to an account owner, the Equal Credit Opportunity Act requires you to be credit reported.
 
-Credit reporting can assist people with no or limited credit history by establishing or expanding their credit file. Generally, accounts that: (i) have been established for a while, (ii) show consistent on-time payments, and (iii) have balances below 30% of their total credit limit will result in a more positive credit impact. Your account will be reported to the credit bureaus as an Authorized User, which is a signal that you are able to spend on the account, but are not responsible for payments. Being an Authorized User on an account that has a negative payment history or is over utilized can have a negative effect.";
+Credit reporting can assist people with no or limited credit history by establishing or expanding their credit file. Generally, accounts that have: (i) been established for a while, (ii) shown consistent on-time payments, and (iii) low balances (e.g. below 30% of the total credit limit) may result in a more positive credit impact
+
+You will be reported to the credit bureaus as an authorized user on the account, which is a signal that you are able to spend on the account, but are not responsible for payments. Being a Participant on an account that has a negative payment history (e.g. the account goes past due) or is over utilized can have negative effects on your credit.
+
+Your SSN is not stored or read by Apple.
+
+ELECTRONIC COMMUNICATIONS AGREEMENT
+The Bank and Apple and each of their designees, service providers and affiliates (together, for purposes of this electronic communications agreement, “we”, “us”, or “our”) may need to provide you with certain information, agreements, notices or disclosures in writing in connection with your use of the Account and any programs relating to the Account or Apple Card more generally (each, a “Communication”). You confirm your ability, and provide your consent, to receive Communications required to be delivered in writing electronically from us instead of in paper form.
+
+Electronic Communications & Signatures
+Communications that may be provided electronically include, but are not limited to, the following:
+
+• Agreements (including these Terms), disclosures, and any changes to and updated versions of agreements and disclosures
+
+• The Apple Card Privacy Policy, as well as annual notices and other disclosures regarding the Privacy Policy
+
+• Information regarding the Account, or any other agreement between you and us, including your transaction histories and other activity
+
+• Notices to you of the resolution of any billing error regarding your use of the Account, if applicable and
+
+• Inquiries and notices to you about Transactions made with the Account.
+
+You also acknowledge that you and we may use electronic signatures. Without limiting the foregoing, you further agree that Communications may be provided to you via email, text message, device-level notifications, or other electronic notification methods supported by the software you use to access the Account. Communications may also appear on any device that you use to access your email, or any device that is associated with your Apple Account, has internet access and has a version of iOS, iPadOS, watchOS, or macOS (as applicable) installed on such device that supports the use of Apple Card.
+
+Minimum Hardware and Software Requirements
+In order to receive Communications, you must meet the following minimum hardware and software requirements:
+
+• Have an Apple device that has a version of iOS or iPadOS that supports the use of Apple Card, has internet access, has a passcode enabled, and is associated with your Apple Account; or have a device that has a supported browser and is capable of accessing HTML websites to view and retain documents in commonly used electronic formats, including by downloading or emailing documents to an email account to which you have access. Supported browsers are Safari 7 or later, Firefox 34 or later, Chrome 37 or later, Opera 24 or later, or Edge 83 or later
+
+• Have an Apple Account associated with an iCloud account that is in good standing with Apple, as well as a valid email address associated with your Apple Account and
+
+• Have Apple’s two-factor authentication turned on for your Apple Account that is associated with your iCloud account.
+
+We may change these requirements from time to time. In order to retain Communications, you will need the ability to electronically store or print Communications.
+
+You agree to maintain a valid email address and you agree that we may send Communications to the email address that is associated with your Apple Account. Therefore, you agree to maintain a valid email address associated with your Apple Account for as long as you use the Account. In any event, it is your responsibility to review all Communications that are electronically provided to you. We may, at our discretion, mail paper copies of Communications to you, in addition to or instead of sending them to you electronically.
+
+Requesting Paper Copies; Withdrawing this Consent
+You may, free of charge, request copies of Communications in paper or non-electronic form by contacting us as set forth in the Contacting Us section of these Terms. You have the right to withdraw your consent at any time, at which point we may remove you from the Account. In order to withdraw your consent, contact as set forth in the Contacting Us section of these Terms. In order to update your email address, please visit the Apple Account support website and update your Apple Account.
+
+Survival
+Unless you withdraw your consent as set forth above, which you may do at any time, this electronic communications agreement shall survive the termination of the Account or these Terms, any assignment or sale of the Account or these Terms, and the termination, assignment or sale of any and all rights under the Account or these Terms.";
 "ACCOUNT_SERVICE_PAYMENT_DETAILS_STATUS_CELL_ALREADY_PAID_TITLE_FORMAT" = "%@ payment will be skipped";
 "ACCOUNT_SERVICE_PAYMENTS_DETAILS_CANCEL_PAYMENT_BODY" = "Are you sure you want to cancel this payment?";
 "APPLICATION_MESSAGE_SUMMARY" = "Apple Card";
@@ -1030,7 +1071,7 @@ To make sure %@ can receive their Daily Cash from Apple Card purchases, set up
 "INVALID_SSN_SUFFIX_TITLE" = "Invalid SSN last 4";
 "APPLE_CARD_INVITATION_ONBOARDING_PARTICIPANTS_BODY" = "Add up to 5 Participants, age 13 and older, who can spend within limits and earn their own Daily Cash.";
 "ACCOUNT_ALERT_PROVISION_ACCOUNT_ADD_NOW" = "Add Apple Card";
-"VERIFY_SSN_MORE_INFO_TITLE" = "About Credit Reporting";
+"VERIFY_SSN_MORE_INFO_TITLE" = "Build Credit History";
 "ACCOUNT_SERVICE_PHYSICAL_CARD_ORDERED_EVENT_DETAIL" = "You will be notified when your card has shipped.";
 "ACCOUNT_SERVICE_PAYMENT_PAST_DUE_BODY_DAY_TWENTY_SEVEN_FIRST_MONTH_MAC" = "Make your Minimum Payment Due today in Wallet & Apple Pay in Settings.";
 "ACCOUNT_SERVICE_CARD_NUMBERS_VIRTUAL_STATE_BLOCKED_FOOTER" = "Your Apple Card Number is unavailable because it has been suspended. Please contact Support for more information.";
@@ -1502,7 +1543,7 @@ Failure to pay at least the minimum payment due each month can result in spendin
 "ACCOUNT_SERVICE_PASS_DETAILS_SCHEDULED_PAYMENTS_NONE" = "Set Up Autopay";
 "TRANSACTION_ADJUSTMENT_SUBTYPE_CREDIT_REVERSAL" = "Credit Reversal";
 "ACCOUNT_SERVICE_BILL_PAYMENT_CATEGORY_PAY_ONE_SIXTH_STATEMENT_BALANCE_TITLE" = "Making Payments Matter";
-"VERIFY_SSN_FOOTER" = "By entering your SSN and tapping Next, you consent to the below.
+"VERIFY_SSN_FOOTER" = "By entering your SSN and tapping Continue, you consent to the below.
 
 **Authorization for the Social Security Administration (SSA) to disclose your Social Security Number (SSN) verification:**
 

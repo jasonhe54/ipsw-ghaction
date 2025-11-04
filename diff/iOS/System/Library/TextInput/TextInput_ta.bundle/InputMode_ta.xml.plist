@@ -25,6 +25,19 @@
 			<string>ta-Translit@ml=106</string>
 		</array>
 	</dict>
+	<key>UIKeyboardDefaultLanguageInputModes-TV</key>
+	<dict>
+		<key>ta</key>
+		<array>
+			<string>ta</string>
+			<string>en_GB</string>
+		</array>
+		<key>ta_IN</key>
+		<array>
+			<string>ta</string>
+			<string>en_IN</string>
+		</array>
+	</dict>
 	<key>UIKeyboardSuggestedDefaultLanguageInputModes</key>
 	<dict>
 		<key>ta</key>

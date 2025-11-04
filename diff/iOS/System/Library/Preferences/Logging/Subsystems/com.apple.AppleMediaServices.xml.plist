@@ -59,6 +59,11 @@
 			<string>Info</string>
 		</dict>
 	</dict>
+	<key>purchase.oversize</key>
+	<dict>
+		<key>Enable-Oversize-Messages</key>
+		<true/>
+	</dict>
 	<key>regulatoryeligibility</key>
 	<dict>
 		<key>Level</key>

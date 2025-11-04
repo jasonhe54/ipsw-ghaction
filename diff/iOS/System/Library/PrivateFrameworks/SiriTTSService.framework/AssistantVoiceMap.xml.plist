@@ -791,6 +791,33 @@
 				<string>NearLow</string>
 			</dict>
 		</array>
+		<key>pt-PT</key>
+		<array>
+			<dict>
+				<key>gender</key>
+				<integer>2</integer>
+				<key>identifier</key>
+				<string>com.apple.speech.synthesis.voice.custom.siri.pt-PT-A</string>
+				<key>name</key>
+				<string>pt-PT-B</string>
+				<key>order</key>
+				<integer>2</integer>
+				<key>pitchRange</key>
+				<string>NearHigh</string>
+			</dict>
+			<dict>
+				<key>gender</key>
+				<integer>1</integer>
+				<key>identifier</key>
+				<string>com.apple.speech.synthesis.voice.custom.siri.pt-PT-B</string>
+				<key>name</key>
+				<string>pt-PT-A</string>
+				<key>order</key>
+				<integer>1</integer>
+				<key>pitchRange</key>
+				<string>NearLow</string>
+			</dict>
+		</array>
 		<key>ru-RU</key>
 		<array>
 			<dict>

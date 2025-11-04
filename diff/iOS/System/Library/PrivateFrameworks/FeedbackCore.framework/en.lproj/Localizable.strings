@@ -4,7 +4,7 @@
 "ANSWER_CELL_HINT_CHOOSE" = "Choose an answer";
 "DELETE_ATTACHMENT" = "Delete Attachment";
 "ADDITIONAL_FILES" = "Additional Files";
-"MISSING_REQ_FILES" = "Missing Required Files";
+"MISSING_REQ_FILES" = "Missing required files";
 "SUBMIT_BUTTON" = "Send to Apple";
 "NOT_REACHABLE_SUBMIT_MESSAGE_NO_DEVICE_NAME" = "Some diagnostics could not be gathered because the device is not reachable. You can save this feedback as a draft and try again later.";
 "ATTACHED" = "Attached";
@@ -66,10 +66,10 @@
 "GO_BACK" = "Go Back";
 "OUTBOX_COMPRESSING" = "Compressing…";
 "SURVEY_LOAD_ERROR_MESSAGE" = "An error occurred while loading this survey.";
-"SUBMISSION_PII_TITLE" = "Submit report?";
+"SUBMISSION_PII_TITLE" = "Sending information to Apple";
 "SAVE_DRAFT_CHOICE" = "Save Draft";
 "SAVE_DRAFT" = "Save Draft";
-"MISSING_ANSWERS_TITLE" = "Missing Answers";
+"MISSING_ANSWERS_TITLE" = "Missing answers";
 "ANNOUNCEMENT_TITLE" = "Announcement";
 "OUTBOX_FAILED" = "Upload failed.";
 "TOUCH_ID_REQUIRE" = "Require Touch ID";
@@ -151,10 +151,9 @@
 "SURVEY_COMPLETED" = "Survey Completed";
 "FEEDBACK_MOVE_ERROR_TITLE" = "Could Not Move Feedback";
 "ADD_COMMENTS_OPTIONAL" = "Add comments… (optional)";
-"SUBMISSION_PII_MESSAGE" = "The attachments in this report may contain personal or sensitive information and any content you uploaded. You can go back to review, edit, or delete any attachments you don’t want to submit. By submitting, you represent that you own or have the necessary permissions to upload the content and agree that Apple may use your submission to improve Apple products and services, such as training Apple Intelligence models and other machine learning models.";
+"FOLLOWUP_SENDING_ATTACHMENTS" = "Sending attachments…";
 "PAIRING_VIEW_TITLE" = "My Devices";
 "CLOSE" = "Close";
-"FOLLOWUP_SENDING_ATTACHMENTS" = "Sending attachments…";
 "GENERIC_DRAFT_LOAD_ERROR_MESSAGE" = "Please try again at a later time.";
 "PROMPT_DELETE_DRAFT" = "Do you want to save the current draft?";
 "OUTBOX_WAITING_ON_WLAN" = "Waiting for WLAN…";

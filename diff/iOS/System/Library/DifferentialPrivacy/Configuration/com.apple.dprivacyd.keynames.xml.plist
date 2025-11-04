@@ -182,6 +182,11 @@
 		<key>PropertiesName</key>
 		<string>InsightsCommunicationSafetyMedia</string>
 	</dict>
+	<key>fedstats:com.apple.insights.communication-safety-resource-interaction</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>InsightsCommunicationSafetyResource</string>
+	</dict>
 	<key>fedstats:com.apple.insights.communication-safety-ui-interaction</key>
 	<dict>
 		<key>PropertiesName</key>
@@ -241,6 +246,11 @@
 	<dict>
 		<key>PropertiesName</key>
 		<string>InsightsHealthMedications</string>
+	</dict>
+	<key>fedstats:com.apple.insights.hold-assist</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>HoldAssist</string>
 	</dict>
 	<key>fedstats:com.apple.insights.iconic-scenes</key>
 	<dict>

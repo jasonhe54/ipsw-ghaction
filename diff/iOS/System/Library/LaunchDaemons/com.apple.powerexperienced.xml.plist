@@ -88,7 +88,7 @@
 		<true/>
 	</dict>
 	<key>POSIXSpawnType</key>
-	<string>Adaptive</string>
+	<string>Interactive</string>
 	<key>Program</key>
 	<string>/usr/libexec/powerexperienced</string>
 </dict>

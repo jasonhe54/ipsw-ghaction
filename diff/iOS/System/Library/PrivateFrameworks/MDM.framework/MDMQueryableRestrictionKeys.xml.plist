@@ -6,10 +6,11 @@
 	<array>
 		<string>allowedCameraRestrictionBundleIDs</string>
 		<string>appLockBundleIDs</string>
+		<string>autonomousSingleAppModePermittedAppIDs</string>
 		<string>managedEmailDomains</string>
+		<string>ratingAppsExemptedBundleIDs</string>
 		<string>webContentFilterAutoPermittedURLs</string>
 		<string>webContentFilterWhitelistedURLs</string>
-		<string>autonomousSingleAppModePermittedAppIDs</string>
 		<string>allowedExternalIntelligenceWorkspaceIDs</string>
 	</array>
 	<key>restrictedBool</key>

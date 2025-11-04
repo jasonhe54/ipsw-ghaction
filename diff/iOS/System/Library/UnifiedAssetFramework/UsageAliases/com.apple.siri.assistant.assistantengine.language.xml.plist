@@ -1734,6 +1734,58 @@
 				<string>pt_BR</string>
 			</dict>
 		</dict>
+		<key>pt-PT</key>
+		<dict>
+			<key>com.apple.if.planner</key>
+			<dict>
+				<key>ae.language</key>
+				<string>pt</string>
+				<key>nlrouter.language</key>
+				<string>pt</string>
+				<key>rg.language</key>
+				<string>pt_PT</string>
+			</dict>
+			<key>com.apple.if.planner.overrides</key>
+			<dict>
+				<key>ae.language</key>
+				<string>pt</string>
+				<key>if.language</key>
+				<string>pt_PT</string>
+				<key>nlrouter.locale</key>
+				<string>pt_PT</string>
+				<key>rg.language</key>
+				<string>pt_PT</string>
+			</dict>
+			<key>com.apple.siri.asr.hammer</key>
+			<dict>
+				<key>asr.language</key>
+				<string>pt_PT</string>
+			</dict>
+			<key>com.apple.siri.dialog</key>
+			<dict/>
+			<key>com.apple.siri.findmy</key>
+			<dict/>
+			<key>com.apple.siri.tts</key>
+			<dict/>
+			<key>com.apple.siri.understanding</key>
+			<dict>
+				<key>asr.language</key>
+				<string>pt_PT</string>
+				<key>attention.language</key>
+				<string>pt_PT</string>
+				<key>cam.language</key>
+				<string>pt_PT</string>
+				<key>nl.assistant</key>
+				<string>enabled</string>
+				<key>nl.language</key>
+				<string>pt_PT</string>
+			</dict>
+			<key>com.apple.siri.understanding.nl.overrides</key>
+			<dict>
+				<key>nl.language</key>
+				<string>pt_PT</string>
+			</dict>
+		</dict>
 		<key>ru-RU</key>
 		<dict>
 			<key>com.apple.if.planner</key>

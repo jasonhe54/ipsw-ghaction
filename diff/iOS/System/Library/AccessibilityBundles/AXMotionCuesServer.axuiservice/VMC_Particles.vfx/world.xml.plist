@@ -11,7 +11,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>185</integer>
+				<integer>351</integer>
 			</dict>
 			<key>assetRegistry</key>
 			<dict>
@@ -21,24 +21,24 @@
 			<key>background</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>174</integer>
+				<integer>340</integer>
 			</dict>
 			<key>endTime</key>
 			<real>0.0</real>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>184</integer>
+				<integer>350</integer>
 			</dict>
 			<key>environment</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>175</integer>
+				<integer>341</integer>
 			</dict>
 			<key>fogColor</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>180</integer>
+				<integer>346</integer>
 			</dict>
 			<key>fogDensityExponent</key>
 			<real>1</real>
@@ -51,7 +51,7 @@
 			<key>rootNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>41</integer>
+				<integer>31</integer>
 			</dict>
 			<key>screenSpaceAmbientOcclusionEnableBentNormal</key>
 			<false/>
@@ -77,12 +77,12 @@
 			<key>stateManager</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>176</integer>
+				<integer>342</integer>
 			</dict>
 			<key>triggerManager</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>182</integer>
+				<integer>348</integer>
 			</dict>
 			<key>version</key>
 			<integer>1</integer>
@@ -95,7 +95,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>40</integer>
+				<integer>30</integer>
 			</dict>
 			<key>root</key>
 			<dict>
@@ -127,12 +127,12 @@
 				<integer>0</integer>
 			</dict>
 		</dict>
-		<string>B931F9CA-C604-4BD7-B7B0-FA879F6FCD12</string>
+		<string>52E6D6DF-A33C-467A-96A1-05A2CA2BFB6C</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
@@ -146,7 +146,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>32</integer>
+					<integer>25</integer>
 				</dict>
 			</array>
 		</dict>
@@ -167,7 +167,7 @@
 				<integer>7</integer>
 			</dict>
 		</dict>
-		<string>D16A9EF2-364A-40A1-B0BB-B9E3933B184E</string>
+		<string>255CAAF9-AF76-49BD-86F7-D222DC901AB4</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -338,7 +338,7 @@
 			<string>VFXMaterialProperty</string>
 		</dict>
 		<string>plane-material</string>
-		<string>E25E9004-2575-4CE0-87EB-6DF2416665A1</string>
+		<string>BB2FB1DD-B71D-4E44-8B2C-93D33BB7D22B</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -374,92 +374,20 @@
 				<integer>21</integer>
 			</dict>
 		</dict>
-		<string>0A14ABF1-8CA9-4474-864E-C394EDEFEF94</string>
+		<string>81737D86-6287-4D2B-B00E-072E96FB9E5F</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>31</integer>
-			</dict>
-			<key>behaviorGraph</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>23</integer>
+				<integer>24</integer>
 			</dict>
 			<key>isTextureSource</key>
 			<false/>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>30</integer>
+				<integer>23</integer>
 			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>29</integer>
-			</dict>
-			<key>coreHandle</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>24</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>28</integer>
-			</dict>
-			<key>bindings</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>26</integer>
-			</dict>
-			<key>tag</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>25</integer>
-			</dict>
-		</dict>
-		<string>BE281156-EE78-43F9-885F-4757F2444D78</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>27</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>$classes</key>
-			<array>
-				<string>NSMutableArray</string>
-				<string>NSArray</string>
-				<string>NSObject</string>
-			</array>
-			<key>$classname</key>
-			<string>NSMutableArray</string>
-		</dict>
-		<dict>
-			<key>$classes</key>
-			<array>
-				<string>VFXCoreEntityHandle</string>
-				<string>NSObject</string>
-			</array>
-			<key>$classname</key>
-			<string>VFXCoreEntityHandle</string>
-		</dict>
-		<dict>
-			<key>$classes</key>
-			<array>
-				<string>VFXBehaviorGraph</string>
-				<string>NSObject</string>
-			</array>
-			<key>$classname</key>
-			<string>VFXBehaviorGraph</string>
 		</dict>
 		<string>circle</string>
 		<dict>
@@ -480,74 +408,40 @@
 			<key>asset</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>34</integer>
+				<integer>27</integer>
 			</dict>
 			<key>identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>33</integer>
+				<integer>26</integer>
 			</dict>
 		</dict>
-		<string>2C232130-0BFE-4680-889E-E4F7D934B8CC</string>
+		<string>CE07588E-86A6-4913-8CD4-E7A4ECB1EE59</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>31</integer>
-			</dict>
-			<key>behaviorGraph</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>35</integer>
+				<integer>24</integer>
 			</dict>
 			<key>isTextureSource</key>
 			<false/>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>39</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>29</integer>
-			</dict>
-			<key>coreHandle</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>36</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
 				<integer>28</integer>
 			</dict>
-			<key>bindings</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>38</integer>
-			</dict>
-			<key>tag</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>37</integer>
-			</dict>
-		</dict>
-		<string>B49BAAEA-AFFA-4AD3-9212-01E4D19CDF49</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>27</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array/>
 		</dict>
 		<string>circle_shader</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>NSMutableArray</string>
+				<string>NSArray</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>NSMutableArray</string>
+		</dict>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -561,7 +455,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>52</integer>
 			</dict>
 			<key>castsShadow</key>
 			<true/>
@@ -570,19 +464,19 @@
 			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>44</integer>
+				<integer>34</integer>
 			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>173</integer>
+				<integer>339</integer>
 			</dict>
 			<key>hidden</key>
 			<false/>
@@ -617,7 +511,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>43</integer>
+				<integer>33</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -635,21 +529,21 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>45</integer>
+					<integer>35</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>61</integer>
+					<integer>53</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>138</integer>
+					<integer>132</integer>
 				</dict>
 			</array>
 		</dict>
@@ -657,17 +551,17 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>52</integer>
 			</dict>
 			<key>behaviorGraph</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>50</integer>
+				<integer>40</integer>
 			</dict>
 			<key>camera</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>46</integer>
+				<integer>36</integer>
 			</dict>
 			<key>castsShadow</key>
 			<true/>
@@ -676,19 +570,19 @@
 			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>57</integer>
+				<integer>49</integer>
 			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>59</integer>
+				<integer>51</integer>
 			</dict>
 			<key>hidden</key>
 			<false/>
@@ -701,7 +595,7 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>58</integer>
+				<integer>50</integer>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -713,7 +607,7 @@
 			<false/>
 			<key>position</key>
 			<data>
-			AAAAAAAAAABcjAtC
+			AAAAAAAAAACoUfpA
 			</data>
 			<key>renderingOrder</key>
 			<integer>0</integer>
@@ -730,7 +624,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>49</integer>
+				<integer>39</integer>
 			</dict>
 			<key>HDR</key>
 			<false/>
@@ -741,7 +635,7 @@
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>48</integer>
+				<integer>38</integer>
 			</dict>
 			<key>fill</key>
 			<integer>0</integer>
@@ -752,7 +646,7 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>47</integer>
+				<integer>37</integer>
 			</dict>
 			<key>orthographicScale</key>
 			<real>1.3800005912780762</real>
@@ -780,69 +674,87 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>29</integer>
+				<integer>48</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>51</integer>
+				<integer>41</integer>
 			</dict>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>56</integer>
+				<integer>47</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>28</integer>
+				<integer>46</integer>
 			</dict>
 			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>53</integer>
+				<integer>43</integer>
 			</dict>
 			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>52</integer>
+				<integer>42</integer>
 			</dict>
 		</dict>
-		<string>E0966C7E-5DAD-4CCF-94EE-0D260650FBD1</string>
+		<string>413A904C-DFEE-4825-97D0-AC3FB14A213D</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>54</integer>
+					<integer>44</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>45</integer>
 				</dict>
 			</array>
 		</dict>
 		<string>sizeOfParticle</string>
 		<integer>12</integer>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXCoreEntityHandle</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXCoreEntityHandle</string>
+		</dict>
 		<string>58E88018-9BA2-42E8-BD1B-B9C9CD03367F</string>
+		<dict>
+			<key>$classes</key>
+			<array>
+				<string>VFXBehaviorGraph</string>
+				<string>NSObject</string>
+			</array>
+			<key>$classname</key>
+			<string>VFXBehaviorGraph</string>
+		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
 		</dict>
 		<string>camera</string>
-		<string>19FB6F26-5320-488F-8139-C1786C627B6B</string>
+		<string>22F024E1-04FC-45EE-BC4C-8FA9F44574CC</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -856,12 +768,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>52</integer>
 			</dict>
 			<key>behaviorGraph</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>62</integer>
+				<integer>54</integer>
 			</dict>
 			<key>castsShadow</key>
 			<true/>
@@ -870,19 +782,19 @@
 			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>88</integer>
+				<integer>82</integer>
 			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>137</integer>
+				<integer>131</integer>
 			</dict>
 			<key>hidden</key>
 			<false/>
@@ -893,7 +805,7 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>136</integer>
+				<integer>130</integer>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -922,52 +834,108 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>29</integer>
+				<integer>48</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>63</integer>
+				<integer>55</integer>
 			</dict>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>87</integer>
+				<integer>81</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>28</integer>
+				<integer>46</integer>
 			</dict>
 			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>65</integer>
+				<integer>57</integer>
 			</dict>
 			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>64</integer>
+				<integer>56</integer>
 			</dict>
 		</dict>
-		<string>F43F213E-FAB2-4DCA-8FF3-58EA325A0D6C</string>
+		<string>4DDCA87C-FA3F-48DD-8813-7D3CDFE5424E</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>58</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>59</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>60</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>61</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>62</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>63</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>64</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>65</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
 				<dict>
 					<key>CF$UID</key>
 					<integer>66</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -975,7 +943,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>68</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -983,7 +959,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -991,7 +967,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>45</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -999,15 +975,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
 					<integer>72</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>68</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1015,7 +983,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1023,7 +991,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1031,7 +999,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>68</integer>
+					<integer>45</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1039,7 +1007,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>61</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1047,7 +1015,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>78</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>72</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1055,7 +1031,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>72</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -1063,95 +1039,49 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>45</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>81</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>55</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>82</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>68</integer>
-				</dict>
+			</array>
+		</dict>
+		<string>gridYAdjust</string>
+		<string>forceX</string>
+		<string>isLandscape</string>
+		<integer>1</integer>
+		<string>particleCount</string>
+		<string>particleLife</string>
+		<string>gridPLife</string>
+		<string>particleCountTopBottom</string>
+		<string>isSmall</string>
+		<string>aspectRatio</string>
+		<string>isPhone</string>
+		<string>isPad</string>
+		<string>forceY</string>
+		<string>particleSizeRange</string>
+		<integer>13</integer>
+		<string>isMac</string>
+		<string>isGrid</string>
+		<string>gridXAdjust</string>
+		<string>isLarge</string>
+		<string>forcesMul</string>
+		<string>screenSize</string>
+		<string>dimensions</string>
+		<string>particleCountCenter</string>
+		<string>16CE4F83-313D-49F8-BD15-7A8CA193D0C7</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>83</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>68</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>84</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>55</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>85</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>68</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>86</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>68</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>forceY</string>
-		<string>isSmall</string>
-		<integer>1</integer>
-		<string>forceX</string>
-		<string>particleCountTopBottom</string>
-		<string>gridXAdjust</string>
-		<string>isPad</string>
-		<string>particleCountCenter</string>
-		<string>forcesMul</string>
-		<string>isLandscape</string>
-		<string>particleCount</string>
-		<string>particleSizeRange</string>
-		<integer>13</integer>
-		<string>particleLife</string>
-		<string>gridPLife</string>
-		<string>gridYAdjust</string>
-		<string>isLarge</string>
-		<string>isMac</string>
-		<string>aspectRatio</string>
-		<string>isGrid</string>
-		<string>isPhone</string>
-		<string>16CE4F83-313D-49F8-BD15-7A8CA193D0C7</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>27</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>89</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>102</integer>
+					<integer>96</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1159,12 +1089,12 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>52</integer>
 			</dict>
 			<key>behaviorGraph</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>90</integer>
+				<integer>84</integer>
 			</dict>
 			<key>castsShadow</key>
 			<true/>
@@ -1173,24 +1103,24 @@
 			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>99</integer>
+				<integer>93</integer>
 			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
 			<key>emitter</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>95</integer>
+				<integer>89</integer>
 			</dict>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>101</integer>
+				<integer>95</integer>
 			</dict>
 			<key>hidden</key>
 			<false/>
@@ -1201,7 +1131,7 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>100</integer>
+				<integer>94</integer>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -1230,42 +1160,42 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>29</integer>
+				<integer>48</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>91</integer>
+				<integer>85</integer>
 			</dict>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>94</integer>
+				<integer>88</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>28</integer>
+				<integer>46</integer>
 			</dict>
 			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>93</integer>
+				<integer>87</integer>
 			</dict>
 			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>92</integer>
+				<integer>86</integer>
 			</dict>
 		</dict>
-		<string>1F5BA6E6-6F21-437C-B63A-9ADF4F884A82</string>
+		<string>8A4464D4-A814-4AB7-8258-A84F148CD5F7</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -1275,36 +1205,36 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>98</integer>
+				<integer>92</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>96</integer>
+				<integer>90</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>28</integer>
+				<integer>46</integer>
 			</dict>
 			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>97</integer>
+				<integer>91</integer>
 			</dict>
 			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>92</integer>
+				<integer>86</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -1322,23 +1252,23 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
 		</dict>
 		<string>emitter</string>
-		<string>909F65A8-9B9D-4EDD-BF06-B2DBE6BD8C58</string>
+		<string>EBB6C9D2-CA72-470E-84D2-904212DE11B9</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>52</integer>
 			</dict>
 			<key>behaviorGraph</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>128</integer>
+				<integer>122</integer>
 			</dict>
 			<key>castsShadow</key>
 			<true/>
@@ -1347,19 +1277,19 @@
 			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>133</integer>
+				<integer>127</integer>
 			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>135</integer>
+				<integer>129</integer>
 			</dict>
 			<key>hidden</key>
 			<false/>
@@ -1370,12 +1300,12 @@
 			<key>model</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>103</integer>
+				<integer>97</integer>
 			</dict>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>134</integer>
+				<integer>128</integer>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -1404,7 +1334,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>127</integer>
+				<integer>121</integer>
 			</dict>
 			<key>capSegmentCount</key>
 			<integer>0</integer>
@@ -1417,7 +1347,7 @@
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>126</integer>
+				<integer>120</integer>
 			</dict>
 			<key>geodesic</key>
 			<false/>
@@ -1436,12 +1366,12 @@
 			<key>materials</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>125</integer>
+				<integer>119</integer>
 			</dict>
 			<key>mesh</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>104</integer>
+				<integer>98</integer>
 			</dict>
 			<key>parametricType</key>
 			<integer>2</integer>
@@ -1483,60 +1413,60 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>124</integer>
+				<integer>118</integer>
 			</dict>
 			<key>elements</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>118</integer>
+				<integer>112</integer>
 			</dict>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>123</integer>
+				<integer>117</integer>
 			</dict>
 			<key>kGeometrySourceSemanticColor</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>kGeometrySourceSemanticNormal</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>110</integer>
+				<integer>104</integer>
 			</dict>
 			<key>kGeometrySourceSemanticPosition</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>105</integer>
+				<integer>99</integer>
 			</dict>
 			<key>kGeometrySourceSemanticTangent</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>kGeometrySourceSemanticTexcoord</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>114</integer>
+				<integer>108</integer>
 			</dict>
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>122</integer>
+				<integer>116</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>106</integer>
+					<integer>100</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1544,7 +1474,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>109</integer>
+				<integer>103</integer>
 			</dict>
 			<key>bytesPerComponent</key>
 			<integer>4</integer>
@@ -1553,7 +1483,7 @@
 			<key>data</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>107</integer>
+				<integer>101</integer>
 			</dict>
 			<key>dataOffset</key>
 			<integer>0</integer>
@@ -1566,7 +1496,7 @@
 			<key>semantic</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>108</integer>
+				<integer>102</integer>
 			</dict>
 			<key>vectorCount</key>
 			<integer>4</integer>
@@ -1589,13 +1519,13 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>111</integer>
+					<integer>105</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1603,7 +1533,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>109</integer>
+				<integer>103</integer>
 			</dict>
 			<key>bytesPerComponent</key>
 			<integer>4</integer>
@@ -1612,7 +1542,7 @@
 			<key>data</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>112</integer>
+				<integer>106</integer>
 			</dict>
 			<key>dataOffset</key>
 			<integer>0</integer>
@@ -1625,7 +1555,7 @@
 			<key>semantic</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>113</integer>
+				<integer>107</integer>
 			</dict>
 			<key>vectorCount</key>
 			<integer>4</integer>
@@ -1639,13 +1569,13 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>115</integer>
+					<integer>109</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1653,7 +1583,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>109</integer>
+				<integer>103</integer>
 			</dict>
 			<key>bytesPerComponent</key>
 			<integer>4</integer>
@@ -1662,7 +1592,7 @@
 			<key>data</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>116</integer>
+				<integer>110</integer>
 			</dict>
 			<key>dataOffset</key>
 			<integer>0</integer>
@@ -1675,7 +1605,7 @@
 			<key>semantic</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>117</integer>
+				<integer>111</integer>
 			</dict>
 			<key>vectorCount</key>
 			<integer>4</integer>
@@ -1688,13 +1618,13 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>119</integer>
+					<integer>113</integer>
 				</dict>
 			</array>
 		</dict>
@@ -1702,14 +1632,14 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>121</integer>
+				<integer>115</integer>
 			</dict>
 			<key>bytesPerIndex</key>
 			<integer>2</integer>
 			<key>elementData</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>120</integer>
+				<integer>114</integer>
 			</dict>
 			<key>indicesChannelCount</key>
 			<integer>1</integer>
@@ -1739,7 +1669,7 @@
 			<string>VFXMeshElement</string>
 		</dict>
 		<string>Plane</string>
-		<string>8316B347-923E-4A7E-BE34-B69589A4AB9E</string>
+		<string>25C511AC-6930-44A6-B83D-2A326D1FFC95</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1753,7 +1683,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
@@ -1763,7 +1693,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>87C2A36E-11FE-431D-B196-601124682E45</string>
+		<string>1841A1CB-77DE-427B-AC3F-B1BE5BBBB6F2</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1778,42 +1708,42 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>29</integer>
+				<integer>48</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>129</integer>
+				<integer>123</integer>
 			</dict>
 			<key>entityID</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>132</integer>
+				<integer>126</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>28</integer>
+				<integer>46</integer>
 			</dict>
 			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>131</integer>
+				<integer>125</integer>
 			</dict>
 			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>130</integer>
+				<integer>124</integer>
 			</dict>
 		</dict>
-		<string>99703484-A885-4A9B-B4DB-8379E2075DC1</string>
+		<string>3B0D311E-46B3-42CA-9A43-1F24ECC0B48D</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -1823,20 +1753,25 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
 		</dict>
 		<string>screen</string>
-		<string>06E1B0DB-CC81-44C9-8DAF-84C20B67B6A5</string>
+		<string>ADD9B095-70DA-4395-A7F7-58FB0217ADFE</string>
 		<string>mainEmitter</string>
-		<string>49DE79AA-9D41-49B8-95EB-09FDF90AF258</string>
+		<string>4876844D-6AF4-43D2-AB0F-9696396D2258</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>133</integer>
 			</dict>
 			<key>castsShadow</key>
 			<true/>
@@ -1845,15 +1780,20 @@
 			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>139</integer>
+				<integer>138</integer>
 			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>338</integer>
+			</dict>
 			<key>hidden</key>
 			<false/>
 			<key>isEyesightFrame</key>
@@ -1863,7 +1803,7 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>172</integer>
+				<integer>337</integer>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -1875,7 +1815,136 @@
 			<false/>
 			<key>position</key>
 			<data>
-			AAAAAAAAAAD+/5/A
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			+XpgP5WZuT8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>134</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>137</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>136</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>135</integer>
+			</dict>
+		</dict>
+		<string>00323EDD-D4FA-4102-96E6-B4109DD89CFC</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>A4F6ADC9-607A-4806-BBD8-6B068AE236DD</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>139</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>243</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>140</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>145</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>242</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>241</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
 			</data>
 			<key>renderingOrder</key>
 			<integer>0</integer>
@@ -1892,359 +1961,109 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>48</integer>
 			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>140</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>151</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>162</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>60</integer>
-			</dict>
-			<key>behaviorGraph</key>
+			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>141</integer>
 			</dict>
-			<key>castsShadow</key>
-			<false/>
-			<key>categoryBitMask</key>
-			<integer>1</integer>
-			<key>childNodes</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>148</integer>
-			</dict>
-			<key>deformers</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>42</integer>
-			</dict>
-			<key>depthPrePass</key>
-			<false/>
-			<key>emitter</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>147</integer>
-			</dict>
 			<key>entityID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>150</integer>
-			</dict>
-			<key>hidden</key>
-			<false/>
-			<key>isEyesightFrame</key>
-			<false/>
-			<key>isHandTrackingRoot</key>
-			<false/>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>149</integer>
-			</dict>
-			<key>opacity</key>
-			<real>1</real>
-			<key>orientation</key>
-			<data>
-			AAAAAAAAAAAAAAAAAACAPw==
-			</data>
-			<key>paused</key>
-			<false/>
-			<key>position</key>
-			<data>
-			AAAAAAAAAAD+/59A
-			</data>
-			<key>renderingOrder</key>
-			<integer>0</integer>
-			<key>rotation</key>
-			<data>
-			AAAAAAAAAAAAAAAAAAAAAA==
-			</data>
-			<key>scale</key>
-			<data>
-			AACAPwAAgD8AAIA/
-			</data>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>29</integer>
-			</dict>
-			<key>coreHandle</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>142</integer>
-			</dict>
-			<key>entityID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>146</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>28</integer>
-			</dict>
-			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>144</integer>
 			</dict>
-			<key>tag</key>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>143</integer>
 			</dict>
-		</dict>
-		<string>D13CDF67-4D8D-42FA-8A26-CCDD79576922</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>27</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>145</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>55</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>backPosition</string>
-		<string>89F08E40-F19D-4D57-9A14-5741B577B099</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>98</integer>
-			</dict>
-			<key>coreHandle</key>
+			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>142</integer>
 			</dict>
 		</dict>
+		<string>8DB506A2-ABA5-440B-A94F-E540246959BA</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
 		</dict>
-		<string>grid5</string>
-		<string>84CAA281-3ABC-4323-BFD1-21554258A1CE</string>
+		<string>5E08CABB-04AE-46E3-AB43-F054DC4D04E9</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>60</integer>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>146</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>169</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>187</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>205</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>223</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
 			</dict>
 			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>147</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>152</integer>
 			</dict>
-			<key>castsShadow</key>
-			<false/>
-			<key>categoryBitMask</key>
-			<integer>1</integer>
-			<key>childNodes</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>159</integer>
-			</dict>
 			<key>deformers</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>42</integer>
+				<integer>32</integer>
 			</dict>
 			<key>depthPrePass</key>
 			<false/>
-			<key>emitter</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>158</integer>
-			</dict>
 			<key>entityID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>161</integer>
-			</dict>
-			<key>hidden</key>
-			<false/>
-			<key>isEyesightFrame</key>
-			<false/>
-			<key>isHandTrackingRoot</key>
-			<false/>
-			<key>name</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>160</integer>
-			</dict>
-			<key>opacity</key>
-			<real>1</real>
-			<key>orientation</key>
-			<data>
-			AAAAAAAAAAAAAAAAAACAPw==
-			</data>
-			<key>paused</key>
-			<false/>
-			<key>position</key>
-			<data>
-			AAAAAAAAAAD+/59A
-			</data>
-			<key>renderingOrder</key>
-			<integer>0</integer>
-			<key>rotation</key>
-			<data>
-			AAAAAAAAAAAAAAAAAAAAAA==
-			</data>
-			<key>scale</key>
-			<data>
-			AACAPwAAgD8AAIA/
-			</data>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>29</integer>
-			</dict>
-			<key>coreHandle</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>153</integer>
-			</dict>
-			<key>entityID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>157</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>28</integer>
-			</dict>
-			<key>bindings</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>155</integer>
-			</dict>
-			<key>tag</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>154</integer>
-			</dict>
-		</dict>
-		<string>3AE7151D-A2C8-480F-A585-89AB3C4D892B</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>27</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>156</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>55</integer>
-				</dict>
-			</array>
-		</dict>
-		<string>backPosition</string>
-		<string>5DA36A23-07DB-4BD0-83B6-DACEE3ED5C38</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>98</integer>
-			</dict>
-			<key>coreHandle</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>153</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>27</integer>
-			</dict>
-			<key>NS.objects</key>
-			<array/>
-		</dict>
-		<string>grid4</string>
-		<string>C2BADEDF-99FF-4732-A485-495345BF2C1A</string>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>60</integer>
-			</dict>
-			<key>behaviorGraph</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>163</integer>
-			</dict>
-			<key>castsShadow</key>
-			<false/>
-			<key>categoryBitMask</key>
-			<integer>1</integer>
-			<key>childNodes</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>169</integer>
-			</dict>
-			<key>deformers</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>42</integer>
-			</dict>
-			<key>depthPrePass</key>
-			<false/>
-			<key>emitter</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>168</integer>
 			</dict>
-			<key>entityID</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>171</integer>
-			</dict>
 			<key>hidden</key>
 			<false/>
 			<key>isEyesightFrame</key>
@@ -2254,7 +2073,7 @@
 			<key>name</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>170</integer>
+				<integer>167</integer>
 			</dict>
 			<key>opacity</key>
 			<real>1</real>
@@ -2266,7 +2085,7 @@
 			<false/>
 			<key>position</key>
 			<data>
-			AAAAAAAAAAD+/59A
+			AAAAAAAAgD8AAAAA
 			</data>
 			<key>renderingOrder</key>
 			<integer>0</integer>
@@ -2283,47 +2102,231 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>29</integer>
+				<integer>48</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>164</integer>
+				<integer>148</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>151</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>28</integer>
+				<integer>46</integer>
 			</dict>
 			<key>bindings</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>166</integer>
+				<integer>150</integer>
 			</dict>
 			<key>tag</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>165</integer>
+				<integer>149</integer>
 			</dict>
 		</dict>
-		<string>E132035A-9185-432D-BFE2-10C72F1E9163</string>
+		<string>0FE8387D-8E05-4988-AB61-DEC0E9F4FE17</string>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>A307E128-2F7E-4E02-8B9E-50BE59208E3B</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>167</integer>
+					<integer>153</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>154</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>164</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>160</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>166</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>155</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>159</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>157</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>156</integer>
+			</dict>
+		</dict>
+		<string>F64BF3A7-D716-4FF4-8CEE-C3A7781772A8</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>158</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>55</integer>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<string>68C2695A-26A3-4AB0-ACCD-672FE4402AEC</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>161</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>162</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>156</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>163</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
 				</dict>
 			</array>
 		</dict>
@@ -2332,27 +2335,2579 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>98</integer>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>dot</string>
+		<string>4F69F358-9593-445E-85F9-479318FBDECE</string>
+		<string>1</string>
+		<string>E5091453-668B-42B7-A475-7AB5C3B46721</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>170</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>175</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>186</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>185</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAMP1qD4AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
 			</dict>
 			<key>coreHandle</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>164</integer>
+				<integer>171</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>174</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>173</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>172</integer>
+			</dict>
+		</dict>
+		<string>8B5492AD-2335-4FFF-BE48-18199165DEC8</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
 		</dict>
-		<string>grid3</string>
-		<string>37AE6682-31F9-4B8C-A8D9-2DD8B9BB4D80</string>
+		<string>BF1F72F7-B7A0-4783-ACD0-C1F8128BFD18</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>176</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>177</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>183</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>182</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>184</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>178</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>180</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>179</integer>
+			</dict>
+		</dict>
+		<string>57D5519A-BF4D-4A96-AD0C-C8C00B1DD637</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>181</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>178</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>CC0C12D4-8330-43A2-B6CE-9F070F89F83D</string>
+		<string>2</string>
+		<string>1CB4161D-DD8E-4DF2-BA0A-4ECB63DA9498</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>188</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>193</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>204</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>203</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAMP1qL4AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>189</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>192</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>191</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>190</integer>
+			</dict>
+		</dict>
+		<string>86B5603D-1458-4F8E-986F-0DF62B26903B</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>BF850DBD-0940-45BF-B5C7-FFB87C5D0006</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>194</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>195</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>201</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>200</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>202</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>196</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>198</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>197</integer>
+			</dict>
+		</dict>
+		<string>A6975E36-06F7-4A6C-B09E-250633A0ACD6</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>199</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>196</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>30D434CE-1509-4507-8FF8-C392175B4DDB</string>
+		<string>3</string>
+		<string>07CCDC39-353E-46E9-9370-1A3E363E08C0</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>206</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>211</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>222</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>221</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAgL8AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>207</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>210</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>209</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>208</integer>
+			</dict>
+		</dict>
+		<string>663FBD0A-B2B4-4FBC-BF18-135690614AE2</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>29A3AE06-C96F-4B32-95B4-9DAC6EBA655B</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>212</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>213</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>219</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>218</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>220</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>214</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>216</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>215</integer>
+			</dict>
+		</dict>
+		<string>5A0F4BBF-B585-43D1-BB03-FE5D74E3B643</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>217</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>214</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>EC7AE49C-C88B-4AA9-8AFC-996C44F8A8D3</string>
+		<string>4</string>
+		<string>D1CADDC3-4E42-49AF-9957-CC9AD2A69858</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>224</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>229</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>240</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>239</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAgL8AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>225</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>228</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>227</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>226</integer>
+			</dict>
+		</dict>
+		<string>1F22E933-3FBE-45B1-A65E-6B20C2D5673E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>378BF398-0D96-4AB5-A2CE-40BCD1B82B22</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>230</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>231</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>237</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>236</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>238</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>232</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>234</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>233</integer>
+			</dict>
+		</dict>
+		<string>5CEE5004-AD41-453E-802B-7CEF3B61209E</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>235</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>232</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>222E5734-AB79-4032-999A-3242921C8272</string>
+		<string>5</string>
+		<string>8C99C17B-8E25-4CB9-AEE3-5B88F9285603</string>
+		<string>left</string>
+		<string>1222EE1E-7CF3-4462-9D10-73951DC97905</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>244</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>249</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>336</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>335</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			hOvxPwAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>245</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>248</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>247</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>246</integer>
+			</dict>
+		</dict>
+		<string>47833BFB-F8DC-409B-BC1C-760036754DEE</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>57691171-ADE5-49A4-88F4-8E39F2AFE76A</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>250</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>267</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>284</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>301</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>318</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>251</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>256</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>266</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>167</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAgD8AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>252</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>255</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>254</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>253</integer>
+			</dict>
+		</dict>
+		<string>57AED98B-4F3B-48F7-B99E-6252B8B6C83C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>C57CAD1B-2E70-4FB3-806C-D180BBBE45C2</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>257</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>258</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>264</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>263</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>265</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>259</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>261</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>260</integer>
+			</dict>
+		</dict>
+		<string>BFFA3718-0A6F-4782-A0B2-D3F16FCE58C2</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>262</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>259</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>2270763A-066E-4200-AB0C-04602BC14295</string>
+		<string>C28F12F0-3B8D-4258-BF13-25349C3D3D00</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>268</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>273</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>283</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>185</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAMP1qD4AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>269</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>272</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>271</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>270</integer>
+			</dict>
+		</dict>
+		<string>0AD54E1F-CE52-4AD2-B711-DC71429FC0B7</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>1EB26F69-AC57-4886-AA35-0E7BD7B0B483</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>274</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>275</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>281</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>280</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>282</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>276</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>278</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>277</integer>
+			</dict>
+		</dict>
+		<string>E1959E1B-9DB6-4AC3-A7DA-26F39BFBDFE4</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>279</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>276</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>69833DD5-8043-464A-9814-85AF603253AD</string>
+		<string>E3FC24AA-BF76-4115-B345-2AC86838E136</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>285</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>290</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>300</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>203</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAMP1qL4AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>286</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>289</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>288</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>287</integer>
+			</dict>
+		</dict>
+		<string>7B0E3DA3-CA29-41A3-A929-229268A16857</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>64FD0672-366E-4617-ACC7-01DCAF81E94C</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>291</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>292</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>298</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>297</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>299</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>293</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>295</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>294</integer>
+			</dict>
+		</dict>
+		<string>7BB4DD51-A0D9-4418-8DCB-5D07A5CA87A2</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>296</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>293</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>6136B5DF-8B72-4A9B-A8A1-FF338BBA8587</string>
+		<string>B2BF44D2-5EDA-41E8-8050-75730109BABE</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>302</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>307</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>317</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>221</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAgL8AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>303</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>306</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>305</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>304</integer>
+			</dict>
+		</dict>
+		<string>B64CADCD-B52E-40CA-9969-3AB0D3EED443</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>90BA6741-E908-49BD-8025-381C3B03C6C6</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>308</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>309</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>315</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>314</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>316</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>310</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>312</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>311</integer>
+			</dict>
+		</dict>
+		<string>215828B5-FD7C-409F-B1D2-634C139E70BD</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>313</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>310</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>BA84D11A-AD08-400D-B3FA-2D6FFA2AAEC4</string>
+		<string>FAA2A6A9-B1A1-46D8-88DD-8AD6C23BCB42</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>319</integer>
+			</dict>
+			<key>castsShadow</key>
+			<true/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>324</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>334</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>239</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAgL8AAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>320</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>323</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>322</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>321</integer>
+			</dict>
+		</dict>
+		<string>CB4C1145-5555-46A7-AF24-8C5C6067E483</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>5E596CAC-86C5-42A7-AB85-537DC5AC3E26</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>325</integer>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>52</integer>
+			</dict>
+			<key>behaviorGraph</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>326</integer>
+			</dict>
+			<key>castsShadow</key>
+			<false/>
+			<key>categoryBitMask</key>
+			<integer>1</integer>
+			<key>childNodes</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>332</integer>
+			</dict>
+			<key>deformers</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>32</integer>
+			</dict>
+			<key>depthPrePass</key>
+			<false/>
+			<key>emitter</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>331</integer>
+			</dict>
+			<key>entityID</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>333</integer>
+			</dict>
+			<key>hidden</key>
+			<false/>
+			<key>isEyesightFrame</key>
+			<false/>
+			<key>isHandTrackingRoot</key>
+			<false/>
+			<key>name</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>165</integer>
+			</dict>
+			<key>opacity</key>
+			<real>1</real>
+			<key>orientation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAACAPw==
+			</data>
+			<key>paused</key>
+			<false/>
+			<key>position</key>
+			<data>
+			AAAAAAAAAAAAAAAA
+			</data>
+			<key>renderingOrder</key>
+			<integer>0</integer>
+			<key>rotation</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAA==
+			</data>
+			<key>scale</key>
+			<data>
+			AACAPwAAgD8AAIA/
+			</data>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>48</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>327</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>46</integer>
+			</dict>
+			<key>bindings</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>329</integer>
+			</dict>
+			<key>tag</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>328</integer>
+			</dict>
+		</dict>
+		<string>936D8F74-1B55-41E3-9BBC-682FD98D0947</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>330</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>45</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>backPosition</string>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>coreHandle</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>327</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>29</integer>
+			</dict>
+			<key>NS.objects</key>
+			<array/>
+		</dict>
+		<string>40DC3E73-1FFC-41A8-A893-2B4D128EE540</string>
+		<string>FB3F71E1-F5C0-4E75-B53A-353BF1E75505</string>
+		<string>right</string>
+		<string>8778C1BE-416B-448E-B1C6-A2C48D34E408</string>
 		<string>grid</string>
-		<string>699E1BBC-B81D-4A5E-B8DD-F3097B448AAD</string>
+		<string>B42C992A-5FEE-4762-9419-62C00E884A6E</string>
+		<string>77B2EB3A-8D6D-4FDB-927F-2DF88F7ADD2B</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -2421,24 +4976,24 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>179</integer>
+				<integer>345</integer>
 			</dict>
 			<key>states</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>177</integer>
+				<integer>343</integer>
 			</dict>
 			<key>transitions</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>178</integer>
+				<integer>344</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -2447,7 +5002,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>27</integer>
+				<integer>29</integer>
 			</dict>
 			<key>NS.objects</key>
 			<array/>
@@ -2465,7 +5020,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>181</integer>
+				<integer>347</integer>
 			</dict>
 			<key>NS.bytes</key>
 			<data>
@@ -2577,7 +5132,7 @@
 			<key>$class</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>183</integer>
+				<integer>349</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -2589,7 +5144,7 @@
 			<key>$classname</key>
 			<string>VFXTriggerManager</string>
 		</dict>
-		<string>88576C26-C043-4D4A-A2BC-0185B9D767F7</string>
+		<string>47A3947D-557F-4C08-8E8C-8931197A929C</string>
 		<dict>
 			<key>$classes</key>
 			<array>

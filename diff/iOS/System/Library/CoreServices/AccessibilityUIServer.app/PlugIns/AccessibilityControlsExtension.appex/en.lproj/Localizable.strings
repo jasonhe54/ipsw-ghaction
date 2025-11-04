@@ -187,7 +187,6 @@
 "FOCUSED_ITEM_AFTER_TAP_DESCRIPTION" = "Accessibility → Switch Control";
 "POINTER_INCREASE_CONTRAST" = "Increase Contrast";
 "BRAILLE_GESTURES_MODE_ANNOUNCEMENTS" = "Mode Announcements";
-"BG_SOUNDS_FILTERS_DESCRIPTION" = "Accessibility → Audio & Visual → Background Sounds → Filters";
 "DIRECTIONAL_BUTTONS_DESCRIPTION" = "Accessibility → Apple TV Remote";
 "VC_CMD_ADVANCED_GESTURES" = "Advanced Gestures";
 "SPEECH_CONTROLLER" = "Speech Controller";
@@ -237,6 +236,7 @@
 "NAME_RECOGNITION_DESCRIPTION" = "Accessibility → Sound & Name Recognition";
 "PERFORM_TOUCH_GESTURES_VISIONOS_DESCRIPTION" = "Accessibility → Interaction → AssistiveTouch";
 "POINTER_ANIMATIONS_DESCRIPTION" = "Accessibility → Interaction → Pointer Control";
+"BG_SOUNDS_EQUALIZER" = "Equalizer";
 "INPUT_FEEDBACK_DESCRIPTION" = "Accessibility → VoiceOver → Verbosity";
 "VOICEOVER_RECOGNITION_DESCRIPTION" = "Accessibility → VoiceOver";
 "HOVER_TYPING_AUTOCORRECTED_WORD_COLOR_DESCRIPTION" = "Accessibility → Keyboards & Typing → Hover Typing";
@@ -338,6 +338,7 @@
 "LINK_ATTACHMENT_FEEDBACK" = "Links";
 "ALWAYS_SHOW_MENU_DESCRIPTION" = "Accessibility → Touch → AssistiveTouch";
 "FULL_KEYBOARD_ACCESS" = "Full Keyboard Access";
+"BG_SOUNDS_EQUALIZER_DESCRIPTION" = "Accessibility → Audio & Visual → Background Sounds → Equalizer";
 "TRACKING_MODE" = "Tracking Mode";
 "SPOKEN_CONTENT_DEFAULT_LANGUAGE" = "Default Language";
 "LIVE_SPEECH_VOICES_DESCRIPTION" = "Accessibility → Live Speech";
@@ -517,7 +518,6 @@
 "CLARITYUI_APPLICATIONS_DESCRIPTION" = "Accessibility → Assistive Access";
 "ACCESSIBILITY_SHORTCUT_DESCRIPTION" = "Accessibility";
 "VC_CMD_BASIC_NAVIGATION" = "Basic Navigation";
-"BG_SOUNDS_FREQUENCY" = "Frequency";
 "SOUND_CURTAIN_DESCRIPTION" = "Accessibility → VoiceOver → Braille";
 "SHOW_CONFIRMATION_DESCRIPTION" = "Accessibility → Voice Control";
 "VO_DIRECT_TOUCH_APPS_DESCRIPTION" = "Accessibility → VoiceOver → Rotor";
@@ -777,7 +777,6 @@
 "COMFORT_SOUNDS_LOCK" = "Stop Sounds When Locked";
 "CURSOR_COLOR" = "Cursor Color";
 "LANGUAGE_DESCRIPTION" = "Accessibility → Voice Control";
-"BG_SOUNDS_FILTERS" = "Filters";
 "COMFORT_SOUNDS" = "Background Sounds";
 "LOCK_BUTTON_TO_END_CALL_DESCRIPTION" = "Accessibility → Touch";
 "DELAY_UNTIL_REPEAT" = "Delay Until Repeat";
@@ -801,8 +800,8 @@
 "ITEM_OVERVIEW_DESCRIPTION" = "Accessibility → VoiceOver → Braille";
 "ALWAYS_PLAY_SIRI_SOUNDS_DESCRIPTION" = "Accessibility → VoiceOver → Audio";
 "PERSONAL_VOICE_CREATE" = "Create a Personal Voice";
-"ATTENTION_AWARE" = "Attention Aware";
 "HEARING_CONTROL_CENTER_DESCRIPTION" = "Accessibility";
+"ATTENTION_AWARE" = "Attention Aware";
 "LIVE_TRANSCRIPTIONS_DESCRIPTION" = "Accessibility → Live Captions";
 "BACK_TAP" = "Back Tap";
 "AST_VIRTUAL_TRACKPAD_BORDER_COLOR_DESCRIPTION" = "Accessibility → Touch → AssistiveTouch → Virtual Trackpad → Border";
@@ -874,14 +873,13 @@
 "CLARITYUI_SHOW_TIME" = "Show Time on Lock Screen";
 "CUSTOMIZE_MENU_SETTINGS_DESCRIPTION" = "Accessibility → Switch Control → Menu Items";
 "NUMBER_FEEDBACK_DESCRIPTION" = "Accessibility → VoiceOver → Verbosity";
-"BG_SOUNDS_GAIN_DESCRIPTION" = "Accessibility → Audio & Visual → Background Sounds";
 "VO_FEEDBACK_DESCRIPTION" = "Accessibility → VoiceOver → VoiceOver Recognition";
 "HT_INSERTION_POINT_COLOR_DESCRIPTION" = "Accessibility → Hover Text";
 "CLARITYUI_OPTIONS_DESCRIPTION" = "Accessibility → Assistive Access";
+"LIVE_TRANSCRIPTIONS_TRANSCRIBE_CALLS" = "Transcribe Calls";
 "FALLBACK_ACTION_DESCRIPTION" = "Accessibility → Touch → AssistiveTouch → Fallback Action";
 "BRAILLE_INPUT_OUTPUT" = "Input and Output";
 "PER_APP_ADD_APP_DESCRIPTION" = "Accessibility → Per-App Settings";
-"LIVE_TRANSCRIPTIONS_TRANSCRIBE_CALLS" = "Transcribe Calls";
 "EYE_TRACKING_ZOOM_ON_KEYS_DESCRIPTION" = "Accessibility → Eye Tracking";
 "TAP_BEHAVIOR_DESCRIPTION" = "Accessibility → Switch Control";
 "DWELL_CONTROL" = "Dwell Control";
@@ -928,7 +926,6 @@
 "TABLE_HEADERS_DESCRIPTION" = "Accessibility → VoiceOver → Verbosity";
 "AUTOPLAY_VIDEO_PREVIEWS" = "Auto-Play Video Previews";
 "COMFORT_SOUNDS_VOLUME_DESCRIPTION" = "Accessibility → Audio & Visual → Background Sounds";
-"BG_SOUNDS_GAIN" = "Gain";
 "ALWAYS_TAP_KEYBOARD_KEYS_DESCRIPTION" = "Accessibility → Switch Control";
 "ADD_ACTIVITY" = "Add Activity…";
 "CONTROL_NEARBY" = "Control Nearby Devices";
@@ -993,7 +990,6 @@
 "KEYBOARD_SHORTCUTS_DESCRIPTION" = "Accessibility → Zoom → Keyboard Shortcuts";
 "GLIDING_CURSOR_DESCRIPTION" = "Accessibility → Switch Control";
 "VO_BRAILLE_SCREEN_KEYBOARD_COMMAND_DESCRIPTION" = "Accessibility → VoiceOver → Commands";
-"BG_SOUNDS_RESET_DESCRIPTION" = "Accessibility → Audio & Visual → Background Sounds";
 "LIVE_TRANSCRIPTIONS_CURRENT_LANGUAGE_DESCRIPTION" = "Accessibility → Live Captions";
 "SHOW_CONTROLLER_KEYWORDS" = "Controller Actions";
 "HT_SCROLLING_SPEED_DESCRIPTION" = "Accessibility → Hover Text";
@@ -1051,7 +1047,6 @@
 "WORD_WRAP_DESCRIPTION" = "Accessibility → VoiceOver → Braille";
 "HT_BACKGROUND_COLOR_DESCRIPTION" = "Accessibility → Hover Text";
 "BANNER_NOTIFICATIONS" = "Banner Notifications";
-"BG_SOUNDS_FREQUENCY_DESCRIPTION" = "Accessibility → Audio & Visual → Background Sounds";
 "IMPORT_CUSTOM_COMMANDS" = "Import Custom Commands";
 "CUSTOMIZE_MOUSE_BUTTONS_DESCRIPTION" = "Accessibility → Read & Speak → Speak Screen → Speech Controller";
 "VOICEOVER_DELAY_UNTIL_SPEAK_DESCRIPTION" = "Accessibility → VoiceOver";
@@ -1072,13 +1067,12 @@
 "COLOR_FILTERS" = "Color Filters";
 "TARGET_DESCRIPTION" = "Accessibility → Interaction → Dwell Control";
 "HEADPHONE_ACCOMMODATIONS_DESCRIPTION" = "Accessibility → Audio & Visual → Headphone Accommodations";
-"BG_SOUNDS_RESET" = "Reset Filters";
 "LOOPS_DESCRIPTION" = "Accessibility → Switch Control";
 "BACK_TAP_DESCRIPTION" = "Accessibility → Touch";
 "LIVE_TRANSCRIPTION_BACKGROUND_COLOR" = "Background Color";
 "ZOOM_IDLE_SLUG_OPACITY" = "Idle Opacity";
 "SET_GUIDED_ACCESS_PASSCODE_DESCRIPTION" = "Accessibility → Guided Access → Passcode Settings";
-"BUTTON_SHAPES" = "Button Shapes";
+"BUTTON_SHAPES" = "Show Borders";
 "BRAILLE_SCREEN_INPUT" = "Braille Screen Input";
 "EDIT_APPS_ON_HOME_SCREEN" = "Edit Apps on Home Screen";
 "SHOW_SCROLL_CONTROLS" = "Show Scroll Controls";

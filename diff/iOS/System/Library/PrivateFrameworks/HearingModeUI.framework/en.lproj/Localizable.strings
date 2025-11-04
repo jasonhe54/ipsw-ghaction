@@ -1,15 +1,18 @@
 "" = "";
 "AirPods" = "AirPods";
 "Adjust both %@ and check again." = "Adjust both %@ and check again.";
+"Workplace Use" = "Workplace Use";
 "Low Frequency (L)" = "Low Frequency (L)";
 "Hearing Aid Can Take Time to Get Used To" = "Hearing Aid Can Take Time to Get Used To";
 "Yes" = "Yes";
 "LEFT EAR" = "LEFT EAR";
 "Audio Quality" = "Audio Quality";
-"PPE Mode is On" = "PPE Mode is On";
-"AirPods PPE Mode" = "AirPods PPE Mode";
 "Your %@ can also make adjustments that help you hear media like music, videos, and phone calls." = "Your %@ can also make adjustments that help you hear media like music, videos, and phone calls.";
-"Turn Off PPE Mode" = "Turn Off PPE Mode";
+"Apple Inc.
+One Apple Park Way
+Cupertino CA" = "Apple Inc.
+One Apple Park Way
+Cupertino CA";
 "Instructions for Use" = "Instructions for Use";
 "End Call To Continue Test" = "End Call To Continue Test";
 "Background noise can make it too hard to hear the tones in the test." = "Background noise can make it too hard to hear the tones in the test.";
@@ -40,9 +43,7 @@ Cupertino, CA 95014, United States";
 "%@ can make adjustments that improve the clarity of music, videos and calls." = "%@ can make adjustments that improve the clarity of music, videos and calls.";
 "Get Started" = "Get Started";
 "The hearing test is only available for users %lld or older." = "The hearing test is only available for users %lld or older.";
-"Your AirPods will automatically reduce your exposure to loud environmental noise and will limit the maximum volume of music, movies, and calls to 82dBA." = "Your AirPods will automatically reduce your exposure to loud environmental noise and will limit the maximum volume of music, movies, and calls to 82dBA.";
 "Adjust Music and Video" = "Adjust Music and Video";
-"Turn On PPE Mode" = "Turn On PPE Mode";
 "Show Suggestions To Reduce Noise" = "Show Suggestions To Reduce Noise";
 "Hearing Protection May Not Be Working As Expected" = "Hearing Protection May Not Be Working As Expected";
 "Wearing your %@ does not provide adequate hearing protection in all circumstances. Consult with your employer prior to use in the workplace. %@" = "Wearing your %1$@ does not provide adequate hearing protection in all circumstances. Consult with your employer prior to use in the workplace. %2$@";
@@ -70,18 +71,12 @@ Cupertino, CA 95014, United States";
 "Hearing Assistance" = "Hearing Assistance";
 "You can use the results of a hearing test to adjust your %@ to match your hearing ability. Learn more…" = "You can use the results of a hearing test to adjust your %@ to match your hearing ability. Learn more…";
 "Check Fit and Noise Again" = "Check Fit and Noise Again";
-"Apple Inc
-One Apple Park Way
-Cupertino CA" = "Apple Inc
-One Apple Park Way
-Cupertino CA";
 "%@ can help protect your hearing. Hearing Test and Hearing Assistance are no longer available in your region. Learn more…" = "%@ can help protect your hearing. Hearing Test and Hearing Assistance are no longer available in your region. Learn more…";
 "You can use the results of a hearing test to adjust your %@ to match your hearing ability. Hearing Protection and Hearing Test are no longer available in your region. Learn more…" = "You can use the results of a hearing test to adjust your %@ to match your hearing ability. Hearing Protection and Hearing Test are no longer available in your region. Learn more…";
 "Firmware Update Required" = "Firmware Update Required";
 "You can use %@ to take a hearing test and use the results to make adjustments that match your unique ability to hear. Learn more…" = "You can use %@ to take a hearing test and use the results to make adjustments that match your unique ability to hear. Learn more…";
 "Hearing Assistance is no longer available in your region. Learn more…" = "Hearing Assistance is no longer available in your region. Learn more…";
 "Media Assist is On" = "Media Assist is On";
-"Set Up PPE Mode" = "Set Up PPE Mode";
 "You can use %@ to take a hearing test and use the results to make adjustments that match your unique ability to hear. Hearing Protection is no longer available in your region. Learn more…" = "You can use %@ to take a hearing test and use the results to make adjustments that match your unique ability to hear. Hearing Protection is no longer available in your region. Learn more…";
 "Learn More About Fit" = "Learn More About Fit";
 "Brighter" = "Brighter";
@@ -105,7 +100,6 @@ Learn more…";
 "%@ can help protect your hearing. You can also use them to take a hearing test and use the results to adjust %@ to match your unique ability to hear. Learn more…" = "%1$@ can help protect your hearing. You can also use them to take a hearing test and use the results to adjust %2$@ to match your unique ability to hear. Learn more…";
 "Noise Cancellation" = "Noise Cancellation";
 "Note: Properly fitting and functioning AirPods are required for PPE Mode to work as intended." = "Note: Properly fitting and functioning AirPods are required for PPE Mode to work as intended.";
-"In PPE Mode, %@ reduce loud sounds and limit media volume to %llddBA in order to meet EN standards requirements for personal hearing protection. %@" = "In PPE Mode, %1$@ reduce loud sounds and limit media volume to %2$llddBA in order to meet EN standards requirements for personal hearing protection. %3$@";
 "Adjust Calls and FaceTime" = "Adjust Calls and FaceTime";
 "Needs Adjustment" = "Needs Adjustment";
 "Hearing Test is no longer available in your region. Learn more…" = "Hearing Test is no longer available in your region. Learn more…";
@@ -195,6 +189,7 @@ Hearing Aid is only intended for people with perceived mild to moderate hearing 
 "R" = "R";
 "For the most accurate test results, clean your %@ before taking the hearing test." = "For the most accurate test results, clean your %@ before taking the hearing test.";
 "You Can Make Adjustments in Control Center" = "You Can Make Adjustments in Control Center";
+"Turn Off" = "Turn Off";
 "%@ can help protect your hearing. You can use %@ to take a hearing test. Hearing Assistance is no longer available in your region. Learn more…" = "%1$@ can help protect your hearing. You can use %2$@ to take a hearing test. Hearing Assistance is no longer available in your region. Learn more…";
 "A good seal will improve overall audio quality with deeper bass and richer low frequencies." = "A good seal will improve overall audio quality with deeper bass and richer low frequencies.";
 "Are you currently experiencing allergies, a cold, or infection in your ears or sinuses?" = "Are you currently experiencing allergies, a cold, or infection in your ears or sinuses?";
@@ -278,15 +273,15 @@ Place %3$@ in their case and nearby this %4$@.";
 "Adjust the left %@ and check again." = "Adjust the left %@ and check again.";
 "Set Up Hearing Aid" = "Set Up Hearing Aid";
 "Adaptive Mode" = "Adaptive Mode";
-"Show Cleaning Information" = "Show Cleaning Information";
-"You can speed up the adjustment by consistently wearing your %@ when you find it difficult to hear." = "You can speed up the adjustment by consistently wearing your %@ when you find it difficult to hear.";
 "You can use the results of a hearing test to adjust your %@ to match your hearing ability. Hearing Protection is no longer available in your region. Learn more…" = "You can use the results of a hearing test to adjust your %@ to match your hearing ability. Hearing Protection is no longer available in your region. Learn more…";
+"You can speed up the adjustment by consistently wearing your %@ when you find it difficult to hear." = "You can speed up the adjustment by consistently wearing your %@ when you find it difficult to hear.";
+"Show Cleaning Information" = "Show Cleaning Information";
 "Consider waiting 24 hours after exposure to loud sounds before taking the test. This will give your hearing time to recover." = "Consider waiting 24 hours after exposure to loud sounds before taking the test. This will give your hearing time to recover.";
 "Off" = "Off";
 "Select a Size" = "Select a Size";
-"How to Change Ear Tips" = "How to Change Ear Tips";
-"Place %@ In Both Ears" = "Place %@ In Both Ears";
 "Turn On Hearing Aid" = "Turn On Hearing Aid";
+"Place %@ In Both Ears" = "Place %@ In Both Ears";
+"How to Change Ear Tips" = "How to Change Ear Tips";
 "%@ can help protect your hearing. You can use %@ to take a hearing test. Learn more…" = "%1$@ can help protect your hearing. You can use %2$@ to take a hearing test. Learn more…";
 "This information is not shared with anyone, including Apple." = "This information is not shared with anyone, including Apple.";
 "%@ Cannot be Used to Test Your Hearing" = "%@ Cannot be Used to Test Your Hearing";
@@ -318,5 +313,4 @@ Place %3$@ in their case and nearby this %4$@.";
 %1$@ hours / %2$@ days";
 "Hearing Aid is On" = "Hearing Aid is On";
 "NOISE OK" = "NOISE OK";
-"PPE Mode ensures your settings meet EN regulatory requirements for personal hearing protection in the workplace." = "PPE Mode ensures your settings meet EN regulatory requirements for personal hearing protection in the workplace.";
 "Find a quiet place and check again." = "Find a quiet place and check again.";

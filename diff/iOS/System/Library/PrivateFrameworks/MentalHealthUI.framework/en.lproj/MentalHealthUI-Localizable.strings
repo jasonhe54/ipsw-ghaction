@@ -13,6 +13,7 @@ If you have any concerns about your mental health, you should bring them up with
 "TIMELINE_GET_STARTED" = "Get Started";
 "INTRO_EMOTIONS_AND_MOOD_DETAIL" = "You can choose between logging an emotion you’re feeling right now or an overall mood you’ve been feeling that day.";
 "BUTTON_TITLE_A_DAY_OVERALL" = "A Day Overall";
+"STATE_OF_MIND_NOTIFICATION_SETTINGS_REMINDERS_ROW_ADD_CUSTOM" = "Add Reminder";
 "PHQ9_QUESTION_1" = "Little interest or pleasure in doing things";
 "GAD7_RISK_MILD_TITLE" = "Mild Risk";
 "ASSESSMENTS_HEALTH_NOTIFICATIONS_DISABLED_ALERT_TITLE" = "Mental Health Questionnaire Reminders require Notifications from Health to be turned on.";
@@ -32,11 +33,10 @@ If you have any concerns about your mental health, you should bring them up with
 "MULTIPLE_LABELS_SEPARATOR" = ", ";
 "MULTIPLE_DOMAINS_SEPARATOR" = ", ";
 "REFLECTIVE_INTERVAL_MOOD_DESCRIPTION" = "How you’ve felt overall today";
-"%@ STATE_OF_MIND_NOTIFICATION_SETTINGS_REMINDERS_ROW_ADD_CUSTOM" = "%@ Add Reminder";
-"PHQ9_RISK_TITLE" = "Depression Risk";
 "CUSTOM_REMINDER_EDIT_TITLE" = "Edit Reminder";
-"PROMPTED_ASSESSMENTS_CADENCE_OFF" = "Off";
+"PHQ9_RISK_TITLE" = "Depression Risk";
 "TEXT_WITH_LEARN_MORE_URL_FORMAT" = "%1$@ %2$@";
+"PROMPTED_ASSESSMENTS_CADENCE_OFF" = "Off";
 "CUSTOM_REMINDER_REMOVE" = "Remove Reminder";
 "GAD7_ANSWER_SEVERAL_DAYS" = "Several days";
 "OPTIONAL_STEP_TITLE" = "Optional";

@@ -414,6 +414,89 @@
 		<key>Version</key>
 		<string>0</string>
 	</dict>
+	<key>837b1816713eeae2e16b2b65e8d0af7bdbeda6c0</key>
+	<dict>
+		<key>RepairConfigurationAsidMetadata</key>
+		<array>
+			<dict>
+				<key>DataInstanceIdentifierList</key>
+				<array>
+					<string>ZG:PanelSerialNumber</string>
+					<string>ZG:MogulIDSNTopModule</string>
+				</array>
+				<key>Tag</key>
+				<string>tcrt</string>
+				<key>dcls</key>
+				<array>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>ZG:PanelSerialNumber</string>
+						<key>Tag</key>
+						<string>ADCL</string>
+					</dict>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>ZG:PanelSerialNumber</string>
+						<key>Tag</key>
+						<string>dCfg</string>
+					</dict>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>ZG:AmbientLightSensorFrontLandSerialNumber</string>
+						<key>Tag</key>
+						<string>HmCA</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>DataInstanceIdentifierList</key>
+				<array>
+					<string>SavageChipID</string>
+					<string>SavageUID</string>
+				</array>
+				<key>Tag</key>
+				<string>prpc</string>
+				<key>dcls</key>
+				<array>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>SavageSerialNumber</string>
+						<key>Tag</key>
+						<string>psd3</string>
+					</dict>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>SavageSerialNumber</string>
+						<key>Tag</key>
+						<string>PlCl</string>
+					</dict>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>SavageSerialNumber</string>
+						<key>Tag</key>
+						<string>prf1</string>
+					</dict>
+					<dict>
+						<key>DataInstanceIdentifierList</key>
+						<array>
+							<string>SavageChipID</string>
+							<string>SavageUID</string>
+						</array>
+						<key>Tag</key>
+						<string>pspc</string>
+					</dict>
+					<dict>
+						<key>DataInstanceIdentifier</key>
+						<string>ZG:FrontCameraSerialNumber</string>
+						<key>Tag</key>
+						<string>FCCl</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>Version</key>
+		<string>0</string>
+	</dict>
 	<key>84a589186dff740eddcc311d61b7f555b5d8bb0a</key>
 	<dict>
 		<key>RepairConfigurationAsidExceptionList</key>
@@ -1591,6 +1674,14 @@
 	<string>84a589186dff740eddcc311d61b7f555b5d8bb0a</string>
 	<key>iPad16,6</key>
 	<string>84a589186dff740eddcc311d61b7f555b5d8bb0a</string>
+	<key>iPad17,1</key>
+	<string>837b1816713eeae2e16b2b65e8d0af7bdbeda6c0</string>
+	<key>iPad17,2</key>
+	<string>837b1816713eeae2e16b2b65e8d0af7bdbeda6c0</string>
+	<key>iPad17,3</key>
+	<string>837b1816713eeae2e16b2b65e8d0af7bdbeda6c0</string>
+	<key>iPad17,4</key>
+	<string>837b1816713eeae2e16b2b65e8d0af7bdbeda6c0</string>
 	<key>iPhone15,4</key>
 	<string>c01e7564d3d5c78aabd8d515bb66572ffc6659c4</string>
 	<key>iPhone15,5</key>

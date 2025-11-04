@@ -46,6 +46,8 @@
 			<key>overrideUserSettings</key>
 			<true/>
 		</dict>
+		<key>ratingAppsExemptedBundleIDs</key>
+		<dict/>
 		<key>webContentFilterAutoPermittedURLs</key>
 		<dict>
 			<key>overrideUserSettings</key>
@@ -69,12 +71,32 @@
 			<key>preference</key>
 			<false/>
 		</dict>
+		<key>allowAccessibilityLiveCaptions</key>
+		<dict>
+			<key>preference</key>
+			<false/>
+		</dict>
+		<key>allowAccessibilityReader</key>
+		<dict>
+			<key>preference</key>
+			<false/>
+		</dict>
+		<key>allowAccessibilityReaderSuggestions</key>
+		<dict>
+			<key>preference</key>
+			<false/>
+		</dict>
 		<key>allowAccessibilitySpeech</key>
 		<dict>
 			<key>preference</key>
 			<false/>
 		</dict>
 		<key>allowAccessibilityTypingFeedback</key>
+		<dict>
+			<key>preference</key>
+			<false/>
+		</dict>
+		<key>allowAccessibilityVoiceOver</key>
 		<dict>
 			<key>preference</key>
 			<false/>
@@ -1519,8 +1541,6 @@
 			<key>overrideUserSettings</key>
 			<true/>
 		</dict>
-		<key>appsRatingExemptedBundleIDs</key>
-		<dict/>
 		<key>audioCallDefaultHandlerAppBundleIDs</key>
 		<dict/>
 		<key>blacklistedAppBundleIDs</key>

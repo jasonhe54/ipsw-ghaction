@@ -1,11 +1,12 @@
 "STEREO_RECORDING_SUBTITLE" = "Apps → Voice Memos";
 "UPDATE_INTENT_LOCATIONBASEDNAMINGENTITY_VALUE_ENTITY_PARAMETER_TITLE" = "Location-based Naming";
-"LOCATION_BASED_NAMING_INTENT_DESCRIPTION" = "Change the “naming” value of Location-based Naming";
+"CHANGE_SETTINGS_ERROR_CANNOT_APPLY_UNSUPPORTED_SHORTCUTS_ACTION_CASE" = "This Shortcuts Action is not supported on this device.";
 "UPDATE_INTENT_STEREORECORDINGENTITY_VALUE_PROPERTY_PARAMETER_TITLE" = "Stereo Recording";
 "CLEAR_DELETED_SUBTITLE" = "Apps → Voice Memos";
 "ERASE_RECENTLY_DELETED_ONE_DAY" = "After 1 Day";
 "AUDIO_QUALITY_INTENT_DESCRIPTION" = "Change the “recording quality” value of Audio Quality";
 "SETTINGS_AUDIO_COMPRESSION_QUALITY" = "Audio Quality";
+"UPDATE_INTENT_CLEARDELETEDENTITY_VALUE_PROPERTY_PARAMETER_TITLE" = "Clear Deleted";
 "UPDATE_INTENT_STEREORECORDINGENTITY_VALUE_INTENT_TITLE" = "Edit Stereo Recording";
 "STEREO_RECORDING_TITLE" = "Stereo Recording";
 "AUDIO_QUALITY_DESCRIPTION_TEXT" = "Adjust the compression of your recording with audio quality. Choose either Compressed (for lower-quality, smaller files) or Lossless (for high-quality, larger files).";
@@ -41,6 +42,7 @@
 "SETTINGS_ON" = "On";
 "ERASE_RECENTLY_DELETED_THIRTY_DAYS" = "After 30 Days";
 "UPDATE_INTENT_CLEARDELETEDENTITY_VALUE_ENTITY_PARAMETER_TITLE" = "Clear Deleted";
+"CHANGE_AUDIO_QUALITY_SETTINGS_ERROR_CANNOT_APPLY_SPATIAL_RECORDING_MODE_CASE" = "Lossless audio quality cannot be enabled when Recording Mode is set to Spatial Audio.";
 "STEREO_RECORDING_INTENT_DESCRIPTION" = "Change the “audio channel” value of Stereo Recording";
 "ERASE_RECENTLY_DELETED_IMMEDIATELY" = "Immediately";
 "UPDATE_INTENT_CLEARDELETEDENTITY_VALUE_INTENT_TITLE" = "Edit Clear Deleted";
@@ -56,4 +58,4 @@
 "STEREO_RECORDING_DISPLAY" = "Stereo Recording";
 "AUDIO_QUALITY_DISPLAY" = "Audio Quality";
 "UPDATE_INTENT_LOCATIONBASEDNAMINGENTITY_VALUE_INTENT_TITLE" = "Edit Location-based Naming";
-"UPDATE_INTENT_CLEARDELETEDENTITY_VALUE_PROPERTY_PARAMETER_TITLE" = "Clear Deleted";
+"LOCATION_BASED_NAMING_INTENT_DESCRIPTION" = "Change the “naming” value of Location-based Naming";

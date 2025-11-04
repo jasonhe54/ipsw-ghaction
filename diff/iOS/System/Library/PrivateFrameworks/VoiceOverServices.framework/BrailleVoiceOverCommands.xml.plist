@@ -322,6 +322,8 @@
 		<dict/>
 		<key>VOTEventCommandNextCharacter</key>
 		<dict/>
+		<key>VOTEventCommandNextCheckbox</key>
+		<dict/>
 		<key>VOTEventCommandNextColorChange</key>
 		<dict/>
 		<key>VOTEventCommandNextColumn</key>
@@ -356,6 +358,8 @@
 		<dict/>
 		<key>VOTEventCommandNextPlainText</key>
 		<dict/>
+		<key>VOTEventCommandNextRadioGroup</key>
+		<dict/>
 		<key>VOTEventCommandNextRealtimeElement</key>
 		<dict>
 			<key>tvOSAvailable</key>
@@ -384,6 +388,8 @@
 		<key>VOTEventCommandPreviousBoldText</key>
 		<dict/>
 		<key>VOTEventCommandPreviousCharacter</key>
+		<dict/>
+		<key>VOTEventCommandPreviousCheckbox</key>
 		<dict/>
 		<key>VOTEventCommandPreviousColorChange</key>
 		<dict/>
@@ -418,6 +424,8 @@
 		<key>VOTEventCommandPreviousParagraph</key>
 		<dict/>
 		<key>VOTEventCommandPreviousPlainText</key>
+		<dict/>
+		<key>VOTEventCommandPreviousRadioGroup</key>
 		<dict/>
 		<key>VOTEventCommandPreviousRealtimeElement</key>
 		<dict>
@@ -472,6 +480,8 @@
 		</dict>
 		<key>VOTEventCommandMoveToLinkedUI</key>
 		<dict/>
+		<key>VOTEventCommandNextSpeechVoice</key>
+		<dict/>
 		<key>VOTEventCommandOpenVoiceOverSettings</key>
 		<dict/>
 		<key>VOTEventCommandOutputCellRowColumnInfo</key>
@@ -491,6 +501,8 @@
 		<key>VOTEventCommandOutputRowHeader</key>
 		<dict/>
 		<key>VOTEventCommandOutputTableRowColumnInfo</key>
+		<dict/>
+		<key>VOTEventCommandPreviousSpeechVoice</key>
 		<dict/>
 		<key>VOTEventCommandReadAll</key>
 		<dict/>

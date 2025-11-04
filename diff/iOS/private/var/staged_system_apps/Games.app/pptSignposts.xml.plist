@@ -113,6 +113,33 @@
 			<key>unit</key>
 			<string>ms</string>
 		</dict>
+		<dict>
+			<key>aggregateStatistics</key>
+			<array>
+				<string>Sum</string>
+				<string>Count</string>
+			</array>
+			<key>category</key>
+			<string>JSStack</string>
+			<key>customCountUnit</key>
+			<string>requests</string>
+			<key>description</key>
+			<string>jsStackDeserialization</string>
+			<key>name</key>
+			<string>jsStackDeserialization</string>
+			<key>subsystem</key>
+			<string>com.apple.JetEngine</string>
+			<key>targetTests</key>
+			<array>
+				<string>launch</string>
+				<string>PlayNowRealisticScrollPortrait</string>
+				<string>PlayNowRealisticScrollLandscape</string>
+				<string>LibraryRealisticScrollPortrait</string>
+				<string>LibraryRealisticScrollLandscape</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
 	</array>
 </dict>
 </plist>

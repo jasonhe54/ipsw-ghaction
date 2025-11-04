@@ -3,17 +3,14 @@
 "Camera" = "Camera";
 "Health" = "Health";
 "Export Activity" = "Export Activity";
-"This setting cannot be changed because of an installed profile.
-This report may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)" = "This setting cannot be changed because of an installed profile.
-This report may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)";
 "Stolen Device Protection" = "Stolen Device Protection";
+"Background Security Improvements" = "Background Security Improvements";
 "Off" = "Off";
 "Authenticate to continue" = "Authenticate to continue";
 "%lld limited, %lld add only" = "%1$lld limited, %2$lld add only";
 "Media & Apple Music" = "Media & Apple Music";
 "Motion & Fitness" = "Motion & Fitness";
 "Paired Devices" = "Paired Devices";
-"Home Accessories" = "Home Accessories";
 "Change Duration" = "Change Duration";
 "%lld full access, %lld limited, %lld add only" = "%1$lld full access, %2$lld limited, %3$lld add only";
 "%@ while using" = "%@ while using";
@@ -22,7 +19,6 @@ This report may include personal data such as messages and text you enter in int
 "Blocked Contacts" = "Blocked Contacts";
 "Nearby Interactions" = "Nearby Interactions";
 "Hand Structure & Movements" = "Hand Structure & Movements";
-"Existing Apple Intelligence activity will be immediately deleted. You can start recording activity again anytime, and information will be populated as Apple Intelligence features are used." = "Existing Apple Intelligence activity will be immediately deleted. You can start recording activity again anytime, and information will be populated as Apple Intelligence features are used.";
 "Wallet" = "Wallet";
 "This report records when apps access your location." = "This report records when apps access your location.";
 "Speech Recognition" = "Speech Recognition";
@@ -33,11 +29,14 @@ This report may include personal data such as messages and text you enter in int
 "%lld app, %lld studies" = "%1$lld app, %2$lld studies";
 "Local Network" = "Local Network";
 "Passkeys Access for Web Browsers" = "Passkeys Access for Web Browsers";
+"This setting cannot be changed because of an installed profile.
+This report is stored on-device and may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)" = "This setting cannot be changed because of an installed profile.
+This report is stored on-device and may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)";
 "Accessories" = "Accessories";
-"Ok" = "Ok";
 "%@ while using & more" = "%@ while using & more";
 "Secure Element" = "Secure Element";
 "Placard Subtitle" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Control which apps can access your data, location, camera, and microphone, and manage safety protections. [Learn\xa0more…](helpkit://open?topic=iph6e7d349d1)', 'ipad': 'Control which apps can access your data, location, camera, and microphone, and manage safety protections. [Learn\xa0more…](helpkit://open?topic=ipad9ae59af9)'}}";
+"Apple Intelligence activity will no longer be stored on this iPhone. The report from the past %@ will also be deleted from this iPhone. Usage analytics may still be collected by Apple to help improve Apple Intelligence features and models." = "{'NSStringDeviceSpecificRuleType': {'ipad': 'Apple Intelligence activity will no longer be stored on this iPad. The report from the past %@ will also be deleted from this iPad. Usage analytics may still be collected by Apple to help improve Apple Intelligence features and models.', 'applevision': 'Apple Intelligence activity will no longer be stored on this Vision Pro. The report from the past %@ will also be deleted from this iPhone. Usage analytics may still be collected by Vision Pro to help improve Apple Intelligence features and models.', 'iphone': 'Apple Intelligence activity will no longer be stored on this iPhone. The report from the past %@ will also be deleted from this iPhone. Usage analytics may still be collected by Apple to help improve Apple Intelligence features and models.', 'mac': 'Apple Intelligence activity will no longer be stored on this Mac. The report from the past %@ will also be deleted from this Mac. Usage analytics may still be collected by Apple to help improve Apple Intelligence features and models.', 'other': 'Apple Intelligence activity will no longer be stored on this device. The report from the past %@ will also be deleted from this device. Usage analytics may still be collected by Apple to help improve Apple Intelligence features and models.'}}";
 "Transparency Logs" = "Transparency Logs";
 "%lld add only" = "%lld add only";
 "On" = "On";
@@ -53,6 +52,7 @@ This report may include personal data such as messages and text you enter in int
 "App Privacy Report" = "App Privacy Report";
 "Safety Check" = "Safety Check";
 "Apple Intelligence Report" = "Apple Intelligence Report";
+"Home" = "Home";
 "Location Services" = "Location Services";
 "Report Duration" = "Report Duration";
 "Turn Off" = "Turn Off";
@@ -62,11 +62,12 @@ This report may include personal data such as messages and text you enter in int
 "%lld limited" = "%lld limited";
 "Files & Folders" = "Files & Folders";
 "Health Data" = "Health Data";
-"Spatial Accessory" = "Spatial Accessory";
+"This report is stored on-device and may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)" = "This report is stored on-device and may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)";
 "Existing location access data will be deleted immediately. You can start recording again at any time, and information will be populated as your location is accessed by apps." = "Existing location access data will be deleted immediately. You can start recording again at any time, and information will be populated as your location is accessed by apps.";
 "Focus" = "Focus";
 "Lockdown Mode" = "Lockdown Mode";
 "Photos" = "Photos";
+"Spatial Accessory" = "Spatial Accessory";
 "Contactless & NFC" = "Contactless & NFC";
 "Contacts" = "Contacts";
 "%@" = "%@";
@@ -77,7 +78,6 @@ This report may include personal data such as messages and text you enter in int
 "%@ always, %@ while using, & more" = "%1$@ always, %2$@ while using, & more";
 "%lld" = "%lld";
 "Microphone" = "Microphone";
-"Stop recording Apple Intelligence activity?" = "Stop recording Apple Intelligence activity?";
 "Research Sensor & Usage Data" = "Research Sensor & Usage Data";
 "%lld apps, %lld study" = "%1$lld apps, %2$lld study";
 "%@ always, %@ while using, & %@ more" = "%1$@ always, %2$@ while using, & more";
@@ -90,9 +90,9 @@ This report may include personal data such as messages and text you enter in int
 "Main Camera" = "Main Camera";
 "%lld app, %lld study" = "%1$lld app, %2$lld study";
 "7 Days" = "7 Days";
+"Turn off Apple Intelligence Report?" = "Turn off Apple Intelligence Report?";
 "Cancel" = "Cancel";
 "Only the location access data from the past 7 days will stay in this report. All older data will be deleted." = "Only the location access data from the past 7 days will stay in this report. All older data will be deleted.";
-"This report may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)" = "This report may include personal data such as messages and text you enter in intelligent writing tools. [About Apple Intelligence & Privacy…](appleIntelligenceSplash://)";
 "%lld apps" = "{'value': {'one': '%lld app', 'other': '%lld apps', 'zero': 'None', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "Tracking" = "Tracking";
 "%@ always, %@ while using" = "%1$@ always, %2$@ while using";

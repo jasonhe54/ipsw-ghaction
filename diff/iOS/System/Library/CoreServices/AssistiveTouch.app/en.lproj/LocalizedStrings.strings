@@ -49,8 +49,7 @@ Vertical";
 "EDIT_ENABLE_SELECT" = "Enable
 Selection";
 "ACCESSIBILITY_MENU_ZOOM" = "Zoom Controller";
-"APPLE_PAY_CONFIRM" = "Confirm with
-AssistiveTouch";
+"APPLE_PAY_CONFIRM" = "Confirm Pay";
 "TAP_AND_HOLD" = "Tap and Hold";
 "FREEHAND_AUTO_PRESS_STATE" = "Auto Press:
 %@";
@@ -129,6 +128,7 @@ Haptics";
 "TAP_AND_HOLD_DISABLED" = "Stopped Dragging";
 "FREEHAND_BEND_TWO_LINES" = "Bend
 Path";
+"WRITING_TOOLS" = "Writing Tools";
 "EXIT_GROUP" = "Exit Group";
 "FREEHAND_ROTATE_90" = "%@ Degree";
 "SOUND_ACTION_CLICK" = "Click";
@@ -142,8 +142,9 @@ Zoom";
 "doublePressCrown" = "Double Press Crown";
 "CAMERA_NONE" = "Cannot detect your face.";
 "CANCEL_DRAG" = "Cancel Drag";
-"SOUND_ACTION_CLUCK" = "Cluck";
+"AIRPODS_NONE" = "Unknown AirPods error.";
 "SPEAK_SCREEN" = "Speak Screen";
+"SOUND_ACTION_CLUCK" = "Cluck";
 "CONNECT_TO_RECEIVER" = "Use Other Device";
 "ORIENTATION_LOCKED_FULL_WIDTH" = "Lock Rotation";
 "APPLE_PAY" = "Pay";
@@ -156,6 +157,7 @@ Screen";
 Off";
 "MediaControls-PlayPause" = "Play / Pause";
 "SCREENSHOT" = "Screenshot";
+"MOUSE_KEYS_DISABLED" = "Mouse Keys Disabled";
 "CHOOSE_ACTIVE_DRAG_END_POINT" = "Select the location to stop dragging.";
 "Scroll-Auto" = "Auto";
 "REDO_LINE_GESTURE" = "Redo";
@@ -228,6 +230,7 @@ Path";
 "Scroll-Down" = "Scroll Down";
 "FREEHAND_ROTATE_TWO_LINES" = "Rotate
 Path";
+"AIRPODS_DISCONNECTED" = "AirPods not connected.";
 "TOP" = "Top";
 "EDIT-PASTE" = "Paste";
 "FREEHAND_ROTATE_CCW_ONE_LINE" = "CCW";
@@ -291,7 +294,6 @@ Dwell";
 "Device-App-Switcher" = "App Switcher";
 "PanMenu" = "Pan";
 "Remote-NavigationGroup" = "Navigation";
-"APPLE_PAY_CONFIRM_FULL_WIDTH" = "Confirm with AssistiveTouch";
 "ACCESSIBILITY_READER_FULL_WIDTH" = "Accessibility Reader";
 "LOCK_SHORT" = "Lock";
 "Scroll-Left" = "Scroll Left";
@@ -426,6 +428,7 @@ Center";
 "MENU_BAR_FULL_WIDTH" = "Menu Bar";
 "CHOOSE_SCROLL_VIEW" = "Choose where to scroll.";
 "DWELL_PAUSE_FULL_WIDTH" = "Pause Dwell";
+"EYE_TRACKING_FULL_WIDTH" = "Eye Tracking";
 "SIRI_SHORTCUTS" = "Shortcuts";
 "DIGITAL_CROWN_ROTATE_COUNTERCLOCKWISE" = "Turn Crown
 Counterclockwise";
@@ -535,6 +538,7 @@ Center";
 "INCREMENT" = "Increment";
 "DECREMENT" = "Decrement";
 "DrawingAutoLift" = "Auto Lift";
+"START" = "Start";
 "CustomGesturesMenu" = "Saved";
 "element.mixed.state" = "Mixed";
 "DWELL_CLICK_AND_HOLD" = "Click and Hold";
@@ -646,3 +650,4 @@ Lights";
 "NUMBER_OF_FINGERS" = "{'fingers': {'one': '%d Finger', 'other': '%d Fingers', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@fingers@'}";
 "SCROLL_CONTINUOUS_VERTICAL" = "Continuous
  Vertical Scroll";
+"MOUSE_KEYS_ENABLED" = "Mouse Keys Enabled";

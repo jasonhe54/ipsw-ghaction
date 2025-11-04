@@ -16,6 +16,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_de</key>
@@ -23,6 +25,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -32,6 +36,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_es</key>
@@ -39,6 +45,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -48,6 +56,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_it</key>
@@ -55,6 +65,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -64,6 +76,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_ko</key>
@@ -71,6 +85,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -80,6 +96,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_nl</key>
@@ -87,6 +105,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -96,6 +116,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_sv</key>
@@ -103,6 +125,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -112,6 +136,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_vi</key>
@@ -119,6 +145,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -128,6 +156,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_zh_HK</key>
@@ -136,6 +166,8 @@
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
+				<string>ENABLED</string>
 			</dict>
 		</dict>
 		<key>language_zh_TW</key>
@@ -143,6 +175,8 @@
 			<key>com.apple.modelcatalog</key>
 			<dict>
 				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>

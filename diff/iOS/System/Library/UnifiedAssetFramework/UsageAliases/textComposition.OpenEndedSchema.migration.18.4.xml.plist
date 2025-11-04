@@ -10,7 +10,12 @@
 	<string>textComposition.OpenEndedSchema.migration.18.4</string>
 	<key>UsageAliasValues</key>
 	<dict>
-		<key>default</key>
+		<key>language_en</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
+			<dict/>
+		</dict>
+		<key>language_zh</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict/>

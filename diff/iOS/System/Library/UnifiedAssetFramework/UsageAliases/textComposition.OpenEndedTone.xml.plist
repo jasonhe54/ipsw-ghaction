@@ -37,9 +37,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -70,9 +70,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -103,9 +103,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -136,9 +136,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -169,9 +169,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -202,9 +202,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -235,9 +235,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -268,9 +268,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -301,9 +301,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -334,9 +334,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -367,9 +367,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -400,9 +400,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -433,9 +433,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -466,9 +466,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -499,9 +499,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -532,9 +532,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -565,9 +565,9 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
+				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>

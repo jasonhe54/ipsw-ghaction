@@ -32,6 +32,14 @@
 					<array>
 						<dict>
 							<key>codecBitrate</key>
+							<integer>24000</integer>
+							<key>packetsPerBundle</key>
+							<integer>1</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
+						<dict>
+							<key>codecBitrate</key>
 							<integer>24400</integer>
 							<key>packetsPerBundle</key>
 							<integer>1</integer>
@@ -54,6 +62,14 @@
 					<array>
 						<dict>
 							<key>codecBitrate</key>
+							<integer>12000</integer>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
+						<dict>
+							<key>codecBitrate</key>
 							<integer>13200</integer>
 							<key>packetsPerBundle</key>
 							<integer>3</integer>
@@ -68,6 +84,24 @@
 					<false/>
 					<key>payloads</key>
 					<array>
+						<dict>
+							<key>codecBitrate</key>
+							<integer>8000</integer>
+							<key>featureFlag</key>
+							<string>UseShortREDWithACC24</string>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
+						<dict>
+							<key>codecBitrate</key>
+							<integer>6000</integer>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
 						<dict>
 							<key>codecBitrate</key>
 							<integer>5900</integer>
@@ -92,6 +126,14 @@
 					<array>
 						<dict>
 							<key>codecBitrate</key>
+							<integer>12000</integer>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
+						<dict>
+							<key>codecBitrate</key>
 							<integer>13200</integer>
 							<key>packetsPerBundle</key>
 							<integer>3</integer>
@@ -106,6 +148,24 @@
 					<true/>
 					<key>payloads</key>
 					<array>
+						<dict>
+							<key>codecBitrate</key>
+							<integer>8000</integer>
+							<key>featureFlag</key>
+							<string>UseShortREDWithACC24</string>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
+						<dict>
+							<key>codecBitrate</key>
+							<integer>6000</integer>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
 						<dict>
 							<key>codecBitrate</key>
 							<integer>5900</integer>
@@ -146,6 +206,14 @@
 					<array>
 						<dict>
 							<key>codecBitrate</key>
+							<integer>12000</integer>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
+						<dict>
+							<key>codecBitrate</key>
 							<integer>13200</integer>
 							<key>packetsPerBundle</key>
 							<integer>3</integer>
@@ -182,6 +250,14 @@
 					<true/>
 					<key>payloads</key>
 					<array>
+						<dict>
+							<key>codecBitrate</key>
+							<integer>12000</integer>
+							<key>packetsPerBundle</key>
+							<integer>3</integer>
+							<key>payload</key>
+							<integer>113</integer>
+						</dict>
 						<dict>
 							<key>codecBitrate</key>
 							<integer>13200</integer>

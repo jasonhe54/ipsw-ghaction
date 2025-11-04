@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>intersection</key>
-	<array/>
+	<array>
+		<string>ratingAppsExemptedBundleIDs</string>
+	</array>
 	<key>restrictedBool</key>
 	<array>
 		<string>allowAssistantWhileLocked</string>
@@ -68,5 +70,7 @@
 		<string>ratingTVShows</string>
 		<string>ratingApps</string>
 	</array>
+	<key>union</key>
+	<array/>
 </dict>
 </plist>

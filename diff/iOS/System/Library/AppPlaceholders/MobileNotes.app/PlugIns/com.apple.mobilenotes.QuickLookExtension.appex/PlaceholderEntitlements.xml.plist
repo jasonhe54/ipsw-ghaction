@@ -6,8 +6,6 @@
 	<string>com.apple.mobilenotes.QuickLookExtension</string>
 	<key>com.apple.authkit.client.internal</key>
 	<true/>
-	<key>com.apple.developer.hardened-process</key>
-	<true/>
 	<key>com.apple.mkb.usersession.info</key>
 	<true/>
 	<key>com.apple.private.MobileContainerManager.lookup</key>
@@ -62,6 +60,10 @@
 	<array>
 		<string>com.apple.mobilenotes</string>
 	</array>
+	<key>com.apple.security.hardened-process</key>
+	<true/>
+	<key>com.apple.security.hardened-process.checked-allocations.soft-mode</key>
+	<true/>
 	<key>fairplay-client</key>
 	<string>508119322</string>
 	<key>platform-application</key>

@@ -42,7 +42,7 @@
 "EXCELLENT_DURATION_V4_%lld_DAY_%@" = "Getting enough sleep earned you %1$lld. Nicely done, %2$@.";
 "OK_DURATION_V2_%lld_NIGHT" = "You got less sleep last night and that led to a score of %1$lld.";
 "VERYLOW_V4_DAY" = "Bad sleep happens every once in a while. To recover, try to get to bed on time today.";
-"VERYLOW_V4_NIGHT" = "Bad night’s of sleep happen. To recover, try to get to bed on time tonight.";
+"VERYLOW_V4_NIGHT" = "Bad nights of sleep happen. To recover, try to get to bed on time tonight.";
 "OK_DURATION_V3_%lld_NIGHT" = "You got fewer hours of sleep last night and that led to a score of %1$lld.";
 "HIGH_DURATION_EARLYBEDTIME_V2_%lld_NIGHT" = "Getting enough sleep helped you score %1$lld last night. Going to bed a little earlier did pull your score down a touch.";
 "HIGH_AWAKETIME_DURATION_V3_%lld_DAY_%@" = "Getting some sleep with very few wake-ups led to %1$lld. Well done, %2$@.";
@@ -85,7 +85,7 @@
 "HIGH_LATEBEDTIME_AWAKETIME_V3_%lld_DAY" = "Good job getting to bed on time. It helped you score %1$lld.";
 "EXCELLENT_LATEBEDTIME_V1_%lld_NIGHT" = "Getting to bed on time helped you earn %1$lld. Well done.";
 "OK_LATEBEDTIME_V2_%lld_DAY" = "Getting to bed late pulled your score down to %1$lld.";
-"OK_DURATION_V1_%lld_DAY" = "You scored %1$lld due to getting less hours of sleep.";
+"OK_DURATION_V1_%lld_DAY" = "You scored %1$lld due to getting fewer hours of sleep.";
 "HIGH_DURATION_AWAKENINGS_V1_%lld_NIGHT" = "You had a good night’s sleep with %1$lld. You got plenty of sleep but had a few wake-ups.";
 "HIGH_DURATION_LATEBEDTIME_V1_%lld_DAY" = "You got enough sleep and scored %1$lld. You did go to bed a little later than usual.";
 "OK_DURATION_V2_%lld_DAY" = "You got less sleep and that led to a score of %1$lld.";
@@ -142,7 +142,7 @@
 "HIGH_DURATION_AWAKENINGS_V2_%lld_%@" = "Getting enough sleep and only a few wake-ups led to %1$lld. Well done, %2$@.";
 "HIGH_AWAKETIME_DURATION_V2_%lld_NIGHT" = "Very little awake time helped you score %1$lld last night. Nice one.";
 "EXCELLENT_LATEBEDTIME_V5_%lld_DAY" = "You slept really well thanks to getting to bed on time. Your overall score was %1$lld.";
-"OK_DURATION_V1_%lld_NIGHT" = "You scored %1$lld last night due to getting less hours of sleep.";
+"OK_DURATION_V1_%lld_NIGHT" = "You scored %1$lld last night due to getting fewer hours of sleep.";
 "HIGH_AWAKETIME_LATEBEDTIME_V3_%lld_NIGHT" = "You had very little awake time last night. It helped you score %1$lld.";
 "HIGH_DURATION_LATEBEDTIME_V4_%lld" = "Getting enough sleep helped you earn %1$lld but missing your bedtime pulled your score down a bit.";
 "EXCELLENT_DURATION_V2_%lld_NIGHT" = "Way to get enough sleep last night. You earned %1$lld!";

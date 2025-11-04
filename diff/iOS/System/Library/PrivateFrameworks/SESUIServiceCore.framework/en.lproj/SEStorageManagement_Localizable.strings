@@ -26,7 +26,7 @@
 "SUBTITLE_WATCH" = "The Secure Element on your Apple Watch is full. Check your usage and remove enough cards to free up %@";
 "SUFFICIENT_SPACE_SUBTITLE" = "You’ve freed enough space.";
 "SE_USAGE_CATEGORY_VIENNA" = "Other Apps";
-"BAR_CHART_ITEM_ACCESSIBILITY_DESCRIPTION" = "Item %@ usage %@ percent";
+"BAR_CHART_ITEM_ACCESSIBILITY_DESCRIPTION" = "Item %@ usage %@";
 "SPACE_USED" = "Space Used";
 "SELECT_CREDENTIALS_TO_DELETE_CONFIRMATION_TITLE" = "{'value': {'one': 'Remove %d Credential', 'other': 'Remove %d Credentials', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "SELECT_PASSES_TO_DELETE_CONFIRMATION_MESSAGE_SINGULAR" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'This card will be removed from Wallet on this Apple Vision Pro.', 'mac': 'This card will be removed from Wallet on this Mac.', 'other': 'This card will be removed from Wallet on this iPhone.'}}";

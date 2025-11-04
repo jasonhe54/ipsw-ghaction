@@ -16,8 +16,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -237,6 +235,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -264,6 +264,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.magic_rewrite.draft.generic</key>
 				<string>ENABLED</string>
@@ -369,7 +371,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -392,8 +398,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -449,6 +453,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.takeaways_transform.generic</key>
@@ -472,8 +478,6 @@
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
@@ -696,6 +700,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -723,6 +729,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -832,7 +840,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -857,8 +869,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -928,6 +938,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.takeaways_transform.generic</key>
@@ -951,8 +963,6 @@
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
@@ -1383,7 +1393,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -1414,8 +1428,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -1503,6 +1515,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.takeaways_transform.generic</key>
@@ -1529,8 +1543,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -1752,6 +1764,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -1779,6 +1793,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -1888,7 +1904,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -1913,8 +1933,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -1983,6 +2001,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -2008,8 +2028,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -2231,6 +2249,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -2258,6 +2278,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -2367,7 +2389,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -2392,8 +2418,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -2462,6 +2486,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -2487,8 +2513,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -2710,6 +2734,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -2737,6 +2763,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -2846,7 +2874,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -2871,8 +2903,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -2941,6 +2971,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -2966,8 +2998,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -3189,6 +3219,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -3216,6 +3248,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -3325,7 +3359,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -3350,8 +3388,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -3420,6 +3456,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -3445,8 +3483,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -3666,6 +3702,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -3693,6 +3731,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -3802,7 +3842,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -3828,8 +3872,6 @@
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_tone.generic</key>
@@ -3883,6 +3925,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -3908,8 +3952,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -4129,6 +4171,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -4156,6 +4200,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.magic_rewrite.draft.generic</key>
 				<string>ENABLED</string>
@@ -4261,7 +4307,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -4284,8 +4334,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -4340,6 +4388,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -4365,8 +4415,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -4586,6 +4634,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -4613,6 +4663,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.magic_rewrite.draft.generic</key>
 				<string>ENABLED</string>
@@ -4718,7 +4770,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -4741,8 +4797,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -4798,6 +4852,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.takeaways_transform.generic</key>
@@ -4821,8 +4877,6 @@
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
@@ -5045,6 +5099,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -5072,6 +5128,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -5181,7 +5239,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -5206,8 +5268,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -5277,6 +5337,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.takeaways_transform.generic</key>
@@ -5300,8 +5362,6 @@
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
@@ -5522,6 +5582,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -5549,6 +5611,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.magic_rewrite.draft.generic</key>
 				<string>ENABLED</string>
@@ -5654,7 +5718,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -5677,8 +5745,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -5733,6 +5799,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -5758,8 +5826,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -5979,6 +6045,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -6006,6 +6074,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.magic_rewrite.draft.generic</key>
 				<string>ENABLED</string>
@@ -6111,7 +6181,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -6134,8 +6208,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -6190,6 +6262,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -6215,8 +6289,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -6436,6 +6508,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -6463,6 +6537,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.magic_rewrite.draft.generic</key>
 				<string>ENABLED</string>
@@ -6568,7 +6644,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -6591,8 +6671,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -6647,6 +6725,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -6672,8 +6752,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -6893,6 +6971,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -6920,6 +7000,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -7029,7 +7111,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -7054,8 +7140,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -7110,6 +7194,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -7135,8 +7221,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -7356,6 +7440,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -7383,6 +7469,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -7492,7 +7580,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -7517,8 +7609,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -7573,6 +7663,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>
@@ -7598,8 +7690,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.ask_generative_model_action.generic</key>
@@ -7819,6 +7909,8 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.vi_content_classifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.answer_synthesis.generic</key>
@@ -7846,6 +7938,8 @@
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.friendly_tone.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.image_tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.lw_planner_v1.draft.generic</key>
 				<string>ENABLED</string>
@@ -7955,7 +8049,11 @@
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.pqa_verification.base.generic</key>
 				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.accessibility_magnifier.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.answer_synthesis.multilingual</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.autograder.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
@@ -7980,8 +8078,6 @@
 				<key>com.apple.gm.server.instruct_server_v1.mm_guard.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_interaction.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.server.instruct_server_v1.open_ended_reflection.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.open_ended_schema.generic</key>
 				<string>ENABLED</string>
@@ -8036,6 +8132,8 @@
 				<key>com.apple.gm.server.instruct_server_v1.structured_extraction.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.stx_multimodal.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.super_autofill_multimodal.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.tables_transform.generic</key>
 				<string>ENABLED</string>

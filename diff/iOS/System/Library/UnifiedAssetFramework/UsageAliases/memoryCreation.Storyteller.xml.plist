@@ -16,8 +16,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -44,6 +42,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -55,8 +59,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -83,6 +85,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -94,8 +102,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -122,6 +128,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -133,8 +145,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -161,6 +171,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -172,8 +188,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -200,6 +214,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -211,8 +231,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -239,6 +257,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -250,8 +274,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -278,6 +300,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -289,8 +317,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -317,6 +343,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -328,8 +360,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -356,6 +386,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -367,8 +403,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -395,6 +429,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -406,8 +446,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -434,6 +472,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -445,8 +489,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -473,6 +515,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -484,8 +532,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -512,6 +558,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -523,8 +575,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -551,6 +601,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -562,8 +618,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -590,6 +644,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -601,8 +661,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -629,6 +687,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>
@@ -640,8 +704,6 @@
 			<dict>
 				<key>com.apple.gm.overrides.model_config.all.generic</key>
 				<string>ENABLED</string>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety.disabledusecases.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.photos_memories.base.generic</key>
@@ -668,6 +730,12 @@
 				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.gm.server.instruct_server_v1.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.server.instruct_server_v1.photos_memories_storyteller_v2.generic</key>
 				<string>ENABLED</string>

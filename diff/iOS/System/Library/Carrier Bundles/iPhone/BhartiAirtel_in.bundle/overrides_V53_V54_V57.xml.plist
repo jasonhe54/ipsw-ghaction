@@ -324,20 +324,6 @@
 			<key>username</key>
 			<string></string>
 		</dict>
-		<dict>
-			<key>AllowedProtocolMask</key>
-			<integer>3</integer>
-			<key>DefaultProtocolMask</key>
-			<integer>3</integer>
-			<key>apn</key>
-			<string>airtelmms.com</string>
-			<key>password</key>
-			<string></string>
-			<key>type-mask</key>
-			<integer>4</integer>
-			<key>username</key>
-			<string></string>
-		</dict>
 	</array>
 </dict>
 </plist>

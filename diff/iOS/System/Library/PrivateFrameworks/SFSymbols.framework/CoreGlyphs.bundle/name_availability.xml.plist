@@ -1966,10 +1966,14 @@
 		<string>2024</string>
 		<key>air.car.side.fill</key>
 		<string>2024</string>
+		<key>air.conditioner</key>
+		<string>2025.1</string>
 		<key>air.conditioner.horizontal</key>
 		<string>2022</string>
 		<key>air.conditioner.horizontal.fill</key>
 		<string>2022</string>
+		<key>air.conditioner.slash</key>
+		<string>2025.1</string>
 		<key>air.conditioner.vertical</key>
 		<string>2022</string>
 		<key>air.conditioner.vertical.fill</key>
@@ -3446,12 +3450,18 @@
 		<string>2020</string>
 		<key>arrowtriangle.backward.fill</key>
 		<string>2020</string>
+		<key>arrowtriangle.backward.inset.filled.trailingthird.rectangle</key>
+		<string>2025.1</string>
 		<key>arrowtriangle.backward.square</key>
 		<string>2020</string>
 		<key>arrowtriangle.backward.square.fill</key>
 		<string>2020</string>
 		<key>arrowtriangle.down</key>
 		<string>2019</string>
+		<key>arrowtriangle.down.2</key>
+		<string>2025.1</string>
+		<key>arrowtriangle.down.2.fill</key>
+		<string>2025.1</string>
 		<key>arrowtriangle.down.circle</key>
 		<string>2019</string>
 		<key>arrowtriangle.down.circle.fill</key>
@@ -3470,6 +3480,8 @@
 		<string>2020</string>
 		<key>arrowtriangle.forward.fill</key>
 		<string>2020</string>
+		<key>arrowtriangle.forward.inset.filled.trailingthird.rectangle</key>
+		<string>2025.1</string>
 		<key>arrowtriangle.forward.square</key>
 		<string>2020</string>
 		<key>arrowtriangle.forward.square.fill</key>
@@ -3512,6 +3524,10 @@
 		<string>2019</string>
 		<key>arrowtriangle.up</key>
 		<string>2019</string>
+		<key>arrowtriangle.up.2</key>
+		<string>2025.1</string>
+		<key>arrowtriangle.up.2.fill</key>
+		<string>2025.1</string>
 		<key>arrowtriangle.up.arrowtriangle.down.window.left</key>
 		<string>2023</string>
 		<key>arrowtriangle.up.arrowtriangle.down.window.right</key>
@@ -4454,6 +4470,10 @@
 		<string>2023</string>
 		<key>button.horizontal.fill</key>
 		<string>2023</string>
+		<key>button.horizontal.top</key>
+		<string>2025.1</string>
+		<key>button.horizontal.top.fill</key>
+		<string>2025.1</string>
 		<key>button.horizontal.top.press</key>
 		<string>2023</string>
 		<key>button.horizontal.top.press.fill</key>
@@ -4472,10 +4492,18 @@
 		<string>2023</string>
 		<key>button.roundedtop.horizontal.fill</key>
 		<string>2023</string>
+		<key>button.vertical.left</key>
+		<string>2025.1</string>
+		<key>button.vertical.left.fill</key>
+		<string>2025.1</string>
 		<key>button.vertical.left.press</key>
 		<string>2023</string>
 		<key>button.vertical.left.press.fill</key>
 		<string>2023</string>
+		<key>button.vertical.right</key>
+		<string>2025.1</string>
+		<key>button.vertical.right.fill</key>
+		<string>2025.1</string>
 		<key>button.vertical.right.press</key>
 		<string>2023</string>
 		<key>button.vertical.right.press.fill</key>
@@ -4626,6 +4654,8 @@
 		<string>2021</string>
 		<key>camera.viewfinder</key>
 		<string>2019</string>
+		<key>camera.viewfinder.badge.automatic</key>
+		<string>2025.1</string>
 		<key>candybarphone</key>
 		<string>2020</string>
 		<key>capslock</key>
@@ -7042,6 +7072,8 @@
 		<string>2020</string>
 		<key>die.face.6.fill</key>
 		<string>2020</string>
+		<key>digitalcrown</key>
+		<string>2025.1</string>
 		<key>digitalcrown.arrow.clockwise</key>
 		<string>2021</string>
 		<key>digitalcrown.arrow.clockwise.fill</key>
@@ -7050,6 +7082,10 @@
 		<string>2021</string>
 		<key>digitalcrown.arrow.counterclockwise.fill</key>
 		<string>2021</string>
+		<key>digitalcrown.fill</key>
+		<string>2025.1</string>
+		<key>digitalcrown.horizontal</key>
+		<string>2025.1</string>
 		<key>digitalcrown.horizontal.arrow.clockwise</key>
 		<string>2021</string>
 		<key>digitalcrown.horizontal.arrow.clockwise.fill</key>
@@ -7058,6 +7094,8 @@
 		<string>2021</string>
 		<key>digitalcrown.horizontal.arrow.counterclockwise.fill</key>
 		<string>2021</string>
+		<key>digitalcrown.horizontal.fill</key>
+		<string>2025.1</string>
 		<key>digitalcrown.horizontal.press</key>
 		<string>2021</string>
 		<key>digitalcrown.horizontal.press.fill</key>
@@ -9842,6 +9880,8 @@
 		<string>2024</string>
 		<key>head.profile.arrow.forward.and.visionpro</key>
 		<string>2023</string>
+		<key>head.profile.vision.pro.remove</key>
+		<string>2025.1</string>
 		<key>headlight.daytime</key>
 		<string>2022.1</string>
 		<key>headlight.daytime.fill</key>
@@ -10502,6 +10542,10 @@
 		<string>2024.2</string>
 		<key>inset.filled.rectangle.and.person.filled.circle.fill</key>
 		<string>2024.2</string>
+		<key>inset.filled.rectangle.and.person.filled.slash</key>
+		<string>2025.1</string>
+		<key>inset.filled.rectangle.and.person.filled.slash.rtl</key>
+		<string>2025.1</string>
 		<key>inset.filled.rectangle.and.pointer.arrow</key>
 		<string>2025</string>
 		<key>inset.filled.rectangle.badge.record</key>
@@ -14236,6 +14280,10 @@
 		<string>2023</string>
 		<key>r4.button.horizontal.fill</key>
 		<string>2023</string>
+		<key>radicand.squareroot</key>
+		<string>2025.1</string>
+		<key>radicand.squareroot.ar</key>
+		<string>2025.1</string>
 		<key>radio</key>
 		<string>2020</string>
 		<key>radio.fill</key>
@@ -14332,6 +14380,10 @@
 		<string>2020.1</string>
 		<key>rectangle.badge.plus</key>
 		<string>2020</string>
+		<key>rectangle.badge.sparkles</key>
+		<string>2025.1</string>
+		<key>rectangle.badge.sparkles.fill</key>
+		<string>2025.1</string>
 		<key>rectangle.badge.xmark</key>
 		<string>2019</string>
 		<key>rectangle.bottomhalf.filled</key>
@@ -15342,6 +15394,8 @@
 		<string>2021</string>
 		<key>slider.horizontal.below.sun.max</key>
 		<string>2023</string>
+		<key>slider.horizontal.below.sun.min</key>
+		<string>2025.1</string>
 		<key>slider.vertical.3</key>
 		<string>2020</string>
 		<key>slowmo</key>
@@ -15978,6 +16032,10 @@
 		<string>2021</string>
 		<key>star.lefthalf.fill</key>
 		<string>2019</string>
+		<key>star.rectangle</key>
+		<string>2025.1</string>
+		<key>star.rectangle.fill</key>
+		<string>2025.1</string>
 		<key>star.slash</key>
 		<string>2019</string>
 		<key>star.slash.fill</key>
@@ -18615,6 +18673,19 @@
 			<string>26.0</string>
 			<key>watchOS</key>
 			<string>26.0</string>
+		</dict>
+		<key>2025.1</key>
+		<dict>
+			<key>iOS</key>
+			<string>26.1</string>
+			<key>macOS</key>
+			<string>26.1</string>
+			<key>tvOS</key>
+			<string>26.1</string>
+			<key>visionOS</key>
+			<string>26.1</string>
+			<key>watchOS</key>
+			<string>26.1</string>
 		</dict>
 	</dict>
 </dict>

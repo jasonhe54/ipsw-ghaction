@@ -1,4 +1,5 @@
 "RECORDING_ERROR_NOT_AVAILABLE" = "Not available when AirPlay, Restrictions, or screen mirroring is active.";
+"HQLR_SETTINGS_SAVE_LOCATION" = "Save Location";
 "RECORDING_ERROR_MIXING_FAILURE" = "Failed during recording due to audio/video mixing failure";
 "PREFERRED_BROADCAST_ACTIVITIES_NOT_INSTALLED_ALERT_MESSAGE" = "Preferred Broadcast Service not found. Please download broadcast service from the App Store.";
 "VISION_CONTROL_CENTER_DISCLAIMER_RECORDING_PASSTHROUGH_ENABLED_SESSION_ACTIVE" = "Everything in your view, including your surroundings, app content, and notifications, is being recorded. Stop recording to change the surroundings setting.";
@@ -18,7 +19,7 @@
 "RECORDING_REALITY_HUD_SUB_TITLE" = "In Session";
 "RECORDING_ERROR_FAILED_TO_START" = "Recording failed to start";
 "CONTROL_CENTER_HQLR_READY" = "Ready";
-"HQLR_RECORDING_BULLETIN_MESSAGE" = "Local Capture video saved to Downloads";
+"HQLR_RECORDING_BULLETIN_MESSAGE" = "Local Capture video saved to";
 "RECORDING_ERROR_STARTING_IN_RECORDING_STATE" = "Failed due to attempting to start a recording while already in recording state";
 "CONTROL_CENTER_HQLR_STATUS_READY" = "Ready";
 "CONTROL_CENTER_INTENSITY_LABEL" = "Intensity";
@@ -34,9 +35,10 @@
 "ACKNOWLEDGEMENT_CLIPS_ALERT_TITLE" = "Allow rolling clips recording in “%@”?";
 "BROADCAST_STATUSBAR_TAPPED_ALERT_ACCEPT_BUTTON" = "Cancel";
 "CONTROL_CENTER_REACTIONS" = "Reactions";
+"HQLR_SETTINGS_SAVE_LOCATION_FOOTER" = "Add Local Capture to Control Center to record your own audio and video during a call to save and edit later.";
 "VISION_CONTROL_CENTER_BROADCAST_PASSTHROUGH_TITLE" = "View Sharing";
-"SCREENCAPTUREKIT_STOP_RECORDING_MENU_ITEM_WITH_APP_NAME_STREAM_NAME" = "Stop Recording with “%@” (“%@”)";
 "RECORDING_ERROR_CONTENT_RESIZE" = "Recording interrupted by multitasking and content resizing";
+"SCREENCAPTUREKIT_STOP_RECORDING_MENU_ITEM_WITH_APP_NAME_STREAM_NAME" = "Stop Recording with “%@” (“%@”)";
 "RECORDING_ERROR_ACTIVE_PHONE_CALL" = "Failed due to active phone call";
 "CONTROL_CENTER_HQLR_READY_TO_RECORD" = "Ready to Record";
 "ACKNOWLEDGEMENT_REMOTE_DESKTOP_ALERT_BODY" = "This application will be able to capture your screen and audio.";
@@ -163,7 +165,6 @@
 "ACKNOWLEDGEMENT_ALERT_ACCEPT_BUTTON_2" = "Record Screen Only";
 "VISION_CONTROL_CENTER_DISCLAIMER_RECORDING_PASSTHROUGH_DISABLED_SESSION_INACTIVE" = "Everything in your view, including app content and notifications, will be recorded. Your surroundings will not be recorded. Turn on Do Not Disturb to prevent unexpected notifications.";
 "VISION_CONTROL_CENTER_DISCLAIMER_BROADCAST_PASSTHROUGH_ENABLED_SESSION_ACTIVE" = "Everything in your view, including your surroundings, app content, and notifications, is being shared. Stop sharing to change the surroundings setting.";
-"CONTROL_CENTER_HQLR_FOOTER" = "Call audio and video will be saved to Downloads.";
 "SCSTREAM_ERROR_FAILED_TO_STOP_AUDIO" = "Stream failed to stop audio";
 "ACKNOWLEDGEMENT_PRESENTER_OVERLAY_ALERT_TITLE" = "Allow screen capture in “%@”?";
 "SCREENCAPTUREKIT_STOP_RECORDING_MENU_ITEM_WITH_APP_NAME" = "Stop Recording with “%@”";

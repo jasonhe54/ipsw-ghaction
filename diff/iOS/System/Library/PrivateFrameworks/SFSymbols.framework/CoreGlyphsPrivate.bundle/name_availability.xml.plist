@@ -10,6 +10,10 @@
 		<string>2025</string>
 		<key>10.timer.enclosure</key>
 		<string>2025</string>
+		<key>10.timer.enclosure.ar</key>
+		<string>2025.1</string>
+		<key>10.timer.enclosure.hi</key>
+		<string>2025.1</string>
 		<key>12F99E346BFA4F6492CE33CBF59CA363.chargingcase.wireless</key>
 		<string>2025</string>
 		<key>12F99E346BFA4F6492CE33CBF59CA363.chargingcase.wireless.fill</key>
@@ -20,8 +24,16 @@
 		<string>2025</string>
 		<key>3.timer.enclosure</key>
 		<string>2025</string>
+		<key>3.timer.enclosure.ar</key>
+		<string>2025.1</string>
+		<key>3.timer.enclosure.hi</key>
+		<string>2025.1</string>
 		<key>5.timer.enclosure</key>
 		<string>2025</string>
+		<key>5.timer.enclosure.ar</key>
+		<string>2025.1</string>
+		<key>5.timer.enclosure.hi</key>
+		<string>2025.1</string>
 		<key>540481B5C3AA4357B2703D54705F5909</key>
 		<string>2025</string>
 		<key>540481B5C3AA4357B2703D54705F5909.chargingcase</key>
@@ -794,6 +806,14 @@
 		<string>2025</string>
 		<key>bowers.and.wilkins.logo</key>
 		<string>2024</string>
+		<key>bubble.badge.sparkles</key>
+		<string>2025.1</string>
+		<key>bubble.badge.sparkles.fill</key>
+		<string>2025.1</string>
+		<key>bubble.badge.sparkles.fill.rtl</key>
+		<string>2025.1</string>
+		<key>bubble.badge.sparkles.rtl</key>
+		<string>2025.1</string>
 		<key>bubble.tapback</key>
 		<string>2021</string>
 		<key>bubble.tapback.2</key>
@@ -874,6 +894,10 @@
 		<string>2024.3</string>
 		<key>capsule.inset.filled.and.person.filled</key>
 		<string>2023</string>
+		<key>capsule.on.rectangle.liquid.glass</key>
+		<string>2025.1</string>
+		<key>capsule.on.rectangle.liquid.glass.fill</key>
+		<string>2025.1</string>
 		<key>capture</key>
 		<string>2023</string>
 		<key>capture.slash</key>
@@ -890,6 +914,14 @@
 		<string>2024</string>
 		<key>cart.badge.fill</key>
 		<string>2024</string>
+		<key>cart.badge.location</key>
+		<string>2025.1</string>
+		<key>cart.badge.location.fill</key>
+		<string>2025.1</string>
+		<key>cart.badge.location.fill.rtl</key>
+		<string>2025.1</string>
+		<key>cart.badge.location.rtl</key>
+		<string>2025.1</string>
 		<key>cat.circle.badge.sparkles</key>
 		<string>2023</string>
 		<key>cat.circle.badge.sparkles.fill</key>
@@ -1102,6 +1134,10 @@
 		<string>2019</string>
 		<key>digitaltouch.fill</key>
 		<string>2019</string>
+		<key>dinosaur</key>
+		<string>2025.1</string>
+		<key>dinosaur.fill</key>
+		<string>2025.1</string>
 		<key>dock.motorized.viewfinder</key>
 		<string>2023.2</string>
 		<key>dog.circle.badge.sparkles</key>
@@ -1652,6 +1688,8 @@
 		<string>2022</string>
 		<key>images.magnifyingglass</key>
 		<string>2021</string>
+		<key>info.and.sparkles</key>
+		<string>2025.1</string>
 		<key>info.circle.and.sparkles</key>
 		<string>2021</string>
 		<key>info.circle.and.sparkles.fill</key>
@@ -2324,6 +2362,8 @@
 		<string>2025</string>
 		<key>pencil.and.sparkles</key>
 		<string>2023</string>
+		<key>pencil.and.sparkles.badge.apple.journal</key>
+		<string>2025.1</string>
 		<key>pencil.arrow.trianglehead.clockwise</key>
 		<string>2024</string>
 		<key>pencil.graphite.tip</key>
@@ -2392,10 +2432,18 @@
 		<string>2023</string>
 		<key>person.crop.badge.music.fill</key>
 		<string>2023</string>
+		<key>person.crop.pip</key>
+		<string>2025.1</string>
+		<key>person.crop.pip.fill</key>
+		<string>2025.1</string>
 		<key>person.crop.rectangle.landscape.rotate</key>
 		<string>2025</string>
 		<key>person.crop.rectangle.landscape.rotate.slash</key>
 		<string>2025</string>
+		<key>person.crop.rectangle.portrait.rotate</key>
+		<string>2025.1</string>
+		<key>person.crop.rectangle.portrait.rotate.slash</key>
+		<string>2025.1</string>
 		<key>person.face.smiling</key>
 		<string>2024.2</string>
 		<key>person.face.smiling.inverse</key>
@@ -2624,10 +2672,22 @@
 		<string>2023</string>
 		<key>ratio.1.to.1.viewfinder</key>
 		<string>2025</string>
+		<key>ratio.1.to.1.viewfinder.ar</key>
+		<string>2025.1</string>
+		<key>ratio.1.to.1.viewfinder.hi</key>
+		<string>2025.1</string>
 		<key>ratio.16.to.9.viewfinder</key>
 		<string>2025</string>
+		<key>ratio.16.to.9.viewfinder.ar</key>
+		<string>2025.1</string>
+		<key>ratio.16.to.9.viewfinder.hi</key>
+		<string>2025.1</string>
 		<key>ratio.4.to.3.viewfinder</key>
 		<string>2025</string>
+		<key>ratio.4.to.3.viewfinder.ar</key>
+		<string>2025.1</string>
+		<key>ratio.4.to.3.viewfinder.hi</key>
+		<string>2025.1</string>
 		<key>rays.6</key>
 		<string>2024.3</string>
 		<key>recap</key>
@@ -2774,6 +2834,16 @@
 		<string>2023</string>
 		<key>siriusxm.logo</key>
 		<string>2024</string>
+		<key>slider.horizontal.0percent</key>
+		<string>2025.1</string>
+		<key>slider.horizontal.100percent</key>
+		<string>2025.1</string>
+		<key>slider.horizontal.25percent</key>
+		<string>2025.1</string>
+		<key>slider.horizontal.50percent</key>
+		<string>2025.1</string>
+		<key>slider.horizontal.75percent</key>
+		<string>2025.1</string>
 		<key>slider.horizontal.below.scribble</key>
 		<string>2025</string>
 		<key>slider.horizontal.below.waveform</key>
@@ -2944,6 +3014,48 @@
 		<string>2023</string>
 		<key>textformat.characters.arrow.left.and.right.wide</key>
 		<string>2025</string>
+		<key>textformat.characters.arrow.left.and.right.wide.ar</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.bn</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.el</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.gu</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.he</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.hi</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.ja</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.kn</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.ko</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.ml</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.mni</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.mr</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.or</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.pa</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.ru</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.sat</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.si</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.ta</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.te</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.th</key>
+		<string>2025.1</string>
+		<key>textformat.characters.arrow.left.and.right.wide.zh</key>
+		<string>2025.1</string>
 		<key>thunderbolt</key>
 		<string>2020</string>
 		<key>ticket.circle.badge.sparkles</key>
@@ -3014,6 +3126,8 @@
 		<string>2024</string>
 		<key>vision.pro.and.headband.arrow.trianglehead.forward.and.arrow.trianglehead.backward</key>
 		<string>2024</string>
+		<key>vision.pro.and.headband.fit.adjust</key>
+		<string>2025.1</string>
 		<key>vision.pro.badge.arrow.trianglehead.counterclockwise</key>
 		<string>2025</string>
 		<key>vision.pro.badge.arrow.trianglehead.counterclockwise.fill</key>
@@ -3034,6 +3148,10 @@
 		<string>2024</string>
 		<key>vision.pro.developer.strap</key>
 		<string>2025</string>
+		<key>vision.pro.dot.radiowaves.up.forward</key>
+		<string>2025.1</string>
+		<key>vision.pro.dot.radiowaves.up.forward.fill</key>
+		<string>2025.1</string>
 		<key>vision.pro.eyesight</key>
 		<string>2024</string>
 		<key>vision.pro.eyesight.fill</key>
@@ -3521,6 +3639,19 @@
 			<string>26.0</string>
 			<key>watchOS</key>
 			<string>26.0</string>
+		</dict>
+		<key>2025.1</key>
+		<dict>
+			<key>iOS</key>
+			<string>26.1</string>
+			<key>macOS</key>
+			<string>26.1</string>
+			<key>tvOS</key>
+			<string>26.1</string>
+			<key>visionOS</key>
+			<string>26.1</string>
+			<key>watchOS</key>
+			<string>26.1</string>
 		</dict>
 	</dict>
 </dict>

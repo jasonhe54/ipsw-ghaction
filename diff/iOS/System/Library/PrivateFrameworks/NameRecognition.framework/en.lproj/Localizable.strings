@@ -44,11 +44,14 @@
 "NAME_RECOGNITION_PLAY_BUTTON" = "Play";
 "NAME_RECOGNITION_ADD_BUTTON_TITLE" = "Add Name";
 "ISSUE_MAX_REACHED_BULLET_DESCRIPTION" = "Skip audio recording or finish enrollment later.";
+"NAME_RECOGNITION_TTR_BUTTON" = "Tap to Radar";
 "NOTIFICATION_ACTION_TAP_TO_RADAR" = "False Positive: File a Radar";
 "NAME_RECOGNITION_ADD_BUTTON_FOOTER" = "The maximum number of enrolled names has been reached. To add another name, delete an existing enrolled name.";
 "REVIEW_TTS_RECORDING_DESCRIPTION_IPAD" = "The following is a generated pronunciation of "%@" your iPad will recognize. You can also record a pronunciation to improve recognition.";
 "NAME_RECOGNITION_DONE_BUTTON" = "Done";
 "WELCOME_BULLET_THREE_IPHONE" = "When you are done, iPhone will notify you when someone says your name.";
+"NOTIFICATION_ACTION_TURN_OFF_NAME_RECOGNITION" = "Turn Off Name Recognition";
+"CLEAR_BUTTON" = "Clear";
 "WELCOME_TITLE_IPHONE" = "Teach iPhone To Recognize Your Name";
 "REGISTER_NAME_TEXT_ALREADY_EXISTS_ERROR_CAPTION" = "Name already exists.";
 "ISSUE_AUDIO_CAPTURE_BULLET_DESCRIPTION" = "Please try recording again.";

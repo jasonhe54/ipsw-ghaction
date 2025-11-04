@@ -827,6 +827,8 @@
 	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+447786205094</string>
+	<key>PreferCarrierNameFromMetadata</key>
+	<true/>
 	<key>Show3GSwitchWith4G</key>
 	<true/>
 	<key>ShowLTEWarningUnsupportedCarrier</key>

@@ -386,7 +386,7 @@
 		<key>EnableBusinessMessagingByDefault</key>
 		<true/>
 		<key>EnableRCSByDefault</key>
-		<false/>
+		<true/>
 		<key>ProvisioningData</key>
 		<dict>
 			<key>ServerURL</key>

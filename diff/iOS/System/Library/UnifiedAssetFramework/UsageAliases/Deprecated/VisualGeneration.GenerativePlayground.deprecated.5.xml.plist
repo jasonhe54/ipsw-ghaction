@@ -10,78 +10,10 @@
 	<string>VisualGeneration.GenerativePlayground</string>
 	<key>UsageAliasValues</key>
 	<dict>
-		<key>language_da_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
 		<key>language_da_useDefault_true</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -108,72 +40,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_de_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -212,8 +78,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -269,78 +133,6 @@
 				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_en_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized_embedding_preprocessor.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized_embedding_preprocessor.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized_embedding_preprocessor.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
@@ -350,8 +142,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -418,78 +208,10 @@
 				<string>ENABLED</string>
 			</dict>
 		</dict>
-		<key>language_es_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
 		<key>language_es_useDefault_true</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -516,72 +238,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_fr_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -620,8 +276,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -648,72 +302,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_it_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -752,8 +340,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -780,72 +366,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_ja_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -884,8 +404,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -912,72 +430,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_ko_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1016,8 +468,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1044,72 +494,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_nb_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1148,8 +532,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1176,72 +558,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_nl_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1280,8 +596,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1308,72 +622,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_pt_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1412,8 +660,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1440,72 +686,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_sv_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1544,8 +724,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1572,72 +750,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_tr_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1676,8 +788,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1704,72 +814,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_vi_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1808,8 +852,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1836,72 +878,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_zh_HK_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -1940,8 +916,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -1968,72 +942,6 @@
 				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.visual.understanding.conditioning.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
-		<key>language_zh_TW_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 			<key>com.apple.modelcatalog</key>
@@ -2072,8 +980,6 @@
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
@@ -2134,78 +1040,10 @@
 				<string>ENABLED</string>
 			</dict>
 		</dict>
-		<key>language_zh_useDefault_false</key>
-		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.gm.safety_deny.output.summarization.visual_prompt.generic</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
-			<dict>
-				<key>com.apple.fm.visual.image_diffusion_v1.animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_animation.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_illustration.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.personalized_sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.image_diffusion_v1.sketch.generic_alternate</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.imagescaler.upscaler.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.visual.understanding.conditioning.generic_alternate</key>
-				<string>ENABLED</string>
-			</dict>
-			<key>com.apple.modelcatalog</key>
-			<dict>
-				<key>com.apple.fm.language.instruct_300m.adm_people_grounding.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.draft.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.adm_prompt_rewriting.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.base.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.image_tokenizer.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.misc_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.mm_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.prepubescent_safety_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.safety.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.structural_integrity_customized.generic</key>
-				<string>ENABLED</string>
-				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
-				<string>ENABLED</string>
-			</dict>
-		</dict>
 		<key>language_zh_useDefault_true</key>
 		<dict>
 			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
 			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.summarization.visual_prompt.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.gm.safety_deny.input.visual_generation.base.generic</key>

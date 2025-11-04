@@ -488,6 +488,53 @@
 				</array>
 			</dict>
 			<key>category</key>
+			<string>Default</string>
+			<key>datatype</key>
+			<integer>7</integer>
+			<key>deviceCapability</key>
+			<integer>1</integer>
+			<key>directionality</key>
+			<integer>3</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>exampleValue</key>
+			<string>1</string>
+			<key>metricDescription</key>
+			<string>Client that caused exit of Regulate</string>
+			<key>mode</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>client</string>
+			<key>obfuscation</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>2</integer>
+			<key>subsystem</key>
+			<string>PowerModes</string>
+			<key>timeToLive</key>
+			<integer>1</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>cadence</key>
+			<dict>
+				<key>cadences</key>
+				<array>
+					<dict>
+						<key>type</key>
+						<integer>5</integer>
+						<key>value</key>
+						<integer>2</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>category</key>
 			<string>MobileChargingMode</string>
 			<key>datatype</key>
 			<integer>7</integer>

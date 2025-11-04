@@ -13,12 +13,14 @@
 "ERROR_ALERT_TITLE" = "Unable to Connect";
 "MEASUREMENT_TITLE" = "Audio Delay Check";
 "VERSION_MISMATCH_ERROR_MESSAGE_UPDATE_TV" = "Your Apple TV needs to be updated to use Sing Mic";
+"CONTINUITY_CAMERA_DISABLED_ALERT_CANCEL_BUTTON" = "Cancel";
 "MUSIC_ACCOUNT_ERROR_ACTION_CANCEL" = "Cancel";
 "MEASUREMENT_MEDIUM_RESULT" = "Minor delay. Try the steps below.";
 "ERROR_ALERT_CANCEL_ACTION" = "Cancel";
 "MUSIC_UPSELL_ACTION" = "Go to App Store";
 "MUSIC_ACCOUNT_ERROR_TITLE" = "Set Up Apple Music Profile";
 "AUDIO_HELP_TITLE" = "Hearing a delay?";
+"ACCOUNT_INVALID_ALERT_MESSAGE" = "There is an issue with your Apple Account.";
 "MIC_TAKE_MESSAGE" = "Only one mic can be on at a time. By turning yours on, you’ll take the mic from the current singer.";
 "VERSION_MISMATCH_ERROR_ALERT_TITLE" = "Update needed";
 "CONNECTION_LOST_ERROR_ALERT_CANCEL_ACTION" = "Exit";
@@ -35,6 +37,7 @@
 "MIC_TIP_TITLE" = "Sing Into the Top Mic";
 "ONBOARDING_TITLE" = "You’re connected and ready to sing!";
 "AUDIO_HELP_SDR_TURN_OFF" = "Turn Off SDR";
+"CONTINUITY_CAMERA_DISABLED_ALERT_TITLE" = "Turn On Continuity Camera";
 "AUDIO_HELP_SDR_TURN_ON" = "Switch to SDR";
 "MUSIC_ACCOUNT_ERROR_ACTION_LAUNCH_MUSIC" = "Open Apple Music";
 "MEASUREMENT_CONFIRMATION_CANCEL" = "Cancel";
@@ -53,6 +56,7 @@
 "MEASUREMENT_INSTRUCTIONS" = "Apple TV will play a tone through your TV speakers and use your iPhone to measure how long your TV takes to play audio.";
 "MIC_DROP_MESSAGE" = "You’ll need to reconnect your iPhone to use your iPhone mic on Apple TV.";
 "ERROR_ALERT_WLAN_MESSAGE" = "Something went wrong. Make sure your iPhone and Apple TV are on the same WLAN network.";
+"CONTINUITY_CAMERA_DISABLED_ALERT_MESSAGE" = "To use this iPhone as a camera or microphone, turn on Continuity Camera in Settings.";
 "AUDIO_HELP_SDR_DESCRIPTION_HDR" = "SDR requires less processing than HDR, which can improve audio syncing.";
 "MEASUREMENT_LOWER_BOUND" = "Good (0-70)";
 "MUSIC_ACCOUNT_ERROR_MESSAGE" = "To connect to this Sing session, you’ll need an Apple Music profile.";
@@ -61,6 +65,8 @@
 "MEASUREMENT_CANCEL" = "Cancel Test";
 "MUSIC_PRIVACY_ERROR_MESSAGE" = "To connect to this Sing session, review and accept the latest privacy agreement on your iPhone.";
 "AUDIO_HELP_SDR_APPLIED" = "SDR Mode Is On";
+"CONTINUITY_CAMERA_DISABLED_ALERT_OPEN_SETTINGS_BUTTON" = "Settings";
+"ACCOUNT_INVALID_ALERT_CANCEL_ACTION" = "OK";
 "BUTTON_LABEL_REVERB" = "Mic Reverb";
 "AUDIO_HELP_GAME_MODE_LEARN_MORE" = "Learn more";
 "MEASUREMENT_POOR_RESULT" = "Try the steps below.";

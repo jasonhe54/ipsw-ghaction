@@ -117,11 +117,15 @@
 	<true/>
 	<key>com.apple.keystore.device</key>
 	<true/>
+	<key>com.apple.keystore.device.verify</key>
+	<true/>
 	<key>com.apple.keystore.sik.access</key>
 	<true/>
 	<key>com.apple.locationd.authorizeapplications</key>
 	<true/>
 	<key>com.apple.locationd.effective_bundle</key>
+	<true/>
+	<key>com.apple.managedconfiguration.profiled-access</key>
 	<true/>
 	<key>com.apple.managedconfiguration.profiled.configurationprofiles</key>
 	<array>
@@ -162,6 +166,10 @@
 	<key>com.apple.networkrelay.devices.write</key>
 	<true/>
 	<key>com.apple.nfcd.session.reader.internal</key>
+	<true/>
+	<key>com.apple.private.CoreAuthentication.SPI</key>
+	<true/>
+	<key>com.apple.private.LocalAuthentication.PasscodeServices</key>
 	<true/>
 	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
 	<array>
@@ -310,6 +318,7 @@
 		<string>kTCCServiceAddressBook</string>
 		<string>kTCCServiceBluetoothAlways</string>
 		<string>kTCCServiceCamera</string>
+		<string>kTCCServiceEnergyKitGuidance</string>
 		<string>kTCCServiceFaceID</string>
 		<string>kTCCServiceMediaLibrary</string>
 		<string>kTCCServiceMicrophone</string>
@@ -320,6 +329,10 @@
 	<key>com.apple.private.tcc.allow-or-regional-prompt</key>
 	<array>
 		<string>kTCCServiceAddressBook</string>
+	</array>
+	<key>com.apple.private.tcc.manager.access.read</key>
+	<array>
+		<string>kTCCServiceEnergyKitGuidance</string>
 	</array>
 	<key>com.apple.private.ubiquity-additional-kvstore-identifiers</key>
 	<array>
@@ -435,6 +448,7 @@
 		<string>com.apple.private.corewifi.readonly-xpc</string>
 		<string>com.apple.proactive.ActionPrediction.predictions</string>
 		<string>com.apple.routined.registration</string>
+		<string>com.apple.security.octagon</string>
 		<string>com.apple.seeding.client</string>
 		<string>com.apple.siri.VoiceShortcuts.xpc</string>
 		<string>com.apple.siri.uaf.service</string>
@@ -580,6 +594,7 @@
 		<string>com.apple.private.corewifi.readonly-xpc</string>
 		<string>com.apple.proactive.ActionPrediction.predictions</string>
 		<string>com.apple.routined.registration</string>
+		<string>com.apple.security.octagon</string>
 		<string>com.apple.seeding.client</string>
 		<string>com.apple.siri.VoiceShortcuts.xpc</string>
 		<string>com.apple.siri.uaf.service</string>

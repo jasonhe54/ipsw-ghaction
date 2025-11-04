@@ -22,6 +22,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>11230</integer>
@@ -72,6 +84,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -134,6 +158,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>18530</integer>
@@ -194,6 +230,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>32400</integer>
@@ -212,6 +260,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -260,6 +320,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -298,6 +370,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -358,6 +456,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>8000</integer>
@@ -420,6 +544,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>38800</integer>
@@ -440,6 +576,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>54800</integer>
@@ -458,6 +606,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -486,6 +646,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>11230</integer>
@@ -506,6 +678,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -524,6 +708,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -586,6 +796,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>24230</integer>
@@ -646,6 +882,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>35330</integer>
@@ -666,6 +914,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>55730</integer>
@@ -684,6 +944,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -712,6 +984,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>11230</integer>
@@ -732,6 +1016,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>108200</integer>
@@ -750,6 +1046,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -812,6 +1134,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>24230</integer>
@@ -872,6 +1220,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only)</key>
+										<integer>39070</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only)</key>
+										<integer>39070</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>39070</integer>
@@ -892,6 +1266,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>59870</integer>
@@ -910,6 +1296,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -942,6 +1340,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -994,6 +1404,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -1056,6 +1478,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1114,6 +1548,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -1182,6 +1628,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1220,6 +1678,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -1282,6 +1766,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1342,6 +1852,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1362,6 +1884,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1380,6 +1914,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -1406,6 +1952,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -1446,6 +2004,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -1508,6 +2092,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1568,6 +2178,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1588,6 +2210,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1606,6 +2240,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -1634,6 +2280,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1654,6 +2312,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1672,6 +2342,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -1734,6 +2430,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -1800,6 +2522,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>3</integer>
@@ -1812,6 +2546,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -1832,6 +2578,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -1867,6 +2625,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -1919,6 +2689,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>8000</integer>
@@ -1981,6 +2763,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2039,6 +2833,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -2107,6 +2913,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2145,6 +2963,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -2207,6 +3051,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2267,6 +3137,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2287,6 +3169,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2305,6 +3199,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -2333,6 +3239,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2353,6 +3271,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2371,6 +3301,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -2433,6 +3389,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2493,6 +3475,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2513,6 +3507,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2531,6 +3537,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -2559,6 +3577,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2579,6 +3609,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2597,6 +3639,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -2659,6 +3727,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2719,6 +3813,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2739,6 +3859,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2757,6 +3889,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>72670</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -2789,6 +3933,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -2841,6 +3997,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>8000</integer>
@@ -2903,6 +4071,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -2961,6 +4141,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -3029,6 +4221,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3067,6 +4271,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -3129,6 +4359,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3189,6 +4445,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3209,6 +4477,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3227,6 +4507,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -3255,6 +4547,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3293,6 +4597,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -3353,6 +4683,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -3415,6 +4771,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3435,6 +4803,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3453,6 +4833,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -3481,6 +4873,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3501,6 +4905,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3519,6 +4935,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -3579,6 +5021,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -3647,6 +5115,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>3</integer>
@@ -3659,6 +5139,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -3679,6 +5171,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -3719,6 +5223,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3779,6 +5295,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3797,6 +5325,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -3839,6 +5379,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3859,6 +5411,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -3877,6 +5441,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -3945,6 +5521,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4005,6 +5593,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4023,6 +5637,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -4065,6 +5705,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4083,6 +5749,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -4105,6 +5783,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4125,6 +5815,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4143,6 +5845,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -4171,6 +5885,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4189,6 +5915,18 @@
 								<false/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -4211,6 +5949,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4231,6 +5981,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4249,6 +6025,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -4291,6 +6093,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4309,6 +6137,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>8000</integer>
@@ -4331,6 +6185,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4351,6 +6217,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4369,6 +6247,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>20000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -4397,6 +6287,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4415,6 +6317,18 @@
 								<false/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -4437,6 +6351,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4457,6 +6383,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4475,6 +6427,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -4517,6 +6495,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4535,6 +6539,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -4557,6 +6587,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4577,6 +6633,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4595,6 +6663,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -4627,6 +6707,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -4689,6 +6781,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4707,6 +6811,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -4749,6 +6865,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4769,6 +6897,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4787,6 +6927,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -4855,6 +7007,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4915,6 +7079,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4933,6 +7123,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -4975,6 +7191,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -4993,6 +7235,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -5015,6 +7269,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5035,6 +7301,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5053,6 +7331,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -5079,6 +7369,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -5141,6 +7443,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5159,6 +7487,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -5201,6 +7555,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5227,6 +7607,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>2</integer>
@@ -5239,6 +7631,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -5261,6 +7665,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5279,6 +7695,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>20000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -5307,6 +7735,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5325,6 +7765,18 @@
 								<false/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -5347,6 +7799,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5367,6 +7831,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5385,6 +7875,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -5427,6 +7943,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5445,6 +7987,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -5473,6 +8041,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>3</integer>
@@ -5485,6 +8065,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -5505,6 +8097,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -5540,6 +8144,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -5608,6 +8224,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>0</integer>
@@ -5620,6 +8248,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -5662,6 +8302,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5682,6 +8334,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5700,6 +8364,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -5768,6 +8444,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5828,6 +8516,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5846,6 +8560,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -5888,6 +8628,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5906,6 +8672,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -5928,6 +8706,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5948,6 +8738,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -5966,6 +8768,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -5994,6 +8808,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6012,6 +8838,18 @@
 								<false/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -6034,6 +8872,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6054,6 +8904,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6072,6 +8948,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -6114,6 +9016,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6132,6 +9060,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>8000</integer>
@@ -6154,6 +9108,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6174,6 +9140,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6192,6 +9170,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -6220,6 +9210,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6238,6 +9240,18 @@
 								<false/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -6260,6 +9274,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>1</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6280,6 +9306,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6298,6 +9350,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -6340,6 +9418,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6358,6 +9462,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -6380,6 +9510,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>2</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6400,6 +9556,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>9600</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6418,6 +9586,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>
@@ -6450,6 +9630,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -6518,6 +9710,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>0</integer>
@@ -6530,6 +9734,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -6572,6 +9788,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>12000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6592,6 +9820,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6610,6 +9850,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -6678,6 +9930,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6738,6 +10002,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6756,6 +10046,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -6798,6 +10114,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>8000</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6816,6 +10158,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -6838,6 +10192,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>16400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6858,6 +10224,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6876,6 +10254,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -6902,6 +10292,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -6964,6 +10366,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -6982,6 +10410,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -7024,6 +10478,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -7050,6 +10530,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>2</integer>
@@ -7062,6 +10554,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -7084,6 +10588,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>13200</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -7102,6 +10618,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>16000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>16400</integer>
@@ -7130,6 +10658,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>0</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -7148,6 +10688,18 @@
 								<false/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>24400</integer>
@@ -7170,6 +10722,18 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>24000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>24400</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -7190,6 +10754,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>1</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -7208,6 +10798,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>2</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -7250,6 +10866,32 @@
 								<array>
 									<dict>
 										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
 										<integer>5900</integer>
 										<key>networkBitrate (info only) - TBD</key>
 										<integer>0</integer>
@@ -7268,6 +10910,32 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>featureFlag</key>
+										<string>UseShortREDWithACC24</string>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>6000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>5900</integer>
@@ -7296,6 +10964,18 @@
 										<key>packetsPerBundle</key>
 										<integer>3</integer>
 										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>8000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
 										<integer>108</integer>
 										<key>redNumPayloads</key>
 										<integer>3</integer>
@@ -7308,6 +10988,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>10000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>9600</integer>
@@ -7328,6 +11020,18 @@
 								<true/>
 								<key>payloads</key>
 								<array>
+									<dict>
+										<key>codecBitrate</key>
+										<integer>14000</integer>
+										<key>networkBitrate (info only) - TBD</key>
+										<integer>0</integer>
+										<key>packetsPerBundle</key>
+										<integer>3</integer>
+										<key>payload</key>
+										<integer>113</integer>
+										<key>redNumPayloads</key>
+										<integer>3</integer>
+									</dict>
 									<dict>
 										<key>codecBitrate</key>
 										<integer>13200</integer>

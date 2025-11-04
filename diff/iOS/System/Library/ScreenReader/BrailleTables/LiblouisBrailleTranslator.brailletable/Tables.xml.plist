@@ -641,6 +641,20 @@
 		<key>table</key>
 		<string>he-IL-comp8.utb</string>
 	</dict>
+	<key>he-cantillated</key>
+	<dict>
+		<key>6Dot</key>
+		<string>hbo-cantillated.utb</string>
+		<key>table</key>
+		<string>hbo-cantillated.utb</string>
+	</dict>
+	<key>he-slim</key>
+	<dict>
+		<key>6Dot</key>
+		<string>hbo-slim.utb</string>
+		<key>table</key>
+		<string>hbo-slim.utb</string>
+	</dict>
 	<key>hi</key>
 	<dict>
 		<key>6Dot</key>
@@ -846,7 +860,7 @@
 	<key>lit-8dot</key>
 	<dict>
 		<key>table</key>
-		<string>lt.tbl</string>
+		<string>lt-8dot.utb</string>
 	</dict>
 	<key>lo</key>
 	<dict>
@@ -934,9 +948,9 @@
 	<key>nl-be</key>
 	<dict>
 		<key>6Dot</key>
-		<string>nl-BE-g0.utb</string>
+		<string>nl-chardefs.uti</string>
 		<key>table</key>
-		<string>nl-BE-g0.utb</string>
+		<string>nl-chardefs.uti</string>
 	</dict>
 	<key>nl-computer</key>
 	<dict>
@@ -1100,19 +1114,19 @@
 	<key>ru</key>
 	<dict>
 		<key>6Dot</key>
-		<string>ru-compbrl.ctb</string>
+		<string>ru-comp6.utb</string>
 		<key>8Dot</key>
-		<string>ru.ctb</string>
+		<string>ru-comp8.utb</string>
 	</dict>
 	<key>ru-6dot</key>
 	<dict>
 		<key>table</key>
-		<string>ru-compbrl.ctb</string>
+		<string>ru-comp6.utb</string>
 	</dict>
 	<key>ru-8dot</key>
 	<dict>
 		<key>table</key>
-		<string>ru.ctb</string>
+		<string>ru-comp8.utb</string>
 	</dict>
 	<key>sa</key>
 	<dict>
@@ -1237,6 +1251,11 @@
 		<key>table</key>
 		<string>th-g0.utb</string>
 	</dict>
+	<key>th-8dot</key>
+	<dict>
+		<key>table</key>
+		<string>th-g2.ctb</string>
+	</dict>
 	<key>tr</key>
 	<dict>
 		<key>6Dot</key>
@@ -1354,7 +1373,7 @@
 	<key>vi-g1</key>
 	<dict>
 		<key>table</key>
-		<string>vi.tbl</string>
+		<string>vi-charsdef.uti</string>
 	</dict>
 	<key>vi-g2</key>
 	<dict>

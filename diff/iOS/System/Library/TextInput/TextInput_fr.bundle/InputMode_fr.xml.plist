@@ -22,6 +22,18 @@
 		<array>
 			<string>fr_CH</string>
 		</array>
+		<key>fr_DJ</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_EG</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_FR</key>
 		<array>
 			<string>fr_FR</string>
@@ -31,12 +43,84 @@
 			<string>fr_FR</string>
 			<string>ht</string>
 		</array>
+		<key>fr_JO</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_KM</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_LB</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_MA</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_ML</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_MR</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_PS</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_SY</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_TD</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_TN</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 	</dict>
 	<key>UIKeyboardSuggestedDefaultLanguageInputModes</key>
 	<dict>
+		<key>fr_DJ</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_DZ</key>
 		<array>
 			<string>fr_FR</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_EG</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 		<key>fr_HT</key>
@@ -45,14 +129,34 @@
 			<string>ht</string>
 			<string>emoji</string>
 		</array>
+		<key>fr_JO</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_KM</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_LB</key>
 		<array>
 			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 		<key>fr_MA</key>
 		<array>
 			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_ML</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 		<key>fr_MR</key>
@@ -60,18 +164,51 @@
 			<string>fr_FR</string>
 			<string>emoji</string>
 		</array>
+		<key>fr_PS</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_SY</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_TD</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_TN</key>
 		<array>
 			<string>fr_FR</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 	</dict>
 	<key>UIKeyboardSuggestedLanguageInputModes</key>
 	<dict>
+		<key>fr_DJ</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_DZ</key>
 		<array>
 			<string>fr_FR</string>
 			<string>ar</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_EG</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 		<key>fr_HT</key>
@@ -80,16 +217,39 @@
 			<string>ht</string>
 			<string>emoji</string>
 		</array>
+		<key>fr_JO</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_KM</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_LB</key>
 		<array>
 			<string>fr_FR</string>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 		<key>fr_MA</key>
 		<array>
 			<string>fr_FR</string>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_ML</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 		<key>fr_MR</key>
@@ -98,10 +258,32 @@
 			<string>ar</string>
 			<string>emoji</string>
 		</array>
+		<key>fr_PS</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_SY</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
+		<key>fr_TD</key>
+		<array>
+			<string>fr_FR</string>
+			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
+			<string>emoji</string>
+		</array>
 		<key>fr_TN</key>
 		<array>
 			<string>fr_FR</string>
 			<string>ar</string>
+			<string>ar-Translit@sw=AZERTY-Arabic</string>
 			<string>emoji</string>
 		</array>
 	</dict>

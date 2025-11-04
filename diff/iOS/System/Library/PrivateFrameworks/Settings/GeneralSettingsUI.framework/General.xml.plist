@@ -9,28 +9,22 @@
 			<string>PSGroupCell</string>
 			<key>id</key>
 			<string>PLACARD_GROUP</string>
-			<key>requiredCapabilities</key>
-			<array>
-				<dict>
-					<key>retail-kiosk-mode</key>
-					<false/>
-				</dict>
-			</array>
 		</dict>
 		<dict>
 			<key>cell</key>
-			<string>PSTitleValueCell</string>
+			<string>PSDefaultCell</string>
 			<key>cellClass</key>
-			<string>GeneralSettingsUI.PSGGeneralPlacardCell</string>
+			<string>PESettingsFeatureDescriptionCell</string>
+			<key>cellSubtitleText</key>
+			<string>PLACARD_SUBTITLE</string>
+			<key>iconUTTypeIdentifier</key>
+			<string>com.apple.graphic-icon.gear</string>
 			<key>id</key>
 			<string>PLACARD</string>
-			<key>requiredCapabilities</key>
-			<array>
-				<dict>
-					<key>retail-kiosk-mode</key>
-					<false/>
-				</dict>
-			</array>
+			<key>label</key>
+			<string>General</string>
+			<key>strings</key>
+			<string>Localizable</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -385,6 +379,31 @@
 			<true/>
 			<key>label</key>
 			<string>SCREEN_CAPTURE</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>retail-kiosk-mode</key>
+					<false/>
+				</dict>
+			</array>
+			<key>useLazyIcons</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>bundle</key>
+			<string>ReplayKitLocalCaptureSettings</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>LocalCaptureSettingsController</string>
+			<key>iconUTTypeIdentifier</key>
+			<string>com.apple.graphic-icon.localcapture</string>
+			<key>id</key>
+			<string>LOCAL_CAPTURE</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>LOCAL_CAPTURE</string>
 			<key>requiredCapabilities</key>
 			<array>
 				<dict>

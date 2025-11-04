@@ -3,9 +3,11 @@
 "Notifications Are Off" = "Notifications Are Off";
 "Allow Notifications" = "Allow Notifications";
 "Customize Notifications" = "Customize Notifications";
+"journalPrivacyFooter" = "Turn on to reset the identifier used to report aggregate app usage statistics to Apple. The identifier will be reset the next time you open Journal.";
 "lockJournalEnabledFooter" = "{'NSStringDeviceSpecificRuleType': {'mac': 'Lock your journal using your login password or Touch ID.', 'other': 'Lock your journal using the device passcode, Face ID or Touch ID.'}}";
 "appName" = "Journal";
 "journalHealth" = "Health Access";
+"resetIdentifier" = "Reset Identifier";
 "Time" = "Time";
 "Schedule" = "Schedule";
 "lockJournal.DisabledHeader.AppProtection.Title" = "Journal App Locked on Home Screen";

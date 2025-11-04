@@ -55,6 +55,7 @@
 	<array>
 		<string>com.apple.insights.communication-safety-ui-interaction</string>
 		<string>com.apple.insights.communication-safety-media-analysis</string>
+		<string>com.apple.insights.communication-safety-resource-interaction</string>
 	</array>
 	<key>FED_STATS_BIOME_CORE_MOTION</key>
 	<array>
@@ -78,6 +79,10 @@
 	<key>FED_STATS_BIOME_HEALTH</key>
 	<array>
 		<string>com.apple.insights.health.medications</string>
+	</array>
+	<key>FED_STATS_BIOME_HOLD_ASSIST</key>
+	<array>
+		<string>com.apple.insights.hold-assist</string>
 	</array>
 	<key>FED_STATS_BIOME_KEYBOARD</key>
 	<array>

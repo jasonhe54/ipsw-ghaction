@@ -150,6 +150,12 @@
 			</dict>
 			<dict>
 				<key>description</key>
+				<string>BUTTON_SHAPES_CHANGE_DESCRIPTION</string>
+				<key>title</key>
+				<string>BUTTON_SHAPES_CHANGE</string>
+			</dict>
+			<dict>
+				<key>description</key>
 				<string>PulseWidthMaximizationFooter</string>
 				<key>supportedPlatforms</key>
 				<array>

@@ -1,2 +1,2 @@
 "PulseWidthMaximizationTitle" = "Display Pulse Smoothing (PWM)";
-"PulseWidthMaximizationFooter" = "Disables pulse width modulation to provide a different way to dim the OLED display, which can create a smoother display output at low brightness levels. Disabling PWM may affect low brightness display performance under certain conditions.";
+"PulseWidthMaximizationFooter" = "Provides a different way to dim the OLED display at low brightness levels, by disabling pulse width modulation which can create a smoother display output. Disabling PWM may affect low brightness display performance under certain conditions.";

@@ -222,6 +222,14 @@
 				<true/>
 			</dict>
 		</dict>
+		<key>CrashReporting</key>
+		<dict>
+			<key>Streams</key>
+			<dict>
+				<key>OSAnalytics.Stability.Crash</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
 	<key>com.apple.private.mobileinstall.upgrade-enabled</key>
 	<true/>

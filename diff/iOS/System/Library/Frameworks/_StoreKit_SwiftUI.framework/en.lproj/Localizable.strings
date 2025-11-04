@@ -2,7 +2,7 @@
 "SUBSCRIPTION_DURATION_SHORT_MONTHLY" = "Monthly";
 "SUBSCRIPTION_PRICE_%@_PER_WEEK_ALT" = "%@ weekly";
 "LEARN_MORE_LABEL" = "Learn More";
-"SUBSCRIPTION_GROUP_ENTRY_PRICE_%@_FREE_TRIAL_THEN_%@_%@_AX" = "Try it free for %@, then %@ per %@";
+"SUBSCRIPTION_GROUP_ENTRY_PRICE_%@_FREE_TRIAL_THEN_%@_%@_AX" = "Try it free for %@, then %@ %@";
 "%lld_DAYS_WITH_PREPOSITION" = "{'value': {'one': 'per day', 'other': 'every %lld days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "SUBSCRIPTION_PRICE_%@_FOR_%@_PAY_UP_FRONT_THEN_%@_%@_AX" = "%@ %@, then %@ %@";
 "SUBSCRIPTION_PRICE_%@_FREE_TRIAL_THEN_%@_%@_AX" = "%@ free, then %@ %@";

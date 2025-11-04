@@ -636,6 +636,8 @@
 	<string>shareplay</string>
 	<string>shareplay.slash</string>
 	<string>inset.filled.rectangle.and.person.filled</string>
+	<string>inset.filled.rectangle.and.person.filled.slash</string>
+	<string>inset.filled.rectangle.and.person.filled.slash.rtl</string>
 	<string>inset.filled.rectangle.and.person.filled.circle</string>
 	<string>inset.filled.rectangle.and.person.filled.circle.fill</string>
 	<string>inset.filled.rectangle.badge.record</string>
@@ -1985,6 +1987,8 @@
 	<string>app.gift.fill</string>
 	<string>rectangle</string>
 	<string>rectangle.fill</string>
+	<string>rectangle.badge.sparkles</string>
+	<string>rectangle.badge.sparkles.fill</string>
 	<string>rectangle.slash</string>
 	<string>rectangle.slash.fill</string>
 	<string>rectangle.lefthalf.filled</string>
@@ -2041,6 +2045,8 @@
 	<string>inset.filled.rightthird.rectangle</string>
 	<string>inset.filled.leadingthird.rectangle</string>
 	<string>inset.filled.trailingthird.rectangle</string>
+	<string>arrowtriangle.backward.inset.filled.trailingthird.rectangle</string>
+	<string>arrowtriangle.forward.inset.filled.trailingthird.rectangle</string>
 	<string>inset.filled.center.rectangle</string>
 	<string>inset.filled.center.rectangle.badge.plus</string>
 	<string>inset.filled.topleft.rectangle</string>
@@ -2293,6 +2299,8 @@
 	<string>star.circle.fill</string>
 	<string>star.square</string>
 	<string>star.square.fill</string>
+	<string>star.rectangle</string>
+	<string>star.rectangle.fill</string>
 	<string>line.horizontal.star.fill.line.horizontal</string>
 	<string>medal.star</string>
 	<string>medal.star.fill</string>
@@ -2450,7 +2458,8 @@
 	<string>icloud.and.arrow.up.fill</string>
 	<string>icloud.dashed</string>
 	<string>squareroot</string>
-	<string>x.squareroot</string>
+	<string>radicand.squareroot</string>
+	<string>radicand.squareroot.ar</string>
 	<string>flashlight.off.fill</string>
 	<string>flashlight.off.circle</string>
 	<string>flashlight.off.circle.fill</string>
@@ -3952,7 +3961,7 @@
 	<string>vision.pro.and.arrow.forward</string>
 	<string>vision.pro.and.arrow.forward.fill</string>
 	<string>macbook.and.vision.pro</string>
-	<string>head.profile.arrow.forward.and.vision.pro</string>
+	<string>head.profile.vision.pro.remove</string>
 	<string>opticid</string>
 	<string>opticid.fill</string>
 	<string>spatial.capture</string>
@@ -4003,22 +4012,32 @@
 	<string>platter.top.applewatch.case</string>
 	<string>platter.bottom.applewatch.case</string>
 	<string>arrow.up.and.down.and.sparkles</string>
+	<string>digitalcrown</string>
+	<string>digitalcrown.fill</string>
 	<string>digitalcrown.arrow.clockwise</string>
 	<string>digitalcrown.arrow.clockwise.fill</string>
 	<string>digitalcrown.arrow.counterclockwise</string>
 	<string>digitalcrown.arrow.counterclockwise.fill</string>
 	<string>digitalcrown.press</string>
 	<string>digitalcrown.press.fill</string>
+	<string>digitalcrown.horizontal</string>
+	<string>digitalcrown.horizontal.fill</string>
 	<string>digitalcrown.horizontal.arrow.clockwise</string>
 	<string>digitalcrown.horizontal.arrow.clockwise.fill</string>
 	<string>digitalcrown.horizontal.arrow.counterclockwise</string>
 	<string>digitalcrown.horizontal.arrow.counterclockwise.fill</string>
 	<string>digitalcrown.horizontal.press</string>
 	<string>digitalcrown.horizontal.press.fill</string>
+	<string>button.vertical.right</string>
+	<string>button.vertical.right.fill</string>
 	<string>button.vertical.right.press</string>
 	<string>button.vertical.right.press.fill</string>
+	<string>button.vertical.left</string>
+	<string>button.vertical.left.fill</string>
 	<string>button.vertical.left.press</string>
 	<string>button.vertical.left.press.fill</string>
+	<string>button.horizontal.top</string>
+	<string>button.horizontal.top.fill</string>
 	<string>button.horizontal.top.press</string>
 	<string>button.horizontal.top.press.fill</string>
 	<string>airpods.max</string>
@@ -5091,8 +5110,8 @@
 	<string>tsa.circle</string>
 	<string>tsa.circle.fill</string>
 	<string>tsa.slash</string>
-	<string>ac</string>
-	<string>ac.slash</string>
+	<string>air.conditioner</string>
+	<string>air.conditioner.slash</string>
 	<string>hydrogen</string>
 	<string>hydrogen.circle</string>
 	<string>hydrogen.circle.fill</string>
@@ -5408,6 +5427,7 @@
 	<string>qrcode.viewfinder</string>
 	<string>plus.viewfinder</string>
 	<string>camera.viewfinder</string>
+	<string>camera.viewfinder.badge.automatic</string>
 	<string>document.viewfinder</string>
 	<string>document.viewfinder.fill</string>
 	<string>location.viewfinder</string>
@@ -5600,6 +5620,7 @@
 	<string>slider.horizontal.below.rectangle</string>
 	<string>slider.horizontal.below.square.filled.and.square</string>
 	<string>slider.horizontal.below.square.and.square.filled</string>
+	<string>slider.horizontal.below.sun.min</string>
 	<string>slider.horizontal.below.sun.max</string>
 	<string>slider.vertical.3</string>
 	<string>cube</string>
@@ -7204,6 +7225,10 @@
 	<string>arrowtriangle.down.circle.fill</string>
 	<string>arrowtriangle.down.square</string>
 	<string>arrowtriangle.down.square.fill</string>
+	<string>arrowtriangle.up.2</string>
+	<string>arrowtriangle.up.2.fill</string>
+	<string>arrowtriangle.down.2</string>
+	<string>arrowtriangle.down.2.fill</string>
 	<string>slash.circle</string>
 	<string>slash.circle.fill</string>
 	<string>asterisk</string>

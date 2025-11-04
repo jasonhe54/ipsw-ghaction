@@ -2,13 +2,14 @@
 "CHALLENGE_INVITE_CARD_COMPLETED_DRAW_SUBTITLE" = "%1$@ in %2$@ has ended in a draw. Great game!";
 "CARD_HEADER_TEXT" = "Game Center";
 "LOGIN_REQUIRED_TEXT" = "Sign into Game Center to compete in challenges with friends";
-"ERROR_TITLE" = "Cannot Connect";
 "CHALLENGE_INVITE_CARD_NO_CONTEST_TITLE" = "No Contest";
+"ERROR_TITLE" = "Cannot Connect";
 "CHALLENGE_INVITE_CARD_COMPLETED_DRAW_TITLE" = "It's a Draw!";
 "CHALLENGE_INVITE_CARD_ACTION_BUTTON_TITLE" = "View";
 "CHALLENGE_INVITE_CARD_COMPLETED_SUBTITLE" = "%1$@ won %2$@ in %3$@. Great game!";
 "ERROR_RETRY_BUTTON_TITLE" = "Retry";
 "CHALLENGE_INVITE_FALLBACK_SUMMARY" = "Invitation to play %@";
+"%@ %@" = "%1$@ %2$@";
 "CHALLENGE_INVITE_CARD_ACCEPTED_TITLE" = "Challenge Accepted";
 "CHALLENGE_INVITE_CARD_ACCEPTED_SUBTITLE" = "You’re ready to take on %1$@ in %2$@";
 "CHALLENGE_INVITE_MISSED_SUBTITLE" = "%1$@’s invite for %2$@ in %3$@ has expired";

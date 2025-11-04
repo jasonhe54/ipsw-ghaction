@@ -1783,7 +1783,7 @@
 					<key>ActiveSoftMemoryLimit</key>
 					<integer>14</integer>
 					<key>InactiveHardMemoryLimit</key>
-					<integer>8</integer>
+					<integer>9</integer>
 				</dict>
 				<key>com.apple.cloudphotod</key>
 				<dict>
@@ -1795,11 +1795,11 @@
 				<key>com.apple.cmfsyncagent</key>
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
-					<integer>10</integer>
+					<integer>15</integer>
 					<key>EnablePressuredExit</key>
 					<false/>
 					<key>InactiveHardMemoryLimit</key>
-					<integer>10</integer>
+					<integer>15</integer>
 				</dict>
 				<key>com.apple.cmio.samplecaptureextension</key>
 				<dict>
@@ -2063,7 +2063,7 @@
 					<key>ActiveSoftMemoryLimit</key>
 					<integer>78</integer>
 					<key>ConclaveMemoryLimit</key>
-					<integer>20</integer>
+					<integer>30</integer>
 					<key>InactiveHardMemoryLimit</key>
 					<integer>15</integer>
 				</dict>
@@ -3590,6 +3590,8 @@
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
 					<integer>80</integer>
+					<key>ConclaveMemoryLimit</key>
+					<integer>5</integer>
 					<key>InactiveHardMemoryLimit</key>
 					<integer>30</integer>
 					<key>JetsamPriority</key>
@@ -3679,7 +3681,7 @@
 					<key>ActiveSoftMemoryLimit</key>
 					<integer>20</integer>
 					<key>InactiveHardMemoryLimit</key>
-					<integer>12</integer>
+					<integer>14</integer>
 				</dict>
 				<key>com.apple.monkeybars</key>
 				<dict>
@@ -4319,7 +4321,7 @@
 				<key>com.apple.safetycheckd</key>
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
-					<integer>8</integer>
+					<integer>12</integer>
 				</dict>
 				<key>com.apple.sandboxd</key>
 				<dict>
@@ -4552,7 +4554,7 @@
 				<key>com.apple.soundanalysisd</key>
 				<dict>
 					<key>ConclaveMemoryLimit</key>
-					<integer>15</integer>
+					<integer>30</integer>
 					<key>JetsamPriority</key>
 					<integer>90</integer>
 				</dict>
@@ -4616,6 +4618,13 @@
 					<key>InactiveHardMemoryLimit</key>
 					<integer>35</integer>
 				</dict>
+				<key>com.apple.spotlightknowledged.importer</key>
+				<dict>
+					<key>ActiveSoftMemoryLimit</key>
+					<integer>25</integer>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>25</integer>
+				</dict>
 				<key>com.apple.spotlightknowledged.updater</key>
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
@@ -4639,6 +4648,8 @@
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
 					<integer>40</integer>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>10</integer>
 				</dict>
 				<key>com.apple.storagedatad</key>
 				<dict>
@@ -5630,6 +5641,13 @@
 					<key>InactiveHardMemoryLimit</key>
 					<integer>13</integer>
 				</dict>
+				<key>com.apple.askto.responseUI</key>
+				<dict>
+					<key>ActiveHardMemoryLimit</key>
+					<integer>55</integer>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>55</integer>
+				</dict>
 				<key>com.apple.authentication-services-account-authentication-modification-ui</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
@@ -6174,9 +6192,9 @@
 				<key>com.apple.modelmanager.inferenceprovider.safety</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
-					<integer>300</integer>
+					<integer>400</integer>
 					<key>InactiveHardMemoryLimit</key>
-					<integer>300</integer>
+					<integer>400</integer>
 				</dict>
 				<key>com.apple.networkextension.app-proxy</key>
 				<dict>
@@ -6264,6 +6282,13 @@
 					<integer>860</integer>
 					<key>JetsamPriority</key>
 					<integer>90</integer>
+				</dict>
+				<key>com.apple.photos.background-upload</key>
+				<dict>
+					<key>ActiveHardMemoryLimit</key>
+					<integer>32</integer>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>32</integer>
 				</dict>
 				<key>com.apple.posterkit.provider</key>
 				<dict>
@@ -6627,9 +6652,9 @@
 				<key>com.apple.widgetkit-extension</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
-					<integer>30</integer>
+					<integer>60</integer>
 					<key>InactiveHardMemoryLimit</key>
-					<integer>30</integer>
+					<integer>60</integer>
 				</dict>
 			</dict>
 		</dict>

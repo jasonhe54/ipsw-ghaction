@@ -1,4 +1,5 @@
 "Search with %@" = "Search with %@";
+"FreeText" = "Editable Text";
 "Zoom In" = "Zoom In";
 "Actual Size" = "Actual Size";
 "Page %@" = "Page %@";
@@ -24,15 +25,17 @@
 "suffix" = "suffix";
 "Level 2" = "Level 2";
 "Page %d" = "%d";
+"Circle" = "Circle";
 "sublocal" = "sublocal";
 "Remove Underline" = "Remove Underline";
 "Level 5" = "Level 5";
 "Move Page" = "Move Page";
 "Add to Photos" = "Add to Photos";
 "Single Page" = "Single Page";
-"family" = "family";
 "StrikeOut" = "Strikethrough";
+"family" = "family";
 "Passwords do not match" = "Passwords do not match";
+"Stamp" = "Stamp";
 "Open With" = "Open With";
 "Page actions" = "Page actions";
 "Reset forms" = "Reset forms";
@@ -45,6 +48,7 @@
 "Two Pages" = "Two Pages";
 "Add Note" = "Add Note";
 "Go back" = "Go back";
+"%@ with %@ interior" = "%@ with %@ interior";
 "Go to file %@" = "Go to file %@";
 "Insert Page" = "Insert Page";
 "name" = "name";
@@ -55,6 +59,7 @@
 "Single Page Scrolling" = "Single Page Continuous";
 "postal" = "postal";
 "Go to next page" = "Go to next page";
+"Line" = "Line";
 "Go forward" = "Go forward";
 "company" = "company";
 "surname" = "surname";
@@ -94,6 +99,7 @@
 "last" = "last";
 "Insert Image" = "Insert Image";
 "Owner password" = "Owner password";
+"Popup" = "Popup";
 "Scroll to visible" = "Scroll to visible";
 "More" = "More";
 "User password" = "User password";
@@ -146,6 +152,7 @@
 "PDF thumbnail" = "PDF thumbnail";
 "FileLinkedNotAvail" = "The file for this link is not available.";
 "Invalid Password" = "Invalid Password";
+"Square" = "Square";
 "Password" = "Password";
 "Share" = "Share";
 "prefix" = "prefix";
@@ -157,6 +164,7 @@
 "The associated note will also be deleted." = "The associated note will also be deleted.";
 "Remove Note" = "Remove Note";
 "Underline" = "Underline";
+"Ink" = "Ink";
 "credit" = "credit";
 "Create Signature" = "Create Signature";
 "state" = "state";

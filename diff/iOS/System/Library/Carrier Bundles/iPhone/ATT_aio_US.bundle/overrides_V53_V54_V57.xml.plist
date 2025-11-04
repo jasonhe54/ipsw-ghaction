@@ -304,11 +304,11 @@
 			<key>SpamCallRiskLevels</key>
 			<dict>
 				<key>high</key>
-				<string>75:100</string>
+				<string>85:100</string>
 				<key>low</key>
-				<string>1:20</string>
+				<string>1:75</string>
 				<key>medium</key>
-				<string>21:74</string>
+				<string>76:84</string>
 			</dict>
 			<key>SpamHeaderFeatureCapability</key>
 			<string>Enabled</string>

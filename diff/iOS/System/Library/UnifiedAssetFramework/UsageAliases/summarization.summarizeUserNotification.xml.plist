@@ -31,7 +31,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -64,7 +68,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -97,7 +105,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -130,7 +142,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -163,7 +179,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -196,7 +216,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -229,7 +253,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -262,7 +290,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -295,7 +327,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -328,7 +364,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -361,7 +401,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -394,7 +438,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -427,7 +475,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -460,7 +512,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -493,7 +549,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -526,7 +586,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
@@ -559,7 +623,11 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.factual_consistency_classifier.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>

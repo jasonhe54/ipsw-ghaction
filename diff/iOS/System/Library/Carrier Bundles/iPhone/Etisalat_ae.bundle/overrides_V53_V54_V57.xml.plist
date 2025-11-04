@@ -39,12 +39,16 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://MTS1-SES.etisalat.ae</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
 		<key>SupportedActions</key>
 		<array>
 			<string>transferSIMService</string>
 		</array>
 		<key>SupportedEntitlements</key>
 		<integer>11265</integer>
+		<key>SupportsOnDevicePhysicalSIMConvert</key>
+		<true/>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -263,6 +267,8 @@
 	<dict>
 		<key>LocalInstallSMDPURL</key>
 		<string>rsp-0022.oberthur.net</string>
+		<key>MinCompatibleOS</key>
+		<string>26.1</string>
 		<key>TransferPageURL</key>
 		<string>https://www.etisalat.ae/b2c/esim/fallBack</string>
 	</dict>

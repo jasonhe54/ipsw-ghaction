@@ -1,33 +1,33 @@
 "ASSESSMENT_VERIFY_DEVICE_TITLE" = "Verify Device";
 "ASSESSMENT_ISSUE_DETECTED_TITLE" = "Issue Detected";
 "ASSESSMENT_UNABLE_TO_CHECK_DEVICE_ALERT_SUBTITLE" = "Please try again later.";
-"ASSESSMENT_TARGET_TERMS_AND_CONDITIONS_HEADER" = "Terms & Conditions";
 "ASSESSMENT_HELPER_TERMS_AND_CONDITIONS_HEADER" = "Terms & Conditions";
-"ASSESSMENT_WATCH_PASSCODE_ALERT_MESSAGE" = "Your Apple Watch must be unlocked before you can check it. Please unlock it and try again.";
-"ASSESSMENT_EXIT_MESSAGE" = "This will end your session.";
 "ASSESSMENT_ALERT_ENABLE_WIFI_MESSAGE" = "You must turn on Wi-Fi to continue.";
+"ASSESSMENT_TARGET_TERMS_AND_CONDITIONS_HEADER" = "Terms & Conditions";
+"ASSESSMENT_EXIT_MESSAGE" = "This will end your session.";
+"ASSESSMENT_WATCH_PASSCODE_ALERT_MESSAGE" = "Your Apple Watch must be unlocked before you can check it. Please unlock it and try again.";
 "ASSESSMENT_CHECKING_IMAGES_TITLE" = "Checking Images";
 "ASSESSMENT_TERMS_AND_CONDITIONS_DISCLAIMER_LINK_TEXT" = "See how your data is managed…";
 "ASSESSMENT_WATCH_PASSCODE_ALERT_TITLE" = "Unlock Apple Watch";
 "ASSESSMENT_TARGET_TERMS_AND_CONDITIONS_TEXT" = "By tapping “Agree,” you agree that Apple may collect and retain, for the purposes described in this consent and related consents, the following diagnostic data from this device—identifiers related to the device such as serial numbers, SEID, IMEI and MEID; identifiers related to parts and paired accessories; performance data from the device, parts, and paired accessories; daily count of call attempts; device name; connected wireless and wired networks. Apple may use the diagnostic data to assess your eligibility for AppleCare One; troubleshoot issues; prevent fraud against you or Apple; and improve Apple products and services. If a cosmetic assessment is required, Apple will collect images of the front and back of your device for this purpose. These images may be used to improve our cosmetic assessment models.
-For information on Apple's Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
+For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
 "ASSESSMENT_TERMS_AND_CONDITIONS_PRIVACY_TEXT" = "";
 "ASSESSMENT_ALERT_ENABLE_WLAN_MESSAGE" = "You must turn on WLAN to continue.";
 "ASSESSMENT_VIEW_SUPPORT_OPTIONS_BUTTON_TITLE" = "Schedule a Reservation";
 "ASSESSMENT_IN_PROGRESS_SCREEN_TITLE" = "Checking Device";
 "ASSESSMENT_ALERT_ENABLE_WIFI_ENABLE_BUTTON_TITLE" = "Turn On";
-"ASSESSMENT_WATCH_CONNECTION_ALERT_MESSAGE" = "Apple Watch must be turned on and nearby to begin the device check.";
+"ASSESSMENT_UNABLE_TO_CHECK_DEVICE_ALERT_TITLE" = "Unable to Check Device";
 "ASSESSMENT_SCAN_QR_SUBTITLE_IPHONE" = "Open Camera on the other device and scan this QR code to sync the devices.
 
 We can also check your iPhone at an Apple Store.";
-"ASSESSMENT_UNABLE_TO_CHECK_DEVICE_ALERT_TITLE" = "Unable to Check Device";
+"ASSESSMENT_WATCH_CONNECTION_ALERT_MESSAGE" = "Apple Watch must be turned on and nearby to begin the device check.";
 "ASSESSMENT_DAMAGE_CHECK_INSTRUCTION_CLEAN_YOUR_DEVICE" = "Clean your device to remove any smudges.";
-"ASSESSMENT_TERMS_AND_CONDITIONS_DISCLAIMER" = "For information on Apple's Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
 "ASSESSMENT_ALERT_ENABLE_WIFI_TITLE" = "Turn On Wi-Fi";
 "ASSESSMENT_ALERT_ENABLE_WIFI_EXIT_BUTTON_TITLE" = "Exit Session";
-"ASSESSMENT_TURN_DEVICE_OVER_TITLE_IPHONE" = "Turn iPhone Over";
-"ASSESSMENT_DAMAGE_CHECK_TITLE" = "Clean Your Device";
+"ASSESSMENT_TERMS_AND_CONDITIONS_DISCLAIMER" = "For information on Apple’s Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
 "ASSESSMENT_TURN_DEVICE_OVER_SUBTITLE_IPAD" = "You need to capture a photo of the back of this iPad.";
+"ASSESSMENT_DAMAGE_CHECK_TITLE" = "Clean Your Device";
+"ASSESSMENT_TURN_DEVICE_OVER_TITLE_IPHONE" = "Turn iPhone Over";
 "ASSESSMENT_HELPER_TERMS_AND_CONDITIONS_TEXT" = "If you are running diagnostics on your Apple Watch, by tapping “Agree,” you agree that Apple may collect and retain, for the purposes described in this consent and related consents, the following data relating to your Apple Watch—identifiers related to the device, such as serial numbers, IMEI, UDID; identifiers related to parts; performance data from the device, parts, and paired accessories; daily count of call attempts; device name; connected wireless and wired networks. If you are connecting this device for cosmetic assessment of another device, you agree that Apple may collect and retain identifiers related to this device and the device it is paired with, including serial numbers; and an identifier relating to your session. Additionally, Apple will collect images of the front and back of the device you’ve paired with for cosmetic assessment. Apple may use this diagnostic data to assess your eligibility for AppleCare One; troubleshoot issues; prevent fraud against you or Apple; and improve Apple products and services, including using these images to improve our cosmetic assessment models.
 For information on Apple's Privacy Policy, see https://www.apple.com/legal/privacy/en-ww/.";
 "ASSESSMENT_CHECKING_DEVICE" = "Checking Device";
@@ -43,14 +43,14 @@ If your device needs a repair, visit an Apple Store or Apple Authorized Service
 "ASSESSMENT_SCAN_QR_SUBTITLE_IPAD" = "Open Camera on the other device and scan this QR code to sync the devices.
 
 We can also check your iPad at an Apple Store.";
-"ASSESSMENT_TURN_DEVICE_OVER_SUBTITLE_IPHONE" = "You need to capture a photo of the back of this iPhone.";
 "ASSESSMENT_SCAN_QR_TITLE" = "Scan QR Code";
+"ASSESSMENT_TURN_DEVICE_OVER_SUBTITLE_IPHONE" = "You need to capture a photo of the back of this iPhone.";
 "ASSESSMENT_DAMAGE_CHECK_INSTRUCTION_REMOVE_PROTECTOR" = "Take off your screen protector if it’s damaged.";
-"ASSESSMENT_TURN_DEVICE_OVER_TITLE_IPAD" = "Turn iPad Over";
-"ASSESSMENT_THANK_YOU_TITLE" = "Thank You";
 "ASSESSMENT_ISSUE_DETECTED_SUBTITLE" = "See other device to continue.";
-"ASSESSMENT_COMPLETE_TITLE" = "Check Complete";
 "ASSESSMENT_RETRY_BUTTON_TITLE" = "Retry";
+"ASSESSMENT_THANK_YOU_TITLE" = "Thank You";
+"ASSESSMENT_COMPLETE_TITLE" = "Check Complete";
+"ASSESSMENT_TURN_DEVICE_OVER_TITLE_IPAD" = "Turn iPad Over";
 "ASSESSMENT_THANK_YOU_SUBTITLE" = "The assessment will complete on the other device.";
 "ASSESSMENT_TERMS_AND_CONDITIONS_PRIVACY_TITLE" = "Diagnostics & Privacy";
 "ASSESSMENT_DEVICE_CHECK_CANCELLED_SUBTITLE" = "";

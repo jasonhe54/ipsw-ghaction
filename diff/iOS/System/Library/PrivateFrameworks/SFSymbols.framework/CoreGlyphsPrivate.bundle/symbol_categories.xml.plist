@@ -18,6 +18,18 @@
 		<string>time</string>
 		<string>whatsnew</string>
 	</array>
+	<key>10.timer.enclosure.ar</key>
+	<array>
+		<string>objectsandtools</string>
+		<string>time</string>
+		<string>whatsnew</string>
+	</array>
+	<key>10.timer.enclosure.hi</key>
+	<array>
+		<string>objectsandtools</string>
+		<string>time</string>
+		<string>whatsnew</string>
+	</array>
 	<key>12F99E346BFA4F6492CE33CBF59CA363.chargingcase.wireless</key>
 	<array>
 		<string>devices</string>
@@ -46,7 +58,31 @@
 		<string>time</string>
 		<string>whatsnew</string>
 	</array>
+	<key>3.timer.enclosure.ar</key>
+	<array>
+		<string>objectsandtools</string>
+		<string>time</string>
+		<string>whatsnew</string>
+	</array>
+	<key>3.timer.enclosure.hi</key>
+	<array>
+		<string>objectsandtools</string>
+		<string>time</string>
+		<string>whatsnew</string>
+	</array>
 	<key>5.timer.enclosure</key>
+	<array>
+		<string>objectsandtools</string>
+		<string>time</string>
+		<string>whatsnew</string>
+	</array>
+	<key>5.timer.enclosure.ar</key>
+	<array>
+		<string>objectsandtools</string>
+		<string>time</string>
+		<string>whatsnew</string>
+	</array>
+	<key>5.timer.enclosure.hi</key>
 	<array>
 		<string>objectsandtools</string>
 		<string>time</string>
@@ -114,6 +150,7 @@
 	</array>
 	<key>accessibility.page.fill</key>
 	<array>
+		<string>multicolor</string>
 		<string>whatsnew</string>
 	</array>
 	<key>activity.award</key>
@@ -1425,6 +1462,26 @@
 	<array>
 		<string>automotive</string>
 	</array>
+	<key>bubble.badge.sparkles</key>
+	<array>
+		<string>communication</string>
+		<string>whatsnew</string>
+	</array>
+	<key>bubble.badge.sparkles.fill</key>
+	<array>
+		<string>communication</string>
+		<string>whatsnew</string>
+	</array>
+	<key>bubble.badge.sparkles.fill.rtl</key>
+	<array>
+		<string>communication</string>
+		<string>whatsnew</string>
+	</array>
+	<key>bubble.badge.sparkles.rtl</key>
+	<array>
+		<string>communication</string>
+		<string>whatsnew</string>
+	</array>
 	<key>bubble.tapback</key>
 	<array>
 		<string>communication</string>
@@ -1585,6 +1642,14 @@
 	<array>
 		<string>devices</string>
 	</array>
+	<key>capsule.on.rectangle.liquid.glass</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>capsule.on.rectangle.liquid.glass.fill</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
 	<key>carplay.app.fill</key>
 	<array>
 		<string>multicolor</string>
@@ -1604,6 +1669,32 @@
 		<string>commerce</string>
 		<string>multicolor</string>
 		<string>objectsandtools</string>
+	</array>
+	<key>cart.badge.location</key>
+	<array>
+		<string>commerce</string>
+		<string>multicolor</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
+	</array>
+	<key>cart.badge.location.fill</key>
+	<array>
+		<string>commerce</string>
+		<string>multicolor</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
+	</array>
+	<key>cart.badge.location.fill.rtl</key>
+	<array>
+		<string>commerce</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
+	</array>
+	<key>cart.badge.location.rtl</key>
+	<array>
+		<string>commerce</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
 	</array>
 	<key>cat.circle.badge.sparkles</key>
 	<array>
@@ -2027,6 +2118,16 @@
 	<array>
 		<string>automotive</string>
 	</array>
+	<key>dinosaur</key>
+	<array>
+		<string>nature</string>
+		<string>whatsnew</string>
+	</array>
+	<key>dinosaur.fill</key>
+	<array>
+		<string>nature</string>
+		<string>whatsnew</string>
+	</array>
 	<key>dock.motorized.viewfinder</key>
 	<array>
 		<string>devices</string>
@@ -2273,6 +2374,10 @@
 	<key>eye.on.dotted.eye.fill</key>
 	<array>
 		<string>accessibility</string>
+		<string>human</string>
+	</array>
+	<key>eye.tracking</key>
+	<array>
 		<string>human</string>
 	</array>
 	<key>eyeglasses.and.lines.measurement.horizontal</key>
@@ -2745,6 +2850,10 @@
 	<key>images.magnifyingglass</key>
 	<array>
 		<string>objectsandtools</string>
+	</array>
+	<key>info.and.sparkles</key>
+	<array>
+		<string>whatsnew</string>
 	</array>
 	<key>info.circle.badge.sparkles.fill</key>
 	<array>
@@ -3568,11 +3677,20 @@
 	</array>
 	<key>macwindow.and.square.filled</key>
 	<array>
+		<string>multicolor</string>
 		<string>whatsnew</string>
 	</array>
 	<key>macwindow.badge.record</key>
 	<array>
 		<string>whatsnew</string>
+	</array>
+	<key>macwindow.resize</key>
+	<array>
+		<string>multicolor</string>
+	</array>
+	<key>macwindow.resize.lock</key>
+	<array>
+		<string>multicolor</string>
 	</array>
 	<key>magnifyingglass.and.chevron.down</key>
 	<array>
@@ -3934,6 +4052,12 @@
 		<string>editing</string>
 		<string>objectsandtools</string>
 	</array>
+	<key>pencil.and.sparkles.badge.apple.journal</key>
+	<array>
+		<string>editing</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
+	</array>
 	<key>pencil.arrow.trianglehead.clockwise</key>
 	<array>
 		<string>arrows</string>
@@ -4099,6 +4223,14 @@
 	<array>
 		<string>human</string>
 	</array>
+	<key>person.crop.pip</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>person.crop.pip.fill</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
 	<key>person.crop.rectangle.landscape.rotate</key>
 	<array>
 		<string>devices</string>
@@ -4107,6 +4239,20 @@
 		<string>whatsnew</string>
 	</array>
 	<key>person.crop.rectangle.landscape.rotate.slash</key>
+	<array>
+		<string>devices</string>
+		<string>editing</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
+	</array>
+	<key>person.crop.rectangle.portrait.rotate</key>
+	<array>
+		<string>devices</string>
+		<string>editing</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
+	</array>
+	<key>person.crop.rectangle.portrait.rotate.slash</key>
 	<array>
 		<string>devices</string>
 		<string>editing</string>
@@ -4542,11 +4688,35 @@
 	<array>
 		<string>whatsnew</string>
 	</array>
+	<key>ratio.1.to.1.viewfinder.ar</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>ratio.1.to.1.viewfinder.hi</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
 	<key>ratio.16.to.9.viewfinder</key>
 	<array>
 		<string>whatsnew</string>
 	</array>
+	<key>ratio.16.to.9.viewfinder.ar</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>ratio.16.to.9.viewfinder.hi</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
 	<key>ratio.4.to.3.viewfinder</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>ratio.4.to.3.viewfinder.ar</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>ratio.4.to.3.viewfinder.hi</key>
 	<array>
 		<string>whatsnew</string>
 	</array>
@@ -4865,10 +5035,29 @@
 	<array>
 		<string>automotive</string>
 	</array>
+	<key>slider.horizontal.0percent</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>slider.horizontal.100percent</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>slider.horizontal.25percent</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>slider.horizontal.50percent</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>slider.horizontal.75percent</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
 	<key>slider.horizontal.below.scribble</key>
 	<array>
 		<string>editing</string>
-		<string>variable</string>
 		<string>whatsnew</string>
 	</array>
 	<key>slider.horizontal.below.waveform</key>
@@ -5208,6 +5397,111 @@
 		<string>textformatting</string>
 		<string>whatsnew</string>
 	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.ar</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.bn</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.el</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.gu</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.he</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.hi</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.ja</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.kn</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.ko</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.ml</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.mni</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.mr</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.or</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.pa</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.ru</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.sat</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.si</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.ta</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.te</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.th</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
+	<key>textformat.characters.arrow.left.and.right.wide.zh</key>
+	<array>
+		<string>textformatting</string>
+		<string>whatsnew</string>
+	</array>
 	<key>thunderbolt</key>
 	<array>
 		<string>connectivity</string>
@@ -5360,7 +5654,7 @@
 	<array>
 		<string>devices</string>
 	</array>
-	<key>vision.pro.and.headband.arrow.trianglehead.forward.and.arrow.trianglehead.backward</key>
+	<key>vision.pro.and.headband.fit.adjust</key>
 	<array>
 		<string>devices</string>
 	</array>
@@ -5409,6 +5703,18 @@
 	<key>vision.pro.developer.strap</key>
 	<array>
 		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
+	<key>vision.pro.dot.radiowaves.up.forward</key>
+	<array>
+		<string>devices</string>
+		<string>variable</string>
+		<string>whatsnew</string>
+	</array>
+	<key>vision.pro.dot.radiowaves.up.forward.fill</key>
+	<array>
+		<string>devices</string>
+		<string>variable</string>
 		<string>whatsnew</string>
 	</array>
 	<key>vision.pro.eyesight</key>

@@ -1,7 +1,8 @@
 "HFSymptomLongDescriptionWiFiDisassociation" = "As a first step, you can try restarting your HomePod. If the issue continues, you may need to connect to a preferred network.";
-"HFTitleLastSeenDetailsHeaderJustNow" = "Last seen just now.";
+"HFTitleLastSeenDetailsHeaderJustNow" = "Last seen just now";
 "HFServiceLongFormErrorLastSeenCurrent" = "This device was last seen at %@.";
 "HFServiceLongFormErrorLastSeenYesterday" = "This device was last seen yesterday at %@.";
+"HFServiceLongFormErrorLastSeenLowBatteryPastYear" = "This device was last seen %@ with low battery.";
 "HFSymptomLongDescriptionNetworkMisconfiguredUnknown" = "As a first step, you can try restarting your HomePod. If the issue continues, you may need to restart your router or reconfigure your network settings.";
 "HFTitleLastSeenTile" = "No Response %@";
 "HFServiceLongFormErrorLastSeenLowBatteryYesterday" = "This device was last seen yesterday at %@ with low battery.";
@@ -9,6 +10,7 @@
 "HFSymptomLongDescriptionDoubleNAT" = "As a first step, make sure your HomePod and Home Hub are on the same network and router. If the issue continues, you may need to configure your network settings to extend the network you're using to another router.";
 "HFTitleLastSeenJustNowTile" = "No Response just now";
 "HFSymptomTitleNoNetworkCommunication" = "Unable to Communicate with Network";
+"HFServiceLongFormErrorLastSeenPastYear" = "This device was last seen %@.";
 "HFTitleLastSeenDetailsHeaderPast" = "Last seen %@";
 "HFServiceLongFormErrorLastSeenLowBatteryCurrent" = "This device was last seen at %@ with low battery.";
 "HFSymptomLongDescriptionDHCPAcquisitionFailure" = "As a first step, you can try restarting your router and making sure you're connected to a preferred network. If the issue continues, you may need to reconfigure your network DHCP settings.";

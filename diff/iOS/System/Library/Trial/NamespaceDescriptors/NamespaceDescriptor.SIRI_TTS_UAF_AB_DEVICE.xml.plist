@@ -8,5 +8,7 @@
 	<integer>1</integer>
 	<key>Namespace Name</key>
 	<string>SIRI_TTS_UAF_AB_DEVICE</string>
+	<key>Purgeability Level</key>
+	<integer>1</integer>
 </dict>
 </plist>

@@ -40,6 +40,8 @@
 	<true/>
 	<key>com.apple.QuartzCore.global-capture</key>
 	<true/>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
 	<key>com.apple.QuickboardViewService.textFieldDidInputText</key>
 	<true/>
 	<key>com.apple.StatusKit.publish.types</key>
@@ -73,6 +75,8 @@
 	<key>com.apple.appstored.xpc.updates</key>
 	<true/>
 	<key>com.apple.argos.availibility-bypass</key>
+	<true/>
+	<key>com.apple.askto.responseui.host</key>
 	<true/>
 	<key>com.apple.asktod</key>
 	<true/>
@@ -314,6 +318,8 @@
 	<array>
 		<string>SensitiveContentAnalysis.UIInteraction</string>
 		<string>SensitiveContentAnalysis.MediaAnalysis</string>
+		<string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+		<string>SensitiveContentAnalysis.ResourcesInteraction</string>
 		<string>MLSE.ShareSheet.ConversationUserInteraction</string>
 	</array>
 	<key>com.apple.private.canGetAppLinkInfo</key>
@@ -510,6 +516,7 @@
 		<string>kTCCServiceAddressBook</string>
 		<string>kTCCServicePhotosAdd</string>
 		<string>kTCCServiceMediaLibrary</string>
+		<string>kTCCServiceFaceID</string>
 	</array>
 	<key>com.apple.private.tcc.allow.overridable</key>
 	<array>
@@ -750,6 +757,7 @@
 		<string>com.apple.asktod</string>
 		<string>com.apple.communicationtrustd.service</string>
 		<string>com.apple.jetpackassetd.xpc</string>
+		<string>com.apple.ScreenTimeAgent.exception</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-only</key>
 	<array>

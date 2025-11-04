@@ -7,6 +7,11 @@
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>
 	</dict>
+	<key>AssetResourceBackgroundUpload</key>
+	<dict>
+		<key>DevelopmentPhase</key>
+		<string>FeatureComplete</string>
+	</dict>
 	<key>CleanupPlusRetouch</key>
 	<dict>
 		<key>DevelopmentPhase</key>
@@ -165,11 +170,6 @@
 		<string>FeatureComplete</string>
 	</dict>
 	<key>SharedAlbumsDBR</key>
-	<dict>
-		<key>DevelopmentPhase</key>
-		<string>FeatureComplete</string>
-	</dict>
-	<key>SharedStreamCollectionShareSupport</key>
 	<dict>
 		<key>DevelopmentPhase</key>
 		<string>FeatureComplete</string>

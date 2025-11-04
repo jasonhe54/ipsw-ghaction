@@ -1,10 +1,11 @@
 "app.resize.grabber.window.label" = "Window";
-"window.position.right.up" = "%@ points right, %@ points up from top left corner of screen.";
+"window.position.right.up" = "{'xpoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'ypoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@xpoints@ right, %#@ypoints@ up from top left corner of screen.'}";
 "fast.forward.button" = "Fast forward %@ seconds";
 "pip.window.size.min" = "Minimum size";
 "will.hide.today.view.hint" = "Adjust value up or scroll right to hide Today view";
 "charging.two.batteries" = "Charging batteries, %@ %@ charged, %@ %@ charged";
 "album.art.no.artist" = "Album artwork";
+"home.peek.mode.announce" = "Windows stashed";
 "album.art.for.artist" = "Album artwork for %1$@, %2$@";
 "drag.add" = "Add %@ to Drag";
 "dragged.off.app" = "Off %@";
@@ -50,7 +51,7 @@
 "large.widget.size" = "Large widget";
 "side.app.divider" = "Split View Divider";
 "add.to.stack.short" = "Add to stack";
-"window.size.width" = "%@ points wide";
+"window.size.width" = "{'points': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@points@ wide'}";
 "home.search.pill.view.label" = "Search";
 "hours.ahead" = "{'hoursahead': {'one': 'in %d hour', 'other': 'in %d hours', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@hoursahead@'}";
 "call.service.telephony" = "Phone call";
@@ -69,7 +70,7 @@
 "appClip.poweredBy.banner.label" = "Powered by %@";
 "place.before.app" = "Drop %@ Before %@";
 "started.moving.app" = "Moving %@";
-"window.size.height" = "%@ points tall";
+"window.size.height" = "{'points': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@points@ tall'}";
 "widget.icon.stack" = "Stack";
 "app.switcher.location" = "App %@ of %@";
 "mute.button" = "Mute";
@@ -109,7 +110,6 @@
 "side.app.slideover.right" = "Create slide over with right app";
 "continuity.device.ipod" = "iPod";
 "unread" = "Unread";
-"window.control.view.label" = "Multitasking Menu";
 "dismiss.app.switcher.hint" = "Double tap to dismiss the app switcher";
 "window.area.covered.sections" = "From %@ to %@ of screen";
 "favorites" = "Favorites";
@@ -176,7 +176,7 @@
 "facetime.badge.format" = "{'facetimebadges': {'one': '%d missed FaceTime call', 'other': '%d missed FaceTime calls', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@facetimebadges@'}";
 "widget.icon.action.previous" = "Previous Widget";
 "app.pip.nib.action.move.app.right" = "Move %@ to the right";
-"window.position.left.down" = "%@ points left, %@ points down from top left corner of screen.";
+"window.position.left.down" = "{'xpoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'ypoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@xpoints@ left, %#@ypoints@ down from top left corner of screen.'}";
 "dismiss.app.switcher.label" = "Dismiss app switcher";
 "app.icon.beta" = "Beta";
 "passcode.values.entered" = "{'valuesentered': {'one': '%1$d of %2$d values entered', 'other': '%1$d of %2$d values entered', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@valuesentered@'}";
@@ -283,6 +283,7 @@
 "app.running.status" = "Active";
 "jiggly.mode.end" = "Stop editing apps";
 "verify.passcode" = "Verify passcode";
+"window.controls.view.label" = "Window Controls";
 "app.pip.nib.action.move.app.left" = "Move %@ to the left";
 "contact.description.initials" = "Initials for %@";
 "continuity.device.watch" = "Apple Watch";
@@ -325,7 +326,7 @@
 "app.icon.cloud.hint" = "Double tap to download";
 "ax.shortcut.off" = "%@, Off";
 "done.button.label" = "Done";
-"window.position.right.down" = "%@ points right, %@ points down from top left corner of screen.";
+"window.position.right.down" = "{'xpoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'ypoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@xpoints@ right, %#@ypoints@ down from top left corner of screen.'}";
 "screen.time.timed.out" = "Timed out";
 "finished.moving.app.out.of.dock" = "Out of Dock, row %@, column %@";
 "home.setup.start" = "Slide one finger up from the bottom of the screen to setup";
@@ -361,7 +362,7 @@
 "continuity.device.tv" = "Apple TV";
 "listen.button" = "Listen";
 "close.app.from.switcher.title" = "Close %@";
-"window.position.left.up" = "%@ points left, %@ points up from top left corner of screen.";
+"window.position.left.up" = "{'xpoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'ypoints': {'one': '%d point', 'other': '%d points', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@xpoints@ left, %#@ypoints@ up from top left corner of screen.'}";
 "focus.on" = "Focus Mode, %@, On";
 "window.area.one.section" = "In %@ of screen";
 "orientation.locked.from.switch" = "Orientation locked";
@@ -407,6 +408,7 @@
 "volume.eulimit.approach" = "Approaching high volume";
 "widget.size.class.rectangular" = "Rectangular";
 "statusbar.play.icon" = "Playing Music";
+"app.window.stashed" = "Stashed";
 "icon.finished.scroll.for.app.library" = "Moved to app library";
 "app.icon.hint" = "Double tap to open";
 "side.app.remove.right.app" = "Remove right app from split view";

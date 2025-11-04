@@ -10,29 +10,43 @@
 	<string>VisualGeneration.MessagesBackgrounds</string>
 	<key>UsageAliasValues</key>
 	<dict>
-		<key>useDefault_false</key>
+		<key>language_en</key>
 		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-			</dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.visual.image_diffusion_v1.messages_backgrounds.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_en_useDefault_false</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.visual.image_diffusion_v1.messages_backgrounds.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
-		<key>useDefault_true</key>
+		<key>language_zh</key>
 		<dict>
-			<key>com.apple.MobileAsset.UAF.FM.Overrides</key>
-			<dict>
-				<key>com.apple.gm.prompt_allow_list.input.delta_lexicon.generic</key>
-				<string>ENABLED</string>
-			</dict>
 			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
 			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.visual.image_diffusion_v1.messages_backgrounds.generic</key>
+				<string>ENABLED</string>
+			</dict>
+		</dict>
+		<key>language_zh_useDefault_false</key>
+		<dict>
+			<key>com.apple.MobileAsset.UAF.FM.Visual</key>
+			<dict>
+				<key>com.apple.fm.visual.image_diffusion_v1.base.generic_alternate</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.visual.image_diffusion_v1.messages_backgrounds.generic_alternate</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>

@@ -7,6 +7,10 @@
 	<key>items</key>
 	<array>
 		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
 			<key>bundle</key>
 			<string>ICBSettingsBundle</string>
 			<key>id</key>
@@ -75,6 +79,10 @@
 		<dict>
 			<key>bundle</key>
 			<string>FTAUplevelSettingsBundle</string>
+		</dict>
+		<dict>
+			<key>bundle</key>
+			<string>CallHapticsSettingsBundle</string>
 		</dict>
 		<dict>
 			<key>bundle</key>

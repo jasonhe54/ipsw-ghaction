@@ -14,6 +14,13 @@
 	<true/>
 	<key>com.apple.photos.bourgeoisie</key>
 	<true/>
+	<key>com.apple.private.biome.writer</key>
+	<array>
+		<string>SensitiveContentAnalysis.UIInteraction</string>
+		<string>SensitiveContentAnalysis.MediaAnalysis</string>
+		<string>SensitiveContentAnalysis.ContentInteractionFlow</string>
+		<string>SensitiveContentAnalysis.ResourcesInteraction</string>
+	</array>
 	<key>com.apple.private.managed-settings.effective-read</key>
 	<true/>
 	<key>com.apple.private.photos.allowcollectionshare</key>
@@ -21,6 +28,8 @@
 	<key>com.apple.private.photos.service.internal.cloud</key>
 	<true/>
 	<key>com.apple.private.photos.service.notification</key>
+	<true/>
+	<key>com.apple.private.screentime-communication</key>
 	<true/>
 	<key>com.apple.private.security.storage.Photos</key>
 	<true/>
@@ -44,6 +53,11 @@
 	<array>
 		<string>com.apple.ManagedSettingsAgent</string>
 		<string>com.apple.ManagedSettingsAgent.publisher</string>
+		<string>com.apple.ScreenTimeAgent.communication</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.communicationSafetySettings</string>
 	</array>
 	<key>com.apple.springboard.opensensitiveurl</key>
 	<true/>

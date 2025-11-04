@@ -22,6 +22,7 @@ With Sleep Focus, you can give certain people or apps permission to notify you."
 
 With Sleep Focus, you can give certain people or apps permission to notify you.";
 "DATA_SOURCES_AND_ACCESS_CELL_TITLE_SLEEP_SCHEDULE" = "Schedules Data Sources & Access";
+"SLEEP_SCORE_NOTIFICATIONS_TITLE" = "Sleep Score Notifications";
 "SETTINGS_SHARE_ACROSS_DEVICES_FOOTER" = "When this setting is on your Sleep schedule will be shared across your other iCloud devices do not loc.";
 "SHOW_ALL_CELL_TITLE_SLEEP_SCHEDULE_DATA" = "Show All Sleep Schedules";
 "SETTINGS_SLEEP_RESULTS" = "Sleep Results";
@@ -29,9 +30,11 @@ With Sleep Focus, you can give certain people or apps permission to notify you."
 "DURATION_PICKER_SLEEP_DURATION_GOAL_SUGGESTION_DISCLAIMER" = "The suggestion above is based on your sleep history from the Health app.";
 "SCHEDULE_SECTION_EDIT_BUTTON_TITLE" = "Edit";
 "MORE_SECTION_HEADER_TITLE" = "More";
+"SLEEP_SCORE_NOTIFICATIONS_FOOTER_OFF" = "Health will not notify you with updates about your sleep. This requires sleep data from Apple Watch or other sleep tracking apps and devices.";
 "RECURRING_SCHEDULE_SECTION_EMPTY_TEXT" = "You do not have a Sleep schedule.";
 "SLEEP_TRACKING_ONBOARDING_SETUP_BUTTON_TITLE" = "Get Started";
 "SETTINGS_SHARE_ACROSS_DEVICES" = "Share Across Devices";
+"SLEEP_SCORE_NOTIFICATIONS_ON" = "On";
 "WIND_DOWN_CELL_TITLE" = "Wind Down";
 "WIND_DOWN_ACTIONS_CELL_TITLE" = "Wind Down Shortcuts";
 "SETTINGS_SHOW_TIME_FOOTER_OFF_IPHONE_AND_WATCH" = "The time will not be shown on your iPhone and Apple Watch during Sleep Focus.";
@@ -72,6 +75,7 @@ With Sleep Focus, you can give certain people or apps permission to notify you."
 "SETTINGS_SLEEP_REMINDERS_FOOTER_ON" = "Health will notify you when Wind Down or Bedtime are about to begin for that day.";
 "SETTINGS_SLEEP_REMINDERS" = "Sleep Reminders";
 "DISABLED_SLEEP_SCHEDULE_TITLE" = "Sleep Schedule";
+"SLEEP_SCORE_LEVELS_FOOTER" = "Receive a notification when your sleep score is at the indicated levels.";
 "SETTINGS_SCHEDULED_SLEEP_FOCUS_FOOTER_MANAGE" = "Manage that list in Settings.";
 "SETTINGS_SCHEDULED_SLEEP_FOCUS_TITLE_AT_WIND_DOWN" = "Turn On at Wind Down";
 "SLEEP_ROOM_SLEEP_FOCUS_PROMOTION_BODY" = "You can choose people or apps that can reach you while you’re sleeping.";
@@ -85,6 +89,8 @@ With Sleep Focus, you can give certain people or apps permission to notify you."
 "SETTINGS_NOTIFICATIONS_HEADER" = "Notifications";
 "SETTINGS_APPLE_WATCH_HEADER" = "Apple Watch";
 "SCHEDULE_VIEW_CONTROLLER_TITLE" = "Full Schedule";
+"SLEEP_SCORE_NOTIFICATIONS_FOOTER_ON" = "Health will notify you with updates about your sleep. This requires sleep data from Apple Watch or other sleep tracking apps and devices.";
+"SLEEP_SCORE_NOTIFICATIONS_OFF" = "Off";
 "SETTINGS_SLEEP_FOCUS_HEADER" = "Sleep Focus";
 "SLEEP_ONBOARDING_SETUP_BUTTON_TITLE" = "Get Started";
 "DURATION_PICKER_WIND_DOWN_FOOTER" = "Before Bedtime";

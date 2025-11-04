@@ -51,28 +51,6 @@
 				<string>com.apple.nanotimekit.replicator.library.record</string>
 			</dict>
 		</dict>
-		<key>com.apple.xpc.activity</key>
-		<dict>
-			<key>com.apple.nanotimekitcompanion.snapshots.prewarm</key>
-			<dict>
-				<key>CPUIntensive</key>
-				<true/>
-				<key>ExpectedDuration</key>
-				<string>300</string>
-				<key>GracePeriod</key>
-				<integer>60</integer>
-				<key>PostInstall</key>
-				<true/>
-				<key>Priority</key>
-				<string>Utility</string>
-				<key>RandomInitialDelay</key>
-				<string>10</string>
-				<key>RequiresClassC</key>
-				<true/>
-				<key>ShouldWakeDevice</key>
-				<true/>
-			</dict>
-		</dict>
 	</dict>
 	<key>MachServices</key>
 	<dict>

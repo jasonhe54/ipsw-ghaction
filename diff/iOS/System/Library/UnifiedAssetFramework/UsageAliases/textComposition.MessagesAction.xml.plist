@@ -21,11 +21,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -40,11 +48,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -59,11 +75,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -78,11 +102,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -97,11 +129,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -116,11 +156,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -135,11 +183,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -154,11 +210,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -173,11 +237,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -192,11 +264,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -211,11 +291,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -230,11 +318,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -249,11 +345,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -268,11 +372,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -287,11 +399,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -306,11 +426,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>
@@ -325,11 +453,19 @@
 			</dict>
 			<key>com.apple.modelcatalog</key>
 			<dict>
+				<key>com.apple.fm.language.instruct_300m.base.generic</key>
+				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_300m.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_300m.tokenizer.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.base.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.draft.generic</key>
 				<string>ENABLED</string>
 				<key>com.apple.fm.language.instruct_3b.messages_action.generic</key>
+				<string>ENABLED</string>
+				<key>com.apple.fm.language.instruct_3b.tokenizer.generic</key>
 				<string>ENABLED</string>
 			</dict>
 		</dict>

@@ -11,12 +11,16 @@
 			<string>ContactsHeader</string>
 		</dict>
 		<dict>
+			<key>appIDForLazyIcon</key>
+			<string>com.apple.MobileAddressBook</string>
 			<key>cell</key>
-			<string>PSTitleValueCell</string>
+			<string>PSDefaultCell</string>
 			<key>cellClass</key>
-			<string>ContactsSettings.ContactsSettingsPlacardCell</string>
+			<string>PESettingsFeatureDescriptionCell</string>
 			<key>id</key>
 			<string>ContactsPlacard</string>
+			<key>label</key>
+			<string>CONTACTS</string>
 		</dict>
 		<dict>
 			<key>cell</key>

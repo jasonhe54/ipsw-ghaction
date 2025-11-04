@@ -4609,16 +4609,6 @@
 		<string>automotive</string>
 		<string>multicolor</string>
 	</array>
-	<key>ac</key>
-	<array>
-		<string>automotive</string>
-		<string>whatsnew</string>
-	</array>
-	<key>ac.slash</key>
-	<array>
-		<string>automotive</string>
-		<string>whatsnew</string>
-	</array>
 	<key>accessibility</key>
 	<array>
 		<string>accessibility</string>
@@ -4647,6 +4637,11 @@
 		<string>automotive</string>
 		<string>multicolor</string>
 	</array>
+	<key>air.conditioner</key>
+	<array>
+		<string>automotive</string>
+		<string>whatsnew</string>
+	</array>
 	<key>air.conditioner.horizontal</key>
 	<array>
 		<string>home</string>
@@ -4656,6 +4651,11 @@
 	<array>
 		<string>home</string>
 		<string>objectsandtools</string>
+	</array>
+	<key>air.conditioner.slash</key>
+	<array>
+		<string>automotive</string>
+		<string>whatsnew</string>
 	</array>
 	<key>air.conditioner.vertical</key>
 	<array>
@@ -7695,6 +7695,11 @@
 	<array>
 		<string>arrows</string>
 	</array>
+	<key>arrowtriangle.backward.inset.filled.trailingthird.rectangle</key>
+	<array>
+		<string>multicolor</string>
+		<string>whatsnew</string>
+	</array>
 	<key>arrowtriangle.backward.square</key>
 	<array>
 		<string>arrows</string>
@@ -7707,6 +7712,16 @@
 	<key>arrowtriangle.down</key>
 	<array>
 		<string>arrows</string>
+	</array>
+	<key>arrowtriangle.down.2</key>
+	<array>
+		<string>arrows</string>
+		<string>whatsnew</string>
+	</array>
+	<key>arrowtriangle.down.2.fill</key>
+	<array>
+		<string>arrows</string>
+		<string>whatsnew</string>
 	</array>
 	<key>arrowtriangle.down.circle</key>
 	<array>
@@ -7750,6 +7765,11 @@
 	<key>arrowtriangle.forward.fill</key>
 	<array>
 		<string>arrows</string>
+	</array>
+	<key>arrowtriangle.forward.inset.filled.trailingthird.rectangle</key>
+	<array>
+		<string>multicolor</string>
+		<string>whatsnew</string>
 	</array>
 	<key>arrowtriangle.forward.square</key>
 	<array>
@@ -7837,6 +7857,16 @@
 	<key>arrowtriangle.up</key>
 	<array>
 		<string>arrows</string>
+	</array>
+	<key>arrowtriangle.up.2</key>
+	<array>
+		<string>arrows</string>
+		<string>whatsnew</string>
+	</array>
+	<key>arrowtriangle.up.2.fill</key>
+	<array>
+		<string>arrows</string>
+		<string>whatsnew</string>
 	</array>
 	<key>arrowtriangle.up.arrowtriangle.down.window.left</key>
 	<array>
@@ -9866,6 +9896,16 @@
 		<string>gaming</string>
 		<string>shapes</string>
 	</array>
+	<key>button.horizontal.top</key>
+	<array>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
+	<key>button.horizontal.top.fill</key>
+	<array>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
 	<key>button.horizontal.top.press</key>
 	<array>
 		<string>devices</string>
@@ -9907,6 +9947,16 @@
 		<string>gaming</string>
 		<string>shapes</string>
 	</array>
+	<key>button.vertical.left</key>
+	<array>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
+	<key>button.vertical.left.fill</key>
+	<array>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
 	<key>button.vertical.left.press</key>
 	<array>
 		<string>devices</string>
@@ -9914,6 +9964,16 @@
 	<key>button.vertical.left.press.fill</key>
 	<array>
 		<string>devices</string>
+	</array>
+	<key>button.vertical.right</key>
+	<array>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
+	<key>button.vertical.right.fill</key>
+	<array>
+		<string>devices</string>
+		<string>whatsnew</string>
 	</array>
 	<key>button.vertical.right.press</key>
 	<array>
@@ -10276,6 +10336,13 @@
 	<array>
 		<string>cameraandphotos</string>
 		<string>objectsandtools</string>
+	</array>
+	<key>camera.viewfinder.badge.automatic</key>
+	<array>
+		<string>cameraandphotos</string>
+		<string>multicolor</string>
+		<string>objectsandtools</string>
+		<string>whatsnew</string>
 	</array>
 	<key>candybarphone</key>
 	<array>
@@ -15387,6 +15454,12 @@
 		<string>multicolor</string>
 		<string>objectsandtools</string>
 	</array>
+	<key>digitalcrown</key>
+	<array>
+		<string>accessibility</string>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
 	<key>digitalcrown.arrow.clockwise</key>
 	<array>
 		<string>accessibility</string>
@@ -15407,6 +15480,18 @@
 		<string>accessibility</string>
 		<string>devices</string>
 	</array>
+	<key>digitalcrown.fill</key>
+	<array>
+		<string>accessibility</string>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
+	<key>digitalcrown.horizontal</key>
+	<array>
+		<string>accessibility</string>
+		<string>devices</string>
+		<string>whatsnew</string>
+	</array>
 	<key>digitalcrown.horizontal.arrow.clockwise</key>
 	<array>
 		<string>devices</string>
@@ -15422,6 +15507,12 @@
 	<key>digitalcrown.horizontal.arrow.counterclockwise.fill</key>
 	<array>
 		<string>devices</string>
+	</array>
+	<key>digitalcrown.horizontal.fill</key>
+	<array>
+		<string>accessibility</string>
+		<string>devices</string>
+		<string>whatsnew</string>
 	</array>
 	<key>digitalcrown.horizontal.press</key>
 	<array>
@@ -21431,7 +21522,7 @@
 		<string>automotive</string>
 		<string>multicolor</string>
 	</array>
-	<key>head.profile.arrow.forward.and.vision.pro</key>
+	<key>head.profile.vision.pro.remove</key>
 	<array>
 		<string>devices</string>
 	</array>
@@ -22751,6 +22842,16 @@
 		<string>human</string>
 		<string>multicolor</string>
 	</array>
+	<key>inset.filled.rectangle.and.person.filled.slash</key>
+	<array>
+		<string>human</string>
+		<string>whatsnew</string>
+	</array>
+	<key>inset.filled.rectangle.and.person.filled.slash.rtl</key>
+	<array>
+		<string>human</string>
+		<string>whatsnew</string>
+	</array>
 	<key>inset.filled.rectangle.and.pointer.arrow</key>
 	<array>
 		<string>human</string>
@@ -23758,6 +23859,10 @@
 	<array>
 		<string>devices</string>
 		<string>keyboard</string>
+	</array>
+	<key>keyboard.macwindow</key>
+	<array>
+		<string>multicolor</string>
 	</array>
 	<key>keyboard.onehanded.left</key>
 	<array>
@@ -25625,12 +25730,29 @@
 	<array>
 		<string>multicolor</string>
 	</array>
+	<key>macwindow.and.pointer.arrow</key>
+	<array>
+		<string>multicolor</string>
+	</array>
+	<key>macwindow.and.pointer.arrow.rtl</key>
+	<array>
+		<string>multicolor</string>
+	</array>
 	<key>macwindow.badge.plus</key>
+	<array>
+		<string>multicolor</string>
+	</array>
+	<key>macwindow.on.rectangle</key>
+	<array>
+		<string>multicolor</string>
+	</array>
+	<key>macwindow.on.rectangle.rtl</key>
 	<array>
 		<string>multicolor</string>
 	</array>
 	<key>macwindow.stack</key>
 	<array>
+		<string>multicolor</string>
 		<string>whatsnew</string>
 	</array>
 	<key>magazine</key>
@@ -30358,6 +30480,15 @@
 		<string>gaming</string>
 		<string>multicolor</string>
 	</array>
+	<key>radicand.squareroot</key>
+	<array>
+		<string>math</string>
+	</array>
+	<key>radicand.squareroot.ar</key>
+	<array>
+		<string>math</string>
+		<string>whatsnew</string>
+	</array>
 	<key>radio</key>
 	<array>
 		<string>objectsandtools</string>
@@ -30507,6 +30638,14 @@
 	<key>rectangle.badge.plus</key>
 	<array>
 		<string>multicolor</string>
+	</array>
+	<key>rectangle.badge.sparkles</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>rectangle.badge.sparkles.fill</key>
+	<array>
+		<string>whatsnew</string>
 	</array>
 	<key>rectangle.badge.xmark</key>
 	<array>
@@ -31976,6 +32115,11 @@
 	<array>
 		<string>editing</string>
 	</array>
+	<key>slider.horizontal.below.sun.min</key>
+	<array>
+		<string>editing</string>
+		<string>whatsnew</string>
+	</array>
 	<key>slider.vertical.3</key>
 	<array>
 		<string>editing</string>
@@ -32791,6 +32935,15 @@
 	<key>star.leadinghalf.filled</key>
 	<array>
 		<string>multicolor</string>
+	</array>
+	<key>star.rectangle</key>
+	<array>
+		<string>whatsnew</string>
+	</array>
+	<key>star.rectangle.fill</key>
+	<array>
+		<string>multicolor</string>
+		<string>whatsnew</string>
 	</array>
 	<key>star.slash</key>
 	<array>
@@ -34011,6 +34164,10 @@
 	<key>text.alignright</key>
 	<array>
 		<string>textformatting</string>
+	</array>
+	<key>text.and.command.macwindow</key>
+	<array>
+		<string>multicolor</string>
 	</array>
 	<key>text.append</key>
 	<array>
@@ -35659,6 +35816,7 @@
 	<array>
 		<string>multicolor</string>
 		<string>objectsandtools</string>
+		<string>variable</string>
 	</array>
 	<key>trash.slash.circle.fill</key>
 	<array>
@@ -37420,10 +37578,6 @@
 	<array>
 		<string>indices</string>
 		<string>multicolor</string>
-	</array>
-	<key>x.squareroot</key>
-	<array>
-		<string>math</string>
 	</array>
 	<key>xbox.logo</key>
 	<array>

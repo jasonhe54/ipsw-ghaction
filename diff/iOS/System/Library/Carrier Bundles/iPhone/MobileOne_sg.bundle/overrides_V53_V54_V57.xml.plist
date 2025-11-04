@@ -31,8 +31,10 @@
 		<string>2</string>
 		<key>ServerAddress</key>
 		<string>https://mdm.m1.com.sg/ES/apple</string>
+		<key>SupportSecureIntent</key>
+		<true/>
 		<key>SupportedEntitlements</key>
-		<integer>1025</integer>
+		<integer>9217</integer>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -172,6 +174,35 @@
 	</dict>
 	<key>OverrideOperatorWiFiName</key>
 	<string>M1 WiFi Call</string>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://sm-v4-030-a-gtm.pr.go-esim.com</string>
+		<key>MinCompatibleOS</key>
+		<string>26.1</string>
+		<key>RequiresDeleteBeforeTransfer</key>
+		<true/>
+		<key>SupportsFallbackToLegacyFlow</key>
+		<false/>
+		<key>TransferErrorCodes</key>
+		<dict>
+			<key>BillingErrors</key>
+			<array/>
+			<key>BlockedAccountErrors</key>
+			<array/>
+			<key>CarrierDefaultErrors</key>
+			<array>
+				<string>M1002</string>
+				<string>M1003</string>
+			</array>
+			<key>IneligibleAccountErrors</key>
+			<array/>
+			<key>MaintenanceErrors</key>
+			<array>
+				<string>M1001</string>
+			</array>
+		</dict>
+	</dict>
 	<key>PushSettings</key>
 	<dict>
 		<key>MultiSIMTopic</key>

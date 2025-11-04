@@ -20,8 +20,8 @@
 "VOSGesture.RightRingModifierLeftMiddlePinchSwipeUp" = "Right Ring Modifier with Left Middle Pinch And Slide Up";
 "VOSGesture.LeftRingModifierRightRingPinchSwipeLeft" = "Left Ring Modifier with Right Ring Pinch and Slide Left";
 "VOSGesture.RightMiddleModifierLeftIndexPinchSwipeRight" = "Right Middle Modifier with Left Index Pinch and Slide Right";
-"VOSGesture.LeftMiddleModifierRightIndexQuadruplePinch" = "Left Middle Modifier with Right Index Quadruple Pinch";
 "VOSOutputEvent.DidChangeVolume" = "Volume Changed";
+"VOSGesture.LeftMiddleModifierRightIndexQuadruplePinch" = "Left Middle Modifier with Right Index Quadruple Pinch";
 "VOSGesture.LeftRingModifierRightMiddlePinchSwipeUp" = "Left Ring Modifier with Right Middle Pinch And Slide Up";
 "VOSKey.enter" = "Enter";
 "VOSGesture.RightRingModifierLeftRingPinchSwipeRight" = "Right Ring Modifier with Left Ring Pinch and Slide Right";
@@ -100,6 +100,7 @@
 "VOSCommandCategory.Braille" = "Braille";
 "VOSGesture.TwoFingerSplitFlickLeft" = "Two finger swipe left while holding one finger";
 "VOSGesture.RightIndexModifierLeftMiddleLongPinch" = "Right Index Modifier with Left Middle Long Pinch";
+"VOSCommand.NextSpeechVoice" = "Next Voice";
 "VOSCommand.ReadCharacter" = "Read Character";
 "VOSGestureCategory.FourFingerTaps" = "Tap: Four Fingers";
 "VOSGesture.RightMiddleModifierLeftRingPinchSwipeDown" = "Right Middle Modifier with Left Ring Pinch and Slide Down";
@@ -122,6 +123,7 @@
 "VOSCommand.MoveToPreviousElement" = "Move to Previous Item";
 "VOSGesture.FaceGestureSmile" = "Smile";
 "VOSGesture.TwoDistantFingerSingleTap" = "Two finger single tap the far edges";
+"VOSCommand.MoveToPreviousCheckbox" = "Move to Previous Checkbox";
 "VOSGesture.FaceGestureJawOpen" = "Mouth Open";
 "VOSCommand.MoveToPreviousItalicText" = "Move to Previous Item with Italic Text";
 "VOSKey.fn" = "fn";
@@ -135,6 +137,7 @@
 "VOSCommandCategory.Output" = "Output";
 "VOSGesture.RightIndexModifierLeftMiddleQuadrupleLongPinch" = "Right Index Modifier with Left Middle Quadruple Long Pinch";
 "VOSCommand.ReadWord" = "Read Word";
+"VOSCommand.MoveToNextCheckbox" = "Move to Next Checkbox";
 "VOSGesture.LeftMiddleModifierRightMiddleDoubleLongPinch" = "Left Middle Modifier with Right Middle Double Long Pinch";
 "VOSGesture.LeftIndexModifierRightMiddlePinchSwipeRight" = "Left Index Modifier with Right Middle Pinch and Slide Right";
 "VOSKey.fastforward" = "Fast Forward";
@@ -462,6 +465,7 @@
 "VOSGesture.LeftMiddleDoublePinch" = "Left Middle Double Pinch";
 "VOSCommand.BSIOrientationLock" = "Orientation Lock";
 "VOSGesture.VoiceTriggerOo" = "Oo";
+"VOSCommand.PreviousSpeechVoice" = "Previous Voice";
 "VOSGesture.LeftIndexPinchSwipeRight" = "Left Index Pinch and Slide Right";
 "VOSKey.option" = "Option";
 "VOSGesture.ThreeFingerFlickLeft" = "Three finger swipe left";
@@ -590,10 +594,11 @@
 "VOSGesture.ThreeFingerDoubleTapAndHold" = "Three finger double tap and hold";
 "VOSCommandCategory.TextNavigation" = "Text Navigation";
 "VOSGesture.RightRingModifierLeftRingTripleLongPinch" = "Right Ring Modifier with Left Ring Triple Long Pinch";
+"VOSCommand.MoveToPreviousRadioGroup" = "Move to Previous Radio Group";
 "VOSGesture.TwoFingerTripleTap" = "Two finger triple tap";
 "VOSGesture.VoiceTriggerSh" = "Sh";
-"VOSGesture.LeftRingModifierRightRingPinchSwipeRight" = "Left Ring Modifier with Right Ring Pinch and Slide Right";
 "VOSGesture.TwoFingerQuadrupleTap" = "Two finger quadruple tap";
+"VOSGesture.LeftRingModifierRightRingPinchSwipeRight" = "Left Ring Modifier with Right Ring Pinch and Slide Right";
 "VOSGesture.RightMiddleModifierLeftRingPinchSwipeLeft" = "Right Middle Modifier with Left Ring Pinch and Slide Left";
 "VOSGesture.RightIndexModifierLeftIndexPinchSwipeLeft" = "Right Index Modifier with Left Index Pinch and Slide Left";
 "VOSGestureCategory.TwoFingerTaps" = "Tap: Two Fingers";
@@ -798,9 +803,10 @@
 "VOSGesture.LeftMiddleModifierRightRingQuadruplePinch" = "Left Middle Modifier with Right Ring Quadruple Pinch";
 "VOSGesture.LeftIndexTriplePinch" = "Left Index Triple Pinch";
 "VOSCommand.BSIEscape" = "Escape";
+"VOSCommand.MoveToNextRadioGroup" = "Move to Next Radio Group";
 "VOSGesture.RightIndexPinchSwipeDown" = "Right Index Pinch and Slide Down";
-"VOSGesture.ThreeFingerDoubleTapHoldAndFlickDown" = "Three finger double tap, hold, and flick down";
 "VOSGesture.FaceGestureTongueOut" = "Tongue Out";
+"VOSGesture.ThreeFingerDoubleTapHoldAndFlickDown" = "Three finger double tap, hold, and flick down";
 "VOSGesture.LeftRingModifierRightMiddlePinchSwipeRight" = "Left Ring Modifier with Right Middle Pinch and Slide Right";
 "VOSGesture.LeftMiddleModifierRightRingPinchSwipeDown" = "Left Middle Modifier with Right Ring Pinch and Slide Down";
 "VOSGesture.LeftIndexDoubleLongPinch" = "Left Index Double Long Pinch";

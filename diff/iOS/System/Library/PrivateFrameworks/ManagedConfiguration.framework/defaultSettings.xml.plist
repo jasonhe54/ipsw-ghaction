@@ -27,6 +27,8 @@
 		<dict/>
 		<key>managedEmailDomains</key>
 		<dict/>
+		<key>ratingAppsExemptedBundleIDs</key>
+		<dict/>
 		<key>webContentFilterAutoPermittedURLs</key>
 		<dict/>
 		<key>webContentFilterWhitelistedBookmarks</key>
@@ -41,12 +43,32 @@
 			<key>value</key>
 			<true/>
 		</dict>
+		<key>allowAccessibilityLiveCaptions</key>
+		<dict>
+			<key>value</key>
+			<true/>
+		</dict>
+		<key>allowAccessibilityReader</key>
+		<dict>
+			<key>value</key>
+			<true/>
+		</dict>
+		<key>allowAccessibilityReaderSuggestions</key>
+		<dict>
+			<key>value</key>
+			<true/>
+		</dict>
 		<key>allowAccessibilitySpeech</key>
 		<dict>
 			<key>value</key>
 			<true/>
 		</dict>
 		<key>allowAccessibilityTypingFeedback</key>
+		<dict>
+			<key>value</key>
+			<true/>
+		</dict>
+		<key>allowAccessibilityVoiceOver</key>
 		<dict>
 			<key>value</key>
 			<true/>
@@ -1464,8 +1486,6 @@
 	<key>union</key>
 	<dict>
 		<key>allowedSafariPasswordAutoFillDomains</key>
-		<dict/>
-		<key>appsRatingExemptedBundleIDs</key>
 		<dict/>
 		<key>audioCallDefaultHandlerAppBundleIDs</key>
 		<dict/>

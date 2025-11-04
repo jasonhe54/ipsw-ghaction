@@ -46,6 +46,24 @@
 			<key>defaults</key>
 			<string>com.apple.Accessibility</string>
 			<key>id</key>
+			<string>ButtonShapesEnabled</string>
+			<key>isPerGizmo</key>
+			<true/>
+			<key>key</key>
+			<string>ButtonShapesEnabled</string>
+			<key>label</key>
+			<string>BUTTON_SHAPES_TITLE</string>
+			<key>notifyNano</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.Accessibility</string>
+			<key>id</key>
 			<string>OnOffLabelsEnabled</string>
 			<key>isPerGizmo</key>
 			<true/>

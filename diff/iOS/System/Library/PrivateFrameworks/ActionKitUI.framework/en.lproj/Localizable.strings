@@ -9,6 +9,7 @@
 "Off" = "Off";
 "Use API Token" = "Use API Token";
 "Supported Types" = "Supported Types";
+"The coercion path failed to produce any content items." = "The coercion path failed to produce any content items.";
 "This folder is empty" = "This folder is empty";
 "username:NNNNNN" = "username:NNNNNN";
 "Select Contacts" = "Select Contacts";
@@ -43,16 +44,18 @@
 "Get Selected File (1)" = "Get Selected File (1)";
 "Site URL" = "Site URL";
 "Get Selected Files (%lu)" = "Get Selected Files (%lu)";
-"WordPress Login" = "WordPress Login";
-"Selected app does not support the provided input." = "Selected app does not support the provided input.";
 "Switches between the front and back facing cameras" = "Switches between the front and back facing cameras";
+"Selected app does not support the provided input." = "Selected app does not support the provided input.";
+"WordPress Login" = "WordPress Login";
 "No suitable camera was detected on this device." = "No suitable camera was detected on this device.";
 "Tap to start recording." = "Tap to start recording.";
 "Copy Public Key" = "Copy Public Key";
 "API Token" = "API Token";
 "%@ Accounts" = "%@ Accounts";
+"Ask ChatGPT…" = "Ask ChatGPT…";
 "Log In to Pinboard" = "Log In to Pinboard";
 "Log In to Instapaper" = "Log In to Instapaper";
+"Ask…" = "Ask…";
 "A definition could not be found for that term." = "A definition could not be found for that term.";
 "Reset" = "Reset";
 "Comment" = "Comment";
@@ -72,15 +75,16 @@
 "If you use a self-hosted version of WordPress, enter the URL of your site above." = "If you use a self-hosted version of WordPress, enter the URL of your site above.";
 "Log in to WordPress" = "Log in to WordPress";
 "Cannot send messages. iMessage may not be enabled." = "Cannot send messages. iMessage may not be enabled.";
+"Failed to coerce content items" = "Failed to coerce content items";
 "Open In" = "Open In";
-"Bits" = "Bits";
 "Remove account" = "Remove account";
 "Email address" = "Email address";
 "Log In" = "Log In";
 "Trending" = "Trending";
 "Submit" = "Submit";
-"Content Item Graph" = "Content Item Graph";
+"Bits" = "Bits";
 "Loading…" = "Loading…";
+"Content Item Graph" = "Content Item Graph";
 "Done" = "Done";
 "Generating a new key will replace the existing key used by Shortcuts on this device, which may cause servers to reject connections until you share the new public key with them.
 

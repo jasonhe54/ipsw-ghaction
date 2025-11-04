@@ -38,14 +38,18 @@
 		<key>ProtocolVersion</key>
 		<string>2</string>
 		<key>ServerAddress</key>
-		<string>https://cdp.tim.it/entitlement/</string>
+		<string>https://es.tim.it/new-entitlement/</string>
+		<key>SupportPhysicalSIMtoESIMTransfer</key>
+		<true/>
+		<key>SupportSecureIntent</key>
+		<true/>
 		<key>SupportedActions</key>
 		<array>
 			<string>AuthenticateTrustFlag</string>
 			<string>TransferSIMService</string>
 		</array>
 		<key>SupportedEntitlements</key>
-		<integer>5121</integer>
+		<integer>13313</integer>
 		<key>UpdatePeriod</key>
 		<integer>24</integer>
 	</dict>
@@ -86,6 +90,30 @@
 	</dict>
 	<key>OverrideOperatorWiFiName</key>
 	<string>TIM WiFiCall</string>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://rsp-3046.idemia.io</string>
+		<key>RequiresDeleteBeforeTransfer</key>
+		<true/>
+		<key>SupportsRecoveryOnTransferFailureResponse</key>
+		<true/>
+		<key>TransferErrorCodes</key>
+		<dict>
+			<key>BlockedAccountErrors</key>
+			<array>
+				<string>995</string>
+			</array>
+			<key>CarrierDefaultErrors</key>
+			<array>
+				<string>999</string>
+			</array>
+			<key>MaintenanceErrors</key>
+			<array>
+				<string>990</string>
+			</array>
+		</dict>
+	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+447860015007</string>
 	<key>PushSettings</key>

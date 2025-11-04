@@ -25,11 +25,6 @@
 				<key>Name</key>
 				<string>com.apple.ReportCrash.beta.bulletin</string>
 			</dict>
-			<key>com.apple.StorageSettings.AppMayUninstall</key>
-			<dict>
-				<key>Name</key>
-				<string>com.apple.StorageSettings.AppMayUninstall</string>
-			</dict>
 			<key>com.apple.appstored.ASDAppleIDDidChangeNotification</key>
 			<dict>
 				<key>Name</key>
@@ -44,11 +39,6 @@
 			<dict>
 				<key>Name</key>
 				<string>com.apple.appstored.ASDSandboxAccountDidChangeNotification</string>
-			</dict>
-			<key>com.apple.installcoordination.AppMayUninstall</key>
-			<dict>
-				<key>Name</key>
-				<string>com.apple.installcoordination.AppMayUninstall</string>
 			</dict>
 			<key>com.apple.managedconfiguration.effectivesettingschanged</key>
 			<dict>
