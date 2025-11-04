@@ -1,4 +1,4 @@
-name: Create Version to Version Diff
+name: 2. Create Version-vs-Version Diff
 
 on:
   workflow_dispatch:
@@ -24,12 +24,8 @@ on:
         type: choice
         options: [beta, release]
         default: beta
-      base_version_name:
-        description: '[BASE] Version (e.g., 18.0). For the PR title.'
-        required: true
-        type: string
       base_version_build_id:
-        description: '[BASE] Build ID (e.g., 22A335). For artifact name.'
+        description: '[BASE] Build ID (e.g., 22A335). For artifact name & PR title.'
         required: true
         type: string
       base_run_id:
@@ -44,12 +40,8 @@ on:
         type: choice
         options: [beta, release]
         default: beta
-      new_version_name:
-        description: '[NEW] Version (e.g., 18.1). For the PR title.'
-        required: true
-        type: string
       new_version_build_id:
-        description: '[NEW] Build ID (e.g., 22A5282m). For artifact name.'
+        description: '[NEW] Build ID (e.g., 22A5282m). For artifact name & PR title.'
         required: true
         type: string
       new_run_id:
@@ -74,16 +66,15 @@ jobs:
     steps:
       - name: 1. Set environment variables
         run: |
-          echo "BASE_VERSION_STRING=${{ inputs.base_version_name }} (${{ inputs.base_version_build_id }})" >> $GITHUB_ENV
-          echo "NEW_VERSION_STRING=${{ inputs.new_version_name }} (${{ inputs.new_version_build_id }})" >> $GITHUB_ENV
+          # We just use the build IDs for the version strings
+          echo "BASE_VERSION_STRING=${{ inputs.base_version_build_id }}" >> $GITHUB_ENV
+          echo "NEW_VERSION_STRING=${{ inputs.new_version_build_id }}" >> $GITHUB_ENV
           
           echo "BASE_ARTIFACT_PREFIX=analysis-${{ inputs.base_analysis_type }}" >> $GITHUB_ENV
           echo "NEW_ARTIFACT_PREFIX=analysis-${{ inputs.new_analysis_type }}" >> $GITHUB_ENV
 
-          # This path is where the files will live *in the git branch*
           echo "DIR_PATH=diff" >> $GITHUB_ENV
           
-          # This sets the branch and PR title prefix
           if [[ "${{ inputs.new_analysis_type }}" == "beta" ]]; then
             echo "PR_PREFIX=Diff [Beta]" >> $GITHUB_ENV
             echo "BRANCH_PREFIX=auto-diff-beta" >> $GITHUB_ENV
@@ -101,11 +92,11 @@ jobs:
           echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| **Base Version** | \`${{ env.BASE_VERSION_STRING }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Base Build ID** | \`${{ env.BASE_VERSION_STRING }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Base Type** | \`${{ inputs.base_analysis_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Base Run ID** | \`${{ inputs.base_run_id }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| **New Version** | \`${{ env.NEW_VERSION_STRING }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **New Build ID** | \`${{ env.NEW_VERSION_STRING }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **New Type** | \`${{ inputs.new_analysis_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **New Run ID** | \`${{ inputs.new_run_id }}\` |" >> $GITHUB_STEP_SUMMARY
 
@@ -191,7 +182,8 @@ jobs:
           git push --set-upstream origin "${{ env.NEW_BRANCH }}"
           
           echo "Creating Pull Request..."
-          PR_TITLE="${{ env.PR_PREFIX }}: ${{ inputs.os_type }} ${{ inputs.new_version_name }} vs ${{ inputs.base_version_name }}"
+          # The PR title now uses the Build IDs
+          PR_TITLE="${{ env.PR_PREFIX }}: ${{ inputs.os_type }} ${{ env.NEW_VERSION_STRING }} vs ${{ env.BASE_VERSION_STRING }}"
           PR_BODY="Automated diff for \`${{ inputs.os_type }}\` on device \`${{ inputs.device_identifier }}\`.
           
           - **New Version (Head):** \`${{ env.NEW_VERSION_STRING }}\` (Type: \`${{ inputs.new_analysis_type }}\`, Run: \`${{ inputs.new_run_id }}\`)
