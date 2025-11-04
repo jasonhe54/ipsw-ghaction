@@ -10,6 +10,7 @@ on:
         options:
           - beta
           - release
+        default: beta
       os_type:
         description: 'Operating System (iOS, iPadOS, macOS, visionOS)'
         required: true
@@ -23,17 +24,13 @@ on:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
         type: string
-      beta_version:
-        description: '[IF BETA] Version (e.g., 26.0).'
-        required: false
+      version_name:
+        description: 'Version (e.g., 26.0 or 17.5.1). Used for PR title.'
+        required: true
         type: string
-      beta_build:
-        description: '[IF BETA] Build ID (e.g., 23B5073a).'
-        required: false
-        type: string
-      release_version:
-        description: '[IF RELEASE] Version (e.g., 17.5.1).'
-        required: false
+      version_build_id:
+        description: 'Build ID (e.g., 23B5073a or 21F90). Used for artifact name.'
+        required: true
         type: string
       run_id:
         description: 'The specific Run ID of the "Analyzer" workflow to pull from.'
@@ -54,39 +51,25 @@ jobs:
       actions: read
     
     steps:
-      - name: 1. Validate inputs
-        run: |
-          if [[ "${{ inputs.analysis_type }}" == "beta" && ("${{ inputs.beta_version }}" == "" || "${{ inputs.beta_build }}" == "") ]]; then
-            echo "::error::For 'beta' analysis, 'beta_version' and 'beta_build' are required."
-            exit 1
-          fi
-          if [[ "${{ inputs.analysis_type }}" == "release" && "${{ inputs.release_version }}" == "" ]]; then
-            echo "::error::For 'release' analysis, 'release_version' is required."
-            exit 1
-          fi
-          echo "Inputs validated."
-
-      - name: 2. Set environment variables based on type
+      - name: 1. Set environment variables based on type
         run: |
           if [[ "${{ inputs.analysis_type }}" == "beta" ]]; then
             echo "Setting variables for BETA"
             echo "DIR_PATH=beta" >> $GITHUB_ENV
-            echo "ARTIFACT_NAME=analysis-beta-${{ inputs.os_type }}-${{ inputs.beta_build }}-${{ inputs.device_identifier }}" >> $GITHUB_ENV
-            echo "VERSION_STRING=${{ inputs.beta_version }} (${{ inputs.beta_build }})" >> $GITHUB_ENV
-            echo "TAG_VERSION=${{ inputs.beta_version }}-${{ inputs.beta_build }}" >> $GITHUB_ENV
+            echo "ARTIFACT_NAME=analysis-beta-${{ inputs.os_type }}-${{ inputs.version_build_id }}-${{ inputs.device_identifier }}" >> $GITHUB_ENV
+            echo "VERSION_STRING=${{ inputs.version_name }} (${{ inputs.version_build_id }})" >> $GITHUB_ENV
             echo "PR_PREFIX=Analysis" >> $GITHUB_ENV
             echo "BRANCH_PREFIX=auto-analysis" >> $GITHUB_ENV
           else
             echo "Setting variables for RELEASE"
             echo "DIR_PATH=release" >> $GITHUB_ENV
-            echo "ARTIFACT_NAME=analysis-release-${{ inputs.os_type }}-${{ inputs.release_version }}-${{ inputs.device_identifier }}" >> $GITHUB_ENV
-            echo "VERSION_STRING=${{ inputs.release_version }}" >> $GITHUB_ENV
-            echo "TAG_VERSION=${{ inputs.release_version }}" >> $GITHUB_ENV
+            echo "ARTIFACT_NAME=analysis-release-${{ inputs.os_type }}-${{ inputs.version_build_id }}-${{ inputs.device_identifier }}" >> $GITHUB_ENV
+            echo "VERSION_STRING=${{ inputs.version_name }} (${{ inputs.version_build_id }})" >> $GITHUB_ENV
             echo "PR_PREFIX=Analysis [Release]" >> $GITHUB_ENV
             echo "BRANCH_PREFIX=auto-analysis-release" >> $GITHUB_ENV
           fi
 
-      - name: 3. Log Inputs to Job Summary
+      - name: 2. Log Inputs to Job Summary
         run: |
           echo "### 📦 Workflow: 2. Commit Analysis" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -94,27 +77,23 @@ jobs:
           echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
           echo "| **Analysis Type** | \`${{ inputs.analysis_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
-          if [[ "${{ inputs.analysis_type }}" == "beta" ]]; then
-            echo "| **Beta Version** | \`${{ inputs.beta_version }}\` |" >> $GITHUB_STEP_SUMMARY
-            echo "| **Beta Build** | \`${{ inputs.beta_build }}\` |" >> $GITHUB_STEP_SUMMARY
-          else
-            echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
-          fi
+          echo "| **Version** | \`${{ inputs.version_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build** | \`${{ inputs.version_build_id }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Source Run ID** | \`${{ inputs.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **PR Base Branch** | \`${{ inputs.pr_base_branch }}\` |" >> $GITHUB_STEP_SUMMARY
 
-      - name: 4. Check out repository
+      - name: 3. Check out repository
         uses: actions/checkout@v4
         with:
           ref: ${{ inputs.pr_base_branch }}
 
-      - name: 5. Clean old directory
+      - name: 4. Clean old directory
         run: |
           echo "Removing old directory: ${{ env.DIR_PATH }}/${{ inputs.os_type }}"
           rm -rf ${{ env.DIR_PATH }}/${{ inputs.os_type }}
 
-      - name: 6. Download and Verify Artifact
+      - name: 5. Download and Verify Artifact
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -144,19 +123,19 @@ jobs:
           
           echo "Verification successful. Artifact files are present."
 
-      - name: 7. Configure Git
+      - name: 6. Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: 8. Commit and Create PR
+      - name: 7. Commit and Create PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
           
           OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
-          CLEAN_VERSION_TAG=$(echo "${OS_TYPE_LOWER}-${{ env.TAG_VERSION }}" | sed 's/[^a-zA-Z0-9-]/_/g')
+          CLEAN_VERSION_TAG=$(echo "${OS_TYPE_LOWER}-${{ inputs.version_name }}-${{ inputs.version_build_id }}" | sed 's/[^a-zA-Z0-9-]/_/g')
           TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
           NEW_BRANCH="${{ env.BRANCH_PREFIX }}/${CLEAN_VERSION_TAG}-${TIMESTAMP}"
           
