@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>vivaldi</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>fall2024</key>
+				<array>
+					<string>voltSplash</string>
+					<string>greyBlue</string>
+					<string>greenGrey</string>
+					<string>blueRed</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>vivaldi.blueFlame</string>
+				<key>gallery-default</key>
+				<array>
+					<string>vivaldi.blueFlame</string>
+					<string>vivaldi.sequoiaOrange</string>
+					<string>vivaldi.magicEmber</string>
+					<string>vivaldi.starlightPink</string>
+					<string>vivaldi.brightGreenBlue</string>
+					<string>vivaldi.midnightSky</string>
+					<string>vivaldi.desertStone</string>
+				</array>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>imports</key>
+			<array>
+				<array>
+					<string>vivaldi.blueFlame</string>
+					<string>vivaldi.midnightSky</string>
+					<string>vivaldi.cargoKhaki</string>
+					<string>vivaldi.magicEmber</string>
+					<string>vivaldi.desertStone</string>
+					<string>vivaldi.purePlatinum</string>
+					<string>vivaldi.blackBlue</string>
+					<string>vivaldi.gameRoyalOrange</string>
+					<string>vivaldi.brightGreenBlue</string>
+					<string>vivaldi.sequoiaOrange</string>
+					<string>vivaldi.starlightPink</string>
+				</array>
+				<string>vivaldi.fall2024</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

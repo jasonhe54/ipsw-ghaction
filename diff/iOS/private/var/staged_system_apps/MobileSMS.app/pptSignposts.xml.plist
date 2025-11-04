@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ktrace</key>
+	<array/>
+	<key>os</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>MessagesController</string>
+			<key>description</key>
+			<string>Push Transcript</string>
+			<key>name</key>
+			<string>PushTranscript</string>
+			<key>subsystem</key>
+			<string>com.apple.Messages.telemetry</string>
+			<key>targetTests</key>
+			<array>
+				<string>ShowMessages</string>
+				<string>ShowMessagesExpressive</string>
+				<string>ShowMessagesWithPhotosChat</string>
+				<string>ShowMessagesWithTextChat</string>
+				<string>ShowMessagesPushTranscriptWithAcknowledgments</string>
+				<string>ShowMessagesPushTranscriptWithImpact</string>
+				<string>ShowMessagesPushTranscriptWithBusinessMako</string>
+				<string>ShowMessagesPushTranscriptWithBusinessTextAndMedia</string>
+				<string>ShowMessagesPushTranscriptWithBusinessLiveMessages</string>
+				<string>ShowMessagesPushTranscriptWithGentleImpact</string>
+				<string>ShowMessagesPushTranscriptWithInvisibleInkImpact</string>
+				<string>ShowMessagesPushTranscriptWithLoudImpact</string>
+				<string>ShowMessagesPushToMessagesAppBubblesTranscript</string>
+				<string>ShowMessagesPushTranscriptWithP3Images</string>
+				<string>ShowMessagesPushTranscriptWithDigitalTouch</string>
+				<string>ShowMessagesPushTranscriptWithInlineStickers</string>
+				<string>ShowMessagesPushTranscriptWithAttachedStickers</string>
+				<string>ShowMessagesPushTranscriptWithHandwriting</string>
+				<string>ShowMessagesPushTranscriptWithRichlinks</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>ChatController</string>
+			<key>description</key>
+			<string>Sending Message</string>
+			<key>name</key>
+			<string>SendingMessage</string>
+			<key>subsystem</key>
+			<string>com.apple.Messages.telemetry</string>
+			<key>targetTests</key>
+			<array>
+				<string>SendAnimationExisting</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>SMSApplicationDelegate</string>
+			<key>description</key>
+			<string>Time to connect to daemon when launching</string>
+			<key>name</key>
+			<string>IMCoreSetup</string>
+			<key>subsystem</key>
+			<string>com.apple.Messages</string>
+			<key>targetTests</key>
+			<array>
+				<string>launch</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>IMDDatabase</string>
+			<key>description</key>
+			<string>Mark As Read Database work</string>
+			<key>name</key>
+			<string>MarkAsRead-Database</string>
+			<key>subsystem</key>
+			<string>com.apple.Messages.telemetry</string>
+			<key>targetTests</key>
+			<array>
+				<string>TestMarkAsReadLocally</string>
+				<string>TestMarkAsReadReceived</string>
+			</array>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>IMDDatabase</string>
+			<key>description</key>
+			<string>Mark As Read Database work INCLUDING XPC with IMDPersistenceAgent</string>
+			<key>name</key>
+			<string>MarkAsRead-XPC+Database</string>
+			<key>subsystem</key>
+			<string>com.apple.Messages.telemetry</string>
+			<key>targetTests</key>
+			<array>
+				<string>TestMarkAsReadLocally</string>
+				<string>TestMarkAsReadReceived</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

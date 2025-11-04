@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>chronographPro</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>evergreen.white</string>
+				<key>exclusions</key>
+				<array>
+					<string>seasons.spring2015.white</string>
+					<string>evergreen.black</string>
+				</array>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>evergreen</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+		<key>countUp</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>evergreen.navyBlue</string>
+				<key>exclusions</key>
+				<array>
+					<string>evergreen.black</string>
+					<string>evergreen.slate2</string>
+				</array>
+				<key>gallery-default</key>
+				<array>
+					<string>evergreen.navyBlue</string>
+					<string>evergreen.slate</string>
+					<string>evergreen.white</string>
+					<string>evergreen.evergreen</string>
+					<string>evergreen.warmGray</string>
+					<string>evergreen.palePink</string>
+				</array>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>evergreen</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+		<key>gmt</key>
+		<dict>
+			<key>collections</key>
+			<dict>
+				<key>gmt-evergreen</key>
+				<array>
+					<string>evergreen.navyBlue &amp; evergreen.watermelon</string>
+					<string>evergreen.slate &amp; evergreen.watermelon</string>
+					<string>evergreen.slate &amp; evergreen.navyBlue</string>
+					<string>evergreen.slate &amp; evergreen.black</string>
+					<string>evergreen.ivory &amp; evergreen.warmGray</string>
+					<string>evergreen.palePink &amp; evergreen.warmGray</string>
+					<string>evergreen.white &amp; evergreen.warmGray</string>
+					<string>evergreen.evergreen &amp; evergreen.warmGray</string>
+					<string>evergreen.mango &amp; evergreen.warmGray</string>
+				</array>
+			</dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>evergreen.navyBlue &amp; evergreen.watermelon</string>
+				<key>exclusions</key>
+				<array>
+					<string>evergreen.navyBlue</string>
+					<string>evergreen.ivory</string>
+					<string>evergreen.palePink</string>
+					<string>evergreen.white</string>
+					<string>evergreen.black</string>
+					<string>evergreen.evergreen</string>
+					<string>evergreen.mango</string>
+					<string>evergreen.slate</string>
+					<string>evergreen.slate2</string>
+					<string>evergreen.warmGray</string>
+					<string>evergreen.watermelon</string>
+				</array>
+				<key>gallery-default</key>
+				<array>
+					<string>evergreen.navyBlue &amp; evergreen.watermelon</string>
+					<string>evergreen.slate &amp; evergreen.navyBlue</string>
+					<string>evergreen.slate &amp; evergreen.watermelon</string>
+					<string>evergreen.slate &amp; evergreen.black</string>
+					<string>evergreen.evergreen &amp; evergreen.warmGray</string>
+					<string>evergreen.white &amp; evergreen.warmGray</string>
+					<string>evergreen.palePink &amp; evergreen.warmGray</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>gmt-evergreen</string>
+				<string>evergreen</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Expensive Networking Allowed</key>
+	<string>YES</string>
+	<key>Factor Path</key>
+	<string>/System/Library/PrivateFrameworks/MCCKitCategorization.framework/BlackPearlAssets/default_factors_BLACKPEARL_SPARROW.pb</string>
+	<key>Namespace Compatibility Version</key>
+	<integer>7</integer>
+	<key>Namespace Name</key>
+	<string>BLACKPEARL_SPARROW</string>
+	<key>Purgeability Level</key>
+	<integer>1</integer>
+	<key>ResourceAttributionBundleIdentifier</key>
+	<string>com.apple.icloudmailagent</string>
+</dict>
+</plist>

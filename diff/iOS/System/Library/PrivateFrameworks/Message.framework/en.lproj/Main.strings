@@ -1,0 +1,2 @@
+"MESSAGE_COUNT_FORMAT%1$lu" = "{'value': {'one': '%1$lu Message', 'other': '%1$lu Messages', 'zero': 'No Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"UNREAD_COUNT_FORMAT%1$lu" = "{'value': {'one': '%1$lu Unread Message', 'other': '%1$lu Unread Messages', 'zero': 'No Unread Messages', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";

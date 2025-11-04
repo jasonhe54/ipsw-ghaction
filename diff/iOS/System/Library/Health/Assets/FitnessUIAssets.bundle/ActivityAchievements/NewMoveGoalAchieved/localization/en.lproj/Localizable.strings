@@ -1,0 +1,13 @@
+"ACHIEVEMENT_UNACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{progress_value}} of {{goal_value:calories}}'}";
+"ACHIEVEMENT_YESTERDAY_DESC" = "{'NSStringLocalizedFormatKey': 'You hit a new Move goal yesterday. Nice one. Close your ring again today.'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I hit my new daily Move goal on my #AppleWatch.'}";
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION_STANDALONE_PHONE" = "{'NSStringLocalizedFormatKey': 'I’m going for a new daily Move goal today.'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION_STANDALONE_PHONE" = "{'NSStringLocalizedFormatKey': 'I hit my new daily Move goal.'}";
+"ACHIEVEMENT_ACHIEVED_FRIEND_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{user_first_name}} earned this award by reaching a new daily Move goal.'}";
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I’m going for a new daily Move goal today. #AppleWatch'}";
+"ACHIEVEMENT_ACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{achievement_value:calories}}'}";
+"ACHIEVEMENT_ALERT_NAME" = "{'NSStringLocalizedFormatKey': 'You reached your new Move goal of {{achievement_value:calories}}. Nice work, {{user_first_name}}!'}";
+"ACHIEVEMENT_TITLE" = "{'NSStringLocalizedFormatKey': 'New Move Goal'}";
+"ACHIEVEMENT_ACHIEVED_ALERT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You reached your new Move goal of {{achievement_value:calories}}. Nice work!'}";
+"ACHIEVEMENT_UNACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'Earn this award every time you reach a new daily Move goal that’s higher than your previous best. Your goal is {{goal_value:calories}} and you’ve earned {{progress_value:calories}} so far today.'}";
+"ACHIEVEMENT_ACHIEVED_DESCRIPTION" = "{'number_of_times_earned': {'one': '%ld time', 'other': '%ld times', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'You’ve earned this award %#@number_of_times_earned@ for reaching a new daily Move goal. Most recent: {{earned_date:date}}'}";

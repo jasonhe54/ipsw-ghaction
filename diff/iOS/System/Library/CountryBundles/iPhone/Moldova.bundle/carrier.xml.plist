@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Moldova</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Number</key>
+				<string>112</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>901</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>902</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>903</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Number</key>
+				<string>904</string>
+				<key>SupportsEmergencySetup</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>md</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>259</string>
+		<string>com.apple.Moldova</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HANDS_FAST</key>
+	<array>
+		<dict>
+			<key>graphName</key>
+			<string>hands</string>
+			<key>sessionName</key>
+			<string>ARAlgorithmProvider</string>
+			<key>stride</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>HANDS_NORMAL</key>
+	<array>
+		<dict>
+			<key>graphName</key>
+			<string>hands</string>
+			<key>sessionName</key>
+			<string>ARAlgorithmProvider</string>
+			<key>stride</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>HANDS_THERMAL</key>
+	<array>
+		<dict>
+			<key>graphName</key>
+			<string>hands</string>
+			<key>sessionName</key>
+			<string>ARAlgorithmProvider</string>
+			<key>stride</key>
+			<integer>6</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

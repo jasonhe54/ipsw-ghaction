@@ -1,0 +1,11 @@
+"ACHIEVEMENT_SHARING_UNACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I’m going to earn this award by completing 25 Fitness+ mindful cooldowns.'}";
+"ACHIEVEMENT_SHARING_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'I just did my {{25:ordinal}} Fitness+ mindful cooldown!'}";
+"ACHIEVEMENT_UNACHIEVED_DESCRIPTION" = "{'goal_value': {'one': '%ld Fitness+ mindful cooldown', 'other': '%ld Fitness+ mindful cooldowns', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'progress_value': {'one': '%ld mindful cooldown', 'other': '%ld mindful cooldowns', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': 'Earn this award by completing %#@goal_value@. You’ve completed %#@progress_value@ so far.'}";
+"ACHIEVEMENT_ACHIEVED_FRIEND_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{user_first_name}} earned this award for their {{25:ordinal}} Fitness+ mindful cooldown on {{earned_date:date}}.'}";
+"ACHIEVEMENT_ACHIEVED_ALERT_DESCRIPTION_NAME" = "{'NSStringLocalizedFormatKey': '25 mindful cooldowns on Fitness+. Impressive, {{user_first_name}}!'}";
+"ACHIEVEMENT_ACHIEVED_ALERT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '25 mindful cooldowns on Fitness+. Impressive!'}";
+"ACHIEVEMENT_YESTERDAY_DESC" = "{'NSStringLocalizedFormatKey': 'Yesterday marked 25 mindful cooldowns on Fitness+. 🎉'}";
+"ACHIEVEMENT_TITLE" = "{'NSStringLocalizedFormatKey': '25 Fitness+ Mindful Cooldowns'}";
+"ACHIEVEMENT_UNACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{progress_value}} of {{goal_value}}'}";
+"ACHIEVEMENT_ACHIEVED_SHORT_DESCRIPTION" = "{'NSStringLocalizedFormatKey': '{{earned_date:date}}'}";
+"ACHIEVEMENT_ACHIEVED_DESCRIPTION" = "{'NSStringLocalizedFormatKey': 'You earned this award for your {{25:ordinal}} Fitness+ mindful cooldown on {{earned_date:date}}.'}";

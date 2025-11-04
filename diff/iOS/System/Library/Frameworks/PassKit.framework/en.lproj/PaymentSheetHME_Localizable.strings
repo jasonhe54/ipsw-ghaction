@@ -1,0 +1,18 @@
+"HME_2FA_ALERT_DESCRIPTION" = "To use this feature, upgrade your account security to two-factor authentication.";
+"HME_ADDRESS_LIMIT_ERROR_DESCRIPTION" = "You have the maximum number of email addresses. Go to Settings to delete one before creating another.";
+"HME_SETTINGS_DESCRIPTION_LINK_FORMAT" = "Create a unique, random address that forwards to your personal inbox and can be deleted at any time.
+
+If you need to reference or manage this email address, you can find it in %@.";
+"HME_CREATE_ERROR_TITLE" = "Service Unavailable";
+"HME_RATE_LIMIT_ERROR_DESCRIPTION" = "You’ve hit the limit of addresses you can create right now. You can add more in a few minutes.";
+"HME_ROW_DESCRIPTION_FORMAT" = "Create a unique, random email address that forwards to: %@";
+"HME_ROW_DISCLAIMER" = "If you need to reference or manage this address, you can find it in iCloud settings.";
+"HME_SETTINGS_ROW_TITLE" = "Hide My Email";
+"HME_SETTINGS_ROW_DESCRIPTION_FORMAT" = "Forwards To: %@";
+"HME_SETTINGS_MAC_DESCRIPTION_LINK_FORMAT" = "Create a unique, random address that forwards to your personal inbox and can be deleted at any time. If you need to reference or manage this email address, you can find it in [iCloud Settings](%@).";
+"HME_CREATE_ERROR_DESCRIPTION" = "There was an issue creating Hide My Email. Try again later.";
+"HME_SETTINGS_DESCRIPTION_LINK_TEXT" = "iCloud Settings";
+"HME_2FA_ALERT_TITLE" = "Hide My Email Requires the Latest Account Security";
+"HME_ROW_TITLE" = "Hide My Email";
+"HME_NO_FORWARDING_EMAIL_DESCRIPTION" = "Go to iCloud settings to add an email address. Hide My Email will forward all messages to this address.";
+"HME_MAIN_ROW_FORWARD_FORMAT" = "Forwards To: %@";

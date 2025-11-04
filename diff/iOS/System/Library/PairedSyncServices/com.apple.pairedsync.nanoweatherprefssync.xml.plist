@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.apple.pairedsync.nanoweatherprefssync</string>
+	<key>MachServiceName</key>
+	<string>com.apple.nanoweatherprefssync.pairedsync</string>
+	<key>SessionTypes</key>
+	<array>
+		<string>Initial</string>
+		<string>Reunion</string>
+	</array>
+</dict>
+</plist>

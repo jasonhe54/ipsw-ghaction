@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>oldwhite_bottom.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>0</integer>
+	<key>Bottom Left</key>
+	<string>oldwhite_ll.png</string>
+	<key>Bottom Right</key>
+	<string>oldwhite_lr.png</string>
+	<key>Left</key>
+	<string>oldwhite_left.png</string>
+	<key>Left Frame Inset</key>
+	<integer>0</integer>
+	<key>Minimum Asset Scale</key>
+	<real>0.5</real>
+	<key>Right</key>
+	<string>oldwhite_right.png</string>
+	<key>Right Frame Inset</key>
+	<integer>0</integer>
+	<key>Stretch Tiles</key>
+	<integer>1</integer>
+	<key>Top</key>
+	<string>oldwhite_top.png</string>
+	<key>Top Frame Inset</key>
+	<integer>0</integer>
+	<key>Top Left</key>
+	<string>oldwhite_ul.png</string>
+	<key>Top Right</key>
+	<string>oldwhite_ur.png</string>
+	<key>name</key>
+	<string>oldwhite</string>
+	<key>preview-image</key>
+	<string>oldwhite_thumbnail.png</string>
+</dict>
+</plist>

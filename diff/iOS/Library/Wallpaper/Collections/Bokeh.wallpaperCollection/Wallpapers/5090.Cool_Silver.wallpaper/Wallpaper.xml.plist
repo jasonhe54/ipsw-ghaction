@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appearanceAware</key>
+	<true/>
+	<key>assets</key>
+	<dict>
+		<key>lockAndHome</key>
+		<dict>
+			<key>dark</key>
+			<dict>
+				<key>backgroundColors</key>
+				<array>
+					<string>#000000</string>
+					<string>#000000</string>
+				</array>
+				<key>bubbleColors</key>
+				<array>
+					<string>#6A808F</string>
+					<string>#83959E</string>
+					<string>#8DA1A8</string>
+					<string>#8DA0A6</string>
+					<string>#7A9199</string>
+					<string>#527280</string>
+				</array>
+				<key>bubbleCount</key>
+				<integer>40</integer>
+				<key>bubbleScale</key>
+				<real>1</real>
+				<key>identifier</key>
+				<integer>5090</integer>
+				<key>name</key>
+				<string>Cool Silver</string>
+				<key>parallaxMultiplier</key>
+				<real>0.5</real>
+				<key>thumbnailSeed</key>
+				<integer>0</integer>
+				<key>type</key>
+				<string>Bokeh</string>
+			</dict>
+			<key>default</key>
+			<dict>
+				<key>backgroundColors</key>
+				<array>
+					<string>#6A808F</string>
+					<string>#83959E</string>
+					<string>#8DA1A8</string>
+					<string>#8DA0A6</string>
+					<string>#7A9199</string>
+					<string>#527280</string>
+				</array>
+				<key>bubbleColors</key>
+				<array>
+					<string>#B2E8FF</string>
+					<string>#BFECFF</string>
+					<string>#B2E8FF</string>
+					<string>#A6E4FF</string>
+					<string>#A6E4FF</string>
+					<string>#BFECFF</string>
+				</array>
+				<key>bubbleCount</key>
+				<integer>40</integer>
+				<key>bubbleScale</key>
+				<real>1</real>
+				<key>identifier</key>
+				<integer>5090</integer>
+				<key>name</key>
+				<string>Cool Silver</string>
+				<key>parallaxMultiplier</key>
+				<real>0.5</real>
+				<key>thumbnailSeed</key>
+				<integer>0</integer>
+				<key>type</key>
+				<string>Bokeh</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>family</key>
+	<string>Bokeh</string>
+	<key>identifier</key>
+	<integer>5090</integer>
+	<key>logicalScreenClass</key>
+	<string>any</string>
+	<key>name</key>
+	<string>Cool Silver</string>
+	<key>preferredProminentColor</key>
+	<dict>
+		<key>dark</key>
+		<string>#8FA5B0</string>
+		<key>default</key>
+		<string>#B8D5E3</string>
+	</dict>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

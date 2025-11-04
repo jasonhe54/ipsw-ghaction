@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.peakpowermanagerd</string>
+	<key>LimitLoadFromHardware</key>
+	<dict>
+		<key>targettype</key>
+		<array>
+			<string>J271</string>
+			<string>J272</string>
+			<string>J307</string>
+			<string>J308</string>
+			<string>J310</string>
+			<string>J311</string>
+			<string>J407</string>
+			<string>J408</string>
+		</array>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/peakpowermanagerd</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>

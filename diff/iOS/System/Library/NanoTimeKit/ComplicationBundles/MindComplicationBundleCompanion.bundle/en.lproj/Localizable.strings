@@ -1,0 +1,4 @@
+"MINUTES_FORMAT" = "{'minutes': {'one': '%i MINUTE', 'other': '%i MINUTES', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'i'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"APP_NAME" = "Mindfulness";
+"MINUTES_TODAY_FORMAT" = "{'minutes': {'one': '%i MINUTE TODAY', 'other': '%i MINUTES TODAY', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'i'}, 'NSStringLocalizedFormatKey': '%#@minutes@'}";
+"UNLOCK_TO_VIEW" = "UNLOCK TO VIEW";

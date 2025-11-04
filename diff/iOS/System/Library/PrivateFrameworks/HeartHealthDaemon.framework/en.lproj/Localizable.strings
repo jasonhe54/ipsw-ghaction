@@ -1,0 +1,4 @@
+"HEART_RATE_TACHYCARDIA_TITLE" = "High Heart Rate";
+"HEART_RATE_BRADYCARDIA_TITLE" = "Low Heart Rate";
+"HEART_RATE_TACHYCARDIA_MESSAGE_FORMAT" = "Your heart rate rose above %1$@ BPM while you seemed to be inactive for 10 minutes starting at %2$@.";
+"HEART_RATE_BRADYCARDIA_MESSAGE_FORMAT" = "Your heart rate fell below %1$@ BPM for 10 minutes starting at %2$@.";

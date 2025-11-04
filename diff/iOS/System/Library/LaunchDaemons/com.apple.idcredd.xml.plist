@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.idcredd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.idcredd.gc</key>
+			<dict>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>86400</integer>
+					<key>TrySchedulingBefore</key>
+					<integer>28800</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresProtectionClass</key>
+				<string>A</string>
+			</dict>
+			<key>com.apple.idcredd.mafetch</key>
+			<dict>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>86400</integer>
+					<key>TrySchedulingBefore</key>
+					<integer>28800</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresNetworkConnectivity</key>
+				<true/>
+				<key>RequiresProtectionClass</key>
+				<string>A</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.idcredd.biometrics.xpc</key>
+		<true/>
+		<key>com.apple.idcredd.presentment.xpc</key>
+		<true/>
+		<key>com.apple.idcredd.storage.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/idcredd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

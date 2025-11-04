@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>#Include</key>
+	<string>Platform</string>
+	<key>containerConfiguration</key>
+	<dict>
+		<key>app</key>
+		<dict>
+			<key>handledDirectly</key>
+			<true/>
+		</dict>
+		<key>framework</key>
+		<dict>
+			<key>handledDirectly</key>
+			<true/>
+		</dict>
+		<key>plugin</key>
+		<dict>
+			<key>handledDirectly</key>
+			<true/>
+		</dict>
+		<key>systemData</key>
+		<dict>
+			<key>handledDirectly</key>
+			<true/>
+		</dict>
+		<key>systemGroup</key>
+		<dict>
+			<key>handledDirectly</key>
+			<true/>
+		</dict>
+		<key>vpn</key>
+		<dict>
+			<key>handledDirectly</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

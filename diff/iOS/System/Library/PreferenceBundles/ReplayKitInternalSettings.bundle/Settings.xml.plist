@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>getRPHideStatusBar:</string>
+			<key>id</key>
+			<string>RPHideStatusBar</string>
+			<key>label</key>
+			<string>Hide Status Bar or Dynamic Island</string>
+			<key>set</key>
+			<string>setRPHideStatusBar:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>getRPSuppressAlert:</string>
+			<key>id</key>
+			<string>RPSuppressAlert</string>
+			<key>label</key>
+			<string>Suppress Alert</string>
+			<key>set</key>
+			<string>setRPSuppressAlert:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>getRPEnableLockedRecording:</string>
+			<key>id</key>
+			<string>RPEnableLockedRecording</string>
+			<key>label</key>
+			<string>Record when Locked</string>
+			<key>set</key>
+			<string>setRPEnableLockedRecording:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>getRPEnableShortPrivacyTrigger:</string>
+			<key>id</key>
+			<string>RPEnableShortPrivacyTrigger</string>
+			<key>label</key>
+			<string>Enable Short Privacy Trigger</string>
+			<key>set</key>
+			<string>setRPEnableShortPrivacyTrigger:specifier:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>killReplayd</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>confirmation</key>
+			<dict>
+				<key>cancelTitle</key>
+				<string>Cancel</string>
+				<key>isDestructive</key>
+				<string>1</string>
+				<key>okTitle</key>
+				<string>OK</string>
+				<key>prompt</key>
+				<string>Are you sure you want to kill replayd?</string>
+				<key>title</key>
+				<string>Kill replayd</string>
+			</dict>
+			<key>label</key>
+			<string>Kill replayd</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ReplayKit</string>
+</dict>
+</plist>

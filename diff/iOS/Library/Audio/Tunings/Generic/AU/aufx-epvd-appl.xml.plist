@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AUAGCV2</key>
+	<dict>
+		<key>AbsoluteSilenceThdDb</key>
+		<real>-68</real>
+	</dict>
+	<key>AUOneChannelNS</key>
+	<dict>
+		<key>NoiseSuppress</key>
+		<real>-18</real>
+		<key>ThresholdMultiplier</key>
+		<real>1</real>
+		<key>ThresholdMultiplierLUT</key>
+		<data>
+		AAAAAgAAAAA/gAAARXoAAD+AAAA=
+		</data>
+		<key>ThresholdPower</key>
+		<real>0.0</real>
+		<key>V1Mode</key>
+		<integer>0</integer>
+	</dict>
+	<key>ViterbiModelData</key>
+	<dict>
+		<key>MeanNonspeechRegionSec</key>
+		<real>0.80000000000000004</real>
+		<key>MeanSpeechRegionSec</key>
+		<real>1.3</real>
+		<key>ObservationModelParams</key>
+		<data>
+		AAAAAgAAAAg/FeL4Pf4gjD0eLQY9GEs5PRL6TT2AfYo9Xy1FPXv0hz0ckLA9
+		HUdxO5nIwzyH/SI9IYhfPeVoYD3d+nk/JGoiP26wSj0FFDA8g9GWO0zLojvM
+		LvA71XiSOo+phjsH9uc+Pt+VPy1+3zwDOvs9h+ViOyvdsT0uwR06I+evPH+u
+		fD6d1Yc9B7WcPwq83z1lc5g73FN4O3z8fD0TI6k8Z3sIPRSaTD6SF5o9n7lv
+		PwBC7TpnhAk8lx5YO9Tv2T2WngI9+IThPHZ8jzxQXPY65LYJPyJbaj2rGoo9
+		5XHJPJ6V3TxZhF896gHmOq6N3jyF/us9idqyPyL3tjwvUpc+D4hzPHUvZTtM
+		ipU9iLAiPD8T1T2W/Fk8QPPQP0A5Xz2JfVo6/p8XPP8lgTwFooI9jO7EPC8i
+		sT4TZFE9yPABPyMfgz82M6U9wnK+PJIhiTyARAU8w0HHPban6jthEe49MauT
+		Pc/TUT8bPX47gFtxPUCSDztjq5k+Ipb0OeoH6z2gvLY+SjldPTcQ3T7pbVg9
+		3CAtPBq+1jzCrGM9ScroPeVG5Dw/nYE+gQIaPRKW3T73I6k6V2gcPTI3RjuH
+		RRU+LXWJPKPJRjvrWKE7Det3Oogkqz8z3Ho+AyAMPaGb2j12EO86s8xRPQc4
+		2jk/z6E7d8PkPXEAFT8lyNg74dOJPn5JLTpfA8U5tbB7O8dkfTspXJA87czq
+		PACTQD9I+fk+LDrZOJD8DTtoHBI5J1a6PAS2xTrlVwY9GR6cPPxYlj9rDrI+
+		6DKKPjmUvT3carQ9MCpePf3Qhz1K27Y88O/tPECQ8TuLlig8lA3BPGw3IT16
+		iz49IL6XPip+vj4IAos/EEKaP18eHD1QhfU9OrvvOy6FCDzXZjo6yU9SOrRG
+		Qjioe4Y+C4h9P0lEXDvpjzE9KHJaO4a00DzCTfs5YXrXOqKenz5U13I8Rutf
+		PzWT/z0ps247zXqROcAJyDyvS/o6o9SZPQUbVD4//1M94xxEPyPLrTqAgJA7
+		uVsKO1tBBjyeISM944c/O9SlPTu+bPE5sfg6P0loZj08O8g9KJCDOx2J3TyO
+		SqE9zT7rOm4tKzurxtA9++mfPzWu7zvS1WI9GA51PNkMlDrK2gs9uSrpO60O
+		PT5AIbQ8M5BrPyPpAT0ZMEs7h7zxPMPK+DxnmZs9pwiZPPBPdD4tUMw9zQMZ
+		PxPboz8E7mI+A2iKPfTodDzyGjg+B6kTPQYbOjz577Q79xK5PNy56j8e4rU7
+		y1RRPhJc3zvhQhA+IiXROs+BBz0VXik9AN2fO/7HZz8bfZY+GbWWPAOC8jsC
+		AUQ+Hq7bPRzdfTrV+cc9Gga+PQEXsT852YE52l5yPB0wUDwDvjU+PapXPCgH
+		uDsmGvE7GslfOhkDbz8kOIg+IlbtPhdHCz0Vi2Y6C4DVPEjWZzkAghI7OQIa
+		PQhXND9ESNA7+zCCPjTQYToi5Ck5IQZ0PESLzTtCS2Y9HzLLPB1f6z9AFx4+
+		PePHOAc8njpCsfw6Iy2PPGrrzjsEK789PkgKPR96iD9lmGc=
+		</data>
+	</dict>
+</dict>
+</plist>

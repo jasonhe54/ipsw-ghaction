@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>reproduciraj</string>
+				<string>reproduciraj glazbu</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-reproduciranje</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pauziraj</string>
+				<string>pauziraj glazbu</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-pauziranje</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>reproduciraj</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-odabir</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>sljedeće</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-sljedeće</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>prethodno</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-prethodno</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>slučajni slijed</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-slučajni-slijed</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>zapis</string>
+				<string>pjesma</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>sljedeći-prethodni-objekt</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>lista</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>odaberi-objekt-liste</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pjesme od</string>
+				<string>izvođač</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>odaberi-objekt-izvođača</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>album</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>odaberi-objekt-albuma</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>izvođač</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>lista</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>reproduciraj još pjesama poput ove</string>
+				<string>reproduciraj još sličnog</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-genius</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>koja je ovo pjesma</string>
+				<string>kako se ova pjesma zove</string>
+				<string>tko pjeva ovu pjesmu</string>
+				<string>što svira</string>
+				<string>koja pjesma svira</string>
+				<string>čija je ovo pjesma</string>
+				<string>koja grupa svira ovu pjesmu</string>
+				<string>koji bend svira ovu pjesmu</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>naredba-za-identificiranje</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>koja je ovo pjesma?</string>
+			<string>kako se ova pjesma zove?</string>
+			<string>tko pjeva ovu pjesmu?</string>
+			<string>što svira?</string>
+			<string>koja pjesma svira?</string>
+			<string>čija je ovo pjesma?</string>
+			<string>koja grupa svira ovu pjesmu?</string>
+			<string>koji bend svira ovu pjesmu?</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>reproduciraj još pjesama poput ove</string>
+			<string>reproduciraj još sličnog</string>
+		</array>
+		<array>
+			<string>reproduciraj listu</string>
+		</array>
+		<array>
+			<string>reproduciraj izvođača</string>
+			<string>reproduciraj pjesme od</string>
+		</array>
+		<array>
+			<string>reproduciraj album</string>
+		</array>
+		<array>
+			<string>slučajni slijed</string>
+		</array>
+		<array>
+			<string>prethodni zapis</string>
+			<string>prethodna pjesma</string>
+		</array>
+		<array>
+			<string>sljedeći zapis</string>
+			<string>sljedeća pjesma</string>
+		</array>
+		<array>
+			<string>pauziraj</string>
+			<string>pauziraj glazbu</string>
+		</array>
+		<array>
+			<string>reproduciraj</string>
+			<string>reproduciraj glazbu</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-reprodukciju</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-pauzu</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-sljedeće</string>
+				<string>sljedeći-prethodni-objekt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-prethodno</string>
+				<string>sljedeći-prethodni-objekt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-slučajni-slijed</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-odabir</string>
+				<string>odaberi-objekt-albuma</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-odabir</string>
+				<string>odaberi-objekt-izvođača</string>
+				<string>izvođač</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-odabir</string>
+				<string>odaberi-objekt-liste</string>
+				<string>lista</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-genius</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>naredba-za-identifikaciju</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

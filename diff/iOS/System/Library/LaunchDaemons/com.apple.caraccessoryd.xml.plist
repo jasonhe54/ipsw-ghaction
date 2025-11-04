@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIntents</key>
+	<dict>
+		<key>MetadataAbsolutePaths</key>
+		<array>
+			<string>/System/Library/PrivateFrameworks/CarAccessoryDaemon.framework</string>
+		</array>
+	</dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.caraccessoryd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.carkit.carplay-attached</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.carkit.carplay-attached</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.CarAssetUtils.variants</key>
+		<true/>
+		<key>com.apple.caraccessoryframework.applinks</key>
+		<true/>
+		<key>com.apple.caraccessoryframework.cardata</key>
+		<true/>
+		<key>com.apple.caraccessoryframework.nowplaying</key>
+		<true/>
+		<key>com.apple.carkit.appClips.service</key>
+		<true/>
+		<key>com.apple.carkit.sessionBoost.service</key>
+		<true/>
+		<key>com.apple.private.appintents.delegate.com.apple.caraccessoryd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/caraccessoryd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

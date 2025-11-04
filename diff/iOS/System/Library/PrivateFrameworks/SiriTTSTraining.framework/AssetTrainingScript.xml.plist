@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.siri.tts.trainingscript.cmn_CN.default</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>26914</integer>
+		<key>diskSize-generic</key>
+		<integer>169241</integer>
+	</dict>
+	<key>com.apple.siri.tts.trainingscript.cmn_CN.threewords</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>12273</integer>
+		<key>diskSize-generic</key>
+		<integer>75996</integer>
+	</dict>
+	<key>com.apple.siri.tts.trainingscript.en_US.default</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>27936</integer>
+		<key>diskSize-generic</key>
+		<integer>176227</integer>
+	</dict>
+	<key>com.apple.siri.tts.trainingscript.en_US.threewords</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>25464</integer>
+		<key>diskSize-generic</key>
+		<integer>170765</integer>
+	</dict>
+	<key>com.apple.siri.tts.trainingscript.es_MX.default</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>20282</integer>
+		<key>diskSize-generic</key>
+		<integer>127222</integer>
+	</dict>
+	<key>com.apple.siri.tts.trainingscript.es_MX.threewords</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>10159</integer>
+		<key>diskSize-generic</key>
+		<integer>67225</integer>
+	</dict>
+	<key>com.apple.siri.tts.trainingscript.zh_CN.default</key>
+	<dict>
+		<key>assetSize-generic</key>
+		<integer>18689</integer>
+		<key>diskSize-generic</key>
+		<integer>148478</integer>
+	</dict>
+</dict>
+</plist>

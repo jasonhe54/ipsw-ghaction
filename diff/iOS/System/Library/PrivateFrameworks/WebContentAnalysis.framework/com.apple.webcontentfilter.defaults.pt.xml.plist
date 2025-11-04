@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://aquariovgama.marinha.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Aquário Vasco da Gama</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.natureza-brincalhona.pt</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Natureza Brincalhona</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.zoo.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Jardim Zoológico de Lisboa</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.nick.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Nickelodeon</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://disney.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.portugaldospequenitos.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Portugal dos Pequenitos</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://cienciaemcasa.cienciaviva.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Ciência em Casa</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.kidzania.pt</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Kidzania</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.oceanario.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Oceanário</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.canalpanda.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Canal Panda</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.pavconhecimento.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Pavilhão do Conhecimento</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.nationalgeographic.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>National Geographic</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/pt/startpage/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.cienciadivertida.pt/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Ciência Divertida</string>
+		</dict>
+	</array>
+</dict>
+</plist>

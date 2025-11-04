@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.swiftuitracingsupport.xpc</string>
+	<key>LimitLoadToDeveloperMode</key>
+	<true/>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.swiftuitracingsupport.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/swiftuitraced</string>
+	</array>
+</dict>
+</plist>

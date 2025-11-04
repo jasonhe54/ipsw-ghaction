@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.apple.mobileipod-prefsChanged</string>
+			<key>allowMultilineTitleKey</key>
+			<string>YES</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.apple.Music</string>
+			<key>get</key>
+			<string>isDownloadPinsEnabled:</string>
+			<key>id</key>
+			<string>com.apple.Music:DownloadPins</string>
+			<key>key</key>
+			<string>DownloadPins</string>
+			<key>label</key>
+			<string>DOWNLOAD_PINS</string>
+			<key>musicRequiredCapabilities</key>
+			<array>
+				<string>isDownloadSectionVisible</string>
+				<string>isCloudLibraryEnabled</string>
+			</array>
+			<key>set</key>
+			<string>setDownloadPinsEnabled:specifier:</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Music</string>
+</dict>
+</plist>

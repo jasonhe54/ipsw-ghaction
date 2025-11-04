@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<dict>
+		<key>#IfFeatureFlagDisabled</key>
+		<string>CoreMedia/SeparateCodecProcess</string>
+		<key>#Then</key>
+		<true/>
+	</dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.videocodecd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.coremedia.videocodecd.compressionsession</key>
+		<true/>
+		<key>com.apple.coremedia.videocodecd.decompressionsession</key>
+		<true/>
+		<key>com.apple.coremedia.videocodecd.decompressionsession.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/videocodecd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

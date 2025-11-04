@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UNUserNotificationCenter</key>
+	<dict>
+		<key>UNDaemonShouldReceiveBackgroundResponses</key>
+		<true/>
+		<key>UNDefaultSettings</key>
+		<dict>
+			<key>UNSettingAlerts</key>
+			<true/>
+			<key>UNSettingBadges</key>
+			<true/>
+			<key>UNSettingCarPlay</key>
+			<false/>
+			<key>UNSettingLockScreen</key>
+			<true/>
+			<key>UNSettingNotificationCenter</key>
+			<true/>
+			<key>UNSettingSounds</key>
+			<true/>
+		</dict>
+		<key>UNHideSettings</key>
+		<true/>
+		<key>UNNotificationIcons</key>
+		<dict>
+			<key>UNNotificationIconCarPlay</key>
+			<string>ThreatNotificationIcon</string>
+			<key>UNNotificationIconDefault</key>
+			<string>ThreatNotificationIcon</string>
+			<key>UNNotificationIconSettings</key>
+			<string>ThreatNotificationIcon</string>
+			<key>UNNotificationIconSettingsSheet</key>
+			<string>ThreatNotificationIcon</string>
+		</dict>
+		<key>UNSettingAlwaysShowPreviews</key>
+		<true/>
+		<key>UNSuppressUserAuthorizationPrompt</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

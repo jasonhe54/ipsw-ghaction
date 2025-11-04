@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>VOICE_MEMOS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>VOICE_MEMOS_KEYWORDS</string>
+			<key>label</key>
+			<string>VOICE_MEMOS</string>
+			<key>searchSectionID</key>
+			<string>VOICE_MEMOS</string>
+			<key>searchURL</key>
+			<string>prefs:root=VOICE_MEMOS</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>VOICE_MEMOS</string>
+			<key>keywords</key>
+			<string>CLEAR_DELETED_KEYWORDS</string>
+			<key>label</key>
+			<string>CLEAR_DELETED</string>
+			<key>searchSectionID</key>
+			<string>VOICE_MEMOS</string>
+			<key>searchURL</key>
+			<string>prefs:root=VOICE_MEMOS&amp;path=RCVoiceMemosRecentlyDeletedWindowKey</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>VOICE_MEMOS</string>
+			<key>keywords</key>
+			<string>AUDIO_QUALITY_KEYWORDS</string>
+			<key>label</key>
+			<string>AUDIO_QUALITY</string>
+			<key>searchSectionID</key>
+			<string>VOICE_MEMOS</string>
+			<key>searchURL</key>
+			<string>prefs:root=VOICE_MEMOS&amp;path=RCVoiceMemosAudioQualityKey</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>VOICE_MEMOS</string>
+			<key>keywords</key>
+			<string>LOCATIONBASED_NAMING_KEYWORDS</string>
+			<key>label</key>
+			<string>LOCATIONBASED_NAMING</string>
+			<key>searchSectionID</key>
+			<string>VOICE_MEMOS</string>
+			<key>searchURL</key>
+			<string>prefs:root=VOICE_MEMOS#RCVoiceMemosUseLocationBasedNaming</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>WAKE_DURATION_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>WAKE_DURATION_KEYWORDS</string>
+			<key>label</key>
+			<string>WAKE_DURATION</string>
+			<key>searchSectionID</key>
+			<string>DISPLAY_AND_BRIGHTNESS_ID</string>
+			<key>searchURL</key>
+			<string>bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>ON_TAP_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>ON_TAP_KEYWORDS</string>
+			<key>label</key>
+			<string>ON_TAP</string>
+			<key>searchSectionID</key>
+			<string>DISPLAY_AND_BRIGHTNESS_ID</string>
+			<key>searchURL</key>
+			<string>bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY#ON_TAP_GROUP_ID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>WAKE_FOR_15_SECONDS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>WAKE_FOR_15_SECONDS_KEYWORDS</string>
+			<key>label</key>
+			<string>WAKE_FOR_15_SECONDS</string>
+			<key>searchSectionID</key>
+			<string>DISPLAY_AND_BRIGHTNESS_ID</string>
+			<key>searchURL</key>
+			<string>bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY#SHORT_WAKE_ID</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>WAKE_FOR_70_SECONDS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>WAKE_FOR_70_SECONDS_KEYWORDS</string>
+			<key>label</key>
+			<string>WAKE_FOR_70_SECONDS</string>
+			<key>searchSectionID</key>
+			<string>DISPLAY_AND_BRIGHTNESS_ID</string>
+			<key>searchURL</key>
+			<string>bridge:root=DISPLAY_AND_BRIGHTNESS_ID&amp;path=WAKE_DURATION_SELECTION_KEY#LONG_WAKE_ID</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Category</key>
+	<string>Ringtone</string>
+	<key>DefaultVADToSystemSoundVADVolumeRatio</key>
+	<dict>
+		<key>Default</key>
+		<dict>
+			<key>Headphone</key>
+			<real>0.59999999999999998</real>
+			<key>Speaker</key>
+			<real>0.59999999999999998</real>
+		</dict>
+		<key>KeyPressed</key>
+		<dict>
+			<key>Headphone</key>
+			<real>0.80000000000000004</real>
+			<key>Speaker</key>
+			<real>0.80000000000000004</real>
+		</dict>
+		<key>ScreenLocked</key>
+		<dict>
+			<key>Headphone</key>
+			<real>0.59999999999999998</real>
+			<key>Speaker</key>
+			<real>0.59999999999999998</real>
+		</dict>
+		<key>TouchTone</key>
+		<dict>
+			<key>Headphone</key>
+			<real>0.01</real>
+			<key>Speaker</key>
+			<real>0.02</real>
+		</dict>
+	</dict>
+	<key>One</key>
+	<real>1.5</real>
+	<key>Zero</key>
+	<real>0.5</real>
+</dict>
+</plist>

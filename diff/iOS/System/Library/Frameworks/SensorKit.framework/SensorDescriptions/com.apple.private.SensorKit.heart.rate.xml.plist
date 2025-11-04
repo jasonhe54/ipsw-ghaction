@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AuthService</key>
+	<string>kTCCServiceSensorKitMotionHeartRate</string>
+	<key>AuthorizationStoreCohort</key>
+	<string>locationd</string>
+	<key>AuthorizationVersion</key>
+	<integer>160000</integer>
+	<key>LegacyName</key>
+	<string>com.apple.private.SensorKit.heart.rate</string>
+	<key>LegacySampleClass</key>
+	<string>SRLegacyHeartRateShim</string>
+	<key>LegacySampleClassLinkedBefore</key>
+	<integer>1114112</integer>
+	<key>Name</key>
+	<string>com.apple.SensorKit.heart.rate</string>
+	<key>PublicEntitlementValue</key>
+	<string>heart-rate</string>
+	<key>RelatedSettingsCategories</key>
+	<array>
+		<string>Motion</string>
+	</array>
+	<key>SRInfoPlistAuthCategory</key>
+	<string>SRSensorUsageHeartRate</string>
+	<key>SampleClass</key>
+	<string>CMHighFrequencyHeartRateData</string>
+	<key>SupportedPlatforms</key>
+	<dict>
+		<key>Watch</key>
+		<dict>
+			<key>Enabled</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

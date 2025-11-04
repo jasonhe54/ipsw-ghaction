@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Platform_iOS</key>
+	<dict>
+		<key>ErrorSignatureDenyList</key>
+		<dict>
+			<key>DenyAll</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Platform_macOS</key>
+	<dict>
+		<key>ErrorSignatureDenyList</key>
+		<dict>
+			<key>DenyAll</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Platform_tvOS</key>
+	<dict>
+		<key>ErrorSignatureDenyList</key>
+		<dict>
+			<key>DenyAll</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Platform_watchOS</key>
+	<dict>
+		<key>ErrorSignatureDenyList</key>
+		<dict>
+			<key>DenyAll</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>SupportedOperatingSystems</key>
+	<array>
+		<string>tvOS</string>
+		<string>iOS</string>
+		<string>watchOS</string>
+		<string>macOS</string>
+	</array>
+	<key>com.apple.siri.audio</key>
+	<string>1.5</string>
+</dict>
+</plist>

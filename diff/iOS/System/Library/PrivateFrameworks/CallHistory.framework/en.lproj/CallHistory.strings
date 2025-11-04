@@ -1,0 +1,10 @@
+"BLOCKED_CALLER" = "No Caller ID";
+"UNKNOWN_CALLER" = "Unknown";
+"INCOMING_CALL" = "Incoming Call";
+"TIME_INTERVAL_DAYS" = "{'days': {'one': '%lu Day', 'other': '%lu Days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@days@'}";
+"CANCELLED_CALL" = "Canceled Call";
+"UNKNOWN_LABEL" = "unknown";
+"OUTGOING_CALL" = "Outgoing Call";
+"MISSED_CALL" = "Missed Call";
+"TIME_INTERVAL_FOREVER" = "Forever";
+"TIME_INTERVAL_YEARS" = "{'years': {'one': '%lu Year', 'other': '%lu Years', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@years@'}";

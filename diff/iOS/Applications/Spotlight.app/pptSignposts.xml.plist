@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ktrace</key>
+	<array/>
+	<key>os</key>
+	<array>
+		<dict>
+			<key>aggregateStatistics</key>
+			<array>
+				<string>Mean</string>
+				<string>Median</string>
+				<string>SD</string>
+			</array>
+			<key>category</key>
+			<string>parsecd</string>
+			<key>description</key>
+			<string>captures the parsecd launch time</string>
+			<key>name</key>
+			<string>launch</string>
+			<key>subsystem</key>
+			<string>com.apple.parsec</string>
+			<key>targetTests</key>
+			<array>
+				<string>ParsecdLaunchTime</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>aggregateStatistics</key>
+			<array>
+				<string>Mean</string>
+				<string>Median</string>
+				<string>SD</string>
+			</array>
+			<key>category</key>
+			<string>PARSession</string>
+			<key>description</key>
+			<string>captures the load time of the siri suggestions allowlist</string>
+			<key>name</key>
+			<string>load_siri_suggestions_allowlist</string>
+			<key>subsystem</key>
+			<string>com.apple.parsec</string>
+			<key>targetTests</key>
+			<array>
+				<string>ParsecdLaunchTime</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>aggregateStatistics</key>
+			<array>
+				<string>Mean</string>
+				<string>Median</string>
+				<string>SD</string>
+			</array>
+			<key>category</key>
+			<string>PARResponse</string>
+			<key>description</key>
+			<string>captures the time used for filtering siri suggestions</string>
+			<key>name</key>
+			<string>filter_siri_suggestions</string>
+			<key>subsystem</key>
+			<string>com.apple.parsec</string>
+			<key>targetTests</key>
+			<array>
+				<string>ParsecdLaunchTime</string>
+			</array>
+			<key>unit</key>
+			<string>ms</string>
+		</dict>
+	</array>
+</dict>
+</plist>

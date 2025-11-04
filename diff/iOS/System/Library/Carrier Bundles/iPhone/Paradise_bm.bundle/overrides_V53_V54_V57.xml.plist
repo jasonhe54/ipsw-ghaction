@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IMSConfig</key>
+	<dict>
+		<key>SMS</key>
+		<dict>
+			<key>SMSBundleToVoice</key>
+			<false/>
+			<key>SupportedDomains</key>
+			<dict>
+				<key>GSM</key>
+				<false/>
+				<key>LTE</key>
+				<true/>
+				<key>UMTS</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

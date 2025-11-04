@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DBTelemetry</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>FUDiagnostics</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>FUTelemetry</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>SentryImportContext</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>SentryPrivateContext</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+	<key>WRPlaybackContext</key>
+	<dict>
+		<key>Signpost-Persisted</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

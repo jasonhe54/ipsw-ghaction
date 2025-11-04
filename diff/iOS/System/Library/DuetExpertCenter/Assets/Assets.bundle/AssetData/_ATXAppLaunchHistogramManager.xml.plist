@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APRConfirmsRejectsMaxIntentCount</key>
+	<integer>50</integer>
+	<key>APRConfirmsRejectsPruningMethod</key>
+	<integer>1</integer>
+	<key>APRIntentDonationMaxIntentCount</key>
+	<integer>50</integer>
+	<key>APRIntentDonationPruningMethod</key>
+	<integer>1</integer>
+	<key>ActionsConfirmsRejectsMaxActionCount</key>
+	<integer>50</integer>
+	<key>ActionsConfirmsRejectsPruningMethod</key>
+	<integer>1</integer>
+	<key>AppCoarseLocationMaxKeyCount</key>
+	<integer>500</integer>
+	<key>AppJointContextMaxKeyCount</key>
+	<integer>1000</integer>
+	<key>AppJointContextPruningMethod</key>
+	<integer>2</integer>
+	<key>AppSpecificLocationMaxKeyCount</key>
+	<real>1000</real>
+	<key>AppZoom7GeoHashMaxKeyCount</key>
+	<integer>100</integer>
+	<key>MaxSSIDCount</key>
+	<integer>30</integer>
+	<key>PoiCategoryMaxCount</key>
+	<integer>25</integer>
+	<key>SSIDPruningMethod</key>
+	<integer>1</integer>
+</dict>
+</plist>
