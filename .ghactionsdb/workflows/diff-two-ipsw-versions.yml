@@ -7,3 +7,6 @@ ipsw:
   deviceIdentifierField: device_identifier
   versionNameField: null
   buildIdentifierFields: [base_version_build_id, new_version_build_id]
+  filterBuildIdByIPSWType:
+    base_version_build_id: base_analysis_type
+    new_version_build_id: new_analysis_type
