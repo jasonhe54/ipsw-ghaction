@@ -105,43 +105,32 @@ jobs:
           mkdir -p ./ipsw_files
           mkdir -p ./ipsw_files/out
 
-      - name: 8. Normalize device identifier for cache key
+      - name: 8. Normalize device identifier
         id: normalize-key
         run: |
           NORMALIZED_ID=$(echo "${{ inputs.device_identifier }}" | tr ',' '_')
-          echo "Normalized device ID for cache: $NORMALIZED_ID"
+          echo "Normalized device ID: $NORMALIZED_ID"
           echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
 
-      - name: 9. Check for cached IPSW file
-        id: cache-ipsw
-        uses: actions/cache@v4
-        with:
-          path: ./ipsw_files
-          key: ipsw-file-release-${{ inputs.os_type }}-${{ steps.normalize-key.outputs.id }}-${{ inputs.release_build }}
-
-      - name: 10. Download IPSW (if not cached)
+      - name: 9. Download IPSW
         run: |
-          if [[ "${{ steps.cache-ipsw.outputs.cache-hit }}" == "true" ]]; then
-            echo "✅ IPSW cache hit. Skipping download."
-          else
-            echo "Cache miss. Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.release_build }} for device ${{ inputs.device_identifier }}"
-            
-            ipsw dl appledb --os "${{ inputs.os_type }}" \
-              --build "${{ inputs.release_build }}" \
-              --device "${{ inputs.device_identifier }}" \
-              --output ./ipsw_files
-          fi
+          echo "Downloading full IPSW for ${{ inputs.os_type }} build ${{ inputs.release_build }} for device ${{ inputs.device_identifier }}"
+          
+          ipsw dl appledb --os "${{ inputs.os_type }}" \
+            --build "${{ inputs.release_build }}" \
+            --device "${{ inputs.device_identifier }}" \
+            --output ./ipsw_files
           
           DOWNLOADED_FILE=$(find ./ipsw_files -name "*.ipsw" | head -n 1)
           if [[ -z "$DOWNLOADED_FILE" ]]; then
-            echo "::error::Failed to find IPSW file (from cache or download)."
+            echo "::error::Failed to find IPSW file (from download)."
             exit 1
           fi
           
           echo "IPSW_FILE=${DOWNLOADED_FILE}" >> $GITHUB_ENV
           echo "Using IPSW: $DOWNLOADED_FILE"
 
-      - name: 11. Extract and Decrypt Filesystem DMG
+      - name: 10. Extract and Decrypt Filesystem DMG
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
           ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
@@ -174,7 +163,7 @@ jobs:
           echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
           echo "Decrypted DMG at: $DECRYPTED_DMG"
 
-      - name: 12. Mount Decrypted DMG
+      - name: 11. Mount Decrypted DMG
         run: |
           echo "Mounting DMG..."
           hdiutil attach "${{ env.DECRYPTED_DMG }}" -mountpoint ./mounted_dmg
@@ -182,13 +171,13 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 13. Clean and create output directory
+      - name: 12. Clean and create output directory
         run: |
           echo "Cleaning and ensuring target directory exists: ${{ inputs.release_type }}"
           rm -rf "./${{ inputs.release_type }}"
           mkdir -p "./${{ inputs.release_type }}"
 
-      - name: 14. Run Python Analyzer Script and Log Stats
+      - name: 13. Run Python Analyzer Script and Log Stats
         run: |
           REPO_SAVE_PATH="${{ inputs.release_type }}/${{ inputs.os_type }}"
           
@@ -244,7 +233,7 @@ jobs:
             run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
           fi
 
-      - name: 15. Sanitize File Paths
+      - name: 14. Sanitize File Paths
         run: |
           TARGET_DIR="./${{ inputs.release_type }}"
           echo "Searching for and renaming files/directories with colons in $TARGET_DIR..."
@@ -259,15 +248,15 @@ jobs:
           ' {} \;
           echo "Sanitization complete."
 
-      - name: 16. Unmount DMG
+      - name: 15. Unmount DMG
         if: always()
         run: |
           echo "Unmounting DMG..."
           hdiutil detach ./mounted_dmg -force
 
-      - name: 17. Upload Analysis Artifact
+      - name: 16. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
           name: analysis-${{ inputs.release_type }}-${{ inputs.os_type }}-${{ inputs.release_build }}-${{ inputs.device_identifier }}
           path: ./${{ inputs.release_type }}/${{ inputs.os_type }}
-          retention-days: 5
+          retention-days: 90
