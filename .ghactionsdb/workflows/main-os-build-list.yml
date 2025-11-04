@@ -30,6 +30,10 @@ osBuildList:
           releaseBuildIdentifier: "23B85"
           releaseDate: "2025-11-03"
           isBeta: false
+        - releaseName: "iOS 26.2 Developer Beta 1"
+          releaseBuildIdentifier: "23C5027f"
+          releaseDate: "2025-11-04"
+          isBeta: true
   iPadOS:
     - deviceIdentifier: "iPad17,1"
       builds:
@@ -57,6 +61,10 @@ osBuildList:
           releaseBuildIdentifier: "23B85"
           releaseDate: "2025-11-03"
           isBeta: false
+        - releaseName: "iPadOS 26.2 Developer Beta 1"
+          releaseBuildIdentifier: "23C5027f"
+          releaseDate: "2025-11-04"
+          isBeta: true
   macOS:
     - deviceIdentifier: "Mac17,2"
       builds:
@@ -103,3 +111,7 @@ osBuildList:
           releaseBuildIdentifier: "23N49"
           releaseDate: "2025-11-03"
           isBeta: false
+        - releaseName: "visionOS 26.2 Developer Beta 1"
+          releaseBuildIdentifier: "23N5279e"
+          releaseDate: "2025-11-04"
+          isBeta: true
