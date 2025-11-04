@@ -7,16 +7,3 @@ ipsw:
   deviceIdentifierField: device_identifier
   versionNameField: beta_version
   buildIdentifierField: beta_build
-  deviceOptions:
-    iOS:
-      - name: "iPhone 17 Pro"
-        identifier: "iPhone18,1"
-    iPadOS:
-      - name: "iPad Pro 11-inch (M5)"
-        identifier: "iPad17,1"
-    macOS:
-      - name: "MacBook Pro 14-inch (M5)"
-        identifier: "Mac17,2"
-    visionOS:
-      - name: "Apple Vision Pro (M5)"
-        identifier: "RealityDevice17,1"

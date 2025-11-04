@@ -1,2 +1,9 @@
 branchFields:
 - pr_base_branch
+
+type: ipsw
+ipsw:
+  osField: os_type
+  deviceIdentifierField: device_identifier
+  versionNameField: null
+  buildIdentifierFields: [base_version_build_id, new_version_build_id]
