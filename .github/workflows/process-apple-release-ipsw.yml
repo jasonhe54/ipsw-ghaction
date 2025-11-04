@@ -1,4 +1,4 @@
-name: 1. Process Apple Beta IPSW
+name: 1. Process Apple Release IPSW
 
 on:
   workflow_dispatch:
@@ -18,12 +18,12 @@ on:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
         type: string
-      beta_version:
+      release_version:
         description: 'Version (e.g., 26.0). Used for the version tag.'
         required: true
         type: string
-      beta_build:
-        description: 'Build ID (e.g., 23B5073a). Used for downloading.'
+      release_build:
+        description: 'Build ID (e.g., 23B82). Used for downloading.'
         required: true
         type: string
       checkout_branch:
