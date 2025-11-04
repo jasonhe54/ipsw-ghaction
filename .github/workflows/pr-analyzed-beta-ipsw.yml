@@ -35,33 +35,6 @@ on:
         required: false
         type: string
         default: 'main'
-  workflow_call:
-    inputs:
-      os_type:
-        description: 'Operating System. Accepts: iOS, iPadOS, macOS, visionOS'
-        required: true
-        type: string
-      device_identifier:
-        description: 'Device Identifier (e.g., iPhone18,1)'
-        required: true
-        type: string
-      beta_version:
-        description: 'Version (e.g., 26.0). Used for PR title.'
-        required: true
-        type: string
-      beta_build:
-        description: 'Build ID (e.g., 23B5073a). Used for artifact name.'
-        required: true
-        type: string
-      run_id:
-        description: 'The specific Run ID of the "Analyzer" workflow to pull from.'
-        required: true
-        type: string
-      pr_base_branch:
-        description: 'The base branch to create the Pull Request against.'
-        required: false
-        type: string
-        default: 'main'
 
 jobs:
   create-pr:
