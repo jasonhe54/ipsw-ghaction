@@ -3,6 +3,16 @@ branchFields:
 
 type: ipsw
 ipsw:
+  primaryRepo: jasonhe54/ipsw-ghaction
+  subrepos:
+    - name: iOS
+      repo: jasonhe54/ipsw-ios-ghaction
+    - name: iPadOS
+      repo: jasonhe54/ipsw-ipados-ghaction
+    - name: macOS
+      repo: jasonhe54/ipsw-macos-ghaction
+    - name: visionOS
+      repo: jasonhe54/ipsw-visionos-ghaction
   osField: os_type
   deviceIdentifierField: device_identifier
   versionNameField: beta_version

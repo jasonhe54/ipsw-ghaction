@@ -36,6 +36,35 @@ on:
         required: true
         type: boolean
         default: true
+  workflow_call:
+    inputs:
+      os_type:
+        description: 'Operating System. Accepts: iOS, iPadOS, macOS, visionOS'
+        required: true
+        type: string
+      device_identifier:
+        description: 'Device Identifier (e.g., iPhone18,1)'
+        required: true
+        type: string
+      beta_version:
+        description: 'Version (e.g., 26.0). Used for the version tag.'
+        required: true
+        type: string
+      beta_build:
+        description: 'Build ID (e.g., 23B5073a). Used for downloading.'
+        required: true
+        type: string
+      checkout_branch:
+        description: 'The base branch (for checkout, not PR since PR is handled by the other workflow).'
+        required: false
+        type: string
+        default: 'main'
+      exclude_info_plist:
+        description: 'Exclude all files named "Info.plist" from processing.'
+        required: true
+        type: boolean
+        default: true
+
 
 jobs:
   process-ipsw:
@@ -208,7 +237,7 @@ jobs:
 
             FILES_FOUND=$(echo "$JSON_OUTPUT" | jq .files_found)
             FILES_PROCESSED=$(echo "$JSON_OUTPUT" | jq .valid_files_processed)
-            ERROR_COUNT=$(echo "$JSON_SUMMARY" | jq .error_count)
+            ERROR_COUNT=$(echo "$JSON_OUTPUT" | jq .error_count)
             AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
 
             # This log line is good confirmation *after* the python script's logs
