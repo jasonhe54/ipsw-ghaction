@@ -7,6 +7,3 @@ ipsw:
   deviceIdentifierField: device_identifier
   versionNameField: release_version
   buildIdentifierField: release_build
-  filterBuildIdByIPSWType:
-    base_version_build_id: release_build
-    new_version_build_id: release_build
