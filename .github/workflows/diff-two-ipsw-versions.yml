@@ -1,0 +1,206 @@
+name: Create Version to Version Diff
+
+on:
+  workflow_dispatch:
+    inputs:
+      os_type:
+        description: 'Operating System (iOS, iPadOS, macOS, visionOS)'
+        required: true
+        type: choice
+        options:
+          - iOS
+          - iPadOS
+          - macOS
+          - visionOS
+      device_identifier:
+        description: 'Device Identifier (e.g., iPhone18,1)'
+        required: true
+        type: string
+      
+      # --- BASE VERSION ---
+      base_analysis_type:
+        description: '[BASE] Type of analysis (beta or release)'
+        required: true
+        type: choice
+        options: [beta, release]
+        default: beta
+      base_version_name:
+        description: '[BASE] Version (e.g., 18.0). For the PR title.'
+        required: true
+        type: string
+      base_version_build_id:
+        description: '[BASE] Build ID (e.g., 22A335). For artifact name.'
+        required: true
+        type: string
+      base_run_id:
+        description: '[BASE] The Run ID of the "Analyzer" workflow to pull from.'
+        required: true
+        type: string
+
+      # --- NEW VERSION ---
+      new_analysis_type:
+        description: '[NEW] Type of analysis (beta or release)'
+        required: true
+        type: choice
+        options: [beta, release]
+        default: beta
+      new_version_name:
+        description: '[NEW] Version (e.g., 18.1). For the PR title.'
+        required: true
+        type: string
+      new_version_build_id:
+        description: '[NEW] Build ID (e.g., 22A5282m). For artifact name.'
+        required: true
+        type: string
+      new_run_id:
+        description: '[NEW] The Run ID of the "Analyzer" workflow to pull from.'
+        required: true
+        type: string
+        
+      pr_base_branch:
+        description: 'The base branch to create the Pull Request against (e.g., main).'
+        required: false
+        type: string
+        default: 'main'
+
+jobs:
+  create-pr-diff:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: read
+    
+    steps:
+      - name: 1. Set environment variables
+        run: |
+          echo "BASE_VERSION_STRING=${{ inputs.base_version_name }} (${{ inputs.base_version_build_id }})" >> $GITHUB_ENV
+          echo "NEW_VERSION_STRING=${{ inputs.new_version_name }} (${{ inputs.new_version_build_id }})" >> $GITHUB_ENV
+          
+          echo "BASE_ARTIFACT_PREFIX=analysis-${{ inputs.base_analysis_type }}" >> $GITHUB_ENV
+          echo "NEW_ARTIFACT_PREFIX=analysis-${{ inputs.new_analysis_type }}" >> $GITHUB_ENV
+
+          # This path is where the files will live *in the git branch*
+          echo "DIR_PATH=diff" >> $GITHUB_ENV
+          
+          # This sets the branch and PR title prefix
+          if [[ "${{ inputs.new_analysis_type }}" == "beta" ]]; then
+            echo "PR_PREFIX=Diff [Beta]" >> $GITHUB_ENV
+            echo "BRANCH_PREFIX=auto-diff-beta" >> $GITHUB_ENV
+          else
+            echo "PR_PREFIX=Diff [Release]" >> $GITHUB_ENV
+            echo "BRANCH_PREFIX=auto-diff-release" >> $GITHUB_ENV
+          fi
+
+      - name: 2. Log Inputs to Job Summary
+        run: |
+          echo "### 📦 Workflow: 2. Create Version-vs-Version Diff" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| **Base Version** | \`${{ env.BASE_VERSION_STRING }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Base Type** | \`${{ inputs.base_analysis_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Base Run ID** | \`${{ inputs.base_run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| **New Version** | \`${{ env.NEW_VERSION_STRING }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **New Type** | \`${{ inputs.new_analysis_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **New Run ID** | \`${{ inputs.new_run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+
+      - name: 3. Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.pr_base_branch }}
+
+      - name: 4. Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: 5. Create new branch
+        run: |
+          set -euo pipefail
+          OS_TYPE_LOWER=$(echo "${{ inputs.os_type }}" | tr '[:upper:]' '[:lower:]')
+          CLEAN_TAG=$(echo "${OS_TYPE_LOWER}-${{ inputs.new_version_build_id }}-vs-${{ inputs.base_version_build_id }}" | sed 's/[^a-zA-Z0-9-]/_/g')
+          TIMESTAMP=$(date +'%Y%m%d-%H%M%S')
+          NEW_BRANCH="${{ env.BRANCH_PREFIX }}/${CLEAN_TAG}-${TIMESTAMP}"
+          
+          echo "Creating branch: ${NEW_BRANCH}"
+          git checkout -B "${NEW_BRANCH}"
+          echo "NEW_BRANCH=${NEW_BRANCH}" >> $GITHUB_ENV
+
+      - name: 6. Download and commit BASE version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          ARTIFACT_NAME="${{ env.BASE_ARTIFACT_PREFIX }}-${{ inputs.os_type }}-${{ inputs.base_version_build_id }}-${{ inputs.device_identifier }}"
+          TARGET_DIR="${{ env.DIR_PATH }}/${{ inputs.os_type }}"
+          
+          echo "Downloading BASE artifact: ${ARTIFACT_NAME}"
+          mkdir -p "${TARGET_DIR}"
+          gh run download ${{ inputs.base_run_id }} --name "${ARTIFACT_NAME}" --dir "${TARGET_DIR}"
+          
+          echo "Verifying BASE download..."
+          if [ -z "$(ls -A "${TARGET_DIR}")" ]; then
+            echo "::error::Verification failed! The directory '${TARGET_DIR}' is empty."
+            echo "Base artifact download failed. Searched for: ${ARTIFACT_NAME}"
+            exit 1
+          fi
+          
+          echo "Committing BASE version: ${{ env.BASE_VERSION_STRING }}"
+          git add .
+          git commit -m "Base: ${{ inputs.os_type }} ${{ env.BASE_VERSION_STRING }}"
+
+      - name: 7. Clean directory for new version
+        run: |
+          echo "Cleaning directory for new artifact..."
+          rm -rf ${{ env.DIR_PATH }}/${{ inputs.os_type }}/*
+
+      - name: 8. Download and commit NEW version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          ARTIFACT_NAME="${{ env.NEW_ARTIFACT_PREFIX }}-${{ inputs.os_type }}-${{ inputs.new_version_build_id }}-${{ inputs.device_identifier }}"
+          TARGET_DIR="${{ env.DIR_PATH }}/${{ inputs.os_type }}"
+
+          echo "Downloading NEW artifact: ${ARTIFACT_NAME}"
+          gh run download ${{ inputs.new_run_id }} --name "${ARTIFACT_NAME}" --dir "${TARGET_DIR}"
+
+          echo "Verifying NEW download..."
+          if [ -z "$(ls -A "${TARGET_DIR}")" ]; then
+            echo "::error::Verification failed! The directory '${TARGET_DIR}' is empty."
+            echo "New artifact download failed. Searched for: ${ARTIFACT_NAME}"
+            exit 1
+          fi
+
+          echo "Committing NEW version: ${{ env.NEW_VERSION_STRING }}"
+          git add .
+          git commit -m "New: ${{ inputs.os_type }} ${{ env.NEW_VERSION_STRING }}"
+
+      - name: 9. Push and Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          
+          echo "Pushing branch ${{ env.NEW_BRANCH }}..."
+          git push --set-upstream origin "${{ env.NEW_BRANCH }}"
+          
+          echo "Creating Pull Request..."
+          PR_TITLE="${{ env.PR_PREFIX }}: ${{ inputs.os_type }} ${{ inputs.new_version_name }} vs ${{ inputs.base_version_name }}"
+          PR_BODY="Automated diff for \`${{ inputs.os_type }}\` on device \`${{ inputs.device_identifier }}\`.
+          
+          - **New Version (Head):** \`${{ env.NEW_VERSION_STRING }}\` (Type: \`${{ inputs.new_analysis_type }}\`, Run: \`${{ inputs.new_run_id }}\`)
+          - **Base Version (Base):** \`${{ env.BASE_VERSION_STRING }}\` (Type: \`${{ inputs.base_analysis_type }}\`, Run: \`${{ inputs.base_run_id }}\`)
+          
+          This PR shows the file-by-file changes between these two versions. **Do not merge.**"
+          
+          gh pr create \
+            --base "${{ inputs.pr_base_branch }}" \
+            --head "${{ env.NEW_BRANCH }}" \
+            --title "${PR_TITLE}" \
+            --body "${PR_BODY}"

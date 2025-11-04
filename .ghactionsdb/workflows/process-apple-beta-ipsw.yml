@@ -11,40 +11,12 @@ ipsw:
     iOS:
       - name: "iPhone 17 Pro"
         identifier: "iPhone18,1"
-        builds:
-          - releaseName: "iOS 26.1 Beta 4"
-            releaseBuildIdentifier: "23B5073a"
-            releaseDate: "2025-10-20"
-          - releaseName: "iOS 26.1 RC"
-            releaseBuildIdentifier: "23B82"
-            releaseDate: "2025-10-28"
     iPadOS:
       - name: "iPad Pro 11-inch (M5)"
         identifier: "iPad17,1"
-        builds:
-          - releaseName: "iPadOS 26.1 Beta 4"
-            releaseBuildIdentifier: "23B5073a"
-            releaseDate: "2025-10-20"
-          - releaseName: "iPadOS 26.1 RC"
-            releaseBuildIdentifier: "23B82"
-            releaseDate: "2025-10-28"
     macOS:
       - name: "MacBook Pro 14-inch (M5)"
         identifier: "Mac17,2"
-        builds:
-          - releaseName: "macOS 26.1 Beta 4"
-            releaseBuildIdentifier: "25B5072a"
-            releaseDate: "2025-10-20"
-          - releaseName: "macOS 26.1 RC"
-            releaseBuildIdentifier: "25B77"
-            releaseDate: "2025-10-28"
     visionOS:
       - name: "Apple Vision Pro (M5)"
         identifier: "RealityDevice17,1"
-        builds:
-          - releaseName: "visionOS 26.1 Beta 4"
-            releaseBuildIdentifier: "23N5042a"
-            releaseDate: "2025-10-20"
-          - releaseName: "visionOS 26.1 RC"
-            releaseBuildIdentifier: "23N48"
-            releaseDate: "2025-10-28"
