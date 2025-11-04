@@ -6,13 +6,13 @@ ipsw:
   primaryRepo: jasonhe54/ipsw-ghaction
   subrepos:
     - name: iOS
-      repo: jasonhe54/ipsw-ios-ghaction
+      repo: jasonhe54/ipsw-iOS-ghaction
     - name: iPadOS
-      repo: jasonhe54/ipsw-ipados-ghaction
+      repo: jasonhe54/ipsw-iPadOS-ghaction
     - name: macOS
-      repo: jasonhe54/ipsw-macos-ghaction
+      repo: jasonhe54/ipsw-macOS-ghaction
     - name: visionOS
-      repo: jasonhe54/ipsw-visionos-ghaction
+      repo: jasonhe54/ipsw-visionOS-ghaction
   osField: os_type
   deviceIdentifierField: device_identifier
   versionNameField: beta_version
