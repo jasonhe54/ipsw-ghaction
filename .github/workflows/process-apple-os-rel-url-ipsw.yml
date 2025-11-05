@@ -1,4 +1,4 @@
-name: Process Apple OS Release via Direct IPSW URL
+name: 2. Process Apple OS URL IPSW
 
 on:
   workflow_dispatch:
@@ -56,7 +56,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
           echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
-          echo "| **IPSW URL** | \`${{ inputs.ipsw_url }}\` |" >> $GITHUB_STEP_SUMMARY # <--- NEW
+          echo "| **IPSW URL** | \`${{ inputs.ipsw_url }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Release Type** | \`${{ inputs.release_type }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
@@ -71,12 +71,32 @@ jobs:
         with:
           ref: ${{ inputs.checkout_branch }}
 
-      - name: 3. Install Tools (ipsw and aeota)
+      # --- MODIFIED: Step 3 now builds 'aeota' from source ---
+      - name: 3. Install Tools (ipsw and build aeota)
         run: |
+          echo "Installing blacktop/ipsw..."
           brew install blacktop/tap/ipsw
-          brew install dhinakg/tap/aeota # <--- NEW
+          
+          echo "Cloning and building dhinakg/aeota..."
+          git clone https://github.com/dhinakg/aeota.git
+          cd aeota
+          
+          echo "Setting up Python venv..."
+          python3 -m venv .env
+          source .env/bin/activate
+          
+          echo "Installing Python requirements..."
+          pip3 install -r requirements.txt
+          
+          echo "Building aeota binaries..."
+          make
+          
+          deactivate
+          echo "aeota tools built in ./aeota/"
+          # List built tools for verification
+          ls -l ./
 
-      - name: 4. Set up Python
+      - name: 4. Set up Python (for main script)
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -93,7 +113,6 @@ jobs:
           echo "Normalized device ID: $NORMALIZED_ID"
           echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
 
-      # --- MODIFIED: Step 7 now uses curl to download from the provided URL ---
       - name: 7. Download IPSW from URL
         run: |
           echo "Downloading full IPSW from ${{ inputs.ipsw_url }}"
@@ -109,7 +128,6 @@ jobs:
           echo "IPSW_FILE=${DOWNLOAD_PATH}" >> $GITHUB_ENV
           echo "Using IPSW: $DOWNLOAD_PATH"
 
-      # --- MODIFIED: Step 8 now uses 'aeota' for decryption ---
       - name: 8. Extract and Decrypt Filesystem DMG
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
@@ -122,20 +140,36 @@ jobs:
           fi
           echo "Found encrypted DMG: $FS_DMG_AEA"
 
-          echo "Decrypting DMG using 'aeota'..."
+          echo "Unwrapping decryption key using get_key.py..."
+          source ./aeota/.env/bin/activate
+          # The key.py script outputs the key to stdout
+          DECRYPTION_KEY=$(python3 ./aeota/get_key.py "${FS_DMG_AEA}")
+          deactivate
+          
+          if [[ -z "$DECRYPTION_KEY" ]]; then
+            echo "::error::Failed to get decryption key from get_key.py."
+            exit 1
+          fi
+          echo "Successfully unwrapped key."
+
+          echo "Decrypting DMG using 'aastuff'..."
           DECRYPTED_PATH="./ipsw_files/out/decrypted.dmg"
           
-          aeota decrypt "${FS_DMG_AEA}" "${DECRYPTED_PATH}"
+          # Use the 'aastuff' binary built by 'make'
+          # ./aastuff -i <input> -o <output_folder> -d (decrypt) -k <key>
+          ./aeota/aastuff -i "${FS_DMG_AEA}" -o ./ipsw_files/out -d -k "${DECRYPTION_KEY}"
           
-          if [[ ! -f "$DECRYPTED_PATH" ]]; then
-            echo "::error::Failed to find decrypted .dmg file. 'aeota' may have failed."
+          # 'aastuff' might output to a folder, so we find the .dmg inside
+          DECRYPTED_DMG=$(find ./ipsw_files/out -name "*.dmg" | head -n 1)
+          
+          if [[ ! -f "$DECRYPTED_DMG" ]]; then
+            echo "::error::Failed to find decrypted .dmg file. 'aastuff' may have failed."
             exit 1
           fi
 
-          echo "DECRYPTED_DMG=${DECRYPTED_PATH}" >> $GITHUB_ENV
+          echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
           echo "Decrypted DMG at: $DECRYPTED_DMG"
 
-      # --- All steps from 9 onwards are identical to your original file ---
       - name: 9. Mount Decrypted DMG
         run: |
           echo "Mounting DMG..."
@@ -183,7 +217,7 @@ jobs:
             fi
 
             FILES_FOUND=$(echo "$JSON_OUTPUT" | jq .files_found)
-            FILES_PROCESSED=$(echo "$JSON_SQL" | jq .valid_files_processed)
+            FILES_PROCESSED=$(echo "$JSON_OUTPUT" | jq .valid_files_processed)
             ERROR_COUNT=$(echo "$JSON_OUTPUT" | jq .error_count)
             AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
 
