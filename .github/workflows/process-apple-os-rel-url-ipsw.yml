@@ -3,10 +3,6 @@ name: Process Apple OS Release via Direct IPSW URL
 on:
   workflow_dispatch:
     inputs:
-      ipsw_url:
-        description: 'Direct URL to the .ipsw file'
-        required: true
-        type: string
       os_type:
         description: 'Operating System (e.g., iOS, iPadOS, macOS, visionOS)'
         required: true
@@ -31,7 +27,11 @@ on:
         required: true
         type: string
       release_build:
-        description: 'Build ID (e.g., 23B82). Used for downloading.'
+        description: 'Build ID (e.g., 23B82).'
+        required: true
+        type: string
+      ipsw_url:
+        description: 'Direct URL to the .ipsw file'
         required: true
         type: string
       checkout_branch:

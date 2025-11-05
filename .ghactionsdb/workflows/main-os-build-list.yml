@@ -34,6 +34,7 @@ osBuildList:
           releaseBuildIdentifier: "23C5027f"
           releaseDate: "2025-11-04"
           isBeta: true
+          ipswUrl: "https://updates.cdn-apple.com/2025FallSeed/fullrestores/093-64547/105526A4-D7A0-4216-A803-60837E460CF6/iPhone18,1_26.2_23C5027f_Restore.ipsw"
   iPadOS:
     - deviceIdentifier: "iPad17,1"
       builds:
