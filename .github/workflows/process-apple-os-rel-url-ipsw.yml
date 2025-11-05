@@ -153,26 +153,26 @@ jobs:
 
           echo "Decrypting DMG using 'aastuff_standalone'..."
           
-          # Define the output directory path. DO NOT create it.
-          DECRYPT_DIR="./ipsw_files/decrypted"
+          # 1. Define the PARENT directory for the output
+          DECRYPT_PARENT_DIR="./ipsw_files/decrypted"
           
-          # Calculate the expected output filename based on the README
+          # 2. Create this PARENT directory.
+          mkdir -p $DECRYPT_PARENT_DIR
+          
+          # 3. Calculate the full, desired OUTPUT FILE PATH
           AEA_BASENAME=$(basename "${FS_DMG_AEA}")
           DMG_FILENAME="${AEA_BASENAME%.aea}"
-          DECRYPTED_DMG_PATH="${DECRYPT_DIR}/${DMG_FILENAME}"
+          DECRYPTED_DMG_PATH="${DECRYPT_PARENT_DIR}/${DMG_FILENAME}"
 
           echo "Encrypted file: ${FS_DMG_AEA}"
           echo "Expected output file: ${DECRYPTED_DMG_PATH}"
           
-          ./aeota/aastuff_standalone -i "${FS_DMG_AEA}" -o $DECRYPT_DIR -d -k "${DECRYPTION_KEY}"
-
+          # 4. Run 'aastuff_standalone' passing the FULL FILE PATH to -o
+          ./aeota/aastuff_standalone -i "${FS_DMG_AEA}" -o "${DECRYPTED_DMG_PATH}" -d -k "${DECRYPTION_KEY}"
+          
           # Add debug logging to see what was created
-          echo "--- Listing contents of ${DECRYPT_DIR} (if it exists) ---"
-          if [ -d "$DECRYPT_DIR" ]; then
-            ls -l $DECRYPT_DIR
-          else
-            echo "Directory ${DECRYPT_DIR} was not created by aastuff."
-          fi
+          echo "--- Listing contents of ${DECRYPT_PARENT_DIR} ---"
+          ls -l $DECRYPT_PARENT_DIR
           echo "--- End of directory listing ---"
           
           # Check for the specific file we expect the tool to create
