@@ -8,3 +8,4 @@ ipsw:
   versionNameField: release_version
   buildIdentifierField: release_build
   filterVersionNameByIPSWType: release_type
+  ipswInputField: ipsw_url
