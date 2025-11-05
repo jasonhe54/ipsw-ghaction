@@ -155,7 +155,6 @@ jobs:
           
           # Create a dedicated, clean output directory for the decrypted file
           DECRYPT_DIR="./ipsw_files/decrypted"
-          mkdir -p $DECRYPT_DIR
           
           # Run 'aastuff' and point it to the clean output directory
           ./aeota/aastuff -i "${FS_DMG_AEA}" -o $DECRYPT_DIR -d -k "${DECRYPTION_KEY}"
