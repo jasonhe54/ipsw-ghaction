@@ -88,7 +88,7 @@ jobs:
           pip3 install -r requirements.txt
           
           echo "Building aeota binaries..."
-          make [DEBUG=1]
+          make
           
           deactivate
           echo "aeota tools built in ./aeota/"
@@ -141,8 +141,8 @@ jobs:
 
           echo "Unwrapping decryption key using get_key.py..."
           source ./aeota/.env/bin/activate
-          # The key.py script outputs the key to stdout
           DECRYPTION_KEY=$(python3 ./aeota/get_key.py "${FS_DMG_AEA}")
+          echo "| **Decryption Key** | \`${DECRYPTION_KEY}\` |" >> $GITHUB_STEP_SUMMARY
           deactivate
           
           if [[ -z "$DECRYPTION_KEY" ]]; then
@@ -153,22 +153,44 @@ jobs:
 
           echo "Decrypting DMG using 'aastuff'..."
           
-          # Create a dedicated, clean output directory for the decrypted file
+          # --- START FIX ---
+          
+          # Define the output directory path. DO NOT create it.
+          # Per logs, 'aastuff' fails if the directory already exists.
           DECRYPT_DIR="./ipsw_files/decrypted"
           
-          # Run 'aastuff' and point it to the clean output directory
+          # Calculate the expected output filename based on the README
+          # e.g., "input.dmg.aea" -> "input.dmg"
+          AEA_BASENAME=$(basename "${FS_DMG_AEA}")
+          DMG_FILENAME="${AEA_BASENAME%.aea}"
+          DECRYPTED_DMG_PATH="${DECRYPT_DIR}/${DMG_FILENAME}"
+
+          echo "Encrypted file: ${FS_DMG_AEA}"
+          echo "Expected output file: ${DECRYPTED_DMG_PATH}"
+          
+          # Run 'aastuff' and point it to the output directory
+          # The -d flag is for "decrypt" (not "extract asset archive")
           ./aeota/aastuff -i "${FS_DMG_AEA}" -o $DECRYPT_DIR -d -k "${DECRYPTION_KEY}"
           
-          # Find the decrypted .dmg file within that clean directory
-          DECRYPTED_DMG=$(find $DECRYPT_DIR -name "*.dmg" | head -n 1)
+          # Add debug logging to see what was created
+          echo "--- Listing contents of ${DECRYPT_DIR} (if it exists) ---"
+          if [ -d "$DECRYPT_DIR" ]; then
+            ls -l $DECRYPT_DIR
+          else
+            echo "Directory ${DECRYPT_DIR} was not created by aastuff."
+          fi
+          echo "--- End of directory listing ---"
           
-          if [[ ! -f "$DECRYPTED_DMG" ]]; then
-            echo "::error::Failed to find decrypted .dmg file. 'aastuff' may have failed."
+          # Check for the specific file we expect 'aastuff' to create
+          if [[ ! -f "$DECRYPTED_DMG_PATH" ]]; then
+            echo "::error::Failed to find decrypted .dmg file at ${DECRYPTED_DMG_PATH}."
+            echo "Aastuff command finished, but the expected file was not found."
             exit 1
           fi
+          # --- END FIX ---
 
-          echo "DECRYPTED_DMG=${DECRYPTED_DMG}" >> $GITHUB_ENV
-          echo "Decrypted DMG at: $DECRYPTED_DMG"
+          echo "DECRYPTED_DMG=${DECRYPTED_DMG_PATH}" >> $GITHUB_ENV
+          echo "Decrypted DMG at: $DECRYPTED_DMG_PATH"
 
       - name: 9. Mount Decrypted DMG
         run: |
