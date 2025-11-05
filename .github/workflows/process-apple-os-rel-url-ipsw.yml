@@ -1,0 +1,235 @@
+name: Process Apple OS Release via Direct IPSW URL
+
+on:
+  workflow_dispatch:
+    inputs:
+      ipsw_url:
+        description: 'Direct URL to the .ipsw file'
+        required: true
+        type: string
+      os_type:
+        description: 'Operating System (e.g., iOS, iPadOS, macOS, visionOS)'
+        required: true
+        type: choice
+        options:
+          - iOS
+          - iPadOS
+          - macOS
+          - visionOS
+      device_identifier:
+        description: 'Device Identifier (e.g., iPhone18,1)'
+        required: true
+        type: string
+      release_type:
+        description: 'Type of release (beta or release)'
+        required: true
+        type: choice
+        options: [beta, release]
+        default: beta
+      release_version:
+        description: 'Version (e.g., 26.0). Used for the version tag.'
+        required: true
+        type: string
+      release_build:
+        description: 'Build ID (e.g., 23B82). Used for downloading.'
+        required: true
+        type: string
+      checkout_branch:
+        description: 'The base branch (for checkout, not PR since PR is handled by the other workflow).'
+        required: false
+        type: string
+        default: 'main'
+      exclude_info_plist:
+        description: 'Exclude all files named "Info.plist" from processing.'
+        required: true
+        type: boolean
+        default: true
+
+jobs:
+  process-ipsw:
+    runs-on: macos-latest
+    
+    steps:
+      - name: 1. Log Inputs to Job Summary for ${{ inputs.device_identifier }} on ${{ inputs.release_version }} (${{ inputs.release_build }})
+        run: |
+          echo "### 🚀 Workflow: 2. Process Apple URL IPSW" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **IPSW URL** | \`${{ inputs.ipsw_url }}\` |" >> $GITHUB_STEP_SUMMARY # <--- NEW
+          echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Type** | \`${{ inputs.release_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Build** | \`${{ inputs.release_build }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Checkout Branch** | \`${{ inputs.checkout_branch }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Exclude Info.plist** | \`${{ inputs.exclude_info_plist }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Run ID** | \`${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+
+      - name: 2. Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.checkout_branch }}
+
+      - name: 3. Install Tools (ipsw and aeota)
+        run: |
+          brew install blacktop/tap/ipsw
+          brew install dhinakg/tap/aeota # <--- NEW
+
+      - name: 4. Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 5. Create output directories
+        run: |
+          mkdir -p ./ipsw_files
+          mkdir -p ./ipsw_files/out
+
+      - name: 6. Normalize device identifier
+        id: normalize-key
+        run: |
+          NORMALIZED_ID=$(echo "${{ inputs.device_identifier }}" | tr ',' '_')
+          echo "Normalized device ID: $NORMALIZED_ID"
+          echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
+
+      # --- MODIFIED: Step 7 now uses curl to download from the provided URL ---
+      - name: 7. Download IPSW from URL
+        run: |
+          echo "Downloading full IPSW from ${{ inputs.ipsw_url }}"
+          DOWNLOAD_PATH="./ipsw_files/downloaded.ipsw"
+          
+          curl -L -o "${DOWNLOAD_PATH}" "${{ inputs.ipsw_url }}"
+          
+          if [[ ! -f "$DOWNLOAD_PATH" ]]; then
+            echo "::error::Failed to download IPSW file from URL."
+            exit 1
+          fi
+          
+          echo "IPSW_FILE=${DOWNLOAD_PATH}" >> $GITHUB_ENV
+          echo "Using IPSW: $DOWNLOAD_PATH"
+
+      # --- MODIFIED: Step 8 now uses 'aeota' for decryption ---
+      - name: 8. Extract and Decrypt Filesystem DMG
+        run: |
+          echo "Extracting filesystem DMG (encrypted)..."
+          ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
+          
+          FS_DMG_AEA=$(find ./ipsw_files/out -name "*dmg.aea" | head -n 1)
+          if [[ -z "$FS_DMG_AEA" ]]; then
+            echo "::error::Failed to find extracted *dmg.aea file."
+            exit 1
+          fi
+          echo "Found encrypted DMG: $FS_DMG_AEA"
+
+          echo "Decrypting DMG using 'aeota'..."
+          DECRYPTED_PATH="./ipsw_files/out/decrypted.dmg"
+          
+          aeota decrypt "${FS_DMG_AEA}" "${DECRYPTED_PATH}"
+          
+          if [[ ! -f "$DECRYPTED_PATH" ]]; then
+            echo "::error::Failed to find decrypted .dmg file. 'aeota' may have failed."
+            exit 1
+          fi
+
+          echo "DECRYPTED_DMG=${DECRYPTED_PATH}" >> $GITHUB_ENV
+          echo "Decrypted DMG at: $DECRYPTED_DMG"
+
+      # --- All steps from 9 onwards are identical to your original file ---
+      - name: 9. Mount Decrypted DMG
+        run: |
+          echo "Mounting DMG..."
+          hdiutil attach "${{ env.DECRYPTED_DMG }}" -mountpoint ./mounted_dmg
+          echo "MOUNT_PATH=./mounted_dmg" >> $GITHUB_ENV
+          echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
+          ls -l ${{ env.MOUNT_PATH }}
+
+      - name: 10. Clean and create output directory
+        run: |
+          echo "Cleaning and ensuring target directory exists: ${{ inputs.release_type }}"
+          rm -rf "./${{ inputs.release_type }}"
+          mkdir -p "./${{ inputs.release_type }}"
+
+      - name: 11. Run Python Analyzer Script and Log Stats
+        run: |
+          REPO_SAVE_PATH="${{ inputs.release_type }}/${{ inputs.os_type }}"
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Python Processing Stats" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Folder | Duration | Files Found | Files Processed | Errors | Avg. Time (s) |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- | :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+
+          run_and_log() {
+            FOLDER_NAME=$1
+            MOUNT_PATH=$2
+            REPO_PATH=$3
+            
+            echo "--- Processing $FOLDER_NAME ---"
+            
+            START_TIME=$(date +%s)
+            
+            JSON_OUTPUT=$(python py.py "$MOUNT_PATH" "$REPO_PATH" "${{ inputs.exclude_info_plist }}")
+            
+            END_TIME=$(date +%s)
+            DURATION_S=$((END_TIME - START_TIME))
+            DURATION_FORMATTED=$(printf "%02d:%02d" $((DURATION_S/60)) $((DURATION_S%60)))
+
+            if ! echo "$JSON_OUTPUT" | jq empty; then
+              echo "::error::Failed to process $FOLDER_NAME. Output was not valid JSON."
+              echo "Raw output: $JSON_OUTPUT"
+              echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | *Failed* | *Failed* | *Failed* | *Failed* |" >> $GITHUB_STEP_SUMMARY
+              return
+            fi
+
+            FILES_FOUND=$(echo "$JSON_OUTPUT" | jq .files_found)
+            FILES_PROCESSED=$(echo "$JSON_SQL" | jq .valid_files_processed)
+            ERROR_COUNT=$(echo "$JSON_OUTPUT" | jq .error_count)
+            AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
+
+            echo "Finished $FOLDER_NAME processing (Duration: $DURATION_FORMATTED)"
+            echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | $FILES_FOUND | $FILES_PROCESSED | $ERROR_COUNT | $AVG_TIME |" >> $GITHUB_STEP_SUMMARY
+            
+            if [[ "$ERROR_COUNT" -gt 0 ]]; then
+              echo "::warning::Encountered $ERROR_COUNT errors processing $FOLDER_NAME. See logs above for details."
+            fi
+          }
+
+          if [[ "${{ inputs.os_type }}" == "macOS" ]]; then
+            echo "macOS detected. Processing /System folder only..."
+            run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          else
+            echo "${{ inputs.os_type }} detected. Processing standard root folders..."
+            run_and_log "Applications" "${{ env.MOUNT_PATH }}/Applications" "${REPO_SAVE_PATH}/Applications"
+            run_and_log "Library" "${{ env.MOUNT_PATH }}/Library" "${REPO_SAVE_PATH}/Library"
+            run_and_log "private" "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
+            run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
+          fi
+
+      - name: 12. Sanitize File Paths
+        run: |
+          TARGET_DIR="./${{ inputs.release_type }}"
+          echo "Searching for and renaming files/directories with colons in $TARGET_DIR..."
+          find $TARGET_DIR -depth -name "*:*" -exec bash -c '
+            dir=$(dirname "$0")
+            base=$(basename "$0")
+            new_base=$(echo "$base" | tr ":" "_")
+            if [[ "$base" != "$new_base" ]]; then
+              echo "Renaming $0 to $dir/$new_base"
+              mv "$0" "$dir/$new_base"
+            fi
+          ' {} \;
+          echo "Sanitization complete."
+
+      - name: 13. Unmount DMG
+        if: always()
+        run: |
+          echo "Unmounting DMG..."
+          hdiutil detach ./mounted_dmg -force
+
+      - name: 14. Upload Analysis Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: analysis-${{ inputs.release_type }}-${{ inputs.os_type }}-${{ inputs.release_build }}-${{ inputs.device_identifier }}
+          path: ./${{ inputs.release_type }}/${{ inputs.os_type }}
+          retention-days: 90

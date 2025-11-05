@@ -1,0 +1,10 @@
+branchFields:
+- checkout_branch
+
+type: ipsw
+ipsw:
+  osField: os_type
+  deviceIdentifierField: device_identifier
+  versionNameField: release_version
+  buildIdentifierField: release_build
+  filterVersionNameByIPSWType: release_type
