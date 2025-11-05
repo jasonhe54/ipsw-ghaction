@@ -1,0 +1,112 @@
+name: IPSW MD Diff and PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      os_type:
+        description: 'OS Type'
+        required: true
+        default: 'macOS'
+        type: choice
+        options:
+          - macOS
+          - iOS
+      device_identifier:
+        description: 'Device Identifier'
+        required: true
+        type: string
+      base_build_id:
+        description: 'Base Build ID (e.g., 23F79)'
+        required: true
+        type: string
+      new_build_id:
+        description: 'New Build ID (e.g., 23G5037d)'
+        required: true
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: macos-latest
+
+    # Grant permissions for writing contents (pushing branch) and creating PRs
+    permissions:
+      contents: write
+      pull-requests: write
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Install brew dependencies
+      - name: Install Homebrew Packages
+        run: |
+          brew install blacktop/tap/ipsw
+          brew install gh
+
+      # Create a unique branch name
+      - name: Set Branch Name
+        id: vars
+        run: |
+          BRANCH_NAME="ipsw-md-diff/${{ inputs.os_type }}-${{ inputs.base_build_id }}-to-${{ inputs.new_build_id }}"
+          # Sanitize branch name (replace invalid characters)
+          BRANCH_NAME=$(echo $BRANCH_NAME | sed 's/[^a-zA-Z0-9\/-]/-/g')
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      # Runs a diff
+      - name: Create Diff
+        run: |
+          mkdir /tmp/IPSW1 /tmp/IPSW2
+          ipsw dl appledb --os ${{ inputs.os_type }} --device '${{ inputs.device_identifier }}' --build '${{ inputs.base_build_id }}' --output /tmp/IPSW1 --confirm
+          ipsw dl appledb --os ${{ inputs.os_type }} --device '${{ inputs.device_identifier }}' --build '${{ inputs.new_build_id }}' --output /tmp/IPSW2 --confirm
+          
+          # Run the diff and output to the current directory
+          ipsw diff -V --output . \
+                      --markdown \
+                      --feat \
+                      --color \
+                      /tmp/IPSW1/*.ipsw \
+                      /tmp/IPSW2/*.ipsw
+
+      # Create new branch, commit, and push
+      - name: Commit and Push to New Branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git checkout -b ${{ steps.vars.outputs.branch_name }}
+          
+          # Add all generated diff files
+          git add .
+          
+          # Check if there are changes to commit
+          if git diff-index --quiet HEAD; then
+            echo "No changes detected. Exiting."
+            exit 0
+          fi
+          
+          git commit -m "Automated Diff: ${{ inputs.os_type }} ${{ inputs.base_build_id }} -> ${{ inputs.new_build_id }}"
+          git push --set-upstream origin ${{ steps.vars.outputs.branch_name }}
+
+      # Create a Pull Request
+      - name: Create Pull Request
+        env:
+          # The gh CLI will automatically use the GITHUB_TOKEN provided to the job
+          # thanks to the 'permissions' block above.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check if branch was pushed (i.e., if there were changes)
+          if ! git ls-remote --exit-code --heads origin ${{ steps.vars.outputs.branch_name }}; then
+            echo "Branch was not pushed (likely no changes). Skipping PR."
+            exit 0
+          fi
+          
+          gh pr create \
+            --base main \
+            --head ${{ steps.vars.outputs.branch_name }} \
+            --title "Diff: ${{ inputs.os_type }} ${{ inputs.base_build_id }} -> ${{ inputs.new_build_id }}" \
+            --body "This PR contains the automated diff for ${{ inputs.os_type }} from build ${{ inputs.base_build_id }} to ${{ inputs.new_build_id }}." \
+            --label "ipsw-md-diff"
+

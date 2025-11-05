@@ -1,0 +1,6 @@
+type: ipsw
+ipsw:
+  osField: os_type
+  deviceIdentifierField: device_identifier
+  versionNameField: null
+  buildIdentifierFields: [base_build_id, new_build_id]
