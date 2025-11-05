@@ -88,7 +88,7 @@ jobs:
           pip3 install -r requirements.txt
           
           echo "Building aeota binaries..."
-          make
+          make [DEBUG=1]
           
           deactivate
           echo "aeota tools built in ./aeota/"
