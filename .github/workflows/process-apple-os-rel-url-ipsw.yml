@@ -1,4 +1,4 @@
-name: 2. Process Apple OS URL IPSW
+name: Process Apple OS Release via Direct IPSW URL
 
 on:
   workflow_dispatch:
@@ -71,7 +71,6 @@ jobs:
         with:
           ref: ${{ inputs.checkout_branch }}
 
-      # --- MODIFIED: Step 3 now builds 'aeota' from source ---
       - name: 3. Install Tools (ipsw and build aeota)
         run: |
           echo "Installing blacktop/ipsw..."
@@ -153,14 +152,16 @@ jobs:
           echo "Successfully unwrapped key."
 
           echo "Decrypting DMG using 'aastuff'..."
-          DECRYPTED_PATH="./ipsw_files/out/decrypted.dmg"
           
-          # Use the 'aastuff' binary built by 'make'
-          # ./aastuff -i <input> -o <output_folder> -d (decrypt) -k <key>
-          ./aeota/aastuff -i "${FS_DMG_AEA}" -o ./ipsw_files/out -d -k "${DECRYPTION_KEY}"
+          # Create a dedicated, clean output directory for the decrypted file
+          DECRYPT_DIR="./ipsw_files/decrypted"
+          mkdir -p $DECRYPT_DIR
           
-          # 'aastuff' might output to a folder, so we find the .dmg inside
-          DECRYPTED_DMG=$(find ./ipsw_files/out -name "*.dmg" | head -n 1)
+          # Run 'aastuff' and point it to the clean output directory
+          ./aeota/aastuff -i "${FS_DMG_AEA}" -o $DECRYPT_DIR -d -k "${DECRYPTION_KEY}"
+          
+          # Find the decrypted .dmg file within that clean directory
+          DECRYPTED_DMG=$(find $DECRYPT_DIR -name "*.dmg" | head -n 1)
           
           if [[ ! -f "$DECRYPTED_DMG" ]]; then
             echo "::error::Failed to find decrypted .dmg file. 'aastuff' may have failed."
