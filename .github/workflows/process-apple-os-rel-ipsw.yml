@@ -12,8 +12,6 @@ on:
           - iPadOS
           - macOS
           - visionOS
-          # - watchOS
-          # - tvOS
       device_identifier:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true
