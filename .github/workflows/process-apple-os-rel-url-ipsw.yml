@@ -274,8 +274,35 @@ jobs:
       - name: 13. Unmount DMG
         if: always()
         run: |
-          echo "Unmounting DMG..."
+          echo "Attempting to unmount DMG: ./mounted_dmg"
+          
+          # Sync I/O buffers and give a brief pause for processes to exit
+          sync
+          sleep 3
+
           hdiutil detach ./mounted_dmg -force
+
+          if mount | grep -q "mounted_dmg"; then
+            echo "::warning::DMG is still mounted. Attempting to find and kill lingering processes."
+            
+            # Find all Process IDs (PIDs) with open files on the mount path
+            # lsof -t +D <path> lists PIDs using that path
+            PIDS=$(lsof -t +D ./mounted_dmg | tr '\n' ' ')
+            
+            if [ -n "$PIDS" ]; then
+              echo "Found lingering PIDS: $PIDS. Sending KILL signal."
+              # Forcibly kill the lingering processes
+              kill -9 $PIDS
+              sleep 5 # Wait for processes to be killed
+            else
+              echo "lsof found no lingering processes, but mount is still held."
+            fi
+            
+            echo "Retrying final force detach..."
+            hdiutil detach ./mounted_dmg -force
+          else
+            echo "DMG successfully unmounted on first attempt."
+          fi
 
       - name: 14. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
