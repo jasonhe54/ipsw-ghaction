@@ -5,6 +5,7 @@ import sys
 import concurrent.futures
 import multiprocessing
 import time
+import tempfile
 
 # --- Error Handling ---
 # This list will be populated by the main thread after results are collected
@@ -53,41 +54,45 @@ print(f"Writing images to:       {finalBaseRepoImagesPath}", file=sys.stderr)
 print(f"Exclude Info.plist:      {SKIP_INFO_PLIST}", file=sys.stderr)
 print(f"------------------------------", file=sys.stderr)
 
-# --- Core Functions (Unchanged) ---
 def convert_loctable_to_strings(loctable_file):
+    """
+    MODIFIED: Uses tempfile.NamedTemporaryFile to avoid writing
+    the intermediate JSON file to the mounted DMG.
+    """
     relPathInDMG = loctable_file.replace(parsedFolderPath, "")
     if relPathInDMG.startswith('/'):
         relPathInDMG = relPathInDMG[1:]
 
-    strings_file = loctable_file.replace('.loctable', '-json.strings')
     try:
-        subprocess.run(
-            ['plutil', '-convert', 'json', loctable_file, '-o', strings_file], 
-            check=True, 
-            capture_output=True, 
-            text=True
-        )
-        
-        with open(strings_file, "r") as jsonFile:
-            data = json.load(jsonFile)
-        
-        enContent = data.get('en', {})
-        if not enContent:
-            os.remove(strings_file) 
+        # Create a temp file in the runner's /tmp directory
+        with tempfile.NamedTemporaryFile(suffix=".json") as tmp:
+            strings_file_path = tmp.name
+            
+            subprocess.run(
+                ['plutil', '-convert', 'json', loctable_file, '-o', strings_file_path], 
+                check=True, 
+                capture_output=True, 
+                text=True
+            )
+            
+            with open(strings_file_path, "r") as jsonFile:
+                data = json.load(jsonFile)
+            
+            enContent = data.get('en', {})
+            if not enContent:
+                return None
+
+            outputDir = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG), "en.lproj")
+            os.makedirs(outputDir, exist_ok=True)
+
+            finalStringsFilename = os.path.basename(loctable_file).replace('.loctable', '.strings')
+            outputFile = os.path.join(outputDir, finalStringsFilename) 
+
+            with open(outputFile, 'w') as file:
+                for key in enContent:
+                    file.write(f'"{key}" = "{enContent[key]}";\n')
+            
             return None
-
-        outputDir = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG), "en.lproj")
-        os.makedirs(outputDir, exist_ok=True)
-
-        finalStringsFilename = os.path.basename(strings_file).replace('-json.strings', '.strings')
-        outputFile = os.path.join(outputDir, finalStringsFilename) 
-
-        with open(outputFile, 'w') as file:
-            for key in enContent:
-                file.write(f'"{key}" = "{enContent[key]}";\n')
-        
-        os.remove(strings_file)
-        return None
         
     except subprocess.CalledProcessError as e:
         error_message = e.stderr or e.stdout or str(e)
@@ -119,6 +124,10 @@ def add_image_file_to_repo(file_path):
 
 
 def add_plist_file_to_repo(file_path):
+    """
+    MODIFIED: Uses tempfile.NamedTemporaryFile to avoid writing
+    the intermediate XML file to the mounted DMG.
+    """
     try:
         relPathInDMG = file_path.replace(parsedFolderPath, "")
         if relPathInDMG.startswith('/'):
@@ -129,20 +138,26 @@ def add_plist_file_to_repo(file_path):
         if '.xml.plist' in file_path:
             return None
 
-        plist_xml_in_dmg = file_path.replace('.plist', '.xml.plist')
-        
         outputPath = os.path.join(finalBaseRepoPath, os.path.dirname(relPathInDMG))
         os.makedirs(outputPath, exist_ok=True)
+        
+        # Create a temp file in the runner's /tmp directory
+        with tempfile.NamedTemporaryFile(suffix=".xml.plist") as tmp:
+            plist_xml_temp_path = tmp.name
+
+            # 1. Convert .plist from DMG -> temp XML file
+            subprocess.run(
+                ['plutil', '-convert', 'xml1', file_path, '-o', plist_xml_temp_path], 
+                check=True, 
+                capture_output=True, 
+                text=True
+            )
             
-        result = subprocess.run(
-            ['plutil', '-convert', 'xml1', file_path, '-o', plist_xml_in_dmg], 
-            check=True, 
-            capture_output=True, 
-            text=True
-        )
-        subprocess.run(['cp', plist_xml_in_dmg, outputPath], check=True, capture_output=True)
-        os.remove(plist_xml_in_dmg)
-        return None
+            # 2. Copy temp XML file -> final repo path
+            subprocess.run(['cp', plist_xml_temp_path, outputPath], check=True, capture_output=True)
+            
+            # 3. The temp file is automatically deleted when 'with' block exits
+            return None
 
     except subprocess.CalledProcessError as e:
         error_message = e.stderr or e.stdout or str(e)
@@ -299,4 +314,3 @@ if __name__ == "__main__":
     stats = find_and_process_files_streaming(parsedFolderPath)
     stats['errors'] = errorArrayWithFilepaths
     print(json.dumps(stats))
-    time.sleep(3)
