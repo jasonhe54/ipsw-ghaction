@@ -1,5 +1,10 @@
 - deviceIdentifier: "AppleTV14,1"
   builds:
+    - releaseName: "tvOS 26.0"
+      releaseBuildIdentifier: "23J353"
+      releaseDate: "2025-09-15"
+      isBeta: false
+      ipswUrl: "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/093-42599/27732B55-233E-4677-80E6-1DB7EB0384CB/AppleTV5,3_26.0_23J353_Restore.ipsw"
     - releaseName: "tvOS 26.0.1"
       releaseBuildIdentifier: "23J362"
       releaseDate: "2025-09-29"
