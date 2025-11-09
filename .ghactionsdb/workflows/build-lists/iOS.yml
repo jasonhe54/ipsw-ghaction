@@ -1,0 +1,37 @@
+- deviceIdentifier: "iPhone18,1"
+  builds:
+    - releaseName: "iOS 26.0"
+      releaseBuildIdentifier: "23A341"
+      releaseDate: "2025-09-15"
+      isBeta: false
+    - releaseName: "iOS 26.0"
+      releaseBuildIdentifier: "23A345"
+      releaseDate: "2025-09-18"
+      isBeta: false
+    - releaseName: "iOS 26.0.1"
+      releaseBuildIdentifier: "23A355"
+      releaseDate: "2025-09-24"
+      isBeta: false
+    - releaseName: "iOS 26.1 Beta 4"
+      releaseBuildIdentifier: "23B5073a"
+      releaseDate: "2025-10-20"
+      isBeta: true
+    - releaseName: "iOS 26.1 RC"
+      releaseBuildIdentifier: "23B82"
+      releaseDate: "2025-10-28"
+      isBeta: true
+    - releaseName: "iOS 26.1"
+      releaseBuildIdentifier: "23B85"
+      releaseDate: "2025-11-03"
+      isBeta: false
+    - releaseName: "iOS 26.2 Developer Beta 1"
+      releaseBuildIdentifier: "23C5027f"
+      releaseDate: "2025-11-04"
+      isBeta: true
+      ipswUrl: "https://updates.cdn-apple.com/2025FallSeed/fullrestores/093-64547/105526A4-D7A0-4216-A803-60837E460CF6/iPhone18,1_26.2_23C5027f_Restore.ipsw"
+    - releaseName: "iOS 26.2 Developer Beta 2"
+      releaseBuildIdentifier: "N/A"
+      releaseDate: "N/A"
+      isBeta: true
+      ipswUrl: "N/A"
+      isVisible: false

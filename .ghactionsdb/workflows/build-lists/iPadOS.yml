@@ -1,0 +1,36 @@
+- deviceIdentifier: "iPad17,1"
+  builds:
+    - releaseName: "iPadOS 26.0"
+      releaseBuildIdentifier: "23A8330"
+      releaseDate: "2025-10-22"
+      isBeta: false
+    - releaseName: "iPadOS 26.0.1"
+      releaseBuildIdentifier: "23A8464"
+      releaseDate: "2025-10-15"
+      isBeta: false
+    - releaseName: "iPadOS 26.0.1"
+      releaseBuildIdentifier: "23A8466"
+      releaseDate: "2025-10-21"
+      isBeta: false
+    - releaseName: "iPadOS 26.1 Beta 4"
+      releaseBuildIdentifier: "23B5073a"
+      releaseDate: "2025-10-20"
+      isBeta: true
+    - releaseName: "iPadOS 26.1 RC"
+      releaseBuildIdentifier: "23B82"
+      releaseDate: "2025-10-28"
+      isBeta: true
+    - releaseName: "iPadOS 26.1"
+      releaseBuildIdentifier: "23B85"
+      releaseDate: "2025-11-03"
+      isBeta: false
+    - releaseName: "iPadOS 26.2 Developer Beta 1"
+      releaseBuildIdentifier: "23C5027f"
+      releaseDate: "2025-11-04"
+      isBeta: true
+    - releaseName: "iPadOS 26.2 Developer Beta 2"
+      releaseBuildIdentifier: "N/A"
+      releaseDate: "N/A"
+      isBeta: true
+      ipswUrl: "N/A"
+      isVisible: false

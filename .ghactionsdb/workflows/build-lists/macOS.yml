@@ -1,0 +1,22 @@
+- deviceIdentifier: "Mac17,2"
+  builds:
+    - releaseName: "macOS 26.0"
+      releaseBuildIdentifier: "25A8353"
+      releaseDate: "2025-10-22"
+      isBeta: false
+    - releaseName: "macOS 26.0.1"
+      releaseBuildIdentifier: "25A8364"
+      releaseDate: "2025-10-15"
+      isBeta: false
+    - releaseName: "macOS 26.1 Beta 4"
+      releaseBuildIdentifier: "25B5072a"
+      releaseDate: "2025-10-20"
+      isBeta: true
+    - releaseName: "macOS 26.1 RC"
+      releaseBuildIdentifier: "25B77"
+      releaseDate: "2025-10-28"
+      isBeta: true
+    - releaseName: "macOS 26.1"
+      releaseBuildIdentifier: "25B78"
+      releaseDate: "2025-11-03"
+      isBeta: false

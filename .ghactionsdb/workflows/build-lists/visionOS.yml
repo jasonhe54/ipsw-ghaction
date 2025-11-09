@@ -1,0 +1,26 @@
+- deviceIdentifier: "RealityDevice17,1"
+  builds:
+    - releaseName: "visionOS 26.0"
+      releaseBuildIdentifier: "23M8335"
+      releaseDate: "2025-10-22"
+      isBeta: false
+    - releaseName: "visionOS 26.0.1"
+      releaseBuildIdentifier: "23M8340"
+      releaseDate: "2025-10-15"
+      isBeta: false
+    - releaseName: "visionOS 26.1 Beta 4"
+      releaseBuildIdentifier: "23N5042a"
+      releaseDate: "2025-10-20"
+      isBeta: true
+    - releaseName: "visionOS 26.1 RC"
+      releaseBuildIdentifier: "23N48"
+      releaseDate: "2025-10-28"
+      isBeta: true
+    - releaseName: "visionOS 26.1"
+      releaseBuildIdentifier: "23N49"
+      releaseDate: "2025-11-03"
+      isBeta: false
+    - releaseName: "visionOS 26.2 Developer Beta 1"
+      releaseBuildIdentifier: "23N5279e"
+      releaseDate: "2025-11-04"
+      isBeta: true
