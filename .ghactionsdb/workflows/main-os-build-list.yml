@@ -7,3 +7,5 @@ osBuildList:
     _ref: ".ghactionsdb/workflows/build-lists/macOS.yml"
   visionOS:
     _ref: ".ghactionsdb/workflows/build-lists/visionOS.yml"
+  tvOS:
+    _ref: ".ghactionsdb/workflows/build-lists/tvOS.yml"

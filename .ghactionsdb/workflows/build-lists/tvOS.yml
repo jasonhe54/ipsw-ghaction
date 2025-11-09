@@ -1,0 +1,23 @@
+- deviceIdentifier: "AppleTV14,1"
+  builds:
+    - releaseName: "tvOS 26.0.1"
+      releaseBuildIdentifier: "23J362"
+      releaseDate: "2025-09-29"
+      isBeta: false
+      ipswUrl: "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/093-51988/79B88066-7048-4940-A812-E3A5116B462E/AppleTV5,3_26.0.1_23J362_Restore.ipsw"
+    - releaseName: "tvOS 26.1"
+      releaseBuildIdentifier: "23J582"
+      releaseDate: "2025-11-03"
+      isBeta: false
+      ipswUrl: "https://updates.cdn-apple.com/2025FallFCS/fullrestores/089-05798/3E650CCB-3510-4C45-9134-6425034014BA/AppleTV5,3_26.1_23J582_Restore.ipsw"
+    - releaseName: "tvOS 26.2 Developer Beta 1"
+      releaseBuildIdentifier: "23K5029e"
+      releaseDate: "2025-11-04"
+      isBeta: true
+      ipswUrl: "https://updates.cdn-apple.com/2025FallSeed/fullrestores/093-83707/E2032930-6AB7-4B96-92C9-99808C91B42B/AppleTV5,3_26.2_23K5029e_Restore.ipsw"
+    - releaseName: "tvOS 26.2 Developer Beta 2"
+      releaseBuildIdentifier: "N/A"
+      releaseDate: "N/A"
+      isBeta: true
+      ipswUrl: "N/A"
+      isVisible: false

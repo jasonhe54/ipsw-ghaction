@@ -13,3 +13,6 @@ deviceOptions:
   visionOS:
     - name: "Apple Vision Pro (M5)"
       identifier: "RealityDevice17,1"
+  tvOS:
+    - name: "Apple TV 4K (3rd generation)"
+      identifier: "AppleTV14,1"
