@@ -93,7 +93,6 @@ jobs:
           
           deactivate
           echo "aeota tools built in ./aeota/"
-          # List built tools for verification
           ls -l ./
 
       - name: 4. Set up Python (for main script)
@@ -154,13 +153,9 @@ jobs:
 
           echo "Decrypting DMG using 'aastuff_standalone'..."
           
-          # 1. Define the PARENT directory for the output
           DECRYPT_PARENT_DIR="./ipsw_files/decrypted"
-          
-          # 2. Create this PARENT directory.
           mkdir -p $DECRYPT_PARENT_DIR
           
-          # 3. Calculate the full, desired OUTPUT FILE PATH
           AEA_BASENAME=$(basename "${FS_DMG_AEA}")
           DMG_FILENAME="${AEA_BASENAME%.aea}"
           DECRYPTED_DMG_PATH="${DECRYPT_PARENT_DIR}/${DMG_FILENAME}"
@@ -168,15 +163,12 @@ jobs:
           echo "Encrypted file: ${FS_DMG_AEA}"
           echo "Expected output file: ${DECRYPTED_DMG_PATH}"
           
-          # 4. Run 'aastuff_standalone' passing the FULL FILE PATH to -o
           ./aeota/aastuff_standalone -i "${FS_DMG_AEA}" -o "${DECRYPTED_DMG_PATH}" -d -k "${DECRYPTION_KEY}"
           
-          # Add debug logging to see what was created
           echo "--- Listing contents of ${DECRYPT_PARENT_DIR} ---"
           ls -l $DECRYPT_PARENT_DIR
           echo "--- End of directory listing ---"
           
-          # Check for the specific file we expect the tool to create
           if [[ ! -f "$DECRYPTED_DMG_PATH" ]]; then
             echo "::error::Failed to find decrypted .dmg file at ${DECRYPTED_DMG_PATH}."
             echo "Aastuff command finished, but the expected file was not found."
@@ -255,6 +247,9 @@ jobs:
             run_and_log "private" "${{ env.MOUNT_PATH }}/private" "${REPO_SAVE_PATH}/private"
             run_and_log "System" "${{ env.MOUNT_PATH }}/System" "${REPO_SAVE_PATH}/System"
           fi
+          
+          echo "Waiting for worker processes to fully terminate..."
+          sleep 5
 
       - name: 12. Sanitize File Paths
         run: |
@@ -275,7 +270,20 @@ jobs:
         if: always()
         run: |
           echo "Attempting to unmount DMG: ./mounted_dmg"
-          hdiutil detach ./mounted_dmg -force
+          
+          sync
+          sleep 2
+          
+          if hdiutil detach ./mounted_dmg 2>/dev/null; then
+            echo "DMG unmounted successfully"
+          else
+            echo "Normal detach failed, trying force detach..."
+            hdiutil detach ./mounted_dmg -force || {
+              echo "::warning::Force detach also failed, trying with diskutil..."
+              MOUNT_POINT=$(diskutil info ./mounted_dmg | grep "Device Node" | awk '{print $3}')
+              diskutil unmount force "$MOUNT_POINT" || echo "::warning::Could not unmount DMG, but continuing anyway"
+            }
+          fi
 
       - name: 14. Upload Analysis Artifact
         uses: actions/upload-artifact@v4
