@@ -299,3 +299,4 @@ if __name__ == "__main__":
     stats = find_and_process_files_streaming(parsedFolderPath)
     stats['errors'] = errorArrayWithFilepaths
     print(json.dumps(stats))
+    time.sleep(3)

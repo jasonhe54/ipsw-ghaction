@@ -272,36 +272,40 @@ jobs:
           echo "Sanitization complete."
 
       - name: 13. Unmount DMG
-        if: always()
+        if: always() # Ensures this runs even if a prior step fails
         run: |
           echo "Attempting to unmount DMG: ./mounted_dmg"
           
-          # Sync I/O buffers and give a brief pause for processes to exit
-          sync
-          sleep 3
-
-          hdiutil detach ./mounted_dmg -force
-
-          if mount | grep -q "mounted_dmg"; then
-            echo "::warning::DMG is still mounted. Attempting to find and kill lingering processes."
-            
-            # Find all Process IDs (PIDs) with open files on the mount path
-            # lsof -t +D <path> lists PIDs using that path
-            PIDS=$(lsof -t +D ./mounted_dmg | tr '\n' ' ')
-            
-            if [ -n "$PIDS" ]; then
-              echo "Found lingering PIDS: $PIDS. Sending KILL signal."
-              # Forcibly kill the lingering processes
-              kill -9 $PIDS
-              sleep 5 # Wait for processes to be killed
-            else
-              echo "lsof found no lingering processes, but mount is still held."
-            fi
-            
-            echo "Retrying final force detach..."
-            hdiutil detach ./mounted_dmg -force
+          # Give a 5-second grace period (on top of Python's 3s) for good measure.
+          # This will usually be enough.
+          sleep 5
+          
+          echo "Checking for any lingering processes on the mount path..."
+          # lsof -t +D <path> lists PIDs of any process with a file open
+          # *inside* that directory.
+          PIDS=$(lsof -t +D ./mounted_dmg | tr '\n' ' ')
+          
+          if [ -n "$PIDS" ]; then
+            echo "::warning::Found lingering PIDS holding the mount: $PIDS. Forcibly terminating..."
+            kill -9 $PIDS
+            echo "Waiting 5s for processes to terminate..."
+            sleep 5 # Give the OS time to register the kills
           else
-            echo "DMG successfully unmounted on first attempt."
+            echo "lsof found no lingering processes. Proceeding with unmount."
+          fi
+          
+          echo "Flushing file system buffers..."
+          sync
+          
+          echo "Attempting final force detach..."
+          hdiutil detach ./mounted_dmg -force
+          
+          # Final check to ensure the workflow fails if the unmount *still* failed.
+          if mount | grep -q "mounted_dmg"; then
+              echo "::error::DMG is STILL mounted after killing PIDS. Unmount failed."
+              exit 1
+          else
+              echo "DMG successfully unmounted."
           fi
 
       - name: 14. Upload Analysis Artifact
