@@ -3,6 +3,7 @@ branchFields:
 
 toggleFields:
   - release_type
+  - os_type
 
 type: ipsw
 ipsw:
