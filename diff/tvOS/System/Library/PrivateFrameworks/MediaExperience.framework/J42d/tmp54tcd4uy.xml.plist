@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Alarm~SOSNotification</key>
+	<string>FindMyPhone</string>
+	<key>Alert</key>
+	<string>Ringtone</string>
+	<key>AmbientSound</key>
+	<string>Audio/Video</string>
+	<key>EmergencyAlert_Muteable</key>
+	<string>Ringtone</string>
+	<key>EmergencyAlert~CustomVolume</key>
+	<string>EmergencyAlert~CustomVolume</string>
+	<key>EmergencyAlert~Default</key>
+	<string>FindMyPhone</string>
+	<key>FindMyPhone</key>
+	<string>FindMyPhone</string>
+	<key>HearingTest</key>
+	<string>Audio/Video</string>
+	<key>LiveAudio</key>
+	<string>Audio/Video</string>
+	<key>MediaPlayback</key>
+	<string>Audio/Video</string>
+	<key>Multi~DualRoute</key>
+	<string>Audio/Video</string>
+	<key>Notice</key>
+	<string>Audio/Video</string>
+	<key>PlayAndRecord</key>
+	<string>Audio/Video</string>
+	<key>PlayAndRecord~GameChat</key>
+	<string>PhoneCall</string>
+	<key>PlayAndRecord~Ibis</key>
+	<string>PhoneCall</string>
+	<key>PlayAndRecord~RemoteVoiceChat</key>
+	<string>PhoneCall</string>
+	<key>PlayAndRecord~VideoChat</key>
+	<string>PhoneCall</string>
+	<key>PlayAndRecord~VoiceChat</key>
+	<string>PhoneCall</string>
+	<key>Ringtone</key>
+	<string>Ringtone</string>
+	<key>RingtonePreview</key>
+	<string>Ringtone</string>
+	<key>SoloAmbientSound</key>
+	<string>Audio/Video</string>
+	<key>SystemSoundsAndHaptics</key>
+	<string>Ringtone</string>
+	<key>ThirdParty</key>
+	<string>Audio/Video</string>
+	<key>UserInterfaceSoundEffects</key>
+	<string>Audio/Video</string>
+	<key>VoiceOver</key>
+	<string>Audio/Video</string>
+	<key>Voicemail</key>
+	<string>PhoneCall</string>
+</dict>
+</plist>
