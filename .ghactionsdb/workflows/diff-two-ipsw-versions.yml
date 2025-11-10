@@ -1,6 +1,11 @@
 branchFields:
 - pr_base_branch
 
+toggleFields:
+  - os_type
+  - base_analysis_type
+  - new_analysis_type
+
 type: ipsw
 ipsw:
   osField: os_type

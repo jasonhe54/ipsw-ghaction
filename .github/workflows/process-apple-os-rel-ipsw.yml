@@ -7,11 +7,7 @@ on:
         description: 'Operating System (e.g., iOS, iPadOS, macOS, visionOS)'
         required: true
         type: choice
-        options:
-          - iOS
-          - iPadOS
-          - macOS
-          - visionOS
+        options: [iOS, iPadOS, macOS, visionOS]
       device_identifier:
         description: 'Device Identifier (e.g., iPhone18,1)'
         required: true

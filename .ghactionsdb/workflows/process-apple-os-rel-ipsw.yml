@@ -1,6 +1,10 @@
 branchFields:
 - checkout_branch
 
+toggleFields:
+  - os_type
+  - release_type
+
 type: ipsw
 ipsw:
   osField: os_type
