@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>canHandleKenBurns</key>
+	<true/>
+	<key>className</key>
+	<string>PageFlip</string>
+	<key>duration</key>
+	<real>1</real>
+	<key>isNative3D</key>
+	<true/>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>presets</key>
+	<dict>
+		<key>BottomToLeft</key>
+		<dict>
+			<key>direction</key>
+			<integer>3</integer>
+		</dict>
+		<key>BottomToRight</key>
+		<dict>
+			<key>direction</key>
+			<integer>2</integer>
+		</dict>
+		<key>Default</key>
+		<dict>
+			<key>direction</key>
+			<integer>3</integer>
+		</dict>
+		<key>TopToLeft</key>
+		<dict>
+			<key>direction</key>
+			<integer>1</integer>
+		</dict>
+		<key>TopToRight</key>
+		<dict>
+			<key>direction</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>transitionVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>

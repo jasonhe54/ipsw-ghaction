@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/mobile/Library/tvremoted/com.apple.tvremoted.keepalive</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.tvremoted</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>tvremote.siriRemoteConnected</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.TVPeripheralAgent.remoteConnected</string>
+			</dict>
+		</dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>tvremote.launchedByRapport</key>
+			<dict>
+				<key>serviceType</key>
+				<string>com.apple.tvremoteservices</string>
+				<key>type</key>
+				<string>server</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.tvremotecore.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/tvremoted</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

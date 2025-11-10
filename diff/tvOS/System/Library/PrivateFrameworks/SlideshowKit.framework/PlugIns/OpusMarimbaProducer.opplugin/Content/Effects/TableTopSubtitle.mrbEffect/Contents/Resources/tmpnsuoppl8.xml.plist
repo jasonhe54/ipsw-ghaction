@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>effects</key>
+	<dict>
+		<key>TableTopBreakSubtitle</key>
+		<dict>
+			<key>className</key>
+			<string>TableTop</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>panoType</key>
+					<integer>3</integer>
+					<key>showDisplayTime</key>
+					<real>0.14999999999999999</real>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? .4*layerWidth : layerHeight*.5*imageAspectRatio,(imageAspectRatio &lt; 1) ? .4*layerWidth/imageAspectRatio : layerHeight*.5</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<false/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>all</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+			</array>
+			<key>isAlphaFriendly</key>
+			<false/>
+			<key>isNative3D</key>
+			<true/>
+			<key>isOpaque</key>
+			<true/>
+			<key>mainDuration</key>
+			<real>7.5</real>
+			<key>needsPanoInformation</key>
+			<true/>
+			<key>needsRandomSeed</key>
+			<true/>
+			<key>numberOfSecondarySlides</key>
+			<integer>5</integer>
+			<key>numberOfSlides</key>
+			<integer>1</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>posterTime</key>
+			<real>1.1499999999999999</real>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[0.46 0.46 0.46 1.]</string>
+							<key>fontName</key>
+							<string>Title Font</string>
+							<key>fontSize</key>
+							<integer>38</integer>
+							<key>headIndent</key>
+							<integer>30</integer>
+							<key>lineSpacing</key>
+							<string>.8</string>
+							<key>maxFontSize</key>
+							<string>78</string>
+							<key>title</key>
+							<string>Subtitle Text Here</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>TableTopSubtitle</key>
+		<dict>
+			<key>categories</key>
+			<array>
+				<string>1 slide</string>
+			</array>
+			<key>className</key>
+			<string>TableTop</string>
+			<key>effectVersion</key>
+			<string>1.0</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&gt;=(layerWidth/layerHeight))?layerWidth:(layerHeight*imageAspectRatio))),(((imageAspectRatio &lt; 1)?1.0:0.8)*((imageAspectRatio&lt;(layerWidth/layerHeight))?layerHeight:(layerWidth/imageAspectRatio)))</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>isMonochromatic</key>
+					<true/>
+					<key>isStill</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>sizeScript</key>
+					<string>(imageAspectRatio &lt; 1) ? layerWidth*0.46666666667 : layerWidth*0.7,(imageAspectRatio &lt; 1) ? layerWidth*0.7 :  layerWidth*0.46666666667</string>
+				</dict>
+			</array>
+			<key>isAlphaFriendly</key>
+			<false/>
+			<key>isNative3D</key>
+			<true/>
+			<key>isOpaque</key>
+			<false/>
+			<key>mainDuration</key>
+			<real>6.5</real>
+			<key>needsRandomSeed</key>
+			<true/>
+			<key>numberOfSecondarySlides</key>
+			<integer>5</integer>
+			<key>numberOfSlides</key>
+			<integer>1</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>0</integer>
+			<key>phaseOutDuration</key>
+			<integer>0</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>layout</key>
+					<string>Right</string>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[0.46 0.46 0.46 1.]</string>
+							<key>fontName</key>
+							<string>Title Font</string>
+							<key>fontSize</key>
+							<integer>38</integer>
+							<key>headIndent</key>
+							<integer>30</integer>
+							<key>lineSpacing</key>
+							<string>.8</string>
+							<key>maxFontSize</key>
+							<string>78</string>
+							<key>title</key>
+							<string>Subtitle Text Here</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Left</key>
+				<dict>
+					<key>layout</key>
+					<string>Left</string>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[0.46 0.46 0.46 1.]</string>
+							<key>fontName</key>
+							<string>Title Font</string>
+							<key>fontSize</key>
+							<integer>38</integer>
+							<key>headIndent</key>
+							<integer>30</integer>
+							<key>lineSpacing</key>
+							<string>.8</string>
+							<key>maxFontSize</key>
+							<string>78</string>
+							<key>title</key>
+							<string>Subtitle Text Here</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Right</key>
+				<dict>
+					<key>layout</key>
+					<string>Right</string>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[0.46 0.46 0.46 1.]</string>
+							<key>fontName</key>
+							<string>Title Font</string>
+							<key>fontSize</key>
+							<integer>38</integer>
+							<key>headIndent</key>
+							<integer>30</integer>
+							<key>lineSpacing</key>
+							<string>.8</string>
+							<key>maxFontSize</key>
+							<string>78</string>
+							<key>title</key>
+							<string>Subtitle Text Here</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

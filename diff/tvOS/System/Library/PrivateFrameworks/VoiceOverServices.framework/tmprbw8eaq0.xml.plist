@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ScreenReaderModes</key>
+	<dict>
+		<key>BrailleScreenInput</key>
+		<false/>
+		<key>Default</key>
+		<dict>
+			<key>MoveToLinkedUI</key>
+			<dict>
+				<key>TouchGesture</key>
+				<string>TwoFingerFlickRight</string>
+			</dict>
+			<key>MoveToSystemFocusedElement</key>
+			<dict>
+				<key>TouchGesture</key>
+				<string>TwoFingerFlickLeft</string>
+			</dict>
+			<key>ShowItemChooser</key>
+			<dict>
+				<key>TouchGesture</key>
+				<string>TwoFingerQuadrupleTap</string>
+			</dict>
+			<key>ToggleNavigationStyle</key>
+			<dict>
+				<key>KeyChord</key>
+				<array>
+					<string>e</string>
+				</array>
+				<key>TouchGesture</key>
+				<string>TwoFingerTripleTap</string>
+			</dict>
+			<key>ToggleSyncNativeAndExploreFocus</key>
+			<dict>
+				<key>KeyChord</key>
+				<array>
+					<string>⇧_F3</string>
+					<string>⇧_Fn_3</string>
+				</array>
+			</dict>
+		</dict>
+		<key>Handwriting</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

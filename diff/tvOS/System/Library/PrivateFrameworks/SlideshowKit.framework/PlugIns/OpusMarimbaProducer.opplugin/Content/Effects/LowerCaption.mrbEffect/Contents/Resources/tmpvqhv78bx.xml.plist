@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>className</key>
+	<string>JustATitle</string>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>mainDuration</key>
+	<string>2</string>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>numberOfTexts</key>
+	<string>2</string>
+	<key>phaseInDuration</key>
+	<integer>0</integer>
+	<key>phaseOutDuration</key>
+	<integer>0</integer>
+	<key>presets</key>
+	<dict>
+		<key>Default</key>
+		<dict>
+			<key>text0MaxNumberOfLines</key>
+			<integer>1</integer>
+			<key>text0Rect</key>
+			<string>{{0, -0.61}, {1.8, .15}}</string>
+			<key>text0SizeAsMax</key>
+			<true/>
+			<key>text1MaxNumberOfLines</key>
+			<integer>2</integer>
+			<key>text1Rect</key>
+			<string>{{0, -0.8}, {1.8, .22}}</string>
+			<key>text1SizeAsMax</key>
+			<true/>
+			<key>textSettings</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Arial-BoldMT</string>
+					<key>fontSize</key>
+					<integer>42</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{2, -2}</string>
+					</dict>
+					<key>title</key>
+					<string>Title Text Here</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>0</integer>
+					<key>fontColor</key>
+					<string>[1. 1. 1. 1.]</string>
+					<key>fontName</key>
+					<string>Arial-BoldMT</string>
+					<key>fontSize</key>
+					<integer>32</integer>
+					<key>shadow</key>
+					<dict>
+						<key>blurRadius</key>
+						<string>1</string>
+						<key>color</key>
+						<string>[0. 0. 0. .85]</string>
+						<key>offset</key>
+						<string>{2, -2}</string>
+					</dict>
+					<key>title</key>
+					<string>Subtitle Text Here</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

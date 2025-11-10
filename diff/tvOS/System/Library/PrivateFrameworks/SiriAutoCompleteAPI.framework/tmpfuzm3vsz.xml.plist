@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nonSignificantWords</key>
+	<array>
+		<string>do</string>
+		<string>with</string>
+		<string>what</string>
+		<string>what's</string>
+		<string>will</string>
+		<string>how</string>
+		<string>that</string>
+		<string>this</string>
+		<string>but</string>
+		<string>or</string>
+		<string>otherwise</string>
+		<string>my</string>
+		<string>me</string>
+		<string>stop</string>
+		<string>cancel</string>
+		<string>delete</string>
+		<string>clear</string>
+		<string>resume</string>
+		<string>end</string>
+		<string>edit</string>
+		<string>pause</string>
+		<string>update</string>
+		<string>flip</string>
+		<string>lap</string>
+	</array>
+	<key>stopWords</key>
+	<array>
+		<string>a</string>
+		<string>an</string>
+		<string>any</string>
+		<string>are</string>
+		<string>as</string>
+		<string>at</string>
+		<string>by</string>
+		<string>for</string>
+		<string>i</string>
+		<string>in</string>
+		<string>into</string>
+		<string>is</string>
+		<string>it</string>
+		<string>its</string>
+		<string>of</string>
+		<string>on</string>
+		<string>so</string>
+		<string>the</string>
+		<string>to</string>
+		<string>with</string>
+		<string>and</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.homepodsettingsd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.homeaccessorysettings.server</key>
+		<true/>
+		<key>com.apple.homepodaccessorysettings.server</key>
+		<true/>
+		<key>com.apple.homepodsettings.assertions.server</key>
+		<true/>
+		<key>com.apple.homepodsettings.profile</key>
+		<true/>
+		<key>com.apple.homepodsettings.server</key>
+		<true/>
+		<key>com.apple.homepodsettings.settingsservice</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.homepodsettingsd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/homepodsettingsd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

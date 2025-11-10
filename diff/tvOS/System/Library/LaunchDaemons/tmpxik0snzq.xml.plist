@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.cmio.ContinuityCaptureAgent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.cmio.registerassistantservice.system-extensions.matching</key>
+		<dict>
+			<key>com.apple.cmio.ContinuityCaptureAgent.extension.discovery</key>
+			<dict>
+				<key>CMIOExtensionBundleIdentifier</key>
+				<string>com.apple.cmio.ContinuityCaptureAgent</string>
+			</dict>
+		</dict>
+		<key>com.apple.rapport.matching</key>
+		<dict>
+			<key>com.apple.cmio.ContinuityCaptureAgent.discovery</key>
+			<dict>
+				<key>CMIOExtensionBundleIdentifier</key>
+				<string>com.apple.cmio.ContinuityCaptureAgent</string>
+				<key>serviceType</key>
+				<string>com.apple.continuitycapture</string>
+				<key>type</key>
+				<string>discovery</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.cmio.ContinuityCaptureAgent</key>
+		<true/>
+		<key>com.apple.continuitycaptureaudio.provider.xpc</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.cmio.ContinuityCamera.notifications</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/ContinuityCaptureAgent</string>
+		<string>server</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

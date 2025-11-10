@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.mediaservicesbroker.app</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.MediaRemote.command.SetPlaybackQueue.invoked.notify.client.com.apple.mediaservicesbroker.app</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MediaRemote.command.SetPlaybackQueue.invoked.notify.client.com.apple.mediaservicesbroker.app</string>
+			</dict>
+			<key>com.apple.MediaSetup.ServicesChanged</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MediaSetup.ServicesChanged</string>
+			</dict>
+			<key>com.apple.homehubd.endpointActivated</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.homehubd.endpointActivated</string>
+			</dict>
+			<key>com.apple.homehubd.endpointDeactivated</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.homehubd.endpointDeactivated</string>
+			</dict>
+			<key>com.apple.language.changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.language.changed</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.agora.server</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/cloudmediaservicesd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

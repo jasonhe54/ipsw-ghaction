@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Package Version</key>
+	<dict>
+		<key>6.0.10</key>
+		<dict>
+			<key>Binary File Resources</key>
+			<dict/>
+			<key>Callables</key>
+			<dict/>
+			<key>Data File Names</key>
+			<array/>
+			<key>Optimized Modules</key>
+			<dict>
+				<key>[
+  "{\n  \"deviceDescriptor\" : [\n    0,\n    38,\n    \"h14g\"\n  ],\n  \"compilationDescriptor\" : {\n    \"enableParallelEncode\" : false,\n    \"aneCompilerSpatialSplitting\" : 3,\n    \"preferredDevice\" : 1,\n    \"enableANECValidationWorkflow\" : false,\n    \"compilerOptions\" : 1423,\n    \"printANEPlacementAnalysis\" : false,\n    \"optimizationProfile\" : 0,\n    \"optimizationLevel\" : 1,\n    \"maximumNumberOfParallelEncodingRegions\" : 4,\n    \"reducedPrecisionFastMath\" : 0,\n    \"enableANELateLatch\" : false,\n    \"entryFunctionName\" : \"\",\n    \"minimumNumberOfOpsInParallelRegion\" : 5,\n    \"enableShapeEquivalence\" : false,\n    \"enableANEFWToFWSignal\" : false,\n    \"enableMLIRDiagnostics\" : false,\n    \"enableCompileResourcesForPackage\" : false,\n    \"enableANECHWRankPromotion\" : false,\n    \"allowedComputeDevices\" : 1\n  },\n  \"inputShapesCount\" : 6,\n  \"inputShapes\" : [\n    8,\n    4,\n    1,\n    544,\n    960,\n    5\n  ],\n  \"callablesDescriptor\" : {\n\n  }\n}"
+]</key>
+				<dict>
+					<key>File Name</key>
+					<string>model_1.mpsgraph</string>
+					<key>Key to Symbol Name</key>
+					<dict>
+						<key>{
+  "deviceDescriptor" : [
+    0,
+    38,
+    "h14g"
+  ],
+  "compilationDescriptor" : {
+    "enableParallelEncode" : false,
+    "aneCompilerSpatialSplitting" : 3,
+    "preferredDevice" : 1,
+    "enableANECValidationWorkflow" : false,
+    "compilerOptions" : 1423,
+    "printANEPlacementAnalysis" : false,
+    "optimizationProfile" : 0,
+    "optimizationLevel" : 1,
+    "maximumNumberOfParallelEncodingRegions" : 4,
+    "reducedPrecisionFastMath" : 0,
+    "enableANELateLatch" : false,
+    "entryFunctionName" : "",
+    "minimumNumberOfOpsInParallelRegion" : 5,
+    "enableShapeEquivalence" : false,
+    "enableANEFWToFWSignal" : false,
+    "enableMLIRDiagnostics" : false,
+    "enableCompileResourcesForPackage" : false,
+    "enableANECHWRankPromotion" : false,
+    "allowedComputeDevices" : 1
+  },
+  "inputShapesCount" : 6,
+  "inputShapes" : [
+    8,
+    4,
+    1,
+    544,
+    960,
+    5
+  ],
+  "callablesDescriptor" : {
+
+  }
+}</key>
+						<string>main</string>
+					</dict>
+					<key>Used In Cache</key>
+					<array>
+						<string>{
+  "deviceDescriptor" : [
+    0,
+    38,
+    "h14g"
+  ],
+  "compilationDescriptor" : {
+    "enableParallelEncode" : false,
+    "aneCompilerSpatialSplitting" : 3,
+    "preferredDevice" : 1,
+    "enableANECValidationWorkflow" : false,
+    "compilerOptions" : 1423,
+    "printANEPlacementAnalysis" : false,
+    "optimizationProfile" : 0,
+    "optimizationLevel" : 1,
+    "maximumNumberOfParallelEncodingRegions" : 4,
+    "reducedPrecisionFastMath" : 0,
+    "enableANELateLatch" : false,
+    "entryFunctionName" : "",
+    "minimumNumberOfOpsInParallelRegion" : 5,
+    "enableShapeEquivalence" : false,
+    "enableANEFWToFWSignal" : false,
+    "enableMLIRDiagnostics" : false,
+    "enableCompileResourcesForPackage" : false,
+    "enableANECHWRankPromotion" : false,
+    "allowedComputeDevices" : 1
+  },
+  "inputShapesCount" : 6,
+  "inputShapes" : [
+    8,
+    4,
+    1,
+    544,
+    960,
+    5
+  ],
+  "callablesDescriptor" : {
+
+  }
+}</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Optimized No Device Modules</key>
+			<dict/>
+			<key>Optimized No Device Resources Used</key>
+			<dict/>
+			<key>Optimized Resources Used</key>
+			<dict>
+				<key>[
+  "{\n  \"deviceDescriptor\" : [\n    0,\n    38,\n    \"h14g\"\n  ],\n  \"compilationDescriptor\" : {\n    \"enableParallelEncode\" : false,\n    \"aneCompilerSpatialSplitting\" : 3,\n    \"preferredDevice\" : 1,\n    \"enableANECValidationWorkflow\" : false,\n    \"compilerOptions\" : 1423,\n    \"printANEPlacementAnalysis\" : false,\n    \"optimizationProfile\" : 0,\n    \"optimizationLevel\" : 1,\n    \"maximumNumberOfParallelEncodingRegions\" : 4,\n    \"reducedPrecisionFastMath\" : 0,\n    \"enableANELateLatch\" : false,\n    \"entryFunctionName\" : \"\",\n    \"minimumNumberOfOpsInParallelRegion\" : 5,\n    \"enableShapeEquivalence\" : false,\n    \"enableANEFWToFWSignal\" : false,\n    \"enableMLIRDiagnostics\" : false,\n    \"enableCompileResourcesForPackage\" : false,\n    \"enableANECHWRankPromotion\" : false,\n    \"allowedComputeDevices\" : 1\n  },\n  \"inputShapesCount\" : 6,\n  \"inputShapes\" : [\n    8,\n    4,\n    1,\n    544,\n    960,\n    5\n  ],\n  \"callablesDescriptor\" : {\n\n  }\n}"
+]</key>
+				<array>
+					<string>tmp_11</string>
+					<string>tmp_68</string>
+					<string>tmp_62</string>
+					<string>tmp_4</string>
+					<string>tmp_2</string>
+					<string>tmp_67</string>
+					<string>tmp_61</string>
+					<string>tmp_1</string>
+					<string>tmp</string>
+					<string>tmp_66</string>
+					<string>tmp_60</string>
+					<string>tmp_65</string>
+					<string>tmp_59</string>
+					<string>tmp_3</string>
+					<string>tmp_64</string>
+					<string>tmp_70</string>
+					<string>tmp_58</string>
+					<string>tmp_69</string>
+					<string>tmp_63</string>
+					<string>tmp_57</string>
+				</array>
+			</dict>
+			<key>Original</key>
+			<string>model_0.mpsgraph</string>
+			<key>Original Resources Used</key>
+			<array>
+				<string>tmp_23</string>
+				<string>tmp_19</string>
+				<string>tmp_14</string>
+				<string>tmp_25</string>
+				<string>tmp_4</string>
+				<string>tmp_9</string>
+				<string>tmp_20</string>
+				<string>tmp_16</string>
+				<string>tmp_27</string>
+				<string>tmp_3</string>
+				<string>tmp_22</string>
+				<string>tmp_11</string>
+				<string>tmp_8</string>
+				<string>tmp</string>
+				<string>tmp_13</string>
+				<string>tmp_2</string>
+				<string>tmp_7</string>
+				<string>tmp_15</string>
+				<string>tmp_26</string>
+				<string>tmp_1</string>
+				<string>tmp_10</string>
+				<string>tmp_6</string>
+				<string>tmp_17</string>
+				<string>tmp_28</string>
+				<string>tmp_12</string>
+				<string>tmp_5</string>
+			</array>
+			<key>Resource Offsets</key>
+			<dict>
+				<key>tmp</key>
+				<integer>75369</integer>
+				<key>tmp_1</key>
+				<integer>351771</integer>
+				<key>tmp_10</key>
+				<integer>70665</integer>
+				<key>tmp_11</key>
+				<integer>68265</integer>
+				<key>tmp_12</key>
+				<integer>43548</integer>
+				<key>tmp_13</key>
+				<integer>32528</integer>
+				<key>tmp_14</key>
+				<integer>0</integer>
+				<key>tmp_15</key>
+				<integer>414374</integer>
+				<key>tmp_16</key>
+				<integer>351902</integer>
+				<key>tmp_17</key>
+				<integer>325140</integer>
+				<key>tmp_19</key>
+				<integer>84853</integer>
+				<key>tmp_2</key>
+				<integer>68355</integer>
+				<key>tmp_20</key>
+				<integer>105599</integer>
+				<key>tmp_22</key>
+				<integer>75500</integer>
+				<key>tmp_23</key>
+				<integer>70755</integer>
+				<key>tmp_25</key>
+				<integer>66592</integer>
+				<key>tmp_26</key>
+				<integer>41747</integer>
+				<key>tmp_27</key>
+				<integer>18436</integer>
+				<key>tmp_28</key>
+				<integer>488106</integer>
+				<key>tmp_3</key>
+				<integer>177421</integer>
+				<key>tmp_4</key>
+				<integer>67107</integer>
+				<key>tmp_5</key>
+				<integer>107650</integer>
+				<key>tmp_57</key>
+				<integer>368290</integer>
+				<key>tmp_58</key>
+				<integer>333335</integer>
+				<key>tmp_59</key>
+				<integer>140553</integer>
+				<key>tmp_6</key>
+				<integer>42262</integer>
+				<key>tmp_60</key>
+				<integer>177680</integer>
+				<key>tmp_61</key>
+				<integer>107781</integer>
+				<key>tmp_62</key>
+				<integer>88952</integer>
+				<key>tmp_63</key>
+				<integer>76527</integer>
+				<key>tmp_64</key>
+				<integer>71270</integer>
+				<key>tmp_65</key>
+				<integer>68614</integer>
+				<key>tmp_66</key>
+				<integer>67238</integer>
+				<key>tmp_67</key>
+				<integer>42521</integer>
+				<key>tmp_68</key>
+				<integer>31501</integer>
+				<key>tmp_69</key>
+				<integer>494445</integer>
+				<key>tmp_7</key>
+				<integer>105340</integer>
+				<key>tmp_70</key>
+				<integer>18695</integer>
+				<key>tmp_8</key>
+				<integer>31370</integer>
+				<key>tmp_9</key>
+				<integer>84722</integer>
+			</dict>
+			<key>Resource Storage Mode</key>
+			<integer>1</integer>
+			<key>Symbols With Mutable Weight</key>
+			<array/>
+		</dict>
+	</dict>
+</dict>
+</plist>

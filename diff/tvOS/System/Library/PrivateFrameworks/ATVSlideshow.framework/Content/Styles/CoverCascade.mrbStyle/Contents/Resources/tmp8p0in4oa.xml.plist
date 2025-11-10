@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backgroundColor</key>
+	<string>[0 0 0 1]</string>
+	<key>canUseClustering</key>
+	<false/>
+	<key>croppingMode</key>
+	<integer>3</integer>
+	<key>dynamicBatchSize</key>
+	<integer>28</integer>
+	<key>isDynamic</key>
+	<true/>
+	<key>layout</key>
+	<dict>
+		<key>coverCascade</key>
+		<dict>
+			<key>autoKenBurnsLikelihood</key>
+			<integer>0</integer>
+			<key>basePeriod</key>
+			<string>1</string>
+			<key>canRepeatPreset</key>
+			<false/>
+			<key>effectPresets</key>
+			<array>
+				<dict>
+					<key>presetID</key>
+					<string>CoverCascade</string>
+				</dict>
+			</array>
+			<key>loopTransition</key>
+			<string>Dissolve</string>
+			<key>minimumEffectDuration</key>
+			<string>20</string>
+			<key>outroEffect</key>
+			<string>FadeOut</string>
+			<key>phasesMatchTransition</key>
+			<false/>
+			<key>transitionPresets</key>
+			<array/>
+		</dict>
+	</dict>
+	<key>mainLayer</key>
+	<string>coverCascade</string>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>needsFaceDetection</key>
+	<false/>
+	<key>numOfSlidesToPreload</key>
+	<integer>56</integer>
+	<key>reorderMode</key>
+	<integer>0</integer>
+	<key>thumbnail</key>
+	<string>Icon.tiff</string>
+</dict>
+</plist>

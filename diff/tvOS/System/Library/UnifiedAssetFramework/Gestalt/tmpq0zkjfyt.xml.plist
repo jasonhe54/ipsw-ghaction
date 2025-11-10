@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FileType</key>
+	<string>GestaltConfiguration</string>
+	<key>FileVersion</key>
+	<string>1.0.0</string>
+	<key>GestaltName</key>
+	<string>com.apple.dictation.offline</string>
+	<key>ValidConfigs</key>
+	<array>
+		<dict>
+			<key>SupportedKeys</key>
+			<array/>
+			<key>TargetingType</key>
+			<string>AllDevices</string>
+		</dict>
+	</array>
+</dict>
+</plist>

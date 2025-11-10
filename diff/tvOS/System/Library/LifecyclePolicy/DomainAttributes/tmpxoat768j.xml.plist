@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RunningBackground</key>
+	<dict>
+		<key>AttributeGroups</key>
+		<array>
+			<dict>
+				<key>Attributes</key>
+				<array>
+					<dict>
+						<key>Class</key>
+						<string>RBSCPUAccessGrant</string>
+						<key>Role</key>
+						<string>RBSRoleNonUserInteractive</string>
+					</dict>
+					<dict>
+						<key>Class</key>
+						<string>RBSCoalitionLevelGrant</string>
+						<key>CoalitionLevel</key>
+						<string>RBSCoalitionLevelHigh</string>
+					</dict>
+					<dict>
+						<key>Class</key>
+						<string>RBSRunningReasonAttribute</string>
+						<key>RunningReason</key>
+						<integer>20218</integer>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>Restriction</key>
+		<dict>
+			<key>Class</key>
+			<string>OriginatorEntitlement</string>
+			<key>Entitlement</key>
+			<string>com.apple.runningboard.assertions.shortcuts</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

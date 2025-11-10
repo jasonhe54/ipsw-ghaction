@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>detectorMargin</key>
+	<array>
+		<integer>10</integer>
+		<integer>10</integer>
+		<integer>20</integer>
+	</array>
+	<key>detectorTarget</key>
+	<array>
+		<integer>195</integer>
+		<integer>90</integer>
+		<integer>80</integer>
+	</array>
+	<key>maximumMotion</key>
+	<real>0.10000000000000001</real>
+	<key>numberOfReadings</key>
+	<integer>5</integer>
+	<key>pitchMargin</key>
+	<integer>20</integer>
+	<key>skipReadings</key>
+	<integer>3</integer>
+	<key>stationaryFrames</key>
+	<integer>10</integer>
+	<key>useSlowALS</key>
+	<false/>
+	<key>yawMargin</key>
+	<integer>7</integer>
+</dict>
+</plist>

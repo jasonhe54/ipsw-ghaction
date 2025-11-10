@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.companiond</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.HMModernMessaging.launch</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>bundleID</key>
+				<string>companiond</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.CompanionServices</key>
+		<true/>
+		<key>com.apple.DistributedTimers</key>
+		<true/>
+		<key>com.apple.companiond.xpc</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/companiond</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

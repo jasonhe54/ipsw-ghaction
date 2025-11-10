@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>support_adaptive_siri_volume_framework</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>support_js</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>support_perception_aware_siri_volume</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+	<key>support_voiceProfileID_in_UserProfile</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

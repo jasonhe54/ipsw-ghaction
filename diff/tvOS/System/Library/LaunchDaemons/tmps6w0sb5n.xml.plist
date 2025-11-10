@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIntents</key>
+	<dict>
+		<key>MetadataAbsolutePaths</key>
+		<array>
+			<string>/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework</string>
+		</array>
+	</dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>EnvironmentVariables</key>
+	<dict/>
+	<key>Label</key>
+	<string>com.apple.intelligenceplatformd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.biome.compute.publisher</key>
+		<dict/>
+		<key>com.apple.distnoted.matching</key>
+		<dict/>
+		<key>com.apple.notifyd.matching</key>
+		<dict/>
+		<key>com.apple.xpc.activity</key>
+		<dict/>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.intelligenceplatform.AssetRegistry</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.EntityResolution</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.EventLog</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.Feedback</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.InferenceSupport</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.Internal</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.KGSimulation</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.Knosis</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.Lighthouse</key>
+		<true/>
+		<key>com.apple.intelligenceplatform.Sysdiagnose</key>
+		<true/>
+		<key>com.apple.private.appintents.delegate.com.apple.intelligenceplatformd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/IntelligencePlatformCore.framework/intelligenceplatformd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

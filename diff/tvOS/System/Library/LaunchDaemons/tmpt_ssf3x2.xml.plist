@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.appleaccountd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.appleaccountd.appleid.availability</key>
+			<dict>
+				<key>GracePeriod</key>
+				<integer>3600</integer>
+				<key>Interval</key>
+				<dict>
+					<key>#Else</key>
+					<integer>86400</integer>
+					<key>#IfFeatureFlagEnabled</key>
+					<string>AppleAccount/OverrideAppleIDHealthCheckInterval</string>
+					<key>#Then</key>
+					<integer>60</integer>
+				</dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>Repeating</key>
+				<true/>
+				<key>RequireNetworkConnectivity</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aa.accountService.xpc</key>
+		<true/>
+		<key>com.apple.aa.daemon.xpc</key>
+		<true/>
+		<key>com.apple.aa.identity.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/appleaccountd</string>
+	</array>
+	<key>ThrottleInterval</key>
+	<integer>3</integer>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

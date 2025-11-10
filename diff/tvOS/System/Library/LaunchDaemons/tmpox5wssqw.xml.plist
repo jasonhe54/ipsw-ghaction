@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<false/>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.fairplayd.T2</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.fairplayd</key>
+		<true/>
+		<key>com.apple.fairplayd.versioned</key>
+		<true/>
+		<key>com.apple.fairplayd.xpc</key>
+		<true/>
+		<key>com.apple.unfreed</key>
+		<dict>
+			<key>HostSpecialPort</key>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/sbin/fairplayd.T2</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

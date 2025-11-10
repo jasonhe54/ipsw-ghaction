@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.apple.tvphotosourcesd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>ACDAccountStoreDidChangeNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>ACDAccountStoreDidChangeNotification</string>
+			</dict>
+			<key>com.apple.TVScreenSaver.preferences.notify</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.TVScreenSaver.preferences.notify</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.tvphotosourcesd.xpc</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/TVPhotoSources.framework/Support/tvphotosourcesd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

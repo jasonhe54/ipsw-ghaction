@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>attributes</key>
+	<dict>
+		<key>fadeColor</key>
+		<dict>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</dict>
+	<key>canHandleKenBurns</key>
+	<true/>
+	<key>className</key>
+	<string>FadeThruColor</string>
+	<key>duration</key>
+	<integer>1</integer>
+	<key>isNative3D</key>
+	<true/>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>presets</key>
+	<dict>
+		<key>Black</key>
+		<dict>
+			<key>fadeColor</key>
+			<string>(0. 0. 0. 1.)</string>
+		</dict>
+		<key>Default</key>
+		<dict>
+			<key>fadeColor</key>
+			<string>(1. 1. 1. 1.)</string>
+		</dict>
+		<key>White</key>
+		<dict>
+			<key>fadeColor</key>
+			<string>(1. 1. 1. 1.)</string>
+		</dict>
+	</dict>
+	<key>transitionVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>

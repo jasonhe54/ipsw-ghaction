@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backgroundColor</key>
+	<string>[0.22 0.22 0.22 1]</string>
+	<key>canUseClustering</key>
+	<false/>
+	<key>croppingMode</key>
+	<integer>3</integer>
+	<key>layout</key>
+	<dict>
+		<key>pictures</key>
+		<dict>
+			<key>autoKenBurnsLikelihood</key>
+			<integer>0</integer>
+			<key>basePeriod</key>
+			<string>1</string>
+			<key>canRepeatPreset</key>
+			<false/>
+			<key>effectAuthored</key>
+			<true/>
+			<key>effectPresets</key>
+			<array>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>HyperGrid/Default</string>
+				</dict>
+			</array>
+			<key>loopTransition</key>
+			<string>Dissolve</string>
+			<key>minimumEffectDuration</key>
+			<string>3</string>
+			<key>outroEffect</key>
+			<string>FadeOut</string>
+			<key>phasesMatchTransition</key>
+			<false/>
+			<key>transitionPresets</key>
+			<array>
+				<string>HyperGridWipe/BottomLeft</string>
+				<string>HyperGridWipe/TopLeft</string>
+				<string>HyperGridWipe/TopRight</string>
+				<string>HyperGridWipe/BottomRight</string>
+			</array>
+			<key>zIndex</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>mainLayer</key>
+	<string>pictures</string>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>reorderMode</key>
+	<integer>0</integer>
+	<key>thumbnail</key>
+	<string>Icon.tiff</string>
+</dict>
+</plist>

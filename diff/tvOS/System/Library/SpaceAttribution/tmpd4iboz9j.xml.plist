@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SPACE_ATTRIBUTION_OWNER</key>
+	<string>com.apple.TVPhotos</string>
+	<key>SPACE_ATTRIBUTION_PATHS</key>
+	<array>
+		<string>/var/mobile/Media/DCIM</string>
+		<string>/var/mobile/Media/PhotoData</string>
+		<string>/var/mobile/Media/Photos</string>
+		<string>/var/mobile/Media/PhotoStreamsData</string>
+		<string>/var/mobile/Media/MediaAnalysis</string>
+		<string>/var/mobile/Library/MediaStream</string>
+		<string>/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary</string>
+	</array>
+</dict>
+</plist>

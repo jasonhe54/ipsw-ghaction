@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>ExitTimeOut</key>
+	<integer>3</integer>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.threadradiod</string>
+	<key>LimitLoadToHardware</key>
+	<dict>
+		<key>features.fillmore</key>
+		<true/>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.wpantund.xpc</key>
+		<true/>
+	</dict>
+	<key>PosixSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/CoreThreadRadio.framework/threadradiod</string>
+	</array>
+</dict>
+</plist>

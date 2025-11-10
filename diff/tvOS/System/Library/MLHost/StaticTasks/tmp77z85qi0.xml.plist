@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleIdentifier</key>
+	<string>com.apple.siri.metrics.MetricsExtension</string>
+	<key>name</key>
+	<string>com.apple.siri.metrics.MetricsExtension.scorecard.daily</string>
+	<key>taskRequest</key>
+	<dict>
+		<key>groupConcurrencyLimit</key>
+		<integer>1</integer>
+		<key>groupName</key>
+		<string>com.apple.siri.metrics.MetricsExtension</string>
+		<key>priority</key>
+		<string>Utility</string>
+		<key>repeatingTask</key>
+		<dict>
+			<key>interval</key>
+			<real>79200</real>
+			<key>minDurationBetweenInstances</key>
+			<integer>39600</integer>
+		</dict>
+		<key>requiresExternalPower</key>
+		<false/>
+		<key>requiresProtectionClass</key>
+		<string>ClassC</string>
+	</dict>
+</dict>
+</plist>

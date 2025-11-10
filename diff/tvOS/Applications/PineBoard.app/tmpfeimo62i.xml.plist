@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FeatureSets</key>
+	<dict>
+		<key>CMVC</key>
+		<dict>
+			<key>FeatureFlags</key>
+			<array>
+				<string>MediaRemote/coordinated_volume</string>
+				<string>AirPlay/CMVC</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

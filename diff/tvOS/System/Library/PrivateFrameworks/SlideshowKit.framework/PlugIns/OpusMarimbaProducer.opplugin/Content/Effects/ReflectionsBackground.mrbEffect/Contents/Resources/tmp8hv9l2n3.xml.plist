@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>className</key>
+	<string>ReflectionsBackground</string>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>imageInputInfo</key>
+	<array/>
+	<key>imageProviderInfo</key>
+	<dict>
+		<key>gradient</key>
+		<dict>
+			<key>imageName</key>
+			<string>gradient.jpg</string>
+			<key>imageSizeScript</key>
+			<string>layerWidth,layerHeight</string>
+		</dict>
+		<key>groundShadowCenter</key>
+		<dict>
+			<key>imageName</key>
+			<string>groundShadowMiddle.png</string>
+			<key>imageSizeScript</key>
+			<string>layerHeight*imageAspectRatio,layerHeight*.1</string>
+		</dict>
+		<key>groundShadowLeft</key>
+		<dict>
+			<key>imageName</key>
+			<string>groundShadowCapLeft.png</string>
+			<key>imageSizeScript</key>
+			<string>layerHeight*imageAspectRatio,layerHeight*.1</string>
+		</dict>
+		<key>groundShadowRight</key>
+		<dict>
+			<key>imageName</key>
+			<string>groundShadowCapRight.png</string>
+			<key>imageSizeScript</key>
+			<string>layerHeight*imageAspectRatio,layerHeight*.1</string>
+		</dict>
+	</dict>
+	<key>isAlphaFriendly</key>
+	<false/>
+	<key>isNative3D</key>
+	<true/>
+	<key>isOpaque</key>
+	<true/>
+	<key>mainDuration</key>
+	<integer>4</integer>
+	<key>numberOfSlides</key>
+	<integer>0</integer>
+	<key>numberOfTexts</key>
+	<integer>0</integer>
+	<key>phaseInDuration</key>
+	<integer>0</integer>
+	<key>phaseOutDuration</key>
+	<integer>0</integer>
+	<key>presets</key>
+	<dict>
+		<key>Default</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

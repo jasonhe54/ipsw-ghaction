@@ -1,0 +1,3267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>effectVersion</key>
+	<string>1.0</string>
+	<key>effects</key>
+	<dict>
+		<key>Scrapbook_Effect1</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0.,((phaseInDuration + .1818*mainDuration) + 2)</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.65),(layerWidth * 0.65)/1.333</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>4</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .1818*mainDuration),((phaseInDuration + .4545*mainDuration) + 2)</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.65),(layerWidth * 0.65)/1.333</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>7</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4545*mainDuration),((phaseInDuration + .7272*mainDuration) + 2)</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.65),(layerWidth * 0.65)/1.333</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>10</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .7272*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.65),(layerWidth * 0.65)/1.333</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>brown-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.8),(layerWidth * 0.8)/imageAspectRatio</string>
+				</dict>
+				<key>flourish-landscape1</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-landscape1.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6375),(layerWidth * 0.6375)/imageAspectRatio</string>
+				</dict>
+				<key>flourish-landscape2</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-landscape2.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6375),(layerWidth * 0.6375)/imageAspectRatio</string>
+				</dict>
+				<key>flourish-landscape3</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-landscape3.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6375),(layerWidth * 0.6375)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>11</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect10</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.73,(layerHeight * 0.8)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>flourish-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.415),(layerWidth * 0.415)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .8),(layerWidth * .8)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect11</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/1.5</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.75</string>
+					<key>breakType</key>
+					<integer>2</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>maxBreak</key>
+					<real>0.45000000000000001</real>
+					<key>minBreak</key>
+					<real>0.34999999999999998</real>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.8)*.35,(layerHeight*.8)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>mounted-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>mounted-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.648),(layerWidth * 0.648)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .8),(layerWidth * .8)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>skipBreakScale</key>
+			<true/>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect12</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.75</string>
+					<key>breakType</key>
+					<integer>2</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>maxBreak</key>
+					<real>0.45000000000000001</real>
+					<key>minBreak</key>
+					<real>0.34999999999999998</real>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.8)*.35,(layerHeight*.8)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>4</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .25*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>7</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .625*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>mounted-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>mounted-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.648),(layerWidth * 0.648)/imageAspectRatio</string>
+				</dict>
+				<key>portrait-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>portrait-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.3375),(layerWidth * 0.3375)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .8),(layerWidth * .8)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>skipBreakScale</key>
+			<true/>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect13</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>breakType</key>
+					<integer>2</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>maxBreak</key>
+					<real>0.29999999999999999</real>
+					<key>minBreak</key>
+					<real>0.20000000000000001</real>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.8)*.4,(layerHeight*.8)*2</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.54),(layerWidth * 0.5 * 0.4)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>4</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .25*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<string>7</string>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .625*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .32),(layerWidth * 0.32)/imageAspectRatio</string>
+				</dict>
+				<key>rounded-corner</key>
+				<dict>
+					<key>imageName</key>
+					<string>rounded-corner.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>skipBreakScale</key>
+			<true/>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect14</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>breakType</key>
+					<integer>1</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>maxBreak</key>
+					<real>6.7999999999999998</real>
+					<key>minBreak</key>
+					<real>6.4000000000000004</real>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.5)*3.82*2,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>torn-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .8),(layerWidth * .8)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>skipBreakScale</key>
+			<true/>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect15</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.36</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<string>0</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.36</string>
+				</dict>
+				<dict>
+					<key>breakType</key>
+					<integer>1</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>maxBreak</key>
+					<real>3.7999999999999998</real>
+					<key>minBreak</key>
+					<real>3.3999999999999999</real>
+					<key>showDisplayTime</key>
+					<string>0</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.875),(layerWidth*.875)/3.6</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>rough-vignette</key>
+				<dict>
+					<key>imageName</key>
+					<string>rough-vignette.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.46),(layerWidth * 0.46)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>skipBreakScale</key>
+			<true/>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect16</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.75)*.7,(layerHeight*.75)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>portrait-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>portrait-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.3375),(layerWidth * 0.3375)/imageAspectRatio</string>
+				</dict>
+				<key>vertical-lined-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>vertical-lined-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.33),(layerWidth * 0.33)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect17</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.75)*.75,(layerHeight*.75)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.4)*.75,(layerHeight * 0.4)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.4)*.75,(layerHeight * 0.4)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.5 * 0.585),(layerWidth * 0.5 * 0.585)/imageAspectRatio</string>
+				</dict>
+				<key>rough-vignette-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>rough-vignette-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.2),(layerWidth * 0.2)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect18</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.75)*.75,(layerHeight*.75)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.75)*.75,(layerHeight * 0.75)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<string>4.6</string>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.75)*.75,(layerHeight * 0.75)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.5 * 0.585),(layerWidth * 0.5 * 0.585)/imageAspectRatio</string>
+				</dict>
+				<key>flourish-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.415),(layerWidth * 0.415)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect2</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.44),(layerWidth * 0.5 * 0.44)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.44),(layerWidth * 0.5 * 0.44)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.0999999999999996</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .25*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>7.0999999999999996</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .625*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight * 0.8)*.75,(layerHeight * 0.8)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>portrait-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>portrait-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.3375),(layerWidth * 0.3375)/imageAspectRatio</string>
+				</dict>
+				<key>squareFrame</key>
+				<dict>
+					<key>imageName</key>
+					<string>square-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .26),(layerWidth * .26)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect2Movie</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.665),(layerWidth * 0.5 * 0.9)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.44),(layerWidth * 0.5 * 0.44)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.44),(layerWidth * 0.5 * 0.44)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>portrait-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>portrait-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.3375),(layerWidth * 0.3375)/imageAspectRatio</string>
+				</dict>
+				<key>squareFrame</key>
+				<dict>
+					<key>imageName</key>
+					<string>square-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .26),(layerWidth * .26)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect3</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/1.5</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>4</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .142*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>7</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .357*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>10</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .571*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>13</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .785*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>mounted-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>mounted-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame1</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame1.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame2</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame2.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame3</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame3.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>14</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect3Movie</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/1.5</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.5),(layerWidth * 0.5 * 0.375)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>mounted-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>mounted-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame1</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame1.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame2</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame2.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame3</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame3.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>14</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect4</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.75</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.35),(layerWidth * 0.35)/.78</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.333</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>4</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .25*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.333</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>7</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .625*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.333</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>rough-vignette</key>
+				<dict>
+					<key>imageName</key>
+					<string>rough-vignette.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.475),(layerWidth * 0.475)/imageAspectRatio</string>
+				</dict>
+				<key>ruled-border</key>
+				<dict>
+					<key>imageName</key>
+					<string>ruled-border.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.257),(layerWidth * 0.257)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect4Movie</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.4),(layerWidth * 0.5 * 0.55)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 1.04),(layerWidth * 0.5 * 0.75)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>rough-vignette</key>
+				<dict>
+					<key>imageName</key>
+					<string>rough-vignette.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.475),(layerWidth * 0.475)/imageAspectRatio</string>
+				</dict>
+				<key>ruled-border</key>
+				<dict>
+					<key>imageName</key>
+					<string>ruled-border.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.257),(layerWidth * 0.257)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect5</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.6),(layerWidth * 0.5 * 0.48)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.9000000000000004</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.9000000000000004</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.9000000000000004</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.9000000000000004</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<real>4.9000000000000004</real>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.6),(layerWidth * 0.5 * 0.48)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>postcardBack</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-back.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.775),(layerWidth * 0.775)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardFrame</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.75),(layerWidth * 0.75)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ1Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q1-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ2Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q2-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ3Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q3-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ4Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q4-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ5Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q5-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect5Movie</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.73),(layerWidth * 0.5 * 0.465)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.6),(layerWidth * 0.5 * 0.48)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>postcardBack</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-back.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.775),(layerWidth * 0.775)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardFrame</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.75),(layerWidth * 0.75)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ1Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q1-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ2Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q2-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ3Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q3-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ4Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q4-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.36),(layerWidth * 0.36)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+				<key>postcardQ5Mask</key>
+				<dict>
+					<key>imageName</key>
+					<string>postcard-q5-mask.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/imageAspectRatio</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect6</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.75)*.7,(layerHeight*.75)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.54),(layerWidth * 0.5 * 0.4)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>4</integer>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .25*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<string>7</string>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .625*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .32),(layerWidth * 0.32)/imageAspectRatio</string>
+				</dict>
+				<key>rounded-corner</key>
+				<dict>
+					<key>imageName</key>
+					<string>rounded-corner.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+				<key>vertical-lined-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>vertical-lined-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.33),(layerWidth * 0.33)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect6Movie</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.75)*.75,(layerHeight*.75)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.54),(layerWidth * 0.5 * 0.4)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .32),(layerWidth * 0.32)/imageAspectRatio</string>
+				</dict>
+				<key>rounded-corner</key>
+				<dict>
+					<key>imageName</key>
+					<string>rounded-corner.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.27),(layerWidth * 0.27)/imageAspectRatio</string>
+				</dict>
+				<key>vertical-lined-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>vertical-lined-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.33),(layerWidth * 0.33)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>8</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect7</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.36</string>
+				</dict>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<string>4.9</string>
+					<key>showTimeScript</key>
+					<string>(phaseInDuration + .4*mainDuration),-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5),(layerWidth * 0.5)/1.36</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>rough-vignette</key>
+				<dict>
+					<key>imageName</key>
+					<string>rough-vignette.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.46),(layerWidth * 0.46)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>5</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect8</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.6),(layerWidth * 0.6)/1.5</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>mounted-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>mounted-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.648),(layerWidth * 0.648)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect9</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 1.08),(layerWidth * 0.5 * 0.8)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<string>0</string>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth * 0.5 * 0.63),(layerWidth * 0.5 * 0.477)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.51),(layerWidth * 0.51)/imageAspectRatio</string>
+				</dict>
+				<key>rough-vignette</key>
+				<dict>
+					<key>imageName</key>
+					<string>rough-vignette.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.33),(layerWidth * 0.33)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect_BreakL1</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>breakType</key>
+					<integer>1</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.5)*imageAspectRatio,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>break_01</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_02</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_03</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_04</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_04.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_05</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_05.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_06</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_06.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_07</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_07.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_08</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_08.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>torn-paper-01</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-02</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-03</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect_BreakL1_Subtitle</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>breakType</key>
+					<integer>1</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.5)*imageAspectRatio,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>break_01</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_02</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_03</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_04</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_04.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_05</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_05.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_06</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_06.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_07</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_07.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_08</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_08.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>folded-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>folded-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.98 * 0.5),(layerWidth * 0.98 * 0.5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-01</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-02</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-03</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>[.17 .17 .17 1.]</string>
+							<key>fontName</key>
+							<string>DearJoeFour-Regular</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect_BreakL1_Title</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>1.5</string>
+					<key>breakType</key>
+					<integer>1</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerHeight*.5)*imageAspectRatio,(layerHeight*.5)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>break_01</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_02</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_03</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_04</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_04.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_05</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_05.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_06</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_06.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_07</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_07.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_08</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_08.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>brown-paper-01</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper-01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .6),(layerWidth * .6)/imageAspectRatio</string>
+				</dict>
+				<key>brown-paper-02</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper-02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .6),(layerWidth * .6)/imageAspectRatio</string>
+				</dict>
+				<key>brown-paper-03</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper-03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .6),(layerWidth * .6)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>[0.588 0.447 0.278 1.]</string>
+							<key>fontName</key>
+							<string>Cochin</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>shadow</key>
+							<dict>
+								<key>blurRadius</key>
+								<string>0</string>
+								<key>color</key>
+								<string>[1. 1. 1. 1.]</string>
+								<key>offset</key>
+								<string>{0, -1}</string>
+							</dict>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect_BreakP1</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.75</string>
+					<key>breakType</key>
+					<integer>2</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerWidth*.5)/imageAspectRatio</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>break_01</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_02</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_03</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_04</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_04.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_05</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_05.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_06</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_06.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_07</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_07.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_08</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_08.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>torn-paper-01</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-02</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-03</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>0</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect_BreakP1_Subtitle</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.75</string>
+					<key>breakType</key>
+					<integer>2</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerWidth*.5)/imageAspectRatio</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>break_01</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_02</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_03</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_04</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_04.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_05</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_05.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_06</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_06.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_07</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_07.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_08</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_08.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>torn-paper-01</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-02</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper-03</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper-03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .5),(layerWidth * .5)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[.17 .17 .17 1.]</string>
+							<key>fontName</key>
+							<string>DearJoeFour-Regular</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>headIndent</key>
+							<integer>50</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Effect_BreakP1_Title</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>aspectRatioHint</key>
+					<string>.75</string>
+					<key>breakType</key>
+					<integer>2</integer>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>fullImage</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>needsImageSize</key>
+					<true/>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(layerWidth*.5),(layerWidth*.5)/imageAspectRatio</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>break_01</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_02</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_03</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_04</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_04.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_05</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_05.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.6)*imageAspectRatio,(layerHeight * 0.6)</string>
+				</dict>
+				<key>break_06</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_06.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_07</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_07.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>break_08</key>
+				<dict>
+					<key>imageName</key>
+					<string>break_08.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerHeight * 0.1)*imageAspectRatio,(layerHeight * 0.1)</string>
+				</dict>
+				<key>brown-paper-01</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper-01.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .6),(layerWidth * .6)/imageAspectRatio</string>
+				</dict>
+				<key>brown-paper-02</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper-02.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .6),(layerWidth * .6)/imageAspectRatio</string>
+				</dict>
+				<key>brown-paper-03</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper-03.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * .6),(layerWidth * .6)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>posterTime</key>
+			<integer>0</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>[0.588 0.447 0.278 1.]</string>
+							<key>fontName</key>
+							<string>Cochin</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>shadow</key>
+							<dict>
+								<key>blurRadius</key>
+								<string>0</string>
+								<key>color</key>
+								<string>[1. 1. 1. 1.]</string>
+								<key>offset</key>
+								<string>{0, -1}</string>
+							</dict>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Subtitle</key>
+		<dict>
+			<key>Fonts</key>
+			<array>
+				<string>DearJoeFour-Regular</string>
+			</array>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(aspect == 1) ? (layerWidth * 0.5 * 0.63) : (layerWidth * 0.5 * 1.08),  (aspect == 1) ? (layerWidth * 0.5 * 0.9) :  (layerWidth * 0.5 * 0.8)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>deckle-edge-frame-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>deckle-edge-frame-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.5 * 0.585),(layerWidth * 0.5 * 0.585)/imageAspectRatio</string>
+				</dict>
+				<key>folded-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>folded-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.98 * 0.5),(layerWidth * 0.98 * 0.5)/imageAspectRatio</string>
+				</dict>
+				<key>ripped-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>ripped-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.8 * 0.5),(layerWidth * 0.8 * 0.5)/imageAspectRatio</string>
+				</dict>
+				<key>torn-frame1</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-frame1.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.5 * 1.377),(layerWidth * 0.5 * 1.377)/imageAspectRatio</string>
+				</dict>
+				<key>torn-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>torn-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.8),(layerWidth * 0.8)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>posterTime</key>
+			<integer>1</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>aspect</key>
+					<integer>1</integer>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[.17 .17 .17 1.]</string>
+							<key>fontName</key>
+							<string>DearJoeFour-Regular</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>headIndent</key>
+							<integer>50</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Landscape</key>
+				<dict>
+					<key>aspect</key>
+					<integer>0</integer>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[.17 .17 .17 1.]</string>
+							<key>fontName</key>
+							<string>DearJoeFour-Regular</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>headIndent</key>
+							<integer>50</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Portrait</key>
+				<dict>
+					<key>aspect</key>
+					<integer>1</integer>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>0</integer>
+							<key>fontColor</key>
+							<string>[.17 .17 .17 1.]</string>
+							<key>fontName</key>
+							<string>DearJoeFour-Regular</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>headIndent</key>
+							<integer>50</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+		<key>Scrapbook_Title2</key>
+		<dict>
+			<key>className</key>
+			<string>Scrapbook</string>
+			<key>imageInputInfo</key>
+			<array>
+				<dict>
+					<key>canHandleKenBurns</key>
+					<true/>
+					<key>kenBurnsType</key>
+					<string>Crop to Fit</string>
+					<key>showDisplayTime</key>
+					<integer>0</integer>
+					<key>showTimeScript</key>
+					<string>0,-1</string>
+					<key>sizeScript</key>
+					<string>(aspect == 1) ? (layerWidth * 0.5 * 0.63) : (layerWidth * 0.5 * 1.08),  (aspect == 1) ? (layerWidth * 0.5 * 0.9) :  (layerWidth * 0.5 * 0.74736)</string>
+				</dict>
+			</array>
+			<key>imageProviderInfo</key>
+			<dict>
+				<key>brown-paper</key>
+				<dict>
+					<key>imageName</key>
+					<string>brown-paper.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.8),(layerWidth * 0.8)/imageAspectRatio</string>
+				</dict>
+				<key>flourish-landscape1</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-landscape1.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.6375),(layerWidth * 0.6375)/imageAspectRatio</string>
+				</dict>
+				<key>flourish-portrait</key>
+				<dict>
+					<key>imageName</key>
+					<string>flourish-portrait.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.415),(layerWidth * 0.415)/imageAspectRatio</string>
+				</dict>
+				<key>text-card</key>
+				<dict>
+					<key>imageName</key>
+					<string>text-card.png</string>
+					<key>imageSizeScript</key>
+					<string>(layerWidth * 0.98 * 0.5),(layerWidth * 0.98 * 0.5)/imageAspectRatio</string>
+				</dict>
+			</dict>
+			<key>mainDuration</key>
+			<integer>4</integer>
+			<key>numberOfTexts</key>
+			<integer>1</integer>
+			<key>phaseInDuration</key>
+			<integer>2</integer>
+			<key>phaseOutDuration</key>
+			<integer>2</integer>
+			<key>posterTime</key>
+			<integer>1</integer>
+			<key>presets</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>aspect</key>
+					<integer>1</integer>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>[0.588 0.447 0.278 1.]</string>
+							<key>fontName</key>
+							<string>Cochin</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>shadow</key>
+							<dict>
+								<key>blurRadius</key>
+								<string>0</string>
+								<key>color</key>
+								<string>[1. 1. 1. 1.]</string>
+								<key>offset</key>
+								<string>{0, -1}</string>
+							</dict>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Landscape</key>
+				<dict>
+					<key>aspect</key>
+					<integer>0</integer>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>[0.588 0.447 0.278 1.]</string>
+							<key>fontName</key>
+							<string>Cochin</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>shadow</key>
+							<dict>
+								<key>blurRadius</key>
+								<string>0</string>
+								<key>color</key>
+								<string>[1. 1. 1. 1.]</string>
+								<key>offset</key>
+								<string>{0, -1}</string>
+							</dict>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+				<key>Portrait</key>
+				<dict>
+					<key>aspect</key>
+					<integer>1</integer>
+					<key>textSettings</key>
+					<array>
+						<dict>
+							<key>alignment</key>
+							<integer>2</integer>
+							<key>fontColor</key>
+							<string>[0.588 0.447 0.278 1.]</string>
+							<key>fontName</key>
+							<string>Cochin</string>
+							<key>fontSize</key>
+							<integer>56</integer>
+							<key>maxFontSize</key>
+							<integer>96</integer>
+							<key>shadow</key>
+							<dict>
+								<key>blurRadius</key>
+								<string>0</string>
+								<key>color</key>
+								<string>[1. 1. 1. 1.]</string>
+								<key>offset</key>
+								<string>{0, -1}</string>
+							</dict>
+							<key>title</key>
+							<string>Pumpkin
+Patch Fun</string>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>

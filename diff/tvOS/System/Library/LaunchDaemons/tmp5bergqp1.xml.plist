@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.assistant_service.remora</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.assistant.speech-capture.finished</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.assistant.speech-capture.finished</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.assistant_service.remora</key>
+		<true/>
+		<key>com.apple.siri.execution_service.remora</key>
+		<true/>
+		<key>com.apple.siri.shared_flow_plugin_service.remora</key>
+		<true/>
+	</dict>
+	<key>MultipleInstances</key>
+	<string>Managed</string>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service</string>
+		<string>--remora</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

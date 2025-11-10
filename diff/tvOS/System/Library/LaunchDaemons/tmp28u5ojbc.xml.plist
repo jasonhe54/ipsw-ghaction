@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.SepUpdateTimer</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.xpc.activity</key>
+		<dict>
+			<key>com.apple.SepUpdateTimer</key>
+			<dict>
+				<key>AllowBattery</key>
+				<true/>
+				<key>GracePeriod</key>
+				<integer>0</integer>
+				<key>Interval</key>
+				<integer>3600</integer>
+				<key>ShouldWakeDevice</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/seputil</string>
+		<string>--daemonize-update-timer</string>
+	</array>
+	<key>_LimitLoadToDeviceTree</key>
+	<string>hilo</string>
+</dict>
+</plist>

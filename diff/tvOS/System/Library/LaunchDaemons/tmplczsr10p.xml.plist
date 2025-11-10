@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.SoundScapes</string>
+	<key>Label</key>
+	<string>com.apple.SoundScapes</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict>
+			<key>com.apple.MediaRemote.command.Play.invoked.notify.client.com.apple.SoundScapes</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MediaRemote.command.Play.invoked.notify.client.com.apple.SoundScapes</string>
+			</dict>
+			<key>com.apple.MediaRemote.command.SetPlaybackQueue.invoked.notify.client.com.apple.SoundScapes</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MediaRemote.command.SetPlaybackQueue.invoked.notify.client.com.apple.SoundScapes</string>
+			</dict>
+			<key>com.apple.MobileAsset.SoundScapesAssets.ma.cached-metadata-updated</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MobileAsset.SoundScapesAssets.ma.cached-metadata-updated</string>
+			</dict>
+			<key>com.apple.MobileAsset.SoundScapesAssets.ma.new-asset-installed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.MobileAsset.SoundScapesAssets.ma.new-asset-installed</string>
+			</dict>
+			<key>com.apple.language.changed</key>
+			<dict>
+				<key>Notification</key>
+				<string>com.apple.language.changed</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.soundscapes.server</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/SoundScapes</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

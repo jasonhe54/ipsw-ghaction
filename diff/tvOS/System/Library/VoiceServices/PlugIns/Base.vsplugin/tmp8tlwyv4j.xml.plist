@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>キャンセル</string>
+				<string>中止</string>
+				<string>ストップ</string>
+				<string>停止</string>
+				<string>終了</string>
+				<string>やめる</string>
+				<string>とめる</string>
+				<string>とめて</string>
+				<string>もういい</string>
+				<string>違う</string>
+				<string>間違った</string>
+				<string>間違い</string>
+				<string>これじゃない</string>
+				<string>おわり</string>
+				<string>おしまい</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>cancel</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>cancel</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

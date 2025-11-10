@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>countryCode</key>
+		<string>US</string>
+		<key>languageCode</key>
+		<string>en</string>
+		<key>name</key>
+		<string>Suicide and Crisis Lifeline</string>
+		<key>phoneNumber</key>
+		<string>988</string>
+		<key>resourceType</key>
+		<string>mental health</string>
+		<key>smsNumber</key>
+		<string>988</string>
+		<key>websearchQuery</key>
+		<string>mental health services</string>
+		<key>website</key>
+		<dict>
+			<key>relative</key>
+			<string>https://988lifeline.org</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>countryCode</key>
+		<string>US</string>
+		<key>languageCode</key>
+		<string>en</string>
+		<key>name</key>
+		<string>National Alliance on Mental Illness</string>
+		<key>phoneNumber</key>
+		<string>800-950-6264</string>
+		<key>resourceType</key>
+		<string>mental health</string>
+		<key>smsNumber</key>
+		<string>62640</string>
+		<key>websearchQuery</key>
+		<string>mental health services</string>
+		<key>website</key>
+		<dict>
+			<key>relative</key>
+			<string>https://nami.org</string>
+		</dict>
+	</dict>
+</array>
+</plist>

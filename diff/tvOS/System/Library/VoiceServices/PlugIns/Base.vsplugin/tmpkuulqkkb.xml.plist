@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>cancelar</string>
+				<string>cancela</string>
+				<string>cancélalo</string>
+				<string>cancélala</string>
+				<string>stop</string>
+				<string>detener</string>
+				<string>detente</string>
+				<string>detenlo</string>
+				<string>detenla</string>
+				<string>parar</string>
+				<string>para</string>
+				<string>páralo</string>
+				<string>párala</string>
+				<string>ésta no</string>
+				<string>éste no</string>
+				<string>esto no</string>
+				<string>no ésta</string>
+				<string>no éste</string>
+				<string>no esto</string>
+				<string>ésta no es</string>
+				<string>éste no es</string>
+				<string>esto no es</string>
+				<string>no es ésta</string>
+				<string>no es éste</string>
+				<string>no es esto</string>
+				<string>no</string>
+				<string>mal</string>
+				<string>incorrecto</string>
+				<string>incorrecta</string>
+				<string>erróneo</string>
+				<string>errónea</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>cancel</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>cancel</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>DuetActivityScheduler-v3</string>
+	<key>NSManagedObjectModel_VersionChecksums</key>
+	<dict>
+		<key>DuetActivityScheduler</key>
+		<string>Yz49hCN9p/bYOh+//kdXYCBkFbRtJyZwpH5pFH2ahwM=</string>
+		<key>DuetActivityScheduler-v2</key>
+		<string>bxZIuviJh3dUxkStll2cVa98LuBXwwes16oDtlAhAmE=</string>
+		<key>DuetActivityScheduler-v3</key>
+		<string>rXdwmenydb+cl65S3tSy9rIL6lkwSXqL7UvaJVK21Lc=</string>
+	</dict>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>DuetActivityScheduler</key>
+		<dict>
+			<key>Activity</key>
+			<data>
+			vcqpcLSAP3R7/4n7eMH2Amovg/b1/Rfmy0vdq7NOads=
+			</data>
+			<key>Group</key>
+			<data>
+			yVWk4DSuiJ6wt8fSfH5ae06Pw67ZSVgOniC5gOSMPjc=
+			</data>
+			<key>Trigger</key>
+			<data>
+			ySR3ThV3X/fdzu1Tc1i9x7tdSJ+SfjXAkrIpM9OPbZ8=
+			</data>
+		</dict>
+		<key>DuetActivityScheduler-v2</key>
+		<dict>
+			<key>Activity</key>
+			<data>
+			1rB+qQA63RxISH7N/l0NJE4TIO19hd0LIiCEfOHwnsI=
+			</data>
+			<key>Group</key>
+			<data>
+			yVWk4DSuiJ6wt8fSfH5ae06Pw67ZSVgOniC5gOSMPjc=
+			</data>
+			<key>Trigger</key>
+			<data>
+			ySR3ThV3X/fdzu1Tc1i9x7tdSJ+SfjXAkrIpM9OPbZ8=
+			</data>
+		</dict>
+		<key>DuetActivityScheduler-v3</key>
+		<dict>
+			<key>Activity</key>
+			<data>
+			dlVw1wuU+GcevZboTXj9HG4uiOulJKDXMQOBBGk5uxg=
+			</data>
+			<key>Group</key>
+			<data>
+			yVWk4DSuiJ6wt8fSfH5ae06Pw67ZSVgOniC5gOSMPjc=
+			</data>
+			<key>Trigger</key>
+			<data>
+			ySR3ThV3X/fdzu1Tc1i9x7tdSJ+SfjXAkrIpM9OPbZ8=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

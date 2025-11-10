@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>notificationAllowlist</key>
+	<array>
+		<string>com.apple.internal.suiuntool</string>
+	</array>
+	<key>notificationBlocklist</key>
+	<array>
+		<string>com.apple.cmas</string>
+		<string>com.apple.MobileSMS</string>
+		<string>com.apple.mobilecal</string>
+		<string>com.apple.donotdisturb</string>
+	</array>
+	<key>searchableItemAllowlist</key>
+	<array/>
+	<key>searchableItemBlocklist</key>
+	<array>
+		<string>com.apple.podcasts</string>
+		<string>com.yelp.yelpiphone</string>
+		<string>com.jamfsoftware.selfservice</string>
+	</array>
+</dict>
+</plist>

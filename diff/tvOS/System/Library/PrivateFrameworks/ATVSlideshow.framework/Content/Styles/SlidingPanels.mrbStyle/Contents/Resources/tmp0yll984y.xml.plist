@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>authorOnAspectRatioChange</key>
+	<true/>
+	<key>colorSchemes</key>
+	<dict>
+		<key>Dark</key>
+		<dict>
+			<key>background</key>
+			<string>[0. 0. 0. 1.]</string>
+			<key>titleText</key>
+			<string>[.98 .98 .98 1.]</string>
+		</dict>
+		<key>Light</key>
+		<dict>
+			<key>background</key>
+			<string>[.98 .98 .98 1.]</string>
+			<key>titleText</key>
+			<string>[0. 0. 0. 1.]</string>
+		</dict>
+	</dict>
+	<key>defaultColorScheme</key>
+	<string>Dark</string>
+	<key>interstitialEffects</key>
+	<array>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/PanoH + Text</string>
+		</dict>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/Landscape + Text</string>
+		</dict>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/Portrait + Text</string>
+		</dict>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/PanoV + Text</string>
+		</dict>
+	</array>
+	<key>layout</key>
+	<dict>
+		<key>background</key>
+		<dict>
+			<key>autoKenBurnsLikelihood</key>
+			<real>0.0</real>
+			<key>baseBreakAspectRatio</key>
+			<string>2.3</string>
+			<key>basePeriod</key>
+			<real>1.3600000000000001</real>
+			<key>basePortraitBreakAspectRatio</key>
+			<string>.5</string>
+			<key>effectPresets</key>
+			<array>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide_Break/Landscape Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide/Landscape Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide_Break/Portrait Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide/Portrait Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides/Two Portraits</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers4/Two Portraits</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides/Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers4/Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides/Landscape + Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers4/Landscape + Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides/Portrait + Two Landscapes</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6/Portrait + Two Landscapes</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides/Two Landscapes + Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6/Two Landscapes + Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides/Landscape + Two Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6/Landscape + Two Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides/Two Landscape + Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6/Two Landscape + Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides/Three Portraits</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6/Three Portraits</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides/Four Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8/Four Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides/Landscape + Three Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8/Landscape + Three Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides/Three Landscape + Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8/Three Landscape + Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides/One Landscape + Three Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8/One Landscape + Three Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides/Three Portrait + One Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8/Three Portrait + One Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_5Slides/Four Landscapes + Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_5Slides/Portrait + Four Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_5Slides/Four Portrait + Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_5Slides/Two Portrait + Three Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_5Slides/Three Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides/Six Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides/Two Landscape + Four Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides/Four Portrait + Two Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides/Portrait + Five Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides/Five Landscape + Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_7Slides/Six Landscape + Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_7Slides/Three Portrait + Four Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_7Slides/Four Landscape + Three Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_8Slides/Six Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_8Slides/Two Portrait + Six Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Break/Two Landscape + Two BreakH</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Break/Two BreakH + Two Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides_Break/Two BreakH</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Break/BreakH + Two Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>4</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Break/Two Landscape + BreakH</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Break/Three Landscape + BreakH</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Break/BreakH + Three Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide_Portrait/Portrait Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide_Portrait_Break/Portrait Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide_Portrait/Landscape Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>0</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_1Slide_Portrait_Break/Landscape Center - GrowHV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides_Portrait/Two Landscapes</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers4_Portrait/Two Landscapes</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides_Portrait/Landscape + Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers4_Portrait/Landscape + Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides_Portrait/Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers4_Portrait/Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait/Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6_Portrait/Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait/Two Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6_Portrait/Two Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>maxAspectRatio</key>
+					<string>.6</string>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait/Portrait + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>maxAspectRatio</key>
+					<string>.6</string>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6_Portrait/Portrait + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>maxAspectRatio</key>
+					<string>.6</string>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait/Two Portrait + Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>maxAspectRatio</key>
+					<string>.6</string>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6_Portrait/Two Portrait + Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait/Three Landscapes</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers6_Portrait/Three Landscapes</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait/Four Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8_Portrait/Four Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait/Three Portrait + One Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8_Portrait/Three Portrait + One Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait/Three Landscape + One Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8_Portrait/Three Landscape + One Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait/One Portrait + Three Landscape</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8_Portrait/One Portrait + Three Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>maxAspectRatio</key>
+					<string>.6</string>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait/Two Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>5</integer>
+					<key>maxAspectRatio</key>
+					<string>.6</string>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8_Portrait/Two Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait/One Landscape + Three Portrait</string>
+				</dict>
+				<dict>
+					<key>ignoreMovies</key>
+					<true/>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_Drawers8_Portrait/One Landscape + Three Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_5Slides_Portrait/Four Portrait + Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides_Portrait/Four Landscape + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_6Slides_Portrait/Two Portrait + Four Landscape</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_7Slides_Portrait/Four Landscape + Three Portrait</string>
+				</dict>
+				<dict>
+					<key>exclusion</key>
+					<array>
+						<string>smallScreen</string>
+					</array>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_7Slides_Portrait/Three Portrait + Four Landscape</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_2Slides_Portrait_Break/Two BreakV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait_Break/Two Portrait + BreakV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_3Slides_Portrait_Break/BreakV + Two Portrait</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait_Break/Three Portrait + BreakV</string>
+				</dict>
+				<dict>
+					<key>likelihood</key>
+					<integer>1</integer>
+					<key>presetID</key>
+					<string>SlidingPanels_4Slides_Portrait_Break/BreakV + Three Portrait</string>
+				</dict>
+			</array>
+			<key>exportTransition</key>
+			<string>Dissolve</string>
+			<key>exportTransitionDuration</key>
+			<real>0.3333333</real>
+			<key>lockTransitionDuration</key>
+			<true/>
+			<key>minimumEffectDuration</key>
+			<string>3</string>
+			<key>scaleEffectsForBreaks</key>
+			<true/>
+			<key>zIndex</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>marimbaVersion</key>
+	<string>1.0</string>
+	<key>needsFitMovieAttribute</key>
+	<true/>
+	<key>reorderMode</key>
+	<integer>0</integer>
+	<key>songs</key>
+	<array>
+		<dict>
+			<key>path</key>
+			<string>SlidingPanels.m4a</string>
+		</dict>
+	</array>
+	<key>styleUpdateOnSlideChange</key>
+	<true/>
+	<key>thumbnail</key>
+	<string>Icon.tiff</string>
+	<key>titleEffects</key>
+	<array>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/PanoH + Title</string>
+		</dict>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/Landscape + Title</string>
+		</dict>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/Portrait + Title</string>
+		</dict>
+		<dict>
+			<key>layer</key>
+			<string>background</string>
+			<key>likelihood</key>
+			<real>1</real>
+			<key>presetID</key>
+			<string>SlidingPanels_Text_1Slide/PanoV + Title</string>
+		</dict>
+	</array>
+</dict>
+</plist>

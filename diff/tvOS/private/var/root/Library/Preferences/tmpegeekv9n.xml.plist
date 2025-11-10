@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ChannelUtilizationMonitor:Enabled</key>
+	<string>0</string>
+	<key>Cmmissioner:Joiner:Scan:Retries</key>
+	<string>2</string>
+	<key>Daemon:PromiscuousModeNetwork</key>
+	<string>0</string>
+	<key>Daemon:PromiscuousPcap</key>
+	<string>0</string>
+	<key>Daemon:VirtualInterface:ReadBufferSize</key>
+	<string>8192</string>
+	<key>NCP:ChannelMask</key>
+	<string>0B0C0D0E0F10111213141516171819</string>
+	<key>NCP:MacMaxRetryDirect</key>
+	<string>15</string>
+	<key>NCP:PcapEnabled</key>
+	<string>0</string>
+	<key>NCP:TXPower</key>
+	<string>20</string>
+	<key>OpenThread:LogLevel</key>
+	<string>0x7</string>
+	<key>TPC:Mode</key>
+	<string>7</string>
+	<key>Thread:RouterSelectionJitter</key>
+	<string>5</string>
+	<key>lastHostConfiguredChannel</key>
+	<integer>25</integer>
+	<key>vendor:NCP:RSSI:Offset</key>
+	<string>-13</string>
+	<key>vendor:coex:RxThrottle:NoRxReq:TxAckOnUnsolGrant</key>
+	<string>0</string>
+	<key>vendor:coex:RxThrottle:RxReq:TxAckOnGrant</key>
+	<string>0</string>
+	<key>vendor:coex:RxThrottle:RxReq:TxAlwaysAck</key>
+	<string>0</string>
+	<key>vendor:coex:RxThrottle:Timeout</key>
+	<string>0</string>
+	<key>vendor:coex:enabled</key>
+	<string>1</string>
+	<key>vendor:coex:rx_mode</key>
+	<string>2</string>
+	<key>vendor:coex:rx_threshold</key>
+	<string>22</string>
+	<key>vendor:coex:rx_threshold:lowerbound</key>
+	<string>5</string>
+	<key>vendor:coex:rx_threshold:upperbound</key>
+	<string>30</string>
+	<key>vendor:coex:tx_mode</key>
+	<string>4</string>
+	<key>vendor:csma:cca:idleattempts</key>
+	<string>1</string>
+	<key>vendor:ifs:ackturnaround:enable</key>
+	<string>1</string>
+	<key>vendor:ifs:ackturnaround:mode</key>
+	<string>1</string>
+	<key>vendor:ifs:ackturnaround:time</key>
+	<string>192</string>
+	<key>vendor:mle:adv:tx:num</key>
+	<string>3</string>
+</dict>
+</plist>

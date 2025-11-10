@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Start</key>
+	<array>
+		<string>com.apple.PineBoard</string>
+		<string>com.apple.SoundBoard</string>
+		<string>com.apple.tvosupdated</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.coreduetd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.coreduetcontext.client_event_stream</key>
+		<dict>
+			<key>notification</key>
+			<dict>
+				<key>client-identifier</key>
+				<string>com.apple.coreduetd</string>
+			</dict>
+		</dict>
+		<key>com.apple.distnoted.matching</key>
+		<dict>
+			<key>_DKKnowledgeStorageDidInsertLocalEventsNotification:NowPlaying</key>
+			<dict>
+				<key>Notification</key>
+				<string>_DKKnowledgeStorageDidInsertLocalEventsNotification</string>
+				<key>Object</key>
+				<string>/media/nowPlaying</string>
+			</dict>
+		</dict>
+		<key>com.apple.notifyd.matching</key>
+		<dict/>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.coreduetd.knowledge</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/libexec/coreduetd</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>
