@@ -142,7 +142,7 @@ jobs:
           echo "Unwrapping decryption key using get_key.py..."
           source ./aeota/.env/bin/activate
           DECRYPTION_KEY=$(python3 ./aeota/get_key.py "${FS_DMG_AEA}" | xargs)
-          echo "| **Decryption Key** | \`${DECRYPTION_KEY}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "**Decryption Key:** \`${DECRYPTION_KEY}\`" >> $GITHUB_STEP_SUMMARY
           deactivate
           
           if [[ -z "$DECRYPTION_KEY" ]]; then
