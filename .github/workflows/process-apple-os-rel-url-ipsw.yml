@@ -51,28 +51,12 @@ jobs:
     runs-on: macos-latest
     
     steps:
-      - name: 1. Log Inputs to Job Summary for ${{ inputs.device_identifier }} on ${{ inputs.release_version }} (${{ inputs.release_build }})
-        run: |
-          echo "### 🚀 Workflow: 2. Process Apple URL IPSW" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
-          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
-          echo "| **IPSW URL** | \`${{ inputs.ipsw_url }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Release Type** | \`${{ inputs.release_type }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Release Build** | \`${{ inputs.release_build }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Checkout Branch** | \`${{ inputs.checkout_branch }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Exclude Info.plist** | \`${{ inputs.exclude_info_plist }}\` |" >> $GITHUB_STEP_SUMMARY
-          echo "| **Run ID** | \`${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
-
-      - name: 2. Check out repository
+      - name: Check out repository
         uses: actions/checkout@v4
         with:
           ref: ${{ inputs.checkout_branch }}
 
-      - name: 3. Install Tools (ipsw and build aeota)
+      - name: Install Tools (ipsw and build aeota)
         run: |
           echo "Installing blacktop/ipsw..."
           brew install blacktop/tap/ipsw
@@ -95,24 +79,24 @@ jobs:
           echo "aeota tools built in ./aeota/"
           ls -l ./
 
-      - name: 4. Set up Python (for main script)
+      - name: Set up Python (for main script)
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 5. Create output directories
+      - name: Create output directories
         run: |
           mkdir -p ./ipsw_files
           mkdir -p ./ipsw_files/out
 
-      - name: 6. Normalize device identifier
+      - name: Normalize device identifier
         id: normalize-key
         run: |
           NORMALIZED_ID=$(echo "${{ inputs.device_identifier }}" | tr ',' '_')
           echo "Normalized device ID: $NORMALIZED_ID"
           echo "id=${NORMALIZED_ID}" >> $GITHUB_OUTPUT
 
-      - name: 7. Download IPSW from URL
+      - name: Download IPSW from URL
         run: |
           echo "Downloading full IPSW from ${{ inputs.ipsw_url }}"
           DOWNLOAD_PATH="./ipsw_files/downloaded.ipsw"
@@ -127,7 +111,8 @@ jobs:
           echo "IPSW_FILE=${DOWNLOAD_PATH}" >> $GITHUB_ENV
           echo "Using IPSW: $DOWNLOAD_PATH"
 
-      - name: 8. Extract and Decrypt Filesystem DMG
+      - name: Extract and Decrypt Filesystem DMG
+        id: extract-decrypt
         run: |
           echo "Extracting filesystem DMG (encrypted)..."
           ipsw ex --dmg fs "${{ env.IPSW_FILE }}" -o ./ipsw_files/out
@@ -142,7 +127,6 @@ jobs:
           echo "Unwrapping decryption key using get_key.py..."
           source ./aeota/.env/bin/activate
           DECRYPTION_KEY=$(python3 ./aeota/get_key.py "${FS_DMG_AEA}" | xargs)
-          echo "**Decryption Key:** \`${DECRYPTION_KEY}\`" >> $GITHUB_STEP_SUMMARY
           deactivate
           
           if [[ -z "$DECRYPTION_KEY" ]]; then
@@ -150,6 +134,7 @@ jobs:
             exit 1
           fi
           echo "Successfully unwrapped key."
+          echo "decryption_key=${DECRYPTION_KEY}" >> $GITHUB_OUTPUT
 
           echo "Decrypting DMG using 'aastuff_standalone'..."
           
@@ -178,7 +163,7 @@ jobs:
           echo "DECRYPTED_DMG=${DECRYPTED_DMG_PATH}" >> $GITHUB_ENV
           echo "Decrypted DMG at: $DECRYPTED_DMG_PATH"
 
-      - name: 9. Mount Decrypted DMG
+      - name: Mount Decrypted DMG
         run: |
           echo "Mounting DMG..."
           hdiutil attach "${{ env.DECRYPTED_DMG }}" -mountpoint ./mounted_dmg
@@ -186,21 +171,23 @@ jobs:
           echo "DMG mounted at: ${{ env.MOUNT_PATH }}"
           ls -l ${{ env.MOUNT_PATH }}
 
-      - name: 10. Clean and create output directory
+      - name: Clean and create output directory
         run: |
           echo "Cleaning and ensuring target directory exists: ${{ inputs.release_type }}"
           rm -rf "./${{ inputs.release_type }}"
           mkdir -p "./${{ inputs.release_type }}"
 
-      - name: 11. Run Python Analyzer Script and Log Stats
+      - name: Run Python Analyzer Script and Log Stats
+        id: python-stats
         run: |
           REPO_SAVE_PATH="${{ inputs.release_type }}/${{ inputs.os_type }}"
           
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 📊 Python Processing Stats" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "| Folder | Duration | Files Found | Files Processed | Errors | Avg. Time (s) |" >> $GITHUB_STEP_SUMMARY
-          echo "| :--- | :--- | :--- | :--- | :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          STATS_TABLE=""
+          STATS_TABLE+=$'\n'
+          STATS_TABLE+="### 📊 Python Processing Stats"$'\n'
+          STATS_TABLE+=$'\n'
+          STATS_TABLE+="| Folder | Duration | Files Found | Files Processed | Errors | Avg. Time (s) |"$'\n'
+          STATS_TABLE+="| :--- | :--- | :--- | :--- | :--- | :--- |"$'\n'
 
           run_and_log() {
             FOLDER_NAME=$1
@@ -220,7 +207,7 @@ jobs:
             if ! echo "$JSON_OUTPUT" | jq empty; then
               echo "::error::Failed to process $FOLDER_NAME. Output was not valid JSON."
               echo "Raw output: $JSON_OUTPUT"
-              echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | *Failed* | *Failed* | *Failed* | *Failed* |" >> $GITHUB_STEP_SUMMARY
+              STATS_TABLE+="| **$FOLDER_NAME** | $DURATION_FORMATTED | *Failed* | *Failed* | *Failed* | *Failed* |"$'\n'
               return
             fi
 
@@ -230,7 +217,7 @@ jobs:
             AVG_TIME=$(echo "$JSON_OUTPUT" | jq .avg_time_s | xargs printf "%.3f")
 
             echo "Finished $FOLDER_NAME processing (Duration: $DURATION_FORMATTED)"
-            echo "| **$FOLDER_NAME** | $DURATION_FORMATTED | $FILES_FOUND | $FILES_PROCESSED | $ERROR_COUNT | $AVG_TIME |" >> $GITHUB_STEP_SUMMARY
+            STATS_TABLE+="| **$FOLDER_NAME** | $DURATION_FORMATTED | $FILES_FOUND | $FILES_PROCESSED | $ERROR_COUNT | $AVG_TIME |"$'\n'
             
             if [[ "$ERROR_COUNT" -gt 0 ]]; then
               echo "::warning::Encountered $ERROR_COUNT errors processing $FOLDER_NAME. See logs above for details."
@@ -250,8 +237,12 @@ jobs:
           
           echo "Waiting for worker processes to fully terminate..."
           sleep 5
+          
+          echo "stats_table<<EOF" >> $GITHUB_OUTPUT
+          echo -n "$STATS_TABLE" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
-      - name: 12. Sanitize File Paths
+      - name: Sanitize File Paths
         run: |
           TARGET_DIR="./${{ inputs.release_type }}"
           echo "Searching for and renaming files/directories with colons in $TARGET_DIR..."
@@ -266,7 +257,7 @@ jobs:
           ' {} \;
           echo "Sanitization complete."
 
-      - name: 13. Unmount DMG
+      - name: Unmount DMG
         if: always()
         run: |
           echo "Attempting to unmount DMG: ./mounted_dmg"
@@ -285,9 +276,28 @@ jobs:
             }
           fi
 
-      - name: 14. Upload Analysis Artifact
+      - name: Upload Analysis Artifact
         uses: actions/upload-artifact@v4
         with:
           name: analysis-${{ inputs.release_type }}-${{ inputs.os_type }}-${{ inputs.release_build }}-${{ inputs.device_identifier }}
           path: ./${{ inputs.release_type }}/${{ inputs.os_type }}
           retention-days: 90
+
+      - name: Log Inputs to Job Summary for ${{ inputs.device_identifier }} on ${{ inputs.release_version }} (${{ inputs.release_build }})
+        run: |
+          echo "### 🚀 Workflow: 2. Process Apple URL IPSW" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Input | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **IPSW URL** | \`${{ inputs.ipsw_url }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **OS Type** | \`${{ inputs.os_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Type** | \`${{ inputs.release_type }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Version** | \`${{ inputs.release_version }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Release Build** | \`${{ inputs.release_build }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Device** | \`${{ inputs.device_identifier }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Checkout Branch** | \`${{ inputs.checkout_branch }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Exclude Info.plist** | \`${{ inputs.exclude_info_plist }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Run ID** | \`${{ github.run_id }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Decryption Key** | \`${{ steps.extract-decrypt.outputs.decryption_key }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.python-stats.outputs.stats_table }}" >> $GITHUB_STEP_SUMMARY
