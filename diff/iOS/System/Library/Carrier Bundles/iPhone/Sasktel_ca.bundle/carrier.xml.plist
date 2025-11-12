@@ -156,6 +156,8 @@
 	<string>49988</string>
 	<key>RCS</key>
 	<dict>
+		<key>EnableBusinessMessagingByDefault</key>
+		<true/>
 		<key>EnableRCSByDefault</key>
 		<true/>
 		<key>ProvisioningData</key>
@@ -163,6 +165,8 @@
 			<key>ServerURL</key>
 			<string>config.rcs.mnc780.mcc302.jibecloud.net</string>
 		</dict>
+		<key>ShowBusinessMessagingSwitch</key>
+		<true/>
 		<key>ShowRCSSwitch</key>
 		<true/>
 	</dict>

@@ -112,6 +112,7 @@ iOS can detect nude photos and videos before they’re sent or viewed on your ch
 "DuringDowntimeContactsOnlyLocalFooterText" = "During downtime, allow one-on-one and group conversations only with people in your contacts.";
 "AllowedAppsGroupSpecifierName" = "Allowed Apps";
 "AADC_ScreenTimeGroupSpecifierFooterText_IPHONE" = "Your parents or guardians can see how much time you spend on this iPhone, apps you use, and websites you visit. They can also manage some settings and set limits for how you use your iPhone.";
+"CommunicationSafetyEnabledConnectToFamilyTitle" = "Communication Safety Enabled";
 "DeviceDowntimeDailyScheduleOff" = "Off";
 "SignInToiCloudFooterTextConnectToFamily" = "Your Screen Time settings were automatically set up to help keep you safe. Connect to your parent or guardian to ask to change these settings.";
 "AllowanceNextBarButtonItemTitle" = "Next";
@@ -120,6 +121,7 @@ iOS can detect nude photos and videos before they’re sent or viewed on your ch
 "NoUsageReportedMultipleDevicesAlertFormat" = "Screen Time for %@ have not been available for 7 days. Make sure the devices are connected to the internet and are signed into iCloud with %@’s Apple Account.";
 "UpdateChildDevicesAlertTitle" = "Update Your Child’s Devices Using iCloud for Screen Time";
 "CommunicationLimitsCompatibilityAlertMessage_IPOD" = "Changes to communication limits on this iPod touch will not apply to other devices until their software has been updated and iCloud contacts is turned on.";
+"CommunicationSafetyEnabledConnectToFamilySubtitle" = "In your region only an adult can change these restrictions. Parents can manage these settings in Screen Time.";
 "IntroDowntimeDetail" = "Set a schedule for time away from the screen. Your permission will be required to allow more screen time. Phone calls, and other allowed apps can still be used during downtime.";
 "ScreenTimePasscodeUseFooterTextFormat" = "You can receive a notification when the Screen Time passcode is used on %@ and other compatible devices.";
 "CommunicationSafetyCompatibilityAlertMessage_IPOD" = "Changes to communication safety settings on this iPod touch will not apply to other devices until their software has been updated.";
@@ -531,16 +533,18 @@ Screen time data will no longer be reported, and all limits, downtime settings, 
 "AskForTimeActionApproveDay" = "Approve all day";
 "DeviceDowntimeDisableButtonWithoutScheduleName" = "Turn Off Downtime";
 "ScreenTimePasscodeNotificationSpecifierName" = "Screen Time Passcode";
+"CommunicationSafetyEnabledConnectToFamilyButtonTitle" = "Connect to Family";
 "AppLimitsFooterFormat" = "Set daily time limits for app categories you want to manage on %@. Limits reset every day at midnight.";
 "AppAndWebsiteActivityEDUFeatureTitle" = "App & Website Activity";
 "AllowContactEditingLocalAlertPrompt" = "You will be able to communicate with anyone, including unknown numbers.";
 "ScreenDistanceEDUFeatureHowItWorksFirstListItemDetailText" = "iPhone or iPad should be held at a suggested distance of %@ from eyes.";
 "AADC_IntroWelcomeDetailGenericChild" = "Use Screen Time to see your child’s app and website usage, and set age-appropriate content, privacy and restrictions.";
 "ShowMostUsedCategoriesButtonText" = "Show Categories";
-"CategorySubtitleText" = "{'apps': {'zero': '%2$@ and %3$@', 'other': '%2$@, %3$@, and %1$ld more', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@apps@'}";
+"CommunicationSafetyEnabledConnectToFamilySubtitle_UK" = "The UK requires that only an adult can change these restrictions. Parents can manage these settings in Screen Time.";
 "RestrictionsGroupFooterText" = "Use Screen Time to set limits for content, privacy, purchases, and more. Adults can also set parental controls.";
 "UnimplementedFeatureAlertTitle" = "Unimplemented Feature";
 "AtDowntimeLocalFooterText" = "Turn on to block the device at downtime.";
+"CategorySubtitleText" = "{'apps': {'zero': '%2$@ and %3$@', 'other': '%2$@, %3$@, and %1$ld more', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'ld'}, 'NSStringLocalizedFormatKey': '%#@apps@'}";
 "AlwaysAllowDetailText" = "Choose apps to allow at all times";
 "AppLimitsFooterText" = "Set daily time limits for app categories you want to manage. Limits reset every day at midnight.";
 "AllowedAppsGroupSpecifierFooter" = "Always allowed apps are available during downtime, or if you selected the “All Apps & Categories” app limit.";
@@ -563,7 +567,7 @@ visionOS can detect nude photos and videos before they’re sent or viewed on yo
 "CommunicationSafetyOffSubtitle" = "Protect from sensitive content";
 "STAccessListDetail_IPAD" = "These apps have requested permission to restrict this iPad.";
 "AllowanceTimeSpecifierName" = "Time";
-"AppAndWebsiteActivityEDUAppLimitsDetail" = "Set daily time limits for app categories you want to manage.";
-"iCloudContactsSpecifierName" = "Contacts";
 "WeekdayScreenTimeFormat" = "%@, %@";
+"iCloudContactsSpecifierName" = "Contacts";
 "DeviceDowntimeDisableButtonLocalUserWithoutScheduleFooter" = "Resume using your device.";
+"AppAndWebsiteActivityEDUAppLimitsDetail" = "Set daily time limits for app categories you want to manage.";

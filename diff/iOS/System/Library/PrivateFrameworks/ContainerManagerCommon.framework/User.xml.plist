@@ -77,5 +77,23 @@
 			<true/>
 		</dict>
 	</dict>
+	<key>containerIdentityMigrations</key>
+	<dict>
+		<key>pluginData</key>
+		<dict>
+			<key>com.apple.UnityPoster.UnityPosterExtension</key>
+			<string>com.apple.Posters.UnityPosterApp.UnityPosterExtension</string>
+			<key>com.apple.WatchFacesWallpaperSupport.ExtragalacticPoster</key>
+			<string>com.apple.Posters.UnityPosterApp.ExtragalacticPoster</string>
+			<key>com.apple.WatchFacesWallpaperSupport.KaleidoscopePoster</key>
+			<string>com.apple.Posters.KaleidoscopePosterApp.KaleidoscopePoster</string>
+			<key>com.apple.WatchFacesWallpaperSupport.RhizomePoster</key>
+			<string>com.apple.Posters.UnityPosterApp.RhizomePoster</string>
+			<key>com.apple.WatchFacesWallpaperSupport.Unity2025Poster</key>
+			<string>com.apple.Posters.UnityPosterApp.Unity2025Poster</string>
+			<key>com.apple.weather.poster</key>
+			<string>com.apple.Posters.WeatherPosterApp.WeatherPoster</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

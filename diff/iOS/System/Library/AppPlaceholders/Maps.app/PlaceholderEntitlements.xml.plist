@@ -49,6 +49,10 @@
 	<true/>
 	<key>com.apple.TapToRadarKit.service-access</key>
 	<true/>
+	<key>com.apple.UserAlerts.destinations</key>
+	<array>
+		<string>com.apple.CarPlay.UserAlerts</string>
+	</array>
 	<key>com.apple.accounts.idms.fullaccess</key>
 	<true/>
 	<key>com.apple.accounts.yelp.defaultaccess</key>
@@ -499,6 +503,7 @@
 		<string>com.apple.aa.daemon.xpc</string>
 		<string>com.apple.MFAAuthentication.MFAANetwork</string>
 		<string>com.apple.caraccessoryframework.cardata</string>
+		<string>com.apple.CarPlayApp.user-alerts-service</string>
 	</array>
 	<key>com.apple.security.exception.process-info</key>
 	<true/>

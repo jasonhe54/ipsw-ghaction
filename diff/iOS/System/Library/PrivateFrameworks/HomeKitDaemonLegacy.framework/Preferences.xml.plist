@@ -315,6 +315,8 @@
 	<array>
 		<string>AppleWiFi</string>
 	</array>
+	<key>wirelessBTLoadEnabled</key>
+	<false/>
 	<key>wirelessReachabilityTimeout</key>
 	<integer>15</integer>
 	<key>xpcMessageCountTrackerSubmissionTimeInterval</key>

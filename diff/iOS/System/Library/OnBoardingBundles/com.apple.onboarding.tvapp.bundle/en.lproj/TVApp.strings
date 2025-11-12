@@ -8,7 +8,7 @@
 "SECOND_BULLET_WLAN" = "Apple collects information about your purchases, downloads, activity in the Videos app, the content you watch, and where you watch it in the Videos app and in connected apps on any of your supported devices. We use this information to provide the service and to improve the Videos app for you and others.";
 "FOOTER_TEXT_WLAN" = "Videos allows you to watch your favorite TV shows and movies all in one place. You can watch content you have rented or purchased from Apple. If available, you can also access content through your Apple TV subscription, Apple TV channels, and your connected third-party video apps. You can access all of this content through the Videos app across supported devices that are signed in to the same Apple Account.
 
-Providing the Videos app
+Providing the Videos App
 
 We use your personal data to provide the services and features in the Videos app. This information includes your account and payment information, which you can access and change in Settings.
 
@@ -16,15 +16,15 @@ Apple collects information about what you purchase and what you’re watching in
 
 Information about what you’re watching will include what content you’re playing, when you played it, the device you played it from, and where in the content you paused or stopped watching. We also collect a detailed history of all playback activity for Apple TV channels and your Apple TV subscription.
 
-If you allow the Videos app to access your location, your location will be used to determine what’s available in your region, including local content like live games, events, and news. Some content includes geographically relevant ads.
+If you allow the Videos app to access your location, your location will be used to determine what’s available to browse or watch in your region, including local content like live sports, events, and news. Some content includes geographically relevant ads. Apple may separately use the IP address of your internet connection to determine the country or region from which you are accessing the service to ensure we have the necessary licensing rights for you to play the content you’ve selected. We discard the IP address, and any location information derived from the IP address, once this determination has been made.
 
-Improving the Videos app
+Improving the Videos App
 
 Apple collects information about your usage of the Videos app and your account, including the features you use (for example, Continue Watching or Library), items you search for, your interactions with notifications, content pages you browse or view, information on errors or crashes within the app, and your billing zip code. We use this information, approximate location information that does not identify you, and information about what you watch to help improve and optimize the service for you and others. We also collect information about your device such as the type of device, the channel through which your device was obtained, the version of your operating system, and the amount of free space on your device. We may use this information to assess whether requested content can be downloaded, to understand general trends in device usage and storage, and whether your device is connected by WLAN or cellular. For example, knowing the free space on your device allowed us to build the feature that lets you buy a movie on your iPhone without downloading it at purchase. If you use SharePlay to watch content with other users, the Videos app will collect that you watched that content during a SharePlay session and the number of devices that participated in the session, but does not collect any information to identify the participants of a SharePlay session.
 
 We use Videos search data to improve models that power Videos. For example, aggregate Videos search queries are used to fine-tune the Videos search model.  
 
-Personalizing the Videos app
+Personalizing the Videos App
 
 We personalize the Videos app to help you discover the content that’s most relevant to you. For example, we recommend movies that we think will be of interest to you based on movies you’ve previously watched, and we provide more relevant search results to you based on your activity in the Videos app. To provide personalization, we use information including what you watch, your purchases, subscriptions, downloads, searches, browsing, and other activities in the Videos app, as well as information from your account such as your age.
 
@@ -86,6 +86,16 @@ If at any time you decide you no longer want one of your third-party apps to be 
 
 You should also review the terms, privacy policies, and practices of your participating third-party apps to understand how they use and share your play data and related information.
 
+Videos App Profiles on tvOS and Third-Party TVs
+
+You can create profiles, including kid profiles, associated with your Apple Account on tvOS and on the Videos app on certain third-party TVs. These profiles can be used on the Videos app on those platforms and allow for personalized experiences on the Videos app. The Apple Account with which the profiles are associated is the managing profile. To create a profile associated with your Apple Account, you must be at least 18 years old. You’ll choose a name and image for the profile, and designate whether the profile is for a kid. During profile setup, and at any time in Settings, you can control a profile’s ability to purchase and rent using your Apple Account. You can also set up content restrictions for the Videos app. On tvOS, go to Settings > Apps > Videos > Content Restrictions, select the profile, and follow the steps.
+
+Subject to the content ratings that you choose, the profile can access and watch the content you have purchased or rented from Apple and your Apple TV subscription and Apple TV channels. The profile can also access your connected third-party video apps, but content restrictions apply only to the Videos app.
+
+The information that Apple collects and stores about profiles is associated with the managing profile’s Apple Account. This includes, for example, detailed playback activity about what a profile watches, when it was watched, on what device, and the profile’s progress within content.
+
+A profile can be upgraded to an Apple Account in Settings with approval from the managing profile. On tvOS, go to Settings > Profiles and Accounts, select the profile, select Upgrade to Apple Account, and follow the steps. When a profile is upgraded, information about what that profile watched, and the details associated with the watch history, will be transferred to the new Apple Account, and will no longer be associated with the managing profile. However, when a profile is upgraded, purchases, subscriptions, and rentals will remain associated with the managing profile and will not be transferred to or associated with the profile’s new Apple Account. A profile can also be deleted at any time by the managing profile in Settings. On tvOS, go to Settings > Profiles and Accounts, select the profile, and select Delete Profile. Once deleted, the profile and its watch history will no longer be available to the managing profile’s Apple Account.
+
 Preventing Fraud and Other Malicious Activity
 
 We also collect personal data to prevent fraud and other malicious activity in the Videos app. This information includes device information, such as device type and software version, location information (approximated by matching the IP address of your internet connection to a geographic region, if available), download and purchase history, and other interactions with the Videos app. When your subscription is set to auto-renew, Apple may also use information about your historical business relationship with Apple to process the request and determine whether to provide ongoing access to your subscription in advance of authorization by the payment partner.
@@ -98,7 +108,7 @@ We process your personal data in the Videos app generally for performance of yo
 
 Where applicable local law provides, we process personal data as necessary for purposes of our legitimate interests or those of a third party in order to:
 
-• Display available and relevant content to you, including from third-party services
+• Display, and allow playback of, content that is available and relevant to you, including from third-party services
 • Check eligibility for offers, help to improve and optimize the service for you and others, and send you communications about the Videos app and other Apple products, services, and offers that may be of interest to you
 • Prevent fraud and other malicious activity
 
@@ -129,7 +139,7 @@ Apple collects information about what you purchase and what you’re watching in
 
 Information about what you’re watching will include what content you’re playing, when you played it, the device you played it from, and where in the content you paused or stopped watching. We also collect a detailed history of all playback activity for Apple TV channels and your Apple TV subscription.
 
-If you allow the Apple TV app to access your location, your location will be used to determine what’s available in your region, including local content like live games, events, and news. Some content includes geographically relevant ads.
+If you allow the Apple TV app to access your location, your location will be used to determine what’s available to browse or watch in your region, including local content like live sports, events, and news. Some content includes geographically relevant ads. Apple may separately use the IP address of your internet connection to determine the country or region from which you are accessing the service to ensure we have the necessary licensing rights for you to play the content you’ve selected. We discard the IP address, and any location information derived from the IP address, once this determination has been made.
 
 Improving the Apple TV App
 
@@ -203,6 +213,16 @@ Group Recommendations
 
 If you choose to enable Group Recommendations on an Apple TV device, information about what you watch will be used to make group recommendations with any combination of opted-in users on the same Apple TV. If a child account is in the group, recommendations for children will be included, but their watch history will not be used. You can turn off Group Recommendations for your account at any time by going to Settings > Users and Accounts, selecting your profile, then selecting For All of You.
 
+Apple TV App Profiles on tvOS and Third-Party TVs
+
+You can create profiles, including kid profiles, associated with your Apple Account on tvOS and on the Apple TV app on certain third-party TVs. These profiles can be used on the Apple TV app on those platforms and allow for personalized experiences on the Apple TV app. The Apple Account with which the profiles are associated is the managing profile. To create a profile associated with your Apple Account, you must be at least 18 years old. You’ll choose a name and image for the profile, and designate whether the profile is for a kid. During profile setup, and at any time in Settings, you can control a profile’s ability to purchase and rent using your Apple Account. You can also set up content restrictions for the Apple TV app. On tvOS, go to Settings > Apps > TV > Content Restrictions, select the profile, and follow the steps.
+
+Subject to the content ratings that you choose, the profile can access and watch the content you have purchased or rented from Apple and your Apple TV subscription and Apple TV channels. The profile can also access your connected third-party video apps, but content restrictions apply only to the Apple TV app.
+
+The information that Apple collects and stores about profiles is associated with the managing profile’s Apple Account. This includes, for example, detailed playback activity about what a profile watches, when it was watched, on what device, and the profile’s progress within content.
+
+A profile can be upgraded to an Apple Account in Settings with approval from the managing profile. On tvOS, go to Settings > Profiles and Accounts, select the profile, select Upgrade to Apple Account, and follow the steps. When a profile is upgraded, information about what that profile watched, and the details associated with the watch history, will be transferred to the new Apple Account, and will no longer be associated with the managing profile. However, when a profile is upgraded, purchases, subscriptions, and rentals will remain associated with the managing profile and will not be transferred to or associated with the profile’s new Apple Account. A profile can also be deleted at any time by the managing profile in Settings. On tvOS, go to Settings > Profiles and Accounts, select the profile, and select Delete Profile. Once deleted, the profile and its watch history will no longer be available to the managing profile’s Apple Account.
+
 Preventing Fraud and Other Malicious Activity
 
 We also collect personal data to prevent fraud and other malicious activity in the Apple TV app. This information includes device information, such as device type and software version, location information (approximated by matching the IP address of your internet connection to a geographic region, if available), download and purchase history, and other interactions with the Apple TV app. When your subscription is set to auto-renew, Apple may also use information about your historical business relationship with Apple to process the request and determine whether to provide ongoing access to your subscription in advance of authorization by the payment partner.
@@ -215,7 +235,7 @@ We process your personal data in the Apple TV app generally for performance of
 
 Where applicable local law provides, we process personal data as necessary for purposes of our legitimate interests or those of a third party in order to:
 
-• Display available and relevant content to you, including from third-party services
+• Display, and allow playback of, content that is available and relevant to you, including from third-party services
 • Check eligibility for offers, help to improve and optimize the service for you and others, and send you communications about the Apple TV app and other Apple products, services, and offers that may be of interest to you
 • Prevent fraud and other malicious activity
 

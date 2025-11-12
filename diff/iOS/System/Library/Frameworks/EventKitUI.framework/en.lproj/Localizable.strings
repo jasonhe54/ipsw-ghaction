@@ -307,6 +307,7 @@
 "Show Event Changes" = "Show Event Changes";
 "Paste - confirmation nav bar button" = "Paste";
 "and %d more" = "and %d more";
+"View Invitation" = "View Invitation";
 "Location or Video Call" = "Location or Video Call";
 "Pending Video Call" = "Pending Video Call";
 "Cannot Repeat Event" = "Cannot Repeat Event";
@@ -332,6 +333,7 @@
 "Are you sure you want to discard this new event?" = "Are you sure you want to discard this new event?";
 "The title, location, and details of private events are not visible to others sharing this calendar." = "The title, location, and details of private events are not visible to others sharing this calendar.";
 "Reminder Details" = "Reminder Details";
+"Decline Invitation" = "Decline Invitation";
 "%@, %@ %@" = "%1$@, %2$@ %3$@";
 "repeat_interval_days" = "{'value': {'one': '%lu day', 'other': '%lu days', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "Invalid Location" = "Invalid Location";
@@ -340,6 +342,7 @@
 "Each" = "Each";
 "Decline Event" = "Decline Event";
 "This will save the event before the video call link finishes loading." = "This will save the event before the video call link finishes loading.";
+"Accept Invitation" = "Accept Invitation";
 "URL" = "URL";
 "Show All" = "Show All";
 "Show Organizer - context menu" = "Show Organizer";
@@ -386,8 +389,8 @@
 "Invitees - invitees list screen title" = "Invitees";
 "Notes - show all notes screen title" = "Notes";
 "Allow Editing" = "Allow Editing";
-"Delete Calendar" = "Delete Calendar";
 "interval_weeks" = "{'value': {'one': '%lu week', 'other': '%lu weeks', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"Delete Calendar" = "Delete Calendar";
 "Remove Event" = "Remove Event";
 "Add Subscription Calendar Title" = "Add Subscription Calendar";
 "example.com/cal.ics" = "example.com/cal.ics";
@@ -542,6 +545,7 @@
 "Unknown" = "Unknown";
 "Disable" = "Disable";
 "This app does not have access to your reminders." = "This app does not have access to your reminders.";
+"Tentatively Accept Invitation" = "Tentatively Accept Invitation";
 "Show Current Reminder" = "Show Current Reminder";
 "Save for all recurrences" = "Save for all recurrences";
 "Propose new time?" = "Propose new time?";

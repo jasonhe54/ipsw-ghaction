@@ -8,6 +8,8 @@
 	<true/>
 	<key>com.apple.imagent</key>
 	<true/>
+	<key>com.apple.message-payload-provider.host</key>
+	<true/>
 	<key>com.apple.private.tcc.allow</key>
 	<array>
 		<string>kTCCServiceMediaLibrary</string>

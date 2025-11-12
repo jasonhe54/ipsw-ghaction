@@ -254,7 +254,7 @@
 "SENSORKIT_LOCATION" = "Research Sensor & Usage Data";
 "com.apple.DigitalSeparation.Calendars_STOP_BY_PERSON_INCOMING_MULTIPLE_RESOURCES" = "{'NUM_RESOURCES': {'few': '%lu', 'many': '%lu', 'other': '%lu', 'two': '%lu', 'NSStringFormatValueTypeKey': 'lu', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType'}, 'NSStringLocalizedFormatKey': 'You can see %#@NUM_RESOURCES@ of %@’s calendars.'}";
 "com.apple.DigitalSeparation.Notes_STOP_BY_PERSON_BOTH_SINGLE_SHARED_NOTE" = "You and %@ are sharing a note together.";
-"com.apple.DigitalSeparation.FindMy_STOP_BY_PERSON_OUTGOING_SINGLE_RESOURCE_SCWB" = "Stop sharing your location with %@.";
+"com.apple.DigitalSeparation.FindMy_STOP_BY_PERSON_OUTGOING_SINGLE_RESOURCE_SCWB" = "Stopped sharing when %@ was blocked.";
 "com.apple.DigitalSeparation.Notes_STOP_BY_PERSON_OUTGOING_SINGLE_SHARED_FOLDER" = "%@ has access to one of your folders.";
 "com.apple.DigitalSeparation.FindMy_STOP_ALL_SHARING_ALERT_DETAIL" = "By continuing, your location will no longer be shared with anyone in the Find My app. You will still be able to see the location of people who shared with you. People may notice that you’ve stopped sharing your location.";
 "com.apple.DigitalSeparation.Photos_ALERT_DETAIL_SINGLE_PERSON_SHARED_ALBUM_SHARED_LIBRARY" = "The person you’ve selected will no longer have access to your Shared Albums or Shared Library. You will also no longer be able to access their Shared Albums. If they are a member of your Shared Library, they will still have those photos, but they will not have access to any new photos added to the Shared Library once sharing is stopped.";
@@ -476,7 +476,7 @@
 "com.apple.DigitalSeparation.Photos_PUBLIC_SHARING_DETAIL_TEXT_SHARED_LIBRARY" = "{'NUM_RESOURCES': {'one': '1 Shared Library is public', 'few': '%lu Shared Libraries are public', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': '%lu Shared Libraries are public', 'two': '%lu Shared Libraries are public', 'other': '%lu Shared Libraries are public', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@NUM_RESOURCES@.'}";
 "com.apple.DigitalSeparation.ItemSharing_STOP_BY_PERSON_INDIRECT_SINGLE_RESOURCE_SCWB" = "Stop sharing one item shared to you and %@ by another person.";
 "com.apple.DigitalSeparation.Photos_STOP_BY_PERSON_INCOMING_MULTIPLE_SHARED_ALBUM_SCWB" = "{'NUM_RESOURCES': {'one': '1', 'few': '%lu', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'many': '%lu', 'two': '%lu', 'other': '%lu', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': 'Stop sharing %#@NUM_RESOURCES@ of %@’s albums.'}";
-"com.apple.DigitalSeparation.FindMy_STOP_BY_PERSON_INDIRECT_SINGLE_RESOURCE_SCWB" = "Stop sharing location with %@.";
+"com.apple.DigitalSeparation.FindMy_STOP_BY_PERSON_INDIRECT_SINGLE_RESOURCE_SCWB" = "Stopped sharing when %@ was blocked.";
 "com.apple.DigitalSeparation.Fitness_STOP_BY_PERSON_ALERT" = "The selected information will no longer be shared with %@. You will also no longer have access to this information for %@ if it was shared with you.";
 "com.apple.DigitalSeparation.Zelkova_STOP_BY_PERSON_INCOMING_SINGLE_RESOURCE" = "%@ sent you a Check In.";
 "com.apple.DigitalSeparation.ItemSharing_STOP_ALL_SHARING_ALERT_LABEL" = "Stop Sharing All Items";

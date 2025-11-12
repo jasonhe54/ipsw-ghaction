@@ -63,7 +63,7 @@
 			<key>SupportedDomains</key>
 			<dict>
 				<key>LTE</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>allowCSFBInVolteMode</key>
 			<true/>

@@ -9,6 +9,7 @@
 "Quickly run one of your shortcuts." = "Quickly run one of your shortcuts.";
 "Operation" = "Operation";
 "Custom Title" = "Custom Title";
+"Quickly run a shortcut from your Menu Bar folder." = "Quickly run a shortcut from your Menu Bar folder.";
 "The folder to search in" = "The folder to search in";
 "There was a problem creating the home screen shortcut" = "There was a problem creating the home screen shortcut";
 "The page to navigate to" = "The page to navigate to";
@@ -20,6 +21,7 @@
 "Text" = "Text";
 "Attribute" = "Attribute";
 "The folder to move the shortcut to" = "The folder to move the shortcut to";
+"MENU_CONTROL_TITLE" = "Show ‘Menu Bar’ Collection";
 "Open App" = "Open App";
 "Receive Input From Search/Spotlight" = "{'NSStringDeviceSpecificRuleType': {'mac': 'Receive Input From Spotlight', 'other': 'Receive Input From Search'}}";
 "The new name for the shortcut" = "The new name for the shortcut";
@@ -56,6 +58,7 @@
 "The operation to perform on the setting" = "The operation to perform on the setting";
 "Show in Share Sheet" = "Show in Share Sheet";
 "The name of the new shortcut" = "The name of the new shortcut";
+"MENU_CONTROL_LABEL" = "Show ‘Menu Bar’ Collection";
 "Get ${attribute} for ${shortcut}" = "Get ${attribute} for ${shortcut}";
 "Running Context Identifier" = "Running Context Identifier";
 "Creates a new empty shortcut" = "Creates a new empty shortcut";
@@ -65,10 +68,10 @@
 "An optional custom image for the Home Screen shortcut" = "An optional custom image for the Home Screen shortcut";
 "Open Shortcut" = "Open Shortcut";
 "Create Folder" = "Create Folder";
-"The shortcut to examine" = "The shortcut to examine";
+"Stops the shortcut if it is currently running." = "Stops the shortcut if it is currently running.";
 "Renames a shortcut to the specified name." = "Renames a shortcut to the specified name.";
 "The shortcut to add to your Home Screen" = "The shortcut to add to your Home Screen";
-"Stops the shortcut if it is currently running." = "Stops the shortcut if it is currently running.";
+"The shortcut to examine" = "The shortcut to examine";
 "The shortcut to link" = "The shortcut to link";
 "Move ${shortcuts} to ${folder}" = "Move ${shortcuts} to ${folder}";
 "Turn" = "Turn";

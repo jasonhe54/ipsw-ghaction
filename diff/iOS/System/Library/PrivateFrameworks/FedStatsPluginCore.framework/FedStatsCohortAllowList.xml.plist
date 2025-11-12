@@ -134,6 +134,9 @@
 	<key>FED_STATS_BIOME_HOLD_ASSIST</key>
 	<array>
 		<string>remotePhoneNumberCountryCode</string>
+		<string>holdAssistMLClassification</string>
+		<string>holdAssistRecommendation</string>
+		<string>holdAssistObservation</string>
 	</array>
 	<key>FED_STATS_BIOME_INTERSTELLAR</key>
 	<array>

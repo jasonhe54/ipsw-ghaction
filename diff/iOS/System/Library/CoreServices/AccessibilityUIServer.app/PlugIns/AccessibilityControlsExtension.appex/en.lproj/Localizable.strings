@@ -121,7 +121,7 @@
 "CUSTOMIZE_MENU_SETTINGS" = "Settings";
 "CREATE_NEW_CUSTOM_COMMAND" = "Create New Command";
 "SPEAK_DESCRIPTION" = "Accessibility → Guided Access → Time Limits";
-"LED_FLASH_WHILE_UNLOCKED_DESCRIPTION" = "Accessibility → Audio & Visual → LED Flash for Alerts";
+"LED_FLASH_WHILE_UNLOCKED_DESCRIPTION" = "Accessibility → Audio & Visual → Flash for Alerts";
 "IGNORE_CHORD_DURATION" = "Ignore Chord Duration";
 "LIVE_TRANSCRIPTION_TEXT_COLOR_DESCRIPTION" = "Accessibility → Live Captions → Appearance";
 "COMMANDS_BRAILLE_SCREEN_INPUT_DESCRIPTION" = "Accessibility → VoiceOver → Commands";
@@ -135,7 +135,7 @@
 "AT_SHOW_ONSCREEN_KEYBOARD_VISIONOS_DESCRIPTION" = "Accessibility → Interaction → AssistiveTouch";
 "VO_FEEDBACK" = "Feedback Style";
 "EXTENDED_VOICE_ISOLATION" = "Add Voice Isolation";
-"LED_FLASH_FOR_ALERTS" = "LED Flash for Alerts";
+"LED_FLASH_FOR_ALERTS" = "Flash for Alerts";
 "AUDIOVISUAL" = "Audio & Visual";
 "SPEAK_SELECTION" = "Speak Selection";
 "ACTION_CONFIRMATION" = "Speak Confirmation";
@@ -190,7 +190,7 @@
 "DIRECTIONAL_BUTTONS_DESCRIPTION" = "Accessibility → Apple TV Remote";
 "VC_CMD_ADVANCED_GESTURES" = "Advanced Gestures";
 "SPEECH_CONTROLLER" = "Speech Controller";
-"LED_FLASH_IN_SILENT_MODE_DESCRIPTION" = "Accessibility → Audio & Visual → LED Flash for Alerts";
+"LED_FLASH_IN_SILENT_MODE_DESCRIPTION" = "Accessibility → Audio & Visual → Flash for Alerts";
 "BOTTOM_LEFT_DESCRIPTION" = "Accessibility → Touch → AssistiveTouch → Hot Corners";
 "HT_BORDER_COLOR" = "Border Color";
 "FKA_COMMANDS" = "Commands";
@@ -277,6 +277,7 @@
 "SETUP_NAME_RECOGNITION" = "Set Up Name Recognition";
 "SUBTITLES__CAPTIONING" = "Subtitles & Captioning";
 "DOUBLETAP_DESCRIPTION" = "Accessibility → Touch → AssistiveTouch";
+"LIVE_TRANSCRIPTIONS_SAVE_CALL_CAPTIONS_DESCRIPTION" = "Accessibility → Live Captions";
 "LIVE_TRANSCRIPTION_COLOR_OPTIONS" = "Color Options";
 "STICKY_ROTOR_TITLE" = "Change Rotor with Item";
 "CHOOSE_BRAILLE_DISPLAY" = "Choose a Braille Display";
@@ -673,7 +674,7 @@
 "USE_PRIMARY_KEYBOARD" = "Use Primary Keyboard";
 "POINTER_SIZE" = "Pointer Size";
 "ACCESSIBILITY_READER_AUTOMATICALLY_START_SPEAKING_DESCRIPTION" = "Accessibility → Read & Speak → Accessibility Reader";
-"LED_FLASH_FOR_ALERTS_DESCRIPTION" = "Accessibility → Audio & Visual → LED Flash for Alerts";
+"LED_FLASH_FOR_ALERTS_DESCRIPTION" = "Accessibility → Audio & Visual → Flash for Alerts";
 "SHOW_LOWERCASE_KEYS" = "Show Lowercase Keys";
 "LIVE_TRANSCRIPTION_RESET_COLORS" = "Reset Colors";
 "SIDE_BUTTON_AST_DESCRIPTION" = "Accessibility → Side Button";
@@ -800,8 +801,8 @@
 "ITEM_OVERVIEW_DESCRIPTION" = "Accessibility → VoiceOver → Braille";
 "ALWAYS_PLAY_SIRI_SOUNDS_DESCRIPTION" = "Accessibility → VoiceOver → Audio";
 "PERSONAL_VOICE_CREATE" = "Create a Personal Voice";
-"HEARING_CONTROL_CENTER_DESCRIPTION" = "Accessibility";
 "ATTENTION_AWARE" = "Attention Aware";
+"HEARING_CONTROL_CENTER_DESCRIPTION" = "Accessibility";
 "LIVE_TRANSCRIPTIONS_DESCRIPTION" = "Accessibility → Live Captions";
 "BACK_TAP" = "Back Tap";
 "AST_VIRTUAL_TRACKPAD_BORDER_COLOR_DESCRIPTION" = "Accessibility → Touch → AssistiveTouch → Virtual Trackpad → Border";
@@ -1060,7 +1061,7 @@
 "ZOOM_WITH_CROWN_DESCRIPTION" = "Accessibility → Zoom";
 "USE_GAME_CONTROLLER" = "Use Game Controller";
 "MORE_CONTENT_FEEDBACK_DESCRIPTION" = "Accessibility → VoiceOver → Verbosity";
-"LIVE_LISTEN_CONTROL_NEARBY" = "Control from Nearby Devices";
+"LIVE_LISTEN_CONTROL_NEARBY" = "Remote Control";
 "THREE_D__HAPTIC_TOUCH" = "3D & Haptic Touch";
 "POINTER_CONTROL" = "Pointer Control";
 "SWITCH_CONTROL_DESCRIPTION" = "Accessibility → Switch Control";
@@ -1112,6 +1113,7 @@
 "TAP_AN_ICON_TO_CHANGE_VISIONOS_DESCRIPTION" = "Accessibility → Interaction → AssistiveTouch → Customize Top Level Menu";
 "HT_SCROLLING_SPEED" = "Scrolling Speed";
 "PREDICTIVE_TEXT_FEEDBACK" = "Predictive Text Feedback";
+"LIVE_TRANSCRIPTIONS_SAVE_CALL_CAPTIONS" = "Save Call Captions";
 "EDIT_APPS_ON_HOME_SCREEN_DESCRIPTION" = "Accessibility → VoiceOver → Rotor";
 "TTY_DESCRIPTION" = "Accessibility → TTY";
 "ZOOM_WITH_SCROLL_WHEEL" = "Zoom with Scroll Wheel";

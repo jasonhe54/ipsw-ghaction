@@ -2908,6 +2908,8 @@
 				<string>_MSMessageAppExtensionContext</string>
 				<key>NSExtensionContextHostClass</key>
 				<string>_MSMessageAppExtensionHostContext</string>
+				<key>NSExtensionHostEntitlement</key>
+				<string>com.apple.message-payload-provider.host</string>
 				<key>NSExtensionPointIdentifier</key>
 				<string>com.apple.message-payload-provider</string>
 				<key>NSExtensionViewControllerHostClass</key>
@@ -2952,6 +2954,8 @@
 				<string>_MSMessageAppExtensionContext</string>
 				<key>NSExtensionContextHostClass</key>
 				<string>_MSMessageAppExtensionHostContext</string>
+				<key>NSExtensionHostEntitlement</key>
+				<string>com.apple.message-payload-provider.host</string>
 				<key>NSExtensionPointIdentifier</key>
 				<string>com.apple.message-payload-provider.highmemory</string>
 				<key>NSExtensionViewControllerHostClass</key>

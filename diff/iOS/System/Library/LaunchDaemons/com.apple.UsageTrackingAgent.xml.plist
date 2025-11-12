@@ -22,38 +22,10 @@
 		</dict>
 		<key>com.apple.distnoted.matching</key>
 		<dict>
-			<key>com.apple.UsageTrackingAgent.distributed-notification.duet-application-usage-did-tombstone</key>
-			<dict>
-				<key>Name</key>
-				<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-				<key>Object</key>
-				<string>/app/usage</string>
-			</dict>
-			<key>com.apple.UsageTrackingAgent.distributed-notification.duet-now-playing-usage-did-tombstone</key>
-			<dict>
-				<key>Name</key>
-				<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-				<key>Object</key>
-				<string>/media/nowPlaying</string>
-			</dict>
 			<key>com.apple.UsageTrackingAgent.distributed-notification.duet-sync-coordinator-did-idle</key>
 			<dict>
 				<key>Name</key>
 				<string>_DKSync2CoordinatorDidIdleNotification</string>
-			</dict>
-			<key>com.apple.UsageTrackingAgent.distributed-notification.duet-video-usage-did-tombstone</key>
-			<dict>
-				<key>Name</key>
-				<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-				<key>Object</key>
-				<string>/app/mediaUsage</string>
-			</dict>
-			<key>com.apple.UsageTrackingAgent.distributed-notification.duet-web-domain-usage-did-tombstone</key>
-			<dict>
-				<key>Name</key>
-				<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-				<key>Object</key>
-				<string>/app/webUsage</string>
 			</dict>
 		</dict>
 		<key>com.apple.notifyd.matching</key>

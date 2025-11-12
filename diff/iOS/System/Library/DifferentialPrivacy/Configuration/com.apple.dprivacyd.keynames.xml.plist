@@ -487,6 +487,11 @@
 		<key>PropertiesName</key>
 		<string>SummarizationEmailTags</string>
 	</dict>
+	<key>fedstats:com.apple.insights.summarization.news-tags</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>SummarizationNewsTags</string>
+	</dict>
 	<key>fedstats:com.apple.insights.systemsettings.ClickResult</key>
 	<dict>
 		<key>PropertiesName</key>
@@ -1156,6 +1161,21 @@
 	<dict>
 		<key>PropertiesName</key>
 		<string>PFL.priml.PFLMLHostPlugins.AVCPlugin.V2:Results</string>
+	</dict>
+	<key>pfl:com.apple.priml.PFLMLHostPlugins.FedAutoEvalPlugin:metadata:</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>PFL.SummarizationNews.FedAutoEvalPlugin:Metadata</string>
+	</dict>
+	<key>pfl:com.apple.priml.PFLMLHostPlugins.FedAutoEvalPlugin:metrics:</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>PFL.SummarizationNews.FedAutoEvalPlugin:Metrics</string>
+	</dict>
+	<key>pfl:com.apple.priml.PFLMLHostPlugins.FedAutoEvalPlugin:results:</key>
+	<dict>
+		<key>PropertiesName</key>
+		<string>PFL.SummarizationNews.FedAutoEvalPlugin:Results</string>
 	</dict>
 	<key>pfl:com.apple.priml.PFLMLHostPlugins.PrivateEvolutionPlugin.Email.v2:metadata:</key>
 	<dict>

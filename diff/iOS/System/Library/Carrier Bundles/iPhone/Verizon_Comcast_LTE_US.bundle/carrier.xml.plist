@@ -298,6 +298,8 @@
 		</array>
 		<key>MinCompatibleWatchOS</key>
 		<string>5.2.1</string>
+		<key>MinCompatibleWatchOSStandaloneMode</key>
+		<string>26.1</string>
 		<key>ProvisioningMethod</key>
 		<string>CarrierFlow</string>
 		<key>ServerURL</key>

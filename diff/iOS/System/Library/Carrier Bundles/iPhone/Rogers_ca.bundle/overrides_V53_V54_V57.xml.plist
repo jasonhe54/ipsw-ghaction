@@ -44,7 +44,7 @@
 		<key>SupportSecureIntent</key>
 		<true/>
 		<key>SupportedEntitlements</key>
-		<integer>42161</integer>
+		<integer>60593</integer>
 		<key>SupportsOnDevicePhysicalSIMConvert</key>
 		<true/>
 		<key>UpdatePeriod</key>
@@ -293,6 +293,8 @@
 	<dict>
 		<key>MultiSIMTopic</key>
 		<string>com.rogers.hp.multisim</string>
+		<key>SAWatchTopic</key>
+		<string>com.rogers.hp.sawatch</string>
 		<key>Topic</key>
 		<string>com.rogers.hp.cmb</string>
 		<key>VoWiFiTopic</key>
@@ -306,6 +308,8 @@
 		</array>
 		<key>MinCompatibleWatchOS</key>
 		<string>5.0</string>
+		<key>MinCompatibleWatchOSForStandaloneMode</key>
+		<string>26.1</string>
 		<key>ProvisioningMethod</key>
 		<string>CarrierFlow</string>
 		<key>ServerURL</key>

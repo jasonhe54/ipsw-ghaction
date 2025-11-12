@@ -30,6 +30,11 @@
 				<key>Notification</key>
 				<string>com.apple.os-eligibility-domain.change</string>
 			</dict>
+			<key>kRegulatoryDomainUpdateNotification</key>
+			<dict>
+				<key>Notification</key>
+				<string>kRegulatoryDomainUpdateNotification</string>
+			</dict>
 		</dict>
 	</dict>
 	<key>MachServices</key>

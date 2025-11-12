@@ -89,7 +89,7 @@
 		</dict>
 	</dict>
 	<key>contentVersion</key>
-	<real>1.2</real>
+	<real>1.21</real>
 	<key>disableAdaptiveTime</key>
 	<true/>
 	<key>family</key>
@@ -98,6 +98,8 @@
 	<integer>7370</integer>
 	<key>logicalScreenClass</key>
 	<string>any</string>
+	<key>maximumAdaptiveTimeMultiplier</key>
+	<real>0.10000000000000001</real>
 	<key>name</key>
 	<string>Yellow</string>
 	<key>preferredProminentColor</key>

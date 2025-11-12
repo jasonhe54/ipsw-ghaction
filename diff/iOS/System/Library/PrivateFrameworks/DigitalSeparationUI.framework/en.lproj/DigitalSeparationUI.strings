@@ -8,7 +8,7 @@
 "NO_RESULTS_SECONDARY" = "No results found for “%@”.";
 "REVIEW_ACCESS_BULLET_ALT_FACEID_DETAIL" = "An alternate appearance can be used to unlock this iPhone with Face ID.";
 "RESET_APP_PERMISSIONS_FAILED" = "A problem occurred when attempting to reset app access.";
-"SCWB_ALERT_MESSAGE" = "To manage sharing with others, go to Settings, tap Privacy & Security, then Safety Check.";
+"SCWB_ALERT_MESSAGE" = "You are sharing other information with %@. You can review and manage sharing in Safety Check.";
 "FACEID_REQUIRES_PASSCODE_TITLE" = "Face ID Requires Passcode";
 "NO_SHARING_INFORMATION_TYPE" = "You are not sharing %@ with anyone.";
 "SHARE_LOCATION" = "Share Location";
@@ -155,7 +155,7 @@ Keep in mind that people may notice if you stop sharing your information with th
 "RESET_PEOPLE_APPS_DETAIL" = "Anything you’re currently sharing with people will no longer be shared, and apps will no longer have access to your information.
 
 Keep in mind that people may notice if you stop sharing your information with them.";
-"SHARING_PERMISSION_DETAIL_TEXT_SCWB" = "Choose what information you want to stop sharing.";
+"SHARING_PERMISSION_DETAIL_TEXT_SCWB" = "Choose what information you want to stop sharing. %@ may notice if you stop sharing some information.";
 "STOP_SHARING_FAILED_TITLE_WITH_APP_NAME" = "Unable to Stop Sharing for “%@”";
 "SHARING_PERMISSION_TITLE_TEXT_FORMAT_SCWB" = "Stop Sharing with %@";
 "WIFI_SYNC_REMOVE_ALL" = "Select All & Stop Syncing";
@@ -351,9 +351,8 @@ Review these important, additional considerations to stay aware of the informati
 "STOP_ALL_SHARING_PERSON" = "Stop All Sharing with %@";
 "HSA2_NOT_REPAIRED_TITLE" = "iCloud Account with Two-Factor Authentication Required";
 "SHARING_REMINDER_WIFI_SYNC_DETAIL_NO_CHANGE" = "If you’re ever concerned about someone having access to your device, Safety Check can help you review and update which people and apps are allowed to access your data or device.";
-"SCWB_SKIP_HAS_LOCATION" = "Stop Sharing Location Only";
-"REVIEW_ACCESS_BULLET_ALT_TOUCHID_DETAIL" = "An alternate fingerprint can be used to unlock this iPhone with Touch ID.";
 "SCWB_ALERT_SKIP" = "Don't Manage Sharing";
+"REVIEW_ACCESS_BULLET_ALT_TOUCHID_DETAIL" = "An alternate fingerprint can be used to unlock this iPhone with Touch ID.";
 "ADDITIONAL_CONSIDERATIONS_DETAIL" = "You have reviewed sharing for %@. Any changes you made have been saved.
 
 Step 2: Review which apps have access to your information.";

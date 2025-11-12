@@ -70,6 +70,13 @@
 					<key>InactiveSoftMemoryLimit</key>
 					<integer>700</integer>
 				</dict>
+				<key>com.apple.GlitchHUD</key>
+				<dict>
+					<key>ActiveSoftMemoryLimit</key>
+					<integer>120</integer>
+					<key>InactiveSoftMemoryLimit</key>
+					<integer>110</integer>
+				</dict>
 				<key>com.apple.HangHUD</key>
 				<dict>
 					<key>ActiveSoftMemoryLimit</key>
@@ -6599,6 +6606,17 @@
 					<key>JetsamPriority</key>
 					<integer>100</integer>
 				</dict>
+				<key>com.apple.web-browser-engine.content.development</key>
+				<dict>
+					<key>ActiveHardMemoryLimit</key>
+					<integer>2048</integer>
+					<key>FreezerEligible</key>
+					<true/>
+					<key>InactiveHardMemoryLimit</key>
+					<integer>2048</integer>
+					<key>JetsamPriority</key>
+					<integer>100</integer>
+				</dict>
 				<key>com.apple.web-browser-engine.gpu</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
@@ -6665,17 +6683,6 @@
 					<integer>100</integer>
 				</dict>
 				<key>com.apple.web-browser-engine.webcontent</key>
-				<dict>
-					<key>ActiveHardMemoryLimit</key>
-					<integer>2048</integer>
-					<key>FreezerEligible</key>
-					<true/>
-					<key>InactiveHardMemoryLimit</key>
-					<integer>2048</integer>
-					<key>JetsamPriority</key>
-					<integer>100</integer>
-				</dict>
-				<key>com.apple.web-browser-engine.webcontent.development</key>
 				<dict>
 					<key>ActiveHardMemoryLimit</key>
 					<integer>2048</integer>

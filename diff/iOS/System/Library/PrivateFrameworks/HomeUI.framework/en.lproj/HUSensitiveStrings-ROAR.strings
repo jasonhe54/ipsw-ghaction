@@ -90,6 +90,7 @@ After this home has been updated, you will also need to update your device.";
 "HUHomePodSoftwareUpdateRequiredDescriptionSingularHomePodMultipleHomes" = "Your HomePod requires a software update before your homes can be updated.";
 "HUSoftwareUpdateMigrationInProgressDescription" = "The update may take a few minutes. You may notice your accessories or automations temporarily pause during the update—this is normal.";
 "HUSoftwareUpdateMigrationSuccessDescriptionSpecificHome" = "Your home has been updated to the latest version of Apple Home.";
+"HUSoftwareUpdateMigrationAppleTVConfirmationTitle" = "ATV isn't updated";
 "HUSoftwareUpdateMigrationFailedDueToLowPowerModeAlertMessageWiFi_IPAD" = "iPad is in Low Power mode.
 
 To update Home, make sure this iPad is charged to at least 20%, connected to Wi-Fi, and not in Low Power Mode.";
@@ -120,6 +121,7 @@ To update Home, make sure this device is charged to at least 20%, connected to a
 "HUSoftwareUpdateControlDescription_GoToICloudSettings" = "Go to iCloud Settings";
 "HUHomePodSoftwareUpdateRequiredUpdateNowButton" = "Update Now";
 "HUHomePodSoftwareUpdateRequiredErrorMessage" = "An error occurred while updating HomePod software.";
+"HUSoftwareUpdateMigrationAppleTVConfirmationDescription" = "ATV isn't updated description";
 "HUSoftwareUpdateMigrationFailedsignIniCloudMessage" = "To update to the latest version of Apple Home, you'll need to sign in with your Apple Account on this device. You can do this in Apple Account settings.";
 "HUROARRequired_Details_SupplementaryDescription_forOwner" = "The members of your home will also need to update on their devices.";
 "HUSoftwareUpdateMigrationSharedHomeConfirmationDescriptionSingular" = "This home will be unavailable to you until it has been updated.";
@@ -177,6 +179,7 @@ After this home has been updated, you will also need to update your device.";
 "HUResidentSWUpdateRequired_AllResidentsAreATVsWithHH1EOL_Description" = "Your current version of Apple Home is no longer supported. Apple TV, the Home app, automations, and accessories may have limited functionality until Apple Home is updated. Critical safety and security alerts may also be limited.";
 "HUHomePodSoftwareUpdateRequiredDescriptionSingularHomePodSingularHome" = "Your HomePod requires a software update before this home can be updated.";
 "HUAppleTVSoftwareUpdateBlockingDescription" = "To update to the latest version of Apple Home, you'll need to update each Apple TV to the latest software available. You can do this in Software Update settings on your Apple TV.";
+"HUAppleTVSoftwareUpdateDescription" = "Each Apple TV in your home needs to be updated to the latest software to work well with Apple Home. You can continue with the Apple Home update, but some Apple TV features may not work as expected.";
 "HUSoftwareUpdateMigrationNoResidentDescription" = "Some features now require a home hub. You can set up a HomePod or Apple TV as your home hub.";
 "HUResidentSWUpdateRequired_HasHH1EOL_Description" = "Your current version of Apple Home is no longer supported. Apple TV, HomePod, the Home app, automations, and accessories may have limited functionality until Apple Home is updated. Critical safety and security alerts may also be limited.";
 "HUSoftwareUpdateFetchMessageUpToDateWithHH2" = "This home and all accessories are up to date.";

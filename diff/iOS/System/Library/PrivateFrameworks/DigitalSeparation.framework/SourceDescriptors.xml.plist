@@ -38,6 +38,13 @@
 	<dict>
 		<key>APPLICATION_IDENTIFIER</key>
 		<string>com.apple.Fitness</string>
+		<key>IGNORE_ERRORS</key>
+		<dict>
+			<key>com.apple.DigitalSeparation.DSSourceErrorDomain</key>
+			<array>
+				<integer>0</integer>
+			</array>
+		</dict>
 	</dict>
 	<key>com.apple.DigitalSeparation.HealthKit.HealthSharing</key>
 	<dict>
@@ -66,6 +73,13 @@
 		<string>com.apple.Home</string>
 		<key>ICON_NAME</key>
 		<string>home</string>
+		<key>IGNORE_ERRORS</key>
+		<dict>
+			<key>com.apple.DigitalSeparation.DSSourceErrorDomain</key>
+			<array>
+				<integer>2</integer>
+			</array>
+		</dict>
 	</dict>
 	<key>com.apple.DigitalSeparation.ItemSharing</key>
 	<dict>
@@ -80,6 +94,13 @@
 		<string>com.apple.Maps</string>
 		<key>ICON_NAME</key>
 		<string>maps</string>
+		<key>IGNORE_ERRORS</key>
+		<dict>
+			<key>com.apple.DigitalSeparation.Maps</key>
+			<array>
+				<integer>0</integer>
+			</array>
+		</dict>
 		<key>PRIORITY</key>
 		<integer>8</integer>
 		<key>RESOURCE_TYPES</key>

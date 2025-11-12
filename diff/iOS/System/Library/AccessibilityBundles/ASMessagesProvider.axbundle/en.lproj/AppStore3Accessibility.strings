@@ -20,8 +20,9 @@
 "toggle.audio.off" = "Mute Audio";
 "cancel.download.hint" = "Double tap to cancel download";
 "age.rating.16" = "Rating: 16 and Older";
-"screenshot.image" = "Screenshot";
+"advertisement.button.hint" = "Double tap for more information about this ad.";
 "account.button" = "My Account";
+"screenshot.image" = "Screenshot";
 "pause.button" = "Pause";
 "view.developer.hint" = "Activate to view developer information";
 "account.updates" = "{'updates': {'one': '%d update available', 'other': '%d updates available', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@updates@'}";
@@ -39,10 +40,10 @@
 "ranking.in.category" = "%1$@ in %2$@";
 "volume.medium" = "Medium";
 "volume.control" = "Volume";
-"notify.button.on" = "Notifications on";
 "onboarding.watermark" = "Arcade";
-"age.rating.10" = "Rating: 10 and Older";
 "toggle.audio.on" = "Unmute Audio";
+"age.rating.10" = "Rating: 10 and Older";
+"notify.button.on" = "Notifications on";
 "audio.muted" = "Audio Muted";
 "volume.zero" = "Zero";
 "repeat.search" = "Repeat Search";

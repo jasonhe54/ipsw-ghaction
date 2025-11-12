@@ -6,6 +6,31 @@
 	<integer>53</integer>
 	<key>AllowEDGEEditing</key>
 	<true/>
+	<key>AllowedServicesTypeMaskOnInternet</key>
+	<integer>32768</integer>
+	<key>CarrierEntitlements</key>
+	<dict>
+		<key>Authentication</key>
+		<dict>
+			<key>Type</key>
+			<integer>1</integer>
+			<key>Username</key>
+			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
+		</dict>
+		<key>ProtocolVersion</key>
+		<string>2</string>
+		<key>ServerAddress</key>
+		<string>https://gr-prod.entitlement.vodafone.com:4448/ium-OEMInterface/servlet/IUMServlet</string>
+		<key>SupportedActions</key>
+		<array>
+			<string>AuthenticateTrustFlag</string>
+			<string>TransferSIMService</string>
+		</array>
+		<key>SupportedEntitlements</key>
+		<integer>5248</integer>
+		<key>UpdatePeriod</key>
+		<integer>24</integer>
+	</dict>
 	<key>CarrierName</key>
 	<string>vf GR</string>
 	<key>CellBroadcast</key>
@@ -165,8 +190,47 @@
 	</dict>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
 	<string>+447786205094</string>
+	<key>PushSettings</key>
+	<dict>
+		<key>MultiSIMTopic</key>
+		<string>com.vodafone.gr.entitlement</string>
+	</dict>
 	<key>RegistrationOptInRequired</key>
 	<true/>
+	<key>RemoteCardProvisioningSettings</key>
+	<dict>
+		<key>ActivatingStateSubscriptionCheckTimerIntervals</key>
+		<array>
+			<integer>1800</integer>
+			<string>3600</string>
+			<string>5400</string>
+		</array>
+		<key>CellularTrialPlan</key>
+		<dict>
+			<key>SupportsTrialPlan</key>
+			<true/>
+			<key>TrialEndPeriod</key>
+			<string>2026-04-28T00:00:00Z</string>
+			<key>TrialPlanType</key>
+			<string>FreeTrial</string>
+			<key>TrialStartPeriod</key>
+			<string>2024-02-06T00:00:00Z</string>
+		</dict>
+		<key>MatchingICCIDPrefixes</key>
+		<array>
+			<string>893005</string>
+		</array>
+		<key>MinCompatibleWatchOS</key>
+		<string>26.1</string>
+		<key>ProvisioningMethod</key>
+		<string>CarrierFlow</string>
+		<key>ServerURL</key>
+		<string>sm-v4-018-gra-gtm.pr.go-esim.com</string>
+		<key>SupportedSKUs</key>
+		<array>
+			<string>SKU_EU</string>
+		</array>
+	</dict>
 	<key>SMSEncoding</key>
 	<integer>519</integer>
 	<key>Show3GSwitchWith4G</key>

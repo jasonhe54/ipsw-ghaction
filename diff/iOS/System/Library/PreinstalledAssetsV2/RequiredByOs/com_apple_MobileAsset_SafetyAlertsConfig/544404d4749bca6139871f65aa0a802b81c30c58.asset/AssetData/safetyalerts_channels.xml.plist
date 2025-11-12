@@ -167,6 +167,42 @@
 						<key>withoutLocationText</key>
 						<string>Strong shaking expected.::Drop, cover, hold on.::M__MAG__ estimated.::- __ATTR__</string>
 					</dict>
+					<key>zh-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__，震中距约__ED__。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__，震中距约__ED__。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
 					<key>zh-Hant-TW</key>
 					<dict>
 						<key>toneFile</key>
@@ -196,6 +232,42 @@
 						<string>If shaking intensifies: Drop, cover, hold on::M__MAG__ estimated __ED__ away::- __ATTR__</string>
 						<key>withoutLocationText</key>
 						<string>If shaking intensifies: Drop, cover, hold on::M__MAG__ estimated::- __ATTR__</string>
+					</dict>
+					<key>zh-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__，震中距约__ED__::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__::- __ATTR__</string>
+					</dict>
+					<key>zh-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__，震中距约__ED__::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
 					</dict>
 					<key>zh-Hant-TW</key>
 					<dict>
@@ -227,6 +299,42 @@
 						<key>withoutLocationText</key>
 						<string>APPLE LIVABILITY TEST: Strong shaking expected.::Drop, cover, hold on.::M__MAG__ estimated.::- __ATTR__</string>
 					</dict>
+					<key>zh-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性测试：预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__，震中距约__ED__。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性测试：预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性測試：預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性測試：預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性测试：预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__，震中距约__ED__。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性测试：预计将有强烈摇晃。::伏地、遮挡、手抓牢。::震级约__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string>action_default.caf</string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性測試：預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性測試：預計將有強烈搖晃。::「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
 					<key>zh-Hant-TW</key>
 					<dict>
 						<key>toneFile</key>
@@ -257,6 +365,42 @@
 						<key>withoutLocationText</key>
 						<string>APPLE LIVABILITY TEST: If shaking intensifies: Drop, cover, hold on::M__MAG__ estimated::- __ATTR__</string>
 					</dict>
+					<key>zh-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性测试：若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__，震中距约__ED__::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性测试：若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__::- __ATTR__</string>
+					</dict>
+					<key>zh-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性測試：如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性測試：如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-CN</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性测试：若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__，震中距约__ED__::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性测试：若摇晃加剧：伏地、遮挡、手抓牢::震级约__MAG__::- __ATTR__</string>
+					</dict>
+					<key>zh-Hant-HK</key>
+					<dict>
+						<key>toneFile</key>
+						<string></string>
+						<key>withLocationText</key>
+						<string>APPLE版本可用性測試：如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__，震央在__ED__外。::- __ATTR__</string>
+						<key>withoutLocationText</key>
+						<string>APPLE版本可用性測試：如果搖晃加劇：「趴低、掩護、扶穩」。::預估地震規模__MAG__。::- __ATTR__</string>
+					</dict>
 					<key>zh-Hant-TW</key>
 					<dict>
 						<key>toneFile</key>
@@ -285,6 +429,14 @@
 					<dict>
 						<key>en-US</key>
 						<string>Central Weather Administration</string>
+						<key>zh-CN</key>
+						<string>中央气象署</string>
+						<key>zh-HK</key>
+						<string>中央氣象署</string>
+						<key>zh-Hant-CN</key>
+						<string>中央气象署</string>
+						<key>zh-Hant-HK</key>
+						<string>中央氣象署</string>
 						<key>zh-Hant-TW</key>
 						<string>中央氣象署</string>
 						<key>zh-TW</key>
@@ -302,7 +454,7 @@
 							<key>maxIntensity</key>
 							<real>100</real>
 							<key>maxMagnitude</key>
-							<real>5.5</real>
+							<real>5</real>
 							<key>minIntensity</key>
 							<real>3</real>
 							<key>minMagnitude</key>
@@ -314,13 +466,13 @@
 							<key>level</key>
 							<string>awareness</string>
 							<key>maxIntensity</key>
-							<real>5</real>
+							<real>4</real>
 							<key>maxMagnitude</key>
-							<real>100</real>
+							<real>6.5</real>
 							<key>minIntensity</key>
 							<real>3</real>
 							<key>minMagnitude</key>
-							<real>5.5</real>
+							<real>5</real>
 						</dict>
 						<dict>
 							<key>displayTemplate</key>
@@ -332,9 +484,23 @@
 							<key>maxMagnitude</key>
 							<real>100</real>
 							<key>minIntensity</key>
-							<real>5</real>
+							<real>4</real>
 							<key>minMagnitude</key>
-							<real>5.5</real>
+							<real>5</real>
+						</dict>
+						<dict>
+							<key>displayTemplate</key>
+							<string>action</string>
+							<key>level</key>
+							<string>action</string>
+							<key>maxIntensity</key>
+							<real>4</real>
+							<key>maxMagnitude</key>
+							<real>100</real>
+							<key>minIntensity</key>
+							<real>3</real>
+							<key>minMagnitude</key>
+							<real>6.5</real>
 						</dict>
 					</array>
 					<key>senderId</key>
@@ -346,6 +512,14 @@
 					<dict>
 						<key>en-US</key>
 						<string>Apple livability test</string>
+						<key>zh-CN</key>
+						<string>APPLE版本可用性测试</string>
+						<key>zh-HK</key>
+						<string>APPLE版本可用性測試</string>
+						<key>zh-Hant-CN</key>
+						<string>APPLE版本可用性测试</string>
+						<key>zh-Hant-HK</key>
+						<string>APPLE版本可用性測試</string>
 						<key>zh-Hant-TW</key>
 						<string>APPLE版本可用性測試</string>
 						<key>zh-TW</key>
@@ -363,7 +537,7 @@
 							<key>maxIntensity</key>
 							<real>100</real>
 							<key>maxMagnitude</key>
-							<real>5.5</real>
+							<real>5</real>
 							<key>minIntensity</key>
 							<real>3</real>
 							<key>minMagnitude</key>
@@ -375,13 +549,13 @@
 							<key>level</key>
 							<string>awareness</string>
 							<key>maxIntensity</key>
-							<real>5</real>
+							<real>4</real>
 							<key>maxMagnitude</key>
-							<real>100</real>
+							<real>6.5</real>
 							<key>minIntensity</key>
 							<real>3</real>
 							<key>minMagnitude</key>
-							<real>5.5</real>
+							<real>5</real>
 						</dict>
 						<dict>
 							<key>displayTemplate</key>
@@ -393,9 +567,23 @@
 							<key>maxMagnitude</key>
 							<real>100</real>
 							<key>minIntensity</key>
-							<real>5</real>
+							<real>4</real>
 							<key>minMagnitude</key>
-							<real>5.5</real>
+							<real>5</real>
+						</dict>
+						<dict>
+							<key>displayTemplate</key>
+							<string>livability_action</string>
+							<key>level</key>
+							<string>action</string>
+							<key>maxIntensity</key>
+							<real>4</real>
+							<key>maxMagnitude</key>
+							<real>100</real>
+							<key>minIntensity</key>
+							<real>3</real>
+							<key>minMagnitude</key>
+							<real>6.5</real>
 						</dict>
 					</array>
 					<key>senderId</key>
@@ -406,6 +594,8 @@
 			<array>
 				<string>Detected! Drop, Cover, Hold On. Protect Yourself. -CWA</string>
 				<string>偵測到地震！「趴下、掩護、穩住」。保護好自己。-中央氣象署</string>
+				<string>检测到地震！伏地、遮挡、手抓牢。保护好自己。-中央气象署</string>
+				<string>偵測到地震！「趴低、掩護、扶穩」。保護好自己。-中央氣象署</string>
 			</array>
 		</dict>
 		<key>SafetyAlertCoverageDetails_v1</key>
@@ -422,17 +612,17 @@
 				<key>LivabilityChannelPrefix</key>
 				<string>livtwn</string>
 				<key>NELat</key>
-				<real>25.899999999999999</real>
+				<real>26.399999999999999</real>
 				<key>NELon</key>
-				<real>122.2</real>
+				<real>122.40000000000001</real>
 				<key>RefreshRate</key>
 				<real>72000</real>
 				<key>Region</key>
 				<string>TWN</string>
 				<key>SWLat</key>
-				<real>21.800000000000001</real>
+				<real>21.399999999999999</real>
 				<key>SWLon</key>
-				<real>118.8</real>
+				<real>118</real>
 				<key>SafetyAlertSupportedChannelsForRegion</key>
 				<array>
 					<dict>
@@ -547,7 +737,7 @@
 				<key>alwaysPlaySwitchState</key>
 				<false/>
 				<key>earthquakeLearnMoreLink</key>
-				<string>https://apple.com</string>
+				<string>https://support.apple.com/102516</string>
 				<key>earthquakeSwitchState</key>
 				<true/>
 				<key>earthquakeSwitchVisible</key>
@@ -561,7 +751,7 @@
 				<key>mainSwitchVisible</key>
 				<true/>
 				<key>otherAlertsLearnMoreLink</key>
-				<string>https://apple.com</string>
+				<string>https://support.apple.com/102516</string>
 				<key>otherAlertsSwitchState</key>
 				<true/>
 				<key>otherAlertsSwitchVisible</key>
@@ -580,24 +770,24 @@
 						<array>
 							<array>
 								<array>
-									<real>118.8</real>
-									<real>21.800000000000001</real>
+									<real>118</real>
+									<real>21.399999999999999</real>
 								</array>
 								<array>
-									<real>122.2</real>
-									<real>21.800000000000001</real>
+									<real>122.40000000000001</real>
+									<real>21.399999999999999</real>
 								</array>
 								<array>
-									<real>122.2</real>
-									<real>25.899999999999999</real>
+									<real>122.40000000000001</real>
+									<real>26.399999999999999</real>
 								</array>
 								<array>
-									<real>118.8</real>
-									<real>25.899999999999999</real>
+									<real>118</real>
+									<real>26.399999999999999</real>
 								</array>
 								<array>
-									<real>118.8</real>
-									<real>21.800000000000001</real>
+									<real>118</real>
+									<real>21.399999999999999</real>
 								</array>
 							</array>
 						</array>
@@ -800,7 +990,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>+/JWYbRYEfAAAKohaG/5ZA==</string>
+							<string>+LTeubRYEfAAAN4OzxFDPA==</string>
+							<string>+YMrOrRYEfAAAN4OzxFDPA==</string>
+							<string>+lbPDrRYEfAAAN6nBiRt4A==</string>
+							<string>+yOUrrRYEfAAAE6acKcl7w==</string>
+							<string>02RpKrRYEfAAAN6nBiRt4A==</string>
+							<string>0Mo2KbRYEfAAABqD7vUzig==</string>
+							<string>0bg/ybRYEfAAAN6nBiRt4A==</string>
+							<string>0o+MuLRYEfAAAE6acKcl7w==</string>
+							<string>16rFS7RYEfAAABqD7vUzig==</string>
+							<string>19/9arRXEfAAAD5HZRuZJg==</string>
+							<string>1Dp9urRYEfAAABqD7vUzig==</string>
+							<string>1RqkZLRYEfAAAKohaG/5ZA==</string>
+							<string>1eoCm7RYEfAAAN6nBiRt4A==</string>
+							<string>1shUabRYEfAAAE6acKcl7w==</string>
+							<string>22qrjbRXEfAAAOr4DdyzcA==</string>
+							<string>29+VVLRYEfAAAN4OzxFDPA==</string>
+							<string>2IhUA7RYEfAAAN4OzxFDPA==</string>
+							<string>2Iy5DbRXEfAAANqL6H4ZJA==</string>
+							<string>2Tj967RXEfAAAFpXegQ/lA==</string>
 						</array>
 						<key>regionId</key>
 						<string>sjc</string>
@@ -808,7 +1017,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>2VbuhbRYEfAAAKohaG/5ZA==</string>
+							<string>2efcPrRXEfAAANqL6H4ZJA==</string>
+							<string>2jcVfLRYEfAAABqD7vUzig==</string>
+							<string>2r4XRrRXEfAAAP5/SPS5hA==</string>
+							<string>2xJaJrRYEfAAAKohaG/5ZA==</string>
+							<string>3BhQHLRXEfAAAFpXegQ/lA==</string>
+							<string>3LS/pbRYEfAAAN4OzxFDPA==</string>
+							<string>3MXOLbRXEfAAAFpXegQ/lA==</string>
+							<string>3X9Z/LRXEfAAAD5HZRuZJg==</string>
+							<string>3YkmzbRYEfAAAN6nBiRt4A==</string>
+							<string>3l4pyrRYEfAAAE6acKcl7w==</string>
+							<string>3zK337RYEfAAAKohaG/5ZA==</string>
+							<string>45Gn+bRYEfAAAOr4DdyzcA==</string>
+							<string>4BHNO7RYEfAAAE6acKcl7w==</string>
+							<string>4MjEILRYEfAAANqL6H4ZJA==</string>
+							<string>4YKdXLRYEfAAAD5HZRuZJg==</string>
+							<string>4i3RrLRYEfAAAFpXegQ/lA==</string>
+							<string>4uf57bRYEfAAAFpXegQ/lA==</string>
+							<string>58f97bRYEfAAAD5HZRuZJg==</string>
+							<string>5ED68bRYEfAAANqL6H4ZJA==</string>
 						</array>
 						<key>regionId</key>
 						<string>lax</string>
@@ -816,7 +1044,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>5P4wcrRYEfAAANqL6H4ZJA==</string>
+							<string>5bJlQ7RYEfAAANqL6H4ZJA==</string>
+							<string>5l8f2rRYEfAAAOr4DdyzcA==</string>
+							<string>5wx227RYEfAAAOr4DdyzcA==</string>
+							<string>6+Sy3rRYEfAAAOr4DdyzcA==</string>
+							<string>6Hd3zrRYEfAAAD5HZRuZJg==</string>
+							<string>6SL6ObRYEfAAAP5/SPS5hA==</string>
+							<string>6cyoTLRYEfAAAOr4DdyzcA==</string>
+							<string>6nnXqrRYEfAAAP5/SPS5hA==</string>
+							<string>6zZKbbRYEfAAAOr4DdyzcA==</string>
+							<string>701ZdbRYEfAAANqL6H4ZJA==</string>
+							<string>7Jadv7RYEfAAAOr4DdyzcA==</string>
+							<string>7UKVMLRYEfAAAOr4DdyzcA==</string>
+							<string>7eswq7RYEfAAAP5/SPS5hA==</string>
+							<string>7qFhTrRYEfAAAFpXegQ/lA==</string>
+							<string>836mX7RYEfAAAFpXegQ/lA==</string>
+							<string>8AJRlrRYEfAAANqL6H4ZJA==</string>
+							<string>8K5vXLRYEfAAAP5/SPS5hA==</string>
+							<string>8W/ER7RYEfAAANqL6H4ZJA==</string>
+							<string>8iXNsbRYEfAAAOr4DdyzcA==</string>
 						</array>
 						<key>regionId</key>
 						<string>sea</string>
@@ -824,7 +1071,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>8tA9wLRYEfAAAD5HZRuZJg==</string>
+							<string>99lLsLRYEfAAAKohaG/5ZA==</string>
+							<string>9C+AYrRYEfAAAOr4DdyzcA==</string>
+							<string>9PZ5ULRYEfAAAFpXegQ/lA==</string>
+							<string>9aLmqLRYEfAAANqL6H4ZJA==</string>
+							<string>9lRcWbRYEfAAANqL6H4ZJA==</string>
+							<string>9w6rg7RYEfAAAOr4DdyzcA==</string>
+							<string>HL7KtrRZEfAAABqD7vUzig==</string>
+							<string>HZivz7RZEfAAAE6acKcl7w==</string>
+							<string>Hmm7cLRZEfAAAE6acKcl7w==</string>
+							<string>HzpSB7RZEfAAABqD7vUzig==</string>
+							<string>I2JQ27RZEfAAABqD7vUzig==</string>
+							<string>IBcdeLRZEfAAABqD7vUzig==</string>
+							<string>IOUb2bRZEfAAABqD7vUzig==</string>
+							<string>IbcRsrRZEfAAAKohaG/5ZA==</string>
+							<string>IpCB6rRZEfAAABqD7vUzig==</string>
+							<string>J4xLVLRZEfAAAKohaG/5ZA==</string>
+							<string>JDIj7LRZEfAAAN4OzxFDPA==</string>
+							<string>JQ0av7RZEfAAAN6nBiRt4A==</string>
+							<string>JeNWgLRZEfAAAN6nBiRt4A==</string>
 						</array>
 						<key>regionId</key>
 						<string>nyc</string>
@@ -832,7 +1098,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>JrSwA7RZEfAAAKohaG/5ZA==</string>
+							<string>K7BSnbRZEfAAAN4OzxFDPA==</string>
+							<string>KFvQUbRZEfAAAE6acKcl7w==</string>
+							<string>KS+bErRZEfAAAE6acKcl7w==</string>
+							<string>Kf9uM7RZEfAAAE6acKcl7w==</string>
+							<string>KtYfTLRZEfAAABqD7vUzig==</string>
+							<string>L8kPUbRZEfAAAN6nBiRt4A==</string>
+							<string>LH54HbRZEfAAABqD7vUzig==</string>
+							<string>LU3V5bRZEfAAAKohaG/5ZA==</string>
+							<string>LiuyxrRZEfAAAKohaG/5ZA==</string>
+							<string>LvkU57RZEfAAAKohaG/5ZA==</string>
+							<string>M+m65bRZEfAAAE6acKcl7w==</string>
+							<string>MKL0frRZEfAAABqD7vUzig==</string>
+							<string>MXXUuLRZEfAAAKohaG/5ZA==</string>
+							<string>MkZrJLRZEfAAAE6acKcl7w==</string>
+							<string>Mxz1HrRZEfAAAN4OzxFDPA==</string>
+							<string>N6G52bRZEfAAAKohaG/5ZA==</string>
+							<string>O955QLRZEfAAAN4OzxFDPA==</string>
+							<string>OHnKf7RZEfAAABqD7vUzig==</string>
+							<string>OUwOdrRZEfAAAE6acKcl7w==</string>
 						</array>
 						<key>regionId</key>
 						<string>iad</string>
@@ -840,7 +1125,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>OhuTj7RZEfAAAN4OzxFDPA==</string>
+							<string>OwBOJ7RZEfAAAE6acKcl7w==</string>
+							<string>PLCWYLRZEfAAABqD7vUzig==</string>
+							<string>PYRg+LRZEfAAAE6acKcl7w==</string>
+							<string>PlxKarRZEfAAAKohaG/5ZA==</string>
+							<string>Py/HMbRZEfAAABqD7vUzig==</string>
+							<string>Q10dC7RZEfAAAE6acKcl7w==</string>
+							<string>QAMcm7RZEfAAAKohaG/5ZA==</string>
+							<string>QNyMwbRZEfAAAN4OzxFDPA==</string>
+							<string>QavDsrRZEfAAABqD7vUzig==</string>
+							<string>QoImWbRZEfAAAE6acKcl7w==</string>
+							<string>R2XwprRYEfAAAN6nBiRt4A==</string>
+							<string>R4nW47RZEfAAAN4OzxFDPA==</string>
+							<string>RDBLorRZEfAAAN4OzxFDPA==</string>
+							<string>ROkwr7RYEfAAAN4OzxFDPA==</string>
+							<string>RQXD/LRZEfAAAKohaG/5ZA==</string>
+							<string>RbekZLRYEfAAAN6nBiRt4A==</string>
+							<string>ReKPorRZEfAAAN6nBiRt4A==</string>
+							<string>RpJM9bRYEfAAAN6nBiRt4A==</string>
+							<string>RrPpU7RZEfAAABqD7vUzig==</string>
 						</array>
 						<key>regionId</key>
 						<string>mia</string>
@@ -848,7 +1152,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>S5GY97RYEfAAAN6nBiRt4A==</string>
+							<string>SDYRwLRYEfAAAN4OzxFDPA==</string>
+							<string>SGTNpLRZEfAAABqD7vUzig==</string>
+							<string>SREvgbRYEfAAAN4OzxFDPA==</string>
+							<string>SejK37RYEfAAABqD7vUzig==</string>
+							<string>Sr0xs7RYEfAAAE6acKcl7w==</string>
+							<string>T755yLRYEfAAAN6nBiRt4A==</string>
+							<string>TGk0BLRYEfAAAE6acKcl7w==</string>
+							<string>TTtRGbRYEfAAAKohaG/5ZA==</string>
+							<string>ThSaQLRYEfAAABqD7vUzig==</string>
+							<string>TukoJbRYEfAAAE6acKcl7w==</string>
+							<string>U+3yg7RYEfAAAN4OzxFDPA==</string>
+							<string>UKST4rRYEfAAAN4OzxFDPA==</string>
+							<string>UXqBqbRYEfAAAN6nBiRt4A==</string>
+							<string>Ukrw8rRYEfAAABqD7vUzig==</string>
+							<string>UyDeZrRYEfAAAE6acKcl7w==</string>
+							<string>VMTKk7RYEfAAABqD7vUzig==</string>
+							<string>VZxlt7RYEfAAAE6acKcl7w==</string>
+							<string>Vm4NtLRYEfAAAN4OzxFDPA==</string>
+							<string>Vz8ZOLRYEfAAAE6acKcl7w==</string>
 						</array>
 						<key>regionId</key>
 						<string>den</string>
@@ -856,7 +1179,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>W9doHrRYEfAAAD5HZRuZJg==</string>
+							<string>WBXxVbRYEfAAAN4OzxFDPA==</string>
+							<string>WO2MirRYEfAAAKohaG/5ZA==</string>
+							<string>WbvZC7RYEfAAAKohaG/5ZA==</string>
+							<string>Wn2lYLRYEfAAANqL6H4ZJA==</string>
+							<string>WyoSAbRYEfAAANqL6H4ZJA==</string>
+							<string>X+lHwrRYEfAAANqL6H4ZJA==</string>
+							<string>XIQjB7RYEfAAAP5/SPS5hA==</string>
+							<string>XTDdn7RYEfAAAD5HZRuZJg==</string>
+							<string>XeeDoLRYEfAAAFpXegQ/lA==</string>
+							<string>XpHN7rRYEfAAAOr4DdyzcA==</string>
+							<string>XzyMSLRYEfAAAP5/SPS5hA==</string>
+							<string>Y/o8ALRYEfAAAOr4DdyzcA==</string>
+							<string>Y1A/obRYEfAAAD5HZRuZJg==</string>
+							<string>YJc7A7RYEfAAANqL6H4ZJA==</string>
+							<string>YURDALRYEfAAAD5HZRuZJg==</string>
+							<string>YezfObRYEfAAAP5/SPS5hA==</string>
+							<string>YqZrz7RYEfAAAOr4DdyzcA==</string>
+							<string>Z3GvgbRYEfAAAOr4DdyzcA==</string>
+							<string>ZKkZxLRYEfAAANqL6H4ZJA==</string>
 						</array>
 						<key>regionId</key>
 						<string>msp</string>
@@ -864,7 +1206,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>ZVKferRYEfAAAP5/SPS5hA==</string>
+							<string>ZgzuorRYEfAAAD5HZRuZJg==</string>
+							<string>ZrtXO7RYEfAAAP5/SPS5hA==</string>
+							<string>a5cVg7RYEfAAAD5HZRuZJg==</string>
+							<string>aCCMkbRYEfAAAFpXegQ/lA==</string>
+							<string>aNxjErRYEfAAAOr4DdyzcA==</string>
+							<string>aYwEJbRYEfAAANqL6H4ZJA==</string>
+							<string>ajhwErRYEfAAAFpXegQ/lA==</string>
+							<string>aug4o7RYEfAAAOr4DdyzcA==</string>
+							<string>b8pe9bRYEfAAAD5HZRuZJg==</string>
+							<string>bFcxNLRYEfAAAD5HZRuZJg==</string>
+							<string>bQOeA7RYEfAAAFpXegQ/lA==</string>
+							<string>bbZz9rRYEfAAANqL6H4ZJA==</string>
+							<string>bmOjNLRYEfAAAFpXegQ/lA==</string>
+							<string>bx8Ep7RYEfAAANqL6H4ZJA==</string>
+							<string>c8E5yrRYEfAAAN6nBiRt4A==</string>
+							<string>cHZ9pbRYEfAAAFpXegQ/lA==</string>
+							<string>cUU9NLRYEfAAABqD7vUzig==</string>
+							<string>chZvurRYEfAAAE6acKcl7w==</string>
+							<string>cvB8DLRYEfAAAKohaG/5ZA==</string>
 						</array>
 						<key>regionId</key>
 						<string>dfw</string>
@@ -872,7 +1233,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>d9ZzrLRYEfAAAE6acKcl7w==</string>
+							<string>dJLhhrRYEfAAAN4OzxFDPA==</string>
+							<string>dWEt7bRYEfAAAKohaG/5ZA==</string>
+							<string>djHra7RYEfAAAE6acKcl7w==</string>
+							<string>dwYrm7RYEfAAAN6nBiRt4A==</string>
+							<string>e/sXXbRYEfAAAN6nBiRt4A==</string>
+							<string>eKaU7rRYEfAAAKohaG/5ZA==</string>
+							<string>eXr77bRYEfAAAE6acKcl7w==</string>
+							<string>ekdMt7RYEfAAAN4OzxFDPA==</string>
+							<string>eyEyHLRYEfAAAN6nBiRt4A==</string>
+							<string>f1FuNbRYEfAAABqD7vUzig==</string>
+							<string>fMuGmLRYEfAAAN4OzxFDPA==</string>
+							<string>faakP7RYEfAAAKohaG/5ZA==</string>
+							<string>foL6mbRYEfAAAN4OzxFDPA==</string>
+							<string>g34nz7RYEfAAAE6acKcl7w==</string>
+							<string>gCl+trRYEfAAABqD7vUzig==</string>
+							<string>gQXUzrRYEfAAAE6acKcl7w==</string>
+							<string>gdJMzrRYEfAAAN6nBiRt4A==</string>
+							<string>gqGDirRYEfAAAN4OzxFDPA==</string>
+							<string>h6IvQbRYEfAAAN6nBiRt4A==</string>
 						</array>
 						<key>regionId</key>
 						<string>atl</string>
@@ -880,7 +1260,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>hE4iG7RYEfAAAN4OzxFDPA==</string>
+							<string>hSqfj7RYEfAAAN6nBiRt4A==</string>
+							<string>hfpLYLRYEfAAAKohaG/5ZA==</string>
+							<string>hsxosLRYEfAAAN6nBiRt4A==</string>
+							<string>i8rxYrRYEfAAAN6nBiRt4A==</string>
+							<string>iHtQ8LRYEfAAAE6acKcl7w==</string>
+							<string>iUo5srRYEfAAAE6acKcl7w==</string>
+							<string>iiOpw7RYEfAAAE6acKcl7w==</string>
+							<string>iv0Z1LRYEfAAAE6acKcl7w==</string>
+							<string>j/3FZbRYEfAAAE6acKcl7w==</string>
+							<string>jKpUx7RYEfAAABqD7vUzig==</string>
+							<string>jX7isbRYEfAAAKohaG/5ZA==</string>
+							<string>jk0vTLRYEfAAAN4OzxFDPA==</string>
+							<string>jyLO87RYEfAAAN6nBiRt4A==</string>
+							<string>kNLIvbRYEfAAAN4OzxFDPA==</string>
+							<string>kajdVrRYEfAAAE6acKcl7w==</string>
+							<string>kntvrrRYEfAAAN4OzxFDPA==</string>
+							<string>s/UV7LRYEfAAAP5/SPS5hA==</string>
+							<string>s0TYlrRYEfAAAD5HZRuZJg==</string>
+							<string>sJ4YJbRXEfAAAP5/SPS5hA==</string>
 						</array>
 						<key>regionId</key>
 						<string>ord</string>
@@ -888,7 +1287,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>spjhVrRYEfAAAFpXegQ/lA==</string>
+							<string>t2J3WLRYEfAAAFpXegQ/lA==</string>
+							<string>tKYXKLRYEfAAANqL6H4ZJA==</string>
+							<string>tU/rlbRYEfAAAOr4DdyzcA==</string>
+							<string>tgfJV7RYEfAAAFpXegQ/lA==</string>
+							<string>traAmbRYEfAAANqL6H4ZJA==</string>
+							<string>u3yTSbRYEfAAAD5HZRuZJg==</string>
+							<string>uA0PLbRYEfAAAP5/SPS5hA==</string>
+							<string>uLqNF7RYEfAAAD5HZRuZJg==</string>
+							<string>uWgLKLRYEfAAAD5HZRuZJg==</string>
+							<string>uieyirRYEfAAANqL6H4ZJA==</string>
+							<string>utJwv7RYEfAAAP5/SPS5hA==</string>
+							<string>v6peqbRYEfAAAFpXegQ/lA==</string>
+							<string>vC1GZrRYEfAAAOr4DdyzcA==</string>
+							<string>vNrD4LRYEfAAAP5/SPS5hA==</string>
+							<string>vZ7++7RYEfAAANqL6H4ZJA==</string>
+							<string>vk9jF7RYEfAAAOr4DdyzcA==</string>
+							<string>vvq+SLRYEfAAAOr4DdyzcA==</string>
+							<string>w9mwdLRYEfAAAP5/SPS5hA==</string>
+							<string>wGeUIbRYEfAAAP5/SPS5hA==</string>
 						</array>
 						<key>regionId</key>
 						<string>bos</string>
@@ -896,7 +1314,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>wRl/vLRYEfAAANqL6H4ZJA==</string>
+							<string>wcfncrRYEfAAAP5/SPS5hA==</string>
+							<string>wnSiM7RYEfAAAP5/SPS5hA==</string>
+							<string>wy7LLbRYEfAAANqL6H4ZJA==</string>
+							<string>x/S3r7RYEfAAANqL6H4ZJA==</string>
+							<string>x0dfy7RYEfAAAD5HZRuZJg==</string>
+							<string>xIkDSrRYEfAAAFpXegQ/lA==</string>
+							<string>xTKwmrRYEfAAAD5HZRuZJg==</string>
+							<string>xeLHnrRYEfAAANqL6H4ZJA==</string>
+							<string>xp0WO7RYEfAAAFpXegQ/lA==</string>
+							<string>y8wih7RYEfAAAE6acKcl7w==</string>
+							<string>yKRX5bRYEfAAAP5/SPS5hA==</string>
+							<string>yU+zFrRYEfAAAP5/SPS5hA==</string>
+							<string>yib+ILRYEfAAAN4OzxFDPA==</string>
+							<string>yvvaUbRYEfAAAN4OzxFDPA==</string>
+							<string>z/mf2LRYEfAAAN6nBiRt4A==</string>
+							<string>zKmKMrRYEfAAAKohaG/5ZA==</string>
+							<string>zYIQArRYEfAAAN4OzxFDPA==</string>
+							<string>zlR7V7RYEfAAAN6nBiRt4A==</string>
+							<string>zyjiE7RYEfAAAKohaG/5ZA==</string>
 						</array>
 						<key>regionId</key>
 						<string>uscaribbean</string>
@@ -904,7 +1341,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>wRl/vLRYEfAAANqL6H4ZJA==</string>
+							<string>wcfncrRYEfAAAP5/SPS5hA==</string>
+							<string>wnSiM7RYEfAAAP5/SPS5hA==</string>
+							<string>wy7LLbRYEfAAANqL6H4ZJA==</string>
+							<string>x/S3r7RYEfAAANqL6H4ZJA==</string>
+							<string>x0dfy7RYEfAAAD5HZRuZJg==</string>
+							<string>xIkDSrRYEfAAAFpXegQ/lA==</string>
+							<string>xTKwmrRYEfAAAD5HZRuZJg==</string>
+							<string>xeLHnrRYEfAAANqL6H4ZJA==</string>
+							<string>xp0WO7RYEfAAAFpXegQ/lA==</string>
+							<string>y8wih7RYEfAAAE6acKcl7w==</string>
+							<string>yKRX5bRYEfAAAP5/SPS5hA==</string>
+							<string>yU+zFrRYEfAAAP5/SPS5hA==</string>
+							<string>yib+ILRYEfAAAN4OzxFDPA==</string>
+							<string>yvvaUbRYEfAAAN4OzxFDPA==</string>
+							<string>z/mf2LRYEfAAAN6nBiRt4A==</string>
+							<string>zKmKMrRYEfAAAKohaG/5ZA==</string>
+							<string>zYIQArRYEfAAAN4OzxFDPA==</string>
+							<string>zlR7V7RYEfAAAN6nBiRt4A==</string>
+							<string>zyjiE7RYEfAAAKohaG/5ZA==</string>
 						</array>
 						<key>regionId</key>
 						<string>alaskaeast</string>
@@ -912,7 +1368,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>wRl/vLRYEfAAANqL6H4ZJA==</string>
+							<string>wcfncrRYEfAAAP5/SPS5hA==</string>
+							<string>wnSiM7RYEfAAAP5/SPS5hA==</string>
+							<string>wy7LLbRYEfAAANqL6H4ZJA==</string>
+							<string>x/S3r7RYEfAAANqL6H4ZJA==</string>
+							<string>x0dfy7RYEfAAAD5HZRuZJg==</string>
+							<string>xIkDSrRYEfAAAFpXegQ/lA==</string>
+							<string>xTKwmrRYEfAAAD5HZRuZJg==</string>
+							<string>xeLHnrRYEfAAANqL6H4ZJA==</string>
+							<string>xp0WO7RYEfAAAFpXegQ/lA==</string>
+							<string>y8wih7RYEfAAAE6acKcl7w==</string>
+							<string>yKRX5bRYEfAAAP5/SPS5hA==</string>
+							<string>yU+zFrRYEfAAAP5/SPS5hA==</string>
+							<string>yib+ILRYEfAAAN4OzxFDPA==</string>
+							<string>yvvaUbRYEfAAAN4OzxFDPA==</string>
+							<string>z/mf2LRYEfAAAN6nBiRt4A==</string>
+							<string>zKmKMrRYEfAAAKohaG/5ZA==</string>
+							<string>zYIQArRYEfAAAN4OzxFDPA==</string>
+							<string>zlR7V7RYEfAAAN6nBiRt4A==</string>
+							<string>zyjiE7RYEfAAAKohaG/5ZA==</string>
 						</array>
 						<key>regionId</key>
 						<string>alaskawest</string>
@@ -920,7 +1395,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>wRl/vLRYEfAAANqL6H4ZJA==</string>
+							<string>wcfncrRYEfAAAP5/SPS5hA==</string>
+							<string>wnSiM7RYEfAAAP5/SPS5hA==</string>
+							<string>wy7LLbRYEfAAANqL6H4ZJA==</string>
+							<string>x/S3r7RYEfAAANqL6H4ZJA==</string>
+							<string>x0dfy7RYEfAAAD5HZRuZJg==</string>
+							<string>xIkDSrRYEfAAAFpXegQ/lA==</string>
+							<string>xTKwmrRYEfAAAD5HZRuZJg==</string>
+							<string>xeLHnrRYEfAAANqL6H4ZJA==</string>
+							<string>xp0WO7RYEfAAAFpXegQ/lA==</string>
+							<string>y8wih7RYEfAAAE6acKcl7w==</string>
+							<string>yKRX5bRYEfAAAP5/SPS5hA==</string>
+							<string>yU+zFrRYEfAAAP5/SPS5hA==</string>
+							<string>yib+ILRYEfAAAN4OzxFDPA==</string>
+							<string>yvvaUbRYEfAAAN4OzxFDPA==</string>
+							<string>z/mf2LRYEfAAAN6nBiRt4A==</string>
+							<string>zKmKMrRYEfAAAKohaG/5ZA==</string>
+							<string>zYIQArRYEfAAAN4OzxFDPA==</string>
+							<string>zlR7V7RYEfAAAN6nBiRt4A==</string>
+							<string>zyjiE7RYEfAAAKohaG/5ZA==</string>
 						</array>
 						<key>regionId</key>
 						<string>uspacificwest</string>
@@ -928,7 +1422,26 @@
 					<dict>
 						<key>channelList</key>
 						<array>
-							<string></string>
+							<string>wRl/vLRYEfAAANqL6H4ZJA==</string>
+							<string>wcfncrRYEfAAAP5/SPS5hA==</string>
+							<string>wnSiM7RYEfAAAP5/SPS5hA==</string>
+							<string>wy7LLbRYEfAAANqL6H4ZJA==</string>
+							<string>x/S3r7RYEfAAANqL6H4ZJA==</string>
+							<string>x0dfy7RYEfAAAD5HZRuZJg==</string>
+							<string>xIkDSrRYEfAAAFpXegQ/lA==</string>
+							<string>xTKwmrRYEfAAAD5HZRuZJg==</string>
+							<string>xeLHnrRYEfAAANqL6H4ZJA==</string>
+							<string>xp0WO7RYEfAAAFpXegQ/lA==</string>
+							<string>y8wih7RYEfAAAE6acKcl7w==</string>
+							<string>yKRX5bRYEfAAAP5/SPS5hA==</string>
+							<string>yU+zFrRYEfAAAP5/SPS5hA==</string>
+							<string>yib+ILRYEfAAAN4OzxFDPA==</string>
+							<string>yvvaUbRYEfAAAN4OzxFDPA==</string>
+							<string>z/mf2LRYEfAAAN6nBiRt4A==</string>
+							<string>zKmKMrRYEfAAAKohaG/5ZA==</string>
+							<string>zYIQArRYEfAAAN4OzxFDPA==</string>
+							<string>zlR7V7RYEfAAAN6nBiRt4A==</string>
+							<string>zyjiE7RYEfAAAKohaG/5ZA==</string>
 						</array>
 						<key>regionId</key>
 						<string>uspacificeast</string>
@@ -1402,7 +1915,7 @@
 				<key>alwaysPlaySwitchState</key>
 				<false/>
 				<key>earthquakeLearnMoreLink</key>
-				<string>https://apple.com</string>
+				<string>https://support.apple.com/102516</string>
 				<key>earthquakeSwitchState</key>
 				<true/>
 				<key>earthquakeSwitchVisible</key>
@@ -1416,7 +1929,7 @@
 				<key>mainSwitchVisible</key>
 				<true/>
 				<key>otherAlertsLearnMoreLink</key>
-				<string>https://apple.com</string>
+				<string>https://support.apple.com/102516</string>
 				<key>otherAlertsSwitchState</key>
 				<true/>
 				<key>otherAlertsSwitchVisible</key>

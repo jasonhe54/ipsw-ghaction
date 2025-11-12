@@ -13,10 +13,11 @@
 "AccountChangesFooterText" = "Disallowing changes prevents adding, removing, or modifying accounts in Passwords & Accounts.";
 "RequirePasswordLabel" = "Require Password";
 "ViewDeviceManagementButtonTitle" = "View Device Management";
-"CellularChangesSpecifierName" = "Cellular Data Changes";
 "InstallingAppsSpecifierName" = "Installing Apps";
+"CellularChangesSpecifierName" = "Cellular Data Changes";
 "MusicProfilesSpecifierName" = "Music Profiles";
 "TitlePlaceholderText" = "Title";
+"WebContentFilterEnabledConnectToFamilyTitle" = "Adult Websites Restricted";
 "MICROPHONE_EXPLANATION" = "Disallowing changes locks the settings shown below. New apps will be prevented from accessing the Microphone.";
 "AgeRatingRestrictionsSectionTitle" = "Age Rating Restrictions";
 "iBookstoreSpecifierName" = "Book Store";
@@ -26,10 +27,11 @@
 "AppsAboveAgeRatingSectionTitle" = "Apps Above Age Rating";
 "SiriImageGenerationSpecifierName" = "Image Creation";
 "AllowWithFriendsOnlySpecifierName" = "Allow with Friends Only";
-"RatingForSpecifierName" = "Ratings For";
+"WebContentFilterEnabledConnectToFamilySubtitle_UK" = "The UK requires that only an adult can change these restrictions. Parents can manage these settings in Screen Time.";
 "ITunesAppStorePurchasesSpecifierName" = "iTunes & App Store Purchases";
 "PHOTOS_EXPLANATION" = "Disallowing changes locks the settings shown below and prevents new apps from using your photos.";
 "AppleIntelligenceLabel" = "Apple Intelligence";
+"RatingForSpecifierName" = "Ratings For";
 "ViewProfileButtonTitle" = "View Profile";
 "DontAllowColonLabel" = "Don’t Allow:";
 "PhotosSpecifierName" = "Photos";
@@ -73,7 +75,9 @@
 "UnratedExplanationFooter" = "Unrated apps are not available from the App Store. These apps are available from the web or other app marketplaces.";
 "LocationServicesSpecifierName" = "Location Services";
 "DrivingFocusSpecifierName" = "Driving Focus";
+"WebContentFilterEnabledConnectToFamilySubtitle" = "In your region only an adult can change these restrictions. Parents can manage these settings in Screen Time.";
 "MusicPodcastsNewsWorkoutsSpecifierName" = "Music, Podcasts, News, Fitness";
+"WebContentFilterEnabledConnectToFamilyToFamilyButtonTitle" = "Connect to Family";
 "OnlyAllowLabel" = "Only Allow These Websites:";
 "GameCenterLabel" = "Game Center";
 "CleanLabel" = "Clean";
@@ -144,8 +148,8 @@
 "InstallingMarketplaceAppsSpecifierName" = "App Marketplaces";
 "ViewAboveAgeRatingAppButtonTitle" = "View";
 "WebSearchContentSettingsPresetView" = "Siri Web Search";
-"AADC_WirelessChangesSpecifierName" = "Wireless Data";
 "CalendarsSpecifierName" = "Calendars";
+"AADC_WirelessChangesSpecifierName" = "Wireless Data";
 "AADC_ContentRestrictionsSpecifierName" = "App Store, Media, Web, & Games";
 "ProfilePrivacyChangesSpecifierName" = "Profile Privacy Changes";
 "TVProviderSpecifierName" = "TV Provider";
@@ -155,9 +159,9 @@
 "Don't Allow" = "Don't Allow";
 "ShareLocationSpecifierName" = "Share My Location";
 "RemoveAppExceptionAlertBodyFormat" = "To use %@ in the future, your child will need to ask for another exception. This won’t delete the app or its data from their device, but they won’t be able to open it.";
-"AdvertisingSpecifierName" = "Apple Advertising";
 "CarPlaySpecifierName" = "CarPlay";
 "AppleMediaSpecifierName" = "Apple Media";
+"AdvertisingSpecifierName" = "Apple Advertising";
 "iTunesStoreSpecifierName" = "iTunes Store";
 "ExplicitLanguageSpecifierName" = "Explicit Language";
 "BluetoothSharingSpecifierName" = "Bluetooth Sharing";

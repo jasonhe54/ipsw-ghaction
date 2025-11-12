@@ -53,7 +53,7 @@ You can enable or disable Fall Detection from the Apple Watch app on your iPhon
 
 Crash Detection
 
-If your iPhone 14 or later (all models) with iOS 16 or later, Apple Watch Series 8 or later, Apple Watch SE (2nd generation), and Apple Watch Ultra or later with watchOS 9 or later detects a severe car crash, an alert will be triggered to call emergency services. You can choose to contact emergency services or dismiss the alert. If you you have not initiated a call or canceled the alert after 10 seconds, your device will start another 30-second countdown. If you still haven’t responded, your device will make a call to emergency services at the end of the countdown.
+If your iPhone 14 or later (all models) with iOS 16 or later, Apple Watch Series 8 or later, Apple Watch SE (2nd generation), and Apple Watch Ultra or later with watchOS 9 or later detects a severe car crash, an alert will be triggered to call emergency services. You can choose to contact emergency services or dismiss the alert. If you have not initiated a call or canceled the alert after 10 seconds, your device will start another 30-second countdown. If you still haven’t responded, your device will make a call to emergency services at the end of the countdown.
 
 When the autodialed call connects, your device plays an audio message that informs emergency services that your device detected a car crash, and then shares your current location as latitude and longitude coordinates. The call will share your location regardless of whether you have enabled Location Services. If you previously enabled Medical ID to be shared during an emergency call, your Medical ID will also be shared automatically with emergency services (United States and Canada only). After the call ends and if you have not uninstalled the Messages app, your device will start a 10-second countdown prior to sending a message to your emergency contacts, and Check In contact if a Check In session is active, with your location, letting them know that your device detected a car crash and dialed emergency services. You can choose to cancel the message to your emergency contacts and active Check In contact within the 10-second countdown. Your device gets your emergency contacts from your Medical ID. After the notification to emergency contacts and active Check In contact, your device will continue to display options to contact emergency services, open Medical ID information, or dismiss the alert. iPhone and Apple Watch cannot detect all car crashes. Location information may be used to determine whether or not a crash occurred.
 
@@ -89,7 +89,7 @@ We process your personal data in Emergency SOS and Emergency SOS via satellite
 
 Retention
 
-Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law.
+Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
 "THIRD_BULLET" = "Some safety features may be automatically enabled.";
@@ -159,6 +159,16 @@ If you allow your iPhone to call emergency services after it detects a car crash
 
 You can choose whether to share Crash Detection data with a third party. To do so on your iPhone, go to Settings > Emergency SOS and tap to turn on Share Crash with App.
 
+Enhanced Alerts 
+
+Enhanced Safety Alerts can provide you safety alerts on your iPhone and Watch to notify you of an emergency event, such as an earthquake or flood. These alerts are sent over available connectivity, such as Wi-Fi or Bluetooth, and, when available, cellular. Apple can deliver Enhanced Safety Alerts to your current region, which is determined using your device location. A region may be a country, or for some countries (such as the U.S.), a region may be a group of states. Your Apple device can be associated with this region. Apple does not store information about your device location in a region.
+
+Enhanced Safety Alerts are turned on by default. You can disable or reenable Enhanced Safety Alerts by going to Settings > Notifications > Enhanced Alerts > Enhanced Safety Alerts, then tapping to turn one or more types of Enhanced Safety Alerts on or off. Enhanced Safety Alerts are delivered by Apple and will appear and sound different than a Government Alert sent by your local government.
+
+Improve Alert Delivery uses your approximate location to improve the timeliness and reliability of Enhanced Safety Alerts. For example, Earthquake Alerts might be delivered quicker and more reliably when Improve Alert Delivery is turned on. Apple does not store your approximate location. You can enable Improve Alert Delivery in Settings > Notifications > Enhanced Alerts > Enhanced Safety Alerts > Improve Alert Delivery.
+
+To receive Enhanced Alerts, you must have enabled Settings > Privacy & Security > Location Services > System Services > Alerts & Shortcuts Automation.
+
 Compass Waypoints
 
 You can use the Compass app to add your current location as a waypoint, which allows you to see the distance and direction to each Compass Waypoint you create. In addition, the Compass app can automatically generate two waypoints including a Last Cellular Connection Waypoint that will estimate the last place with cellular reception for connectivity, and a Last Emergency Call Waypoint that will estimate where on a route your iPhone or Apple Watch had the last connection to any available carrier’s network so that an emergency call can be made. In order for a Last Cellular Connection Waypoint or a Last Emergency Call Waypoint to be created, you must have Significant Locations enabled on your device, with Precise Location turned on for the Compass app. You can delete the Compass Waypoints you create in the Compass app by selecting the waypoint in the Compass app, then scrolling to the bottom of the screen and selecting Delete Waypoint.
@@ -181,6 +191,6 @@ We process your personal data in Emergency SOS and Emergency SOS via satellite
 
 Retention
 
-Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law.
+Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law.
 
 At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";

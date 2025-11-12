@@ -79,6 +79,10 @@
 	<integer>10</integer>
 	<key>saveDelayMinDebounceTime</key>
 	<real>0.5</real>
+	<key>saveDelayTableDebounceTime</key>
+	<integer>2</integer>
+	<key>saveDelayTableMaxTime</key>
+	<integer>5</integer>
 	<key>searchSubstringMatchingEnabled</key>
 	<true/>
 	<key>serverSideUpdateTaskMaxFailureCount</key>

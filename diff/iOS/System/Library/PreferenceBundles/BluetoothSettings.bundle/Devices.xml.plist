@@ -56,11 +56,13 @@
 		</dict>
 		<dict>
 			<key>cell</key>
-			<string>PSTitleValueCell</string>
+			<string>PSDefaultCell</string>
 			<key>cellClass</key>
-			<string>BluetoothSettings.BTSettingsPlacardView</string>
+			<string>PESettingsFeatureDescriptionCell</string>
 			<key>id</key>
 			<string>BLUETOOH_PLACARD</string>
+			<key>label</key>
+			<string>BLUETOOTH</string>
 		</dict>
 	</array>
 </dict>

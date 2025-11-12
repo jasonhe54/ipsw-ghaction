@@ -2,24 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AllowedServicesTypeMaskOnInternet</key>
-	<integer>32768</integer>
-	<key>CarrierEntitlements</key>
-	<dict>
-		<key>Authentication</key>
-		<dict>
-			<key>Type</key>
-			<integer>1</integer>
-			<key>Username</key>
-			<string>0$IMSI@nai.epc.mnc$MNC.mcc$MCC.3gppnetwork.org</string>
-		</dict>
-		<key>ServerAddress</key>
-		<string>https://es-gr.vodafone.com:4448/ium-OEMInterface/servlet/IUMServlet</string>
-		<key>SupportedEntitlements</key>
-		<integer>128</integer>
-		<key>UpdatePeriod</key>
-		<integer>24</integer>
-	</dict>
 	<key>DerPriFileName</key>
 	<string>overrides_V53_V54_V57.der.pri</string>
 	<key>DerPriFileVersion</key>

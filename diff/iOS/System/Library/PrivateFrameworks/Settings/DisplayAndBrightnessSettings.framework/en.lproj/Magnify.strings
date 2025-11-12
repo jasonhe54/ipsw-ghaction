@@ -5,6 +5,7 @@
 "DENSER" = "Most Space";
 "CONFIRMATION_USE_DENSE" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Use More Space', 'ipad': 'Use More Space?'}}";
 "CONFIRMATION_USE_ZOOMED" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Use Zoomed', 'iphone': 'Use Zoomed', 'ipad': 'Use Zoomed?'}}";
+"SCALED_RESOLUTION_WARNING" = "Using a scaled resolution may affect performance.";
 "DENSE" = "More Space";
 "NEXT" = "Next";
 "CONFIRMATION_PROMPT" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'Changing Display Zoom will restart Apple\xa0Vision\xa0Pro.', 'iphone': 'Changing Display Zoom will restart iPhone.', 'ipad': 'Changing Display Zoom will restart iPad.'}}";

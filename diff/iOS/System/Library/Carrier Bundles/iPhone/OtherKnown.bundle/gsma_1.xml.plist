@@ -2214,23 +2214,8 @@
 				<string>2</string>
 				<key>ServerAddress</key>
 				<string>https://ios.es.telcovillage.net</string>
-				<key>SupportPhysicalSIMtoESIMTransfer</key>
-				<true/>
-				<key>SupportSecureIntent</key>
-				<true/>
-				<key>SupportedActions</key>
-				<array>
-					<string>TransferSIMService</string>
-				</array>
 				<key>SupportedEntitlements</key>
-				<integer>8193</integer>
-				<key>SupportsOnDevicePhysicalSIMConvert</key>
-				<true/>
-			</dict>
-			<key>PushSettings</key>
-			<dict>
-				<key>CellularPlanTransferTopic</key>
-				<string>net.telcovillage.es.transfer</string>
+				<integer>1</integer>
 			</dict>
 			<key>apns</key>
 			<array>
@@ -2550,18 +2535,8 @@
 				<string>2</string>
 				<key>ServerAddress</key>
 				<string>https://ios.es-prod.ssicanada.com</string>
-				<key>SupportPhysicalSIMtoESIMTransfer</key>
-				<true/>
-				<key>SupportSecureIntent</key>
-				<true/>
-				<key>SupportedActions</key>
-				<array>
-					<string>TransferSIMService</string>
-				</array>
 				<key>SupportedEntitlements</key>
-				<integer>8193</integer>
-				<key>SupportsOnDevicePhysicalSIMConvert</key>
-				<true/>
+				<integer>1</integer>
 			</dict>
 			<key>MMS</key>
 			<dict>
@@ -2569,11 +2544,6 @@
 				<string>http://mms.ssimicro.com</string>
 				<key>Proxy</key>
 				<string>64.247.144.37:80</string>
-			</dict>
-			<key>PushSettings</key>
-			<dict>
-				<key>CellularPlanTransferTopic</key>
-				<string>com.ssicanada.es-prod.transfer</string>
 			</dict>
 			<key>apns</key>
 			<array>
@@ -2615,18 +2585,8 @@
 				<string>2</string>
 				<key>ServerAddress</key>
 				<string>https://ios.es-prod.ssicanada.com</string>
-				<key>SupportPhysicalSIMtoESIMTransfer</key>
-				<true/>
-				<key>SupportSecureIntent</key>
-				<true/>
-				<key>SupportedActions</key>
-				<array>
-					<string>TransferSIMService</string>
-				</array>
 				<key>SupportedEntitlements</key>
-				<integer>8193</integer>
-				<key>SupportsOnDevicePhysicalSIMConvert</key>
-				<true/>
+				<integer>1</integer>
 			</dict>
 			<key>MMS</key>
 			<dict>
@@ -2634,11 +2594,6 @@
 				<string>http://mms.eeyoumobility.com</string>
 				<key>Proxy</key>
 				<string>64.247.144.37:80</string>
-			</dict>
-			<key>PushSettings</key>
-			<dict>
-				<key>CellularPlanTransferTopic</key>
-				<string>com.ssicanada.es-prod.transfer</string>
 			</dict>
 			<key>apns</key>
 			<array>
@@ -3525,28 +3480,13 @@
 				<string>2</string>
 				<key>ServerAddress</key>
 				<string>https://ios.es.cape.net</string>
-				<key>SupportPhysicalSIMtoESIMTransfer</key>
-				<true/>
-				<key>SupportSecureIntent</key>
-				<true/>
-				<key>SupportedActions</key>
-				<array>
-					<string>TransferSIMService</string>
-				</array>
 				<key>SupportedEntitlements</key>
-				<integer>8193</integer>
-				<key>SupportsOnDevicePhysicalSIMConvert</key>
-				<true/>
+				<integer>1</integer>
 			</dict>
 			<key>MMS</key>
 			<dict>
 				<key>MMSC</key>
 				<string>http://mms.cape.net:10021</string>
-			</dict>
-			<key>PushSettings</key>
-			<dict>
-				<key>CellularPlanTransferTopic</key>
-				<string>net.cape.es.transfer</string>
 			</dict>
 			<key>apns</key>
 			<array>

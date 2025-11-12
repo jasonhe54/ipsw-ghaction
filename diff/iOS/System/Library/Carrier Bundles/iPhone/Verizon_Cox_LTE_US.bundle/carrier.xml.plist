@@ -59,7 +59,7 @@
 		<key>ServerAddress</key>
 		<string>https://spc.myvzw.com/ium-RoadrunnerInterface/servlet/IUMServlet</string>
 		<key>SupportedEntitlements</key>
-		<integer>409</integer>
+		<integer>1433</integer>
 		<key>UpdatePeriod</key>
 		<integer>72</integer>
 		<key>UserAgent</key>
@@ -311,6 +311,11 @@ nnyL6Uo=</string>
 	<string>Cox Mobile</string>
 	<key>OverrideOperatorWiFiName</key>
 	<string>Cox Mobile Wi-Fi</string>
+	<key>PhoneAccountTransfer</key>
+	<dict>
+		<key>LocalInstallSMDPURL</key>
+		<string>https://cxm.vzw.otgeuicc.com</string>
+	</dict>
 	<key>PhoneNumberIsVoiceMailNumber</key>
 	<true/>
 	<key>PhoneNumberRegistrationGatewayAddress</key>
@@ -349,6 +354,25 @@ nnyL6Uo=</string>
 		</dict>
 		<key>ShowRCSSwitch</key>
 		<true/>
+	</dict>
+	<key>RemoteCardProvisioningSettings</key>
+	<dict>
+		<key>MatchingICCIDPrefixes</key>
+		<array>
+			<string>891480</string>
+		</array>
+		<key>MinCompatibleWatchOS</key>
+		<string>26.1</string>
+		<key>ProvisioningMethod</key>
+		<string>CarrierFlow</string>
+		<key>ServerURL</key>
+		<string>https://cxm.vzw.otgeuicc.com</string>
+		<key>SupportedSKUs</key>
+		<array>
+			<string>SKU_NA</string>
+		</array>
+		<key>SupportsFauxCard</key>
+		<false/>
 	</dict>
 	<key>RemoteDiagnosticsWWANAllowed</key>
 	<true/>

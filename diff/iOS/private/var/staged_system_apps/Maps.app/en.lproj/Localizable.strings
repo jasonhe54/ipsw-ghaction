@@ -27,9 +27,10 @@
 "[LPR Onboarding] Add License Plate subtitle" = "Maps, working with its service partner, will find routes that avoid restricted areas based on your license plate.";
 "CarPlay_Tracking" = "Tracking";
 "[Hiking Intro] Body Text" = "Choose from thousands of curated national park hikes or create your own routes when you request walking directions.";
-"reservations_no_tables_action_key" = "Try another date or party size.";
+"[Route Handoff] Region Unsupported CarPlay Title" = "%@ Is On";
 "reservation_email_missing_key" = "A valid e-mail address is required to book a table.";
 "Continue [CarPlay, Offline Alert]" = "Continue";
+"reservations_no_tables_action_key" = "Try another date or party size.";
 "[Transit Filter Picker, Prioritization] Recommended Routes" = "Recommended Routes";
 "%@ %@ [Badge format]" = "%@ %@";
 "MAPS_TRANSIT_PAY_LOW_BALANCE_FULL" = "Low %@ Balance: %@";
@@ -2070,6 +2071,9 @@ ADDRESS [Report a Problem place snippet]" = "%{placeName}@
 "[Preferences Picker] Bus" = "Bus";
 "reservation_party_size_date_format_key" = "%1$@, Table for %2$ld";
 "[Virtual Garage][Button] Add Adapter Plug" = "Add Adapter Plug";
+"[Route Handoff] Region Unsupported CarPlay Subtitle" = "Navigating in Maps while using %@ is not supported in this country or region.
+
+To create a route, turn off %@.";
 "Destination handoff failure alert title [CarPlay]" = "Unable to send";
 "reservations_no_tables_key" = "No available tables found %@.";
 "STATUS_BAR_INDICATOR_CELLULAR_DATA_OFF" = "Cellular data is Off";

@@ -960,6 +960,15 @@
 		<key>officialName</key>
 		<string>iPhone 16 Pro Max</string>
 	</dict>
+	<key>iphone16e</key>
+	<dict>
+		<key>deviceClass</key>
+		<string>IPHONE</string>
+		<key>deviceClassSemantic</key>
+		<string>iphone</string>
+		<key>officialName</key>
+		<string>iPhone 16e</string>
+	</dict>
 	<key>iphone17</key>
 	<dict>
 		<key>deviceClass</key>

@@ -2,7 +2,10 @@
 "AGE_RANGE_UNCONFIGURED_ALERT_SECONDARY_BUTTON" = "OK";
 "CHILD_AGE_RANGE_SHARING_CHOICE_FEATURE_TITLE" = "Sharing Age Range Is Your Choice";
 "ADULT_AGE_RANGE_STAYS_PRIVATE_FEATURE_DESCRIPTION" = "Apps will only know that you’re at least 18 years old.";
-"REGIONAL_CUSTOM_AGE_SHARING_DESCRIPTION" = "%@ law requires everyone's age range to be shared with apps that ask. Age range will be automatically updated with apps once a year.";
+"REGIONAL_CUSTOM_AGE_SHARING_DESCRIPTION" = "%@ law requires everyone's age range to be shared with apps that ask. Age range will be automatically updated with apps once a year.
+
+
+To confirm that your age is correct or to update it, go to Account Settings";
 "TEEN_AGE_RANGE_STAYS_PRIVATE_FEATURE_DESCRIPTION" = "Apps can only ask for your age range, not age. Apps set the ranges, and Apple determines which is accurate.";
 "SHARE_AGE_OPTION_ASKFIRST_TITLE" = "Ask First";
 "AGE_FOR_CONFIRMATION_SCREEN" = "Age %d";
@@ -33,7 +36,10 @@ By default, you’ll always be asked if you want to share your age range. You ca
 "SHARE_AGE_OPTION_ALWAYS_SHARE_TITLE" = "Always";
 "CHILD_AGE_RANGE_FOR_APPS_TITLE" = "Age-Appropriate Experiences in Apps";
 "CHILD_AGE_RANGE_SYNC_FEATURE_TITLE" = "Syncs Across Devices";
-"REGIONAL_DEFAULT_AGE_SHARING_DESCRIPTION" = "Your region's law requires everyone's age range to be shared with apps that ask. Age range will be automatically updated with apps once a year.";
+"REGIONAL_DEFAULT_AGE_SHARING_DESCRIPTION" = "Your region's law requires everyone's age range to be shared with apps that ask. Age range will be automatically updated with apps once a year.
+
+
+To confirm that your age is correct or to update it, go to Account Settings";
 "SHARE_AGE_HOWTO_SHARE_DONE_BUTTON" = "Done";
 "SHARE_AGE_OPTION_ASKFIRST_SUBTITLE" = "Children will be able to choose if they want to share their age range when an app requests it.";
 "SELF_AGE_RANGE_FOR_APPS_TITLE" = "Age-Appropriate Experiences in Apps";

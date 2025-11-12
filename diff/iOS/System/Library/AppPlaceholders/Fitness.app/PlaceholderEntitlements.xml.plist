@@ -135,6 +135,8 @@
 	</array>
 	<key>com.apple.private.accounts.allaccounts</key>
 	<true/>
+	<key>com.apple.private.alloy.ids</key>
+	<true/>
 	<key>com.apple.private.applemediaservices</key>
 	<true/>
 	<key>com.apple.private.appstored</key>
@@ -173,6 +175,10 @@
 	</array>
 	<key>com.apple.private.hid.client.event-dispatch.internal</key>
 	<true/>
+	<key>com.apple.private.ids.messaging</key>
+	<array>
+		<string>com.apple.private.alloy.fitness.artwork</string>
+	</array>
 	<key>com.apple.private.imcore.imagent</key>
 	<true/>
 	<key>com.apple.private.in-app-payments</key>
@@ -325,6 +331,7 @@
 		<string>com.apple.aeroml.intentrecommend.mediasuggester</string>
 		<string>com.apple.siri.external_request</string>
 		<string>com.apple.sirittsd</string>
+		<string>com.apple.identityservicesd.embedded.auth</string>
 	</array>
 	<key>com.apple.security.exception.shared-preference.read-only</key>
 	<array>

@@ -28,6 +28,8 @@
 	<true/>
 	<key>com.apple.coreduetd.people</key>
 	<true/>
+	<key>com.apple.developer.associated-domains</key>
+	<array/>
 	<key>com.apple.developer.usernotifications.time-sensitive</key>
 	<true/>
 	<key>com.apple.frontboard.launchapplications</key>
@@ -131,6 +133,8 @@
 	<key>com.apple.private.suggestions.contacts</key>
 	<true/>
 	<key>com.apple.private.suggestions.events</key>
+	<true/>
+	<key>com.apple.private.swc.system-app</key>
 	<true/>
 	<key>com.apple.private.tcc.allow</key>
 	<array>

@@ -36,9 +36,9 @@
 "DISCLAIMER_LABEL" = "Disclaimer Label";
 "ROUTE_SHARING_POPUP_MESSAGE_%@_%@" = "This will allow your car to automatically access future routes from navigation apps you use while connected to CarPlay.
 
-Route information includes your origin, destination, and route line. %1$@ may be able to access this information once it is shared with your car.
+%1$@ may also be able to access routes, including origins and destinations, shared with your car.
 
-From %1$@: %2$@.";
+From %1$@: %2$@";
 "PAIRING_CARPLAY_ALERT_MESSAGE_IPHONE_BT_ON" = "CarPlay automatically connects your iPhone to your car’s built-in display, and can access your phone while it is locked. Enabling wireless CarPlay will turn on Bluetooth.";
 "REMEMBER_CARPLAY_ALERT_CANCEL" = "Not Now";
 "DND_AUTO_REPLY_DEFAULT_MESSAGE" = "I’m driving with Focus turned on. I’ll see your message when I get where I’m going.";
@@ -46,15 +46,15 @@ From %1$@: %2$@.";
 "REMEMBER_CARPLAY_ALERT_ACCEPT" = "Allow";
 "REMEMBER_CARPLAY_ALERT_TITLE_%@" = "Allow CarPlay with “%@” while phone is locked?";
 "INTERNAL_LOD_WIDGETS" = "Lod Widgets";
-"ROUTE_SHARING_POPUP_ACCEPT" = "Accept";
-"ROUTE_SHARING_POPUP_DECLINE" = "Decline";
+"ROUTE_SHARING_POPUP_ACCEPT" = "Allow";
+"ROUTE_SHARING_POPUP_DECLINE" = "Don’t Allow";
 "PAIRING_CARPLAY_ALERT_DECLINE" = "Use USB Only";
 "INTERNAL_LIVE_ACTIVITIES" = "Live Activities";
 "USE_CARPLAY_ALERT_TITLE_%@" = "Use CarPlay with
 “%@”?";
 "PAIRING_CARPLAY_ALERT_DONTUSE" = "Don’t Use CarPlay";
 "USE_CARPLAY_ALERT_TITLE_GENERIC" = "Use CarPlay?";
-"ROUTE_SHARING_POPUP_TITLE_%@" = "Allow %@ to access your route information?";
+"ROUTE_SHARING_POPUP_TITLE_%@" = "Allow “%@” to access your routes?";
 "PAIRING_CARPLAY_ALERT_NOTNOW" = "Not Now";
 "SERIAL_LABEL" = "Serial Number Label";
 "RECONNECT_OFF_ALERT_TITLE_WIFI" = "Turn On Wi-Fi to Use Wireless CarPlay";

@@ -25,10 +25,12 @@
 		<key>SupportsOnDevicePhysicalSIMConvert</key>
 		<true/>
 	</dict>
+	<key>DataIndicatorOverrideForNRMmwave</key>
+	<string>NRPlus</string>
 	<key>DerPriFileName</key>
 	<string>overrides_V53_V54_V57.der.pri</string>
 	<key>DerPriFileVersion</key>
-	<string>5.0.161</string>
+	<string>5.2.161</string>
 	<key>Enable5GAutoByDefault</key>
 	<true/>
 	<key>IMSConfig</key>
@@ -179,7 +181,7 @@
 	<key>ShowHighDataModeSwitch</key>
 	<true/>
 	<key>ShowVolteSwitch</key>
-	<true/>
+	<false/>
 	<key>ShowVolteWarningUnsupportedCarrier</key>
 	<false/>
 	<key>ShowWiFiCallingWarningUnsupportedCarrier</key>
@@ -202,7 +204,7 @@
 				<array>
 					<dict>
 						<key>DHGroup</key>
-						<integer>1</integer>
+						<integer>14</integer>
 						<key>EncryptionAlgorithm</key>
 						<array>
 							<string>AES-256</string>
@@ -265,7 +267,7 @@
 					<key>AuthenticationMethod</key>
 					<string>None</string>
 					<key>DHGroup</key>
-					<integer>1</integer>
+					<integer>14</integer>
 					<key>EAPMethod</key>
 					<string>EAP-AKA</string>
 					<key>EncryptionAlgorithm</key>

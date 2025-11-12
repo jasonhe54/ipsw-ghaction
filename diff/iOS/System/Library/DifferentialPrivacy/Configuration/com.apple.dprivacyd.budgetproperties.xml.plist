@@ -1363,6 +1363,41 @@
 		<key>SessionSeconds</key>
 		<real>86400</real>
 	</dict>
+	<key>PFL.Budget.SummarizationNews.FedAutoEvalPlugin:Metadata</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>1</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
+	<key>PFL.Budget.SummarizationNews.FedAutoEvalPlugin:Metrics</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>1</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
+	<key>PFL.Budget.SummarizationNews.FedAutoEvalPlugin:Results</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>1</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>1</integer>
+		<key>SessionChunks</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
 	<key>PFL.Budget.Tips.TipsPFLPlugin:Metadata</key>
 	<dict>
 		<key>RefillAmount</key>
@@ -2582,6 +2617,19 @@
 		<real>86400</real>
 	</dict>
 	<key>fedstats.com.apple.insights.summarization.email-tags</key>
+	<dict>
+		<key>RefillAmount</key>
+		<integer>20</integer>
+		<key>RefillInterval</key>
+		<real>3600</real>
+		<key>SessionAmount</key>
+		<integer>3</integer>
+		<key>SessionChunks</key>
+		<integer>1</integer>
+		<key>SessionSeconds</key>
+		<real>86400</real>
+	</dict>
+	<key>fedstats.com.apple.insights.summarization.news-tags</key>
 	<dict>
 		<key>RefillAmount</key>
 		<integer>20</integer>

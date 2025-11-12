@@ -8,6 +8,7 @@
 "OFF" = "Off";
 "PAIR" = "Pair";
 "OTHER_DEVICES" = "Other Devices";
+"PLACARD_SUBTITLE" = "{'NSStringDeviceSpecificRuleType': {'iphone': 'Connect to accessories you can use for activities such as streaming music, making phone calls, and gaming. [Learn\xa0more…](helpkit://open?topic=iph3c50f191)', 'ipad': 'Connect to accessories you can use for activities such as streaming music, making phone calls, and gaming. [Learn\xa0more…](helpkit://open?topic=ipad997da4cf)'}}";
 "POWER_OFF_WARNING_WITH_PAU" = "{'NSStringDeviceSpecificRuleType': {'ipad': 'AirDrop, AirPlay, Find My, Location Services, and unlocking with Apple Watch use Bluetooth.', 'applevision': 'AirDrop, AirPlay, and Location Services use Bluetooth.', 'iphone': 'AirDrop, AirPlay, Find My, Location Services, and unlocking with Apple Watch use Bluetooth.', 'other': 'AirDrop, AirPlay, and Location Services use Bluetooth.'}}";
 "FORGET_DEVICE" = "Forget Device";
 "FIRMWARE_WARNING_SINGULAR" = "%@ needs a firmware update to resolve connectivity and performance issues.";

@@ -12,7 +12,7 @@
 "TEXT_MESSAGE_FILTER_LABEL" = "Text Message Filter";
 "CHECK_IN_LOCATION_HISTORY_FOOTER" = "If you do not respond when prompted during a Check In, data will be shared.";
 "START_WITH_PHOTOS_VISIBLE" = "Start with Photos Visible";
-"SEND_AS_SMS" = "Send as Text Message";
+"SEND_AS_SMS" = "Retry as Text Message";
 "AUTOMATIC_SHARING" = "Automatic Sharing";
 "CELLULAR_DATA_SETTINGS" = "Cellular Data Settings";
 "MMS_MESSAGING" = "MMS Messaging";
@@ -34,7 +34,7 @@
 "SATELLITE_MESSAGING_TITLE" = "Messages via Satellite";
 "PERSONALIZED_ALERTS_TOGGLE" = "Business Updates";
 "CHECK_IN_LOCATION_HISTORY_SAMPLE_DATA_NO_HISTORY_FOOTER" = "Includes most recent location and details about battery and network signal for iPhone and Apple Watch.";
-"PRE_LAZULI_SEND_AS_SMS_DESCRIPTION" = "Send as Text Message when iMessage is unavailable. Carrier messaging rates may apply.";
+"PRE_LAZULI_SEND_AS_SMS_DESCRIPTION" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'If iMessage is unavailable, Apple\xa0Vision\xa0Pro can automatically send text messages using SMS. Text messages sent using SMS are not encrypted. Carrier messaging rates may apply.', 'iphone': 'If iMessage is unavailable, iPhone can automatically send text messages using SMS. Text messages sent using SMS are not encrypted. Carrier messaging rates may apply.', 'ipad': 'If iMessage is unavailable, iPad can automatically send text messages using SMS. Text messages sent using SMS are not encrypted. Carrier messaging rates may apply.'}}";
 "MMS_MESSAGING_HEADER" = "Allow MMS Messaging For";
 "RCS_DUAL_SIM_ACTIVATION_ERROR_CELLULAR_DATA_SETTINGS" = "Cellular Data Settings";
 "PREVIEW_TRANSCODING_DESCRIPTION" = "Send a lower quality preview before the full quality photo. Only the preview will be sent in Low Data Mode.";
@@ -69,7 +69,7 @@
 "CHECK_IN_LOCATION_HISTORY_ENABLED" = "Full";
 "CHECK_IN_LOCATION_HISTORY_SELECTION_FULL_HISTORY" = "Full";
 "JUNK_CONVERSATIONS" = "Spam";
-"SEND_AS_SMS_DESCRIPTION" = "Send as Text Message when iMessage is unavailable. Text messages will always send as SMS when RCS is unavailable. Carrier messaging rates may apply.";
+"SEND_AS_SMS_DESCRIPTION" = "{'NSStringDeviceSpecificRuleType': {'applevision': 'If iMessage or RCS are unavailable, Apple\xa0Vision\xa0Pro can automatically send text messages using SMS. Text messages sent using SMS are not encrypted. Carrier messaging rates may apply.', 'iphone': 'If iMessage or RCS are unavailable, iPhone can automatically send text messages using SMS. Text messages sent using SMS are not encrypted. Carrier messaging rates may apply.', 'ipad': 'If iMessage or RCS are unavailable, iPad can automatically send text messages using SMS. Text messages sent using SMS are not encrypted. Carrier messaging rates may apply.'}}";
 "RCS_MESSAGING" = "RCS Messaging";
 "NAME_AND_PHOTO_SHARING_MULTIPLE_PHONE_NUMBERS_MESSAGE_APPLEACCOUNT" = "Sharing Name and Photo is not available because multiple phone numbers are associated to your Apple Account.";
 "UK_ONLINE_SAFETY_URL" = "https://www.apple.com/uk/legal/online-safety/";
@@ -153,9 +153,9 @@ Videos sent as attachments will not expire.";
 "MMS_EMAIL_PLACEHOLDER" = "example@me.com";
 "AFTER_1_YEAR" = "After 1 Year";
 "CHECK_IN_LOCATION_HISTORY_SELECTION_GROUP_FOOTER" = "Check In data sharing only occurs if you do not respond when prompted.";
-"PERSONAL_DESCRIPTION" = "Identified as not sent by businesses or organizations.";
-"PROMOTIONS_LABEL" = "Promotions";
 "NAME_AND_PHOTO_SHARING_ME_CARD_SETUP_PROMPT_OK" = "OK";
+"PROMOTIONS_LABEL" = "Promotions";
+"PERSONAL_DESCRIPTION" = "Identified as not sent by businesses or organizations.";
 "SPAM_EXTENSION_FIRST_PARTY_ENABLED" = "On";
 "TRANSACTIONS_LABEL" = "Transactions";
 "RCS_FOOTER_UNCERTIFIED_CARRIER_FORMAT" = "%@ %@ %@";

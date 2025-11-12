@@ -124,8 +124,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>AppleIntelligenceTransparencyReport</string>
 		<key>Transport</key>
@@ -156,8 +154,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>AppleIntelligenceTransparencyReport</string>
 		<key>Transport</key>
@@ -184,8 +180,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -404,8 +398,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -536,8 +528,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -562,8 +552,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -672,8 +660,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -698,8 +684,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -750,8 +734,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -778,8 +760,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -804,8 +784,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -836,8 +814,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -864,8 +840,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -892,8 +866,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -920,8 +892,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -978,8 +948,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1006,8 +974,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1034,8 +1000,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1062,8 +1026,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1094,8 +1056,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1150,8 +1110,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1178,8 +1136,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1206,8 +1162,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1264,8 +1218,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1292,8 +1244,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1326,8 +1276,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1360,8 +1308,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1390,8 +1336,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1420,8 +1364,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1448,8 +1390,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1476,8 +1416,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1504,8 +1442,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1532,8 +1468,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1560,8 +1494,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1588,8 +1520,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1674,8 +1604,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>InternalCollection</string>
 		<key>Transport</key>
@@ -1704,8 +1632,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>InternalCollection</string>
 		<key>Transport</key>
@@ -1732,8 +1658,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1760,8 +1684,6 @@
 		<string>Prio</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1792,8 +1714,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1824,8 +1744,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1848,8 +1766,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -1874,8 +1790,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2080,6 +1994,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2106,6 +2022,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2132,6 +2050,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2158,6 +2078,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2184,6 +2106,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2210,6 +2134,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2236,6 +2162,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2262,6 +2190,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2288,6 +2218,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2314,6 +2246,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2340,6 +2274,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2366,6 +2302,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2392,6 +2330,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2418,6 +2358,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2444,6 +2386,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2470,6 +2414,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2496,6 +2442,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2522,6 +2470,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2548,6 +2498,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2574,6 +2526,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2600,6 +2554,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2626,6 +2582,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2652,6 +2610,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2671,6 +2631,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2690,6 +2652,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2709,6 +2673,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2735,6 +2701,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2761,6 +2729,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2787,6 +2757,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2813,6 +2785,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2839,6 +2813,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2865,6 +2841,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2891,6 +2869,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2917,6 +2897,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2943,6 +2925,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2969,6 +2953,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -2995,6 +2981,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3021,6 +3009,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3047,6 +3037,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3073,6 +3065,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3099,6 +3093,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3118,6 +3114,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3137,6 +3135,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3158,6 +3158,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>PrivateEvolution</string>
 		<key>Transport</key>
@@ -3186,6 +3188,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3212,6 +3216,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3240,6 +3246,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>PrivateEvolution</string>
 		<key>Transport</key>
@@ -3268,6 +3276,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3294,6 +3304,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3320,6 +3332,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3346,6 +3360,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3372,6 +3388,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3398,6 +3416,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3424,6 +3444,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3450,6 +3472,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3476,6 +3500,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3502,6 +3528,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3528,6 +3556,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3554,6 +3584,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3580,6 +3612,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3606,6 +3640,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3632,6 +3668,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3658,6 +3696,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3684,6 +3724,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3710,6 +3752,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3736,6 +3780,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3762,6 +3808,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3788,6 +3836,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3814,6 +3864,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3840,6 +3892,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3866,6 +3920,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3892,6 +3948,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3918,6 +3976,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3944,6 +4004,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3970,6 +4032,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -3996,6 +4060,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4022,6 +4088,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4048,6 +4116,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4074,6 +4144,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4100,6 +4172,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4126,6 +4200,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4152,6 +4228,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4178,6 +4256,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4204,6 +4284,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4230,6 +4312,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4256,6 +4340,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4282,6 +4368,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4308,6 +4396,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4334,6 +4424,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4360,6 +4452,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4386,6 +4480,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4412,6 +4508,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4438,6 +4536,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4464,6 +4564,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4490,6 +4592,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4516,6 +4620,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4542,6 +4648,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4568,6 +4676,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4594,6 +4704,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4620,6 +4732,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4646,6 +4760,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4672,6 +4788,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4698,6 +4816,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4724,6 +4844,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4750,6 +4872,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4776,6 +4900,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4802,6 +4928,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4828,6 +4956,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4854,6 +4984,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4880,6 +5012,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4906,6 +5040,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4932,6 +5068,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4958,6 +5096,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -4984,6 +5124,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5010,6 +5152,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5036,6 +5180,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5062,6 +5208,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5088,6 +5236,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5112,6 +5262,65 @@
 		<string>PrioPlusPlus</string>
 		<key>ServerAlgorithmString</key>
 		<string>PrioPlusPlus</string>
+		<key>SubmissionPriority</key>
+		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
+		<key>Transport</key>
+		<string>Dedisco</string>
+	</dict>
+	<key>PFL.SummarizationNews.FedAutoEvalPlugin:Metadata</key>
+	<dict>
+		<key>BudgetKeyName</key>
+		<string>PFL.Budget.SummarizationNews.FedAutoEvalPlugin:Metadata</string>
+		<key>DataAlgorithm</key>
+		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
+		<key>PrivacyParameter</key>
+		<integer>2</integer>
+		<key>PrivatizationAlgorithm</key>
+		<string>PINEMetadata</string>
+		<key>ServerAlgorithmString</key>
+		<string>PINEMetadata</string>
+		<key>SubmissionPriority</key>
+		<integer>1</integer>
+		<key>Transport</key>
+		<string>Dedisco</string>
+	</dict>
+	<key>PFL.SummarizationNews.FedAutoEvalPlugin:Metrics</key>
+	<dict>
+		<key>BudgetKeyName</key>
+		<string>PFL.Budget.SummarizationNews.FedAutoEvalPlugin:Metrics</string>
+		<key>DataAlgorithm</key>
+		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
+		<key>PrivacyParameter</key>
+		<integer>2</integer>
+		<key>PrivatizationAlgorithm</key>
+		<string>PINEMetrics</string>
+		<key>ServerAlgorithmString</key>
+		<string>PINEMetrics</string>
+		<key>SubmissionPriority</key>
+		<integer>1</integer>
+		<key>Transport</key>
+		<string>Dedisco</string>
+	</dict>
+	<key>PFL.SummarizationNews.FedAutoEvalPlugin:Results</key>
+	<dict>
+		<key>BudgetKeyName</key>
+		<string>PFL.Budget.SummarizationNews.FedAutoEvalPlugin:Results</string>
+		<key>DataAlgorithm</key>
+		<string>BitValueFrequency</string>
+		<key>DirectUpload</key>
+		<true/>
+		<key>PrivacyParameter</key>
+		<integer>2</integer>
+		<key>PrivatizationAlgorithm</key>
+		<string>PINEResults</string>
+		<key>ServerAlgorithmString</key>
+		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
 		<key>Transport</key>
@@ -5140,6 +5349,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5166,6 +5377,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5192,6 +5405,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5218,6 +5433,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5244,6 +5461,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5270,6 +5489,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5296,6 +5517,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5315,6 +5538,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5334,6 +5559,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5355,6 +5582,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>PrivateEvolution</string>
 		<key>Transport</key>
@@ -5383,6 +5612,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5409,6 +5640,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5437,6 +5670,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>TransparencyLogReportName</key>
 		<string>PrivateEvolution</string>
 		<key>Transport</key>
@@ -5458,6 +5693,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5477,6 +5714,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5496,6 +5735,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5522,6 +5763,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5548,6 +5791,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5574,6 +5819,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5600,6 +5847,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5626,6 +5875,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5652,6 +5903,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5671,6 +5924,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5690,6 +5945,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5709,6 +5966,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5735,6 +5994,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5761,6 +6022,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5787,6 +6050,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5806,6 +6071,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5825,6 +6092,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5844,6 +6113,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5870,6 +6141,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5896,6 +6169,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5922,6 +6197,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5941,6 +6218,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5960,6 +6239,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -5979,6 +6260,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6005,6 +6288,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6031,6 +6316,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6057,6 +6344,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6076,6 +6365,8 @@
 		<string>PINEMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6095,6 +6386,8 @@
 		<string>PINEMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6114,6 +6407,8 @@
 		<string>PINEResults</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6140,6 +6435,8 @@
 		<string>PrioPlusPlusMetadata</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6166,6 +6463,8 @@
 		<string>PrioPlusPlusMetrics</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6192,6 +6491,8 @@
 		<string>PrioPlusPlus</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6533,8 +6834,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6563,8 +6862,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6643,8 +6940,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6675,8 +6970,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6691,6 +6984,32 @@
 		</dict>
 		<key>BudgetKeyName</key>
 		<string>fedstats.com.apple.insights.summarization.email-tags</string>
+		<key>DataAlgorithm</key>
+		<string>BitValueFrequency</string>
+		<key>PrivacyParameter</key>
+		<real>8</real>
+		<key>PrivatizationAlgorithm</key>
+		<string>PrioPiRappor</string>
+		<key>ServerAlgorithmString</key>
+		<string>PrioPiRappor</string>
+		<key>SubmissionPriority</key>
+		<integer>1</integer>
+		<key>TelemetryAllowed</key>
+		<true/>
+		<key>Transport</key>
+		<string>Dedisco</string>
+	</dict>
+	<key>SummarizationNewsTags</key>
+	<dict>
+		<key>AlgorithmParameters</key>
+		<dict>
+			<key>dynamicVectorSize</key>
+			<true/>
+			<key>p</key>
+			<integer>10000000</integer>
+		</dict>
+		<key>BudgetKeyName</key>
+		<string>fedstats.com.apple.insights.summarization.news-tags</string>
 		<key>DataAlgorithm</key>
 		<string>BitValueFrequency</string>
 		<key>PrivacyParameter</key>
@@ -6733,8 +7052,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6765,8 +7082,6 @@
 		<string>PrioPiRappor</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>
@@ -6868,8 +7183,6 @@
 		<string>Prio3SumVectorField64MultiproofHmacSha256Aes128</string>
 		<key>SubmissionPriority</key>
 		<integer>1</integer>
-		<key>TelemetryAllowed</key>
-		<true/>
 		<key>Transport</key>
 		<string>Dedisco</string>
 	</dict>

@@ -4505,6 +4505,160 @@
 				<string>Memoji uses the microphone to record your voice to send Memoji messages</string>
 			</dict>
 		</dict>
+		<key>/Applications/KaleidoscopePosterApp.app/Extensions/KaleidoscopePoster.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/Applications/KaleidoscopePosterApp.app/Extensions/KaleidoscopePoster.appex/KaleidoscopePoster</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>KaleidoscopePoster</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.Posters.KaleidoscopePosterApp.KaleidoscopePoster</string>
+				<key>CFBundleName</key>
+				<string>KaleidoscopePoster</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.posterkit.provider</string>
+				</dict>
+				<key>PRHasDynamicDescriptors</key>
+				<false/>
+				<key>PRPosterBundleIdentifierMigration</key>
+				<dict>
+					<key>OldBundleIdentifiers</key>
+					<array>
+						<string>com.apple.WatchFacesWallpaperSupport.KaleidoscopePoster</string>
+					</array>
+				</dict>
+				<key>PRStaticDescriptors</key>
+				<dict>
+					<key>variant-1</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>variant-2</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>1</integer>
+						</dict>
+					</dict>
+					<key>variant-3</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>2</integer>
+						</dict>
+					</dict>
+					<key>variant-4</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>3</integer>
+						</dict>
+					</dict>
+					<key>variant-5</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>4</integer>
+						</dict>
+					</dict>
+					<key>variant-6</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>5</integer>
+						</dict>
+					</dict>
+					<key>variant-7</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>10</integer>
+						</dict>
+					</dict>
+					<key>variant-8</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>13</integer>
+						</dict>
+					</dict>
+					<key>variant-9</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>variant</key>
+							<integer>8</integer>
+						</dict>
+					</dict>
+				</dict>
+				<key>UIApplicationSupportsBacklightEnvironment</key>
+				<true/>
+			</dict>
+		</dict>
 		<key>/Applications/MobilePhone.app/Extensions/PhoneFocus.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -4917,6 +5071,31 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>/Applications/PridePosterApp.app/Extensions/PridePosterExtension.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/Applications/PridePosterApp.app/Extensions/PridePosterExtension.appex/PridePosterExtension</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>PridePosterExtension</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.PridePoster.PridePosterExtension</string>
+				<key>CFBundleName</key>
+				<string>PridePosterExtension</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.posterkit.provider</string>
+				</dict>
+				<key>PRHasDynamicDescriptors</key>
+				<true/>
+			</dict>
+		</dict>
 		<key>/Applications/Print Center.app/PlugIns/PrintCenterWidgetExtension.iOS.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -5015,7 +5194,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.2.3</string>
+				<string>605.2.5</string>
 				<key>CHSNominatedContainerBundleIdentifiers</key>
 				<array>
 					<string>com.apple.Preferences</string>
@@ -5042,7 +5221,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.2.3</string>
+				<string>605.2.5</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -5593,6 +5772,216 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>/Applications/UnityPosterApp.app/Extensions/ExtragalacticPoster.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/Applications/UnityPosterApp.app/Extensions/ExtragalacticPoster.appex/ExtragalacticPoster</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>ExtragalacticPoster</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.Posters.UnityPosterApp.ExtragalacticPoster</string>
+				<key>CFBundleName</key>
+				<string>ExtragalacticPoster</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.posterkit.provider</string>
+				</dict>
+				<key>PRHasDynamicDescriptors</key>
+				<true/>
+				<key>PRPosterBundleIdentifierMigration</key>
+				<dict>
+					<key>OldBundleIdentifiers</key>
+					<array>
+						<string>com.apple.WatchFacesWallpaperSupport.ExtragalacticPoster</string>
+					</array>
+				</dict>
+				<key>UIAppFonts</key>
+				<array>
+					<string>ADTTime.ttc</string>
+				</array>
+				<key>UIApplicationSupportsBacklightEnvironment</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>/Applications/UnityPosterApp.app/Extensions/RhizomePoster.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/Applications/UnityPosterApp.app/Extensions/RhizomePoster.appex/RhizomePoster</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>RhizomePoster</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.Posters.UnityPosterApp.RhizomePoster</string>
+				<key>CFBundleName</key>
+				<string>RhizomePoster</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.posterkit.provider</string>
+				</dict>
+				<key>LSApplicationCategoryType</key>
+				<array/>
+				<key>PRHasDynamicDescriptors</key>
+				<false/>
+				<key>PRPosterBundleIdentifierMigration</key>
+				<dict>
+					<key>OldBundleIdentifiers</key>
+					<array>
+						<string>com.apple.WatchFacesWallpaperSupport.RhizomePoster</string>
+					</array>
+				</dict>
+				<key>PRStaticDescriptors</key>
+				<dict>
+					<key>variant-1</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>PosterVariant</key>
+							<string>Unity</string>
+						</dict>
+					</dict>
+					<key>variant-2</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>PosterVariant</key>
+							<string>Red</string>
+						</dict>
+					</dict>
+					<key>variant-3</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>PosterVariant</key>
+							<string>Green</string>
+						</dict>
+					</dict>
+					<key>variant-4</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>PosterVariant</key>
+							<string>Multicolor</string>
+						</dict>
+					</dict>
+					<key>variant-5</key>
+					<dict>
+						<key>PRStaticDescriptorGalleryOptions</key>
+						<dict>
+							<key>allowsSystemSuggestedComplications</key>
+							<false/>
+						</dict>
+						<key>PRStaticDescriptorUserInfo</key>
+						<dict>
+							<key>PosterVariant</key>
+							<string>Black</string>
+						</dict>
+					</dict>
+				</dict>
+				<key>UIApplicationSupportsBacklightEnvironment</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>/Applications/UnityPosterApp.app/Extensions/Unity2025Poster.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/Applications/UnityPosterApp.app/Extensions/Unity2025Poster.appex/Unity2025Poster</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>Unity2025Poster</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.Posters.UnityPosterApp.Unity2025Poster</string>
+				<key>CFBundleName</key>
+				<string>Unity2025Poster</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.posterkit.provider</string>
+				</dict>
+				<key>PRHasDynamicDescriptors</key>
+				<true/>
+				<key>PRPosterBundleIdentifierMigration</key>
+				<dict>
+					<key>OldBundleIdentifiers</key>
+					<array>
+						<string>com.apple.WatchFacesWallpaperSupport.Unity2025Poster</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>/Applications/UnityPosterApp.app/Extensions/UnityPoster.appex</key>
+		<dict>
+			<key>_executablePath</key>
+			<string>/Applications/UnityPosterApp.app/Extensions/UnityPoster.appex/UnityPoster</string>
+			<key>_infoPlist</key>
+			<dict>
+				<key>CFBundleExecutable</key>
+				<string>UnityPoster</string>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.Posters.UnityPosterApp.UnityPosterExtension</string>
+				<key>CFBundleName</key>
+				<string>UnityPoster</string>
+				<key>CFBundlePackageType</key>
+				<string>XPC!</string>
+				<key>CFBundleVersion</key>
+				<string>1</string>
+				<key>EXAppExtensionAttributes</key>
+				<dict>
+					<key>EXExtensionPointIdentifier</key>
+					<string>com.apple.posterkit.provider</string>
+				</dict>
+				<key>PRPosterBundleIdentifierMigration</key>
+				<dict>
+					<key>OldBundleIdentifiers</key>
+					<array>
+						<string>com.apple.UnityPoster.UnityPosterExtension</string>
+					</array>
+				</dict>
+				<key>PRSupportedRoles</key>
+				<array>
+					<string>PRPosterRoleLockScreen</string>
+				</array>
+				<key>UIApplicationSystemWindowsSecureKey</key>
+				<true/>
+			</dict>
+		</dict>
 		<key>/System/Library/CoreServices/AccessibilityUIServer.app/Extensions/AccessibilityAppIntents.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -6057,7 +6446,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1230.2.3</string>
+				<string>1230.2.4</string>
 				<key>CHSDisableImplicitWidgetDiscovery</key>
 				<true/>
 				<key>NSExtension</key>
@@ -6107,7 +6496,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6386,7 +6775,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6586,7 +6975,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6619,7 +7008,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4097.60.4.0.1</string>
+				<string>4097.60.5</string>
 				<key>MSHideInAppDrawer</key>
 				<true/>
 				<key>MSMessagesExtensionStoreIconName</key>
@@ -6814,7 +7203,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2135</string>
+				<string>2135.2.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -6893,7 +7282,7 @@
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7678,7 +8067,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>442.32.10.4.2</string>
+				<string>442.32.10.4.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -7772,7 +8161,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7824,7 +8213,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>148.2.1</string>
+				<string>148.2.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7845,7 +8234,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>GPUExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8623.1.12.10.4</string>
+				<string>8623.1.13.10.3</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>EXAppExtensionAttributes</key>
@@ -7876,7 +8265,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>148.2.1</string>
+				<string>148.2.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -7963,7 +8352,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1230.2.3</string>
+				<string>1230.2.4</string>
 				<key>CHSDisableImplicitWidgetDiscovery</key>
 				<true/>
 				<key>NSExtension</key>
@@ -8034,7 +8423,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>209.26.1</string>
+				<string>209.28</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8369,7 +8758,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8661,7 +9050,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1056.2.2</string>
+				<string>1056.2.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -8870,7 +9259,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3864.300.11.2.1</string>
+				<string>3864.300.22.2.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9141,7 +9530,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3864.300.11.2.1</string>
+				<string>3864.300.22.2.1</string>
 				<key>DELocalizedConsentFilename</key>
 				<string>MailConsent.txt</string>
 				<key>DELocalizedDataCollectedExplanationFileName</key>
@@ -9346,7 +9735,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>NetworkingExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8623.1.12.10.4</string>
+				<string>8623.1.13.10.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -9484,7 +9873,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10017,7 +10406,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -10050,7 +10439,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosAppIntentsExtension</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10075,7 +10464,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -10098,7 +10487,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosEngagementExtension</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -10123,7 +10512,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionFileProviderDocumentGroup</key>
@@ -10187,7 +10576,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosPFLPlugin</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10214,7 +10603,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -10249,7 +10638,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10374,7 +10763,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>PhotosTCCNotificationExtension</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -10445,42 +10834,12 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4025.310.9.1</string>
+				<string>4025.300.12</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
 					<string>com.apple.appintents-extension</string>
 				</dict>
-			</dict>
-		</dict>
-		<key>/System/Library/ExtensionKit/Extensions/PridePosterExtension.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/ExtensionKit/Extensions/PridePosterExtension.appex/PridePosterExtension</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>PridePosterExtension</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.PridePoster.PridePosterExtension</string>
-				<key>CFBundleName</key>
-				<string>PridePosterExtension</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>NSExtension</key>
-				<dict>
-					<key>EXAppExtensionAttributes</key>
-					<dict>
-						<key>EXExtensionPointIdentifier</key>
-						<string>com.apple.posterkit.provider</string>
-					</dict>
-					<key>NSExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRHasDynamicDescriptors</key>
-				<true/>
 			</dict>
 		</dict>
 		<key>/System/Library/ExtensionKit/Extensions/PrivacyAppIntents.appex</key>
@@ -10764,7 +11123,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.2.3</string>
+				<string>605.2.5</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -10911,7 +11270,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1353.2.3.100</string>
+				<string>1353.2.4</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11423,7 +11782,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11580,60 +11939,6 @@ SUBQUERY(extensionItems, $extensionItem,
 				</dict>
 			</dict>
 		</dict>
-		<key>/System/Library/ExtensionKit/Extensions/Unity2025Poster.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/ExtensionKit/Extensions/Unity2025Poster.appex/Unity2025Poster</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>Unity2025Poster</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.WatchFacesWallpaperSupport.Unity2025Poster</string>
-				<key>CFBundleName</key>
-				<string>Unity2025Poster</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>EXAppExtensionAttributes</key>
-				<dict>
-					<key>EXExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRHasDynamicDescriptors</key>
-				<true/>
-			</dict>
-		</dict>
-		<key>/System/Library/ExtensionKit/Extensions/UnityPosterExtension.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/ExtensionKit/Extensions/UnityPosterExtension.appex/UnityPosterExtension</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>UnityPosterExtension</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.UnityPoster.UnityPosterExtension</string>
-				<key>CFBundleName</key>
-				<string>UnityPosterExtension</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>EXAppExtensionAttributes</key>
-				<dict>
-					<key>EXExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRSupportedRoles</key>
-				<array>
-					<string>PRPosterRoleLockScreen</string>
-				</array>
-				<key>UIApplicationSystemWindowsSecureKey</key>
-				<true/>
-			</dict>
-		</dict>
 		<key>/System/Library/ExtensionKit/Extensions/VPNAppIntentWidgetExtension.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -11697,7 +12002,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>92.13.2</string>
+				<string>92.13.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11764,7 +12069,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>WebContentCaptivePortalExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8623.1.12.10.4</string>
+				<string>8623.1.13.10.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11785,7 +12090,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>WebContentEnhancedSecurityExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8623.1.12.10.4</string>
+				<string>8623.1.13.10.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11808,7 +12113,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundleName</key>
 				<string>WebContentExtension</string>
 				<key>CFBundleVersion</key>
-				<string>8623.1.12.10.4</string>
+				<string>8623.1.13.10.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -11831,7 +12136,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -12983,7 +13288,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>208.1.4</string>
+				<string>208.3.1</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -13055,7 +13360,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3860.300.21</string>
+				<string>3860.300.31</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -13531,7 +13836,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2400.16</string>
+				<string>2400.17.1</string>
 				<key>CSExtensionLabel</key>
 				<string>TestImporter</string>
 				<key>NSExtension</key>
@@ -13566,7 +13871,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2400.16</string>
+				<string>2400.17.1</string>
 				<key>CSExtensionLabel</key>
 				<string>TextImporter</string>
 				<key>NSExtension</key>
@@ -14196,7 +14501,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>148.2.1</string>
+				<string>148.2.3</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -14789,7 +15094,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.2.3</string>
+				<string>605.2.5</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionMainStoryboard</key>
@@ -15016,7 +15321,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>392.2.2</string>
+				<string>392.2.3</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -15330,7 +15635,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4044.0.3</string>
+				<string>4045</string>
 				<key>INDisplayableApplicationBundleIdentifier</key>
 				<string>com.apple.shortcuts</string>
 				<key>NSExtension</key>
@@ -16427,7 +16732,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2265</string>
+				<string>2271</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -16466,7 +16771,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2265</string>
+				<string>2271</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -23956,7 +24261,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>925.3.2</string>
+				<string>925.4.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -24616,7 +24921,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.2.3</string>
+				<string>605.2.5</string>
 				<key>DELocalizedConsentText</key>
 				<string>Collected logs may include Screen Time settings as well as app and website activity data.</string>
 				<key>DELocalizedDataCollectedSummaryText</key>
@@ -24908,7 +25213,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>AppleBasebandServices_Manager-1399.2</string>
+				<string>AppleBasebandServices_Manager-1399.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -25400,7 +25705,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>AppleBasebandServices_Manager-1399.2</string>
+				<string>AppleBasebandServices_Manager-1399.4</string>
 				<key>DELoggingPreferenceSubsystems</key>
 				<array>
 					<string>com.apple.telephony.abm</string>
@@ -25513,7 +25818,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1355</string>
+				<string>1356</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -25853,7 +26158,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>367.2.3</string>
+				<string>367.2.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -25966,7 +26271,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>367.2.3</string>
+				<string>367.2.4</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionContextClass</key>
@@ -26884,7 +27189,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1388.3.1.0.2</string>
+				<string>1388.3.4</string>
 				<key>DELocalizedConsentText</key>
 				<string>Diagnostics may include up to 30 days of details about the times and manner in which home members interact with accessories</string>
 				<key>DELocalizedDataCollectedSummaryText</key>
@@ -27820,7 +28125,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>5784</string>
+				<string>5787.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -27989,7 +28294,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>820.0.140</string>
+				<string>820.0.170</string>
 				<key>MLRuntimeTaskPrincipalClass</key>
 				<string>PhotoAnalysisLighthousePlugin</string>
 				<key>NSExtension</key>
@@ -28309,7 +28614,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3854.1</string>
+				<string>3855</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28356,7 +28661,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3854.1</string>
+				<string>3855</string>
 				<key>CTIgnoreUserFonts</key>
 				<true/>
 				<key>NSExtension</key>
@@ -28600,7 +28905,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>605.2.3</string>
+				<string>605.2.5</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28638,7 +28943,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2400.16</string>
+				<string>2400.17.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28805,7 +29110,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2094.30.26.2.3</string>
+				<string>2094.30.32.2.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -28865,7 +29170,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2094.30.26.2.3</string>
+				<string>2094.30.32.2.1</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionAttributes</key>
@@ -29448,7 +29753,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>116.7.6</string>
+				<string>116.7.7</string>
 				<key>EXAppExtensionAttributes</key>
 				<dict>
 					<key>EXExtensionPointIdentifier</key>
@@ -29532,7 +29837,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>APPL</string>
 				<key>CFBundleVersion</key>
-				<string>25300.25.43.301</string>
+				<string>25300.25.44.401</string>
 				<key>DERequiresClassBDataClass</key>
 				<true/>
 				<key>NSExtension</key>
@@ -30019,35 +30324,6 @@ SUBQUERY(extensionItems, $extensionItem,
 				</dict>
 			</dict>
 		</dict>
-		<key>/System/Library/PrivateFrameworks/UnityPoster.framework/PlugIns/UnityPosterExtension.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/PrivateFrameworks/UnityPoster.framework/PlugIns/UnityPosterExtension.appex/UnityPosterExtension</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>UnityPosterExtension</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.UnityPoster.UnityPosterExtension</string>
-				<key>CFBundleName</key>
-				<string>UnityPosterExtension</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>EXAppExtensionAttributes</key>
-				<dict>
-					<key>EXExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRSupportedRoles</key>
-				<array>
-					<string>PRPosterRoleLockScreen</string>
-				</array>
-				<key>UIApplicationSystemWindowsSecureKey</key>
-				<true/>
-			</dict>
-		</dict>
 		<key>/System/Library/PrivateFrameworks/UserActivity.framework/PlugIns/UASharedPasteboardiOSUI.appex</key>
 		<dict>
 			<key>_executablePath</key>
@@ -30255,7 +30531,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>593.10.1</string>
+				<string>593.20.1</string>
 				<key>CanInheritApplicationStateFromOtherProcesses</key>
 				<true/>
 				<key>NSExtension</key>
@@ -30341,296 +30617,6 @@ SUBQUERY(extensionItems, $extensionItem,
 					<key>NSExtensionPrincipalClass</key>
 					<string>VSDiagnosticExtension</string>
 				</dict>
-			</dict>
-		</dict>
-		<key>/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/ExtragalacticPoster.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/ExtragalacticPoster.appex/ExtragalacticPoster</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>ExtragalacticPoster</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.WatchFacesWallpaperSupport.ExtragalacticPoster</string>
-				<key>CFBundleName</key>
-				<string>ExtragalacticPoster</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>NSExtension</key>
-				<dict>
-					<key>NSExtensionAttributes</key>
-					<dict>
-						<key>EXExtensionPointIdentifier</key>
-						<string>com.apple.posterkit.provider</string>
-					</dict>
-					<key>NSExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRHasDynamicDescriptors</key>
-				<true/>
-				<key>UIAppFonts</key>
-				<array>
-					<string>ADTTime.ttc</string>
-				</array>
-				<key>UIApplicationSupportsBacklightEnvironment</key>
-				<true/>
-			</dict>
-		</dict>
-		<key>/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/KaleidoscopePoster.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/KaleidoscopePoster.appex/KaleidoscopePoster</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>KaleidoscopePoster</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.WatchFacesWallpaperSupport.KaleidoscopePoster</string>
-				<key>CFBundleName</key>
-				<string>KaleidoscopePoster</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>NSExtension</key>
-				<dict>
-					<key>NSExtensionAttributes</key>
-					<dict>
-						<key>EXExtensionPointIdentifier</key>
-						<string>com.apple.posterkit.provider</string>
-					</dict>
-					<key>NSExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRHasDynamicDescriptors</key>
-				<false/>
-				<key>PRStaticDescriptors</key>
-				<dict>
-					<key>variant-1</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-					<key>variant-2</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>1</integer>
-						</dict>
-					</dict>
-					<key>variant-3</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>2</integer>
-						</dict>
-					</dict>
-					<key>variant-4</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>3</integer>
-						</dict>
-					</dict>
-					<key>variant-5</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>4</integer>
-						</dict>
-					</dict>
-					<key>variant-6</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>5</integer>
-						</dict>
-					</dict>
-					<key>variant-7</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>10</integer>
-						</dict>
-					</dict>
-					<key>variant-8</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>13</integer>
-						</dict>
-					</dict>
-					<key>variant-9</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>variant</key>
-							<integer>8</integer>
-						</dict>
-					</dict>
-				</dict>
-				<key>UIApplicationSupportsBacklightEnvironment</key>
-				<true/>
-			</dict>
-		</dict>
-		<key>/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/RhizomePoster.appex</key>
-		<dict>
-			<key>_executablePath</key>
-			<string>/System/Library/PrivateFrameworks/WatchFacesWallpaperSupport.framework/PlugIns/RhizomePoster.appex/RhizomePoster</string>
-			<key>_infoPlist</key>
-			<dict>
-				<key>CFBundleExecutable</key>
-				<string>RhizomePoster</string>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.WatchFacesWallpaperSupport.RhizomePoster</string>
-				<key>CFBundleName</key>
-				<string>RhizomePoster</string>
-				<key>CFBundlePackageType</key>
-				<string>XPC!</string>
-				<key>CFBundleVersion</key>
-				<string>1</string>
-				<key>LSApplicationCategoryType</key>
-				<array/>
-				<key>NSExtension</key>
-				<dict>
-					<key>NSExtensionAttributes</key>
-					<dict>
-						<key>EXExtensionPointIdentifier</key>
-						<string>com.apple.posterkit.provider</string>
-					</dict>
-					<key>NSExtensionPointIdentifier</key>
-					<string>com.apple.posterkit.provider</string>
-				</dict>
-				<key>PRHasDynamicDescriptors</key>
-				<false/>
-				<key>PRStaticDescriptors</key>
-				<dict>
-					<key>variant-1</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>PosterVariant</key>
-							<string>Unity</string>
-						</dict>
-					</dict>
-					<key>variant-2</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>PosterVariant</key>
-							<string>Red</string>
-						</dict>
-					</dict>
-					<key>variant-3</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>PosterVariant</key>
-							<string>Green</string>
-						</dict>
-					</dict>
-					<key>variant-4</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>PosterVariant</key>
-							<string>Multicolor</string>
-						</dict>
-					</dict>
-					<key>variant-5</key>
-					<dict>
-						<key>PRStaticDescriptorGalleryOptions</key>
-						<dict>
-							<key>allowsSystemSuggestedComplications</key>
-							<false/>
-						</dict>
-						<key>PRStaticDescriptorUserInfo</key>
-						<dict>
-							<key>PosterVariant</key>
-							<string>Black</string>
-						</dict>
-					</dict>
-				</dict>
-				<key>UIApplicationSupportsBacklightEnvironment</key>
-				<true/>
 			</dict>
 		</dict>
 		<key>/System/Library/PrivateFrameworks/WiFiKit.framework/PlugIns/WiFiPickerExtension.appex</key>
@@ -30779,7 +30765,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4044.0.3</string>
+				<string>4045</string>
 				<key>INDisplayableApplicationBundleIdentifier</key>
 				<string>com.apple.shortcuts</string>
 				<key>NSExtension</key>
@@ -30857,7 +30843,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4044.0.3</string>
+				<string>4045</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30886,7 +30872,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4044.0.3</string>
+				<string>4045</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30917,7 +30903,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4044.0.3</string>
+				<string>4045</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30948,7 +30934,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4044.0.3</string>
+				<string>4045</string>
 				<key>NSExtension</key>
 				<dict>
 					<key>NSExtensionPointIdentifier</key>
@@ -30975,7 +30961,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4257.60.1</string>
+				<string>4257.60.5.0.1</string>
 				<key>DELoggingPreferenceSubsystems</key>
 				<array>
 					<string>com.apple.clouddocs</string>
@@ -31317,7 +31303,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1355</string>
+				<string>1356</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31340,7 +31326,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>BNDL</string>
 				<key>CFBundleVersion</key>
-				<string>630.60.4.0.3</string>
+				<string>630.60.5.0.4</string>
 				<key>XPCService</key>
 				<dict>
 					<key>RunLoopType</key>
@@ -31365,7 +31351,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>6526</string>
+				<string>6527</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31411,7 +31397,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>3864.300.11.2.1</string>
+				<string>3864.300.22.2.1</string>
 				<key>XPCService</key>
 				<dict>
 					<key>RunLoopType</key>
@@ -31436,7 +31422,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>2952.60.3</string>
+				<string>2952.60.5</string>
 				<key>XPCService</key>
 				<dict>
 					<key>RunLoopType</key>
@@ -31461,7 +31447,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>5784</string>
+				<string>5787.1</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31484,7 +31470,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>4025.310.9.1</string>
+				<string>4025.300.12</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -31553,7 +31539,7 @@ SUBQUERY(extensionItems, $extensionItem,
 				<key>CFBundlePackageType</key>
 				<string>XPC!</string>
 				<key>CFBundleVersion</key>
-				<string>1007.1</string>
+				<string>1010.1</string>
 				<key>XPCService</key>
 				<dict>
 					<key>ServiceType</key>
@@ -36453,38 +36439,10 @@ SUBQUERY(extensionItems, $extensionItem,
 				</dict>
 				<key>com.apple.distnoted.matching</key>
 				<dict>
-					<key>com.apple.UsageTrackingAgent.distributed-notification.duet-application-usage-did-tombstone</key>
-					<dict>
-						<key>Name</key>
-						<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-						<key>Object</key>
-						<string>/app/usage</string>
-					</dict>
-					<key>com.apple.UsageTrackingAgent.distributed-notification.duet-now-playing-usage-did-tombstone</key>
-					<dict>
-						<key>Name</key>
-						<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-						<key>Object</key>
-						<string>/media/nowPlaying</string>
-					</dict>
 					<key>com.apple.UsageTrackingAgent.distributed-notification.duet-sync-coordinator-did-idle</key>
 					<dict>
 						<key>Name</key>
 						<string>_DKSync2CoordinatorDidIdleNotification</string>
-					</dict>
-					<key>com.apple.UsageTrackingAgent.distributed-notification.duet-video-usage-did-tombstone</key>
-					<dict>
-						<key>Name</key>
-						<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-						<key>Object</key>
-						<string>/app/mediaUsage</string>
-					</dict>
-					<key>com.apple.UsageTrackingAgent.distributed-notification.duet-web-domain-usage-did-tombstone</key>
-					<dict>
-						<key>Name</key>
-						<string>_DKKnowledgeStorageDidTombstoneEventsNotification</string>
-						<key>Object</key>
-						<string>/app/webUsage</string>
 					</dict>
 				</dict>
 				<key>com.apple.notifyd.matching</key>
@@ -55797,6 +55755,11 @@ SUBQUERY(extensionItems, $extensionItem,
 					<dict>
 						<key>Notification</key>
 						<string>com.apple.os-eligibility-domain.change</string>
+					</dict>
+					<key>kRegulatoryDomainUpdateNotification</key>
+					<dict>
+						<key>Notification</key>
+						<string>kRegulatoryDomainUpdateNotification</string>
 					</dict>
 				</dict>
 			</dict>
@@ -75766,7 +75729,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1305.2.1</string>
+						<string>1305.3.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -77366,7 +77329,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>370.63.7</string>
+						<string>370.64.2</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -77705,7 +77668,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8623.1.12.10.4</string>
+						<string>8623.1.13.10.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -78085,7 +78048,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>13123.3</string>
+						<string>13125.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -78175,7 +78138,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>593.10.1</string>
+						<string>593.20.1</string>
 						<key>NSPrincipalClass</key>
 						<string>VSDeveloperService</string>
 						<key>XPCService</key>
@@ -78205,7 +78168,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>593.10.1</string>
+						<string>593.20.1</string>
 						<key>NSPrincipalClass</key>
 						<string>VSPrivacyService</string>
 						<key>XPCService</key>
@@ -78269,7 +78232,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1007.1</string>
+						<string>1010.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -79239,7 +79202,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.300.11.2.1</string>
+						<string>3864.300.22.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -79747,7 +79710,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>619.12</string>
+						<string>619.14</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -80887,7 +80850,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>200.5</string>
+						<string>200.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81247,7 +81210,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2400.16</string>
+						<string>2400.17.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81535,7 +81498,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>200.5</string>
+						<string>200.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -81926,7 +81889,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>820.0.140</string>
+						<string>820.0.170</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -83542,7 +83505,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>64572.193.1</string>
+						<string>64573.4.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -83882,7 +83845,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1827.1.12</string>
+						<string>1827.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -84361,7 +84324,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>367.2.3</string>
+						<string>367.2.4</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -85820,7 +85783,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>13.2.7</string>
+						<string>13.2.8</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -87580,7 +87543,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>200.5</string>
+						<string>200.6</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -88845,7 +88808,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>3864.300.11.2.1</string>
+						<string>3864.300.22.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89477,7 +89440,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1837.60.20</string>
+						<string>1837.60.34</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -89662,7 +89625,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8623.1.12.10.4</string>
+						<string>8623.1.13.10.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -89820,7 +89783,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>304.0.2</string>
+						<string>304.0.4</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -90558,7 +90521,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>5784</string>
+						<string>5787.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -90651,7 +90614,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>5784</string>
+						<string>5787.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -90673,7 +90636,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>5784</string>
+						<string>5787.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -90756,7 +90719,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2952.60.3</string>
+						<string>2952.60.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -90800,7 +90763,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2952.60.3</string>
+						<string>2952.60.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -90824,7 +90787,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2952.60.3</string>
+						<string>2952.60.5</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -91430,7 +91393,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>304.0.2</string>
+						<string>304.0.4</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -93602,7 +93565,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8623.1.12.10.4</string>
+						<string>8623.1.13.10.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -93624,7 +93587,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>8623.1.12.10.4</string>
+						<string>8623.1.13.10.3</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -94202,7 +94165,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2094.30.26.2.3</string>
+						<string>2094.30.32.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -94237,7 +94200,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>2094.30.26.2.3</string>
+						<string>2094.30.32.2.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>
@@ -96862,7 +96825,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1015.6</string>
+						<string>1016</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -96884,7 +96847,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>1015.6</string>
+						<string>1016</string>
 						<key>NSPrincipalClass</key>
 						<string>_NSAttributedStringAgentService</string>
 						<key>XPCService</key>
@@ -97032,7 +96995,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>23.2.1</string>
+						<string>23.3.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>ServiceType</key>
@@ -97484,7 +97447,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>295.300.11</string>
+						<string>295.300.21</string>
 						<key>XPCService</key>
 						<dict>
 							<key>EnvironmentVariables</key>
@@ -97831,7 +97794,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>4044.0.3</string>
+						<string>4045</string>
 						<key>NSHealthShareUsageDescription</key>
 						<string>Shortcuts needs access to your health data in order to run health-related actions.</string>
 						<key>NSHealthUpdateUsageDescription</key>
@@ -98133,7 +98096,7 @@ SUBQUERY(extensionItems, $extensionItem,
 						<key>CFBundlePackageType</key>
 						<string>XPC!</string>
 						<key>CFBundleVersion</key>
-						<string>4257.60.1</string>
+						<string>4257.60.5.0.1</string>
 						<key>XPCService</key>
 						<dict>
 							<key>RunLoopType</key>

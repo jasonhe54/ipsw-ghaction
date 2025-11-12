@@ -25,6 +25,8 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>contentVersion</key>
+	<real>1.01</real>
 	<key>disableAdaptiveTime</key>
 	<true/>
 	<key>family</key>
@@ -33,6 +35,8 @@
 	<integer>7420</integer>
 	<key>logicalScreenClass</key>
 	<string>440w-956h@3x~iphone</string>
+	<key>maximumAdaptiveTimeMultiplier</key>
+	<real>0.10000000000000001</real>
 	<key>name</key>
 	<string>Clownfish</string>
 	<key>preferredProminentColor</key>

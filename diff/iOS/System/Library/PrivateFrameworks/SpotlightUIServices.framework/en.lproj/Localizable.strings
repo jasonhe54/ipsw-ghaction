@@ -1,7 +1,7 @@
 "RELATED_SEARCHES" = "Related Searches";
 "ASK_FOR_TIME_APPROVED_HOUR" = "Approved for an hour";
 "QUICK_ACTION_PHONE_NUMBER_SECTION_TITLE" = "Call";
-"%lu Attachments: " = "{'lu_attachments': {'one': 'Attachment: ', 'other': 'Attachments: ', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@lu_attachments@'}";
+"%lu Attachments: " = "{'value': {'one': '%lu Attachment: ', 'other': '%lu Attachments: ', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
 "MAIL_RECIPIENT_FORMAT" = "%@ + %lu others";
 "POSITIVE_TIME_FORMAT" = "+%@";
 "%ld %@" = "%1$ld %2$@";
@@ -16,8 +16,8 @@
 "ASK_FOR_TIME_APPROVED_DAY" = "Approved for rest of day";
 "CALCULATION_SECTION_TITLE" = "Calculation";
 "ADDITIONAL_TIME_ZONES_FORMAT" = "+%@ time zones";
-"DATE_LAST_PLAYED_FORMAT" = "Last Played %@";
 "%lu Audio Files" = "{'value': {'one': '%lu Audio File', 'other': '%lu Audio Files', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"DATE_LAST_PLAYED_FORMAT" = "Last Played %@";
 "QUICK_ACTION_PHONE_NUMBER_COMPLETION" = "Call";
 "DOMAIN_TITLE_BLENDED_MUSIC" = "Music";
 "Open in Browser" = "Open in Browser";
@@ -49,7 +49,6 @@
 "CLOSED_QUOTE" = "”";
 "MEDIA_FINDER_FILTER" = "(kind:image OR kind:movie) %@";
 "MENU_COMMAND_SEND_EMAIL_2" = "Email %@";
-"ATTACHMENT" = "Attachment";
 "ALL_DAY_SHORT_FORMAT" = "%@, All Day";
 "APPROVED_BY_FORMAT" = "%@ by %@";
 "LOCKED" = "Locked";

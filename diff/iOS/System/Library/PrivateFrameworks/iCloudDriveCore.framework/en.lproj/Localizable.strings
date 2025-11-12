@@ -90,6 +90,7 @@ It will also be added to iCloud Drive.";
 "SHARING_ICLOUD_SETUP_MESSAGE_IOS_PAGES" = "You need to sign in to iCloud with your Apple Account before you can open this shared document.";
 "SHARING_ICLOUD_NOT_REACHABLE_MESSAGE_IOS_FOLDER" = "This folder can’t be opened right now. There may be a problem with the server. Please try again later.";
 "SHARING_NO_LONGER_SHARED_MESSAGE_IOS_FOLDER" = "The owner stopped sharing, or you don’t have permission to open it.";
+"ICLOUD_DRIVE_EDIT_ON_RO_SHARE" = "Cannot upload file/folder. The shared folder permissions are set to read only.";
 "SHARING_PARTICIPANT_LIMIT_REACHED_HEADER_IOS_PAGES" = "Can’t Open Document";
 "SHARING_GENERIC_ERROR_MESSAGE_OSX_FOLDER" = "Please try again later.";
 "SHARING_PROFILE_DISABLED_MESSAGE_IOS_FOLDER" = "Files can’t open shared folders because it’s a managed app.";

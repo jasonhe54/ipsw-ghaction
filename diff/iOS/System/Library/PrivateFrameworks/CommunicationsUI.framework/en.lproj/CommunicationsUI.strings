@@ -89,16 +89,17 @@
 "MISSED_MENU_TITLE" = "Missed";
 "TRANSLATE_TO_SHORT" = "To";
 "DRAWER_ACCEPT_AX" = "Accept";
-"FILTER_NEW_CALLERS_ONBOARDING_TITLE" = "Reduce Distractions from Unknown Callers";
+"DISABLED_ANSWER_BUTTON_MESSAGE_MAC" = "Cannot answer on this Mac";
 "%@" = "%@";
 "FILTER_NEW_CALLERS_ONBOARDING_SET_UP_LATER" = "Set Up Later in Settings";
 "AUDIO" = "Audio";
 "INCOMING_AX" = "Incoming";
 "WOH_HOLD_CALL" = "Hold Call";
-"CALL_STATUS_CANCELLED" = "Canceled Call";
+"FILTER_NEW_CALLERS_ONBOARDING_TITLE" = "Reduce Distractions from Unknown Callers";
 "REPORT_BLOCK_INITIATOR_ALERT_MESSAGE_WITH_HANDLE" = "You will not receive phone calls, messages, or FaceTime calls from people on the block list. You can also report “%@” as Spam by sending it to Apple.";
 "REMOTE_CONTROL" = "Allowed %@ to control iPhone";
 "LOCK_STATE_CALL_DETAILS" = "Call Details";
+"CALL_STATUS_CANCELLED" = "Canceled Call";
 "NOT_JUNK" = "Not Spam";
 "FILTER_NEW_CALLERS_ONBOARDING_DETAIL_PHONE_BEFORE_ICON" = "Calls from unsaved numbers will be moved to a separate list. Tap ";
 "VIDEO_MESSAGE_RETAKE" = "Retake";
@@ -124,6 +125,7 @@
 "LANGUAGE_SELECTION_CHOOSE" = "Choose Language";
 "TRANSLATION_MENU_VIEW" = "View";
 "TRANSLATE_FROM_CONTEXT" = "Choose originating language to automatically translate conversation.";
+"DISABLED_ANSWER_BUTTON_MESSAGE_IPAD" = "Cannot answer on this iPad";
 "TRANSLATING_STATE" = "Translating…";
 "VOICEMAIL_MENU_TITLE" = "Voicemail";
 "REPORT_FACETIME_ALERT_REPORT" = "Report";
@@ -156,6 +158,7 @@
 "CALL_SCREENING_TEXT_FIELD_PLACEHOLDER" = "Type to Reply";
 "REPORT_BLOCK_FACETIME_ALERT_BLOCK_ALL" = "Block All Participants";
 "TRANSLATE_TO_CONTEXT" = "Choose the language you’d like the conversation translated to.";
+"DISABLED_ANSWER_BUTTON_TITLE" = "Use your iPhone";
 "PUNCHOUT_TITLE" = "Open";
 "FILTER_NEW_CALLERS_ONBOARDING_TITLE_FACETIME" = "Reduce Distractions from Unknown FaceTime Callers";
 "TAP_TO_VIEW" = "Tap to View";

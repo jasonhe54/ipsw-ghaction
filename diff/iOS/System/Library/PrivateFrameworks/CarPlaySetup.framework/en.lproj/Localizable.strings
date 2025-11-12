@@ -2,11 +2,11 @@
 "USE_WIRELESS_CARPLAY_CARD_TITLE" = "Use Wireless CarPlay";
 "BLUETOOTH_PAIRING_CARD_TITLE" = "Pairing Request";
 "ALLOW_WHILE_LOCKED_CARD_DECLINE" = "Not Now";
-"ROUTE_SHARING_PERMISSION_CARD_BODY_%@" = "This will allow your car to automatically access future routes from navigation apps you use while connected to CarPlay. 
+"ROUTE_SHARING_PERMISSION_CARD_BODY_%@" = "This will allow your car to automatically access future routes from navigation apps you use while connected to CarPlay.
 
-Route information includes your origin, destination, and route line. 
+Route information includes your origin, destination, and route line.
 
-%1$@ may be able to access this information once it is shared with your car.";
+%@ may be able to access this information once it is shared with your car.";
 "CONNECT_TO_CARPLAY_CARD_CONNECT_WLAN" = "Turn on WLAN & Connect";
 "ROUTE_SHARING_PERMISSION_CARD_TITLE_%@" = "Allow “%@” to access your route information?";
 "USE_WIRELESS_CARPLAY_CARD_MESSAGE_WIFI" = "CarPlay automatically connects your iPhone to your car’s built-in displays, and can access your phone while it is locked. Enabling wireless CarPlay will turn on Wi-Fi.";
@@ -32,7 +32,7 @@ Route information includes your origin, destination, and route line.
 "ALLOW_WHILE_LOCKED_CARD_MESSAGE" = "Your contacts and other information will appear on this car’s display without unlocking your iPhone.";
 "BLUETOOTH_CONTACTS_SYNC_MESSAGE" = "Your car may request your contacts, phone favorites, and recent phone calls over Bluetooth. Do you wish to allow this?";
 "BLUETOOTH_PAIRING_CARD_MESSAGE_IPHONE_%@" = "“%1$@” would like to pair with your iPhone. Confirm that this code is shown on “%1$@”. Do not enter this code on any accessory.";
-"ALLOW_ROUTE_SHARING_CARD_MESSAGE_%@_%@" = "You can share routes from navigation apps on this iPhone to your car while using CarPlay.
+"ALLOW_ROUTE_SHARING_CARD_MESSAGE_%@_%@" = "You can share routes from navigation apps on this iPhone with your car while using CarPlay.
 
 From %1$@: %2$@";
 "USE_WIRELESS_CARPLAY_CARD_MESSAGE_BT_WIFI" = "CarPlay automatically connects your iPhone to your car’s built-in displays, and can access your phone while it is locked. Enabling wireless CarPlay will turn on Bluetooth and Wi-Fi.";
