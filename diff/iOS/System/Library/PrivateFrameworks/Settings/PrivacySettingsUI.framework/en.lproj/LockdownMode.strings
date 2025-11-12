@@ -1,0 +1,63 @@
+"OK" = "OK";
+"ERROR_ALERT_DISABLE_TITLE" = "Unable to turn off Lockdown Mode";
+"SECTION_FACETIME_CONTENT" = "Incoming FaceTime calls from people you have not previously called are blocked. Features such as SharePlay and Live Photos are unavailable.";
+"CONFIRM_ALERT_DISABLE_ALL_DEVICES_MESSAGE" = "For complete protection, Lockdown Mode has to be enabled on all of your devices.
+
+Turning off Lockdown Mode requires %@ to restart.";
+"CELLULAR_ALERT_ENABLE_MESSAGE" = "Turning on 2G and 3G connectivity increases security risks.";
+"CONFIRM_ALERT_DISABLE_ALL_DEVICES_WITH_WATCH_MESSAGE" = "For complete protection, Lockdown Mode has to be enabled on all of your devices.
+
+Turning off Lockdown Mode requires %@ and Apple Watch to restart.";
+"CONFIRM_ALERT_ENABLE_ALL_DEVICES_MESSAGE" = "For complete protection, Lockdown Mode has to be enabled on all your devices.
+
+Lockdown Mode requires %@ to restart.";
+"SECTION_MESSAGES_HEADER" = "Messages";
+"SECTION_WIRELESS_CONNECTIVITY_HEADER" = "Wireless Connectivity";
+"ONBOARDING_CELL_DETAIL" = "Turn on this extreme protection if you believe you’re being targeted in a cyberattack. Apps, websites, and feature functionality will be limited and some experiences may be completely unavailable.";
+"STATE_SPECIFIER_TURN_OFF" = "Turn Off Lockdown Mode";
+"ENABLE_LOCKDOWN_MODE" = "Turn On Lockdown Mode";
+"SECTION_USB_HEADER" = "Device Connections";
+"CONFIRM_ALERT_ENABLE_ALL_DEVICES_WITH_WATCH_MESSAGE" = "For complete protection, Lockdown Mode has to be turned on for all your devices.
+
+Lockdown Mode requires %@ and Apple Watch to restart.";
+"SECTION_REMOTE_CONTENT" = "Incoming invitations for Apple Services from people you have not previously invited are blocked.";
+"CONFIRM_ALERT_DISABLE_WITH_WATCH_MESSAGE" = "Turning off Lockdown Mode requires %@ and Apple Watch to restart.";
+"CANCEL" = "Cancel";
+"ENABLE_CELLULAR" = "2G/3G Cellular Connectivity";
+"WEB_CONTENT_FOOTER" = "This %@ is in Lockdown Mode. Apps, websites, and features are strictly limited for security, and some experiences are completely unavailable.";
+"ERROR_ALERT_ENABLE_MESSAGE" = "There was an issue turning on Lockdown Mode. Try again or visit https://support.apple.com/kb/HT212650 for more information.";
+"SECTION_WIRELESS_CONNECTIVITY_CONTENT_WIFI" = "Automatically joining non-secure Wi-Fi networks is blocked.";
+"DISABLE_LOCKDOWN_MODE" = "Turn Off Lockdown Mode";
+"SECTION_PROFILES_HEADER" = "Profiles";
+"WEBSITES" = "Excluded Safari Websites";
+"SECTION_PROFILES_CONTENT" = "Configuration profiles, such as profiles for school or work, cannot be installed.";
+"ONBOARDING_CELL_LINK" = "Learn more…";
+"SECTION_SHARED_ALBUMS_CONTENT" = "Location will be excluded by default when sharing photos, and Shared Albums will be removed from Photos.";
+"CONFIRM_ALERT_ENABLE_MESSAGE" = "Lockdown Mode requires %@ to restart.";
+"SECTION_MESSAGES_CONTENT" = "Most message attachments are blocked, and some features are unavailable.";
+"LOCKDOWN_MODE" = "Lockdown Mode";
+"SECTION_WIRELESS_CONNECTIVITY_CONTENT_WLAN" = "Automatically joining non-secure WLAN networks is blocked.";
+"ENABLE_CELLULAR_FOOTER" = "For enhanced security, 2G and 3G are turned off when in Lockdown Mode. You can still turn on 2G and 3G if needed for connectivity.";
+"SECTION_SHARED_ALBUMS_HEADER" = "Photos";
+"ERROR_ALERT_ENABLE_TITLE" = "Unable to turn on Lockdown Mode";
+"SECTION_REMOTE_HEADER" = "Apple Services";
+"CELLULAR_ALERT_ENABLE_BUTTON" = "Turn On";
+"CONFIRM_ALERT_ENABLE_WITH_WATCH_MESSAGE" = "Lockdown Mode requires %@ and Apple Watch restart.";
+"APPS_SECTION" = "Apps";
+"SECTION_WEB_HEADER" = "Web Browsing";
+"SECTION_USB_CONTENT" = "Wired connections with another device or accessory while your %@ is locked are blocked.";
+"CONFIRM_ALERT_DISABLE_BUTTON" = "Turn Off & Restart";
+"SECTION_WIRELESS_CONNECTIVITY_WITH_CELLULAR_CONTENT_WIFI" = "Automatically joining non-secure Wi-Fi networks and 2G/3G Cellular Connectivity are blocked.";
+"CONFIRM_ALERT_ENABLE_TITLE" = "Turn On Lockdown Mode?";
+"CONTINUE" = "Continue";
+"CONFIRM_ALERT_DISABLE_TITLE" = "Turn Off Lockdown Mode?";
+"CONFIRM_ALERT_ENABLE_BUTTON" = "Turn On & Restart";
+"CONFIRM_ALERT_DISABLE_MESSAGE" = "Turning off Lockdown Mode requires %@ to restart.";
+"STATE_SPECIFIER_TURN_ON" = "Turn On Lockdown Mode";
+"SECTION_WEB_CONTENT" = "Some web technologies and browsing features are blocked.";
+"ONBOARDING_UI_DETAIL" = "When %@ is in Lockdown Mode, apps, websites, and features will be strictly limited for security, and some experiences will be completely unavailable.";
+"SECTION_WIRELESS_CONNECTIVITY_WITH_CELLULAR_CONTENT_WLAN" = "Automatically joining non-secure WLAN networks and 2G/3G Cellular Connectivity are blocked.";
+"WEB_CONTENT" = "Configure Web Browsing";
+"ERROR_ALERT_DISABLE_MESSAGE" = "There was an issue turning off Lockdown Mode. Try again or visit https://support.apple.com/kb/HT212650 for more information.";
+"CELLULAR_ALERT_ENABLE_TITLE" = "Are you sure you want to turn on 2G and 3G connectivity while in Lockdown Mode?";
+"SECTION_FACETIME_HEADER" = "FaceTime";

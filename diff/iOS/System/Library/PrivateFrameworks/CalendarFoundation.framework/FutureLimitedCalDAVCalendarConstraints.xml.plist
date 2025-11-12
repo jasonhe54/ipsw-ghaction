@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CalEvent</key>
+	<dict>
+		<key>FutureStartLimitedToOccurrenceCache</key>
+		<true/>
+		<key>SupportsLimitedAvailability</key>
+		<true/>
+	</dict>
+	<key>CalStore</key>
+	<dict>
+		<key>SupportsAlarmProximity</key>
+		<true/>
+		<key>SupportsIncomingInvitations</key>
+		<true/>
+		<key>SupportsOutgoingInvitations</key>
+		<true/>
+		<key>SupportsReminderActions</key>
+		<true/>
+		<key>SupportsReminderLocations</key>
+		<true/>
+		<key>SupportsStructuredLocations</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>typograph</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>navyBlue</string>
+				<key>default-clhs11</key>
+				<string>evergreen.gold</string>
+				<key>exclusions</key>
+				<array>
+					<string>seasons.spring2015.white</string>
+					<string>seasons.spring2015.gold</string>
+					<string>evergreen.slate2</string>
+				</array>
+				<key>gallery-default</key>
+				<array>
+					<string>evergreen.navyBlue</string>
+					<string>evergreen.palePink</string>
+					<string>evergreen.white</string>
+				</array>
+				<key>shared-config</key>
+				<string>device-specific-config</string>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<string>california-evergreen</string>
+				<string>seasons-monotone-no-device-specific</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

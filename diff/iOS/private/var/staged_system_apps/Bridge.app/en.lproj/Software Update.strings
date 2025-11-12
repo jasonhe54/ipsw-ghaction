@@ -1,0 +1,102 @@
+"CANCEL_AUTOUPDATE" = "Cancel Auto Update";
+"INSTALLATION_PAUSED_CHARGER" = "To install the update, Apple Watch must be connected to its charger and charged at least 50%.";
+"PMCHANGE" = "Change Passcode";
+"PMCHANGE_3_PROMPT" = "Verify your new passcode";
+"INSTALL_BUTTON_FOOTER_CHARGER_OPTIONAL_WIFI" = "To install the update, make sure Apple Watch is:
+• In range of your iPhone connected to Wi-Fi
+
+Installation will start when Apple Watch is charged to at least %d%%, or on its charger and charged to at least %d%%. Do not restart until the update completes.";
+"BETA_UPDATES_APPLE_ID_PREFIX" = "Apple Account: %@";
+"WATCH_OS_VERSION" = "watchOS %@";
+"PASSCODE_OFF" = "Turn Passcode Off";
+"VERIFYING" = "Verifying…";
+"Passcode Lock" = "Passcode Lock";
+"AUTOMATIC_UPDATES_ENABLED" = "On";
+"COMPANION_UPDATE_ALLOWS_WATCH_UPDATE_LINK" = "Open Settings";
+"INSTALL_BUTTON_FOOTER_WIFI" = "To install the update, make sure Apple Watch is:
+• On its charger
+• In range of your iPhone connected to Wi-Fi
+
+Installation will start when Apple Watch is charged to at least 50%. Do not restart or remove it from its charger until the update completes.";
+"INSTALL_BUTTON_FOOTER_WLAN" = "To install the update, make sure Apple Watch is:
+• On its charger
+• In range of your iPhone connected to WLAN
+
+Installation will start when Apple Watch is charged to at least 50%. Do not restart or remove it from its charger until the update completes.";
+"CANNOT_REUSE_PASSCODE" = "Enter a different passcode. Cannot re-use the same passcode.";
+"START_OVER" = "Start Over";
+"EXIT_UPDATE_EXIT_BUTTON" = "Exit and Reset Watch";
+"PASSCODE_ON" = "Turn Passcode On";
+"INSTALLING_FOOTER" = "Do not restart Apple Watch until the update completes.";
+"SMS_PREVIEW" = "Show SMS Preview";
+"CANCEL" = "Cancel";
+"INSTALLATION_PAUSED" = "Installation Paused";
+"INSTALLING" = "Installing…";
+"EXIT_UPDATE_BODY_%@" = "This will unpair your %@ and reset it to factory settings.";
+"UNABLE_TO_CHECK_FOR_UPDATE_BEFORE_FIRST_UNLOCK" = "Unlock your Apple Watch and try again.";
+"AUTOMATIC_UPDATES_SWITCH_FOOTER_WIFI" = "Automatically install software updates overnight after they have been downloaded. You will receive a notification before updates are installed. Your Apple Watch must be on charger and in range of your iPhone connected to Wi-Fi to complete the update.";
+"INSTALL" = "Install";
+"CONFIRMATION_FAILURE" = "Passcodes did not match. Try again.";
+"PASSCODE_REQ" = "Require Passcode";
+"COMPLETING_UPDATE" = "Apple Watch is Completing the Update";
+"DOWNLOADING" = "Downloading to Watch…";
+"CANCEL_INSTALL_TONIGHT" = "Cancel Install Tonight";
+"WAITING_TO_INSTALL" = "Waiting to install…";
+"PAUSED" = "Paused";
+"CUSTOM_NUMERIC_CODE" = "Custom Numeric Code";
+"DONE" = "Done";
+"UP_TO_DATE" = "Your Apple Watch is up to date with all the latest bug fixes and security enhancements";
+"RESUME_DOWNLOADING_FOOTER_WLAN" = "You can resume the download when you are connected to a WLAN network.";
+"PMENTER_1_PROMPT" = "Enter your passcode";
+"UNACCEPTABLE_PIN_2" = "Your passcode must be complicated.";
+"INSTALLATION_PAUSED_CHARGER_OPTIONAL" = "To install the update, Apple Watch must be connected to its charger and charged at least %d%%, or charged at least %d%%";
+"PMSET_2_PROMPT" = "Verify your new passcode";
+"PMCHANGE_2_PROMPT" = "Enter your new passcode";
+"PREPARING" = "Preparing…";
+"AUTOMATIC_UPDATES_SWITCH_FOOTER_WLAN" = "Automatically install software updates overnight after they have been downloaded. You will receive a notification before updates are installed. Your Apple Watch must be on charger and in range of your iPhone connected to WLAN to complete the update.";
+"BETA_UPDATES" = "Beta Updates";
+"BETA_UPDATES_FAILED_TITLE" = "Unable To Set Beta Update";
+"AUTOMATIC_UPDATES_DISABLED" = "Off";
+"RESUME_DOWNLOADING" = "Resume Downloading to Watch…";
+"EXIT_UPDATE_TITLE" = "Exit Update?";
+"OK_LAST_STEP" = "Save";
+"6_DIGIT_CODE" = "6-Digit Numeric Code";
+"LEARN_MORE_LINK" = "Learn more…";
+"PMSET_1_PROMPT" = "Enter a passcode";
+"WRONG_2" = "Try again";
+"ABOUT_THIS_UPDATE" = "About this Update";
+"OK" = "OK";
+"RESUME_DOWNLOADING_FOOTER_WIFI" = "You can resume the download when you are connected to a Wi-Fi network.";
+"INSTALL_NOW" = "Install Now";
+"BETA_UPDATES_FAILED_MESSAGE" = "Please try again later.";
+"PMSET" = "Set Passcode";
+"MULTIPLE_MINUTES_TO_UNBLOCK" = "Try again in %@ minutes";
+"BETA_UPDATES_APPLE_ID_PROMPT" = "Sign in to Apple Account";
+"PMENTER" = "Enter Passcode";
+"COMPANION_UPDATE_ALLOWS_WATCH_UPDATE_FORMAT" = "To update your Apple Watch, you first need to update your iPhone. You can update your iPhone software in Settings.";
+"PMREMOVE" = "Turn Off Passcode";
+"INSTALLATION_PAUSED_BATTERY" = "To install the update, Apple Watch must be connected to its charger and charged at least 50%.";
+"CHANGE_PASSCODE" = "Change Passcode";
+"INSTALL_BUTTON_FOOTER_AUTO_UPDATE" = "Apple Watch will try to install this update later tonight.";
+"INSTALL_BUTTON_FOOTER_CHARGER_OPTIONAL_WLAN" = "To install the update, make sure Apple Watch is:
+• In range of your iPhone connected to WLAN
+
+Installation will start when Apple Watch is charged to at least %d%%, or on its charger and charged to at least %d%%. Do not restart until the update completes.";
+"PASSCODE_OPTIONS" = "Passcode Options";
+"IPHONE_MIRROR_BLOCK_PASSCODE_TITLE" = "Authentication Required";
+"PMREMOVE_1_PROMPT" = "Enter your passcode";
+"CUSTOM_ALPHANUMERIC_CODE" = "Custom Alphanumeric Code";
+"PMCHANGE_1_PROMPT" = "Enter your old passcode";
+"UP_TO_DATE_MANAGED" = "Your Apple Watch is running the latest software update allowed by your administrator";
+"AUTOMATIC_UPDATES" = "Automatic Updates";
+"WRONG_1" = "Wrong passcode";
+"COMPANION_UPDATE_ALLOWS_WATCH_UPDATE_FORMAT_TITLE" = "Update iPhone First";
+"NEXT" = "Next";
+"WATCH_OS_VERSION_WITH_CUSTOM_OS_NAME" = "%@ %@";
+"EXIT_UPDATE_PBAutomationStringContinueButton" = "Continue Update";
+"ONE_MINUTE_TO_UNBLOCK" = "Try again in %@ minute";
+"4_DIGIT_CODE" = "4-Digit Numeric Code";
+"IPHONE_MIRROR_BLOCK_PASSCODE_MESSAGE" = "Software Update requires Passcode on your iPhone. Use iPhone to continue.";
+"UNACCEPTABLE_PIN_1" = "Unacceptable Passcode";
+"DOWNLOAD_AND_INSTALL" = "Download and Install";
+"BETA_UPDATES_FOOTER" = "Receive beta versions of watchOS which lets you test-drive the latest features on your Apple Watch and provide feedback. %@";

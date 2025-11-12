@@ -1,0 +1,29 @@
+"SPLASH_TITLE" = "Check In & Privacy";
+"FOOTER_TEXT" = "You can use Check In to interact with and share your journey with a friend. You can start a Check In session with your iPhone with iOS 17 or later. You and your Check In friend will both need to have enabled iMessage and be signed in with your own Apple Account and have two-factor authentication enabled. In order to facilitate your Check In session, Apple retains personal data around your session, including your type of Check In session and whether you are currently active in a session. Apple retains this personal data only for the length of your Check In session and for 24 hours afterward.
+
+Your destination and approximate arrival time will be shared with your friend when you start a destination session. Your friend will be sent an automatic notification informing them when your device arrives at your destination or when your time duration ends and you confirm you are doing okay. You can also cancel a Check In at any time by tapping “End Check In” or “Stop Sharing”. When a Check In session is ended, your friend will automatically receive a notification, and information about your Check In session will be deleted.
+
+While in a Check In session, information about your devices will be temporarily saved. Since Check In uses iMessage, this information is encrypted end to end. In the event something unexpected happens, such as your device failing to reach its destination or losing connectivity; or an emergency event, such as Crash Detection, Fall Detection; or you use any of the Emergency SOS features and you do not respond to prompts on your device, your friend will automatically be sent an iMessage letting them know. They will also be sent the option to download your Check In information about your device, including last-known battery level, cellular status, and location. You can also opt in to sharing the route your device took from your starting point to your device’s last-known location. Your device(s) will continue to monitor your progress and update your friend on your device status for up to 24 hours after the event. Your device and your friend’s device will keep your Check In information downloaded locally for up to seven days. In the event your friend has been notified in error, you can end the session by tapping End Check In, and let them know by contacting them in the Messages or Phone apps, for example.
+
+Applicable Legal Basis for Processing Personal Data
+
+When you use Check In, Apple processes your personal data as necessary for providing the service, and to comply with our legal obligations. Where consent is the appropriate legal basis, we seek it in accordance with applicable local law.
+
+Where applicable local law permits, we process the following categories of personal data as necessary for purposes of our legitimate interests or those of a third party, including information about whether you are currently in a Check In session with another person, who that person is, and if the cache is released during the current session. These legitimate interests include to:
+
+• Troubleshoot, prevent fraud or criminal activity
+• Help maintain the Check In architecture by ensuring your session information gets sent to the correct contact
+
+Retention
+
+Apple retains personal data only for so long as necessary to fulfill the purposes for which it was collected, including as described in Apple’s Privacy Policy or in our service-specific privacy notices, or as required by law. When assessing retention periods, we first carefully examine whether it is necessary to retain the personal data collected and, if retention is required, work to retain the personal data for the shortest possible period permissible under law. Apple retains limited personal data about your use of Check In, such as if you are currently active in a Check In session and with whom, for the length of a Check In session and up to 24 hours after.
+
+At all times, information collected by Apple will be treated in accordance with Apple’s Privacy Policy, which can be found at www.apple.com/privacy.";
+"BUTTON_TITLE" = "See how your data is managed…";
+"SECOND_BULLET" = "The contents of any information from your Check In session shared with your friend are end-to-end encrypted.";
+"BUTTON_CAPTION" = "Check In allows you to share information about your progress to a destination with a friend. You can also set it up for a time duration.";
+"THIRD_BULLET" = "Apple retains limited personal data about your use of Check In, such as whether you are currently active in a Check In session and the type of Check In session, for the length of your Check In session and for 24 hours afterward.";
+"FOURTH_BULLET" = "Your destination and approximate arrival time will be shared with the friend when you start a destination session.";
+"SPLASH_SUMMARY" = "Check In is designed to protect your information, enable you to choose what you share, and share only when you are in need.";
+"SPLASH_SHORT_TITLE" = "Check In";
+"FIRST_BULLET" = "Information about your device such as your device’s battery level, cellular status, and last known location, may be shared with your friend in the event something unexpected happens.";

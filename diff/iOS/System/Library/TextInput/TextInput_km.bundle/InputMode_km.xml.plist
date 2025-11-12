@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>km</key>
+		<array>
+			<string>km</string>
+			<string>en_GB</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>km</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Khmer</string>
+			</array>
+			<key>Preferences</key>
+			<array>
+				<string>KeyboardMathExpressionCompletion</string>
+				<string>KeyboardPeriodShortcut</string>
+				<string>SmartTyping</string>
+			</array>
+			<key>SWLayouts</key>
+			<array>
+				<string>Khmer</string>
+			</array>
+			<key>UIKeyboardDefaultLayoutIsASCIICapable</key>
+			<false/>
+			<key>UIKeyboardSentenceDelimitingCharacters</key>
+			<string>,.?!។</string>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

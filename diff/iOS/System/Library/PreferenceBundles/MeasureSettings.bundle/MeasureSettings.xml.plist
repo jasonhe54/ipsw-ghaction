@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>defaults</key>
+			<string>com.apple.measure</string>
+			<key>isRadioGroup</key>
+			<true/>
+			<key>key</key>
+			<string>kMeasureUnitsV1</string>
+			<key>label</key>
+			<string>MEASURE_UNITS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>Imperial</string>
+			<key>label</key>
+			<string>MEASURE_UNITS_IMPERIAL</string>
+			<key>value</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>id</key>
+			<string>Metric</string>
+			<key>label</key>
+			<string>MEASURE_UNITS_METRIC</string>
+			<key>value</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>MEASURE</string>
+</dict>
+</plist>

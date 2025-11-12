@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>styles</key>
+	<array>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Oil Painting</string>
+			</dict>
+			<key>description</key>
+			<string>Contemporary painting, fine details, with dramatic lighting and rich detail. Visible brushstrokes. Layers of texture, soft focus, and painterly realism evoke intimacy and quiet surrealism. Contemporary. Vibrant colors, neutral white balance.</string>
+			<key>iconFilename</key>
+			<string>Oil Painting</string>
+			<key>id</key>
+			<integer>1</integer>
+			<key>supportedProvidersIdentifiers</key>
+			<array>
+				<string>com.apple.openai.chatgpt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Watercolor</string>
+			</dict>
+			<key>description</key>
+			<string>Colorful, delicate watercolor painting with translucent washes, gentle bleeds, paper‑white highlights. Light and airy, modern, quickly painted.</string>
+			<key>iconFilename</key>
+			<string>Watercolor</string>
+			<key>id</key>
+			<integer>2</integer>
+			<key>supportedProvidersIdentifiers</key>
+			<array>
+				<string>com.apple.openai.chatgpt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Vector</string>
+			</dict>
+			<key>description</key>
+			<string>2D borderless sticker. NO white border. Bright, solid colors. Clean lines. Cute. Extremely high quality. Solid background.</string>
+			<key>iconFilename</key>
+			<string>Vector</string>
+			<key>id</key>
+			<integer>3</integer>
+			<key>supportedProvidersIdentifiers</key>
+			<array>
+				<string>com.apple.openai.chatgpt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Anime</string>
+			</dict>
+			<key>description</key>
+			<string>Early 90s anime.</string>
+			<key>iconFilename</key>
+			<string>Anime</string>
+			<key>id</key>
+			<integer>4</integer>
+			<key>supportedProvidersIdentifiers</key>
+			<array>
+				<string>com.apple.openai.chatgpt</string>
+			</array>
+		</dict>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>localizedDisplayName</key>
+				<string>Print</string>
+			</dict>
+			<key>description</key>
+			<string>A modern editorial illustrated screen printing art, stylized and refined, elegant composition. Flat, blocky shapes. Color. Visible but subtle paper &amp; ink patterns. Slight misalignments.</string>
+			<key>iconFilename</key>
+			<string>Print</string>
+			<key>id</key>
+			<integer>5</integer>
+			<key>supportedProvidersIdentifiers</key>
+			<array>
+				<string>com.apple.openai.chatgpt</string>
+			</array>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>202505141147</string>
+</dict>
+</plist>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>metrics</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>RecordSync</string>
+			<key>datatype</key>
+			<integer>3</integer>
+			<key>dmaCompliant</key>
+			<integer>0</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>mode</key>
+			<integer>7</integer>
+			<key>name</key>
+			<string>zone</string>
+			<key>privacyClassification</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>2</integer>
+			<key>subsystem</key>
+			<string>Replicator</string>
+			<key>timeToLive</key>
+			<integer>1</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>RecordSync</string>
+			<key>datatype</key>
+			<integer>3</integer>
+			<key>dmaCompliant</key>
+			<integer>0</integer>
+			<key>enabledPopulation</key>
+			<integer>3</integer>
+			<key>mode</key>
+			<integer>7</integer>
+			<key>name</key>
+			<string>clientIdentifier</string>
+			<key>privacyClassification</key>
+			<integer>1</integer>
+			<key>storage</key>
+			<integer>2</integer>
+			<key>subsystem</key>
+			<string>Replicator</string>
+			<key>timeToLive</key>
+			<integer>1</integer>
+			<key>unit</key>
+			<dict>
+				<key>symbol</key>
+				<string></string>
+			</dict>
+			<key>version</key>
+			<real>1</real>
+		</dict>
+	</array>
+</dict>
+</plist>

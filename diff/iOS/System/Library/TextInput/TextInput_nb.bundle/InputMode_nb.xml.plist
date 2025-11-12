@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIKeyboardDefaultLanguageInputModes</key>
+	<dict>
+		<key>nb</key>
+		<array>
+			<string>nb_NO</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSuggestedDefaultLanguageInputModes</key>
+	<dict>
+		<key>nb_NO</key>
+		<array>
+			<string>nb_NO</string>
+			<string>emoji</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSuggestedLanguageInputModes</key>
+	<dict>
+		<key>nb_NO</key>
+		<array>
+			<string>nb_NO</string>
+			<string>nn</string>
+			<string>smj</string>
+			<string>se</string>
+			<string>sma</string>
+			<string>emoji</string>
+		</array>
+	</dict>
+	<key>UIKeyboardSupportedInputModes</key>
+	<dict>
+		<key>nb_NO</key>
+		<dict>
+			<key>HWLayouts</key>
+			<array>
+				<string>Norwegian</string>
+				<string>Norwegian Extended</string>
+				<string>Group-Latin</string>
+			</array>
+			<key>Hardware</key>
+			<dict>
+				<key>Layout</key>
+				<string>Norwegian</string>
+				<key>USBCountry</key>
+				<integer>19</integer>
+			</dict>
+			<key>KeyboardCPAllowsDeleteWord</key>
+			<true/>
+			<key>KeyboardCPEnabled</key>
+			<true/>
+			<key>SWLayouts</key>
+			<array>
+				<string>QWERTY-Norwegian</string>
+			</array>
+			<key>UIKeyboardEnablePrediction</key>
+			<true/>
+			<key>UIKeyboardHasWordNgramModel</key>
+			<true/>
+			<key>UIKeyboardNonstopPunctuationCharacters</key>
+			<string>-'&amp;`’</string>
+			<key>UIKeyboardPreferredMultilingualLanguageModelLocale</key>
+			<string>mul_154</string>
+			<key>UIKeyboardSpaceCorrectionEnabled</key>
+			<false/>
+			<key>UIKeyboardSupportsMultilingual</key>
+			<true/>
+			<key>UIKeyboardSupportsWatch</key>
+			<true/>
+			<key>UIKeyboardTypeToSiriUnderDevelopment</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

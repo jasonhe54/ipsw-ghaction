@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>JetsamProperties</key>
+	<dict>
+		<key>JetsamMemoryLimit</key>
+		<integer>65500</integer>
+		<key>JetsamPriority</key>
+		<integer>-49</integer>
+	</dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>PathState</key>
+		<dict>
+			<key>/var/mobile/Library/Preferences/com.apple.dataaccess.activesync</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Label</key>
+	<string>com.apple.exchangesyncd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.exchangesyncd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/ExchangeSync.framework/Support/exchangesyncd</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+	<key>_ExponentialThrottling</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_SIDataMapVersion</key>
+	<integer>1</integer>
+	<key>compilationDate</key>
+	<string>2025-10-14</string>
+	<key>hashSize</key>
+	<integer>6</integer>
+	<key>languages</key>
+	<array>
+		<string>fr</string>
+		<string>ko</string>
+		<string>root</string>
+		<string>pt</string>
+		<string>zh_Hans</string>
+		<string>de</string>
+		<string>it</string>
+		<string>es</string>
+		<string>en</string>
+		<string>ja</string>
+	</array>
+	<key>majorVersion</key>
+	<integer>2</integer>
+	<key>maxTokenCount</key>
+	<integer>5</integer>
+	<key>minLengthToRemovePunctuation</key>
+	<integer>10</integer>
+	<key>safetyTypes</key>
+	<array>
+		<string>COPYRIGHTED</string>
+		<string>PHOTOSALLOW</string>
+		<string>TEXTSENSITIVE</string>
+		<string>ALLOW</string>
+		<string>COPYRIGHTED-V17</string>
+		<string>PUBLIC_FIGURE</string>
+		<string>GENERIC_ENTITY</string>
+		<string>PUBLIC_FIGURE-V17</string>
+		<string>FICTIONAL_CHARACTER-V17</string>
+		<string>FICTIONAL_CHARACTER</string>
+		<string>PHOTOSENSITIVE</string>
+	</array>
+</dict>
+</plist>

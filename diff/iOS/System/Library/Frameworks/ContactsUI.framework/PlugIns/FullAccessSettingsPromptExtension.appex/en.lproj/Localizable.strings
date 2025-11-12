@@ -1,0 +1,2 @@
+"FULL_ACCESS_PROMPT_CONTACTS_COUNT %lld" = "{'value': {'one': '1 Contact', 'other': '%lld Contacts', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lld'}, 'NSStringLocalizedFormatKey': '%#@value@'}";
+"FULL_ACCESS_PROMPT_ALLOW_ACCESS_TO_ALL_CONTACTS_DESCRIPTION %@" = "“%@” will be able to access all of your contacts, including any you add or edit in the future.";

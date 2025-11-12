@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.wte.atlas.wirelesseventanalyzerd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.wte.atlas.wirelesseventanalyzerd</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>Program</key>
+	<string>/usr/local/libexec/wirelesseventanalyzerd</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/local/libexec/wirelesseventanalyzerd</string>
+		<string>--run</string>
+	</array>
+	<key>RunAtLoad</key>
+	<dict>
+		<key>#Else</key>
+		<false/>
+		<key>#IfFeatureFlagEnabled</key>
+		<string>ATLASMobile/EventsAndTriggers</string>
+		<key>#Then</key>
+		<true/>
+	</dict>
+	<key>StandardErrorPath</key>
+	<string>/tmp/wirelesseventanalyzerd.log</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/wirelesseventanalyzerd.log</string>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

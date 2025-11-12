@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>MULTILINGUAL_DETAIL_HEADER_GROUP_ID</string>
+			<key>isRadioGroup</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>MULTILINGUAL_DETAIL_GROUP_ID</string>
+			<key>isRadioGroup</key>
+			<true/>
+			<key>label</key>
+			<string>MULTILINGUAL_DETAIL_GROUP_TITLE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>footerText</key>
+			<string>MULTILINGUAL_DETAIL_FOOTER_MIXED</string>
+			<key>id</key>
+			<string>MULTILINGUAL_DETAIL_OPTION_MIXED_ID</string>
+			<key>label</key>
+			<string>MULTILINGUAL_DETAIL_OPTION_MIXED</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSListItemCell</string>
+			<key>footerText</key>
+			<string>MULTILINGUAL_DETAIL_FOOTER_ENGLISH_ONLY</string>
+			<key>id</key>
+			<string>MULTILINGUAL_DETAIL_OPTION_ENGLISH_ONLY_ID</string>
+			<key>label</key>
+			<string>MULTILINGUAL_DETAIL_OPTION_ENGLISH_ONLY</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string></string>
+</dict>
+</plist>

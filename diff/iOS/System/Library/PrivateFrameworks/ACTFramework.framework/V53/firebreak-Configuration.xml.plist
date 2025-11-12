@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACTFrameHeight</key>
+	<integer>3024</integer>
+	<key>ACTFrameWidth</key>
+	<real>4032</real>
+	<key>ACTJPEGPhotoQuality</key>
+	<integer>942814579</integer>
+	<key>ACTPanoramaBPNRMode</key>
+	<integer>10</integer>
+	<key>ACTPanoramaBlendingVersion</key>
+	<integer>1</integer>
+	<key>ACTPanoramaBufferRingSize</key>
+	<integer>2</integer>
+	<key>ACTPanoramaDefaultDirection</key>
+	<integer>1</integer>
+	<key>ACTPanoramaGPUDownscale</key>
+	<true/>
+	<key>ACTPanoramaMaxFrameRate</key>
+	<integer>30</integer>
+	<key>ACTPanoramaMaxWidth</key>
+	<integer>16384</integer>
+	<key>ACTPanoramaMaxWidthPerCamera</key>
+	<dict>
+		<key>AVCaptureDeviceTypeBuiltInUltraWideCamera</key>
+		<string>10922</string>
+	</dict>
+	<key>ACTPanoramaMinFrameRate</key>
+	<integer>30</integer>
+	<key>ACTPanoramaOptions</key>
+	<dict>
+		<key>PixelShufflerDesatMappingBasePoint</key>
+		<integer>25</integer>
+		<key>PixelShufflerDesatMaxAWBDelta</key>
+		<real>0.5</real>
+		<key>PixelShufflerDesatScale</key>
+		<real>2</real>
+	</dict>
+	<key>ACTPanoramaPowerBlurBias</key>
+	<integer>30</integer>
+	<key>ACTPanoramaPowerBlurSlope</key>
+	<integer>15</integer>
+	<key>ACTPanoramaRobustPano</key>
+	<integer>1</integer>
+	<key>ACTPanoramaRobustPanoDisableV1</key>
+	<true/>
+	<key>ACTPanoramaRobustPanoNRFUsePanoType</key>
+	<true/>
+	<key>ACTPanoramaRobustPanoNRFversion</key>
+	<integer>4</integer>
+	<key>ACTPanoramaSliceWidth</key>
+	<integer>320</integer>
+	<key>ACTPanoramaVerticalDriftFilterWeight</key>
+	<real>0.33000000000000002</real>
+	<key>ghostingSpeedScaleBrightLight</key>
+	<real>3.5</real>
+	<key>ghostingSpeedScaleBrightLightIntegrationTime</key>
+	<integer>1000</integer>
+	<key>ghostingSpeedScaleLowLight</key>
+	<real>6.4000000000000004</real>
+	<key>ghostingSpeedScaleLowLightIntegrationTime</key>
+	<integer>200</integer>
+</dict>
+</plist>

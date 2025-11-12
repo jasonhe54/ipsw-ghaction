@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>MUSIC_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>MUSIC_KEYWORDS</string>
+			<key>label</key>
+			<string>MUSIC</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoMusicBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoMusicBridgeSettings</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>PLAYLISTS__ALBUMS_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>PLAYLISTS__ALBUMS_KEYWORDS</string>
+			<key>label</key>
+			<string>PLAYLISTS__ALBUMS</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoMusicBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoMusicBridgeSettings#PLAYLISTS%20&amp;%20ALBUMS</string>
+		</dict>
+		<dict>
+			<key>contentDescription</key>
+			<string>ADD_MUSIC_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>ADD_MUSIC_KEYWORDS</string>
+			<key>label</key>
+			<string>ADD_MUSIC</string>
+			<key>searchSectionID</key>
+			<string>com.apple.NanoMusicBridgeSettings</string>
+			<key>searchURL</key>
+			<string>bridge:root=com.apple.NanoMusicBridgeSettings#Add%20Music%E2%80%A6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

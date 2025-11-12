@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DSP Devices</key>
+	<dict>
+		<key>Display Microphone</key>
+		<dict>
+			<key>Parameters</key>
+			<dict>
+				<key>InputVolumeInitial</key>
+				<integer>0</integer>
+				<key>InputVolumeMax</key>
+				<integer>12</integer>
+				<key>InputVolumeMin</key>
+				<integer>-12</integer>
+			</dict>
+		</dict>
+		<key>Display Speaker</key>
+		<dict>
+			<key>Parameters</key>
+			<dict>
+				<key>OutputVolumeInitial</key>
+				<integer>-22</integer>
+				<key>OutputVolumeMax</key>
+				<integer>0</integer>
+				<key>OutputVolumeMin</key>
+				<real>-63.5</real>
+				<key>TapStreamChannelCount</key>
+				<integer>8</integer>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

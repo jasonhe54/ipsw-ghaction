@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>contentDescription</key>
+			<string>SEARCH_DESCRIPTION</string>
+			<key>keywords</key>
+			<string>SEARCH_KEYWORDS</string>
+			<key>label</key>
+			<string>SEARCH</string>
+			<key>searchSectionID</key>
+			<string>SEARCH</string>
+			<key>searchURL</key>
+			<string>settings-navigation://com.apple.Settings.Search</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>GroupName</key>
+	<string>mobile</string>
+	<key>Label</key>
+	<string>com.apple.managedassetsd</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.managedassets.postinstall</key>
+			<dict>
+				<key>PostInstall</key>
+				<true/>
+				<key>Priority</key>
+				<string>Utility</string>
+			</dict>
+			<key>com.apple.managedassets.repeatingTask</key>
+			<dict>
+				<key>Priority</key>
+				<string>Utility</string>
+				<key>RepeatingTask</key>
+				<dict>
+					<key>Interval</key>
+					<integer>3600</integer>
+					<key>MinDurationBetweenInstances</key>
+					<integer>2880</integer>
+				</dict>
+				<key>RequiresExternalPower</key>
+				<false/>
+				<key>RequiresNetworkConnectivity</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.managedassetsd</key>
+		<true/>
+		<key>com.apple.managedassetsd</key>
+		<true/>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>Program</key>
+	<string>/usr/libexec/managedassetsd</string>
+	<key>PublishesEvents</key>
+	<array>
+		<string>com.apple.managedassetsd.notification</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

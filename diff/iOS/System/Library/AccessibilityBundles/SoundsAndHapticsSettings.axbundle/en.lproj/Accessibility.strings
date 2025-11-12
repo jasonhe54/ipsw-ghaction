@@ -1,0 +1,7 @@
+"decibel.value" = "%@ decibels";
+"decibel.label" = "Decibel level";
+"notification.value" = "{'notifications': {'one': '%d notification', 'other': '%d notifications', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'd'}, 'NSStringLocalizedFormatKey': '%#@notifications@'}";
+"headphone.notifications.yaxis" = "Number of Notifications";
+"headphone.notifications.title" = "Headphone Notifications";
+"headphone.notifications.chart.summary" = "Headphone Notifications from %1$@ to %2$@";
+"headphone.notifications.xaxis" = "Month";

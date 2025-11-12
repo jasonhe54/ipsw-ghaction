@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.jablko.cz/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Jablko</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.ceskatelevize.cz/ct1/porady-pro-deti/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Česká televize pro děti</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://alik.idnes.cz/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Alík</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.linkabezpeci.cz/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Linka bezpečí</string>
+		</dict>
+	</array>
+</dict>
+</plist>

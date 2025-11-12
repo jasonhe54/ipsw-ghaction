@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>VSRecognitionClasses</key>
+	<array>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>přehrát</string>
+				<string>přehrát hudbu</string>
+				<string>hrát</string>
+				<string>hrát hudbu</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>play-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>pozastavit</string>
+				<string>pozastavit hudbu</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>pause-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>přehrát</string>
+				<string>hrát</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>další</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>předchozí</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>prev-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>zamíchat</string>
+				<string>náhodně</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>shuffle-command</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeCommand</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>stopa</string>
+				<string>skladba</string>
+				<string>písnička</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>next-prev-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>seznam stop</string>
+				<string>playlist</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-playlist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>skladby od</string>
+				<string>písničky od</string>
+				<string>interpreta</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-artist-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>album</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>select-album-object</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>interpret</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeArtistName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>seznam stop</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>album</string>
+			<key>VSRecognitionClassType</key>
+			<string>VSRecognitionClassTypeAlbumName</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>genius</string>
+				<string>přehrát další podobné skladby</string>
+				<string>přehrát další podobné písničky</string>
+				<string>přehrát další podobné</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>genius-command</string>
+		</dict>
+		<dict>
+			<key>VSRecognitionClassElements</key>
+			<array>
+				<string>co je to za skladbu</string>
+				<string>jak se jmenuje tato skladba</string>
+				<string>kdo zpívá tuto skladbu</string>
+				<string>co to hraje</string>
+				<string>jaká skladba hraje</string>
+				<string>od koho je tato skladba</string>
+				<string>od které skupiny je tato skladba</string>
+				<string>od které kapely je tato skladba</string>
+				<string>co je to za písničku</string>
+				<string>jak se jmenuje tato písnička</string>
+				<string>kdo zpívá tuto písničku</string>
+				<string>jaká písnička hraje</string>
+				<string>od koho je tato písnička</string>
+				<string>od které skupiny je tato písnička</string>
+				<string>od které kapely je tato písnička</string>
+			</array>
+			<key>VSRecognitionClassIdentifier</key>
+			<string>identify-command</string>
+		</dict>
+	</array>
+	<key>VSRecognitionKeywords</key>
+	<array>
+		<array>
+			<string>co je to za skladbu?</string>
+			<string>jak se jmenuje tato skladba?</string>
+			<string>kdo zpívá tuto skladbu?</string>
+			<string>co to hraje?</string>
+			<string>jaká skladba hraje?</string>
+			<string>od koho je tato skladba?</string>
+			<string>od které skupiny je tato skladba?</string>
+			<string>od které kapely je tato skladba?</string>
+			<string>co je to za písničku?</string>
+			<string>jak se jmenuje tato písnička?</string>
+			<string>kdo zpívá tuto písničku?</string>
+			<string>jaká písnička hraje?</string>
+			<string>od koho je tato písnička?</string>
+			<string>od které skupiny je tato písnička?</string>
+			<string>od které kapely je tato písnička?</string>
+		</array>
+		<array>
+			<string>genius</string>
+			<string>přehrát další podobné skladby</string>
+			<string>hrát další podobné skladby</string>
+			<string>přehrát další podobné písničky</string>
+			<string>hrát další podobné písničky</string>
+			<string>přehrát další podobné</string>
+			<string>hrát další podobné</string>
+		</array>
+		<array>
+			<string>přehrát seznam stop</string>
+			<string>přehrát playlist</string>
+		</array>
+		<array>
+			<string>přehrát interpreta</string>
+			<string>přehrát skladby od</string>
+			<string>hrát interpreta</string>
+			<string>hrát skladby od</string>
+		</array>
+		<array>
+			<string>přehrát album</string>
+			<string>hrát album</string>
+		</array>
+		<array>
+			<string>zamíchat</string>
+			<string>náhodně</string>
+		</array>
+		<array>
+			<string>předchozí stopa</string>
+			<string>předchozí skladba</string>
+			<string>předchozí písnička</string>
+		</array>
+		<array>
+			<string>další stopa</string>
+			<string>další skladba</string>
+			<string>další písnička</string>
+		</array>
+		<array>
+			<string>pozastavit</string>
+			<string>pozastavit hudbu</string>
+		</array>
+		<array>
+			<string>přehrát</string>
+			<string>přehrát hudbu</string>
+			<string>hrát</string>
+			<string>hrát hudbu</string>
+		</array>
+	</array>
+	<key>VSRecognitionSequences</key>
+	<array>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>play-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>pause-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>next-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>prev-command</string>
+				<string>next-prev-object</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>shuffle-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-album-object</string>
+				<string>album</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-artist-object</string>
+				<string>interpret</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>select-command</string>
+				<string>select-playlist-object</string>
+				<string>seznam stop</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>genius-command</string>
+			</array>
+		</dict>
+		<dict>
+			<key>VSRecognitionSequenceElements</key>
+			<array>
+				<string>identify-command</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

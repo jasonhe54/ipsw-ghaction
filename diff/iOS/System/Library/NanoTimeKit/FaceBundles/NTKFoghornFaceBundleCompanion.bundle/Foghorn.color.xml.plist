@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>faces</key>
+	<dict>
+		<key>foghorn</key>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>special.multicolor</string>
+				<key>gallery-default</key>
+				<array>
+					<string>adventurer</string>
+					<string>ocean</string>
+					<string>performance</string>
+				</array>
+			</dict>
+			<key>imports</key>
+			<array>
+				<string>standard</string>
+				<array>
+					<string>special.multicolor</string>
+				</array>
+				<array>
+					<string>adventurer</string>
+					<string>ocean</string>
+					<string>performance</string>
+				</array>
+				<string>seasons-monotone</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

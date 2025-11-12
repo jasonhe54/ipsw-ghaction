@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>maximum_duration</key>
+	<integer>10</integer>
+	<key>name</key>
+	<string>AdPlatformsConversionOnDevice</string>
+	<key>signposts</key>
+	<array>
+		<dict>
+			<key>category</key>
+			<string>OnDeviceConversion</string>
+			<key>end</key>
+			<true/>
+			<key>environment_field_names</key>
+			<array>
+				<string>type</string>
+			</array>
+			<key>event_identifier_field_name</key>
+			<string>id</string>
+			<key>name</key>
+			<string>Signal</string>
+			<key>start</key>
+			<true/>
+			<key>subsystem</key>
+			<string>com.apple.adplatforms.perf</string>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>OnDeviceConversion</string>
+			<key>event_identifier_field_name</key>
+			<string>id</string>
+			<key>name</key>
+			<string>Matching Step1</string>
+			<key>subsystem</key>
+			<string>com.apple.adplatforms.perf</string>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>OnDeviceConversion</string>
+			<key>event_identifier_field_name</key>
+			<string>id</string>
+			<key>name</key>
+			<string>Matching Step2</string>
+			<key>subsystem</key>
+			<string>com.apple.adplatforms.perf</string>
+		</dict>
+		<dict>
+			<key>category</key>
+			<string>OnDeviceConversion</string>
+			<key>event_identifier_field_name</key>
+			<string>id</string>
+			<key>name</key>
+			<string>Matching Step3</string>
+			<key>subsystem</key>
+			<string>com.apple.adplatforms.perf</string>
+		</dict>
+	</array>
+</dict>
+</plist>

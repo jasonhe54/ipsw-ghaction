@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APNEditabilityTypemask</key>
+	<integer>5</integer>
+	<key>AllowEDGEEditing</key>
+	<true/>
+	<key>CarrierName</key>
+	<string>ONE</string>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>1anonymous</string>
+		<key>Certificate</key>
+		<string>MIIDODCCAiCgAwIBAgIFICUHFgAwDQYJKoZIhvcNAQELBQAwNDEbMBkGA1UECgwS
+T25lIENvbW11bmljYXRpb25zMRUwEwYDVQQDDAxJTVNJIHByaXZhY3kwHhcNMjUw
+NzE3MDI1MjEyWhcNMjcwNzE3MDI1MjEyWjA0MRswGQYDVQQKDBJPbmUgQ29tbXVu
+aWNhdGlvbnMxFTATBgNVBAMMDElNU0kgcHJpdmFjeTCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMBaLESAgz4TS1VkyDZ+02WSH3t8trVs4PKAS/zLtEvG
+HeA3qbCwHblfBLwVZcXkdZ6hMbawGPZTzRDsg3UWkrNpepj6htO6t/t8BrRxvNl0
+HoWedsNMtMCo3iL/S0xUdUPyjqkMMYKT7gadypOZwwbSMdaUrvbpKIlyZBDJ6XvM
+7yNODWgr4RmYy/oDhBZsfqHWtoMvzZerzgkHLivTJ5jR+MgoJYWzRUyRmjk9FRqS
+siSrpqVWvsIm/PxXsAxLa4r3Jv3xvhf4Z79h8OPZUVbCpktkirc1btUGqkiAQOrW
+LW9rS4dSexi91kfwdGRpJeAkEgomMUpxSnj3MJM1H4UCAwEAAaNRME8wDAYDVR0T
+AQH/BAIwADALBgNVHQ8EBAMCAqQwEwYDVR0lBAwwCgYIKwYBBQUHAwIwHQYDVR0O
+BBYEFPWQ8dAtiShCxbwPnxssyHwk6s0GMA0GCSqGSIb3DQEBCwUAA4IBAQA4YpBj
+D9x2zkpCJT58n6obLsU5c6TFKGyOVnMIedbscgMXKxMfIV8ewPMATa8eW7iCGHv9
+2pCvZ+GU7pZesqjBiP8QLpKUzeA44g6bEBuB8+wPTTlsuVW6bPWcRm3D8zUZd3P9
+NVqvXKIbPqnvz8F1t2y5VK7otVl5qAI89/vkMEx8plljw77bghN9VV0W86f49bkm
+TJh5kqIARm5VvFI/89RElBAHBEINGTEyY0kwPqepp9xDx9yrmZhQSybxaP+AuTdC
+EuPYQrBUr8gJXS8L8xVtvgn6hTqbsA5oI4qP+rfy/VN4C6KMH1jWJJrASmtztJ9M
+aUdA2Lt8voem0Y48</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=2025071600</string>
+		<key>UpdateURL</key>
+		<string>https://oneimsi.gtt.co.gy/auth</string>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.Guyana</string>
+	<key>MaxBluetoothModemConnections</key>
+	<integer>5</integer>
+	<key>PhoneNumberRegistrationGatewayAddress</key>
+	<string>27753</string>
+	<key>RegistrationOptInRequired</key>
+	<true/>
+	<key>Services</key>
+	<array>
+		<dict>
+			<key>ServiceCode</key>
+			<string>911</string>
+			<key>ServiceName</key>
+			<string>Emergency</string>
+		</dict>
+	</array>
+	<key>ShowDialAssist</key>
+	<true/>
+	<key>ShowTTY</key>
+	<false/>
+	<key>StatusBarImages</key>
+	<array>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GTT+ Do More</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GTT</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GT&amp;T</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GUY GTT + Do More</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GUY GTT+ Do More</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+		<dict>
+			<key>AllowPrefixMatching</key>
+			<true/>
+			<key>CarrierName</key>
+			<string>GTT-WE RISE</string>
+			<key>StatusBarCarrierName</key>
+			<string>ONE</string>
+		</dict>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>738002</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>VVMIgnoresIntlDataRoaming</key>
+	<false/>
+	<key>VisualVoicemailServiceName</key>
+	<string>none</string>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>AllowedProtocolMask</key>
+			<integer>3</integer>
+			<key>DefaultProtocolMask</key>
+			<integer>3</integer>
+			<key>apn</key>
+			<string>Onecomm</string>
+			<key>type-mask</key>
+			<integer>49</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

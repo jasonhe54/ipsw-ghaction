@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domain-override-map</key>
+	<dict>
+		<key>CA</key>
+		<string>https://www.audible.ca/</string>
+		<key>IN</key>
+		<string>https://www.audible.in/</string>
+		<key>JP</key>
+		<string>https://www.audible.co.jp/</string>
+	</dict>
+</dict>
+</plist>

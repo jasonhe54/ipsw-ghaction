@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>UniversalSuggestionsModelv2</string>
+	<key>NSManagedObjectModel_VersionChecksums</key>
+	<dict>
+		<key>UniversalSuggestionsModel</key>
+		<string>668Htv65IcQwC9sABIovZf/mfsp8nlFiI4S65nnSxsI=</string>
+		<key>UniversalSuggestionsModelv2</key>
+		<string>lHFyVGuu2Odoq68X0GeY9GR/sSJwQqxgw3xbUckoX5s=</string>
+	</dict>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>UniversalSuggestionsModel</key>
+		<dict>
+			<key>DomainDonationCoreDataRecord</key>
+			<data>
+			BVpGny9IykWOS3bYdoiLGJH+ehLn/YKiiiqHybRinpo=
+			</data>
+			<key>UniversalCandidateCoreDataRecord</key>
+			<data>
+			s3wra2gsZUDkOc9+pcODIE1Xb3HKdbrxk5SJTuM4nR4=
+			</data>
+			<key>UniversalRuntimeSuggestionCoreDataRecord</key>
+			<data>
+			N2p2iHnK+8bZMk1+CNGjPrG5U43/ARstmWEDZpo9Xz8=
+			</data>
+			<key>UniversalSuggestionCoreDataRecord</key>
+			<data>
+			WLxN9GhB72XQp2OS6onVui4iQgdqjVejgdWZ/G9/Aac=
+			</data>
+		</dict>
+		<key>UniversalSuggestionsModelv2</key>
+		<dict>
+			<key>UniversalCandidateCoreDataRecord</key>
+			<data>
+			u6GYpu2ravUFxhU2fUjIQ/pFuVlN24E2EonBdDlWTSc=
+			</data>
+			<key>UniversalRuntimeSuggestionCoreDataRecord</key>
+			<data>
+			M10h19grVcddI73OCNv85wk5Ec9e4Ce6xiC5RrmE4No=
+			</data>
+			<key>UniversalSuggestionCoreDataRecord</key>
+			<data>
+			WLxN9GhB72XQp2OS6onVui4iQgdqjVejgdWZ/G9/Aac=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

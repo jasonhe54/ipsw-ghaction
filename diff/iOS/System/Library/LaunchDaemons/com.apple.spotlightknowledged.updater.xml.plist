@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.spotlightknowledged.updater</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.bg.system.task</key>
+		<dict>
+			<key>com.apple.corespotlight.knowledge.report</key>
+			<dict>
+				<key>#IfFeatureFlagEnabled</key>
+				<string>SpotlightKnowledge/MetricsJobRefactor</string>
+				<key>#Then</key>
+				<dict>
+					<key>Priority</key>
+					<string>Utility</string>
+					<key>RepeatingTask</key>
+					<dict>
+						<key>Interval</key>
+						<integer>86400</integer>
+					</dict>
+					<key>RequiresExternalPower</key>
+					<true/>
+					<key>RequiresNetworkConnectivity</key>
+					<false/>
+					<key>RequiresProtectionClass</key>
+					<string>C</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.spotlightknowledged</key>
+		<dict/>
+	</dict>
+	<key>NO_EnvironmentVariables</key>
+	<dict>
+		<key>MallocStackLogging</key>
+		<integer>1</integer>
+		<key>MallocStackLoggingNoCompact</key>
+		<integer>1</integer>
+		<key>NO_DYLD_INSERT_LIBRARIES</key>
+		<string>/usr/lib/libgmalloc.dylib</string>
+		<key>NSDebugEnabled</key>
+		<integer>1</integer>
+		<key>NSZombieEnabled</key>
+		<integer>0</integer>
+	</dict>
+	<key>POSIXSpawnType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged</string>
+		<string>-u</string>
+	</array>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

@@ -1,0 +1,28 @@
+"HelperCommunicationFailed" = "Unable to communicate with the copy helper.";
+"ReservationError" = "The operation can’t be completed because an item is being modified.";
+"FileBusy" = "The operation can’t be completed because a required item is in use.";
+"GenericArchiveName" = "Archive";
+"UnknownError" = "The operation can’t be completed because an unexpected error occurred (error code %d).";
+"WritePermission" = "Some files can’t be processed, either because you don’t have permission to modify them, or because they are on a locked volume.";
+"NotEnoughSpace" = "There is not enough free space available.";
+"FileNotFound" = "The operation can’t be completed because one or more required items can’t be found.
+(Error code %d)";
+"FileTooBig" = "The operation can’t be completed because a file is too large for the destination volume’s format.";
+"InvalidBomZip" = "The archive “%@” could not be read.";
+"BadName" = "You can’t copy the item “%@” because its name is too long or includes characters that are invalid on the destination volume.";
+"CopyFailed" = "The operation couldn’t be completed.";
+"IOError" = "The operation can’t be completed because some data in “%@” can’t be read or written.
+(Error code -36)";
+"ArchiveEnterPassword" = "Please enter the password for “%@”.";
+"DeviceDisappeared" = "The operation can’t be completed because the device disappeared.";
+"Preparing…" = "Preparing…";
+"AccessDenied" = "The operation can’t be completed because you don’t have permission to access some of the items.";
+"NoSourceOrDestination" = "Unable to access the source or destination of the copy.";
+"CaseSensitivity" = "You can’t copy “%@” because it has the same name as another item on the destination volume, and that volume doesn’t distinguish between upper- and lowercase letters in filenames.";
+"DuplicateFileName" = "The operation can’t be completed because an item with the name “%@” already exists.";
+"OK" = "OK";
+"DownloadFailed" = "The item “%@” couldn’t be downloaded.";
+"DiskFull" = "The operation can’t be completed because the disk is full.";
+"Copying files" = "Copying files";
+"TooBigForDestination" = "The item “%@” can’t be copied because it is too large for the volume’s format.";
+"ArchiveIsEmpty" = "The archive “%@” is empty or contains no readable items.";

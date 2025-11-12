@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>badgeModelFilenames</key>
+	<array>
+		<string>BACK</string>
+		<string>MODALITY_CUMULATIVE_1000</string>
+	</array>
+	<key>badgeModelVersion</key>
+	<integer>2</integer>
+	<key>enamelTriColor1</key>
+	<string>1.000 0.000 0.000</string>
+	<key>enamelTriColor2</key>
+	<string>silver</string>
+	<key>enamelTriColor3</key>
+	<string>silver</string>
+	<key>faceHasMetalInlay</key>
+	<true/>
+	<key>fullColorEnamel</key>
+	<false/>
+	<key>glyphPositionOffset</key>
+	<string>47 49</string>
+	<key>glyphScale</key>
+	<real>0.45591100000000001</real>
+	<key>glyphTextureFilename</key>
+	<string>dance</string>
+	<key>metalColor</key>
+	<string>silver</string>
+	<key>section</key>
+	<string>FITNESS_PLUS</string>
+	<key>shape</key>
+	<string>plus</string>
+	<key>textureFilename</key>
+	<string>MODALITY_CUMULATIVE_1000</string>
+	<key>triColorEnamel</key>
+	<true/>
+	<key>unearnedTwoToneEnamel</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.RestoreRemoteServices.restoreserviced</string>
+	<key>POSIXSpawnType</key>
+	<string>Interactive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/libexec/restoreserviced</string>
+	</array>
+	<key>RemoteServices</key>
+	<dict>
+		<key>com.apple.RestoreRemoteServices.restoreserviced</key>
+		<dict>
+			<key>ExposedToUntrustedDevices</key>
+			<array>
+				<string>PreSetup</string>
+				<string>HasInternalSecurityPolicies</string>
+			</array>
+			<key>LimitExposedFromDeviceType</key>
+			<array>
+				<string>compute-node</string>
+			</array>
+			<key>RequireEntitlement</key>
+			<string>com.apple.private.RestoreRemoteServices.restoreservice.remote</string>
+			<key>ServiceProperties</key>
+			<dict>
+				<key>ServiceVersion</key>
+				<integer>2</integer>
+				<key>UsesRemoteXPC</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,3 @@
+"PARMESAN_PEOPLE_FORMAT" = "{'num': {'one': '%lu Person...', 'other': '%lu People...', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@num@'}";
+"PARMESAN_NUMBER_PHOTOS_FORMAT" = "{'num': {'one': '%lu Photo', 'other': '%lu Photos', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@num@'}";
+"PARMESAN_NUMBER_SELECTED_FORMAT" = "{'num': {'other': '%lu Selected', 'NSStringFormatSpecTypeKey': 'NSStringPluralRuleType', 'NSStringFormatValueTypeKey': 'lu'}, 'NSStringLocalizedFormatKey': '%#@num@'}";

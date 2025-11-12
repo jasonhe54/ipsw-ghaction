@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnablePressuredExit</key>
+	<true/>
+	<key>EnableTransactions</key>
+	<true/>
+	<key>Label</key>
+	<string>com.apple.bookassetd</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.apple.aps.bookassetd</key>
+		<true/>
+		<key>com.apple.ibooks.BLService</key>
+		<true/>
+		<key>com.apple.mobile.cache_delete_ibooks</key>
+		<true/>
+		<key>com.apple.usernotifications.delegate.com.apple.iBooks</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Adaptive</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/PrivateFrameworks/BookLibraryCore.framework/Support/bookassetd</string>
+	</array>
+	<key>RunAtLoad</key>
+	<false/>
+	<key>UserName</key>
+	<string>mobile</string>
+</dict>
+</plist>

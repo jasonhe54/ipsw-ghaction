@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bottom</key>
+	<string>Screenprint-Brush_08.png</string>
+	<key>Bottom Frame Inset</key>
+	<integer>20</integer>
+	<key>Bottom Left</key>
+	<string>Screenprint-Brush_07.png</string>
+	<key>Bottom Left Mask</key>
+	<string>Screenprint-Brush-alpha_07.png</string>
+	<key>Bottom Mask</key>
+	<string>Screenprint-Brush-alpha_08.png</string>
+	<key>Bottom Right</key>
+	<string>Screenprint-Brush_09.png</string>
+	<key>Bottom Right Mask</key>
+	<string>Screenprint-Brush-alpha_09.png</string>
+	<key>Display</key>
+	<false/>
+	<key>Left</key>
+	<string>Screenprint-Brush_04.png</string>
+	<key>Left Frame Inset</key>
+	<integer>19</integer>
+	<key>Left Mask</key>
+	<string>Screenprint-Brush-alpha_04.png</string>
+	<key>Minimum Asset Scale</key>
+	<real>0.10000000149011612</real>
+	<key>Right</key>
+	<string>Screenprint-Brush_06.png</string>
+	<key>Right Frame Inset</key>
+	<integer>20</integer>
+	<key>Right Mask</key>
+	<string>Screenprint-Brush-alpha_06.png</string>
+	<key>Stretch Tiles</key>
+	<integer>2</integer>
+	<key>Top</key>
+	<string>Screenprint-Brush_02.png</string>
+	<key>Top Frame Inset</key>
+	<integer>18</integer>
+	<key>Top Left</key>
+	<string>Screenprint-Brush_01.png</string>
+	<key>Top Left Mask</key>
+	<string>Screenprint-Brush-alpha_01.png</string>
+	<key>Top Mask</key>
+	<string>Screenprint-Brush-alpha_02.png</string>
+	<key>Top Right</key>
+	<string>Screenprint-Brush_03.png</string>
+	<key>Top Right Mask</key>
+	<string>Screenprint-Brush-alpha_03.png</string>
+	<key>name</key>
+	<string>Screenprint-Brush</string>
+	<key>preview-image</key>
+	<string>Screenprint-Brush.tif</string>
+</dict>
+</plist>

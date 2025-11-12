@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CountryName</key>
+	<string>Egypt</string>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>EmergencyNumbers</key>
+		<array>
+			<dict>
+				<key>Category</key>
+				<integer>4</integer>
+				<key>Number</key>
+				<string>180</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>2</integer>
+				<key>Number</key>
+				<string>123</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Number</key>
+				<string>911</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Number</key>
+				<string>122</string>
+			</dict>
+			<dict>
+				<key>Category</key>
+				<integer>1</integer>
+				<key>Number</key>
+				<string>112</string>
+				<key>PreferredEmergencyNumber</key>
+				<true/>
+			</dict>
+		</array>
+	</dict>
+	<key>ISOAlpha2CountryCode</key>
+	<array>
+		<string>eg</string>
+	</array>
+	<key>SupportedCountryIds</key>
+	<array>
+		<string>602</string>
+		<string>com.apple.Egypt</string>
+	</array>
+</dict>
+</plist>

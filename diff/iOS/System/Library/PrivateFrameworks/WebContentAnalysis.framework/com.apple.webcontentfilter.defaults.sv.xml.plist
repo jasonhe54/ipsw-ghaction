@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filterBlacklist</key>
+	<array/>
+	<key>filterWhitelist</key>
+	<array/>
+	<key>siteWhitelist</key>
+	<array>
+		<dict>
+			<key>address</key>
+			<string>http://www.disney.se/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Disney</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://kpwebben.se/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Kamratposten</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.svt.se/barnkanalen/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>SVT Barnkanalen</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.ur.se/Barn</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>UR</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.ungafakta.se/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Unga Fakta</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.bamse.se/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Bamse</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.alfons.se/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Alfons Åberg</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://www.apple.com/se/startpage/</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Apple</string>
+		</dict>
+		<dict>
+			<key>address</key>
+			<string>http://svt.se/bolibompa</string>
+			<key>bookmarkPath</key>
+			<string>/</string>
+			<key>pageTitle</key>
+			<string>Bolibompa</string>
+		</dict>
+	</array>
+</dict>
+</plist>

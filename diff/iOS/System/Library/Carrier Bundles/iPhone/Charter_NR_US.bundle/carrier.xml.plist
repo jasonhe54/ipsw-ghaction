@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedServicesTypeMaskOnInternet</key>
+	<integer>32768</integer>
+	<key>AttachAPN</key>
+	<dict>
+		<key>3GPP</key>
+		<array>
+			<dict>
+				<key>AllowedProtocolMask</key>
+				<integer>3</integer>
+				<key>AllowedProtocolMaskInRoamingLTE</key>
+				<integer>3</integer>
+				<key>apn</key>
+				<string>spectrum</string>
+				<key>password</key>
+				<string></string>
+				<key>username</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>CarrierName</key>
+	<string>Spectrum</string>
+	<key>CellularPlanProvisioningSettings</key>
+	<dict>
+		<key>EnableAttachMonitorMode</key>
+		<false/>
+	</dict>
+	<key>DataIndicatorOverrideForNRMmwave</key>
+	<string>NRUWB</string>
+	<key>DisallowCarrierMenuAtHome</key>
+	<true/>
+	<key>EmergencyCalling</key>
+	<dict>
+		<key>CheckVoiceHistoryOnSubForEmergencyCall</key>
+		<true/>
+		<key>NonPreferredEmergencyNetworks</key>
+		<array>
+			<string>31402</string>
+		</array>
+	</dict>
+	<key>Enable5GAutoByDefault</key>
+	<true/>
+	<key>Enable5GStandaloneByDefault</key>
+	<true/>
+	<key>EncryptedIdentity</key>
+	<dict>
+		<key>AnonymousUsername</key>
+		<string>anonymous</string>
+		<key>Certificate</key>
+		<string>MIIGxzCCBa+gAwIBAgIQAeYFXNSfqV/hkZpwdHKVSDANBgkqhkiG9w0BAQsFADBN
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E
+aWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMjQxMjE2MDAwMDAwWhcN
+MjYwMTE2MjM1OTU5WjB/MQswCQYDVQQGEwJVUzERMA8GA1UECBMITWlzc291cmkx
+EjAQBgNVBAcTCVN0LiBMb3VpczEuMCwGA1UEChMlQ2hhcnRlciBDb21tdW5pY2F0
+aW9ucyBPcGVyYXRpbmcsIExMQzEZMBcGA1UEAxMQYWthLnNwZWN0cnVtLm5ldDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALLv8zeNiS9gZhQA8rOaV+Xa
+rxwcgr47fyc7xx/Pfu0Kn0ANOTY3VG/vIjCQ8FE/j/mU5+66oierZhoMZRKTACHH
+LwZFI4Ht+cWuj5MK+I648dJHKWsdJtcV4PvRLdhLb1pi/p9EzJHOXTqzqSHDXLdO
+xAkVppmMyMw294t8Zvqx896Tn+KzbhCR3YdKpaCu7TJk6jb+wZdiWOSNqcLAg8ZR
+G6SGAwP9O6YYaMXBgNmK4M9VJaE5LMiTdubePlYBlc8Kbi3R9La30Iu42biWfio7
+md7CZo4yLnr7eOOsA1wIAcWf7VKLHBECZx8pp9OjazKdi3+66bTpefWh7QXZl1MC
+AwEAAaOCA28wggNrMB8GA1UdIwQYMBaAFA+AYRyCMWHVLyjnjUY4tCzhxtniMB0G
+A1UdDgQWBBRv16whs2olpLPrACuG1pY2Bho8bzAbBgNVHREEFDASghBha2Euc3Bl
+Y3RydW0ubmV0MD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0
+dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0l
+BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMIGNBgNVHR8EgYUwgYIwP6A9oDuGOWh0
+dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpY2VydFNIQTJTZWN1cmVTZXJ2ZXJD
+QS0xLmNybDA/oD2gO4Y5aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2ljZXJ0
+U0hBMlNlY3VyZVNlcnZlckNBLTEuY3JsMH4GCCsGAQUFBwEBBHIwcDAkBggrBgEF
+BQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEgGCCsGAQUFBzAChjxodHRw
+Oi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRTSEEyU2VjdXJlU2VydmVy
+Q0EtMi5jcnQwDAYDVR0TAQH/BAIwADCCAX0GCisGAQQB1nkCBAIEggFtBIIBaQFn
+AHYADleUvPOuqT4zGyyZB7P3kN+bwj1xMiXdIaklrGHFTiEAAAGT0DStsQAABAMA
+RzBFAiAhHscuA6K8g0Fz2nrdc7Izm4IFp6kD82zFC6TBV2OHcQIhAPVb+oOO44mg
+1Lywg/zJnaiA/oofwP8P1ewMJLsJ7qkUAHUAZBHEbKQS7KeJHKICLgC8q08oB9Qe
+NSer6v7VA8l9zfAAAAGT0DSt4wAABAMARjBEAiBN6FT3Rz/p9OlGWat5FOwXR/D2
+KdIcGExLUwDAuorYjAIgS4grKb1EhBxYa/O11xXpniYNOMW6cz4N03gyvgW4af8A
+dgBJnJtp3h187Pw23s2HZKa4W68Kh4AZ0VVS++nrKd34wwAAAZPQNK33AAAEAwBH
+MEUCIGyxNDguEu7pyGk1D0+vdN4RsH/MfRsGnYKuw3Llyy4vAiEAh5JvKprhLj9W
+P8wY6eftvfRAWTtbiIwKGjwonpni7CswDQYJKoZIhvcNAQELBQADggEBAD3NxwIz
+EtaN2tOkKoul2Km7N8g2KoQrYF65ACRyWh6CNFv2fxA3WpdiMjpoHhgw61HE8bUh
+4cG+Ehpmaiy/Fkn95Wtr1M0otM8KlDDZGgBLCt3WBP1RQK6b8BoNZYwcCcUX2lZ/
+bcT5FSjuHi+bXvbHVF84Z0rFJiwU9T4RQmAADLIZRRm4XFIOSAFDA2i2G7+E5Kzt
+Zo4vBWPW9cn/CFsVcRxSvl0KHy9tDQt04QOmI5iU/JRxXhD48cVNIEDU14DnptiO
+zc8GH8yEux05wPiJDssOF/kmyKrEu7ZByuEvJ0q+6i0EZnYHtVf1uz7hcVEhYgCz
+k2aSvjYoGAR8WIw=</string>
+		<key>KeyIdentifier</key>
+		<string>CertificateSerialNumber=01E6055CD49FA95FE1919A7074729548</string>
+		<key>UpdateOnBootup</key>
+		<false/>
+		<key>UpdatePeriod</key>
+		<integer>0</integer>
+	</dict>
+	<key>GeofenceOptimizations</key>
+	<dict>
+		<key>Enabled</key>
+		<true/>
+		<key>SupportsOnlyOffloadSim</key>
+		<true/>
+	</dict>
+	<key>HomeBundleIdentifier</key>
+	<string>com.apple.UnitedStates</string>
+	<key>IPCUApnTypemask</key>
+	<integer>3</integer>
+	<key>MTU</key>
+	<array>
+		<dict>
+			<key>size</key>
+			<integer>1428</integer>
+			<key>technology-mask</key>
+			<integer>28</integer>
+		</dict>
+		<dict>
+			<key>size</key>
+			<integer>1472</integer>
+			<key>technology-mask</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>MandatoryVerify</key>
+	<dict>
+		<key>SIMs</key>
+		<array/>
+	</dict>
+	<key>NotRegisteredResetWaitPeriod</key>
+	<integer>60</integer>
+	<key>OTASoftwareUpdate</key>
+	<dict>
+		<key>SoftwareUpdateOptInRequired</key>
+		<false/>
+	</dict>
+	<key>OverrideOperatorName</key>
+	<string>Spectrum</string>
+	<key>PreferPrimaryDNS</key>
+	<true/>
+	<key>PrimaryDeviceGetsProvisioningInformation</key>
+	<false/>
+	<key>Show5GStandaloneSwitch</key>
+	<true/>
+	<key>Show5GSwitch</key>
+	<true/>
+	<key>Show5GWarningUnsupportedCarrier</key>
+	<false/>
+	<key>SupportedPLMNs</key>
+	<array>
+		<string>314020</string>
+	</array>
+	<key>SupportedSIMs</key>
+	<array>
+		<string>314020</string>
+	</array>
+	<key>SupportsNITZ</key>
+	<true/>
+	<key>SupportsNRNSAInboundRoaming</key>
+	<true/>
+	<key>SupportsSupplementaryServices</key>
+	<false/>
+	<key>TetheringPhoneNumber</key>
+	<string>1-833-224-6603</string>
+	<key>TosSupported</key>
+	<false/>
+	<key>UserCanReinitiateActivation</key>
+	<false/>
+	<key>apns</key>
+	<array>
+		<dict>
+			<key>configuration</key>
+			<array>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>3</integer>
+					<key>AllowedProtocolMaskInRoaming</key>
+					<integer>3</integer>
+					<key>DefaultProtocolMask</key>
+					<integer>3</integer>
+					<key>SuppressPdnTearDown</key>
+					<true/>
+					<key>apn</key>
+					<string>spectrum</string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>98353</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>apn</key>
+					<string></string>
+					<key>password</key>
+					<string></string>
+					<key>type-mask</key>
+					<integer>0</integer>
+					<key>username</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>technology-mask</key>
+			<integer>16</integer>
+		</dict>
+	</array>
+	<key>pdpTimeout</key>
+	<array>
+		<integer>0</integer>
+	</array>
+	<key>simtype</key>
+	<string>Offload</string>
+</dict>
+</plist>

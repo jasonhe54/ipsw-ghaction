@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Queries</key>
+	<array>
+		<string>ALTER TABLE APDBAdCandidate ADD COLUMN ad_properties TEXT DEFAULT NULL</string>
+		<string>ALTER TABLE APDBAdOpportunity ADD COLUMN context_properties TEXT DEFAULT NULL</string>
+	</array>
+</dict>
+</plist>

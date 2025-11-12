@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Roman-Accent-"</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>” “ „ « » "</string>
+		<key>Strings</key>
+		<string>” “ „ » « "</string>
+	</dict>
+	<key>Roman-Accent-,</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>? ,</string>
+		<key>Strings</key>
+		<string>? ,</string>
+	</dict>
+	<key>Roman-Accent-,״</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>״ "</string>
+		<key>Strings</key>
+		<string>״ "</string>
+	</dict>
+	<key>Roman-Accent--</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>־ -</string>
+		<key>Strings</key>
+		<string>־ -</string>
+	</dict>
+	<key>Roman-Accent--_</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>- ־</string>
+		<key>Strings</key>
+		<string>- ־</string>
+	</dict>
+	<key>Roman-Accent-ֶ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>◌ֶ ◌ִ ◌ֹ ◌ֳ ◌ָ ◌ַ ◌ֲ ◌ֵ ◌ֱ ◌ְ ◌ֻ</string>
+		<key>Strings</key>
+		<string>ֶ ִ ֹ ֳ ָ ַ ֲ ֵ ֱ ְ ֻ</string>
+	</dict>
+	<key>Roman-Accent-א</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>א אַ אָ</string>
+		<key>Strings</key>
+		<string>א אַ אָ</string>
+	</dict>
+	<key>Roman-Accent-ב</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ב בּ בֿ</string>
+		<key>Strings</key>
+		<string>ב בּ בֿ</string>
+	</dict>
+	<key>Roman-Accent-ו</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ו וּ וֹ װ ױ</string>
+		<key>Strings</key>
+		<string>ו וּ וֹ װ ױ</string>
+	</dict>
+	<key>Roman-Accent-י</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>י יִ ײ ײַ</string>
+		<key>Strings</key>
+		<string>י יִ ײ ײַ</string>
+	</dict>
+	<key>Roman-Accent-כ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>כ כּ כֿ</string>
+		<key>Strings</key>
+		<string>כ כּ כֿ</string>
+	</dict>
+	<key>Roman-Accent-פ</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>פ פּ פֿ</string>
+		<key>Strings</key>
+		<string>פ פּ פֿ</string>
+	</dict>
+	<key>Roman-Accent-ש</key>
+	<dict>
+		<key>Direction</key>
+		<string>right</string>
+		<key>Keycaps</key>
+		<string>ש שׂ</string>
+		<key>Strings</key>
+		<string>ש שׂ</string>
+	</dict>
+	<key>Roman-Accent-ת</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>ת תּ</string>
+		<key>Strings</key>
+		<string>ת תּ</string>
+	</dict>
+	<key>Roman-Accent-׳</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>׳ ' ’ ‘</string>
+		<key>Strings</key>
+		<string>׳ ' ’ ‘</string>
+	</dict>
+	<key>Roman-Accent-״</key>
+	<dict>
+		<key>Direction</key>
+		<string>left</string>
+		<key>Keycaps</key>
+		<string>" “ ” „ » « ״</string>
+		<key>Strings</key>
+		<string>" “ ” „ « » ״</string>
+	</dict>
+	<key>UI-ABC</key>
+	<string>אבג</string>
+	<key>UI-AlternateCurrencySign-1</key>
+	<string>₪</string>
+	<key>UI-AlternateCurrencySign-2</key>
+	<string>€</string>
+	<key>UI-AlternateCurrencySign-3</key>
+	<string>£</string>
+	<key>UI-Cancel</key>
+	<string>יבעררייַסן</string>
+	<key>UI-DefaultLocaleNumericID</key>
+	<string>latn</string>
+	<key>UI-Done</key>
+	<string>גרייט</string>
+	<key>UI-EmergencyCall</key>
+	<string>עמערגענסי
+רופן</string>
+	<key>UI-Go</key>
+	<string>עפענען</string>
+	<key>UI-IconLabelLanguage</key>
+	<string>ייִ</string>
+	<key>UI-IconLabelScript</key>
+	<string>א</string>
+	<key>UI-Join</key>
+	<string>פאַרבינדן</string>
+	<key>UI-LanguageIndicator</key>
+	<string>ייִדיש</string>
+	<key>UI-Next</key>
+	<string>פאָרזעצן</string>
+	<key>UI-Numbers</key>
+	<string>123</string>
+	<key>UI-NumbersSymbols</key>
+	<string>.?123</string>
+	<key>UI-Pause</key>
+	<string>פּויזע</string>
+	<key>UI-PrimaryCurrencySign</key>
+	<string>$</string>
+	<key>UI-Redo</key>
+	<string>איבערחזרן</string>
+	<key>UI-Return</key>
+	<string>⮑</string>
+	<key>UI-Route</key>
+	<string>מאַרשרוט</string>
+	<key>UI-Search</key>
+	<string>זוכן</string>
+	<key>UI-Send</key>
+	<string>שיקן</string>
+	<key>UI-Space</key>
+	<string>ספּאַסע</string>
+	<key>UI-Undo</key>
+	<string>צוריקציען</string>
+	<key>UI-Wait</key>
+	<string>וואַרטן</string>
+	<key>UI-abc</key>
+	<string>אבג</string>
+</dict>
+</plist>

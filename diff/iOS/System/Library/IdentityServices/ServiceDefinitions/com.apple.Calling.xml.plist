@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AccountSyncMinCompatibilityVersion</key>
+	<integer>3</integer>
+	<key>AllowMagnetDelivery</key>
+	<true/>
+	<key>DisplayName</key>
+	<string>Calling</string>
+	<key>Identifier</key>
+	<string>com.apple.private.ac</string>
+	<key>LegacyIdentifier</key>
+	<string>com.apple.Calling</string>
+	<key>NoSyncPhoneNumberAccounts</key>
+	<true/>
+	<key>ProtocolName</key>
+	<string>Invitation</string>
+	<key>PushTopic</key>
+	<string>com.apple.private.ac</string>
+	<key>ServiceName</key>
+	<string>com.apple.private.ac</string>
+	<key>ShouldShowUsageNotifications</key>
+	<true/>
+	<key>SupportsPhoneNumberRegistration</key>
+	<true/>
+	<key>SyncAccounts</key>
+	<true/>
+	<key>TunnelService</key>
+	<true/>
+	<key>forceHTTPQueries</key>
+	<true/>
+</dict>
+</plist>

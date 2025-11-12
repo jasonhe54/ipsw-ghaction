@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>MCFeature</key>
+			<string>allowAssistant</string>
+			<key>MCFeatureIsBool</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>get</key>
+			<string>featureValue:</string>
+			<key>iconCache</key>
+			<string>Siri</string>
+			<key>label</key>
+			<string>ASSISTANT_AND_DICTATION</string>
+			<key>requiredCapabilitiesOr</key>
+			<array>
+				<array>
+					<string>dictation</string>
+				</array>
+				<array>
+					<string>assistant</string>
+				</array>
+			</array>
+			<key>set</key>
+			<string>setFeatureValue:specifier:</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CACHE_DELETE_DO_NOT_QUERY</key>
+	<false/>
+	<key>CACHE_DELETE_ID</key>
+	<string>com.apple.FileProvider.cache-delete</string>
+	<key>CACHE_DELETE_NOTIFICATIONS</key>
+	<array>
+		<string>CACHE_DELETE_CACHE_ENABLED</string>
+	</array>
+	<key>CACHE_DELETE_USER_AGENT</key>
+	<true/>
+</dict>
+</plist>

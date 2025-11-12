@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MessageSenderImportanceWeights</key>
+	<dict>
+		<key>contactedToday</key>
+		<real>0.25</real>
+		<key>isAudioMessage</key>
+		<real>0.5</real>
+		<key>isContactChatPinnedInMessage</key>
+		<real>0.5</real>
+		<key>isEmergencyContact</key>
+		<real>0.5</real>
+		<key>isFavoriteContact</key>
+		<real>0.5</real>
+		<key>isFrequentlyContacted</key>
+		<real>0.25</real>
+		<key>isMentionedInGroupMessage</key>
+		<real>0.5</real>
+		<key>isVIP</key>
+		<real>0.5</real>
+		<key>isiCloudFamilyMember</key>
+		<real>0.5</real>
+		<key>speedOfResponse</key>
+		<real>0.5</real>
+	</dict>
+</dict>
+</plist>
