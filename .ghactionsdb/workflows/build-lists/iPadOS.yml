@@ -1,3 +1,4 @@
+# iPad Pro 11-inch (M5)
 - deviceIdentifier: "iPad17,1"
   builds:
     - releaseName: "iPadOS 26.0"
@@ -29,8 +30,14 @@
       releaseDate: "2025-11-04"
       isBeta: true
     - releaseName: "iPadOS 26.2 Developer Beta 2"
-      releaseBuildIdentifier: "N/A"
-      releaseDate: "N/A"
+      releaseBuildIdentifier: "23C5033h"
+      releaseDate: "2025-11-12"
+      isBeta: true
+      ipswUrl: "https://updates.cdn-apple.com/2025FallSeed/fullrestores/089-38384/DC70DCBC-1220-4A29-BEBC-3E077D6B12B4/iPad17,1,iPad17,2,iPad17,3,iPad17,4_26.2_23C5033h_Restore.ipsw"
+      isVisible: true
+    - releaseName: "SAMPLE"
+      releaseBuildIdentifier: "SAMPLE"
+      releaseDate: "2000-01-01"
       isBeta: true
       ipswUrl: "N/A"
       isVisible: false

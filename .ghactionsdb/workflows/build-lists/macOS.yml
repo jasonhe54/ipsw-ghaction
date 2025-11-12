@@ -27,8 +27,14 @@
       isBeta: true
       ipswUrl: "https://updates.cdn-apple.com/2025FallSeed/fullrestores/089-21529/D038FF08-78B0-4FFE-9E39-2F5A64AE46AB/UniversalMac_26.2_25C5031i_Restore.ipsw"
     - releaseName: "macOS 26.2 Developer Beta 2"
-      releaseBuildIdentifier: "N/A"
-      releaseDate: "N/A"
+      releaseBuildIdentifier: "25C5037j"
+      releaseDate: "2025-11-12"
+      isBeta: true
+      ipswUrl: "https://updates.cdn-apple.com/2025FallSeed/fullrestores/089-37244/F3E98428-E443-4226-849D-48649C50B10B/UniversalMac_26.2_25C5037j_Restore.ipsw"
+      isVisible: true
+    - releaseName: "SAMPLE"
+      releaseBuildIdentifier: "SAMPLE"
+      releaseDate: "2000-01-01"
       isBeta: true
       ipswUrl: "N/A"
       isVisible: false
